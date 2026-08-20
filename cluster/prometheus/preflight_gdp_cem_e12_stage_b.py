@@ -37,6 +37,12 @@ REFERENCE_HASHES = {
     "prior_head.py": PRISM_PRIOR_HEAD_SHA256,
     "prism_mppi.py": PRISM_MPPI_SHA256,
     "docs/23_diffusion_policy_baseline.md": PRISM_DP_DOC_SHA256,
+    "train_prior_head.py": "0524f78bd796665213cc1045e576dc68ae8dc2fe015084620ee6cc3340ec5881",
+    "dp_baseline/dataset.py": "07a3c2706b79242c16778c8a79b3c92605e4495a58b0ffd38b7a0ee5d55d2b62",
+    "dp_baseline/train.py": "e9a617a8abb9e8d9c5970c8d9ef96e237ec14170fa80068d6317f9c7e25e6feb",
+    "eval_dp_prior.py": "983279b6d6fd9562061f0593efad7473a5d8312233982a3697791d499181f01e",
+    "dp_prior_policy.py": "4f34dd683427ee28ff3677d97ae0603f732bda5684382101bda2a880df8af494",
+    "LICENSE": "1e9c03c85e67143e960a8a3befc5cc14f14008456d563e9c3f9ac7cdbc411df5",
 }
 
 
@@ -46,6 +52,13 @@ def sha256_file(path: Path) -> str:
         for chunk in iter(lambda: stream.read(8 * 1024 * 1024), b""):
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def sha256_protocol_crlf(path: Path) -> str:
+    """Hash the audited Windows-checkout representation used in the protocol."""
+
+    value = path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return hashlib.sha256(value.replace(b"\n", b"\r\n")).hexdigest()
 
 
 def load_module(name: str, path: Path) -> Any:
@@ -140,11 +153,15 @@ def main() -> None:
     reference_commit = resolve_git_head(args.prism_reference)
     if reference_commit != PRISM_UPSTREAM_COMMIT:
         raise RuntimeError("public PRISM reference commit differs")
-    observed_reference_hashes = {}
+    observed_reference_hashes: dict[str, dict[str, str]] = {}
     for relative, expected in REFERENCE_HASHES.items():
         path = args.prism_reference / relative
-        observed_reference_hashes[relative] = sha256_file(path)
-        if observed_reference_hashes[relative] != expected:
+        observed_reference_hashes[relative] = {
+            "raw_lf_checkout_sha256": sha256_file(path),
+            "protocol_crlf_checkout_sha256": sha256_protocol_crlf(path),
+            "protocol_expected_sha256": expected,
+        }
+        if observed_reference_hashes[relative]["protocol_crlf_checkout_sha256"] != expected:
             raise RuntimeError(f"public PRISM reference hash differs: {relative}")
     for missing in (
         "dp_baseline/model.py",
@@ -306,6 +323,10 @@ def main() -> None:
         "source_manifest_sha256": sha256_file(source_manifest),
         "prism_reference_commit": reference_commit,
         "prism_reference_hashes": observed_reference_hashes,
+        "prism_reference_hash_representation": (
+            "protocol hashes are canonical CRLF worktree bytes; raw Prometheus "
+            "LF hashes are also recorded"
+        ),
         "public_prior_head_exact_parity": True,
         "public_beta_nll_exact_parity": True,
         "public_pog_exact_parity": True,

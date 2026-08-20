@@ -21,7 +21,7 @@ from gdp_cem_e12_prism_models import (
     prism_beta_nll_loss,
     prism_pog_fusion,
 )
-from preflight_gdp_cem_e12_stage_b import resolve_git_head
+from preflight_gdp_cem_e12_stage_b import resolve_git_head, sha256_protocol_crlf
 
 
 def test_prior_head_and_beta_nll_match_public_equations() -> None:
@@ -246,4 +246,7 @@ def test_optional_byte_pinned_public_prior_head_parity(monkeypatch: pytest.Monke
     )
     assert resolve_git_head(Path(reference_root)) == (
         "baa0eb95efb812196b68796c258b1f0cf10b7625"
+    )
+    assert sha256_protocol_crlf(path) == (
+        "6a60613ea2acd10b9185d415868a9006acf27f1211df3b3e4758c2458921617c"
     )
