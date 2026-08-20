@@ -12,6 +12,7 @@ test ! -e "${staging}"
 mkdir -p "${staging}"
 files=(
   ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md
+  ACID-ALTERNATIVE-E12-IMPLEMENTATION-CHANGELOG-1-2026-08-20.md
   gdp_cem_e11_specs.py gdp_cem_e12_specs.py
   gdp_cem_e12_prism_models.py gdp_cem_e12_prism_data.py
   preflight_gdp_cem_e12_stage_b.py evaluate_gdp_cem_e12_stage_a_native.py
