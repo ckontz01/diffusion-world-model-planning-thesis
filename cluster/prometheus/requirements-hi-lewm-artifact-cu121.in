@@ -1,0 +1,23 @@
+# Direct research/runtime pins for the released Hi-LeWM artifact.
+#
+# The artifact leaves stable-worldmodel unpinned, but its evaluator uses the
+# public World.evaluate_from_dataset API and World-level history_size/frame_skip
+# arguments. 0.0.6 is the latest PyPI release exposing that exact API; 0.1.x
+# replaced it with dataset-driven World.evaluate and changed wrapper handling.
+stable-worldmodel[train]==0.0.6
+stable-pretraining==0.1.8
+transformers==4.57.6
+numpy==2.2.6
+gymnasium==1.3.0
+h5py==3.16.0
+imageio-ffmpeg==0.6.0
+ogbench==1.2.1
+pymunk==7.3.0
+pygame==2.6.1
+shapely==2.1.2
+opencv-python-headless==5.0.0.93
+hydra-core==1.3.4
+hydra-submitit-launcher==1.2.0
+pytorch-lightning==2.6.5
+wandb==0.28.1
+pytest==9.1.1

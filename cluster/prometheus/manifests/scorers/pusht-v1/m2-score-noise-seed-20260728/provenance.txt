@@ -1,0 +1,8 @@
+classification=frozen_m2_deployment_common_random_numbers
+job_id=294600
+node=gpu01.cluster
+start_utc=2026-08-08T22:26:02Z
+589af9b428527ae2d315fbd5eaf7ef991efb1aa7249e30a6d28e6731df40afb2  /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif
+fc8cd17d29d7105e3a7596d10be2c11f02aabfa35c18caf4a25ab7ae63edd667  /lustreFS/data/superworld/ckontzias/thesis/scripts/create_m2_score_noise_bank.py
+97123ae049fea47122498a188f4c194227acc9f70896b5cab8fe596350f30a2e  /var/spool/slurmd/job294600/slurm_script
+finish_utc=2026-08-08T22:26:06Z

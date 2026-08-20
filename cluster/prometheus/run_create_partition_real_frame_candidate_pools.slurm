@@ -1,0 +1,114 @@
+#!/usr/bin/env bash
+
+# Submit with --export=ALL,PARTITION=P2|P3,LATENT_JOB_ID=<completed latent-cache job>.
+
+#SBATCH --job-name=real-frame-pools
+#SBATCH --partition=defq
+#SBATCH --account=superworld
+#SBATCH --qos=normal
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=16G
+#SBATCH --time=01:00:00
+#SBATCH --output=/lustreFS/data/superworld/ckontzias/thesis/logs/real-frame-pools-%j.out
+#SBATCH --error=/lustreFS/data/superworld/ckontzias/thesis/logs/real-frame-pools-%j.err
+
+set -euo pipefail
+: "${PARTITION:?submit with PARTITION=P2 or PARTITION=P3}"
+: "${LATENT_JOB_ID:?submit with LATENT_JOB_ID set to the completed partition latent-cache job}"
+
+if [[ "${PARTITION}" != "P2" && "${PARTITION}" != "P3" ]]; then
+  echo "PARTITION must be exactly P2 or P3" >&2
+  exit 2
+fi
+if [[ ! "${LATENT_JOB_ID}" =~ ^[0-9]+$ ]]; then
+  echo "LATENT_JOB_ID must be numeric" >&2
+  exit 2
+fi
+
+if [[ "${PARTITION}" == "P2" ]]; then
+  PARTITION_KEY="p2"
+  POOL_COUNT=12
+else
+  PARTITION_KEY="p3"
+  POOL_COUNT=24
+fi
+
+ROOT="/lustreFS/data/superworld/ckontzias/thesis"
+IMAGE="${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif"
+ENV_DIR="${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006"
+SCRIPT="${ROOT}/scripts/create_p2_real_frame_candidate_pools.py"
+STABLEWM_HOME="${ROOT}/data/stablewm"
+PARTITION_MANIFEST="${ROOT}/manifests/partitions/pusht-v1/episodes-seed-20260728.tsv"
+LATENT_DIR="${STABLEWM_HOME}/derived/latents/hi-lewm-pusht-epoch15/${PARTITION_KEY}-job-${LATENT_JOB_ID}"
+DATASET="${STABLEWM_HOME}/pusht_expert_train.h5"
+OUTPUT_DIR="${STABLEWM_HOME}/derived/candidate-pools/pusht-v1/${PARTITION_KEY}-real-frame-job-${SLURM_JOB_ID}"
+JOB_TMP="/tmp/ckontzias-${PARTITION_KEY}-real-frame-pools-${SLURM_JOB_ID}"
+
+REQUIRED=(
+  "${IMAGE}"
+  "${SCRIPT}"
+  "${PARTITION_MANIFEST}"
+  "${LATENT_DIR}/latents.h5"
+  "${LATENT_DIR}/manifest.json"
+  "${LATENT_DIR}/checksums.sha256"
+  "${DATASET}"
+)
+for required in "${REQUIRED[@]}"; do
+  if [[ ! -s "${required}" ]]; then
+    echo "Missing or empty required input: ${required}" >&2
+    exit 2
+  fi
+done
+(cd "${LATENT_DIR}" && sha256sum -c checksums.sha256 >/dev/null)
+if [[ -e "${OUTPUT_DIR}" ]]; then
+  echo "Refusing to overwrite real-frame pools: ${OUTPUT_DIR}" >&2
+  exit 2
+fi
+mkdir -p "${OUTPUT_DIR}" "${JOB_TMP}"
+cleanup() {
+  rm -rf -- "${JOB_TMP}"
+}
+trap cleanup EXIT
+
+{
+  echo "classification=${PARTITION_KEY}_real_frame_candidate_pool_creation"
+  echo "partition=${PARTITION}"
+  echo "latent_job_id=${LATENT_JOB_ID}"
+  echo "job_id=${SLURM_JOB_ID}"
+  echo "node=$(hostname)"
+  echo "start_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  sha256sum "${IMAGE}" "$0" "${SCRIPT}" "${PARTITION_MANIFEST}" \
+    "${LATENT_DIR}/latents.h5" "${LATENT_DIR}/manifest.json" \
+    "${LATENT_DIR}/checksums.sha256" "${DATASET}"
+} > "${OUTPUT_DIR}/provenance.txt"
+
+apptainer exec --cleanenv \
+  --bind "${ROOT}:${ROOT}" \
+  --bind "${JOB_TMP}:${JOB_TMP}" \
+  "${IMAGE}" /bin/bash -c '
+    set -euo pipefail
+    export PATH="'"${ENV_DIR}"'/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    export PYTHONNOUSERSITE=1
+    export PYTHONHASHSEED=20260728
+    export TMPDIR="'"${JOB_TMP}"'"
+    python "'"${SCRIPT}"'" \
+      --partition "'"${PARTITION}"'" \
+      --partition-manifest "'"${PARTITION_MANIFEST}"'" \
+      --latent-h5 "'"${LATENT_DIR}"'/latents.h5" \
+      --latent-manifest "'"${LATENT_DIR}"'/manifest.json" \
+      --dataset "'"${DATASET}"'" \
+      --output-h5 "'"${OUTPUT_DIR}"'/candidate-pools.h5" \
+      --output-json "'"${OUTPUT_DIR}"'/manifest.json" \
+      --seed 20260728 \
+      --pools-per-stratum "'"${POOL_COUNT}"'" \
+      --candidates-per-pool 64 \
+      --delta 25
+  '
+
+test -s "${OUTPUT_DIR}/candidate-pools.h5"
+test -s "${OUTPUT_DIR}/manifest.json"
+echo "finish_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "${OUTPUT_DIR}/provenance.txt"
+find "${OUTPUT_DIR}" -type f ! -name checksums.sha256 -print0 \
+  | sort -z \
+  | xargs -0 sha256sum > "${OUTPUT_DIR}/checksums.sha256"
+sha256sum -c "${OUTPUT_DIR}/checksums.sha256"

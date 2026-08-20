@@ -1,0 +1,136 @@
+{
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5",
+  "datasets": {
+    "action": {
+      "chunks": [
+        1000,
+        2
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "float32",
+      "shape": [
+        2336736,
+        2
+      ],
+      "storage_bytes": 18696000
+    },
+    "ep_len": {
+      "chunks": [
+        1024
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "int32",
+      "shape": [
+        18685
+      ],
+      "storage_bytes": 77824
+    },
+    "ep_offset": {
+      "chunks": [
+        1024
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "int64",
+      "shape": [
+        18685
+      ],
+      "storage_bytes": 155648
+    },
+    "episode_idx": {
+      "chunks": [
+        1000
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "int64",
+      "shape": [
+        2336736
+      ],
+      "storage_bytes": 18696000
+    },
+    "pixels": {
+      "chunks": [
+        100,
+        224,
+        224,
+        3
+      ],
+      "compression": "unknown",
+      "compression_opts": null,
+      "dtype": "uint8",
+      "shape": [
+        2336736,
+        224,
+        224,
+        3
+      ],
+      "storage_bytes": 36473871122
+    },
+    "proprio": {
+      "chunks": [
+        1000,
+        4
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "float32",
+      "shape": [
+        2336736,
+        4
+      ],
+      "storage_bytes": 37392000
+    },
+    "state": {
+      "chunks": [
+        1000,
+        7
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "float32",
+      "shape": [
+        2336736,
+        7
+      ],
+      "storage_bytes": 65436000
+    },
+    "step_idx": {
+      "chunks": [
+        1000
+      ],
+      "compression": null,
+      "compression_opts": null,
+      "dtype": "int64",
+      "shape": [
+        2336736
+      ],
+      "storage_bytes": 18696000
+    }
+  },
+  "episode_summary": {
+    "episode_dataset": "episode_idx",
+    "episode_id_max": 18684,
+    "episode_id_min": 0,
+    "num_episodes": 18685,
+    "num_rows": 2336736,
+    "rows_per_episode": {
+      "max": 246,
+      "mean": 125.05945945945946,
+      "median": 123.0,
+      "min": 49,
+      "p05": 68.0,
+      "p95": 186.0
+    },
+    "step_dataset": "step_idx",
+    "step_index": {
+      "max": 245,
+      "min": 0,
+      "nan_count": 0
+    }
+  },
+  "file_bytes": 46300921856,
+  "status": "ok"
+}

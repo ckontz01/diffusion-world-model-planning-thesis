@@ -1,0 +1,91 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+**/.ssh/
+**/credentials*/
+**/secrets*/
+
+# Python and test caches
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+*.py[cod]
+.coverage
+htmlcov/
+
+# Virtual environments and local package caches
+.venv/
+venv/
+env/
+miniforge3/
+.cache/
+
+# Datasets, model weights, latent caches, and downloaded upstream artifacts
+data/
+datasets/
+checkpoints/
+downloads/
+vendor/
+source-worktree/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.zst
+*.sif
+*.img
+*.tar
+*.tar.*
+*.gz
+
+# Generated experiment outputs (summary Markdown files remain tracked)
+results/
+candidate-results/
+scorer-results/
+latent-results/
+pilot-results/
+m1-results/
+partitions/
+migration-logs/
+cluster/prometheus/results/
+cluster/prometheus/candidate-results/
+cluster/prometheus/scorer-results/
+cluster/prometheus/latent-results/
+cluster/prometheus/pilot-results/
+cluster/prometheus/m1-results/
+cluster/prometheus/partitions/
+cluster/prometheus/migration-logs/
+cluster/prometheus/source-worktree/
+cluster/prometheus/__pycache__/
+cluster/prometheus/.pytest_cache/
+cluster/prometheus/acid_alternative/**/__pycache__/
+cluster/prometheus/acid_alternative_diagnostics/**/__pycache__/
+*.out
+*.err
+*.log
+*.complete
+wandb/
+
+# Local backups and build scratch
+backups/
+tmp/
+build/
+dist/
+
+# Papers are referenced by URL/checksum rather than stored in Git
+*.pdf
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

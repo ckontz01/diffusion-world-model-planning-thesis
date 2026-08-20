@@ -1,0 +1,5 @@
+# Immutable ACID-alternative v1 R0 gate analysis snapshot
+# Canonical tree SHA-256: 393480426d2cd00041db9ea52d191ad5e476d3d8103eef029e0dca1c3e16252f
+# Tree hash is SHA-256 over these sorted lines, each terminated by LF.
+909f85fa9b1728f48c98e3d9ac2b13bee5f95c60965c8a1b85950046eceb7190  test_aggregate_acid_alt_r0_gate.py
+bf7785cf659c82c8b6f8f8a356803e1e29587886b190993e07867f9168cc5b3d  aggregate_acid_alt_r0_gate.py

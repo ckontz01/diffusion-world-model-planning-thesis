@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+
+# Submit with, for example:
+#   sbatch --export=ALL,LATENT_PARTITION=P3 --job-name=pusht-p3-latents this_file
+
+#SBATCH --job-name=pusht-latents
+#SBATCH --partition=defq
+#SBATCH --account=superworld
+#SBATCH --qos=normal
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=06:00:00
+#SBATCH --output=/lustreFS/data/superworld/ckontzias/thesis/logs/latent-cache-%j.out
+#SBATCH --error=/lustreFS/data/superworld/ckontzias/thesis/logs/latent-cache-%j.err
+
+set -euo pipefail
+
+: "${LATENT_PARTITION:?Set LATENT_PARTITION to P1, P2, P3, or P4}"
+case "${LATENT_PARTITION}" in
+  P1|P2|P3|P4) ;;
+  *)
+    echo "LATENT_PARTITION must be P1, P2, P3, or P4; got: ${LATENT_PARTITION}" >&2
+    exit 2
+    ;;
+esac
+
+ROOT="/lustreFS/data/superworld/ckontzias/thesis"
+IMAGE="${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif"
+ENV_DIR="${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006"
+TOOLS_DIR="${ROOT}/envs/hi-lewm-tools"
+CODE="${ROOT}/src/hi-lewm"
+STABLEWM_HOME="${ROOT}/data/stablewm"
+SCRIPT="${ROOT}/scripts/extract_frozen_latents.py"
+DATASET="${STABLEWM_HOME}/pusht_expert_train.h5"
+PARTITIONS="${ROOT}/manifests/partitions/pusht-v1/episodes-seed-20260728.tsv"
+P1_SPLIT="${ROOT}/manifests/partitions/pusht-v1/p1-train-val-seed-20260728.tsv"
+CHECKPOINT="${STABLEWM_HOME}/runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15_object.ckpt"
+PARTITION_SLUG="$(printf '%s' "${LATENT_PARTITION}" | tr '[:upper:]' '[:lower:]')"
+OUTPUT_DIR="${STABLEWM_HOME}/derived/latents/hi-lewm-pusht-epoch15/${PARTITION_SLUG}-job-${SLURM_JOB_ID}"
+OUTPUT_H5="${OUTPUT_DIR}/latents.h5"
+OUTPUT_JSON="${OUTPUT_DIR}/manifest.json"
+JOB_TMP="/tmp/ckontzias-${PARTITION_SLUG}-latents-${SLURM_JOB_ID}"
+
+if [[ -e "${OUTPUT_DIR}" ]]; then
+  echo "Refusing to overwrite existing latent cache: ${OUTPUT_DIR}" >&2
+  exit 2
+fi
+mkdir -p "${OUTPUT_DIR}" "${JOB_TMP}"
+cleanup() {
+  rm -rf -- "${JOB_TMP}"
+}
+trap cleanup EXIT
+
+export APPTAINER_TMPDIR="${JOB_TMP}/apptainer"
+export APPTAINER_CACHEDIR="${ROOT}/tmp/apptainer-cache"
+mkdir -p "${APPTAINER_TMPDIR}"
+
+{
+  echo "classification=frozen_encoder_latent_cache"
+  echo "latent_partition=${LATENT_PARTITION}"
+  echo "job_id=${SLURM_JOB_ID}"
+  echo "node=$(hostname)"
+  echo "start_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+  sha256sum "${IMAGE}" "$0" "${SCRIPT}" "${PARTITIONS}" "${P1_SPLIT}" "${CHECKPOINT}"
+  nvidia-smi --query-gpu=name,uuid,driver_version,memory.total --format=csv,noheader
+} > "${OUTPUT_DIR}/provenance.txt"
+
+nvidia-smi
+apptainer exec --nv --cleanenv \
+  --bind "${ROOT}:${ROOT}" \
+  --bind "${JOB_TMP}:${JOB_TMP}" \
+  "${IMAGE}" /bin/bash -c '
+    set -euo pipefail
+    export PATH="'"${TOOLS_DIR}"'/bin:'"${ENV_DIR}"'/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    export PYTHONNOUSERSITE=1
+    export PYTHONPATH="'"${CODE}"':'"${CODE}"'/third_party/lewm"
+    export STABLEWM_HOME="'"${STABLEWM_HOME}"'"
+    export PYTHONHASHSEED=42
+    export CUBLAS_WORKSPACE_CONFIG=:4096:8
+    export EVAL_DETERMINISM=strict
+    export TMPDIR="'"${JOB_TMP}"'"
+    export MPLBACKEND=Agg
+    export MUJOCO_GL=egl
+    cd "'"${CODE}"'"
+    python "'"${SCRIPT}"'" \
+      --code-root "'"${CODE}"'" \
+      --stablewm-home "'"${STABLEWM_HOME}"'" \
+      --dataset "'"${DATASET}"'" \
+      --partition-manifest "'"${PARTITIONS}"'" \
+      --partition "'"${LATENT_PARTITION}"'" \
+      --policy runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15 \
+      --checkpoint-file "'"${CHECKPOINT}"'" \
+      --seed 42 \
+      --batch-size 128 \
+      --output-h5 "'"${OUTPUT_H5}"'" \
+      --output-json "'"${OUTPUT_JSON}"'"
+  '
+
+test -s "${OUTPUT_H5}"
+test -s "${OUTPUT_JSON}"
+echo "finish_utc=$(date -u +%Y-%m-%dT%H:%M:%SZ)" | tee -a "${OUTPUT_DIR}/provenance.txt"
+find "${OUTPUT_DIR}" -type f ! -name checksums.sha256 -print0 \
+  | sort -z \
+  | xargs -0 sha256sum > "${OUTPUT_DIR}/checksums.sha256"

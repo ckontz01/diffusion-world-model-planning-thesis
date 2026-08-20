@@ -1,0 +1,12 @@
+task	stage	job_id
+all	parent_state	/lustreFS/data/superworld/ckontzias/thesis/submission-states/acid-alternative-v1/d1-aa021-repair-20260815T095002Z-3285540.tsv
+reacher	a1	297111
+reacher	gate	297112
+reacher	d1	297113
+reacher	capture	297114
+reacher	score	297115
+reacher	execute	297116
+reacher	audit	297117
+reacher	sensitivity	297118
+reacher	latency_cuda	297119
+reacher	latency_episode	297120

@@ -1,0 +1,250 @@
+# Goal-Conditioned Velocity Diffusion for Le-WM Planning
+
+Private research repository for Christoforos Kontzias's University of Cyprus thesis on feasibility-aware planning with latent world models.
+
+The project began as a comparison of post-hoc feasibility scores for hierarchical subgoals. It eventually produced a different and stronger method: a pure goal-conditioned velocity-diffusion model that proposes complete action sequences for a frozen Le-WM, followed by one model-cost evaluation. The change of method is central to the scientific record. The successful E11 method is **not** the original auxiliary diffusion-loss scorer.
+
+## Current status
+
+As of 20 August 2026, the strongest result is the frozen E11 untouched-D3 study on PushT, Reacher, and Cube. The goal-conditioned velocity-diffusion selector achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID.
+
+The narrowest diffusion-specific claim is the comparison with the Gaussian control: **+2.75 percentage points**, 95% paired start-cluster interval **[+1.64, +3.89]**. The larger **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines two effects: most of it comes from replacing iterative search with a learned one-shot proposal distribution, while 2.75 points are isolated as diffusion-specific.
+
+This is strong thesis evidence and a plausible paper result, but it is not yet a universal claim that “diffusion beats ACID.” ACID's official implementation was unavailable, Cube was saturated for the two learned proposal methods, and the closest proposal-based competitors still require a direct audit or reproduction.
+
+## E11 results first, by task
+
+E11 used 400 untouched starts per task, three fixed model/planner seeds, eight arms, and 28,800 closed-loop episodes. All 576 blinded Slurm shards completed before aggregate analysis was unlocked.
+
+| Arm | PushT | Reacher | Cube | Equal-task |
+|---|---:|---:|---:|---:|
+| Released CEM | 88.83% | 81.92% | 67.83% | 79.53% |
+| ACID reconstruction | 88.92% | **85.17%** | 75.83% | 83.31% |
+| Reachability (M3) | 88.42% | 80.17% | 68.50% | 79.03% |
+| Forward verifier | 88.92% | 82.50% | 71.42% | 80.94% |
+| Gaussian selector | 91.33% | 80.67% | 99.92% | 90.64% |
+| Shuffled-goal velocity diffusion | 80.67% | 73.58% | 83.75% | 79.33% |
+| Unconditional velocity diffusion | 85.50% | 77.17% | 92.50% | 85.06% |
+| **Goal-conditioned velocity diffusion** | **95.50%** | 84.67% | **100.00%** | **93.39%** |
+
+The per-task diffusion-minus-ACID differences were +6.58 points on PushT, -0.50 on Reacher, and +24.17 on Cube. The frozen suite rule required a positive aggregate lower confidence bound, wins on at least two tasks, and no loss worse than five points; it passed exactly as written. E8D informed the design of E11, but the E11 implementation, controls, decision rules, and protocol hash were frozen before D3 was generated or evaluated.
+
+The diffusion-minus-Gaussian differences were +4.17 points on PushT, +4.00 on Reacher, and +0.08 on Cube. Cube therefore supports the suite comparison with ACID but does not meaningfully separate diffusion from Gaussian: diffusion succeeded on 1,200/1,200 fixed-seed evaluations and Gaussian on 1,199/1,200.
+
+The primary bootstrap did not resample individual seed-runs as independent. For each task it averaged the three paired fixed-seed outcomes at each of 400 starts, then resampled those start clusters. The inference is conditional on the three fixed seed blocks; it is not a population-of-training-seeds claim.
+
+Full records: [frozen E11 protocol](cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-PROTOCOL-2026-08-17.md), [launch record](cluster/prometheus/ACID-ALTERNATIVE-E11-D3-LAUNCH-2026-08-17.md), and [audited E11 result](cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md).
+
+## What the final method does
+
+The final treatment is a proposal generator, not a plausibility penalty:
+
+1. Freeze Le-WM and encode the current observation and goal.
+2. Condition a velocity-prediction diffusion model on those latents.
+3. Generate 300 complete 25-action sequences using five deterministic velocity-DDIM evaluations and classifier-free guidance 1.5.
+4. Roll the 300 sequences through Le-WM once.
+5. Select the sequence with the best predicted goal cost and execute it.
+
+There is no Gaussian initialization, CEM refinement, ACID term, reachability term, or auxiliary verifier in this treatment. The Gaussian arm receives the same training data and conditioning and proposes the same number of action sequences, but represents them with a single diagonal bell-shaped distribution. It must remain in the paper: without it, the experiment would show that learned proposals help, not that diffusion adds anything beyond a simpler learned proposal.
+
+E11 evaluated 300 candidates once per decision. The reconstructed ACID arm evaluated 300 candidates across 30 CEM iterations. Measured aggregate evaluation time was 2,466.1 seconds for diffusion, 2,302.9 seconds for Gaussian, and 27,690.2 seconds for reconstructed ACID. Thus diffusion was about 7.1% slower than Gaussian; the approximately 11.23x ACID speedup belongs mainly to the one-shot proposal architecture, not specifically to diffusion.
+
+## How the research question evolved
+
+### 1. Original question: can a diffusion loss act as a subgoal feasibility meter?
+
+The initial proposal used frozen Hi-LeWM as an experimental chassis. Hi-LeWM would generate candidate latent subgoals, while external auxiliary networks would score the first committed high-level transition:
+
+- B0: ordinary Hi-LeWM high-level CEM.
+- B1: empirical-macro proposal restriction from the Hi-LeWM work.
+- M1: macro inverse-dynamics cycle consistency, inspired by ACID.
+- M2: conditional diffusion denoising error on frozen latent transition pairs.
+- M3: a horizon-matched temporal-reachability head.
+
+LeWM is a JEPA-style latent world model, not a diffusion model. The original M2 therefore had to be a separate denoiser trained on real pairs `(z_t, z_(t+Delta))`. At planning time, known noise was added to an imagined subgoal and the denoising residual was used as a candidate score. The hypothesis was that real, supported transitions would be easier to denoise than unsupported imagined transitions.
+
+That architecture was coherent, but the experiments eventually showed that a plausible offline score does not necessarily provide useful within-CEM ranking or closed-loop control.
+
+### 2. Final question: can diffusion generate better action proposals than iterative ACID-guided search?
+
+After several verifier designs failed their prewritten controls, the project stopped treating diffusion as another scalar CEM penalty. The method moved to the part of the problem where diffusion has a clearer architectural advantage: representing a coordinated, potentially multimodal distribution over complete action sequences.
+
+The final research question is therefore:
+
+> On a frozen Le-WM suite, do pure goal-conditioned velocity-diffusion action proposals improve closed-loop success over a capacity- and budget-matched Gaussian proposal, while remaining competitive with released CEM and a transparent published-equation ACID reconstruction?
+
+That pivot must remain explicit in any thesis or paper. The original post-hoc scorer produced important negative results and motivated the redesign; it did not produce E11's positive result.
+
+## Historical development
+
+This chronology was reconstructed on 20 August 2026 from the complete Codex task transcript—1,819 user and assistant messages from 28 July through 20 August—and cross-checked against the dated protocols, hashes, Slurm records, and result reports in this repository. Two explicitly withdrawn, unrelated wrong-chat detours were excluded because they were not part of the thesis.
+
+### 28 July: novelty audit and pre-data protocol
+
+- The starting document was a novelty memo rather than a complete proposal. The first audit concluded that feasibility-aware planning, reachability scoring, and inverse-consistency costs already had substantial precedent, but the exact controlled comparison of action consistency, diffusion support, and temporal reachability at one frozen hierarchical interface appeared not to have been published.
+- The honest publication assessment was conditional: strong master's-thesis scope, plausible workshop or paper potential, but no guaranteed main-track novelty from simply adding another cost term.
+- The literature map expanded around ACID, trajectory reachability metrics, Hi-LeWM, SAGE, PRISM, WAV, WorldDP, RC-aux, FF-JEPA, hierarchical RL, and diffusion-based out-of-distribution scoring.
+- Several rounds of external critique corrected paper titles, author names, mechanisms, metadata confidence, and claim wording. The protocol gained matched controls, shuffled-label nulls, development/confirmation separation, per-environment reporting, and an amendment rule.
+- The surviving material was consolidated into the [pre-data master protocol and verified paper map](thesis-master-protocol-and-paper-map-2026-07-28.md); superseded drafts were removed to prevent version drift.
+
+### 28-31 July: compute, storage, and reproducibility decisions
+
+- V100, A100, RTX A6000/RTX 6000 Ada, Colab, RunPod, and dedicated cloud options were compared. The core study required one capable GPU per job rather than model parallelism; 64 GB host RAM was considered comfortable, with candidate microbatching available for smaller VRAM cards.
+- Hi-LeWM was chosen as the initial experimental chassis because it supplied frozen predictors, hierarchical planning, checkpoints, environments, and a precise subgoal-scoring interface. It was not an ACID benchmark: ACID had used flat Le-WM, PLDM, DINO-WM, and other stacks.
+- A Windows CPU environment and the released checkpoints were validated first. Because the laptop drive was nearly full and Windows paths caused packaging friction, a fresh Ubuntu 24.04 WSL2 distribution and Conda environment were installed on an external Intenso 500 GB SSD.
+- The local setup passed the supported preflight and checkpoint tests. Large public datasets were later moved off the SSD; the historical workstation setup is recorded in [REPRODUCIBILITY-SETUP.md](REPRODUCIBILITY-SETUP.md).
+
+### 5-8 August: Prometheus access and bootstrap
+
+- A dedicated Ed25519 SSH identity was created inside the SSD-backed WSL installation. SSH login worked once CYENS provisioned the account; a missing Slurm association was diagnosed and then fixed by IT.
+- Live probes established that the `defq` partition exposed RTX A5000 GPUs and the `a6000` partition exposed 48 GB NVIDIA RTX 6000 Ada GPUs. The latter became the primary comparison hardware.
+- Prometheus Lustre became the canonical bulk-data and compute location. The SSD retained WSL, configuration, source, selected artifacts, and backups. The current policy is documented in [STORAGE-LAYOUT.md](STORAGE-LAYOUT.md).
+- The Hi-LeWM checkpoint evaluation stack was containerized and validated. A checkpoint smoke job completed successfully. One important artifact limitation was recorded: checkpoint evaluation worked, but the released Hi-LeWM training entry point did not contain the advertised trainer.
+
+### 8-12 August: the original Hi-LeWM scorer program
+
+- A small PushT B0/B1 operational pilot returned 42/50 versus 43/50, establishing that the pipeline worked but not providing a thesis result.
+- A development environment gate found Cube less useful for the initial hierarchy question: B0 reached 8/12 and empirical-macro B1 5/12, so the frozen rule selected TwoRoom as the second environment.
+- A TwoRoom hierarchical backbone was trained and verified, followed by latent extraction and M1/M2/M3 development.
+- The original M2 looked promising when candidates were pooled: PushT P2 AUROC was 0.9286 and locked P3 AUROC 0.8032. Its matched nulls were nearly as strong, however, and the predeclared conditional advantage interval included zero.
+- A deeper audit found the real issue. Most candidate pools did not contain both successes and failures; pooled AUROC was therefore a poor proxy for the within-query ranking CEM needed. PushT within-pool AUROC was about 0.47, and the TwoRoom online calibration collapsed to a constant penalty.
+- M2v2 used conditional-minus-unconditional, multinoise scoring and rank-based calibration. It became genuinely interventional but still failed: PushT did not improve over B0, while TwoRoom's 8/12 versus 6/12 observation was small, exploratory, and also matched by M3. The frozen promotion rule stopped it.
+
+See the [implementation/amendment history](cluster/prometheus/PROTOCOL-IMPLEMENTATION-AMENDMENTS-2026-08-08.md) and [M2v2 result](cluster/prometheus/M2V2-P2-FEASIBILITY-RESULT-2026-08-12.md).
+
+### 12-15 August: direct ACID-suite reconstruction and D1
+
+- The project explicitly corrected an earlier naming problem: M1 was only a single-macro MLP adaptation of ACID, not ACID itself.
+- To test the stronger claim, a new flat Le-WM program was built on PushT, Reacher, and Cube with released checkpoints, common datasets, matched starts, native per-step scoring, learned reachability, and a capacity-matched deterministic forward verifier.
+- Because the official ACID page still listed code as “coming soon,” ACID was reconstructed from the published equations and disclosed hyperparameters: flow-matching inverse dynamics, standardized actions, per-step residual cost, adaptive CEM weighting, and the paper's candidate/iteration settings. It remains labeled a reconstruction.
+- D1's frozen primary diffusion verifier did not establish a robust alternative. It was 3.24 points below ACID and forward at the primary setting, and Reacher was the main failure. A predeclared `lambda=0.005` sensitivity reached 85.19%, which motivated a new study but could not rescue v1 after outcomes were known.
+
+See the [v1 protocol](cluster/prometheus/ACID-ALTERNATIVE-V1-PROTOCOL-2026-08-12.md), [runbook](cluster/prometheus/ACID-ALTERNATIVE-V1-RUNBOOK-2026-08-14.md), and [D1 result](cluster/prometheus/ACID-ALTERNATIVE-D1-RESULT-2026-08-15.md).
+
+### 15-16 August: residual diffusion, multiseed D2, and closed-loop rejection
+
+- V2 trained a residual diffusion verifier and an action-evidence endpoint. It clearly learned action conditioning and improved candidate-failure ranking over v1, but its registered true-versus-shuffled and selection gates did not all pass.
+- V3 froze those endpoints across multiple scorer seeds on fresh D2 candidate pools. Four of five Stage-A gates passed. Residual diffusion strongly beat the ACID reconstruction as a failure ranker, but failed the required non-inferiority margin against the simpler deterministic forward verifier.
+- A separately frozen E3 exploratory closed-loop study then gave the action-evidence planner its direct chance. Across 2,700 episodes, true action evidence achieved 79.78% equal-task success versus 84.89% for reconstructed ACID and 80.67% for its shuffled control. Only two of five gates passed, producing the frozen decision `stop_diffusion_development_and_pivot`.
+
+See the [V2 result](cluster/prometheus/ACID-ALTERNATIVE-V2-RESIDUAL-DIFFUSION-PILOT-RESULT-2026-08-16.md), [V3 Stage-A result](cluster/prometheus/ACID-ALTERNATIVE-V3-MULTISEED-D2-STAGE-A-RESULT-2026-08-16.md), and [E3 result](cluster/prometheus/ACID-ALTERNATIVE-E3-EXPLORATORY-D2-CLOSED-LOOP-RESULT-2026-08-16.md).
+
+### 16-17 August: last verifier-family tests
+
+- E4 moved diffusion into inverse-action space and introduced conditional inverse denoising evidence. Its P1 diagnostics showed that the models genuinely used the successor, including strong Reacher identification, but the frozen D2A CIDER-tail endpoint had near-zero candidate-ranking value and did not unlock closed-loop D2B.
+- E5 used same-model, same-noise counterfactual successors to isolate successor-specific evidence. That signal was anti-predictive on PushT and Cube and damaged the strong forward verifier when combined with it. It did not advance.
+- E6 changed integration rather than the model: diffusion vetoed the worst quantile of candidates late in CEM instead of acting as a continuous reward. The primary arm achieved 81.33% versus 88.00% for ACID, 83.33% for shuffled diffusion, and 84.67% for the forward gate. It failed all five advancement gates.
+- E6D added the missing all-iteration matched controls. True diffusion reached 85.33%, below continuous ACID at 88.00% and without the required diffusion-specific advantage. This closed the scalar-verifier route.
+
+See the [E4 protocol](cluster/prometheus/ACID-ALTERNATIVE-E4-DIFFUSION-INVERSE-DEVELOPMENT-PROTOCOL-2026-08-16.md), [E5 record](cluster/prometheus/ACID-ALTERNATIVE-E5-COUNTERFACTUAL-DIFFUSION-DEVELOPMENT-2026-08-16.md), [E6 protocol](cluster/prometheus/ACID-ALTERNATIVE-E6-QUANTILE-CONSTRAINED-CEM-PROTOCOL-2026-08-16.md), and [E6D result](cluster/prometheus/ACID-ALTERNATIVE-E6D-ALL-ITERATIONS-MATCHED-CONTROLS-RESULT-2026-08-17.md).
+
+### 17 August: pivot from verification to proposal generation
+
+- E7P trained a goal-conditioned joint-action epsilon-diffusion proposal model with Gaussian and shuffled-goal controls. It contained goal information but pure terminal-noise sampling was unstable and lost to the conditional Gaussian on every task; the frozen decision stopped it before D2.
+- E8A used Gaussian-anchored diffusion refinement. It passed all nine P1 gates and showed that true-goal denoising could improve an already competent Gaussian proposal.
+- E8D tested that mechanism in exposed-D2 closed loop. True GADR reached 90.67% versus 88.00% for reconstructed ACID, but Gaussian and shuffled proposal arms performed similarly or better. Cube saturated. The prewritten diffusion-specific rule failed, so this result supported learned proposals, not diffusion itself.
+- E9 was abandoned before producing a valid result when its proposed method was recognized as a duplicate of the already rejected action-evidence design. The abandonment was retained rather than hidden.
+
+See [E7P](cluster/prometheus/ACID-ALTERNATIVE-E7P-PROPOSAL-SELECTION-RESULT-2026-08-17.md), [E8A](cluster/prometheus/ACID-ALTERNATIVE-E8A-GAUSSIAN-ANCHORED-DIFFUSION-REFINEMENT-RESULT-2026-08-17.md), [E8D](cluster/prometheus/ACID-ALTERNATIVE-E8D-GADR-D2-RESULT-2026-08-17.md), and [E9](cluster/prometheus/ACID-ALTERNATIVE-E9-ABANDONED-DUPLICATE-2026-08-17.md).
+
+### 17-18 August: pure velocity diffusion and untouched confirmation
+
+- E10V replaced unstable epsilon prediction with velocity prediction, added classifier-free goal conditioning, generated directly from noise, and removed Gaussian anchoring and verifier costs. Exactly one of 20 frozen configurations passed all eight P1 gates: five deterministic evaluations with guidance 1.5.
+- E10M retrained the selected configuration for seeds 6101, 6102, and 6103. All three independently passed all seven gates. The equal-seed mean selected-action MSE improvement over Gaussian was -0.1297, with consistent shuffled and unconditional advantages.
+- Only then was E11 frozen and the untouched D3 holdout consumed once. The positive result at the start of this README is the outcome.
+
+See the [E10V result](cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIFFUSION-P1-RESULT-2026-08-17.md), [E10M result](cluster/prometheus/ACID-ALTERNATIVE-E10M-MULTISEED-PURE-VELOCITY-P1-RESULT-2026-08-17.md), and [E11 result](cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md).
+
+### 18-20 August: audit, claim narrowing, and publication plan
+
+- Independent critique prompted explicit checks of the E11 gate chronology, bootstrap unit, task-level heterogeneity, Cube saturation, ACID fidelity, and timing attribution. The gate and clustering implementation passed audit; the scientific caveats remained.
+- The paper direction was narrowed around the +2.75-point diffusion-versus-Gaussian result. The +10.08-point reconstructed-ACID comparison remains important supporting evidence but cannot all be attributed to diffusion.
+- SAGE and PRISM became central related baselines after the method changed from verifier to action proposal. PRISM's released Gaussian/diffusion-policy code and SAGE's goal-conditioned action generation require direct novelty and benchmark audits.
+- A diffusion-plus-ACID hybrid was discussed but deliberately deferred. The current method stays pure: diffusion proposes, Le-WM scores once, and no ACID term is added.
+
+## Compact experiment ledger
+
+| Stage | Question | Outcome |
+|---|---|---|
+| Hi-LeWM B0/B1 pilot | Does the released hierarchy run correctly? | Operational pass; no thesis claim. |
+| Original M2/P3 | Does latent denoising error identify failed subgoals? | Some pooled signal; conditional advantage and within-pool ranking gate failed. |
+| M2v2 | Do conditional-minus-unconditional multinoise scores improve planning? | Interventional but no PushT gain; stopped before confirmation. |
+| D1/v1 | Does a per-step diffusion transition verifier match reconstructed ACID? | Primary method lost; low-weight sensitivity motivated a new study only. |
+| V2 | Does residual diffusion restore action use? | Stronger ranking and action signal; not all gates passed. |
+| V3 Stage A | Does the effect replicate across seeds on fresh D2 pools? | Beat ACID ranking, but failed non-inferiority to deterministic forward. |
+| E3 | Does action evidence improve independently optimized CEM? | 79.78% versus 84.89% ACID and 80.67% shuffled; failed. |
+| E4-E6D | Can inverse evidence, counterfactuals, or quantile vetoes rescue a diffusion verifier? | No frozen endpoint isolated a useful diffusion-specific planner effect. |
+| E7P | Can pure epsilon diffusion propose actions? | Goal-aware but unstable and worse than Gaussian. |
+| E8A | Can diffusion refine Gaussian proposals on P1? | All P1 gates passed. |
+| E8D | Does Gaussian-anchored refinement help closed loop? | Learned proposals helped; diffusion-specific gate failed. |
+| E9 | Duplicate action-evidence retry | Abandoned transparently before a valid evaluation. |
+| E10V | Can pure velocity diffusion beat matched P1 controls? | One frozen configuration passed every gate. |
+| E10M | Does that configuration replicate across model seeds? | All three seeds passed every gate. |
+| E11 | Does pure diffusion work on untouched D3 closed loop? | Positive: 93.39%, +2.75 points over Gaussian, +10.08 over ACID reconstruction. |
+
+## ACID comparator status
+
+The repository contains a clean-room, published-equation ACID reconstruction, not the authors' official code. The implementation follows the disclosed architecture and training/planning choices, including a four-layer, three-head width-192 flow-matching inverse model, standardized actions, Euler inference, a per-step consistency cost, adaptive scaling, 200,000 updates, and the 300-candidate/30-iteration/30-elite CEM setting.
+
+Important choices were necessarily reconstructed because the paper did not specify every implementation detail. The local training split also differs from the paper's described data use, and the local R0 gains do not match the paper's reported task pattern closely enough to treat fidelity as settled. Consequently:
+
+- Allowed: “published-equation ACID reconstruction,” with local numbers and caveats.
+- Not allowed: “official ACID,” “exact ACID reproduction,” or unqualified “diffusion beats ACID.”
+- Required next work: line-by-line implementation appendix, neutral request to the authors for code/checkpoints or clarification, and a development-only ACID compute-budget curve at candidate counts 30, 50, 150, and 300.
+
+## Current publication plan
+
+The method and E11 artifacts stay frozen. The next work is:
+
+1. Begin the thesis/paper manuscript with per-task E11 results before pooled results.
+2. Complete the ACID fidelity appendix and report published-versus-local reproduction behavior.
+3. Measure a fair low-budget ACID curve on development data without changing diffusion or Gaussian.
+4. Reproduce or directly audit PRISM and audit SAGE as the closest proposal-generation competitors.
+5. Decide whether the final fresh experiment should be an all-task replication with a stronger frozen comparator or a cross-backbone validation on PLDM.
+6. Keep diffusion-plus-ACID outside the present scope unless explicitly introduced later as a separate study.
+
+The paper's most defensible headline is approximately:
+
+> Goal-conditioned velocity diffusion improved success by 2.75 points over a matched learned Gaussian proposal on an untouched three-task Le-WM evaluation, while the broader one-shot proposal architecture was substantially faster than iterative CEM/ACID-style planning.
+
+## Repository layout
+
+```text
+.
+├── README.md
+├── thesis-master-protocol-and-paper-map-2026-07-28.md
+├── REPRODUCIBILITY-SETUP.md
+├── STORAGE-LAYOUT.md
+├── requirements-wsl-cpu-lock.txt
+├── verify_wsl_setup.py
+└── cluster/prometheus/
+    ├── ACID-ALTERNATIVE-*.md       # frozen protocols, amendments, and reports
+    ├── acid_alternative/           # core comparator/model/evaluation package
+    ├── acid_alternative_diagnostics/
+    ├── *.py                        # training, evaluation, analysis, and audits
+    ├── *.slurm and *.sh            # Prometheus orchestration
+    ├── tests/                      # integrity/submission-graph tests
+    ├── manifests/                  # small reproducibility manifests
+    └── cluster-state/              # selected immutable provenance records
+```
+
+The flat `cluster/prometheus` layout is historical: scripts were synchronized directly with the cluster during rapid, frozen experiment cycles. It is retained so recorded paths, hashes, and Slurm commands continue to resolve.
+
+## Data and artifacts not stored in Git
+
+This repository intentionally excludes public datasets, released upstream checkpoints, trained model weights, latent caches, Apptainer images, raw per-episode results, bulk candidate pools, upstream source checkouts, SSH material, and local backups. They are too large, reproducible from official sources, security-sensitive, or all three.
+
+Canonical bulk working data live under the CYENS Prometheus Lustre project. Selected irreplaceable artifacts and recovery material are backed up on the external SSD. Summary reports and content hashes are tracked here so a result can be identified without committing bulk data. See [STORAGE-LAYOUT.md](STORAGE-LAYOUT.md) and the manifests under `cluster/prometheus`.
+
+## Reproducibility notes
+
+- Primary timed experiments used NVIDIA RTX 6000 Ada GPUs through Slurm on Prometheus.
+- Released Le-WM/Hi-LeWM and stable-worldmodel components are external dependencies and are not vendored here.
+- The local WSL CPU setup is a historical verification environment; after 8 August, bulk datasets and checkpoints moved to Prometheus.
+- Result Markdown files are summaries of immutable bundles. Raw outputs remain on Prometheus and in selected SSD backups.
+- Any manuscript table should be generated from the frozen aggregate bundle or recomputed from its paired-outcome files, never copied from chat prose.
+- Paper metadata and BibTeX should be generated from primary records at writing time; the July paper map is a verified planning document, not a permanent bibliographic database.
+
+## Claim boundary
+
+The repository supports a scoped positive result for the tested Le-WM suite and fixed seed blocks. It does not establish universal superiority, an official ACID reproduction, a population-of-training-seeds effect, or that every diffusion formulation is useful. It also preserves several negative diffusion studies because those failures explain why the final method exists and prevent selective reporting.

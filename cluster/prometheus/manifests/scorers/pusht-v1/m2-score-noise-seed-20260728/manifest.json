@@ -1,0 +1,19 @@
+{
+  "algorithm": "numpy.random.Generator(numpy.random.PCG64(seed)).standard_normal(float64), cast once to little-endian float32",
+  "classification": "frozen_m2_deployment_common_random_numbers",
+  "dtype": "<f4",
+  "mean": 0.00941143904500071,
+  "output_npy": "/lustreFS/data/superworld/ckontzias/thesis/manifests/scorers/pusht-v1/m2-score-noise-seed-20260728/noise.npy",
+  "output_npy_sha256": "3a94b491079e6030137480352d1ac0d985214db6ebd96f271539b2022edcf74b",
+  "population_std": 1.010980920579223,
+  "runtime": {
+    "numpy": "2.2.6",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]"
+  },
+  "seed": 20260728,
+  "shape": [
+    8,
+    192
+  ],
+  "status": "ok"
+}
