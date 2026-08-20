@@ -22,7 +22,14 @@ for file in "${files[@]}"; do
 done
 test "$(sha256sum "${staging}/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md" | cut -d' ' -f1)" = "${PROTOCOL_SHA}"
 bash -n "${staging}/run_gdp_cem_e12_stage_b_collect.slurm" "${staging}/submit_gdp_cem_e12_stage_b_finalize.sh" "${staging}/freeze_gdp_cem_e12_stage_b_finalize.sh"
-python3 -m py_compile "${staging}/gdp_cem_e12_specs.py" "${staging}/collect_gdp_cem_e12_artifacts.py"
+IMAGE=${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif
+ENV_DIR=${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006
+apptainer exec --cleanenv --bind "${ROOT}:${ROOT}" "${IMAGE}" env \
+  PATH="${ENV_DIR}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
+  PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH="${staging}" \
+  "${ENV_DIR}/bin/python" -m py_compile \
+  "${staging}/gdp_cem_e12_specs.py" \
+  "${staging}/collect_gdp_cem_e12_artifacts.py"
 find "${staging}" -type d -name __pycache__ -prune -exec rm -r -- {} +
 (cd "${staging}" && find . -type f ! -name SOURCE-MANIFEST.sha256 -print0 \
   | sort -z | xargs -0 sha256sum > SOURCE-MANIFEST.sha256 \
