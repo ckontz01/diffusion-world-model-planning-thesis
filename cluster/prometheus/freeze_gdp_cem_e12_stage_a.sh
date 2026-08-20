@@ -24,6 +24,10 @@ for file in "${files[@]}"; do
 done
 test "$(sha256sum "${staging}/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md" | cut -d' ' -f1)" = "${PROTOCOL_SHA}"
 bash -n "${staging}/run_gdp_cem_e12_stage_a_native.slurm" "${staging}/submit_gdp_cem_e12_stage_a.sh" "${staging}/freeze_gdp_cem_e12_stage_a.sh"
+grep -Fq 'video_path=scratch_video_path' "${staging}/evaluate_gdp_cem_e12_stage_a_native.py"
+! grep -Fq 'video_path=None' "${staging}/evaluate_gdp_cem_e12_stage_a_native.py"
+grep -Fq 'PYOPENGL_PLATFORM=egl' "${staging}/run_gdp_cem_e12_stage_a_native.slurm"
+grep -Fq '/usr/share/glvnd/egl_vendor.d/10_nvidia.json' "${staging}/run_gdp_cem_e12_stage_a_native.slurm"
 IMAGE=${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif
 ENV_DIR=${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006
 CODE=${ROOT}/src/hi-lewm

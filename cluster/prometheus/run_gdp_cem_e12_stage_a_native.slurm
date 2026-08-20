@@ -43,11 +43,13 @@ ln -s "${ROOT}/downloads/${BUNDLE}/lewm_object.ckpt" "${CACHE}/${TASK}/lewm_obje
 trap 'rm -rf -- "${JOB_TMP}"' EXIT
 export APPTAINER_TMPDIR=${JOB_TMP}/apptainer APPTAINER_CACHEDIR=${ROOT}/tmp/apptainer-cache
 apptainer exec --nv --cleanenv --bind "${ROOT}:${ROOT}" --bind "${JOB_TMP}:${JOB_TMP}" \
+  --bind /usr/share/glvnd/egl_vendor.d/10_nvidia.json:/usr/share/glvnd/egl_vendor.d/10_nvidia.json:ro \
   "${IMAGE}" env PATH="${ENV_DIR}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
   PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 \
   PYTHONPATH="${SNAPSHOT}:${PRISM}:${CODE}:${CODE}/third_party/lewm" \
   PYTHONHASHSEED="${SEED}" CUBLAS_WORKSPACE_CONFIG=:4096:8 HDF5_USE_FILE_LOCKING=FALSE \
-  MUJOCO_GL=egl TMPDIR="${JOB_TMP}" SLURM_JOB_ID="${SLURM_JOB_ID}" \
+  MUJOCO_GL=egl PYOPENGL_PLATFORM=egl SDL_VIDEODRIVER=dummy MPLBACKEND=Agg \
+  TMPDIR="${JOB_TMP}" SLURM_JOB_ID="${SLURM_JOB_ID}" \
   "${ENV_DIR}/bin/python" "${SNAPSHOT}/evaluate_gdp_cem_e12_stage_a_native.py" \
   --task "${TASK}" --mode "${MODE}" --seed "${SEED}" \
   --protocol "${SNAPSHOT}/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md" \

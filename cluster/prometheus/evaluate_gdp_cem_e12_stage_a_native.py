@@ -238,6 +238,10 @@ def main() -> None:
 
     world.set_policy(policy)
     torch.cuda.reset_peak_memory_stats(device)
+    # stable-worldmodel 0.0.6 always constructs ``Path(video_path)`` even when
+    # callers do not retain videos.  Render into job-local scratch so the
+    # Slurm cleanup trap removes this non-result artifact after evaluation.
+    scratch_video_path = Path(os.environ["TMPDIR"]) / "stage-a-videos-not-retained"
     started = time.time()
     metrics = world.evaluate_from_dataset(
         dataset,
@@ -246,7 +250,7 @@ def main() -> None:
         eval_budget=int(cfg.eval.eval_budget),
         episodes_idx=eval_episodes.tolist(),
         callables=OmegaConf.to_container(cfg.eval.get("callables"), resolve=True),
-        video_path=None,
+        video_path=scratch_video_path,
     )
     elapsed = time.time() - started
     successes = np.asarray(metrics["episode_successes"], dtype=bool)
@@ -281,7 +285,7 @@ def main() -> None:
         "metrics": jsonable(metrics),
         "protocol_sha256": spec.PROTOCOL_SHA256,
         "source_manifest_sha256": sha256_file(args.source_manifest),
-        "video_disabled": True,
+        "video_retained": False,
         "d3_outcomes_read": False,
         "d4_read": False,
         "protected_p4_c1_i1_read": False,
