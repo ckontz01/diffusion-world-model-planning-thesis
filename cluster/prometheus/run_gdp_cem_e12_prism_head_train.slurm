@@ -38,7 +38,7 @@ JOB_TMP=/tmp/ckontzias-gdp-e12-head-${SLURM_ARRAY_JOB_ID}-${SLURM_ARRAY_TASK_ID}
 test ! -w "${SNAPSHOT}"
 (cd "${SNAPSHOT}" && sha256sum -c SOURCE-MANIFEST.sha256 >/dev/null)
 test ! -e "${OUT}"
-mkdir -p "${OUT}" "${JOB_TMP}/apptainer"
+mkdir -p "${OUT%/*}" "${JOB_TMP}/apptainer"
 trap 'rm -rf -- "${JOB_TMP}"' EXIT
 export APPTAINER_TMPDIR=${JOB_TMP}/apptainer APPTAINER_CACHEDIR=${ROOT}/tmp/apptainer-cache
 apptainer exec --nv --cleanenv --bind "${ROOT}:${ROOT}" --bind "${JOB_TMP}:${JOB_TMP}" \

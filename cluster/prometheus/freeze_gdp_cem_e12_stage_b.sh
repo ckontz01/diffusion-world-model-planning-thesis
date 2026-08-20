@@ -41,6 +41,13 @@ bash -n \
   "${staging}/run_gdp_cem_e12_prism_dp_train.slurm" \
   "${staging}/submit_gdp_cem_e12_stage_b.sh" \
   "${staging}/freeze_gdp_cem_e12_stage_b.sh"
+if grep -F 'mkdir -p "${OUT}"' \
+  "${staging}/run_gdp_cem_e12_prism_head_train.slurm" \
+  "${staging}/run_gdp_cem_e12_prism_dp_train.slurm"
+then
+  echo "training launcher pre-creates trainer-owned output directory" >&2
+  exit 2
+fi
 IMAGE=${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif
 ENV_DIR=${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006
 CODE=${ROOT}/src/hi-lewm
