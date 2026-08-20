@@ -9,6 +9,7 @@ import importlib.util
 import json
 import os
 import platform
+import re
 import subprocess
 import time
 from pathlib import Path
@@ -54,6 +55,38 @@ def load_module(name: str, path: Path) -> Any:
     module = importlib.util.module_from_spec(module_spec)
     module_spec.loader.exec_module(module)
     return module
+
+
+def resolve_git_head(repository: Path) -> str:
+    """Resolve a normal clone's HEAD without requiring git in the container."""
+
+    git_dir = repository / ".git"
+    if git_dir.is_file():
+        marker = git_dir.read_text(encoding="utf-8").strip()
+        if not marker.startswith("gitdir: "):
+            raise RuntimeError(f"invalid gitdir marker in {repository}")
+        git_dir = (repository / marker.removeprefix("gitdir: ")).resolve()
+    head = (git_dir / "HEAD").read_text(encoding="ascii").strip()
+    if head.startswith("ref: "):
+        reference = head.removeprefix("ref: ")
+        loose = git_dir / reference
+        if loose.is_file():
+            head = loose.read_text(encoding="ascii").strip()
+        else:
+            packed = git_dir / "packed-refs"
+            matches = []
+            for line in packed.read_text(encoding="ascii").splitlines():
+                if not line or line.startswith(("#", "^")):
+                    continue
+                commit, name = line.split(" ", 1)
+                if name == reference:
+                    matches.append(commit)
+            if len(matches) != 1:
+                raise RuntimeError(f"cannot resolve {reference} in {repository}")
+            head = matches[0]
+    if re.fullmatch(r"[0-9a-f]{40}", head) is None:
+        raise RuntimeError(f"invalid Git HEAD in {repository}: {head!r}")
+    return head
 
 
 def task_paths(root: Path, task: str) -> dict[str, Path]:
@@ -104,9 +137,7 @@ def main() -> None:
         stdout=subprocess.DEVNULL,
     )
 
-    reference_commit = subprocess.check_output(
-        ["git", "-C", str(args.prism_reference), "rev-parse", "HEAD"], text=True
-    ).strip()
+    reference_commit = resolve_git_head(args.prism_reference)
     if reference_commit != PRISM_UPSTREAM_COMMIT:
         raise RuntimeError("public PRISM reference commit differs")
     observed_reference_hashes = {}

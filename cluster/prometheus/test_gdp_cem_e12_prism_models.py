@@ -21,6 +21,7 @@ from gdp_cem_e12_prism_models import (
     prism_beta_nll_loss,
     prism_pog_fusion,
 )
+from preflight_gdp_cem_e12_stage_b import resolve_git_head
 
 
 def test_prior_head_and_beta_nll_match_public_equations() -> None:
@@ -242,4 +243,7 @@ def test_optional_byte_pinned_public_prior_head_parity(monkeypatch: pytest.Monke
         module.beta_nll_loss(public_mean, public_sigma, target),
         rtol=0.0,
         atol=0.0,
+    )
+    assert resolve_git_head(Path(reference_root)) == (
+        "baa0eb95efb812196b68796c258b1f0cf10b7625"
     )
