@@ -1,16 +1,36 @@
 # Goal-Conditioned Velocity Diffusion for Le-WM Planning
 
-Private research repository for Christoforos Kontzias's University of Cyprus thesis on feasibility-aware planning with latent world models.
+Research repository for Christoforos Kontzias's University of Cyprus thesis on feasibility-aware planning with latent world models.
 
 The project began as a comparison of post-hoc feasibility scores for hierarchical subgoals. It eventually produced a different and stronger method: a pure goal-conditioned velocity-diffusion model that proposes complete action sequences for a frozen Le-WM, followed by one model-cost evaluation. The change of method is central to the scientific record. The successful E11 method is **not** the original auxiliary diffusion-loss scorer.
 
 ## Current status
 
-As of 22 August 2026, the strongest result is the frozen E11 untouched-D3 study on PushT, Reacher, and Cube. The goal-conditioned velocity-diffusion selector achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID.
+As of 22 August 2026, two frozen untouched-holdout studies support complementary conclusions.
 
-The narrowest diffusion-specific claim is the comparison with the Gaussian control: **+2.75 percentage points**, 95% paired start-cluster interval **[+1.64, +3.89]**. The larger **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines two effects: most of it comes from replacing iterative search with a learned one-shot proposal distribution, while 2.75 points are isolated as diffusion-specific.
+E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
 
-This is strong thesis evidence and a plausible paper result, but it is not yet a universal claim that “diffusion beats ACID.” ACID's official implementation was unavailable, and Cube was saturated for the two learned proposal methods. E12 subsequently reproduced PRISM's native PushT/Cube artifact behavior closely and trained a valid disclosed PRISM-DP reconstruction on all three matched tasks, but its frozen comparison stopped before efficacy evaluation because both Gaussian PriorHead variants failed validity on Reacher. The closest proposal-based comparison therefore remains unresolved rather than negative.
+E13 resolved the direct comparison with a disclosed PRISM-DP reconstruction on a new untouched D4 holdout. At the primary `K=300` budget, velocity diffusion achieved 93.53% and PRISM-DP 92.97%: **+0.56 points**, 95% interval **[-0.47, +1.58]**. That does not establish superiority. It does pass the frozen compute-efficient-alternative gate: the one-sided lower bound remained inside the -3-point margin, and velocity diffusion was faster on every task while using fewer learned parameters, no second image encoder, and less peak CUDA memory.
+
+E13's velocity-versus-Gaussian point difference was +2.56 points with interval [+1.39, +3.72], but the frozen mechanism-replication gate failed because the Gaussian Reacher proposals exceeded the registered 25% boundary/clipping limit for two seeds. This result may be reported, but not as an unqualified fresh mechanistic confirmation. Cube was saturated again, and the PRISM-DP task effects were mixed: velocity diffusion was -1.67 points on PushT, +3.33 on Reacher, and tied on Cube.
+
+The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, or a comparison with official PRISM.
+
+## E13 matched PRISM-DP results first, by task
+
+E13 used 400 untouched D4 starts per task, three fixed seeds, five arms, and 18,000 closed-loop episodes. All 360 blinded evaluation shards completed before metric analysis was unlocked.
+
+| Arm | PushT | Reacher | Cube | Equal-task |
+|---|---:|---:|---:|---:|
+| Latent Gaussian, `K=300` | 93.50% | 79.58% | 99.83% | 90.97% |
+| PRISM-DP reconstruction, `K=16` | **97.25%** | 75.67% | 100.00% | 90.97% |
+| PRISM-DP reconstruction, `K=300` | **97.25%** | 81.67% | 100.00% | 92.97% |
+| Velocity diffusion, `K=16` | 95.50% | **85.08%** | 100.00% | **93.53%** |
+| **Velocity diffusion, `K=300`** | 95.58% | 85.00% | 100.00% | **93.53%** |
+
+At `K=300`, velocity diffusion's primary one-sided 95% lower bound against PRISM-DP was -0.31 points, above the frozen -3-point margin, but not above zero. Its median paired seconds per episode were lower by approximately 20.02% on PushT, 16.24% on Reacher, and 12.85% on Cube. The honest conclusion is equal measured success within uncertainty plus a consistent resource advantage—not superiority.
+
+Full records: [frozen E13 protocol](cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-PROTOCOL-2026-08-22.md), [audited E13 result](cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-RESULT-2026-08-22.md), and [independent result verifier](cluster/prometheus/verify_gdp_cem_e13_result.py).
 
 ## E11 results first, by task
 
@@ -155,7 +175,7 @@ See [E7P](cluster/prometheus/ACID-ALTERNATIVE-E7P-PROPOSAL-SELECTION-RESULT-2026
 
 See the [E10V result](cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIFFUSION-P1-RESULT-2026-08-17.md), [E10M result](cluster/prometheus/ACID-ALTERNATIVE-E10M-MULTISEED-PURE-VELOCITY-P1-RESULT-2026-08-17.md), and [E11 result](cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md).
 
-### 18-22 August: audit, claim narrowing, and matched-PRISM stop
+### 18-22 August: audit, E12 validity stop, and E13 PRISM-DP comparison
 
 - Independent critique prompted explicit checks of the E11 gate chronology, bootstrap unit, task-level heterogeneity, Cube saturation, ACID fidelity, and timing attribution. The gate and clustering implementation passed audit; the scientific caveats remained.
 - The paper direction was narrowed around the +2.75-point diffusion-versus-Gaussian result. The +10.08-point reconstructed-ACID comparison remains important supporting evidence but cannot all be attributed to diffusion.
@@ -163,8 +183,11 @@ See the [E10V result](cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIF
 - A diffusion-plus-ACID hybrid was discussed but deliberately deferred. The current method stays pure: diffusion proposes, Le-WM scores once, and no ACID term is added.
 - E12 froze a matched PRISM comparison before generating its new D4 holdout. Its 12 native PushT/Cube sanity cells reproduced the released PRISM means closely. All nine matched PRISM-DP reconstructions then passed P1 validity, as did every PushT/Cube Gaussian PriorHead.
 - Both PriorHead goal conventions failed the frozen 15% validation-MSE improvement rule on all three Reacher seeds. The final P1-only audit found 21 valid and six invalid artifacts, set `stage_b_passed = false`, and prohibited Stages C and D. No E12 D4 manifest or outcome was generated or read.
+- A new DP-only E13 protocol was then frozen separately. It compared the unchanged E11 velocity-diffusion treatment with the already valid disclosed PRISM-DP reconstruction, retained the E11 latent Gaussian as a mechanism control, and generated a new identifier-only D4 holdout behind a 360-shard information barrier.
+- At `K=300`, velocity diffusion reached 93.53% versus 92.97% for PRISM-DP. The +0.56-point interval crossed zero and the task effects were mixed, so superiority failed. The frozen compute-efficient-alternative gate passed because the one-sided lower bound stayed inside -3 points while velocity diffusion was faster and lighter on every registered resource test.
+- The E13 velocity-minus-Gaussian contrast was +2.56 points with a positive interval, but the mechanism-replication gate failed its registered integrity check because Gaussian Reacher proposals were boundary-limited for two seeds. This outcome was retained without tuning or rerunning D4.
 
-See the [E12 protocol](cluster/prometheus/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md), [implementation changelog](cluster/prometheus/ACID-ALTERNATIVE-E12-IMPLEMENTATION-CHANGELOG-1-2026-08-20.md), and [Stage-B validity result](cluster/prometheus/ACID-ALTERNATIVE-E12-STAGE-B-VALIDITY-RESULT-2026-08-22.md).
+See the [E12 protocol](cluster/prometheus/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md), [implementation changelog](cluster/prometheus/ACID-ALTERNATIVE-E12-IMPLEMENTATION-CHANGELOG-1-2026-08-20.md), [Stage-B validity result](cluster/prometheus/ACID-ALTERNATIVE-E12-STAGE-B-VALIDITY-RESULT-2026-08-22.md), [E13 protocol](cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-PROTOCOL-2026-08-22.md), and [E13 result](cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-RESULT-2026-08-22.md).
 
 ## Compact experiment ledger
 
@@ -186,6 +209,7 @@ See the [E12 protocol](cluster/prometheus/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNT
 | E10M | Does that configuration replicate across model seeds? | All three seeds passed every gate. |
 | E11 | Does pure diffusion work on untouched D3 closed loop? | Positive: 93.39%, +2.75 points over Gaussian, +10.08 over ACID reconstruction. |
 | E12 | Does E11 remain favorable against matched PRISM-style proposal competitors? | Stopped before P2/D4: all DP reconstructions were valid, but both PriorHeads failed on every Reacher seed. |
+| E13 | Is pure velocity diffusion competitive with the valid disclosed PRISM-DP reconstruction on untouched D4? | No superiority: +0.56 points, interval [-0.47, +1.58]. Passed the frozen compute-efficient-alternative gate; fresh Gaussian mechanism gate failed its integrity condition. |
 
 ## ACID comparator status
 
@@ -199,18 +223,18 @@ Important choices were necessarily reconstructed because the paper did not speci
 
 ## Current publication plan
 
-The method and E11 artifacts stay frozen. The next work is:
+The method, E11, and E13 artifacts stay frozen. The next work is:
 
-1. Begin the thesis/paper manuscript with per-task E11 results before pooled results.
+1. Begin the thesis/paper manuscript with task-first E11 and E13 results before pooled results, including Cube saturation and the opposite PushT/Reacher E13 effects.
 2. Complete the ACID fidelity appendix and report published-versus-local reproduction behavior.
 3. Measure a fair low-budget ACID curve on development data without changing diffusion or Gaussian.
-4. Report E12's PRISM artifact reproduction and pre-evaluation Reacher validity stop; any DP-only follow-up needs a new frozen protocol. Audit SAGE as the remaining close proposal-generation competitor.
-5. Decide whether the final fresh experiment should be an all-task replication with a stronger frozen comparator or a cross-backbone validation on PLDM.
+4. Report E12's PRISM artifact reproduction and validity stop, followed by E13's non-superiority and compute-efficiency result. Keep every PRISM claim explicitly limited to the disclosed reconstruction.
+5. Audit SAGE as the remaining close proposal-generation competitor and decide whether a cross-backbone PLDM validation is worth the added scope.
 6. Keep diffusion-plus-ACID outside the present scope unless explicitly introduced later as a separate study.
 
 The paper's most defensible headline is approximately:
 
-> Goal-conditioned velocity diffusion improved success by 2.75 points over a matched learned Gaussian proposal on an untouched three-task Le-WM evaluation, while the broader one-shot proposal architecture was substantially faster than iterative CEM/ACID-style planning.
+> Across frozen untouched Le-WM evaluations, goal-conditioned velocity diffusion improved success by 2.75 points over a matched learned Gaussian proposal and matched a disclosed PRISM-DP reconstruction within a prespecified three-point margin while using fewer learned parameters and lower inference resources.
 
 ## Repository layout
 
@@ -252,4 +276,4 @@ Canonical bulk working data live under the CYENS Prometheus Lustre project. Sele
 
 ## Claim boundary
 
-The repository supports a scoped positive result for the tested Le-WM suite and fixed seed blocks. It does not establish universal superiority, an official ACID reproduction, a population-of-training-seeds effect, or that every diffusion formulation is useful. It also preserves several negative diffusion studies because those failures explain why the final method exists and prevent selective reporting.
+The repository supports a scoped positive result for the tested Le-WM suite and fixed seed blocks. It does not establish universal superiority, an official ACID reproduction, official-PRISM performance, a population-of-training-seeds effect, or that every diffusion formulation is useful. E13 supports a compute-efficient-alternative claim against the disclosed PRISM-DP reconstruction, not superiority. The repository also preserves several negative diffusion studies because those failures explain why the final method exists and prevent selective reporting.
