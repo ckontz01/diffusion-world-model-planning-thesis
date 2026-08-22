@@ -6,11 +6,11 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-As of 20 August 2026, the strongest result is the frozen E11 untouched-D3 study on PushT, Reacher, and Cube. The goal-conditioned velocity-diffusion selector achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID.
+As of 22 August 2026, the strongest result is the frozen E11 untouched-D3 study on PushT, Reacher, and Cube. The goal-conditioned velocity-diffusion selector achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID.
 
 The narrowest diffusion-specific claim is the comparison with the Gaussian control: **+2.75 percentage points**, 95% paired start-cluster interval **[+1.64, +3.89]**. The larger **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines two effects: most of it comes from replacing iterative search with a learned one-shot proposal distribution, while 2.75 points are isolated as diffusion-specific.
 
-This is strong thesis evidence and a plausible paper result, but it is not yet a universal claim that “diffusion beats ACID.” ACID's official implementation was unavailable, Cube was saturated for the two learned proposal methods, and the closest proposal-based competitors still require a direct audit or reproduction.
+This is strong thesis evidence and a plausible paper result, but it is not yet a universal claim that “diffusion beats ACID.” ACID's official implementation was unavailable, and Cube was saturated for the two learned proposal methods. E12 subsequently reproduced PRISM's native PushT/Cube artifact behavior closely and trained a valid disclosed PRISM-DP reconstruction on all three matched tasks, but its frozen comparison stopped before efficacy evaluation because both Gaussian PriorHead variants failed validity on Reacher. The closest proposal-based comparison therefore remains unresolved rather than negative.
 
 ## E11 results first, by task
 
@@ -155,12 +155,16 @@ See [E7P](cluster/prometheus/ACID-ALTERNATIVE-E7P-PROPOSAL-SELECTION-RESULT-2026
 
 See the [E10V result](cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIFFUSION-P1-RESULT-2026-08-17.md), [E10M result](cluster/prometheus/ACID-ALTERNATIVE-E10M-MULTISEED-PURE-VELOCITY-P1-RESULT-2026-08-17.md), and [E11 result](cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md).
 
-### 18-20 August: audit, claim narrowing, and publication plan
+### 18-22 August: audit, claim narrowing, and matched-PRISM stop
 
 - Independent critique prompted explicit checks of the E11 gate chronology, bootstrap unit, task-level heterogeneity, Cube saturation, ACID fidelity, and timing attribution. The gate and clustering implementation passed audit; the scientific caveats remained.
 - The paper direction was narrowed around the +2.75-point diffusion-versus-Gaussian result. The +10.08-point reconstructed-ACID comparison remains important supporting evidence but cannot all be attributed to diffusion.
 - SAGE and PRISM became central related baselines after the method changed from verifier to action proposal. PRISM's released Gaussian/diffusion-policy code and SAGE's goal-conditioned action generation require direct novelty and benchmark audits.
 - A diffusion-plus-ACID hybrid was discussed but deliberately deferred. The current method stays pure: diffusion proposes, Le-WM scores once, and no ACID term is added.
+- E12 froze a matched PRISM comparison before generating its new D4 holdout. Its 12 native PushT/Cube sanity cells reproduced the released PRISM means closely. All nine matched PRISM-DP reconstructions then passed P1 validity, as did every PushT/Cube Gaussian PriorHead.
+- Both PriorHead goal conventions failed the frozen 15% validation-MSE improvement rule on all three Reacher seeds. The final P1-only audit found 21 valid and six invalid artifacts, set `stage_b_passed = false`, and prohibited Stages C and D. No E12 D4 manifest or outcome was generated or read.
+
+See the [E12 protocol](cluster/prometheus/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md), [implementation changelog](cluster/prometheus/ACID-ALTERNATIVE-E12-IMPLEMENTATION-CHANGELOG-1-2026-08-20.md), and [Stage-B validity result](cluster/prometheus/ACID-ALTERNATIVE-E12-STAGE-B-VALIDITY-RESULT-2026-08-22.md).
 
 ## Compact experiment ledger
 
@@ -181,6 +185,7 @@ See the [E10V result](cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIF
 | E10V | Can pure velocity diffusion beat matched P1 controls? | One frozen configuration passed every gate. |
 | E10M | Does that configuration replicate across model seeds? | All three seeds passed every gate. |
 | E11 | Does pure diffusion work on untouched D3 closed loop? | Positive: 93.39%, +2.75 points over Gaussian, +10.08 over ACID reconstruction. |
+| E12 | Does E11 remain favorable against matched PRISM-style proposal competitors? | Stopped before P2/D4: all DP reconstructions were valid, but both PriorHeads failed on every Reacher seed. |
 
 ## ACID comparator status
 
@@ -199,7 +204,7 @@ The method and E11 artifacts stay frozen. The next work is:
 1. Begin the thesis/paper manuscript with per-task E11 results before pooled results.
 2. Complete the ACID fidelity appendix and report published-versus-local reproduction behavior.
 3. Measure a fair low-budget ACID curve on development data without changing diffusion or Gaussian.
-4. Reproduce or directly audit PRISM and audit SAGE as the closest proposal-generation competitors.
+4. Report E12's PRISM artifact reproduction and pre-evaluation Reacher validity stop; any DP-only follow-up needs a new frozen protocol. Audit SAGE as the remaining close proposal-generation competitor.
 5. Decide whether the final fresh experiment should be an all-task replication with a stronger frozen comparator or a cross-backbone validation on PLDM.
 6. Keep diffusion-plus-ACID outside the present scope unless explicitly introduced later as a separate study.
 
