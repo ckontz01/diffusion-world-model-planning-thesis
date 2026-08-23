@@ -129,3 +129,44 @@ before Gate B or any E14 closed-loop outcome was available:
 - Released Base CEM and the SAGE reconstruction each score 30 populations of
   300 candidates at every stage. VAD, CVD, and their matched Gaussian controls
   score one population of 300. No warm start crosses a stage boundary.
+
+## Pre-Gate-B line-ending erratum
+
+The frozen identifier-only training TSVs were created on Windows and retained
+CRLF line endings. Bash `read` therefore preserved a trailing carriage return
+in the final `seed` field. Python correctly parsed the integer and model
+training was scientifically unaffected, but Slurm created output directories
+whose names end in the hidden carriage-return byte. The original Gate-B
+analyzer constructs clean `seed-N` paths and would not have found those
+directories.
+
+Jobs 299011, 299012, and 299013 (offline smoke, full Gate B, and the analyzer)
+were cancelled while still dependency-blocked, before any Gate-B metric was
+generated or read. Completed and running training outputs are preserved
+byte-for-byte. A deterministic, non-metric normalization step will create a
+separate clean logical tree of directory symlinks and LF-only copies of the
+identifier manifests. Resubmitted offline jobs must use that logical tree and
+the clean-manifest hashes. This fixes path identity only; it cannot change a
+model, row, seed, arm, candidate bank, metric, or gate.
+
+## Pre-outcome Gate-C aggregation
+
+- Success is averaged over the 20 shared starts within each
+  task/horizon/model-seed cell, then equally over the three model seeds, then
+  equally over task-horizon cells. Thus neither a task, horizon, seed, nor
+  shard receives weight from its row count.
+- Task-horizon loss checks and the horizon-150 Base-CEM check use the same
+  start-then-seed cell means. The SAGE non-inferiority check uses the six-cell
+  equal-task/equal-horizon mean.
+- Stage latency is divided by the number of simultaneously evaluated contexts
+  before aggregation. The five-times-faster alternative compares the
+  equal-task/equal-horizon mean of per-shard median context-stage latency,
+  averaged over model seeds.
+- Development uncertainty uses 10,000 deterministic paired bootstrap draws.
+  The resampling unit is the base start within each task-horizon cell; every
+  arm and all three model seeds for a sampled start remain together. These
+  intervals are descriptive and do not replace any frozen Gate-C threshold.
+- The environment `TimeLimit` is set to `2 * eval_budget`, matching the prior
+  released-stack harness, while `evaluate_from_dataset` executes exactly the
+  protocol's `H` Cube actions or `2H` PushT actions. The larger safety limit
+  prevents wrapper truncation from changing the measured budget.

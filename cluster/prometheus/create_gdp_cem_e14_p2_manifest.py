@@ -18,8 +18,8 @@ from gdp_cem_e14_data import sha256_file
 
 
 SELECTION_SEED = 2026082301
-BASE_STARTS = 20
-HORIZONS = (25, 75, 150)
+BASE_STARTS = spec.GATE_C_BASE_STARTS
+HORIZONS = spec.GATE_C_HORIZONS
 
 
 def atomic_json(path: Path, value: object) -> None:

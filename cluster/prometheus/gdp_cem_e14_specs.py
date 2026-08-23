@@ -22,6 +22,14 @@ VALIDATION_ROWS = 40_000
 ACTION_HORIZON = 25
 ACTION_BLOCK = 5
 LATENT_DIM = 192
+GATE_C_HORIZONS = (25, 75, 150)
+GATE_C_BASE_STARTS = 20
+GATE_C_SHARD_SIZE = 5
+GATE_C_SHARD_COUNT = GATE_C_BASE_STARTS // GATE_C_SHARD_SIZE
+CANDIDATE_COUNT = 300
+CEM_ROUNDS = 30
+CEM_ELITES = 30
+EXPECTED_GPU_NAME = "NVIDIA RTX 6000 Ada Generation"
 PROTOCOL_SHA256 = "9909cd1357638ec4bcebd9a8c84a94f266d9a82e7003b902b7b2a0c65eea1be6"
 SAGE_SOURCE_TAR_SHA256 = "60167aed768eba55061f8a69e00ce6b81c19ff16e48bcbd6b16a59fd8d892180"
 
@@ -61,6 +69,9 @@ TASK_SPEC: dict[str, dict[str, Any]] = {
         "state_dim": 7,
         "primitive_action_dim": 2,
         "artifact_slug": "lewm-hf-22b330c",
+        "world_model_policy": "pusht/lewm_hf_22b330c",
+        "world_model_file": "pusht/lewm_hf_22b330c_object.ckpt",
+        "world_model_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
         "latent_job": 296628,
         "latent_sha256": "5c8ad694712c202ce6114f68d8155a41e2cf88c1c86d1dd442f70e29dc90e7e8",
         "latent_manifest_sha256": "d8e7dd2080edcf7dec20b57bccc929cc7a4a62691e4325244782ef414a9de2a7",
@@ -81,6 +92,9 @@ TASK_SPEC: dict[str, dict[str, Any]] = {
         "state_dim": 28,
         "primitive_action_dim": 5,
         "artifact_slug": "lewm-hf-b0747c5",
+        "world_model_policy": "cube/lewm_hf_b0747c5",
+        "world_model_file": "cube/lewm_hf_b0747c5_object.ckpt",
+        "world_model_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07",
         "latent_job": 296666,
         "latent_sha256": "81eb8b967168c5f30b25a99f1f766579f40adcdd71a77861f84ffaf20f3ac69d",
         "latent_manifest_sha256": "255ee1ab73152f7609a0606bd194d0f698f16043bbf406710fc77110be166404",
@@ -124,6 +138,7 @@ def derived_seed(label: str) -> int:
 
 
 assert len(DELTA_TAU_PAIRS) == 45
+assert GATE_C_BASE_STARTS % GATE_C_SHARD_SIZE == 0
 assert sum(row_quotas(TRAIN_ROWS).values()) == TRAIN_ROWS
 assert sum(row_quotas(VALIDATION_ROWS).values()) == VALIDATION_ROWS
 assert all(sum(value) == key for key, value in SCHEDULES.items())
