@@ -1,8 +1,10 @@
 # E14 pre-outcome implementation decisions 1
 
 Date fixed: 23 August 2026  
-Status: fixed after cache construction and static tests, before any E14 model
-training or performance-bearing evaluation
+Status: pre-outcome implementation record. Initial decisions were fixed after
+cache construction and static tests; the explicitly labelled errata and
+aggregation details below were fixed before any Gate-B or Gate-C metric was
+generated or read.
 
 This document resolves implementation details left open by the frozen E14
 development protocol. It does not change an endpoint, task, horizon, gate,
@@ -163,9 +165,11 @@ model, row, seed, arm, candidate bank, metric, or gate.
   equal-task/equal-horizon mean of per-shard median context-stage latency,
   averaged over model seeds.
 - Development uncertainty uses 10,000 deterministic paired bootstrap draws.
-  The resampling unit is the base start within each task-horizon cell; every
-  arm and all three model seeds for a sampled start remain together. These
-  intervals are descriptive and do not replace any frozen Gate-C threshold.
+  The resampling unit is the base start within a task. Because the exact same
+  20 starts are reused at all three development horizons, all horizons, arms,
+  and model seeds for a sampled start remain together. Tasks are resampled
+  independently and then weighted equally. These intervals are descriptive
+  and do not replace any frozen Gate-C threshold.
 - The environment `TimeLimit` is set to `2 * eval_budget`, matching the prior
   released-stack harness, while `evaluate_from_dataset` executes exactly the
   protocol's `H` Cube actions or `2H` PushT actions. The larger safety limit

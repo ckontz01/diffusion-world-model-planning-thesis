@@ -19,16 +19,25 @@ def synthetic_outcomes(
     return result
 
 
-def test_paired_bootstrap_keeps_start_and_seed_clusters_together() -> None:
+def test_paired_bootstrap_keeps_reused_starts_paired_across_horizons() -> None:
+    outcomes = synthetic_outcomes(0, 0)
+    for task in spec.TASKS:
+        for horizon in spec.GATE_C_HORIZONS:
+            for seed in spec.MODEL_SEEDS:
+                for base in range(spec.GATE_C_BASE_STARTS // 2):
+                    outcomes[(task, horizon, seed, "vad_true", base)] = 1
     result = paired_bootstrap(
-        synthetic_outcomes(1, 0),
+        outcomes,
         true_arm="vad_true",
         control_arm="vad_gaussian",
     )
-    assert result["point_difference_fraction"] == 1.0
-    assert result["ci95_fraction"] == [1.0, 1.0]
+    assert result["point_difference_fraction"] == 0.5
+    assert result["ci95_fraction"][0] < 0.38
+    assert result["ci95_fraction"][1] > 0.62
     assert result["draws"] == 10_000
-    assert result["resampling_unit"].startswith("base_start")
+    assert result["resampling_unit"] == (
+        "task_base_start_with_all_horizons_arms_and_model_seeds_paired"
+    )
 
 
 def test_gate_c_manifest_reader_rejects_crlf(tmp_path: Path) -> None:

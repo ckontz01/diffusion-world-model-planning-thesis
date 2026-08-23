@@ -76,11 +76,11 @@ def paired_bootstrap(
     rng = np.random.default_rng(BOOTSTRAP_SEED)
     cells = [(task, horizon) for task in spec.TASKS for horizon in spec.GATE_C_HORIZONS]
 
-    def draw(indices_by_cell: dict[tuple[str, int], np.ndarray]) -> float:
+    def draw(indices_by_task: dict[str, np.ndarray]) -> float:
         cell_values = []
         for task, horizon in cells:
             values = []
-            for base_index in indices_by_cell[(task, horizon)].tolist():
+            for base_index in indices_by_task[task].tolist():
                 values.append(
                     np.mean(
                         [
@@ -94,20 +94,21 @@ def paired_bootstrap(
         return float(np.mean(cell_values))
 
     identity = {
-        cell: np.arange(spec.GATE_C_BASE_STARTS, dtype=np.int64) for cell in cells
+        task: np.arange(spec.GATE_C_BASE_STARTS, dtype=np.int64)
+        for task in spec.TASKS
     }
     point = draw(identity)
     samples = np.empty(BOOTSTRAP_DRAWS, dtype=np.float64)
     for position in range(BOOTSTRAP_DRAWS):
         samples[position] = draw(
             {
-                cell: rng.integers(
+                task: rng.integers(
                     0,
                     spec.GATE_C_BASE_STARTS,
                     size=spec.GATE_C_BASE_STARTS,
                     dtype=np.int64,
                 )
-                for cell in cells
+                for task in spec.TASKS
             }
         )
     low, high = np.quantile(samples, (0.025, 0.975))
@@ -116,7 +117,7 @@ def paired_bootstrap(
         "ci95_fraction": [float(low), float(high)],
         "draws": BOOTSTRAP_DRAWS,
         "seed": BOOTSTRAP_SEED,
-        "resampling_unit": "base_start_with_all_arms_and_model_seeds_paired_within_task_horizon",
+        "resampling_unit": "task_base_start_with_all_horizons_arms_and_model_seeds_paired",
     }
 
 
@@ -474,7 +475,7 @@ def main() -> None:
         "bootstrap": {
             "draws": BOOTSTRAP_DRAWS,
             "seed": BOOTSTRAP_SEED,
-            "resampling_unit": "base_start_with_all_arms_and_model_seeds_paired_within_task_horizon",
+            "resampling_unit": "task_base_start_with_all_horizons_arms_and_model_seeds_paired",
         },
         "d3_metric_read": False,
         "d4_metric_read": False,
