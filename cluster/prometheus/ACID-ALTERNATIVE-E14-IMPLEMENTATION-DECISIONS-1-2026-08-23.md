@@ -160,6 +160,20 @@ their real LF terminators, with the digest and basename still verified against
 the unchanged artifacts. The failed partial staging directory is discarded
 before the replacement normalization; model and result bytes remain unchanged.
 
+The replacement normalization completed, after which smoke array 299052
+exposed a separate wrapper-only fault. Its frozen evaluator completed for the
+first cells, but the following JSON assertion attempted to execute the
+container virtual environment's Python path directly on the host and exited
+127. The smoke array and its dependent full/analyzer jobs were cancelled. One
+smoke stdout was opened to diagnose the failure and therefore exposed
+non-gating P1-validation smoke diagnostics; no full Gate-B output existed or
+was read, and no method, hyperparameter, endpoint, metric, or gate is changed
+in response. The replacement wrapper executes the identical evaluator from
+the original `bc27ec5c...` scientific snapshot, verifies that snapshot hash,
+and performs only the post-run JSON assertion with host `/usr/bin/python3`.
+It also records both scientific and wrapper source hashes. All 32 smoke cells
+are rerun from scratch in a new output root.
+
 ## Pre-outcome Gate-C aggregation
 
 - Success is averaged over the 20 shared starts within each

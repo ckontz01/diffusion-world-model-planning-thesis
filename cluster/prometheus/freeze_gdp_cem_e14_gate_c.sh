@@ -18,6 +18,7 @@ files=(
   evaluate_gdp_cem_e14_gate_c.py
   analyze_gdp_cem_e14_gate_c.py
   run_gdp_cem_e14_normalize_paths.slurm
+  run_gdp_cem_e14_offline_evaluate_normalized.slurm
   run_gdp_cem_e14_gate_c_manifest.slurm
   run_gdp_cem_e14_gate_c_evaluate.slurm
   run_gdp_cem_e14_gate_c_analyze.slurm
