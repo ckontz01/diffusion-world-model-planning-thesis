@@ -6,13 +6,15 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-As of 22 August 2026, two frozen untouched-holdout studies support complementary conclusions.
+As of 23 August 2026, two frozen untouched-holdout studies support complementary conclusions, while a separately frozen long-horizon development study has stopped before closed-loop evaluation.
 
 E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
 
 E13 resolved the direct comparison with a disclosed PRISM-DP reconstruction on a new untouched D4 holdout. At the primary `K=300` budget, velocity diffusion achieved 93.53% and PRISM-DP 92.97%: **+0.56 points**, 95% interval **[-0.47, +1.58]**. That does not establish superiority. It does pass the frozen compute-efficient-alternative gate: the one-sided lower bound remained inside the -3-point margin, and velocity diffusion was faster on every task while using fewer learned parameters, no second image encoder, and less peak CUDA memory.
 
 E13's velocity-versus-Gaussian point difference was +2.56 points with interval [+1.39, +3.72], but the frozen mechanism-replication gate failed because the Gaussian Reacher proposals exceeded the registered 25% boundary/clipping limit for two seeds. This result may be reported, but not as an unqualified fresh mechanistic confirmation. Cube was saturated again, and the PRISM-DP task effects were mixed: velocity diffusion was -1.67 points on PushT, +3.33 on Reacher, and tied on Cube.
+
+E14 tested whether the method could extend to variable-duration, long-horizon planning under SAGE's task and schedule interface. VAD diffusion beat its matched Gaussian on both registered offline metrics for all three seeds, on both PushT and Cube at every local duration, and beat shuffled-goal and unconditional controls. It nevertheless violated the frozen 25% proposal-boundary ceiling on Cube for all three seeds. CVD failed that integrity condition and the matched Gaussian terminal-cost comparison. Therefore neither endpoint entered Gate C: no P2 long-horizon closed-loop result, SAGE efficacy comparison, or D5 confirmation was produced. The [audited E14 Gate-B result](cluster/prometheus/ACID-ALTERNATIVE-E14-LONG-HORIZON-SAGE-GATE-B-RESULT-2026-08-23.md) is a promising mechanism result plus an honest validity stop, not a new paper claim.
 
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, or a comparison with official PRISM.
 
@@ -189,6 +191,16 @@ See the [E10V result](cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIF
 
 See the [E12 protocol](cluster/prometheus/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNTOUCHED-D4-PROTOCOL-2026-08-20.md), [implementation changelog](cluster/prometheus/ACID-ALTERNATIVE-E12-IMPLEMENTATION-CHANGELOG-1-2026-08-20.md), [Stage-B validity result](cluster/prometheus/ACID-ALTERNATIVE-E12-STAGE-B-VALIDITY-RESULT-2026-08-22.md), [E13 protocol](cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-PROTOCOL-2026-08-22.md), and [E13 result](cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-RESULT-2026-08-22.md).
 
+### 23 August: E14 long-horizon development and Gate-B stop
+
+- E14 froze a published-equation SAGE reconstruction and two duration-conditioned diffusion endpoints before training: action-only VAD and coupled subgoal-action CVD. It used PushT and Cube, far-goal offsets 15-150, local durations 15/20/25, 400,000 P1-training rows and 40,000 episode-disjoint P1-validation rows per task, and three fixed model seeds.
+- The SAGE reconstruction and all endpoint/control families trained successfully. Scheduler, hidden-CRLF path, checksum-parser, wrapper, and final NumPy-JSON serialization faults were corrected as implementation-only errata without changing scientific inputs or gates.
+- VAD beat its Gaussian control on oracle action error and selected true-local Le-WM cost for every seed. The direction held on both tasks at all three durations, and true VAD beat both shuffled-goal and unconditional controls. However, its maximum Cube boundary fractions were 27.17%, 36.38%, and 35.47%, above the frozen 25% limit. PushT stayed below the limit and all banks remained finite with 300 unique candidates.
+- CVD improved action coverage, generated-local error, and terminal consistency, but was worse than Gaussian on selected true-local cost for all three seeds, failed the required task-duration direction, and also exceeded the boundary ceiling.
+- The final audit therefore recorded `stop_before_gate_c_no_diffusion_endpoint_passed_gate_b`. Gate C was not launched, SAGE was not evaluated in closed loop, and no D5 artifact or protected outcome was read.
+
+See the [E14 protocol](cluster/prometheus/ACID-ALTERNATIVE-E14-LONG-HORIZON-SAGE-DEVELOPMENT-PROTOCOL-2026-08-23.md), [implementation decisions](cluster/prometheus/ACID-ALTERNATIVE-E14-IMPLEMENTATION-DECISIONS-1-2026-08-23.md), [serialization erratum](cluster/prometheus/E14-GATE-B-SERIALIZATION-ERRATUM-2026-08-23.md), and [Gate-B result](cluster/prometheus/ACID-ALTERNATIVE-E14-LONG-HORIZON-SAGE-GATE-B-RESULT-2026-08-23.md).
+
 ## Compact experiment ledger
 
 | Stage | Question | Outcome |
@@ -210,6 +222,7 @@ See the [E12 protocol](cluster/prometheus/ACID-ALTERNATIVE-E12-PRISM-MATCHED-UNT
 | E11 | Does pure diffusion work on untouched D3 closed loop? | Positive: 93.39%, +2.75 points over Gaussian, +10.08 over ACID reconstruction. |
 | E12 | Does E11 remain favorable against matched PRISM-style proposal competitors? | Stopped before P2/D4: all DP reconstructions were valid, but both PriorHeads failed on every Reacher seed. |
 | E13 | Is pure velocity diffusion competitive with the valid disclosed PRISM-DP reconstruction on untouched D4? | No superiority: +0.56 points, interval [-0.47, +1.58]. Passed the frozen compute-efficient-alternative gate; fresh Gaussian mechanism gate failed its integrity condition. |
+| E14 | Does duration-conditioned diffusion support SAGE-style long-horizon planning? | Stopped at offline Gate B: VAD beat Gaussian and null controls but exceeded the Cube boundary ceiling; CVD also failed matched terminal cost. No closed-loop SAGE comparison. |
 
 ## ACID comparator status
 
@@ -229,8 +242,9 @@ The method, E11, and E13 artifacts stay frozen. The next work is:
 2. Complete the ACID fidelity appendix and report published-versus-local reproduction behavior.
 3. Measure a fair low-budget ACID curve on development data without changing diffusion or Gaussian.
 4. Report E12's PRISM artifact reproduction and validity stop, followed by E13's non-superiority and compute-efficiency result. Keep every PRISM claim explicitly limited to the disclosed reconstruction.
-5. Audit SAGE as the remaining close proposal-generation competitor and decide whether a cross-backbone PLDM validation is worth the added scope.
-6. Keep diffusion-plus-ACID outside the present scope unless explicitly introduced later as a separate study.
+5. Report E14's strong offline VAD comparisons and frozen boundary-validity stop as development evidence and a limitation. Do not imply that SAGE was compared in closed loop.
+6. If further method development is justified by the paper timeline, freeze a separate E15 boundary-aware VAD study with fresh development queries and both clipping and near-boundary diagnostics. Do not relax E14 or consume D5 automatically.
+7. Decide whether a cross-backbone PLDM validation is worth the added scope; keep diffusion-plus-ACID outside the present study unless introduced later under a separate protocol.
 
 The paper's most defensible headline is approximately:
 
@@ -276,4 +290,4 @@ Canonical bulk working data live under the CYENS Prometheus Lustre project. Sele
 
 ## Claim boundary
 
-The repository supports a scoped positive result for the tested Le-WM suite and fixed seed blocks. It does not establish universal superiority, an official ACID reproduction, official-PRISM performance, a population-of-training-seeds effect, or that every diffusion formulation is useful. E13 supports a compute-efficient-alternative claim against the disclosed PRISM-DP reconstruction, not superiority. The repository also preserves several negative diffusion studies because those failures explain why the final method exists and prevent selective reporting.
+The repository supports a scoped positive result for the tested Le-WM suite and fixed seed blocks. It does not establish universal superiority, an official ACID reproduction, official-PRISM performance, a population-of-training-seeds effect, or that every diffusion formulation is useful. E13 supports a compute-efficient-alternative claim against the disclosed PRISM-DP reconstruction, not superiority. E14 does not establish long-horizon closed-loop or SAGE-comparison performance because its endpoints stopped at the offline bank-validity gate. The repository also preserves several negative diffusion studies because those failures explain why the final method exists and prevent selective reporting.
