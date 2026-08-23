@@ -151,6 +151,15 @@ identifier manifests. Resubmitted offline jobs must use that logical tree and
 the clean-manifest hashes. This fixes path identity only; it cannot change a
 model, row, seed, arm, candidate bank, metric, or gate.
 
+The first normalization job then exposed the same hidden byte inside the
+absolute filenames written to each training `sha256.txt`. Python's generic
+`splitlines()` incorrectly treated that embedded carriage return as a record
+boundary. Job 299047 failed during checksum parsing before creating a logical
+tree or reading a performance metric. Checksum records are now split only on
+their real LF terminators, with the digest and basename still verified against
+the unchanged artifacts. The failed partial staging directory is discarded
+before the replacement normalization; model and result bytes remain unchanged.
+
 ## Pre-outcome Gate-C aggregation
 
 - Success is averaged over the 20 shared starts within each

@@ -29,7 +29,7 @@ from gdp_cem_e14_closed_loop import (
     ScheduledE14Planner,
     ScheduledE14Policy,
 )
-from gdp_cem_e14_data import sha256_file
+from gdp_cem_e14_data import read_sha256_records, sha256_file
 from gdp_cem_e14_models import (
     SAGEOptionPrior,
     SAGESubgoalGenerator,
@@ -125,13 +125,7 @@ def verify_training_directory(directory: Path) -> None:
     expected_names = {"best.pt", "training.jsonl", "summary.json"}
     if not manifest.is_file():
         raise FileNotFoundError(manifest)
-    records: dict[str, str] = {}
-    for line in manifest.read_text(encoding="utf-8").splitlines():
-        digest, filename = line.split(maxsplit=1)
-        name = Path(filename.lstrip("* ")).name
-        if name in records:
-            raise RuntimeError("duplicate E14 training checksum entry")
-        records[name] = digest
+    records = read_sha256_records(manifest)
     if set(records) != expected_names:
         raise RuntimeError("E14 training checksum manifest differs")
     for name, digest in records.items():

@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 import gdp_cem_e14_specs as spec
-from gdp_cem_e14_data import sha256_file
+from gdp_cem_e14_data import read_sha256_records, sha256_file
 
 
 def atomic_json(path: Path, value: object) -> None:
@@ -52,10 +52,7 @@ def verify_completed_training(directory: Path) -> None:
         not (directory / name).is_file() for name in required
     ):
         raise RuntimeError(f"incomplete E14 training directory: {directory}")
-    records: dict[str, str] = {}
-    for line in (directory / "sha256.txt").read_text(encoding="utf-8").splitlines():
-        digest, filename = line.split(maxsplit=1)
-        records[Path(filename.lstrip("* ")).name] = digest
+    records = read_sha256_records(directory / "sha256.txt")
     if set(records) != {"best.pt", "training.jsonl", "summary.json"}:
         raise RuntimeError("E14 training checksum entries differ")
     if any(sha256_file(directory / name) != digest for name, digest in records.items()):

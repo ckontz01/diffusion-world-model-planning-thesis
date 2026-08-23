@@ -165,12 +165,11 @@ def test_statistics_and_sage_configs_are_exact() -> None:
 def test_training_checksum_manifest_rejects_mutation(tmp_path: Path) -> None:
     for name in ("best.pt", "training.jsonl", "summary.json"):
         (tmp_path / name).write_text(name, encoding="utf-8")
-    (tmp_path / "sha256.txt").write_text(
-        "".join(
-            f"{file_hash(tmp_path / name)}  /frozen/{name}\n"
+    (tmp_path / "sha256.txt").write_bytes(
+        b"".join(
+            f"{file_hash(tmp_path / name)}  /frozen/seed-6101\r/{name}\n".encode()
             for name in ("best.pt", "training.jsonl", "summary.json")
-        ),
-        encoding="utf-8",
+        )
     )
     verify_training_directory(tmp_path)
     (tmp_path / "best.pt").write_text("mutated", encoding="utf-8")

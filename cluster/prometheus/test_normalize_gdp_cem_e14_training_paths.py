@@ -19,11 +19,11 @@ def make_training_directory(path: Path) -> None:
     names = ("best.pt", "training.jsonl", "summary.json")
     for name in names:
         (path / name).write_text(name, encoding="utf-8")
-    (path / "sha256.txt").write_text(
-        "".join(
-            f"{digest(path / name)}  /physical/{name}\n" for name in names
-        ),
-        encoding="utf-8",
+    (path / "sha256.txt").write_bytes(
+        b"".join(
+            f"{digest(path / name)}  {path / name}\n".encode()
+            for name in names
+        )
     )
 
 

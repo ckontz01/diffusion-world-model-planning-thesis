@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Literal
@@ -25,6 +26,31 @@ def sha256_file(path: Path) -> str:
         for block in iter(lambda: stream.read(8 * 1024 * 1024), b""):
             digest.update(block)
     return digest.hexdigest()
+
+
+def read_sha256_records(path: Path) -> dict[str, str]:
+    """Read GNU sha256sum output without treating CR bytes in paths as lines."""
+
+    records: dict[str, str] = {}
+    for raw_line in path.read_bytes().split(b"\n"):
+        if not raw_line:
+            continue
+        digest_bytes, separator, filename_bytes = raw_line.partition(b" ")
+        filename_bytes = filename_bytes.lstrip(b" *")
+        if (
+            not separator
+            or len(digest_bytes) != 64
+            or any(value not in b"0123456789abcdef" for value in digest_bytes.lower())
+            or not filename_bytes
+        ):
+            raise RuntimeError(f"invalid E14 checksum record: {path}")
+        name = Path(os.fsdecode(filename_bytes)).name
+        if not name or name in records:
+            raise RuntimeError(f"duplicate E14 checksum record: {path}")
+        records[name] = digest_bytes.decode("ascii").lower()
+    if not records:
+        raise RuntimeError(f"empty E14 checksum manifest: {path}")
+    return records
 
 
 def deterministic_group_derangement(
