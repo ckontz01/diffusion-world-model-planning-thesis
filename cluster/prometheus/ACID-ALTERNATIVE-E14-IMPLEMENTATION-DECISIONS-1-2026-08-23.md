@@ -107,3 +107,25 @@ and Gaussian noise from an explicitly seeded CPU generator and transfers the
 small completed bank to the GPU. This preserves strict reproducibility instead
 of weakening the global determinism setting. No performance-bearing result
 existed when this implementation-only correction was made.
+
+## Pre-outcome closed-loop schedule interpretation
+
+The following choices were recorded while endpoint training was still running,
+before Gate B or any E14 closed-loop outcome was available:
+
+- Within one published schedule cycle, the scalar `delta` passed to every
+  learned proposal is the scheduled remaining horizon,
+  `H - elapsed_environment_steps`. It is not rounded or clipped to the
+  cache grid. Some schedules therefore query intermediate delta values that
+  lie between the frozen training offsets; the sinusoidal scalar conditioning
+  handles these as interpolation points. The same rule applies to the SAGE
+  reconstruction and both learned endpoint families.
+- Cube executes the published schedule once, using its `H`-step environment
+  budget. PushT receives the published `2H` budget, so the complete schedule is
+  repeated once after the first `H` steps while retaining the same dataset
+  goal. The remaining-delta clock restarts at `H` for this second schedule
+  cycle. This deterministic rule uses the complete budget and is identical for
+  every arm.
+- Released Base CEM and the SAGE reconstruction each score 30 populations of
+  300 candidates at every stage. VAD, CVD, and their matched Gaussian controls
+  score one population of 300. No warm start crosses a stage boundary.
