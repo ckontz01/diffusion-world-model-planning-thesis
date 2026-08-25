@@ -59,6 +59,10 @@ def test_balanced_selection_is_episode_disjoint_and_deterministic(monkeypatch) -
     monkeypatch.setattr(spec, "VALIDATION_ROWS", 6)
     episodes = np.arange(200, dtype=np.int64)
     role = np.zeros(200, dtype=np.uint8)
+    # Upstream E14 validation rows are present in the source cache but are
+    # forbidden from the new split. Their episode IDs need not occur in the
+    # eligible-role lookup.
+    role[-20:] = 1
     delta = np.where(np.arange(200) % 2 == 0, 15, 20).astype(np.int64)
     tau = np.full(200, 15, dtype=np.int64)
     first = select_rows(
@@ -73,3 +77,4 @@ def test_balanced_selection_is_episode_disjoint_and_deterministic(monkeypatch) -
     validation_episode = set(episodes[first[0][first[1] == 1]].tolist())
     assert not train_episode.intersection(validation_episode)
     assert len(first[0]) == 14
+    assert np.all(role[first[0]] == 0)

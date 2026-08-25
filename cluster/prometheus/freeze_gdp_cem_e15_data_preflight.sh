@@ -15,6 +15,7 @@ test ! -e "${staging}"
 mkdir -p "${staging}"
 files=(
   E15-BOUNDARY-AWARE-DATA-PREFLIGHT-SPEC-2026-08-25.md
+  E15-IMPLEMENTATION-DECISIONS-1-2026-08-25.md
   gdp_cem_e15_data_specs.py
   build_gdp_cem_e15_bounded_cache.py
   test_build_gdp_cem_e15_bounded_cache.py

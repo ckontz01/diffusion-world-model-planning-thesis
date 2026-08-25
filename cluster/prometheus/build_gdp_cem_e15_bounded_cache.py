@@ -139,7 +139,10 @@ def select_rows(
         int(value): int(spec.episode_is_validation(task, int(value)))
         for value in unique_episodes
     }
-    episode_role = np.asarray([assignment[int(value)] for value in episode], dtype=np.uint8)
+    episode_role = np.full(len(episode), 255, dtype=np.uint8)
+    episode_role[eligible] = np.asarray(
+        [assignment[int(value)] for value in episode[eligible]], dtype=np.uint8
+    )
     selected_parts: list[np.ndarray] = []
     selected_role_parts: list[np.ndarray] = []
     availability: dict[str, dict[str, int]] = {
