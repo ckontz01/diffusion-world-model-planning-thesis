@@ -38,6 +38,7 @@ from gdp_cem_latent_rollout import rollout_from_single_latent
 
 
 DEFAULT_BATCH_SIZE = 8
+EXPECTED_GPU_NAME = "NVIDIA RTX 6000 Ada Generation"
 NEAR_MARGINS = (1.0e-6, 1.0e-4, 1.0e-3, 1.0e-2, 5.0e-2)
 LEGAL_LOW = {
     "pusht": np.full(2, -1.0, dtype=np.float32),
@@ -348,7 +349,7 @@ def main() -> None:
     if not torch.cuda.is_available():
         raise RuntimeError("E14 boundary diagnosis requires CUDA")
     device = torch.device("cuda")
-    if torch.cuda.get_device_name(0) != spec.EXPECTED_GPU_NAME:
+    if torch.cuda.get_device_name(0) != EXPECTED_GPU_NAME:
         raise RuntimeError("E14 boundary diagnosis GPU model differs")
 
     torch.manual_seed(1416)
