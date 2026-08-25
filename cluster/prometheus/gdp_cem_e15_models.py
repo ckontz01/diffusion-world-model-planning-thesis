@@ -150,6 +150,48 @@ def trajectory_gmm_posterior(
     return torch.softmax(component, dim=-1)
 
 
+@torch.inference_mode()
+def sample_direct_gmm_with_modes(
+    logits: torch.Tensor,
+    means: torch.Tensor,
+    log_stds: torch.Tensor,
+    *,
+    count: int,
+    active_mask: torch.Tensor,
+    generator: torch.Generator,
+) -> tuple[torch.Tensor, torch.Tensor]:
+    """Deterministically sample one categorical mode per whole trajectory."""
+
+    batch, modes, horizon, action_dim = means.shape
+    if (
+        logits.shape != (batch, modes)
+        or log_stds.shape != means.shape
+        or active_mask.shape != (batch, horizon)
+        or count <= 0
+        or str(generator.device) != "cpu"
+    ):
+        raise ValueError("E15 direct-GMM sampling shape/generator differs")
+    probabilities = torch.softmax(logits.float(), dim=-1).cpu()
+    mode_cpu = torch.multinomial(
+        probabilities, count, replacement=True, generator=generator
+    )
+    mode = mode_cpu.to(means.device)
+    batch_index = torch.arange(batch, device=means.device)[:, None]
+    selected_mean = means[batch_index, mode]
+    selected_std = log_stds[batch_index, mode].exp()
+    noise = torch.randn(
+        selected_mean.shape,
+        dtype=means.dtype,
+        device="cpu",
+        generator=generator,
+    ).to(means.device)
+    sample = selected_mean + selected_std * noise
+    sample = sample * active_mask[:, None, :, None].to(sample.dtype)
+    if not torch.isfinite(sample).all():
+        raise RuntimeError("E15 direct-GMM sampler produced non-finite values")
+    return sample, mode_cpu
+
+
 def action_active_mask(
     tau: torch.Tensor,
     *,
@@ -272,6 +314,7 @@ __all__ = [
     "flat_action_active_mask",
     "instantiate_model",
     "model_config",
+    "sample_direct_gmm_with_modes",
     "sample_trajectory_gmm",
     "trajectory_gmm_posterior",
     "velocity_ddim_sample",

@@ -11,6 +11,7 @@ from gdp_cem_e15_models import (
     action_active_mask,
     bounded_actions_from_standardized_u,
     direct_gmm_loss,
+    sample_direct_gmm_with_modes,
     trajectory_gmm_posterior,
 )
 
@@ -105,3 +106,36 @@ def test_action_mask_expands_duration() -> None:
     assert mask.shape == (2, 3, 2)
     assert mask[0].sum() == 2
     assert mask[1].sum() == 6
+
+
+def test_direct_gmm_draw_uses_one_mode_for_whole_trajectory() -> None:
+    logits = torch.tensor([[20.0, -20.0], [-20.0, 20.0]])
+    means = torch.zeros(2, 2, 3, 1)
+    means[:, 1] = 10.0
+    log_stds = torch.full_like(means, -20.0)
+    mask = torch.tensor([[True, True, False], [True, True, True]])
+    first_generator = torch.Generator(device="cpu").manual_seed(99)
+    second_generator = torch.Generator(device="cpu").manual_seed(99)
+    sample, mode = sample_direct_gmm_with_modes(
+        logits,
+        means,
+        log_stds,
+        count=5,
+        active_mask=mask,
+        generator=first_generator,
+    )
+    repeated, repeated_mode = sample_direct_gmm_with_modes(
+        logits,
+        means,
+        log_stds,
+        count=5,
+        active_mask=mask,
+        generator=second_generator,
+    )
+    assert torch.equal(mode, repeated_mode)
+    assert torch.equal(sample, repeated)
+    assert torch.all(mode[0] == 0)
+    assert torch.all(mode[1] == 1)
+    assert torch.all(sample[0, :, :2].abs() < 1.0e-6)
+    assert torch.all((sample[1, :, :3] - 10.0).abs() < 1.0e-6)
+    assert torch.all(sample[0, :, 2] == 0)
