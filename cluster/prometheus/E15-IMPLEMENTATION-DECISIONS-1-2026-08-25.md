@@ -1,7 +1,7 @@
 # E15 implementation decisions 1
 
 Date: 25 August 2026  
-Status: active frozen E15 development record
+Status: complete; frozen Gate B stopped E15 before Gate C
 
 ## Initial immutable data snapshot and job 299195
 
@@ -189,3 +189,23 @@ resampled as independent observations. It reports task/horizon intervals plus
 the registered all-horizon, long-horizon, and horizon-150 paired contrasts.
 The analyzer runs only after every evaluation-array cell terminates
 successfully, preserving the closed-loop information barrier.
+
+## Final Gate-B execution and stop
+
+All 22 cells of sealed validation array `299219` completed with exit code
+`0:0`. Corrected dependent analyzer `299257` then completed with exit code
+`0:0`. Its checksum manifest verifies
+`GATE-B-AUDIT.json` and `TASK-FIRST-PER-CELL.tsv`.
+
+The final audit records `artifact_count = 22`; all 22 common-integrity banks
+and all six direct-GMM structural banks passed. The VAD mechanism and
+conditioning gate failed because the registered task-first VAD-over-Gaussian
+direction did not hold on PushT and true VAD did not beat unconditional VAD
+under the complete null rule. The immutable decision is
+`stop_before_gate_c_frozen_gate_b_failed`.
+
+No Gate-C snapshot, identifier manifest, evaluation, or analyzer job was
+created. The already blinded Gate-C source remains an unexecuted implementation
+artifact only. P2 and D5 were not read, generated, or consumed. The audited
+scientific result is recorded in
+[the E15 Gate-B report](ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-GATE-B-RESULT-2026-08-25.md).
