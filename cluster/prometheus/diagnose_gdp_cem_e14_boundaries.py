@@ -40,11 +40,11 @@ from gdp_cem_latent_rollout import rollout_from_single_latent
 DEFAULT_BATCH_SIZE = 8
 EXPECTED_GPU_NAME = "NVIDIA RTX 6000 Ada Generation"
 NEAR_MARGINS = (1.0e-6, 1.0e-4, 1.0e-3, 1.0e-2, 5.0e-2)
-LEGAL_LOW = {
+ENVIRONMENT_LEGAL_LOW = {
     "pusht": np.full(2, -1.0, dtype=np.float32),
     "cube": np.full(5, -1.0, dtype=np.float32),
 }
-LEGAL_HIGH = {
+ENVIRONMENT_LEGAL_HIGH = {
     "pusht": np.full(2, 1.0, dtype=np.float32),
     "cube": np.full(5, 1.0, dtype=np.float32),
 }
@@ -255,6 +255,57 @@ def expert_cache_summary(
     return result
 
 
+def transform_environment_bounds(
+    environment_low: np.ndarray,
+    environment_high: np.ndarray,
+    mean: np.ndarray,
+    std: np.ndarray,
+) -> tuple[np.ndarray, np.ndarray]:
+    """Map raw environment bounds into standardized planner coordinates."""
+
+    expected = environment_low.shape
+    if (
+        environment_high.shape != expected
+        or mean.shape != expected
+        or std.shape != expected
+        or np.any(std < 1.0e-8)
+        or not np.isfinite(environment_low).all()
+        or not np.isfinite(environment_high).all()
+        or not np.isfinite(mean).all()
+        or not np.isfinite(std).all()
+    ):
+        raise RuntimeError("released planner action scaler differs")
+    low = ((environment_low.astype(np.float64) - mean) / std).astype(np.float32)
+    high = ((environment_high.astype(np.float64) - mean) / std).astype(np.float32)
+    if np.any(high <= low):
+        raise RuntimeError("planner-coordinate legal bounds are invalid")
+    return low, high
+
+
+def planner_coordinate_legal_bounds(
+    transition_h5: Path,
+    *,
+    task: str,
+    environment_low: np.ndarray,
+    environment_high: np.ndarray,
+) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Transform true environment bounds through the released action scaler."""
+
+    if sha256_file(transition_h5) != spec.TASK_SPEC[task]["transition_sha256"]:
+        raise RuntimeError("E14 transition cache hash differs")
+    with h5py.File(transition_h5, "r") as handle:
+        mean = np.asarray(
+            handle["stats/planner_primitive_action_mean"][:], dtype=np.float64
+        )
+        std = np.asarray(
+            handle["stats/planner_primitive_action_std"][:], dtype=np.float64
+        )
+    low, high = transform_environment_bounds(
+        environment_low, environment_high, mean, std
+    )
+    return low, high, mean, std
+
+
 def validate_original_e14(
     summary_path: Path,
     *,
@@ -315,6 +366,7 @@ def main() -> None:
     parser.add_argument("--latent-manifest", type=Path, required=True)
     parser.add_argument("--cache-h5", type=Path, required=True)
     parser.add_argument("--cache-manifest", type=Path, required=True)
+    parser.add_argument("--transition-h5", type=Path, required=True)
     parser.add_argument("--world-model-policy", required=True)
     parser.add_argument("--world-model-checkpoint", type=Path, required=True)
     parser.add_argument("--stablewm-home", type=Path, required=True)
@@ -332,6 +384,7 @@ def main() -> None:
         args.latent_manifest,
         args.cache_h5,
         args.cache_manifest,
+        args.transition_h5,
         args.world_model_checkpoint,
         args.protocol,
         args.source_manifest,
@@ -364,10 +417,18 @@ def main() -> None:
         cache_h5=args.cache_h5,
         cache_manifest=args.cache_manifest,
     )
-    legal_low_np = LEGAL_LOW[args.task]
-    legal_high_np = LEGAL_HIGH[args.task]
-    if len(legal_low_np) != store.primitive_action_dim:
+    environment_legal_low = ENVIRONMENT_LEGAL_LOW[args.task]
+    environment_legal_high = ENVIRONMENT_LEGAL_HIGH[args.task]
+    if len(environment_legal_low) != store.primitive_action_dim:
         raise RuntimeError("legal action-bound dimension differs")
+    legal_low_np, legal_high_np, planner_action_mean, planner_action_std = (
+        planner_coordinate_legal_bounds(
+            args.transition_h5,
+            task=args.task,
+            environment_low=environment_legal_low,
+            environment_high=environment_legal_high,
+        )
+    )
     model, _, model_record = load_model(
         args.training_summary,
         task=args.task,
@@ -710,11 +771,20 @@ def main() -> None:
         "bounds": {
             "robust_low": store.action_robust_low.tolist(),
             "robust_high": store.action_robust_high.tolist(),
-            "legal_low": legal_low_np.tolist(),
-            "legal_high": legal_high_np.tolist(),
+            "environment_legal_low": environment_legal_low.tolist(),
+            "environment_legal_high": environment_legal_high.tolist(),
+            "planner_primitive_action_mean": planner_action_mean.tolist(),
+            "planner_primitive_action_std": planner_action_std.tolist(),
+            "planner_coordinate_legal_low": legal_low_np.tolist(),
+            "planner_coordinate_legal_high": legal_high_np.tolist(),
+            "transition_h5": str(args.transition_h5),
+            "transition_h5_sha256": sha256_file(args.transition_h5),
             "legal_bound_source": str(args.legal_bound_source),
             "legal_bound_source_sha256": sha256_file(args.legal_bound_source),
-            "legal_bound_interpretation": "deployed_environment_action_space",
+            "legal_bound_interpretation": (
+                "deployed_environment_action_space_mapped_through_the_exact_"
+                "released_planner_StandardScaler"
+            ),
         },
         "expert_training_cache": expert_cache_summary(
             store,

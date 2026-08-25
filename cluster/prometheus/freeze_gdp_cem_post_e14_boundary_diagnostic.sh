@@ -13,7 +13,7 @@ test "${output_parent}" = "${ROOT}/snapshots"
 test "$(sha256sum "${BASE}/SOURCE-MANIFEST.sha256" | cut -d' ' -f1)" = "${BASE_MANIFEST}"
 (cd "${BASE}" && sha256sum -c SOURCE-MANIFEST.sha256 >/dev/null)
 
-staging=${output_parent}/.gdp-post-e14-boundary-staging-r2-20260825
+staging=${output_parent}/.gdp-post-e14-boundary-staging-r3-20260825
 test ! -e "${staging}"
 mkdir -p "${staging}"
 cp -a "${BASE}/." "${staging}/"
@@ -62,7 +62,7 @@ printf '%s\n' \
   'status=passed' \
   "e14_protocol_sha256=${PROTOCOL_SHA}" \
   "upstream_e14_offline_source_manifest_sha256=${BASE_MANIFEST}" \
-  'checks=python_compile,shell_syntax,boundary_mask_semantics,weighted_axis_aggregation,equal_condition_aggregation,full_row_distribution,equal_task_seed_aggregation' \
+  'checks=python_compile,shell_syntax,boundary_mask_semantics,environment_to_planner_coordinate_transform,weighted_axis_aggregation,equal_condition_aggregation,full_row_distribution,equal_task_seed_aggregation' \
   'diagnostic_role=P1_development_artifact_diagnosis_only' \
   'd3_metric_read=false' \
   'd4_metric_read=false' \

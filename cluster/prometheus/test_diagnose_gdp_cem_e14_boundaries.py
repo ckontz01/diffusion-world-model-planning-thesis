@@ -13,6 +13,7 @@ from diagnose_gdp_cem_e14_boundaries import (
     near_boundary,
     outside,
     per_row_fraction,
+    transform_environment_bounds,
 )
 
 
@@ -58,3 +59,14 @@ def test_aggregate_rows_keeps_equal_condition_cells() -> None:
         assert result["per_delta"][str(delta_value)]["x"] == float(
             metric[active].mean()
         )
+
+
+def test_environment_bounds_are_mapped_to_planner_coordinates() -> None:
+    low, high = transform_environment_bounds(
+        np.asarray([-1.0, -1.0], dtype=np.float32),
+        np.asarray([1.0, 1.0], dtype=np.float32),
+        np.asarray([0.25, -0.5], dtype=np.float64),
+        np.asarray([0.5, 0.25], dtype=np.float64),
+    )
+    np.testing.assert_allclose(low, [-2.5, -2.0], rtol=0.0, atol=0.0)
+    np.testing.assert_allclose(high, [1.5, 6.0], rtol=0.0, atol=0.0)

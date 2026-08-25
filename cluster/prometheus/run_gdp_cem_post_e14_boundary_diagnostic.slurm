@@ -30,13 +30,13 @@ test ! -w "${SNAPSHOT}"
 case "${SLURM_ARRAY_TASK_ID}" in
   0|1|2)
     TASK=pusht; SEED=$((6101 + SLURM_ARRAY_TASK_ID))
-    ARTIFACT=lewm-hf-22b330c; LATENT_JOB=296628; CACHE_JOB=298993-0
+    ARTIFACT=lewm-hf-22b330c; LATENT_JOB=296628; TRANSITION_JOB=296629; CACHE_JOB=298993-0
     POLICY=pusht/lewm_hf_22b330c; CHECKPOINT=pusht/lewm_hf_22b330c_object.ckpt
     LEGAL_SOURCE=${ENV_DIR}/lib/python3.11/site-packages/stable_worldmodel/envs/pusht/env.py
     ;;
   3|4|5)
     TASK=cube; SEED=$((6098 + SLURM_ARRAY_TASK_ID))
-    ARTIFACT=lewm-hf-b0747c5; LATENT_JOB=296666; CACHE_JOB=298993-1
+    ARTIFACT=lewm-hf-b0747c5; LATENT_JOB=296666; TRANSITION_JOB=296667; CACHE_JOB=298993-1
     POLICY=cube/lewm_hf_b0747c5; CHECKPOINT=cube/lewm_hf_b0747c5_object.ckpt
     LEGAL_SOURCE=${ENV_DIR}/lib/python3.11/site-packages/ogbench/manipspace/envs/manipspace_env.py
     ;;
@@ -44,6 +44,7 @@ case "${SLURM_ARRAY_TASK_ID}" in
 esac
 BASE=${STABLEWM}/derived/acid-alternative-v1/${TASK}/${ARTIFACT}
 LATENT=${BASE}/p1-flat-latents-job-${LATENT_JOB}
+TRANSITION=${BASE}/transition-cache-job-${TRANSITION_JOB}
 CACHE=${BASE}/e14-variable-cache-job-${CACHE_JOB}
 TRAINING=${TRAINING_ROOT}/endpoint/${TASK}/vad_true/seed-${SEED}
 ORIGINAL=${ORIGINAL_EVAL_ROOT}/${TASK}/vad_true/seed-${SEED}
@@ -68,12 +69,13 @@ apptainer exec --nv --cleanenv --bind "${ROOT}:${ROOT}" --bind "${JOB_TMP}:${JOB
   --training-summary "${TRAINING}/summary.json" \
   --original-summary "${ORIGINAL}/summary.json" \
   --latent-h5 "${LATENT}/latents.h5" --latent-manifest "${LATENT}/manifest.json" \
+  --transition-h5 "${TRANSITION}/transitions.h5" \
   --cache-h5 "${CACHE}/cache.h5" --cache-manifest "${CACHE}/manifest.json" \
   --world-model-policy "${POLICY}" --world-model-checkpoint "${STABLEWM}/${CHECKPOINT}" \
   --stablewm-home "${STABLEWM}" \
   --protocol "${SNAPSHOT}/ACID-ALTERNATIVE-E14-LONG-HORIZON-SAGE-DEVELOPMENT-PROTOCOL-2026-08-23.md" \
   --source-manifest "${SNAPSHOT}/SOURCE-MANIFEST.sha256" \
   --legal-bound-source "${LEGAL_SOURCE}" --output-dir "${OUT}"
-"${ENV_DIR}/bin/python" -c 'import json,sys; x=json.load(open(sys.argv[1])); assert x["status"]=="ok" and x["descriptive_only"] is True and x["d5_read"] is False' "${OUT}/summary.json"
+/usr/bin/python3 -c 'import json,sys; x=json.load(open(sys.argv[1])); assert x["status"]=="ok" and x["descriptive_only"] is True and x["d5_read"] is False' "${OUT}/summary.json"
 (cd "${OUT}" && sha256sum row-metrics.h5 summary.json > sha256.txt && sha256sum -c sha256.txt >/dev/null)
 chmod a-w "${OUT}"/* "${OUT}"

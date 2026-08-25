@@ -29,6 +29,7 @@ KEY_METRICS = (
     "raw_unique_candidates",
     "clipped_unique_candidates",
 )
+CANDIDATE_COUNT = 300
 
 
 def read_sha256_records(path: Path) -> dict[str, str]:
@@ -127,7 +128,7 @@ def read_cell(
         or int(summary.get("seed", -1)) != seed
         or summary.get("mode") != "full"
         or int(summary.get("row_count", -1)) != spec.VALIDATION_ROWS
-        or int(summary.get("candidate_count", -1)) != spec.CANDIDATE_COUNT
+        or int(summary.get("candidate_count", -1)) != CANDIDATE_COUNT
         or summary.get("protocol_sha256") != spec.PROTOCOL_SHA256
         or summary.get("source_manifest_sha256") != source_manifest_sha256
         or summary.get("row_metrics_h5_sha256") != records["row-metrics.h5"]

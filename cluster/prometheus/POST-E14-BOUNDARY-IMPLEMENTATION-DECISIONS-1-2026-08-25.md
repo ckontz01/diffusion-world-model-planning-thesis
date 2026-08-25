@@ -37,6 +37,36 @@ submitted. The analyzer now contains its own strict two-file GNU-checksum
 reader. The failed staging directory is preserved and the corrected freeze
 uses a new staging location.
 
+Before the replacement smoke completed and before any full cell was submitted,
+a static inspection also found that the upstream offline specification did not
+yet expose `CANDIDATE_COUNT` as a module constant. The analyzer now fixes the
+already-protocol-defined value `300` locally, just as the original E14 offline
+evaluator did. This does not change an experiment setting.
+
+## Replacement smoke 299174 coordinate correction
+
+The replacement smoke completed the Python diagnostic and exactly reproduced
+the first stored E14 boundary row, but its Slurm wrapper then exited 127 because
+the postcheck invoked the container-only environment interpreter from the host.
+The postcheck now uses `/usr/bin/python3`, matching the proven E14 normalized
+wrapper. The metric files are preserved but are not valid diagnostic evidence.
+
+Inspection of that smoke revealed that the initial legal-limit comparison was
+in the wrong coordinate system. E14 actions are the released evaluator's
+StandardScaler-transformed planner inputs, not raw environment actions. The
+environment bounds are `[-1,1]`, but those numbers must first be transformed
+using `planner_primitive_action_mean` and
+`planner_primitive_action_std` from the exact hashed transition cache. The
+diagnostic now requires that cache, verifies its SHA-256, performs the mapping,
+and records both coordinate systems and scaler statistics. This correction was
+made before any full cell was submitted. Smoke 299174 is explicitly excluded
+from scientific interpretation.
+
+The coordinate-transform helper has an independent synthetic unit test. This
+revision freezes from a third, uniquely named staging directory so neither the
+initial snapshot nor either failed smoke can be mistaken for the corrected
+diagnostic.
+
 ## Analyzer fixed before full execution
 
 Before any full diagnostic cell was submitted, a deterministic six-cell
