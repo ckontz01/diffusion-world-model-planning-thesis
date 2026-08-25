@@ -132,7 +132,12 @@ def main() -> None:
     if (
         static.get("status") != "passed"
         or static.get("protocol_sha256") != spec.PROTOCOL_SHA256
+        or static.get("training_source_manifest_sha256")
+        != TRAINING_SOURCE_MANIFEST_SHA256
+        or static.get("performance_metric_read") is not False
         or static.get("d5_read") is not False
+        or static.get("protected_p3_p4_c1_i1_read") is not False
+        or static.get("claim_allowed") is not False
     ):
         raise RuntimeError("E15 Gate-A static preflight differs")
 

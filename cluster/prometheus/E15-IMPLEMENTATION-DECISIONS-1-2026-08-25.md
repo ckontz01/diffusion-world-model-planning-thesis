@@ -92,9 +92,19 @@ unchanged E14 SAGE subgoal/option checkpoints referenced by normalization audit
 SHA-256
 `985454c195d2f785c665eb59d81efadb789512a4d03f3e44ffa3ac24140b6b40`.
 
-The resulting immutable offline/Gate-A snapshot is
-`gdp-cem-e15-offline-fc6815036ca84793`, with source-manifest SHA-256
-`fc6815036ca8479325505c9b0457a716f57a4359df918d738cdc2c639664ad69`.
-Its containerized freeze completed nine tests and Python/shell compilation.
-This post-freeze sentence records the generated identity and is not itself a
-member of that immutable snapshot.
+The first immutable offline/Gate-A snapshot,
+`gdp-cem-e15-offline-fc6815036ca84793` (source-manifest SHA-256
+`fc6815036ca8479325505c9b0457a716f57a4359df918d738cdc2c639664ad69`),
+completed nine tests and Python/shell compilation but was not executed. A
+pre-execution audit found that Gate A checked the static-preflight protocol
+hash and protected-data flags but did not also compare the static record's
+training-source-manifest field with the frozen training snapshot. That lineage
+comparison was added before any smoke or validation result existed. It changes
+no scientific setting and requires a replacement immutable offline snapshot.
+
+The replacement is `gdp-cem-e15-offline-d970a18e4921eb2c`, with
+source-manifest SHA-256
+`d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e`.
+Its containerized freeze again passed all nine tests and compilation checks.
+This post-freeze identity sentence is not itself a member of the immutable
+snapshot.
