@@ -11,14 +11,17 @@ BASE=${ROOT}/snapshots/gdp-cem-e14-gate-c-9e47eeb2b957039e
 BASE_MANIFEST=9e47eeb2b957039e7f952528b53dbaeca165120ee10b57f0691832907265e8ad
 TRAINING=${ROOT}/snapshots/gdp-cem-e15-training-ebd6109b65528f6b
 TRAINING_MANIFEST=ebd6109b65528f6b201c2de7deac29888a25e570f60d11ea9e6298374b61301c
-OFFLINE=${ROOT}/snapshots/gdp-cem-e15-offline-d970a18e4921eb2c
-OFFLINE_MANIFEST=d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e
+GATE_A_SOURCE=${ROOT}/snapshots/gdp-cem-e15-offline-d970a18e4921eb2c
+GATE_A_SOURCE_MANIFEST=d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e
+GATE_B_ANALYZER=${ROOT}/snapshots/gdp-cem-e15-offline-e0fb137d34750b0c
+GATE_B_ANALYZER_MANIFEST=e0fb137d34750b0c1d7e8c239d5a7b3d9c84b2c50c81d870f12aa04ff6ccc039
 PROTOCOL_SHA=bcbe66b3b7b2635473d5bd98b3a450c5e136879f275ac3a0ddd6d4bdb254755b
 test "${output_parent}" = "${ROOT}/snapshots"
 for value in \
   "${BASE}|${BASE_MANIFEST}" \
   "${TRAINING}|${TRAINING_MANIFEST}" \
-  "${OFFLINE}|${OFFLINE_MANIFEST}"; do
+  "${GATE_A_SOURCE}|${GATE_A_SOURCE_MANIFEST}" \
+  "${GATE_B_ANALYZER}|${GATE_B_ANALYZER_MANIFEST}"; do
   directory=${value%%|*}
   expected=${value##*|}
   test "$(sha256sum "${directory}/SOURCE-MANIFEST.sha256" | cut -d' ' -f1)" = "${expected}"
@@ -66,8 +69,10 @@ for file in "${files[@]}"; do
 done
 test "$(sha256sum "${staging}/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-PROTOCOL-2026-08-25.md" | cut -d' ' -f1)" = "${PROTOCOL_SHA}"
 grep -q --fixed-strings "${TRAINING_MANIFEST}" "${staging}/evaluate_gdp_cem_e15_gate_c.py"
-grep -q --fixed-strings "${OFFLINE_MANIFEST}" "${staging}/evaluate_gdp_cem_e15_gate_c.py"
-grep -q --fixed-strings "${OFFLINE_MANIFEST}" "${staging}/analyze_gdp_cem_e15_gate_c.py"
+grep -q --fixed-strings "${GATE_A_SOURCE_MANIFEST}" "${staging}/evaluate_gdp_cem_e15_gate_c.py"
+grep -q --fixed-strings "${GATE_A_SOURCE_MANIFEST}" "${staging}/analyze_gdp_cem_e15_gate_c.py"
+grep -q --fixed-strings "${GATE_B_ANALYZER_MANIFEST}" "${staging}/evaluate_gdp_cem_e15_gate_c.py"
+grep -q --fixed-strings "${GATE_B_ANALYZER_MANIFEST}" "${staging}/analyze_gdp_cem_e15_gate_c.py"
 bash -n \
   "${staging}/run_gdp_cem_e15_gate_c_evaluate.slurm" \
   "${staging}/run_gdp_cem_e15_gate_c_analyze.slurm" \
@@ -100,15 +105,17 @@ container_python "${staging}/create_gdp_cem_e15_gate_c_manifest.py" \
 test "$(wc -l < "${staging}/E15-GATE-C-CELLS.tsv")" -eq 433
 find "${staging}" -type d -name __pycache__ -prune -exec rm -r -- {} +
 python3 - "${staging}/E15-GATE-C-STATIC-PREFLIGHT-PASSED.json" \
-  "${PROTOCOL_SHA}" "${TRAINING_MANIFEST}" "${OFFLINE_MANIFEST}" <<'PY'
+  "${PROTOCOL_SHA}" "${TRAINING_MANIFEST}" "${GATE_A_SOURCE_MANIFEST}" \
+  "${GATE_B_ANALYZER_MANIFEST}" <<'PY'
 import json, sys
-path, protocol_sha, training_sha, offline_sha = sys.argv[1:]
+path, protocol_sha, training_sha, gate_a_sha, gate_b_analyzer_sha = sys.argv[1:]
 with open(path, "x", encoding="utf-8") as stream:
     json.dump({
         "status": "passed",
         "protocol_sha256": protocol_sha,
         "training_source_manifest_sha256": training_sha,
-        "offline_source_manifest_sha256": offline_sha,
+        "gate_a_source_manifest_sha256": gate_a_sha,
+        "gate_b_analyzer_source_manifest_sha256": gate_b_analyzer_sha,
         "cell_count": 432,
         "checks": [
             "python_compile", "shell_syntax", "container_unit_tests",

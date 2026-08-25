@@ -129,6 +129,13 @@ hash. This expands protocol enforcement only; it changes no data, model,
 checkpoint, candidate sample, metric definition, threshold, seed, or
 comparison direction.
 
+The corrected analyzer snapshot is
+`gdp-cem-e15-offline-e0fb137d34750b0c`, source-manifest SHA-256
+`e0fb137d34750b0c1d7e8c239d5a7b3d9c84b2c50c81d870f12aa04ff6ccc039`.
+Its ten containerized tests passed. Replacement analyzer job `299257` is
+dependent on successful completion of the unchanged full-validation array
+`299219`; it is the only Gate-B analyzer authorized to release the aggregate.
+
 ## Gate-C implementation decisions fixed before Gate-B outcome access
 
 Gate-C code was prepared while the 22-model training array and the dependent

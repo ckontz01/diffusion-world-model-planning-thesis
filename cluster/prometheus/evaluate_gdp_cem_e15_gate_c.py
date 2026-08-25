@@ -43,9 +43,13 @@ from gdp_cem_e15_models import instantiate_model, model_config
 TRAINING_SOURCE_MANIFEST_SHA256 = (
     "ebd6109b65528f6b201c2de7deac29888a25e570f60d11ea9e6298374b61301c"
 )
-OFFLINE_SOURCE_MANIFEST_SHA256 = (
+GATE_A_SOURCE_MANIFEST_SHA256 = (
     "d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e"
 )
+GATE_B_ANALYZER_SOURCE_MANIFEST_SHA256 = (
+    "e0fb137d34750b0c1d7e8c239d5a7b3d9c84b2c50c81d870f12aa04ff6ccc039"
+)
+GATE_B_EVALUATION_SOURCE_MANIFEST_SHA256 = GATE_A_SOURCE_MANIFEST_SHA256
 P2_MANIFEST_SOURCE_SHA256 = (
     "33ae351fd3141b5651091a7a4bbe56939808d9af3efe81c79ec4b575ed63f269"
 )
@@ -130,7 +134,7 @@ def read_gate_a(path: Path, expected_sha256: str) -> dict[str, Any]:
         or value.get("protocol_sha256") != spec.PROTOCOL_SHA256
         or value.get("training_source_manifest_sha256")
         != TRAINING_SOURCE_MANIFEST_SHA256
-        or value.get("source_manifest_sha256") != OFFLINE_SOURCE_MANIFEST_SHA256
+        or value.get("source_manifest_sha256") != GATE_A_SOURCE_MANIFEST_SHA256
         or value.get("d5_read") is not False
         or value.get("protected_p3_p4_c1_i1_read") is not False
         or value.get("claim_allowed") is not False
@@ -163,7 +167,11 @@ def read_gate_b(path: Path, expected_sha256: str) -> dict[str, Any]:
         or value.get("protocol_sha256") != spec.PROTOCOL_SHA256
         or value.get("training_source_manifest_sha256")
         != TRAINING_SOURCE_MANIFEST_SHA256
-        or value.get("source_manifest_sha256") != OFFLINE_SOURCE_MANIFEST_SHA256
+        or value.get("source_manifest_sha256")
+        != GATE_B_ANALYZER_SOURCE_MANIFEST_SHA256
+        or value.get("evaluation_source_manifest_sha256")
+        != GATE_B_EVALUATION_SOURCE_MANIFEST_SHA256
+        or len(gates["common_bank_integrity"].get("banks", {})) != 22
         or value.get("d5_read") is not False
         or value.get("protected_p3_p4_c1_i1_read") is not False
         or value.get("claim_allowed") is not False

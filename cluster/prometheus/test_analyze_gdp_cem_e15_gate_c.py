@@ -136,7 +136,7 @@ def authorization_payloads() -> tuple[dict[str, object], dict[str, object]]:
         "sage_artifacts": {str(index): {} for index in range(6)},
         "protocol_sha256": spec.PROTOCOL_SHA256,
         "training_source_manifest_sha256": analysis.TRAINING_SOURCE_MANIFEST_SHA256,
-        "source_manifest_sha256": analysis.OFFLINE_SOURCE_MANIFEST_SHA256,
+        "source_manifest_sha256": analysis.GATE_A_SOURCE_MANIFEST_SHA256,
         "d5_read": False,
         "protected_p3_p4_c1_i1_read": False,
         "claim_allowed": False,
@@ -148,14 +148,20 @@ def authorization_payloads() -> tuple[dict[str, object], dict[str, object]]:
         "decision": "authorize_fixed_gate_c_p2_long_horizon_development",
         "gate_b_passed": True,
         "gates": {
-            "common_bank_integrity": {"pass": True},
+            "common_bank_integrity": {
+                "pass": True,
+                "banks": {str(index): {} for index in range(22)},
+            },
             "direct_gmm_structural_validity": {"pass": True},
             "vad_mechanism_and_conditioning": {"pass": True},
         },
         "artifact_count": 22,
         "protocol_sha256": spec.PROTOCOL_SHA256,
         "training_source_manifest_sha256": analysis.TRAINING_SOURCE_MANIFEST_SHA256,
-        "source_manifest_sha256": analysis.OFFLINE_SOURCE_MANIFEST_SHA256,
+        "source_manifest_sha256": analysis.GATE_B_ANALYZER_SOURCE_MANIFEST_SHA256,
+        "evaluation_source_manifest_sha256": (
+            analysis.GATE_B_EVALUATION_SOURCE_MANIFEST_SHA256
+        ),
         "d5_read": False,
         "protected_p3_p4_c1_i1_read": False,
         "claim_allowed": False,

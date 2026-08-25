@@ -20,9 +20,13 @@ from gdp_cem_e15_data import sha256_file
 TRAINING_SOURCE_MANIFEST_SHA256 = (
     "ebd6109b65528f6b201c2de7deac29888a25e570f60d11ea9e6298374b61301c"
 )
-OFFLINE_SOURCE_MANIFEST_SHA256 = (
+GATE_A_SOURCE_MANIFEST_SHA256 = (
     "d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e"
 )
+GATE_B_ANALYZER_SOURCE_MANIFEST_SHA256 = (
+    "e0fb137d34750b0c1d7e8c239d5a7b3d9c84b2c50c81d870f12aa04ff6ccc039"
+)
+GATE_B_EVALUATION_SOURCE_MANIFEST_SHA256 = GATE_A_SOURCE_MANIFEST_SHA256
 BOOTSTRAP_RESAMPLES = 10_000
 
 
@@ -94,7 +98,7 @@ def verify_gate_authorizations(
         or gate_a.get("training_source_manifest_sha256")
         != TRAINING_SOURCE_MANIFEST_SHA256
         or gate_a.get("source_manifest_sha256")
-        != OFFLINE_SOURCE_MANIFEST_SHA256
+        != GATE_A_SOURCE_MANIFEST_SHA256
         or gate_a.get("d5_read") is not False
         or gate_a.get("protected_p3_p4_c1_i1_read") is not False
         or gate_a.get("claim_allowed") is not False
@@ -121,7 +125,10 @@ def verify_gate_authorizations(
         or gate_b.get("training_source_manifest_sha256")
         != TRAINING_SOURCE_MANIFEST_SHA256
         or gate_b.get("source_manifest_sha256")
-        != OFFLINE_SOURCE_MANIFEST_SHA256
+        != GATE_B_ANALYZER_SOURCE_MANIFEST_SHA256
+        or gate_b.get("evaluation_source_manifest_sha256")
+        != GATE_B_EVALUATION_SOURCE_MANIFEST_SHA256
+        or len(gates["common_bank_integrity"].get("banks", {})) != 22
         or gate_b.get("d5_read") is not False
         or gate_b.get("protected_p3_p4_c1_i1_read") is not False
         or gate_b.get("claim_allowed") is not False
@@ -724,7 +731,13 @@ def main() -> None:
         "protocol_sha256": spec.PROTOCOL_SHA256,
         "source_manifest_sha256": source_hash,
         "training_source_manifest_sha256": TRAINING_SOURCE_MANIFEST_SHA256,
-        "offline_source_manifest_sha256": OFFLINE_SOURCE_MANIFEST_SHA256,
+        "gate_a_source_manifest_sha256": GATE_A_SOURCE_MANIFEST_SHA256,
+        "gate_b_analyzer_source_manifest_sha256": (
+            GATE_B_ANALYZER_SOURCE_MANIFEST_SHA256
+        ),
+        "gate_b_evaluation_source_manifest_sha256": (
+            GATE_B_EVALUATION_SOURCE_MANIFEST_SHA256
+        ),
         "p2_read": True,
         "d3_metric_read": False,
         "d4_metric_read": False,
