@@ -108,3 +108,57 @@ source-manifest SHA-256
 Its containerized freeze again passed all nine tests and compilation checks.
 This post-freeze identity sentence is not itself a member of the immutable
 snapshot.
+
+## Gate-C implementation decisions fixed before Gate-B outcome access
+
+Gate-C code was prepared while the 22-model training array and the dependent
+offline validity chain were still running. No Gate-B metric or decision had
+been opened. Preparing this code does not authorize its execution: no Gate-C
+snapshot, manifest, evaluation, or result may be created unless the immutable
+Gate-B analyzer returns its exact registered authorization decision.
+
+The identifier-only execution registry is task-first and contains exactly 432
+cells: two tasks, six arms, three replicates, three horizons, and four shards
+of five base starts. Replicate `1,2,3` maps to E15 model seeds
+`7201,7202,7203` and reused SAGE-reconstruction seeds `6101,6102,6103`.
+Planner and proposal seeds are deterministic functions of task, horizon,
+replicate, and shard and are identical across arms in each matched cell. The
+immutable P2 query files themselves enforce the same 20 episode/start pairs
+across all three horizons.
+
+The SAGE one-stage ablation uses the unchanged reconstructed SAGE subgoal and
+option-prior checkpoints. It generates the local subgoal and one 300-option
+trajectory-GMM population, ranks that population once against the generated
+local subgoal with Le-WM, and executes the minimum-cost member. It does not
+take an elite mean and performs no later CEM update. Full SAGE and Base retain
+their already frozen 30-population implementations.
+
+Every planner stage is synchronized immediately before and after the entire
+call. Encoding, proposal generation, and Le-WM rollout/scoring are marked by
+CUDA-event intervals and resolved only after that one outer synchronization;
+the timer never inserts a synchronization barrier between SAGE's CEM rounds.
+This avoids making the 30-population comparator artificially slower merely to
+obtain component measurements. The nonnegative residual of total wall time
+after the measured components is reported together with proposal generation
+as `proposal_and_selection`; this includes conditioning, CPU work,
+bookkeeping, ranking, and selection. End-to-end wall time is the primary
+efficiency quantity.
+
+For the registered five-times latency rule, each task/horizon/arm value is the
+median of all synchronized post-first-call end-to-end stage times pooled over
+the three replicates and four shards, divided by the five parallel contexts.
+The gate ratio is full SAGE divided by VAD after taking an equal-weight mean
+over the four task/horizon cells formed by the two tasks and horizons 75 and
+150. Horizon 25 timing remains reported but does not enter this long-horizon
+ratio. This estimator was fixed before closed-loop outcomes.
+
+The post-barrier analyzer must revalidate the passed Gate-A and Gate-B audit
+files and hashes, all 432 result checksum manifests, all 2,160 episode rows,
+and exact paired start identity before constructing any metric table. Its
+10,000-draw paired bootstrap is stratified by task and resamples the 20
+task/base-start clusters; each sampled cluster retains every arm, horizon, and
+replicate. Replicates are averaged within the retained cluster and are never
+resampled as independent observations. It reports task/horizon intervals plus
+the registered all-horizon, long-horizon, and horizon-150 paired contrasts.
+The analyzer runs only after every evaluation-array cell terminates
+successfully, preserving the closed-loop information barrier.
