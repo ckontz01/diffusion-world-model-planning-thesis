@@ -91,3 +91,11 @@ def test_metric_and_manifest_scientific_labels_are_intentionally_distinct() -> N
     assert manifest_scientific_label(1.0e-2) == "1e-02"
     assert scientific_label(5.0e-2) == "5e-2"
     assert manifest_scientific_label(1.0e-6) == "1e-06"
+
+
+def test_common_integrity_registry_includes_both_conditioning_nulls() -> None:
+    cells = expected_cells()
+    assert len(cells) == 22
+    for task in spec.TASKS:
+        assert (task, "vad_shuffled", spec.NULL_SEED) in cells
+        assert (task, "vad_unconditional", spec.NULL_SEED) in cells

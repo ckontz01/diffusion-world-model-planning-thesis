@@ -109,6 +109,26 @@ Its containerized freeze again passed all nine tests and compilation checks.
 This post-freeze identity sentence is not itself a member of the immutable
 snapshot.
 
+## Gate-B analyzer protocol-conformance correction before outcome access
+
+While the 22 full-validation cells were still running and before any partial
+or aggregate validation metric was opened, a source audit found that the
+frozen common bank-integrity loop covered VAD, diagonal Gaussian, and direct
+GMM at all three seeds but omitted the two seed-7201 VAD conditioning-null
+banks. Section 9.1 says every VAD bank must satisfy the same finiteness,
+uniqueness, strict-legality, exact-boundary, and expert-relative saturation
+rules. A null bank that failed those rules would also weaken the registered
+true-versus-null conditioning comparison.
+
+Pending analyzer job `299220` was therefore cancelled before execution. The
+22 sealed evaluations remain unchanged and continue from immutable source
+snapshot `d970a18e4921eb2c`. A replacement post-barrier analyzer applies the
+already frozen thresholds to all 22 evaluated banks and records the immutable
+evaluation-source hash separately from its own corrected analyzer-source
+hash. This expands protocol enforcement only; it changes no data, model,
+checkpoint, candidate sample, metric definition, threshold, seed, or
+comparison direction.
+
 ## Gate-C implementation decisions fixed before Gate-B outcome access
 
 Gate-C code was prepared while the 22-model training array and the dependent

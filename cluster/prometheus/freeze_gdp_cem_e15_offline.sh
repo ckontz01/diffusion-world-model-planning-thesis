@@ -50,6 +50,9 @@ for file in "${files[@]}"; do
 done
 test "$(sha256sum "${staging}/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-PROTOCOL-2026-08-25.md" | cut -d' ' -f1)" = "${PROTOCOL_SHA}"
 grep -q --fixed-strings "${TRAINING_MANIFEST}" "${staging}/evaluate_gdp_cem_e15_offline.py"
+grep -q --fixed-strings \
+  "d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e" \
+  "${staging}/analyze_gdp_cem_e15_offline.py"
 bash -n \
   "${staging}/run_gdp_cem_e15_offline_evaluate.slurm" \
   "${staging}/run_gdp_cem_e15_gate_a_validate.slurm" \
@@ -91,7 +94,7 @@ with open(path, "x", encoding="utf-8") as stream:
             "direct_gmm_whole_trajectory_component_sampling",
             "smooth_bounded_decoder", "registered_boundary_metric_labels",
             "equal_cell_gate_aggregation", "vad_gate_positive_and_negative_cases",
-            "gmm_structural_positive_case"
+            "gmm_structural_positive_case", "common_integrity_all_22_banks"
         ],
         "performance_metric_read": False,
         "d3_metric_read": False,

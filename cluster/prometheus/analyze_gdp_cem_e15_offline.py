@@ -24,6 +24,9 @@ PRIMARY_METRICS = (
     "oracle_projected_action_mse",
     "selected_true_local_lewm_cost",
 )
+EVALUATION_SOURCE_MANIFEST_SHA256 = (
+    "d970a18e4921eb2c4d3d2ed7f6fdd295b583320b43fef1a88908000d82a8a22e"
+)
 
 
 def atomic_json(path: Path, value: Any) -> None:
@@ -248,109 +251,106 @@ def common_integrity(
 ) -> dict[str, Any]:
     details: dict[str, Any] = {}
     all_pass = True
-    for task in spec.TASKS:
-        for condition in PRIMARY_CONDITIONS:
-            for seed in spec.MODEL_SEEDS:
-                key = (task, condition, seed)
-                record = records[key]
-                arrays = record["metrics"]
-                tau_values = record["tau"]
-                boundary: dict[str, Any] = {}
-                boundary_pass = True
-                for tau in spec.TAU_VALUES:
-                    mask = tau_values == tau
-                    diagnostics: dict[str, Any] = {}
-                    for generated_name, expert_name in (
-                        ("near_1e-2_fraction", "expert_near_1e-2_fraction"),
-                        (
-                            "jacobian_below_1e-3_fraction",
-                            "expert_jacobian_below_1e-3_fraction",
-                        ),
-                    ):
-                        generated = arrays[generated_name][mask]
-                        expert = arrays[expert_name][mask]
-                        generated_mean = float(generated.mean())
-                        generated_q99 = float(np.quantile(generated, 0.99))
-                        expert_mean = float(expert.mean())
-                        expert_q99 = float(np.quantile(expert, 0.99))
-                        mean_limit = max(
-                            2.0 * expert_mean,
-                            expert_mean + spec.EXPERT_MEAN_ADDITIVE_ALLOWANCE,
-                        )
-                        q99_limit = min(
-                            1.0, expert_q99 + spec.EXPERT_Q99_ADDITIVE_ALLOWANCE
-                        )
-                        passed = (
-                            generated_mean <= mean_limit
-                            and generated_q99 <= q99_limit
-                        )
-                        boundary_pass &= passed
-                        diagnostics[generated_name] = {
-                            "generated_mean": generated_mean,
-                            "generated_q99": generated_q99,
-                            "expert_mean": expert_mean,
-                            "expert_q99": expert_q99,
-                            "mean_limit": mean_limit,
-                            "q99_limit": q99_limit,
-                            "pass": passed,
-                        }
-                    boundary[str(tau)] = diagnostics
-                expert_reference_matches = True
-                for tau in spec.TAU_VALUES:
-                    for margin in spec.NEAR_BOUNDARY_MARGINS:
-                        suffix = scientific_label(margin)
-                        observed = float(
-                            arrays[f"expert_near_{suffix}_fraction"][tau_values == tau].mean()
-                        )
-                        manifest_suffix = manifest_scientific_label(margin)
-                        expected = expert_manifest_mean(
-                            data_manifests[task],
-                            tau=tau,
-                            diagnostic=f"projected_near_{manifest_suffix}_fraction",
-                        )
-                        expert_reference_matches &= bool(
-                            np.isclose(observed, expected, rtol=0.0, atol=2.0e-8)
-                        )
-                    for threshold in spec.JACOBIAN_THRESHOLDS:
-                        suffix = scientific_label(threshold)
-                        observed = float(
-                            arrays[f"expert_jacobian_below_{suffix}_fraction"][
-                                tau_values == tau
-                            ].mean()
-                        )
-                        manifest_suffix = manifest_scientific_label(threshold)
-                        expected = expert_manifest_mean(
-                            data_manifests[task],
-                            tau=tau,
-                            diagnostic=f"jacobian_below_{manifest_suffix}_fraction",
-                        )
-                        expert_reference_matches &= bool(
-                            np.isclose(observed, expected, rtol=0.0, atol=2.0e-8)
-                        )
-                finite = all(np.isfinite(value).all() for value in arrays.values())
-                minimum_unique = int(arrays["minimum_unique_candidates"].min())
-                strict_oob_max = float(arrays["strict_legal_oob_fraction"].max())
-                exact_boundary_max = float(
-                    arrays["exact_legal_boundary_fraction"].max()
+    for key in expected_cells():
+        task, _, _ = key
+        record = records[key]
+        arrays = record["metrics"]
+        tau_values = record["tau"]
+        boundary: dict[str, Any] = {}
+        boundary_pass = True
+        for tau in spec.TAU_VALUES:
+            mask = tau_values == tau
+            diagnostics: dict[str, Any] = {}
+            for generated_name, expert_name in (
+                ("near_1e-2_fraction", "expert_near_1e-2_fraction"),
+                (
+                    "jacobian_below_1e-3_fraction",
+                    "expert_jacobian_below_1e-3_fraction",
+                ),
+            ):
+                generated = arrays[generated_name][mask]
+                expert = arrays[expert_name][mask]
+                generated_mean = float(generated.mean())
+                generated_q99 = float(np.quantile(generated, 0.99))
+                expert_mean = float(expert.mean())
+                expert_q99 = float(np.quantile(expert, 0.99))
+                mean_limit = max(
+                    2.0 * expert_mean,
+                    expert_mean + spec.EXPERT_MEAN_ADDITIVE_ALLOWANCE,
+                )
+                q99_limit = min(
+                    1.0, expert_q99 + spec.EXPERT_Q99_ADDITIVE_ALLOWANCE
                 )
                 passed = (
-                    finite
-                    and minimum_unique >= spec.MINIMUM_UNIQUE_CANDIDATES
-                    and strict_oob_max == 0.0
-                    and exact_boundary_max == 0.0
-                    and expert_reference_matches
-                    and boundary_pass
+                    generated_mean <= mean_limit and generated_q99 <= q99_limit
                 )
-                all_pass &= passed
-                details["|".join(map(str, key))] = {
-                    "all_finite": finite,
-                    "minimum_unique_candidates": minimum_unique,
-                    "strict_legal_oob_fraction_maximum": strict_oob_max,
-                    "exact_legal_boundary_fraction_maximum": exact_boundary_max,
-                    "expert_reference_matches_data_manifest": expert_reference_matches,
-                    "expert_relative_boundary": boundary,
+                boundary_pass &= passed
+                diagnostics[generated_name] = {
+                    "generated_mean": generated_mean,
+                    "generated_q99": generated_q99,
+                    "expert_mean": expert_mean,
+                    "expert_q99": expert_q99,
+                    "mean_limit": mean_limit,
+                    "q99_limit": q99_limit,
                     "pass": passed,
                 }
+            boundary[str(tau)] = diagnostics
+        expert_reference_matches = True
+        for tau in spec.TAU_VALUES:
+            for margin in spec.NEAR_BOUNDARY_MARGINS:
+                suffix = scientific_label(margin)
+                observed = float(
+                    arrays[f"expert_near_{suffix}_fraction"][tau_values == tau].mean()
+                )
+                manifest_suffix = manifest_scientific_label(margin)
+                expected = expert_manifest_mean(
+                    data_manifests[task],
+                    tau=tau,
+                    diagnostic=f"projected_near_{manifest_suffix}_fraction",
+                )
+                expert_reference_matches &= bool(
+                    np.isclose(observed, expected, rtol=0.0, atol=2.0e-8)
+                )
+            for threshold in spec.JACOBIAN_THRESHOLDS:
+                suffix = scientific_label(threshold)
+                observed = float(
+                    arrays[f"expert_jacobian_below_{suffix}_fraction"][
+                        tau_values == tau
+                    ].mean()
+                )
+                manifest_suffix = manifest_scientific_label(threshold)
+                expected = expert_manifest_mean(
+                    data_manifests[task],
+                    tau=tau,
+                    diagnostic=f"jacobian_below_{manifest_suffix}_fraction",
+                )
+                expert_reference_matches &= bool(
+                    np.isclose(observed, expected, rtol=0.0, atol=2.0e-8)
+                )
+        finite = all(np.isfinite(value).all() for value in arrays.values())
+        minimum_unique = int(arrays["minimum_unique_candidates"].min())
+        strict_oob_max = float(arrays["strict_legal_oob_fraction"].max())
+        exact_boundary_max = float(arrays["exact_legal_boundary_fraction"].max())
+        passed = (
+            finite
+            and minimum_unique >= spec.MINIMUM_UNIQUE_CANDIDATES
+            and strict_oob_max == 0.0
+            and exact_boundary_max == 0.0
+            and expert_reference_matches
+            and boundary_pass
+        )
+        all_pass &= passed
+        details["|".join(map(str, key))] = {
+            "all_finite": finite,
+            "minimum_unique_candidates": minimum_unique,
+            "strict_legal_oob_fraction_maximum": strict_oob_max,
+            "exact_legal_boundary_fraction_maximum": exact_boundary_max,
+            "expert_reference_matches_data_manifest": expert_reference_matches,
+            "expert_relative_boundary": boundary,
+            "pass": passed,
+        }
+    if len(details) != 22:
+        raise RuntimeError("E15 common-integrity bank registry differs")
     return {"pass": all_pass, "banks": details}
 
 
@@ -622,7 +622,7 @@ def main() -> None:
             task=task,
             condition=condition,
             seed=seed,
-            source_hash=source_hash,
+            source_hash=EVALUATION_SOURCE_MANIFEST_SHA256,
         )
         if task not in task_rows:
             task_rows[task] = record["cache_row"]
@@ -692,6 +692,7 @@ def main() -> None:
         "protocol_sha256": spec.PROTOCOL_SHA256,
         "training_source_manifest_sha256": TRAINING_SOURCE_MANIFEST_SHA256,
         "source_manifest_sha256": source_hash,
+        "evaluation_source_manifest_sha256": EVALUATION_SOURCE_MANIFEST_SHA256,
         "analyzer_source_sha256": sha256_file(Path(__file__)),
         "p2_read": False,
         "d3_metric_read": False,
