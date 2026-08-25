@@ -29,3 +29,18 @@ or any scientific threshold. Job `299195` produced no model, proposal,
 Le-WM cost, success value, or usable cache. Its failed output locations are
 preserved. The replacement requires a new immutable snapshot and a new output
 root.
+
+## Replacement data snapshot and job 299197
+
+The corrected snapshot is
+`gdp-cem-e15-data-1b97e2286e1237a8`, with source-manifest SHA-256
+`1b97e2286e1237a8c758ed5951e9a64433b2e41b4d10a6eb79215dcf8bc1fd46`.
+Its four static tests passed, and both cells of replacement array `299197`
+completed successfully. The two output checksum manifests verify.
+
+The immutable outputs are under
+`experiments/gdp-cem-e15/data-preflight-1b97e228/{pusht,cube}`. Their content
+hashes are recorded in the data-preflight result. These outputs contain only
+the frozen P1 split, bounded expert targets, train-only standardizers, and
+registered structural geometry. No learned model, P2 result, or protected
+outcome was produced or read.
