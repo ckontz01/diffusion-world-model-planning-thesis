@@ -40,6 +40,7 @@ from gdp_cem_latent_rollout import rollout_from_single_latent
 DEFAULT_BATCH_SIZE = 8
 EXPECTED_GPU_NAME = "NVIDIA RTX 6000 Ada Generation"
 NEAR_MARGINS = (1.0e-6, 1.0e-4, 1.0e-3, 1.0e-2, 5.0e-2)
+RAW_ENVIRONMENT_TOLERANCE = float(4.0 * np.finfo(np.float32).eps)
 ENVIRONMENT_LEGAL_LOW = {
     "pusht": np.full(2, -1.0, dtype=np.float32),
     "cube": np.full(5, -1.0, dtype=np.float32),
@@ -203,7 +204,13 @@ class AxisAccumulator:
 
 
 def expert_cache_summary(
-    store: E14ArrayStore, rows: np.ndarray, *, legal_low: np.ndarray, legal_high: np.ndarray
+    store: E14ArrayStore,
+    rows: np.ndarray,
+    *,
+    legal_low: np.ndarray,
+    legal_high: np.ndarray,
+    tolerant_legal_low: np.ndarray,
+    tolerant_legal_high: np.ndarray,
 ) -> dict[str, Any]:
     action = store.action[rows] * store.action_std[None, None] + store.action_mean[
         None, None
@@ -238,16 +245,24 @@ def expert_cache_summary(
                 "robust_high": float(robust_high[dimension]),
                 "legal_low": float(legal_low[dimension]),
                 "legal_high": float(legal_high[dimension]),
+                "tolerant_legal_low": float(tolerant_legal_low[dimension]),
+                "tolerant_legal_high": float(tolerant_legal_high[dimension]),
                 "outside_robust_fraction": float(
                     np.mean(
                         (values < robust_low[dimension])
                         | (values > robust_high[dimension])
                     )
                 ),
-                "outside_legal_fraction": float(
+                "outside_legal_strict_fraction": float(
                     np.mean(
                         (values < legal_low[dimension])
                         | (values > legal_high[dimension])
+                    )
+                ),
+                "outside_legal_tolerant_fraction": float(
+                    np.mean(
+                        (values < tolerant_legal_low[dimension])
+                        | (values > tolerant_legal_high[dimension])
                     )
                 ),
             }
@@ -275,8 +290,17 @@ def transform_environment_bounds(
         or not np.isfinite(std).all()
     ):
         raise RuntimeError("released planner action scaler differs")
-    low = ((environment_low.astype(np.float64) - mean) / std).astype(np.float32)
-    high = ((environment_high.astype(np.float64) - mean) / std).astype(np.float32)
+    # sklearn's released StandardScaler preserves the float32 input dtype and
+    # performs subtraction and division as two in-place float32 operations.
+    # A single float64 formula followed by one cast can differ by one ULP at
+    # exactly saturated Cube actions, so reproduce the released operation
+    # sequence rather than using the algebraically equivalent shortcut.
+    transformed = np.stack((environment_low, environment_high), axis=0).astype(
+        np.float32, copy=True
+    )
+    transformed -= mean.astype(np.float32)
+    transformed /= std.astype(np.float32)
+    low, high = transformed
     if np.any(high <= low):
         raise RuntimeError("planner-coordinate legal bounds are invalid")
     return low, high
@@ -429,6 +453,12 @@ def main() -> None:
             environment_high=environment_legal_high,
         )
     )
+    tolerant_legal_low_np, tolerant_legal_high_np = transform_environment_bounds(
+        environment_legal_low - RAW_ENVIRONMENT_TOLERANCE,
+        environment_legal_high + RAW_ENVIRONMENT_TOLERANCE,
+        planner_action_mean,
+        planner_action_std,
+    )
     model, _, model_record = load_model(
         args.training_summary,
         task=args.task,
@@ -469,9 +499,11 @@ def main() -> None:
     metric_names = [
         "bank_raw_robust_oob_fraction",
         "bank_raw_legal_oob_fraction",
+        "bank_raw_legal_strict_oob_fraction",
         "bank_exact_robust_after_clip_fraction",
         "selected_raw_robust_oob_fraction",
         "selected_raw_legal_oob_fraction",
+        "selected_raw_legal_strict_oob_fraction",
         "selected_exact_robust_after_clip_fraction",
         "raw_clip_displacement_fraction_of_robust_span",
         "selected_raw_clip_displacement_fraction_of_robust_span",
@@ -499,9 +531,11 @@ def main() -> None:
         for name in (
             "bank_raw_robust_oob",
             "bank_raw_legal_oob",
+            "bank_raw_legal_strict_oob",
             "bank_exact_robust_after_clip",
             "selected_raw_robust_oob",
             "selected_raw_legal_oob",
+            "selected_raw_legal_strict_oob",
             "selected_exact_robust_after_clip",
         )
     }
@@ -522,6 +556,8 @@ def main() -> None:
     robust_high = torch.from_numpy(store.action_robust_high).to(device)
     legal_low = torch.from_numpy(legal_low_np).to(device)
     legal_high = torch.from_numpy(legal_high_np).to(device)
+    tolerant_legal_low = torch.from_numpy(tolerant_legal_low_np).to(device)
+    tolerant_legal_high = torch.from_numpy(tolerant_legal_high_np).to(device)
     action_mean = torch.from_numpy(store.action_mean).to(device)
     action_std = torch.from_numpy(store.action_std).to(device)
     latent_mean = torch.from_numpy(store.latent_mean).to(device)
@@ -588,21 +624,31 @@ def main() -> None:
             selected_clipped = clipped_action[batch_index, selected_index]
 
             bank_raw_robust = outside(raw_action, robust_low, robust_high)
-            bank_raw_legal = outside(raw_action, legal_low, legal_high)
+            bank_raw_legal = outside(
+                raw_action, tolerant_legal_low, tolerant_legal_high
+            )
+            bank_raw_legal_strict = outside(raw_action, legal_low, legal_high)
             bank_exact_robust = exact_boundary(
                 clipped_action, robust_low, robust_high
             )
             selected_raw_robust = outside(selected_raw, robust_low, robust_high)
-            selected_raw_legal = outside(selected_raw, legal_low, legal_high)
+            selected_raw_legal = outside(
+                selected_raw, tolerant_legal_low, tolerant_legal_high
+            )
+            selected_raw_legal_strict = outside(
+                selected_raw, legal_low, legal_high
+            )
             selected_exact_robust = exact_boundary(
                 selected_clipped, robust_low, robust_high
             )
             masks = {
                 "bank_raw_robust_oob": bank_raw_robust,
                 "bank_raw_legal_oob": bank_raw_legal,
+                "bank_raw_legal_strict_oob": bank_raw_legal_strict,
                 "bank_exact_robust_after_clip": bank_exact_robust,
                 "selected_raw_robust_oob": selected_raw_robust,
                 "selected_raw_legal_oob": selected_raw_legal,
+                "selected_raw_legal_strict_oob": selected_raw_legal_strict,
                 "selected_exact_robust_after_clip": selected_exact_robust,
             }
             for name, mask in masks.items():
@@ -613,6 +659,9 @@ def main() -> None:
             values["bank_raw_legal_oob_fraction"][positions] = (
                 per_row_fraction(bank_raw_legal).double().cpu().numpy()
             )
+            values["bank_raw_legal_strict_oob_fraction"][positions] = (
+                per_row_fraction(bank_raw_legal_strict).double().cpu().numpy()
+            )
             values["bank_exact_robust_after_clip_fraction"][positions] = (
                 per_row_fraction(bank_exact_robust).double().cpu().numpy()
             )
@@ -621,6 +670,9 @@ def main() -> None:
             )
             values["selected_raw_legal_oob_fraction"][positions] = (
                 per_row_fraction(selected_raw_legal).double().cpu().numpy()
+            )
+            values["selected_raw_legal_strict_oob_fraction"][positions] = (
+                per_row_fraction(selected_raw_legal_strict).double().cpu().numpy()
             )
             values["selected_exact_robust_after_clip_fraction"][positions] = (
                 per_row_fraction(selected_exact_robust).double().cpu().numpy()
@@ -777,13 +829,21 @@ def main() -> None:
             "planner_primitive_action_std": planner_action_std.tolist(),
             "planner_coordinate_legal_low": legal_low_np.tolist(),
             "planner_coordinate_legal_high": legal_high_np.tolist(),
+            "raw_environment_tolerance": RAW_ENVIRONMENT_TOLERANCE,
+            "planner_coordinate_tolerant_legal_low": (
+                tolerant_legal_low_np.tolist()
+            ),
+            "planner_coordinate_tolerant_legal_high": (
+                tolerant_legal_high_np.tolist()
+            ),
             "transition_h5": str(args.transition_h5),
             "transition_h5_sha256": sha256_file(args.transition_h5),
             "legal_bound_source": str(args.legal_bound_source),
             "legal_bound_source_sha256": sha256_file(args.legal_bound_source),
             "legal_bound_interpretation": (
                 "deployed_environment_action_space_mapped_through_the_exact_"
-                "released_planner_StandardScaler"
+                "released_float32_planner_StandardScaler_with_strict_and_"
+                "four_epsilon_tolerant_diagnostics"
             ),
         },
         "expert_training_cache": expert_cache_summary(
@@ -791,12 +851,16 @@ def main() -> None:
             store.train_rows,
             legal_low=legal_low_np,
             legal_high=legal_high_np,
+            tolerant_legal_low=tolerant_legal_low_np,
+            tolerant_legal_high=tolerant_legal_high_np,
         ),
         "expert_validation_cache": expert_cache_summary(
             store,
             store.validation_rows,
             legal_low=legal_low_np,
             legal_high=legal_high_np,
+            tolerant_legal_low=tolerant_legal_low_np,
+            tolerant_legal_high=tolerant_legal_high_np,
         ),
         "aggregates": aggregates,
         "axis_diagnostics": {name: accumulator.result() for name, accumulator in axis.items()},

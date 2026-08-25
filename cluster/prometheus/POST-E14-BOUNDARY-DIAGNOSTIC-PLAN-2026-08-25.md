@@ -36,8 +36,12 @@ For PushT and Cube, and model seeds 6101, 6102, and 6103, the diagnostic uses:
 The E14 endpoint predicts in the released planner's standardized-action
 coordinates. Therefore the environment limits are mapped through the exact
 frozen `StandardScaler` mean and scale stored in the hashed E14 transition
-cache before any legal-limit comparison. Directly comparing planner
-coordinates with `[-1,1]` is forbidden.
+cache before any legal-limit comparison. The mapping must reproduce the
+released transform's two in-place float32 operations; a one-shot float64
+formula is forbidden because it can differ by one ULP for actions exactly at
+Cube's limits. Both strict limits and a four-float32-epsilon raw-action
+tolerance are reported. Directly comparing planner coordinates with `[-1,1]`
+is forbidden.
 
 It regenerates no D3, D4, or D5 data. It must not read D3, D4, D5, P3, P4,
 C1, or I1 metric-bearing files. P2 is not used.

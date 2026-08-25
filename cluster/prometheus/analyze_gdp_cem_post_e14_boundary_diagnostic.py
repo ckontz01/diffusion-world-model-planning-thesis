@@ -20,9 +20,11 @@ from gdp_cem_e14_data import sha256_file
 KEY_METRICS = (
     "bank_raw_robust_oob_fraction",
     "bank_raw_legal_oob_fraction",
+    "bank_raw_legal_strict_oob_fraction",
     "bank_exact_robust_after_clip_fraction",
     "selected_raw_robust_oob_fraction",
     "selected_raw_legal_oob_fraction",
+    "selected_raw_legal_strict_oob_fraction",
     "selected_exact_robust_after_clip_fraction",
     "raw_candidate_variance",
     "clipped_candidate_variance",
@@ -30,6 +32,11 @@ KEY_METRICS = (
     "clipped_unique_candidates",
 )
 CANDIDATE_COUNT = 300
+RAW_ENVIRONMENT_TOLERANCE = float(4.0 * np.finfo(np.float32).eps)
+LEGAL_SOURCE_SHA256 = {
+    "pusht": "d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68",
+    "cube": "03524eb1c95155bbc2ec3d29e9836fccffe8eb9fce1be15b6f0e7062cc1bb5fd",
+}
 
 
 def read_sha256_records(path: Path) -> dict[str, str]:
@@ -97,6 +104,65 @@ def distribution(value: np.ndarray) -> dict[str, float]:
         "maximum": float(value.max()),
         "mean": float(value.mean(dtype=np.float64)),
     }
+
+
+def validate_bounds(bounds: dict[str, Any], *, task: str) -> dict[str, Any]:
+    """Validate exact released float32 scaler semantics for both legal ranges."""
+
+    dimension = int(spec.TASK_SPEC[task]["primitive_action_dim"])
+    environment_low = np.asarray(bounds.get("environment_legal_low"), dtype=np.float32)
+    environment_high = np.asarray(bounds.get("environment_legal_high"), dtype=np.float32)
+    mean = np.asarray(bounds.get("planner_primitive_action_mean"), dtype=np.float64)
+    std = np.asarray(bounds.get("planner_primitive_action_std"), dtype=np.float64)
+    arrays = (environment_low, environment_high, mean, std)
+    if (
+        any(value.shape != (dimension,) for value in arrays)
+        or not all(np.isfinite(value).all() for value in arrays)
+        or not np.array_equal(environment_low, np.full(dimension, -1.0, dtype=np.float32))
+        or not np.array_equal(environment_high, np.full(dimension, 1.0, dtype=np.float32))
+        or np.any(std < 1.0e-8)
+        or float(bounds.get("raw_environment_tolerance", -1.0))
+        != RAW_ENVIRONMENT_TOLERANCE
+        or bounds.get("transition_h5_sha256")
+        != spec.TASK_SPEC[task]["transition_sha256"]
+        or bounds.get("legal_bound_source_sha256") != LEGAL_SOURCE_SHA256[task]
+        or bounds.get("legal_bound_interpretation")
+        != (
+            "deployed_environment_action_space_mapped_through_the_exact_"
+            "released_float32_planner_StandardScaler_with_strict_and_"
+            "four_epsilon_tolerant_diagnostics"
+        )
+    ):
+        raise RuntimeError("diagnostic legal-bound provenance differs")
+
+    def transform_pair(low: np.ndarray, high: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
+        result = np.stack((low, high), axis=0).astype(np.float32, copy=True)
+        result -= mean.astype(np.float32)
+        result /= std.astype(np.float32)
+        return result[0], result[1]
+
+    strict_low, strict_high = transform_pair(environment_low, environment_high)
+    tolerant_low, tolerant_high = transform_pair(
+        environment_low - RAW_ENVIRONMENT_TOLERANCE,
+        environment_high + RAW_ENVIRONMENT_TOLERANCE,
+    )
+    recorded = (
+        np.asarray(bounds.get("planner_coordinate_legal_low"), dtype=np.float32),
+        np.asarray(bounds.get("planner_coordinate_legal_high"), dtype=np.float32),
+        np.asarray(
+            bounds.get("planner_coordinate_tolerant_legal_low"), dtype=np.float32
+        ),
+        np.asarray(
+            bounds.get("planner_coordinate_tolerant_legal_high"), dtype=np.float32
+        ),
+    )
+    expected = (strict_low, strict_high, tolerant_low, tolerant_high)
+    if any(
+        actual.shape != (dimension,) or not np.array_equal(actual, target)
+        for actual, target in zip(recorded, expected, strict=True)
+    ):
+        raise RuntimeError("diagnostic planner-coordinate legal bounds differ")
+    return bounds
 
 
 def read_cell(
@@ -170,12 +236,13 @@ def read_cell(
     equal_cell = summary.get("aggregates", {}).get("equal_cell_mean", {})
     if any(metric not in equal_cell for metric in KEY_METRICS):
         raise RuntimeError("diagnostic equal-cell aggregate differs")
+    validated_bounds = validate_bounds(summary.get("bounds", {}), task=task)
     return {
         "summary_sha256": records["summary.json"],
         "row_metrics_h5_sha256": records["row-metrics.h5"],
         "equal_cell_mean": {metric: float(equal_cell[metric]) for metric in KEY_METRICS},
         "row_distributions": distributions,
-        "bounds": summary["bounds"],
+        "bounds": validated_bounds,
         "expert_training_cache": summary["expert_training_cache"],
         "expert_validation_cache": summary["expert_validation_cache"],
         "axis_diagnostics": summary["axis_diagnostics"],

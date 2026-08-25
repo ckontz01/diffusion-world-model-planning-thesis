@@ -74,3 +74,53 @@ analyzer and synthetic tests were added. The analyzer validates every output
 hash and all-row E14 reproduction claim, reports predeclared row-distribution
 quantiles and equal-task/equal-seed descriptive summaries, and has no
 scientific gate or E15 authorization authority.
+
+## Full jobs 299176 and 299180: float32-bound correction
+
+All six cells of array 299176 completed successfully, reproduced every stored
+E14 robust-boundary row, and analyzer 299180 completed with valid hashes. The
+legal-limit interpretation is nevertheless excluded. The released
+`StandardScaler.transform` preserves float32 and performs subtraction and
+division as two separately rounded in-place operations. The diagnostic had
+used one float64 expression followed by one float32 cast. For several Cube
+dimensions, the two algebraically equivalent calculations differ by one ULP;
+the shortcut consequently labelled many expert actions exactly at `-1` or
+`+1` as outside the environment.
+
+The corrected diagnostic now reproduces the released two-operation float32
+mapping exactly. It reports strict legal OOB separately from the primary
+four-float32-epsilon tolerant legal OOB diagnostic, matching the repository's
+existing planner-standardizer rounding envelope. The analyzer independently
+recomputes and validates both mapped ranges and pins the deployed environment
+source hashes. This was identified before E15 was designed, trained, or
+authorized. The robust-quantile reproduction from 299176 remains a useful
+technical check, but none of its legal-OOB numbers may support a conclusion.
+
+The first static freeze of this correction stopped in its new scaler-rounding
+unit test. The test had incorrectly equated the most extreme cached expert
+value with `StandardScaler.transform(-1)`; source float32 controls may extend
+by a raw-action rounding unit while still falling inside the registered
+four-epsilon envelope. No smoke or full job was submitted. The corrected test
+now constructs an independent sklearn `StandardScaler` with the frozen
+statistics and requires bit-exact agreement with its float32 transform.
+
+The next static freeze also stopped before execution because the independent
+test used the nonexistent ndarray method `.square()` while assigning sklearn's
+unused `var_` compatibility attribute. It now uses `np.square(std)`. This was
+test-only and no scientific job was submitted.
+
+The following static freeze stopped in the same independent test: applying
+the two float32 operations to separate one-dimensional low/high arrays did not
+bit-match sklearn's two-row matrix transform on one Cube coordinate. The
+implementation now transforms the low/high pair together as the exact
+two-row float32 matrix passed to `StandardScaler.transform`; the analyzer uses
+an independent copy of the same released matrix semantics. No scientific job
+was submitted from this failed staging tree.
+
+The next static freeze showed that matrix shape was not the cause. Inspection
+of the installed sklearn primary implementation found the missing exact step:
+current `StandardScaler.transform` explicitly casts `mean_` and `scale_` to
+the input dtype before its in-place operations. The corrected helper and the
+independent analyzer now cast both frozen statistics to float32 first, exactly
+matching the installed released evaluator. Again, the failed staging tree
+created no scientific job.

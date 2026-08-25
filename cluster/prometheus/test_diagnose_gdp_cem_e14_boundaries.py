@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import numpy as np
 import torch
+from sklearn.preprocessing import StandardScaler
 
 import gdp_cem_e14_specs as spec
 from diagnose_gdp_cem_e14_boundaries import (
@@ -70,3 +71,30 @@ def test_environment_bounds_are_mapped_to_planner_coordinates() -> None:
     )
     np.testing.assert_allclose(low, [-2.5, -2.0], rtol=0.0, atol=0.0)
     np.testing.assert_allclose(high, [1.5, 6.0], rtol=0.0, atol=0.0)
+
+
+def test_environment_transform_preserves_released_float32_rounding() -> None:
+    environment_low = np.asarray([-1.0], dtype=np.float32)
+    environment_high = np.asarray([1.0], dtype=np.float32)
+    mean = np.asarray([0.0026465825646189004], dtype=np.float64)
+    std = np.asarray([0.6431365217957304], dtype=np.float64)
+    low, high = transform_environment_bounds(
+        environment_low, environment_high, mean, std
+    )
+    scaler = StandardScaler()
+    scaler.mean_ = mean.copy()
+    scaler.scale_ = std.copy()
+    scaler.var_ = np.square(std)
+    scaler.n_features_in_ = 1
+    scaler.n_samples_seen_ = 1
+    expected = scaler.transform(
+        np.stack((environment_low, environment_high), axis=0)
+    )[:, 0]
+    assert expected.dtype == np.float32
+    assert low[0] == expected[0]
+    assert high[0] == expected[1]
+    shortcut = np.float32(
+        (np.float64(1.0) - np.float64(0.0026465825646189004))
+        / np.float64(0.6431365217957304)
+    )
+    assert shortcut != high[0]
