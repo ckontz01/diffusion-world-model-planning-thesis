@@ -24,6 +24,8 @@ E16 then tested the narrower hypothesis that E15's one-chunk far endpoint was a 
 
 E17 was the separately frozen follow-up interface preflight. It supplied current state, current latent, the bounded first action chunk, and Le-WM's terminal latent to a fixed residual state predictor. PushT passed comfortably. Cube improved dramatically over E16 and passed its overall, copy-current, median-R-squared, and all duration gates, but its worst-coordinate RMSE was 1.163 against the frozen 0.850 ceiling. Because both tasks were required, E17 stopped without a planner experiment, SAGE comparison, full-horizon diffusion, or protected-holdout use. See the [protocol](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-PROTOCOL-2026-08-27.md), [launch record](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-LAUNCH-2026-08-27.md), and [audited result](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-RESULT-2026-08-27.md).
 
+E18 is a separately frozen, outcome-informed exploratory study rather than a rescue of E17. It keeps the failed E17 checkpoints unchanged and asks the planner-level question that E17 never tested: whether scoring 64 first chunks through eight action-conditioned continuations each can exploit E16's measured candidate-ranking headroom. It compares continuation VAD against 300-candidate and compute-matched 576-candidate greedy VAD plus matched diagonal-Gaussian and direct-GMM continuation controls on fresh P2 development starts. The [frozen protocol](cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-PROTOCOL-2026-08-27.md) and [launch record](cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-LAUNCH-2026-08-27.md) explicitly preserve E17's failed decision and forbid D5 or protected-data use.
+
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, or a comparison with official PRISM.
 
 ## E13 matched PRISM-DP results first, by task
@@ -275,6 +277,7 @@ See the [E17 protocol](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-
 | E15 | Does one boundary-aware redesign preserve VAD's mechanism and support a fair GMM/SAGE comparison? | Bank integrity and GMM structure passed, but VAD failed the PushT task-first direction and unconditional-null rule. Stopped before Gate C; no SAGE comparison or D5. |
 | E16 | Did E15's exact VAD banks contain better first branches than greedy far-endpoint selection exposed, and could the fixed latent-only interface support continuation? | Substantial top-k oracle reranking headroom on both tasks; zero-guidance mixture worsened selection. PushT adapter passed, Cube adapter failed, so no continuation or closed-loop stage ran. |
 | E17 | Can current state plus the proposed first action chunk and Le-WM latents provide a safe transition-state interface for the conservative continuation reranker? | PushT passed. Cube improved strongly and passed all duration gates but failed the frozen worst-coordinate RMSE ceiling (1.163 versus 0.850). Both tasks were required, so no planner study ran. |
+| E18 | Can the unchanged failed-E17 adapter still provide useful ranking information inside the actual 64-by-8 continuation planner on development-only starts? | Frozen exploratory P2 study launched; no result is available yet. E17 remains failed regardless of E18's outcome. |
 
 ## ACID comparator status
 
@@ -288,14 +291,14 @@ Important choices were necessarily reconstructed because the paper did not speci
 
 ## Current publication plan
 
-The method and all E11--E17 evidence stay frozen. E17 triggered its prewritten two-task stop rule, so this continuation line is closed before planner evaluation. The focused next work is:
+The method and all E11--E17 evidence stay frozen. E17 triggered its prewritten two-task stop rule and remains failed. A separately named, outcome-informed E18 exploratory P2 study is now testing the actual 64-by-8 continuation planner without changing E17, consuming D5, or treating development evidence as confirmation. The focused next work is:
 
 1. Build the thesis/paper manuscript around task-first E11 and E13 results before pooled results, including Cube saturation and the opposite PushT/Reacher E13 effects.
 2. Report E14 and E15 together as transparent development evidence: E14 identified the boundary failure, E15 fixed it technically but failed the task-robust mechanism and unconditional-null rules. Do not imply a closed-loop SAGE result.
 3. Report E12's PRISM artifact-validity stop and E13's non-superiority/compute-efficiency result, always limiting PRISM claims to the disclosed reconstruction.
 4. Complete the line-by-line ACID fidelity appendix, published-number comparison, and compute-budget curve as secondary evidence. Keep diffusion-plus-ACID outside the present method.
 5. Finish reproducibility packaging, frozen-table generation, limitations, and the author-code/checkpoint correspondence record before starting another benchmark family.
-6. Do not rescue E15--E17 by changing a failed gate, and do not consume D5. Consider a separately justified PLDM cross-backbone study only after a manuscript-gap review with the supervisor; it must not reinterpret the stopped long-horizon sequence.
+6. Let frozen E18 answer only its planner-level development question. Do not tune it from partial results, change any failed E15--E17 gate, consume D5, or reinterpret a favorable E18 outcome as untouched-holdout confirmation. Consider a separately justified PLDM cross-backbone study only after a manuscript-gap review with the supervisor.
 
 The paper's most defensible established headline remains approximately:
 
