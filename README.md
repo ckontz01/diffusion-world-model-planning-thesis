@@ -6,7 +6,7 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-As of 27 August 2026, two frozen untouched-holdout studies support complementary conclusions. The E14 long-horizon development study, its single preregistered E15 redesign, and the diagnostic E16 continuation attempt all stopped before any closed-loop long-horizon comparison.
+As of 27 August 2026, two frozen untouched-holdout studies support complementary conclusions. The E14 long-horizon development study, its single preregistered E15 redesign, the E16 continuation diagnostic, and the E17 interface preflight all stopped before any closed-loop long-horizon comparison.
 
 E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
 
@@ -22,7 +22,7 @@ E15 applied one common smooth, legality-preserving action representation to boun
 
 E16 then tested the narrower hypothesis that E15's one-chunk far endpoint was a poor selector even when its VAD bank contained useful first branches. Exact replay of 90,000 seed-7201 validation banks per task found real oracle reranking headroom: on genuine far-goal rows, reranking only the far-ranked top 30 reduced mean next-local cost from 32.99 to 14.55 on PushT and from 68.06 to 34.94 on Cube. A fixed half-standard/half-zero-guidance bank was worse on both tasks, so low guidance was not promoted. The required latent-only state adapter passed PushT but failed all three frozen Cube thresholds (RMSE 0.805, maximum coordinate RMSE 1.698, median coordinate R-squared 0.401). E16 Stages B and C therefore remained blocked. The [audited E16 diagnostic result](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-DIAGNOSTIC-RESULT-2026-08-27.md) establishes candidate-ranking headroom, not closed-loop continuation efficacy.
 
-E17 is the separately frozen follow-up interface preflight. It supplies current state, current latent, the bounded first action chunk, and Le-WM's terminal latent to a fixed residual state predictor, with a copy-current control and task/duration gates frozen before role-1 output. Its [protocol](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-PROTOCOL-2026-08-27.md) and [launch record](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-LAUNCH-2026-08-27.md) do not authorize a planner experiment or full-horizon diffusion.
+E17 was the separately frozen follow-up interface preflight. It supplied current state, current latent, the bounded first action chunk, and Le-WM's terminal latent to a fixed residual state predictor. PushT passed comfortably. Cube improved dramatically over E16 and passed its overall, copy-current, median-R-squared, and all duration gates, but its worst-coordinate RMSE was 1.163 against the frozen 0.850 ceiling. Because both tasks were required, E17 stopped without a planner experiment, SAGE comparison, full-horizon diffusion, or protected-holdout use. See the [protocol](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-PROTOCOL-2026-08-27.md), [launch record](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-LAUNCH-2026-08-27.md), and [audited result](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-RESULT-2026-08-27.md).
 
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, or a comparison with official PRISM.
 
@@ -239,6 +239,16 @@ See the [E15 protocol](cluster/prometheus/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LO
 
 See the [E16 protocol](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-AWARE-DIRECT-VAD-DEVELOPMENT-PROTOCOL-2026-08-27.md) and [audited diagnostic result](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-DIAGNOSTIC-RESULT-2026-08-27.md).
 
+### 27 August: E17 action-conditioned adapter preflight stop
+
+- E17 froze one residual state predictor before opening role-1 output. Its inputs were the current low-dimensional state, current latent, bounded first action chunk, and Le-WM terminal latent; a copy-current predictor was the explicit baseline.
+- Both 30,000-step final EMA checkpoints were written before role-1 validation was opened. PushT used 83,215 validation rows and Cube 84,636, with task aggregates and durations 15/20/25 reported separately.
+- PushT passed every gate with RMSE 0.0988, worst-coordinate RMSE 0.2353, median coordinate R-squared 0.9989, and a model/copy-current RMSE ratio of 0.0998.
+- Cube passed its overall RMSE (0.3560), median coordinate R-squared (0.9982), model/copy ratio (0.2986), and every duration gate. It failed the registered worst-coordinate ceiling: 1.1626 versus 0.8500. Three of 28 coordinate RMSEs exceeded the ceiling.
+- Both tasks were mandatory. The final decision was `stop_transition_adapter_preflight_failed`; no continuation planner, SAGE comparison, full-horizon trajectory diffusion, or protected holdout was created or run.
+
+See the [E17 protocol](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-PROTOCOL-2026-08-27.md), [launch record](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-LAUNCH-2026-08-27.md), and [audited result](cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-RESULT-2026-08-27.md).
+
 ## Compact experiment ledger
 
 | Stage | Question | Outcome |
@@ -264,6 +274,7 @@ See the [E16 protocol](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-AWAR
 | Post-E14 diagnosis | Was E14's Cube boundary failure artificial, expert-like saturation, or selection-induced? | Genuine raw overshoot plus hard clipping on a minority of Cube banks; expert saturation itself is legitimate; Le-WM selection was not the main cause. One separately frozen redesign is justified. |
 | E15 | Does one boundary-aware redesign preserve VAD's mechanism and support a fair GMM/SAGE comparison? | Bank integrity and GMM structure passed, but VAD failed the PushT task-first direction and unconditional-null rule. Stopped before Gate C; no SAGE comparison or D5. |
 | E16 | Did E15's exact VAD banks contain better first branches than greedy far-endpoint selection exposed, and could the fixed latent-only interface support continuation? | Substantial top-k oracle reranking headroom on both tasks; zero-guidance mixture worsened selection. PushT adapter passed, Cube adapter failed, so no continuation or closed-loop stage ran. |
+| E17 | Can current state plus the proposed first action chunk and Le-WM latents provide a safe transition-state interface for the conservative continuation reranker? | PushT passed. Cube improved strongly and passed all duration gates but failed the frozen worst-coordinate RMSE ceiling (1.163 versus 0.850). Both tasks were required, so no planner study ran. |
 
 ## ACID comparator status
 
@@ -277,14 +288,14 @@ Important choices were necessarily reconstructed because the paper did not speci
 
 ## Current publication plan
 
-The method and all E11--E15 evidence stay frozen. E15 triggered the prewritten stop rule, so the long-horizon rescue line is closed. The focused next work is:
+The method and all E11--E17 evidence stay frozen. E17 triggered its prewritten two-task stop rule, so this continuation line is closed before planner evaluation. The focused next work is:
 
 1. Build the thesis/paper manuscript around task-first E11 and E13 results before pooled results, including Cube saturation and the opposite PushT/Reacher E13 effects.
 2. Report E14 and E15 together as transparent development evidence: E14 identified the boundary failure, E15 fixed it technically but failed the task-robust mechanism and unconditional-null rules. Do not imply a closed-loop SAGE result.
 3. Report E12's PRISM artifact-validity stop and E13's non-superiority/compute-efficiency result, always limiting PRISM claims to the disclosed reconstruction.
 4. Complete the line-by-line ACID fidelity appendix, published-number comparison, and compute-budget curve as secondary evidence. Keep diffusion-plus-ACID outside the present method.
 5. Finish reproducibility packaging, frozen-table generation, limitations, and the author-code/checkpoint correspondence record before starting another benchmark family.
-6. Do not create an E16 boundary rescue or consume D5. Consider a separately justified PLDM cross-backbone study only after a manuscript-gap review with the supervisor; it must not reinterpret or rescue E15.
+6. Do not rescue E15--E17 by changing a failed gate, and do not consume D5. Consider a separately justified PLDM cross-backbone study only after a manuscript-gap review with the supervisor; it must not reinterpret the stopped long-horizon sequence.
 
 The paper's most defensible established headline remains approximately:
 
