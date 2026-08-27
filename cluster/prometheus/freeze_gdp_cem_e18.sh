@@ -10,6 +10,9 @@ ROOT=/lustreFS/data/superworld/ckontzias/thesis
 BASE=${ROOT}/snapshots/gdp-cem-e17-adapter-9fb5a8c296feec81
 BASE_MANIFEST=9fb5a8c296feec81c7982a79272e502216eaf91ad987b0e70c156cb2c5ad9fc1
 PROTOCOL_SHA=aff490f3f000c7d9b261632dcd3ccfc76a630b2f44e41f78832c3719607b8459
+IMAGE=${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif
+ENV_DIR=${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006
+CODE=${ROOT}/src/hi-lewm
 test "${output_parent}" = "${ROOT}/snapshots"
 test "$(sha256sum "${BASE}/SOURCE-MANIFEST.sha256" | cut -d' ' -f1)" = "${BASE_MANIFEST}"
 (cd "${BASE}" && sha256sum -c SOURCE-MANIFEST.sha256 >/dev/null)
@@ -49,7 +52,11 @@ for file in "${files[@]}"; do
   cp "${source_root}/${file}" "${staging}/${file}"
 done
 test "$(sha256sum "${staging}/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-PROTOCOL-2026-08-27.md" | cut -d' ' -f1)" = "${PROTOCOL_SHA}"
-python3 "${staging}/create_gdp_cem_e18_cells.py" --output "${staging}/E18-CELLS.tsv"
+apptainer exec --cleanenv --bind "${ROOT}:${ROOT}" "${IMAGE}" env \
+  PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 \
+  PYTHONPATH="${staging}:${CODE}:${CODE}/third_party/lewm" \
+  "${ENV_DIR}/bin/python" "${staging}/create_gdp_cem_e18_cells.py" \
+  --output "${staging}/E18-CELLS.tsv"
 test "$(( $(wc -l < "${staging}/E18-CELLS.tsv") - 1 ))" = 240
 bash -n \
   "${staging}/run_gdp_cem_e18_input_audit.slurm" \
@@ -59,9 +66,6 @@ bash -n \
   "${staging}/freeze_gdp_cem_e18.sh" \
   "${staging}/submit_gdp_cem_e18.sh"
 
-IMAGE=${ROOT}/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif
-ENV_DIR=${ROOT}/envs/hi-lewm-artifact-py311-cu121-swm006
-CODE=${ROOT}/src/hi-lewm
 apptainer exec --cleanenv --bind "${ROOT}:${ROOT}" "${IMAGE}" env \
   PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 \
   PYTHONPATH="${staging}:${CODE}:${CODE}/third_party/lewm" \
