@@ -6,7 +6,7 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-As of 25 August 2026, two frozen untouched-holdout studies support complementary conclusions. The E14 long-horizon development study and its single preregistered E15 redesign both stopped at offline gates before any closed-loop long-horizon comparison.
+As of 27 August 2026, two frozen untouched-holdout studies support complementary conclusions. The E14 long-horizon development study, its single preregistered E15 redesign, and the diagnostic E16 continuation attempt all stopped before any closed-loop long-horizon comparison.
 
 E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
 
@@ -19,6 +19,8 @@ E14 tested whether the method could extend to variable-duration, long-horizon pl
 The [post-E14 boundary diagnosis](cluster/prometheus/POST-E14-BOUNDARY-DIAGNOSTIC-RESULT-2026-08-25.md) reproduced every E14 boundary row and compared raw proposals with the exact deployed float32 action transforms. Cube's mean legal overshoot was about 2.49%, while the worst query banks reached the same 27--36% values that stopped E14; selected and full-bank means were nearly identical. Cube experts were legal but genuinely saturated at several coordinates. The correct target for one separately frozen E15 is therefore overshoot and hard clipping, not all boundary use. E14 remains failed and D5 remains sealed.
 
 E15 applied one common smooth, legality-preserving action representation to boundary-aware VAD, a matched diagonal Gaussian, a direct eight-mode trajectory GMM, and the VAD conditioning nulls. All 22 banks passed the new expert-relative integrity rules with zero legal OOB values, zero exact boundary values, and 300 unique candidates; all six GMM task/seed banks passed their structural checks. VAD also beat Gaussian on both equal-task primary metrics for every seed. The mechanism gate still failed: Cube won both metrics at every duration, but PushT's selected true-local cost was worse than Gaussian at every duration, and true VAD did not beat unconditional VAD on the full frozen null rule. The final decision was `stop_before_gate_c_frozen_gate_b_failed`; no Gate C, SAGE efficacy comparison, or D5 result was produced. See the [audited E15 Gate-B result](cluster/prometheus/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-GATE-B-RESULT-2026-08-25.md).
+
+E16 then tested the narrower hypothesis that E15's one-chunk far endpoint was a poor selector even when its VAD bank contained useful first branches. Exact replay of 90,000 seed-7201 validation banks per task found real oracle reranking headroom: on genuine far-goal rows, reranking only the far-ranked top 30 reduced mean next-local cost from 32.99 to 14.55 on PushT and from 68.06 to 34.94 on Cube. A fixed half-standard/half-zero-guidance bank was worse on both tasks, so low guidance was not promoted. The required latent-only state adapter passed PushT but failed all three frozen Cube thresholds (RMSE 0.805, maximum coordinate RMSE 1.698, median coordinate R-squared 0.401). E16 Stages B and C therefore remained blocked. The [audited E16 diagnostic result](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-DIAGNOSTIC-RESULT-2026-08-27.md) establishes candidate-ranking headroom, not closed-loop continuation efficacy.
 
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, or a comparison with official PRISM.
 
@@ -225,6 +227,16 @@ See the [diagnostic plan](cluster/prometheus/POST-E14-BOUNDARY-DIAGNOSTIC-PLAN-2
 
 See the [E15 protocol](cluster/prometheus/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-PROTOCOL-2026-08-25.md), [implementation decisions](cluster/prometheus/E15-IMPLEMENTATION-DECISIONS-1-2026-08-25.md), and [Gate-B result](cluster/prometheus/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-GATE-B-RESULT-2026-08-25.md).
 
+### 27 August: E16 continuation diagnosis and interface stop
+
+- E16 left E15 immutable and replayed the exact seed-7201 VAD banks for all 90,000 role-1 P1 queries per task before computing any new rank diagnostic. Both tasks reproduced E15's selected far and local costs with zero numerical error.
+- Far-goal and immediate-local rankings disagreed strongly. Restricting an oracle reranker to the far-ranked top 30 roughly halved selected local cost on both tasks, including the registered long-offset subset. This is concrete headroom for a two-stage selector, not proof that a learned continuation realizes it.
+- Replacing half the bank with same-noise zero-guidance samples slightly improved demonstrated-action oracle MSE but worsened the far-selected local cost by 8.46 on PushT and 7.65 on Cube. It was not promoted.
+- The preregistered latent-only adapter passed PushT but failed Cube's RMSE, worst-coordinate, and median-R-squared thresholds. As required, no E16 Stage B, closed-loop Stage C, SAGE comparison, or protected holdout was launched.
+- The only authorized follow-up is a separately frozen action-conditioned transition-state adapter preflight using exposed P1 data. Full-horizon trajectory diffusion remains outside scope.
+
+See the [E16 protocol](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-AWARE-DIRECT-VAD-DEVELOPMENT-PROTOCOL-2026-08-27.md) and [audited diagnostic result](cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-DIAGNOSTIC-RESULT-2026-08-27.md).
+
 ## Compact experiment ledger
 
 | Stage | Question | Outcome |
@@ -249,6 +261,7 @@ See the [E15 protocol](cluster/prometheus/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LO
 | E14 | Does duration-conditioned diffusion support SAGE-style long-horizon planning? | Stopped at offline Gate B: VAD beat Gaussian and null controls but exceeded the Cube boundary ceiling; CVD also failed matched terminal cost. No closed-loop SAGE comparison. |
 | Post-E14 diagnosis | Was E14's Cube boundary failure artificial, expert-like saturation, or selection-induced? | Genuine raw overshoot plus hard clipping on a minority of Cube banks; expert saturation itself is legitimate; Le-WM selection was not the main cause. One separately frozen redesign is justified. |
 | E15 | Does one boundary-aware redesign preserve VAD's mechanism and support a fair GMM/SAGE comparison? | Bank integrity and GMM structure passed, but VAD failed the PushT task-first direction and unconditional-null rule. Stopped before Gate C; no SAGE comparison or D5. |
+| E16 | Did E15's exact VAD banks contain better first branches than greedy far-endpoint selection exposed, and could the fixed latent-only interface support continuation? | Substantial top-k oracle reranking headroom on both tasks; zero-guidance mixture worsened selection. PushT adapter passed, Cube adapter failed, so no continuation or closed-loop stage ran. |
 
 ## ACID comparator status
 
