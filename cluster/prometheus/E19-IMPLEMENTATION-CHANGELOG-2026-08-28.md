@@ -71,3 +71,19 @@ a zero-dimensional integer tensor directly as bytes, which PyTorch rejects.
 The helper now flattens every contiguous tensor before its byte view, and a
 scalar-tensor regression test is part of the frozen wrapper suite. This changes
 only deterministic audit hashing; it does not change any model or experiment.
+
+## 29 August 2026 — corrected replacement chain launched
+
+The corrected immutable snapshot is `gdp-cem-e19-e466db24b8ed85ad`, with
+source-manifest SHA-256
+`e466db24b8ed85ad6dd8c2d65bd03900a14b0834d158de0e7db8c07495d8fce0`.
+Before submission it passed complete source-manifest verification, nine E19
+wrapper tests, seven unchanged upstream SAGE tests, CPU deserialization of both
+exact versioned LeWM checkpoints, and an exact legacy-versus-versioned identity
+smoke in which all 303 state entries matched for both PushT and Cube.
+
+The replacement dependency chain is jobs 299659–299663: preparation 299659,
+release audit 299660, identifier-only overlap and LeWM/data audit 299661,
+180-cell official reproduction array 299662, and unchanged official
+summarizer/analyzer 299663. The scientific protocol and its SHA-256 remain
+unchanged.
