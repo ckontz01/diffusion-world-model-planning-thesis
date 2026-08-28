@@ -87,3 +87,48 @@ release audit 299660, identifier-only overlap and LeWM/data audit 299661,
 180-cell official reproduction array 299662, and unchanged official
 summarizer/analyzer 299663. The scientific protocol and its SHA-256 remain
 unchanged.
+
+## 29 August 2026 — legacy serialization mapped to the official SAGE LeWM runtime
+
+Preparation 299659, release audit 299660, and identifier-only overlap audit
+299661 completed successfully.  The release gate, data-identity gate, exact
+LeWM tensor-identity audit, and all checkpoint hashes passed.  The overlap
+audit found that the official paper manifests intersect E18 training in 270
+PushT episodes and 84 Cube episodes.  Therefore the native official
+reproduction remains allowed, but a later matched E18-versus-SAGE comparison
+on those paper manifests is forbidden.  The audit preserved common untouched
+candidate splits containing 579 PushT and 280 Cube episodes.
+
+Official reproduction array 299662 then failed uniformly before producing any
+result: completed failing cells 0–21 had the identical stderr SHA-256
+`ad28736ff69776c8ea29777f91db92d84f54cb665f4972e4fe4a7cfa5148d45e`
+and raised `RuntimeError: Input type (float) and bias type (c10::BFloat16)
+should be the same`.  Cell 22 was cancelled after it started, and the remaining
+array plus analyzer 299663 were cancelled.  No `results.json`, official
+summary, or performance metric was produced or read.
+
+The root cause was serialization compatibility, not SAGE or checkpoint data.
+The exact versioned LeWM object files serialize the historical names
+`jepa.JEPA` and `module.ARPredictor`.  Loading those names from the historical
+repository instantiated obsolete execution semantics: its action embedder
+forces float32 into a bf16 convolution, and its `get_cost` unconditionally
+re-encodes the far goal, silently discarding the local `goal_emb` injected by
+official SAGE.  Patching that obsolete class would therefore make the job run
+but would not reproduce official SAGE.
+
+The correction is a two-file pickle-name compatibility layer placed before the
+historical runtime on `PYTHONPATH`.  It maps `jepa.JEPA` to the pinned official
+`stable_worldmodel.wm.lewm.lewm.LeWM` and `module.ARPredictor` to the pinned
+official `Predictor`.  It changes neither official SAGE source nor checkpoint
+bytes or tensors.  A pre-freeze proof loaded both exact versioned objects as
+the official LeWM class and matched all 303 state entries bit-for-bit against
+the corresponding legacy official-class object on both tasks.
+
+Every replacement snapshot must now pass that class/tensor audit while being
+frozen.  A separate non-performance A6000 runtime preflight must additionally
+show exact synthetic cost parity, successful float32-to-bf16 action handling,
+and preservation/use of an injected cached goal before the 180-cell official
+array is eligible to start.  This correction changes only pickle class-name
+resolution and technical validation; it does not change SAGE, LeWM tensors,
+checkpoints, datasets, manifests, methods, cells, seeds, horizons, candidates,
+CEM rounds, schedules, budgets, tolerance, scientific gates, or analysis.

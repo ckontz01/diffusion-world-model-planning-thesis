@@ -28,12 +28,16 @@ test ! -w "${SNAPSHOT}"
 (cd "${SNAPSHOT}" && sha256sum -c SOURCE-MANIFEST.sha256 >/dev/null)
 test -f "${SNAPSHOT}/lewm-runtime/jepa.py"
 test -f "${SNAPSHOT}/lewm-runtime/module.py"
+test -f "${SNAPSHOT}/lewm-serialization-compat/jepa.py"
+test -f "${SNAPSHOT}/lewm-serialization-compat/module.py"
 sha256sum -c "${ENV_DIR}/sha256.txt" >/dev/null
 (cd "${RUN_ROOT}/preparation" && sha256sum -c sha256.txt >/dev/null)
 (cd "${RUN_ROOT}/release-audit" && sha256sum -c sha256.txt >/dev/null)
 (cd "${RUN_ROOT}/data-overlap-audit" && sha256sum -c sha256.txt >/dev/null)
+(cd "${RUN_ROOT}/runtime-preflight" && sha256sum -c sha256.txt >/dev/null)
 python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["release_gate_passed"] is True' "${RUN_ROOT}/release-audit/RELEASE-AUDIT.json"
 python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["data_identity_gate_passed"] is True' "${RUN_ROOT}/data-overlap-audit/DATA-OVERLAP-AUDIT.json"
+python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${RUN_ROOT}/runtime-preflight/RUNTIME-PREFLIGHT-AUDIT.json"
 record=$(awk -F '\t' -v id="${SLURM_ARRAY_TASK_ID}" 'NR>1 && $1==id {print $0}' "${CELLS}")
 test -n "${record}"
 IFS=$'\t' read -r ARRAY_ID BENCHMARK METHOD SEED HORIZON <<< "${record}"
@@ -86,7 +90,7 @@ apptainer exec --nv --cleanenv \
   PATH="${ENV_DIR}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
   PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 \
   CUBLAS_WORKSPACE_CONFIG=:4096:8 \
-  PYTHONPATH="${SAGE}:${SNAPSHOT}:${SNAPSHOT}/lewm-runtime" \
+  PYTHONPATH="${SNAPSHOT}/lewm-serialization-compat:${SAGE}:${SNAPSHOT}:${SNAPSHOT}/lewm-runtime" \
   MUJOCO_GL=egl PYOPENGL_PLATFORM=egl SDL_VIDEODRIVER=dummy MPLBACKEND=Agg \
   TMPDIR="${JOB_TMP}" \
   "${ENV_DIR}/bin/python" -m sage.eval.${BENCHMARK} \

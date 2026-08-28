@@ -22,12 +22,15 @@ release_job=$(sbatch --parsable --dependency="afterok:${prepare_job}" \
 overlap_job=$(sbatch --parsable --dependency="afterok:${prepare_job}" \
   --export=ALL,SNAPSHOT="${snapshot}",RUN_ROOT="${run_root}" \
   "${snapshot}/run_gdp_cem_e19_data_overlap_audit.slurm")
-evaluation_job=$(sbatch --parsable --dependency="afterok:${release_job}:${overlap_job}" \
+runtime_job=$(sbatch --parsable --dependency="afterok:${release_job}:${overlap_job}" \
+  --export=ALL,SNAPSHOT="${snapshot}",RUN_ROOT="${run_root}" \
+  "${snapshot}/run_gdp_cem_e19_runtime_preflight.slurm")
+evaluation_job=$(sbatch --parsable --dependency="afterok:${runtime_job}" \
   --export=ALL,SNAPSHOT="${snapshot}",RUN_ROOT="${run_root}" \
   "${snapshot}/run_gdp_cem_e19_evaluate.slurm")
 analysis_job=$(sbatch --parsable --dependency="afterok:${evaluation_job}" \
   --export=ALL,SNAPSHOT="${snapshot}",RUN_ROOT="${run_root}" \
   "${snapshot}/run_gdp_cem_e19_analyze.slurm")
-printf 'run_root=%s\nprepare_job=%s\nrelease_job=%s\noverlap_job=%s\nevaluation_job=%s\nanalysis_job=%s\n' \
+printf 'run_root=%s\nprepare_job=%s\nrelease_job=%s\noverlap_job=%s\nruntime_job=%s\nevaluation_job=%s\nanalysis_job=%s\n' \
   "${run_root}" "${prepare_job}" "${release_job}" "${overlap_job}" \
-  "${evaluation_job}" "${analysis_job}"
+  "${runtime_job}" "${evaluation_job}" "${analysis_job}"

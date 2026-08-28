@@ -21,6 +21,7 @@ FILES=(
   audit_gdp_cem_e19_data_overlap.py
   audit_gdp_cem_e19_lewm_identity.py
   audit_gdp_cem_e19_release.py
+  audit_gdp_cem_e19_serialization_compat.py
   create_gdp_cem_e19_cells.py
   freeze_gdp_cem_e19.sh
   gdp_cem_e19_specs.py
@@ -30,13 +31,16 @@ FILES=(
   run_gdp_cem_e19_evaluate.slurm
   run_gdp_cem_e19_prepare.slurm
   run_gdp_cem_e19_release_audit.slurm
+  run_gdp_cem_e19_runtime_preflight.slurm
   stage_gdp_cem_e19_checkpoints_login.sh
   submit_gdp_cem_e19.sh
   test_audit_gdp_cem_e19_data_overlap.py
   test_audit_gdp_cem_e19_release.py
+  test_audit_gdp_cem_e19_serialization_compat.py
   test_gdp_cem_e19_specs.py
   validate_gdp_cem_e19_cell.py
 )
+SHIM_FILES=(jepa.py module.py)
 
 STAGED_ROOT=$(cd "${STAGED_ROOT}" && pwd -P)
 OFFICIAL_SAGE=$(cd "${OFFICIAL_SAGE}" && pwd -P)
@@ -57,6 +61,9 @@ git -C "${LEWM_RUNTIME}" fsck --no-dangling >/dev/null
 for file in "${FILES[@]}"; do
   test -f "${STAGED_ROOT}/${file}"
 done
+for file in "${SHIM_FILES[@]}"; do
+  test -f "${STAGED_ROOT}/e19_lewm_serialization_compat/${file}"
+done
 
 BUILD=$(mktemp -d "${OUTPUT_PARENT}/.gdp-cem-e19-freeze.XXXXXXXX")
 cleanup() {
@@ -72,6 +79,11 @@ trap cleanup EXIT
 for file in "${FILES[@]}"; do
   cp -- "${STAGED_ROOT}/${file}" "${BUILD}/${file}"
 done
+mkdir -p "${BUILD}/lewm-serialization-compat"
+for file in "${SHIM_FILES[@]}"; do
+  cp -- "${STAGED_ROOT}/e19_lewm_serialization_compat/${file}" \
+    "${BUILD}/lewm-serialization-compat/${file}"
+done
 cp -a -- "${OFFICIAL_SAGE}" "${BUILD}/official-sage"
 mkdir -p "${BUILD}/lewm-runtime"
 git -C "${LEWM_RUNTIME}" archive --format=tar HEAD \
@@ -80,7 +92,7 @@ test -f "${BUILD}/lewm-runtime/jepa.py"
 test -f "${BUILD}/lewm-runtime/module.py"
 
 export PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0
-export PYTHONPATH=${BUILD}:${BUILD}/official-sage:${BUILD}/lewm-runtime
+export PYTHONPATH=${BUILD}/lewm-serialization-compat:${BUILD}:${BUILD}/official-sage:${BUILD}/lewm-runtime
 export E19_SAGE_ROOT=${BUILD}/official-sage
 "${ENV_DIR}/bin/python" "${BUILD}/create_gdp_cem_e19_cells.py" \
   --output "${BUILD}/E19-CELLS.tsv"
@@ -101,6 +113,7 @@ find "${BUILD}" -maxdepth 1 -type f \
   "${BUILD}/test_gdp_cem_e19_specs.py" \
   "${BUILD}/test_audit_gdp_cem_e19_release.py" \
   "${BUILD}/test_audit_gdp_cem_e19_data_overlap.py" \
+  "${BUILD}/test_audit_gdp_cem_e19_serialization_compat.py" \
   > "${BUILD}/wrapper-tests.txt"
 "${ENV_DIR}/bin/python" -m pytest -q -p no:cacheprovider \
   "${BUILD}/official-sage/tests" > "${BUILD}/upstream-tests.txt"
@@ -108,61 +121,10 @@ grep -Eq '^7 passed(, [0-9]+ warnings?)? in [0-9.]+s$' \
   "${BUILD}/upstream-tests.txt"
 test -z "$(git -C "${BUILD}/official-sage" status --porcelain --untracked-files=all)"
 
-"${ENV_DIR}/bin/python" - "${BUILD}" "${ROOT}" <<'PY'
-from __future__ import annotations
-
-import hashlib
-import json
-import sys
-from pathlib import Path
-
-import stable_worldmodel as swm
-
-
-def digest(path: Path) -> str:
-    value = hashlib.sha256()
-    with path.open("rb") as stream:
-        for chunk in iter(lambda: stream.read(1024 * 1024), b""):
-            value.update(chunk)
-    return value.hexdigest()
-
-
-snapshot = Path(sys.argv[1])
-root = Path(sys.argv[2])
-checkpoints = {
-    "pusht": root / "data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
-    "cube": root / "data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
-}
-rows = []
-for task, path in checkpoints.items():
-    suffix = "_object.ckpt"
-    if not path.name.endswith(suffix):
-        raise ValueError(path)
-    model = swm.policy.AutoCostModel(str(path)[: -len(suffix)])
-    model.eval().requires_grad_(False)
-    rows.append(
-        {
-            "task": task,
-            "checkpoint": str(path),
-            "checkpoint_sha256": digest(path),
-            "model_type": f"{type(model).__module__}.{type(model).__qualname__}",
-        }
-    )
-(snapshot / "LEWM-RUNTIME-PREFLIGHT.json").write_text(
-    json.dumps(
-        {
-            "kind": "gdp_cem_e19_lewm_runtime_deserialization_preflight",
-            "checkpoints": rows,
-            "performance_metric_read": False,
-            "protected_metric_artifact_read": False,
-        },
-        indent=2,
-        sort_keys=True,
-    )
-    + "\n",
-    encoding="utf-8",
-)
-PY
+"${ENV_DIR}/bin/python" "${BUILD}/audit_gdp_cem_e19_serialization_compat.py" \
+  --pair "pusht=${ROOT}/data/stablewm/pusht/lewm_object.ckpt,${ROOT}/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt" \
+  --pair "cube=${ROOT}/data/stablewm/cube/lewm_object.ckpt,${ROOT}/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt" \
+  --output "${BUILD}/LEWM-SERIALIZATION-COMPAT-PREFLIGHT.json"
 
 "${ENV_DIR}/bin/python" - "${BUILD}" "${ENV_DIR}" "${COMMIT}" "${TREE}" \
   "${LEWM_RUNTIME_COMMIT}" "${LEWM_RUNTIME_TREE}" "${PROTOCOL}" <<'PY'
@@ -190,7 +152,15 @@ payload = {
     "official_sage_tree": sys.argv[4],
     "lewm_runtime_commit": sys.argv[5],
     "lewm_runtime_tree": sys.argv[6],
-    "lewm_runtime_preflight_sha256": digest(root / "LEWM-RUNTIME-PREFLIGHT.json"),
+    "lewm_serialization_compat_preflight_sha256": digest(
+        root / "LEWM-SERIALIZATION-COMPAT-PREFLIGHT.json"
+    ),
+    "lewm_serialization_compat_jepa_sha256": digest(
+        root / "lewm-serialization-compat/jepa.py"
+    ),
+    "lewm_serialization_compat_module_sha256": digest(
+        root / "lewm-serialization-compat/module.py"
+    ),
     "protocol_sha256": digest(root / sys.argv[7]),
     "cell_manifest_sha256": digest(root / "E19-CELLS.tsv"),
     "cell_count": 180,
