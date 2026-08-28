@@ -165,3 +165,13 @@ preflight-harness correction only.  It does not change the compatibility
 mapping, official SAGE, LeWM execution, checkpoint bytes or tensors, datasets,
 manifests, methods, cells, seeds, horizons, candidates, CEM rounds, schedules,
 budgets, tolerance, scientific gates, or analysis.
+
+The corrected audit snapshot is `gdp-cem-e19-45cc1704be7bd506`, with
+source-manifest SHA-256
+`45cc1704be7bd5069293410a925af76b797518c556238e8396f7b9483200cb87`
+and the same protocol SHA-256.  It passed 12 E19 wrapper tests, seven unchanged
+upstream tests, complete manifest verification, official runtime class
+identity, and exact 303-tensor identity on both tasks.  Its replacement chain
+is preparation 299694, release audit 299695, identifier-only overlap/data audit
+299696, non-performance A6000 runtime preflight 299697, 180-cell official
+reproduction array 299698, and unchanged official summarizer/analyzer 299699.
