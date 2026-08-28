@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from types import SimpleNamespace
+
 import torch
 
 import audit_gdp_cem_e19_serialization_compat as audit
@@ -21,3 +23,10 @@ def test_state_digest_handles_scalar_tensor():
     different = audit.state_digest({"scalar": torch.tensor(8)})
     assert first == second
     assert first != different
+
+
+def test_rollout_history_matches_official_legacy_fallback():
+    historical = SimpleNamespace(predictor=SimpleNamespace())
+    current = SimpleNamespace(predictor=SimpleNamespace(num_frames=5))
+    assert audit.rollout_history(historical) == 3
+    assert audit.rollout_history(current) == 5

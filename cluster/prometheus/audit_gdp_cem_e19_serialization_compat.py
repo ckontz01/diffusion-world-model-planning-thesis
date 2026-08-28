@@ -52,6 +52,11 @@ def clone_info(info: dict[str, torch.Tensor]) -> dict[str, torch.Tensor]:
     return {name: value.detach().clone() for name, value in info.items()}
 
 
+def rollout_history(model) -> int:
+    """Mirror the pinned official LeWM fallback for historical predictors."""
+    return int(getattr(model.predictor, "num_frames", 3))
+
+
 @torch.inference_mode()
 def synthetic_cost_parity(reference, candidate, device: torch.device, seed: int) -> dict:
     reference = reference.to(device).eval()
@@ -61,7 +66,7 @@ def synthetic_cost_parity(reference, candidate, device: torch.device, seed: int)
     if reference_dtype != candidate_dtype:
         raise AssertionError((reference_dtype, candidate_dtype))
 
-    history = int(candidate.predictor.num_frames)
+    history = rollout_history(candidate)
     embedding_dim = int(candidate.predictor.input_dim)
     action_dim = int(candidate.action_encoder.input_dim)
     batch, samples, horizon = 1, 2, history + 2

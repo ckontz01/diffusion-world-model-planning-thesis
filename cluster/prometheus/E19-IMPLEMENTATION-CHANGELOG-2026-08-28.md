@@ -145,3 +145,23 @@ official-class/tensor-identity preflight.  The replacement chain is preparation
 non-performance A6000 runtime preflight 299691, 180-cell official reproduction
 array 299692, and unchanged official summarizer/analyzer 299693.  Array 299692
 cannot start unless the synthetic runtime preflight passes.
+
+## 29 August 2026 — runtime-preflight legacy-history correction
+
+Jobs 299688–299690 completed successfully, and their sealed release,
+data-identity, overlap, checkpoint, and LeWM tensor-identity audits passed.
+Runtime preflight 299691 then failed before writing an audit because its
+synthetic-input builder directly accessed `predictor.num_frames`.  Historical
+serialized predictors do not store that attribute.  The pinned official LeWM
+runtime intentionally handles those objects with
+`getattr(self.predictor, "num_frames", 3)`, but the new audit harness had not
+mirrored that fallback.  Dependent evaluation 299692 and analyzer 299693 were
+cancelled; no official evaluation cell ran and no performance artifact was
+produced or read.
+
+The audit now uses the identical official fallback, with a regression test for
+both legacy and current predictor objects.  This is a non-performance
+preflight-harness correction only.  It does not change the compatibility
+mapping, official SAGE, LeWM execution, checkpoint bytes or tensors, datasets,
+manifests, methods, cells, seeds, horizons, candidates, CEM rounds, schedules,
+budgets, tolerance, scientific gates, or analysis.
