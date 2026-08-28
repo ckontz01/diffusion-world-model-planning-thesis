@@ -57,6 +57,20 @@ def rollout_history(model) -> int:
     return int(getattr(model.predictor, "num_frames", 3))
 
 
+def predictor_embedding_dim(model) -> int:
+    predictor = model.predictor
+    if hasattr(predictor, "input_dim"):
+        return int(predictor.input_dim)
+    return int(predictor.pos_embedding.shape[-1])
+
+
+def action_input_dim(model) -> int:
+    encoder = model.action_encoder
+    if hasattr(encoder, "input_dim"):
+        return int(encoder.input_dim)
+    return int(encoder.patch_embed.in_channels)
+
+
 @torch.inference_mode()
 def synthetic_cost_parity(reference, candidate, device: torch.device, seed: int) -> dict:
     reference = reference.to(device).eval()
@@ -67,8 +81,8 @@ def synthetic_cost_parity(reference, candidate, device: torch.device, seed: int)
         raise AssertionError((reference_dtype, candidate_dtype))
 
     history = rollout_history(candidate)
-    embedding_dim = int(candidate.predictor.input_dim)
-    action_dim = int(candidate.action_encoder.input_dim)
+    embedding_dim = predictor_embedding_dim(candidate)
+    action_dim = action_input_dim(candidate)
     batch, samples, horizon = 1, 2, history + 2
     generator = torch.Generator(device=device).manual_seed(seed)
     embedding = torch.randn(

@@ -175,3 +175,22 @@ identity, and exact 303-tensor identity on both tasks.  Its replacement chain
 is preparation 299694, release audit 299695, identifier-only overlap/data audit
 299696, non-performance A6000 runtime preflight 299697, 180-cell official
 reproduction array 299698, and unchanged official summarizer/analyzer 299699.
+
+Runtime preflight 299697 exposed the same harness assumption for
+`predictor.input_dim`: historical serialized predictors retain the dimension
+in `pos_embedding` but do not store that convenience attribute.  It failed
+before writing an audit; dependent jobs 299698–299699 were cancelled and no
+evaluation or performance artifact existed.  The harness now derives the
+predictor dimension from `pos_embedding.shape[-1]` when necessary and likewise
+derives the action dimension from `patch_embed.in_channels` if the historical
+action encoder lacks `input_dim`.  Both fallbacks are regression-tested.  The
+complete updated synthetic preflight is executed once as a development-only,
+non-performance A6000 diagnostic before another immutable snapshot is made.
+
+Development-only A6000 diagnostic 299700 then executed that complete updated
+preflight on both PushT and Cube and passed.  It verified official runtime
+types, exact checkpoint hashes, exact 303-tensor identity, successful
+float32-to-bfloat16 action handling, preservation and use of the injected
+cached goal, finite outputs, and bit-exact reference-versus-versioned cost
+parity with maximum absolute difference 0.0.  Its audit explicitly records no
+performance, protected-metric, or D5 read.
