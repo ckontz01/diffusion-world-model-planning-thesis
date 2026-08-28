@@ -27,6 +27,7 @@ FILES=(
   run_gdp_cem_e19_evaluate.slurm
   run_gdp_cem_e19_prepare.slurm
   run_gdp_cem_e19_release_audit.slurm
+  stage_gdp_cem_e19_checkpoints_login.sh
   submit_gdp_cem_e19.sh
   test_audit_gdp_cem_e19_data_overlap.py
   test_audit_gdp_cem_e19_release.py

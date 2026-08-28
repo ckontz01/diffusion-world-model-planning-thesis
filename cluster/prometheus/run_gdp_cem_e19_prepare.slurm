@@ -16,6 +16,7 @@ ROOT=/lustreFS/data/superworld/ckontzias/thesis
 ENV_DIR=${ROOT}/envs/sage-official-py310-torch251-cu121
 SAGE=${SNAPSHOT}/official-sage
 CHECKPOINTS=${RUN_ROOT}/checkpoints
+STAGED_CHECKPOINTS=${ROOT}/downloads/gdp-cem-e19/checkpoints-1b5afbc8eeb1c8e99d9529099e1aa15f392a6346
 PREPARATION=${RUN_ROOT}/preparation
 JOB_TMP=/tmp/ckontzias-gdp-e19-prepare-${SLURM_JOB_ID}
 
@@ -28,14 +29,13 @@ mkdir -p "${CHECKPOINTS}" "${JOB_TMP}"
 trap 'rm -rf -- "${JOB_TMP}"' EXIT
 export TMPDIR=${JOB_TMP} PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0
 export PYTHONPATH=${SAGE}:${SNAPSHOT}
-export HF_HOME=${RUN_ROOT}/hf-cache HF_HUB_DISABLE_TELEMETRY=1
-
-cd "${SAGE}"
-"${ENV_DIR}/bin/python" scripts/download_checkpoints.py \
-  --repo-id CLTRAY/SAGE \
-  --revision 1b5afbc8eeb1c8e99d9529099e1aa15f392a6346 \
-  --out-dir "${CHECKPOINTS}" \
-  --registry "${SAGE}/configs/checkpoints.json"
+test ! -w "${STAGED_CHECKPOINTS}"
+(cd "${STAGED_CHECKPOINTS}" && sha256sum -c sha256.txt >/dev/null)
+for checkpoint in \
+  pusht_generator.pt pusht_action_prior.pt pusht_far_action_prior.pt \
+  cube_generator.pt cube_action_prior.pt cube_far_action_prior.pt; do
+  cp -- "${STAGED_CHECKPOINTS}/${checkpoint}" "${CHECKPOINTS}/${checkpoint}"
+done
 cd "${SNAPSHOT}"
 "${ENV_DIR}/bin/python" "${SNAPSHOT}/prepare_gdp_cem_e19_inputs.py" \
   --sage-root "${SAGE}" \

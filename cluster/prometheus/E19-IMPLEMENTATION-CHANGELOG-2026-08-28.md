@@ -17,3 +17,22 @@ does not change source models, checkpoints, datasets, manifests, methods,
 cells, seeds, horizons, candidates, CEM rounds, schedules, budgets, outputs,
 gates, or analysis. The failed snapshot and scheduler records remain preserved.
 No protected data or performance metric was read.
+
+## 28 August 2026 — checkpoint download moved to the login node
+
+The second immutable snapshot was `gdp-cem-e19-c97b470100482281`, with
+source-manifest SHA-256
+`c97b4701004822811ca1483fd03c4a0f6339eee3ae9dfda640fc261040fd72ae`.
+Its preparation job 299649 reached compute node `gpu04` and failed before any
+checkpoint was downloaded or dataset conversion began because Prometheus
+compute nodes cannot reach `huggingface.co`. Jobs 299650–299653 consequently
+had unsatisfied dependencies and were cancelled. No evaluator ran and no
+performance artifact was produced or read.
+
+The exact six files are now downloaded on the network-enabled login node by
+the unchanged pinned release's `scripts/download_checkpoints.py`, at the same
+exact Hugging Face revision, and sealed with their release hashes. The compute
+preparation job only copies those verified bytes into its unique run root.
+This changes transport location only; it does not change any checkpoint,
+source, dataset, manifest, method, cell, seed, horizon, planner setting, gate,
+or analysis.
