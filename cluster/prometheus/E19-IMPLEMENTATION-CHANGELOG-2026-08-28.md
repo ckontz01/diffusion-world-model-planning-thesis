@@ -194,3 +194,13 @@ float32-to-bfloat16 action handling, preservation and use of the injected
 cached goal, finite outputs, and bit-exact reference-versus-versioned cost
 parity with maximum absolute difference 0.0.  Its audit explicitly records no
 performance, protected-metric, or D5 read.
+
+The post-diagnostic immutable snapshot is `gdp-cem-e19-b4fef99885313bc9`,
+with source-manifest SHA-256
+`b4fef99885313bc975fe69ec7457a46a01aa31934bbf4c9e476225f26d8b2e9d`
+and the unchanged protocol SHA-256.  Its dependency chain is preparation
+299701, release audit 299702, identifier-only overlap/data audit 299703,
+non-performance A6000 runtime preflight 299704, 180-cell official reproduction
+array 299705, and unchanged official summarizer/analyzer 299706.  The same
+complete A6000 preflight that passed in diagnostic 299700 remains a mandatory
+`afterok` barrier before array 299705.
