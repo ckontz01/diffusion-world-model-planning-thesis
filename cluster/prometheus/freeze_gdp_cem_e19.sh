@@ -13,6 +13,7 @@ PROTOCOL=ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-REPRODUCTION-AND-OVERLAP-PROTOCOL-20
 FILES=(
   "${PROTOCOL}"
   E19-OFFICIAL-SAGE-RELEASE-DEFECTS-2026-08-28.md
+  E19-IMPLEMENTATION-CHANGELOG-2026-08-28.md
   analyze_gdp_cem_e19_reproduction.py
   audit_gdp_cem_e19_data_overlap.py
   audit_gdp_cem_e19_lewm_identity.py

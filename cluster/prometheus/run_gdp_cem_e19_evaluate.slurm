@@ -6,7 +6,7 @@
 #SBATCH --cpus-per-task=12
 #SBATCH --mem=96G
 #SBATCH --gres=gpu:1
-#SBATCH --time=36:00:00
+#SBATCH --time=24:00:00
 #SBATCH --array=0-179%3
 #SBATCH --output=/lustreFS/data/superworld/ckontzias/thesis/logs/gdp-e19-sage-%A-%a.out
 #SBATCH --error=/lustreFS/data/superworld/ckontzias/thesis/logs/gdp-e19-sage-%A-%a.err
