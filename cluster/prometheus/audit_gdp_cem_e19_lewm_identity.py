@@ -28,7 +28,7 @@ def state_digest(state: dict[str, torch.Tensor]) -> str:
         digest.update(name.encode("utf-8") + b"\0")
         digest.update(str(value.dtype).encode("ascii") + b"\0")
         digest.update(json.dumps(list(value.shape)).encode("ascii") + b"\0")
-        digest.update(value.view(torch.uint8).numpy().tobytes())
+        digest.update(value.reshape(-1).view(torch.uint8).numpy().tobytes())
     return digest.hexdigest()
 
 

@@ -52,7 +52,9 @@ test ! -e "${LEWM_OUTPUT}"
 test ! -e "${OUTPUT}"
 mkdir -p "${LEWM_OUTPUT}"
 export PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0
-export PYTHONPATH=${SNAPSHOT}:${SAGE}
+test -f "${SNAPSHOT}/lewm-runtime/jepa.py"
+test -f "${SNAPSHOT}/lewm-runtime/module.py"
+export PYTHONPATH=${SNAPSHOT}:${SAGE}:${SNAPSHOT}/lewm-runtime
 "${ENV_DIR}/bin/python" "${SNAPSHOT}/audit_gdp_cem_e19_lewm_identity.py" \
   --pair "pusht=${STABLEWM}/pusht/lewm_object.ckpt,${STABLEWM}/pusht/lewm_hf_22b330c_object.ckpt" \
   --pair "cube=${STABLEWM}/cube/lewm_object.ckpt,${STABLEWM}/cube/lewm_hf_b0747c5_object.ckpt" \

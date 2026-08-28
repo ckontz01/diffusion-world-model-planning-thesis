@@ -26,6 +26,8 @@ JOB_TMP=/tmp/ckontzias-gdp-e19-${SLURM_ARRAY_JOB_ID}-${SLURM_ARRAY_TASK_ID}
 
 test ! -w "${SNAPSHOT}"
 (cd "${SNAPSHOT}" && sha256sum -c SOURCE-MANIFEST.sha256 >/dev/null)
+test -f "${SNAPSHOT}/lewm-runtime/jepa.py"
+test -f "${SNAPSHOT}/lewm-runtime/module.py"
 sha256sum -c "${ENV_DIR}/sha256.txt" >/dev/null
 (cd "${RUN_ROOT}/preparation" && sha256sum -c sha256.txt >/dev/null)
 (cd "${RUN_ROOT}/release-audit" && sha256sum -c sha256.txt >/dev/null)
@@ -83,7 +85,8 @@ apptainer exec --nv --cleanenv \
   "${IMAGE}" env \
   PATH="${ENV_DIR}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
   PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 \
-  CUBLAS_WORKSPACE_CONFIG=:4096:8 PYTHONPATH="${SAGE}:${SNAPSHOT}" \
+  CUBLAS_WORKSPACE_CONFIG=:4096:8 \
+  PYTHONPATH="${SAGE}:${SNAPSHOT}:${SNAPSHOT}/lewm-runtime" \
   MUJOCO_GL=egl PYOPENGL_PLATFORM=egl SDL_VIDEODRIVER=dummy MPLBACKEND=Agg \
   TMPDIR="${JOB_TMP}" \
   "${ENV_DIR}/bin/python" -m sage.eval.${BENCHMARK} \

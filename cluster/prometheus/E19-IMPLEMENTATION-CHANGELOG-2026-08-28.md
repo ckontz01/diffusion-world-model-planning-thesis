@@ -36,3 +36,38 @@ preparation job only copies those verified bytes into its unique run root.
 This changes transport location only; it does not change any checkpoint,
 source, dataset, manifest, method, cell, seed, horizon, planner setting, gate,
 or analysis.
+
+## 28 August 2026 — historical LeWM deserialization runtime pinned
+
+The third immutable snapshot was `gdp-cem-e19-31b3938c97265b52`, with
+source-manifest SHA-256
+`31b3938c97265b52231f37df23addf3c4bf83d31b3e5653969f03bbc74f98460`.
+Preparation job 299654 completed the exact checkpoint staging and PushT
+HDF5-to-Lance transport. Release-audit job 299655 completed. Identifier-only
+audit job 299656 then failed before producing its audit because Python could
+not deserialize the versioned LeWM object checkpoint: the pickle refers to the
+historical top-level module `jepa`, which was not on `PYTHONPATH`. The dependent
+evaluation and analyzer jobs 299657–299658 were cancelled. No evaluator ran
+and no performance artifact was produced or read.
+
+The correction pins the historical LeWM runtime repository
+`https://github.com/lucas-maes/le-wm.git` at commit
+`8edfeb336732b5f3ce7b8b210d0ba370a09e2cac` and tree
+`40444957371d400fe9ac24db3f9d453081a35bea`. The freeze procedure archives
+only the tracked files from that exact tree into `lewm-runtime/` inside the
+immutable E19 snapshot, records the provenance in `FREEZE-AUDIT.json`, and
+loads both exact versioned LeWM object checkpoints on CPU before sealing the
+snapshot. The identifier audit and official evaluator add only this frozen
+runtime directory to `PYTHONPATH`. This restores the class definitions needed
+by the existing serialized objects; it does not change SAGE, LeWM parameters,
+checkpoints, datasets, manifests, methods, cells, seeds, horizons, candidates,
+CEM rounds, schedules, budgets, tolerance, gates, or analysis.
+
+The first corrected immutable snapshot,
+`gdp-cem-e19-1861a4ac09089d5e`, was never submitted. Its mandatory
+post-freeze identity smoke test exposed a second audit-only defect before any
+Slurm job or outcome evaluation: the state-digest helper attempted to reinterpret
+a zero-dimensional integer tensor directly as bytes, which PyTorch rejects.
+The helper now flattens every contiguous tensor before its byte view, and a
+scalar-tensor regression test is part of the frozen wrapper suite. This changes
+only deterministic audit hashing; it does not change any model or experiment.

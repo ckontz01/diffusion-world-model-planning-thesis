@@ -5,8 +5,10 @@ from pathlib import Path
 
 import h5py
 import numpy as np
+import torch
 
 import audit_gdp_cem_e19_data_overlap as audit
+import audit_gdp_cem_e19_lewm_identity as lewm_audit
 
 
 def test_role_cache_is_episode_disjoint(tmp_path: Path) -> None:
@@ -37,3 +39,16 @@ def test_split_normalization_supports_both_released_shapes() -> None:
     }
     compact = {"train": [0, 1], "val": [2], "test": [3]}
     assert audit.normalize_split(legacy) == audit.normalize_split(compact)
+
+
+def test_lewm_state_digest_supports_scalar_tensors() -> None:
+    first = {
+        "counter": torch.tensor(3, dtype=torch.int64),
+        "weight": torch.tensor([[1.0, 2.0]], dtype=torch.float32),
+    }
+    second = {
+        "counter": torch.tensor(4, dtype=torch.int64),
+        "weight": torch.tensor([[1.0, 2.0]], dtype=torch.float32),
+    }
+    assert lewm_audit.state_digest(first) == lewm_audit.state_digest(first)
+    assert lewm_audit.state_digest(first) != lewm_audit.state_digest(second)
