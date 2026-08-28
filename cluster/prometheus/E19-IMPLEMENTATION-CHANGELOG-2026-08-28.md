@@ -132,3 +132,16 @@ array is eligible to start.  This correction changes only pickle class-name
 resolution and technical validation; it does not change SAGE, LeWM tensors,
 checkpoints, datasets, manifests, methods, cells, seeds, horizons, candidates,
 CEM rounds, schedules, budgets, tolerance, scientific gates, or analysis.
+
+The corrected immutable snapshot is `gdp-cem-e19-92d7f7d0d525cf08`, with
+source-manifest SHA-256
+`92d7f7d0d525cf08fd97a0b5a28d3985c498a80b2f74cb13d2a007c6e4be4acc`.
+Its unchanged protocol SHA-256 is
+`759f64b67a5c8e9d33e03c4d7027ede7edf99f1a4186236fb8f0879fc7ed0e20`.
+Before submission it passed 11 E19 wrapper tests, seven unchanged upstream
+SAGE tests, complete source-manifest verification, and the two-task frozen
+official-class/tensor-identity preflight.  The replacement chain is preparation
+299688, release audit 299689, identifier-only overlap/data audit 299690,
+non-performance A6000 runtime preflight 299691, 180-cell official reproduction
+array 299692, and unchanged official summarizer/analyzer 299693.  Array 299692
+cannot start unless the synthetic runtime preflight passes.
