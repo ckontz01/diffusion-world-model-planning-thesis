@@ -90,3 +90,22 @@ metric-bearing file may be opened.
   and zero CR bytes. The complete diagnostic wrapper suite then passed 18/18
   tests against the frozen E19 release runtime (with only the expected optional
   ALE-package warning).
+
+## LF-only replacement launch
+
+- Transport-fix commit: `1ce2b87`.
+- Replacement immutable snapshot:
+  `/lustreFS/data/superworld/ckontzias/thesis/snapshots/gdp-cem-e19-discrepancy-e347bc087381ecf0`.
+- Replacement source-manifest SHA-256:
+  `e347bc087381ecf0902581e8225165dbd64c887eba661b74b064c09d4e13d7fa`.
+- Diagnostic protocol SHA-256 remains
+  `e420dca314038141caa30cadf0fe67ba649e53803d393e85a52c5a87a321f319`.
+- Independent freeze validation checked all 245 manifest entries, the clean
+  official SAGE commit/tree, 18 wrapper tests, seven unchanged upstream tests,
+  and a 10-run registry containing 11 LF bytes and zero CR bytes.
+- Fresh run root:
+  `/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19/discrepancy-diagnostic-run-20260829-e347bc08`.
+- Fresh jobs: sentinel array `300081`, dependent fixed-bank comparison
+  `300082`, and dependent sealed analyzer `300083`.
+- No artifact from the stopped `300069`/`300070`/`300071` chain is reused.
+  The E19 terminal decision remains exactly `stop_native_reproduction_failed`.
