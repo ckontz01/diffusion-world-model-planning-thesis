@@ -39,3 +39,22 @@ The bundled `stable_worldmodel.data.formats.hdf5` imports `hdf5plugin`, but the
 release environment does not declare it. E19 adds `hdf5plugin==7.0.0` so the
 released Cube HDF5 input can be opened. This changes no SAGE method or model.
 The resolved package lock is preserved with the Stage-A audit.
+
+## Missing Cube Gaussian-CEM local-goal cache warmup
+
+The released PushT `GaussianCEM.solve` primes the generated-local-goal cache
+from the unexpanded planner query before it expands inputs across CEM
+candidates. The released Cube implementation omits the equivalent call. For
+Cube `lewm_generator` at horizons above 25, the first generated-goal request
+therefore receives a seven-dimensional goal image after candidate expansion;
+the subgoal generator later attempts to concatenate rank-3 and rank-5 latent
+tensors and aborts. The H25 special case does not call the generator, while
+the prior-based methods prime the cache during proposal construction.
+
+E19 keeps the pinned official checkout byte-for-byte unchanged and uses a
+wrapper that performs only the missing pre-expansion cache call before
+delegating to the official Cube `GaussianCEM.solve`. This mirrors the release's
+PushT behavior and changes no model tensor, generated goal, candidate, score,
+planner update, seed, schedule, budget, or analysis. An exact-checkpoint,
+synthetic-input A6000 preflight must prove the uncached rank defect and the
+bit-identical cached lookup before any replacement reproduction array runs.

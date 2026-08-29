@@ -38,6 +38,7 @@ sha256sum -c "${ENV_DIR}/sha256.txt" >/dev/null
 python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["release_gate_passed"] is True' "${RUN_ROOT}/release-audit/RELEASE-AUDIT.json"
 python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["data_identity_gate_passed"] is True' "${RUN_ROOT}/data-overlap-audit/DATA-OVERLAP-AUDIT.json"
 python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${RUN_ROOT}/runtime-preflight/RUNTIME-PREFLIGHT-AUDIT.json"
+python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${RUN_ROOT}/runtime-preflight/CUBE-GENERATOR-COMPAT-AUDIT.json"
 record=$(awk -F '\t' -v id="${SLURM_ARRAY_TASK_ID}" 'NR>1 && $1==id {print $0}' "${CELLS}")
 test -n "${record}"
 IFS=$'\t' read -r ARRAY_ID BENCHMARK METHOD SEED HORIZON <<< "${record}"
@@ -54,11 +55,13 @@ case "${BENCHMARK}" in
     DATASET=${RUN_ROOT}/preparation/pusht_expert_train.lance
     LEWM=${STABLEWM}/pusht/lewm_hf_22b330c_object.ckpt
     LEWM_SHA=c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659
+    EVALUATOR_MODULE=sage.eval.pusht
     ;;
   cube)
     DATASET=${STABLEWM}/cube_single_expert.h5
     LEWM=${STABLEWM}/cube/lewm_hf_b0747c5_object.ckpt
     LEWM_SHA=5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07
+    EVALUATOR_MODULE=gdp_cem_e19_cube_generator_compat
     ;;
   *) exit 2 ;;
 esac
@@ -93,7 +96,7 @@ apptainer exec --nv --cleanenv \
   PYTHONPATH="${SNAPSHOT}/lewm-serialization-compat:${SAGE}:${SNAPSHOT}:${SNAPSHOT}/lewm-runtime" \
   MUJOCO_GL=egl PYOPENGL_PLATFORM=egl SDL_VIDEODRIVER=dummy MPLBACKEND=Agg \
   TMPDIR="${JOB_TMP}" \
-  "${ENV_DIR}/bin/python" -m sage.eval.${BENCHMARK} \
+  "${ENV_DIR}/bin/python" -m "${EVALUATOR_MODULE}" \
     --method "${METHOD}" \
     --dataset "${DATASET}" \
     --policy "${LEWM}" \

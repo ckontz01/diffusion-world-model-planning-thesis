@@ -204,3 +204,47 @@ non-performance A6000 runtime preflight 299704, 180-cell official reproduction
 array 299705, and unchanged official summarizer/analyzer 299706.  The same
 complete A6000 preflight that passed in diagnostic 299700 remains a mandatory
 `afterok` barrier before array 299705.
+
+## 29 August 2026 — Cube LeWM+Generator cache-warmup correction
+
+Jobs 299701–299704 completed successfully and all sealed preparation, release,
+data-identity, overlap, LeWM tensor-identity, and non-performance runtime gates
+passed. Official evaluation array 299705 then completed cells 0–126. Its Cube
+`lewm_generator` cells 127–131, 133–137, and 139–143 failed before writing a
+result; the three H25 cells 126, 132, and 138 completed because at H25 the
+released evaluator uses the final goal directly and does not invoke the
+generator. Every failed stderr file was byte-identical, with SHA-256
+`88847a3619f8e86a2fc412df4882690db84ec2ee794d331b56123286047e21ff`.
+The traceback ended in the unchanged official Cube generator with
+`RuntimeError: Tensors must have same number of dimensions: got 3 and 5`.
+No result or partial performance artifact was opened. After identifying the
+identical technical failure, the remaining array work and dependent analyzer
+299706 were cancelled; all existing artifacts were preserved.
+
+The failure is an upstream execution omission rather than a model or
+scientific-gate result. The pinned PushT `GaussianCEM.solve` explicitly warms
+the generated-local-goal cache on the unexpanded planner query before
+candidate expansion. The pinned Cube `GaussianCEM.solve` omits that line.
+Consequently, Cube `lewm_generator` first asks for a generated goal after the
+image inputs have gained a CEM-candidate axis: the native six-dimensional goal
+becomes seven-dimensional, and the generator receives incompatible latent
+ranks. Prior-based Cube methods prime the same cache while constructing their
+proposal and therefore do not enter this failing path.
+
+The compatibility runner now mirrors the exact PushT cache warmup for Cube:
+when and only when a generator exists, it calls the existing
+`CubeSAGEModel.local_goal(info)` once before delegating to the unchanged
+official `GaussianCEM.solve`. The official SAGE checkout remains pristine;
+checkpoint bytes and tensors, generated goal, candidate bank, CEM updates,
+cost function, seeds, horizons, schedules, budgets, manifests, and analysis
+are unchanged. Base CEM and every prior-based method are execution-identical.
+
+A new mandatory non-performance A6000 preflight uses the exact Cube LeWM,
+generator, and action-prior checkpoints with synthetic images. It must
+reproduce the seven-dimensional uncached-input defect, show that the
+unexpanded cache contains exactly one entry, prove that the candidate-expanded
+lookup returns the cached goal bit-for-bit with a three-dimensional latent,
+and verify that the compatibility runner is installed. It executes no episode
+and reads no performance, protected-metric, or D5 artifact. A replacement
+180-cell chain may be submitted only from a new immutable snapshot after this
+preflight and all earlier E19 gates pass.

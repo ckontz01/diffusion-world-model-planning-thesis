@@ -45,7 +45,23 @@ apptainer exec --nv --cleanenv \
     --pair "cube=${STABLEWM}/cube/lewm_object.ckpt,${STABLEWM}/cube/lewm_hf_b0747c5_object.ckpt" \
     --device cuda:0 \
     --output "${OUTPUT}/RUNTIME-PREFLIGHT-AUDIT.json"
+apptainer exec --nv --cleanenv \
+  --bind "${ROOT}:${ROOT}" \
+  --bind "${JOB_TMP}:${JOB_TMP}" \
+  "${IMAGE}" env \
+  PATH="${ENV_DIR}/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
+  PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 \
+  CUBLAS_WORKSPACE_CONFIG=:4096:8 MUJOCO_GL=egl PYOPENGL_PLATFORM=egl \
+  PYTHONPATH="${SNAPSHOT}/lewm-serialization-compat:${SNAPSHOT}:${SAGE}:${SNAPSHOT}/lewm-runtime" \
+  "${ENV_DIR}/bin/python" "${SNAPSHOT}/audit_gdp_cem_e19_cube_generator_compat.py" \
+    --lewm "${STABLEWM}/cube/lewm_hf_b0747c5_object.ckpt" \
+    --generator "${RUN_ROOT}/checkpoints/cube_generator.pt" \
+    --action-prior "${RUN_ROOT}/checkpoints/cube_action_prior.pt" \
+    --device cuda:0 \
+    --output "${OUTPUT}/CUBE-GENERATOR-COMPAT-AUDIT.json"
 python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${OUTPUT}/RUNTIME-PREFLIGHT-AUDIT.json"
-(cd "${OUTPUT}" && sha256sum RUNTIME-PREFLIGHT-AUDIT.json > sha256.txt)
+python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${OUTPUT}/CUBE-GENERATOR-COMPAT-AUDIT.json"
+(cd "${OUTPUT}" && sha256sum \
+  RUNTIME-PREFLIGHT-AUDIT.json CUBE-GENERATOR-COMPAT-AUDIT.json > sha256.txt)
 (cd "${OUTPUT}" && sha256sum -c sha256.txt >/dev/null)
 chmod -R a-w "${OUTPUT}"

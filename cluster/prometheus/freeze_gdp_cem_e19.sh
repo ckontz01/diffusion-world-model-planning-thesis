@@ -18,12 +18,14 @@ FILES=(
   E19-OFFICIAL-SAGE-RELEASE-DEFECTS-2026-08-28.md
   E19-IMPLEMENTATION-CHANGELOG-2026-08-28.md
   analyze_gdp_cem_e19_reproduction.py
+  audit_gdp_cem_e19_cube_generator_compat.py
   audit_gdp_cem_e19_data_overlap.py
   audit_gdp_cem_e19_lewm_identity.py
   audit_gdp_cem_e19_release.py
   audit_gdp_cem_e19_serialization_compat.py
   create_gdp_cem_e19_cells.py
   freeze_gdp_cem_e19.sh
+  gdp_cem_e19_cube_generator_compat.py
   gdp_cem_e19_specs.py
   prepare_gdp_cem_e19_inputs.py
   run_gdp_cem_e19_analyze.slurm
@@ -37,6 +39,7 @@ FILES=(
   test_audit_gdp_cem_e19_data_overlap.py
   test_audit_gdp_cem_e19_release.py
   test_audit_gdp_cem_e19_serialization_compat.py
+  test_gdp_cem_e19_cube_generator_compat.py
   test_gdp_cem_e19_specs.py
   validate_gdp_cem_e19_cell.py
 )
@@ -114,6 +117,7 @@ find "${BUILD}" -maxdepth 1 -type f \
   "${BUILD}/test_audit_gdp_cem_e19_release.py" \
   "${BUILD}/test_audit_gdp_cem_e19_data_overlap.py" \
   "${BUILD}/test_audit_gdp_cem_e19_serialization_compat.py" \
+  "${BUILD}/test_gdp_cem_e19_cube_generator_compat.py" \
   > "${BUILD}/wrapper-tests.txt"
 "${ENV_DIR}/bin/python" -m pytest -q -p no:cacheprovider \
   "${BUILD}/official-sage/tests" > "${BUILD}/upstream-tests.txt"
@@ -160,6 +164,9 @@ payload = {
     ),
     "lewm_serialization_compat_module_sha256": digest(
         root / "lewm-serialization-compat/module.py"
+    ),
+    "cube_generator_compat_sha256": digest(
+        root / "gdp_cem_e19_cube_generator_compat.py"
     ),
     "protocol_sha256": digest(root / sys.argv[7]),
     "cell_manifest_sha256": digest(root / "E19-CELLS.tsv"),

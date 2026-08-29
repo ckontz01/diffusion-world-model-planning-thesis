@@ -22,6 +22,9 @@ test ! -w "${SNAPSHOT}"
 sha256sum -c "${ENV_DIR}/sha256.txt" >/dev/null
 (cd "${RUN_ROOT}/release-audit" && sha256sum -c sha256.txt >/dev/null)
 (cd "${RUN_ROOT}/data-overlap-audit" && sha256sum -c sha256.txt >/dev/null)
+(cd "${RUN_ROOT}/runtime-preflight" && sha256sum -c sha256.txt >/dev/null)
+python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${RUN_ROOT}/runtime-preflight/RUNTIME-PREFLIGHT-AUDIT.json"
+python3 -c 'import json,sys; assert json.load(open(sys.argv[1]))["all_passed"] is True' "${RUN_ROOT}/runtime-preflight/CUBE-GENERATOR-COMPAT-AUDIT.json"
 test ! -e "${OUTPUT}"
 export PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0
 export PYTHONPATH=${SNAPSHOT}:${SAGE}
