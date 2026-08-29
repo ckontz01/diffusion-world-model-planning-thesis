@@ -312,3 +312,51 @@ preflight 299870, complete 180-cell official reproduction array 299871, and
 unchanged official summarizer/analyzer 299872. Array 299871 cannot start unless
 every prior gate, including 299870, completes successfully. No output from any
 superseded performance run is reused.
+
+## 29 August 2026 — final native-reproduction stop
+
+Jobs 299867--299870 completed successfully, and every sealed preparation,
+release, identifier-only overlap, Le-WM identity, serialization, and Cube-cache
+preflight checksum was validated. Array 299871 then completed all 180 frozen
+cells successfully. Each cell contained the registered 50 episodes, closing
+the complete 9,000-episode information barrier before any performance result
+was opened.
+
+Analyzer 299872 verified all 180 unique cell identities, episode counts,
+source/protocol/input/checkpoint hashes, planner settings, cell statuses, and
+result hashes. An independent read-only recomputation reproduced those checks.
+The analyzer then ran the pinned release's unchanged
+`scripts/summarize_results.py`. It returned 1 at the first rejected row,
+`pusht/base_cem/H50`, where the reproduced mean 42.667 differed from the
+released mean 56.000. The analyzer deliberately propagated that scientific
+failure after writing and sealing the complete 60-row analysis; its Slurm
+`FAILED|1:0` state is therefore the frozen tolerance decision, not an
+execution fault.
+
+The official ±2-point rule passed for 29 of 60 means. The maximum absolute
+difference was 25.967 points. Generator Prior Top reproduced all 12 rows,
+whereas LeWM + Generator reproduced only two of 12 and missed all six Cube
+rows. The complete audited interpretation is recorded in
+`ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-NATIVE-REPRODUCTION-RESULT-2026-08-29.md`.
+
+The sealed analysis hashes include:
+
+- `NATIVE-REPRODUCTION-AUDIT.json`:
+  `095f11d775e0b2fb77f16bcaee8ba3aaa8eca9b799050b0f97e0b90fed0ded97`;
+- `cell-results.tsv`:
+  `97e7b5125480d39dc9df394cca560c60becffe01b540c2b20a62f1119d407b8c`;
+- `summary.tsv`:
+  `2d493d83661b551fb9a6f7bf11c048e48655dec492bfcd282c8f3f5bf221ed7`;
+- unchanged official-summarizer stderr:
+  `4f3e98604c821295c3fe7b290e9cbfbe6c56e2527944f8d7d046b30affb01a59`.
+
+The identifier-only audit independently found that the official paper
+manifests overlap E18 training by 270 PushT episodes and 84 Cube episodes. It
+preserved common untouched candidate sets containing 579 PushT and 280 Cube
+episodes. Native reproduction failure and nonzero overlap each block the
+proposed official-manifest matched comparison. No matched protocol or
+performance evaluation was launched, and no D5, protected holdout, D3/D4
+metric, P3, P4, C1, or I1 artifact was read. The complete failed result and all
+superseded technical chains remain immutable; no scientific setting was tuned
+or rescued. A final read-only combined run of the immutable snapshot's 16 E19
+wrapper tests and seven unchanged upstream SAGE tests passed all 23 tests.
