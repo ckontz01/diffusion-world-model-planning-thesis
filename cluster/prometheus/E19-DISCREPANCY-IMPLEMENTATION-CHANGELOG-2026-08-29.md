@@ -65,3 +65,28 @@ Until all ten sentinel cells and both dependents finish successfully, the
 information barrier permits scheduler state, exit codes, file existence, byte
 counts, and checksums only. No partial result, trace, bank, rank, cost, or
 metric-bearing file may be opened.
+
+## Preserved first-launch technical stop
+
+- All ten cells of array `300069` failed uniformly with exit `1:0` after two
+  to three seconds. Their ten stderr files are 79 bytes and byte-identical,
+  SHA-256
+  `f7e5913e6566026ecf28cf3ae55b91994ba3f631794c427840da068fc8563c9c`.
+- The exact LeWM checksum completed successfully. The next, baseline-result
+  checksum failed before any output directory or evaluator episode existed.
+- The identifier-only generated TSV used `csv.DictWriter`'s default CRLF line
+  terminator. Bash therefore retained `0d` in the final SHA-256 field, and
+  `sha256sum --check --strict` correctly rejected it as malformed.
+- No result, trace, bank, candidate, latent, cost, rank, elite, cache, or
+  performance-bearing diagnostic artifact was produced or read.
+- Dependents `300070` and `300071` were cancelled after the unsatisfied
+  dependency was established. The failed chain and logs remain preserved.
+- The transport-only correction sets the registry writer's line terminator to
+  LF explicitly. The freezer now rejects any carriage-return byte in the
+  generated Bash registry. No sentinel identity, result hash, scientific
+  setting, trace, checkpoint, manifest, tolerance, decision rule, or E19
+  artifact changes.
+- The corrected registry smoke contained 1,089 bytes, 11 lines, 11 LF bytes,
+  and zero CR bytes. The complete diagnostic wrapper suite then passed 18/18
+  tests against the frozen E19 release runtime (with only the expected optional
+  ALE-package warning).

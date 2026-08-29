@@ -90,6 +90,10 @@ export E19_DIAGNOSTIC_STABLEWM_ROOT=${ROOT}/data/stablewm
 "${ENV_DIR}/bin/python" "${BUILD}/create_gdp_cem_e19_discrepancy_runs.py" \
   --output "${BUILD}/E19-DISCREPANCY-RUNS.tsv"
 test "$(wc -l < "${BUILD}/E19-DISCREPANCY-RUNS.tsv")" -eq 11
+if LC_ALL=C grep -q $'\r' "${BUILD}/E19-DISCREPANCY-RUNS.tsv"; then
+  printf 'refusing CRLF-bearing Bash registry\n' >&2
+  exit 1
+fi
 
 "${ENV_DIR}/bin/python" - "${BUILD}" <<'PY'
 from pathlib import Path

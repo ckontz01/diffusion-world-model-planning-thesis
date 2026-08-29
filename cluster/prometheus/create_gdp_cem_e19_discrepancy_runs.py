@@ -29,7 +29,12 @@ def main() -> None:
         "e19_result_sha256",
     )
     with args.output.open("x", encoding="utf-8", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=fields, delimiter="\t")
+        writer = csv.DictWriter(
+            stream,
+            fieldnames=fields,
+            delimiter="\t",
+            lineterminator="\n",
+        )
         writer.writeheader()
         for array_id, sentinel, repeat in spec.runs():
             writer.writerow(
