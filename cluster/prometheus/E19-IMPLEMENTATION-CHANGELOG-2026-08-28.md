@@ -277,3 +277,38 @@ LeWM/data audit 299862, the expanded non-performance A6000 runtime preflight
 299863, 180-cell official reproduction array 299864, and unchanged official
 summarizer/analyzer 299865. The failed mandatory preflight prevented both
 downstream jobs from running.
+
+## 29 August 2026 — corrected Cube compatibility diagnostic and clean restart
+
+Development-only non-performance A6000 diagnostic 299866 completed
+successfully after the synthetic ranks were corrected to match the pinned
+Cube evaluator. Its sealed checksum verified, and its audit reported
+`all_passed=true`. With the exact released Cube checkpoints it reproduced the
+uncached rank mismatch at native goal-image rank 5 and low-dimensional rank 3
+(candidate-expanded ranks 6 and 4), recorded exactly one cache entry after the
+unexpanded warmup, and returned the cached three-dimensional local-goal latent
+bit-for-bit under candidate expansion. The audit also verified the expected
+LeWM, generator, and action-prior hashes, an installed compatibility shim, an
+unmodified official SAGE checkout, unchanged checkpoint tensors, and no
+episode, performance-metric, protected-metric, or D5 read. An independent
+field-by-field recomputation checked all 20 required conditions, and direct
+code inspection confirmed that the shim only adds the cache warmup already
+present in pinned PushT before delegating to the unchanged Cube
+`GaussianCEM.solve`.
+
+The resulting immutable snapshot is `gdp-cem-e19-9f5499887c0d2e1f`, with
+source-manifest SHA-256
+`9f5499887c0d2e1f9808cc5f493e7f172e717bcb8db202088e89e5c29f2a1d6c`
+and unchanged protocol SHA-256
+`759f64b67a5c8e9d33e03c4d7027ede7edf99f1a4186236fb8f0879fc7ed0e20`.
+All 256 source-manifest entries verified; official SAGE is clean at commit
+`8219029fd52e89157e05aebb998ab26f0ef46966` and tree
+`0c64066eeac97c27fee382c1879bb26968b3fd56`; all 16 wrapper tests and all
+seven unchanged upstream tests passed. The fresh run root is
+`native-reproduction-run-20260828-9f549988`, with preparation 299867,
+unchanged release audit 299868, identifier-only overlap and exact LeWM/data
+audit 299869, mandatory non-performance A6000 runtime plus Cube-compatibility
+preflight 299870, complete 180-cell official reproduction array 299871, and
+unchanged official summarizer/analyzer 299872. Array 299871 cannot start unless
+every prior gate, including 299870, completes successfully. No output from any
+superseded performance run is reused.
