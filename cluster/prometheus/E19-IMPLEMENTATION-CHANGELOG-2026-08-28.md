@@ -248,3 +248,17 @@ and verify that the compatibility runner is installed. It executes no episode
 and reads no performance, protected-metric, or D5 artifact. A replacement
 180-cell chain may be submitted only from a new immutable snapshot after this
 preflight and all earlier E19 gates pass.
+
+The corrected immutable snapshot is `gdp-cem-e19-a58f577120e1d00e`, with
+source-manifest SHA-256
+`a58f577120e1d00e74f9b227188023878cbbdbcd9aee0e78c5a86314dcf2ef0d`
+and unchanged protocol SHA-256
+`759f64b67a5c8e9d33e03c4d7027ede7edf99f1a4186236fb8f0879fc7ed0e20`.
+It passed complete source-manifest verification, 16 E19 wrapper tests, seven
+unchanged upstream SAGE tests, exact official commit/tree verification, and
+the frozen CPU serialization/tensor preflight. Its replacement dependency
+chain is preparation 299860, release audit 299861, identifier-only overlap and
+LeWM/data audit 299862, the expanded non-performance A6000 runtime preflight
+299863, 180-cell official reproduction array 299864, and unchanged official
+summarizer/analyzer 299865. Evaluation cannot start unless both sealed runtime
+audits pass.
