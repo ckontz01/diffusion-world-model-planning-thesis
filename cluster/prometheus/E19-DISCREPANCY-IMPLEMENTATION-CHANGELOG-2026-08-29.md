@@ -40,3 +40,28 @@ Date: 29 August 2026
 
 No diagnostic result has yet been read, no author contact has been made, and no
 E20 run is authorized at this stage.
+
+## Immutable launch
+
+- Canonical implementation commit: `e3ac1bb` on branch
+  `e19-official-sage-discrepancy-diagnostic`.
+- Immutable snapshot:
+  `/lustreFS/data/superworld/ckontzias/thesis/snapshots/gdp-cem-e19-discrepancy-9978b13e770ff646`.
+- Source-manifest SHA-256:
+  `9978b13e770ff6461fe3078659d5167c8705c46211012583dbccbd6f2be6d3d9`.
+- Diagnostic-protocol SHA-256:
+  `e420dca314038141caa30cadf0fe67ba649e53803d393e85a52c5a87a321f319`.
+- Freeze validation passed all 256 source-manifest entries, 18 diagnostic
+  tests, seven unchanged upstream tests, both strict official-runtime release
+  loads, all five E19 result hashes, and the clean pinned official SAGE commit
+  and tree.
+- Run root:
+  `/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19/discrepancy-diagnostic-run-20260829-9978b13e`.
+- Sentinel array: `300069` (`0-9%3`).
+- Dependent fixed-bank/runtime/transport comparison: `300070`.
+- Dependent sealed analyzer: `300071`.
+
+Until all ten sentinel cells and both dependents finish successfully, the
+information barrier permits scheduler state, exit codes, file existence, byte
+counts, and checksums only. No partial result, trace, bank, rank, cost, or
+metric-bearing file may be opened.
