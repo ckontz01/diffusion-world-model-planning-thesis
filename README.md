@@ -6,7 +6,7 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-As of 29 August 2026, two frozen untouched-holdout studies support complementary conclusions. E14 and its single preregistered E15 redesign stopped before closed-loop long-horizon comparison; E16 and E17 then isolated candidate-ranking headroom and an imperfect transition-state interface. The separately frozen E18 study produced positive, development-only closed-loop evidence for the resulting continuation planner. E19 subsequently completed a pinned native reproduction of official SAGE and stopped because the unchanged release's two-point fidelity rule failed.
+As of 30 August 2026, two frozen untouched-holdout studies support complementary conclusions. E14 and its single preregistered E15 redesign stopped before closed-loop long-horizon comparison; E16 and E17 then isolated candidate-ranking headroom and an imperfect transition-state interface. The separately frozen E18 study produced positive, development-only closed-loop evidence for the resulting continuation planner. E19 subsequently completed a pinned native reproduction of official SAGE and stopped because the unchanged release's two-point fidelity rule failed.
 
 E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
 
@@ -27,6 +27,8 @@ E17 was the separately frozen follow-up interface preflight. It supplied current
 E18 is a separately frozen, outcome-informed exploratory study rather than a rescue of E17. It kept the failed E17 checkpoints unchanged and tested the planner-level question that E17 never reached: whether scoring 64 first chunks through eight action-conditioned continuations each can exploit E16's measured candidate-ranking headroom. On 12 fresh paired P2 starts per task, two horizons, and three seeds, VAD continuation reached 72.92% equal-task/equal-horizon success versus 66.67% for greedy VAD-300, 60.42% for compute-matched greedy VAD-576, 65.97% for diagonal-Gaussian continuation, and 54.86% for direct-GMM continuation. All four frozen point/task rules passed. Paired start-cluster intervals excluded zero against VAD-576 and GMM, but not against VAD-300 or Gaussian. PushT supplied the useful long-horizon signal; Cube was largely saturated. This authorizes drafting a separate confirmation protocol, not consuming D5 or treating E18 as confirmation. See the [frozen protocol](cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-PROTOCOL-2026-08-27.md), [launch record](cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-LAUNCH-2026-08-27.md), and [audited result](cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-RESULT-2026-08-28.md).
 
 E19 pinned official SAGE commit `8219029fd52e89157e05aebb998ab26f0ef46966`, its exact released checkpoint snapshot, and the complete 180-cell PushT/Cube paper grid. All 180 cells and 9,000 episodes completed and passed the frozen identity audit before results were opened. The unchanged official summarizer nevertheless rejected the reproduction: 29 of 60 means were within its ±2-point tolerance, and the maximum absolute gap was 25.97 points. Generator Prior Top reproduced all 12 means, while the largest systematic shortfalls were concentrated in LeWM + Generator, especially Cube. An identifier-only audit also found that 270 PushT and 84 Cube paper-manifest episodes overlap E18 training. Therefore the released paper values are not treated as a validated thesis baseline, and no matched E18-versus-SAGE comparison on those manifests was drafted or launched. See the [frozen protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-REPRODUCTION-AND-OVERLAP-PROTOCOL-2026-08-28.md) and [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-NATIVE-REPRODUCTION-RESULT-2026-08-29.md).
+
+A separately frozen, outcome-informed E19 discrepancy diagnostic then ran two exact repeats of five prespecified sentinel cells plus a fixed-bank runtime/transport comparison. All ten sentinels and the comparison completed, but the sealed analyzer deliberately failed its frozen `internal_valid` gate. Under the preregistered failure barrier, its JSON/TSV outputs were checksum-validated but not opened or interpreted. The diagnostic is therefore invalid, identifies no mismatch class, authorizes no E20, and does not amend E19. See the [transparent diagnostic stop](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md).
 
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, a comparison with official PRISM, or a validated efficacy comparison against official SAGE.
 
@@ -276,6 +278,22 @@ See the [E18 protocol](cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTI
 
 See the [E19 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-REPRODUCTION-AND-OVERLAP-PROTOCOL-2026-08-28.md), [implementation changelog](cluster/prometheus/E19-IMPLEMENTATION-CHANGELOG-2026-08-28.md), and [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-NATIVE-REPRODUCTION-RESULT-2026-08-29.md).
 
+### 30 August: E19 discrepancy diagnostic invalid stop
+
+- A separately frozen diagnostic repeated five prespecified E19 sentinel cells
+  twice and completed its fixed-bank official-runtime/transport comparison.
+- All ten sentinel jobs and the comparison completed successfully. The sealed
+  analyzer then returned failure solely through its final frozen
+  `internal_valid` guard, after writing a checksum-valid output manifest.
+- Because the analyzer did not terminate successfully, none of its audit,
+  trace, bank, rank, cost, elite, cache, or metric-bearing content was opened
+  or interpreted. The failed subgate is intentionally not inferred.
+- The terminal handling is `diagnostic_invalid_stop_without_e20`. E19 remains
+  `stop_native_reproduction_failed`; no E20, author packet, author contact,
+  E18-versus-SAGE comparison, or protected-data read occurred.
+
+See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-PROTOCOL-2026-08-29.md), [implementation changelog](cluster/prometheus/E19-DISCREPANCY-IMPLEMENTATION-CHANGELOG-2026-08-29.md), and [terminal result](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md).
+
 ## Compact experiment ledger
 
 | Stage | Question | Outcome |
@@ -304,6 +322,7 @@ See the [E19 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-REP
 | E17 | Can current state plus the proposed first action chunk and Le-WM latents provide a safe transition-state interface for the conservative continuation reranker? | PushT passed. Cube improved strongly and passed all duration gates but failed the frozen worst-coordinate RMSE ceiling (1.163 versus 0.850). Both tasks were required, so no planner study ran. |
 | E18 | Can the unchanged failed-E17 adapter still provide useful ranking information inside the actual 64-by-8 continuation planner on development-only starts? | Positive exploratory result: 72.92% equal-task/equal-horizon success; +6.25 points over greedy VAD-300, +12.50 over compute-matched VAD-576, +6.94 over Gaussian continuation, and +18.06 over GMM continuation. Both frozen gates passed, but intervals overlapped zero versus VAD-300 and Gaussian. E17 remains failed; no D5 confirmation ran. |
 | E19 | Does the pinned official SAGE release reproduce its complete paper grid, and are its episode manifests disjoint from E18 training? | No. All 180 cells and 9,000 episodes were valid, but the unchanged ±2-point summarizer passed only 29/60 means; maximum gap 25.97 points. Official manifests also overlapped E18 training by 270 PushT and 84 Cube episodes. No matched comparison was authorized. |
+| E19 discrepancy diagnostic | Can exact sentinel repeats and read-only intermediate comparisons isolate one objective technical cause of the E19 gap? | Invalid stop. Ten sentinel repeats and the fixed-bank comparison completed, but the sealed analyzer failed its frozen internal-validity gate. Outputs were not interpreted; no mismatch class, E20, or author packet was authorized. |
 
 ## ACID comparator status
 

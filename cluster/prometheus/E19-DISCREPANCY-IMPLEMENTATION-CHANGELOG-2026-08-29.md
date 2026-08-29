@@ -109,3 +109,26 @@ metric-bearing file may be opened.
   `300082`, and dependent sealed analyzer `300083`.
 - No artifact from the stopped `300069`/`300070`/`300071` chain is reused.
   The E19 terminal decision remains exactly `stop_native_reproduction_failed`.
+
+## Replacement terminal stop
+
+- All ten sentinel cells in array `300081` completed with exit `0:0`, as did
+  fixed-bank comparison job `300082`.
+- Sealed analyzer job `300083` returned `1:0` after 16 seconds. Its stdout and
+  stderr contained no traceback: only the scheduler quota footer and an
+  Apptainer informational bind message, respectively.
+- The analyzer wrote its output manifest before the frozen final
+  `if not internal_valid` guard deliberately returned failure. All ten
+  sentinel manifests, the comparison manifest, and the analysis manifest
+  verify. The analysis-manifest SHA-256 is
+  `0f1de9f47de0cba7f15254862498d3d9fe9b67e1227c495a67c634df79d54172`.
+- Under the frozen failure barrier, none of the analyzer JSON/TSV files,
+  sentinel results/traces, comparison bank, or comparison audit was opened or
+  interpreted. The failed internal subgate is therefore intentionally not
+  inferred from partial scientific output.
+- The immutable analyzer maps this path to
+  `diagnostic_invalid_stop_without_e20`. No E20 is authorized, no author packet
+  is promoted, no author contact is made, and E19 remains exactly
+  `stop_native_reproduction_failed`.
+- The transparent terminal record is
+  `ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md`.
