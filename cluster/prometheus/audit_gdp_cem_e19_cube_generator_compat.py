@@ -81,10 +81,10 @@ def main() -> None:
     model.eval().requires_grad_(False)
 
     dtype = next(lewm.parameters()).dtype
-    image = torch.zeros(1, 1, 1, 3, 224, 224, device=device, dtype=dtype)
+    image = torch.zeros(1, 1, 3, 224, 224, device=device, dtype=dtype)
     info: dict = {
         "pixels": image.clone(),
-        "prior_pixels": image[:, 0].expand(-1, context, -1, -1, -1).clone(),
+        "prior_pixels": image.expand(-1, context, -1, -1, -1).clone(),
         "goal": image.clone(),
         "_env_id": np.asarray([0], dtype=np.int64),
         "_plan_call": np.asarray([0], dtype=np.int64),
@@ -93,7 +93,7 @@ def main() -> None:
     }
     for index, key in enumerate(lowdim_keys):
         width = lowdim_width if index == 0 else 0
-        info[key] = torch.zeros(1, width, device=device, dtype=torch.float32)
+        info[key] = torch.zeros(1, 1, width, device=device, dtype=torch.float32)
 
     solver = cube.GaussianCEM(
         model,
@@ -113,8 +113,10 @@ def main() -> None:
     uncached_rank_failure_observed = bool(
         uncached_failure
         and "same number of dimensions" in uncached_failure
-        and int(info["goal"].ndim) == 6
-        and int(expanded["goal"].ndim) == 7
+        and int(info["goal"].ndim) == 5
+        and int(expanded["goal"].ndim) == 6
+        and int(info[lowdim_keys[0]].ndim) == 3
+        and int(expanded[lowdim_keys[0]].ndim) == 4
     )
 
     model._cache.clear()
@@ -144,6 +146,8 @@ def main() -> None:
         "generator_checkpoint_epoch": generator_checkpoint.get("epoch"),
         "goal_rank_unexpanded": int(info["goal"].ndim),
         "goal_rank_candidate_expanded": int(expanded["goal"].ndim),
+        "lowdim_rank_unexpanded": int(info[lowdim_keys[0]].ndim),
+        "lowdim_rank_candidate_expanded": int(expanded[lowdim_keys[0]].ndim),
         "uncached_rank_failure_observed": uncached_rank_failure_observed,
         "uncached_error_type": "RuntimeError" if uncached_failure else None,
         "cache_entries_after_prime": cache_entries_after_prime,

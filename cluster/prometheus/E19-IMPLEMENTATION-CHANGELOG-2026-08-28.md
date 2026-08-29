@@ -225,11 +225,13 @@ The failure is an upstream execution omission rather than a model or
 scientific-gate result. The pinned PushT `GaussianCEM.solve` explicitly warms
 the generated-local-goal cache on the unexpanded planner query before
 candidate expansion. The pinned Cube `GaussianCEM.solve` omits that line.
-Consequently, Cube `lewm_generator` first asks for a generated goal after the
-image inputs have gained a CEM-candidate axis: the native six-dimensional goal
-becomes seven-dimensional, and the generator receives incompatible latent
-ranks. Prior-based Cube methods prime the same cache while constructing their
-proposal and therefore do not enter this failing path.
+Consequently, Cube `lewm_generator` first asks for a generated goal after all
+planner inputs have gained a CEM-candidate axis. The native rank-3
+low-dimensional history becomes rank 4; the released helper only removes the
+history axis for rank-3 inputs, so its low-dimensional token reaches rank 5
+while the visual tokens remain rank 3. Prior-based Cube methods prime the same
+cache while constructing their proposal and therefore do not enter this
+failing path.
 
 The compatibility runner now mirrors the exact PushT cache warmup for Cube:
 when and only when a generator exists, it calls the existing
@@ -240,25 +242,38 @@ cost function, seeds, horizons, schedules, budgets, manifests, and analysis
 are unchanged. Base CEM and every prior-based method are execution-identical.
 
 A new mandatory non-performance A6000 preflight uses the exact Cube LeWM,
-generator, and action-prior checkpoints with synthetic images. It must
-reproduce the seven-dimensional uncached-input defect, show that the
-unexpanded cache contains exactly one entry, prove that the candidate-expanded
-lookup returns the cached goal bit-for-bit with a three-dimensional latent,
-and verify that the compatibility runner is installed. It executes no episode
-and reads no performance, protected-metric, or D5 artifact. A replacement
-180-cell chain may be submitted only from a new immutable snapshot after this
-preflight and all earlier E19 gates pass.
+generator, and action-prior checkpoints with synthetic inputs at the native
+image and low-dimensional ranks. It must reproduce the uncached rank-3/rank-5
+token defect, show that the unexpanded cache contains exactly one entry, prove
+that the candidate-expanded lookup returns the cached goal bit-for-bit with a
+three-dimensional latent, and verify that the compatibility runner is
+installed. It executes no episode and reads no performance, protected-metric,
+or D5 artifact. A replacement 180-cell chain may be submitted only from a new
+immutable snapshot after this preflight and all earlier E19 gates pass.
 
-The corrected immutable snapshot is `gdp-cem-e19-a58f577120e1d00e`, with
+The first such snapshot, `gdp-cem-e19-a58f577120e1d00e`, was stopped by its
+mandatory runtime preflight 299863 before any evaluation cell ran. The
+serialization half passed and wrote its audit; the new Cube synthetic half
+failed before writing an audit because the harness incorrectly modeled the
+native Cube goal image as rank 6 rather than rank 5. Candidate expansion then
+produced rank 7 and failed earlier in the image encoder, rather than faithfully
+reproducing the observed low-dimensional-token defect. Jobs 299864–299865 were
+cancelled, all artifacts were preserved, and no episode or performance artifact
+was produced or read. The synthetic harness now uses native rank-5 goal images
+and rank-3 low-dimensional history, which expand to ranks 6 and 4 respectively;
+this is a diagnostic-input correction only and does not change the cache shim
+or any scientific component.
+
+The stopped immutable snapshot was `gdp-cem-e19-a58f577120e1d00e`, with
 source-manifest SHA-256
 `a58f577120e1d00e74f9b227188023878cbbdbcd9aee0e78c5a86314dcf2ef0d`
 and unchanged protocol SHA-256
 `759f64b67a5c8e9d33e03c4d7027ede7edf99f1a4186236fb8f0879fc7ed0e20`.
 It passed complete source-manifest verification, 16 E19 wrapper tests, seven
 unchanged upstream SAGE tests, exact official commit/tree verification, and
-the frozen CPU serialization/tensor preflight. Its replacement dependency
-chain is preparation 299860, release audit 299861, identifier-only overlap and
+the frozen CPU serialization/tensor preflight. Its dependency chain was
+preparation 299860, release audit 299861, identifier-only overlap and
 LeWM/data audit 299862, the expanded non-performance A6000 runtime preflight
 299863, 180-cell official reproduction array 299864, and unchanged official
-summarizer/analyzer 299865. Evaluation cannot start unless both sealed runtime
-audits pass.
+summarizer/analyzer 299865. The failed mandatory preflight prevented both
+downstream jobs from running.

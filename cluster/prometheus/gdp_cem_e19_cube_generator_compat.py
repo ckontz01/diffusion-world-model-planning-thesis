@@ -10,9 +10,10 @@ def install_cube_generator_cache_compat(cube_module) -> None:
     The official Cube ``lewm_generator`` path expands planner inputs over CEM
     candidates before asking for its local goal.  Unlike the corresponding
     PushT path, it omits the unexpanded cache warmup, so multi-stage horizons
-    pass a seven-dimensional goal image tensor to the generator and fail before
-    producing a result.  Warming the existing Cube cache here preserves the
-    official model, checkpoints, candidate bank, and scoring equations.
+    pass candidate-expanded low-dimensional history to the generator and fail
+    on incompatible token ranks before producing a result. Warming the existing
+    Cube cache here preserves the official model, checkpoints, candidate bank,
+    and scoring equations.
     """
 
     solver_type = cube_module.GaussianCEM

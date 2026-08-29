@@ -46,10 +46,12 @@ The released PushT `GaussianCEM.solve` primes the generated-local-goal cache
 from the unexpanded planner query before it expands inputs across CEM
 candidates. The released Cube implementation omits the equivalent call. For
 Cube `lewm_generator` at horizons above 25, the first generated-goal request
-therefore receives a seven-dimensional goal image after candidate expansion;
-the subgoal generator later attempts to concatenate rank-3 and rank-5 latent
-tensors and aborts. The H25 special case does not call the generator, while
-the prior-based methods prime the cache during proposal construction.
+therefore receives candidate-expanded rank-4 low-dimensional history. The
+released helper only removes a history axis from rank-3 inputs, so the subgoal
+generator later attempts to concatenate rank-3 visual tokens with a rank-5
+low-dimensional token and aborts. The H25 special case does not call the
+generator, while the prior-based methods prime the cache during proposal
+construction.
 
 E19 keeps the pinned official checkout byte-for-byte unchanged and uses a
 wrapper that performs only the missing pre-expansion cache call before
