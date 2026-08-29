@@ -1,0 +1,42 @@
+# E19 official SAGE discrepancy diagnostic implementation changelog
+
+Date: 29 August 2026
+
+## Boundary
+
+- The frozen E19 decision remains `stop_native_reproduction_failed`.
+- This is a separately named, outcome-informed technical diagnostic; it is not
+  an E19 amendment or a protected comparison.
+- Official SAGE commit `8219029fd52e89157e05aebb998ab26f0ef46966`, its
+  checkpoint bytes, E19 manifests, planner settings, released expectations,
+  and the unchanged two-point tolerance remain unmodified.
+- No D5, D3/D4 metric artifact, P3, P4, C1, I1, or E18-versus-SAGE
+  performance comparison is accessed.
+
+## Frozen design prepared
+
+- Five outcome-informed sentinel cells were fixed before diagnostic execution,
+  using seed 32 and covering both tasks and all five released methods.
+- Each sentinel has two fresh-process repeats, for 10 runs and 500 episodes.
+- The observational tracer hashes the real planner input mapping, LeWM
+  history/final-goal latents, local goals, first-round candidates and costs,
+  every elite index, and every CEM mean/effective-standard-deviation update.
+- The first planner call seals a fixed comparison bank including the actual
+  local-goal tensor used for its E19-compatible cost calculation.
+- Cube cache values are audited within each fresh model instance using exact
+  stage keys; complete event streams remain subject to cross-repeat identity.
+- A dependent A6000 audit compares the compatibility load with a strict fresh
+  official-runtime load and quantifies PushT lossless-HDF5 versus E19 JPEG-Lance
+  effects without executing another episode.
+- Reconstruction validity is a prerequisite: an instrumentation mismatch
+  invalidates the diagnostic and cannot authorize E20.
+
+## Pre-freeze validation
+
+- 18 diagnostic tests passed in the exact E19 environment, including strict
+  real release loads for both tasks, tensor identity, frozen E19 array-cell
+  identities, and all five E19 result-file hashes.
+- The three unrelated untracked E12 D4 drafts remain untouched.
+
+No diagnostic result has yet been read, no author contact has been made, and no
+E20 run is authorized at this stage.
