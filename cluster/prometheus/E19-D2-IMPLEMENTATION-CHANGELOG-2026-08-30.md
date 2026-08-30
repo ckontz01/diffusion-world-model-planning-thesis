@@ -87,3 +87,27 @@ was impossible independently of any sealed outcome.
   `/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-d2/method-aware-reanalysis-run-20260830-51153451`.
 - Readable validity-only job: `300097`.
 - Dependent sealed classification job: `300098`.
+
+## Corrected classification outcome
+
+- Jobs `300097` and `300098` completed successfully with exit `0:0`.
+- The readable Stage-A audit passed all six non-metric validity gates with
+  `all_passed=true` and `failed_checks=[]`.
+- Every Stage-B output verified against its adjacent checksum manifest. The
+  classification `sha256.txt` has SHA-256
+  `115f9576c2d83d0206cf47cfdd19fccf449f1b6b404da5c42b7c32dc7a5b9cea`.
+- The corrected analyzer was internally valid and identified two objective
+  mismatch classes: `exact_repeatability` and
+  `pusht_jpeg_transport_elite_membership`.
+- Two mismatch classes are non-unique under the unchanged frozen rule.
+  Therefore `e20_authorized=false` and the terminal decision is
+  `prepare_author_evidence_no_unique_e20_correction`; no E20 was drafted or
+  launched.
+- The official-runtime load and fixed-bank reconstruction were exact, and the
+  Cube generated-goal cache audit passed. They are not mismatch classes.
+- A sealed author evidence packet was generated for review but not sent. Its
+  README and machine summary have SHA-256 values
+  `02288e157802261c7771528216845aacb12c3363cea9b1911339d835e05f4f24`
+  and `b63fbb600493cde4bb7a6f0183c9c1ac2344c0de04b17e237e07947eec4b56f3`.
+- E19 remains `stop_native_reproduction_failed`, and the first discrepancy
+  diagnostic remains `diagnostic_invalid_stop_without_e20`.

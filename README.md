@@ -30,6 +30,8 @@ E19 pinned official SAGE commit `8219029fd52e89157e05aebb998ab26f0ef46966`, its 
 
 A separately frozen, outcome-informed E19 discrepancy diagnostic then ran two exact repeats of five prespecified sentinel cells plus a fixed-bank runtime/transport comparison. All ten sentinels and the comparison completed, but the sealed analyzer deliberately failed its frozen `internal_valid` gate. Under the preregistered failure barrier, its JSON/TSV outputs were checksum-validated but not opened or interpreted. The diagnostic is therefore invalid, identifies no mismatch class, authorizes no E20, and does not amend E19. See the [transparent diagnostic stop](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md).
 
+Static source inspection then established that the failed analyzer's history-latent gate was impossible for the prespecified generator-free `base_cem` sentinel independently of outcomes. A separately named E19-D2 reanalysis changed only that event-validity expectation, reused the checksum-verified raw artifacts without rerunning episodes, and preserved the first diagnostic as invalid. E19-D2 was internally valid but found two objective mismatch classes: no sentinel had exact fresh-process trace/bank repeatability, and PushT JPEG/Lance transport changed elite membership in 31/50 and 39/50 environments for the two tested banks. Strict official-runtime loading matched the compatibility load exactly, and the Cube cache audit passed. Because the frozen rule requires exactly one unique mismatch, E20 remains unauthorized; an evidence packet was prepared for review but not sent. See the [E19-D2 result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md).
+
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, a comparison with official PRISM, or a validated efficacy comparison against official SAGE.
 
 ## E13 matched PRISM-DP results first, by task
@@ -294,6 +296,34 @@ See the [E19 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-REP
 
 See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-PROTOCOL-2026-08-29.md), [implementation changelog](cluster/prometheus/E19-DISCREPANCY-IMPLEMENTATION-CHANGELOG-2026-08-29.md), and [terminal result](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md).
 
+### 30 August: E19-D2 method-aware discrepancy reanalysis
+
+- Static source inspection proved that the first diagnostic analyzer required
+  a history-latent event that official generator-free PushT `base_cem` cannot
+  emit. This defect was independent of any sealed outcome.
+- E19-D2 changed only that event expectation, imported the byte-identical
+  parent mismatch definitions and E20 rules, and reused the checksum-verified
+  raw sentinel, trace, bank, and comparison artifacts without rerunning them.
+  The failed parent analyzer output remained unread.
+- The corrected validity-only stage passed all six gates, and the sealed
+  classification completed successfully with `internal_valid=true`.
+- Exact repeatability failed for all five sentinels: every fresh-process trace
+  and first-call bank hash changed. Four of five coarse outcomes repeated
+  exactly, and three of five matched their original E19 outcomes exactly.
+- Compatibility-loaded and strict official-runtime LeWM state, latents, costs,
+  ranks, and elites matched on every tested real bank. The Cube cache audit
+  also passed 4,530 events and 1,056 scoped stage keys without a mismatch.
+- PushT lossless-HDF5 versus JPEG/Lance transport changed latents, costs,
+  candidate order, and elite membership in 31/50 `base_cem` and 39/50
+  `far_goal_prior_cem` environments.
+- The two objective mismatch classes are non-unique, so the frozen decision is
+  `prepare_author_evidence_no_unique_e20_correction` with
+  `e20_authorized=false`. E19 and the first diagnostic keep their original
+  failed decisions. No E20, protected-data read, E18-versus-SAGE comparison,
+  or author contact occurred.
+
+See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-PROTOCOL-2026-08-30.md), [implementation changelog](cluster/prometheus/E19-D2-IMPLEMENTATION-CHANGELOG-2026-08-30.md), [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md), and [review packet](cluster/prometheus/e19-d2-author-evidence/README.md).
+
 ## Compact experiment ledger
 
 | Stage | Question | Outcome |
@@ -323,6 +353,7 @@ See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFF
 | E18 | Can the unchanged failed-E17 adapter still provide useful ranking information inside the actual 64-by-8 continuation planner on development-only starts? | Positive exploratory result: 72.92% equal-task/equal-horizon success; +6.25 points over greedy VAD-300, +12.50 over compute-matched VAD-576, +6.94 over Gaussian continuation, and +18.06 over GMM continuation. Both frozen gates passed, but intervals overlapped zero versus VAD-300 and Gaussian. E17 remains failed; no D5 confirmation ran. |
 | E19 | Does the pinned official SAGE release reproduce its complete paper grid, and are its episode manifests disjoint from E18 training? | No. All 180 cells and 9,000 episodes were valid, but the unchanged ±2-point summarizer passed only 29/60 means; maximum gap 25.97 points. Official manifests also overlapped E18 training by 270 PushT and 84 Cube episodes. No matched comparison was authorized. |
 | E19 discrepancy diagnostic | Can exact sentinel repeats and read-only intermediate comparisons isolate one objective technical cause of the E19 gap? | Invalid stop. Ten sentinel repeats and the fixed-bank comparison completed, but the sealed analyzer failed its frozen internal-validity gate. Outputs were not interpreted; no mismatch class, E20, or author packet was authorized. |
+| E19-D2 reanalysis | Does the outcome-independent method-event defect explain the first diagnostic's invalidity, and does a method-aware gate isolate one unique cause? | The corrected analyzer was valid, but found two classes: exact fresh-process repeatability failed for all five sentinels, and PushT JPEG/Lance transport changed elite membership. Runtime-load and Cube-cache parity passed. Multiple classes forbid E20; an unsent evidence packet was prepared. |
 
 ## ACID comparator status
 
@@ -336,14 +367,14 @@ Important choices were necessarily reconstructed because the paper did not speci
 
 ## Current publication plan
 
-The method and all E11--E19 evidence stay frozen. E17 triggered its prewritten two-task stop rule and remains failed. E18 nevertheless found a positive planner-level development signal with the unchanged checkpoint and passed its separately frozen rules. E19 then showed that the pinned official SAGE release does not reproduce its full paper table under the release's own tolerance, and that the official paper manifests overlap E18 training. E18's narrow authorization for a standalone confirmation protocol remains distinct, but official SAGE paper values and manifests cannot supply a validated matched comparator. The focused next work is:
+The method and all E11--E19 evidence stay frozen. E17 triggered its prewritten two-task stop rule and remains failed. E18 nevertheless found a positive planner-level development signal with the unchanged checkpoint and passed its separately frozen rules. E19 then showed that the pinned official SAGE release does not reproduce its full paper table under the release's own tolerance, and that the official paper manifests overlap E18 training. E19-D2 found non-unique repeatability and PushT transport discrepancies, so it does not authorize an E20 rerun. E18's narrow authorization for a standalone confirmation protocol remains distinct, but official SAGE paper values and manifests cannot supply a validated matched comparator. The focused next work is:
 
 1. Build the thesis/paper manuscript around task-first E11 and E13 results before pooled results, including Cube saturation and the opposite PushT/Reacher E13 effects.
 2. Report E14 and E15 together as transparent development evidence: E14 identified the boundary failure, E15 fixed it technically but failed the task-robust mechanism and unconditional-null rules. Do not imply a closed-loop SAGE result.
 3. Report E12's PRISM artifact-validity stop and E13's non-superiority/compute-efficiency result, always limiting PRISM claims to the disclosed reconstruction.
 4. Complete the line-by-line ACID fidelity appendix, published-number comparison, and compute-budget curve as secondary evidence. Keep diffusion-plus-ACID outside the present method.
 5. Finish reproducibility packaging, frozen-table generation, limitations, and the author-code/checkpoint correspondence record before starting another benchmark family.
-6. Keep any future E18 confirmation separate from E19. Do not draft or launch a matched comparison on the official SAGE paper manifests, and do not use the released SAGE means as a validated baseline. If the SAGE comparison is revisited, first justify a new protocol around the preserved common untouched episode split and the failed native-reproduction result; review it with the supervisor before freezing or exposing any holdout. Do not tune E18, change any failed E15--E17 gate, or consume D5 automatically. Consider a separately justified PLDM cross-backbone study only after the manuscript-gap review.
+6. Keep any future E18 confirmation separate from E19. Do not draft or launch a matched comparison on the official SAGE paper manifests, and do not use the released SAGE means as a validated baseline. Review the E19-D2 author evidence packet with the user and supervisor before any correspondence; do not contact the authors automatically. E19-D2 forbids E20 because its two mismatch classes are non-unique. If the SAGE comparison is revisited later, first justify a new protocol around the preserved common untouched episode split and the failed native-reproduction result before exposing any holdout. Do not tune E18, change any failed E15--E17 gate, or consume D5 automatically. Consider a separately justified PLDM cross-backbone study only after the manuscript-gap review.
 
 The paper's most defensible established headline remains approximately:
 
