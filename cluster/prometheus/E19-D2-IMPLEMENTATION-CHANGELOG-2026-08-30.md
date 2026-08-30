@@ -34,3 +34,23 @@ was impossible independently of any sealed outcome.
 - Regression tests cover valid history-free `base_cem`, invalid unexpected
   `base_cem` history, invalid history-free `sage`, and valid history-bearing
   `sage`.
+
+## Immutable launch
+
+- Canonical design commit: `f47a5eb` on branch
+  `e19-d2-method-aware-discrepancy-reanalysis`.
+- Immutable snapshot:
+  `/lustreFS/data/superworld/ckontzias/thesis/snapshots/gdp-cem-e19-d2-d8cc0e6ef8851079`.
+- Source-manifest SHA-256:
+  `d8cc0e6ef88510793836f8bb683568588ca3857386c4d675e1bb077b83fd9678`.
+- Protocol SHA-256:
+  `c002316080240245f87553086ac1eb0202380374447ae049bdb291edd7abd248`.
+- Freeze validation passed all 16 source-manifest entries, eight analyzer tests,
+  the exact parent analyzer/spec/tracer hashes, the clean official SAGE
+  commit/tree, and all ten sentinel plus comparison adjacent checksums.
+- Fresh output root:
+  `/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-d2/method-aware-reanalysis-run-20260830-d8cc0e6e`.
+- Readable validity-only job: `300095`.
+- Dependent sealed classification job: `300096`.
+- No parent analyzer output is an input, and no episode or comparison job is
+  submitted.
