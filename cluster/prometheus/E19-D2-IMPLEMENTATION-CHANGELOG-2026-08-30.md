@@ -54,3 +54,20 @@ was impossible independently of any sealed outcome.
 - Dependent sealed classification job: `300096`.
 - No parent analyzer output is an input, and no episode or comparison job is
   submitted.
+
+## Preserved first D2 classification execution failure
+
+- Validity job `300095` completed and its readable non-metric output passed all
+  six gates with `failed_checks=[]`.
+- Dependent classification job `300096` failed after eight seconds with a
+  `RecursionError` before producing a classification. Installing the
+  method-aware gate into the legacy module caused that gate to call the newly
+  installed symbol instead of the captured parent implementation.
+- The failed chain and fresh output path remain preserved. No partial
+  classification file was opened or interpreted.
+- The transport-only correction captures the byte-identical parent
+  `trace_gate` at import time and delegates to that fixed reference. A ninth
+  regression test installs the replacement into the legacy module and proves
+  that a valid history-free `base_cem` trace returns without recursion.
+- No validity definition, mismatch definition, raw input, parent output,
+  scientific setting, or E20 rule changes.

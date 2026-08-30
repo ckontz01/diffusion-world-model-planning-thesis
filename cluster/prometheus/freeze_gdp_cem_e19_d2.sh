@@ -111,7 +111,7 @@ find "${BUILD}" -maxdepth 1 -type f \
   "${BUILD}/test_analyze_gdp_cem_e19_discrepancy.py" \
   "${BUILD}/test_gdp_cem_e19_d2_validity.py" \
   > "${BUILD}/wrapper-tests.txt"
-grep -Eq '^8 passed in [0-9.]+s$' "${BUILD}/wrapper-tests.txt"
+grep -Eq '^9 passed in [0-9.]+s$' "${BUILD}/wrapper-tests.txt"
 
 "${ENV_DIR}/bin/python" - "${BUILD}" "${ENV_DIR}" "${PARENT_SNAPSHOT}" \
   "${PARENT_SOURCE_SHA}" "${PARENT_PROTOCOL_SHA}" "${LEGACY_ANALYZER_SHA}" \

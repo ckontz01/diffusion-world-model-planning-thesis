@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import gdp_cem_e19_discrepancy_specs as spec
+import analyze_gdp_cem_e19_discrepancy as legacy
 from gdp_cem_e19_d2_validity import trace_gate
 from trace_gdp_cem_e19_discrepancy import canonical_sha256
 
@@ -65,3 +66,13 @@ def test_sage_trace_with_history_event_passes() -> None:
     gate = trace_gate(make_trace(spec.SENTINELS[4], include_history=True), spec.SENTINELS[4], 0)
     assert gate["passed"] is True
     assert gate["checks"]["history_semantics_valid"] is True
+
+
+def test_installed_method_aware_gate_calls_captured_parent_gate(monkeypatch) -> None:
+    monkeypatch.setattr(legacy, "trace_gate", trace_gate)
+    gate = legacy.trace_gate(
+        make_trace(spec.SENTINELS[0], include_history=False),
+        spec.SENTINELS[0],
+        0,
+    )
+    assert gate["passed"] is True

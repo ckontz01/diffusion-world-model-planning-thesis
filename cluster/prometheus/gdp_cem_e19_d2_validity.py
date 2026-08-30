@@ -17,6 +17,7 @@ from trace_gdp_cem_e19_discrepancy import canonical_sha256
 
 
 METHOD_CHECK_KEYS = frozenset({"latents_present", "history_semantics_valid"})
+PARENT_TRACE_GATE = legacy.trace_gate
 
 
 def method_event_checks(events: list[dict[str, Any]], method: str) -> dict[str, bool]:
@@ -46,7 +47,7 @@ def trace_gate(
 ) -> dict[str, Any]:
     """Apply the frozen gate with only the history expectation made method-aware."""
 
-    gate = legacy.trace_gate(trace, sentinel, repeat)
+    gate = PARENT_TRACE_GATE(trace, sentinel, repeat)
     method_checks = method_event_checks(trace["events"], sentinel.method)
     gate["checks"]["history_semantics_valid"] = method_checks[
         "history_semantics_valid"
