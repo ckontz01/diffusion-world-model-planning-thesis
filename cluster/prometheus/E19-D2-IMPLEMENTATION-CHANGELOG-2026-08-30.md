@@ -71,3 +71,19 @@ was impossible independently of any sealed outcome.
   that a valid history-free `base_cem` trace returns without recursion.
 - No validity definition, mismatch definition, raw input, parent output,
   scientific setting, or E20 rule changes.
+
+## Corrected immutable launch
+
+- Technical correction commit: `9745478`.
+- Immutable snapshot:
+  `/lustreFS/data/superworld/ckontzias/thesis/snapshots/gdp-cem-e19-d2-511534515469599b`.
+- Source-manifest SHA-256:
+  `511534515469599b8c15a4ee84e339ae6b729ead9fde4a51705bda837fed4b1d`.
+- Protocol SHA-256 remains
+  `c002316080240245f87553086ac1eb0202380374447ae049bdb291edd7abd248`.
+- Freeze validation passed nine tests and retained the exact parent analyzer
+  SHA-256.
+- Fresh run root:
+  `/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-d2/method-aware-reanalysis-run-20260830-51153451`.
+- Readable validity-only job: `300097`.
+- Dependent sealed classification job: `300098`.
