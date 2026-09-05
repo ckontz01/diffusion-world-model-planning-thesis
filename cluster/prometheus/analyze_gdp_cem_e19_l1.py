@@ -41,7 +41,7 @@ def verify_inventory(directory: Path, allowed: set[str]) -> dict[str, str]:
 def dump_sealed(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("x", encoding="utf-8") as stream:
-        json.dump(payload, stream, indent=2, sort_keys=True, allow_nan=False)
+        json.dump(audit.json_safe(payload), stream, indent=2, sort_keys=True, allow_nan=False)
         stream.write("\n")
     path.chmod(0o444)
 
@@ -64,7 +64,7 @@ def read_bank(sentinel, repeat):
 def bank_comparison(a, b):
     fields = []
     def visit(x, y, path):
-        rx, ry = value_record(x), value_record(y)
+        rx, ry = audit.json_safe(value_record(x)), audit.json_safe(value_record(y))
         if isinstance(rx, dict) and rx.get("kind") in {"torch", "numpy"}:
             if rx == ry:
                 row = {"exact": True, "record": rx}

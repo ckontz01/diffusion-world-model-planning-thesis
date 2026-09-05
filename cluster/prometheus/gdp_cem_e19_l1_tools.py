@@ -3,11 +3,23 @@
 from __future__ import annotations
 
 from collections import Counter
+import math
 from typing import Any
 
 import numpy as np
 import torch
 from torch.overrides import TorchFunctionMode
+
+
+def json_safe(value: Any) -> Any:
+    """Keep nonfinite metadata explicit without invalid JSON or NaN != NaN noise."""
+    if isinstance(value, float) and not math.isfinite(value):
+        return {"kind": "nonfinite_scalar", "value": str(value)}
+    if isinstance(value, dict):
+        return {key: json_safe(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [json_safe(item) for item in value]
+    return value
 
 
 def tensor_delta(left: Any, right: Any) -> dict[str, Any]:
@@ -32,7 +44,7 @@ def tensor_delta(left: Any, right: Any) -> dict[str, Any]:
 
 def leaves(value: Any, path: str = ""):
     if isinstance(value, dict):
-        if value.get("kind") in {"torch", "numpy", "repr"}:
+        if value.get("kind") in {"torch", "numpy", "repr", "nonfinite_scalar"}:
             yield path, value
         else:
             for key in sorted(value):
@@ -45,7 +57,7 @@ def leaves(value: Any, path: str = ""):
 
 
 def record_differences(left: Any, right: Any) -> list[dict[str, Any]]:
-    a, b = dict(leaves(left)), dict(leaves(right))
+    a, b = dict(leaves(json_safe(left))), dict(leaves(json_safe(right)))
     return [{"path": path, "left": a.get(path), "right": b.get(path),
              "left_present": path in a, "right_present": path in b}
             for path in sorted(a.keys() | b.keys()) if a.get(path) != b.get(path) or (path in a) != (path in b)]
@@ -72,7 +84,7 @@ def trace_comparison(left: dict, right: dict) -> dict:
     counts, field_counts, coverage = Counter(), Counter(), Counter()
     samples, numerical_samples, non_time_samples = [], [], []
     missing = []
-    opaque = set()
+    opaque, nonfinite = set(), Counter()
     other_differences = 0
     for key in dict.fromkeys([*a, *b]):
         if key not in a or key not in b:
@@ -83,6 +95,9 @@ def trace_comparison(left: dict, right: dict) -> dict:
         differences = record_differences(x, y)
         for event in (x, y):
             opaque.update(f"{key}:{path}" for path in opaque_paths(event))
+            for path, value in leaves(json_safe(event)):
+                if isinstance(value, dict) and value.get("kind") == "nonfinite_scalar":
+                    nonfinite[f"{event['kind']}.{path}:{value['value']}"] += 1
         if differences:
             counts[x["kind"]] += 1
         for difference in differences:
@@ -112,6 +127,7 @@ def trace_comparison(left: dict, right: dict) -> dict:
             "differences_excluding_render_time_and_derived_mapping_hash": other_differences,
             "first_non_render_time_differences": non_time_samples,
             "opaque_repr_path_count": len(opaque), "opaque_repr_path_examples": sorted(opaque)[:16],
+            "nonfinite_scalar_occurrences_both_traces": dict(nonfinite),
             "later_round_magnitude_available": False,
             "limitation": "Only first-call round-zero banks contain raw candidate/cost tensors; later rounds contain hashes."}
 

@@ -1,8 +1,10 @@
+import json
+
 import pytest
 import torch
 
 from gdp_cem_e19_l1_tools import (
-    boundary_rows, elite_rows, observe_fit, opaque_paths, outcome_comparison,
+    boundary_rows, elite_rows, json_safe, observe_fit, opaque_paths, outcome_comparison,
     record_differences, selected_distribution, tensor_delta, trace_comparison,
 )
 
@@ -101,3 +103,13 @@ def test_episode_flips_do_not_mean_all_outcomes_changed():
 def test_nonfinite_costs_rejected():
     with pytest.raises(ValueError):
         boundary_rows(torch.tensor([[float("nan"), 1., 2.]]), 1)
+
+
+def test_nonfinite_metadata_is_explicit_and_not_a_false_pair_difference():
+    a = {"placeholder": float("nan"), "positive": float("inf")}
+    b = {"placeholder": float("nan"), "positive": float("inf")}
+    assert record_differences(a, b) == []
+    safe = json.loads(json.dumps(json_safe(a), allow_nan=False))
+    assert safe["placeholder"] == {"kind": "nonfinite_scalar", "value": "nan"}
+    b["positive"] = float("-inf")
+    assert record_differences(a, b)[0]["path"] == "positive"
