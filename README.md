@@ -6,6 +6,16 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
+The bounded fresh-interface PushT integration now passes: the unchanged five
+E18 arms completed50 exposed-record initializations,128 actual planning calls
+and1,363 delivered actions with verified replanning, termination and new-episode
+lifecycle. Missing evaluator non-action scalers are computationally irrelevant;
+exact checkpoint normalization and action decoding are pinned. R3, model bytes
+and historical outcomes remain unchanged. This is an engineering result, not
+efficacy evidence. See the [integration result](cluster/prometheus/E18-FRESH-DRIVER-INTEGRATION-RESULT-2026-09-05.md)
+and [confirmation design awaiting scope/effect approval](cluster/prometheus/E18-FRESH-CONFIRMATION-PROTOCOL-DRAFT-2026-09-05.md).
+No confirmation record was accessed or protocol falsely labelled frozen.
+
 As of 5 September 2026, two frozen untouched-holdout studies support complementary conclusions. E14 and its single preregistered E15 redesign stopped before closed-loop long-horizon comparison; E16 and E17 then isolated candidate-ranking headroom and an imperfect transition-state interface. The separately frozen E18 study produced positive, development-only closed-loop evidence for the resulting continuation planner. E19 subsequently completed a pinned native reproduction of official SAGE and stopped because the unchanged release's two-point fidelity rule failed. The new E19-L1 engineering follow-up localizes the exposed diagnostic discrepancies without changing any historical decision or running new episodes.
 
 E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
@@ -334,6 +344,24 @@ See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFF
 
 See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-PROTOCOL-2026-08-30.md), [implementation changelog](cluster/prometheus/E19-D2-IMPLEMENTATION-CHANGELOG-2026-08-30.md), [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md), and [review packet](cluster/prometheus/e19-d2-author-evidence/README.md).
 
+### 5 September: fresh E18 scientific-driver integration
+
+- Preserved the accepted R3 initializer and all frozen E18 model/planner bytes.
+- Proved real-input pixel-only encoder dependence and raw-state checkpoint
+  normalization; matched action decoding to all three tested proposer families.
+  Independently pinned all nine existing training checkpoints and verified their
+  normalization payloads agree, with no dataset read or fit.
+- One frozen GPU attempt, job300308, passed. Fifty exposed-record initializations,
+  128 real planning calls and1,363 actions exercise both schedules, independent
+  three-slot interleaving, replanning, early/budget termination and reinitialization.
+- No historical SAGE-fidelity or efficacy claim, new holdout, model change,
+  restoration redesign or automatic scientific run. The PushT engineering gate
+  is closed; statistical scope/effect choices remain before confirmation freeze.
+  See [plan](cluster/prometheus/E18-FRESH-DRIVER-INTEGRATION-PLAN-2026-09-05.md),
+  [result](cluster/prometheus/E18-FRESH-DRIVER-INTEGRATION-RESULT-2026-09-05.md),
+  [implementation history](cluster/prometheus/E18-FRESH-DRIVER-IMPLEMENTATION-CHANGELOG-2026-09-05.md)
+  and [protocol draft](cluster/prometheus/E18-FRESH-CONFIRMATION-PROTOCOL-DRAFT-2026-09-05.md).
+
 ### 5 September: E19-R3 opt-in fresh-state initialization
 
 - Implemented the user-approved instantaneous initialization contract using new
@@ -464,7 +492,7 @@ The method and all E11--E19 evidence stay frozen. E17 triggered its prewritten t
 3. Report E12's PRISM artifact-validity stop and E13's non-superiority/compute-efficiency result, always limiting PRISM claims to the disclosed reconstruction.
 4. Complete the line-by-line ACID fidelity appendix, published-number comparison, and compute-budget curve as secondary evidence. Keep diffusion-plus-ACID outside the present method.
 5. Finish reproducibility packaging, frozen-table generation, limitations, and the author-code/checkpoint correspondence record before starting another benchmark family.
-6. Keep E18 confirmation separate from SAGE reproduction fidelity. Review the new E18 confirmation outline and close its shared reset/state-restoration engineering gate before freezing or consuming any holdout. E19-L1 qualifies the interpretation of D2's flags without changing its failed authorization decision; the historical exactly-one-class rule is not a universal prohibition on future documented, source-justified repairs. Await the authors' exact artifacts and prepare evidence supplements for user review; never contact them automatically. Do not use the released SAGE means as a validated baseline or draft/launch a matched comparison on its overlapping official paper manifests. Any later matched comparison needs a separately justified, episode-disjoint protocol and explicit authorization. Do not tune E18, change failed E15--E17 gates, or consume D5 automatically. Consider a separately justified PLDM cross-backbone study only after the manuscript-gap review.
+6. Keep E18 confirmation separate from SAGE reproduction fidelity. The scoped PushT fresh-initialization and actual-driver engineering gates are now passed; resolve the confirmation draft's task scope/effect target and sample-size feasibility before the final protocol/record freeze. No further PushT restoration redesign is required by these passed gates. E19-L1 qualifies the interpretation of D2's flags without changing its failed authorization decision; the historical exactly-one-class rule is not a universal prohibition on future documented, source-justified repairs. Await the authors' exact artifacts and prepare evidence supplements for user review; never contact them automatically. Do not use the released SAGE means as a validated baseline or draft/launch a matched comparison on its overlapping official paper manifests. Any later matched comparison needs a separately justified, episode-disjoint protocol and explicit authorization. Do not tune E18, change failed E15--E17 gates, or consume D5 automatically. Consider a separately justified PLDM cross-backbone study only after the manuscript-gap review.
 
 The paper's most defensible established headline remains approximately:
 
