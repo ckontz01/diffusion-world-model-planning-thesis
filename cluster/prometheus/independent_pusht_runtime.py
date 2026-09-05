@@ -44,6 +44,21 @@ class Decoder:
     def transform(self,x):
         x=x.copy();x-=self.mean_;x/=self.scale_;return x
 
+
+def official_lewm_pickle_aliases():
+    """E19-compatible model mapping, without replacing simulator modules."""
+    import importlib.util,types
+    loaded={}
+    for name,rel in [('independent_sage_lewm','lewm.py'),('independent_sage_module','module.py')]:
+        path=SAGE/'stable_worldmodel/wm/lewm'/rel
+        spec=importlib.util.spec_from_file_location(name,path)
+        module=importlib.util.module_from_spec(spec);sys.modules[name]=module;spec.loader.exec_module(module)
+        loaded[rel]=module
+    j=types.ModuleType('jepa');j.JEPA=loaded['lewm.py'].LeWM
+    m=loaded['module.py'];m.ARPredictor=m.Predictor
+    sys.modules['jepa']=j;sys.modules['module']=m
+    return loaded['lewm.py'].LeWM,{rel:sha(SAGE/'stable_worldmodel/wm/lewm'/rel) for rel in loaded}
+
 def build(arm,train_seed):
     if arm not in ARMS or train_seed not in (7201,7202,7203):raise ValueError('unknown registered arm/seed')
     deterministic(32)
@@ -59,7 +74,9 @@ def build(arm,train_seed):
             q=CHECKPOINTS/release[name]['filename'];assert sha(q)==release[name]['sha256'];return q
         generator,gs,_=p.load_subgoal_prior(path('pusht_generator'),device)
         prior,ps,_=p.load_action_prior(path('pusht_action_prior'),device)
+        official_class,official_sources=official_lewm_pickle_aliases()
         lewm=p.load_lewm(LEWM,device=device,bf16=True)
+        assert type(lewm) is official_class, 'wrong LeWM implementation for SAGE'
         decoder=p.ArrayNormalizer(ps['action_mean'].cpu().numpy(),ps['action_std'].cpu().numpy())
         def factory(horizon,seed):
             # New cost wrapper owns subgoal cache; shared frozen networks are not modified.
@@ -71,6 +88,8 @@ def build(arm,train_seed):
             return policy
         modules=[lewm,generator,prior]
         provenance={'sage_commit':'8219029fd52e89157e05aebb998ab26f0ef46966',
+          'official_lewm_source_hashes':official_sources,
+          'pickle_mapping':'same historical-name mapping as original E19 official runtime',
           'checkpoints':{k:release[k] for k in ('pusht_generator','pusht_action_prior')},
           'runtime':'E18 swm006 common physical environment; released SAGE model, CEM and schedule code',
           'precision':'released SAGE BF16 LeWM, FP32 learned subgoal/action networks',
