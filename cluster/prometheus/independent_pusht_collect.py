@@ -92,6 +92,8 @@ def collect(out,namespace,n,max_attempts):
               'contact_action_count':int(np.sum(data['contacts']>0))}
             records.append(row)
         attempts.append(entry)
+        if data is not None and len(records) % 100 == 0:
+            print(json.dumps({'accepted_references':len(records),'attempts':len(attempts)}),flush=True)
         if len(records)==n: break
     payload={'version':VERSION,'namespace':namespace,'requested':n,'complete':len(records)==n,
              'records':records,'attempts':attempts,'steps':150,'comparative_models_called':False,

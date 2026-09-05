@@ -1,8 +1,8 @@
 # Independent PushT reachable-goal benchmark: prospective protocol v1
 
-Status: implementation/test stage; final execution enabled only after the
-collector, common-driver and analysis regression checks pass. User authorized
-end-to-end implementation and a large study on 6 September 2026.
+Status: frozen before final collection and comparative outcomes. The collector,
+common-driver parity, analysis and orchestration tests passed (300323--300325).
+User authorized end-to-end implementation and a large study on 6 September 2026.
 
 ## Population and collection
 Generate 6,000 independent accepted reference trajectories under namespace
