@@ -96,6 +96,13 @@ candidate pool was opened or modified for this outline.
 
 ## Current authorization boundary
 
+The subsequently authorized [R1 fixed-stimulus diagnostic](E19-R1-RESET-FIXED-STIMULUS-RESULT-2026-09-05.md)
+found pre-action PushT restoration counterexamples in both evaluation stacks.
+The reset/state-restoration requirement above is therefore **not closed**.
+Keep confirmation on hold until the intended restoration contract and any
+source-justified correction are separately specified and regression-tested.
+Do not reinterpret this engineering finding as an amendment to historical E18.
+
 This document is ready for methodological review. It is not a preregistration,
 does not unlock any dataset, and does not authorize a new evaluation. The
 remaining design choices and real-input engineering checks must be completed

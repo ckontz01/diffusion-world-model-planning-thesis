@@ -46,7 +46,7 @@ run_python() {
 run_python sage -m pytest -q -p no:cacheprovider "$SNAPSHOT/test_gdp_cem_e19_r1.py"
 run_python sage "$SNAPSHOT/gdp_cem_e19_r1.py" prepare --output "$RUN_ROOT/preparation"
 for stack in sage e18; do
-  for caseid in 0 1 2 3 4; do
+  for caseid in 3 4; do
     for repeat in 0 1; do
       run_python "$stack" "$SNAPSHOT/gdp_cem_e19_r1.py" execute \
         --prepared "$RUN_ROOT/preparation/STIMULI.json" --stack "$stack" --case "$caseid" --repeat "$repeat" \

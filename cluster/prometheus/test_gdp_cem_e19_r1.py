@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 import torch
-from gdp_cem_e19_r1 import choose,encode,digest,FixedReturn,STEPS
+from gdp_cem_e19_r1 import choose,encode,digest,FixedReturn,STEPS,step_phase
 
 def test_candidate_selection_is_index_only():
     candidates=torch.arange(1*3*3*10,dtype=torch.float32).reshape(1,3,3,10)
@@ -37,3 +37,9 @@ def test_fixed_return_never_replans():
     with pytest.raises(RuntimeError): s.solve({})
 
 def test_cap_is_fifteen(): assert STEPS==15
+
+def test_native_reset_steps_do_not_consume_stimulus_cap():
+    phase={'reset':True,'steps':0}
+    assert step_phase(phase)=='reset' and phase['steps']==0
+    phase['reset']=False
+    assert step_phase(phase)=='stimulus'

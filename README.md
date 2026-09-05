@@ -36,6 +36,8 @@ E19-L1 then checked the already exposed artifacts field by field and replayed on
 
 The [shared-infrastructure review](cluster/prometheus/E18-SHARED-INFRASTRUCTURE-REVIEW-2026-09-05.md) also corrects the earlier interpretation of E18: PushT H150 was 44.44% versus 25.00% for both greedy VAD-300 and Gaussian continuation. Recorded timing ratios were approximately 2.00x and 1.85x, with the important qualification that these are batch-amortized seconds per context-stage. The reset/state-restoration interface remains an engineering gate before confirmation; E18 is not assumed immune to a problem discovered in SAGE. A [non-executable confirmation outline](cluster/prometheus/E18-CONFIRMATION-OUTLINE-2026-09-05.md) is prepared, but no holdout or new comparison is authorized.
 
+The subsequently authorized [E19-R1 reset/fixed-stimulus check](cluster/prometheus/E19-R1-RESET-FIXED-STIMULUS-RESULT-2026-09-05.md) performed short engineering executions, not new planning or benchmark evaluation. Twenty valid traces delivered 300 post-restoration actions. Paired actions matched in all cases, but one PushT case in each stack already had differing block poses after restoration; initial dataset-overlaid states hid those differences. Cube qpos/qvel/targets matched while other integration fields differed; three pairs converged after one action and one E18 pair retained small numerical drift. Confirmation remains on hold pending resolution of the restoration contract. The diffusion planner and all historical decisions are unchanged.
+
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, a comparison with official PRISM, or a validated efficacy comparison against official SAGE.
 
 ## E13 matched PRISM-DP results first, by task
@@ -327,6 +329,24 @@ See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFF
   or author contact occurred.
 
 See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-PROTOCOL-2026-08-30.md), [implementation changelog](cluster/prometheus/E19-D2-IMPLEMENTATION-CHANGELOG-2026-08-30.md), [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md), and [review packet](cluster/prometheus/e19-d2-author-evidence/README.md).
+
+### 5 September: E19-R1 reset and fixed diagnostic stimulus
+
+- Authorized saved-candidate substitution was labelled as an engineering
+  stimulus, never a historical selected CEM plan. The prior-top control used
+  saved returned actions. Candidate choice was index-based, not cost-based.
+- Job 300297's twelve PushT traces were complete; its eight Cube traces
+  mixed native reset steps into the action counter and lacked before-action
+  coverage. They remain preserved. A regression-tested counter correction
+  reran only those eight Cube cases in job 300298 with unchanged stimuli.
+- The twenty valid traces passed seals, identity and complete 15-step
+  coverage checks. Actual paired actions agreed. PushT restoration had
+  physical counterexamples in both stacks; Cube restored specified state
+  exactly but retained other integration-state differences.
+- Decision: hold confirmation pending restoration-contract resolution. No
+  model/environment repair, E20, new benchmark, author contact or holdout.
+  See the [result](cluster/prometheus/E19-R1-RESET-FIXED-STIMULUS-RESULT-2026-09-05.md)
+  and [implementation history](cluster/prometheus/E19-R1-IMPLEMENTATION-CHANGELOG-2026-09-05.md).
 
 ### 5 September: E19-L1 exposed-artifact localization
 

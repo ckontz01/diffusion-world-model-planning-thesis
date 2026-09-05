@@ -25,7 +25,8 @@ Prior-top is labelled saved historical planner output, truncated to 15 actions.
 ## Separate interfaces and action semantics
 
 Two fresh processes for each case in each stack: 20 short initializations,
-at most 300 primitive environment steps. One environment per process removes
+at most 300 post-restoration primitive environment steps. Native reset-internal
+settling steps are recorded separately and are not modified. One environment per process removes
 batch-position ambiguity; original 50/3-environment interactions are not
 certified. Do not force a reset seed. SAGE retains its global seed 32;
 E18 uses its recorded deterministic seed derivation for replicate 1/shard 0
@@ -73,3 +74,15 @@ where dataset fields specify a target, and limits where hidden state is
 unspecified. Any correction requires demonstrated basis and a regression
 test in separate work. Preserve technical harness failures and version any
 harness-only correction. No automatic E20 or confirmation authorization.
+
+## Harness-only correction after job 300297
+
+The first immutable R1 snapshot (2c5ea97ae66b1f47) counted Cube's native
+reset-internal step calls toward the stimulus budget and therefore omitted
+the before-first-action event. All eight Cube traces are preserved but are
+not valid complete restoration/replay evidence. The twelve PushT traces
+contain that event and all 15 stimulus steps. The corrected counter logs
+reset-internal actions separately, leaves native reset behavior unchanged,
+and is regression-tested. The replacement runner executes only cases 3/4
+in both stacks, twice each (eight processes), using the same deterministic
+selection and source bytes. No outcome-based stimulus or model change.

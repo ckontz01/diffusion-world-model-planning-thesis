@@ -151,6 +151,10 @@ def physical(env,task):
 
 class Finished(Exception): pass
 
+def step_phase(phase):
+    """Native reset steps never consume the post-restoration action budget."""
+    return 'reset' if phase['reset'] else 'stimulus'
+
 class FixedReturn:
     """No planner/model; emit a prespecified tensor exactly once."""
     def __init__(self,actions):
@@ -213,7 +217,7 @@ def execute(prep,out,stack,cid,repeat):
     world.set_policy(policy)
     envs=world.envs.envs if stack=='sage' else world.envs.unwrapped.envs
     env=envs[0].unwrapped
-    events=[]; phase={'reset':False,'steps':0,'inside_step':False}; intended={}
+    events=[]; phase={'reset':False,'steps':0,'reset_steps':0,'inside_step':False}; intended={}
     oldload=dataset.load_chunk
     def load_chunk(*a,**kw):
         rows=oldload(*a,**kw)
@@ -248,6 +252,10 @@ def execute(prep,out,stack,cid,repeat):
         setattr(env,name,wrapped)
     rawstep=env.step
     def step(action):
+        if step_phase(phase)=='reset':
+            events.append({'stage':f'reset_internal_action:{phase["reset_steps"]}','action':encode(np.asarray(action))})
+            result=rawstep(action); phase['reset_steps']+=1
+            return result
         if phase['steps']>=STEPS: raise Finished()
         snapshot(f'before_step:{phase["steps"]}',primitive_action=np.asarray(action))
         phase['inside_step']=True
@@ -287,6 +295,7 @@ def execute(prep,out,stack,cid,repeat):
         fixed_return_calls=solver.calls,prepared=solver.prepared if solver.calls else None,
         action_scaler={k:encode(getattr(scaler,k)) for k in ('mean','std','mean_','scale_') if hasattr(scaler,k)},
         reencoded_actions=encode(normalized),source_hashes={str(p):sha(p) for p in source_paths if p},
+        reset_internal_step_count=phase['reset_steps'],
         new_planning=False,benchmark_result_emitted=False,protected_read=False,
         limitation='one-env fixed-stimulus engineering check; no historical CEM plan reconstruction or cross-stack performance claim')
     seal(out,payload)
