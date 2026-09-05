@@ -1,0 +1,20 @@
+{
+  "completed_shards_backed_up": 2,
+  "shards": [
+    {
+      "stage": 0,
+      "task": 0,
+      "file_count": 257,
+      "done_sha256": "63ec1789d56b5a36bee682daefd92b5fc20f220c2946c86d6125a0cdcb75ac53"
+    },
+    {
+      "stage": 0,
+      "task": 1,
+      "file_count": 257,
+      "done_sha256": "fc10f889451ecb9741fc924f1e9f15e51d40de010fe093ab84a06f867aa04fff"
+    }
+  ],
+  "input_lock_sha256": "90ac1fd4e8e5fbaa3941ab9a5b7ed127bc20cb96018bed5d143b7dec2cbf64cb",
+  "outcome_values_parsed": false,
+  "destination": "/home/chris/thesis-artifacts/independent-pusht/final-20260906-4a608e5"
+}
