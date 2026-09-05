@@ -28,7 +28,7 @@ def evaluate_one(world,factory,record,horizon,seed,arm,cap=None,action_rule='str
         result=original(*args,**kwargs)
         torch.cuda.synchronize()
         calls.append({'at':len(actions),'seconds':time.perf_counter()-start,
-                      'plan_hash':array_hash(result['actions'].numpy())})
+                      'plan_hash':array_hash(result['actions'].float().numpy())})
         return result
     solver.solve=traced
     success=False;failure=None;violations=0;max_raw=0.;truncation=False
