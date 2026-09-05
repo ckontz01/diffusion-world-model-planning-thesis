@@ -1,0 +1,40 @@
+{
+  "all_passed": true,
+  "confirmation_frozen": false,
+  "confirmation_launched": false,
+  "evidence_sha256": {
+    "metadata-v3/availability.json": "d06db14bbaaaa79dd086692d8ec082c5a74a893db8798f4ca2e623c69b24e3a6",
+    "metadata-v3/historical.json": "9895a9f9690a239f4ac850fdaa4dc6b706842ea2a0a13de8af62165a0f480517",
+    "metadata-v3/sha256.txt": "00f88fb5ddde94e84ce5f1efb7c452376ab2abdcb2e1da0018e79ff14d88049d",
+    "planning-v1/planning.json": "0f63b46165dacca113cd27a580b1c07f1fed9090e3649390e55e3fab7f35eb24",
+    "planning-v1/sha256.txt": "373390cf73f6c0cfd0f6b3d876a9342cf0339304b5f9cee55d9f1adb9f9102df",
+    "timing-job-300309/lifecycle-tests.txt": "207ce7372666d3c4f44cf8598ebce34ece7d3e46bd2bc4e72d34ccc169df23b2",
+    "timing-job-300309/sha256.txt": "06ffe6d89f37c3dc97ee600069ec4522bf22406cfa69d2ef5e201cb91a352168",
+    "timing-job-300309/timing.json": "63c32509ec88674f111755db23bec6fd45314a232b3f96a27f025b448abe25dc",
+    "workload.json": "55372a1e494498ee9552aa803ffa3836d3088fba323f9dedd9ac601bd4ade334"
+  },
+  "historical_decision_preserved": true,
+  "inherited_source_sha256": {
+    "e18_fresh_driver.py": "2a9044162fc1c9352234bff1ed13379609dc4c8e1af836bfa753ced31488d616",
+    "gdp_cem_e18_closed_loop.py": "5c3f831315fc7f8908208d5d66ebac856d20b0bdc02012dcfe98cf6fb5b5e4e9",
+    "gdp_cem_e18_runtime.py": "48eaafe8658b9bd63f820fe6f977fdd362fcc08daed3404fc1d982cba1fc7bb2",
+    "gdp_cem_e18_specs.py": "589f22bc3ff513539b1379b9b43eb2a9bf2fa96cbd633502827a97af3b5bc495",
+    "pusht_fresh_initialization.py": "798bb6749dd30b9c6a91ac7018422edbefd356f3bb6bc322bd8ca95987506a65"
+  },
+  "kind": "preparatory_package_verification",
+  "new_analysis_source_sha256": {
+    "e18_design_metadata.py": "900f2c514a224f46b50ba439349db627a3b40ab4605a132edde3c799e666cc64",
+    "e18_design_power.py": "689f415184033756aeb4e2b6f4526cd04929e0bdd095e8accf6451436e673274",
+    "e18_design_timing.py": "caa1677d637cb9012980095443ccab0dc3aa2e347623e9207ea5625dc6ca9eba",
+    "e18_design_workload.py": "cdbfb16e3f426fd1834317039e7752dae4a68ad5f1b35baa2e18485ca1fc3d63",
+    "run_e18_design_timing.slurm": "65ace7d254a72afda71f7aa2fd4a3fd398647b7b27f93b43bab63c9fe117cb24",
+    "test_e18_design_feasibility.py": "a4dd63d1cafefad15131fd63e2d1d7f8a9e7e6d569e236cf7e9c52ecb8dfb124",
+    "test_e18_full_budget_lifecycle.py": "3de7e8406822602d904c5c729915e2e43233f0902c0db96cd1c5c6da744bfe07",
+    "verify_e18_design_package.py": "d826b3b8ad2e03adf7337ca1ef79ca2d54d076736310f1925d1a8e3a9858d0c8"
+  },
+  "numpy": "2.2.6",
+  "protected_outcome_accessed": false,
+  "python": "3.10.20",
+  "remaining_unavailable_certificate": "Additional protected allocation eligibility has no custodian certificate; excluded from feasible N.",
+  "scipy": "1.15.3"
+}

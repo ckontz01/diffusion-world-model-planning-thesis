@@ -1,0 +1,157 @@
+{
+  "arms": {
+    "diagonal_gaussian_continuation": {
+      "full_budget_planner_seconds_per_run": {
+        "75": 0.7032692279899493,
+        "150": 1.467478227961692
+      },
+      "max_observed_cuda_bytes": 288621568,
+      "median_seconds_by_delta": {
+        "15": 0.045951014006277546,
+        "30": 0.07642089999717427,
+        "75": 0.07603025199932745,
+        "150": 0.07612460300151724
+      },
+      "observed_load_seconds": 0.43863835700176423
+    },
+    "direct_gmm_continuation": {
+      "full_budget_planner_seconds_per_run": {
+        "75": 0.7037488940259209,
+        "150": 1.4683816140459385
+      },
+      "max_observed_cuda_bytes": 288657920,
+      "median_seconds_by_delta": {
+        "15": 0.04602135900495341,
+        "30": 0.07631751200096915,
+        "75": 0.07646327200200176,
+        "150": 0.07632721000118181
+      },
+      "observed_load_seconds": 0.44021225000324193
+    },
+    "vad_continuation": {
+      "full_budget_planner_seconds_per_run": {
+        "75": 1.1693079959659372,
+        "150": 2.451748165927711
+      },
+      "max_observed_cuda_bytes": 288519680,
+      "median_seconds_by_delta": {
+        "15": 0.07167792999825906,
+        "30": 0.12824401699617738,
+        "75": 0.1277096440026071,
+        "150": 0.12779680100356927
+      },
+      "observed_load_seconds": 0.4035014460023376
+    },
+    "vad_greedy_300": {
+      "full_budget_planner_seconds_per_run": {
+        "75": 0.7171906880248571,
+        "150": 1.4339171880565118
+      },
+      "max_observed_cuda_bytes": 161699840,
+      "median_seconds_by_delta": {
+        "15": 0.07190474399976665,
+        "30": 0.07150898600229993,
+        "75": 0.07159646399668418,
+        "150": 0.07167265000316547
+      },
+      "observed_load_seconds": 14.281674818994361
+    },
+    "vad_greedy_576": {
+      "full_budget_planner_seconds_per_run": {
+        "75": 0.7219848399690818,
+        "150": 1.4444554299407173
+      },
+      "max_observed_cuda_bytes": 285629952,
+      "median_seconds_by_delta": {
+        "15": 0.0720041839958867,
+        "30": 0.07206428999779746,
+        "75": 0.07214294000004884,
+        "150": 0.07224705899716355
+      },
+      "observed_load_seconds": 0.39014880200556945
+    }
+  },
+  "assumptions": [
+    "Unmeasured intermediate remaining durations use maximum measured long-branch median.",
+    "Training seed7201 timings extrapolate to unchanged same-architecture7202/7203.",
+    "Native action/physics/render overhead is SCENARIO ASSUMPTION2/5/10ms, not measured by this probe.",
+    "Reset/record I/O assumed50ms per run; 15 persistent arm-seed workers load once.",
+    "Full budgets upper-bound counts, not guaranteed success-dependent runtime. 50% work is a separate scenario.",
+    "Allocated GPU hours include CPU-wait wall time. Three GPUs give an optimistic /3 with no queue or imbalance.",
+    "2x total envelope allows contention/startup variation, not a measured confidence interval.",
+    "Same allocation for all five arms recommended; any secondary down-allocation needs approval."
+  ],
+  "device": "NVIDIA RTX 6000 Ada Generation",
+  "measured": "A6000 batch1, fixed exposed 8908/53, one warmup plus three measured calls per arm/delta, outer CUDA synchronization; preparation+solve wall time.",
+  "sage_reserve": "No remaining P2 long episode is SAGE-test eligible; reserving any of these episodes cannot produce a training-disjoint SAGE sample. Future SAGE cost is not benchmarked or funded here.",
+  "table": [
+    {
+      "allocated_gpu_hours_10ms_action": 2.4658631016420745,
+      "allocated_gpu_hours_2ms_action": 1.2358631016420745,
+      "allocated_gpu_hours_50pct_work_at_5ms": 0.8931207906852069,
+      "allocated_gpu_hours_5ms_action": 1.6971131016420744,
+      "conservative_envelope_hours_10ms_and_2x": 4.931726203284149,
+      "episode_runs": 2460,
+      "max_planner_calls": 36900,
+      "max_primitive_actions": 553500,
+      "n": 82,
+      "planner_wall_hours_full_budget": 0.839234621913735,
+      "primary_arm_runs": 1476,
+      "secondary_half_allocation_run_count_savings_fraction": 0.2,
+      "secondary_arm_runs": 984,
+      "three_gpu_wall_hours_at_5ms_excluding_queue": 0.5657043672140248,
+      "worker_jobs": 15
+    },
+    {
+      "allocated_gpu_hours_10ms_action": 11.815455903697778,
+      "allocated_gpu_hours_2ms_action": 5.815455903697778,
+      "allocated_gpu_hours_50pct_work_at_5ms": 4.143542191713059,
+      "allocated_gpu_hours_5ms_action": 8.065455903697778,
+      "conservative_envelope_hours_10ms_and_2x": 23.630911807395556,
+      "episode_runs": 12000,
+      "max_planner_calls": 180000,
+      "max_primitive_actions": 2700000,
+      "n": 400,
+      "planner_wall_hours_full_budget": 4.093827423969439,
+      "primary_arm_runs": 7200,
+      "secondary_half_allocation_run_count_savings_fraction": 0.2,
+      "secondary_arm_runs": 4800,
+      "three_gpu_wall_hours_at_5ms_excluding_queue": 2.6884853012325927,
+      "worker_jobs": 15
+    },
+    {
+      "allocated_gpu_hours_10ms_action": 17.695702949015832,
+      "allocated_gpu_hours_2ms_action": 8.695702949015832,
+      "allocated_gpu_hours_50pct_work_at_5ms": 6.187832381038752,
+      "allocated_gpu_hours_5ms_action": 12.070702949015832,
+      "conservative_envelope_hours_10ms_and_2x": 35.391405898031664,
+      "episode_runs": 18000,
+      "max_planner_calls": 270000,
+      "max_primitive_actions": 4050000,
+      "n": 600,
+      "planner_wall_hours_full_budget": 6.140741135954158,
+      "primary_arm_runs": 10800,
+      "secondary_half_allocation_run_count_savings_fraction": 0.2,
+      "secondary_arm_runs": 7200,
+      "three_gpu_wall_hours_at_5ms_excluding_queue": 4.023567649671944,
+      "worker_jobs": 15
+    },
+    {
+      "allocated_gpu_hours_10ms_action": 23.575949994333882,
+      "allocated_gpu_hours_2ms_action": 11.575949994333884,
+      "allocated_gpu_hours_50pct_work_at_5ms": 8.232122570364446,
+      "allocated_gpu_hours_5ms_action": 16.075949994333882,
+      "conservative_envelope_hours_10ms_and_2x": 47.151899988667765,
+      "episode_runs": 24000,
+      "max_planner_calls": 360000,
+      "max_primitive_actions": 5400000,
+      "n": 800,
+      "planner_wall_hours_full_budget": 8.187654847938878,
+      "primary_arm_runs": 14400,
+      "secondary_half_allocation_run_count_savings_fraction": 0.2,
+      "secondary_arm_runs": 9600,
+      "three_gpu_wall_hours_at_5ms_excluding_queue": 5.358649998111294,
+      "worker_jobs": 15
+    }
+  ]
+}

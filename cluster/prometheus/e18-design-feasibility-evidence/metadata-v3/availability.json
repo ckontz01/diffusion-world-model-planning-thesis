@@ -1,0 +1,891 @@
+{
+  "common_sage_test_reserve_maximum": 0,
+  "exclusion_sources": [
+    {
+      "identifier_set_sha256": "0fb92f197a2d81898773784720136aa846bc81cf34afe9b7a05073eb0c995ee5",
+      "name": "earlier_P2_pool_and_execution_exposure",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/summary.json"
+    },
+    {
+      "identifier_set_sha256": "652de9a024c55b728aeae7227c7cba432dbd10f9d63cb3857495b1bde4c489ec",
+      "name": "d1-fresh-development.tsv",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/d1-fresh-development.tsv"
+    },
+    {
+      "identifier_set_sha256": "b9fc1e4cea350120ffcbcdb7fc8855443871cb31b9f11de2559bd95498cc88c2",
+      "name": "r0-official-seed42.tsv",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/r0-official-seed42.tsv"
+    },
+    {
+      "identifier_set_sha256": "175c28a012d5224e629cba9b989cb1abc6edafcdcbaf375b3340e5697e985c78",
+      "name": "E14_E15_P2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e14/development-run-20260823-99f92cbe/p2-manifests/33ae351f/pusht/queries.tsv"
+    },
+    {
+      "identifier_set_sha256": "ae0e52151b05023290498061783243399b4bf9707b51ee5b4029a908c02e452a",
+      "name": "E18_P2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e18/development-run-20260827-182ed1e7/p2-manifests/pusht/queries.tsv"
+    },
+    {
+      "identifier_set_sha256": "463b57300e70836ed0f8ff022ceceba73fb5993228ca7537a51e2f7fb9458ec0",
+      "name": "E14_training_validation",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/acid-alternative-v1/pusht/lewm-hf-22b330c/e14-variable-cache-job-298993-0/cache.h5"
+    },
+    {
+      "identifier_set_sha256": "87ae02ce2ad405c8c786bf18bb020d0a6b42f3435c0c7497962f10f55c025a87",
+      "name": "E15_training_validation",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/data-preflight-1b97e228/pusht/cache.h5"
+    },
+    {
+      "identifier_set_sha256": "87ae02ce2ad405c8c786bf18bb020d0a6b42f3435c0c7497962f10f55c025a87",
+      "name": "E17_training_validation",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e17/development-run-20260827-9fb5a8c2/cache/pusht/cache.h5"
+    },
+    {
+      "identifier_set_sha256": "36c1194ce0d0ed70737f4e330bc886138675d8b9888a8267accac704696bc128",
+      "name": "E16_development",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e16/development-run-20260827-3669dc32/stage-a-banks/pusht/vad/seed-7201/metrics.h5"
+    },
+    {
+      "identifier_set_sha256": "8c033f7b52d1b6481f483b987ff1a22775a12787867f27846c6b1bfc802b5e78",
+      "name": "SAGE_paper_and_reused_sentinel_exposure",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/gdp-cem-e19-discrepancy-e347bc087381ecf0/official-sage/data/manifests/pusht"
+    },
+    {
+      "identifier_set_sha256": "7106e9298e58adb98ba726183b9e2a5df6f653bb96839a399cd40f826a06f5bb",
+      "name": "explicit_R1_R3_driver_counterexamples",
+      "path": "accepted R3/integration exposed IDs"
+    }
+  ],
+  "flags": {
+    "confirmation_manifest_created": false,
+    "d5_read_or_hashed": false,
+    "prospective_model_run": false,
+    "prospective_state_pixel_action_read": false,
+    "protected_membership_manifest_read": false,
+    "protected_outcome_read": false
+  },
+  "kind": "preparatory_count_only_not_a_confirmation_manifest",
+  "known_e18_component_training_overlap_in_remaining": 0,
+  "lewm_exact_episode_training_exposure": "unknown; model card identifies the training dataset, not exact realized episode membership",
+  "lewm_training_unknown_count": 82,
+  "limitations": [
+    "No prospective numeric values loaded: finite state/value checks deferred.",
+    "P2 pool inventory predates D1; subsequent listed evaluations reuse D1/E14/E18/paper/sentinel sets.",
+    "No custodian certificate obtained for any additional protected allocation; P3/P4 contribute zero here.",
+    "Any unregistered model-input exposure would reduce this capacity."
+  ],
+  "maximum_after_reserving_all_common_sage_test": 82,
+  "metadata_eligible_maximum": 82,
+  "metadata_fields": {
+    "action": {
+      "dtype": "float32",
+      "shape": [
+        2336736,
+        2
+      ]
+    },
+    "ep_len": {
+      "dtype": "int32",
+      "shape": [
+        18685
+      ]
+    },
+    "ep_offset": {
+      "dtype": "int64",
+      "shape": [
+        18685
+      ]
+    },
+    "episode_idx": {
+      "dtype": "int64",
+      "shape": [
+        2336736
+      ]
+    },
+    "pixels": {
+      "dtype": "uint8",
+      "shape": [
+        2336736,
+        224,
+        224,
+        3
+      ]
+    },
+    "proprio": {
+      "dtype": "float32",
+      "shape": [
+        2336736,
+        4
+      ]
+    },
+    "state": {
+      "dtype": "float32",
+      "shape": [
+        2336736,
+        7
+      ]
+    },
+    "step_idx": {
+      "dtype": "int64",
+      "shape": [
+        2336736
+      ]
+    }
+  },
+  "ordered_exclusions": [
+    {
+      "incremental_excluded": 357,
+      "intersect_p2_long_count": 357,
+      "name": "earlier_P2_pool_and_execution_exposure",
+      "source_episode_count": 1538
+    },
+    {
+      "incremental_excluded": 1,
+      "intersect_p2_long_count": 8,
+      "name": "d1-fresh-development.tsv",
+      "source_episode_count": 24
+    },
+    {
+      "incremental_excluded": 0,
+      "intersect_p2_long_count": 0,
+      "name": "r0-official-seed42.tsv",
+      "source_episode_count": 50
+    },
+    {
+      "incremental_excluded": 4,
+      "intersect_p2_long_count": 20,
+      "name": "E14_E15_P2",
+      "source_episode_count": 20
+    },
+    {
+      "incremental_excluded": 3,
+      "intersect_p2_long_count": 12,
+      "name": "E18_P2",
+      "source_episode_count": 12
+    },
+    {
+      "incremental_excluded": 0,
+      "intersect_p2_long_count": 0,
+      "name": "E14_training_validation",
+      "source_episode_count": 13089
+    },
+    {
+      "incremental_excluded": 0,
+      "intersect_p2_long_count": 0,
+      "name": "E15_training_validation",
+      "source_episode_count": 11787
+    },
+    {
+      "incremental_excluded": 0,
+      "intersect_p2_long_count": 0,
+      "name": "E17_training_validation",
+      "source_episode_count": 11787
+    },
+    {
+      "incremental_excluded": 0,
+      "intersect_p2_long_count": 0,
+      "name": "E16_development",
+      "source_episode_count": 2927
+    },
+    {
+      "incremental_excluded": 6,
+      "intersect_p2_long_count": 31,
+      "name": "SAGE_paper_and_reused_sentinel_exposure",
+      "source_episode_count": 601
+    },
+    {
+      "incremental_excluded": 0,
+      "intersect_p2_long_count": 0,
+      "name": "explicit_R1_R3_driver_counterexamples",
+      "source_episode_count": 3
+    }
+  ],
+  "p2_h150_compatible_count": 453,
+  "p2_too_short_count": 1477,
+  "partition_counts": {
+    "P0": 51,
+    "P1": 13109,
+    "P2": 1930,
+    "P3": 1810,
+    "P4": 1785
+  },
+  "partition_h150_metadata_count_upper_bounds": {
+    "P0": 20,
+    "P1": 2977,
+    "P2": 453,
+    "P3": 406,
+    "P4": 386
+  },
+  "partition_registry_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+  "previous_579_is_not_current_eligibility": 579,
+  "prior_p2_identifier_sources": [
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-aggregate-job-294668/aggregate.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-aggregate-job-295094/aggregate.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-0/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-1/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-2/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-3/executions.h5"
+    },
+    {
+      "id_count": 64,
+      "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-4/executions.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-294647/candidate-pools.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295087/candidate-pools.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295089/candidate-pools.h5"
+    },
+    {
+      "id_count": 12,
+      "id_sha256": "2a5fd13255087d65e4903f2fb8f357821af4f339c214f0e6638ff66069d8d75e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-stratum3-b0-d75-h2-job-294604/candidate-pools.h5"
+    },
+    {
+      "id_count": 1,
+      "id_sha256": "5178f62f3a565f4d7cf8eec4e517af70b93f08df2969eda2e6925b8dbffc7187",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p2-b0-candidate-capture-smoke-job-294602/candidate-pools.h5"
+    },
+    {
+      "id_count": 2,
+      "id_sha256": "fffe21631a26b3b626bd1a6b8173599b046572be23e8ef51e92a690bb86ced7a",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p2-real-frame-smoke-job-294657/executions.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295087/candidate-pools.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295089/candidate-pools.h5"
+    },
+    {
+      "id_count": 1536,
+      "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-294647/candidate-pools.h5"
+    },
+    {
+      "id_count": 12,
+      "id_sha256": "2a5fd13255087d65e4903f2fb8f357821af4f339c214f0e6638ff66069d8d75e",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-stratum3-b0-d75-h2-job-294604/candidate-pools.h5"
+    }
+  ],
+  "sage_training_role_in_eligible": {
+    "test": 0,
+    "train": 73,
+    "val": 9
+  },
+  "status": "metadata_capacity_subject_to_exposure_ledger_completeness_and_future_value_validation",
+  "strict_all_models_training_unseen_certified_count": 0
+}

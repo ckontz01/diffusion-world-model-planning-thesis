@@ -6,6 +6,19 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
+The [PushT design/feasibility package](cluster/prometheus/E18-DESIGN-FEASIBILITY-PACKAGE-2026-09-05.md)
+is complete as preparatory analysis, not confirmation authorization. The allowed
+metadata/exposure ledger leaves **82** H75/H150-compatible episodes;400/600/800
+are currently infeasible. Exact LeWM training membership is unknown and none of
+the82 is in SAGE's test split. At a true+5-point effect against each primary
+control, historical-variance planning gives38%/28% marginal power and19% joint
+power; doubling variance lowers joint power to9%. The feasible all-five-arm
+option is2,460 runs, with1.70 central and4.93 conservative allocated A6000-hours.
+It is not adequately powered five-point confirmation. Full-budget lifecycle
+regressions and a non-efficacy exposed-input timing probe pass; the initializer,
+driver, models and historical decisions are unchanged. No confirmation manifest
+or execution is authorized. See the [preparatory history](cluster/prometheus/E18-DESIGN-FEASIBILITY-CHANGELOG-2026-09-05.md).
+
 The bounded fresh-interface PushT integration now passes: the unchanged five
 E18 arms completed50 exposed-record initializations,128 actual planning calls
 and1,363 delivered actions with verified replanning, termination and new-episode
@@ -13,7 +26,7 @@ lifecycle. Missing evaluator non-action scalers are computationally irrelevant;
 exact checkpoint normalization and action decoding are pinned. R3, model bytes
 and historical outcomes remain unchanged. This is an engineering result, not
 efficacy evidence. See the [integration result](cluster/prometheus/E18-FRESH-DRIVER-INTEGRATION-RESULT-2026-09-05.md)
-and [confirmation design awaiting scope/effect approval](cluster/prometheus/E18-FRESH-CONFIRMATION-PROTOCOL-DRAFT-2026-09-05.md).
+and the [initial confirmation draft, superseded for sample-size planning by the package above](cluster/prometheus/E18-FRESH-CONFIRMATION-PROTOCOL-DRAFT-2026-09-05.md).
 No confirmation record was accessed or protocol falsely labelled frozen.
 
 As of 5 September 2026, two frozen untouched-holdout studies support complementary conclusions. E14 and its single preregistered E15 redesign stopped before closed-loop long-horizon comparison; E16 and E17 then isolated candidate-ranking headroom and an imperfect transition-state interface. The separately frozen E18 study produced positive, development-only closed-loop evidence for the resulting continuation planner. E19 subsequently completed a pinned native reproduction of official SAGE and stopped because the unchanged release's two-point fidelity rule failed. The new E19-L1 engineering follow-up localizes the exposed diagnostic discrepancies without changing any historical decision or running new episodes.

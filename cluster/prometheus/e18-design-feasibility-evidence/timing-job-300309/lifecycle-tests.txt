@@ -1,0 +1,11 @@
+....                                                                     [100%]
+=============================== warnings summary ===============================
+test_e18_full_budget_lifecycle.py::test_complete_two_cycles_then_fresh_episode[1-75]
+test_e18_full_budget_lifecycle.py::test_complete_two_cycles_then_fresh_episode[1-150]
+test_e18_full_budget_lifecycle.py::test_complete_two_cycles_then_fresh_episode[3-75]
+test_e18_full_budget_lifecycle.py::test_complete_two_cycles_then_fresh_episode[3-150]
+  /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+    gym.logger.warn("Casting input x to numpy array.")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+4 passed, 4 warnings in 14.72s

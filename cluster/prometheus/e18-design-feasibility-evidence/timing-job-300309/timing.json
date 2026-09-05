@@ -1,0 +1,1385 @@
+{
+  "batch_size": 1,
+  "device": "NVIDIA RTX 6000 Ada Generation",
+  "episode_executed": false,
+  "exposed_record": "8908/53 stored R1 endpoint",
+  "kind": "resource_calibration_not_efficacy",
+  "model_tensors_unchanged": true,
+  "prospective_record_read": false,
+  "protected_data_read": false,
+  "rows": [
+    {
+      "arm": "vad_greedy_300",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 15,
+      "load_seconds": 14.281674818994361,
+      "rows": [
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.6462212524414063,
+            "end_to_end_stage_seconds": 1.3771449069972732,
+            "lewm_scoring_seconds": 0.09504886627197266,
+            "planner_seconds": 1.3771449069972732,
+            "proposal_and_selection_seconds": 0.6358747882838942,
+            "timing_decomposition_residual_seconds": 6.938893903907228e-17
+          },
+          "wall_seconds": 1.383345508002094,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022534271240234376,
+            "end_to_end_stage_seconds": 0.07117615899915108,
+            "lewm_scoring_seconds": 0.018724927902221678,
+            "planner_seconds": 0.07117615899915108,
+            "proposal_and_selection_seconds": 0.02991695985669503,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07289206399582326,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02214454460144043,
+            "end_to_end_stage_seconds": 0.07060569700115593,
+            "lewm_scoring_seconds": 0.01861916732788086,
+            "planner_seconds": 0.07060569700115593,
+            "proposal_and_selection_seconds": 0.029841985071834644,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07190474399976665,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.021983776092529297,
+            "end_to_end_stage_seconds": 0.07041254700015998,
+            "lewm_scoring_seconds": 0.01853660774230957,
+            "planner_seconds": 0.07041254700015998,
+            "proposal_and_selection_seconds": 0.029892163165321103,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07167260999995051,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_300",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 30,
+      "load_seconds": 14.281674818994361,
+      "rows": [
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022018911361694336,
+            "end_to_end_stage_seconds": 0.07045794399891747,
+            "lewm_scoring_seconds": 0.018675935745239257,
+            "planner_seconds": 0.07045794399891747,
+            "proposal_and_selection_seconds": 0.02976309689198388,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07170247699832544,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022066240310668946,
+            "end_to_end_stage_seconds": 0.0704109439975582,
+            "lewm_scoring_seconds": 0.01849295997619629,
+            "planner_seconds": 0.0704109439975582,
+            "proposal_and_selection_seconds": 0.029851743710692966,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07196817499789177,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.021948160171508788,
+            "end_to_end_stage_seconds": 0.0701842199996463,
+            "lewm_scoring_seconds": 0.018485023498535157,
+            "planner_seconds": 0.0701842199996463,
+            "proposal_and_selection_seconds": 0.029751036329602357,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07139798300340772,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.021983488082885742,
+            "end_to_end_stage_seconds": 0.07028633500158321,
+            "lewm_scoring_seconds": 0.01846284866333008,
+            "planner_seconds": 0.07028633500158321,
+            "proposal_and_selection_seconds": 0.02983999825536739,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07150898600229993,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_300",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 75,
+      "load_seconds": 14.281674818994361,
+      "rows": [
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022014400482177735,
+            "end_to_end_stage_seconds": 0.07034234300226672,
+            "lewm_scoring_seconds": 0.018500959396362305,
+            "planner_seconds": 0.07034234300226672,
+            "proposal_and_selection_seconds": 0.02982698312372668,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07155150800099364,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.021969152450561524,
+            "end_to_end_stage_seconds": 0.07037521600432228,
+            "lewm_scoring_seconds": 0.018475135803222655,
+            "planner_seconds": 0.07037521600432228,
+            "proposal_and_selection_seconds": 0.029930927750538103,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07159646399668418,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022084640502929687,
+            "end_to_end_stage_seconds": 0.07035811300011119,
+            "lewm_scoring_seconds": 0.01846451187133789,
+            "planner_seconds": 0.07035811300011119,
+            "proposal_and_selection_seconds": 0.029808960625843612,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07157512300182134,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022055904388427736,
+            "end_to_end_stage_seconds": 0.07084282099822303,
+            "lewm_scoring_seconds": 0.018653791427612306,
+            "planner_seconds": 0.07084282099822303,
+            "proposal_and_selection_seconds": 0.03013312518218299,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07213906200195197,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_300",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 150,
+      "load_seconds": 14.281674818994361,
+      "rows": [
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022144384384155273,
+            "end_to_end_stage_seconds": 0.07064007299777586,
+            "lewm_scoring_seconds": 0.018530624389648438,
+            "planner_seconds": 0.07064007299777586,
+            "proposal_and_selection_seconds": 0.02996506422397215,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07184106199565576,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02204265594482422,
+            "end_to_end_stage_seconds": 0.07040936100383988,
+            "lewm_scoring_seconds": 0.01852387237548828,
+            "planner_seconds": 0.07040936100383988,
+            "proposal_and_selection_seconds": 0.029842832683527377,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07161736299894983,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02204070472717285,
+            "end_to_end_stage_seconds": 0.07067382700188318,
+            "lewm_scoring_seconds": 0.018588991165161134,
+            "planner_seconds": 0.07067382700188318,
+            "proposal_and_selection_seconds": 0.030044131109549198,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07188631799363066,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 161699840,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02199504089355469,
+            "end_to_end_stage_seconds": 0.07044442799815442,
+            "lewm_scoring_seconds": 0.01854547119140625,
+            "planner_seconds": 0.07044442799815442,
+            "proposal_and_selection_seconds": 0.029903915913193486,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07167265000316547,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_576",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 15,
+      "load_seconds": 0.39014880200556945,
+      "rows": [
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022761823654174805,
+            "end_to_end_stage_seconds": 0.0751728399991407,
+            "lewm_scoring_seconds": 0.021753599166870117,
+            "planner_seconds": 0.0751728399991407,
+            "proposal_and_selection_seconds": 0.030657417178095784,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07645567700092215,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022143199920654298,
+            "end_to_end_stage_seconds": 0.07078104299580446,
+            "lewm_scoring_seconds": 0.018591392517089845,
+            "planner_seconds": 0.07078104299580446,
+            "proposal_and_selection_seconds": 0.030046450558060312,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.0720041839958867,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022127872467041017,
+            "end_to_end_stage_seconds": 0.07083090800006175,
+            "lewm_scoring_seconds": 0.018614688873291017,
+            "planner_seconds": 0.07083090800006175,
+            "proposal_and_selection_seconds": 0.03008834665972972,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07205024299764773,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022134912490844726,
+            "end_to_end_stage_seconds": 0.07072602700645803,
+            "lewm_scoring_seconds": 0.018585567474365235,
+            "planner_seconds": 0.07072602700645803,
+            "proposal_and_selection_seconds": 0.030005547041248064,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07195127300656168,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_576",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 30,
+      "load_seconds": 0.39014880200556945,
+      "rows": [
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02200927925109863,
+            "end_to_end_stage_seconds": 0.07069707199843833,
+            "lewm_scoring_seconds": 0.01859324836730957,
+            "planner_seconds": 0.07069707199843833,
+            "proposal_and_selection_seconds": 0.030094544380030126,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07197211300081108,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02222764778137207,
+            "end_to_end_stage_seconds": 0.07076578300620895,
+            "lewm_scoring_seconds": 0.0185926399230957,
+            "planner_seconds": 0.07076578300620895,
+            "proposal_and_selection_seconds": 0.02994549530174118,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07203139600460418,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022066911697387694,
+            "end_to_end_stage_seconds": 0.07088003199896775,
+            "lewm_scoring_seconds": 0.018578399658203126,
+            "planner_seconds": 0.07088003199896775,
+            "proposal_and_selection_seconds": 0.030234720643376928,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07229207599448273,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022151487350463867,
+            "end_to_end_stage_seconds": 0.07083814100042218,
+            "lewm_scoring_seconds": 0.01864553642272949,
+            "planner_seconds": 0.07083814100042218,
+            "proposal_and_selection_seconds": 0.03004111722722883,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07206428999779746,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_576",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 75,
+      "load_seconds": 0.39014880200556945,
+      "rows": [
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022168256759643554,
+            "end_to_end_stage_seconds": 0.07107576599810272,
+            "lewm_scoring_seconds": 0.01876201629638672,
+            "planner_seconds": 0.07107576599810272,
+            "proposal_and_selection_seconds": 0.03014549294207245,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07234028699895134,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02214271926879883,
+            "end_to_end_stage_seconds": 0.0709124540007906,
+            "lewm_scoring_seconds": 0.018707487106323244,
+            "planner_seconds": 0.0709124540007906,
+            "proposal_and_selection_seconds": 0.03006224762566853,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07214294000004884,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02221113586425781,
+            "end_to_end_stage_seconds": 0.07113499999832129,
+            "lewm_scoring_seconds": 0.01866716766357422,
+            "planner_seconds": 0.07113499999832129,
+            "proposal_and_selection_seconds": 0.03025669647048926,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07253152399789542,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022123647689819337,
+            "end_to_end_stage_seconds": 0.07079885600251146,
+            "lewm_scoring_seconds": 0.018678688049316407,
+            "planner_seconds": 0.07079885600251146,
+            "proposal_and_selection_seconds": 0.029996520263375712,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.0720274189952761,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_greedy_576",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+      },
+      "delta": 150,
+      "load_seconds": 0.39014880200556945,
+      "rows": [
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022178943634033204,
+            "end_to_end_stage_seconds": 0.0710023360006744,
+            "lewm_scoring_seconds": 0.018605600357055663,
+            "planner_seconds": 0.0710023360006744,
+            "proposal_and_selection_seconds": 0.030217792009585534,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.0722296159947291,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02219980812072754,
+            "end_to_end_stage_seconds": 0.07105534799484303,
+            "lewm_scoring_seconds": 0.01864803123474121,
+            "planner_seconds": 0.07105534799484303,
+            "proposal_and_selection_seconds": 0.03020750863937428,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07228348899661796,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022177919387817383,
+            "end_to_end_stage_seconds": 0.07089404900034424,
+            "lewm_scoring_seconds": 0.018635072708129884,
+            "planner_seconds": 0.07089404900034424,
+            "proposal_and_selection_seconds": 0.030081056904396976,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07212083799822722,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02215449523925781,
+            "end_to_end_stage_seconds": 0.07102464900526684,
+            "lewm_scoring_seconds": 0.018697376251220702,
+            "planner_seconds": 0.07102464900526684,
+            "proposal_and_selection_seconds": 0.030172777514788324,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07224705899716355,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 15,
+      "load_seconds": 0.4035014460023376,
+      "rows": [
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022992639541625975,
+            "end_to_end_stage_seconds": 0.11144068699650234,
+            "lewm_scoring_seconds": 0.05830556869506836,
+            "planner_seconds": 0.11144068699650234,
+            "proposal_and_selection_seconds": 0.030142478759808,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.11274466299801134,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02226700782775879,
+            "end_to_end_stage_seconds": 0.07040827900345903,
+            "lewm_scoring_seconds": 0.01849087905883789,
+            "planner_seconds": 0.07040827900345903,
+            "proposal_and_selection_seconds": 0.029650392116862347,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07167792999825906,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022185056686401368,
+            "end_to_end_stage_seconds": 0.07020569100131979,
+            "lewm_scoring_seconds": 0.01843891143798828,
+            "planner_seconds": 0.07020569100131979,
+            "proposal_and_selection_seconds": 0.029581722876930144,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07142672799818683,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 285629952,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02363737678527832,
+            "end_to_end_stage_seconds": 0.07202954199601663,
+            "lewm_scoring_seconds": 0.01853081512451172,
+            "planner_seconds": 0.07202954199601663,
+            "proposal_and_selection_seconds": 0.029861350086226597,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.0732519829980447,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 30,
+      "load_seconds": 0.4035014460023376,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.014083904266357422,
+            "encoding_seconds": 0.02207676887512207,
+            "end_to_end_stage_seconds": 0.27044525599922054,
+            "lewm_scoring_seconds": 0.040102176666259766,
+            "planner_seconds": 0.27044525599922054,
+            "proposal_and_selection_seconds": 0.1941824061914813,
+            "timing_decomposition_residual_seconds": -1.3877787807814457e-17
+          },
+          "wall_seconds": 0.2718317710023257,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0018112640380859375,
+            "encoding_seconds": 0.022596096038818358,
+            "end_to_end_stage_seconds": 0.12751435999962268,
+            "lewm_scoring_seconds": 0.037306753158569336,
+            "planner_seconds": 0.12751435999962268,
+            "proposal_and_selection_seconds": 0.06580024676414906,
+            "timing_decomposition_residual_seconds": -6.938893903907228e-18
+          },
+          "wall_seconds": 0.1291020899952855,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0017483199834823608,
+            "encoding_seconds": 0.022132831573486327,
+            "end_to_end_stage_seconds": 0.12665037600527285,
+            "lewm_scoring_seconds": 0.03738204765319824,
+            "planner_seconds": 0.12665037600527285,
+            "proposal_and_selection_seconds": 0.06538717679510592,
+            "timing_decomposition_residual_seconds": -6.938893903907228e-18
+          },
+          "wall_seconds": 0.12792532699677395,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.001789728045463562,
+            "encoding_seconds": 0.022388320922851562,
+            "end_to_end_stage_seconds": 0.12699905400222633,
+            "lewm_scoring_seconds": 0.037471839904785156,
+            "planner_seconds": 0.12699905400222633,
+            "proposal_and_selection_seconds": 0.06534916512912606,
+            "timing_decomposition_residual_seconds": -6.938893903907228e-18
+          },
+          "wall_seconds": 0.12824401699617738,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 75,
+      "load_seconds": 0.4035014460023376,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0017323520183563233,
+            "encoding_seconds": 0.022172704696655273,
+            "end_to_end_stage_seconds": 0.126452557000448,
+            "lewm_scoring_seconds": 0.03716748809814453,
+            "planner_seconds": 0.126452557000448,
+            "proposal_and_selection_seconds": 0.06538001218729186,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.1276964080025209,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.001743008017539978,
+            "encoding_seconds": 0.022157663345336913,
+            "end_to_end_stage_seconds": 0.12612487000296824,
+            "lewm_scoring_seconds": 0.0371210880279541,
+            "planner_seconds": 0.12612487000296824,
+            "proposal_and_selection_seconds": 0.06510311061213724,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.12736621699878015,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.001778432011604309,
+            "encoding_seconds": 0.022353151321411132,
+            "end_to_end_stage_seconds": 0.12658988999464782,
+            "lewm_scoring_seconds": 0.03715862464904785,
+            "planner_seconds": 0.12658988999464782,
+            "proposal_and_selection_seconds": 0.06529968201258451,
+            "timing_decomposition_residual_seconds": 6.938893903907228e-18
+          },
+          "wall_seconds": 0.12784314899909077,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0017361279726028443,
+            "encoding_seconds": 0.022160415649414063,
+            "end_to_end_stage_seconds": 0.1264640200024587,
+            "lewm_scoring_seconds": 0.03714019203186035,
+            "planner_seconds": 0.1264640200024587,
+            "proposal_and_selection_seconds": 0.06542728434858144,
+            "timing_decomposition_residual_seconds": 6.938893903907228e-18
+          },
+          "wall_seconds": 0.1277096440026071,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "vad_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 150,
+      "load_seconds": 0.4035014460023376,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0017373759746551513,
+            "encoding_seconds": 0.0220548152923584,
+            "end_to_end_stage_seconds": 0.1259921359960572,
+            "lewm_scoring_seconds": 0.036964096069335935,
+            "planner_seconds": 0.1259921359960572,
+            "proposal_and_selection_seconds": 0.0652358486597077,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.1272363879979821,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0017176320552825927,
+            "encoding_seconds": 0.022127967834472656,
+            "end_to_end_stage_seconds": 0.1261804370005848,
+            "lewm_scoring_seconds": 0.03715875244140625,
+            "planner_seconds": 0.1261804370005848,
+            "proposal_and_selection_seconds": 0.06517608466942329,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.1274382039991906,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0017331839799880982,
+            "encoding_seconds": 0.0220947208404541,
+            "end_to_end_stage_seconds": 0.12774008200358367,
+            "lewm_scoring_seconds": 0.03738665771484375,
+            "planner_seconds": 0.12774008200358367,
+            "proposal_and_selection_seconds": 0.06652551946829771,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.12899185900459997,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.001746623992919922,
+            "encoding_seconds": 0.022219968795776368,
+            "end_to_end_stage_seconds": 0.12651303299935535,
+            "lewm_scoring_seconds": 0.03733648109436035,
+            "planner_seconds": 0.12651303299935535,
+            "proposal_and_selection_seconds": 0.0652099591162987,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.12779680100356927,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "diagonal_gaussian_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/diagonal_gaussian/seed-7201/final.pt": "fcbd0768920434c46451726a87e47baafcb380bf91ff0e95c20e6670933da81e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 15,
+      "load_seconds": 0.43863835700176423,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022773855209350585,
+            "end_to_end_stage_seconds": 0.062012003996642306,
+            "lewm_scoring_seconds": 0.018615264892578125,
+            "planner_seconds": 0.062012003996642306,
+            "proposal_and_selection_seconds": 0.020622883894713593,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.06333072900451953,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022265888214111327,
+            "end_to_end_stage_seconds": 0.045061160999466665,
+            "lewm_scoring_seconds": 0.018623455047607422,
+            "planner_seconds": 0.045061160999466665,
+            "proposal_and_selection_seconds": 0.004171817737747915,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.046258413000032306,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022184160232543944,
+            "end_to_end_stage_seconds": 0.044740056997397915,
+            "lewm_scoring_seconds": 0.018441600799560545,
+            "planner_seconds": 0.044740056997397915,
+            "proposal_and_selection_seconds": 0.004114295965293427,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.045951014006277546,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288519680,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02214441680908203,
+            "end_to_end_stage_seconds": 0.04470832600054564,
+            "lewm_scoring_seconds": 0.01845337677001953,
+            "planner_seconds": 0.04470832600054564,
+            "proposal_and_selection_seconds": 0.004110532421444076,
+            "timing_decomposition_residual_seconds": 3.469446951953614e-18
+          },
+          "wall_seconds": 0.04591588799667079,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "diagonal_gaussian_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/diagonal_gaussian/seed-7201/final.pt": "fcbd0768920434c46451726a87e47baafcb380bf91ff0e95c20e6670933da81e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 30,
+      "load_seconds": 0.43863835700176423,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017696959972381592,
+            "encoding_seconds": 0.022111967086791993,
+            "end_to_end_stage_seconds": 0.07545563200255856,
+            "lewm_scoring_seconds": 0.03740972900390625,
+            "planner_seconds": 0.07545563200255856,
+            "proposal_and_selection_seconds": 0.014164239914622147,
+            "timing_decomposition_residual_seconds": 6.938893903907228e-18
+          },
+          "wall_seconds": 0.07668000600097002,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017267199754714966,
+            "encoding_seconds": 0.022079839706420898,
+            "end_to_end_stage_seconds": 0.07484199699683813,
+            "lewm_scoring_seconds": 0.036997983932495114,
+            "planner_seconds": 0.07484199699683813,
+            "proposal_and_selection_seconds": 0.014037453382450625,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07606257400038885,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.001761855959892273,
+            "encoding_seconds": 0.02233296012878418,
+            "end_to_end_stage_seconds": 0.07583672199689317,
+            "lewm_scoring_seconds": 0.03760793685913086,
+            "planner_seconds": 0.07583672199689317,
+            "proposal_and_selection_seconds": 0.014133969049085867,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.0770777680008905,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017079039812088013,
+            "encoding_seconds": 0.022221920013427734,
+            "end_to_end_stage_seconds": 0.07518870100466302,
+            "lewm_scoring_seconds": 0.03717769622802734,
+            "planner_seconds": 0.07518870100466302,
+            "proposal_and_selection_seconds": 0.014081180781999134,
+            "timing_decomposition_residual_seconds": 6.938893903907228e-18
+          },
+          "wall_seconds": 0.07642089999717427,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "diagonal_gaussian_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/diagonal_gaussian/seed-7201/final.pt": "fcbd0768920434c46451726a87e47baafcb380bf91ff0e95c20e6670933da81e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 75,
+      "load_seconds": 0.43863835700176423,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017585279941558839,
+            "encoding_seconds": 0.022171520233154298,
+            "end_to_end_stage_seconds": 0.0752078680015984,
+            "lewm_scoring_seconds": 0.037150590896606446,
+            "planner_seconds": 0.0752078680015984,
+            "proposal_and_selection_seconds": 0.014127228877681766,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07643101899884641,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017283200025558472,
+            "encoding_seconds": 0.022100383758544923,
+            "end_to_end_stage_seconds": 0.07476801500160946,
+            "lewm_scoring_seconds": 0.036795425415039065,
+            "planner_seconds": 0.07476801500160946,
+            "proposal_and_selection_seconds": 0.014143885825469618,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07603025199932745,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0018016639947891235,
+            "encoding_seconds": 0.022233951568603517,
+            "end_to_end_stage_seconds": 0.07512872699589934,
+            "lewm_scoring_seconds": 0.03690822219848633,
+            "planner_seconds": 0.07512872699589934,
+            "proposal_and_selection_seconds": 0.014184889234020379,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07639118399674771,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017013440132141113,
+            "encoding_seconds": 0.021989055633544922,
+            "end_to_end_stage_seconds": 0.07462757699977374,
+            "lewm_scoring_seconds": 0.03702547264099121,
+            "planner_seconds": 0.07462757699977374,
+            "proposal_and_selection_seconds": 0.013911704712023501,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07584334399871295,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "diagonal_gaussian_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/diagonal_gaussian/seed-7201/final.pt": "fcbd0768920434c46451726a87e47baafcb380bf91ff0e95c20e6670933da81e",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 150,
+      "load_seconds": 0.43863835700176423,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017685439586639404,
+            "encoding_seconds": 0.02230646324157715,
+            "end_to_end_stage_seconds": 0.07529827099642716,
+            "lewm_scoring_seconds": 0.03706803131103516,
+            "planner_seconds": 0.07529827099642716,
+            "proposal_and_selection_seconds": 0.014155232485150923,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07653051099623553,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.001718783974647522,
+            "encoding_seconds": 0.022055519104003905,
+            "end_to_end_stage_seconds": 0.07489412699942477,
+            "lewm_scoring_seconds": 0.03707939338684082,
+            "planner_seconds": 0.07489412699942477,
+            "proposal_and_selection_seconds": 0.014040430533932526,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07612460300151724,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017099839448928833,
+            "encoding_seconds": 0.022058464050292968,
+            "end_to_end_stage_seconds": 0.0746757989982143,
+            "lewm_scoring_seconds": 0.03686771202087402,
+            "planner_seconds": 0.0746757989982143,
+            "proposal_and_selection_seconds": 0.014039638982154438,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07590308900398668,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0017390400171279907,
+            "encoding_seconds": 0.02222336006164551,
+            "end_to_end_stage_seconds": 0.07504391299880808,
+            "lewm_scoring_seconds": 0.03698246383666992,
+            "planner_seconds": 0.07504391299880808,
+            "proposal_and_selection_seconds": 0.014099049083364667,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07627479999791831,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "direct_gmm_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/direct_gmm/seed-7201/final.pt": "f42978fbccff10dd59d12ea62740f2df7569d13911cfe4823ffcd78dad024417",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 15,
+      "load_seconds": 0.44021225000324193,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.02283407974243164,
+            "end_to_end_stage_seconds": 0.07584189099725336,
+            "lewm_scoring_seconds": 0.018854496002197265,
+            "planner_seconds": 0.07584189099725336,
+            "proposal_and_selection_seconds": 0.03415331525262445,
+            "timing_decomposition_residual_seconds": 3.469446951953614e-18
+          },
+          "wall_seconds": 0.07727794099628227,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022163839340209962,
+            "end_to_end_stage_seconds": 0.044853522995254025,
+            "lewm_scoring_seconds": 0.018504608154296876,
+            "planner_seconds": 0.044853522995254025,
+            "proposal_and_selection_seconds": 0.004185075500747188,
+            "timing_decomposition_residual_seconds": -3.469446951953614e-18
+          },
+          "wall_seconds": 0.046341661996848416,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022069759368896484,
+            "end_to_end_stage_seconds": 0.04472719100158429,
+            "lewm_scoring_seconds": 0.018512256622314455,
+            "planner_seconds": 0.04472719100158429,
+            "proposal_and_selection_seconds": 0.004145175010373351,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.04602135900495341,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288621568,
+          "timing": {
+            "adapter_seconds": 0.0,
+            "encoding_seconds": 0.022057952880859374,
+            "end_to_end_stage_seconds": 0.044608764997974504,
+            "lewm_scoring_seconds": 0.018405376434326173,
+            "planner_seconds": 0.044608764997974504,
+            "proposal_and_selection_seconds": 0.004145435682788956,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.0458404429955408,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "direct_gmm_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/direct_gmm/seed-7201/final.pt": "f42978fbccff10dd59d12ea62740f2df7569d13911cfe4823ffcd78dad024417",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 30,
+      "load_seconds": 0.44021225000324193,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0018151999711990357,
+            "encoding_seconds": 0.021975040435791016,
+            "end_to_end_stage_seconds": 0.07564636699680705,
+            "lewm_scoring_seconds": 0.037515935897827146,
+            "planner_seconds": 0.07564636699680705,
+            "proposal_and_selection_seconds": 0.01434019069198985,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07686557100532809,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017556159496307374,
+            "encoding_seconds": 0.022042816162109374,
+            "end_to_end_stage_seconds": 0.07509021199803101,
+            "lewm_scoring_seconds": 0.03707577514648437,
+            "planner_seconds": 0.07509021199803101,
+            "proposal_and_selection_seconds": 0.014216004739806528,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07631751200096915,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.001738208055496216,
+            "encoding_seconds": 0.022387935638427735,
+            "end_to_end_stage_seconds": 0.07577638599468628,
+            "lewm_scoring_seconds": 0.0374377613067627,
+            "planner_seconds": 0.07577638599468628,
+            "proposal_and_selection_seconds": 0.014212480993999625,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07700380599999335,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017220799922943114,
+            "encoding_seconds": 0.022196800231933593,
+            "end_to_end_stage_seconds": 0.07484955099789659,
+            "lewm_scoring_seconds": 0.036837665557861325,
+            "planner_seconds": 0.07484955099789659,
+            "proposal_and_selection_seconds": 0.014093005215807357,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07615376899775583,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "direct_gmm_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/direct_gmm/seed-7201/final.pt": "f42978fbccff10dd59d12ea62740f2df7569d13911cfe4823ffcd78dad024417",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 75,
+      "load_seconds": 0.44021225000324193,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.001713919997215271,
+            "encoding_seconds": 0.02193769645690918,
+            "end_to_end_stage_seconds": 0.07501568999578012,
+            "lewm_scoring_seconds": 0.03711062431335449,
+            "planner_seconds": 0.07501568999578012,
+            "proposal_and_selection_seconds": 0.014253449228301178,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07625940100115258,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.001723199963569641,
+            "encoding_seconds": 0.02201900863647461,
+            "end_to_end_stage_seconds": 0.07500637200428173,
+            "lewm_scoring_seconds": 0.03703948783874512,
+            "planner_seconds": 0.07500637200428173,
+            "proposal_and_selection_seconds": 0.014224675565492359,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07625106500199763,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017785279750823974,
+            "encoding_seconds": 0.022085535049438478,
+            "end_to_end_stage_seconds": 0.0752026179980021,
+            "lewm_scoring_seconds": 0.037028032302856444,
+            "planner_seconds": 0.0752026179980021,
+            "proposal_and_selection_seconds": 0.01431052267062478,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07646327200200176,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017565439939498902,
+            "encoding_seconds": 0.022133983612060548,
+            "end_to_end_stage_seconds": 0.07537847499770578,
+            "lewm_scoring_seconds": 0.037174560546875,
+            "planner_seconds": 0.07537847499770578,
+            "proposal_and_selection_seconds": 0.014313386844820343,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07661291799740866,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    },
+    {
+      "arm": "direct_gmm_continuation",
+      "checkpoint_pins": {
+        "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/direct_gmm/seed-7201/final.pt": "f42978fbccff10dd59d12ea62740f2df7569d13911cfe4823ffcd78dad024417",
+        "e17_expected_checkpoint_sha256": "c58726a3502bf52bbbaad6263c1f636ef393ecbd34835b021750f7451bed88b8"
+      },
+      "delta": 150,
+      "load_seconds": 0.44021225000324193,
+      "rows": [
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017503679990768432,
+            "encoding_seconds": 0.022113920211791992,
+            "end_to_end_stage_seconds": 0.07522814699768787,
+            "lewm_scoring_seconds": 0.03710076904296875,
+            "planner_seconds": 0.07522814699768787,
+            "proposal_and_selection_seconds": 0.014263089743850283,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07647569500113605,
+          "warmup": true
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017256959676742554,
+            "encoding_seconds": 0.022168287277221678,
+            "end_to_end_stage_seconds": 0.0752825409945217,
+            "lewm_scoring_seconds": 0.037166015625,
+            "planner_seconds": 0.0752825409945217,
+            "proposal_and_selection_seconds": 0.014222542124625768,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07656084799964447,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017186239957809447,
+            "encoding_seconds": 0.022148000717163087,
+            "end_to_end_stage_seconds": 0.07509161599591607,
+            "lewm_scoring_seconds": 0.03704134368896484,
+            "planner_seconds": 0.07509161599591607,
+            "proposal_and_selection_seconds": 0.014183647594007198,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07632721000118181,
+          "warmup": false
+        },
+        {
+          "peak_allocated_bytes": 288657920,
+          "timing": {
+            "adapter_seconds": 0.0017223360538482667,
+            "encoding_seconds": 0.02215609550476074,
+            "end_to_end_stage_seconds": 0.07508754699665587,
+            "lewm_scoring_seconds": 0.03701247978210449,
+            "planner_seconds": 0.07508754699665587,
+            "proposal_and_selection_seconds": 0.014196635655942376,
+            "timing_decomposition_residual_seconds": 0.0
+          },
+          "wall_seconds": 0.07632362400181592,
+          "warmup": false
+        }
+      ],
+      "tau": 15
+    }
+  ],
+  "training_seed": 7201
+}

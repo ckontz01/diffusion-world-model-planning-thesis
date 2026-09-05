@@ -1,0 +1,5271 @@
+{
+  "alpha_each": 0.025,
+  "alpha_family": 0.05,
+  "confirmation_frozen": false,
+  "confirmation_launched": false,
+  "data_capacity": {
+    "common_sage_test_reserve_maximum": 0,
+    "exclusion_sources": [
+      {
+        "identifier_set_sha256": "0fb92f197a2d81898773784720136aa846bc81cf34afe9b7a05073eb0c995ee5",
+        "name": "earlier_P2_pool_and_execution_exposure",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/summary.json"
+      },
+      {
+        "identifier_set_sha256": "652de9a024c55b728aeae7227c7cba432dbd10f9d63cb3857495b1bde4c489ec",
+        "name": "d1-fresh-development.tsv",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/d1-fresh-development.tsv"
+      },
+      {
+        "identifier_set_sha256": "b9fc1e4cea350120ffcbcdb7fc8855443871cb31b9f11de2559bd95498cc88c2",
+        "name": "r0-official-seed42.tsv",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/r0-official-seed42.tsv"
+      },
+      {
+        "identifier_set_sha256": "175c28a012d5224e629cba9b989cb1abc6edafcdcbaf375b3340e5697e985c78",
+        "name": "E14_E15_P2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e14/development-run-20260823-99f92cbe/p2-manifests/33ae351f/pusht/queries.tsv"
+      },
+      {
+        "identifier_set_sha256": "ae0e52151b05023290498061783243399b4bf9707b51ee5b4029a908c02e452a",
+        "name": "E18_P2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e18/development-run-20260827-182ed1e7/p2-manifests/pusht/queries.tsv"
+      },
+      {
+        "identifier_set_sha256": "463b57300e70836ed0f8ff022ceceba73fb5993228ca7537a51e2f7fb9458ec0",
+        "name": "E14_training_validation",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/acid-alternative-v1/pusht/lewm-hf-22b330c/e14-variable-cache-job-298993-0/cache.h5"
+      },
+      {
+        "identifier_set_sha256": "87ae02ce2ad405c8c786bf18bb020d0a6b42f3435c0c7497962f10f55c025a87",
+        "name": "E15_training_validation",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/data-preflight-1b97e228/pusht/cache.h5"
+      },
+      {
+        "identifier_set_sha256": "87ae02ce2ad405c8c786bf18bb020d0a6b42f3435c0c7497962f10f55c025a87",
+        "name": "E17_training_validation",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e17/development-run-20260827-9fb5a8c2/cache/pusht/cache.h5"
+      },
+      {
+        "identifier_set_sha256": "36c1194ce0d0ed70737f4e330bc886138675d8b9888a8267accac704696bc128",
+        "name": "E16_development",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e16/development-run-20260827-3669dc32/stage-a-banks/pusht/vad/seed-7201/metrics.h5"
+      },
+      {
+        "identifier_set_sha256": "8c033f7b52d1b6481f483b987ff1a22775a12787867f27846c6b1bfc802b5e78",
+        "name": "SAGE_paper_and_reused_sentinel_exposure",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/gdp-cem-e19-discrepancy-e347bc087381ecf0/official-sage/data/manifests/pusht"
+      },
+      {
+        "identifier_set_sha256": "7106e9298e58adb98ba726183b9e2a5df6f653bb96839a399cd40f826a06f5bb",
+        "name": "explicit_R1_R3_driver_counterexamples",
+        "path": "accepted R3/integration exposed IDs"
+      }
+    ],
+    "flags": {
+      "confirmation_manifest_created": false,
+      "d5_read_or_hashed": false,
+      "prospective_model_run": false,
+      "prospective_state_pixel_action_read": false,
+      "protected_membership_manifest_read": false,
+      "protected_outcome_read": false
+    },
+    "kind": "preparatory_count_only_not_a_confirmation_manifest",
+    "known_e18_component_training_overlap_in_remaining": 0,
+    "lewm_exact_episode_training_exposure": "unknown; model card identifies the training dataset, not exact realized episode membership",
+    "lewm_training_unknown_count": 82,
+    "limitations": [
+      "No prospective numeric values loaded: finite state/value checks deferred.",
+      "P2 pool inventory predates D1; subsequent listed evaluations reuse D1/E14/E18/paper/sentinel sets.",
+      "No custodian certificate obtained for any additional protected allocation; P3/P4 contribute zero here.",
+      "Any unregistered model-input exposure would reduce this capacity."
+    ],
+    "maximum_after_reserving_all_common_sage_test": 82,
+    "metadata_eligible_maximum": 82,
+    "metadata_fields": {
+      "action": {
+        "dtype": "float32",
+        "shape": [
+          2336736,
+          2
+        ]
+      },
+      "ep_len": {
+        "dtype": "int32",
+        "shape": [
+          18685
+        ]
+      },
+      "ep_offset": {
+        "dtype": "int64",
+        "shape": [
+          18685
+        ]
+      },
+      "episode_idx": {
+        "dtype": "int64",
+        "shape": [
+          2336736
+        ]
+      },
+      "pixels": {
+        "dtype": "uint8",
+        "shape": [
+          2336736,
+          224,
+          224,
+          3
+        ]
+      },
+      "proprio": {
+        "dtype": "float32",
+        "shape": [
+          2336736,
+          4
+        ]
+      },
+      "state": {
+        "dtype": "float32",
+        "shape": [
+          2336736,
+          7
+        ]
+      },
+      "step_idx": {
+        "dtype": "int64",
+        "shape": [
+          2336736
+        ]
+      }
+    },
+    "ordered_exclusions": [
+      {
+        "incremental_excluded": 357,
+        "intersect_p2_long_count": 357,
+        "name": "earlier_P2_pool_and_execution_exposure",
+        "source_episode_count": 1538
+      },
+      {
+        "incremental_excluded": 1,
+        "intersect_p2_long_count": 8,
+        "name": "d1-fresh-development.tsv",
+        "source_episode_count": 24
+      },
+      {
+        "incremental_excluded": 0,
+        "intersect_p2_long_count": 0,
+        "name": "r0-official-seed42.tsv",
+        "source_episode_count": 50
+      },
+      {
+        "incremental_excluded": 4,
+        "intersect_p2_long_count": 20,
+        "name": "E14_E15_P2",
+        "source_episode_count": 20
+      },
+      {
+        "incremental_excluded": 3,
+        "intersect_p2_long_count": 12,
+        "name": "E18_P2",
+        "source_episode_count": 12
+      },
+      {
+        "incremental_excluded": 0,
+        "intersect_p2_long_count": 0,
+        "name": "E14_training_validation",
+        "source_episode_count": 13089
+      },
+      {
+        "incremental_excluded": 0,
+        "intersect_p2_long_count": 0,
+        "name": "E15_training_validation",
+        "source_episode_count": 11787
+      },
+      {
+        "incremental_excluded": 0,
+        "intersect_p2_long_count": 0,
+        "name": "E17_training_validation",
+        "source_episode_count": 11787
+      },
+      {
+        "incremental_excluded": 0,
+        "intersect_p2_long_count": 0,
+        "name": "E16_development",
+        "source_episode_count": 2927
+      },
+      {
+        "incremental_excluded": 6,
+        "intersect_p2_long_count": 31,
+        "name": "SAGE_paper_and_reused_sentinel_exposure",
+        "source_episode_count": 601
+      },
+      {
+        "incremental_excluded": 0,
+        "intersect_p2_long_count": 0,
+        "name": "explicit_R1_R3_driver_counterexamples",
+        "source_episode_count": 3
+      }
+    ],
+    "p2_h150_compatible_count": 453,
+    "p2_too_short_count": 1477,
+    "partition_counts": {
+      "P0": 51,
+      "P1": 13109,
+      "P2": 1930,
+      "P3": 1810,
+      "P4": 1785
+    },
+    "partition_h150_metadata_count_upper_bounds": {
+      "P0": 20,
+      "P1": 2977,
+      "P2": 453,
+      "P3": 406,
+      "P4": 386
+    },
+    "partition_registry_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+    "previous_579_is_not_current_eligibility": 579,
+    "prior_p2_identifier_sources": [
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-aggregate-job-294668/aggregate.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-aggregate-job-295094/aggregate.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "0a8a7c56b60ecbb295e705e746b84385a701cceb909e7438f3832270b62a61e7",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-00-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "690b59bce533973f60f9e52b0e10c246336258e13d8fcf351ce6b04ed80c8c24",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-01-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "ae59f13ab21f034d59d07e3608f39a6a933b69017cf8374706c8d37576f5d5ed",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-02-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4554713766a3bf29361d61188182edb0fd06bdaec024494de2dacd1308ff7a88",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-03-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b1e587a006b9514c50be803a5fb62e033182462d387ca39e015c8fcd17a71cf2",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-04-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "894c2b58f97f6472cb5fff06d843cb755d6308faec73cb4348f505d5e25c2c50",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-05-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d51fca7a1863847900401176ad96fe668902d8b14c2ff4448a1f50d00cf7d419",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-06-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "5090be3fdea82455e6adcf6df8dd432b213836701d07d5be48636013a6d83c80",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-07-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "aac60020c9290992db58b21d6d81c6c5d9d4b5e409236cf50b77eb96c983fab9",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-08-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "97d7ddcb8cd3316ed3d0559eadf4f8c5abb183674d128df41d4379b7c5cdfb97",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-09-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4f9432e61be9df24c096a096bd5404c2b3b2a8d704372928a8e4100e73fcb91d",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-10-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "a6fbeffcd5b9a6a3bbbcc835bae2d38df2735ed3a80319ec12c89a389ec9b314",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-0/pool-11-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "b3f0b6a2e1c67871d4725b816b4532136428d0e3d557bc96ef60b74c56e1cc1f",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-00-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "521dc6d811e3d20540c7163c74f042dca970a4f1d3e975d85868a500f4f10958",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-01-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "75b21becc9453c7070c430c98ae73da5a8171955891cff0c135e7342b62c5ebc",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-02-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "1dfe12bd144e2bc5b5772b39d7cc67a3835a67fc46b918d066afb7240d502838",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-03-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "d2dddc398b907c2ca5d34d7a3c6acd41ba961748c592837e37b4881d4d28a317",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-04-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "55aa0f1c1c20af31779e14ae3f3578c3d01f93a24c8ace94a145599886fc5d51",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-05-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "3a9fa021a8a08aeb21841a55d2e507cd926bbad9da4b6c404995d686697b2ae1",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-06-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "dfaca4118a40cb5ca4ca82df38a70c3ed884241a9a4ce16327d01cd206ccfe3e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-07-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "4cf4e4d23b88be3acfe4788d773d977b980822499fd23231bfe395b68433fb19",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-08-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "6a6e87b0461987b207553df0163d41794acfc443855c811e2f68df758a06de41",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-09-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "30a51d638e1e1baeee42344288534b6c563c9d894f095f2e3d8f70e0c6ed4dce",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-10-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-0/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-1/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-2/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-3/executions.h5"
+      },
+      {
+        "id_count": 64,
+        "id_sha256": "fa98643df6a8b0b94cd8d7db370d892d173f35d389ee349d8c5d102a0231b55e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/pusht-v1/p2-real-frame-job-294659/stratum-1/pool-11-repeat-4/executions.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-294647/candidate-pools.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295087/candidate-pools.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295089/candidate-pools.h5"
+      },
+      {
+        "id_count": 12,
+        "id_sha256": "2a5fd13255087d65e4903f2fb8f357821af4f339c214f0e6638ff66069d8d75e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-stratum3-b0-d75-h2-job-294604/candidate-pools.h5"
+      },
+      {
+        "id_count": 1,
+        "id_sha256": "5178f62f3a565f4d7cf8eec4e517af70b93f08df2969eda2e6925b8dbffc7187",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p2-b0-candidate-capture-smoke-job-294602/candidate-pools.h5"
+      },
+      {
+        "id_count": 2,
+        "id_sha256": "fffe21631a26b3b626bd1a6b8173599b046572be23e8ef51e92a690bb86ced7a",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p2-real-frame-smoke-job-294657/executions.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295087/candidate-pools.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295089/candidate-pools.h5"
+      },
+      {
+        "id_count": 1536,
+        "id_sha256": "f290389859aceea015fd0395bd5bffa253f03200d2913bb5e255fbe289f88477",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-294647/candidate-pools.h5"
+      },
+      {
+        "id_count": 12,
+        "id_sha256": "2a5fd13255087d65e4903f2fb8f357821af4f339c214f0e6638ff66069d8d75e",
+        "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-stratum3-b0-d75-h2-job-294604/candidate-pools.h5"
+      }
+    ],
+    "sage_training_role_in_eligible": {
+      "test": 0,
+      "train": 73,
+      "val": 9
+    },
+    "status": "metadata_capacity_subject_to_exposure_ledger_completeness_and_future_value_validation",
+    "strict_all_models_training_unseen_certified_count": 0
+  },
+  "distribution_free_alternative": "Bonferroni Hoeffding lower bounds subtract sqrt(2 log(40)/N); at N=82 this is about .300, substantially less sensitive.",
+  "estimand": "Equal H75/H150 and equal three fixed training seeds within each episode; one common start per episode. Across-episode equal weight. Fixed checkpoints, not a new-seed population.",
+  "generality_warning": "Power and false-positive checks are conditional on simulated distributions, not a universal finite-sample guarantee. No finite-population correction or independent seed/start inflation.",
+  "historical": {
+    "arm_order": [
+      "vad_continuation",
+      "vad_greedy_300",
+      "diagonal_gaussian_continuation",
+      "vad_greedy_576",
+      "direct_gmm_continuation"
+    ],
+    "contrast_order": [
+      "continuation_minus_greedy300",
+      "continuation_minus_gaussian"
+    ],
+    "correlation": [
+      [
+        1.0,
+        0.6052886753280337
+      ],
+      [
+        0.6052886753280337,
+        1.0
+      ]
+    ],
+    "covariance": [
+      [
+        0.0723905723905724,
+        0.05218855218855218
+      ],
+      [
+        0.05218855218855218,
+        0.10269360269360271
+      ]
+    ],
+    "episode_points": [
+      {
+        "arm_means": [
+          0.6666666666666666,
+          0.16666666666666666,
+          0.5,
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "contrasts": [
+          0.5,
+          0.16666666666666663
+        ],
+        "episode_id": 2969,
+        "starts": [
+          2
+        ]
+      },
+      {
+        "arm_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "contrasts": [
+          0.0,
+          0.0
+        ],
+        "episode_id": 3020,
+        "starts": [
+          73
+        ]
+      },
+      {
+        "arm_means": [
+          0.8333333333333334,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.8333333333333334,
+          0.5
+        ],
+        "contrasts": [
+          0.16666666666666674,
+          0.16666666666666674
+        ],
+        "episode_id": 5108,
+        "starts": [
+          10
+        ]
+      },
+      {
+        "arm_means": [
+          0.5,
+          0.5,
+          0.3333333333333333,
+          0.16666666666666666,
+          0.3333333333333333
+        ],
+        "contrasts": [
+          0.0,
+          0.16666666666666669
+        ],
+        "episode_id": 6100,
+        "starts": [
+          0
+        ]
+      },
+      {
+        "arm_means": [
+          0.0,
+          0.0,
+          0.0,
+          0.16666666666666666,
+          0.0
+        ],
+        "contrasts": [
+          0.0,
+          0.0
+        ],
+        "episode_id": 8265,
+        "starts": [
+          10
+        ]
+      },
+      {
+        "arm_means": [
+          0.5,
+          0.5,
+          0.6666666666666666,
+          0.0,
+          0.3333333333333333
+        ],
+        "contrasts": [
+          0.0,
+          -0.16666666666666663
+        ],
+        "episode_id": 8348,
+        "starts": [
+          13
+        ]
+      },
+      {
+        "arm_means": [
+          0.16666666666666666,
+          0.3333333333333333,
+          0.16666666666666666,
+          0.0,
+          0.16666666666666666
+        ],
+        "contrasts": [
+          -0.16666666666666666,
+          0.0
+        ],
+        "episode_id": 13374,
+        "starts": [
+          5
+        ]
+      },
+      {
+        "arm_means": [
+          0.6666666666666666,
+          0.5,
+          0.0,
+          0.6666666666666666,
+          0.3333333333333333
+        ],
+        "contrasts": [
+          0.16666666666666663,
+          0.6666666666666666
+        ],
+        "episode_id": 14514,
+        "starts": [
+          27
+        ]
+      },
+      {
+        "arm_means": [
+          0.0,
+          0.16666666666666666,
+          0.5,
+          0.0,
+          0.16666666666666666
+        ],
+        "contrasts": [
+          -0.16666666666666666,
+          -0.5
+        ],
+        "episode_id": 16096,
+        "starts": [
+          26
+        ]
+      },
+      {
+        "arm_means": [
+          0.6666666666666666,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "contrasts": [
+          0.6666666666666666,
+          0.6666666666666666
+        ],
+        "episode_id": 16150,
+        "starts": [
+          4
+        ]
+      },
+      {
+        "arm_means": [
+          0.8333333333333334,
+          0.5,
+          0.8333333333333334,
+          0.5,
+          0.3333333333333333
+        ],
+        "contrasts": [
+          0.33333333333333337,
+          0.0
+        ],
+        "episode_id": 17277,
+        "starts": [
+          47
+        ]
+      },
+      {
+        "arm_means": [
+          0.8333333333333334,
+          1.0,
+          0.6666666666666666,
+          0.6666666666666666,
+          0.16666666666666666
+        ],
+        "contrasts": [
+          -0.16666666666666663,
+          0.16666666666666674
+        ],
+        "episode_id": 17833,
+        "starts": [
+          19
+        ]
+      }
+    ],
+    "exploratory_bootstrap_covariance_95_percentile": [
+      [
+        [
+          0.017466329966329967,
+          0.0044191919191919095
+        ],
+        [
+          0.0044191919191919095,
+          0.01746632996632996
+        ]
+      ],
+      [
+        [
+          0.11784511784511782,
+          0.10774936868686823
+        ],
+        [
+          0.10774936868686823,
+          0.18855218855218855
+        ]
+      ]
+    ],
+    "horizons": [
+      75,
+      150
+    ],
+    "leave_one_episode_out": [
+      {
+        "covariance": [
+          [
+            0.06313131313131314,
+            0.05505050505050505
+          ],
+          [
+            0.05505050505050505,
+            0.11262626262626262
+          ]
+        ],
+        "mean": [
+          0.07575757575757576,
+          0.10606060606060606
+        ],
+        "removed_episode": 2969
+      },
+      {
+        "covariance": [
+          [
+            0.07828282828282829,
+            0.05606060606060606
+          ],
+          [
+            0.05606060606060606,
+            0.11161616161616161
+          ]
+        ],
+        "mean": [
+          0.12121212121212123,
+          0.1212121212121212
+        ],
+        "removed_episode": 3020
+      },
+      {
+        "covariance": [
+          [
+            0.0792929292929293,
+            0.05707070707070705
+          ],
+          [
+            0.05707070707070705,
+            0.11262626262626262
+          ]
+        ],
+        "mean": [
+          0.10606060606060609,
+          0.10606060606060605
+        ],
+        "removed_episode": 5108
+      },
+      {
+        "covariance": [
+          [
+            0.07828282828282829,
+            0.05808080808080808
+          ],
+          [
+            0.05808080808080808,
+            0.11262626262626262
+          ]
+        ],
+        "mean": [
+          0.12121212121212123,
+          0.10606060606060606
+        ],
+        "removed_episode": 6100
+      },
+      {
+        "covariance": [
+          [
+            0.07828282828282829,
+            0.05606060606060606
+          ],
+          [
+            0.05606060606060606,
+            0.11161616161616161
+          ]
+        ],
+        "mean": [
+          0.12121212121212123,
+          0.1212121212121212
+        ],
+        "removed_episode": 8265
+      },
+      {
+        "covariance": [
+          [
+            0.07828282828282829,
+            0.054040404040404035
+          ],
+          [
+            0.054040404040404035,
+            0.10454545454545457
+          ]
+        ],
+        "mean": [
+          0.12121212121212123,
+          0.13636363636363635
+        ],
+        "removed_episode": 8348
+      },
+      {
+        "covariance": [
+          [
+            0.07121212121212121,
+            0.054040404040404035
+          ],
+          [
+            0.054040404040404035,
+            0.11161616161616161
+          ]
+        ],
+        "mean": [
+          0.1363636363636364,
+          0.1212121212121212
+        ],
+        "removed_episode": 13374
+      },
+      {
+        "covariance": [
+          [
+            0.0792929292929293,
+            0.054040404040404035
+          ],
+          [
+            0.054040404040404035,
+            0.0792929292929293
+          ]
+        ],
+        "mean": [
+          0.10606060606060609,
+          0.060606060606060615
+        ],
+        "removed_episode": 14514
+      },
+      {
+        "covariance": [
+          [
+            0.07121212121212121,
+            0.03888888888888889
+          ],
+          [
+            0.03888888888888889,
+            0.07222222222222223
+          ]
+        ],
+        "mean": [
+          0.1363636363636364,
+          0.16666666666666666
+        ],
+        "removed_episode": 16096
+      },
+      {
+        "covariance": [
+          [
+            0.045959595959595964,
+            0.023737373737373734
+          ],
+          [
+            0.023737373737373734,
+            0.0792929292929293
+          ]
+        ],
+        "mean": [
+          0.06060606060606062,
+          0.060606060606060615
+        ],
+        "removed_episode": 16150
+      },
+      {
+        "covariance": [
+          [
+            0.07424242424242423,
+            0.06010101010101009
+          ],
+          [
+            0.06010101010101009,
+            0.1116161616161616
+          ]
+        ],
+        "mean": [
+          0.09090909090909091,
+          0.1212121212121212
+        ],
+        "removed_episode": 17277
+      },
+      {
+        "covariance": [
+          [
+            0.07121212121212121,
+            0.05909090909090908
+          ],
+          [
+            0.05909090909090908,
+            0.11262626262626262
+          ]
+        ],
+        "mean": [
+          0.13636363636363635,
+          0.10606060606060605
+        ],
+        "removed_episode": 17833
+      }
+    ],
+    "mean": [
+      0.11111111111111112,
+      0.1111111111111111
+    ],
+    "n_base_starts": 12,
+    "n_episodes": 12,
+    "outcome_rows": 360,
+    "training_seeds": [
+      7201,
+      7202,
+      7203
+    ],
+    "warning": "Twelve old-interface development episodes. Estimates and bootstrap limits are unstable planning inputs, not properties of the fresh driver."
+  },
+  "inference": "Two one-sided paired Student tests on distinct-episode averages; Bonferroni .025 each; df=N-1; reject iff lower bound >0. No observed +.05 gate.",
+  "input_sha256": {
+    "availability.json": "d06db14bbaaaa79dd086692d8ec082c5a74a893db8798f4ca2e623c69b24e3a6",
+    "historical.json": "9895a9f9690a239f4ac850fdaa4dc6b706842ea2a0a13de8af62165a0f480517"
+  },
+  "kind": "preparatory_design_simulation_not_confirmation",
+  "monte_carlo_replicates": 20000,
+  "primary_claims": [
+    "mean episode-averaged VAD continuation success exceeds VAD greedy300",
+    "mean episode-averaged VAD continuation success exceeds Gaussian continuation"
+  ],
+  "results": [
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.08424439704550159,
+        0.10033944996710675
+      ],
+      "covariance_input": [
+        [
+          0.0723905723905724,
+          0.05218855218855218
+        ],
+        [
+          0.05218855218855218,
+          0.10269360269360271
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": true,
+      "n": 82,
+      "scenario": "historical_plugin",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.07239057239622312,
+            0.10269360269234773
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003529704732693657,
+            "rate": 0.4713
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0027928161414600854,
+            "rate": 0.1934
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003432985562888373,
+              "rate": 0.38045
+            },
+            {
+              "mc_standard_error": 0.0031894508735831003,
+              "rate": 0.28425
+            }
+          ],
+          "moment_residual": 5.650716006222467e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.1177546002927482,
+              0.140337582899768
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.0588773001463741,
+              0.070168791449884
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.07239057239017867,
+            0.10269360269630728
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014858719662205085,
+            "rate": 0.0463
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014858719662205085,
+            "rate": 0.0463
+          },
+          "joint": {
+            "mc_standard_error": 0.0005853370823722003,
+            "rate": 0.0069
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011573892495612703,
+              "rate": 0.02755
+            },
+            {
+              "mc_standard_error": 0.0011178568222272474,
+              "rate": 0.02565
+            }
+          ],
+          "moment_residual": 2.7045032879868813e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.11784489465652198,
+              0.14031897716392105
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.05892244732826099,
+              0.07015948858196053
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.07239057239269325,
+            0.10269360269507236
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0034389852972933747,
+            "rate": 0.38395
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010520688546858518,
+            "rate": 0.02265
+          },
+          "joint": {
+            "mc_standard_error": 0.0009983956505313914,
+            "rate": 0.02035
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0034350638822298486,
+              "rate": 0.38165
+            },
+            {
+              "mc_standard_error": 0.0010520688546858518,
+              "rate": 0.02265
+            }
+          ],
+          "moment_residual": 9.066374943010082e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.11797524852578772,
+              0.14048170451942504
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.05898762426289386,
+              0.07024085225971252
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.07239057239918811,
+            0.10269360267830584
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003226771432097415,
+            "rate": 0.29565
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011336454472188383,
+            "rate": 0.0264
+          },
+          "joint": {
+            "mc_standard_error": 0.001042951041516331,
+            "rate": 0.02225
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011336454472188383,
+              "rate": 0.0264
+            },
+            {
+              "mc_standard_error": 0.0032134696980055683,
+              "rate": 0.2915
+            }
+          ],
+          "moment_residual": 5.168072480382646e-11,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.11796811236781177,
+              0.1403251660406087
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.058984056183905884,
+              0.07016258302030436
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.11913956885522589,
+        0.14190141098454231
+      ],
+      "covariance_input": [
+        [
+          0.1447811447811448,
+          0.10437710437710436
+        ],
+        [
+          0.10437710437710436,
+          0.20538720538720542
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": true,
+      "n": 82,
+      "scenario": "twice_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.1447811447804199,
+            0.20538720538814867
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003216865691165859,
+            "rate": 0.29255
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.002043222913683184,
+            "rate": 0.09195
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002932026943941682,
+              "rate": 0.2206
+            },
+            {
+              "mc_standard_error": 0.002617601860482224,
+              "rate": 0.1639
+            }
+          ],
+          "moment_residual": 9.432177261459174e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.16672005774930812,
+              0.19874543791414898
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.08336002887465406,
+              0.09937271895707449
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.14478114478189735,
+            0.2053872053894619
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.00143680335293317,
+            "rate": 0.04315
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.00143680335293317,
+            "rate": 0.04315
+          },
+          "joint": {
+            "mc_standard_error": 0.0005916205498459296,
+            "rate": 0.00705
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001083318916570739,
+              "rate": 0.02405
+            },
+            {
+              "mc_standard_error": 0.0011284098878510415,
+              "rate": 0.02615
+            }
+          ],
+          "moment_residual": 2.2565282975506307e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.16677869288908523,
+              0.1988030791996921
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.08338934644454261,
+              0.09940153959984604
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.1447811445905782,
+            0.20538720563708893
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0029382000442447756,
+            "rate": 0.2219
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001073383435683633,
+            "rate": 0.0236
+          },
+          "joint": {
+            "mc_standard_error": 0.0009477634198469573,
+            "rate": 0.0183
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002912768785880541,
+              "rate": 0.2166
+            },
+            {
+              "mc_standard_error": 0.001073383435683633,
+              "rate": 0.0236
+            }
+          ],
+          "moment_residual": 7.701707394665996e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.16676487942921564,
+              0.19864770913698468
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.08338243971460782,
+              0.09932385456849234
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.14478114490618466,
+            0.2053872054815824
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002678883256134914,
+            "rate": 0.1737
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001073383435683633,
+            "rate": 0.0236
+          },
+          "joint": {
+            "mc_standard_error": 0.0008967351197538769,
+            "rate": 0.01635
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001073383435683633,
+              "rate": 0.0236
+            },
+            {
+              "mc_standard_error": 0.0026338602610996658,
+              "rate": 0.16645
+            }
+          ],
+          "moment_residual": 2.0014318305970613e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.16673060654366553,
+              0.19870438722243092
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.08336530327183277,
+              0.09935219361121546
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.16848879409100317,
+        0.20067889993421348
+      ],
+      "covariance_input": [
+        [
+          0.2895622895622896,
+          0.20875420875420872
+        ],
+        [
+          0.20875420875420872,
+          0.41077441077441085
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": true,
+      "n": 82,
+      "scenario": "four_times_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.28956228749171004,
+            0.41077441021572647
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0027731478278303157,
+            "rate": 0.18985
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0015315772507451266,
+            "rate": 0.04935
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002393875492794059,
+              "rate": 0.13205
+            },
+            {
+              "mc_standard_error": 0.002187108564977971,
+              "rate": 0.10715
+            }
+          ],
+          "moment_residual": 2.2737559127183893e-09,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.23592992326222578,
+              0.28137229705420563
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.11796496163111289,
+              0.14068614852710282
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2895622888258399,
+            0.410774410770006
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014470929479477122,
+            "rate": 0.0438
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014470929479477122,
+            "rate": 0.0438
+          },
+          "joint": {
+            "mc_standard_error": 0.0005874392521784699,
+            "rate": 0.00695
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010985772048427002,
+              "rate": 0.02475
+            },
+            {
+              "mc_standard_error": 0.0011252555265360842,
+              "rate": 0.026
+            }
+          ],
+          "moment_residual": 7.364498455508794e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.23615394733737866,
+              0.2811796582690188
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.11807697366868933,
+              0.1405898291345094
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.28956228949532675,
+            0.4107744108048745
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002468519774075144,
+            "rate": 0.14205
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011199762832310334,
+            "rate": 0.02575
+          },
+          "joint": {
+            "mc_standard_error": 0.0009140842411944317,
+            "rate": 0.017
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0024034465877152337,
+              "rate": 0.1333
+            },
+            {
+              "mc_standard_error": 0.0011199762832310334,
+              "rate": 0.02575
+            }
+          ],
+          "moment_residual": 2.8410072905327155e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.2359474048073222,
+              0.28130750544881755
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.1179737024036611,
+              0.14065375272440878
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.28956228961575403,
+            0.41077441078734805
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0022541180093331404,
+            "rate": 0.1148
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001041805164126191,
+            "rate": 0.0222
+          },
+          "joint": {
+            "mc_standard_error": 0.0008175083332908601,
+            "rate": 0.01355
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001041805164126191,
+              "rate": 0.0222
+            },
+            {
+              "mc_standard_error": 0.002178097535694855,
+              "rate": 0.10615
+            }
+          ],
+          "moment_residual": 1.1371392716341688e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.23595366347846944,
+              0.2812629966377865
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.11797683173923472,
+              0.14063149831889324
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.15655611130054636,
+        0.15655611130054636
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": true,
+      "n": 82,
+      "scenario": "variance_0.25_rho0",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000749345,
+            0.2500000000074935
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0031276275153860633,
+            "rate": 0.26685
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0010291082911919427,
+            "rate": 0.02165
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0024840124798398253,
+              "rate": 0.1442
+            },
+            {
+              "mc_standard_error": 0.0024847284559887024,
+              "rate": 0.1443
+            }
+          ],
+          "moment_residual": 4.726258273635153e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.21936157575464968,
+              0.2192937395570701
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.10968078787732484,
+              0.10964686977853505
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000009441,
+            0.2500000000009442
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001521977496548487,
+            "rate": 0.0487
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001521977496548487,
+            "rate": 0.0487
+          },
+          "joint": {
+            "mc_standard_error": 0.00012245611458804333,
+            "rate": 0.0003
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001088795435332092,
+              "rate": 0.0243
+            },
+            {
+              "mc_standard_error": 0.0010974951024947674,
+              "rate": 0.0247
+            }
+          ],
+          "moment_residual": 9.441336601412331e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.21922749162066024,
+              0.21940751099825262
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.10961374581033012,
+              0.10970375549912631
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.24999999962164143,
+            0.2500000001867657
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0026259185059708157,
+            "rate": 0.1652
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011199762832310334,
+            "rate": 0.02575
+          },
+          "joint": {
+            "mc_standard_error": 0.00040553113320681064,
+            "rate": 0.0033
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002473584822681446,
+              "rate": 0.14275
+            },
+            {
+              "mc_standard_error": 0.0011199762832310334,
+              "rate": 0.02575
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.2194136817447542,
+              0.2193268318101386
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.1097068408723771,
+              0.1096634159050693
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.25000000018676577,
+            0.24999999962164143
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002636706183858945,
+            "rate": 0.1669
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011284098878510415,
+            "rate": 0.02615
+          },
+          "joint": {
+            "mc_standard_error": 0.00040245729587125143,
+            "rate": 0.00325
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011284098878510415,
+              "rate": 0.02615
+            },
+            {
+              "mc_standard_error": 0.002482579303869264,
+              "rate": 0.144
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.219314971947809,
+              0.21922495825431285
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.1096574859739045,
+              0.10961247912715642
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.15655611130054636,
+        0.15655611130054636
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.125
+        ],
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": true,
+      "n": 82,
+      "scenario": "variance_0.25_rho0.5",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000329475,
+            0.2500000000032948
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003004069552290692,
+            "rate": 0.23635
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0015911905919782207,
+            "rate": 0.0535
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002497546696260152,
+              "rate": 0.1461
+            },
+            {
+              "mc_standard_error": 0.002480785535873667,
+              "rate": 0.14375
+            }
+          ],
+          "moment_residual": 5.898448396379763e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.21927884923856614,
+              0.21916773371094386
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.10963942461928307,
+              0.10958386685547193
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000003786,
+            0.2500000000003788
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014643085398917811,
+            "rate": 0.0449
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014643085398917811,
+            "rate": 0.0449
+          },
+          "joint": {
+            "mc_standard_error": 0.000449087825486285,
+            "rate": 0.00405
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011263080728646138,
+              "rate": 0.02605
+            },
+            {
+              "mc_standard_error": 0.0010577237351974285,
+              "rate": 0.0229
+            }
+          ],
+          "moment_residual": 4.593547764386585e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.21916628995238516,
+              0.21943550801760506
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.10958314497619258,
+              0.10971775400880253
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.249999999938065,
+            0.2500000001829191
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002580764784903886,
+            "rate": 0.15825
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011167954154633695,
+            "rate": 0.0256
+          },
+          "joint": {
+            "mc_standard_error": 0.000813032594672563,
+            "rate": 0.0134
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002497192398474735,
+              "rate": 0.14605
+            },
+            {
+              "mc_standard_error": 0.0011167954154633695,
+              "rate": 0.0256
+            }
+          ],
+          "moment_residual": 1.8291906878076247e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.21931194319173963,
+              0.21929067070505984
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.10965597159586982,
+              0.10964533535252992
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.2500000001829191,
+            0.24999999993806493
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002587696949026296,
+            "rate": 0.1593
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010744923801498084,
+            "rate": 0.02365
+          },
+          "joint": {
+            "mc_standard_error": 0.0008189945054760746,
+            "rate": 0.0136
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010744923801498084,
+              "rate": 0.02365
+            },
+            {
+              "mc_standard_error": 0.0025196670166908962,
+              "rate": 0.14925
+            }
+          ],
+          "moment_residual": 1.8291917980306494e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.21938317868048926,
+              0.21934600657936257
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.10969158934024463,
+              0.10967300328968128
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.3131122226018448,
+        0.3131122226018448
+      ],
+      "covariance_input": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": true,
+      "n": 82,
+      "scenario": "bounded_extreme_rho1",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.9975,
+            0.9975
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0018388623860963605,
+            "rate": 0.07295
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0018388623860963605,
+            "rate": 0.07295
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0018388623860963605,
+              "rate": 0.07295
+            },
+            {
+              "mc_standard_error": 0.0018388623860963605,
+              "rate": 0.07295
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.43892923896792374,
+              0.43892923896792374
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.21946461948396187,
+              0.21946461948396187
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            1.0,
+            1.0
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0011805996357783617,
+            "rate": 0.0287
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011805996357783617,
+            "rate": 0.0287
+          },
+          "joint": {
+            "mc_standard_error": 0.0011805996357783617,
+            "rate": 0.0287
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011805996357783617,
+              "rate": 0.0287
+            },
+            {
+              "mc_standard_error": 0.0011805996357783617,
+              "rate": 0.0287
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.43942416559300784,
+              0.43942416559300784
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.21971208279650392,
+              0.21971208279650392
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.03778003699604932,
+        0.04499798520573615
+      ],
+      "covariance_input": [
+        [
+          0.0723905723905724,
+          0.05218855218855218
+        ],
+        [
+          0.05218855218855218,
+          0.10269360269360271
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 400,
+      "scenario": "historical_plugin",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.07239057239622312,
+            0.10269360269234773
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0010577237351974292,
+            "rate": 0.9771
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0024428865866020057,
+            "rate": 0.86145
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0013856406460551025,
+              "rate": 0.96
+            },
+            {
+              "mc_standard_error": 0.0023097607830682375,
+              "rate": 0.87855
+            }
+          ],
+          "moment_residual": 5.650716006222467e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05287999671747406,
+              0.0629713763529725
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.02643999835873703,
+              0.03148568817648625
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.07239057239017867,
+            0.10269360269630728
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001433619501471712,
+            "rate": 0.04295
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001433619501471712,
+            "rate": 0.04295
+          },
+          "joint": {
+            "mc_standard_error": 0.0005957716634751942,
+            "rate": 0.00715
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011114714908624513,
+              "rate": 0.02535
+            },
+            {
+              "mc_standard_error": 0.0010985772048427002,
+              "rate": 0.02475
+            }
+          ],
+          "moment_residual": 2.7045032879868813e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05287081560603929,
+              0.06292849170027029
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.026435407803019645,
+              0.031464245850135145
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.07239057239269325,
+            0.10269360269507236
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0013714459066984745,
+            "rate": 0.96085
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010855131850880486,
+            "rate": 0.02415
+          },
+          "joint": {
+            "mc_standard_error": 0.0010855131850880486,
+            "rate": 0.02415
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0013714459066984745,
+              "rate": 0.96085
+            },
+            {
+              "mc_standard_error": 0.0010855131850880486,
+              "rate": 0.02415
+            }
+          ],
+          "moment_residual": 9.066374943010082e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05287250122617988,
+              0.06296014743961681
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.02643625061308994,
+              0.031480073719808405
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.07239057239918811,
+            0.10269360267830584
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002344136408146932,
+            "rate": 0.8743
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010942416894818073,
+            "rate": 0.02455
+          },
+          "joint": {
+            "mc_standard_error": 0.0010942416894818073,
+            "rate": 0.02455
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010942416894818073,
+              "rate": 0.02455
+            },
+            {
+              "mc_standard_error": 0.002344136408146932,
+              "rate": 0.8743
+            }
+          ],
+          "moment_residual": 5.168072480382646e-11,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05285572737813504,
+              0.06297265640037614
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.02642786368906752,
+              0.03148632820018807
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.053429040706770736,
+        0.06363676095752607
+      ],
+      "covariance_input": [
+        [
+          0.1447811447811448,
+          0.10437710437710436
+        ],
+        [
+          0.10437710437710436,
+          0.20538720538720542
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 400,
+      "scenario": "twice_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.1447811447804199,
+            0.20538720538814867
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0027776120814469395,
+            "rate": 0.80935
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003533700539094958,
+            "rate": 0.5161
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003098121931106005,
+              "rate": 0.7409
+            },
+            {
+              "mc_standard_error": 0.003484618325584597,
+              "rate": 0.58455
+            }
+          ],
+          "moment_residual": 9.432177261459174e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.0747620863255199,
+              0.08905927880068779
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03738104316275995,
+              0.04452963940034389
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.14478114478189735,
+            0.2053872053894619
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014264247263700949,
+            "rate": 0.0425
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014264247263700949,
+            "rate": 0.0425
+          },
+          "joint": {
+            "mc_standard_error": 0.0005276665613813329,
+            "rate": 0.0056
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010953273483301693,
+              "rate": 0.0246
+            },
+            {
+              "mc_standard_error": 0.0010711617524911913,
+              "rate": 0.0235
+            }
+          ],
+          "moment_residual": 2.2565282975506307e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.07477632464843502,
+              0.08908724963234839
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03738816232421751,
+              0.044543624816174195
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.1447811445905782,
+            0.20538720563708893
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0030750157519921746,
+            "rate": 0.74675
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011146692334499952,
+            "rate": 0.0255
+          },
+          "joint": {
+            "mc_standard_error": 0.0011114714908624513,
+            "rate": 0.02535
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0030756173364058148,
+              "rate": 0.7466
+            },
+            {
+              "mc_standard_error": 0.0011146692334499952,
+              "rate": 0.0255
+            }
+          ],
+          "moment_residual": 7.701707394665996e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.07478073833477486,
+              0.08905067965476234
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03739036916738743,
+              0.04452533982738117
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.14478114490618466,
+            0.2053872054815824
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0034701004128122864,
+            "rate": 0.59575
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011336454472188383,
+            "rate": 0.0264
+          },
+          "joint": {
+            "mc_standard_error": 0.0011263080728646138,
+            "rate": 0.02605
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011336454472188383,
+              "rate": 0.0264
+            },
+            {
+              "mc_standard_error": 0.003470582371879394,
+              "rate": 0.5954
+            }
+          ],
+          "moment_residual": 2.0014318305970613e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.07476149560209445,
+              0.08906008447367078
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03738074780104723,
+              0.04453004223683539
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.07556007399209863,
+        0.08999597041147231
+      ],
+      "covariance_input": [
+        [
+          0.2895622895622896,
+          0.20875420875420872
+        ],
+        [
+          0.20875420875420872,
+          0.41077441077441085
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 400,
+      "scenario": "four_times_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.28956228749171004,
+            0.41077441021572647
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003522738636345308,
+            "rate": 0.5425
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003062678239711119,
+            "rate": 0.2502
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003520211286272459,
+              "rate": 0.4535
+            },
+            {
+              "mc_standard_error": 0.003347710859677102,
+              "rate": 0.3392
+            }
+          ],
+          "moment_residual": 2.2737559127183893e-09,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.10572163559171995,
+              0.12596065321341338
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.05286081779585997,
+              0.06298032660670669
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2895622888258399,
+            0.410774410770006
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001420798675041612,
+            "rate": 0.04215
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001420798675041612,
+            "rate": 0.04215
+          },
+          "joint": {
+            "mc_standard_error": 0.0005682319068830965,
+            "rate": 0.0065
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010800182868822177,
+              "rate": 0.0239
+            },
+            {
+              "mc_standard_error": 0.0010985772048427002,
+              "rate": 0.02475
+            }
+          ],
+          "moment_residual": 7.364498455508794e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.10573786844695722,
+              0.1259781351939436
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.05286893422347861,
+              0.0629890675969718
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.28956228949532675,
+            0.4107744108048745
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0035204415738654153,
+            "rate": 0.45385
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010689349839910752,
+            "rate": 0.0234
+          },
+          "joint": {
+            "mc_standard_error": 0.001038359222523689,
+            "rate": 0.02205
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0035195436493954727,
+              "rate": 0.4525
+            },
+            {
+              "mc_standard_error": 0.0010689349839910752,
+              "rate": 0.0234
+            }
+          ],
+          "moment_residual": 2.8410072905327155e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.10578793879502504,
+              0.12601198638186448
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.05289396939751252,
+              0.06300599319093224
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.28956228961575403,
+            0.41077441078734805
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0033713472084613296,
+            "rate": 0.3494
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011263080728646138,
+            "rate": 0.02605
+          },
+          "joint": {
+            "mc_standard_error": 0.0010565954168933348,
+            "rate": 0.02285
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011263080728646138,
+              "rate": 0.02605
+            },
+            {
+              "mc_standard_error": 0.0033641162286698716,
+              "rate": 0.3462
+            }
+          ],
+          "moment_residual": 1.1371392716341688e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.10573519225083723,
+              0.12598174861668054
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.052867596125418616,
+              0.06299087430834027
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.07020877214792402,
+        0.07020877214792402
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 400,
+      "scenario": "variance_0.25_rho0",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000749345,
+            0.2500000000074935
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0030229415310257,
+            "rate": 0.7593
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003123890022872124,
+            "rate": 0.26585
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003534922276373273,
+              "rate": 0.5093
+            },
+            {
+              "mc_standard_error": 0.0035337570481005056,
+              "rate": 0.51585
+            }
+          ],
+          "moment_residual": 4.726258273635153e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.09826508867301122,
+              0.09825088372099719
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04913254433650561,
+              0.049125441860498595
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000009441,
+            0.2500000000009442
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014980252000550592,
+            "rate": 0.0471
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014980252000550592,
+            "rate": 0.0471
+          },
+          "joint": {
+            "mc_standard_error": 0.000193576535251564,
+            "rate": 0.00075
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001055465773959535,
+              "rate": 0.0228
+            },
+            {
+              "mc_standard_error": 0.0011050451913835922,
+              "rate": 0.02505
+            }
+          ],
+          "moment_residual": 9.441336601412331e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.098264706568705,
+              0.09824164721048297
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.0491323532843525,
+              0.04912082360524148
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.24999999962164143,
+            0.2500000001867657
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0035308604475396644,
+            "rate": 0.5257
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001092066790539846,
+            "rate": 0.02445
+          },
+          "joint": {
+            "mc_standard_error": 0.0008024866821324825,
+            "rate": 0.01305
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0035340876474699943,
+              "rate": 0.5143
+            },
+            {
+              "mc_standard_error": 0.001092066790539846,
+              "rate": 0.02445
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.0982246487840139,
+              0.09824152029102275
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04911232439200695,
+              0.04912076014551137
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.25000000018676577,
+            0.24999999962164143
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0035318722903015616,
+            "rate": 0.52275
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011114714908624513,
+            "rate": 0.02535
+          },
+          "joint": {
+            "mc_standard_error": 0.0007809442201591609,
+            "rate": 0.01235
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011114714908624513,
+              "rate": 0.02535
+            },
+            {
+              "mc_standard_error": 0.0035348616486363367,
+              "rate": 0.50975
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.09825418891124861,
+              0.09826279983620424
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.049127094455624305,
+              0.04913139991810212
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.07020877214792402,
+        0.07020877214792402
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.125
+        ],
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 400,
+      "scenario": "variance_0.25_rho0.5",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000329475,
+            0.2500000000032948
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.00330106874739076,
+            "rate": 0.67905
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0033654848090579757,
+            "rate": 0.3468
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0035332165939834484,
+              "rate": 0.5181
+            },
+            {
+              "mc_standard_error": 0.003535109174410318,
+              "rate": 0.50775
+            }
+          ],
+          "moment_residual": 5.898448396379763e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.09826655710316416,
+              0.09824996805243041
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04913327855158208,
+              0.04912498402621521
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000003786,
+            0.2500000000003788
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014463045581757667,
+            "rate": 0.04375
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014463045581757667,
+            "rate": 0.04375
+          },
+          "joint": {
+            "mc_standard_error": 0.000449087825486285,
+            "rate": 0.00405
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010877025673409067,
+              "rate": 0.02425
+            },
+            {
+              "mc_standard_error": 0.0010722732277735933,
+              "rate": 0.02355
+            }
+          ],
+          "moment_residual": 4.593547764386585e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.09826704552638015,
+              0.09824824075902922
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04913352276319007,
+              0.04912412037951461
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.249999999938065,
+            0.2500000001829191
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0035339105640918534,
+            "rate": 0.51515
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011326004922301597,
+            "rate": 0.02635
+          },
+          "joint": {
+            "mc_standard_error": 0.0010800182868822177,
+            "rate": 0.0239
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0035343932293959595,
+              "rate": 0.5127
+            },
+            {
+              "mc_standard_error": 0.0011326004922301597,
+              "rate": 0.02635
+            }
+          ],
+          "moment_residual": 1.8291906878076247e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.09825058764004727,
+              0.09825662059028438
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04912529382002363,
+              0.04912831029514219
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.2500000001829191,
+            0.24999999993806493
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003533745817118147,
+            "rate": 0.5159
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011007378775167137,
+            "rate": 0.02485
+          },
+          "joint": {
+            "mc_standard_error": 0.0010577237351974285,
+            "rate": 0.0229
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011007378775167137,
+              "rate": 0.02485
+            },
+            {
+              "mc_standard_error": 0.0035341575905723276,
+              "rate": 0.51395
+            }
+          ],
+          "moment_residual": 1.8291917980306494e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.09826820156593971,
+              0.09823675517092355
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.049134100782969856,
+              0.049118377585461774
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.14041754429584805,
+        0.14041754429584805
+      ],
+      "covariance_input": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 400,
+      "scenario": "bounded_extreme_rho1",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.9975,
+            0.9975
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0026666374894237124,
+            "rate": 0.1717
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0026666374894237124,
+            "rate": 0.1717
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0026666374894237124,
+              "rate": 0.1717
+            },
+            {
+              "mc_standard_error": 0.0026666374894237124,
+              "rate": 0.1717
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.1963429690456244,
+              0.1963429690456244
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.0981714845228122,
+              0.0981714845228122
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            1.0,
+            1.0
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001090977543306919,
+            "rate": 0.0244
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001090977543306919,
+            "rate": 0.0244
+          },
+          "joint": {
+            "mc_standard_error": 0.001090977543306919,
+            "rate": 0.0244
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001090977543306919,
+              "rate": 0.0244
+            },
+            {
+              "mc_standard_error": 0.001090977543306919,
+              "rate": 0.0244
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.19659669639412755,
+              0.19659669639412755
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.09829834819706378,
+              0.09829834819706378
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.03082240310279424,
+        0.036711082071840866
+      ],
+      "covariance_input": [
+        [
+          0.0723905723905724,
+          0.05218855218855218
+        ],
+        [
+          0.05218855218855218,
+          0.10269360269360271
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 600,
+      "scenario": "historical_plugin",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.07239057239622312,
+            0.10269360269234773
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.00034957098706843166,
+            "rate": 0.99755
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0012741867994921303,
+            "rate": 0.9664
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.000508574478321513,
+              "rate": 0.9948
+            },
+            {
+              "mc_standard_error": 0.0012226667064249366,
+              "rate": 0.96915
+            }
+          ],
+          "moment_residual": 5.650716006222467e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.043137968416806595,
+              0.051358924140443574
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.021568984208403297,
+              0.025679462070221787
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.07239057239017867,
+            0.10269360269630728
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014518124878922897,
+            "rate": 0.0441
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014518124878922897,
+            "rate": 0.0441
+          },
+          "joint": {
+            "mc_standard_error": 0.000557267328128969,
+            "rate": 0.00625
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011178568222272474,
+              "rate": 0.02565
+            },
+            {
+              "mc_standard_error": 0.0010974951024947674,
+              "rate": 0.0247
+            }
+          ],
+          "moment_residual": 2.7045032879868813e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.043133128003123765,
+              0.05136472402296002
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.021566564001561882,
+              0.02568236201148001
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.07239057239269325,
+            0.10269360269507236
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0004887207791776418,
+            "rate": 0.9952
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001076706494361393,
+            "rate": 0.02375
+          },
+          "joint": {
+            "mc_standard_error": 0.001076706494361393,
+            "rate": 0.02375
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0004887207791776418,
+              "rate": 0.9952
+            },
+            {
+              "mc_standard_error": 0.001076706494361393,
+              "rate": 0.02375
+            }
+          ],
+          "moment_residual": 9.066374943010082e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.043124768041363316,
+              0.051363789295958556
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.021562384020681658,
+              0.025681894647979278
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.07239057239918811,
+            0.10269360267830584
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0012369607916179067,
+            "rate": 0.9684
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010756000650799535,
+            "rate": 0.0237
+          },
+          "joint": {
+            "mc_standard_error": 0.0010756000650799535,
+            "rate": 0.0237
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010756000650799535,
+              "rate": 0.0237
+            },
+            {
+              "mc_standard_error": 0.0012369607916179067,
+              "rate": 0.9684
+            }
+          ],
+          "moment_residual": 5.168072480382646e-11,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.04313443669057384,
+              0.05136113211615824
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.02156721834528692,
+              0.02568056605807912
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.043589460492889566,
+        0.0519173101553891
+      ],
+      "covariance_input": [
+        [
+          0.1447811447811448,
+          0.10437710437710436
+        ],
+        [
+          0.10437710437710436,
+          0.20538720538720542
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 600,
+      "scenario": "twice_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.1447811447804199,
+            0.20538720538814867
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001754382939953532,
+            "rate": 0.9341
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0031296744239617,
+            "rate": 0.7326
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0021626395619705105,
+              "rate": 0.89555
+            },
+            {
+              "mc_standard_error": 0.0029705022933840665,
+              "rate": 0.77115
+            }
+          ],
+          "moment_residual": 9.432177261459174e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06098892758151125,
+              0.07264348736680405
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.030494463790755624,
+              0.036321743683402026
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.14478114478189735,
+            0.2053872053894619
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014549486245225294,
+            "rate": 0.0443
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014549486245225294,
+            "rate": 0.0443
+          },
+          "joint": {
+            "mc_standard_error": 0.0005323302546352217,
+            "rate": 0.0057
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001088795435332092,
+              "rate": 0.0243
+            },
+            {
+              "mc_standard_error": 0.0011189171104241814,
+              "rate": 0.0257
+            }
+          ],
+          "moment_residual": 2.2565282975506307e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.060989026827302874,
+              0.07265619575947148
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.030494513413651437,
+              0.03632809787973574
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.1447811445905782,
+            0.20538720563708893
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0021982884251162318,
+            "rate": 0.8916
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011481635336484085,
+            "rate": 0.0271
+          },
+          "joint": {
+            "mc_standard_error": 0.0011481635336484085,
+            "rate": 0.0271
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0021982884251162318,
+              "rate": 0.8916
+            },
+            {
+              "mc_standard_error": 0.0011481635336484085,
+              "rate": 0.0271
+            }
+          ],
+          "moment_residual": 7.701707394665996e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06100206209108147,
+              0.07267198961206983
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.030501031045540736,
+              0.036335994806034916
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.14478114490618466,
+            0.2053872054815824
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0029594796628799463,
+            "rate": 0.77355
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011284098878510415,
+            "rate": 0.02615
+          },
+          "joint": {
+            "mc_standard_error": 0.0011263080728646138,
+            "rate": 0.02605
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011284098878510415,
+              "rate": 0.02615
+            },
+            {
+              "mc_standard_error": 0.002959941701283997,
+              "rate": 0.77345
+            }
+          ],
+          "moment_residual": 2.0014318305970613e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06102507585827241,
+              0.07265349512139142
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.030512537929136205,
+              0.03632674756069571
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.0616448062065885,
+        0.07342216414368172
+      ],
+      "covariance_input": [
+        [
+          0.2895622895622896,
+          0.20875420875420872
+        ],
+        [
+          0.20875420875420872,
+          0.41077441077441085
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 600,
+      "scenario": "four_times_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.28956228749171004,
+            0.41077441021572647
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0032210415823146397,
+            "rate": 0.70615
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003454246951218167,
+            "rate": 0.3934
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0034282279496847933,
+              "rate": 0.62225
+            },
+            {
+              "mc_standard_error": 0.0035318883759258303,
+              "rate": 0.4773
+            }
+          ],
+          "moment_residual": 2.2737559127183893e-09,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08628581363984286,
+              0.10274612957483523
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04314290681992143,
+              0.05137306478741761
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2895622888258399,
+            0.410774410770006
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001442354845383063,
+            "rate": 0.0435
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001442354845383063,
+            "rate": 0.0435
+          },
+          "joint": {
+            "mc_standard_error": 0.0006019431036235899,
+            "rate": 0.0073
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001090977543306919,
+              "rate": 0.0244
+            },
+            {
+              "mc_standard_error": 0.0011336454472188383,
+              "rate": 0.0264
+            }
+          ],
+          "moment_residual": 7.364498455508794e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08624408071014462,
+              0.10275993350472552
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04312204035507231,
+              0.05137996675236276
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.28956228949532675,
+            0.4107744108048745
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0034212482371204812,
+            "rate": 0.6261
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011007378775167137,
+            "rate": 0.02485
+          },
+          "joint": {
+            "mc_standard_error": 0.001093154838071899,
+            "rate": 0.0245
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003421892294476844,
+              "rate": 0.62575
+            },
+            {
+              "mc_standard_error": 0.0011007378775167137,
+              "rate": 0.02485
+            }
+          ],
+          "moment_residual": 2.8410072905327155e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08626824993324735,
+              0.10275180867415838
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04313412496662367,
+              0.05137590433707919
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.28956228961575403,
+            0.41077441078734805
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0035329398346136604,
+            "rate": 0.48085
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011071918871631962,
+            "rate": 0.02515
+          },
+          "joint": {
+            "mc_standard_error": 0.0010700490058871135,
+            "rate": 0.02345
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011071918871631962,
+              "rate": 0.02515
+            },
+            {
+              "mc_standard_error": 0.0035324586161765577,
+              "rate": 0.47915
+            }
+          ],
+          "moment_residual": 1.1371392716341688e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08627490745191718,
+              0.10276046926372094
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04313745372595859,
+              0.05138023463186047
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.05727900893116218,
+        0.05727900893116218
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 600,
+      "scenario": "variance_0.25_rho0",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000749345,
+            0.2500000000074935
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0021307158421525847,
+            "rate": 0.899
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003530045166141646,
+            "rate": 0.47215
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0032790981801403877,
+              "rate": 0.68695
+            },
+            {
+              "mc_standard_error": 0.0032868705481049905,
+              "rate": 0.6842
+            }
+          ],
+          "moment_residual": 4.726258273635153e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08016903589210443,
+              0.08014425432979583
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.040084517946052216,
+              0.040072127164897914
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000009441,
+            0.2500000000009442
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0015454758166985338,
+            "rate": 0.0503
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0015454758166985338,
+            "rate": 0.0503
+          },
+          "joint": {
+            "mc_standard_error": 0.0001580743495953724,
+            "rate": 0.0005
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011071918871631962,
+              "rate": 0.02515
+            },
+            {
+              "mc_standard_error": 0.0011178568222272474,
+              "rate": 0.02565
+            }
+          ],
+          "moment_residual": 9.441336601412331e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08017154725920593,
+              0.08015537121804937
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.040085773629602965,
+              0.04007768560902469
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.24999999962164143,
+            0.2500000001867657
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003269303270576164,
+            "rate": 0.69035
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001066703098336177,
+            "rate": 0.0233
+          },
+          "joint": {
+            "mc_standard_error": 0.0008665286348413421,
+            "rate": 0.01525
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.00329216273899089,
+              "rate": 0.6823
+            },
+            {
+              "mc_standard_error": 0.001066703098336177,
+              "rate": 0.0233
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08015566821999717,
+              0.08016416308490057
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.040077834109998586,
+              0.040082081542450285
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.25000000018676577,
+            0.24999999962164143
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0032558715423062993,
+            "rate": 0.6949
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010655852265304732,
+            "rate": 0.02325
+          },
+          "joint": {
+            "mc_standard_error": 0.0008817698112319338,
+            "rate": 0.0158
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010655852265304732,
+              "rate": 0.02325
+            },
+            {
+              "mc_standard_error": 0.0032776706477314036,
+              "rate": 0.68745
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.0801565795496955,
+              0.08014134303499529
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04007828977484775,
+              0.040070671517497644
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.05727900893116218,
+        0.05727900893116218
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.125
+        ],
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 600,
+      "scenario": "variance_0.25_rho0.5",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000329475,
+            0.2500000000032948
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002636390311581349,
+            "rate": 0.83315
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003525761460308964,
+            "rate": 0.53715
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003279952572065639,
+              "rate": 0.68665
+            },
+            {
+              "mc_standard_error": 0.003288409018811377,
+              "rate": 0.68365
+            }
+          ],
+          "moment_residual": 5.898448396379763e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.0801804897389049,
+              0.08014550010876155
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04009024486945245,
+              0.040072750054380775
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000003786,
+            0.2500000000003788
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014399787758852557,
+            "rate": 0.04335
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014399787758852557,
+            "rate": 0.04335
+          },
+          "joint": {
+            "mc_standard_error": 0.0004810601573608024,
+            "rate": 0.00465
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011114714908624513,
+              "rate": 0.02535
+            },
+            {
+              "mc_standard_error": 0.0010520688546858518,
+              "rate": 0.02265
+            }
+          ],
+          "moment_residual": 4.593547764386585e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08013994315460639,
+              0.08016152861861181
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.040069971577303194,
+              0.040080764309305905
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.249999999938065,
+            0.2500000001829191
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003261969324656503,
+            "rate": 0.69285
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011125385386583245,
+            "rate": 0.0254
+          },
+          "joint": {
+            "mc_standard_error": 0.001103970108290981,
+            "rate": 0.025
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003263150299174097,
+              "rate": 0.69245
+            },
+            {
+              "mc_standard_error": 0.0011125385386583245,
+              "rate": 0.0254
+            }
+          ],
+          "moment_residual": 1.8291906878076247e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.0801309888833513,
+              0.0801722425464199
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.04006549444167565,
+              0.04008612127320995
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.2500000001829191,
+            0.24999999993806493
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0032707566211810993,
+            "rate": 0.68985
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011125385386583245,
+            "rate": 0.0254
+          },
+          "joint": {
+            "mc_standard_error": 0.0010985772048427002,
+            "rate": 0.02475
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011125385386583245,
+              "rate": 0.0254
+            },
+            {
+              "mc_standard_error": 0.0032726393018479745,
+              "rate": 0.6892
+            }
+          ],
+          "moment_residual": 1.8291917980306494e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.08017305695077383,
+              0.08015075695174027
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.040086528475386914,
+              0.04007537847587014
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.11455801786232435,
+        0.11455801786232435
+      ],
+      "covariance_input": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 600,
+      "scenario": "bounded_extreme_rho1",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.9975,
+            0.9975
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.003041804378161094,
+            "rate": 0.24515
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003041804378161094,
+            "rate": 0.24515
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003041804378161094,
+              "rate": 0.24515
+            },
+            {
+              "mc_standard_error": 0.003041804378161094,
+              "rate": 0.24515
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.16015206853895106,
+              0.16015206853895106
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.08007603426947553,
+              0.08007603426947553
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            1.0,
+            1.0
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001110403305110355,
+            "rate": 0.0253
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.001110403305110355,
+            "rate": 0.0253
+          },
+          "joint": {
+            "mc_standard_error": 0.001110403305110355,
+            "rate": 0.0253
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001110403305110355,
+              "rate": 0.0253
+            },
+            {
+              "mc_standard_error": 0.001110403305110355,
+              "rate": 0.0253
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.16035803081178818,
+              0.16035803081178818
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.08017901540589409,
+              0.08017901540589409
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.026682247316644363,
+        0.03177994161671634
+      ],
+      "covariance_input": [
+        [
+          0.0723905723905724,
+          0.05218855218855218
+        ],
+        [
+          0.05218855218855218,
+          0.10269360269360271
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 800,
+      "scenario": "historical_plugin",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.07239057239622312,
+            0.10269360269234773
+          ],
+          "any_rejection": {
+            "mc_standard_error": 8.65960449443228e-05,
+            "rate": 0.99985
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0006160956703305115,
+            "rate": 0.99235
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0001499662462022622,
+              "rate": 0.99955
+            },
+            {
+              "mc_standard_error": 0.000603985823509127,
+              "rate": 0.99265
+            }
+          ],
+          "moment_residual": 5.650716006222467e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.037334459597361785,
+              0.044474395267442735
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.018667229798680893,
+              0.022237197633721367
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.07239057239017867,
+            0.10269360269630728
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0015160328162675109,
+            "rate": 0.0483
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0015160328162675109,
+            "rate": 0.0483
+          },
+          "joint": {
+            "mc_standard_error": 0.0005916205498459296,
+            "rate": 0.00705
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001146102089693584,
+              "rate": 0.027
+            },
+            {
+              "mc_standard_error": 0.0011735901648360896,
+              "rate": 0.02835
+            }
+          ],
+          "moment_residual": 2.7045032879868813e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.037332185426647166,
+              0.04447402830965397
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.018666092713323583,
+              0.022237014154826984
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.07239057239269325,
+            0.10269360269507236
+          ],
+          "any_rejection": {
+            "mc_standard_error": 8.65960449443228e-05,
+            "rate": 0.99985
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011071918871631962,
+            "rate": 0.02515
+          },
+          "joint": {
+            "mc_standard_error": 0.0011071918871631962,
+            "rate": 0.02515
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 8.65960449443228e-05,
+              "rate": 0.99985
+            },
+            {
+              "mc_standard_error": 0.0011071918871631962,
+              "rate": 0.02515
+            }
+          ],
+          "moment_residual": 9.066374943010082e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.03732559744397466,
+              0.04447937770622258
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.01866279872198733,
+              0.02223968885311129
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.07239057239918811,
+            0.10269360267830584
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0006220594826863436,
+            "rate": 0.9922
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010800182868822177,
+            "rate": 0.0239
+          },
+          "joint": {
+            "mc_standard_error": 0.0010800182868822177,
+            "rate": 0.0239
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010800182868822177,
+              "rate": 0.0239
+            },
+            {
+              "mc_standard_error": 0.0006220594826863436,
+              "rate": 0.9922
+            }
+          ],
+          "moment_residual": 5.168072480382646e-11,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.037336188543542294,
+              0.0444843616596804
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.018668094271771147,
+              0.0222421808298402
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.03773439602979129,
+        0.04494362444571976
+      ],
+      "covariance_input": [
+        [
+          0.1447811447811448,
+          0.10437710437710436
+        ],
+        [
+          0.10437710437710436,
+          0.20538720538720542
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 800,
+      "scenario": "twice_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.1447811447804199,
+            0.20538720538814867
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0010844166634647406,
+            "rate": 0.9759
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0024732237060160977,
+            "rate": 0.8573
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0014248199886301427,
+              "rate": 0.9576
+            },
+            {
+              "mc_standard_error": 0.002333716349516367,
+              "rate": 0.8756
+            }
+          ],
+          "moment_residual": 9.432177261459174e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05281032224573473,
+              0.06289206692191161
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.026405161122867365,
+              0.031446033460955806
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.14478114478189735,
+            0.2053872053894619
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014881598956429378,
+            "rate": 0.04645
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014881598956429378,
+            "rate": 0.04645
+          },
+          "joint": {
+            "mc_standard_error": 0.0005660564238660313,
+            "rate": 0.00645
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011284098878510415,
+              "rate": 0.02615
+            },
+            {
+              "mc_standard_error": 0.0011409302673695706,
+              "rate": 0.02675
+            }
+          ],
+          "moment_residual": 2.2565282975506307e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05279727242706336,
+              0.0628981667920505
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.02639863621353168,
+              0.03144908339602525
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.1447811445905782,
+            0.20538720563708893
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0013939108651560184,
+            "rate": 0.9595
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011061191165511969,
+            "rate": 0.0251
+          },
+          "joint": {
+            "mc_standard_error": 0.0011050451913835922,
+            "rate": 0.02505
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0013947346969943777,
+              "rate": 0.95945
+            },
+            {
+              "mc_standard_error": 0.0011061191165511969,
+              "rate": 0.0251
+            }
+          ],
+          "moment_residual": 7.701707394665996e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.05279654665299556,
+              0.06288087670120862
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.02639827332649778,
+              0.03144043835060431
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.14478114490618466,
+            0.2053872054815824
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002337733838571021,
+            "rate": 0.8751
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010974951024947674,
+            "rate": 0.0247
+          },
+          "joint": {
+            "mc_standard_error": 0.0010964118181595818,
+            "rate": 0.02465
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010974951024947674,
+              "rate": 0.0247
+            },
+            {
+              "mc_standard_error": 0.002338134913772086,
+              "rate": 0.87505
+            }
+          ],
+          "moment_residual": 2.0014318305970613e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.052798039413581736,
+              0.06289440038202411
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.026399019706790868,
+              0.031447200191012055
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.05336449463328873,
+        0.06355988323343267
+      ],
+      "covariance_input": [
+        [
+          0.2895622895622896,
+          0.20875420875420872
+        ],
+        [
+          0.20875420875420872,
+          0.41077441077441085
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 800,
+      "scenario": "four_times_historical_variance",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.28956228749171004,
+            0.41077441021572647
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0027551023347599994,
+            "rate": 0.81335
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003531129405020439,
+            "rate": 0.52495
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003087942276014887,
+              "rate": 0.7435
+            },
+            {
+              "mc_standard_error": 0.003471404326781886,
+              "rate": 0.5948
+            }
+          ],
+          "moment_residual": 2.2737559127183893e-09,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.07466929364626378,
+              0.08894199053098753
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03733464682313189,
+              0.044470995265493765
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2895622888258399,
+            0.410774410770006
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014619753332392445,
+            "rate": 0.04475
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014619753332392445,
+            "rate": 0.04475
+          },
+          "joint": {
+            "mc_standard_error": 0.000557267328128969,
+            "rate": 0.00625
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011157328869402388,
+              "rate": 0.02555
+            },
+            {
+              "mc_standard_error": 0.0011136044517691189,
+              "rate": 0.02545
+            }
+          ],
+          "moment_residual": 7.364498455508794e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.07467132618440109,
+              0.08893204671624512
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.037335663092200544,
+              0.04446602335812256
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.28956228949532675,
+            0.4107744108048745
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0030563309498482,
+            "rate": 0.75135
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010953273483301693,
+            "rate": 0.0246
+          },
+          "joint": {
+            "mc_standard_error": 0.001090977543306919,
+            "rate": 0.0244
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.003057152903438099,
+              "rate": 0.75115
+            },
+            {
+              "mc_standard_error": 0.0010953273483301693,
+              "rate": 0.0246
+            }
+          ],
+          "moment_residual": 2.8410072905327155e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.0746840396885877,
+              0.08894570436841553
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03734201984429385,
+              0.04447285218420777
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.28956228961575403,
+            0.41077441078734805
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0034703071910134986,
+            "rate": 0.5956
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011082635065723313,
+            "rate": 0.0252
+          },
+          "joint": {
+            "mc_standard_error": 0.0011018164547691234,
+            "rate": 0.0249
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011082635065723313,
+              "rate": 0.0252
+            },
+            {
+              "mc_standard_error": 0.0034707197380370544,
+              "rate": 0.5953
+            }
+          ],
+          "moment_residual": 1.1371392716341688e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.07467991009593095,
+              0.08893969894680682
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03733995504796547,
+              0.04446984947340341
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.04958512408139264,
+        0.04958512408139264
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.0
+        ],
+        [
+          0.0,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 800,
+      "scenario": "variance_0.25_rho0",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000749345,
+            0.2500000000074935
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0013013068431388505,
+            "rate": 0.9649
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0033721279446367394,
+            "rate": 0.65025
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.002791717750776393,
+              "rate": 0.8068
+            },
+            {
+              "mc_standard_error": 0.002783166160149264,
+              "rate": 0.80835
+            }
+          ],
+          "moment_residual": 4.726258273635153e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06939158201775496,
+              0.06938746156768516
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03469579100887748,
+              0.03469373078384258
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000009441,
+            0.2500000000009442
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0015527292101329196,
+            "rate": 0.0508
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0015527292101329196,
+            "rate": 0.0508
+          },
+          "joint": {
+            "mc_standard_error": 0.000193576535251564,
+            "rate": 0.00075
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.001102893863887183,
+              "rate": 0.02495
+            },
+            {
+              "mc_standard_error": 0.0011378145718877043,
+              "rate": 0.0266
+            }
+          ],
+          "moment_residual": 9.441336601412331e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06939513231527504,
+              0.06938000827432908
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03469756615763752,
+              0.03469000413716454
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.24999999962164143,
+            0.2500000001867657
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.002773986301336039,
+            "rate": 0.81
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010974951024947674,
+            "rate": 0.0247
+          },
+          "joint": {
+            "mc_standard_error": 0.000985087813344577,
+            "rate": 0.0198
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0028010175829508814,
+              "rate": 0.8051
+            },
+            {
+              "mc_standard_error": 0.0010974951024947674,
+              "rate": 0.0247
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06938334572385751,
+              0.06938142613755395
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03469167286192876,
+              0.034690713068776975
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.25000000018676577,
+            0.24999999962164143
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0027700677789541544,
+            "rate": 0.8107
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011050451913835922,
+            "rate": 0.02505
+          },
+          "joint": {
+            "mc_standard_error": 0.0009801999795960006,
+            "rate": 0.0196
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011050451913835922,
+              "rate": 0.02505
+            },
+            {
+              "mc_standard_error": 0.0028002003276551483,
+              "rate": 0.80525
+            }
+          ],
+          "moment_residual": 3.783585666994327e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06939205210966663,
+              0.06939122953772223
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.034696026054833316,
+              0.03469561476886111
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.04958512408139264,
+        0.04958512408139264
+      ],
+      "covariance_input": [
+        [
+          0.25,
+          0.125
+        ],
+        [
+          0.125,
+          0.25
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 800,
+      "scenario": "variance_0.25_rho0.5",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.25000000000329475,
+            0.2500000000032948
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.001977242397886511,
+            "rate": 0.9145
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.003251361560946429,
+            "rate": 0.6964
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0027922670896602998,
+              "rate": 0.8067
+            },
+            {
+              "mc_standard_error": 0.0028059076962722775,
+              "rate": 0.8042
+            }
+          ],
+          "moment_residual": 5.898448396379763e-12,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06937063836831707,
+              0.06937463149951369
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.034685319184158535,
+              0.03468731574975684
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            0.2500000000003786,
+            0.2500000000003788
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0014934818378540798,
+            "rate": 0.0468
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0014934818378540798,
+            "rate": 0.0468
+          },
+          "joint": {
+            "mc_standard_error": 0.00053000365564777,
+            "rate": 0.00565
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011252555265360842,
+              "rate": 0.026
+            },
+            {
+              "mc_standard_error": 0.0011346893297286267,
+              "rate": 0.02645
+            }
+          ],
+          "moment_residual": 4.593547764386585e-13,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06937317691741768,
+              0.06938334425606797
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03468658845870884,
+              0.034691672128033986
+            ]
+          }
+        },
+        "greedy_5pp_gaussian_null": {
+          "actual_variance": [
+            0.249999999938065,
+            0.2500000001829191
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.00279089320379695,
+            "rate": 0.80695
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011007378775167137,
+            "rate": 0.02485
+          },
+          "joint": {
+            "mc_standard_error": 0.0010953273483301693,
+            "rate": 0.0246
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0027922670896602998,
+              "rate": 0.8067
+            },
+            {
+              "mc_standard_error": 0.0011007378775167137,
+              "rate": 0.02485
+            }
+          ],
+          "moment_residual": 1.8291906878076247e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06937606112738068,
+              0.06939114481735383
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03468803056369034,
+              0.03469557240867691
+            ]
+          }
+        },
+        "greedy_null_gaussian_5pp": {
+          "actual_variance": [
+            0.2500000001829191,
+            0.24999999993806493
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0027870367552294676,
+            "rate": 0.80765
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0011093339781147965,
+            "rate": 0.02525
+          },
+          "joint": {
+            "mc_standard_error": 0.0011018164547691234,
+            "rate": 0.0249
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0011093339781147965,
+              "rate": 0.02525
+            },
+            {
+              "mc_standard_error": 0.0027889667441545443,
+              "rate": 0.8073
+            }
+          ],
+          "moment_residual": 1.8291917980306494e-10,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.06936901686498254,
+              0.06939296853441965
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.03468450843249127,
+              0.03469648426720982
+            ]
+          }
+        }
+      }
+    },
+    {
+      "approximate_marginal_80pct_MDE": [
+        0.09917024816278527,
+        0.09917024816278527
+      ],
+      "covariance_input": [
+        [
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "feasible_from_current_authorized_metadata": false,
+      "n": 800,
+      "scenario": "bounded_extreme_rho1",
+      "simulation": {
+        "both_true_5pp": {
+          "actual_variance": [
+            0.9975,
+            0.9975
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0032280365355739082,
+            "rate": 0.29605
+          },
+          "familywise_false_positive": null,
+          "joint": {
+            "mc_standard_error": 0.0032280365355739082,
+            "rate": 0.29605
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0032280365355739082,
+              "rate": 0.29605
+            },
+            {
+              "mc_standard_error": 0.0032280365355739082,
+              "rate": 0.29605
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.13862753560565744,
+              0.13862753560565744
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.06931376780282872,
+              0.06931376780282872
+            ]
+          }
+        },
+        "global_null": {
+          "actual_variance": [
+            1.0,
+            1.0
+          ],
+          "any_rejection": {
+            "mc_standard_error": 0.0010877025673409067,
+            "rate": 0.02425
+          },
+          "familywise_false_positive": {
+            "mc_standard_error": 0.0010877025673409067,
+            "rate": 0.02425
+          },
+          "joint": {
+            "mc_standard_error": 0.0010877025673409067,
+            "rate": 0.02425
+          },
+          "marginal": [
+            {
+              "mc_standard_error": 0.0010877025673409067,
+              "rate": 0.02425
+            },
+            {
+              "mc_standard_error": 0.0010877025673409067,
+              "rate": 0.02425
+            }
+          ],
+          "moment_residual": 0.0,
+          "precision": {
+            "mean_individual_two_sided_95_width": [
+              0.1388015167888562,
+              0.1388015167888562
+            ],
+            "mean_simultaneous_one_sided_halfwidth": [
+              0.0694007583944281,
+              0.0694007583944281
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "scenarios": [
+    "historical_plugin",
+    "twice_historical_variance",
+    "four_times_historical_variance",
+    "variance_0.25_rho0",
+    "variance_0.25_rho0.5",
+    "bounded_extreme_rho1"
+  ],
+  "seed": 2026090502,
+  "support": "six Bernoulli runs per arm averaged; contrast pair on 1/6 hexagonal grid with a shared treatment. Maximum entropy matches moments. Not a calibrated generative model of the new interface."
+}
