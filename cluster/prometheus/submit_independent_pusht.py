@@ -36,6 +36,8 @@ def main(root,stage,dependency=None,dry=False):
     registry=json.loads((root/'REGISTRY.json').read_text());count=len(registry['stages'][stage])
     runner=source/'run_independent_pusht.sh';logs=root/'logs';logs.mkdir(exist_ok=True)
     evalcmd='USE_GPU=1 bash {} {} {} --study {} --stage {}'.format(shlex.quote(str(runner)),shlex.quote(str(root)),shlex.quote(str(source/'independent_pusht_worker.py')),shlex.quote(str(root)),stage)
+    # Expand the scheduler index in the host shell before --cleanenv removes it.
+    evalcmd += ' --index "${SLURM_ARRAY_TASK_ID:?missing array index}"'
     array=['--job-name=ind-pusht-s%d'%stage,'--partition=a6000','--qos=normal-a6000','--account=superworld',
        '--cpus-per-task=4','--mem=24G','--gres=gpu:1','--time=02:00:00','--array=0-%d%%4'%(count-1),
        '--output='+str(logs/'eval-%A_%a.out'),'--error='+str(logs/'eval-%A_%a.err'),'--wrap='+evalcmd]

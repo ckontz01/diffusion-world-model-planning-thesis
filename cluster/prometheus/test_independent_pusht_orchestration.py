@@ -1,5 +1,6 @@
 """Mocked scheduler regression checks; these tests submit no jobs."""
 import json
+from pathlib import Path
 import pytest
 import submit_independent_pusht as ctl
 from prepare_independent_pusht_study import prepare,tasks_for
@@ -50,3 +51,17 @@ def test_verified_terminal_stops(tmp_path,monkeypatch):
     monkeypatch.setattr(ctl,'submit',lambda args:pytest.fail('unexpected submission'))
     ctl.main(root,1)
     assert json.loads((root/'TERMINAL.json').read_text())['complete']
+
+
+def test_array_index_crosses_clean_environment(tmp_path,monkeypatch):
+    import os,subprocess
+    root=make_study(tmp_path);calls=[]
+    monkeypatch.setattr(ctl,'submit',lambda args:(calls.append(args) or str(900+len(calls))))
+    ctl.main(root,0)
+    wrap=next(a.removeprefix('--wrap=') for a in calls[0] if a.startswith('--wrap='))
+    source=Path(json.loads((root/'CONFIG.json').read_text())['source_directory'])
+    runner=source/'run_independent_pusht.sh'
+    runner.write_text('#!/bin/bash\nshift\nenv -i PATH="$PATH" /bin/printf "%s\\n" "$@"\n')
+    env=os.environ.copy();env['SLURM_ARRAY_TASK_ID']='37'
+    result=subprocess.run(['/bin/bash','-c',wrap],env=env,capture_output=True,text=True,check=True)
+    assert result.stdout.splitlines()[-2:]==['--index','37']
