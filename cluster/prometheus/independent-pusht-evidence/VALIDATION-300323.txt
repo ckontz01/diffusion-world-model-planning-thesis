@@ -1,0 +1,178 @@
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+test_independent_pusht_collect.py::test_reference_repeat_and_witness
+test_independent_pusht_driver.py::test_common_full_budget_and_fresh_episode[75]
+test_independent_pusht_driver.py::test_common_full_budget_and_fresh_episode[150]
+  /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/gymnasium/spaces/box.py:415: UserWarning: [33mWARN: Casting input x to numpy array.[0m
+    gym.logger.warn("Casting input x to numpy array.")
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+7 passed, 3 warnings in 10.76s
+{
+  "looks": [
+    1600,
+    3200,
+    6000
+  ],
+  "per_comparison_look_alpha": [
+    0.001,
+    0.004,
+    0.011666666666666665
+  ],
+  "comparisons": 3,
+  "total_alpha": 0.05,
+  "target_true_effect": 0.05,
+  "observed_effect_threshold": null,
+  "monte_carlo_replicates": 100000,
+  "scenarios": [
+    {
+      "variance_scenario": 0.25,
+      "power": {
+        "mean": 0.05,
+        "variance": 0.25,
+        "rows": [
+          {
+            "n": 1600,
+            "cumulative_marginal_probability": 0.81644,
+            "mc_se": 0.001224196578985581
+          },
+          {
+            "n": 3200,
+            "cumulative_marginal_probability": 0.99858,
+            "mc_se": 0.00011907911655701754
+          },
+          {
+            "n": 6000,
+            "cumulative_marginal_probability": 1.0,
+            "mc_se": 0.0
+          }
+        ]
+      },
+      "null": {
+        "mean": 0.0,
+        "variance": 0.25,
+        "rows": [
+          {
+            "n": 1600,
+            "cumulative_marginal_probability": 0.00091,
+            "mc_se": 9.53505060290715e-05
+          },
+          {
+            "n": 3200,
+            "cumulative_marginal_probability": 0.0049,
+            "mc_se": 0.00022081643960538807
+          },
+          {
+            "n": 6000,
+            "cumulative_marginal_probability": 0.01441,
+            "mc_se": 0.00037686007880909854
+          }
+        ]
+      },
+      "joint_power_bonferroni_lower_from_final_normal_approx": 0.9999999348803593,
+      "family_error_upper_from_simulated_marginal": 0.04323
+    },
+    {
+      "variance_scenario": 0.5,
+      "power": {
+        "mean": 0.05,
+        "variance": 0.5,
+        "rows": [
+          {
+            "n": 1600,
+            "cumulative_marginal_probability": 0.39639,
+            "mc_se": 0.0015468192134182974
+          },
+          {
+            "n": 3200,
+            "cumulative_marginal_probability": 0.91174,
+            "mc_se": 0.0008970516841297384
+          },
+          {
+            "n": 6000,
+            "cumulative_marginal_probability": 0.9994,
+            "mc_se": 7.743642553734288e-05
+          }
+        ]
+      },
+      "null": {
+        "mean": 0.0,
+        "variance": 0.5,
+        "rows": [
+          {
+            "n": 1600,
+            "cumulative_marginal_probability": 0.00102,
+            "mc_se": 0.00010094352876732615
+          },
+          {
+            "n": 3200,
+            "cumulative_marginal_probability": 0.00498,
+            "mc_se": 0.0002226027762630107
+          },
+          {
+            "n": 6000,
+            "cumulative_marginal_probability": 0.01431,
+            "mc_se": 0.00037556921998481186
+          }
+        ]
+      },
+      "joint_power_bonferroni_lower_from_final_normal_approx": 0.9979959069022482,
+      "family_error_upper_from_simulated_marginal": 0.042929999999999996
+    },
+    {
+      "variance_scenario": 1.0,
+      "power": {
+        "mean": 0.05,
+        "variance": 0.9975,
+        "rows": [
+          {
+            "n": 1600,
+            "cumulative_marginal_probability": 0.14294,
+            "mc_se": 0.0011068340273049071
+          },
+          {
+            "n": 3200,
+            "cumulative_marginal_probability": 0.58244,
+            "mc_se": 0.0015594987861489345
+          },
+          {
+            "n": 6000,
+            "cumulative_marginal_probability": 0.94928,
+            "mc_se": 0.0006938838634814906
+          }
+        ]
+      },
+      "null": {
+        "mean": 0.0,
+        "variance": 1.0,
+        "rows": [
+          {
+            "n": 1600,
+            "cumulative_marginal_probability": 0.0012,
+            "mc_se": 0.00010947876506428085
+          },
+          {
+            "n": 3200,
+            "cumulative_marginal_probability": 0.00524,
+            "mc_se": 0.00022830992970083452
+          },
+          {
+            "n": 6000,
+            "cumulative_marginal_probability": 0.01522,
+            "mc_se": 0.00038714792521722235
+          }
+        ]
+      },
+      "joint_power_bonferroni_lower_from_final_normal_approx": 0.8370019088749051,
+      "family_error_upper_from_simulated_marginal": 0.04566
+    }
+  ],
+  "notes": "Paired episode means; t approximation, not a universal finite-sample guarantee. Bonferroni across looks and contrasts. No training or test outcomes used. Stop early only after all three registered superiority nulls have crossed their spending boundaries; otherwise complete N6000."
+}
+
+Your remaining balance (at the time of job end)
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+ckontzias *        67 |     SUPERWORLD        67 |             0       N/A
+cpadubidri         0 |     SUPERWORLD        67 |             0       N/A
+skaratsiolis         0 |     SUPERWORLD        67 |             0       N/A
