@@ -1,0 +1,16 @@
+{
+  "all_checks_passed": true,
+  "combined_count": 382,
+  "counts": {
+    "P2": 82,
+    "P3": 0,
+    "P4": 300
+  },
+  "eligible_lists_emitted": false,
+  "independently_reaggregated_projection_count": 389,
+  "method": "Boolean-mask reaggregation, separately implemented from set-ledger audit",
+  "outcome_payloads_read": false,
+  "report_sha256": "aeda7fcf58264cc8acde1db3a89481c0f4eb09572922980570519c6641bf3154",
+  "sage_test_count": 9,
+  "verifier_sha256": "ace9d727f70dcd02ca795f6452c5603b9bb3af5ea03779a1f1b24843cf9701bf"
+}

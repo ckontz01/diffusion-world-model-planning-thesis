@@ -1,0 +1,19 @@
+{
+  "audit_command": "apptainer exec --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis:ro /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python /lustreFS/data/superworld/ckontzias/thesis/staging/e18-expanded-capacity-9973e46/e18_expanded_capacity_audit.py --root /lustreFS/data/superworld/ckontzias/thesis",
+  "audit_exit": 0,
+  "audit_stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "audit_stdout_sha256": "aeda7fcf58264cc8acde1db3a89481c0f4eb09572922980570519c6641bf3154",
+  "gpu_allocated": false,
+  "inspection": "schema/filename and preliminary aggregate probes only; no outcome reads",
+  "remote_tests_exit": 0,
+  "root": "/lustreFS/data/superworld/ckontzias/thesis",
+  "scope_commit": "9973e46",
+  "slurm_submitted": false,
+  "source_commit": "60c3753",
+  "staging": "/lustreFS/data/superworld/ckontzias/thesis/staging/e18-expanded-capacity-9973e46",
+  "test_command": "apptainer exec --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis:ro /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -B -m unittest discover -s /lustreFS/data/superworld/ckontzias/thesis/staging/e18-expanded-capacity-9973e46 -p test_e18_expanded_capacity_audit.py -v",
+  "verification_command": "apptainer exec --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis:ro /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env PYTHONDONTWRITEBYTECODE=1 PYTHONNOUSERSITE=1 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python /lustreFS/data/superworld/ckontzias/thesis/staging/e18-expanded-capacity-9973e46/verify_e18_expanded_capacity.py --root /lustreFS/data/superworld/ckontzias/thesis --report /lustreFS/data/superworld/ckontzias/thesis/staging/e18-expanded-capacity-9973e46/CAPACITY.json",
+  "verification_exit": 0,
+  "verification_stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "verification_stdout_sha256": "6a5108131dc46172a1978db50eb1a3dfa16d524fb81100d2c04b5cd95720f425"
+}

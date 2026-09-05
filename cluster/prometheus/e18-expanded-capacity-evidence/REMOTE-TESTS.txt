@@ -1,0 +1,15 @@
+INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts
+test_digest_order_independent (test_e18_expanded_capacity_audit.Tests.test_digest_order_independent) ... ok
+test_h5_source_and_target_union_without_cost_read (test_e18_expanded_capacity_audit.Tests.test_h5_source_and_target_union_without_cost_read) ... ok
+test_ledger_deduplicates_overlaps (test_e18_expanded_capacity_audit.Tests.test_ledger_deduplicates_overlaps) ... ok
+test_ledger_no_input_mutation (test_e18_expanded_capacity_audit.Tests.test_ledger_no_input_mutation) ... ok
+test_other_negative_rejected (test_e18_expanded_capacity_audit.Tests.test_other_negative_rejected) ... ok
+test_padding_and_duplicates (test_e18_expanded_capacity_audit.Tests.test_padding_and_duplicates) ... ok
+test_tsv_identifiers_only (test_e18_expanded_capacity_audit.Tests.test_tsv_identifiers_only) ... ok
+test_tsv_success_column_rejected (test_e18_expanded_capacity_audit.Tests.test_tsv_success_column_rejected) ... ok
+test_unknown_identifier_rejected_without_value (test_e18_expanded_capacity_audit.Tests.test_unknown_identifier_rejected_without_value) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.002s
+
+OK
