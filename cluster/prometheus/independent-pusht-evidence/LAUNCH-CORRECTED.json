@@ -1,0 +1,28 @@
+{
+  "source": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/independent-pusht-4a608e5",
+  "source_commit": "4a608e5",
+  "scientific_protocol_commit": "63f0440",
+  "study": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5",
+  "reused_collection": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-63f0440/collection",
+  "collection_sha256": "3cce1a2b74c84feeece9503dd2873d8db6abd609b546311ed374984ca4d93f68",
+  "launcher_tests": [
+    "300336",
+    "300337"
+  ],
+  "submission": {
+    "stage": 0,
+    "cumulative_n": 1600,
+    "task_count": 450,
+    "array_job": "300339",
+    "analysis_job": "300340",
+    "continuation_job": "300341",
+    "dependency": null,
+    "source_manifest_sha256": "d79c5f0f5515011885a1309d61985e1464c8c6738c7d9f4a3b161378836381ec"
+  },
+  "previous_failed_array": "300327",
+  "previous_dependents_cancelled": [
+    "300328",
+    "300329"
+  ],
+  "no_model_call_in_failed_array": true
+}

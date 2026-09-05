@@ -12,8 +12,10 @@ SAGE integration, accepted E18 driver parity, and 22 analysis/orchestration
 regressions passed. The prospective six-arm design has cumulative looks at
 1,600/3,200/6,000 independent reference episodes with fixed sequential rules.
 This is a new weak-policy reachable-goal distribution, not original SAGE paper
-reproduction. Collection job300326 gates array300327 and analysis300328;
-controller300329 advances only under verified predeclared decisions. No final
+reproduction. Collection job300326 completed and all6,000 reference files are backed up locally.
+A launcher-only array-index correction (`4a608e5`) passed23 tests and a real
+container handoff check. Corrected array300339, analysis300340 and controller300341
+use the same locked references and unchanged scientific design. No final
 comparative outcome is available yet. See
 [execution/recovery](cluster/prometheus/INDEPENDENT-PUSHT-RECOVERY.md),
 [protocol](cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md), and

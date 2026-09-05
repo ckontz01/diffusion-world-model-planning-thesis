@@ -1,16 +1,16 @@
 # Independent PushT study: execution and recovery
 
 Branch: `independent-pusht-benchmark`. Frozen scientific source: `63f0440`.
-Study root: `/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-63f0440`.
-Source snapshot: `/lustreFS/data/superworld/ckontzias/thesis/snapshots/independent-pusht-63f0440`.
-Source-manifest SHA256: `1b86846d65a9f59ca108fefca6ab77af01e2f543deaa2e4264d784dc9e97f662`.
+Study root: `/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5`.
+Source snapshot: `/lustreFS/data/superworld/ckontzias/thesis/snapshots/independent-pusht-4a608e5`.
+Source-manifest SHA256: `d79c5f0f5515011885a1309d61985e1464c8c6738c7d9f4a3b161378836381ec`.
 
 ## Current submitted chain
 
 - Collection/validation/lock: `300326`.
-- Stage0 evaluation: `300327` (450 tasks, at most four GPUs).
-- Stage0 complete-grid analysis and independent reaggregation: `300328`.
-- Verified-decision controller: `300329`.
+- Stage0 evaluation: `300339` (450 tasks, at most four GPUs).
+- Stage0 complete-grid analysis and independent reaggregation: `300340`.
+- Verified-decision controller: `300341`.
 
 The controller submits later registered stages only if the verified decision
 requires continuation. It stops at all-three-boundaries crossed, the registered
@@ -31,7 +31,7 @@ After collection locking or a completed verified stage, run from WSL:
 
 ```bash
 python3 /home/chris/thesis/cluster/prometheus/backup_independent_pusht.py \
-  --study /lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-63f0440
+  --study /lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5
 ```
 
 This creates a separate copy under `/home/chris/thesis-artifacts/independent-pusht/`.
@@ -55,3 +55,5 @@ The explicit boxed-SAGE sensitivity pilot is preserved separately.
 
 No result may be claimed until the scientific run and independent verification
 actually complete. A scheduler submission is not a passed experiment.
+
+Launcher-only amendment4a608e5 preserves the original63f0440 scientific protocol and all collection bytes. Old array300327 and dependents were cancelled after an environment-index failure before planning. Completed collection backup exists under the original final-20260906-63f0440 local artifact directory.

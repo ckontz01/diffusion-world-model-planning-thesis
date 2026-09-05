@@ -1,0 +1,21 @@
+{
+  "accepted": 6000,
+  "attempts": 15839,
+  "namespace": "final-20260906-primary-v1",
+  "rejected": {
+    "position_outside_arena": 8504,
+    "initial_overlap": 1335
+  },
+  "initially_solved": {
+    "75": 2,
+    "150": 0
+  },
+  "block_displacement_median": {
+    "75": 98.92524150145826,
+    "150": 170.06865086254243
+  },
+  "references_with_contact": 6000,
+  "collection_sha256": "3cce1a2b74c84feeece9503dd2873d8db6abd609b546311ed374984ca4d93f68",
+  "reference_arrays_backed_up": 6000,
+  "backup_bytes": 55945365
+}
