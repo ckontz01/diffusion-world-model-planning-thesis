@@ -15,7 +15,7 @@ GPU_ARGS=(); if [[ ${USE_GPU:-0} == 1 ]]; then GPU_ARGS+=(--nv); fi
 apptainer exec "${GPU_ARGS[@]}" --cleanenv --bind "$ROOT:$ROOT:ro" --bind "$RUN:$RUN:rw" \
  "$IMAGE" env PATH="$ENV/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin" \
  PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONHASHSEED=0 \
- PYTHONPATH="$NEW:$INTEGRATION:$R1:$E18:$ROOT/src/hi-lewm:$ROOT/src/hi-lewm/third_party/lewm:$SAGE" \
+ PYTHONPATH="$NEW:$INTEGRATION:$R1:$E18:$ROOT/src/hi-lewm:$ROOT/src/hi-lewm/third_party/lewm" \
  SDL_VIDEODRIVER=dummy CUBLAS_WORKSPACE_CONFIG=:4096:8 MPLBACKEND=Agg \
  MPLCONFIGDIR="$RUN/tmp/mpl" TMPDIR="$RUN/tmp" OMP_NUM_THREADS=4 \
  "$ENV/bin/python" "$@"

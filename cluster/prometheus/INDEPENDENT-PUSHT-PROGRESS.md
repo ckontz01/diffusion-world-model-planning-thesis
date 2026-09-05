@@ -27,3 +27,5 @@ training-data distribution. Pilot quality diagnostics will establish the scope.
 Large raw data remain on Prometheus with hashes, generation commands and paths
 committed; code, protocols, readable summaries and task state are committed to Git.
 No unattended assistant monitoring is implied by cluster execution.
+
+Pilot 300310 failed before collection because the SAGE tree on PYTHONPATH shadowed swm006. Corrected by appending SAGE only after importing the installed common runtime. A local REPL syntax error accidentally resubmitted the old pilot as 300311; that job was cancelled, not accepted as replacement evidence.
