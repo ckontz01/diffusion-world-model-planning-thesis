@@ -40,6 +40,8 @@ The subsequently authorized [E19-R1 reset/fixed-stimulus check](cluster/promethe
 
 The [R2 targeted localization](cluster/prometheus/E19-R2-LOCALIZATION-RESULT-2026-09-05.md) found exact requested PushT fields before the setter step, but different post-step block poses under explicit reset seeds 32 and 33. Repeatability under one seed therefore does not establish correct restoration. Retained contact/integration state is consumed during the setter's physics advancement. R2 also discloses R1's additional SAGE Cube global seeding and classifies the preserved E18 warning as signed-velocity bounds metadata. No production correction was made; arm/batch equivalence and confirmation remain gated on an approved restoration contract.
 
+The subsequently authorized [R3 fresh-state repair](cluster/prometheus/E19-R3-INITIALIZATION-RESULT-2026-09-05.md) implements one opt-in instantaneous PushT initializer, leaving the native legacy path and every historical decision unchanged. On three exposed starts in both runtimes, 48 history/repeat scenarios passed exact-state, zero-hidden-step, observation, idempotence and fixed-action checks. All ten real checkpoint-backed arms then passed initialized-state/input and singleton/batch-slot equivalence at native batch sizes3 and50. Missing dynamics use documented canonical defaults, not claimed historical recovery. The separate velocity-space metadata correction changes no values. E18 non-action scaler coefficients were not refitted: that boundary is raw-input equality, not complete historical-preprocessing validation. No planner invocation, new scientific comparison or holdout access occurred; the scoped engineering gate is now passed.
+
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, a comparison with official PRISM, or a validated efficacy comparison against official SAGE.
 
 ## E13 matched PRISM-DP results first, by task
@@ -331,6 +333,25 @@ See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFF
   or author contact occurred.
 
 See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-PROTOCOL-2026-08-30.md), [implementation changelog](cluster/prometheus/E19-D2-IMPLEMENTATION-CHANGELOG-2026-08-30.md), [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md), and [review packet](cluster/prometheus/e19-d2-author-evidence/README.md).
+
+### 5 September: E19-R3 opt-in fresh-state initialization
+
+- Implemented the user-approved instantaneous initialization contract using new
+  native physics construction and public spatial reindex; retained legacy source
+  and stepping. Exposed data do not contain block momentum/contact state, so
+  defaults are explicit assumptions. Fresh observations replace dataset overlays.
+- Core job300301 passed48 exposed-record scenarios with96 fresh resets and no
+  initialization physics step. Successful arm job300304 passed all ten real
+  checkpoint-backed methods at batches3/50, with560 initializations and885 short
+  fixed primitive actions; no solver or benchmark metric was used.
+- Preserved failed harness300302: reused SAGE policy call metadata was not reset
+  by native set_env. Constructed fresh policies for the replacement gate without
+  modifying the initializer, native source or a private counter.
+- Signed-velocity bounds corrected separately. E18 non-action normalization
+  remains an explicitly disclosed raw-input boundary; no holdout statistics fit.
+  See the [result](cluster/prometheus/E19-R3-INITIALIZATION-RESULT-2026-09-05.md),
+  [interface](cluster/prometheus/PUSHT-FRESH-INITIALIZATION-INTERFACE.md) and
+  [implementation record](cluster/prometheus/E19-R3-IMPLEMENTATION-CHANGELOG-2026-09-05.md).
 
 ### 5 September: E19-R2 targeted restoration localization
 

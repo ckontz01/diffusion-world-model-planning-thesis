@@ -1,0 +1,402 @@
+{
+  "cases": [
+    {
+      "absent": [
+        "block_velocity",
+        "block_angular_velocity",
+        "forces",
+        "torques",
+        "contact_cache",
+        "controller_memory"
+      ],
+      "actions": {
+        "dtype": "float32",
+        "sha256": "273d8f3a3464a26bf50b6a57f257dd8d3183c6d5c5d70f550a700aa084470c2e",
+        "shape": [
+          3,
+          2
+        ],
+        "values": [
+          [
+            -0.1746021956205368,
+            -0.07827486097812653
+          ],
+          [
+            0.3276538550853729,
+            0.47177794575691223
+          ],
+          [
+            0.1404271274805069,
+            -0.12710566818714142
+          ]
+        ]
+      },
+      "case_id": 0,
+      "columns": [
+        "action",
+        "episode_idx",
+        "pixels",
+        "proprio",
+        "state",
+        "step_idx"
+      ],
+      "histories": [
+        {
+          "dtype": "float64",
+          "sha256": "123d75eeeef04c322b8803115b190116dfceade7e2b1d3d555178c012d666fbf",
+          "shape": [
+            7
+          ],
+          "values": [
+            431.8317691757163,
+            55.40116779312485,
+            130.53690899075374,
+            373.7934602754169,
+            -3.371614553549465,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "dtype": "float64",
+          "sha256": "bd1a757d42339f7e2b013f6283b4a8bd567f2200352ea7e3e612522cc1ceea1d",
+          "shape": [
+            7
+          ],
+          "values": [
+            312.6676877276565,
+            181.23016687219447,
+            328.64465320306283,
+            245.57882495247225,
+            -3.162744069422082,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "identity": {
+        "episode": 8908,
+        "manifest_row": 19,
+        "sentinel_id": 0,
+        "start": 53
+      },
+      "input_sha256": {
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r1/run-20260905-2c5ea97a/e18/case-0/repeat-0/TRACE.json": "dca9d4aae5577cac54508382b837a5406fc0bf4a97678b279e02a209e91a742d",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r1/run-20260905-2c5ea97a/e18/case-0/repeat-1/TRACE.json": "0b120805d74c1f09a635a31f879e113bf098a296f6206d2c57fea7cadcc80dc4"
+      },
+      "record": {
+        "goal_state": {
+          "dtype": "float64",
+          "sha256": "1595c3220f1d5e41a067f08569badae7992b7b15898c349126466839c99fda44",
+          "shape": [
+            7
+          ],
+          "values": [
+            321.93218994140625,
+            348.2870178222656,
+            291.3389892578125,
+            263.8445129394531,
+            1.0563820600509644,
+            50.60874557495117,
+            -36.09321975708008
+          ]
+        },
+        "proprio": {
+          "dtype": "float64",
+          "sha256": "cdf9804507fbcd8b9601fe3997fb2a0232aa11c725bc4d1f0f7bdd014387f39e",
+          "shape": [
+            4
+          ],
+          "values": [
+            397.0323791503906,
+            336.2332458496094,
+            -6.491349697113037,
+            20.375017166137695
+          ]
+        },
+        "state": {
+          "dtype": "float64",
+          "sha256": "c60a0c80456340c67dea5a549fc3bb9c195df0d7126a50a8d26286617fc1b294",
+          "shape": [
+            7
+          ],
+          "values": [
+            397.0323791503906,
+            336.2332458496094,
+            344.3428955078125,
+            318.711669921875,
+            0.5929811596870422,
+            -6.491349697113037,
+            20.375017166137695
+          ]
+        }
+      }
+    },
+    {
+      "absent": [
+        "block_velocity",
+        "block_angular_velocity",
+        "forces",
+        "torques",
+        "contact_cache",
+        "controller_memory"
+      ],
+      "actions": {
+        "dtype": "float32",
+        "sha256": "312204eec18edf1e156e1b965fb2dd588d0d023007427f8373e6c40947ec3bb6",
+        "shape": [
+          3,
+          2
+        ],
+        "values": [
+          [
+            -0.2568191587924957,
+            -0.2756158709526062
+          ],
+          [
+            -0.28286808729171753,
+            0.24739836156368256
+          ],
+          [
+            -0.016324376687407494,
+            -0.09966356307268143
+          ]
+        ]
+      },
+      "case_id": 1,
+      "columns": [
+        "action",
+        "episode_idx",
+        "pixels",
+        "proprio",
+        "state",
+        "step_idx"
+      ],
+      "histories": [
+        {
+          "dtype": "float64",
+          "sha256": "a56a1b1c93f8a28d7e4b7c8174a0b14cf5556cc34c4b54929bb3e8960096e17e",
+          "shape": [
+            7
+          ],
+          "values": [
+            281.6732901801015,
+            336.07654642299167,
+            103.9670244157998,
+            290.23968846037326,
+            -3.0657518239926507,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "dtype": "float64",
+          "sha256": "5db3486b7b8a116cf0906793fa169de3db10a6b9d697ae11c9b84868a849047d",
+          "shape": [
+            7
+          ],
+          "values": [
+            428.8847140564078,
+            441.4979351266807,
+            132.50774469894108,
+            191.29552334617927,
+            4.877546840859907,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "identity": {
+        "episode": 201,
+        "manifest_row": 0,
+        "sentinel_id": 0,
+        "start": 6
+      },
+      "input_sha256": {
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r1/run-20260905-2c5ea97a/e18/case-1/repeat-0/TRACE.json": "a884f39e4d3c688c6164064bf8b78bbbddfc5bd27ee674cce188eeaf5dd41492",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r1/run-20260905-2c5ea97a/e18/case-1/repeat-1/TRACE.json": "c0b0792ed7861d8e4ac9d2d7befa61e28533fcd1e752caf1ed87ace9bbe432e7"
+      },
+      "record": {
+        "goal_state": {
+          "dtype": "float64",
+          "sha256": "3347ad509a1f07a874aa112307a688d1e6915983d8852f1b71005970a4ba3a64",
+          "shape": [
+            7
+          ],
+          "values": [
+            434.9656982421875,
+            172.43899536132812,
+            386.9733581542969,
+            282.2547912597656,
+            2.7307214736938477,
+            28.449514389038086,
+            -49.2092399597168
+          ]
+        },
+        "proprio": {
+          "dtype": "float64",
+          "sha256": "c5c558bfc1085cbb6524b28ee3535c420da6fe2463a981908cd5dc41154a2df6",
+          "shape": [
+            4
+          ],
+          "values": [
+            327.7666931152344,
+            69.2467041015625,
+            93.72322845458984,
+            -7.396815299987793
+          ]
+        },
+        "state": {
+          "dtype": "float64",
+          "sha256": "6b7c97e98e33748437343d4d0e9b154e7db6bd410bddb122d5921ca9c70687a4",
+          "shape": [
+            7
+          ],
+          "values": [
+            327.7666931152344,
+            69.2467041015625,
+            386.9733581542969,
+            282.2547912597656,
+            2.7307214736938477,
+            93.72322845458984,
+            -7.396815299987793
+          ]
+        }
+      }
+    },
+    {
+      "absent": [
+        "block_velocity",
+        "block_angular_velocity",
+        "forces",
+        "torques",
+        "contact_cache",
+        "controller_memory"
+      ],
+      "actions": {
+        "dtype": "float32",
+        "sha256": "bb604508c13d928e70244d168ca043791c16a087770c66b8088ae0c32d347942",
+        "shape": [
+          3,
+          2
+        ],
+        "values": [
+          [
+            0.27229028940200806,
+            -0.035355258733034134
+          ],
+          [
+            0.2363264262676239,
+            0.005736204795539379
+          ],
+          [
+            0.19129909574985504,
+            0.05652915686368942
+          ]
+        ]
+      },
+      "case_id": 2,
+      "columns": [
+        "action",
+        "episode_idx",
+        "pixels",
+        "proprio",
+        "state",
+        "step_idx"
+      ],
+      "histories": [
+        {
+          "dtype": "float64",
+          "sha256": "599a6e6ce8c969719d92914d68e3eaa2db99c77ba688c88db609600a1322ecb3",
+          "shape": [
+            7
+          ],
+          "values": [
+            179.7253635345969,
+            66.6903161701931,
+            328.2564984655793,
+            166.82926015685604,
+            3.627114310640975,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "dtype": "float64",
+          "sha256": "48e23b6dc1735ff9f0f6cc96bf7e55a2c11127cc978d70d5ef9e8ec9e7912f4b",
+          "shape": [
+            7
+          ],
+          "values": [
+            317.71632609566353,
+            146.66204450080843,
+            376.61042494229014,
+            394.77115176868375,
+            1.876079586754308,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "identity": {
+        "episode": 627,
+        "manifest_row": 0,
+        "sentinel_id": 2,
+        "start": 21
+      },
+      "input_sha256": {
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r1/run-20260905-2c5ea97a/e18/case-2/repeat-0/TRACE.json": "3276af1846fd72c9a082e2640ffc321effcebcf585f8115c4e7bf36b5846283a",
+        "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r1/run-20260905-2c5ea97a/e18/case-2/repeat-1/TRACE.json": "fc554c46f4894ff491b9ec4ac3f24b25f84f6d77f6866a5bff164d7968cac5b1"
+      },
+      "record": {
+        "goal_state": {
+          "dtype": "float64",
+          "sha256": "d24f75d3cd8ebe7c9eee937ab0d7b599e31eba3e8bc71f3b97bbc981014e8dec",
+          "shape": [
+            7
+          ],
+          "values": [
+            183.5568084716797,
+            185.13247680664062,
+            250.15249633789062,
+            260.3781433105469,
+            0.8656031489372253,
+            -120.07733154296875,
+            30.19627571105957
+          ]
+        },
+        "proprio": {
+          "dtype": "float64",
+          "sha256": "15a5fd4616fa0fc19c23ee21d3ce76b18e8ff8c3d595c247a7c20e635fbced7a",
+          "shape": [
+            4
+          ],
+          "values": [
+            309.84881591796875,
+            165.78897094726562,
+            121.54330444335938,
+            -38.38295364379883
+          ]
+        },
+        "state": {
+          "dtype": "float64",
+          "sha256": "4f44de5ef28a5d1f4e3186b497276d1df144f4185504be308452dab41f797687",
+          "shape": [
+            7
+          ],
+          "values": [
+            309.84881591796875,
+            165.78897094726562,
+            333.691650390625,
+            212.01947021484375,
+            5.602823257446289,
+            121.54330444335938,
+            -38.38295364379883
+          ]
+        }
+      }
+    }
+  ],
+  "only_exposed": true,
+  "stack": "e18"
+}

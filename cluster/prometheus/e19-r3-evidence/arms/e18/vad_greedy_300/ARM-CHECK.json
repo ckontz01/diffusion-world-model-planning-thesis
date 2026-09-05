@@ -1,0 +1,175 @@
+{
+  "all_passed": true,
+  "arm": "vad_greedy_300",
+  "checkpoint_parameters_modified": false,
+  "diffusion_changed": false,
+  "duplicates": "only exposed cases 0,1,2 cycled through slots; phase 1 rotates by one",
+  "e18_non_action_scaler_values_checked": false,
+  "hidden_initialization_steps": 0,
+  "historical_result_modified": false,
+  "holdout_read": false,
+  "image_action_preprocessing_checked": true,
+  "initializations": 9,
+  "native_source_sha256": "d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68",
+  "performance_metric_recorded": false,
+  "physics_steps": 180,
+  "primitive_actions": 18,
+  "protected_read": false,
+  "provenance": {
+    "arm": "vad_greedy_300",
+    "checkpoints": {
+      "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+      "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e"
+    },
+    "details": {
+      "global_seed": 8863962458300589323,
+      "horizon": 75,
+      "learned_seed": 7201,
+      "non_action_scalers": "not refitted or substituted: raw state/proprio equality boundary only; native image/action preprocessing checked",
+      "proposal_seed": 8023609343562891099,
+      "proposer_record": {
+        "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/final.pt",
+        "checkpoint_sha256": "8a862f1773a3200391b37b954bcce09b682d8093bd56b69bd19d8ce3a0b4370e",
+        "condition": "vad",
+        "parameter_count": 7314674,
+        "seed": 7201,
+        "summary": "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training/pusht/vad/seed-7201/summary.json",
+        "summary_sha256": "7fc62aca8cb4257dd419c029719ad049526b687a7c8fe1cac11473b209e3185b"
+      },
+      "schedule": [
+        15,
+        15,
+        15,
+        15,
+        15
+      ]
+    },
+    "parameter_counts": [
+      18034478,
+      7314674
+    ],
+    "types": [
+      "jepa.JEPA",
+      "gdp_cem_e14_models.VariableVelocityDiffusion",
+      "gdp_cem_e18_closed_loop.E18Planner",
+      "gdp_cem_e18_runtime.E18ScheduledPolicy"
+    ]
+  },
+  "raw_input_equivalence_checked": true,
+  "rows": [
+    {
+      "case_id": 0,
+      "fixed_trajectory": [
+        "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+        "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+        "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358"
+      ],
+      "initialized": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "n": 1,
+      "phase": 0,
+      "prepared": "97e6dc668ce4e3b4c8e5dcf2e47d803c5bb109e73c938827fde2b04729292b9e",
+      "raw": "20c60c8d783e026c4402844c0ba720f8de4d4dd27b88d7f8316c5ebcf4a11d58",
+      "slot": 0
+    },
+    {
+      "case_id": 1,
+      "fixed_trajectory": [
+        "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+        "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+        "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5"
+      ],
+      "initialized": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "n": 1,
+      "phase": 1,
+      "prepared": "476dce5c8d0e33d455bd2f2a4dee3812fe32d082dd9af5988c2732895c2db3a7",
+      "raw": "8dcd7ea0783d036601b8d715e637b732f8d7708957d2a6d011f9e8561010f0c6",
+      "slot": 0
+    },
+    {
+      "case_id": 2,
+      "fixed_trajectory": [
+        "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+        "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+        "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3"
+      ],
+      "initialized": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "n": 1,
+      "phase": 2,
+      "prepared": "05ab97ab9df7f4a77044cf84bb86743b071d9f1d852c79c0b3e97d741739f834",
+      "raw": "b2375ff59325de50d33d694812ee567cfd0cd646ddc07dab0bfe69fdbb9d429b",
+      "slot": 0
+    },
+    {
+      "case_id": 0,
+      "fixed_trajectory": [
+        "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+        "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+        "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358"
+      ],
+      "initialized": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "n": 3,
+      "phase": 0,
+      "prepared": "97e6dc668ce4e3b4c8e5dcf2e47d803c5bb109e73c938827fde2b04729292b9e",
+      "raw": "20c60c8d783e026c4402844c0ba720f8de4d4dd27b88d7f8316c5ebcf4a11d58",
+      "slot": 0
+    },
+    {
+      "case_id": 1,
+      "fixed_trajectory": [
+        "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+        "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+        "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5"
+      ],
+      "initialized": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "n": 3,
+      "phase": 0,
+      "prepared": "476dce5c8d0e33d455bd2f2a4dee3812fe32d082dd9af5988c2732895c2db3a7",
+      "raw": "8dcd7ea0783d036601b8d715e637b732f8d7708957d2a6d011f9e8561010f0c6",
+      "slot": 1
+    },
+    {
+      "case_id": 2,
+      "fixed_trajectory": [
+        "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+        "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+        "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3"
+      ],
+      "initialized": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "n": 3,
+      "phase": 0,
+      "prepared": "05ab97ab9df7f4a77044cf84bb86743b071d9f1d852c79c0b3e97d741739f834",
+      "raw": "b2375ff59325de50d33d694812ee567cfd0cd646ddc07dab0bfe69fdbb9d429b",
+      "slot": 2
+    },
+    {
+      "case_id": 1,
+      "initialized": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "n": 3,
+      "phase": 1,
+      "prepared": "476dce5c8d0e33d455bd2f2a4dee3812fe32d082dd9af5988c2732895c2db3a7",
+      "raw": "8dcd7ea0783d036601b8d715e637b732f8d7708957d2a6d011f9e8561010f0c6",
+      "slot": 0
+    },
+    {
+      "case_id": 2,
+      "initialized": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "n": 3,
+      "phase": 1,
+      "prepared": "05ab97ab9df7f4a77044cf84bb86743b071d9f1d852c79c0b3e97d741739f834",
+      "raw": "b2375ff59325de50d33d694812ee567cfd0cd646ddc07dab0bfe69fdbb9d429b",
+      "slot": 1
+    },
+    {
+      "case_id": 0,
+      "initialized": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "n": 3,
+      "phase": 1,
+      "prepared": "97e6dc668ce4e3b4c8e5dcf2e47d803c5bb109e73c938827fde2b04729292b9e",
+      "raw": "20c60c8d783e026c4402844c0ba720f8de4d4dd27b88d7f8316c5ebcf4a11d58",
+      "slot": 2
+    }
+  ],
+  "solver_invocations": 0,
+  "stack": "e18",
+  "worlds": 2
+}

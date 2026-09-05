@@ -1,0 +1,3306 @@
+{
+  "all_passed": true,
+  "complete_historical_state_recovery": false,
+  "fresh_initialization_physics_steps": 0,
+  "fresh_resets": 48,
+  "historical_results_modified": false,
+  "holdout_read": false,
+  "native_source_sha256": "950265cb0bad2c1f14a2c959de35695a047f58a502f45d67b53749bf48364f6a",
+  "performance_metric_recorded": false,
+  "physics_step_calls": 780,
+  "planning": false,
+  "primitive_actions": 72,
+  "protected_read": false,
+  "rows": [
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "e5e68a6be67a4320e596d8be3ea0455dbc99c2878d17ccb2782b49847bd22e1e",
+            "shape": [
+              2
+            ],
+            "values": [
+              379.8371461780703,
+              209.8060419932371
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "735fcf35a267084169382cd576ce2790fe1fa2b58f136f041e6b1e9bcd1aa85f",
+            "shape": [],
+            "values": -2.3492034499178853
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7b8c6067ade8c9cb5550d9879005824ccc884dd39dc911a0df1e164cb743a604",
+            "shape": [
+              2
+            ],
+            "values": [
+              302.92482038359003,
+              250.54657541771184
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "seed32",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "e5e68a6be67a4320e596d8be3ea0455dbc99c2878d17ccb2782b49847bd22e1e",
+            "shape": [
+              2
+            ],
+            "values": [
+              379.8371461780703,
+              209.8060419932371
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "735fcf35a267084169382cd576ce2790fe1fa2b58f136f041e6b1e9bcd1aa85f",
+            "shape": [],
+            "values": -2.3492034499178853
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7b8c6067ade8c9cb5550d9879005824ccc884dd39dc911a0df1e164cb743a604",
+            "shape": [
+              2
+            ],
+            "values": [
+              302.92482038359003,
+              250.54657541771184
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "seed32",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "80c63df6fd4c7d23a544f2611e3a0fa03a18374e02b40878a9521422ebdf73df",
+            "shape": [
+              2
+            ],
+            "values": [
+              418.4891064240947,
+              353.08060397664207
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "dde60d61f42e4c35c14beb10ae922c48cc3b077e438d043a5d34c3e416541e27",
+            "shape": [],
+            "values": 1.1811500340660848
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "67cb9e00d0b6ce54778b5d04f05956c623cf74a91f0b1aaa607ba53909b0a1df",
+            "shape": [
+              2
+            ],
+            "values": [
+              291.0386558736949,
+              366.3845914472303
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "seed33",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "80c63df6fd4c7d23a544f2611e3a0fa03a18374e02b40878a9521422ebdf73df",
+            "shape": [
+              2
+            ],
+            "values": [
+              418.4891064240947,
+              353.08060397664207
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "dde60d61f42e4c35c14beb10ae922c48cc3b077e438d043a5d34c3e416541e27",
+            "shape": [],
+            "values": 1.1811500340660848
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "67cb9e00d0b6ce54778b5d04f05956c623cf74a91f0b1aaa607ba53909b0a1df",
+            "shape": [
+              2
+            ],
+            "values": [
+              291.0386558736949,
+              366.3845914472303
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "seed33",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "084161c8be99c602b813fce6d381d7090796cb4b1abf22cd1e2d65c6f821b35c",
+            "shape": [
+              2
+            ],
+            "values": [
+              191.1862330310155,
+              309.91818093751374
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "e502f86a04ab716632f4bce1b05d1aae881aa5344f42334d90aa522adeb478f5",
+            "shape": [],
+            "values": -5.91523282260123
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7e157a2ad30a73178dce414342bc77035b2f7cc34986a606720cf4b490227ef9",
+            "shape": [
+              2
+            ],
+            "values": [
+              257.5064630489999,
+              363.4624422783936
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "r1r0",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "084161c8be99c602b813fce6d381d7090796cb4b1abf22cd1e2d65c6f821b35c",
+            "shape": [
+              2
+            ],
+            "values": [
+              191.1862330310155,
+              309.91818093751374
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "e502f86a04ab716632f4bce1b05d1aae881aa5344f42334d90aa522adeb478f5",
+            "shape": [],
+            "values": -5.91523282260123
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7e157a2ad30a73178dce414342bc77035b2f7cc34986a606720cf4b490227ef9",
+            "shape": [
+              2
+            ],
+            "values": [
+              257.5064630489999,
+              363.4624422783936
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "r1r0",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "66ae4519a02a4b63125fb5463d5ebe3e9738e4c5cae20bcec2cda0aa03adc4b2",
+            "shape": [
+              2
+            ],
+            "values": [
+              447.6265971799701,
+              327.76656077412645
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "f575a7aa7056450fa49e283af1510406097144bd2de441f096106667d0732434",
+            "shape": [],
+            "values": 3.253420751363663
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4aa7ba749252eb50da13fadb86e11710603dd99857310dc12c8032d664d76571",
+            "shape": [
+              2
+            ],
+            "values": [
+              152.09039740724185,
+              327.6751916639233
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "r1r1",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "66ae4519a02a4b63125fb5463d5ebe3e9738e4c5cae20bcec2cda0aa03adc4b2",
+            "shape": [
+              2
+            ],
+            "values": [
+              447.6265971799701,
+              327.76656077412645
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "f575a7aa7056450fa49e283af1510406097144bd2de441f096106667d0732434",
+            "shape": [],
+            "values": 3.253420751363663
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4aa7ba749252eb50da13fadb86e11710603dd99857310dc12c8032d664d76571",
+            "shape": [
+              2
+            ],
+            "values": [
+              152.09039740724185,
+              327.6751916639233
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "513e511f3048ac7d802c9ee6a7f53559667f3d8b0aab4169496c993f9c253884",
+      "hidden_steps": 0,
+      "history": "r1r1",
+      "initial": "495a737fa08f38248a0d1b36c737d4a0e4d1d386e5510d4dda243c38e6eb86f1",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "8b93cfd98cafedd00dffc735b4e5ed9508e48f8524097cce9cc5e0d14cd4b9a2",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1e88d59e79a759e3a72812d612b3228e4f0f6bb5d2b22cc80baf303f8383741a",
+          "physical": "925ae51a04f58d3c9258c9defff6c9138c20d9a1b0c3e914888d51813dac4b31",
+          "pixels": "a2b1ca2d246f8f09067bdbfe19650549b3207127ddf12d3e1cf8fe3415983a28"
+        },
+        {
+          "obs": "dc11bf3ce0cfe7452374966d9b696f8c35170bd4e771c704db326de16e0067f7",
+          "physical": "38df453187412b037c769d33311106e5b70711b0e1770d1a6972b071afd1adc7",
+          "pixels": "dcfaabb498bca4ecfac98b9156e2ebb5e2f4f3a10a39e39a5b84ab0a2d13a8d8"
+        },
+        {
+          "obs": "b94e0be4cb3b041d657479e7dc070aab5dd373d57b17d847d50ce0214c21ad8f",
+          "physical": "08d480870e839494bce90e1744026011dc167122ac377b65ebc9858df3dd7358",
+          "pixels": "e8f2754e1a2432d5ed3a7b67587bf10c88149b1994ef03af21d527b29db2f6f1"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "e5e68a6be67a4320e596d8be3ea0455dbc99c2878d17ccb2782b49847bd22e1e",
+            "shape": [
+              2
+            ],
+            "values": [
+              379.8371461780703,
+              209.8060419932371
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "735fcf35a267084169382cd576ce2790fe1fa2b58f136f041e6b1e9bcd1aa85f",
+            "shape": [],
+            "values": -2.3492034499178853
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7b8c6067ade8c9cb5550d9879005824ccc884dd39dc911a0df1e164cb743a604",
+            "shape": [
+              2
+            ],
+            "values": [
+              302.92482038359003,
+              250.54657541771184
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "seed32",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "e5e68a6be67a4320e596d8be3ea0455dbc99c2878d17ccb2782b49847bd22e1e",
+            "shape": [
+              2
+            ],
+            "values": [
+              379.8371461780703,
+              209.8060419932371
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "735fcf35a267084169382cd576ce2790fe1fa2b58f136f041e6b1e9bcd1aa85f",
+            "shape": [],
+            "values": -2.3492034499178853
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7b8c6067ade8c9cb5550d9879005824ccc884dd39dc911a0df1e164cb743a604",
+            "shape": [
+              2
+            ],
+            "values": [
+              302.92482038359003,
+              250.54657541771184
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "seed32",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "80c63df6fd4c7d23a544f2611e3a0fa03a18374e02b40878a9521422ebdf73df",
+            "shape": [
+              2
+            ],
+            "values": [
+              418.4891064240947,
+              353.08060397664207
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "dde60d61f42e4c35c14beb10ae922c48cc3b077e438d043a5d34c3e416541e27",
+            "shape": [],
+            "values": 1.1811500340660848
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "67cb9e00d0b6ce54778b5d04f05956c623cf74a91f0b1aaa607ba53909b0a1df",
+            "shape": [
+              2
+            ],
+            "values": [
+              291.0386558736949,
+              366.3845914472303
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "seed33",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "80c63df6fd4c7d23a544f2611e3a0fa03a18374e02b40878a9521422ebdf73df",
+            "shape": [
+              2
+            ],
+            "values": [
+              418.4891064240947,
+              353.08060397664207
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "dde60d61f42e4c35c14beb10ae922c48cc3b077e438d043a5d34c3e416541e27",
+            "shape": [],
+            "values": 1.1811500340660848
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "67cb9e00d0b6ce54778b5d04f05956c623cf74a91f0b1aaa607ba53909b0a1df",
+            "shape": [
+              2
+            ],
+            "values": [
+              291.0386558736949,
+              366.3845914472303
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "seed33",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "fd12e5060f7133aef2776343878b7654dbc1cad1562dc541e6aa65bdfd9e06db",
+            "shape": [
+              2
+            ],
+            "values": [
+              190.68196833536516,
+              430.3548502507716
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "4d0222a649ffcd74da858319209a140041ed58546a3aef0592eed0c7a3963577",
+            "shape": [],
+            "values": 3.1460784662201777
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7da32dd08520c2b736726f62d8e2a7721b9141b4b03a64b316e4500c20e8fa17",
+            "shape": [
+              2
+            ],
+            "values": [
+              200.9161214271537,
+              154.59569129398415
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "r1r0",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "fd12e5060f7133aef2776343878b7654dbc1cad1562dc541e6aa65bdfd9e06db",
+            "shape": [
+              2
+            ],
+            "values": [
+              190.68196833536516,
+              430.3548502507716
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "4d0222a649ffcd74da858319209a140041ed58546a3aef0592eed0c7a3963577",
+            "shape": [],
+            "values": 3.1460784662201777
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7da32dd08520c2b736726f62d8e2a7721b9141b4b03a64b316e4500c20e8fa17",
+            "shape": [
+              2
+            ],
+            "values": [
+              200.9161214271537,
+              154.59569129398415
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "r1r0",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4d370826d78487151c4d2e86c5905f850bdc6acc04406e3b6bd5d36464f3966d",
+            "shape": [
+              2
+            ],
+            "values": [
+              267.7817798428349,
+              195.8036663666613
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "1b2a42abe844a8c810e6f7691a6e33378995d6a5758e49f7218e47f90de0af46",
+            "shape": [],
+            "values": 2.980486100697602
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "8fd4f7f35a09cd35034e83a923dacd84eb56129a21cd42fc14eac5e9e700eae0",
+            "shape": [
+              2
+            ],
+            "values": [
+              238.65255764517386,
+              117.2675821457181
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "r1r1",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4d370826d78487151c4d2e86c5905f850bdc6acc04406e3b6bd5d36464f3966d",
+            "shape": [
+              2
+            ],
+            "values": [
+              267.7817798428349,
+              195.8036663666613
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "1b2a42abe844a8c810e6f7691a6e33378995d6a5758e49f7218e47f90de0af46",
+            "shape": [],
+            "values": 2.980486100697602
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "8fd4f7f35a09cd35034e83a923dacd84eb56129a21cd42fc14eac5e9e700eae0",
+            "shape": [
+              2
+            ],
+            "values": [
+              238.65255764517386,
+              117.2675821457181
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "94f7f2e2e4d60291fb930bc871851f6287cc00a309135c43448bddc2f992e21f",
+      "hidden_steps": 0,
+      "history": "r1r1",
+      "initial": "efb02d447459ccabaa9245e1566b67f64520ee8363645516836a7cc6a5feb0f6",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "c5a38fc41a617d1b55fd5117cfac5cd62aa6c00c05d38aab56981acb1d159270",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "1f2bc1ba48b400cefb218f35cc50f83ba8a3d4b3e3979ebc00bc1a24f8a608b7",
+          "physical": "28eb1d8f8d6825782f2ebf74e9ad1ac4dae6297aaf6eb76cc5acd9f9d9e24e81",
+          "pixels": "892c973f96bf6068777e505277b9ecadc57b3d6ffafa62e00d3174a88f60e8bb"
+        },
+        {
+          "obs": "07d1e1de478e12e12130ff2bd1338cae952ad4117bb483474a5a810257065b4c",
+          "physical": "e97d51b32ef45d34dc502fb3a427c3e329cc7fd74627e9718ae4094534885264",
+          "pixels": "593f8080ab399406ba4874aa0903bb293cc6df5f929872cce2e93217c9b44930"
+        },
+        {
+          "obs": "4feaf00ca81a420aea44c8d95868be18f29d3b94873396e843724a7b6903ac38",
+          "physical": "b0b43255e26b8b636fd42d53919ad69bc61a15ae573a9b6baec9e4088aa651b5",
+          "pixels": "f2d35630683cb17dc8c52e6dab878733ec743e9c0da40ca6ed8dac652bddc196"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "e5e68a6be67a4320e596d8be3ea0455dbc99c2878d17ccb2782b49847bd22e1e",
+            "shape": [
+              2
+            ],
+            "values": [
+              379.8371461780703,
+              209.8060419932371
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "735fcf35a267084169382cd576ce2790fe1fa2b58f136f041e6b1e9bcd1aa85f",
+            "shape": [],
+            "values": -2.3492034499178853
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7b8c6067ade8c9cb5550d9879005824ccc884dd39dc911a0df1e164cb743a604",
+            "shape": [
+              2
+            ],
+            "values": [
+              302.92482038359003,
+              250.54657541771184
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "seed32",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "e5e68a6be67a4320e596d8be3ea0455dbc99c2878d17ccb2782b49847bd22e1e",
+            "shape": [
+              2
+            ],
+            "values": [
+              379.8371461780703,
+              209.8060419932371
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "735fcf35a267084169382cd576ce2790fe1fa2b58f136f041e6b1e9bcd1aa85f",
+            "shape": [],
+            "values": -2.3492034499178853
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7b8c6067ade8c9cb5550d9879005824ccc884dd39dc911a0df1e164cb743a604",
+            "shape": [
+              2
+            ],
+            "values": [
+              302.92482038359003,
+              250.54657541771184
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "seed32",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "80c63df6fd4c7d23a544f2611e3a0fa03a18374e02b40878a9521422ebdf73df",
+            "shape": [
+              2
+            ],
+            "values": [
+              418.4891064240947,
+              353.08060397664207
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "dde60d61f42e4c35c14beb10ae922c48cc3b077e438d043a5d34c3e416541e27",
+            "shape": [],
+            "values": 1.1811500340660848
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "67cb9e00d0b6ce54778b5d04f05956c623cf74a91f0b1aaa607ba53909b0a1df",
+            "shape": [
+              2
+            ],
+            "values": [
+              291.0386558736949,
+              366.3845914472303
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "seed33",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "80c63df6fd4c7d23a544f2611e3a0fa03a18374e02b40878a9521422ebdf73df",
+            "shape": [
+              2
+            ],
+            "values": [
+              418.4891064240947,
+              353.08060397664207
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "dde60d61f42e4c35c14beb10ae922c48cc3b077e438d043a5d34c3e416541e27",
+            "shape": [],
+            "values": 1.1811500340660848
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "67cb9e00d0b6ce54778b5d04f05956c623cf74a91f0b1aaa607ba53909b0a1df",
+            "shape": [
+              2
+            ],
+            "values": [
+              291.0386558736949,
+              366.3845914472303
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "seed33",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "af594b4179c328213fd7c1bcf953d737f85c2a55785d4f83dca21461f28aa975",
+            "shape": [
+              2
+            ],
+            "values": [
+              186.51239736505758,
+              184.33414636026853
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "7386901583a04bcd17cecfbbe59618e078baff4a2ee5e54ec83b1a540e386cda",
+            "shape": [],
+            "values": -5.692219592409067
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "59029837f5a52af509ed929a164ad73c5e2b469ec3964fa1aaa9ee230c37b87d",
+            "shape": [
+              2
+            ],
+            "values": [
+              167.45741519893068,
+              358.7360006273925
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "r1r0",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "af594b4179c328213fd7c1bcf953d737f85c2a55785d4f83dca21461f28aa975",
+            "shape": [
+              2
+            ],
+            "values": [
+              186.51239736505758,
+              184.33414636026853
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "7386901583a04bcd17cecfbbe59618e078baff4a2ee5e54ec83b1a540e386cda",
+            "shape": [],
+            "values": -5.692219592409067
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "59029837f5a52af509ed929a164ad73c5e2b469ec3964fa1aaa9ee230c37b87d",
+            "shape": [
+              2
+            ],
+            "values": [
+              167.45741519893068,
+              358.7360006273925
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "r1r0",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6e172396c1b1c837917adf257be0c24ce96ff16be615d3d36f2dc46d6afabcbd",
+            "shape": [
+              2
+            ],
+            "values": [
+              168.2156049929202,
+              233.82971181328193
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "569f84afa1cc11873f9e2e176a1b10c19bd84005de40217c1f549bd85dc83a79",
+            "shape": [],
+            "values": -1.7038836062637974
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "1c2fc5c2eec30b0b04f334e4713b765cf44ce24eeffc192072fb3df93f28e948",
+            "shape": [
+              2
+            ],
+            "values": [
+              233.32791140444033,
+              354.8614828463408
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "r1r1",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 0,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    },
+    {
+      "actual_history": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6e172396c1b1c837917adf257be0c24ce96ff16be615d3d36f2dc46d6afabcbd",
+            "shape": [
+              2
+            ],
+            "values": [
+              168.2156049929202,
+              233.82971181328193
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "569f84afa1cc11873f9e2e176a1b10c19bd84005de40217c1f549bd85dc83a79",
+            "shape": [],
+            "values": -1.7038836062637974
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "1c2fc5c2eec30b0b04f334e4713b765cf44ce24eeffc192072fb3df93f28e948",
+            "shape": [
+              2
+            ],
+            "values": [
+              233.32791140444033,
+              354.8614828463408
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 2,
+      "config": "0e662d170cec462f600cd6299745d499c8611907c8c02f666882a2df5d4391bf",
+      "goal": "de12df3bb22b643d36e5231ea328fcfd571578f7e64b53cbd4a2976add450f3a",
+      "hidden_steps": 0,
+      "history": "r1r1",
+      "initial": "2a1a584de5b3a1d24f8428f7d4738a1c7c9f86a94ca019a09b1e58a03bd9c74b",
+      "initialization_passed": true,
+      "metadata_value_invariant": true,
+      "pixels": "0970d7eb7f10070770d9740ecd50fbb0c823911b2cb8b6b056f9a9283ef8bdf4",
+      "repeat": 1,
+      "trajectory": [
+        {
+          "obs": "a135df922b4d7a0df0b9fc70624ce17ee27e0ae72b714043d73cdca7bc637efe",
+          "physical": "1d6c2a952f286a03d87f6d265a257437c511bfbb0425ac4829c629ff11c66b00",
+          "pixels": "4fb4e115d65f464eae5c86b70cf0bbd1356bf46cb97a27e9adbb65e92180b714"
+        },
+        {
+          "obs": "82bdfd59e8c926c3815aaf23f2a12dbd21247ff3e873db45312a57d8ab3d26ff",
+          "physical": "123f9deadfb09b3d5afd074821a9220c6d2963089a225576557cfecd42b6b460",
+          "pixels": "db8604af6e671d4afd43d43da41181046b92c0afccf6e1a4b898210f299ac3de"
+        },
+        {
+          "obs": "d42e506f1b42d84de294042f09db132f1fbcdee6af56757201503ec014ec55d0",
+          "physical": "2c15d190ac6ce8c5433868563d264fcb3f6e14cef10199c8ff75395bcd8d39b3",
+          "pixels": "2fa7bf7425cce2db21de4d2baf3aec3435f49e2ed34e93bdb38d9c5071fcd57c"
+        }
+      ]
+    }
+  ],
+  "scenarios": 24,
+  "stack": "sage"
+}
