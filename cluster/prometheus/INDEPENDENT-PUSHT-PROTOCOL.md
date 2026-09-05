@@ -56,8 +56,13 @@ looks and all three hypotheses is .05. Episode-level Student lower bounds use
 t(1-alpha_look,N-1)*SD(D)/sqrt(N). Positive lower bound rejects that null.
 +5 percentage points is the TRUE effect to detect, never a required observed
 point estimate. No post-hoc endpoint/horizon weighting or sample-size changes.
-Stop before the next stage only if all three nulls have crossed a prespecified
-boundary; otherwise continue to the next fixed look up to N6000. Report every
+Stop successfully before the next stage only if all three nulls have crossed
+a prespecified boundary. Also stop for futility if, at a completed look, any
+primary contrast has mean + t(.999,N-1)*SE < 0: a strong adverse signal. This
+is a prespecified resource rule, not a confirmatory claim of inferiority.
+Otherwise continue to the next fixed look up to N6000. Final data do not yet
+exist when this rule is specified. False-futility probabilities under true
++5-point effects are included in the design diagnostics. Report every
 look and final sample size, including negative results. An ordinary unadjusted
 final confidence interval is not the sequentially valid primary interval.
 Planning includes variance .25/.5/1 and cumulative-look simulations; at the
@@ -78,3 +83,12 @@ completed logical runs are never repeated to select better outcomes.
 Raw arrays live on Prometheus with a separate local artifact backup; manifests,
 code, stage decisions, summaries and recovery context are committed to GitHub.
 Do not alter the old E11--E19/R1--R3 records or claim SAGE paper fidelity.
+
+## Resource envelope
+Maximum216,000 logical arm/horizon/seed runs at N6000; first look57,600.
+Conservative full-budget envelope:1.3s/SAGE planning call,0.3s/E18 call,
+10ms per delivered simulator/action/render step, plus20% startup/I/O allowance:
+about180 allocated A6000-hours through N1600 and670 through N6000. These are
+planning assumptions, not measured future cost or completion-time promises.
+At most four GPUs requested concurrently, subject to scheduler availability;
+each64-reference worker has a two-hour cap. No new model training.

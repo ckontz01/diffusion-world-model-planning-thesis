@@ -66,7 +66,7 @@ def make_reference(index, namespace, steps=150):
             if np.any(state[:4]<0) or np.any(state[:4]>512): return None,'position_outside_arena'
             states.append(state);dyn.append(body_fields(env));actions.append(action)
             contacts.append(int(info['n_contacts']));transient_terminations.append(bool(term))
-        values={'states':np.stack(states),'actions':np.stack(actions),'dynamics':np.stack(dyn),
+        values={'initial_request':s.copy(),'states':np.stack(states),'actions':np.stack(actions),'dynamics':np.stack(dyn),
                 'contacts':np.array(contacts,dtype=np.int32),
                 'temporary_marker_success':np.array(transient_terminations,dtype=np.bool_)}
         return values, None

@@ -1,0 +1,36 @@
+{
+  "all_passed": true,
+  "results": [
+    {
+      "arm": "vad_continuation",
+      "exact_actions": true,
+      "exact_states": true,
+      "delivered": 31
+    },
+    {
+      "arm": "vad_greedy_300",
+      "exact_actions": true,
+      "exact_states": true,
+      "delivered": 29
+    },
+    {
+      "arm": "diagonal_gaussian_continuation",
+      "exact_actions": true,
+      "exact_states": true,
+      "delivered": 31
+    },
+    {
+      "arm": "vad_greedy_576",
+      "exact_actions": true,
+      "exact_states": true,
+      "delivered": 23
+    },
+    {
+      "arm": "direct_gmm_continuation",
+      "exact_actions": true,
+      "exact_states": true,
+      "delivered": 31
+    }
+  ],
+  "pilot_only": true
+}

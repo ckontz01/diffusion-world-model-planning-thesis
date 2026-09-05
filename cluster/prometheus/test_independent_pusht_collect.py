@@ -27,9 +27,18 @@ def test_reference_repeat_and_witness():
     for h in (75,150):
         env=fresh_type(PushT)(correct_velocity_space=True)
         try:
-            env.reset(options={OPTION:{'state':a['states'][0], 'goal_state':a['states'][h]}})
+            env.reset(options={OPTION:{'state':a['initial_request'], 'goal_state':a['states'][h]}})
             for t,action in enumerate(a['actions'][:h]):
                 obs,*_=env.step(action)
                 np.testing.assert_allclose(obs['state'],a['states'][t+1],rtol=0,atol=1e-10)
             assert env.eval_state(a['states'][h],env._get_obs())[0]
         finally: env.close()
+
+
+def test_collection_validator_uses_exact_request(tmp_path):
+    from independent_pusht_collect import collect
+    from validate_independent_pusht_collection import validate
+    path=tmp_path/'collection'
+    collect(path,'pilot-validation-test',3,100)
+    result=validate(path,expected=3,witnesses=3,expected_namespace='pilot-validation-test')
+    assert result['all_passed'] and result['witness_goal_replays']==6

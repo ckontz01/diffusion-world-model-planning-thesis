@@ -29,7 +29,8 @@ def evaluate_one(world,factory,record,horizon,seed,arm,cap=None,action_rule='str
         result=original(*args,**kwargs)
         torch.cuda.synchronize()
         calls.append({'at':len(actions),'seconds':time.perf_counter()-start,
-                      'plan_hash':array_hash(result['actions'].float().numpy())})
+                      'plan_hash':array_hash(result['actions'].float().numpy()),
+                      'diagnostics':deepcopy(solver.diagnostic_history[-1]) if hasattr(solver,'diagnostic_history') else (solver.model.diagnostics() if hasattr(solver,'model') and hasattr(solver.model,'diagnostics') else {})})
         return result
     solver.solve=traced
     success=False;failure=None;violations=0;max_raw=0.;truncation=False
@@ -85,9 +86,12 @@ def run(data,out,arm,train_seed,indices=None,pilot=False,cap=None,action_rule='s
     try:
         for ref in records:
             assert sha(data/ref['file'])==ref['sha256']
-            with np.load(data/ref['file'],allow_pickle=False) as f: s=f['states'].copy()
+            with np.load(data/ref['file'],allow_pickle=False) as f:
+                s=f['states'].copy()
+                if not pilot and 'initial_request' not in f:raise RuntimeError('final reference lacks exact initialization request')
+                initial=f['initial_request'].copy() if 'initial_request' in f else s[0].copy()
             for h in (75,150):
-                record={'state':s[0],'goal_state':s[h],'proprio':s[0,[0,1,5,6]]}
+                record={'state':initial,'goal_state':s[h],'proprio':initial[[0,1,5,6]]}
                 seed=seed_for(manifest['namespace'],ref['attempt'],f'planner|h={h}|seed={train_seed}')
                 row,trace=evaluate_one(world,factory,record,h,seed,arm,cap=cap,action_rule=action_rule)
                 row.update(reference_index=ref['index'],reference_attempt=ref['attempt'],arm=arm,train_seed=train_seed)
