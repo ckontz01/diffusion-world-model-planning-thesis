@@ -6,6 +6,20 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
+The new independent PushT benchmark is implemented and launched on branch
+`independent-pusht-benchmark` (frozen source `63f0440`). Collector, common-runtime
+SAGE integration, accepted E18 driver parity, and 22 analysis/orchestration
+regressions passed. The prospective six-arm design has cumulative looks at
+1,600/3,200/6,000 independent reference episodes with fixed sequential rules.
+This is a new weak-policy reachable-goal distribution, not original SAGE paper
+reproduction. Collection job300326 gates array300327 and analysis300328;
+controller300329 advances only under verified predeclared decisions. No final
+comparative outcome is available yet. See
+[execution/recovery](cluster/prometheus/INDEPENDENT-PUSHT-RECOVERY.md),
+[protocol](cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md), and
+[progress](cluster/prometheus/INDEPENDENT-PUSHT-PROGRESS.md).
+
+
 The [PushT design/feasibility package](cluster/prometheus/E18-DESIGN-FEASIBILITY-PACKAGE-2026-09-05.md)
 is complete as preparatory analysis, not confirmation authorization. The allowed
 metadata/exposure ledger leaves **82** H75/H150-compatible episodes;400/600/800
