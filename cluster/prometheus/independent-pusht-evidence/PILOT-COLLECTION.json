@@ -1,0 +1,717 @@
+{
+  "attempts": [
+    {
+      "accepted": false,
+      "attempt": 0,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 1,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": false,
+      "attempt": 2,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": true,
+      "attempt": 3,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 4,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 5,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 6,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 7,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 8,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 9,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 10,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 11,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 12,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 13,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 14,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 15,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 16,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 17,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": true,
+      "attempt": 18,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 19,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 20,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": false,
+      "attempt": 21,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 22,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 23,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 24,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 25,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 26,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 27,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 28,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 29,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 30,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 31,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 32,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 33,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 34,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 35,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 36,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 37,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": false,
+      "attempt": 38,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 39,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 40,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 41,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": false,
+      "attempt": 42,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 43,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 44,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": true,
+      "attempt": 45,
+      "reason": null
+    },
+    {
+      "accepted": true,
+      "attempt": 46,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 47,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": false,
+      "attempt": 48,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 49,
+      "reason": null
+    },
+    {
+      "accepted": false,
+      "attempt": 50,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": false,
+      "attempt": 51,
+      "reason": "initial_overlap"
+    },
+    {
+      "accepted": false,
+      "attempt": 52,
+      "reason": "position_outside_arena"
+    },
+    {
+      "accepted": true,
+      "attempt": 53,
+      "reason": null
+    }
+  ],
+  "comparative_models_called": false,
+  "complete": true,
+  "namespace": "pilot-20260906-v1",
+  "population": "uniform valid fresh starts; block-near random reference actions; future-state goals; not original expert distribution",
+  "records": [
+    {
+      "attempt": 3,
+      "block_displacement": {
+        "150": 96.64832242850605,
+        "75": 11.183090584685226
+      },
+      "contact_action_count": 41,
+      "environment_seed": 2753051433,
+      "file": "reference-00000.npz",
+      "fingerprint": "f8e0413d3833c5b379faeaacaacad5360631c95a589fb340be5a9703b0a34ec3",
+      "index": 0,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "97365099fd283f7caf897f13fed057957f74fb2bd0d6164f084a831076411414"
+    },
+    {
+      "attempt": 7,
+      "block_displacement": {
+        "150": 217.95909211189357,
+        "75": 157.69647165708926
+      },
+      "contact_action_count": 89,
+      "environment_seed": 2893832715,
+      "file": "reference-00001.npz",
+      "fingerprint": "c9d065dcfb430cc7f4ad09b5a6a7dec1fa3af8abcc6a19d23588297adcc1966d",
+      "index": 1,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "fd8b9b7a969525ccdc04fc52315318e8c8fdd48d97188d145c56b1bfebde552f"
+    },
+    {
+      "attempt": 8,
+      "block_displacement": {
+        "150": 142.22359257427868,
+        "75": 88.7861424931728
+      },
+      "contact_action_count": 107,
+      "environment_seed": 2443888963,
+      "file": "reference-00002.npz",
+      "fingerprint": "6d123b7f99722455a322115cab04b7f0a615c3664c189de9057a14186d1c083e",
+      "index": 2,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "ec3eabe195f5d56efa18123089de22c9acc970d860aab376b62f17b727980633"
+    },
+    {
+      "attempt": 10,
+      "block_displacement": {
+        "150": 166.9177996403969,
+        "75": 96.9667911837034
+      },
+      "contact_action_count": 58,
+      "environment_seed": 3947139133,
+      "file": "reference-00003.npz",
+      "fingerprint": "936eacb217925d140412cca6104c3c0b7aec890b39b9ba37ac4cdcd742559564",
+      "index": 3,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "c4f2cabd53ef079eb027a45f71d6491fd7e31095149a82a35ca6ea4d202fac36"
+    },
+    {
+      "attempt": 11,
+      "block_displacement": {
+        "150": 107.09443682123991,
+        "75": 106.65176504390193
+      },
+      "contact_action_count": 42,
+      "environment_seed": 650834445,
+      "file": "reference-00004.npz",
+      "fingerprint": "92f43cbceb956fba821713047b70007bb56441fabaa429e590281597897f9414",
+      "index": 4,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "efcb40ba8b34cd284d607d3a7e8513fc1cd634e36b72e8940dd388cf6f67fbcd"
+    },
+    {
+      "attempt": 12,
+      "block_displacement": {
+        "150": 129.39376449542974,
+        "75": 120.75673265323573
+      },
+      "contact_action_count": 150,
+      "environment_seed": 3712664213,
+      "file": "reference-00005.npz",
+      "fingerprint": "3ebe7c522cbe0b83804e069e1f038673b2a330174a75391c6aa6dc6b321518d5",
+      "index": 5,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "5463fd13ffc339a708e4a8e2b9008f571eb5039efad3825dbb3299fa3fc0f313"
+    },
+    {
+      "attempt": 14,
+      "block_displacement": {
+        "150": 203.52718527551642,
+        "75": 102.35697064206512
+      },
+      "contact_action_count": 125,
+      "environment_seed": 1429040267,
+      "file": "reference-00006.npz",
+      "fingerprint": "54849db1ddb61cc2981e0ef6aaed583b22778c184fe303d93503878732c870a8",
+      "index": 6,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "8d488e732127281871b339a4f1e5aa4d5ad0ab6037730ddb79e03ba483d777b8"
+    },
+    {
+      "attempt": 15,
+      "block_displacement": {
+        "150": 105.84905341751733,
+        "75": 69.56963291868055
+      },
+      "contact_action_count": 100,
+      "environment_seed": 2841085436,
+      "file": "reference-00007.npz",
+      "fingerprint": "b0310947d875cb2e0b3f95e112ce31324481753f698e9039e301cae08e0c8385",
+      "index": 7,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "ee38758d02bf03f7f9819ba9f433153403b5b8f6e358da752c6b9958e2fee87b"
+    },
+    {
+      "attempt": 16,
+      "block_displacement": {
+        "150": 270.75960474064186,
+        "75": 194.34891887474853
+      },
+      "contact_action_count": 68,
+      "environment_seed": 1748457329,
+      "file": "reference-00008.npz",
+      "fingerprint": "a725bee4e0ead31b6df8b09ada355c4eaf1a9b74e37df358b5c26f5fbf304c62",
+      "index": 8,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "6835a68360be4e9c760298e23c7df8c0c5c05413467237c672dd09c30d6a8b29"
+    },
+    {
+      "attempt": 18,
+      "block_displacement": {
+        "150": 329.37770717218876,
+        "75": 107.44527767932784
+      },
+      "contact_action_count": 84,
+      "environment_seed": 4287974997,
+      "file": "reference-00009.npz",
+      "fingerprint": "97a66cf960641629f18fe59428ad9d9a9c5138d5f0ae89bcdea0e3703216b58f",
+      "index": 9,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "3da3d98b6e77931791dfea15208c97ac08916b6360b72069e7c8e668985676f4"
+    },
+    {
+      "attempt": 24,
+      "block_displacement": {
+        "150": 159.5617543370919,
+        "75": 75.73382952860189
+      },
+      "contact_action_count": 63,
+      "environment_seed": 33268823,
+      "file": "reference-00010.npz",
+      "fingerprint": "77f03609a560053500683143b6dc42e0671f71c75261a22b10c1af5679850f78",
+      "index": 10,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "1a690f541015532f887df4ef98757661341b2459e81363b11e56f931828acb41"
+    },
+    {
+      "attempt": 25,
+      "block_displacement": {
+        "150": 324.81579686544046,
+        "75": 83.41920991037931
+      },
+      "contact_action_count": 114,
+      "environment_seed": 1963765207,
+      "file": "reference-00011.npz",
+      "fingerprint": "67420f4da30fab256c447602ba40ed17bac4666b995eb6dd261a6c6f183c3537",
+      "index": 11,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "0340771b53f59bb22422f824174467bea506698e95d52b3ecbb7def35e93cb27"
+    },
+    {
+      "attempt": 27,
+      "block_displacement": {
+        "150": 109.37228732345686,
+        "75": 81.6820201425117
+      },
+      "contact_action_count": 63,
+      "environment_seed": 3213699736,
+      "file": "reference-00012.npz",
+      "fingerprint": "a0dcabd156bac6290f494ce09862ebc64c57aca942d0b39ffb7f93aec1a5811a",
+      "index": 12,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "b6d71f2cf03b2ff07c3a573881b56eba57394d5afdc7124623d131960abe95c2"
+    },
+    {
+      "attempt": 28,
+      "block_displacement": {
+        "150": 202.21690135248218,
+        "75": 102.02384456907645
+      },
+      "contact_action_count": 97,
+      "environment_seed": 3704720742,
+      "file": "reference-00013.npz",
+      "fingerprint": "8027cc9eaffcbcd20c9253386bd1f8df45fb0957e0c0a53e719629ea119ebbaa",
+      "index": 13,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "0baf2debe96d21fbf4a1b063e930fa86f59ef8408780cc88ba7020cbef3f2eb8"
+    },
+    {
+      "attempt": 29,
+      "block_displacement": {
+        "150": 87.9017468470778,
+        "75": 0.0
+      },
+      "contact_action_count": 58,
+      "environment_seed": 3064420416,
+      "file": "reference-00014.npz",
+      "fingerprint": "937df26aca54cef98f4c627b18c5c107f24ca7b2acb48e3536d9589ff7a72b00",
+      "index": 14,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "7d830345bd74a10b519ebfa0db06fa17ef82c85b865e179887976d20af566a45"
+    },
+    {
+      "attempt": 31,
+      "block_displacement": {
+        "150": 163.779531041318,
+        "75": 28.12755328310467
+      },
+      "contact_action_count": 74,
+      "environment_seed": 2256000650,
+      "file": "reference-00015.npz",
+      "fingerprint": "a2b0a48fabe115a0fd395d64e4cb39775997ea2813e6fe042fb317961b20f74d",
+      "index": 15,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "ca6b1044312ad2b3d3fc2a5162ad5bc17a9d4fd83ffadd378c6dfc4a07183c26"
+    },
+    {
+      "attempt": 33,
+      "block_displacement": {
+        "150": 129.08252086462744,
+        "75": 49.36467379409085
+      },
+      "contact_action_count": 49,
+      "environment_seed": 975851898,
+      "file": "reference-00016.npz",
+      "fingerprint": "24f7d42d434d3654ddc26fc566b3f148487eeb9cc6f247a3e4b897592580ffbf",
+      "index": 16,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "276bac21e6807d86a3c21a6d34fefc2ef315ecfa53784b3c423c90920d4c5a08"
+    },
+    {
+      "attempt": 36,
+      "block_displacement": {
+        "150": 157.80456110138655,
+        "75": 100.3160522236448
+      },
+      "contact_action_count": 64,
+      "environment_seed": 924774192,
+      "file": "reference-00017.npz",
+      "fingerprint": "3cd2ad1ea8aaef91c0b4a450bc3ccce113bae09a808384b22328082ba57914ff",
+      "index": 17,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "96a7d80cbd4f02dc3d2b8fe49c59e42f0bb470bbd271656e7d47f8b28bb72614"
+    },
+    {
+      "attempt": 40,
+      "block_displacement": {
+        "150": 72.53873030587127,
+        "75": 213.63283569424587
+      },
+      "contact_action_count": 79,
+      "environment_seed": 2852019364,
+      "file": "reference-00018.npz",
+      "fingerprint": "1b5aec62782daf353871d6519e63b48590d94463be1df2a26ca114109274501d",
+      "index": 18,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "15a93a70bd8834ed4da88e6015d98503366e786d956ff758383e8a0258b2e606"
+    },
+    {
+      "attempt": 43,
+      "block_displacement": {
+        "150": 179.22585315127955,
+        "75": 23.27081736799154
+      },
+      "contact_action_count": 54,
+      "environment_seed": 2867063786,
+      "file": "reference-00019.npz",
+      "fingerprint": "8850abf57c033b1a53753bf4da599c457fb21ce6858dedeaffd359d90e2a86a1",
+      "index": 19,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "9c69beb9eac0b94c52fddc7ff429708f930ee6340903cd0cb44c029660d6b476"
+    },
+    {
+      "attempt": 45,
+      "block_displacement": {
+        "150": 103.21800158445541,
+        "75": 103.6097546863098
+      },
+      "contact_action_count": 31,
+      "environment_seed": 3509951626,
+      "file": "reference-00020.npz",
+      "fingerprint": "7f34a61a62e3b8869d66a30aa5bd491446ca2c7562d3e4a1b1e0edbd42659a50",
+      "index": 20,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "55a229ad3e37d2d08f6db5350b2a320c16de4967c19ad47234c7723f8b0f6213"
+    },
+    {
+      "attempt": 46,
+      "block_displacement": {
+        "150": 202.14773623274098,
+        "75": 36.33780609802543
+      },
+      "contact_action_count": 30,
+      "environment_seed": 48343078,
+      "file": "reference-00021.npz",
+      "fingerprint": "26367bb332d0df46781eaf30ce0a2cc1456a66ce988f083721264dea6280f900",
+      "index": 21,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "c4dd1485fcf20a33e2c0fded16c2052f30cea972a8962b91cbd1c71a09ba90d3"
+    },
+    {
+      "attempt": 49,
+      "block_displacement": {
+        "150": 40.07844807578674,
+        "75": 38.79232384975479
+      },
+      "contact_action_count": 65,
+      "environment_seed": 1920949607,
+      "file": "reference-00022.npz",
+      "fingerprint": "315b1e7e0e85fb97edb5c3901c7a1116bb18816523e4391050f341d2f9833a7c",
+      "index": 22,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "53a8b78c32953bab5dbd4c364628871c9def8135b1f55a6b77398094e150261a"
+    },
+    {
+      "attempt": 53,
+      "block_displacement": {
+        "150": 78.28932852571415,
+        "75": 85.3375249822801
+      },
+      "contact_action_count": 111,
+      "environment_seed": 749907846,
+      "file": "reference-00023.npz",
+      "fingerprint": "2250df67d3b9f41abad503d0d36eb8092b2d179cc5ef0abc8c34c68ece36ca8e",
+      "index": 23,
+      "initially_solved": {
+        "150": false,
+        "75": false
+      },
+      "namespace": "pilot-20260906-v1",
+      "sha256": "4a736d9d67ac47986956e69553ac8377593429e27ba2a5effcbd7431c441eec7"
+    }
+  ],
+  "rejections": "initial shape penetration, nonfinite state, or position outside arena only; never planner outcome",
+  "requested": 24,
+  "source_sha256": "31e0698f4a4280530189eedda95bed7ba9d65cf6489f0574957fd0f8388128f9",
+  "steps": 150,
+  "version": "independent-pusht-reference-v1"
+}

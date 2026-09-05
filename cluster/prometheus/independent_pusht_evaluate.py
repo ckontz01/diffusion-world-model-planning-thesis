@@ -18,6 +18,7 @@ def evaluate_one(world,factory,record,horizon,seed,arm,cap=None,action_rule='str
     world.set_policy(policy)
     reset_world(world,[record],seed=seed)
     np.testing.assert_allclose(world.envs.envs[0].unwrapped._get_obs(),record['state'],rtol=0,atol=1e-10)
+    world.terminateds=np.zeros(1,dtype=bool);world.truncateds=np.zeros(1,dtype=bool);world.rewards=None
     start_hash=initial_hash(world.infos)
     goal=np.asarray(world.infos['goal']).copy()
     actions=[];raw_actions=[];states=[world.envs.envs[0].unwrapped._get_obs().copy()]

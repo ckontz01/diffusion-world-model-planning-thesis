@@ -1,0 +1,366 @@
+{
+  "action_rule": "native_finite",
+  "arm": "sage",
+  "collection_sha256": "efee3955846beda1f044da9f065eb9854dbeba9da95276aa65b0d283114d9584",
+  "completed": true,
+  "model_state_sha256": "666378a260721892c7ee5de1e5939b1689e266ebc2a8c885e8d07f3ee0bb479a",
+  "models_unchanged": true,
+  "pilot": true,
+  "provenance": {
+    "arm": "sage",
+    "checkpoints": {
+      "pusht_action_prior": {
+        "epoch": 3,
+        "filename": "pusht_action_prior.pt",
+        "hf_repo": "CLTRAY/SAGE",
+        "sha256": "03ecab8f9d757eb8b3fc15e93481e830325428c24ede813c18f8692cc9b4bd80",
+        "size_bytes": 163404922
+      },
+      "pusht_generator": {
+        "epoch": 6,
+        "filename": "pusht_generator.pt",
+        "hf_repo": "CLTRAY/SAGE",
+        "sha256": "0b3647a3a41435969d750ec58176ef5f92a419c4eacae2b5cda74b35e63f90da",
+        "size_bytes": 233878994
+      }
+    },
+    "lewm_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+    "official_lewm_source_hashes": {
+      "lewm.py": "f29797b1ed2b90b4977f38a953d251e8be8df6c8cfe7b59bb4c00bfd609f0d8f",
+      "module.py": "782938bd30cec3598222e0a2a1f1cfb4dfeb235f08f06ce5cdc7b119e44a624c"
+    },
+    "parameter_counts": [
+      18034478,
+      20705884,
+      13606990
+    ],
+    "pickle_mapping": "same historical-name mapping as original E19 official runtime",
+    "post_horizon_schedule": "released SAGE remains at final local duration with remaining=max(H-elapsed,15), unlike unchanged E18 cycle restart",
+    "precision": "released SAGE BF16 LeWM, FP32 learned subgoal/action networks",
+    "runtime": "E18 swm006 common physical environment; released SAGE model, CEM and schedule code",
+    "sage_commit": "8219029fd52e89157e05aebb998ab26f0ef46966",
+    "seed_block": "released one trained model; three evaluation seed blocks, not three SAGE training seeds",
+    "train_seed_block": 7201
+  },
+  "rows": [
+    {
+      "action_rule": "native_finite",
+      "arm": "sage",
+      "budget": 150,
+      "calls": [
+        {
+          "at": 0,
+          "plan_hash": "d7265d12639fda72db13a103a3d26cb1a661a953fb9506e335a21cd567188660",
+          "seconds": 2.303800580004463
+        },
+        {
+          "at": 15,
+          "plan_hash": "a1d0649946f6b2080e5019119bd3ee41945d3d03cc6a0daddd17eabfe7466ecc",
+          "seconds": 0.9612179159958032
+        },
+        {
+          "at": 30,
+          "plan_hash": "4dc46557eb25827abe3e12b1fcdc535eae83220a12873b16d2d51a001acaaf66",
+          "seconds": 0.9572676769967075
+        },
+        {
+          "at": 45,
+          "plan_hash": "e29ea857ea969114df7a301265b8676fdc7ed2a731503952e7a091757edff201",
+          "seconds": 0.9629659709971747
+        },
+        {
+          "at": 60,
+          "plan_hash": "b6e2f9c8aab547d912d06994147f80f76c860eea82890c807679dfc8c73f0773",
+          "seconds": 0.9582727399974829
+        }
+      ],
+      "decoded_outside_box_coordinates": 3,
+      "delivered": 73,
+      "failure": null,
+      "horizon": 75,
+      "initial_hash": "b95fda7de8ac6c00f0f2b28af03d0406b3736f3cff2cb858bd1281c2dc264d43",
+      "maximum_raw_action": 1.1473671197891235,
+      "native_truncation": false,
+      "peak_cuda_allocated": 220835328,
+      "reference_attempt": 3,
+      "reference_index": 0,
+      "seed": 3087910967,
+      "success": 1,
+      "train_seed": 7201,
+      "trajectory_file": "episode-00000-h75.npz",
+      "trajectory_sha256": "de4e59183489b1fa108b3b1af7a19f764b569977310d634a958e773e098ecdac",
+      "wall_seconds": 6.6318599639998865
+    },
+    {
+      "action_rule": "native_finite",
+      "arm": "sage",
+      "budget": 300,
+      "calls": [
+        {
+          "at": 0,
+          "plan_hash": "5cb6ffaf481d4bda66fb5ebeb977cf03442b430c995b293d56a360634d25ad7b",
+          "seconds": 0.967177399994398
+        },
+        {
+          "at": 15,
+          "plan_hash": "9e0cc440b294504eb5290a96965d6db976bd2ef4e59e9396bbdcf8816410e3f5",
+          "seconds": 0.9629623649962014
+        },
+        {
+          "at": 30,
+          "plan_hash": "0f0f976a09684d740c2e782f4f36ef32906d78c18449e2c8369f9915aadd92e9",
+          "seconds": 0.9635897049956839
+        },
+        {
+          "at": 45,
+          "plan_hash": "e488b59c42e489c9b9552b976571097c52ba014177fd9e191c77dcf6efd387a2",
+          "seconds": 0.9652891869991436
+        },
+        {
+          "at": 60,
+          "plan_hash": "9aa9a793bf632cee32f400ad871d0408937195afaaf9c28bcba2544fec1e3107",
+          "seconds": 0.9626198890036903
+        },
+        {
+          "at": 75,
+          "plan_hash": "af4878f94b63494659fb80ae3749a3ac92991d50b509eb35ae11130494eced94",
+          "seconds": 0.9637061379980878
+        },
+        {
+          "at": 90,
+          "plan_hash": "3d008543653715c4d6ad8e944167a5662dfeb0af7bdbeaafee0120833320f39e",
+          "seconds": 0.965481244995317
+        },
+        {
+          "at": 105,
+          "plan_hash": "9fecbe0a4e7c3a56737275de5de28749611fb0ba7a23add5df4c08bb483e95b8",
+          "seconds": 0.961452506002388
+        },
+        {
+          "at": 120,
+          "plan_hash": "89674599603621d36529151da018637b9686935bc535594b67f7363f74276165",
+          "seconds": 0.961535593996814
+        },
+        {
+          "at": 135,
+          "plan_hash": "499aa9102ccc14bf678206b3d0569663fb155a95ceb619690ebbb9a69e9fcee4",
+          "seconds": 0.9531413759978022
+        }
+      ],
+      "decoded_outside_box_coordinates": 14,
+      "delivered": 147,
+      "failure": null,
+      "horizon": 150,
+      "initial_hash": "c79486ff671098c9e48839f978c0c27160422ac7f511e420fd33e930db4cc7d7",
+      "maximum_raw_action": 1.9947830438613892,
+      "native_truncation": false,
+      "peak_cuda_allocated": 220845568,
+      "reference_attempt": 3,
+      "reference_index": 0,
+      "seed": 2827837174,
+      "success": 1,
+      "train_seed": 7201,
+      "trajectory_file": "episode-00000-h150.npz",
+      "trajectory_sha256": "c5aa0b29ac7af30e3dc54a2d0c98d0121d0f5a4c171fec98281fc20d954c4578",
+      "wall_seconds": 10.530856207005854
+    },
+    {
+      "action_rule": "native_finite",
+      "arm": "sage",
+      "budget": 150,
+      "calls": [
+        {
+          "at": 0,
+          "plan_hash": "4a2e857e2d2507f5c68dc51ab8aefba8e69b07cfde4a0f2f882d115dcea1a58a",
+          "seconds": 0.9626908360005473
+        },
+        {
+          "at": 15,
+          "plan_hash": "40a5a4dfde301b86a1c5f47ba758d1901c5cbe36d4d87f012ab05ba11886cca4",
+          "seconds": 0.9650945269968361
+        },
+        {
+          "at": 30,
+          "plan_hash": "cfc64fcd0ff70b8439dc151cd4062f0fbd983255a0e92a21bf563d8a1fa58660",
+          "seconds": 0.963110119002522
+        },
+        {
+          "at": 45,
+          "plan_hash": "1c0fd81ed70f6cf49f8ba60f8f2fa9c828e47fa517fc27e5cbb78463c328af69",
+          "seconds": 0.9646140679978998
+        },
+        {
+          "at": 60,
+          "plan_hash": "27a0ef43e077a2a894fc7c72dcbc5ebc42164bc05a1516fb7f5d684455a29ae2",
+          "seconds": 0.9581330319997505
+        },
+        {
+          "at": 75,
+          "plan_hash": "4bc08a03e76654af026f668aa39f08b232de83e40f9621b90073a9aa21d351ec",
+          "seconds": 0.9623107990046265
+        },
+        {
+          "at": 90,
+          "plan_hash": "162553c20ad5f2b99067db15f762df7bb1aa285962c77ad2b299ae26e73ba803",
+          "seconds": 0.9616603239992401
+        },
+        {
+          "at": 105,
+          "plan_hash": "cf5fa7f68b2e5407d3bb11a342b56953e17a40b12a511a8ec2468cdb01bffcc8",
+          "seconds": 0.9586047050033812
+        },
+        {
+          "at": 120,
+          "plan_hash": "cd151a6919a161c8fe44acecee2b19dc1e2998f8dcdafea21dcb3be9d69e2702",
+          "seconds": 0.9561320009961491
+        },
+        {
+          "at": 135,
+          "plan_hash": "af8f2b5fd83961b48ed2795673d6f67672c9646839121139a157469ad67b36d1",
+          "seconds": 0.9570508899996639
+        }
+      ],
+      "decoded_outside_box_coordinates": 7,
+      "delivered": 150,
+      "failure": null,
+      "horizon": 75,
+      "initial_hash": "4facb6e7944d104163d676f1000096bdee318bdfdf08c013dd39a82f845a1a9f",
+      "maximum_raw_action": 1.3427342176437378,
+      "native_truncation": false,
+      "peak_cuda_allocated": 220855808,
+      "reference_attempt": 7,
+      "reference_index": 1,
+      "seed": 1837682079,
+      "success": 0,
+      "train_seed": 7201,
+      "trajectory_file": "episode-00001-h75.npz",
+      "trajectory_sha256": "2feb6b67c70f8790a4b982334cd878a68dc23b4413930d944e0ea5ab6a458ee2",
+      "wall_seconds": 10.541380759997992
+    },
+    {
+      "action_rule": "native_finite",
+      "arm": "sage",
+      "budget": 300,
+      "calls": [
+        {
+          "at": 0,
+          "plan_hash": "1e058b7cf8581bd015f51157dfbfd87de8f5b5cc5614f095e7d05082d1f1c760",
+          "seconds": 0.9664042850054102
+        },
+        {
+          "at": 15,
+          "plan_hash": "10f1f23b549ac8e10e5a6d8d319fe7d74d3ef2d5a8388b65b96eb5d0fef8c33a",
+          "seconds": 0.9650436200026888
+        },
+        {
+          "at": 30,
+          "plan_hash": "889167cc362ada2d976af42e9e08eb70d52dc38f9d2068ee9c71a1c64d22217a",
+          "seconds": 0.9658898289999343
+        },
+        {
+          "at": 45,
+          "plan_hash": "d1817b872e8de39ac168b94671fad334d5bb863a1067817bf605fbc8382a51e8",
+          "seconds": 0.964642842001922
+        },
+        {
+          "at": 60,
+          "plan_hash": "105b6d14e408cd13103521fc5b60c71126ea8f9c1f9a2e3856a3794c74beb404",
+          "seconds": 0.9649276979980641
+        },
+        {
+          "at": 75,
+          "plan_hash": "7797725778ae34ca691368f1ce2141c3196b890ac989b73c1b8c91cff624c53f",
+          "seconds": 0.9658948400028748
+        },
+        {
+          "at": 90,
+          "plan_hash": "f96be16792d8f07b799cf65e9b309312d0c182e2f8b73905a6f0a7bbb78b8fd7",
+          "seconds": 0.9643505429994548
+        },
+        {
+          "at": 105,
+          "plan_hash": "fea6ac8c867e56690053e7c1233a8e4dab6e4a97eae8fcbe100b78a346ad0634",
+          "seconds": 0.9632038080017082
+        },
+        {
+          "at": 120,
+          "plan_hash": "2b2633a1c513192b3d6f8d33dea2fbb4b0e204ceca1c11601c4c07914fea9e88",
+          "seconds": 0.9580807320016902
+        },
+        {
+          "at": 135,
+          "plan_hash": "df80f350a323bd9d29ad57f5c69caf98bdc5e13f555e82216ab2d7b5cadf4595",
+          "seconds": 0.9558352539970656
+        },
+        {
+          "at": 150,
+          "plan_hash": "78b2e7507234a2f5d21fd4396b1ec28eb549f3f8c7d0b192d61c46a4a2956eca",
+          "seconds": 0.9633249800026533
+        },
+        {
+          "at": 165,
+          "plan_hash": "a958707da0a54d02a74365b58fb6f461f82a13c2190aad36ae9b971fd3ccb689",
+          "seconds": 0.9614022800014936
+        },
+        {
+          "at": 180,
+          "plan_hash": "474d1c42a4bdac481f204b684a71527b6d1ac31070f56ab3c5d15f1585b7975d",
+          "seconds": 0.9586548099978245
+        },
+        {
+          "at": 195,
+          "plan_hash": "2d821f8f955a083cc730a2f0a8a62253b8c9e1dec44f724df2f532fdb70a04f2",
+          "seconds": 0.957356164995872
+        },
+        {
+          "at": 210,
+          "plan_hash": "6f163cd1c0232fbcd6203068ad59fc3ac66ecfc8baf418ff05d047cea85bffe2",
+          "seconds": 0.9579724439972779
+        },
+        {
+          "at": 225,
+          "plan_hash": "3da424f82431db730fb9b5c819a2ed754367a55785c8488fffc2fe6b599f38c7",
+          "seconds": 0.9543256440010737
+        },
+        {
+          "at": 240,
+          "plan_hash": "7b25622c296059e246b338d4de41bbd549c4fab09147438866e8bb1079df580f",
+          "seconds": 0.9544408549991203
+        },
+        {
+          "at": 255,
+          "plan_hash": "e4df71ef209bc1ee05e4417e7c2dcea6314d8ef4e80cfe55e72828abedb2d96a",
+          "seconds": 0.9528295810014242
+        },
+        {
+          "at": 270,
+          "plan_hash": "3c2dcac67ffa14642f84f28a659b10b7506cb91655de0388dcde5a4cd54761dd",
+          "seconds": 0.9540520099981222
+        },
+        {
+          "at": 285,
+          "plan_hash": "abe188689fae8f8080a351dffc01bac6353fcd48b21fc8da2a676667ee5a639e",
+          "seconds": 0.9536037720026798
+        }
+      ],
+      "decoded_outside_box_coordinates": 3,
+      "delivered": 300,
+      "failure": null,
+      "horizon": 150,
+      "initial_hash": "3ada703b65316ce36d95117e05fa3c9a1346a694c329bcdfe646156b742c0b62",
+      "maximum_raw_action": 1.1278303861618042,
+      "native_truncation": true,
+      "peak_cuda_allocated": 220855808,
+      "reference_attempt": 7,
+      "reference_index": 1,
+      "seed": 2562558846,
+      "success": 0,
+      "train_seed": 7201,
+      "trajectory_file": "episode-00001-h150.npz",
+      "trajectory_sha256": "eab26e0d746af0f9222801b3444f4d7609fe910308a6ecb73399676d18bf9dbd",
+      "wall_seconds": 21.031200314995658
+    }
+  ],
+  "source_sha256": "3696bc9e421ca9f5618893979502f78f87f8db930280c9fd6bb51c4138024b34",
+  "train_seed": 7201
+}
