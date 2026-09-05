@@ -29,3 +29,5 @@ committed; code, protocols, readable summaries and task state are committed to G
 No unattended assistant monitoring is implied by cluster execution.
 
 Pilot 300310 failed before collection because the SAGE tree on PYTHONPATH shadowed swm006. Corrected by appending SAGE only after importing the installed common runtime. A local REPL syntax error accidentally resubmitted the old pilot as 300311; that job was cancelled, not accepted as replacement evidence.
+
+Collector pilot 300312 completed: three collector tests passed; 24 accepted reference trajectories from 54 attempts. Rejected 9 initial overlaps and 21 out-of-arena trajectories, independent of compared planners. Every accepted trajectory contacted the block. Neither H75 nor H150 was initially solved in these 24. Pilot stream is disjoint from any final stream. The previous duplicate 300311 had already failed before cancellation was attempted; preserve it as failed, not cancelled.
