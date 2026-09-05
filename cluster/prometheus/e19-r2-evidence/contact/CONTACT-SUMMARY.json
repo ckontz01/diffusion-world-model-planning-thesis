@@ -1,0 +1,6144 @@
+{
+  "initializations": 8,
+  "inventory": {
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/e18/geometry-0/repeat-0/CONTACT.json": "6eb63e58122d32217e5fcbc2df8769b23fb23fab14c8330e0cc4cdbaa40cdf70",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/e18/geometry-0/repeat-1/CONTACT.json": "d42413a9caa4944dc20451e9ecb0f11ec0f3bf42c0e668a1d141fdb8c31bc0bc",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/e18/geometry-1/repeat-0/CONTACT.json": "03dc2609206b0392ef5be51e71be6821c5ce54ec4e6e04f60c1f2105ad3881dc",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/e18/geometry-1/repeat-1/CONTACT.json": "e3b420d3556da4bee1d2e04404182c60449e685dc7508f8eba51859acd879579",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/sage/geometry-0/repeat-0/CONTACT.json": "4c7263d1ce4f1d6e4a03b67ed96beb5ea86856248c804e2ed50c3421d1f9d8a5",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/sage/geometry-0/repeat-1/CONTACT.json": "4ef6b6f9e18e891d25dc3bfd45e3d2165cdfcb74af2b15399904dbf5963f7358",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/sage/geometry-1/repeat-0/CONTACT.json": "bed97aeaf95e961982eaef949ec402cc4fec3a8f736d587ca14567dde4b4c6b7",
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/gdp-cem-e19-r2/contact-20260905-ba78531c/sage/geometry-1/repeat-1/CONTACT.json": "b5ed1a181cae694a4884e1f8dd1d0276a83079220136c9e6e1bb74eafb175282"
+  },
+  "pairs": [
+    {
+      "geometry_repeat": 0,
+      "restored_body_differences": [],
+      "stack": "sage"
+    },
+    {
+      "geometry_repeat": 1,
+      "restored_body_differences": [],
+      "stack": "sage"
+    },
+    {
+      "geometry_repeat": 0,
+      "restored_body_differences": [],
+      "stack": "e18"
+    },
+    {
+      "geometry_repeat": 1,
+      "restored_body_differences": [],
+      "stack": "e18"
+    }
+  ],
+  "physics_steps": 32,
+  "primitive_actions": 0,
+  "production_correction": false,
+  "protected_read": false,
+  "rows": [
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.9372322845458712,
+          "mean_abs": 0.5056002187728765
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "d75c6ab510ff0dd06d9558e0192c41bc4323d300311dd47cff2c2f504bce4072",
+            "shape": [
+              2
+            ],
+            "values": [
+              328.70392539978025,
+              69.17273594856262
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "2a65e845f023cc548da50dd63fb5467ce90911135e0d140299b4d079036a1fa7",
+            "shape": [],
+            "values": 2.7307214736938477
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6a5f96005dd67e77c65041b65cc31d4a2344a4f37eee1d1404d8f161ffeb853d",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9733581542969,
+              282.2547912597656
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "107fe3e844863034ae4aa61864ffec85a7695f8b653b8a6be15b7de2b9e0f035",
+            "shape": [
+              2
+            ],
+            "values": [
+              327.7666931152344,
+              69.2467041015625
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "2a65e845f023cc548da50dd63fb5467ce90911135e0d140299b4d079036a1fa7",
+            "shape": [],
+            "values": 2.7307214736938477
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6a5f96005dd67e77c65041b65cc31d4a2344a4f37eee1d1404d8f161ffeb853d",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9733581542969,
+              282.2547912597656
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "chipmunk_version": "7.0.3-7a29dcfa49931f26632f3019582f289ba811a2b9",
+      "geometry_repeat": 0,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -2.7284841053187847e-12,
+            -3.979039320256561e-13
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.0,
+          "linear": [
+            0.0,
+            0.0
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "5ea34a212dad2a567d5d2f3eef2442c93895d6b19de6bd6fe0e8a459609248d6",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "fd12e5060f7133aef2776343878b7654dbc1cad1562dc541e6aa65bdfd9e06db",
+            "shape": [
+              2
+            ],
+            "values": [
+              190.68196833536516,
+              430.3548502507716
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "4d0222a649ffcd74da858319209a140041ed58546a3aef0592eed0c7a3963577",
+            "shape": [],
+            "values": 3.1460784662201777
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7da32dd08520c2b736726f62d8e2a7721b9141b4b03a64b316e4500c20e8fa17",
+            "shape": [
+              2
+            ],
+            "values": [
+              200.9161214271537,
+              154.59569129398415
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a_hash": "4d0222a649ffcd74da858319209a140041ed58546a3aef0592eed0c7a3963577",
+          "b_hash": "fba7356800cd970de03c73f2343df45005bf21849260c1c3a9ceda4fb9bc7b3a",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "7da32dd08520c2b736726f62d8e2a7721b9141b4b03a64b316e4500c20e8fa17",
+          "b_hash": "475ad7485cf2145e20d651a0468a57a93a5f515eb7a063fc036d85d8b85afb0e",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.14284609011048133,
+            "mean_abs": 0.08418239909256897
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 0,
+      "restored_vs_r1_bodies": [],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "sage"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.9372322845458712,
+          "mean_abs": 0.5056002187728765
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "d75c6ab510ff0dd06d9558e0192c41bc4323d300311dd47cff2c2f504bce4072",
+            "shape": [
+              2
+            ],
+            "values": [
+              328.70392539978025,
+              69.17273594856262
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "2a65e845f023cc548da50dd63fb5467ce90911135e0d140299b4d079036a1fa7",
+            "shape": [],
+            "values": 2.7307214736938477
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6a5f96005dd67e77c65041b65cc31d4a2344a4f37eee1d1404d8f161ffeb853d",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9733581542969,
+              282.2547912597656
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "107fe3e844863034ae4aa61864ffec85a7695f8b653b8a6be15b7de2b9e0f035",
+            "shape": [
+              2
+            ],
+            "values": [
+              327.7666931152344,
+              69.2467041015625
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "2a65e845f023cc548da50dd63fb5467ce90911135e0d140299b4d079036a1fa7",
+            "shape": [],
+            "values": 2.7307214736938477
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6a5f96005dd67e77c65041b65cc31d4a2344a4f37eee1d1404d8f161ffeb853d",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9733581542969,
+              282.2547912597656
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "chipmunk_version": "7.0.3-7a29dcfa49931f26632f3019582f289ba811a2b9",
+      "geometry_repeat": 0,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -2.7284841053187847e-12,
+            -3.979039320256561e-13
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.0,
+          "linear": [
+            0.0,
+            0.0
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "5ea34a212dad2a567d5d2f3eef2442c93895d6b19de6bd6fe0e8a459609248d6",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "fd12e5060f7133aef2776343878b7654dbc1cad1562dc541e6aa65bdfd9e06db",
+            "shape": [
+              2
+            ],
+            "values": [
+              190.68196833536516,
+              430.3548502507716
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "4d0222a649ffcd74da858319209a140041ed58546a3aef0592eed0c7a3963577",
+            "shape": [],
+            "values": 3.1460784662201777
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "7da32dd08520c2b736726f62d8e2a7721b9141b4b03a64b316e4500c20e8fa17",
+            "shape": [
+              2
+            ],
+            "values": [
+              200.9161214271537,
+              154.59569129398415
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a_hash": "4d0222a649ffcd74da858319209a140041ed58546a3aef0592eed0c7a3963577",
+          "b_hash": "fba7356800cd970de03c73f2343df45005bf21849260c1c3a9ceda4fb9bc7b3a",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "7da32dd08520c2b736726f62d8e2a7721b9141b4b03a64b316e4500c20e8fa17",
+          "b_hash": "475ad7485cf2145e20d651a0468a57a93a5f515eb7a063fc036d85d8b85afb0e",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.14284609011048133,
+            "mean_abs": 0.08418239909256897
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 1,
+      "restored_vs_r1_bodies": [],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "sage"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.9372322845458712,
+          "mean_abs": 0.5056002187728765
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": false,
+          "max_abs": 0.0005925843804184261,
+          "mean_abs": 0.0005925843804184261
+        },
+        "block.position": {
+          "exact": false,
+          "max_abs": 0.651283064999916,
+          "mean_abs": 0.3378665831124579
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "d75c6ab510ff0dd06d9558e0192c41bc4323d300311dd47cff2c2f504bce4072",
+            "shape": [
+              2
+            ],
+            "values": [
+              328.70392539978025,
+              69.17273594856262
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "cb4d6a96c617743cfbabbbac0aca5654c35e4292fae6ca0822966420acdc2f14",
+            "shape": [],
+            "values": 2.731314058074266
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "074ab8edeb519dd555716717db87a4cbb78bb338aff1e1e365057a6173d2c166",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9489080530719,
+              282.90607432476554
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "107fe3e844863034ae4aa61864ffec85a7695f8b653b8a6be15b7de2b9e0f035",
+            "shape": [
+              2
+            ],
+            "values": [
+              327.7666931152344,
+              69.2467041015625
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "2a65e845f023cc548da50dd63fb5467ce90911135e0d140299b4d079036a1fa7",
+            "shape": [],
+            "values": 2.7307214736938477
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    371.7749574017214,
+                    164.56505981737973
+                  ],
+                  "b": [
+                    234.20905005294802,
+                    7.0
+                  ],
+                  "distance": 157.5650598173797
+                },
+                {
+                  "a": [
+                    342.16344585233514,
+                    169.37737565910948
+                  ],
+                  "b": [
+                    204.5975385035617,
+                    7.0
+                  ],
+                  "distance": 162.37737565910945
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6a5f96005dd67e77c65041b65cc31d4a2344a4f37eee1d1404d8f161ffeb853d",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9733581542969,
+              282.2547912597656
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "chipmunk_version": "7.0.3-7a29dcfa49931f26632f3019582f289ba811a2b9",
+      "geometry_repeat": 1,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -2.7284841053187847e-12,
+            -3.979039320256561e-13
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.05925843804184261,
+          "linear": [
+            0.0,
+            64.06395725604455
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "ff9e1bc537ef1268da8850ed2702c7313c9b8f4f21141003d5d85608dfc9b7ef",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4d370826d78487151c4d2e86c5905f850bdc6acc04406e3b6bd5d36464f3966d",
+            "shape": [
+              2
+            ],
+            "values": [
+              267.7817798428349,
+              195.8036663666613
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "1b2a42abe844a8c810e6f7691a6e33378995d6a5758e49f7218e47f90de0af46",
+            "shape": [],
+            "values": 2.980486100697602
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    234.20905005294802,
+                    -3.5846219726918775
+                  ],
+                  "b": [
+                    234.20905005294802,
+                    7.0
+                  ],
+                  "distance": -10.584621972691876
+                },
+                {
+                  "a": [
+                    204.59753850356174,
+                    1.2276938690378643
+                  ],
+                  "b": [
+                    204.5975385035617,
+                    7.0
+                  ],
+                  "distance": -5.772306130962135
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "8fd4f7f35a09cd35034e83a923dacd84eb56129a21cd42fc14eac5e9e700eae0",
+            "shape": [
+              2
+            ],
+            "values": [
+              238.65255764517386,
+              117.2675821457181
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a_hash": "1b2a42abe844a8c810e6f7691a6e33378995d6a5758e49f7218e47f90de0af46",
+          "b_hash": "8f5f122b4a4a2a77efd24c7dc55f5be910a83c39881f244fe1edbcbacb92e66c",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    234.20905005294802,
+                    -3.5846219726918775
+                  ],
+                  "b": [
+                    234.20905005294802,
+                    7.0
+                  ],
+                  "distance": -10.584621972691876
+                },
+                {
+                  "a": [
+                    204.59753850356174,
+                    1.2276938690378643
+                  ],
+                  "b": [
+                    204.5975385035617,
+                    7.0
+                  ],
+                  "distance": -5.772306130962135
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    234.5476071846243,
+                    -3.4336983549411855
+                  ],
+                  "b": [
+                    234.5476071846243,
+                    7.0
+                  ],
+                  "distance": -10.433698354941184
+                },
+                {
+                  "a": [
+                    204.92378826706528,
+                    1.3022654054429381
+                  ],
+                  "b": [
+                    204.9237882670653,
+                    7.0
+                  ],
+                  "distance": -5.697734594557061
+                }
+              ]
+            }
+          ],
+          "path": "block.arbiters"
+        },
+        {
+          "a_hash": "8fd4f7f35a09cd35034e83a923dacd84eb56129a21cd42fc14eac5e9e700eae0",
+          "b_hash": "60b24c786fe7571c672ce9553ee7ec9222c7748d1ef9a5ab6b5fb7589f12aa4a",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.16197704976889327,
+            "mean_abs": 0.09448608598816577
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 0,
+      "restored_vs_r1_bodies": [
+        {
+          "a_hash": "cb4d6a96c617743cfbabbbac0aca5654c35e4292fae6ca0822966420acdc2f14",
+          "b_hash": "188fab107a76a557e6deca92c98e0c9537f22007e0d102fc164ea7af0ab10609",
+          "delta": {
+            "exact": false,
+            "max_abs": 3.2704708813113825e-05,
+            "mean_abs": 3.2704708813113825e-05
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "074ab8edeb519dd555716717db87a4cbb78bb338aff1e1e365057a6173d2c166",
+          "b_hash": "027f8efa1fc491f2caf7314e96608d2144dd24fe46a215f85656208addf794eb",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.0088724892793266,
+            "mean_abs": 0.005111036508282041
+          },
+          "path": "block.position"
+        }
+      ],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "sage"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.9372322845458712,
+          "mean_abs": 0.5056002187728765
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": false,
+          "max_abs": 0.0005925843804184261,
+          "mean_abs": 0.0005925843804184261
+        },
+        "block.position": {
+          "exact": false,
+          "max_abs": 0.651283064999916,
+          "mean_abs": 0.3378665831124579
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "d75c6ab510ff0dd06d9558e0192c41bc4323d300311dd47cff2c2f504bce4072",
+            "shape": [
+              2
+            ],
+            "values": [
+              328.70392539978025,
+              69.17273594856262
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "cb4d6a96c617743cfbabbbac0aca5654c35e4292fae6ca0822966420acdc2f14",
+            "shape": [],
+            "values": 2.731314058074266
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "074ab8edeb519dd555716717db87a4cbb78bb338aff1e1e365057a6173d2c166",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9489080530719,
+              282.90607432476554
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "107fe3e844863034ae4aa61864ffec85a7695f8b653b8a6be15b7de2b9e0f035",
+            "shape": [
+              2
+            ],
+            "values": [
+              327.7666931152344,
+              69.2467041015625
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "354bd37dce26937ddfc00ebf6cc122518e8ad3698fa371482bc617e995ca2fb8",
+            "shape": [
+              2
+            ],
+            "values": [
+              93.72322845458984,
+              -7.396815299987793
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "2a65e845f023cc548da50dd63fb5467ce90911135e0d140299b4d079036a1fa7",
+            "shape": [],
+            "values": 2.7307214736938477
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    371.7749574017214,
+                    164.56505981737973
+                  ],
+                  "b": [
+                    234.20905005294802,
+                    7.0
+                  ],
+                  "distance": 157.5650598173797
+                },
+                {
+                  "a": [
+                    342.16344585233514,
+                    169.37737565910948
+                  ],
+                  "b": [
+                    204.5975385035617,
+                    7.0
+                  ],
+                  "distance": 162.37737565910945
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "6a5f96005dd67e77c65041b65cc31d4a2344a4f37eee1d1404d8f161ffeb853d",
+            "shape": [
+              2
+            ],
+            "values": [
+              386.9733581542969,
+              282.2547912597656
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 1,
+      "chipmunk_version": "7.0.3-7a29dcfa49931f26632f3019582f289ba811a2b9",
+      "geometry_repeat": 1,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -2.7284841053187847e-12,
+            -3.979039320256561e-13
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.05925843804184261,
+          "linear": [
+            0.0,
+            64.06395725604455
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "ff9e1bc537ef1268da8850ed2702c7313c9b8f4f21141003d5d85608dfc9b7ef",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4d370826d78487151c4d2e86c5905f850bdc6acc04406e3b6bd5d36464f3966d",
+            "shape": [
+              2
+            ],
+            "values": [
+              267.7817798428349,
+              195.8036663666613
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "1b2a42abe844a8c810e6f7691a6e33378995d6a5758e49f7218e47f90de0af46",
+            "shape": [],
+            "values": 2.980486100697602
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    234.20905005294802,
+                    -3.5846219726918775
+                  ],
+                  "b": [
+                    234.20905005294802,
+                    7.0
+                  ],
+                  "distance": -10.584621972691876
+                },
+                {
+                  "a": [
+                    204.59753850356174,
+                    1.2276938690378643
+                  ],
+                  "b": [
+                    204.5975385035617,
+                    7.0
+                  ],
+                  "distance": -5.772306130962135
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "8fd4f7f35a09cd35034e83a923dacd84eb56129a21cd42fc14eac5e9e700eae0",
+            "shape": [
+              2
+            ],
+            "values": [
+              238.65255764517386,
+              117.2675821457181
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a_hash": "1b2a42abe844a8c810e6f7691a6e33378995d6a5758e49f7218e47f90de0af46",
+          "b_hash": "8f5f122b4a4a2a77efd24c7dc55f5be910a83c39881f244fe1edbcbacb92e66c",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    234.20905005294802,
+                    -3.5846219726918775
+                  ],
+                  "b": [
+                    234.20905005294802,
+                    7.0
+                  ],
+                  "distance": -10.584621972691876
+                },
+                {
+                  "a": [
+                    204.59753850356174,
+                    1.2276938690378643
+                  ],
+                  "b": [
+                    204.5975385035617,
+                    7.0
+                  ],
+                  "distance": -5.772306130962135
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.0,
+                -0.9999999999999999
+              ],
+              "points": [
+                {
+                  "a": [
+                    234.5476071846243,
+                    -3.4336983549411855
+                  ],
+                  "b": [
+                    234.5476071846243,
+                    7.0
+                  ],
+                  "distance": -10.433698354941184
+                },
+                {
+                  "a": [
+                    204.92378826706528,
+                    1.3022654054429381
+                  ],
+                  "b": [
+                    204.9237882670653,
+                    7.0
+                  ],
+                  "distance": -5.697734594557061
+                }
+              ]
+            }
+          ],
+          "path": "block.arbiters"
+        },
+        {
+          "a_hash": "8fd4f7f35a09cd35034e83a923dacd84eb56129a21cd42fc14eac5e9e700eae0",
+          "b_hash": "60b24c786fe7571c672ce9553ee7ec9222c7748d1ef9a5ab6b5fb7589f12aa4a",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.16197704976889327,
+            "mean_abs": 0.09448608598816577
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 1,
+      "restored_vs_r1_bodies": [
+        {
+          "a_hash": "cb4d6a96c617743cfbabbbac0aca5654c35e4292fae6ca0822966420acdc2f14",
+          "b_hash": "188fab107a76a557e6deca92c98e0c9537f22007e0d102fc164ea7af0ab10609",
+          "delta": {
+            "exact": false,
+            "max_abs": 3.2704708813113825e-05,
+            "mean_abs": 3.2704708813113825e-05
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "074ab8edeb519dd555716717db87a4cbb78bb338aff1e1e365057a6173d2c166",
+          "b_hash": "027f8efa1fc491f2caf7314e96608d2144dd24fe46a215f85656208addf794eb",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.0088724892793266,
+            "mean_abs": 0.005111036508282041
+          },
+          "path": "block.position"
+        }
+      ],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "sage"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.20375017166139742,
+          "mean_abs": 0.13433183431627072
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                5.8646499685494025,
+                -8.70278572457454
+              ],
+              "normal": [
+                -0.5588357138229489,
+                0.8292783880917163
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.58492994607525,
+                    348.8761718426465
+                  ],
+                  "b": [
+                    388.74740619590386,
+                    348.63506691819686
+                  ],
+                  "distance": -0.2907406341608253
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "a996c1371f13e67f7b9c4906a78c882fefa5d774b4df7a7e052c56d10d8a4c7a",
+            "shape": [
+              2
+            ],
+            "values": [
+              396.9674656534195,
+              336.4369960212708
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "d51c97df7ce61e036a5e68d8304febaf83d77542575c9381567b2e740bfb6287",
+            "shape": [],
+            "values": 0.5929811596870422
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "126f8253f0e3e664b7b0804c296c9dcd6275b8f56f92cdfc2e457abcd9bbe9e6",
+            "shape": [],
+            "values": 0.1873110636588031
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -5.8646499685494025,
+                8.70278572457454
+              ],
+              "normal": [
+                0.5588357138229489,
+                -0.8292783880917163
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.74740619590386,
+                    348.63506691819686
+                  ],
+                  "b": [
+                    388.58492994607525,
+                    348.8761718426465
+                  ],
+                  "distance": -0.2907406341608253
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "ca05da381fe904e271bfc59f5ce76809c659547712f9fac051a77d4776ae1534",
+            "shape": [
+              2
+            ],
+            "values": [
+              344.3428955078125,
+              318.711669921875
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "ec5a8b2d336df7b48ad20b64d33ade0a19c08bbca489eba12cfbc53eaa405cb1",
+            "shape": [
+              2
+            ],
+            "values": [
+              -5.8646499685494025,
+              8.70278572457454
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "f10417f8afaf6deee98d44a04373bb0da60fbb8ea0cb6b11a3c408da156e230c",
+            "shape": [
+              2
+            ],
+            "values": [
+              397.0323791503906,
+              336.2332458496094
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "d51c97df7ce61e036a5e68d8304febaf83d77542575c9381567b2e740bfb6287",
+            "shape": [],
+            "values": 0.5929811596870422
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "ca05da381fe904e271bfc59f5ce76809c659547712f9fac051a77d4776ae1534",
+            "shape": [
+              2
+            ],
+            "values": [
+              344.3428955078125,
+              318.711669921875
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "chipmunk_version": "2.0.1-ade7ed72849e60289eefb7a41e79ae6322fefaf3",
+      "geometry_repeat": 0,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -1.3642420526593924e-12,
+            2.0463630789890885e-12
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.0,
+          "linear": [
+            0.0,
+            0.0
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "dca9d4aae5577cac54508382b837a5406fc0bf4a97678b279e02a209e91a742d",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "d1975885cd2154a80a6d07686ed454339ea8f5350de4d0c3733bf1653d2be198",
+            "shape": [
+              2
+            ],
+            "values": [
+              431.8317691757163,
+              55.40116779312485
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "fc490ed98a3c9cb4e3dfe6c7f793ae09f1011b6c959e523e945fb83a40650ac7",
+            "shape": [],
+            "values": -3.374192475828599
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "cb32925c0e44eedf969d02b923115a223a4364fa515116bca9922470fae80c9a",
+            "shape": [
+              2
+            ],
+            "values": [
+              130.5083025831911,
+              373.6233493689665
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a_hash": "fc490ed98a3c9cb4e3dfe6c7f793ae09f1011b6c959e523e945fb83a40650ac7",
+          "b_hash": "7def91b7eb8017fe4014184b94eb86ffab08070bc2338f2ee14097c733273740",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "cb32925c0e44eedf969d02b923115a223a4364fa515116bca9922470fae80c9a",
+          "b_hash": "6188cb66f28ad4b291e1f85610f841594d8d85665ac6d0bd176227018fca58b3",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.17011090645041804,
+            "mean_abs": 0.09935865700653324
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 0,
+      "restored_vs_r1_bodies": [],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "e18"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.20375017166139742,
+          "mean_abs": 0.13433183431627072
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                5.8646499685494025,
+                -8.70278572457454
+              ],
+              "normal": [
+                -0.5588357138229489,
+                0.8292783880917163
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.58492994607525,
+                    348.8761718426465
+                  ],
+                  "b": [
+                    388.74740619590386,
+                    348.63506691819686
+                  ],
+                  "distance": -0.2907406341608253
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "a996c1371f13e67f7b9c4906a78c882fefa5d774b4df7a7e052c56d10d8a4c7a",
+            "shape": [
+              2
+            ],
+            "values": [
+              396.9674656534195,
+              336.4369960212708
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "d51c97df7ce61e036a5e68d8304febaf83d77542575c9381567b2e740bfb6287",
+            "shape": [],
+            "values": 0.5929811596870422
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "126f8253f0e3e664b7b0804c296c9dcd6275b8f56f92cdfc2e457abcd9bbe9e6",
+            "shape": [],
+            "values": 0.1873110636588031
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -5.8646499685494025,
+                8.70278572457454
+              ],
+              "normal": [
+                0.5588357138229489,
+                -0.8292783880917163
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.74740619590386,
+                    348.63506691819686
+                  ],
+                  "b": [
+                    388.58492994607525,
+                    348.8761718426465
+                  ],
+                  "distance": -0.2907406341608253
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "ca05da381fe904e271bfc59f5ce76809c659547712f9fac051a77d4776ae1534",
+            "shape": [
+              2
+            ],
+            "values": [
+              344.3428955078125,
+              318.711669921875
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "ec5a8b2d336df7b48ad20b64d33ade0a19c08bbca489eba12cfbc53eaa405cb1",
+            "shape": [
+              2
+            ],
+            "values": [
+              -5.8646499685494025,
+              8.70278572457454
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "f10417f8afaf6deee98d44a04373bb0da60fbb8ea0cb6b11a3c408da156e230c",
+            "shape": [
+              2
+            ],
+            "values": [
+              397.0323791503906,
+              336.2332458496094
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "d51c97df7ce61e036a5e68d8304febaf83d77542575c9381567b2e740bfb6287",
+            "shape": [],
+            "values": 0.5929811596870422
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "ca05da381fe904e271bfc59f5ce76809c659547712f9fac051a77d4776ae1534",
+            "shape": [
+              2
+            ],
+            "values": [
+              344.3428955078125,
+              318.711669921875
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "chipmunk_version": "2.0.1-ade7ed72849e60289eefb7a41e79ae6322fefaf3",
+      "geometry_repeat": 0,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -1.3642420526593924e-12,
+            2.0463630789890885e-12
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.0,
+          "linear": [
+            0.0,
+            0.0
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "dca9d4aae5577cac54508382b837a5406fc0bf4a97678b279e02a209e91a742d",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "d1975885cd2154a80a6d07686ed454339ea8f5350de4d0c3733bf1653d2be198",
+            "shape": [
+              2
+            ],
+            "values": [
+              431.8317691757163,
+              55.40116779312485
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "fc490ed98a3c9cb4e3dfe6c7f793ae09f1011b6c959e523e945fb83a40650ac7",
+            "shape": [],
+            "values": -3.374192475828599
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "cb32925c0e44eedf969d02b923115a223a4364fa515116bca9922470fae80c9a",
+            "shape": [
+              2
+            ],
+            "values": [
+              130.5083025831911,
+              373.6233493689665
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a_hash": "fc490ed98a3c9cb4e3dfe6c7f793ae09f1011b6c959e523e945fb83a40650ac7",
+          "b_hash": "7def91b7eb8017fe4014184b94eb86ffab08070bc2338f2ee14097c733273740",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "cb32925c0e44eedf969d02b923115a223a4364fa515116bca9922470fae80c9a",
+          "b_hash": "6188cb66f28ad4b291e1f85610f841594d8d85665ac6d0bd176227018fca58b3",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.17011090645041804,
+            "mean_abs": 0.09935865700653324
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 1,
+      "restored_vs_r1_bodies": [],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "e18"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.20375017166139742,
+          "mean_abs": 0.13433183431627072
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": false,
+          "max_abs": 0.005482949161206951,
+          "mean_abs": 0.005482949161206951
+        },
+        "block.position": {
+          "exact": false,
+          "max_abs": 1.0448108763731625,
+          "mean_abs": 0.581652011002916
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                6.012662233601869,
+                -8.817714656734932
+              ],
+              "normal": [
+                -0.5633741822404166,
+                0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "b": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "a996c1371f13e67f7b9c4906a78c882fefa5d774b4df7a7e052c56d10d8a4c7a",
+            "shape": [
+              2
+            ],
+            "values": [
+              396.9674656534195,
+              336.4369960212708
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "187d7b370a09d9f0f87c85c9ec1342345acb323edb0dbce985f765bf30efbef7",
+            "shape": [],
+            "values": 0.5984641088482492
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "756fdd14aaedeb6252798225ee26f6be3e6f38d8a1d76973f6b6f75dcf842427",
+            "shape": [],
+            "values": 0.18689317961787016
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -6.012662233601869,
+                8.817714656734932
+              ],
+              "normal": [
+                0.5633741822404166,
+                -0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "b": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "b434e60dcf9b11375ca25eafb7a5e0807a02272234d9c371922fd6f55fa99e36",
+            "shape": [
+              2
+            ],
+            "values": [
+              345.38770638418566,
+              318.83016306750767
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "ac9d3b5bbe97d8acbf3f36cfe02ba230178d3a7238778c5472ddfe90e88c4ea8",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.012662233601869,
+              8.817714656734932
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.999718472467014,
+                -0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    412.0281562373959,
+                    335.8773391808751
+                  ],
+                  "b": [
+                    303.73533911703504,
+                    336.82766616769254
+                  ],
+                  "distance": -108.28487822485593
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "f10417f8afaf6deee98d44a04373bb0da60fbb8ea0cb6b11a3c408da156e230c",
+            "shape": [
+              2
+            ],
+            "values": [
+              397.0323791503906,
+              336.2332458496094
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "d51c97df7ce61e036a5e68d8304febaf83d77542575c9381567b2e740bfb6287",
+            "shape": [],
+            "values": 0.5929811596870422
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.999718472467014,
+                0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    303.73533911703504,
+                    336.82766616769254
+                  ],
+                  "b": [
+                    412.0281562373959,
+                    335.8773391808751
+                  ],
+                  "distance": -108.28487822485593
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "ca05da381fe904e271bfc59f5ce76809c659547712f9fac051a77d4776ae1534",
+            "shape": [
+              2
+            ],
+            "values": [
+              344.3428955078125,
+              318.711669921875
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "chipmunk_version": "2.0.1-ade7ed72849e60289eefb7a41e79ae6322fefaf3",
+      "geometry_repeat": 1,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -1.3642420526593924e-12,
+            2.0463630789890885e-12
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.5482949161206951,
+          "linear": [
+            84.0579797587111,
+            -1.9950146886628772
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "0b120805d74c1f09a635a31f879e113bf098a296f6206d2c57fea7cadcc80dc4",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.999718472467014,
+                -0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "b": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4ccf35fef2fbc8e302712b20b65a9a98007bc7ffc02a5024b298eae60da03d4b",
+            "shape": [
+              2
+            ],
+            "values": [
+              312.6676877276565,
+              181.23016687219447
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "f55d97d59fb4cfd8773f9a7e8ecd3c6da86600752ce1a5e9baf893e0640c463f",
+            "shape": [],
+            "values": -3.165321991701216
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.999718472467014,
+                0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "b": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "f32cdc080bbfef13bd5443dce304e30f531a9b3ec0997d13c530773ba1b85f70",
+            "shape": [
+              2
+            ],
+            "values": [
+              328.6191072217818,
+              245.43270594451405
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.999718472467014,
+                -0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "b": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.9997763171436457,
+                -0.02114983873906655
+              ],
+              "points": [
+                {
+                  "a": [
+                    327.6643324848112,
+                    180.91291929110847
+                  ],
+                  "b": [
+                    312.280202381537,
+                    181.2383639583263
+                  ],
+                  "distance": -15.38757203934035
+                }
+              ]
+            }
+          ],
+          "path": "agent.arbiters"
+        },
+        {
+          "a_hash": "f55d97d59fb4cfd8773f9a7e8ecd3c6da86600752ce1a5e9baf893e0640c463f",
+          "b_hash": "c2e116c42608b503e393b49e03d3e1929bf220526bb15cb40103b16f582b58bf",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.999718472467014,
+                0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "b": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.9997763171436457,
+                0.02114983873906655
+              ],
+              "points": [
+                {
+                  "a": [
+                    312.280202381537,
+                    181.2383639583263
+                  ],
+                  "b": [
+                    327.6643324848112,
+                    180.91291929110847
+                  ],
+                  "distance": -15.38757203934035
+                }
+              ]
+            }
+          ],
+          "path": "block.arbiters"
+        },
+        {
+          "a_hash": "f32cdc080bbfef13bd5443dce304e30f531a9b3ec0997d13c530773ba1b85f70",
+          "b_hash": "2e5e6dc1aa6d6c9546153116b6e93dcff1a627408122a44471649abccd5f1184",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.1461190079581911,
+            "mean_abs": 0.08583249461960918
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 0,
+      "restored_vs_r1_bodies": [
+        {
+          "a": [
+            {
+              "impulse": [
+                6.012662233601869,
+                -8.817714656734932
+              ],
+              "normal": [
+                -0.5633741822404166,
+                0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "b": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                6.011200581392348,
+                -8.816396025908752
+              ],
+              "normal": [
+                -0.5633381983541935,
+                0.8262264061835903
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.5173926781066,
+                    348.8303921140246
+                  ],
+                  "b": [
+                    388.7889503423688,
+                    348.43210896249946
+                  ],
+                  "distance": -0.4820508622628609
+                }
+              ]
+            }
+          ],
+          "path": "agent.arbiters"
+        },
+        {
+          "a_hash": "187d7b370a09d9f0f87c85c9ec1342345acb323edb0dbce985f765bf30efbef7",
+          "b_hash": "3374678eee2c55ffce631d1fa95fef060f0728a90477c97570f17cd9660f2966",
+          "delta": {
+            "exact": false,
+            "max_abs": 4.355273596579057e-05,
+            "mean_abs": 4.355273596579057e-05
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "756fdd14aaedeb6252798225ee26f6be3e6f38d8a1d76973f6b6f75dcf842427",
+          "b_hash": "bd0f14deae1e8471309c6be59a882d0ceea6e44e6d785c4cfcbeaea8879813a0",
+          "delta": {
+            "exact": false,
+            "max_abs": 3.988301884222389e-06,
+            "mean_abs": 3.988301884222389e-06
+          },
+          "path": "block.angular_velocity"
+        },
+        {
+          "a": [
+            {
+              "impulse": [
+                -6.012662233601869,
+                8.817714656734932
+              ],
+              "normal": [
+                0.5633741822404166,
+                -0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "b": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                -6.011200581392348,
+                8.816396025908752
+              ],
+              "normal": [
+                0.5633381983541935,
+                -0.8262264061835903
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.7889503423688,
+                    348.43210896249946
+                  ],
+                  "b": [
+                    388.5173926781066,
+                    348.8303921140246
+                  ],
+                  "distance": -0.4820508622628609
+                }
+              ]
+            }
+          ],
+          "path": "block.arbiters"
+        },
+        {
+          "a_hash": "b434e60dcf9b11375ca25eafb7a5e0807a02272234d9c371922fd6f55fa99e36",
+          "b_hash": "cb6197654a475c0ef284ff59e07574d589416e9a311c5cc04e4c7e042f657a98",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.01287849750571013,
+            "mean_abs": 0.007090308520474764
+          },
+          "path": "block.position"
+        },
+        {
+          "a_hash": "ac9d3b5bbe97d8acbf3f36cfe02ba230178d3a7238778c5472ddfe90e88c4ea8",
+          "b_hash": "8b6affab6b9463e0da666bd40942abe9a836f525fa2bb3545f9de1ad4fb0d21e",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.0014616522095209916,
+            "mean_abs": 0.0013901415178496634
+          },
+          "path": "block.velocity"
+        }
+      ],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "e18"
+    },
+    {
+      "after_assignment_checks": {
+        "agent.position": {
+          "exact": false,
+          "max_abs": 0.20375017166139742,
+          "mean_abs": 0.13433183431627072
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": false,
+          "max_abs": 0.005482949161206951,
+          "mean_abs": 0.005482949161206951
+        },
+        "block.position": {
+          "exact": false,
+          "max_abs": 1.0448108763731625,
+          "mean_abs": 0.581652011002916
+        }
+      },
+      "after_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                6.012662233601869,
+                -8.817714656734932
+              ],
+              "normal": [
+                -0.5633741822404166,
+                0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "b": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "a996c1371f13e67f7b9c4906a78c882fefa5d774b4df7a7e052c56d10d8a4c7a",
+            "shape": [
+              2
+            ],
+            "values": [
+              396.9674656534195,
+              336.4369960212708
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "187d7b370a09d9f0f87c85c9ec1342345acb323edb0dbce985f765bf30efbef7",
+            "shape": [],
+            "values": 0.5984641088482492
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "756fdd14aaedeb6252798225ee26f6be3e6f38d8a1d76973f6b6f75dcf842427",
+            "shape": [],
+            "values": 0.18689317961787016
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -6.012662233601869,
+                8.817714656734932
+              ],
+              "normal": [
+                0.5633741822404166,
+                -0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "b": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "b434e60dcf9b11375ca25eafb7a5e0807a02272234d9c371922fd6f55fa99e36",
+            "shape": [
+              2
+            ],
+            "values": [
+              345.38770638418566,
+              318.83016306750767
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "ac9d3b5bbe97d8acbf3f36cfe02ba230178d3a7238778c5472ddfe90e88c4ea8",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.012662233601869,
+              8.817714656734932
+            ]
+          }
+        }
+      },
+      "before_assignment_checks": {
+        "agent.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "agent.velocity": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.angle": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        },
+        "block.position": {
+          "exact": true,
+          "max_abs": 0.0,
+          "mean_abs": 0.0
+        }
+      },
+      "before_physics_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.999718472467014,
+                -0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    412.0281562373959,
+                    335.8773391808751
+                  ],
+                  "b": [
+                    303.73533911703504,
+                    336.82766616769254
+                  ],
+                  "distance": -108.28487822485593
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "f10417f8afaf6deee98d44a04373bb0da60fbb8ea0cb6b11a3c408da156e230c",
+            "shape": [
+              2
+            ],
+            "values": [
+              397.0323791503906,
+              336.2332458496094
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "aa91c6a78241dc38669852db3a35b60080ac8b086ad5cc545ed7eba77e6e3b39",
+            "shape": [
+              2
+            ],
+            "values": [
+              -6.491349697113037,
+              20.375017166137695
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "d51c97df7ce61e036a5e68d8304febaf83d77542575c9381567b2e740bfb6287",
+            "shape": [],
+            "values": 0.5929811596870422
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.999718472467014,
+                0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    303.73533911703504,
+                    336.82766616769254
+                  ],
+                  "b": [
+                    412.0281562373959,
+                    335.8773391808751
+                  ],
+                  "distance": -108.28487822485593
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "ca05da381fe904e271bfc59f5ce76809c659547712f9fac051a77d4776ae1534",
+            "shape": [
+              2
+            ],
+            "values": [
+              344.3428955078125,
+              318.711669921875
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "case_id": 0,
+      "chipmunk_version": "2.0.1-ade7ed72849e60289eefb7a41e79ae6322fefaf3",
+      "geometry_repeat": 1,
+      "inferred_bias": {
+        "agent": {
+          "angular": 0.0,
+          "linear": [
+            -1.3642420526593924e-12,
+            2.0463630789890885e-12
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        },
+        "block": {
+          "angular": 0.5482949161206951,
+          "linear": [
+            84.0579797587111,
+            -1.9950146886628772
+          ],
+          "note": "kinematically inferred from pinned native position-update formula, not a direct private-cache measurement"
+        }
+      },
+      "old_trace_sha256": "0b120805d74c1f09a635a31f879e113bf098a296f6206d2c57fea7cadcc80dc4",
+      "primed_bodies": {
+        "agent": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.999718472467014,
+                -0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "b": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "9402bb655bc3b7331a00f1219ef647565bbe517c74aa0e41026885785867d1cd",
+            "shape": [],
+            "values": {
+              "nonfinite": "inf"
+            }
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "4ccf35fef2fbc8e302712b20b65a9a98007bc7ffc02a5024b298eae60da03d4b",
+            "shape": [
+              2
+            ],
+            "values": [
+              312.6676877276565,
+              181.23016687219447
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        },
+        "block": {
+          "angle": {
+            "dtype": "float64",
+            "sha256": "f55d97d59fb4cfd8773f9a7e8ecd3c6da86600752ce1a5e9baf893e0640c463f",
+            "shape": [],
+            "values": -3.165321991701216
+          },
+          "angular_velocity": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "arbiters": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.999718472467014,
+                0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "b": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "center_of_gravity": {
+            "dtype": "float64",
+            "sha256": "d00043fb229196d4d7651b79cf0f01b5f31c0d07915798b885d5a6b8b5d6a84d",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              45.0
+            ]
+          },
+          "force": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          },
+          "is_sleeping": {
+            "dtype": "bool",
+            "sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+            "shape": [],
+            "values": false
+          },
+          "mass": {
+            "dtype": "float64",
+            "sha256": "6c3c396ed6b5c36dcae172271f462051b1266b851e92df3deea8ac65478fd712",
+            "shape": [],
+            "values": 1.0
+          },
+          "moment": {
+            "dtype": "float64",
+            "sha256": "8073e09ef4c9db89350fca715ebff52b75617234611d7935a83b2153583b5bab",
+            "shape": [],
+            "values": 3000.0
+          },
+          "position": {
+            "dtype": "float64",
+            "sha256": "f32cdc080bbfef13bd5443dce304e30f531a9b3ec0997d13c530773ba1b85f70",
+            "shape": [
+              2
+            ],
+            "values": [
+              328.6191072217818,
+              245.43270594451405
+            ]
+          },
+          "torque": {
+            "dtype": "float64",
+            "sha256": "af5570f5a1810b7af78caf4bc70a660f0df51e42baf91d4de5b2328de0e83dfc",
+            "shape": [],
+            "values": 0.0
+          },
+          "velocity": {
+            "dtype": "float64",
+            "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb",
+            "shape": [
+              2
+            ],
+            "values": [
+              0.0,
+              0.0
+            ]
+          }
+        }
+      },
+      "primed_vs_r1_reset_bodies": [
+        {
+          "a": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.999718472467014,
+                -0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "b": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                -0.0,
+                -0.0
+              ],
+              "normal": [
+                0.9997763171436457,
+                -0.02114983873906655
+              ],
+              "points": [
+                {
+                  "a": [
+                    327.6643324848112,
+                    180.91291929110847
+                  ],
+                  "b": [
+                    312.280202381537,
+                    181.2383639583263
+                  ],
+                  "distance": -15.38757203934035
+                }
+              ]
+            }
+          ],
+          "path": "agent.arbiters"
+        },
+        {
+          "a_hash": "f55d97d59fb4cfd8773f9a7e8ecd3c6da86600752ce1a5e9baf893e0640c463f",
+          "b_hash": "c2e116c42608b503e393b49e03d3e1929bf220526bb15cb40103b16f582b58bf",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.002577922279134004,
+            "mean_abs": 0.002577922279134004
+          },
+          "path": "block.angle"
+        },
+        {
+          "a": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.999718472467014,
+                0.023727111248953433
+              ],
+              "points": [
+                {
+                  "a": [
+                    312.09143794683416,
+                    181.24384346518872
+                  ],
+                  "b": [
+                    327.6634648146618,
+                    180.8742602034602
+                  ],
+                  "distance": -15.57641205668671
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                0.0,
+                0.0
+              ],
+              "normal": [
+                -0.9997763171436457,
+                0.02114983873906655
+              ],
+              "points": [
+                {
+                  "a": [
+                    312.280202381537,
+                    181.2383639583263
+                  ],
+                  "b": [
+                    327.6643324848112,
+                    180.91291929110847
+                  ],
+                  "distance": -15.38757203934035
+                }
+              ]
+            }
+          ],
+          "path": "block.arbiters"
+        },
+        {
+          "a_hash": "f32cdc080bbfef13bd5443dce304e30f531a9b3ec0997d13c530773ba1b85f70",
+          "b_hash": "2e5e6dc1aa6d6c9546153116b6e93dcff1a627408122a44471649abccd5f1184",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.1461190079581911,
+            "mean_abs": 0.08583249461960918
+          },
+          "path": "block.position"
+        }
+      ],
+      "repeat": 1,
+      "restored_vs_r1_bodies": [
+        {
+          "a": [
+            {
+              "impulse": [
+                6.012662233601869,
+                -8.817714656734932
+              ],
+              "normal": [
+                -0.5633741822404166,
+                0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "b": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                6.011200581392348,
+                -8.816396025908752
+              ],
+              "normal": [
+                -0.5633381983541935,
+                0.8262264061835903
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.5173926781066,
+                    348.8303921140246
+                  ],
+                  "b": [
+                    388.7889503423688,
+                    348.43210896249946
+                  ],
+                  "distance": -0.4820508622628609
+                }
+              ]
+            }
+          ],
+          "path": "agent.arbiters"
+        },
+        {
+          "a_hash": "187d7b370a09d9f0f87c85c9ec1342345acb323edb0dbce985f765bf30efbef7",
+          "b_hash": "3374678eee2c55ffce631d1fa95fef060f0728a90477c97570f17cd9660f2966",
+          "delta": {
+            "exact": false,
+            "max_abs": 4.355273596579057e-05,
+            "mean_abs": 4.355273596579057e-05
+          },
+          "path": "block.angle"
+        },
+        {
+          "a_hash": "756fdd14aaedeb6252798225ee26f6be3e6f38d8a1d76973f6b6f75dcf842427",
+          "b_hash": "bd0f14deae1e8471309c6be59a882d0ceea6e44e6d785c4cfcbeaea8879813a0",
+          "delta": {
+            "exact": false,
+            "max_abs": 3.988301884222389e-06,
+            "mean_abs": 3.988301884222389e-06
+          },
+          "path": "block.angular_velocity"
+        },
+        {
+          "a": [
+            {
+              "impulse": [
+                -6.012662233601869,
+                8.817714656734932
+              ],
+              "normal": [
+                0.5633741822404166,
+                -0.8262018704801761
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.791832264496,
+                    348.42676021569423
+                  ],
+                  "b": [
+                    388.51685291981323,
+                    348.83002407847346
+                  ],
+                  "distance": -0.4880936211689231
+                }
+              ]
+            }
+          ],
+          "b": [
+            {
+              "impulse": [
+                -6.011200581392348,
+                8.816396025908752
+              ],
+              "normal": [
+                0.5633381983541935,
+                -0.8262264061835903
+              ],
+              "points": [
+                {
+                  "a": [
+                    388.7889503423688,
+                    348.43210896249946
+                  ],
+                  "b": [
+                    388.5173926781066,
+                    348.8303921140246
+                  ],
+                  "distance": -0.4820508622628609
+                }
+              ]
+            }
+          ],
+          "path": "block.arbiters"
+        },
+        {
+          "a_hash": "b434e60dcf9b11375ca25eafb7a5e0807a02272234d9c371922fd6f55fa99e36",
+          "b_hash": "cb6197654a475c0ef284ff59e07574d589416e9a311c5cc04e4c7e042f657a98",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.01287849750571013,
+            "mean_abs": 0.007090308520474764
+          },
+          "path": "block.position"
+        },
+        {
+          "a_hash": "ac9d3b5bbe97d8acbf3f36cfe02ba230178d3a7238778c5472ddfe90e88c4ea8",
+          "b_hash": "8b6affab6b9463e0da666bd40942abe9a836f525fa2bb3545f9de1ad4fb0d21e",
+          "delta": {
+            "exact": false,
+            "max_abs": 0.0014616522095209916,
+            "mean_abs": 0.0013901415178496634
+          },
+          "path": "block.velocity"
+        }
+      ],
+      "source_sha256": "a60b605a02cff2cd3bd75e8c771430bbe0f64a2e0f3bdcdf1f63ca7a9443993b",
+      "stack": "e18"
+    }
+  ],
+  "source_sha256": "d142c415bac81a6ef43376571e29d2688712b55ef489d8d588af9175c4186175"
+}

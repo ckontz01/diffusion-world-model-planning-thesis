@@ -38,6 +38,8 @@ The [shared-infrastructure review](cluster/prometheus/E18-SHARED-INFRASTRUCTURE-
 
 The subsequently authorized [E19-R1 reset/fixed-stimulus check](cluster/prometheus/E19-R1-RESET-FIXED-STIMULUS-RESULT-2026-09-05.md) performed short engineering executions, not new planning or benchmark evaluation. Twenty valid traces delivered 300 post-restoration actions. Paired actions matched in all cases, but one PushT case in each stack already had differing block poses after restoration; initial dataset-overlaid states hid those differences. Cube qpos/qvel/targets matched while other integration fields differed; three pairs converged after one action and one E18 pair retained small numerical drift. Confirmation remains on hold pending resolution of the restoration contract. The diffusion planner and all historical decisions are unchanged.
 
+The [R2 targeted localization](cluster/prometheus/E19-R2-LOCALIZATION-RESULT-2026-09-05.md) found exact requested PushT fields before the setter step, but different post-step block poses under explicit reset seeds 32 and 33. Repeatability under one seed therefore does not establish correct restoration. Retained contact/integration state is consumed during the setter's physics advancement. R2 also discloses R1's additional SAGE Cube global seeding and classifies the preserved E18 warning as signed-velocity bounds metadata. No production correction was made; arm/batch equivalence and confirmation remain gated on an approved restoration contract.
+
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, a comparison with official PRISM, or a validated efficacy comparison against official SAGE.
 
 ## E13 matched PRISM-DP results first, by task
@@ -329,6 +331,24 @@ See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFF
   or author contact occurred.
 
 See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-PROTOCOL-2026-08-30.md), [implementation changelog](cluster/prometheus/E19-D2-IMPLEMENTATION-CHANGELOG-2026-08-30.md), [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md), and [review packet](cluster/prometheus/e19-d2-author-evidence/README.md).
+
+### 5 September: E19-R2 targeted restoration localization
+
+- Job 300299 completed 24 fresh one-action engineering runs on two exposed
+  PushT records, with native resets and prespecified explicit seeds 32/33.
+  Requested fields were exact before physics; seed-dependent contact-state
+  carryover produced different restored block poses despite paired repeatability.
+- Job 300300 performed eight isolated contact-geometry probes with no actions.
+  The bad R1 reset geometries reproduced the kind of displacement, not the
+  exact historical values; its seed-32 baseline was not contact-neutral.
+  The limitation and all residuals are preserved, without a retry to improve fit.
+- Source/old-trace audit clarified R1 Cube global seeding and classified all
+  56 out-of-bounds observations among 180 checked R1 PushT steps as E18
+  signed-velocity declaration violations.
+- No historical decision, diffusion model or production environment changed.
+  The restoration contract must be approved before dynamic arm/batch checks
+  or confirmation. See the [result](cluster/prometheus/E19-R2-LOCALIZATION-RESULT-2026-09-05.md)
+  and [implementation history](cluster/prometheus/E19-R2-IMPLEMENTATION-CHANGELOG-2026-09-05.md).
 
 ### 5 September: E19-R1 reset and fixed diagnostic stimulus
 
