@@ -1,0 +1,26 @@
+{
+  "study_directory": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-63f0440",
+  "source_directory": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/independent-pusht-63f0440",
+  "source_commit": "63f0440",
+  "collection_job": "300326",
+  "stage_0": {
+    "stage": 0,
+    "cumulative_n": 1600,
+    "task_count": 450,
+    "array_job": "300327",
+    "analysis_job": "300328",
+    "continuation_job": "300329",
+    "dependency": "300326",
+    "source_manifest_sha256": "1b86846d65a9f59ca108fefca6ab77af01e2f543deaa2e4264d784dc9e97f662"
+  },
+  "status": "collection_and_evaluation_dependencies_submitted",
+  "reference_count": 6000,
+  "looks": [
+    1600,
+    3200,
+    6000
+  ],
+  "statistical_results_available": false,
+  "raw_data_location": "Prometheus; local backup after collection validation",
+  "models_unchanged": true
+}
