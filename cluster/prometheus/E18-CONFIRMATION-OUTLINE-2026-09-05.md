@@ -19,6 +19,22 @@ development sample does not provide a reliable confirmatory effect-size
 estimate. E17 remains failed; use of its unchanged adapter is a planner-level
 hypothesis, not retroactive validation of the adapter's old gate.
 
+### Proposed same-proposal greedy-64 control (not implemented)
+
+Add a mechanistic control that receives exactly the continuation planner's
+same first 64 proposals, in the same order and from the same sampled bank.
+Choose by immediate endpoint cost instead of continuation cost. Sharing only
+a seed is insufficient: verify the complete first-proposal tensor identity.
+Keep the diffusion model, initial proposal generation, action transforms,
+execution schedule and records unchanged. This control isolates the choice
+of scoring rule at a fixed initial candidate population; it is not a
+compute-matched substitute for greedy-300.
+
+Its inferential role (secondary/mechanistic versus an additional primary
+comparison), multiplicity treatment and timing accounting must be declared
+before a future freeze. This addition does not change historical E18 arms,
+implement a new planner, select a holdout, or authorize an evaluation.
+
 ## Work completed before this outline
 
 - Corrected the earlier E18 numerical interpretation and clarified that its
