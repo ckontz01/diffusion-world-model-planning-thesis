@@ -6,7 +6,7 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-As of 30 August 2026, two frozen untouched-holdout studies support complementary conclusions. E14 and its single preregistered E15 redesign stopped before closed-loop long-horizon comparison; E16 and E17 then isolated candidate-ranking headroom and an imperfect transition-state interface. The separately frozen E18 study produced positive, development-only closed-loop evidence for the resulting continuation planner. E19 subsequently completed a pinned native reproduction of official SAGE and stopped because the unchanged release's two-point fidelity rule failed.
+As of 5 September 2026, two frozen untouched-holdout studies support complementary conclusions. E14 and its single preregistered E15 redesign stopped before closed-loop long-horizon comparison; E16 and E17 then isolated candidate-ranking headroom and an imperfect transition-state interface. The separately frozen E18 study produced positive, development-only closed-loop evidence for the resulting continuation planner. E19 subsequently completed a pinned native reproduction of official SAGE and stopped because the unchanged release's two-point fidelity rule failed. The new E19-L1 engineering follow-up localizes the exposed diagnostic discrepancies without changing any historical decision or running new episodes.
 
 E11 remains the cleanest diffusion-specific result. On PushT, Reacher, and Cube, goal-conditioned velocity diffusion achieved 93.39% equal-task success, compared with 90.64% for a matched learned Gaussian selector and 83.31% for a published-equation reconstruction of ACID. Diffusion exceeded Gaussian by **+2.75 percentage points**, with a 95% paired start-cluster interval of **[+1.64, +3.89]**. Its **+10.08-point** comparison with reconstructed ACID, interval **[+8.31, +11.89]**, combines the learned one-shot-proposal advantage with the narrower diffusion-specific effect.
 
@@ -31,6 +31,10 @@ E19 pinned official SAGE commit `8219029fd52e89157e05aebb998ab26f0ef46966`, its 
 A separately frozen, outcome-informed E19 discrepancy diagnostic then ran two exact repeats of five prespecified sentinel cells plus a fixed-bank runtime/transport comparison. All ten sentinels and the comparison completed, but the sealed analyzer deliberately failed its frozen `internal_valid` gate. Under the preregistered failure barrier, its JSON/TSV outputs were checksum-validated but not opened or interpreted. The diagnostic is therefore invalid, identifies no mismatch class, authorizes no E20, and does not amend E19. See the [transparent diagnostic stop](cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md).
 
 Static source inspection then established that the failed analyzer's history-latent gate was impossible for the prespecified generator-free `base_cem` sentinel independently of outcomes. A separately named E19-D2 reanalysis changed only that event-validity expectation, reused the checksum-verified raw artifacts without rerunning episodes, and preserved the first diagnostic as invalid. E19-D2 was internally valid but found two objective mismatch classes: no sentinel had exact fresh-process trace/bank repeatability, and PushT JPEG/Lance transport changed elite membership in 31/50 and 39/50 environments for the two tested banks. Strict official-runtime loading matched the compatibility load exactly, and the Cube cache audit passed. Because the frozen rule requires exactly one unique mismatch, E20 remains unauthorized; an evidence packet was prepared for review but not sent. See the [E19-D2 result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md).
+
+E19-L1 then checked the already exposed artifacts field by field and replayed only fixed candidate banks. All five first planning calls agree in their recorded computational fields; initial bank differences are additional environment `info` fields, not different first candidates/costs. All eight available CEM banks reproduce historical costs and fitted distributions exactly, and no actual `repr` record or first-call elite-boundary tie was found. Later differences begin after the first action block, with one changed outcome in 250 existing paired episode comparisons. JPEG/lossless transport replaces an average of 0.92 and 1.48 of 30 elites in the two tested banks, but the authors' actual representation and any effect on success remain unknown. These are diagnostic discrepancies, not two proven causes of the paper-table gap. See the [L1 result](cluster/prometheus/E19-L1-EXPOSED-ARTIFACT-LOCALIZATION-RESULT-2026-09-05.md) and [unsent supplemental packet](cluster/prometheus/e19-l1-evidence/README.md).
+
+The [shared-infrastructure review](cluster/prometheus/E18-SHARED-INFRASTRUCTURE-REVIEW-2026-09-05.md) also corrects the earlier interpretation of E18: PushT H150 was 44.44% versus 25.00% for both greedy VAD-300 and Gaussian continuation. Recorded timing ratios were approximately 2.00x and 1.85x, with the important qualification that these are batch-amortized seconds per context-stage. The reset/state-restoration interface remains an engineering gate before confirmation; E18 is not assumed immune to a problem discovered in SAGE. A [non-executable confirmation outline](cluster/prometheus/E18-CONFIRMATION-OUTLINE-2026-09-05.md) is prepared, but no holdout or new comparison is authorized.
 
 The resulting paper claim is scoped: pure velocity diffusion is a strong learned action proposer and a compute-efficient alternative to the tested disclosed PRISM-DP reconstruction. The repository does not establish universal superiority, an official ACID reproduction, a comparison with official PRISM, or a validated efficacy comparison against official SAGE.
 
@@ -324,6 +328,30 @@ See the [frozen diagnostic protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-OFF
 
 See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-PROTOCOL-2026-08-30.md), [implementation changelog](cluster/prometheus/E19-D2-IMPLEMENTATION-CHANGELOG-2026-08-30.md), [audited result](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md), and [review packet](cluster/prometheus/e19-d2-author-evidence/README.md).
 
+### 5 September: E19-L1 exposed-artifact localization
+
+- Kept E19, the first invalid diagnostic, E19-D2 and the old author packet
+  unchanged. The historical two-class rule remains part of D2, not a general
+  ban on future objectively justified repairs.
+- Verified the ten exposed runs' 40 sealed files and five original baseline
+  hashes. Compared actual tensors, all recorded CEM updates and paired episode
+  outcomes. No opaque `repr` record occurred; all five first computational
+  planning calls were exact. Later observation/state drift remains unresolved
+  at the simulator reset/step boundary.
+- Fixed-bank job `300296` passed 12 exact-environment tests, all eight original
+  elite/mean/std reconstructions and exact historical cost replays. Preserved
+  the prior report-serialization failure `300295` and documented its narrow
+  nonfinite-metadata correction.
+- Quantified transport changes as 46 and 74 replacements out of 1,500 elite
+  slots, rather than interpreting the 31/50 and 39/50 any-change flags as
+  wholesale replacement or a demonstrated success loss.
+- Added three CPU reduction tests, an independent package verifier, the E18
+  shared-infrastructure review and confirmation outline. The existing E18
+  unit suite passed 12 tests. No new episode, holdout, training, E20, SAGE
+  comparison or author contact occurred.
+
+See the [plan](cluster/prometheus/E19-L1-EXPOSED-ARTIFACT-LOCALIZATION-PLAN-2026-09-05.md), [implementation history](cluster/prometheus/E19-L1-IMPLEMENTATION-CHANGELOG-2026-09-05.md), [result](cluster/prometheus/E19-L1-EXPOSED-ARTIFACT-LOCALIZATION-RESULT-2026-09-05.md) and [review packet](cluster/prometheus/e19-l1-evidence/README.md).
+
 ## Compact experiment ledger
 
 | Stage | Question | Outcome |
@@ -354,6 +382,7 @@ See the [E19-D2 protocol](cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWAR
 | E19 | Does the pinned official SAGE release reproduce its complete paper grid, and are its episode manifests disjoint from E18 training? | No. All 180 cells and 9,000 episodes were valid, but the unchanged ±2-point summarizer passed only 29/60 means; maximum gap 25.97 points. Official manifests also overlapped E18 training by 270 PushT and 84 Cube episodes. No matched comparison was authorized. |
 | E19 discrepancy diagnostic | Can exact sentinel repeats and read-only intermediate comparisons isolate one objective technical cause of the E19 gap? | Invalid stop. Ten sentinel repeats and the fixed-bank comparison completed, but the sealed analyzer failed its frozen internal-validity gate. Outputs were not interpreted; no mismatch class, E20, or author packet was authorized. |
 | E19-D2 reanalysis | Does the outcome-independent method-event defect explain the first diagnostic's invalidity, and does a method-aware gate isolate one unique cause? | The corrected analyzer was valid, but found two classes: exact fresh-process repeatability failed for all five sentinels, and PushT JPEG/Lance transport changed elite membership. Runtime-load and Cube-cache parity passed. Multiple classes forbid E20; an unsent evidence packet was prepared. |
+| E19-L1 engineering localization | What actually differs in the exposed repeats, and are the tracer/transport flags established causes? | All first planning calls and fixed-input CEM replays agree; later state/observation drift produces one flip in 250 paired outcomes. Transport replaces a mean 0.92/30 and 1.48/30 elites. No author-encoding mismatch or full-table root cause is established; no new episode or E20 ran. |
 
 ## ACID comparator status
 
@@ -374,7 +403,7 @@ The method and all E11--E19 evidence stay frozen. E17 triggered its prewritten t
 3. Report E12's PRISM artifact-validity stop and E13's non-superiority/compute-efficiency result, always limiting PRISM claims to the disclosed reconstruction.
 4. Complete the line-by-line ACID fidelity appendix, published-number comparison, and compute-budget curve as secondary evidence. Keep diffusion-plus-ACID outside the present method.
 5. Finish reproducibility packaging, frozen-table generation, limitations, and the author-code/checkpoint correspondence record before starting another benchmark family.
-6. Keep any future E18 confirmation separate from E19. Do not draft or launch a matched comparison on the official SAGE paper manifests, and do not use the released SAGE means as a validated baseline. Review the E19-D2 author evidence packet with the user and supervisor before any correspondence; do not contact the authors automatically. E19-D2 forbids E20 because its two mismatch classes are non-unique. If the SAGE comparison is revisited later, first justify a new protocol around the preserved common untouched episode split and the failed native-reproduction result before exposing any holdout. Do not tune E18, change any failed E15--E17 gate, or consume D5 automatically. Consider a separately justified PLDM cross-backbone study only after the manuscript-gap review.
+6. Keep E18 confirmation separate from SAGE reproduction fidelity. Review the new E18 confirmation outline and close its shared reset/state-restoration engineering gate before freezing or consuming any holdout. E19-L1 qualifies the interpretation of D2's flags without changing its failed authorization decision; the historical exactly-one-class rule is not a universal prohibition on future documented, source-justified repairs. Await the authors' exact artifacts and prepare evidence supplements for user review; never contact them automatically. Do not use the released SAGE means as a validated baseline or draft/launch a matched comparison on its overlapping official paper manifests. Any later matched comparison needs a separately justified, episode-disjoint protocol and explicit authorization. Do not tune E18, change failed E15--E17 gates, or consume D5 automatically. Consider a separately justified PLDM cross-backbone study only after the manuscript-gap review.
 
 The paper's most defensible established headline remains approximately:
 
