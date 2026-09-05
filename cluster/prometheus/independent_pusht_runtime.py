@@ -37,12 +37,14 @@ def tensor_hash(modules):
     return h.hexdigest()
 
 class Decoder:
-    def __init__(self,mean,scale): self.mean_=np.asarray(mean,np.float64);self.scale_=np.asarray(scale,np.float64)
-    def inverse_transform(self,x):
-        # sklearn StandardScaler in-place dtype semantics, including float32 roundoff.
-        x=x.copy();x*=self.scale_;x+=self.mean_;return x
-    def transform(self,x):
-        x=x.copy();x-=self.mean_;x/=self.scale_;return x
+    def __init__(self,mean,scale):
+        from sklearn.preprocessing import StandardScaler
+        self._scaler=StandardScaler()
+        self.mean_=self._scaler.mean_=np.asarray(mean,np.float64)
+        self.scale_=self._scaler.scale_=np.asarray(scale,np.float64)
+        self._scaler.n_features_in_=len(self.mean_)
+    def inverse_transform(self,x): return self._scaler.inverse_transform(x.copy())
+    def transform(self,x): return self._scaler.transform(x.copy())
 
 
 def official_lewm_pickle_aliases():
