@@ -38,7 +38,7 @@ def evaluate_one(world,factory,record,horizon,seed,arm,cap=None,action_rule='str
         for t in range(max_steps):
             np.testing.assert_array_equal(world.infos['goal'],goal)
             np.testing.assert_array_equal(world.infos['state'][0,-1],world.envs.envs[0].unwrapped._get_obs())
-            info=deepcopy(world.infos) if arm=='sage' else computational_info(world.infos)
+            info=deepcopy(world.infos) if arm in ('sage','sage_box') else computational_info(world.infos)
             try:
                 raw=np.asarray(policy.get_action(info)).copy()
                 if raw.shape!=(1,2) or not np.isfinite(raw).all():raise ValueError('nonfinite/invalid-shaped action')
@@ -110,6 +110,6 @@ if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--data',required=True);p.add_argument('--out',required=True)
     p.add_argument('--arm',choices=ARMS,required=True);p.add_argument('--train-seed',type=int,default=7201)
     p.add_argument('--indices',type=str);p.add_argument('--pilot',action='store_true');p.add_argument('--cap',type=int)
-    p.add_argument('--action-rule',choices=['strict','project_box'],default='strict')
+    p.add_argument('--action-rule',choices=['strict','project_box','native_finite'],default='strict')
     a=p.parse_args();run(a.data,a.out,a.arm,a.train_seed,
       indices=[int(i) for i in a.indices.split(',')] if a.indices else None,pilot=a.pilot,cap=a.cap,action_rule=a.action_rule)

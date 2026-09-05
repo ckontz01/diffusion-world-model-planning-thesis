@@ -13,7 +13,7 @@ TRAIN=ROOT/'experiments/gdp-cem-e15/development-run-20260825-ebd6109b/training'
 ADAPTER=ROOT/'experiments/gdp-cem-e17/development-run-20260827-9fb5a8c2/models/pusht'
 LEWM=ROOT/'data/stablewm/pusht/lewm_hf_22b330c_object.ckpt'
 ARMS=('vad_continuation','vad_greedy_300','diagonal_gaussian_continuation',
-      'vad_greedy_576','direct_gmm_continuation','sage')
+      'vad_greedy_576','direct_gmm_continuation','sage','sage_box')
 
 def sha(path):
     h=hashlib.sha256()
@@ -65,7 +65,7 @@ def build(arm,train_seed):
     device=torch.device('cuda')
     pins=json.loads(Path(__file__).with_name('INDEPENDENT-PINNED-INPUTS.json').read_text())
     assert sha(LEWM)==pins['lewm_sha256']
-    if arm=='sage':
+    if arm in ('sage','sage_box'):
         # Add only after the shared installed simulator has been imported.
         sys.path.append(str(SAGE))
         from sage.eval import pusht as p
