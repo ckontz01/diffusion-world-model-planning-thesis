@@ -68,9 +68,10 @@ not a claim of arbitrary middle-of-trajectory private-state restoration.
 All6,000 record hashes, shapes, finite values, action bounds, arena bounds,
 unique starts and start-goal fingerprints passed the primary collection gate.
 That gate also checked64 witness replays:32 evenly spaced references, each with
-its H75 and H150 goal rendered independently. A supplementary full-reference
-replay job is recorded separately; its outcome must not be inferred from the
-primary witness pass.
+its H75 and H150 goal rendered independently. Subsequently CPU job300346 replayed
+ALL6,000 references under both goals:12,000 goal-specific reference-action
+replays passed. This was a separate completed validation, not an inference
+from the witness sample. No compared model was called.
 
 Raw arrays are stored read-only on Prometheus in the collection directory.
 The original and launcher-corrected execution directories share identical,
