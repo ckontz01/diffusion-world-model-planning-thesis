@@ -1,0 +1,14 @@
+[
+    {
+        "original_sha256":  "2bd2ff6e414659d82b51d9c9c51a57c210088e2c9ad375d89ea7bc87bc24d26b",
+        "transformation":  "PowerShell UTF-16 JSON re-encoded as UTF-8; original retained outside repository",
+        "file":  "vhd-backup-status.json",
+        "repository_sha256":  "4dc165c966c2de001e64417b14e7e3a6b3f9178164f8982d026f608a0223b632"
+    },
+    {
+        "original_sha256":  "7d2c0fe1004cb556cdf1d2600da01beefe4893bfc083eb32bed7ac48acd5c676",
+        "transformation":  "PowerShell UTF-16 JSON re-encoded as UTF-8; original retained outside repository",
+        "file":  "fsck-readonly-v4-result.json",
+        "repository_sha256":  "1434aa46cf37226f5fbe72c2a0d7d5b79d80653fce0055436a08adcc2b4ea826"
+    }
+]
