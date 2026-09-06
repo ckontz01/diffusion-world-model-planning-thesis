@@ -1,0 +1,20 @@
+[
+  {
+    "name": "create_gdp_cem_e12_d4_manifest.py",
+    "bytes": 12118,
+    "sha256": "bef771a8a49008a830d9e2dfb6776544f2649553313b5248b69dff1a9cbf4587",
+    "copied_verified": true
+  },
+  {
+    "name": "evaluate_gdp_cem_e12_d4.py",
+    "bytes": 45315,
+    "sha256": "7c61306f712e08ceaa0f0579c48755936920096fe9c930a8a43a035d19dc5eef",
+    "copied_verified": true
+  },
+  {
+    "name": "test_create_gdp_cem_e12_d4_manifest.py",
+    "bytes": 4993,
+    "sha256": "a9314ff4d1c07c0173a778109d0ab0c1ab57b2b58d7a4bdd2762083ac809c09b",
+    "copied_verified": true
+  }
+]
