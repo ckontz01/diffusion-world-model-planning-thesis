@@ -1,0 +1,20 @@
+{
+  "study": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5",
+  "process_pid_wsl": 6095,
+  "source_commit": "bad3707",
+  "source_sha256": "e4d7198f5ceb8c1a52b8c96c07b5e6d3b49781a286e01c5d8864cfb54f3f921d",
+  "log": "/home/chris/thesis-artifacts/independent-pusht/INCREMENTAL-BACKUP.log",
+  "interval_seconds": 300,
+  "maximum_hours": 168,
+  "first_successful_backup": {
+    "new_shards": 18,
+    "sealed_shards_backed_up": 18,
+    "verified_bytes": 131991650,
+    "terminal": false,
+    "payloads_interpreted": false,
+    "index": "/home/chris/thesis-artifacts/independent-pusht/final-20260906-4a608e5/COMPLETED-SHARD-BACKUP.json"
+  },
+  "no_experiment_operations": true,
+  "payloads_interpreted": false,
+  "requires_local_machine_and_network": true
+}
