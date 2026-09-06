@@ -1,0 +1,40 @@
+{
+  "all_passed": true,
+  "rows": [
+    {
+      "batch": 1,
+      "history": 1,
+      "all_prepared_fields_bit_identical": true
+    },
+    {
+      "batch": 1,
+      "history": 3,
+      "all_prepared_fields_bit_identical": true
+    },
+    {
+      "batch": 3,
+      "history": 1,
+      "all_prepared_fields_bit_identical": true
+    },
+    {
+      "batch": 3,
+      "history": 3,
+      "all_prepared_fields_bit_identical": true
+    },
+    {
+      "batch": 50,
+      "history": 1,
+      "all_prepared_fields_bit_identical": true
+    },
+    {
+      "batch": 50,
+      "history": 3,
+      "all_prepared_fields_bit_identical": true
+    }
+  ],
+  "model_calls": 0,
+  "final_data_read": false,
+  "official_policy_source_sha256": "4967e7e3d5b20eb7a1d0b00e5d60fd701cce1c750ae7ec4a9b02529b9366db22",
+  "scope": "synthetic raw inputs, actual released transforms/normalizer; common vs vendor BasePolicy preparation only",
+  "source_sha256": "9ffc2b0d724d29d76cebdda3088e857834f97c59772094efbce94bc39955e65f"
+}
