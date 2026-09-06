@@ -1,0 +1,11 @@
+{
+    "checked_utc":  "2026-09-06T18:55:07.9653681Z",
+    "route":  "Desktop Commander -\u003e Windows WSL -\u003e Thesis-Ubuntu/chris -\u003e ssh prometheus",
+    "ssh_exit":  0,
+    "stdout":  "CHECK_UTC=2026-09-06T18:55:08Z\nHOST=controller1\nUSER=ckontzias\n     53 PENDING|Resources\n      2 RUNNING|None\n    395 COMPLETED|0:0\n      3 PENDING|0:0\n      2 RUNNING|0:0\nSTAGE_0_SEALED=395\nSTAGE_0_NOT_VERIFIED\nSTAGE_1_SEALED=0\nSTAGE_1_NOT_VERIFIED\nSTAGE_2_SEALED=0\nSTAGE_2_NOT_VERIFIED\nNO_TERMINAL\n",
+    "stderr":  "",
+    "scientific_changes":  false,
+    "analysis_payloads_read":  false,
+    "verification_note":  "Verifier/terminal file presence is not verification of their contents.",
+    "scope_note":  "Scheduler totals concern original stage-0 jobs. Seals and file flags cover all stages."
+}

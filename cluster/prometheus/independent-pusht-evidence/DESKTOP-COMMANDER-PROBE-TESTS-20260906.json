@@ -1,0 +1,13 @@
+{
+    "self_test_passed":  true,
+    "checks":  {
+                   "exact_wsl_route":  true,
+                   "strict_host_check":  true,
+                   "noninteractive_auth":  true,
+                   "bounded_connect":  true,
+                   "no_mutating_command":  true,
+                   "no_outcome_payload_read":  true,
+                   "fixed_endpoint":  true
+               },
+    "scientific_changes":  false
+}
