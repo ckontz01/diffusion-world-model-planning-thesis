@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-09-06T16:08:30Z",
+  "user_request": "Run all commands yourself",
+  "operation": "wsl.exe --unmount D:\\WSL\\Thesis-Ubuntu\\ext4.vhdx",
+  "invocation": "Normal Windows administrator elevation (Start-Process -Verb RunAs)",
+  "status": "administrator_consent_prompt_pending",
+  "calling_process": 1892,
+  "consent_process_observed": true,
+  "disk_check": "Previously completed read-only e2fsck exit 0; no further repair needed",
+  "windows_git_fsck_exit": 0,
+  "windows_checkout_and_github_head_before_this_record": "f41ef7c213b9ddab928c120c767bf7c11e872087",
+  "recovered_e12_draft_hashes_rechecked": 3,
+  "recovered_e12_draft_hashes_matched": 3,
+  "wsl_reopen_and_raw_backup_revalidation": "not yet executed",
+  "cluster_or_scientific_changes": false,
+  "credentials_exposed": false
+}
