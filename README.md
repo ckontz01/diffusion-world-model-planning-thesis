@@ -6,21 +6,37 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-The new independent PushT benchmark is implemented and launched on branch
-`independent-pusht-benchmark` (frozen source `63f0440`). Collector, common-runtime
-SAGE integration, accepted E18 driver parity, and 22 analysis/orchestration
-regressions passed. The prospective six-arm design has cumulative looks at
-1,600/3,200/6,000 independent reference episodes with fixed sequential rules.
-This is a new weak-policy reachable-goal distribution, not original SAGE paper
-reproduction. Collection job300326 completed and all6,000 reference files are backed up locally.
-A launcher-only array-index correction (`4a608e5`) passed23 tests and a real
-container handoff check. Corrected array300339, analysis300340 and controller300341
-use the same locked references and unchanged scientific design. No final
-comparative outcome is available yet. See
-[execution/recovery](cluster/prometheus/INDEPENDENT-PUSHT-RECOVERY.md),
-[protocol](cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md), and
-[progress](cluster/prometheus/INDEPENDENT-PUSHT-PROGRESS.md).
+The independent PushT benchmark is implemented, frozen and executing on branch
+`independent-pusht-benchmark`. All **6,000 newly collected references** passed
+integrity/uniqueness checks and **12,000 goal-specific reference-action replays**.
+Collection and execution records have separately hash-verified WSL backups.
+This is a declared weak-policy reachable-goal population, not the historical
+expert-data distribution or an exact SAGE-paper reproduction.
 
+The six-arm study uses unchanged E18 models and released full SAGE in one
+physical environment, with cumulative registered looks at1,600/3,200/6,000
+distinct references. The intended effect is+5pp against each of three primary
+controls; observed estimates are not required to exceed5pp. Statistical rules,
+method differences and resource assumptions were frozen before final collection.
+R3 and inherited model/planner bytes remain unchanged.
+
+**The comparative experiment is not yet complete at this manual update.**
+Array300339, dependent analysis300340 and controller300341 are executing the
+first stage. Complete-look reports are exported to the evidence directory only
+after independent verification. Completed opaque raw shards are backed up
+incrementally; this does not inspect partial performance.
+
+See the [timestamped execution status](cluster/prometheus/INDEPENDENT-PUSHT-EXECUTION-STATUS.md),
+[recovery instructions](cluster/prometheus/INDEPENDENT-PUSHT-RECOVERY.md),
+[data card](cluster/prometheus/INDEPENDENT-PUSHT-DATA-CARD.md),
+[frozen protocol](cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md), and
+[archived evidence and eventual verified results](cluster/prometheus/independent-pusht-evidence/).
+
+### Earlier preparatory record
+
+The following capacity analysis describes the previously proposed existing-data
+study. Its smaller-study recommendation was rejected and superseded by the
+independent-data study above; its historical findings remain unchanged.
 
 The [PushT design/feasibility package](cluster/prometheus/E18-DESIGN-FEASIBILITY-PACKAGE-2026-09-05.md)
 is complete as preparatory analysis, not confirmation authorization. The allowed

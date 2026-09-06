@@ -79,3 +79,26 @@ It stops after a verified terminal record, three consecutive archival errors,
 or its explicit process time cap. Process ID and launch record are recorded
 separately. Status SSH probes use -n so they cannot consume interactive REPL
 input; rsync's own SSH transport intentionally retains its protocol stdin.
+
+## Incremental backup before complete-look analysis
+
+`backup_completed_independent_pusht.py` copies tasks only after their DONE seal
+is present. It verifies every exported JSON/NPZ byte hash without interpreting
+those outcome payloads. The destination study contains an atomic
+`COMPLETED-SHARD-BACKUP.json` index. It is additive and never deletes remote
+artifacts or resubmits a task. Eight synthetic safety/integrity tests passed.
+
+The launched bounded WSL process is recorded in
+`independent-pusht-evidence/INCREMENTAL-BACKUP-PROCESS.json`. It needs the local
+machine/network, stops after a verified terminal indication or three backup
+errors, and has a168-hour process cap. This is software archival, not autonomous
+ChatGPT monitoring. The separate complete-look exporter handles Git publication.
+
+To perform a single idempotent backup from WSL:
+
+```bash
+python3 /home/chris/thesis/cluster/prometheus/backup_completed_independent_pusht.py   --study /lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5   --once
+```
+
+Do not run duplicate persistent archivers. Inspect the recorded process and its
+log first. Source code changes here never modify the frozen running snapshot.
