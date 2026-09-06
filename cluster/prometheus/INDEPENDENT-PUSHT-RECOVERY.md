@@ -57,3 +57,25 @@ No result may be claimed until the scientific run and independent verification
 actually complete. A scheduler submission is not a passed experiment.
 
 Launcher-only amendment4a608e5 preserves the original63f0440 scientific protocol and all collection bytes. Old array300327 and dependents were cancelled after an environment-index failure before planning. Completed collection backup exists under the original final-20260906-63f0440 local artifact directory.
+
+## User-owned verified-result archival process
+
+`archive_verified_independent_pusht.py` is a standalone WSL archival exporter.
+It checks for independently verified complete-look artifacts, copies their full
+raw stage data to the second local disk location, verifies hashes and commits
+only the generated reports/tables/verification records to this branch.
+It never submits/cancels experiments, changes sample sizes, tunes models, or
+interprets unverified partial outcomes. Five mocked publication/permission/hash
+regression tests pass. A live one-shot check correctly exported no unverified
+scientific results.
+
+The exporter uses existing git authentication; no credential is stored in it.
+It requires the Windows/WSL machine, network and existing SSH route to remain
+available. A different current Git branch or foreign staged edits stop export
+rather than committing elsewhere. Export interruption does not stop Slurm or
+remove remote artifacts. No permanent cron or system service is installed.
+
+It stops after a verified terminal record, three consecutive archival errors,
+or its explicit process time cap. Process ID and launch record are recorded
+separately. Status SSH probes use -n so they cannot consume interactive REPL
+input; rsync's own SSH transport intentionally retains its protocol stdin.

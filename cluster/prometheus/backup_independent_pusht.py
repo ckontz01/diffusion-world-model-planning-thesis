@@ -31,7 +31,7 @@ def sync(study,destination):
  import shlex
  if not study.startswith(REMOTE_ROOT) or not re.fullmatch(r'final-[A-Za-z0-9-]+',study[len(REMOTE_ROOT):]):
   raise ValueError('only this independent-study namespace may be backed up')
- status=json.loads(subprocess.check_output(['ssh','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','prometheus',
+ status=json.loads(subprocess.check_output(['ssh','-n','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','prometheus',
      'python3 -c '+shlex.quote(REMOTE_CHECK)+' '+shlex.quote(study)],text=True))
  if not status['collection_ready']:
   print(json.dumps(status));return status

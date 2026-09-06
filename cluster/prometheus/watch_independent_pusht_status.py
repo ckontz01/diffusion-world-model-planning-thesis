@@ -26,7 +26,7 @@ print(json.dumps({'stages':rows,'terminal_exists':(p/'TERMINAL.json').exists()})
 def watch(study,minutes,interval):
  deadline=time.monotonic()+minutes*60
  while True:
-  x=subprocess.run(['ssh','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=10',
+  x=subprocess.run(['ssh','-n','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','-o','ConnectTimeout=10',
        'prometheus','python3 -c '+shlex.quote(PROBE)+' '+shlex.quote(study)],capture_output=True,text=True,timeout=45)
   if x.returncode:
    print(json.dumps({'transport_error':True,'returncode':x.returncode}),flush=True);return 2

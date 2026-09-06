@@ -39,7 +39,7 @@ def archive(study,destination):
  if not study.startswith(REMOTE_ROOT) or not re.fullmatch(r'final-[A-Za-z0-9-]+',study[len(REMOTE_ROOT):]):
   raise ValueError('unsupported study path')
  dest=Path(destination)/Path(study).name;dest.mkdir(parents=True,exist_ok=True)
- remote=json.loads(subprocess.check_output(['ssh','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','prometheus',
+ remote=json.loads(subprocess.check_output(['ssh','-n','-o','BatchMode=yes','-o','StrictHostKeyChecking=yes','prometheus',
       'python3 -c '+shlex.quote(PROBE)+' '+shlex.quote(study)],text=True))
  for r in remote['shards']:
   local=dest/r['directory'];local.parent.mkdir(parents=True,exist_ok=True)
