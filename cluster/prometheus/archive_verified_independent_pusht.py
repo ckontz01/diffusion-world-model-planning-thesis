@@ -5,7 +5,7 @@ here. Only independently verified complete-look artifacts are interpreted and
 published. The Slurm controller alone follows the frozen statistical protocol.
 No credential is embedded; git uses the user's existing local authentication.
 """
-import argparse,hashlib,json,shlex,shutil,subprocess,sys,time
+import argparse,hashlib,json,os,shlex,shutil,subprocess,sys,time
 from pathlib import Path
 from backup_independent_pusht import sync
 
@@ -31,7 +31,8 @@ print(json.dumps({'verified':rows,'terminal_exists':terminal}))
 '''
 
 def git(*args):
- return subprocess.check_output(['git',*args],cwd=REPO,text=True).strip()
+ env=os.environ.copy();env['GIT_TERMINAL_PROMPT']='0'
+ return subprocess.check_output(['git',*args],cwd=REPO,text=True,env=env).strip()
 
 def committed(path):
  try:
@@ -80,7 +81,10 @@ def main(study,destination,interval,max_hours):
   try:
    # Retry an interrupted git push without creating another scientific result.
    if git('branch','--show-current')!=BRANCH:raise RuntimeError('working branch changed')
-   if git('rev-list','--count','origin/'+BRANCH+'..HEAD')!='0':git('push','origin',BRANCH)
+   if git('rev-list','--count','origin/'+BRANCH+'..HEAD')!='0':
+    if not git('log','-1','--format=%s').startswith('Archive independently verified PushT evaluation'):
+     raise RuntimeError('unpublished non-archival commits require explicit review')
+    git('push','origin',BRANCH)
    result=export(study,destination);failures=0
    print(json.dumps(result),flush=True)
    if result['terminal']:return 0
