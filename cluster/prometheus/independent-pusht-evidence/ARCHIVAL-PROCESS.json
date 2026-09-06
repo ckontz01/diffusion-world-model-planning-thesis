@@ -1,0 +1,17 @@
+{
+  "pid": 11692,
+  "device": "DESKTOP-7N8FN7C",
+  "wsl_distribution": "Thesis-Ubuntu",
+  "study": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5",
+  "branch": "independent-pusht-benchmark",
+  "script_commit": "b496ffc",
+  "poll_interval_seconds": 300,
+  "max_process_hours": 168,
+  "scope": "copy and publish complete independently verified analysis artifacts only",
+  "experiment_control": false,
+  "requires_local_machine_and_network": true,
+  "live_start_result": {
+    "new_looks": 0,
+    "terminal": false
+  }
+}
