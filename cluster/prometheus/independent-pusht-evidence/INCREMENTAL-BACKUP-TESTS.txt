@@ -1,0 +1,13 @@
+test_atomic_index (test_backup_completed_independent_pusht.BackupTests.test_atomic_index) ... ok
+test_changed_done (test_backup_completed_independent_pusht.BackupTests.test_changed_done) ... ok
+test_corrupt_payload (test_backup_completed_independent_pusht.BackupTests.test_corrupt_payload) ... ok
+test_invalid_probe_row (test_backup_completed_independent_pusht.BackupTests.test_invalid_probe_row) ... ok
+test_missing_coverage (test_backup_completed_independent_pusht.BackupTests.test_missing_coverage) ... ok
+test_namespace (test_backup_completed_independent_pusht.BackupTests.test_namespace) ... ok
+test_opaque_payloads_pass_without_interpretation (test_backup_completed_independent_pusht.BackupTests.test_opaque_payloads_pass_without_interpretation) ... ok
+test_unsafe_manifest (test_backup_completed_independent_pusht.BackupTests.test_unsafe_manifest) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.031s
+
+OK
