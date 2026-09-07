@@ -1,0 +1,362 @@
+{
+  "all_mechanical_checks_passed": true,
+  "checked_utc": "2026-09-07T16:25:58.506Z",
+  "readme_sha256": "a94fb7d1c0bc6cc6c22a99b08000c011297eef889a27d23631c27c5bdd1d9830",
+  "history_entries": 61,
+  "distinct_linked_files_checked": 57,
+  "reference_definitions_checked": 60,
+  "latest_table_percentages_checked": 18,
+  "required_labels_checked": 29,
+  "numeric_source": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+  "scope": "Link existence, label coverage, latest result arithmetic and narrow wording checks; not independent replication or a proof that prose is error-free.",
+  "sources": [
+    {
+      "id": "latest",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/INDEPENDENT-PUSHT-RESULT-2026-09-07.md",
+      "sha256": "ca800b10f582649ca3bf16b200a79b96c1c6c8a75b01f69a2216f7579a616c85"
+    },
+    {
+      "id": "protocol",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md",
+      "sha256": "eed2c11593a905424fa52678ddddc1fefe1c263ddba58ce2d1fef516adbf95de"
+    },
+    {
+      "id": "data-card",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/INDEPENDENT-PUSHT-DATA-CARD.md",
+      "sha256": "972da64a3dd83e947d693f2063b4ffc8194504aea60aae834b135240e28e6eed"
+    },
+    {
+      "id": "e11",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md",
+      "sha256": "65ba6eb2316cff18b3b74ea488279afbf38d3a3591e6158d25ae290b9bd991eb"
+    },
+    {
+      "id": "e13",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E13-VELOCITY-VS-PRISM-DP-UNTOUCHED-D4-RESULT-2026-08-22.md",
+      "sha256": "6ccb2e9277df134579734659037d6c9531299f4285e1576fb8905fd86455824d"
+    },
+    {
+      "id": "e18",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-RESULT-2026-08-28.md",
+      "sha256": "68fdb5b28368852cd70f6786300a116cf4620ee2644686f0005930a5ba4db203"
+    },
+    {
+      "id": "e18-protocol",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E18-EXPLORATORY-CONTINUATION-PLANNER-PROTOCOL-2026-08-27.md",
+      "sha256": "aff490f3f000c7d9b261632dcd3ccfc76a630b2f44e41f78832c3719607b8459"
+    },
+    {
+      "id": "e19",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-NATIVE-REPRODUCTION-RESULT-2026-08-29.md",
+      "sha256": "39ffb0aa50d72a136f5091c40966c10dd5381bd29aa70a3c94ad33c1bdf966a3"
+    },
+    {
+      "id": "initializer",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/PUSHT-FRESH-INITIALIZATION-INTERFACE.md",
+      "sha256": "b58bff0f40ea0365c6ad110bf3f648096793e0390f5fd8023835bc59c2cbb3a5"
+    },
+    {
+      "id": "planner",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/gdp_cem_e18_closed_loop.py",
+      "sha256": "5c3f831315fc7f8908208d5d66ebac856d20b0bdc02012dcfe98cf6fb5b5e4e9"
+    },
+    {
+      "id": "collector",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/independent_pusht_collect.py",
+      "sha256": "d66b49db6b56d61198299da2854bd29867eb75cc0ea7ce4f9806dda1e7cf55c7"
+    },
+    {
+      "id": "runtime",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/independent_pusht_runtime.py",
+      "sha256": "d6bae762318b8bd4456e47a8a824d2f73f4f24fde3f7ea71a261af61ad49c148"
+    },
+    {
+      "id": "evaluator",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/independent_pusht_evaluate.py",
+      "sha256": "047762262f59d61371faebf954f76681bfc61f0637d11fee929c85a9f1e7adf9"
+    },
+    {
+      "id": "analyzer",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/analyze_independent_pusht.py",
+      "sha256": "2d4f099f12dd7d40b238a3dc8c41fa6a9c1523f1d4d6a1c2582767424a415452"
+    },
+    {
+      "id": "verifier",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/verify_independent_pusht_analysis.py",
+      "sha256": "04365774edfe6ae4e9e1e7ba0ddd6e35125727fa6baad99d01864dd988865d7a"
+    },
+    {
+      "id": "runner",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/run_independent_pusht.sh",
+      "sha256": "8765621dac86d8434786ab840c3b4226fa71145081242fda029c67dc055eb5b2"
+    },
+    {
+      "id": "pins",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/INDEPENDENT-PINNED-INPUTS.json",
+      "sha256": "cf48fd85336fbf4d65f12ef290cd3b08f3969da2c8a29842ece4c55e848f52df"
+    },
+    {
+      "id": "recovery",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/INDEPENDENT-PUSHT-RECOVERY.md",
+      "sha256": "e40abbe014cff18a7f74c53ec22beda40ec85845a6e3f03460755ffe037bce7d"
+    },
+    {
+      "id": "history",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "README.md",
+      "sha256": "25bf2223295291bd723f93cbee1311332e1102dd9da4dde645b5d41818f087f0"
+    },
+    {
+      "id": "baseline-pilot",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/BASELINE-PILOT-STATUS-2026-08-08.md",
+      "sha256": "88874d47eb8c1b118f8dd59740eb24077f8d05fb83aa8bd88726a2882ac1415b"
+    },
+    {
+      "id": "early-amendments",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/PROTOCOL-IMPLEMENTATION-AMENDMENTS-2026-08-08.md",
+      "sha256": "e87e0173420ff1555e92d8aedb968da47cf195c39952a0fab27730d7ae106a8a"
+    },
+    {
+      "id": "p3-lock",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/P3-PRE-EXECUTION-LOCK-2026-08-09.md",
+      "sha256": "a9f5c93bea7562c9f83c97c74f1cbf6041772626f3abd4d20fcd236a0b385d35"
+    },
+    {
+      "id": "early-history",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "README.md",
+      "sha256": "25bf2223295291bd723f93cbee1311332e1102dd9da4dde645b5d41818f087f0"
+    },
+    {
+      "id": "m2v2",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/M2V2-P2-FEASIBILITY-RESULT-2026-08-12.md",
+      "sha256": "8c4659e80d814681244c28d91b5b346bd2ff308d7ac954aa36e78b0552a69eaa"
+    },
+    {
+      "id": "d1",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-D1-RESULT-2026-08-15.md",
+      "sha256": "6f6dbd01d33b82700fcc6f5816cc2e7b60c416120a040a2a58899758f700cc58"
+    },
+    {
+      "id": "score-rescue",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-V2-DIFFUSION-RESCUE-PROTOCOL-2026-08-15.md",
+      "sha256": "e0bf0be9dd1236ff30016f9e3f277fbd3c7fb2b998c7e64abe033b7d2fdf060c"
+    },
+    {
+      "id": "v2-pilot-protocol",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-V2-RESIDUAL-DIFFUSION-PILOT-PROTOCOL-2026-08-16.md",
+      "sha256": "a6c33f33cc20da6e93ccdeb77269438de34869cb60c91b20e6da47801861ebff"
+    },
+    {
+      "id": "v2-result",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-V2-RESIDUAL-DIFFUSION-PILOT-RESULT-2026-08-16.md",
+      "sha256": "f2e1de54b09b95a95c72bbcba441d2f74343e4300d23cbb2612cf3dfeb5e03a8"
+    },
+    {
+      "id": "v3-result",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-V3-MULTISEED-D2-STAGE-A-RESULT-2026-08-16.md",
+      "sha256": "2b157956bca5d887aa80fe6bbc9dbf5bccaca319d878f130cf61763bc4e55e03"
+    },
+    {
+      "id": "e3",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E3-EXPLORATORY-D2-CLOSED-LOOP-RESULT-2026-08-16.md",
+      "sha256": "af39269bce8437332363ce749cd15ea33b73eda1b1c10b369ebe28b932e00a6b"
+    },
+    {
+      "id": "e4",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E4-DIFFUSION-INVERSE-DEVELOPMENT-PROTOCOL-2026-08-16.md",
+      "sha256": "eec19adf1558a7366bbc13bd5077c5c26ac4dd73fd5c03b5be2651fe288dfc12"
+    },
+    {
+      "id": "e5",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E5-COUNTERFACTUAL-DIFFUSION-DEVELOPMENT-2026-08-16.md",
+      "sha256": "496375e2445198f604ad36f65d845d210343737226d9e45cc7e6656cde472f5e"
+    },
+    {
+      "id": "e6",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E6-QUANTILE-CONSTRAINED-CEM-PROTOCOL-2026-08-16.md",
+      "sha256": "2a7facb513f6fcda8a6d923e736d30820aa59e14735bf621b960756d13e9b196"
+    },
+    {
+      "id": "e6d",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E6D-ALL-ITERATIONS-MATCHED-CONTROLS-RESULT-2026-08-17.md",
+      "sha256": "5c99316ce14a3116df8ddc97e650344d9a7f109d180a722e756494b4fca870c5"
+    },
+    {
+      "id": "e7-draft",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E7-GOAL-CONDITIONED-DIFFUSION-PROPOSAL-DRAFT-2026-08-17.md",
+      "sha256": "2f6c3a0aac4b5562bee68beb6c622dd968a00a9e1cd2b5bdd97b79e3edf62067"
+    },
+    {
+      "id": "e7p",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E7P-PROPOSAL-SELECTION-RESULT-2026-08-17.md",
+      "sha256": "1485bfe7e407726050e8e7079b4015e941787cffb3377983fffc839a0ff4eee5"
+    },
+    {
+      "id": "e8a",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E8A-GAUSSIAN-ANCHORED-DIFFUSION-REFINEMENT-RESULT-2026-08-17.md",
+      "sha256": "6ce729e6c6d2f3452c4bc60543a28795eada822739be5357ac5d464473cb3ebb"
+    },
+    {
+      "id": "e8d",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E8D-GADR-D2-RESULT-2026-08-17.md",
+      "sha256": "9a8c23cedde66ca4dbe89cc32442c58bfbd063eb1dd1e43539e2e3a5ed084cd6"
+    },
+    {
+      "id": "e9",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E9-ABANDONED-DUPLICATE-2026-08-17.md",
+      "sha256": "42796dc57c0df6939a2e314f08322290c5ee31d5aec772a9806cec7eb11573c5"
+    },
+    {
+      "id": "e10v",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E10V-PURE-VELOCITY-DIFFUSION-P1-RESULT-2026-08-17.md",
+      "sha256": "c97db18631489a7cac01f935dfbb94e6dc0bc3cd2e6ee3a544c1bbf8a9db4eb5"
+    },
+    {
+      "id": "e10m",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E10M-MULTISEED-PURE-VELOCITY-P1-RESULT-2026-08-17.md",
+      "sha256": "52d567876f586851366bbf16c768e740de60767e2eb8f81e9d280b2b967fd056"
+    },
+    {
+      "id": "e12",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E12-STAGE-B-VALIDITY-RESULT-2026-08-22.md",
+      "sha256": "886339ec66909f82fc3750423c772ffbbe38e8ac7fff3d9093671df400a85e30"
+    },
+    {
+      "id": "e14",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E14-LONG-HORIZON-SAGE-GATE-B-RESULT-2026-08-23.md",
+      "sha256": "b40203ff7236c91a5e9aa226079750231e44bbac476a08e29d442323568870ca"
+    },
+    {
+      "id": "post-e14",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/POST-E14-BOUNDARY-DIAGNOSTIC-RESULT-2026-08-25.md",
+      "sha256": "f5f5a5319f33d14acf8dc87bf8d76f3c2e1d7d264418ee5e5b60052559016339"
+    },
+    {
+      "id": "e15-data",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E15-BOUNDARY-AWARE-DATA-PREFLIGHT-RESULT-2026-08-25.md",
+      "sha256": "fdd730417d923d69f7d36f43cf02194f5b3c9d128e2ec2c2eda8f442df8267b7"
+    },
+    {
+      "id": "e15",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E15-BOUNDARY-AWARE-LONG-HORIZON-GATE-B-RESULT-2026-08-25.md",
+      "sha256": "727331f28e6e1e4ed052d09687c2ac6d3dab36fb761e50a3d49569a5c9395ec0"
+    },
+    {
+      "id": "e16",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E16-CONTINUATION-DIAGNOSTIC-RESULT-2026-08-27.md",
+      "sha256": "981a0651cd3b8f325a9b6d0238a07fa3a4636466950fb61ad0db1439b19aa73f"
+    },
+    {
+      "id": "e17",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E17-TRANSITION-STATE-ADAPTER-PREFLIGHT-RESULT-2026-08-27.md",
+      "sha256": "8c558cbec0f9ab3ece6a1ef77c6463c807f3e6455684049a673a521980e341ac"
+    },
+    {
+      "id": "e19-diagnostic",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E19-OFFICIAL-SAGE-DISCREPANCY-DIAGNOSTIC-RESULT-2026-08-30.md",
+      "sha256": "4d0f630bd555b791e0fb7a24ca64a094b476592c36c1b08e2598eec546f20262"
+    },
+    {
+      "id": "e19-d2",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/ACID-ALTERNATIVE-E19-D2-METHOD-AWARE-DISCREPANCY-REANALYSIS-RESULT-2026-08-30.md",
+      "sha256": "9bbc59502a385aaa395d8ca260480d623834623e3a2e7cc00cfcbe91bd21db7d"
+    },
+    {
+      "id": "e19-l1",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E19-L1-EXPOSED-ARTIFACT-LOCALIZATION-RESULT-2026-09-05.md",
+      "sha256": "92d69c8ff42416ccc71bf713214736f344dacefb22115f2b0a05a0607d5e07c9"
+    },
+    {
+      "id": "e19-r1",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E19-R1-RESET-FIXED-STIMULUS-RESULT-2026-09-05.md",
+      "sha256": "0fa6601b98d716f7cd9eecde6e3347cf2954e27d72ff2862ff103d49f732567c"
+    },
+    {
+      "id": "e19-r2",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E19-R2-LOCALIZATION-RESULT-2026-09-05.md",
+      "sha256": "9538efa22d6aac0f3ed9d22bb837f4e3301024da61a18a1531c20d4c20a09d41"
+    },
+    {
+      "id": "e19-r3",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E19-R3-INITIALIZATION-RESULT-2026-09-05.md",
+      "sha256": "fb2a3722d0b205ba6033f85377547cfaaa77ba3d743a3789df22f38c62e78579"
+    },
+    {
+      "id": "fresh-integration",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E18-FRESH-DRIVER-INTEGRATION-RESULT-2026-09-05.md",
+      "sha256": "2fe7dda7e535da5d1cfd099b7c51dec584710dca74b07e1e510149ab0a34c334"
+    },
+    {
+      "id": "feasibility",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E18-DESIGN-FEASIBILITY-PACKAGE-2026-09-05.md",
+      "sha256": "c1d709041d6eefd209cf523b2d77db021a6911c02ca7a8570af837cea2a8e167"
+    },
+    {
+      "id": "capacity",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/E18-EXPANDED-CAPACITY-AUDIT-RESULT-2026-09-06.md",
+      "sha256": "1a9d1796212c799f4e6aacd6d4a43a826c77bc17b75e53ec35e44efb2de43b5c"
+    },
+    {
+      "id": "independent-progress",
+      "ref": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "file": "cluster/prometheus/INDEPENDENT-PUSHT-PROGRESS.md",
+      "sha256": "36f521904dffcfc6421dcf487c4cc6b3f2ada0f61f5f6caaec17cca6f6cf95bf"
+    }
+  ]
+}
