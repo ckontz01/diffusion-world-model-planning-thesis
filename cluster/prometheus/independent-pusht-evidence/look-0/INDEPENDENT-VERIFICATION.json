@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "n": 1600,
+  "logical_runs": 57600,
+  "source": "independent csv/statistics reaggregation",
+  "summary_sha256": "305be6aa678445dce5ceddda6bae14657a730810e448121df6c8783c4318da6d",
+  "input_lock_sha256": "90ac1fd4e8e5fbaa3941ab9a5b7ed127bc20cb96018bed5d143b7dec2cbf64cb",
+  "decision": "stop_futility_strong_adverse_signal",
+  "stop": true
+}

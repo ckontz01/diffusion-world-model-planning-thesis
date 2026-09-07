@@ -1,3 +1,5 @@
+> **Terminal update, 7 September 2026:** first-look N=1,600 completed and independently verified; stopped by the registered strong-adverse futility rule. No later stage launched. See [final result](INDEPENDENT-PUSHT-RESULT-2026-09-07.md). The timestamped running status below is historical.
+
 # Independent PushT implementation and live execution status
 
 Status recorded 2026-09-06T00:17:24.631030+00:00.

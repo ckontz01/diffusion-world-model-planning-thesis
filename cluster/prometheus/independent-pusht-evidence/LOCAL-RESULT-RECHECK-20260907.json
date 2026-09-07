@@ -1,0 +1,26 @@
+{
+  "source": "local standard-library reaggregation of hash-verified exported table",
+  "n": 1600,
+  "logical_runs": 57600,
+  "unique_complete_grid": true,
+  "arm_means_match": true,
+  "primary_differences_and_standard_errors_match": true,
+  "summary_sha256": "305be6aa678445dce5ceddda6bae14657a730810e448121df6c8783c4318da6d",
+  "verification_sha256": "a0476199cbdeee6a04676a7dd86d4b17d1abfab6a2c1212833d8320a92bb5380",
+  "terminal_sha256": "f5e432341d034b3f5e5048dd135568f5f5e861a7eab0c07cd8bcfecde6ed2d47",
+  "comparisons": {
+    "diagonal_gaussian_continuation": {
+      "difference": 0.029375,
+      "standard_error": 0.0043593371912874655
+    },
+    "sage": {
+      "difference": -0.04739583333333333,
+      "standard_error": 0.005791836767298252
+    },
+    "vad_greedy_300": {
+      "difference": 0.022083333333333333,
+      "standard_error": 0.004476821594523025
+    }
+  },
+  "no_new_model_runs": true
+}

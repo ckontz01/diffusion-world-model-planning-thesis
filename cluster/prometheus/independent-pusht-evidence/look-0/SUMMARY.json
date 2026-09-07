@@ -1,0 +1,142 @@
+{
+  "all_three_established": false,
+  "arm_success": {
+    "diagonal_gaussian_continuation": 0.13364583333333285,
+    "direct_gmm_continuation": 0.15302083333333263,
+    "sage": 0.2104166666666668,
+    "vad_continuation": 0.16302083333333292,
+    "vad_greedy_300": 0.1409374999999996,
+    "vad_greedy_576": 0.15124999999999947
+  },
+  "checkpoints_unchanged": true,
+  "collection_sha256": "3cce1a2b74c84feeece9503dd2873d8db6abd609b546311ed374984ca4d93f68",
+  "complete_logical_runs": 57600,
+  "decision": "stop_futility_strong_adverse_signal",
+  "ever_rejected": {
+    "diagonal_gaussian_continuation": true,
+    "sage": false,
+    "vad_greedy_300": true
+  },
+  "failures": [],
+  "futility": true,
+  "horizons": [
+    75,
+    150
+  ],
+  "inference": "Prespecified approximate paired Student with Bonferroni across looks and three contrasts; not distribution-free.",
+  "input_lock_sha256": "90ac1fd4e8e5fbaa3941ab9a5b7ed127bc20cb96018bed5d143b7dec2cbf64cb",
+  "n": 1600,
+  "per_horizon": {
+    "diagonal_gaussian_continuation": [
+      0.174375,
+      0.09291666666666666
+    ],
+    "direct_gmm_continuation": [
+      0.19375,
+      0.11229166666666666
+    ],
+    "sage": [
+      0.26479166666666665,
+      0.15604166666666666
+    ],
+    "vad_continuation": [
+      0.211875,
+      0.11416666666666667
+    ],
+    "vad_greedy_300": [
+      0.20541666666666666,
+      0.07645833333333334
+    ],
+    "vad_greedy_576": [
+      0.214375,
+      0.088125
+    ]
+  },
+  "physics_success_independently_recomputed": true,
+  "primary": {
+    "diagonal_gaussian_continuation": {
+      "difference": 0.029375,
+      "futility_upper_bound": 0.04286861784885907,
+      "lower_bound_this_look": 0.015881382151140926,
+      "mean_by_horizon": [
+        0.0375,
+        0.02125
+      ],
+      "one_sided_alpha": 0.001,
+      "reject_this_look": true,
+      "se": 0.0043593371912874655
+    },
+    "sage": {
+      "difference": -0.04739583333333334,
+      "futility_upper_bound": -0.02946814649665332,
+      "lower_bound_this_look": -0.06532352017001336,
+      "mean_by_horizon": [
+        -0.05291666666666667,
+        -0.041875
+      ],
+      "one_sided_alpha": 0.001,
+      "reject_this_look": false,
+      "se": 0.005791836767298252
+    },
+    "vad_greedy_300": {
+      "difference": 0.02208333333333333,
+      "futility_upper_bound": 0.03594060500636326,
+      "lower_bound_this_look": 0.0082260616603034,
+      "mean_by_horizon": [
+        0.006458333333333333,
+        0.03770833333333334
+      ],
+      "one_sided_alpha": 0.001,
+      "reject_this_look": true,
+      "se": 0.004476821594523026
+    }
+  },
+  "source_manifest_sha256": "d79c5f0f5515011885a1309d61985e1464c8c6738c7d9f4a3b161378836381ec",
+  "stage": 0,
+  "stop": true,
+  "task": "pusht",
+  "timing": {
+    "diagonal_gaussian_continuation": {
+      "episode_wall_mean": 1.7295890522896358,
+      "outside_box_coordinates": 0,
+      "planner_mean": 0.0745227538038826,
+      "planner_median": 0.07775206549558789,
+      "planner_p90": 0.07872949000156951
+    },
+    "direct_gmm_continuation": {
+      "episode_wall_mean": 1.7152340731969782,
+      "outside_box_coordinates": 0,
+      "planner_mean": 0.07466540403163563,
+      "planner_median": 0.07791254999756347,
+      "planner_p90": 0.07878896480542608
+    },
+    "sage": {
+      "episode_wall_mean": 14.465905601806217,
+      "outside_box_coordinates": 160137,
+      "planner_mean": 0.9646452559564517,
+      "planner_median": 0.9638567219953984,
+      "planner_p90": 0.9726231835011276
+    },
+    "vad_continuation": {
+      "episode_wall_mean": 2.3893638395048615,
+      "outside_box_coordinates": 0,
+      "planner_mean": 0.12349483143428204,
+      "planner_median": 0.1296902769972803,
+      "planner_p90": 0.13126914940221468
+    },
+    "vad_greedy_300": {
+      "episode_wall_mean": 1.6925561260236008,
+      "outside_box_coordinates": 0,
+      "planner_mean": 0.07409137879744995,
+      "planner_median": 0.07344371499493718,
+      "planner_p90": 0.07426751199818682
+    },
+    "vad_greedy_576": {
+      "episode_wall_mean": 1.6796903296736219,
+      "outside_box_coordinates": 0,
+      "planner_mean": 0.07416878913695707,
+      "planner_median": 0.07345707599597517,
+      "planner_p90": 0.07428406659892062
+    }
+  }
+}

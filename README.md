@@ -6,31 +6,30 @@ The project began as a comparison of post-hoc feasibility scores for hierarchica
 
 ## Current status
 
-The independent PushT benchmark is implemented, frozen and executing on branch
-`independent-pusht-benchmark`. All **6,000 newly collected references** passed
-integrity/uniqueness checks and **12,000 goal-specific reference-action replays**.
-Collection and execution records have separately hash-verified WSL backups.
-This is a declared weak-policy reachable-goal population, not the historical
-expert-data distribution or an exact SAGE-paper reproduction.
+**The independent PushT study is complete under its registered first-look stop.**
+All 450 shards and 57,600 runs on 1,600 independent references passed analysis
+and independent reaggregation. The terminal decision is
+`stop_futility_strong_adverse_signal`; stages 3,200/6,000 were not launched.
 
-The six-arm study uses unchanged E18 models and released full SAGE in one
-physical environment, with cumulative registered looks at1,600/3,200/6,000
-distinct references. The intended effect is+5pp against each of three primary
-controls; observed estimates are not required to exceed5pp. Statistical rules,
-method differences and resource assumptions were frozen before final collection.
-R3 and inherited model/planner bytes remain unchanged.
+VAD continuation achieved **16.30%** success, versus greedy VAD-300 **14.09%**,
+Gaussian continuation **13.36%**, and released native full SAGE **21.04%**.
+The registered internal superiority boundaries passed (+2.21 and +2.94 pp),
+but VAD trailed SAGE by **4.74 pp** and triggered the predeclared futility rule.
+No superiority or noninferiority against SAGE is established. Median timed
+solver calls were 0.12969 s for VAD and 0.96386 s for SAGE; this is not a full
+end-to-end latency comparison. There were zero recorded planner failures.
 
-**The comparative experiment is not yet complete at this manual update.**
-Array300339, dependent analysis300340 and controller300341 are executing the
-first stage. Complete-look reports are exported to the evidence directory only
-after independent verification. Completed opaque raw shards are backed up
-incrementally; this does not inspect partial performance.
+The study uses a new weak-policy reachable-goal population, not the original
+expert-data distribution or an exact SAGE-paper reproduction. All 6,000
+references were collected/validated; 1,600 were evaluated. R3, checkpoints,
+old scientific results and the remaining reference records are unchanged.
 
-See the [timestamped execution status](cluster/prometheus/INDEPENDENT-PUSHT-EXECUTION-STATUS.md),
-[recovery instructions](cluster/prometheus/INDEPENDENT-PUSHT-RECOVERY.md),
-[data card](cluster/prometheus/INDEPENDENT-PUSHT-DATA-CARD.md),
+See the [verified terminal result](cluster/prometheus/INDEPENDENT-PUSHT-RESULT-2026-09-07.md),
+[exact archived analysis](cluster/prometheus/independent-pusht-evidence/look-0/SUMMARY.json),
 [frozen protocol](cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md), and
-[archived evidence and eventual verified results](cluster/prometheus/independent-pusht-evidence/).
+[data card](cluster/prometheus/INDEPENDENT-PUSHT-DATA-CARD.md).
+Full raw-backup recovery after the WSL incident is a separate operational task;
+the newly published result archive has a verified Windows recovery copy.
 
 ### Earlier preparatory record
 
