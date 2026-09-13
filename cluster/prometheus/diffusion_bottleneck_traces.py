@@ -8,6 +8,8 @@ from __future__ import annotations
 import argparse
 from collections import Counter, defaultdict
 import json
+import hashlib
+import math
 from pathlib import Path
 import sys
 from typing import Any
@@ -59,6 +61,18 @@ def sealed_stage(study: Path) -> tuple[list[tuple[Path, dict[str, Any]]], dict[s
 def reduce_traces(study: Path) -> dict[str, Any]:
     tensor, summary = checked_archive(study / "analysis-0")
     files, lock = sealed_stage(study)
+    require_sha(study / 'collection/COLLECTION.json', lock['collection_sha256'])
+    collection = read_json(study / 'collection/COLLECTION.json')
+    reference_data = {}
+    for i, ref in enumerate(collection['records'][:N]):
+        require(ref['index'] == i, 'Reference ordering mismatch')
+        path = checked_child(study / 'collection', ref['file'])
+        require_sha(path, ref['sha256'])
+        with np.load(path, allow_pickle=False) as data:
+            reference_data[i] = (data['initial_request'].copy(),
+                                 data['states'][75].copy(), data['states'][150].copy())
+    require(len(reference_data) == N, 'Reference completeness')
+    seed_categories = defaultdict(Counter)
     categories: dict[tuple[str, int], Counter[str]] = defaultdict(Counter)
     numerical: dict[tuple[str, int], dict[str, list[float]]] = defaultdict(lambda: defaultdict(list))
     seen: set[tuple[int, int, int, str]] = set()
@@ -84,6 +98,11 @@ def reduce_traces(study: Path) -> dict[str, Any]:
             seen.add(key)
             require(arm == task["arm"] and seed == task["seed"], "Row arm/seed mismatch")
             require(row["budget"] == 2 * h, "Changed action budget")
+            ref = collection['records'][i]
+            require(row['reference_attempt'] == ref['attempt'], 'Reference attempt mismatch')
+            seed_text = f'independent-pusht-reference-v1|{collection["namespace"]}|{ref["attempt"]}|planner|h={h}|seed={seed}'
+            expected_seed = int.from_bytes(hashlib.sha256(seed_text.encode()).digest()[:4], 'little')
+            require(row['seed'] == expected_seed, 'Planner RNG identity mismatch')
             require(initial_identity.setdefault((i, h), row["initial_hash"]) == row["initial_hash"], "Unpaired initial inputs")
             trajectory = checked_child(path.parent, row["trajectory_file"])
             require_sha(trajectory, row["trajectory_sha256"])
@@ -96,10 +115,14 @@ def reduce_traces(study: Path) -> dict[str, Any]:
             require(states.shape == (delivered + 1, 7) and actions.shape == raw.shape == (delivered, 2), "Trace count mismatch")
             require(bool(np.isfinite(actions).all() and np.isfinite(raw).all()), "Nonfinite action")
             require(bool(np.array_equal(actions, raw)), "Unexpected action clipping")
+            np.testing.assert_allclose(states[0], reference_data[i][0], rtol=0, atol=1e-10)
+            np.testing.assert_array_equal(goal, reference_data[i][1 if h == 75 else 2])
             # Shared actual starts/goals are checked across all methods and fixed blocks.
             identity = hashlib_array(states[0]) + hashlib_array(goal)
             require(goal_identity.setdefault((i, h), identity) == identity, "Physical start/goal pairing mismatch")
             metrics = trajectory_diagnostics(states, goal)
+            independent = independent_physical_success(states, goal)
+            require(independent == metrics['success'], 'Independent physical predicate disagreement')
             recorded = tensor[i, HORIZONS.index(h), SEEDS.index(seed), ARMS.index(arm)]
             require(int(metrics["success"]) == row["success"] == recorded, "Physical success disagrees with sealed outcome")
             if metrics["success"]:
@@ -114,6 +137,16 @@ def reduce_traces(study: Path) -> dict[str, Any]:
                     require(row["native_truncation"] or delivered == 2 * h, "Unexplained early stop")
             k = (arm, h)
             categories[k]["planner_failure" if failure is not None else metrics["terminal_category"]] += 1
+            category = 'planner_failure' if failure is not None else metrics['terminal_category']
+            sk = (arm, h, seed)
+            seed_categories[sk][category] += 1
+            seed_categories[sk]['runs'] += 1
+            if row['native_truncation']:
+                categories[k]['native_truncation_flag'] += 1
+                seed_categories[sk]['native_truncation_flag'] += 1
+                if not metrics['success']:
+                    categories[k]['native_truncation_without_success'] += 1
+                    seed_categories[sk]['native_truncation_without_success'] += 1
             if not metrics["success"] and metrics.get("ever_block_pose_within_component_thresholds", False):
                 categories[k]["supplement_block_pose_reached_but_joint_success_failed"] += 1
             if metrics.get("ever_individual_positions_both_within_20_but_joint_outside", False):
@@ -127,6 +160,8 @@ def reduce_traces(study: Path) -> dict[str, Any]:
                 require(np.isfinite(call["seconds"]) and call["seconds"] >= 0, "Invalid solver time")
                 numerical[k]["timed_solver_seconds"].append(float(call["seconds"]))
     require(len(seen) == 57600, "Incomplete physical grid")
+    require(len(seed_categories) == 36 and all(v['runs'] == N for v in seed_categories.values()),
+            'Incomplete arm/horizon/seed blocks')
     groups = {}
     for (arm, h), counts in sorted(categories.items()):
         terminal_sum = sum(counts[name] for name in (
@@ -143,11 +178,31 @@ def reduce_traces(study: Path) -> dict[str, Any]:
         "historical_decision_unchanged": summary["decision"],
         "raw_trajectories_read": len(seen), "trajectory_bytes_verified": inspected_bytes,
         "verified_shards": len(files), "model_runs": 0, "groups": groups,
+        "per_arm_horizon_seed_counts": {f'{a}/h{h}/seed{s}':dict(v)
+                                       for (a,h,s),v in sorted(seed_categories.items())},
+        "technical_invalid_records": 0,
+        "independent_scalar_predicate_checked": True,
+        "reference_requests_and_planner_seeds_checked": True,
         "goal_rule": "norm of joint [agent_xy,block_xy] error <20 AND wrapped angle error <pi/9 at the SAME post-action step",
         "interpretation": "Failure categories are descriptive outcomes, not proofs of causes. Supplement counts overlap terminal categories.",
         "timing_scope": "Episode-loop time excludes initialization. Solver calls exclude some preprocessing. No equal-compute or deployment-latency claim.",
         "unevaluated_reference_payloads_read": 0,
     }
+
+
+def independent_physical_success(states, goal):
+    """Scalar math implementation; no vector reducer or historical helper call.
+
+Uses squared joint-position distance and modular angular distance. Canonical
+input-angle validation is intentionally delegated to the strict first check;
+this second computation must not silently normalize invalid historical input.
+"""
+    for state in states[1:]:
+        squared = math.fsum((float(state[j])-float(goal[j]))**2 for j in range(4))
+        angle = (float(state[4])-float(goal[4])+math.pi) % (2*math.pi)-math.pi
+        if squared < 400 and abs(angle) < math.pi/9:
+            return True
+    return False
 
 
 def hashlib_array(value: np.ndarray) -> str:
