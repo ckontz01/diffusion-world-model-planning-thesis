@@ -1,0 +1,13 @@
+{
+  "all_passed": true,
+  "archive_sha256": "d02d918017b9f9903b2b4a4bf6522e64776c6580f604ee5782f5d5beaec65e0b",
+  "canonical_receipt_sha256": "0c406ca98e051d0f5aa9d8d701f5bc6bc299d67b38906bb2c6bbc39e6d5362ee",
+  "members_verified": 116555,
+  "model_backup_verified": false,
+  "no_archive_extraction": true,
+  "outcome_payloads_interpreted": false,
+  "payload_bytes_verified": 2920058974,
+  "program_sha256": "5d638d4c89beebce19f511c0bcfacf4789a33bc18780377c070dd5d35da8c5cb",
+  "reference_collection_backup_verified": false,
+  "source_matched_shards": 450
+}

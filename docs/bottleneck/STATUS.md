@@ -19,21 +19,40 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
   Receipt SHA256 `0c406ca98e051d0f5aa9d8d701f5bc6bc299d67b38906bb2c6bbc39e6d5362ee`.
   This does not claim every transitive runtime dependency or model backup was
   independently archived. No unevaluated reference payload was read/hashed.
-- CPU job300960: submitted for bounded complete angle-value inventory and
-  historical-versus-modular predicate disagreement counts. Last observed RUNNING.
-  This cannot rewrite historical labels or silently normalize their values.
+- CPU jobs300960 and300962 completed0:0. Complete supplementary inventory
+  proves unique57600-run coverage, float64 states/goals,1766 exact2pi samples
+  in24 runs, no other range anomalies, and zero unmasked angle-category or
+  combined success disagreements. Receipts are committed under `receipts/`.
+  Source126d079; supplementary receiptSHA256
+  `1cf790828d24c964026bc9e7568e7f2aeb9eca21c757ecc2a137056d53e21684`.
+  Guard-only correctionc567ccf admits exact2pi states without changing saved
+  arrays, goal admission, historical predicate or labels. See ANGLE-GUARD.
+- Corrected full CPU reduction300963 last observed RUNNING. Source manifest
+  `689e559a85e60afdc65abc95e2f4d3782395a45127f47d283847b02253f835b0`;
+  output `.../experiments/diffusion-bottleneck/audit-20260914-c567ccf`.
 - Old WSL backup:375 indexed shards rehashed with zero errors; incomplete.
-  Fresh external-SSD copy is in progress at
+  Its slow directory copy to externalSSD was stopped and preserved PARTIAL at
   `D:/THESIS-BACKUPS/bottleneck-20260914/final-20260906-4a608e5`.
-  Source-matched verification of the complete off-cluster copy is pending.
+  This does not damage or complete the old375-shard backup.
+- COMPLETE new externalSSD archive:
+  `D:/THESIS-BACKUPS/bottleneck-20260914/completed-stage0.tar`.
+  Packjob300961 completed0:0 in6m21s. All116555 members of450 shards and the
+  compact analysis verified locally against the authenticated canonical
+  receipt; archiveSHA256
+  `d02d918017b9f9903b2b4a4bf6522e64776c6580f604ee5782f5d5beaec65e0b`.
+  Size3126661120 bytes. No extraction needed. Receipt
+  `receipts/ARCHIVE-BACKUP-VERIFIED.json`. This archive does not back up the
+  model checkpoints or reference collection; their canonical identities were
+  checked separately and no such backup is claimed.
 - Pilot: draft implementation/helper tests exist locally; no simulator run,
   no pilot submission, no measured32-reference cost proposal. Still gated by
   preservation and trace-reduction acceptance. No training or redesign.
 
 The installed native `_get_obs` uses angle modulo2pi; its source SHA256 is
 `d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68`.
-Whether the guard failure is solely floating-point endpoint rounding remains
-under investigation. Do not relax it without evidence and review.
+The endpoint-admission issue is now classified narrowly; no claim that every
+unrecorded native body angle was reconstructed. Full reduction remains the
+next gate. Local helper/validation suite79 passed; simulator pilot still unrun.
 
 Original three E12 drafts and unrelated E14 pending jobs remain untouched.
 Bulk artifacts are outside Git on Prometheus/external SSD. No credentials,
