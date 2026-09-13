@@ -1,0 +1,81 @@
+{
+  "backup_revalidation_executed": false,
+  "base_branch": "independent-pusht-benchmark",
+  "base_commit": "001aad99a2e2e6a141797e0c516604e7188d706a",
+  "desktop_last_seen_utc": "2026-09-11T00:25:25.807+00:00",
+  "desktop_status": "offline",
+  "github_branch_created": false,
+  "github_commits_created": 0,
+  "github_write_attempt": "create_branch blocked by OpenAI safety checks before execution; not routed around",
+  "independent_numeric_recheck": {
+    "bootstrap_quantiles_independently_recomputed": false,
+    "contrasts_and_standard_errors": 20,
+    "method_pairs": 15,
+    "physics_independently_rerun": false
+  },
+  "independent_reference_count": 1600,
+  "input_files": {
+    "EPISODE-TENSOR.npz": {
+      "bytes": 9889,
+      "sha256": "afb181230eb36d0d6081477bef910814f8b2c0208d913063df48131e4e2af7e2"
+    },
+    "INDEPENDENT-VERIFICATION.json": {
+      "bytes": 367,
+      "sha256": "a0476199cbdeee6a04676a7dd86d4b17d1abfab6a2c1212833d8320a92bb5380"
+    },
+    "SUMMARY.json": {
+      "bytes": 4229,
+      "sha256": "305be6aa678445dce5ceddda6bae14657a730810e448121df6c8783c4318da6d"
+    }
+  },
+  "intended_branch": "diffusion-bottleneck-analysis",
+  "local_environment": {
+    "numpy": "2.3.5",
+    "python": "3.13.5"
+  },
+  "local_synthetic_unit_tests_passed": 51,
+  "logical_runs_in_archived_grid": 57600,
+  "model_runs": 0,
+  "outcome_grid_shape": [
+    1600,
+    2,
+    3,
+    6
+  ],
+  "prepared_utc": "2026-09-12T23:22:28.573328+00:00",
+  "project": "ckontz01/diffusion-world-model-planning-thesis",
+  "raw_trajectory_reduction_executed": false,
+  "read_only_source_records": [
+    {
+      "blob_sha": "8b8a140bdb91807f3db4bb85d26949bd13e313fc",
+      "path": "cluster/prometheus/analyze_independent_pusht.py"
+    },
+    {
+      "blob_sha": "58424e405b76452e4549bcb61fb56641c0a82f9a",
+      "path": "cluster/prometheus/backup_completed_independent_pusht.py"
+    },
+    {
+      "blob_sha": "38423f7d6fad07cc60891937aceb9f4417028891",
+      "path": "cluster/prometheus/run_independent_pusht.sh"
+    }
+  ],
+  "real_outcome_analysis_executed": true,
+  "real_summary_arithmetic_executed": true,
+  "remote_commands_successfully_executed": 0,
+  "scope": "Additive local implementation and post-result analysis. Not a new efficacy experiment or completed causal bottleneck study. No remote historical artifact changed.",
+  "script_hashes": {
+    "cluster/prometheus/diffusion_bottleneck.py": "040ec3257bfd6a637ff3f3f4fe0836cabae5b345a2d6aa07af4401baba7def87",
+    "cluster/prometheus/diffusion_bottleneck_traces.py": "ebd4846f24f057de4f81d8949e1d6f9d1511f4c80031241a487c93e8de2ac01c",
+    "cluster/prometheus/run_diffusion_bottleneck_readonly.sh": "f1cdc9fbe2b2e84a7577bed11ffdaca4f409bc5664d67922f998e986840da051",
+    "cluster/prometheus/test_diffusion_backup.py": "d87f0dfe6b92c5d701d95b3e1286d61877ddcf311d963d517eedee2a1df72b83",
+    "cluster/prometheus/test_diffusion_bottleneck.py": "802d796f246730a9443b70ca29c1098f5cd6d31186264460c94a4b5a4441b049",
+    "cluster/prometheus/verify_diffusion_backup.py": "210e3d147fd153e909e9061a485c0c26343dc99241c95cd74560e38181f358e0",
+    "cluster/prometheus/verify_diffusion_bottleneck_outcomes.py": "040d55e8581bda04b84d4fc1d40a199e086130028b1372f9c785ce13902608d7"
+  },
+  "shell_syntax_check_passed": true,
+  "simulator_intervention_runner_implemented": false,
+  "simulator_runs": 0,
+  "slurm_jobs_submitted": 0,
+  "training_runs": 0,
+  "unevaluated_reference_payloads_read": 0
+}

@@ -1,0 +1,47 @@
+{
+  "effects": {
+    "diagonal_gaussian_continuation": {
+      "difference_pp": 2.9375000000000004,
+      "h150_difference_pp": 2.1250000000000004,
+      "h75_difference_pp": 3.7500000000000004,
+      "horizon_interaction_point_pp": -1.625
+    },
+    "direct_gmm_continuation": {
+      "difference_pp": 1.0000000000000002,
+      "h150_difference_pp": 0.18750000000000017,
+      "h75_difference_pp": 1.8125000000000002,
+      "horizon_interaction_point_pp": -1.625
+    },
+    "sage": {
+      "difference_pp": -4.739583333333332,
+      "h150_difference_pp": -4.1875,
+      "h75_difference_pp": -5.291666666666664,
+      "horizon_interaction_point_pp": 1.1041666666666643
+    },
+    "vad_greedy_300": {
+      "difference_pp": 2.2083333333333335,
+      "h150_difference_pp": 3.770833333333333,
+      "h75_difference_pp": 0.6458333333333344,
+      "horizon_interaction_point_pp": 3.1249999999999987
+    },
+    "vad_greedy_576": {
+      "difference_pp": 1.1770833333333335,
+      "h150_difference_pp": 2.604166666666667,
+      "h75_difference_pp": -0.2500000000000002,
+      "horizon_interaction_point_pp": 2.8541666666666674
+    }
+  },
+  "historical_decision_unchanged": "stop_futility_strong_adverse_signal",
+  "input_level": "published_summary_only",
+  "not_identified": [
+    "Per-episode method overlap and covariance",
+    "Uncertainty of horizon interactions or secondary GMM contrast",
+    "Proposal coverage, ranking error, adapter error, and causal SAGE advantage"
+  ],
+  "paired_outcomes_reaggregated": false,
+  "program_sha256": "040ec3257bfd6a637ff3f3f4fe0836cabae5b345a2d6aa07af4401baba7def87",
+  "raw_trajectories_read": false,
+  "scope": "Post-result development analysis of the completed N=1600 study; no new efficacy experiment, no causal identification, no change to its stopping rule.",
+  "source_commit": "001aad99a2e2e6a141797e0c516604e7188d706a",
+  "summary_sha256": "305be6aa678445dce5ceddda6bae14657a730810e448121df6c8783c4318da6d"
+}

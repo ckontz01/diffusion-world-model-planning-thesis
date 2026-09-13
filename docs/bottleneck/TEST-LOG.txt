@@ -1,0 +1,56 @@
+test_duplicate_checksum_entry_is_not_valid (test_diffusion_backup.BackupTests.test_duplicate_checksum_entry_is_not_valid) ... ok
+test_finds_corruption_despite_index (test_diffusion_backup.BackupTests.test_finds_corruption_despite_index) ... ok
+test_missing_checksum_entry_is_not_valid (test_diffusion_backup.BackupTests.test_missing_checksum_entry_is_not_valid) ... ok
+test_no_outcome_payload_parsing (test_diffusion_backup.BackupTests.test_no_outcome_payload_parsing) ... ok
+test_read_only (test_diffusion_backup.BackupTests.test_read_only) ... ok
+test_rehashes_indexed_entry (test_diffusion_backup.BackupTests.test_rehashes_indexed_entry) ... ok
+test_allow_child (test_diffusion_bottleneck.IntegrityTests.test_allow_child) ... ok
+test_cli_bad_archive_emits_no_result (test_diffusion_bottleneck.IntegrityTests.test_cli_bad_archive_emits_no_result) ... ok
+test_cli_summary_refuses_bootstrap (test_diffusion_bottleneck.IntegrityTests.test_cli_summary_refuses_bootstrap) ... ok
+test_completeness_barrier_does_not_open_result_json (test_diffusion_bottleneck.IntegrityTests.test_completeness_barrier_does_not_open_result_json) ... ok
+test_missing_done_blocks_stage (test_diffusion_bottleneck.IntegrityTests.test_missing_done_blocks_stage) ... ok
+test_output_never_overwrites (test_diffusion_bottleneck.IntegrityTests.test_output_never_overwrites) ... ok
+test_output_not_inside_input (test_diffusion_bottleneck.IntegrityTests.test_output_not_inside_input) ... ok
+test_registry_only_exposed_first_look (test_diffusion_bottleneck.IntegrityTests.test_registry_only_exposed_first_look) ... ok
+test_reject_absolute_child (test_diffusion_bottleneck.IntegrityTests.test_reject_absolute_child) ... ok
+test_reject_json_nan (test_diffusion_bottleneck.IntegrityTests.test_reject_json_nan) ... ok
+test_reject_parent_child (test_diffusion_bottleneck.IntegrityTests.test_reject_parent_child) ... ok
+test_reject_symlink_escape (test_diffusion_bottleneck.IntegrityTests.test_reject_symlink_escape) ... ok
+test_reject_windows_separator (test_diffusion_bottleneck.IntegrityTests.test_reject_windows_separator) ... ok
+test_sha_detects_changes (test_diffusion_bottleneck.IntegrityTests.test_sha_detects_changes) ... ok
+test_all_pairs_covered (test_diffusion_bottleneck.TensorTests.test_all_pairs_covered) ... ok
+test_bad_shape (test_diffusion_bottleneck.TensorTests.test_bad_shape) ... ok
+test_bootstrap_constant_column (test_diffusion_bottleneck.TensorTests.test_bootstrap_constant_column) ... ok
+test_bootstrap_invalid_count (test_diffusion_bottleneck.TensorTests.test_bootstrap_invalid_count) ... ok
+test_bootstrap_output_not_primary (test_diffusion_bottleneck.TensorTests.test_bootstrap_output_not_primary) ... ok
+test_bootstrap_repeatability (test_diffusion_bottleneck.TensorTests.test_bootstrap_repeatability) ... ok
+test_fixed_seed_rates_shape (test_diffusion_bottleneck.TensorTests.test_fixed_seed_rates_shape) ... ok
+test_horizon_interaction (test_diffusion_bottleneck.TensorTests.test_horizon_interaction) ... ok
+test_missing (test_diffusion_bottleneck.TensorTests.test_missing) ... ok
+test_nonbinary (test_diffusion_bottleneck.TensorTests.test_nonbinary) ... ok
+test_object_array (test_diffusion_bottleneck.TensorTests.test_object_array) ... ok
+test_pair_four_categories (test_diffusion_bottleneck.TensorTests.test_pair_four_categories) ... ok
+test_pair_wrong_shape (test_diffusion_bottleneck.TensorTests.test_pair_wrong_shape) ... ok
+test_reference_cluster_se_not_seed_trial_se (test_diffusion_bottleneck.TensorTests.test_reference_cluster_se_not_seed_trial_se) ... ok
+test_single_reference (test_diffusion_bottleneck.TensorTests.test_single_reference) ... ok
+test_unsigned_subtraction (test_diffusion_bottleneck.TensorTests.test_unsigned_subtraction) ... ok
+test_valid_shape (test_diffusion_bottleneck.TensorTests.test_valid_shape) ... ok
+test_wrong_n (test_diffusion_bottleneck.TensorTests.test_wrong_n) ... ok
+test_angle_boundary_is_strict (test_diffusion_bottleneck.TrajectoryTests.test_angle_boundary_is_strict) ... ok
+test_angle_wrap (test_diffusion_bottleneck.TrajectoryTests.test_angle_wrap) ... ok
+test_block_component_is_only_supplement (test_diffusion_bottleneck.TrajectoryTests.test_block_component_is_only_supplement) ... ok
+test_both_terminal_failures (test_diffusion_bottleneck.TrajectoryTests.test_both_terminal_failures) ... ok
+test_empty_action_trace (test_diffusion_bottleneck.TrajectoryTests.test_empty_action_trace) ... ok
+test_excludes_initial_success (test_diffusion_bottleneck.TrajectoryTests.test_excludes_initial_success) ... ok
+test_joint_not_individual_position_threshold (test_diffusion_bottleneck.TrajectoryTests.test_joint_not_individual_position_threshold) ... ok
+test_no_separate_minima_success (test_diffusion_bottleneck.TrajectoryTests.test_no_separate_minima_success) ... ok
+test_noncanonical_angle_rejected (test_diffusion_bottleneck.TrajectoryTests.test_noncanonical_angle_rejected) ... ok
+test_nonfinite_state_rejected (test_diffusion_bottleneck.TrajectoryTests.test_nonfinite_state_rejected) ... ok
+test_position_boundary_is_strict (test_diffusion_bottleneck.TrajectoryTests.test_position_boundary_is_strict) ... ok
+test_success_after_action (test_diffusion_bottleneck.TrajectoryTests.test_success_after_action) ... ok
+test_wrong_goal_shape (test_diffusion_bottleneck.TrajectoryTests.test_wrong_goal_shape) ... ok
+
+----------------------------------------------------------------------
+Ran 51 tests in 0.233s
+
+OK

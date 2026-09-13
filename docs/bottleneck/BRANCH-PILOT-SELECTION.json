@@ -1,0 +1,65 @@
+{
+  "status": "planned_not_executed",
+  "scope": "Outcome-informed development; selection does not inspect individual outcomes",
+  "source_commit": "001aad99a2e2e6a141797e0c516604e7188d706a",
+  "allowed_reference_range": [
+    0,
+    1599
+  ],
+  "namespace": "diffusion-bottleneck-v1|development-selection|2026-09-13",
+  "selection_rule": "Ascending SHA256(namespace + pipe + decimal reference index), then integer index",
+  "development_reference_indices": [
+    1269,
+    582,
+    525,
+    722,
+    567,
+    716,
+    630,
+    1066,
+    1074,
+    1565,
+    70,
+    867,
+    221,
+    905,
+    1287,
+    621,
+    428,
+    288,
+    1488,
+    757,
+    641,
+    855,
+    1280,
+    420,
+    860,
+    98,
+    886,
+    432,
+    181,
+    783,
+    706,
+    989
+  ],
+  "engineering_pilot_reference_indices": [
+    1269,
+    582,
+    525,
+    722
+  ],
+  "horizons": [
+    75,
+    150
+  ],
+  "checkpoint_blocks_initial": [
+    7201
+  ],
+  "anchor_steps": [
+    0,
+    30
+  ],
+  "missing_anchor_rule": "If the original VAD continuation terminated before t30, mark unavailable; do not replace",
+  "unevaluated_reference_payloads_read": 0,
+  "models_run": 0
+}
