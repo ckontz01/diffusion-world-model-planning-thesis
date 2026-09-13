@@ -245,7 +245,11 @@ def trajectory_diagnostics(states: np.ndarray, goal: np.ndarray) -> dict[str, An
     require(states.ndim == 2 and states.shape[1] == 7 and len(states) >= 1, "Bad state trace shape")
     require(goal.shape == (7,), "Bad goal shape")
     require(bool(np.isfinite(states).all() and np.isfinite(goal).all()), "Nonfinite states")
-    require(bool(((states[:, 4] >= 0) & (states[:, 4] < 2 * np.pi)).all())
+    # Native float64 negative-tiny % (2*pi) can equal the exact divisor.
+    # Admit that state endpoint only: do not normalize arrays or change any
+    # historical arithmetic below. Goals remained strictly canonical in the
+    # complete exposed inventory; their admission contract is unchanged.
+    require(bool(((states[:, 4] >= 0) & (states[:, 4] <= 2 * np.pi)).all())
             and 0 <= goal[4] < 2 * np.pi, "Noncanonical angle: review, do not silently change the historical predicate")
     x = states[1:]
     if len(x) == 0:
