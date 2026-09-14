@@ -134,3 +134,22 @@ This is the frozen decoder-corrected plus supplementary semantic/provenance
 verification, not a simulator rerun. Analyzer terminal success has not yet been
 checked. Scientific reports remain unopened pending its successful completion
 and adjacent-seal validation. Do not duplicate the analyzer or completed dispatch.
+
+## Verification and external backup passed
+
+Heartbeat2026-09-14T11:51:16.695Z confirmed301071 COMPLETED0:0,44s,
+batch MaxRSS89080K. Both adjacent aggregate checksums passed before report access.
+All64 bundles passed, all128 distinct anchors available,25472 paired arrays
+bit-identical;17664 branch rollouts and548722 primitive steps reconstructed.
+New28 contributes15456 branches/480362 steps. No simulator rerun was performed.
+
+Both sealed aggregates were transported and locally hash-matched. All56 new
+bundles and eight existing pilot backup bundles passed the committed byte-only
+source-matched verifier. New payload537698162bytes; full copied new run338files,
+540243437bytes, versus completion measurement540242493bytes (completion JSON
+accounts for944bytes). Backup receipt SHA
+`d4254707162e536c81aaa730680207e790517c93a314661610b53ab2fff92b63`.
+Final local101 tests passed. Full-precision receipts and a combined32/additional28
+report are prepared; final GPU-job MaxRSS accounting and reasoning-chat handoff
+remain. No training, tail policy, SAGE benchmark, larger diagnostic or confirmation
+evaluation was launched. All historical decisions/models/pilot bytes remain unchanged.

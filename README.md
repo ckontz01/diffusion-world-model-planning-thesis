@@ -201,9 +201,13 @@ reference same-bank/intermediate-context engineering pilot completed with
 mixed effects and one local successful-bank selection counterexample, not a
 resolved SAGE gap. Its [result](docs/bottleneck/PILOT-RESULT-20260914.md) records
 the preserved checker failure, separate semantic supplement and measured costs.
-The [32-reference proposal](docs/bottleneck/32-REFERENCE-PROPOSAL-20260914.md)
-has not launched. See its [status](docs/bottleneck/STATUS.md) and
-[execution contract](docs/bottleneck/PILOT-EXECUTION-20260914.md). No new model,
+The approved additional28 extension has completed all56 new jobs and combined
+verification, with the original pilot reused unchanged and all64 bundles backed
+up on the externalSSD. Its [combined32/additional28 report](docs/bottleneck/EXTENSION-RESULT-20260914.md)
+finds a repeatable first-chunk margin-ranking signal, no added successes in new28,
+and mixed context-replacement effects. Final GPU memory accounting and reasoning-
+chat handoff remain pending. See [status](docs/bottleneck/STATUS.md) and the
+[frozen extension contract](docs/bottleneck/EXTENSION-EXECUTION-20260914.md). No new model,
 confirmation, architecture redesign or unused-reference evaluation is authorized
 by these diagnostics.
 

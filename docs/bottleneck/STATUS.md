@@ -7,6 +7,18 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
 
 ## Authorized extension — current work
 
+Latest: all56 new jobs and combined verifier301071 COMPLETED0:0; all64 bundles
+passed decoder-corrected, repeat and supplementary semantic/provenance checks.
+Both output seals matched before results were read. All56 new and8 original
+pilot bundles are source-matched on externalSSD. Local101 tests passed.
+The [combined32/additional28 report](EXTENSION-RESULT-20260914.md) and full-precision
+receipts are prepared: new28 greedy first-only margin improvement+0.5730,
+25/28 references positive, but no added successes. Context replacements are mixed;
+latent/joint lose one new-cohort baseline success. No scientific efficacy claim.
+GPU-job MaxRSS accounting and final reasoning-chat handoff remain pending; no
+simulation or analyzer rerun is needed. The next rank-only experiment is proposed,
+not frozen or launched. Earlier execution milestones below are chronological.
+
 The user approved the exact additional28 design after accepting the pilot.
 Source265b618 and unchanged [execution contract](EXTENSION-EXECUTION-20260914.md)
 are frozen. All101 tests passed in the locally extracted package, and all60

@@ -1,0 +1,12 @@
+{
+  "all_passed": true,
+  "canonical_report_sha256": "820f027f7313c4179d95f99e5eda54d2172469eb4a3cd8541883aa5f8a0e0a54",
+  "new_payload_bytes": 537698162,
+  "new_root": "/mnt/d/THESIS-BACKUPS/bottleneck-20260914/extension-265b618",
+  "new_runs_verified": 56,
+  "payload_outcomes_interpreted": false,
+  "pilot_payload_bytes": 76762855,
+  "pilot_root": "/mnt/d/THESIS-BACKUPS/bottleneck-20260914/pilot-b1c9633",
+  "program_sha256": "3211c3468e9e7b2bbede8a1e09ae4a5a3f977211771a99355cef762dad04cef3",
+  "reused_pilot_runs_verified": 8
+}
