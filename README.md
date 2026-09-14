@@ -191,6 +191,15 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**14 September: CVL-1 conditionally approved; staged execution started.**
+The [launch receipt](docs/candidate-value-learning-20260914/LAUNCH-20260914.md)
+records the separately frozen saved-physical-success and candidate-delivery
+corrections, 52 passing local/exported tests, unchanged scientific protocol,
+exact source/capsule/approval hashes and verified external-SSD readiness.
+Registered preflight 0 is Slurm 301159 (observed RUNNING, not yet passed).
+Only the approved serial grid and fixed technical/scientific gates may advance;
+no collection result, learned-model result or closed-loop gain is claimed here.
+
 **14 September: full-budget candidate-value learning prepared, not launched.**
 The [CVL-1 proposal](docs/candidate-value-learning-20260914/PROTOCOL.md) allocates
 96/32/32 source-disjoint training/ranking-validation/closed-loop development
