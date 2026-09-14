@@ -24,6 +24,11 @@ Run `.../experiments/diffusion-bottleneck/extension-20260914-265b618` launched
 at2026-09-14T10:18:44Z via controller session17250. First job301010 is submitted
 for index8/ref567/repeat0. No terminal scientific completion is claimed yet;
 the append-only ledger records subsequent exact submissions and accounting.
+After a temporary externalSSD disconnection, WSL/SSH access was restored by the
+user reconnecting D:. Local session17250 is closed, but the original remote
+controller remains alive (PID1140172); no restart/resubmission occurred. Scheduler
+confirmed28/56 processes through301040 successful,1996seconds including prior11.
+Scientific outputs remain unopened; use remote process/ledger metadata to monitor.
 Original four references/eight runs remain reused unchanged. No new outcome
 read before complete successful dispatch and combined verification. See
 [launch chronology](EXTENSION-LAUNCH-20260914.md), including the preserved initial

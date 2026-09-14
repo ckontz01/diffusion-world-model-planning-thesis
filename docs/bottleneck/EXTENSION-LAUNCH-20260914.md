@@ -100,3 +100,20 @@ No scientific output or evaluator log was read. No terminal state is asserted
 for301010 at this launch check. The controller performs its frozen metadata-only
 sequential checks; future job identities remain in DISPATCH.jsonl. Do not restart
 or duplicate the controller. The existing heartbeat now follows this active run.
+
+## External SSD disconnect and read-only recovery
+
+At heartbeat2026-09-14T10:41:45.688Z, Windows no longer listed D:, WSL could
+not attach D:/WSL/Thesis-Ubuntu/ext4.vhdx, and local SSH tool session17250
+ended with a server timeout. No remote job or controller was restarted.
+After the user reconnected the SSD, Windows reported THESIS_SSD Healthy/OK,
+WSL/SSH worked, and the original remote controller was found alive as PID1140172
+with the exact265b618 source/run arguments. The local session is closed; use
+the remote process and append-only ledger for monitoring, not a session restart.
+
+The ledger continued during the disconnect. Scheduler inspection confirmed all28
+submitted jobs through301040 (indices8-35) COMPLETED0:0:1985 allocation seconds,
+plus the previously charged11seconds =1996seconds. This is28 of56 processes,
+not28 completed references. No scientific output/log was opened. No recovery
+mutation, duplicate dispatch, scientific rerun or change to the frozen controls
+was needed. The controller continues autonomously on Prometheus.
