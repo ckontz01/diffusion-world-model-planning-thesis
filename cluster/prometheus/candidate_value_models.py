@@ -35,8 +35,8 @@ def load_weights(path,linear):
     return model.eval().requires_grad_(False)
 
 
-def train(run,out,source_sha,capsule_sha):
-    x,y,keys=training_table(run,source_sha,capsule_sha)
+def train(run,out,source_sha,capsule_sha,capsule):
+    x,y,keys=training_table(run,source_sha,capsule_sha,capsule)
     support=dict(rows=len(y),positive_labels=int(y.sum()),positive_references=len({k[0] for k,v in zip(keys,y) if v}))
     if not c.sparse_gate(keys,y):return dict(advance=False,decision='insufficient_success_support',support=support)
     w=c.row_weights(keys);mean,scale=normalize_fit(x,w)

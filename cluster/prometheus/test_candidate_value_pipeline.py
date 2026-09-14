@@ -11,11 +11,25 @@ import numpy as np
 import torch
 import candidate_value_contract as ct
 import candidate_value_learning as c
-from candidate_value_data import collect,validated_banks,write_npz
+from candidate_value_data import collect,validated_banks,write_npz,load_record
 from candidate_value_models import train,Predictor,normalize_fit,transform
 from candidate_value_analyze import validation,closed,final_report
 from candidate_value_dispatch import sbatch_arguments,launch
 from candidate_value_backup import verify_archive
+
+
+def synthetic_record():
+    return dict(state=np.array([100.,100.,200.,200.,.5,0.,0.]),
+                goal_state=np.array([400.,400.,350.,350.,1.2,0.,0.]))
+
+
+def synthetic_capsule(directory,allocation):
+    record=synthetic_record();rows={}
+    for ref in sum(allocation.values(),[]):
+        p=Path(directory)/('synthetic-reference-%d.npz'%ref)
+        write_npz(p,initial_request=record['state'],states=np.tile(record['goal_state'],(151,1)))
+        rows[str(ref)]=dict(file=str(p),sha256=ct.sha(p),environment_seed=0)
+    return dict(records=rows)
 
 
 class SyntheticBackend:
@@ -25,14 +39,27 @@ class SyntheticBackend:
                 tail_seed=None,arm='continuation',predict=None):
         x=np.zeros((64,619),np.float32);x[:,384]=np.arange(64)%2
         raw=np.tile((np.arange(64,dtype=np.float32)/64)[:,None,None],(1,15,2))
+        from verify_diffusion_branch import independent_decode
+        pins=ct.json_read(Path(__file__).with_name('INDEPENDENT-PINNED-INPUTS.json'))['action_decoder']
+        decoded=independent_decode(raw.reshape(-1,2),pins['scale'],pins['mean']).reshape(64,15,2)
         immediate=np.arange(64,dtype=float);immediate[1]=-1
-        bank=dict(x=x,raw_actions=raw,planner_actions=raw,decoded_actions=raw,immediate=immediate,
+        bank=dict(x=x,raw_actions=raw,planner_actions=raw,decoded_actions=decoded,immediate=immediate,
                   continuation=np.arange(64,dtype=float),continuation_index=np.array(0),immediate_index=np.array(1))
         candidate=forced[1] if forced else (int(predict(arm,x).argmax()) if arm in ('value','linear') else (1 if arm=='immediate' else 0))
-        flags=np.zeros((15,2),bool)
-        flags[-1,0]=bool(candidate%2);flags[-1,1]=not flags[-1,0]
-        trace=dict(actions=np.zeros((15,2),np.float32),states=np.zeros((15,7),np.float64),
-                   dynamics=np.zeros((15,10),np.float64),flags=flags,initial=np.zeros(7))
+        # Original prefix reaches a physical success at step30. Controlled
+        # post-bank continuation streams use even-index chunks instead. Thus
+        # negative labels run to the genuine budget, never a fabricated early
+        # truncation. These are geometric fixtures, not a physics simulation.
+        prefix=bool(bank_times);positive=prefix or bool(candidate%2)
+        n=30 if prefix else (15 if positive else 2*h)
+        actions=np.tile(decoded[2],(n//15,1));actions[:15]=decoded[candidate]
+        if prefix:actions[15:30]=decoded[1]
+        flags=np.zeros((n,2),bool);flags[-1,0]=positive
+        if n==300:flags[-1,1]=True
+        states=np.tile(record['state'],(n,1))
+        if positive:states[-1]=record['goal_state']
+        trace=dict(actions=actions,states=states,dynamics=np.zeros((n,10),np.float64),
+                   flags=flags,initial=record['state'].copy())
         return dict(trace=trace,banks={0:bank},calls=[],success=bool(flags[-1,0]),score_seconds=0.,
                     tail_state=dict(seed=tail_seed,proposal=str(tail_seed),gmm=str(tail_seed)))
 
@@ -150,26 +177,36 @@ class PipelineTests(unittest.TestCase):
         backend=SyntheticBackend()
         with tempfile.TemporaryDirectory() as d,patch.object(ct,'allocation',return_value=a):
             root=Path(d)
+            capsule=synthetic_capsule(root,a)
             for role in ('train','validation'):
                 for i,ref in enumerate(a[role]):
                     for offset,h in enumerate((75,150)):
                         index=i*2+offset;p=root/('%s-%d'%(role,index));p.mkdir()
-                        report=collect(backend,{},0,ref,h,p)
+                        record,environment_seed=load_record(capsule,ref,h,role)
+                        report=collect(backend,record,environment_seed,ref,h,p)
                         save_report(p,role,index,report)
-            p=root/'fit-0';p.mkdir();f=train(root,p,'src','cap');self.assertTrue(f['advance'])
+            p=root/'fit-0';p.mkdir();f=train(root,p,'src','cap',capsule);self.assertTrue(f['advance'])
             save_report(p,'fit',0,f)
             predict=Predictor(root,'src','cap')
-            p=root/'validate-0';p.mkdir();v=validation(root,p,'src','cap')
+            p=root/'validate-0';p.mkdir();v=validation(root,p,'src','cap',capsule)
             self.assertTrue(v['advance']);self.assertGreater(v['mean_informative_concordance'],.5)
             save_report(p,'validate',0,v)
             for i,ref in enumerate(a['closed_loop']):
                 p=root/('closed-%d'%i);p.mkdir()
-                r=closed(backend,lambda h:({},0),ref,p,predict);save_report(p,'closed',i,r)
-            p=root/'report-0';p.mkdir();r=final_report(root,p,'src','cap')
+                r=closed(backend,lambda h:load_record(capsule,ref,h,'closed_loop'),ref,p,predict);save_report(p,'closed',i,r)
+            p=root/'report-0';p.mkdir();r=final_report(root,p,'src','cap',capsule)
             self.assertEqual(r['episodes'],512);self.assertGreater(r['primary']['mean'],0)
+            # Final closed-loop analysis must independently reject a resealed
+            # physically false positive too, not merely trust its saved target.
+            path=root/'closed-0'/'h75-d0-immediate.npz'
+            from candidate_value_data import read_npz
+            tr=read_npz(path);tr['states'][-1]=synthetic_record()['state']
+            with path.open('wb') as f:np.savez_compressed(f,**tr)
+            (root/'closed-0'/'sha256.txt').unlink();ct.seal(root/'closed-0')
+            with self.assertRaises(AssertionError):final_report(root,root/'unused','src','cap',capsule)
             # A corruption is fatal; it is never silently reclassified as failure.
             (root/'train-0'/'prefix.npz').write_bytes(b'corruption')
-            with self.assertRaises(RuntimeError):list(validated_banks(root,'train','src','cap'))
+            with self.assertRaises(RuntimeError):list(validated_banks(root,'train','src','cap',capsule))
     def test_actual_fresh_driver_and_policy_with_fake_physics(self):
         from test_single_anchor_ranking import real_policy_class
         from test_candidate_value_learning import FakeSolver

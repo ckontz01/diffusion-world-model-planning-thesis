@@ -49,9 +49,9 @@ def work(source,run,approval,capsule,source_sha,kind,index):
             report.update(model_construction_seconds=construction,
                           gpu_peak_allocated_bytes=torch.cuda.max_memory_allocated(),
                           gpu_peak_reserved_bytes=torch.cuda.max_memory_reserved())
-        elif kind=='fit':report=train(run,out,source_sha,capsule_sha)
-        elif kind=='validate':report=validation(run,out,source_sha,capsule_sha)
-        elif kind=='report':report=final_report(run,out,source_sha,capsule_sha)
+        elif kind=='fit':report=train(run,out,source_sha,capsule_sha,cap)
+        elif kind=='validate':report=validation(run,out,source_sha,capsule_sha,cap)
+        elif kind=='report':report=final_report(run,out,source_sha,capsule_sha,cap)
         else:raise RuntimeError('Unknown stage')
         seconds=time.monotonic()-start
         size=sum(p.stat().st_size for p in out.rglob('*') if p.is_file())

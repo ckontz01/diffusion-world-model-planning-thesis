@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import candidate_value_learning as c
 import candidate_value_contract as ct
-from candidate_value_data import validated_banks,write_npz,read_npz
+from candidate_value_data import validated_banks,write_npz,read_npz,load_record,validate_saved_trajectory
 from candidate_value_models import Predictor
 
 
@@ -18,10 +18,11 @@ def hierarchical(rows,key):
     return out
 
 
-def validation(run,out,source_sha,capsule_sha):
+def validation(run,out,source_sha,capsule_sha,capsule):
+    banks=list(validated_banks(run,'validation',source_sha,capsule_sha,capsule))
     predictor=Predictor(run,source_sha,capsule_sha);rows=[];bins=[]
     constant=predictor.report['constant_probability']
-    for ref,h,t,bank,ids,y in validated_banks(run,'validation',source_sha,capsule_sha):
+    for ref,h,t,bank,ids,y in banks:
         row=dict(reference=ref,horizon=h,anchor=t)
         for arm in ('value','linear','context'):
             p=predictor(arm,bank['x'][ids])
@@ -70,6 +71,7 @@ def closed(backend,record_for,reference,out,predictor):
                 write_npz(Path(out)/file,**trace)
                 ct.json_write(Path(out)/(file+'.calls.json'),result['calls'])
                 success=c.success_target(trace['flags'][:,0],trace['flags'][:,1],remaining=2*h)
+                validate_saved_trajectory(read_npz(Path(out)/file),record,h,target=success)
                 rows.append(dict(reference=reference,horizon=h,draw=draw,arm=arm,planner_seed=planner_seed,
                                  target=success,trace_file=file,score_seconds=result['score_seconds']))
                 steps+=len(trace['actions'])
@@ -77,20 +79,25 @@ def closed(backend,record_for,reference,out,predictor):
     return dict(reference=reference,rows=rows,primitive_steps=steps,provenance=backend.provenance)
 
 
-def final_report(run,out,source_sha,capsule_sha):
+def final_report(run,out,source_sha,capsule_sha,capsule):
     gate=ct.check_report(Path(run)/'validate-0','validate',0,source_sha,capsule_sha)
     ct.require(gate['advance'] is True,'Closed-loop advancement gate')
     reports=[ct.check_report(Path(run)/('closed-%d'%i),'closed',i,source_sha,capsule_sha) for i in range(32)]
-    rows=[]
+    rows=[];checked=[]
     for i,r in enumerate(reports):
         ref=ct.allocation()['closed_loop'][i]
         expected={(h,d,a) for h in (75,150) for d in (0,1) for a in ct.ARMS}
         ct.require(r['reference']==ref and len(r['rows'])==16 and
                    {(x['horizon'],x['draw'],x['arm']) for x in r['rows']}==expected,'Closed execution grid')
         for row in r['rows']:
+            ct.require(row['reference']==ref and row['planner_seed']==c.seed('closed-loop',ref,row['horizon'],row['draw']),
+                       'Closed reference/RNG identity')
             tr=read_npz(ct.child(Path(run)/('closed-%d'%i),row['trace_file']))
-            ct.require(row['target']==c.success_target(tr['flags'][:,0],tr['flags'][:,1],remaining=2*row['horizon']),
-                       'Closed label identity')
+            record,_=load_record(capsule,ref,row['horizon'],'closed_loop')
+            validate_saved_trajectory(tr,record,row['horizon'],target=row['target'])
+        ct.require(sum(x['target']['steps'] for x in r['rows'])==r['primitive_steps'],'Closed action count')
+        checked.append((ref,r))
+    for ref,r in checked:
         values={a:float(np.mean([x['target']['success'] for x in r['rows'] if x['arm']==a])) for a in ct.ARMS}
         rows.append(dict(reference=ref,success=values,effect=values['value']-values['continuation']))
     ct.json_write(Path(out)/'REFERENCE-EFFECTS.json',rows)
