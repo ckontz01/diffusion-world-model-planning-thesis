@@ -8,13 +8,21 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
 ## Authorized extension — current work
 
 The user approved the exact additional28 design after accepting the pilot.
-Source54e3acf and [execution contract](EXTENSION-EXECUTION-20260914.md) are frozen;
-100 local tests passed. Snapshot manifest
-`94a57124ca1b5dbf311023869d618377de978856cc3ef4b25de007c16b6a9565`.
-First job301003 (ref567/repeat0) was PENDING(Resources) on initial inspection.
-The metadata-only sequential dispatcher enforces5min/job,7200s new allocation
-reservation and1GB storage watermark;56 exact jobs total, no retries/replacements.
-Run `.../experiments/diffusion-bottleneck/extension-20260914-54e3acf`.
+Source265b618 and unchanged [execution contract](EXTENSION-EXECUTION-20260914.md)
+are frozen. All101 tests passed in the locally extracted package, and all60
+source-manifest entries verified. Manifest
+`160d0dfc93c32ce578f6aa1fed55b6c615dcf984f60229d44c7fbf2b756abbee`.
+Previous job301003 (ref567/repeat0) FAILED1:0 after11seconds in pre-run tests:
+two existing archive/audit helper files were omitted from that package. No
+model/simulator ran, and the dispatcher stopped without submitting another job.
+The failed source/run is preserved. Corrected CPU package preflight301009 is
+submitted; its terminal state is not yet checked. GPU dispatch must wait for
+COMPLETED0:0 and101 passing tests in the pinned remote runtime.
+The metadata-only sequential dispatcher enforces5min/job,7200s allocation
+reservation (including the prior11seconds) and1GB storage watermark;56 exact
+scientific jobs total, no automatic retries/replacements.
+Intended run `.../experiments/diffusion-bottleneck/extension-20260914-265b618`
+has not yet been launched.
 Original four references/eight runs remain reused unchanged. No new outcome
 read before complete successful dispatch and combined verification. See
 [launch chronology](EXTENSION-LAUNCH-20260914.md), including the preserved initial

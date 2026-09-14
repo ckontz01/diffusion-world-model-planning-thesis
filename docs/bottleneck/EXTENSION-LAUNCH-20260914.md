@@ -63,3 +63,26 @@ charges the prior11seconds against the same7200-second ceiling; it does not
 reset spent cost. No scientific runner, protocol, tolerance or analysis change.
 All prior source/output directories are preserved. No failed scientific result
 is being retried; this is the first actual execution of the same frozen case.
+
+## Repackaged source265b618 and CPU preflight
+
+Source265b618 includes the prior11-second budget charge and regression. The
+package now includes both unchanged helper dependencies. All101 tests passed
+from the extracted archive before transfer; all60 remote manifest entries
+verified. The scientific runner and execution contract are unchanged.
+
+Snapshot:
+`/lustreFS/data/superworld/ckontzias/thesis/snapshots/diffusion-bottleneck-extension-265b618`.
+Manifest `160d0dfc93c32ce578f6aa1fed55b6c615dcf984f60229d44c7fbf2b756abbee`;
+tar `6020c7592a4a11069416aa1d38bab95492b4356d17d0e3f30cd1396a0ad98d27`.
+CPU-only package preflight301009 submitted with2CPUs/4GB/10min in the pinned
+Python3.11 Apptainer runtime. Its terminal state has not yet been inspected.
+Logs: `.../experiments/diffusion-bottleneck/extension-package-preflight-265b618`.
+No model or episode is part of this package preflight.
+
+The new sequential dispatcher must not start until301009 completes0:0 with101
+tests passing. Intended new run root:
+`/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/extension-20260914-265b618`.
+The prior54e3acf dispatcher has exited; it must not be restarted. Analysis script
+`D:/THESIS-TEMP/analyze-extension-265b618.sh` is prepared but not run, and the
+new external backup destination is `D:/THESIS-BACKUPS/bottleneck-20260914/extension-265b618`.
