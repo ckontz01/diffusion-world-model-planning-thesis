@@ -2,10 +2,13 @@ import hashlib
 from pathlib import Path
 import unittest
 from unittest.mock import patch
-from diffusion_extension_control import REFS,allowed,command
+from diffusion_extension_control import REFS,allowed,command,PRIOR_ALLOCATION_SECONDS
 from verify_diffusion_extension import effects
 
 class ExtensionTests(unittest.TestCase):
+    def test_failed_preflight_allocation_retained(self):
+        self.assertEqual(PRIOR_ALLOCATION_SECONDS,11)
+
     def test_login_python36_subprocess_compatibility(self):
         with patch('diffusion_extension_control.subprocess.check_output',return_value='123\n') as call:
             self.assertEqual(command('sbatch','--parsable'),'123')

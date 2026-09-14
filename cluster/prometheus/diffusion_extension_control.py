@@ -11,6 +11,7 @@ LIMIT_SECONDS=7200
 JOB_SECONDS=300
 LIMIT_BYTES=1_000_000_000
 RESERVE_BYTES=64_000_000
+PRIOR_ALLOCATION_SECONDS=11  # Preserved pre-model packaging failure301003.
 
 def require(ok,msg):
     if not ok:raise RuntimeError(msg)
@@ -30,10 +31,11 @@ def main(src,run,audit):
     namespace='diffusion-bottleneck-v1|development-selection|2026-09-13'
     selected=sorted(range(1600),key=lambda i:(hashlib.sha256(f'{namespace}|{i}'.encode()).hexdigest(),i))[:32]
     require(tuple(selected)==REFS,'Selection differs')
-    elapsed=0;jobs=[]
+    elapsed=PRIOR_ALLOCATION_SECONDS;jobs=[]
     with (run/'DISPATCH.jsonl').open('x',buffering=1) as log:
         def record(event,**kw):
             log.write(json.dumps({'event':event,'utc':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),**kw},sort_keys=True)+'\n')
+        record('prior_allocation_charged',job_id='301003',seconds=PRIOR_ALLOCATION_SECONDS)
         for index in range(8,64):
             size=size_bytes(run)
             require(allowed(elapsed,size),'Cost/storage reservation exhausted; stop without dispatch')

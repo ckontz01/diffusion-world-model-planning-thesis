@@ -43,3 +43,23 @@ every10minutes, created through the app. It inspects only execution metadata unt
 the completion barrier, then continues frozen verification, backup and reporting.
 It stays quiet for unchanged/non-actionable state and is removed after final
 completion. Local follow-up requires the computer and app to remain running.
+
+## Exact failed job301003 — packaging only
+
+Job301003 FAILED1:0 after11 allocated seconds. Dispatcher stopped; no later job
+was submitted. The exact failed job was reported before its stderr was read.
+The test loader could not import `archive_diffusion_bottleneck_backup.py`, omitted
+by the freeze file-selection glob. That helper also imports the omitted
+`audit_diffusion_bottleneck_preservation.py`. Both already exist unchanged in Git.
+The run root contains only dispatcher metadata, test stdout/stderr and tmp-8;
+there is no ref567 output directory. Because tests precede the runner command,
+no model/simulator execution occurred. Stderr12129bytes, SHA256
+`f94ebb56b34a367a2acb1134fb59c02cf9774dfd788f6fecbecc08e9fbb2413d`.
+Test discovery reported98 tests including one failed import, not a100-test pass.
+
+Ordinary package repair includes both unchanged dependencies in a separately
+frozen package and tests the extracted package before GPU launch. The dispatcher
+charges the prior11seconds against the same7200-second ceiling; it does not
+reset spent cost. No scientific runner, protocol, tolerance or analysis change.
+All prior source/output directories are preserved. No failed scientific result
+is being retried; this is the first actual execution of the same frozen case.
