@@ -143,7 +143,8 @@ class PipelineTests(unittest.TestCase):
             root=Path(d);source=root/'source';source.mkdir()
             (source/'SOURCE-MANIFEST.sha256').write_text('synthetic')
             approval=root/'approval.json';capsule=root/'capsule.json'
-            approval.write_text('{}');capsule.write_text('{}');run=root/'run'
+            approval.write_text(json.dumps(dict(prior_allocations=[dict(job='301159',gpu=True,seconds=45,state='FAILED')])))
+            capsule.write_text('{}');run=root/'new-parent'/'run'
             ct.json_write(root/'BACKUP-READY.json',dict(external_mount='/mnt/d',free_bytes=40000000000,
                           source_sha256='src',utc=time.time()))
             submitted=[];last=[0];original_write=ct.json_write
@@ -170,6 +171,8 @@ class PipelineTests(unittest.TestCase):
             self.assertLess(submitted.index(('fit',0)),submitted.index(('validation',0)))
             self.assertLess(submitted.index(('validate',0)),submitted.index(('closed',0)))
             self.assertEqual(ct.json_read(run/'DISPATCH-FINAL.json')['decision'],'completed_development_only')
+            self.assertEqual(ct.json_read(run/'DISPATCH-FINAL.json')['gpu_seconds'],335)
+            self.assertEqual(ct.json_read(run/'DISPATCH-FINAL.json')['cpu_wall_seconds'],3)
     def test_synthetic_collection_training_validation_closed_report(self):
         # Smaller synthetic TRAIN/validation population only for test speed. The
         # separate immutable-grid test enforces the real 96/32/32 contract.

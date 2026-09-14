@@ -14,6 +14,28 @@ def command(*args):return subprocess.check_output(args,universal_newlines=True).
 def bytes_used(run):return sum(p.stat().st_size for p in Path(run).rglob('*') if p.is_file())
 
 
+def copy_evidence(source,destination):
+    """Exclusive, verified content copy; no filesystem-owned xattr propagation."""
+    with Path(source).open('rb') as src,Path(destination).open('xb') as dst:
+        shutil.copyfileobj(src,dst)
+    ct.require(ct.sha(source)==ct.sha(destination),'Evidence copy content changed')
+
+
+def prior_costs(approval):
+    prior=ct.json_read(approval).get('prior_allocations',[])
+    seen=set();gpu=cpu=0
+    for row in prior:
+        ct.require(set(row)=={'job','gpu','seconds','state'} and isinstance(row['job'],str)
+                   and row['job'].isdigit() and row['job'] not in seen and type(row['gpu']) is bool
+                   and type(row['seconds']) is int and row['seconds']>=0 and row['state']=='FAILED',
+                   'Invalid approved prior allocation accounting')
+        seen.add(row['job'])
+        if row['gpu']:gpu+=row['seconds']
+        else:cpu+=row['seconds']
+    ct.require(gpu<=ct.CAPS['gpu_seconds'] and cpu<=ct.CAPS['cpu_seconds'],'Prior costs exceed cap')
+    return prior,gpu,cpu
+
+
 def sbatch_arguments(spec,source,run,approval,capsule,source_sha):
     seconds=spec['seconds'];kind,index=spec['kind'],spec['index']
     a=['sbatch','--parsable','--account=superworld','--cpus-per-task=4',
@@ -36,11 +58,13 @@ def launch(source,run,approval,capsule,source_sha):
     source_reserve=50000000
     ct.require(2*bytes_used(source)+Path(capsule).stat().st_size+Path(approval).stat().st_size<source_reserve,
                'Source/control package exceeds its 50MB reservation')
-    run=Path(run);run.mkdir(exist_ok=False)
-    capsule_sha=ct.sha(capsule);used_gpu=used_cpu=0;reports=[];jobs=[];backed=set()
+    run=Path(run);run.parent.mkdir(parents=True,exist_ok=True);run.mkdir(exist_ok=False)
+    prior,used_gpu,used_cpu=prior_costs(approval)
+    capsule_sha=ct.sha(capsule);reports=[];jobs=[];backed=set()
     active_job=None
     with (run/'DISPATCH.jsonl').open('x',buffering=1) as log:
         def record(event,**kw):log.write(json.dumps(dict(event=event,utc=time.time(),**kw),sort_keys=True)+'\n')
+        if prior:record('prior_allocations_charged',prior_allocations=prior,used_gpu=used_gpu,used_cpu=used_cpu)
         def execute(kind,index):
             nonlocal used_gpu,used_cpu,active_job
             spec=ct.task(kind,index)
@@ -80,14 +104,15 @@ def launch(source,run,approval,capsule,source_sha):
             return report
         def finish(decision):
             summary=dict(decision=decision,jobs=jobs,gpu_seconds=used_gpu,
-                cpu_wall_seconds=used_cpu,bytes=bytes_used(run),no_automatic_followup=True)
+                cpu_wall_seconds=used_cpu,bytes=bytes_used(run),no_automatic_followup=True,
+                prior_allocations=prior)
             terminal=run/'terminal';terminal.mkdir()
             ct.json_write(terminal/'REPORT.json',summary)
-            shutil.copy2(capsule,terminal/'LAUNCH-CAPSULE.json')
-            shutil.copy2(approval,terminal/'APPROVAL.json')
-            shutil.copy2(Path(source)/'SOURCE-MANIFEST.sha256',terminal/'SOURCE-MANIFEST.sha256')
+            copy_evidence(capsule,terminal/'LAUNCH-CAPSULE.json')
+            copy_evidence(approval,terminal/'APPROVAL.json')
+            copy_evidence(Path(source)/'SOURCE-MANIFEST.sha256',terminal/'SOURCE-MANIFEST.sha256')
             for p in run.iterdir():
-                if p.is_file():shutil.copy2(p,terminal/p.name)
+                if p.is_file():copy_evidence(p,terminal/p.name)
             ct.require(bytes_used(run)+source_reserve<=ct.CAPS['storage_bytes'],'Terminal artifact cap')
             ct.seal(terminal)
             new=[p.name for p in run.iterdir() if p.is_dir() and (p/'sha256.txt').exists() and p.name not in backed]

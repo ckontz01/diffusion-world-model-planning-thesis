@@ -1,6 +1,7 @@
 """CVL executable contract and fail-closed authentication (stdlib, host-safe)."""
 import hashlib
 import json
+import os
 from pathlib import Path
 
 VERSION='candidate-value-v1-20260914'
@@ -146,13 +147,24 @@ def authorize(source,run,approval,capsule_path,source_sha):
 
 
 def tree_hash(root,code_only=False):
-    """Runtime/source only. Never call this on a research data/artifact root."""
+    """Pin regular bytes and link text, independent of link resolution view.
+
+    The environment's Python aliases point into the separately byte-pinned SIF.
+    Dereferencing those links made host (dangling) and container (resolved)
+    inventories differ. Link destinations remain authenticated, not omitted;
+    regular environment files and the container image remain byte-authenticated.
+    Never call this on a research data/artifact root.
+    """
     require(root.is_dir(),'Missing runtime root')
     h=hashlib.sha256();count=0
     for p in sorted(root.rglob('*')):
         if code_only and p.suffix not in ('.py','.so','.pth','.toml','.yaml','.yml'):
             continue
-        if p.is_file() and '__pycache__' not in p.parts and '.git' not in p.parts:
+        if '__pycache__' in p.parts or '.git' in p.parts:continue
+        if p.is_symlink():
+            count+=1;h.update(p.relative_to(root).as_posix().encode())
+            h.update(b'\0symlink\0');h.update(os.readlink(str(p)).encode());h.update(b'\0')
+        elif p.is_file():
             count+=1;h.update(p.relative_to(root).as_posix().encode());h.update(sha(p).encode())
     require(count>0,'Empty runtime root')
     return h.hexdigest()

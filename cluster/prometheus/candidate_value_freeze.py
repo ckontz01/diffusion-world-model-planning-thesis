@@ -93,6 +93,7 @@ def freeze(source,out):
     code_root=ct.ROOT/'src/hi-lewm'
     code_roots={str(code_root):ct.tree_hash(code_root,code_only=True)}
     obj=dict(version=ct.VERSION,source_sha256=source_sha,protocol_sha256=ct.sha(source/ct.DOC),
+             runtime_tree_algorithm='regular-bytes-and-symlink-text-v2',
              records=records,runtime_files=runtime_files,runtime_roots=roots,runtime_code_roots=code_roots,
              collection_registry_sha256=expected,reference_payloads_opened=0,
              excluded_reference_payloads_opened=0,researcher_approved=False)
