@@ -37,3 +37,9 @@ artifact was opened at launch. Unrelated E14 pending jobs are unchanged.
 Combined report runner is frozen in the same snapshot. New backup verification
 is byte-only and will run after combined acceptance, alongside rechecking the
 eight pilot copies rather than rewriting them. Completion/results remain pending.
+
+Local thread heartbeat `complete-additional-28-bottleneck-diagnostic` is ACTIVE
+every10minutes, created through the app. It inspects only execution metadata until
+the completion barrier, then continues frozen verification, backup and reporting.
+It stays quiet for unchanged/non-actionable state and is removed after final
+completion. Local follow-up requires the computer and app to remain running.
