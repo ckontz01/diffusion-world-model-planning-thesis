@@ -30,12 +30,15 @@ def main(mode, output):
             def forbidden(*args, **kwargs):
                 raise RuntimeError('Real checkpoint access forbidden in CPU preflight')
             torch.load = forbidden
-            suite = unittest.defaultTestLoader.loadTestsFromName('test_single_anchor_ranking')
+            suite = unittest.defaultTestLoader.loadTestsFromNames(['test_single_anchor_ranking', 'test_single_anchor_ranking_host'])
             result = unittest.TextTestRunner(verbosity=2).run(suite)
             report.update(tests=result.testsRun, failures=len(result.failures), errors=len(result.errors))
-            report['all_passed'] = result.wasSuccessful() and result.testsRun == 18
+            report['all_passed'] = result.wasSuccessful() and result.testsRun == 22
         else:
-            report['all_passed'] = True
+            suite = unittest.defaultTestLoader.loadTestsFromName('test_single_anchor_ranking_host')
+            result = unittest.TextTestRunner(verbosity=2).run(suite)
+            report.update(tests=result.testsRun, failures=len(result.failures), errors=len(result.errors))
+            report['all_passed'] = result.wasSuccessful() and result.testsRun == 4
     except Exception as error:
         report['error_type'], report['error'] = type(error).__name__, str(error)
     with Path(output).open('x') as stream:

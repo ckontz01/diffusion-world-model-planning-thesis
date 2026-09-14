@@ -43,7 +43,8 @@ def package(approved, support, output):
     for path in extras:
         payload[path] = git('show', approved+':'+path)
     for name in ('package_single_anchor_ranking.py', 'preflight_single_anchor_ranking.py',
-                 'preflight_single_anchor_ranking.sh'):
+                 'preflight_single_anchor_ranking.sh', 'single_anchor_ranking_host.py',
+                 'single_anchor_ranking_dispatch.py', 'test_single_anchor_ranking_host.py'):
         payload[base+name] = git('show', support+':'+base+name)
     for path, data in payload.items():
         if path.endswith('.sh') and b'\r' in data:

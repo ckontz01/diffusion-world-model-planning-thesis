@@ -7,10 +7,7 @@ import json
 import subprocess
 import time
 from pathlib import Path
-from single_anchor_ranking import REFS,check_approval
-from diffusion_bottleneck import require,require_sha
-from verify_diffusion_extension import verify_source
-from diffusion_extension_control import size_bytes
+from single_anchor_ranking_host import REFS,check_approval,require,require_sha,verify_source,size_bytes
 
 LIMIT_SECONDS=14400
 JOB_SECONDS=900
