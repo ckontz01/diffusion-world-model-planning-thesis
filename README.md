@@ -206,7 +206,8 @@ verification, with the original pilot reused unchanged and all64 bundles backed
 up on the externalSSD. Its [combined32/additional28 report](docs/bottleneck/EXTENSION-RESULT-20260914.md)
 finds a repeatable first-chunk margin-ranking signal, no added successes in new28,
 and mixed context-replacement effects. Final RAM accounting is complete (maximum
-Slurm batch MaxRSS1686004K); reasoning-chat handoff remains pending.
+Slurm batch MaxRSS1686004K); the completed report was delivered to the selected
+reasoning chat for review. No next experiment was launched.
 See [status](docs/bottleneck/STATUS.md) and the
 [frozen extension contract](docs/bottleneck/EXTENSION-EXECUTION-20260914.md). No new model,
 confirmation, architecture redesign or unused-reference evaluation is authorized

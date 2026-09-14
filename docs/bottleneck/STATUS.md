@@ -17,8 +17,9 @@ receipts are prepared: new28 greedy first-only margin improvement+0.5730,
 latent/joint lose one new-cohort baseline success. No scientific efficacy claim.
 GPU-job RAM accounting is complete: all56 batch records, maximum1686004K
 (1.607899GiB), independently reconciled3941 successful allocation seconds.
-Final reasoning-chat handoff remains pending; no simulation or analyzer rerun is
-needed. The next rank-only experiment is proposed,
+Final reasoning-chat handoff was sent and visibly confirmed on14 September2026;
+review is processing, not yet accepted. No simulation or analyzer rerun occurred.
+The next rank-only experiment is proposed,
 not frozen or launched. Earlier execution milestones below are chronological.
 
 The user approved the exact additional28 design after accepting the pilot.

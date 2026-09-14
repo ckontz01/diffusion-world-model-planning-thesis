@@ -164,3 +164,16 @@ The committed EXTENSION-SLURM-ACCOUNTING-20260914.json preserves original unit
 strings and all rows. Slurm resident RAM is not GPU VRAM or aggregate node RAM;
 sampling can miss instantaneous peaks. No experiment was rerun. This completes
 the accounting item left pending above; reasoning-chat delivery is next.
+
+## Reasoning-chat handoff delivered
+
+The completed worker report was sent on14 September2026 to the researcher-selected
+chat `6a8714c3-0da0-83eb-b9e5-9171a1dadcd5` (Analyse E11 Research Question).
+It contains the separate new28 and combined32 summaries, all32 reference effects,
+final RAM/resource accounting, provenance/backup limits and exactly one proposed
+rank-only next experiment. It links immutable report commit
+`5d437d7fe8c505c7744ab5570a90947781af51a2`, pushed and matched by git ls-remote.
+The browser displayed the submitted Pasted text.txt attachment and review request,
+then Pro thinking. This verifies delivery, not an independent review verdict.
+No follow-up experiment or permission expansion occurred. All101 local tests
+passed again; original three E12 drafts remain untouched.

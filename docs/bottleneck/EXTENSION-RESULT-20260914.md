@@ -5,8 +5,10 @@ supports a repeatable **first-chunk margin-ranking signal**, not a demonstrated
 success-rate improvement. Intermediate-context replacement is not a consistent
 repair. Historical decision remains `stop_futility_strong_adverse_signal`.
 
-Final read-only RAM accounting is complete. The reasoning-chat handoff is pending;
-no further model execution is needed.
+Final read-only RAM accounting is complete. The completed report was delivered
+to the researcher-selected reasoning chat on14 September2026; the UI confirmed
+the attachment/message and showed the reasoning model processing it. No review
+verdict is claimed yet, and no follow-up experiment was launched.
 
 ## Scope and verification
 
