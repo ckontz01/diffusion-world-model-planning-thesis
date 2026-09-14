@@ -1,0 +1,115 @@
+RESEARCHER APPROVAL — single-anchor ranking experiment
+
+I approve the single-anchor ranking experiment prepared at:
+
+Branch: single-anchor-ranking-preparation-20260914
+Commit: dd0d2bc716e73d49f5d7cf5acf298adc34573032
+
+Proceed with the concrete protocol and resource envelope below.
+Do not return for another general design review before executing this
+approved scope. Report an actual technical blocker or material deviation
+rather than silently changing the experiment.
+
+APPROVED SCIENTIFIC SCOPE
+
+Use exactly the existing32 selected exposed references, H75/H150,
+absolute anchors0/30, checkpoint7201, and the two selection arms.
+
+Change the ranking rule at ONE designated decision only.
+Both arms compute both scores from the same original continuation
+workload and matched intervention banks.
+
+After delivering the selected first chunk, both arms use the original
+unchanged continuation/replanning policy through the original remaining
+budget. Do not reset the schedule, commit the imagined second chunk,
+or continue using immediate ranking at later decisions.
+
+Run two fresh-process repeats per reference:
+64 jobs,512 branch executions,128 distinct paired intervention points.
+Repeat0 supplies scientific estimates; reference remains the clustering
+unit, n=32. Repeat1 is a repeatability check.
+
+APPROVED RESOURCES
+
+- One A6000 allocation at a time.
+- 4 CPUs and24 GiB requested RAM per GPU job.
+- 15-minute cap per GPU job.
+- Four aggregate GPU-allocation hours, including failures/timeouts,
+  excluding queue waiting.
+- Reserve the next job's full15-minute allowance before dispatch.
+- 2,000,000,000-byte run-root watermark, including logs/temp/seals.
+- Retain the proposed64MB dispatch reserve and64MiB per-file cap.
+- Reserve6GB on the healthy external THESIS_SSD for backup.
+- Separate CPU-only import/synthetic preflight:
+  2CPUs/4GiB,10-minute cap.
+- Separate final CPU verifier:
+  2CPUs/4GiB,30-minute cap.
+
+Report actual charged allocations, CPU allocations, RAM accounting,
+PyTorch allocator measurements and stored bytes with their proper scopes.
+Do not present allocator peaks as total VRAM or allocation time as
+GPU-kernel time.
+
+LAUNCH SEQUENCE
+
+1. Preserve the prepared commit and all historical artifacts.
+   Freeze the approved source package and protocol in separately named
+   immutable locations. Bind their actual hashes and this approval to
+   the explicit approval record.
+
+2. Run the proposed CPU-only packaging/import/synthetic preflight in
+   the pinned environment. Include the actual dispatcher interpreter
+   and import closure, not only the worker runner. No silent dependency
+   upgrades or substitution of the local test environment.
+
+3. Launch the first reference1269 process pair as the technical pilot
+   INSIDE the64-job plan.
+
+4. Require its real bank/regeneration, physical replay, historical-control
+   tail, schedule/RNG, termination, and exact-repeat checks to pass.
+   Inspect technical status only, not whether the treatment looks better.
+
+5. If those checks pass, continue with the remaining62 jobs automatically
+   within the approved serial dispatch/resource controls. Do not ask
+   for another research approval solely because the technical pilot passed.
+   Reuse its completed jobs in the final grid.
+
+6. After all64 jobs complete and the complete artifact checks pass,
+   run the fixed analysis, source-matched external backup, and actual
+   resource accounting. Commit/push the execution and result records
+   and verify the remote commit.
+
+FAILURES AND BOUNDARIES
+
+A technical failure stops dispatch with preserved outputs.
+No automatic retry, tolerance relaxation, case replacement, outcome-based
+rerun, storage reduction, or resource-envelope expansion.
+
+A poor scientific result is reported honestly; it is not a technical
+failure to repair.
+
+Do not access reference payloads1600–5999, train or select checkpoints,
+change models/initialization, introduce score weights or alternative tails,
+run a SAGE/GMM benchmark, or resume the terminated historical study.
+
+Preserve the existing historical decisions, completed diagnostic records,
+and the three unrelated E12 drafts. No bulk data on C:.
+
+RESULT TO RETURN
+
+Report the primary paired effect on native success over the full
+remaining budget, including first-chunk successes.
+
+Report first-chunk, hand-off and full-remainder margins separately,
+alongside actions/planning calls and unfavorable cases. Do not replace
+the primary endpoint with a favorable continuous metric.
+
+Include all32 reference effects, paired wins/losses/ties, exploratory
+reference-cluster uncertainty, actual Slurm IDs/states, source/output
+hashes, verified backup scope and measured resource use.
+
+Do not launch the next method change automatically after this experiment.
+
+The objective is now to EXECUTE the approved test and determine whether
+immediate progress survives downstream planning—not to prepare another
+version of the same general plan.
