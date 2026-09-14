@@ -1,10 +1,16 @@
 import hashlib
 from pathlib import Path
 import unittest
-from diffusion_extension_control import REFS,allowed
+from unittest.mock import patch
+from diffusion_extension_control import REFS,allowed,command
 from verify_diffusion_extension import effects
 
 class ExtensionTests(unittest.TestCase):
+    def test_login_python36_subprocess_compatibility(self):
+        with patch('diffusion_extension_control.subprocess.check_output',return_value='123\n') as call:
+            self.assertEqual(command('sbatch','--parsable'),'123')
+            call.assert_called_once_with(('sbatch','--parsable'),universal_newlines=True)
+
     def test_exact_identifier_selection(self):
         ns='diffusion-bottleneck-v1|development-selection|2026-09-13'
         self.assertEqual(tuple(sorted(range(1600),key=lambda i:(hashlib.sha256(f'{ns}|{i}'.encode()).hexdigest(),i))[:32]),REFS)

@@ -22,7 +22,7 @@ def size_bytes(root):
     return sum(p.stat().st_size for p in root.rglob('*') if p.is_file() and not p.is_symlink())
 
 def command(*args):
-    return subprocess.check_output(args,text=True).strip()
+    return subprocess.check_output(args,universal_newlines=True).strip()
 
 def main(src,run,audit):
     require(not (run/'DISPATCH.jsonl').exists(),'Refuse controller restart/duplicate dispatch')
