@@ -196,9 +196,13 @@ shard study now has an authenticated, member-verified external-SSD archive.
 The [complete trajectory reduction](docs/bottleneck/TRAJECTORY-RESULT-20260914.md)
 rechecked all57600 runs without changing the historical endpoint or stopping
 decision. Most terminal failures combine position and angle misses; those
-categories are symptoms, not identified causes. A separately specified four-
-reference same-bank/intermediate-context engineering pilot is underway; see
-its [live status](docs/bottleneck/STATUS.md) and
+categories are symptoms, not identified causes. The separately specified four-
+reference same-bank/intermediate-context engineering pilot completed with
+mixed effects and one local successful-bank selection counterexample, not a
+resolved SAGE gap. Its [result](docs/bottleneck/PILOT-RESULT-20260914.md) records
+the preserved checker failure, separate semantic supplement and measured costs.
+The [32-reference proposal](docs/bottleneck/32-REFERENCE-PROPOSAL-20260914.md)
+has not launched. See its [status](docs/bottleneck/STATUS.md) and
 [execution contract](docs/bottleneck/PILOT-EXECUTION-20260914.md). No new model,
 confirmation, architecture redesign or unused-reference evaluation is authorized
 by these diagnostics.

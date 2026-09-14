@@ -1,0 +1,22 @@
+{
+  "source": "Prometheus sacct read-only query after all jobs completed; elapsed excludes queue wait",
+  "simulation_jobs": [
+    {"job_id":"300964_0","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":71,"batch_maxrss_K":1709436},
+    {"job_id":"300965_1","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":68,"batch_maxrss_K":1704160},
+    {"job_id":"300965_2","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":67,"batch_maxrss_K":1700000},
+    {"job_id":"300965_3","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":67,"batch_maxrss_K":1702248},
+    {"job_id":"300965_4","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":68,"batch_maxrss_K":1700008},
+    {"job_id":"300965_5","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":68,"batch_maxrss_K":1701876},
+    {"job_id":"300965_6","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":67,"batch_maxrss_K":1690348},
+    {"job_id":"300965_7","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":67,"batch_maxrss_K":1691876}
+  ],
+  "offline_jobs": [
+    {"job_id":"300966","state":"FAILED","exit_code":"1:0","elapsed_seconds":3},
+    {"job_id":"300973","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":7},
+    {"job_id":"300974","state":"COMPLETED","exit_code":"0:0","elapsed_seconds":6}
+  ],
+  "simulation_allocation_sum_seconds":543,
+  "simulation_peak_batch_maxrss_K":1709436,
+  "gpu_kernel_time_measured":false,
+  "separate_cpu_time_measured":false
+}

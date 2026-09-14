@@ -1,0 +1,132 @@
+{
+  "all_passed": true,
+  "available_anchors_including_repeats": 32,
+  "canonical_receipt_sha256": "0c406ca98e051d0f5aa9d8d701f5bc6bc299d67b38906bb2c6bbc39e6d5362ee",
+  "historical_decision_changed": false,
+  "historical_evidence": {
+    "1269": {
+      "delivered": {
+        "150": 140,
+        "75": 150
+      },
+      "result_sha256": "b30fae6fbcad595221cc24bcddfc7681f81fb9457fd49669115513a8f4001b15"
+    },
+    "525": {
+      "delivered": {
+        "150": 300,
+        "75": 150
+      },
+      "result_sha256": "75edef7cd748df0c1957f96ed22c66e9640cadbcf5791e323567dc1c4f5efce4"
+    },
+    "582": {
+      "delivered": {
+        "150": 300,
+        "75": 150
+      },
+      "result_sha256": "a50e73c5a723f087b6bbfa2011bec92b02f3a33c1be9fed5ad921782ac184739"
+    },
+    "722": {
+      "delivered": {
+        "150": 300,
+        "75": 150
+      },
+      "result_sha256": "4172b10a467b7a73896819696fd278a2bf30dcb59221a4d538a05c657119aec0"
+    }
+  },
+  "independently_counted_branches": 2208,
+  "independently_counted_primitive_steps": 68360,
+  "launch_manifest_sha256": "897dba9f318c48ae2e0889c8bf78ccf22808ccbe6132af7aee4e7648bfe8163f",
+  "model_state_sha256": "f0c666cc011ab057390f7e1571cf3d8bde905d13ff11f1d406f6d3dd8575340d",
+  "new_model_or_physics_execution": false,
+  "prior_aggregate_sha256": "58c75c57e87a5736e6a9065334beeef57a682e9193153b6c19f2e08b80ff749a",
+  "program_sha256": "f111d0d3be601906c655a1a032aff9b4fa2eed21ce12aa0f82991e16dce85250",
+  "protected_payload_reads": 0,
+  "run_counts": [
+    {
+      "branches": 276,
+      "primitive_steps": 8582,
+      "reference": 1269,
+      "repeat": 0
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8582,
+      "reference": 1269,
+      "repeat": 1
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8582,
+      "reference": 582,
+      "repeat": 0
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8582,
+      "reference": 582,
+      "repeat": 1
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8582,
+      "reference": 525,
+      "repeat": 0
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8582,
+      "reference": 525,
+      "repeat": 1
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8434,
+      "reference": 722,
+      "repeat": 0
+    },
+    {
+      "branches": 276,
+      "primitive_steps": 8434,
+      "reference": 722,
+      "repeat": 1
+    }
+  ],
+  "runner_sha256": "a5791a8ecb69c3f0a94fe15616d66b227eca4550048cff0b1cec81d300ddca49",
+  "runs": 8,
+  "scope": "Independent saved-array arithmetic, trace semantics, counts and provenance linkage; not independent neural-output regeneration or hidden-physics reconstruction",
+  "seals": {
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-1269-repeat-0": {
+      "BANKS.npz": "772161274f8e7de7693416dba0a3cfba25c2ebcbca968a4f8c867ebfe0744e85",
+      "REPORT.json": "d0127aae5660e933eab7925f4f4e1dedd2556d18da13618a6c88070c9dbf4b4c"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-1269-repeat-1": {
+      "BANKS.npz": "772161274f8e7de7693416dba0a3cfba25c2ebcbca968a4f8c867ebfe0744e85",
+      "REPORT.json": "4c19e6ec78d3dae47bff82b53b3e4009546a0cba70875b02439dc68f51fa6112"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-525-repeat-0": {
+      "BANKS.npz": "d4840a6f3a23940771353f1363ce3994b391c5d3deb7b33fb275dc1d90c8f6f4",
+      "REPORT.json": "4977471aeba9743b48e8f04593fc29acfe9beafc5ae522a643b7be440a5ed30c"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-525-repeat-1": {
+      "BANKS.npz": "d4840a6f3a23940771353f1363ce3994b391c5d3deb7b33fb275dc1d90c8f6f4",
+      "REPORT.json": "8a7f48bc92896829576e7c4821f250da67ba04bab255f0877d269ef8c88d3307"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-582-repeat-0": {
+      "BANKS.npz": "b290e19c3701f463f4b25223ace5dea5ad8efc7cf7d67d501ce98db01c442516",
+      "REPORT.json": "7d6248ff99028ce3bbddf6236a0d911dccae55a5029518f601006650f88b0d96"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-582-repeat-1": {
+      "BANKS.npz": "b290e19c3701f463f4b25223ace5dea5ad8efc7cf7d67d501ce98db01c442516",
+      "REPORT.json": "f095b5b95db5f52d260b988c3d1e373ad2761fb5b2fd24ea32bd1808f4b2e969"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-722-repeat-0": {
+      "BANKS.npz": "a86e0b917784c44288517b801f92da835c00132a7d3c254c51d6d670f105043b",
+      "REPORT.json": "b041afd70c7b2639619d4503917d83e8ecbd6a34f03739d7d21f089ebf0c8f20"
+    },
+    "/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/pilot-20260914-b1c9633/ref-722-repeat-1": {
+      "BANKS.npz": "a86e0b917784c44288517b801f92da835c00132a7d3c254c51d6d670f105043b",
+      "REPORT.json": "e86ee78f861bb7a6ded8ad1330632ec49f08150681ff7cc3ed10638a2821380c"
+    }
+  },
+  "unevaluated_reference_payload_reads": 0
+}

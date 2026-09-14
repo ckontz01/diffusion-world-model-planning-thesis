@@ -12,7 +12,7 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
 - Paired reaggregation: all15 pairs and20 contrasts/cluster SEs verified locally
   and in the pinned remote Python3.11.10 runtime, without new model execution.
 - CPU job300959: FAILED2 after6m49s, specifically the strict canonical-angle
-  guard in full trajectory reduction. No completed trajectory report exists.
+  guard in full trajectory reduction. No completed report exists from that job.
   Canonical preservation and paired stages completed before that failure.
 - Canonical preservation: all450 stage0 shards,22 source files,13 model files,
   four compact analysis files and1600 exposed reference files passed.
@@ -49,19 +49,48 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
   model checkpoints or reference collection; their canonical identities were
   checked separately and no such backup is claimed.
 - Pilot: implementation/specification2f48668+b1c9633 committed before execution.
-  First engineering run300964_0 submitted for ref1269/repeat0; last observed
-  RUNNING. No pilot metric interpreted, no remaining-seven submission yet.
+  All eight jobs300964_0 and300965_[1-7] COMPLETED0:0. All16 distinct anchors
+  available; exact3184 paired array repetitions; no simulation rerun.
   Source manifest897dba9f318c48ae2e0889c8bf78ccf22808ccbe6132af7aee4e7648bfe8163f.
   Output `.../experiments/diffusion-bottleneck/pilot-20260914-b1c9633`.
-  Model/physics replay and resource measurements still pending; no measured
-  32-reference cost claim. No training, redesign or unused-reference access.
+  Original offline verifier300966 FAILED1 on checker-only sklearn coefficient
+  casts; correctione7188b7 and offline300973 passed on unchanged saved bundles.
+  Source9240097 separate semantic/provenance supplement300974 passed; authenticates
+  launch/model/history, reconstructs greedy costs, caps/flags/angle domains,
+  unique coverage and2208 branches/68360 primitive steps. No tolerances changed.
+  AggregateSHA25658c75c57e87a5736e6a9065334beeef57a682e9193153b6c19f2e08b80ff749a;
+  supplementSHA256af7f9b1a67cd95b44d3a46cf1b7312dcf92851e187c63798e18bacd79eb2b2ac.
+  All24 pilot files source-matched on externalSSD at
+  `D:/THESIS-BACKUPS/bottleneck-20260914/pilot-b1c9633` (76.764MB).
+  See [completed pilot](PILOT-RESULT-20260914.md) for evidence and limitations.
+  State/latent/joint first-selection changes3/5/6 of16, effects mixed. One
+  shared bank had14 successful first chunks; baseline missed them, latent/joint
+  and greedy64 selected successful first chunks. Not SAGE-gap resolution.
+  Summed runner338.606s versus543s Slurm allocation, different timing boundaries.
+  [32-reference proposal](32-REFERENCE-PROPOSAL-20260914.md) estimates72.4min
+  allocated for full32 (63.35min additional28), with a proposed2hour review
+  envelope. NOT launched or approved; no training/redesign/unused payload access.
 
 The installed native `_get_obs` uses angle modulo2pi; its source SHA256 is
 `d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68`.
 The endpoint-admission issue is now classified narrowly; no claim that every
-unrecorded native body angle was reconstructed. Full reduction remains the
-passed. Local helper/validation suite82 passed; corrected remote audit suite64
-passed. The pilot's separately deployed runtime tests and replay are pending.
+unrecorded native body angle was reconstructed. Full reduction passed.
+Current local helper/validation suite95 passed; corrected remote audit suite64
+passed; pilot deployed suite20 passed per successful job, corrected verifier7
+and supplementary12 passed remotely. Counts denote different source scopes.
+
+## Latest chronology
+
+- c75b378: full trajectory result and pilot launch record published.
+- e7188b7: preserved failed300966, corrected independent decoder only;300973
+  passed. Aggregate was read before external source review finished; findings
+  were explicitly provisional until the additional semantic checks passed.
+- 9240097: independent review counterexamples addressed by a separate saved-
+  artifact supplement, not changes to the runner or old verifier.300974 passed.
+  New receipt and checked physical counts complete the combined acceptance.
+- Final deliverable: completed preservation/full reduction/pilot, mixed findings,
+  and measured proposal for review. No active diagnostic simulator jobs or
+  unattended monitoring mechanism; no32-reference expansion submitted.
 
 Original three E12 drafts and unrelated E14 pending jobs remain untouched.
 Bulk artifacts are outside Git on Prometheus/external SSD. No credentials,

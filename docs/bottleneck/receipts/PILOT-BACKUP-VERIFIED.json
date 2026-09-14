@@ -1,0 +1,10 @@
+{
+  "aggregate_sha256": "58c75c57e87a5736e6a9065334beeef57a682e9193153b6c19f2e08b80ff749a",
+  "all_passed": true,
+  "local_root": "/mnt/d/THESIS-BACKUPS/bottleneck-20260914/pilot-b1c9633",
+  "outcome_payloads_interpreted": false,
+  "payload_bytes_verified": 76762855,
+  "payload_files_verified": 16,
+  "program_sha256": "ae0d23d8556bc53ce580887c34277ad817b14dfc47bf63df92df1425cc5225d1",
+  "source_matched_runs": 8
+}
