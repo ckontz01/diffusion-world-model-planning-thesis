@@ -1,0 +1,41 @@
+{
+  "researcher_approved": true,
+  "experiment": "single-anchor-ranking-20260914",
+  "approved_commit": "dd0d2bc716e73d49f5d7cf5acf298adc34573032",
+  "launch_support_commit": "2f7c941cba546aee497df20dc96bdaa87cf8f63a",
+  "source_manifest_sha256": "ba2eb02b2e860648a0642c39cb97f3409ab9cb7dcc975a4110b5e2db05297704",
+  "protocol_sha256": "43830bd18fcf8cf3d986cbd71d5bb8d5df0dee8fd7c88356c5070b5d76c8a1ae",
+  "source_archive_sha256": "2b6b55266630dcc8744a6cc04b076b5e0cd36e1cce66e2998997b1671e50f6ff",
+  "original_researcher_attachment_sha256": "bbde22cdc17595bc1c176489e24943ef8e980c75c45eddccb0f7b0fddaf0e050",
+  "approval_text": "RESEARCHER-APPROVAL.txt",
+  "repeats": 2,
+  "gpu_seconds": 14400,
+  "job_seconds": 900,
+  "storage_bytes": 2000000000,
+  "dispatch_reserve_bytes": 64000000,
+  "per_file_limit_bytes": 67108864,
+  "cpu_preflight": {
+    "cpus": 2,
+    "memory_gib": 4,
+    "seconds": 600
+  },
+  "cpu_verifier": {
+    "cpus": 2,
+    "memory_gib": 4,
+    "seconds": 1800
+  },
+  "snapshot": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/single-anchor-ranking-20260914-ba2eb02b2e860648",
+  "preflight_directory": "/lustreFS/data/superworld/ckontzias/thesis/staging/single-anchor-ranking-20260914/preflight-ba2eb02b",
+  "backup_directory": "D:/THESIS-BACKUPS/single-anchor-ranking-20260914",
+  "backup_reserved_bytes": 6000000000,
+  "backup_reservation_file": "BACKUP-RESERVE.bin",
+  "dispatcher_interpreter": "/usr/bin/python3",
+  "dispatcher_interpreter_basis": "Existing host scheduler-control interpreter; mandatory preflight must validate full imports before dispatch. No package installation or environment fallback authorized implicitly.",
+  "runtime": "hi-lewm-artifact-py311-cu121-swm006 in pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif",
+  "preflight_required_before_gpu": true,
+  "automatic_retry": false,
+  "scientific_source_changed": false,
+  "repair_authorization": "User explicitly authorized dispatcher-only repair and one replacement CPU preflight; similarly small technical fixes need no further approval. Scientific settings, failed artifacts and resource limits remain fixed.",
+  "preserved_failed_cpu_job": "301088",
+  "replacement_preflight_count": 1
+}
