@@ -1,2 +1,3 @@
 cluster/prometheus/run_single_anchor_ranking.sh text eol=lf
 cluster/prometheus/preflight_single_anchor_ranking.sh text eol=lf
+cluster/prometheus/final_verify_single_anchor_ranking.sh text eol=lf
