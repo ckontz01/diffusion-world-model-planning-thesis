@@ -205,8 +205,9 @@ The approved additional28 extension has completed all56 new jobs and combined
 verification, with the original pilot reused unchanged and all64 bundles backed
 up on the externalSSD. Its [combined32/additional28 report](docs/bottleneck/EXTENSION-RESULT-20260914.md)
 finds a repeatable first-chunk margin-ranking signal, no added successes in new28,
-and mixed context-replacement effects. Final GPU memory accounting and reasoning-
-chat handoff remain pending. See [status](docs/bottleneck/STATUS.md) and the
+and mixed context-replacement effects. Final RAM accounting is complete (maximum
+Slurm batch MaxRSS1686004K); reasoning-chat handoff remains pending.
+See [status](docs/bottleneck/STATUS.md) and the
 [frozen extension contract](docs/bottleneck/EXTENSION-EXECUTION-20260914.md). No new model,
 confirmation, architecture redesign or unused-reference evaluation is authorized
 by these diagnostics.

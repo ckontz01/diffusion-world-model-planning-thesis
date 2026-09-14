@@ -153,3 +153,14 @@ Final local101 tests passed. Full-precision receipts and a combined32/additional
 report are prepared; final GPU-job MaxRSS accounting and reasoning-chat handoff
 remain. No training, tail policy, SAGE benchmark, larger diagnostic or confirmation
 evaluation was launched. All historical decisions/models/pilot bytes remain unchanged.
+
+## Final read-only memory accounting
+
+On14 September2026, historical sacct records were retrieved for the exact56 new
+jobs plus packaging301003, CPU preflight301009 and verifier301071. All56 new
+allocation/batch records are COMPLETED0:0; top-level allocation seconds sum3941.
+Maximum batch MaxRSS is1686004K at301023.batch (1.607899GiB); minimum1645580K.
+The committed EXTENSION-SLURM-ACCOUNTING-20260914.json preserves original unit
+strings and all rows. Slurm resident RAM is not GPU VRAM or aggregate node RAM;
+sampling can miss instantaneous peaks. No experiment was rerun. This completes
+the accounting item left pending above; reasoning-chat delivery is next.

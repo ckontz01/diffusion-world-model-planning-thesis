@@ -1,0 +1,1510 @@
+{
+  "schema": "diffusion-bottleneck-extension-slurm-accounting-v1",
+  "retrieved_date": "2026-09-14",
+  "source": "Prometheus sacct read-only historical query",
+  "query_job_ids": [
+    "301010",
+    "301011",
+    "301012",
+    "301014",
+    "301015",
+    "301016",
+    "301017",
+    "301018",
+    "301019",
+    "301020",
+    "301021",
+    "301022",
+    "301023",
+    "301024",
+    "301025",
+    "301026",
+    "301027",
+    "301028",
+    "301030",
+    "301031",
+    "301032",
+    "301033",
+    "301034",
+    "301036",
+    "301037",
+    "301038",
+    "301039",
+    "301040",
+    "301041",
+    "301042",
+    "301043",
+    "301044",
+    "301045",
+    "301046",
+    "301047",
+    "301048",
+    "301049",
+    "301050",
+    "301051",
+    "301052",
+    "301053",
+    "301054",
+    "301055",
+    "301057",
+    "301058",
+    "301059",
+    "301060",
+    "301061",
+    "301062",
+    "301064",
+    "301065",
+    "301066",
+    "301067",
+    "301068",
+    "301069",
+    "301070",
+    "301003",
+    "301009",
+    "301071"
+  ],
+  "query_fields": [
+    "JobID",
+    "State",
+    "ExitCode",
+    "ElapsedRaw",
+    "AllocCPUS",
+    "MaxRSS"
+  ],
+  "successful_extension_job_count": 56,
+  "successful_gpu_allocation_seconds": 3941,
+  "charged_extension_gpu_allocation_seconds": 3952,
+  "requested_cpu_allocation_seconds": 15764,
+  "maximum_batch_MaxRSS": {
+    "job_id": "301023.batch",
+    "reported": "1686004K",
+    "kibibytes": 1686004,
+    "gibibytes": 1.6078987121582031
+  },
+  "minimum_batch_MaxRSS_kibibytes": 1645580,
+  "caveats": [
+    "MaxRSS is Slurm-reported batch-step maximum resident set size, not total node RAM, not summed concurrent memory, and not GPU VRAM.",
+    "K/M suffixes are interpreted as binary units; original strings retained. Accounting sampling may miss instantaneous peaks.",
+    "ElapsedRaw counted once per top-level allocation, not again for batch/extern steps.",
+    "Requested CPU allocation is not measured CPU busy time. Total GPU-device memory was not measured.",
+    "No job launched, resumed or rerun for accounting."
+  ],
+  "rows": [
+    {
+      "JobID": "301003",
+      "State": "FAILED",
+      "ExitCode": "1:0",
+      "ElapsedRaw": "11",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301003.batch",
+      "State": "FAILED",
+      "ExitCode": "1:0",
+      "ElapsedRaw": "11",
+      "AllocCPUS": "4",
+      "MaxRSS": "1900K"
+    },
+    {
+      "JobID": "301003.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "11",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301009",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "5",
+      "AllocCPUS": "2",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301009.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "5",
+      "AllocCPUS": "2",
+      "MaxRSS": "3464K"
+    },
+    {
+      "JobID": "301009.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "5",
+      "AllocCPUS": "2",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301010",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "75",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301010.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "75",
+      "AllocCPUS": "4",
+      "MaxRSS": "1668504K"
+    },
+    {
+      "JobID": "301010.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "75",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301011",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301011.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": "1673476K"
+    },
+    {
+      "JobID": "301011.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301012",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301012.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1677416K"
+    },
+    {
+      "JobID": "301012.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "836K"
+    },
+    {
+      "JobID": "301014",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301014.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1680792K"
+    },
+    {
+      "JobID": "301014.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301015",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301015.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1674916K"
+    },
+    {
+      "JobID": "301015.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301016",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301016.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675380K"
+    },
+    {
+      "JobID": "301016.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301017",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301017.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1660352K"
+    },
+    {
+      "JobID": "301017.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301018",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301018.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1660880K"
+    },
+    {
+      "JobID": "301018.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301019",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301019.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": "1672208K"
+    },
+    {
+      "JobID": "301019.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301020",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301020.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1673352K"
+    },
+    {
+      "JobID": "301020.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301021",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301021.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1671112K"
+    },
+    {
+      "JobID": "301021.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301022",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301022.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675744K"
+    },
+    {
+      "JobID": "301022.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301023",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301023.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1686004K"
+    },
+    {
+      "JobID": "301023.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301024",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301024.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1642M"
+    },
+    {
+      "JobID": "301024.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301025",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301025.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1660796K"
+    },
+    {
+      "JobID": "301025.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301026",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301026.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1661680K"
+    },
+    {
+      "JobID": "301026.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301027",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301027.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1676584K"
+    },
+    {
+      "JobID": "301027.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301028",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301028.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1674460K"
+    },
+    {
+      "JobID": "301028.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301030",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301030.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1681148K"
+    },
+    {
+      "JobID": "301030.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301031",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301031.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1676624K"
+    },
+    {
+      "JobID": "301031.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301032",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301032.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1677944K"
+    },
+    {
+      "JobID": "301032.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301033",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301033.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675112K"
+    },
+    {
+      "JobID": "301033.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301034",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301034.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1677024K"
+    },
+    {
+      "JobID": "301034.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301036",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301036.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675980K"
+    },
+    {
+      "JobID": "301036.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301037",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301037.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1681608K"
+    },
+    {
+      "JobID": "301037.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301038",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301038.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1677812K"
+    },
+    {
+      "JobID": "301038.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301039",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301039.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1673204K"
+    },
+    {
+      "JobID": "301039.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301040",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301040.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1676296K"
+    },
+    {
+      "JobID": "301040.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301041",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301041.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1679844K"
+    },
+    {
+      "JobID": "301041.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301042",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301042.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1679432K"
+    },
+    {
+      "JobID": "301042.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301043",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301043.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1679112K"
+    },
+    {
+      "JobID": "301043.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301044",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301044.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675432K"
+    },
+    {
+      "JobID": "301044.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301045",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301045.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1678036K"
+    },
+    {
+      "JobID": "301045.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301046",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "75",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301046.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "75",
+      "AllocCPUS": "4",
+      "MaxRSS": "1673948K"
+    },
+    {
+      "JobID": "301046.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "75",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301047",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301047.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1667004K"
+    },
+    {
+      "JobID": "301047.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301048",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301048.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1670776K"
+    },
+    {
+      "JobID": "301048.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "71",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301049",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301049.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1677180K"
+    },
+    {
+      "JobID": "301049.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301050",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301050.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1645580K"
+    },
+    {
+      "JobID": "301050.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301051",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301051.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1676172K"
+    },
+    {
+      "JobID": "301051.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301052",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301052.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1678484K"
+    },
+    {
+      "JobID": "301052.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301053",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301053.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1667492K"
+    },
+    {
+      "JobID": "301053.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301054",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301054.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1667528K"
+    },
+    {
+      "JobID": "301054.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301055",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301055.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1678860K"
+    },
+    {
+      "JobID": "301055.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "836K"
+    },
+    {
+      "JobID": "301057",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301057.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675592K"
+    },
+    {
+      "JobID": "301057.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "72",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301058",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301058.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1664116K"
+    },
+    {
+      "JobID": "301058.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301059",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301059.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1676040K"
+    },
+    {
+      "JobID": "301059.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301060",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301060.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675420K"
+    },
+    {
+      "JobID": "301060.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301061",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301061.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1674108K"
+    },
+    {
+      "JobID": "301061.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301062",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301062.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675844K"
+    },
+    {
+      "JobID": "301062.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301064",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301064.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1677192K"
+    },
+    {
+      "JobID": "301064.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301065",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301065.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1682272K"
+    },
+    {
+      "JobID": "301065.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301066",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301066.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1660116K"
+    },
+    {
+      "JobID": "301066.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301067",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301067.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1680684K"
+    },
+    {
+      "JobID": "301067.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301068",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301068.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1679528K"
+    },
+    {
+      "JobID": "301068.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "70",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301069",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301069.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675428K"
+    },
+    {
+      "JobID": "301069.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "69",
+      "AllocCPUS": "4",
+      "MaxRSS": "1364K"
+    },
+    {
+      "JobID": "301070",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "68",
+      "AllocCPUS": "4",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301070.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "68",
+      "AllocCPUS": "4",
+      "MaxRSS": "1675612K"
+    },
+    {
+      "JobID": "301070.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "68",
+      "AllocCPUS": "4",
+      "MaxRSS": "1368K"
+    },
+    {
+      "JobID": "301071",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "44",
+      "AllocCPUS": "2",
+      "MaxRSS": ""
+    },
+    {
+      "JobID": "301071.batch",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "44",
+      "AllocCPUS": "2",
+      "MaxRSS": "89080K"
+    },
+    {
+      "JobID": "301071.extern",
+      "State": "COMPLETED",
+      "ExitCode": "0:0",
+      "ElapsedRaw": "44",
+      "AllocCPUS": "2",
+      "MaxRSS": "1368K"
+    }
+  ]
+}

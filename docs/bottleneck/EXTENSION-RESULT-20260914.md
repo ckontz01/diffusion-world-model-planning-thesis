@@ -5,8 +5,8 @@ supports a repeatable **first-chunk margin-ranking signal**, not a demonstrated
 success-rate improvement. Intermediate-context replacement is not a consistent
 repair. Historical decision remains `stop_futility_strong_adverse_signal`.
 
-Final GPU MaxRSS accounting and the reasoning-chat handoff are pending; no further
-model execution is needed to finish those administrative items.
+Final read-only RAM accounting is complete. The reasoning-chat handoff is pending;
+no further model execution is needed.
 
 ## Scope and verification
 
@@ -181,6 +181,7 @@ intervals are in the authenticated combined JSON.
 |Primitive physics steps including replay/prefix accounting|480362|548722|
 |Maximum PyTorch allocated GPU bytes|189994496|Allocator peak, **not total VRAM**|
 |Maximum reported PyTorch reserved GPU bytes|201326592|Allocator reservation, **not total VRAM**|
+|Maximum Slurm batch-step resident RAM|1686004K (1.607899GiB)|Job301023.batch; all56 batch records present|
 |CPU package preflight301009|5 allocation seconds|2CPUs/4GB request|
 |CPU combined verifier301071|44 allocation seconds|2CPUs/4GB request; MaxRSS89080K|
 
@@ -190,7 +191,12 @@ not measured CPU busy time. The prior11-second packaging failure is separately
 charged; CPU preflight/analyzer cost is separate from the GPU budget. Queue time
 is excluded. Runner timing excludes parts of process setup and teardown; it is
 not substituted for Slurm allocation. Total device memory was not measured.
-GPU-job Slurm MaxRSS still requires final metadata retrieval.
+The [read-only Slurm accounting receipt](receipts/EXTENSION-SLURM-ACCOUNTING-20260914.json)
+retains all queried rows and independently confirms56 successful jobs and3941s.
+Batch-step MaxRSS ranges1645580K–1686004K, interpreting K/M as binary units.
+This is Slurm-reported resident RAM, not GPU memory, total node RAM or summed
+concurrent usage; sampling can miss instantaneous peaks. Blank allocation-level
+MaxRSS fields are not treated as zero. No jobs were rerun for accounting.
 
 Completion ledger size was540,242,493bytes, below1,000,000,000. Final copied run
 directory is540,243,437bytes across338 files; the944-byte difference is the
@@ -244,4 +250,3 @@ away later opportunity. Sparse success coverage and the ref706 miss mean a
 stronger-planner conclusion is premature. The rank-only test targets this question;
 it does not assume immediate ranking is globally superior or that diffusion
 architecture is the bottleneck. This recommendation is **not launched or frozen**.
-
