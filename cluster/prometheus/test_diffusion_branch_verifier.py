@@ -1,9 +1,18 @@
 import unittest
 import numpy as np
-from verify_diffusion_branch import physical,midranks,rank_correlation
+from verify_diffusion_branch import physical,midranks,rank_correlation,independent_decode
 from diffusion_bottleneck import IntegrityError
 
 class PhysicalVerifierTests(unittest.TestCase):
+    def test_decoder_casts_coefficients_before_arithmetic(self):
+        x=np.arange(2000,dtype=np.float32).reshape(-1,2)/37
+        scale=np.array([.21234567890,.3876543210],np.float64)
+        mean=np.array([.123456789,-.987654321],np.float64)
+        expected=x*scale.astype(np.float32)+mean.astype(np.float32)
+        actual=independent_decode(x,scale,mean)
+        np.testing.assert_array_equal(actual,expected)
+        wrong=x.copy();wrong*=scale;wrong+=mean
+        self.assertFalse(np.array_equal(wrong,actual))
     def test_midranks_ties(self):
         np.testing.assert_array_equal(midranks([3,1,1,2]),[3,.5,.5,2])
     def test_constant_ranking_undefined(self):

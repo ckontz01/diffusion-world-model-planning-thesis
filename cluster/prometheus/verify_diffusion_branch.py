@@ -8,6 +8,14 @@ from diffusion_bottleneck import require,require_sha,sha256,write_report
 REFS=(1269,582,525,722)
 CONDS=('baseline','state','latent','joint')
 
+def independent_decode(planner,scale,mean):
+    # Pinned sklearn StandardScaler casts coefficients through xp.astype(...,
+    # X.dtype) before both in-place operations; FP64 arithmetic is NOT exact.
+    decoded=np.asarray(planner,np.float32).copy()
+    decoded*=np.asarray(scale,dtype=decoded.dtype)
+    decoded+=np.asarray(mean,dtype=decoded.dtype)
+    return decoded
+
 def midranks(values):
     values=np.asarray(values);order=np.argsort(values,kind='stable');ranks=np.empty(len(values),float)
     i=0
@@ -77,8 +85,7 @@ def analyze(root):
                 require(v('first_planner').shape==(1,64,25,2),'First bank shape')
                 require(v('first_noise').shape[:2]==(1,64) and v('second_noise').shape[:2]==(64,8),'Noise bank shape')
                 # sklearn inverse_transform uses FP32 in-place multiply then add.
-                delivered=v('first_planner')[0,:,:15].copy()
-                delivered*=v('decoder_scale');delivered+=v('decoder_mean')
+                delivered=independent_decode(v('first_planner')[0,:,:15],v('decoder_scale'),v('decoder_mean'))
                 np.testing.assert_array_equal(delivered,v('physical_first'))
                 active=[];metrics=[];first_states=[]
                 for i in range(64):
@@ -113,8 +120,7 @@ def analyze(root):
                     i=int(np.argmin(scores));j=int(np.argmin(costs[i]))
                     require(row['selected'][cond]==[i,j],'Selector/tie mismatch')
                     states=v(cond+'/states');flags=v(cond+'/termination_flags')
-                    second_actions=v(cond+'/second_planner')[i,j,:15].copy()
-                    second_actions*=v('decoder_scale');second_actions+=v('decoder_mean')
+                    second_actions=independent_decode(v(cond+'/second_planner')[i,j,:15],v('decoder_scale'),v('decoder_mean'))
                     np.testing.assert_array_equal(v(cond+'/delivered_actions'),np.concatenate((delivered[i],second_actions))[:len(states)])
                     length=min(15,len(states))
                     np.testing.assert_array_equal(states[:length],v(f'first-{i}/states'))
