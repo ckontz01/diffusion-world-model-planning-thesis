@@ -194,11 +194,13 @@ Reading the results does not require cluster access. The compact outcome table a
 **14 September: CVL-1 technical repair verified and restart authorized.**
 The host/container mismatch was exactly three Python symlink aliases, with all
 21,643 common runtime files identical. Stable link-aware authentication and
-exclusive content-only evidence copying are verified;55 local/exported tests pass.
+exclusive content-only evidence copying are verified; 55 local/exported tests pass.
 The [restart receipt](docs/candidate-value-learning-20260914/RESTART-20260914.md)
-records the new immutable source/capsule, preflight301161 and the prior failed
-45seconds carried into the unchanged aggregate budget. Scientific gates and
-settings remain unchanged; no new efficacy result is claimed.
+records the new immutable source/capsule, both passed real preflights (301161,
+301162), and the prior failed 45 seconds carried into the unchanged aggregate
+budget. First collection job 301163 (reference 1444, H75) is running; the technical
+pilot has not yet passed. Scientific gates and settings remain unchanged;
+no new efficacy result is claimed.
 
 **14 September: CVL-1 conditionally approved; real preflight stopped.**
 The [launch receipt](docs/candidate-value-learning-20260914/LAUNCH-20260914.md)
