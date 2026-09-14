@@ -10,11 +10,2332 @@
   "collection_jobs": 256,
   "collection_solve_calls": 249600,
   "collection_steps": 3744000,
+  "context_diagnostic_is_closed_loop_arm": false,
+  "cpu_jobs": {
+    "fit_seconds": 6000,
+    "report_seconds": 600,
+    "validate_seconds": 600
+  },
+  "cpu_training_and_analysis_wall_seconds_cap": 7200,
   "cpu_training_wall_seconds_cap": 7200,
   "distinct_sampled_candidates": 8192,
+  "distinct_sampled_candidates_definition": "8192 bank-index rows; physical action-value uniqueness is measured, not assumed",
+  "exact_repeats": 0,
+  "execution_grid": [
+    {
+      "gpu": true,
+      "index": 0,
+      "kind": "preflight",
+      "seconds": 300
+    },
+    {
+      "gpu": true,
+      "index": 1,
+      "kind": "preflight",
+      "seconds": 300
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 0,
+      "kind": "train",
+      "reference": 1444,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 1,
+      "kind": "train",
+      "reference": 1444,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 2,
+      "kind": "train",
+      "reference": 1314,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 3,
+      "kind": "train",
+      "reference": 1314,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 4,
+      "kind": "train",
+      "reference": 767,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 5,
+      "kind": "train",
+      "reference": 767,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 6,
+      "kind": "train",
+      "reference": 1481,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 7,
+      "kind": "train",
+      "reference": 1481,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 8,
+      "kind": "train",
+      "reference": 1293,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 9,
+      "kind": "train",
+      "reference": 1293,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 10,
+      "kind": "train",
+      "reference": 433,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 11,
+      "kind": "train",
+      "reference": 433,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 12,
+      "kind": "train",
+      "reference": 864,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 13,
+      "kind": "train",
+      "reference": 864,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 14,
+      "kind": "train",
+      "reference": 356,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 15,
+      "kind": "train",
+      "reference": 356,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 16,
+      "kind": "train",
+      "reference": 750,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 17,
+      "kind": "train",
+      "reference": 750,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 18,
+      "kind": "train",
+      "reference": 410,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 19,
+      "kind": "train",
+      "reference": 410,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 20,
+      "kind": "train",
+      "reference": 1255,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 21,
+      "kind": "train",
+      "reference": 1255,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 22,
+      "kind": "train",
+      "reference": 698,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 23,
+      "kind": "train",
+      "reference": 698,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 24,
+      "kind": "train",
+      "reference": 673,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 25,
+      "kind": "train",
+      "reference": 673,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 26,
+      "kind": "train",
+      "reference": 834,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 27,
+      "kind": "train",
+      "reference": 834,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 28,
+      "kind": "train",
+      "reference": 663,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 29,
+      "kind": "train",
+      "reference": 663,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 30,
+      "kind": "train",
+      "reference": 327,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 31,
+      "kind": "train",
+      "reference": 327,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 32,
+      "kind": "train",
+      "reference": 443,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 33,
+      "kind": "train",
+      "reference": 443,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 34,
+      "kind": "train",
+      "reference": 1407,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 35,
+      "kind": "train",
+      "reference": 1407,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 36,
+      "kind": "train",
+      "reference": 686,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 37,
+      "kind": "train",
+      "reference": 686,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 38,
+      "kind": "train",
+      "reference": 910,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 39,
+      "kind": "train",
+      "reference": 910,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 40,
+      "kind": "train",
+      "reference": 1452,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 41,
+      "kind": "train",
+      "reference": 1452,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 42,
+      "kind": "train",
+      "reference": 728,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 43,
+      "kind": "train",
+      "reference": 728,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 44,
+      "kind": "train",
+      "reference": 1264,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 45,
+      "kind": "train",
+      "reference": 1264,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 46,
+      "kind": "train",
+      "reference": 466,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 47,
+      "kind": "train",
+      "reference": 466,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 48,
+      "kind": "train",
+      "reference": 598,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 49,
+      "kind": "train",
+      "reference": 598,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 50,
+      "kind": "train",
+      "reference": 1357,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 51,
+      "kind": "train",
+      "reference": 1357,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 52,
+      "kind": "train",
+      "reference": 1472,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 53,
+      "kind": "train",
+      "reference": 1472,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 54,
+      "kind": "train",
+      "reference": 1584,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 55,
+      "kind": "train",
+      "reference": 1584,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 56,
+      "kind": "train",
+      "reference": 417,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 57,
+      "kind": "train",
+      "reference": 417,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 58,
+      "kind": "train",
+      "reference": 960,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 59,
+      "kind": "train",
+      "reference": 960,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 60,
+      "kind": "train",
+      "reference": 467,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 61,
+      "kind": "train",
+      "reference": 467,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 62,
+      "kind": "train",
+      "reference": 1105,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 63,
+      "kind": "train",
+      "reference": 1105,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 64,
+      "kind": "train",
+      "reference": 566,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 65,
+      "kind": "train",
+      "reference": 566,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 66,
+      "kind": "train",
+      "reference": 1319,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 67,
+      "kind": "train",
+      "reference": 1319,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 68,
+      "kind": "train",
+      "reference": 769,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 69,
+      "kind": "train",
+      "reference": 769,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 70,
+      "kind": "train",
+      "reference": 1021,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 71,
+      "kind": "train",
+      "reference": 1021,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 72,
+      "kind": "train",
+      "reference": 258,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 73,
+      "kind": "train",
+      "reference": 258,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 74,
+      "kind": "train",
+      "reference": 818,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 75,
+      "kind": "train",
+      "reference": 818,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 76,
+      "kind": "train",
+      "reference": 602,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 77,
+      "kind": "train",
+      "reference": 602,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 78,
+      "kind": "train",
+      "reference": 206,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 79,
+      "kind": "train",
+      "reference": 206,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 80,
+      "kind": "train",
+      "reference": 219,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 81,
+      "kind": "train",
+      "reference": 219,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 82,
+      "kind": "train",
+      "reference": 1313,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 83,
+      "kind": "train",
+      "reference": 1313,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 84,
+      "kind": "train",
+      "reference": 33,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 85,
+      "kind": "train",
+      "reference": 33,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 86,
+      "kind": "train",
+      "reference": 492,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 87,
+      "kind": "train",
+      "reference": 492,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 88,
+      "kind": "train",
+      "reference": 329,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 89,
+      "kind": "train",
+      "reference": 329,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 90,
+      "kind": "train",
+      "reference": 1534,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 91,
+      "kind": "train",
+      "reference": 1534,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 92,
+      "kind": "train",
+      "reference": 1336,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 93,
+      "kind": "train",
+      "reference": 1336,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 94,
+      "kind": "train",
+      "reference": 748,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 95,
+      "kind": "train",
+      "reference": 748,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 96,
+      "kind": "train",
+      "reference": 1478,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 97,
+      "kind": "train",
+      "reference": 1478,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 98,
+      "kind": "train",
+      "reference": 619,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 99,
+      "kind": "train",
+      "reference": 619,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 100,
+      "kind": "train",
+      "reference": 445,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 101,
+      "kind": "train",
+      "reference": 445,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 102,
+      "kind": "train",
+      "reference": 518,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 103,
+      "kind": "train",
+      "reference": 518,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 104,
+      "kind": "train",
+      "reference": 1196,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 105,
+      "kind": "train",
+      "reference": 1196,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 106,
+      "kind": "train",
+      "reference": 326,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 107,
+      "kind": "train",
+      "reference": 326,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 108,
+      "kind": "train",
+      "reference": 700,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 109,
+      "kind": "train",
+      "reference": 700,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 110,
+      "kind": "train",
+      "reference": 321,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 111,
+      "kind": "train",
+      "reference": 321,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 112,
+      "kind": "train",
+      "reference": 536,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 113,
+      "kind": "train",
+      "reference": 536,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 114,
+      "kind": "train",
+      "reference": 320,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 115,
+      "kind": "train",
+      "reference": 320,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 116,
+      "kind": "train",
+      "reference": 1242,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 117,
+      "kind": "train",
+      "reference": 1242,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 118,
+      "kind": "train",
+      "reference": 1564,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 119,
+      "kind": "train",
+      "reference": 1564,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 120,
+      "kind": "train",
+      "reference": 909,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 121,
+      "kind": "train",
+      "reference": 909,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 122,
+      "kind": "train",
+      "reference": 30,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 123,
+      "kind": "train",
+      "reference": 30,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 124,
+      "kind": "train",
+      "reference": 526,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 125,
+      "kind": "train",
+      "reference": 526,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 126,
+      "kind": "train",
+      "reference": 424,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 127,
+      "kind": "train",
+      "reference": 424,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 128,
+      "kind": "train",
+      "reference": 947,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 129,
+      "kind": "train",
+      "reference": 947,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 130,
+      "kind": "train",
+      "reference": 1290,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 131,
+      "kind": "train",
+      "reference": 1290,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 132,
+      "kind": "train",
+      "reference": 1558,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 133,
+      "kind": "train",
+      "reference": 1558,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 134,
+      "kind": "train",
+      "reference": 685,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 135,
+      "kind": "train",
+      "reference": 685,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 136,
+      "kind": "train",
+      "reference": 762,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 137,
+      "kind": "train",
+      "reference": 762,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 138,
+      "kind": "train",
+      "reference": 483,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 139,
+      "kind": "train",
+      "reference": 483,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 140,
+      "kind": "train",
+      "reference": 479,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 141,
+      "kind": "train",
+      "reference": 479,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 142,
+      "kind": "train",
+      "reference": 128,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 143,
+      "kind": "train",
+      "reference": 128,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 144,
+      "kind": "train",
+      "reference": 952,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 145,
+      "kind": "train",
+      "reference": 952,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 146,
+      "kind": "train",
+      "reference": 484,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 147,
+      "kind": "train",
+      "reference": 484,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 148,
+      "kind": "train",
+      "reference": 1408,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 149,
+      "kind": "train",
+      "reference": 1408,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 150,
+      "kind": "train",
+      "reference": 435,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 151,
+      "kind": "train",
+      "reference": 435,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 152,
+      "kind": "train",
+      "reference": 990,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 153,
+      "kind": "train",
+      "reference": 990,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 154,
+      "kind": "train",
+      "reference": 1225,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 155,
+      "kind": "train",
+      "reference": 1225,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 156,
+      "kind": "train",
+      "reference": 1138,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 157,
+      "kind": "train",
+      "reference": 1138,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 158,
+      "kind": "train",
+      "reference": 597,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 159,
+      "kind": "train",
+      "reference": 597,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 160,
+      "kind": "train",
+      "reference": 712,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 161,
+      "kind": "train",
+      "reference": 712,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 162,
+      "kind": "train",
+      "reference": 978,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 163,
+      "kind": "train",
+      "reference": 978,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 164,
+      "kind": "train",
+      "reference": 301,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 165,
+      "kind": "train",
+      "reference": 301,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 166,
+      "kind": "train",
+      "reference": 1197,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 167,
+      "kind": "train",
+      "reference": 1197,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 168,
+      "kind": "train",
+      "reference": 1556,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 169,
+      "kind": "train",
+      "reference": 1556,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 170,
+      "kind": "train",
+      "reference": 552,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 171,
+      "kind": "train",
+      "reference": 552,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 172,
+      "kind": "train",
+      "reference": 1374,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 173,
+      "kind": "train",
+      "reference": 1374,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 174,
+      "kind": "train",
+      "reference": 25,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 175,
+      "kind": "train",
+      "reference": 25,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 176,
+      "kind": "train",
+      "reference": 1538,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 177,
+      "kind": "train",
+      "reference": 1538,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 178,
+      "kind": "train",
+      "reference": 1033,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 179,
+      "kind": "train",
+      "reference": 1033,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 180,
+      "kind": "train",
+      "reference": 1367,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 181,
+      "kind": "train",
+      "reference": 1367,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 182,
+      "kind": "train",
+      "reference": 1512,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 183,
+      "kind": "train",
+      "reference": 1512,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 184,
+      "kind": "train",
+      "reference": 117,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 185,
+      "kind": "train",
+      "reference": 117,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 186,
+      "kind": "train",
+      "reference": 440,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 187,
+      "kind": "train",
+      "reference": 440,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 188,
+      "kind": "train",
+      "reference": 149,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 189,
+      "kind": "train",
+      "reference": 149,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 190,
+      "kind": "train",
+      "reference": 788,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 191,
+      "kind": "train",
+      "reference": 788,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 0,
+      "kind": "validation",
+      "reference": 1036,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 1,
+      "kind": "validation",
+      "reference": 1036,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 2,
+      "kind": "validation",
+      "reference": 1162,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 3,
+      "kind": "validation",
+      "reference": 1162,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 4,
+      "kind": "validation",
+      "reference": 1289,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 5,
+      "kind": "validation",
+      "reference": 1289,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 6,
+      "kind": "validation",
+      "reference": 573,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 7,
+      "kind": "validation",
+      "reference": 573,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 8,
+      "kind": "validation",
+      "reference": 39,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 9,
+      "kind": "validation",
+      "reference": 39,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 10,
+      "kind": "validation",
+      "reference": 702,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 11,
+      "kind": "validation",
+      "reference": 702,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 12,
+      "kind": "validation",
+      "reference": 81,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 13,
+      "kind": "validation",
+      "reference": 81,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 14,
+      "kind": "validation",
+      "reference": 59,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 15,
+      "kind": "validation",
+      "reference": 59,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 16,
+      "kind": "validation",
+      "reference": 846,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 17,
+      "kind": "validation",
+      "reference": 846,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 18,
+      "kind": "validation",
+      "reference": 264,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 19,
+      "kind": "validation",
+      "reference": 264,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 20,
+      "kind": "validation",
+      "reference": 1223,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 21,
+      "kind": "validation",
+      "reference": 1223,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 22,
+      "kind": "validation",
+      "reference": 690,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 23,
+      "kind": "validation",
+      "reference": 690,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 24,
+      "kind": "validation",
+      "reference": 1495,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 25,
+      "kind": "validation",
+      "reference": 1495,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 26,
+      "kind": "validation",
+      "reference": 161,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 27,
+      "kind": "validation",
+      "reference": 161,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 28,
+      "kind": "validation",
+      "reference": 426,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 29,
+      "kind": "validation",
+      "reference": 426,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 30,
+      "kind": "validation",
+      "reference": 217,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 31,
+      "kind": "validation",
+      "reference": 217,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 32,
+      "kind": "validation",
+      "reference": 1454,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 33,
+      "kind": "validation",
+      "reference": 1454,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 34,
+      "kind": "validation",
+      "reference": 1501,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 35,
+      "kind": "validation",
+      "reference": 1501,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 36,
+      "kind": "validation",
+      "reference": 94,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 37,
+      "kind": "validation",
+      "reference": 94,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 38,
+      "kind": "validation",
+      "reference": 1521,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 39,
+      "kind": "validation",
+      "reference": 1521,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 40,
+      "kind": "validation",
+      "reference": 588,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 41,
+      "kind": "validation",
+      "reference": 588,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 42,
+      "kind": "validation",
+      "reference": 861,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 43,
+      "kind": "validation",
+      "reference": 861,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 44,
+      "kind": "validation",
+      "reference": 1271,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 45,
+      "kind": "validation",
+      "reference": 1271,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 46,
+      "kind": "validation",
+      "reference": 1001,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 47,
+      "kind": "validation",
+      "reference": 1001,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 48,
+      "kind": "validation",
+      "reference": 26,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 49,
+      "kind": "validation",
+      "reference": 26,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 50,
+      "kind": "validation",
+      "reference": 907,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 51,
+      "kind": "validation",
+      "reference": 907,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 52,
+      "kind": "validation",
+      "reference": 1416,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 53,
+      "kind": "validation",
+      "reference": 1416,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 54,
+      "kind": "validation",
+      "reference": 436,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 55,
+      "kind": "validation",
+      "reference": 436,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 56,
+      "kind": "validation",
+      "reference": 591,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 57,
+      "kind": "validation",
+      "reference": 591,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 58,
+      "kind": "validation",
+      "reference": 77,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 59,
+      "kind": "validation",
+      "reference": 77,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 60,
+      "kind": "validation",
+      "reference": 1359,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 61,
+      "kind": "validation",
+      "reference": 1359,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 75,
+      "index": 62,
+      "kind": "validation",
+      "reference": 1034,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "h": 150,
+      "index": 63,
+      "kind": "validation",
+      "reference": 1034,
+      "seconds": 600
+    },
+    {
+      "gpu": false,
+      "index": 0,
+      "kind": "fit",
+      "seconds": 6000
+    },
+    {
+      "gpu": false,
+      "index": 0,
+      "kind": "validate",
+      "seconds": 600
+    },
+    {
+      "gpu": false,
+      "index": 0,
+      "kind": "report",
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 0,
+      "kind": "closed",
+      "reference": 901,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 1,
+      "kind": "closed",
+      "reference": 908,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 2,
+      "kind": "closed",
+      "reference": 199,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 3,
+      "kind": "closed",
+      "reference": 1148,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 4,
+      "kind": "closed",
+      "reference": 220,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 5,
+      "kind": "closed",
+      "reference": 843,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 6,
+      "kind": "closed",
+      "reference": 457,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 7,
+      "kind": "closed",
+      "reference": 1184,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 8,
+      "kind": "closed",
+      "reference": 319,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 9,
+      "kind": "closed",
+      "reference": 1098,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 10,
+      "kind": "closed",
+      "reference": 1331,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 11,
+      "kind": "closed",
+      "reference": 209,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 12,
+      "kind": "closed",
+      "reference": 1053,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 13,
+      "kind": "closed",
+      "reference": 1507,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 14,
+      "kind": "closed",
+      "reference": 450,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 15,
+      "kind": "closed",
+      "reference": 154,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 16,
+      "kind": "closed",
+      "reference": 249,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 17,
+      "kind": "closed",
+      "reference": 1455,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 18,
+      "kind": "closed",
+      "reference": 252,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 19,
+      "kind": "closed",
+      "reference": 56,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 20,
+      "kind": "closed",
+      "reference": 34,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 21,
+      "kind": "closed",
+      "reference": 1506,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 22,
+      "kind": "closed",
+      "reference": 325,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 23,
+      "kind": "closed",
+      "reference": 1065,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 24,
+      "kind": "closed",
+      "reference": 10,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 25,
+      "kind": "closed",
+      "reference": 1217,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 26,
+      "kind": "closed",
+      "reference": 787,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 27,
+      "kind": "closed",
+      "reference": 922,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 28,
+      "kind": "closed",
+      "reference": 6,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 29,
+      "kind": "closed",
+      "reference": 459,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 30,
+      "kind": "closed",
+      "reference": 1358,
+      "seconds": 600
+    },
+    {
+      "gpu": true,
+      "index": 31,
+      "kind": "closed",
+      "reference": 832,
+      "seconds": 600
+    }
+  ],
   "external_free_bytes_required": 40000000000,
+  "fitted_models": 5,
   "label_ceiling": 16384,
+  "learned_arm": "fixed_probability_ensemble",
   "maximum_scheduled_gpu_seconds": 173400,
+  "maximum_training_optimizer_updates": 9600,
+  "neural_training_seeds": [
+    8201,
+    8202,
+    8203
+  ],
   "planning_scenarios": {
     "amortized_historical_worker_plus_allocation_hours": 18.795317716806167,
     "conservative_twice_p95_plus_20ms_step_30s_job_hours": 40.198574400000005,
@@ -28,7 +2349,10 @@
     "warning": "Planning extrapolations, not new workload measurements; no price tariff known"
   },
   "preflight_job_cap_seconds": 300,
+  "sampled_candidate_index_rows": 8192,
+  "source_and_control_storage_reservation_bytes": 50000000,
   "synthetic_gpu_preflights": 2,
+  "total_jobs": 293,
   "train_labels": 12288,
   "validation_labels": 4096
 }

@@ -1,6 +1,7 @@
 # CVL-1 resources and storage
 
-Proposal only. [COST-PLAN.json](COST-PLAN.json) is generated arithmetically by
+Implemented execution envelope; launch remains unapproved.
+[COST-PLAN.json](COST-PLAN.json) is generated arithmetically by
 `prepare_candidate_value_package.py`; it opens no research data or SSH connection.
 
 ## Workload ceilings, with prefix replay charged
@@ -29,9 +30,10 @@ that a seven-field state setter reproduces a native in-flight world.
 
 Closed-loop adds at most 512 episodes, 115,200 steps, 7,680 solver calls,
 14,336 proposal batches and 143,360 diffusion forwards, with 32 model constructions.
-CPU training: three 87,681-parameter MLPs + one 620-parameter logistic control,
+CPU fitting: three 87,681-parameter MLPs + one 620-parameter logistic control
+and one 620-stored-parameter context-only diagnostic,
 40 epochs each, at most 12,288 training rows. For the maximum row count, 48
-minibatches/epoch gives 1,920 updates/model, 7,680 total. No proposer/adapter/LeWM
+minibatches/epoch gives 1,920 updates/model, 9,600 total. No proposer/adapter/LeWM
 optimizer, backpropagation or fine-tuning. Ensembling changes value inference cost,
 not proposal count; record that cost separately.
 
@@ -80,8 +82,10 @@ reduce the branch budget. The fixed sample need not be made to appear affordable
 - Maximum fixed reservations: **48h10min GPU allocation**. Aggregate hard ceiling
   **50h**, including failed allocations. The spare 1h50m is accounting headroom,
   not authority to add references, seeds, retries or an extra model search.
-- CPU training maximum two wall-hours at four cores/8GiB = eight core-hours;
-  stop if exceeded. No training-GPU reservation is assumed.
+- Exactly three CPU jobs: fit all five models in 100 minutes, ranking analysis
+  in 10 minutes, final closed-loop analysis in 10 minutes. Total maximum two
+  allocation wall-hours at four cores/8GiB = eight reserved core-hours. Failed
+  CPU allocations are included; no training-GPU reservation or extra fit exists.
 - Before dispatch, require completed+currently-reserved+next full job reservation
   to fit the aggregate cap. Queue wait is recorded but not charged as GPU time.
   Ambiguous submission is a stop, never an automatic duplicate submission.
@@ -92,9 +96,40 @@ reduce the branch budget. The fixed sample need not be made to appear affordable
 - First four training refs are a technical throughput/storage stage inside the
   fixed sample. Do not use their success outcomes to tune the sampling/model.
 
+### Exact staged maximum
+
+|Stage|Registered jobs|Maximum allocation|Maximum scientific work|
+|---|---:|---:|---|
+|Synthetic pinned-runtime preflight|2 GPU|10 GPU min|No reference episode|
+|Initial training tranche, first four refs/both H|8 GPU|80 GPU min|512 tail outcomes + 8 prefixes|
+|Remaining training collection|184 GPU|1,840 GPU min|11,776 outcomes + 184 prefixes|
+|Five evaluator fits|1 CPU|100 CPU min|12,288 training rows, 9,600 updates total|
+|Ranking-validation collection|64 GPU|640 GPU min|4,096 outcomes + 64 prefixes|
+|Ranking analysis|1 CPU|10 CPU min|256 banks maximum|
+|Conditional closed loop|32 GPU|320 GPU min|512 episodes|
+|Final analysis|1 CPU|10 CPU min|32 paired source summaries|
+|Total registered|293|2,890 GPU min + 120 CPU min|No exact-repeat or retry jobs|
+
+Thus 50 GPU-hours includes all 290 GPU allocations: preflight, collection,
+conditional closed loop, startup/authentication, I/O and any failed/technical
+allocation. The 2 CPU-hours includes all five model fits, training-only feature
+normalization, model serialization and both analysis jobs. It is a compute-job
+allocation cap, not a claim that source packaging, scheduler polling, checksum
+verification and SSD network transfer consume zero host CPU or finish in two
+hours. Those control/transfer wall times are separately timestamped; no models
+run on a login node or in the backup companion. Queue time is likewise separate.
+
+Dispatch is serial. Actual terminal `sacct` seconds are charged before the next
+reservation; a nonzero exit, ambiguous submission, storage failure or missing
+accounting stops the run. A possibly live/ambiguous allocation retains its full
+reservation in the log and must be reconciled manually, never resubmitted.
+The pilot checks all eight completed jobs, no success-based early acceptance:
+<=600 seconds each, <=16GiB sampled host RSS, projected collection payload <16GB.
+The remaining 4GB is headroom for models, closed loop, logs and control artifacts.
+
 ## Artifacts and backups
 
-Proposed remote root (not created or submitted):
+Remote root template (not created or submitted):
 `/lustreFS/data/superworld/ckontzias/thesis/experiments/candidate-value-learning-20260914/run-<sourcehash>`.
 Source snapshot is separately named `candidate-value-learning-20260914-<sourcehash>`.
 Neither the accepted single-anchor run nor historical source is an output target.
@@ -116,6 +151,17 @@ suggest a low-single-digit GB payload, but actual schemas/compression/logs matte
 Use a conservative **20GB remote artifact ceiling**, with a 1GB next-job storage
 reservation and actual per-job caps. No outcome pruning to stay under quota.
 
+The 20,000,000,000-byte remote ceiling includes label/bank/trace files, evaluator
+weights and preprocessing, receipts, Slurm stdout/stderr, temporary files,
+technical/failed outputs and terminal evidence copies. A conservative 50MB of
+that ceiling is reserved for source tar + extracted source + capsule/approval;
+the dispatcher rejects a larger source/control package. A 1GB next-job reservation
+is checked against used+reserved bytes. During a job, the monitor counts its
+outputs, temporary directory and logs and cancels on observed excess; a process
+file-size limit also applies. This is fail-stop monitoring, not an OS disk quota:
+transient writes between 20-second checks can overshoot and are preserved, never
+deleted to pretend compliance.
+
 Backup target, only after approval/data generation:
 `D:/THESIS-BACKUPS/candidate-value-learning-20260914/` on the external THESIS_SSD.
 Require **40GB free** for payload + archive/verification headroom before launch.
@@ -127,12 +173,21 @@ member-verified external copy. Store raw research artifacts outside Git; commit
 small protocol/result/accounting manifests only. Back up train, validation and
 closed-loop stages after sealing. No deletion of failed or unfavorable rows.
 
+The implemented WSL companion checks both `/mnt/d` and volume label `THESIS_SSD`,
+streams nonoverlapping sealed stages to exclusive tar files, verifies every
+member without extracting a second copy, and acknowledges the exact request hash.
+Completed terminal failures can be sealed and backed up without marking them
+scientifically valid. Ambiguous/live allocations are not falsely sealed. A failed
+transfer leaves its partial archive and stops; no automatic retry. The remote
+20GB payload and its external backup are two distinct copies, not a 20GB combined
+two-site limit. Forty GB external free space is the separate backup prerequisite.
+
 ## Readiness boundary
 
-This preparation provides a tested feature/sampling/model/metric core and an
-opt-in observer-selector hook, plus a concrete execution contract. The real
-collection loader, persistent result writer, frozen-driver glue, sealed aggregate
-analyzer and approval-gated dispatcher still need implementation and preflight
-against that contract before launch. There is deliberately no real-execution CLI
-in the new files. Approval should authorize completing that bounded glue, not
-waive it or allow changing this scientific design after outcomes are seen.
+The selected-record collector, runtime glue, fit/serialization, ranking and
+closed-loop analysis, hash-authenticated worker, staged dispatcher, source exporter
+and external backup companion are implemented. Synthetic tests exercise the full
+pipeline; actual pinned-cluster preflights and measured throughput are not claimed
+to have passed. No research execution was launched. The next decision is approval
+of this fixed envelope; deployment capsule checks and the registered technical
+preflights remain mandatory and fail closed.

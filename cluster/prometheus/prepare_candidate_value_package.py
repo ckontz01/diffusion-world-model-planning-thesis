@@ -2,6 +2,7 @@
 import json
 from pathlib import Path
 import candidate_value_learning as c
+import candidate_value_contract as ct
 
 
 def main():
@@ -14,6 +15,15 @@ def main():
                 'no_research_data_read':True,'excluded_historical_references':list(c.HISTORICAL),
                 'allocation':c.allocation()}
     costs=c.cost_plan()
+    costs.update(execution_grid=ct.grid(),total_jobs=len(ct.grid()),
+                 neural_training_seeds=list(ct.TRAIN_SEEDS),learned_arm='fixed_probability_ensemble',
+                 fitted_models=5,maximum_training_optimizer_updates=9600,
+                 cpu_jobs={'fit_seconds':6000,'validate_seconds':600,'report_seconds':600},
+                 cpu_training_and_analysis_wall_seconds_cap=ct.CAPS['cpu_seconds'],
+                 source_and_control_storage_reservation_bytes=50000000,
+                 sampled_candidate_index_rows=8192,
+                 distinct_sampled_candidates_definition='8192 bank-index rows; physical action-value uniqueness is measured, not assumed',
+                 exact_repeats=0,context_diagnostic_is_closed_loop_arm=False)
     full=128*65*(8+18);first=128*65*4
     planner=full*.13175849+first*.07289795
     historical_step_overhead=(2297.099-437.505-6386*.13175849-956*.07289795)/109870

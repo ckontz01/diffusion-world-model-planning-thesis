@@ -198,8 +198,13 @@ references within exposed 0–1599, excluding the accepted single-anchor 32. It
 proposes up to 16,384 native-success candidate-tail labels, compact value and
 logistic evaluators, and a conditional 512-episode closed-loop comparison with
 continuation and immediate controls. Estimated collection 19–29 GPU-hours, proposed
-aggregate cap 50 GPU-hours. Synthetic preparation only; real driver glue and source
-freeze still precede any approved launch. No new collection, research training,
+aggregate cap 50 GPU-hours. The completion revision implements collection,
+training/serialization, within-bank validation, conditional closed-loop execution,
+source/runtime authentication, serial dispatch and sealed external-SSD backup.
+The three neural seeds form one fixed ensemble; a context-only diagnostic is not
+an additional closed-loop arm. Synthetic end-to-end tests only; exact deployment
+capsule approval and registered runtime preflights precede any launch.
+No new collection, research training,
 evaluation or confirmation access occurred; the historical result is unchanged.
 
 **14 September: single-anchor ranking experiment completed.** On the same 32
