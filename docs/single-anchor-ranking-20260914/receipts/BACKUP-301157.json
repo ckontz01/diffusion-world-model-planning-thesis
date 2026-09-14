@@ -1,0 +1,9 @@
+{
+  "archive": "/lustreFS/data/superworld/ckontzias/thesis/staging/single-anchor-ranking-20260914/final-evidence-301157.tar",
+  "bytes": 337551360,
+  "files": 393,
+  "gpu_allocation_seconds": 2963,
+  "manifest_sha256": "f217b032e85fdd888fad64ad8dfbf2ab1437f5072237641fa1ab061f85f2f5f8",
+  "run_bytes": 336447436,
+  "sha256": "a25fe9f329605129ffdbc01ef116b19b6fec5706c2cd85a9103ab2b3528ad95b"
+}

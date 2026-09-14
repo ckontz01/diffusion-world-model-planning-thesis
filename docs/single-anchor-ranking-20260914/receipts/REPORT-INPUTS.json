@@ -1,0 +1,4456 @@
+{
+  "analysis_sha256": "1ee1ffb3123a44db63a4be3cb6c568554f8c0e3496f6fe7b666c1f5815f72959",
+  "archive_bytes": 337551360,
+  "archive_member_files_verified": 393,
+  "archive_sha256": "a25fe9f329605129ffdbc01ef116b19b6fec5706c2cd85a9103ab2b3528ad95b",
+  "archive_verified": true,
+  "arms": {
+    "continuation": {
+      "active_handoff_margin_mean": 9.925553327310247,
+      "budget_exhausted": 112,
+      "delivered": 25274,
+      "first_margin_mean": 9.064462147287912,
+      "first_success": 1,
+      "first_terminal": 1,
+      "full_margin_mean": 4.3849429054180336,
+      "handoff_active": 127,
+      "native_truncated": 56,
+      "planning_calls_after_anchor": 1690,
+      "planning_calls_including_prefix": 1818,
+      "success": 16
+    },
+    "immediate": {
+      "active_handoff_margin_mean": 9.246041533482217,
+      "budget_exhausted": 117,
+      "delivered": 25821,
+      "first_margin_mean": 8.499305297430263,
+      "first_success": 2,
+      "first_terminal": 2,
+      "full_margin_mean": 4.484423586213593,
+      "handoff_active": 126,
+      "native_truncated": 62,
+      "planning_calls_after_anchor": 1725,
+      "planning_calls_including_prefix": 1853,
+      "success": 12
+    }
+  },
+  "discordant_success": [
+    {
+      "anchor": 0,
+      "continuation_success": false,
+      "horizon": 75,
+      "immediate_success": true,
+      "reference": 1269
+    },
+    {
+      "anchor": 0,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 1269
+    },
+    {
+      "anchor": 0,
+      "continuation_success": false,
+      "horizon": 75,
+      "immediate_success": true,
+      "reference": 722
+    },
+    {
+      "anchor": 30,
+      "continuation_success": false,
+      "horizon": 75,
+      "immediate_success": true,
+      "reference": 722
+    },
+    {
+      "anchor": 0,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 567
+    },
+    {
+      "anchor": 30,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 567
+    },
+    {
+      "anchor": 30,
+      "continuation_success": true,
+      "horizon": 75,
+      "immediate_success": false,
+      "reference": 716
+    },
+    {
+      "anchor": 30,
+      "continuation_success": false,
+      "horizon": 75,
+      "immediate_success": true,
+      "reference": 1074
+    },
+    {
+      "anchor": 30,
+      "continuation_success": true,
+      "horizon": 75,
+      "immediate_success": false,
+      "reference": 1565
+    },
+    {
+      "anchor": 0,
+      "continuation_success": true,
+      "horizon": 75,
+      "immediate_success": false,
+      "reference": 70
+    },
+    {
+      "anchor": 30,
+      "continuation_success": true,
+      "horizon": 75,
+      "immediate_success": false,
+      "reference": 70
+    },
+    {
+      "anchor": 30,
+      "continuation_success": false,
+      "horizon": 150,
+      "immediate_success": true,
+      "reference": 221
+    },
+    {
+      "anchor": 0,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 428
+    },
+    {
+      "anchor": 30,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 428
+    },
+    {
+      "anchor": 0,
+      "continuation_success": false,
+      "horizon": 75,
+      "immediate_success": true,
+      "reference": 1488
+    },
+    {
+      "anchor": 30,
+      "continuation_success": false,
+      "horizon": 75,
+      "immediate_success": true,
+      "reference": 855
+    },
+    {
+      "anchor": 0,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 98
+    },
+    {
+      "anchor": 30,
+      "continuation_success": true,
+      "horizon": 150,
+      "immediate_success": false,
+      "reference": 98
+    }
+  ],
+  "first_margin_improvement": 0.5651568498576502,
+  "first_margin_reference_positive": 29,
+  "frozen_analysis": {
+    "anchor_paired_success": {
+      "losses": 11,
+      "ties": 110,
+      "wins": 7
+    },
+    "confirmation": false,
+    "independent_references": 32,
+    "reference_effects": [
+      {
+        "margin_improvement": 0.548962600219072,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 1.7591410326581225,
+            "success_difference_pp": 50.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.6612158322199785,
+            "success_difference_pp": -50.0
+          }
+        ],
+        "reference": 1269,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -0.6081423321859079,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.5236940887554395,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.6925905756163762,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 582,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 2.438811880917525,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 4.34098766859502,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.5366360932400291,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 525,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.1655689637257875,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.202382370807224,
+            "success_difference_pp": 100.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.128755556644351,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 722,
+        "success_difference_pp": 50.0
+      },
+      {
+        "margin_improvement": -5.400081884460641,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.028705011517931478,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -10.828868780439214,
+            "success_difference_pp": -100.0
+          }
+        ],
+        "reference": 567,
+        "success_difference_pp": -50.0
+      },
+      {
+        "margin_improvement": -1.8098763576671488,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.0887848363673589,
+            "success_difference_pp": -50.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -3.5309678789669388,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 716,
+        "success_difference_pp": -25.0
+      },
+      {
+        "margin_improvement": -0.061396613910012054,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.19457983851340477,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.07178661069338066,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 630,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -4.423401595656191,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -1.8445491781647514,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -7.00225401314763,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 1066,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.37665265695956845,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.9966577025901316,
+            "success_difference_pp": 50.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.24335238867099473,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 1074,
+        "success_difference_pp": 25.0
+      },
+      {
+        "margin_improvement": -0.1478624393572589,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.608733460426872,
+            "success_difference_pp": -50.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.31300858171235424,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 1565,
+        "success_difference_pp": -25.0
+      },
+      {
+        "margin_improvement": -0.22698232625823078,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.14098813427411105,
+            "success_difference_pp": -100.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.3129765182423505,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 70,
+        "success_difference_pp": -50.0
+      },
+      {
+        "margin_improvement": 1.7288657314177944,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 2.4601739575594515,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.9975575052761374,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 867,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.12362068270230625,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.17407764233114842,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.4213190077357609,
+            "success_difference_pp": 50.0
+          }
+        ],
+        "reference": 221,
+        "success_difference_pp": 25.0
+      },
+      {
+        "margin_improvement": 0.12623223519087917,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.3071359210164818,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.5596003913982401,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 905,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.6244568395980441,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.9979827050913688,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.25093097410471943,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 1287,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -0.8027499624406145,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.7625592403143604,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -2.3680591651955893,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 621,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -0.5332580682349968,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.043159050726742754,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -1.1096751871967363,
+            "success_difference_pp": -100.0
+          }
+        ],
+        "reference": 428,
+        "success_difference_pp": -50.0
+      },
+      {
+        "margin_improvement": 0.11257370616717977,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -1.1146771983208614,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 1.339824610655221,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 288,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.7342438365327704,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.46475309819084576,
+            "success_difference_pp": 50.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 1.9332407712563864,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 1488,
+        "success_difference_pp": 25.0
+      },
+      {
+        "margin_improvement": 3.635921914428007,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 7.271843828856014,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.0,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 757,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 1.6274997475542703,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 1.7515101774029649,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 1.503489317705576,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 641,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 2.629226708975789,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 2.888066932864237,
+            "success_difference_pp": 50.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 2.3703864850873404,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 855,
+        "success_difference_pp": 25.0
+      },
+      {
+        "margin_improvement": -0.0008407523332465416,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.12063214354016527,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.12231364820665835,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 1280,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -0.1782328763883798,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.04560652304685475,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.3108592297299049,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 420,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -2.5093398221315875,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.11064813870019918,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -5.129327782963374,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 860,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -1.8233340789939936,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -1.8135939142670665,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -1.8330742437209204,
+            "success_difference_pp": -100.0
+          }
+        ],
+        "reference": 98,
+        "success_difference_pp": -50.0
+      },
+      {
+        "margin_improvement": 0.19944438045567747,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.6963965930983711,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.29750783218701615,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 886,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -0.8646157275500871,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.23842819231588552,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -1.9676596474160597,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 432,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.17189072204815714,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.0,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 0.3437814440963143,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 181,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 1.659699800840472,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -1.2247535915046992,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": 4.544153193185643,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 783,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": 0.33493961010837303,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": 0.7807355437916756,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -0.11085632357492958,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 706,
+        "success_difference_pp": 0.0
+      },
+      {
+        "margin_improvement": -1.0318789657312897,
+        "per_horizon": [
+          {
+            "horizon": 75,
+            "margin_improvement": -0.09191809235057236,
+            "success_difference_pp": 0.0
+          },
+          {
+            "horizon": 150,
+            "margin_improvement": -1.971839839112007,
+            "success_difference_pp": 0.0
+          }
+        ],
+        "reference": 989,
+        "success_difference_pp": 0.0
+      }
+    ],
+    "scientific_repeat": 0,
+    "summary": {
+      "margin_improvement": {
+        "exploratory_95": [
+          -0.739120149718001,
+          0.4902739607298014
+        ],
+        "losses": 15,
+        "mean": -0.09948068079555983,
+        "ties": 0,
+        "wins": 17
+      },
+      "success_difference_pp": {
+        "exploratory_95": [
+          -10.9375,
+          4.6875
+        ],
+        "losses": 6,
+        "mean": -3.125,
+        "ties": 21,
+        "wins": 5
+      }
+    }
+  },
+  "handoff": {
+    "interpretation": "Descriptive survivor-pair subset only; not the primary estimand.",
+    "paired_improvement": 0.7388856183803144,
+    "pairs": 126
+  },
+  "horizons": [
+    {
+      "continuation_success": 8,
+      "first_margin_improvement": 0.8136823998536199,
+      "full_margin_improvement": 0.5253801491531062,
+      "horizon": 75,
+      "immediate_success": 10,
+      "points": 64
+    },
+    {
+      "continuation_success": 8,
+      "first_margin_improvement": 0.31663129986168054,
+      "full_margin_improvement": -0.7243415107442257,
+      "horizon": 150,
+      "immediate_success": 2,
+      "points": 64
+    }
+  ],
+  "manifest_sha256": "f217b032e85fdd888fad64ad8dfbf2ab1437f5072237641fa1ab061f85f2f5f8",
+  "reference_effects": [
+    {
+      "first_margin_improvement": 0.9890176770303438,
+      "margin_improvement": 0.548962600219072,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 1.7591410326581225,
+          "success_difference_pp": 50.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.6612158322199785,
+          "success_difference_pp": -50.0
+        }
+      ],
+      "reference": 1269,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.3944033636977733,
+      "margin_improvement": -0.6081423321859079,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.5236940887554395,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.6925905756163762,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 582,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.27433078942735634,
+      "margin_improvement": 2.438811880917525,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 4.34098766859502,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.5366360932400291,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 525,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.3818767409795323,
+      "margin_improvement": 0.1655689637257875,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.202382370807224,
+          "success_difference_pp": 100.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.128755556644351,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 722,
+      "success_difference_pp": 50.0
+    },
+    {
+      "first_margin_improvement": 0.7212358483361476,
+      "margin_improvement": -5.400081884460641,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.028705011517931478,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -10.828868780439214,
+          "success_difference_pp": -100.0
+        }
+      ],
+      "reference": 567,
+      "success_difference_pp": -50.0
+    },
+    {
+      "first_margin_improvement": 1.265669623563987,
+      "margin_improvement": -1.8098763576671488,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.0887848363673589,
+          "success_difference_pp": -50.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -3.5309678789669388,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 716,
+      "success_difference_pp": -25.0
+    },
+    {
+      "first_margin_improvement": 0.7485172545680355,
+      "margin_improvement": -0.061396613910012054,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.19457983851340477,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.07178661069338066,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 630,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.03926809764825667,
+      "margin_improvement": -4.423401595656191,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -1.8445491781647514,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -7.00225401314763,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 1066,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.16854448317387766,
+      "margin_improvement": 0.37665265695956845,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.9966577025901316,
+          "success_difference_pp": 50.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.24335238867099473,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 1074,
+      "success_difference_pp": 25.0
+    },
+    {
+      "first_margin_improvement": 0.39076530355397343,
+      "margin_improvement": -0.1478624393572589,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.608733460426872,
+          "success_difference_pp": -50.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.31300858171235424,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 1565,
+      "success_difference_pp": -25.0
+    },
+    {
+      "first_margin_improvement": 0.16175366954562637,
+      "margin_improvement": -0.22698232625823078,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.14098813427411105,
+          "success_difference_pp": -100.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.3129765182423505,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 70,
+      "success_difference_pp": -50.0
+    },
+    {
+      "first_margin_improvement": 0.9074688790143095,
+      "margin_improvement": 1.7288657314177944,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 2.4601739575594515,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.9975575052761374,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 867,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.7517265553980136,
+      "margin_improvement": 0.12362068270230625,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.17407764233114842,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.4213190077357609,
+          "success_difference_pp": 50.0
+        }
+      ],
+      "reference": 221,
+      "success_difference_pp": 25.0
+    },
+    {
+      "first_margin_improvement": 0.37371911786913836,
+      "margin_improvement": 0.12623223519087917,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.3071359210164818,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.5596003913982401,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 905,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 1.3348202516233318,
+      "margin_improvement": 0.6244568395980441,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.9979827050913688,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.25093097410471943,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 1287,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.26179598699218154,
+      "margin_improvement": -0.8027499624406145,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.7625592403143604,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -2.3680591651955893,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 621,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 1.0605869554671359,
+      "margin_improvement": -0.5332580682349968,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.043159050726742754,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -1.1096751871967363,
+          "success_difference_pp": -100.0
+        }
+      ],
+      "reference": 428,
+      "success_difference_pp": -50.0
+    },
+    {
+      "first_margin_improvement": 1.022968376561003,
+      "margin_improvement": 0.11257370616717977,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -1.1146771983208614,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 1.339824610655221,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 288,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.9745942368224465,
+      "margin_improvement": 0.7342438365327704,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.46475309819084576,
+          "success_difference_pp": 50.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 1.9332407712563864,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 1488,
+      "success_difference_pp": 25.0
+    },
+    {
+      "first_margin_improvement": -0.08969761390841802,
+      "margin_improvement": 3.635921914428007,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 7.271843828856014,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.0,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 757,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.4443760873166287,
+      "margin_improvement": 1.6274997475542703,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 1.7515101774029649,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 1.503489317705576,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 641,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.3577843804920273,
+      "margin_improvement": 2.629226708975789,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 2.888066932864237,
+          "success_difference_pp": 50.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 2.3703864850873404,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 855,
+      "success_difference_pp": 25.0
+    },
+    {
+      "first_margin_improvement": 0.7162627377807973,
+      "margin_improvement": -0.0008407523332465416,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.12063214354016527,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.12231364820665835,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 1280,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.04382927463323372,
+      "margin_improvement": -0.1782328763883798,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.04560652304685475,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.3108592297299049,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 420,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": -0.8195337038684332,
+      "margin_improvement": -2.5093398221315875,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.11064813870019918,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -5.129327782963374,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 860,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.24896856573198378,
+      "margin_improvement": -1.8233340789939936,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -1.8135939142670665,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -1.8330742437209204,
+          "success_difference_pp": -100.0
+        }
+      ],
+      "reference": 98,
+      "success_difference_pp": -50.0
+    },
+    {
+      "first_margin_improvement": 1.8393149130496171,
+      "margin_improvement": 0.19944438045567747,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.6963965930983711,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.29750783218701615,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 886,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.28516657767033315,
+      "margin_improvement": -0.8646157275500871,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.23842819231588552,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -1.9676596474160597,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 432,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": -0.012708604680427449,
+      "margin_improvement": 0.17189072204815714,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.0,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 0.3437814440963143,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 181,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.6017545853316693,
+      "margin_improvement": 1.659699800840472,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -1.2247535915046992,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": 4.544153193185643,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 783,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 1.8449061014960626,
+      "margin_improvement": 0.33493961010837303,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": 0.7807355437916756,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -0.11085632357492958,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 706,
+      "success_difference_pp": 0.0
+    },
+    {
+      "first_margin_improvement": 0.4015326831272623,
+      "margin_improvement": -1.0318789657312897,
+      "per_horizon": [
+        {
+          "horizon": 75,
+          "margin_improvement": -0.09191809235057236,
+          "success_difference_pp": 0.0
+        },
+        {
+          "horizon": 150,
+          "margin_improvement": -1.971839839112007,
+          "success_difference_pp": 0.0
+        }
+      ],
+      "reference": 989,
+      "success_difference_pp": 0.0
+    }
+  ],
+  "resources": {
+    "batch_maxrss_bytes": {
+      "max": 1695416320,
+      "median": 1662803968.0,
+      "min": 1638768640,
+      "sum": 106532081664
+    },
+    "continuation_calls": 6386,
+    "cpu_jobs": [
+      {
+        "AllocCPUS": "2",
+        "AllocTRES": "cpu=2,mem=4G,node=1",
+        "ElapsedRaw": "7",
+        "End": "2026-09-14T16:45:19",
+        "ExitCode": "1:0",
+        "JobID": "301088",
+        "MaxRSS": "",
+        "NodeList": "gpu02",
+        "ReqMem": "4Gn",
+        "ReqTRES": "cpu=2,mem=4G,node=1",
+        "Start": "2026-09-14T16:45:12",
+        "State": "FAILED",
+        "TotalCPU": "00:04.772"
+      },
+      {
+        "AllocCPUS": "2",
+        "AllocTRES": "cpu=2,mem=4G,node=1",
+        "ElapsedRaw": "7",
+        "End": "2026-09-14T16:53:17",
+        "ExitCode": "0:0",
+        "JobID": "301090",
+        "MaxRSS": "",
+        "NodeList": "gpu02",
+        "ReqMem": "4Gn",
+        "ReqTRES": "cpu=2,mem=4G,node=1",
+        "Start": "2026-09-14T16:53:10",
+        "State": "COMPLETED",
+        "TotalCPU": "00:04.753"
+      },
+      {
+        "AllocCPUS": "2",
+        "AllocTRES": "cpu=2,mem=4G,node=1",
+        "ElapsedRaw": "20",
+        "End": "2026-09-14T18:04:35",
+        "ExitCode": "0:0",
+        "JobID": "301157",
+        "MaxRSS": "",
+        "NodeList": "gpu02",
+        "ReqMem": "4Gn",
+        "ReqTRES": "cpu=2,mem=4G,node=1",
+        "Start": "2026-09-14T18:04:15",
+        "State": "COMPLETED",
+        "TotalCPU": "00:17.335"
+      }
+    ],
+    "first_only_calls": 956,
+    "gpu_allocated_cpu_seconds": 11852,
+    "gpu_allocation_seconds": 2963,
+    "gpu_job_seconds": {
+      "max": 49,
+      "median": 46.0,
+      "min": 42,
+      "sum": 2963
+    },
+    "model_construction_seconds": {
+      "max": 8.685621484008152,
+      "median": 6.828916547994595,
+      "min": 6.418179706990486,
+      "sum": 437.5052108010277
+    },
+    "physical_steps": 109870,
+    "planning_calls": 7342,
+    "pytorch_peak_allocated_bytes": {
+      "max": 187086848,
+      "median": 187081728.0,
+      "min": 187076608,
+      "sum": 11973210112
+    },
+    "pytorch_peak_reserved_bytes": {
+      "max": 199229440,
+      "median": 199229440.0,
+      "min": 199229440,
+      "sum": 12750684160
+    },
+    "run_bytes": 336447436,
+    "worker_wall_seconds": {
+      "max": 37.44507483401685,
+      "median": 36.287619159484166,
+      "min": 31.36407576300553,
+      "sum": 2297.0992070329667
+    }
+  },
+  "slurm_rows": [
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "7",
+      "End": "2026-09-14T16:45:19",
+      "ExitCode": "1:0",
+      "JobID": "301088",
+      "MaxRSS": "",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "cpu=2,mem=4G,node=1",
+      "Start": "2026-09-14T16:45:12",
+      "State": "FAILED",
+      "TotalCPU": "00:04.772"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "7",
+      "End": "2026-09-14T16:45:19",
+      "ExitCode": "1:0",
+      "JobID": "301088.batch",
+      "MaxRSS": "3464K",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:45:12",
+      "State": "FAILED",
+      "TotalCPU": "00:04.771"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "7",
+      "End": "2026-09-14T16:45:19",
+      "ExitCode": "0:0",
+      "JobID": "301088.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:45:12",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "7",
+      "End": "2026-09-14T16:53:17",
+      "ExitCode": "0:0",
+      "JobID": "301090",
+      "MaxRSS": "",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "cpu=2,mem=4G,node=1",
+      "Start": "2026-09-14T16:53:10",
+      "State": "COMPLETED",
+      "TotalCPU": "00:04.753"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "7",
+      "End": "2026-09-14T16:53:17",
+      "ExitCode": "0:0",
+      "JobID": "301090.batch",
+      "MaxRSS": "3464K",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:53:10",
+      "State": "COMPLETED",
+      "TotalCPU": "00:04.753"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "7",
+      "End": "2026-09-14T16:53:17",
+      "ExitCode": "0:0",
+      "JobID": "301090.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:53:10",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T16:55:25",
+      "ExitCode": "0:0",
+      "JobID": "301091",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T16:54:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:35.154"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T16:55:25",
+      "ExitCode": "0:0",
+      "JobID": "301091.batch",
+      "MaxRSS": "1627060K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:54:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:35.153"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T16:55:25",
+      "ExitCode": "0:0",
+      "JobID": "301091.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:54:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00.001"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T16:56:36",
+      "ExitCode": "0:0",
+      "JobID": "301092",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T16:55:54",
+      "State": "COMPLETED",
+      "TotalCPU": "00:35.259"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T16:56:36",
+      "ExitCode": "0:0",
+      "JobID": "301092.batch",
+      "MaxRSS": "1625948K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:55:54",
+      "State": "COMPLETED",
+      "TotalCPU": "00:35.258"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T16:56:36",
+      "ExitCode": "0:0",
+      "JobID": "301092.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:55:54",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T16:57:28",
+      "ExitCode": "0:0",
+      "JobID": "301093",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T16:56:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.514"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T16:57:28",
+      "ExitCode": "0:0",
+      "JobID": "301093.batch",
+      "MaxRSS": "1618104K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:56:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.513"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T16:57:28",
+      "ExitCode": "0:0",
+      "JobID": "301093.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:56:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T16:58:28",
+      "ExitCode": "0:0",
+      "JobID": "301094",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T16:57:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.385"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T16:58:28",
+      "ExitCode": "0:0",
+      "JobID": "301094.batch",
+      "MaxRSS": "1628684K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:57:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.384"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T16:58:28",
+      "ExitCode": "0:0",
+      "JobID": "301094.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:57:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T16:59:30",
+      "ExitCode": "0:0",
+      "JobID": "301095",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T16:58:42",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.498"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T16:59:30",
+      "ExitCode": "0:0",
+      "JobID": "301095.batch",
+      "MaxRSS": "1615140K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:58:42",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.497"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T16:59:30",
+      "ExitCode": "0:0",
+      "JobID": "301095.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:58:42",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:00:30",
+      "ExitCode": "0:0",
+      "JobID": "301096",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T16:59:42",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.649"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:00:30",
+      "ExitCode": "0:0",
+      "JobID": "301096.batch",
+      "MaxRSS": "1600360K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:59:42",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.648"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:00:30",
+      "ExitCode": "0:0",
+      "JobID": "301096.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T16:59:42",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:01:29",
+      "ExitCode": "0:0",
+      "JobID": "301098",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:00:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.292"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:01:29",
+      "ExitCode": "0:0",
+      "JobID": "301098.batch",
+      "MaxRSS": "1627888K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:00:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.292"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:01:29",
+      "ExitCode": "0:0",
+      "JobID": "301098.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:00:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:02:29",
+      "ExitCode": "0:0",
+      "JobID": "301099",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:01:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.563"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:02:29",
+      "ExitCode": "0:0",
+      "JobID": "301099.batch",
+      "MaxRSS": "1630456K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:01:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.563"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:02:29",
+      "ExitCode": "0:0",
+      "JobID": "301099.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:01:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T17:03:25",
+      "ExitCode": "0:0",
+      "JobID": "301100",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:02:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:34.998"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T17:03:25",
+      "ExitCode": "0:0",
+      "JobID": "301100.batch",
+      "MaxRSS": "1615024K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:02:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:34.997"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T17:03:25",
+      "ExitCode": "0:0",
+      "JobID": "301100.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:02:43",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T17:04:11",
+      "ExitCode": "0:0",
+      "JobID": "301101",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:03:29",
+      "State": "COMPLETED",
+      "TotalCPU": "00:35.040"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T17:04:11",
+      "ExitCode": "0:0",
+      "JobID": "301101.batch",
+      "MaxRSS": "1615792K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:03:29",
+      "State": "COMPLETED",
+      "TotalCPU": "00:35.039"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "42",
+      "End": "2026-09-14T17:04:11",
+      "ExitCode": "0:0",
+      "JobID": "301101.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:03:29",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:05:00",
+      "ExitCode": "0:0",
+      "JobID": "301102",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:04:14",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.429"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:05:00",
+      "ExitCode": "0:0",
+      "JobID": "301102.batch",
+      "MaxRSS": "1623980K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:04:14",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.428"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:05:00",
+      "ExitCode": "0:0",
+      "JobID": "301102.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:04:14",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:06:00",
+      "ExitCode": "0:0",
+      "JobID": "301103",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:05:14",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.485"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:06:00",
+      "ExitCode": "0:0",
+      "JobID": "301103.batch",
+      "MaxRSS": "1645356K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:05:14",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.485"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:06:00",
+      "ExitCode": "0:0",
+      "JobID": "301103.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:05:14",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:07:03",
+      "ExitCode": "0:0",
+      "JobID": "301104",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:06:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.126"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:07:03",
+      "ExitCode": "0:0",
+      "JobID": "301104.batch",
+      "MaxRSS": "1625468K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:06:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.126"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:07:03",
+      "ExitCode": "0:0",
+      "JobID": "301104.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:06:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "49",
+      "End": "2026-09-14T17:08:04",
+      "ExitCode": "0:0",
+      "JobID": "301105",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:07:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.759"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "49",
+      "End": "2026-09-14T17:08:04",
+      "ExitCode": "0:0",
+      "JobID": "301105.batch",
+      "MaxRSS": "1622340K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:07:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.758"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "49",
+      "End": "2026-09-14T17:08:04",
+      "ExitCode": "0:0",
+      "JobID": "301105.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:07:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "49",
+      "End": "2026-09-14T17:09:04",
+      "ExitCode": "0:0",
+      "JobID": "301106",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:08:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.713"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "49",
+      "End": "2026-09-14T17:09:04",
+      "ExitCode": "0:0",
+      "JobID": "301106.batch",
+      "MaxRSS": "1618024K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:08:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.712"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "49",
+      "End": "2026-09-14T17:09:04",
+      "ExitCode": "0:0",
+      "JobID": "301106.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:08:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:10:04",
+      "ExitCode": "0:0",
+      "JobID": "301107",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:09:17",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.625"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:10:04",
+      "ExitCode": "0:0",
+      "JobID": "301107.batch",
+      "MaxRSS": "1617368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:09:17",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.624"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:10:04",
+      "ExitCode": "0:0",
+      "JobID": "301107.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:09:17",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:11:04",
+      "ExitCode": "0:0",
+      "JobID": "301108",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:10:17",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.381"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:11:04",
+      "ExitCode": "0:0",
+      "JobID": "301108.batch",
+      "MaxRSS": "1627628K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:10:17",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.380"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:11:04",
+      "ExitCode": "0:0",
+      "JobID": "301108.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:10:17",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:12:06",
+      "ExitCode": "0:0",
+      "JobID": "301109",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:11:18",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.707"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:12:06",
+      "ExitCode": "0:0",
+      "JobID": "301109.batch",
+      "MaxRSS": "1609876K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:11:18",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.707"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:12:06",
+      "ExitCode": "0:0",
+      "JobID": "301109.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:11:18",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "45",
+      "End": "2026-09-14T17:13:03",
+      "ExitCode": "0:0",
+      "JobID": "301110",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:12:18",
+      "State": "COMPLETED",
+      "TotalCPU": "00:38.660"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "45",
+      "End": "2026-09-14T17:13:03",
+      "ExitCode": "0:0",
+      "JobID": "301110.batch",
+      "MaxRSS": "1609980K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:12:18",
+      "State": "COMPLETED",
+      "TotalCPU": "00:38.659"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "45",
+      "End": "2026-09-14T17:13:03",
+      "ExitCode": "0:0",
+      "JobID": "301110.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:12:18",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "45",
+      "End": "2026-09-14T17:14:04",
+      "ExitCode": "0:0",
+      "JobID": "301111",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:13:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:38.748"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "45",
+      "End": "2026-09-14T17:14:04",
+      "ExitCode": "0:0",
+      "JobID": "301111.batch",
+      "MaxRSS": "1614484K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:13:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:38.747"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "45",
+      "End": "2026-09-14T17:14:04",
+      "ExitCode": "0:0",
+      "JobID": "301111.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:13:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:15:05",
+      "ExitCode": "0:0",
+      "JobID": "301112",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:14:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.464"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:15:05",
+      "ExitCode": "0:0",
+      "JobID": "301112.batch",
+      "MaxRSS": "1622876K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:14:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.464"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:15:05",
+      "ExitCode": "0:0",
+      "JobID": "301112.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:14:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:16:05",
+      "ExitCode": "0:0",
+      "JobID": "301113",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:15:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.753"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:16:05",
+      "ExitCode": "0:0",
+      "JobID": "301113.batch",
+      "MaxRSS": "1621232K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:15:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.752"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:16:05",
+      "ExitCode": "0:0",
+      "JobID": "301113.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:15:19",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:17:08",
+      "ExitCode": "0:0",
+      "JobID": "301114",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:16:20",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.712"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:17:08",
+      "ExitCode": "0:0",
+      "JobID": "301114.batch",
+      "MaxRSS": "1610004K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:16:20",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.712"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:17:08",
+      "ExitCode": "0:0",
+      "JobID": "301114.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:16:20",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:18:08",
+      "ExitCode": "0:0",
+      "JobID": "301115",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:17:20",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.679"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:18:08",
+      "ExitCode": "0:0",
+      "JobID": "301115.batch",
+      "MaxRSS": "1627060K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:17:20",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.679"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:18:08",
+      "ExitCode": "0:0",
+      "JobID": "301115.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:17:20",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:19:07",
+      "ExitCode": "0:0",
+      "JobID": "301116",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:18:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.440"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:19:07",
+      "ExitCode": "0:0",
+      "JobID": "301116.batch",
+      "MaxRSS": "1632104K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:18:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.439"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:19:07",
+      "ExitCode": "0:0",
+      "JobID": "301116.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:18:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:20:07",
+      "ExitCode": "0:0",
+      "JobID": "301117",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:19:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.313"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:20:07",
+      "ExitCode": "0:0",
+      "JobID": "301117.batch",
+      "MaxRSS": "1645948K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:19:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:39.312"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:20:07",
+      "ExitCode": "0:0",
+      "JobID": "301117.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:19:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:21:09",
+      "ExitCode": "0:0",
+      "JobID": "301118",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:20:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.363"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:21:09",
+      "ExitCode": "0:0",
+      "JobID": "301118.batch",
+      "MaxRSS": "1623684K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:20:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.362"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:21:09",
+      "ExitCode": "0:0",
+      "JobID": "301118.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:20:21",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:22:10",
+      "ExitCode": "0:0",
+      "JobID": "301119",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:21:23",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.483"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:22:10",
+      "ExitCode": "0:0",
+      "JobID": "301119.batch",
+      "MaxRSS": "1626416K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:21:23",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.482"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:22:10",
+      "ExitCode": "0:0",
+      "JobID": "301119.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:21:23",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:23:10",
+      "ExitCode": "0:0",
+      "JobID": "301120",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:22:23",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.129"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:23:10",
+      "ExitCode": "0:0",
+      "JobID": "301120.batch",
+      "MaxRSS": "1632056K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:22:23",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.128"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:23:10",
+      "ExitCode": "0:0",
+      "JobID": "301120.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:22:23",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:24:11",
+      "ExitCode": "0:0",
+      "JobID": "301121",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:23:24",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.222"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:24:11",
+      "ExitCode": "0:0",
+      "JobID": "301121.batch",
+      "MaxRSS": "1614596K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:23:24",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.221"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:24:11",
+      "ExitCode": "0:0",
+      "JobID": "301121.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:23:24",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:25:11",
+      "ExitCode": "0:0",
+      "JobID": "301122",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:24:24",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.208"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:25:11",
+      "ExitCode": "0:0",
+      "JobID": "301122.batch",
+      "MaxRSS": "1631636K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:24:24",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.207"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:25:11",
+      "ExitCode": "0:0",
+      "JobID": "301122.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:24:24",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:26:11",
+      "ExitCode": "0:0",
+      "JobID": "301123",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:25:25",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.116"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:26:11",
+      "ExitCode": "0:0",
+      "JobID": "301123.batch",
+      "MaxRSS": "1630276K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:25:25",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.115"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:26:11",
+      "ExitCode": "0:0",
+      "JobID": "301123.extern",
+      "MaxRSS": "836K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:25:25",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "43",
+      "End": "2026-09-14T17:27:08",
+      "ExitCode": "0:0",
+      "JobID": "301124",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:26:25",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.662"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "43",
+      "End": "2026-09-14T17:27:08",
+      "ExitCode": "0:0",
+      "JobID": "301124.batch",
+      "MaxRSS": "1642580K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:26:25",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.661"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "43",
+      "End": "2026-09-14T17:27:08",
+      "ExitCode": "0:0",
+      "JobID": "301124.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:26:25",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "43",
+      "End": "2026-09-14T17:27:53",
+      "ExitCode": "0:0",
+      "JobID": "301125",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:27:10",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.646"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "43",
+      "End": "2026-09-14T17:27:53",
+      "ExitCode": "0:0",
+      "JobID": "301125.batch",
+      "MaxRSS": "1616604K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:27:10",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.645"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "43",
+      "End": "2026-09-14T17:27:53",
+      "ExitCode": "0:0",
+      "JobID": "301125.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:27:10",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:28:42",
+      "ExitCode": "0:0",
+      "JobID": "301126",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:27:55",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.173"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:28:42",
+      "ExitCode": "0:0",
+      "JobID": "301126.batch",
+      "MaxRSS": "1633264K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:27:55",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.172"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:28:42",
+      "ExitCode": "0:0",
+      "JobID": "301126.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:27:55",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:29:42",
+      "ExitCode": "0:0",
+      "JobID": "301128",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:28:56",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.087"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:29:42",
+      "ExitCode": "0:0",
+      "JobID": "301128.batch",
+      "MaxRSS": "1634208K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:28:56",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.086"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:29:42",
+      "ExitCode": "0:0",
+      "JobID": "301128.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:28:56",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00.001"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:30:42",
+      "ExitCode": "0:0",
+      "JobID": "301129",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:29:56",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.651"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:30:42",
+      "ExitCode": "0:0",
+      "JobID": "301129.batch",
+      "MaxRSS": "1648996K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:29:56",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.651"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:30:42",
+      "ExitCode": "0:0",
+      "JobID": "301129.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:29:56",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:31:43",
+      "ExitCode": "0:0",
+      "JobID": "301130",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:30:57",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.562"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:31:43",
+      "ExitCode": "0:0",
+      "JobID": "301130.batch",
+      "MaxRSS": "1655680K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:30:57",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.561"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:31:43",
+      "ExitCode": "0:0",
+      "JobID": "301130.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:30:57",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00.001"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:32:44",
+      "ExitCode": "0:0",
+      "JobID": "301131",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:31:57",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.173"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:32:44",
+      "ExitCode": "0:0",
+      "JobID": "301131.batch",
+      "MaxRSS": "1622404K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:31:57",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.172"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:32:44",
+      "ExitCode": "0:0",
+      "JobID": "301131.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:31:57",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:33:45",
+      "ExitCode": "0:0",
+      "JobID": "301132",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:32:59",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.718"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:33:45",
+      "ExitCode": "0:0",
+      "JobID": "301132.batch",
+      "MaxRSS": "1623068K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:32:59",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.717"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:33:45",
+      "ExitCode": "0:0",
+      "JobID": "301132.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:32:59",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:34:45",
+      "ExitCode": "0:0",
+      "JobID": "301133",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:33:59",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.276"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:34:45",
+      "ExitCode": "0:0",
+      "JobID": "301133.batch",
+      "MaxRSS": "1623252K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:33:59",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.275"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:34:45",
+      "ExitCode": "0:0",
+      "JobID": "301133.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:33:59",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:35:46",
+      "ExitCode": "0:0",
+      "JobID": "301134",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:35:00",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.177"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:35:46",
+      "ExitCode": "0:0",
+      "JobID": "301134.batch",
+      "MaxRSS": "1622488K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:35:00",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.176"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:35:46",
+      "ExitCode": "0:0",
+      "JobID": "301134.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:35:00",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:36:46",
+      "ExitCode": "0:0",
+      "JobID": "301135",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:36:00",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.737"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:36:46",
+      "ExitCode": "0:0",
+      "JobID": "301135.batch",
+      "MaxRSS": "1635516K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:36:00",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.736"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:36:46",
+      "ExitCode": "0:0",
+      "JobID": "301135.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:36:00",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:37:47",
+      "ExitCode": "0:0",
+      "JobID": "301136",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:37:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.856"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:37:47",
+      "ExitCode": "0:0",
+      "JobID": "301136.batch",
+      "MaxRSS": "1637540K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:37:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.856"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:37:47",
+      "ExitCode": "0:0",
+      "JobID": "301136.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:37:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:38:47",
+      "ExitCode": "0:0",
+      "JobID": "301137",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:38:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.071"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:38:47",
+      "ExitCode": "0:0",
+      "JobID": "301137.batch",
+      "MaxRSS": "1628232K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:38:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.070"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:38:47",
+      "ExitCode": "0:0",
+      "JobID": "301137.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:38:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:39:48",
+      "ExitCode": "0:0",
+      "JobID": "301138",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:39:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.454"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:39:48",
+      "ExitCode": "0:0",
+      "JobID": "301138.batch",
+      "MaxRSS": "1624656K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:39:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.453"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:39:48",
+      "ExitCode": "0:0",
+      "JobID": "301138.extern",
+      "MaxRSS": "836K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:39:01",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:40:49",
+      "ExitCode": "0:0",
+      "JobID": "301139",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:40:02",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.405"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:40:49",
+      "ExitCode": "0:0",
+      "JobID": "301139.batch",
+      "MaxRSS": "1627128K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:40:02",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.405"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:40:49",
+      "ExitCode": "0:0",
+      "JobID": "301139.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:40:02",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:41:49",
+      "ExitCode": "0:0",
+      "JobID": "301140",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:41:02",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.383"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:41:49",
+      "ExitCode": "0:0",
+      "JobID": "301140.batch",
+      "MaxRSS": "1621596K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:41:02",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.382"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:41:49",
+      "ExitCode": "0:0",
+      "JobID": "301140.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:41:02",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:42:50",
+      "ExitCode": "0:0",
+      "JobID": "301141",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:42:03",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.006"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:42:50",
+      "ExitCode": "0:0",
+      "JobID": "301141.batch",
+      "MaxRSS": "1620052K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:42:03",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.005"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:42:50",
+      "ExitCode": "0:0",
+      "JobID": "301141.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:42:03",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:43:51",
+      "ExitCode": "0:0",
+      "JobID": "301142",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:43:03",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.463"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:43:51",
+      "ExitCode": "0:0",
+      "JobID": "301142.batch",
+      "MaxRSS": "1607468K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:43:03",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.462"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "48",
+      "End": "2026-09-14T17:43:51",
+      "ExitCode": "0:0",
+      "JobID": "301142.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:43:03",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "44",
+      "End": "2026-09-14T17:44:48",
+      "ExitCode": "0:0",
+      "JobID": "301143",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:44:04",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.693"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "44",
+      "End": "2026-09-14T17:44:48",
+      "ExitCode": "0:0",
+      "JobID": "301143.batch",
+      "MaxRSS": "1638216K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:44:04",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.693"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "44",
+      "End": "2026-09-14T17:44:48",
+      "ExitCode": "0:0",
+      "JobID": "301143.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:44:04",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "44",
+      "End": "2026-09-14T17:45:34",
+      "ExitCode": "0:0",
+      "JobID": "301144",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:44:50",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.833"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "44",
+      "End": "2026-09-14T17:45:34",
+      "ExitCode": "0:0",
+      "JobID": "301144.batch",
+      "MaxRSS": "1639568K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:44:50",
+      "State": "COMPLETED",
+      "TotalCPU": "00:37.832"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "44",
+      "End": "2026-09-14T17:45:34",
+      "ExitCode": "0:0",
+      "JobID": "301144.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:44:50",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:46:22",
+      "ExitCode": "0:0",
+      "JobID": "301145",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:45:35",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.340"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:46:22",
+      "ExitCode": "0:0",
+      "JobID": "301145.batch",
+      "MaxRSS": "1619600K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:45:35",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.339"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:46:22",
+      "ExitCode": "0:0",
+      "JobID": "301145.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:45:35",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:47:23",
+      "ExitCode": "0:0",
+      "JobID": "301146",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:46:36",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.517"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:47:23",
+      "ExitCode": "0:0",
+      "JobID": "301146.batch",
+      "MaxRSS": "1604316K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:46:36",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.517"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:47:23",
+      "ExitCode": "0:0",
+      "JobID": "301146.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:46:36",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:48:22",
+      "ExitCode": "0:0",
+      "JobID": "301147",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:47:36",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.872"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:48:22",
+      "ExitCode": "0:0",
+      "JobID": "301147.batch",
+      "MaxRSS": "1623048K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:47:36",
+      "State": "COMPLETED",
+      "TotalCPU": "00:40.871"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:48:22",
+      "ExitCode": "0:0",
+      "JobID": "301147.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:47:36",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:49:24",
+      "ExitCode": "0:0",
+      "JobID": "301148",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:48:37",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.241"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:49:24",
+      "ExitCode": "0:0",
+      "JobID": "301148.batch",
+      "MaxRSS": "1618540K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:48:37",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.240"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:49:24",
+      "ExitCode": "0:0",
+      "JobID": "301148.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:48:37",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:50:23",
+      "ExitCode": "0:0",
+      "JobID": "301149",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:49:37",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.305"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:50:23",
+      "ExitCode": "0:0",
+      "JobID": "301149.batch",
+      "MaxRSS": "1619620K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:49:37",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.304"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:50:23",
+      "ExitCode": "0:0",
+      "JobID": "301149.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:49:37",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:51:25",
+      "ExitCode": "0:0",
+      "JobID": "301150",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:50:38",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.470"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:51:25",
+      "ExitCode": "0:0",
+      "JobID": "301150.batch",
+      "MaxRSS": "1618996K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:50:38",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.469"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:51:25",
+      "ExitCode": "0:0",
+      "JobID": "301150.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:50:38",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:52:24",
+      "ExitCode": "0:0",
+      "JobID": "301151",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:51:38",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.229"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:52:24",
+      "ExitCode": "0:0",
+      "JobID": "301151.batch",
+      "MaxRSS": "1610020K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:51:38",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.229"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:52:24",
+      "ExitCode": "0:0",
+      "JobID": "301151.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:51:38",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:53:26",
+      "ExitCode": "0:0",
+      "JobID": "301152",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:52:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.304"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:53:26",
+      "ExitCode": "0:0",
+      "JobID": "301152.batch",
+      "MaxRSS": "1630416K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:52:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.303"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:53:26",
+      "ExitCode": "0:0",
+      "JobID": "301152.extern",
+      "MaxRSS": "1364K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:52:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:54:26",
+      "ExitCode": "0:0",
+      "JobID": "301153",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:53:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.255"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:54:26",
+      "ExitCode": "0:0",
+      "JobID": "301153.batch",
+      "MaxRSS": "1648352K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:53:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.255"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:54:26",
+      "ExitCode": "0:0",
+      "JobID": "301153.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:53:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:55:26",
+      "ExitCode": "0:0",
+      "JobID": "301154",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:54:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.355"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:55:26",
+      "ExitCode": "0:0",
+      "JobID": "301154.batch",
+      "MaxRSS": "1648860K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:54:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.354"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "47",
+      "End": "2026-09-14T17:55:26",
+      "ExitCode": "0:0",
+      "JobID": "301154.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:54:39",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:56:27",
+      "ExitCode": "0:0",
+      "JobID": "301155",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:55:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.304"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:56:27",
+      "ExitCode": "0:0",
+      "JobID": "301155.batch",
+      "MaxRSS": "1618868K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:55:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.303"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:56:27",
+      "ExitCode": "0:0",
+      "JobID": "301155.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:55:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:57:27",
+      "ExitCode": "0:0",
+      "JobID": "301156",
+      "MaxRSS": "",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "Start": "2026-09-14T17:56:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.192"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:57:27",
+      "ExitCode": "0:0",
+      "JobID": "301156.batch",
+      "MaxRSS": "1635236K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:56:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:41.191"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "billing=1,cpu=4,gres/gpu=1,mem=24G,node=1",
+      "ElapsedRaw": "46",
+      "End": "2026-09-14T17:57:27",
+      "ExitCode": "0:0",
+      "JobID": "301156.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu09",
+      "ReqMem": "24Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T17:56:41",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "20",
+      "End": "2026-09-14T18:04:35",
+      "ExitCode": "0:0",
+      "JobID": "301157",
+      "MaxRSS": "",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "cpu=2,mem=4G,node=1",
+      "Start": "2026-09-14T18:04:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:17.335"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "20",
+      "End": "2026-09-14T18:04:35",
+      "ExitCode": "0:0",
+      "JobID": "301157.batch",
+      "MaxRSS": "125.50M",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T18:04:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:17.334"
+    },
+    {
+      "AllocCPUS": "2",
+      "AllocTRES": "cpu=2,mem=4G,node=1",
+      "ElapsedRaw": "20",
+      "End": "2026-09-14T18:04:35",
+      "ExitCode": "0:0",
+      "JobID": "301157.extern",
+      "MaxRSS": "1368K",
+      "NodeList": "gpu02",
+      "ReqMem": "4Gn",
+      "ReqTRES": "",
+      "Start": "2026-09-14T18:04:15",
+      "State": "COMPLETED",
+      "TotalCPU": "00:00:00"
+    }
+  ]
+}

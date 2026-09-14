@@ -191,6 +191,18 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**14 September: single-anchor ranking experiment completed.** On the same 32
+exposed development references, both arms used identical anchor proposal workloads
+and the unchanged continuation tail. Immediate selection improved first-chunk
+joint margin on 29/32 references, but full-budget native success was 12/128 versus
+16/128 for continuation selection: −3.125 points, exploratory reference-cluster
+95% interval [−10.9375, +4.6875]. All 64 processes and the frozen verifier passed;
+two repeats check repeatability, not independent sample size. GPU allocations
+totaled 49.38 minutes. The [full result](docs/single-anchor-ranking-20260914/RESULT-20260914.md)
+retains all reference effects, adverse cases, accounting and verified external
+backup. This is outcome-informed development, not a new confirmation or SAGE
+comparison; no next method was launched and historical decisions remain unchanged.
+
 **14 September: outcome-informed bottleneck diagnostics.** The completed450-
 shard study now has an authenticated, member-verified external-SSD archive.
 The [complete trajectory reduction](docs/bottleneck/TRAJECTORY-RESULT-20260914.md)
