@@ -1,0 +1,460 @@
+{
+  "archive": "/mnt/d/THESIS-BACKUPS/bottleneck-20260914/completed-stage0.tar",
+  "assumptions": [
+    "Measured synchronized historical solve wall, not total allocation or kernel time.",
+    "New branch observations/termination and cluster load can change timing; no new real execution performed.",
+    "30s/process nonplanning setup plus0.02s/primitive step are assumptions, not measured new-interface costs.",
+    "Upper call counts include both independent arm prefixes and cycle-final first-only calls."
+  ],
+  "combined_sha256": "820f027f7313c4179d95f99e5eda54d2172469eb4a3cd8541883aa5f8a0e0a54",
+  "continuation_solve_seconds": {
+    "maximum": 1.2840260309967562,
+    "mean": 0.13175849232915127,
+    "n": 790,
+    "p50": 0.12984734450219548,
+    "p95": 0.13226186804895407
+  },
+  "first_only_solve_seconds": {
+    "maximum": 0.08037269600026775,
+    "mean": 0.07289795257964811,
+    "n": 119,
+    "p50": 0.07268712799850618,
+    "p95": 0.07411497360153589
+  },
+  "historical_rows": [
+    {
+      "call_count": 5,
+      "call_seconds": 0.5945461969968164,
+      "horizon": 75,
+      "reference": 70
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.479686437982309,
+      "horizon": 150,
+      "reference": 70
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1880832830065629,
+      "horizon": 75,
+      "reference": 98
+    },
+    {
+      "call_count": 11,
+      "call_seconds": 1.3766776449992904,
+      "horizon": 150,
+      "reference": 98
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.180373609997332,
+      "horizon": 75,
+      "reference": 181
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4716101020021597,
+      "horizon": 150,
+      "reference": 181
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1906517089882982,
+      "horizon": 75,
+      "reference": 221
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.5078838920089765,
+      "horizon": 150,
+      "reference": 221
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.17877418500575,
+      "horizon": 75,
+      "reference": 288
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4725616879877634,
+      "horizon": 150,
+      "reference": 288
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.181321978008782,
+      "horizon": 75,
+      "reference": 420
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4790466939884936,
+      "horizon": 150,
+      "reference": 420
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1846011980087496,
+      "horizon": 75,
+      "reference": 428
+    },
+    {
+      "call_count": 11,
+      "call_seconds": 1.3717412220066763,
+      "horizon": 150,
+      "reference": 428
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1823282730110805,
+      "horizon": 75,
+      "reference": 432
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4898858000160544,
+      "horizon": 150,
+      "reference": 432
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1906862039904809,
+      "horizon": 75,
+      "reference": 525
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.5000877610000316,
+      "horizon": 150,
+      "reference": 525
+    },
+    {
+      "call_count": 3,
+      "call_seconds": 0.3928196970009594,
+      "horizon": 75,
+      "reference": 567
+    },
+    {
+      "call_count": 16,
+      "call_seconds": 2.0441949449959793,
+      "horizon": 150,
+      "reference": 567
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1816013109928463,
+      "horizon": 75,
+      "reference": 582
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4807550459954655,
+      "horizon": 150,
+      "reference": 582
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1798901690199273,
+      "horizon": 75,
+      "reference": 621
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4713086550109438,
+      "horizon": 150,
+      "reference": 621
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1838053009996656,
+      "horizon": 75,
+      "reference": 630
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.480797655029164,
+      "horizon": 150,
+      "reference": 630
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.2052739200007636,
+      "horizon": 75,
+      "reference": 641
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.491478384981747,
+      "horizon": 150,
+      "reference": 641
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.184219041992037,
+      "horizon": 75,
+      "reference": 706
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4734927699973923,
+      "horizon": 150,
+      "reference": 706
+    },
+    {
+      "call_count": 8,
+      "call_seconds": 0.9838361119982437,
+      "horizon": 75,
+      "reference": 716
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.471043551013281,
+      "horizon": 150,
+      "reference": 716
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1782423069962533,
+      "horizon": 75,
+      "reference": 722
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4774552999951993,
+      "horizon": 150,
+      "reference": 722
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1862802149989875,
+      "horizon": 75,
+      "reference": 757
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4757331220025662,
+      "horizon": 150,
+      "reference": 757
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1899781550091575,
+      "horizon": 75,
+      "reference": 783
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.498380164979608,
+      "horizon": 150,
+      "reference": 783
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.167209303988784,
+      "horizon": 75,
+      "reference": 855
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.459223875994212,
+      "horizon": 150,
+      "reference": 855
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1721179020023555,
+      "horizon": 75,
+      "reference": 860
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4699481450006715,
+      "horizon": 150,
+      "reference": 860
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1779905560033512,
+      "horizon": 75,
+      "reference": 867
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4610314859746723,
+      "horizon": 150,
+      "reference": 867
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.170317112992052,
+      "horizon": 75,
+      "reference": 886
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.461351523998019,
+      "horizon": 150,
+      "reference": 886
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.2981355160009116,
+      "horizon": 75,
+      "reference": 905
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.726204304046405,
+      "horizon": 150,
+      "reference": 905
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.179101885005366,
+      "horizon": 75,
+      "reference": 989
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.461359615008405,
+      "horizon": 150,
+      "reference": 989
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.194335678985226,
+      "horizon": 75,
+      "reference": 1066
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.5177868329847115,
+      "horizon": 150,
+      "reference": 1066
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.2044918369938387,
+      "horizon": 75,
+      "reference": 1074
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.5207060489992728,
+      "horizon": 150,
+      "reference": 1074
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1909885759960162,
+      "horizon": 75,
+      "reference": 1269
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.2479495969964773,
+      "horizon": 150,
+      "reference": 1269
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 2.3298389629853773,
+      "horizon": 75,
+      "reference": 1280
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4633483580328175,
+      "horizon": 150,
+      "reference": 1280
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1910532019901439,
+      "horizon": 75,
+      "reference": 1287
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.493887522010482,
+      "horizon": 150,
+      "reference": 1287
+    },
+    {
+      "call_count": 10,
+      "call_seconds": 1.1816861949992017,
+      "horizon": 75,
+      "reference": 1488
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4789353989908705,
+      "horizon": 150,
+      "reference": 1488
+    },
+    {
+      "call_count": 5,
+      "call_seconds": 0.5969002530109719,
+      "horizon": 75,
+      "reference": 1565
+    },
+    {
+      "call_count": 20,
+      "call_seconds": 2.4970319060012116,
+      "horizon": 150,
+      "reference": 1565
+    }
+  ],
+  "new_model_or_physics_execution": false,
+  "planning_scenarios": [
+    {
+      "assumed_other_seconds": 4224,
+      "planner_seconds_upper_call_count": 951.6320283843905,
+      "scenario": "historical_mean",
+      "total_seconds": 5175.632028384391
+    },
+    {
+      "assumed_other_seconds": 4224,
+      "planner_seconds_upper_call_count": 956.228726701811,
+      "scenario": "historical_p95",
+      "total_seconds": 5180.228726701811
+    },
+    {
+      "assumed_other_seconds": 4224,
+      "planner_seconds_upper_call_count": 1912.457453403622,
+      "scenario": "twice_p95",
+      "total_seconds": 6136.457453403622
+    },
+    {
+      "scenario": "historical_max_every_call",
+      "planner_seconds_upper_call_count": 8628.778903018683,
+      "assumed_other_seconds": 4224,
+      "total_seconds": 12852.778903018683
+    }
+  ],
+  "selected_historical_timings_only": true,
+  "two_repeat_bounds": {
+    "action_encoder_calls": 43008,
+    "adapter_calls": 6656,
+    "candidate_trajectories": 3899392,
+    "continuation_calls": 6656,
+    "diffusion_network_forwards": 143360,
+    "encoder_calls": 15360,
+    "environment_constructions": 512,
+    "first_only_calls": 1024,
+    "latent_rollout_batches": 14336,
+    "logical_branches": 512,
+    "model_constructions": 64,
+    "physical_steps": 115200,
+    "planning_calls": 7680,
+    "post_anchor_planning_calls": 7168,
+    "post_anchor_steps": 107520,
+    "predictor_calls": 43008,
+    "prefix_planning_calls": 512,
+    "prefix_steps": 7680,
+    "proposal_batches": 14336
+  },
+  "maximum_scenario_note": "Calculated from the same saved timing receipt, without re-reading or executing models."
+}

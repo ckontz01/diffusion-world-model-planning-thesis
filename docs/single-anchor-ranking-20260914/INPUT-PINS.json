@@ -1,0 +1,72 @@
+{
+  "starting_commit": "bb902bfc69236eb50c49791bd95750e94b85bbe2",
+  "reviewed_commit": "5d437d7fe8c505c7744ab5570a90947781af51a2",
+  "note": "Unmodified accepted source identities. Git blob IDs identify canonical repository bytes; working-file SHA256 may reflect Windows CRLF. Future source manifest must hash actual frozen bytes and be bound to approval.",
+  "inputs": [
+    {
+      "path": "cluster/prometheus/gdp_cem_e18_runtime.py",
+      "git_blob": "f9da10cfc80a392e65d8c1aebe996ab1cdae714e",
+      "working_file_sha256": "2c52180a6f0fc0d3286759005627e6dde705a193358fc9ba4d500cb9a4b81341"
+    },
+    {
+      "path": "cluster/prometheus/gdp_cem_e18_closed_loop.py",
+      "git_blob": "344a7a2edd93317d6489f53e751b778c4e0b419f",
+      "working_file_sha256": "27199d58c2640c54fa310e194ef8a2b7253ad3e2d573cec83148d6ea4a62b25a"
+    },
+    {
+      "path": "cluster/prometheus/gdp_cem_e15_models.py",
+      "git_blob": "fc6c0b38844cbc853cd8ffda9c087291c81e4f17",
+      "working_file_sha256": "0aa45efeabbdd1320461866fc2e0104ceb0a0eeffbaa8bbc41beccdde3bb7635"
+    },
+    {
+      "path": "cluster/prometheus/gdp_cem_e14_models.py",
+      "git_blob": "6ec5d918d3c649461391360fe72334a0e1c78274",
+      "working_file_sha256": "426257ed91690b34a56e2c3377803f676030e1db7ba3948b47151cd8be622184"
+    },
+    {
+      "path": "cluster/prometheus/independent_pusht_runtime.py",
+      "git_blob": "aa799a61f175c362210ef56ce2f10ddca67e7a80",
+      "working_file_sha256": "95e9f4f47d92fe80f2b0fab2a4d0d058d10616e86f4e08116facff8405a84c8b"
+    },
+    {
+      "path": "cluster/prometheus/pusht_fresh_initialization.py",
+      "git_blob": "739114a9aadb62180f639047397105979c7cdf5d",
+      "working_file_sha256": "2cf1aa9a3281122b67dc11cfc4cb1fbaead47ba3499073670528fce06b9196cc"
+    },
+    {
+      "path": "cluster/prometheus/e18_fresh_driver.py",
+      "git_blob": "ffc234bc326285be41a89d9b4c4f6e95c0b6be89",
+      "working_file_sha256": "76bbbd3153f32767e3ebb7d9fe8cf716875164dc919b9ed2d5752e24dff1fdfc"
+    },
+    {
+      "path": "cluster/prometheus/diffusion_bottleneck_branch.py",
+      "git_blob": "565056936ca1320eaf0b52e003e835a88037f0da",
+      "working_file_sha256": "a5791a8ecb69c3f0a94fe15616d66b227eca4550048cff0b1cec81d300ddca49"
+    },
+    {
+      "path": "cluster/prometheus/diffusion_bottleneck_extension_runner.py",
+      "git_blob": "ba09dd4793c17fb835e4c9b45cf52f522f22862d",
+      "working_file_sha256": "052d0232ae387b4b8e17ccaf8cfaf6119ba8ba262becc990982a42bb3b0f676c"
+    },
+    {
+      "path": "cluster/prometheus/verify_diffusion_branch.py",
+      "git_blob": "5d07c3571042309ae8b6e56c5b0a38c64e0bfffc",
+      "working_file_sha256": "72d431a8bf7764130fc0a6edf0bd6edf74454d971dfaf12611fbe46913467f1e"
+    },
+    {
+      "path": "cluster/prometheus/verify_diffusion_branch_supplement.py",
+      "git_blob": "2f8e2e43e52fec337b79acd649ad27e4ce596f35",
+      "working_file_sha256": "f111d0d3be601906c655a1a032aff9b4fa2eed21ce12aa0f82991e16dce85250"
+    },
+    {
+      "path": "cluster/prometheus/INDEPENDENT-PINNED-INPUTS.json",
+      "git_blob": "228328c7adecdc0e5e430889e988b0fe1548302a",
+      "working_file_sha256": "e6cb4fe0695f56df3e52df429c1a380422cd40f776731b9e8b0c7d298861142b"
+    },
+    {
+      "path": "docs/bottleneck/BRANCH-PILOT-SELECTION.json",
+      "git_blob": "56a5b36eb97de0d7f8c0f8a53f6609d9c83cadee",
+      "working_file_sha256": "8ab4419dd02c451e8b57081c71e94a0d8df4f76fc1c756077d84c8a512bb3c1a"
+    }
+  ]
+}
