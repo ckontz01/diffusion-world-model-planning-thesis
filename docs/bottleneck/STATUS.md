@@ -29,7 +29,11 @@ user reconnecting D:. Local session17250 is closed, but the original remote
 controller remains alive (PID1140172); no restart/resubmission occurred. Scheduler
 confirmed28/56 processes through301040 successful,1996seconds including prior11.
 Scientific outputs remain unopened; use remote process/ledger metadata to monitor.
-Original four references/eight runs remain reused unchanged. No new outcome
+All56 new processes are now confirmed COMPLETED0:0. Their allocation total is
+3941seconds,3952 including the prior11second packaging failure, below7200.
+DISPATCH-COMPLETE reports540242493bytes, below the1GB watermark. Combined
+verification job301071 has been submitted once; success is not yet asserted.
+The dispatcher is complete and must not restart. Original four references/eight runs remain reused unchanged. No new outcome
 read before complete successful dispatch and combined verification. See
 [launch chronology](EXTENSION-LAUNCH-20260914.md), including the preserved initial
 Python3.6 compatibility failure before any job submission. Combined32/additional28

@@ -117,3 +117,20 @@ plus the previously charged11seconds =1996seconds. This is28 of56 processes,
 not28 completed references. No scientific output/log was opened. No recovery
 mutation, duplicate dispatch, scientific rerun or change to the frozen controls
 was needed. The controller continues autonomously on Prometheus.
+
+## Dispatch complete; frozen combined verification submitted
+
+Heartbeat2026-09-14T11:38:46.561Z read DISPATCH-COMPLETE.json and independently
+checked all56 exact scheduler jobIDs: each COMPLETED0:0. Summed ElapsedRaw3941s
+plus prior11s =3952s, below7200. Completion metadata reports540242493bytes,
+below1GB. All56 identities are distinct; no new result/bank/evaluator log was read.
+
+The prepared analyze-extension-265b618.sh ran once, reverified the frozen source
+manifest, created the64-run symlink view (eight original pilot runs unchanged),
+and submitted CPU analyzer301071. Paths:
+`.../experiments/diffusion-bottleneck/combined-20260914-265b618` and
+`.../experiments/diffusion-bottleneck/extension-analysis-20260914-265b618`.
+This is the frozen decoder-corrected plus supplementary semantic/provenance
+verification, not a simulator rerun. Analyzer terminal success has not yet been
+checked. Scientific reports remain unopened pending its successful completion
+and adjacent-seal validation. Do not duplicate the analyzer or completed dispatch.
