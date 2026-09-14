@@ -8,6 +8,20 @@ from diffusion_bottleneck import require,require_sha,sha256,write_report
 REFS=(1269,582,525,722)
 CONDS=('baseline','state','latent','joint')
 
+def midranks(values):
+    values=np.asarray(values);order=np.argsort(values,kind='stable');ranks=np.empty(len(values),float)
+    i=0
+    while i<len(values):
+        j=i+1
+        while j<len(values) and values[order[j]]==values[order[i]]:j+=1
+        ranks[order[i:j]]=(i+j-1)/2;i=j
+    return ranks
+
+def rank_correlation(x,y):
+    a=midranks(x);b=midranks(y)
+    if a.std()==0 or b.std()==0:return None
+    return float(np.corrcoef(a,b)[0,1])
+
 def physical(states,flags,goal):
     require(states.ndim==2 and states.shape[1]==7 and 0<len(states)<=30,'Physical shape')
     require(flags.shape==(len(states),2) and np.isfinite(states).all(),'Flags/finite')
@@ -113,11 +127,20 @@ def analyze(root):
                 np.testing.assert_array_equal(v('greedy64/states'),v(f'first-{greedy}/states'))
                 adapter_error=(v('predicted_state')-sn)[np.asarray(active)]
                 latent_error=(predicted-v('actual_latents'))[np.asarray(active)]
+                physical_quality=[x['closest_margin'] for x in metrics]
+                distribution={c:float(np.mean(np.abs(v(c+'/second_raw')-v('baseline/second_raw')))) for c in CONDS}
+                margins={c:selected[c]['first_chunk']['closest_margin'] for c in CONDS}
+                normalized_per_coordinate=np.sqrt(np.mean(adapter_error**2,axis=0)).tolist() if len(adapter_error) else None
                 results.append({'reference':ref,'horizon':row['horizon'],'anchor':row['anchor'],'available':True,
                     'active_branches':int(sum(active)),'terminated_first':sum(bool(v(f'first-{i}/termination_flags')[-1,0]) for i in range(64)),
                     'truncated_first':sum(bool(v(f'first-{i}/termination_flags')[-1,1]) for i in range(64)),
                     'first_chunk_successes':sum(x['success'] for x in metrics),'selected':selected,
                     'greedy64_first_chunk':metrics[greedy],
+                    'predicted_immediate_vs_first_physical_margin_spearman':rank_correlation(v('greedy64/costs'),physical_quality),
+                    'continuation_score_vs_first_physical_margin_spearman':rank_correlation(v('baseline/scores'),physical_quality),
+                    'second_raw_mean_absolute_change_from_baseline':distribution,
+                    'first_margin_state_latent_interaction':margins['joint']-margins['state']-margins['latent']+margins['baseline'],
+                    'active_adapter_normalized_rmse_by_coordinate':normalized_per_coordinate,
                     'active_adapter_normalized_state_rmse':float(np.sqrt(np.mean(adapter_error**2))) if len(adapter_error) else None,
                     'active_latent_raw_rmse':float(np.sqrt(np.mean(latent_error**2))) if len(latent_error) else None})
         for repeat in (0,1):

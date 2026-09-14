@@ -98,6 +98,14 @@ squared-cost sums allow rtol2e-6/atol1e-5 for reduction-order roundoff. These
 validation tolerances do not change planner selection, simulator replay or
 historical success thresholds. Repeated simulator traces remain byte-exact.
 
+Descriptive reduction includes per-coordinate normalized adapter RMSE on active
+branches, raw latent RMSE, mean absolute second-action-bank changes, selected
+first/second indices, and first-margin interaction joint-state-latent+baseline.
+Tie-aware Spearman correlations compare predicted immediate/continuation costs
+with the declared first-chunk physical margin; constant rankings return null.
+Continuation's intended two-chunk score is not the same target as this first-
+chunk proxy, so disagreement alone is not proof of a ranking defect.
+
 Report measured GPU/CPU time, peak memory, bytes, branch/step counts and the
 bounded32-reference extrapolation. Means on these four development records are
 not efficacy estimates. Long-budget tail policy is UNRUN; no irrecoverability,

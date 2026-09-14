@@ -1,4 +1,6 @@
 import unittest
+import hashlib
+import json
 import numpy as np
 from pathlib import Path
 from diffusion_bottleneck_branch import delta_at,decode,score,run
@@ -7,6 +9,12 @@ class Decoder:
     def inverse_transform(self,x): return x*np.array([.2,.3],np.float32)+np.array([.01,-.01],np.float32)
 
 class BranchTests(unittest.TestCase):
+    def test_full_identifier_selection_manifest(self):
+        path=Path(__file__).resolve().parents[2]/'docs/bottleneck/BRANCH-PILOT-SELECTION.json'
+        manifest=json.loads(path.read_text())
+        ordered=sorted(range(1600),key=lambda i:(hashlib.sha256(f"{manifest['namespace']}|{i}".encode()).hexdigest(),i))
+        self.assertEqual(ordered[:32],manifest['development_reference_indices'])
+        self.assertEqual(ordered[:4],[1269,582,525,722])
     def test_schedule(self):
         self.assertEqual([delta_at(h,t) for h in (75,150) for t in (0,30)],[75,45,150,120])
     def test_reject_unapproved_anchor(self):
