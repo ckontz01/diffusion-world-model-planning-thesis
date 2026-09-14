@@ -2,7 +2,7 @@
 
 **Christoforos Kontzias · University of Cyprus**
 
-Thesis code and experiment records. Updated 7 September 2026.
+Thesis code and experiment records. Updated 14 September 2026.
 
 This project asks whether diffusion can generate useful action sequences for a learned world model, and whether looking beyond the first sequence helps the planner choose better actions. The world model, Le-WM, stays fixed; the learned action proposer is the part being studied.
 
@@ -190,6 +190,18 @@ The full evaluations use pinned Python environments and Apptainer containers on 
 Reading the results does not require cluster access. The compact outcome table and analysis files are committed in the [result archive][results]. Large reference and evaluation trajectories, model weights, latent caches, and container images are kept outside Git; their locations and hashes are recorded in the experiment documents. The latest results have a verified Windows recovery copy. Recovery of the older WSL bulk backups is a separate, unfinished operational task, not a missing analysis result.
 
 ## Research history
+
+**14 September: outcome-informed bottleneck diagnostics.** The completed450-
+shard study now has an authenticated, member-verified external-SSD archive.
+The [complete trajectory reduction](docs/bottleneck/TRAJECTORY-RESULT-20260914.md)
+rechecked all57600 runs without changing the historical endpoint or stopping
+decision. Most terminal failures combine position and angle misses; those
+categories are symptoms, not identified causes. A separately specified four-
+reference same-bank/intermediate-context engineering pilot is underway; see
+its [live status](docs/bottleneck/STATUS.md) and
+[execution contract](docs/bottleneck/PILOT-EXECUTION-20260914.md). No new model,
+confirmation, architecture redesign or unused-reference evaluation is authorized
+by these diagnostics.
 
 The project started with a different idea: use diffusion denoising error to judge whether imagined transitions were feasible. Those scores did not give reliable planning gains, which led to action proposal generation instead. Later studies tested action bounds, goal conditioning, continuation scoring, and simulator initialization. Several approaches failed their planned checks; those reports remain part of the repository.
 

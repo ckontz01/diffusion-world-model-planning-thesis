@@ -27,7 +27,11 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
   `1cf790828d24c964026bc9e7568e7f2aeb9eca21c757ecc2a137056d53e21684`.
   Guard-only correctionc567ccf admits exact2pi states without changing saved
   arrays, goal admission, historical predicate or labels. See ANGLE-GUARD.
-- Corrected full CPU reduction300963 last observed RUNNING. Source manifest
+- Corrected full CPU reduction300963 COMPLETED0:0,11m10s. All57600 runs,
+  450 shards and36 seed/horizon/arm blocks passed; zero technical-invalid
+  records/planner exceptions. Independent scalar endpoint checks passed.
+  Full report and execution receipts committed; see TRAJECTORY-RESULT.
+  Source manifest
   `689e559a85e60afdc65abc95e2f4d3782395a45127f47d283847b02253f835b0`;
   output `.../experiments/diffusion-bottleneck/audit-20260914-c567ccf`.
 - Old WSL backup:375 indexed shards rehashed with zero errors; incomplete.
@@ -44,15 +48,20 @@ Original historical result remains `stop_futility_strong_adverse_signal`.
   `receipts/ARCHIVE-BACKUP-VERIFIED.json`. This archive does not back up the
   model checkpoints or reference collection; their canonical identities were
   checked separately and no such backup is claimed.
-- Pilot: draft implementation/helper tests exist locally; no simulator run,
-  no pilot submission, no measured32-reference cost proposal. Still gated by
-  preservation and trace-reduction acceptance. No training or redesign.
+- Pilot: implementation/specification2f48668+b1c9633 committed before execution.
+  First engineering run300964_0 submitted for ref1269/repeat0; last observed
+  RUNNING. No pilot metric interpreted, no remaining-seven submission yet.
+  Source manifest897dba9f318c48ae2e0889c8bf78ccf22808ccbe6132af7aee4e7648bfe8163f.
+  Output `.../experiments/diffusion-bottleneck/pilot-20260914-b1c9633`.
+  Model/physics replay and resource measurements still pending; no measured
+  32-reference cost claim. No training, redesign or unused-reference access.
 
 The installed native `_get_obs` uses angle modulo2pi; its source SHA256 is
 `d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68`.
 The endpoint-admission issue is now classified narrowly; no claim that every
 unrecorded native body angle was reconstructed. Full reduction remains the
-next gate. Local helper/validation suite79 passed; simulator pilot still unrun.
+passed. Local helper/validation suite82 passed; corrected remote audit suite64
+passed. The pilot's separately deployed runtime tests and replay are pending.
 
 Original three E12 drafts and unrelated E14 pending jobs remain untouched.
 Bulk artifacts are outside Git on Prometheus/external SSD. No credentials,

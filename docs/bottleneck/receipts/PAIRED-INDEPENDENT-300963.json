@@ -1,0 +1,16 @@
+{
+  "all_checked_quantities_passed": true,
+  "bootstrap_intervals_independently_recomputed": false,
+  "contrasts_and_cluster_standard_errors_checked": 20,
+  "implementation": "independent standard-library ZIP/NPY decoder and integer outcome counting",
+  "independent_references": 1600,
+  "logical_runs": 57600,
+  "method_pairs_checked": 15,
+  "model_runs": 0,
+  "program_sha256": "040d55e8581bda04b84d4fc1d40a199e086130028b1372f9c785ce13902608d7",
+  "raw_physical_success_recomputed": false,
+  "report_sha256": "f71f9a8acf051c1223fbb1c05b18af7265d1ef6e25c70f1511bde98175f684d1",
+  "scope": "Numerical consistency of archived outcomes; not an independent environment experiment.",
+  "summary_sha256": "305be6aa678445dce5ceddda6bae14657a730810e448121df6c8783c4318da6d",
+  "tensor_sha256": "afb181230eb36d0d6081477bef910814f8b2c0208d913063df48131e4e2af7e2"
+}

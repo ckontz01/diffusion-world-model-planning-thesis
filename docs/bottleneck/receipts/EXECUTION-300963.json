@@ -1,0 +1,33 @@
+{
+  "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+  "stages": [
+    {
+      "stage": "tests",
+      "returncode": 0,
+      "wall_seconds": 0.6187096950598061
+    },
+    {
+      "stage": "canonical",
+      "returncode": 0,
+      "wall_seconds": 395.0960237219697
+    },
+    {
+      "stage": "paired",
+      "returncode": 0,
+      "wall_seconds": 0.8760718429693952
+    },
+    {
+      "stage": "independent",
+      "returncode": 0,
+      "wall_seconds": 0.24584112991578877
+    },
+    {
+      "stage": "traces",
+      "returncode": 0,
+      "wall_seconds": 271.332732763025
+    }
+  ],
+  "model_runs": 0,
+  "protected_payload_reads": 0,
+  "all_passed": true
+}
