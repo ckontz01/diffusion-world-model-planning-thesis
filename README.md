@@ -191,6 +191,13 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**15 September: CVL-1 technical collection tranche passed.** All eight jobs for
+the four fixed references at both horizons completed with verified seals and
+technical identities. The [gate record](docs/candidate-value-learning-20260914/TECHNICAL-PILOT-20260915.md)
+reports maximum allocation 293s, sampled RSS 1.60GiB and the unchanged pilot-based
+payload projection 0.714GB. Remaining training collection is proceeding under the
+frozen gates. Success outcomes were not inspected; this is not an efficacy result.
+
 **14 September: CVL-1 technical repair verified and restart authorized.**
 The host/container mismatch was exactly three Python symlink aliases, with all
 21,643 common runtime files identical. Stable link-aware authentication and
