@@ -206,6 +206,10 @@ an additional closed-loop arm. Synthetic end-to-end tests only; exact deployment
 capsule approval and registered runtime preflights precede any launch.
 No new collection, research training,
 evaluation or confirmation access occurred; the historical result is unchanged.
+The [completion receipt](docs/candidate-value-learning-20260914/PREPARATION-RECEIPT.md)
+records 47 passing synthetic/regression tests, the deployed immutable source and
+selected-input/runtime capsule, verified external-SSD copies, and immutable review
+links. The source is published; research launch approval remains absent.
 
 **14 September: single-anchor ranking experiment completed.** On the same 32
 exposed development references, both arms used identical anchor proposal workloads
