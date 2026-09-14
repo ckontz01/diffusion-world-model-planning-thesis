@@ -5,6 +5,25 @@ Package integration `a58a17c` and stronger audit `327c94d` were pushed and read
 back from GitHub. Diagnostic-only angle inventory committed/pushed `cf6f492`.
 Original historical result remains `stop_futility_strong_adverse_signal`.
 
+## Authorized extension — current work
+
+The user approved the exact additional28 design after accepting the pilot.
+Source54e3acf and [execution contract](EXTENSION-EXECUTION-20260914.md) are frozen;
+100 local tests passed. Snapshot manifest
+`94a57124ca1b5dbf311023869d618377de978856cc3ef4b25de007c16b6a9565`.
+First job301003 (ref567/repeat0) was PENDING(Resources) on initial inspection.
+The metadata-only sequential dispatcher enforces5min/job,7200s new allocation
+reservation and1GB storage watermark;56 exact jobs total, no retries/replacements.
+Run `.../experiments/diffusion-bottleneck/extension-20260914-54e3acf`.
+Original four references/eight runs remain reused unchanged. No new outcome
+read before complete successful dispatch and combined verification. See
+[launch chronology](EXTENSION-LAUNCH-20260914.md), including the preserved initial
+Python3.6 compatibility failure before any job submission. Combined32/additional28
+analysis, backup and next-mechanism recommendation are pending, not completed.
+
+The earlier pilot-only statuses below describe the state before this new user
+authorization; they do not override this approved extension.
+
 ## Current execution
 
 - Package: SHA256 and all24 seals verified;18 additive files integrated once.

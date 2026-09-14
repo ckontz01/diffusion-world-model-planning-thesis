@@ -17,3 +17,23 @@ The sole correction uses universal_newlines=True (equivalent text decoding,
 supported by Python3.6), with a regression that checks the exact call signature.
 Scientific code, contract, data, seeds, models, limits and analysis are unchanged.
 A separately frozen corrected source/run root is required; no in-place amendment.
+
+## Corrected launch
+
+Source54e3acf passed100 local tests and shell syntax. All57 frozen manifest entries
+verified. Contract SHA unchanged. Snapshot:
+`/lustreFS/data/superworld/ckontzias/thesis/snapshots/diffusion-bottleneck-extension-54e3acf`.
+Manifest `94a57124ca1b5dbf311023869d618377de978856cc3ef4b25de007c16b6a9565`;
+tar `bf69afa64526c51fcd320eace7659f6634123b21664c327ea980f8fe398a92f6`.
+Run root:
+`/lustreFS/data/superworld/ckontzias/thesis/experiments/diffusion-bottleneck/extension-20260914-54e3acf`.
+
+Dispatcher submitted301003 for index8/ref567/repeat0 at2026-09-14T09:27:03Z.
+First observed scheduler state PENDING(Resources), not running. Subsequent exact
+job IDs and terminal allocation sizes are in append-only DISPATCH.jsonl. No
+second job is submitted until a successful terminal state. No new scientific
+artifact was opened at launch. Unrelated E14 pending jobs are unchanged.
+
+Combined report runner is frozen in the same snapshot. New backup verification
+is byte-only and will run after combined acceptance, alongside rechecking the
+eight pilot copies rather than rewriting them. Completion/results remain pending.
