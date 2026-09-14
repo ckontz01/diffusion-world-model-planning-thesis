@@ -191,6 +191,17 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**14 September: full-budget candidate-value learning prepared, not launched.**
+The [CVL-1 proposal](docs/candidate-value-learning-20260914/PROTOCOL.md) allocates
+96/32/32 source-disjoint training/ranking-validation/closed-loop development
+references within exposed 0–1599, excluding the accepted single-anchor 32. It
+proposes up to 16,384 native-success candidate-tail labels, compact value and
+logistic evaluators, and a conditional 512-episode closed-loop comparison with
+continuation and immediate controls. Estimated collection 19–29 GPU-hours, proposed
+aggregate cap 50 GPU-hours. Synthetic preparation only; real driver glue and source
+freeze still precede any approved launch. No new collection, research training,
+evaluation or confirmation access occurred; the historical result is unchanged.
+
 **14 September: single-anchor ranking experiment completed.** On the same 32
 exposed development references, both arms used identical anchor proposal workloads
 and the unchanged continuation tail. Immediate selection improved first-chunk
