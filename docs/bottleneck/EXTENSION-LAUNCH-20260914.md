@@ -86,3 +86,17 @@ tests passing. Intended new run root:
 The prior54e3acf dispatcher has exited; it must not be restarted. Analysis script
 `D:/THESIS-TEMP/analyze-extension-265b618.sh` is prepared but not run, and the
 new external backup destination is `D:/THESIS-BACKUPS/bottleneck-20260914/extension-265b618`.
+
+## Preflight passed; frozen scientific dispatch started
+
+Heartbeat2026-09-14T10:17:45.843Z inspected301009: COMPLETED0:0, ElapsedRaw5,
+batch MaxRSS3464K as reported by Slurm (not a claim about total container memory).
+The package-test stderr ends with101 tests in2.490s, OK. No model/episode ran in
+that check. The new run directory was confirmed absent before starting once.
+
+Frozen controller launched via SSH tool session17250. At2026-09-14T10:18:44Z it
+recorded the prior11-second charge and submitted301010, index8/ref567/repeat0.
+No scientific output or evaluator log was read. No terminal state is asserted
+for301010 at this launch check. The controller performs its frozen metadata-only
+sequential checks; future job identities remain in DISPATCH.jsonl. Do not restart
+or duplicate the controller. The existing heartbeat now follows this active run.

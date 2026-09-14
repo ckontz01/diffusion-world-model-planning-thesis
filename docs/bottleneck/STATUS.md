@@ -15,14 +15,15 @@ source-manifest entries verified. Manifest
 Previous job301003 (ref567/repeat0) FAILED1:0 after11seconds in pre-run tests:
 two existing archive/audit helper files were omitted from that package. No
 model/simulator ran, and the dispatcher stopped without submitting another job.
-The failed source/run is preserved. Corrected CPU package preflight301009 is
-submitted; its terminal state is not yet checked. GPU dispatch must wait for
-COMPLETED0:0 and101 passing tests in the pinned remote runtime.
+The failed source/run is preserved. Corrected CPU package preflight301009
+COMPLETED0:0 in5seconds; all101 tests passed in the pinned remote runtime.
 The metadata-only sequential dispatcher enforces5min/job,7200s allocation
 reservation (including the prior11seconds) and1GB storage watermark;56 exact
 scientific jobs total, no automatic retries/replacements.
-Intended run `.../experiments/diffusion-bottleneck/extension-20260914-265b618`
-has not yet been launched.
+Run `.../experiments/diffusion-bottleneck/extension-20260914-265b618` launched
+at2026-09-14T10:18:44Z via controller session17250. First job301010 is submitted
+for index8/ref567/repeat0. No terminal scientific completion is claimed yet;
+the append-only ledger records subsequent exact submissions and accounting.
 Original four references/eight runs remain reused unchanged. No new outcome
 read before complete successful dispatch and combined verification. See
 [launch chronology](EXTENSION-LAUNCH-20260914.md), including the preserved initial
