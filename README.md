@@ -198,6 +198,9 @@ retains all completed outputs and 17,151 GPU seconds, uses the original immutabl
 workers and scientific protocol, and requires authenticated one-use resumption.
 The earlier stop and backup record below remain historical; no scientific result
 is amended and no completed collection task may be resubmitted.
+The [verified launch receipt](docs/candidate-value-learning-20260914/CONTINUATION-LAUNCH-20260915.md)
+records 62 passing regression tests and first resumed job **301257**, observed
+running at index 81. Backup readiness is restored on the external SSD.
 
 **15 September: CVL-1 collection paused by a dispatcher file-inventory race.**
 The [technical stop record](docs/candidate-value-learning-20260914/DISPATCH-STOP-20260915.md)
