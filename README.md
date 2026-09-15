@@ -191,6 +191,19 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**15 September: CVL-1 completed with `stop_no_ranking_promise`.** All 192
+training and 64 ranking-validation collection jobs completed; training support
+passed and all five fixed models were fitted. On the 32 validation references,
+the fixed MLP ensemble selected-success effect versus continuation was **−3.06
+percentage points** (descriptive reference-bootstrap 95% interval −7.29 to +0.85).
+Concordance was 0.561 on informative comparisons, but the required positive
+selection effect failed. No conditional closed-loop jobs ran. The
+[final development report](docs/candidate-value-learning-20260914/RESULT-20260915.md)
+records controls, all reference effects, verified SSD backups and **15h19m47s GPU
+allocation**, including the prior failed preflight. This is a scientific stop,
+not a technical retry opportunity or a general rejection of learned value scoring.
+Historical results and frozen models remain unchanged.
+
 **15 September: CVL-1 controller-only continuation authorized.** The user approved
 the narrow temporary-file counter repair and continuation from training index 81.
 The [continuation contract](docs/candidate-value-learning-20260914/CONTINUATION-20260915.md)
