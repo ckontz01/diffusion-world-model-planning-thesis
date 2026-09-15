@@ -191,6 +191,17 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**15 September: one CPU-only CVL-1 learning diagnosis completed.** The
+[saved-feature diagnosis](docs/cvl1-learning-diagnosis-20260915-v1/REPORT.md)
+preserves `stop_no_ranking_promise`. Ensemble selection was +12.72 points versus
+continuation in-sample but −3.06 points on validation; all three individual MLPs
+had negative validation effects. Cross-draw selection averaged −0.20 points on
+validation, with extensive binary ties. The report separates fitting/generalization,
+paired outcome noise and predicted-versus-realized departure advantages. One
+20-second CPU allocation used frozen evaluator forwards only; no labels, models,
+world-model/simulator calls or closed-loop evaluations were added. A baseline-relative
+ranking objective is recommended only as a separately approved future hypothesis.
+
 **15 September: CVL-1 completed with `stop_no_ranking_promise`.** All 192
 training and 64 ranking-validation collection jobs completed; training support
 passed and all five fixed models were fitted. On the 32 validation references,
