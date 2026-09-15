@@ -1,0 +1,1814 @@
+{
+  "allocation": {
+    "eligible_before_new_allocation": 1408,
+    "evaluation": [
+      949,
+      977,
+      800,
+      1206,
+      1299,
+      104,
+      222,
+      512,
+      884,
+      1283,
+      1573,
+      1389,
+      1130,
+      645,
+      195,
+      1487,
+      1096,
+      1594,
+      1128,
+      983,
+      386,
+      570,
+      1143,
+      444,
+      82,
+      14,
+      88,
+      1327,
+      653,
+      84,
+      12,
+      758
+    ],
+    "exclusions": {
+      "closed_loop": [
+        901,
+        908,
+        199,
+        1148,
+        220,
+        843,
+        457,
+        1184,
+        319,
+        1098,
+        1331,
+        209,
+        1053,
+        1507,
+        450,
+        154,
+        249,
+        1455,
+        252,
+        56,
+        34,
+        1506,
+        325,
+        1065,
+        10,
+        1217,
+        787,
+        922,
+        6,
+        459,
+        1358,
+        832
+      ],
+      "historical_32": [
+        1269,
+        582,
+        525,
+        722,
+        567,
+        716,
+        630,
+        1066,
+        1074,
+        1565,
+        70,
+        867,
+        221,
+        905,
+        1287,
+        621,
+        428,
+        288,
+        1488,
+        757,
+        641,
+        855,
+        1280,
+        420,
+        860,
+        98,
+        886,
+        432,
+        181,
+        783,
+        706,
+        989
+      ],
+      "train": [
+        1444,
+        1314,
+        767,
+        1481,
+        1293,
+        433,
+        864,
+        356,
+        750,
+        410,
+        1255,
+        698,
+        673,
+        834,
+        663,
+        327,
+        443,
+        1407,
+        686,
+        910,
+        1452,
+        728,
+        1264,
+        466,
+        598,
+        1357,
+        1472,
+        1584,
+        417,
+        960,
+        467,
+        1105,
+        566,
+        1319,
+        769,
+        1021,
+        258,
+        818,
+        602,
+        206,
+        219,
+        1313,
+        33,
+        492,
+        329,
+        1534,
+        1336,
+        748,
+        1478,
+        619,
+        445,
+        518,
+        1196,
+        326,
+        700,
+        321,
+        536,
+        320,
+        1242,
+        1564,
+        909,
+        30,
+        526,
+        424,
+        947,
+        1290,
+        1558,
+        685,
+        762,
+        483,
+        479,
+        128,
+        952,
+        484,
+        1408,
+        435,
+        990,
+        1225,
+        1138,
+        597,
+        712,
+        978,
+        301,
+        1197,
+        1556,
+        552,
+        1374,
+        25,
+        1538,
+        1033,
+        1367,
+        1512,
+        117,
+        440,
+        149,
+        788
+      ],
+      "validation": [
+        1036,
+        1162,
+        1289,
+        573,
+        39,
+        702,
+        81,
+        59,
+        846,
+        264,
+        1223,
+        690,
+        1495,
+        161,
+        426,
+        217,
+        1454,
+        1501,
+        94,
+        1521,
+        588,
+        861,
+        1271,
+        1001,
+        26,
+        907,
+        1416,
+        436,
+        591,
+        77,
+        1359,
+        1034
+      ]
+    },
+    "extra_train": [
+      333,
+      894,
+      1125,
+      387,
+      557,
+      465,
+      576,
+      825,
+      648,
+      1350,
+      1458,
+      1422,
+      1364,
+      627,
+      1037,
+      160,
+      357,
+      1180,
+      1338,
+      1543,
+      606,
+      241,
+      280,
+      955,
+      121,
+      1182,
+      915,
+      514,
+      895,
+      225,
+      1170,
+      246,
+      1102,
+      96,
+      609,
+      1228,
+      936,
+      245,
+      1469,
+      513,
+      485,
+      1161,
+      1380,
+      1420,
+      711,
+      396,
+      1227,
+      607,
+      157,
+      62,
+      1120,
+      782,
+      289,
+      944,
+      257,
+      260,
+      772,
+      1056,
+      1260,
+      1079,
+      307,
+      488,
+      1187,
+      660,
+      813,
+      1378,
+      806,
+      454,
+      859,
+      1395,
+      463,
+      1559,
+      938,
+      556,
+      411,
+      870,
+      664,
+      431,
+      152,
+      1233,
+      1215,
+      808,
+      123,
+      1576,
+      737,
+      1537,
+      1137,
+      633,
+      486,
+      92,
+      898,
+      999,
+      649,
+      1057,
+      1590,
+      778
+    ],
+    "original_train": [
+      1444,
+      1314,
+      767,
+      1481,
+      1293,
+      433,
+      864,
+      356,
+      750,
+      410,
+      1255,
+      698,
+      673,
+      834,
+      663,
+      327,
+      443,
+      1407,
+      686,
+      910,
+      1452,
+      728,
+      1264,
+      466,
+      598,
+      1357,
+      1472,
+      1584,
+      417,
+      960,
+      467,
+      1105,
+      566,
+      1319,
+      769,
+      1021,
+      258,
+      818,
+      602,
+      206,
+      219,
+      1313,
+      33,
+      492,
+      329,
+      1534,
+      1336,
+      748,
+      1478,
+      619,
+      445,
+      518,
+      1196,
+      326,
+      700,
+      321,
+      536,
+      320,
+      1242,
+      1564,
+      909,
+      30,
+      526,
+      424,
+      947,
+      1290,
+      1558,
+      685,
+      762,
+      483,
+      479,
+      128,
+      952,
+      484,
+      1408,
+      435,
+      990,
+      1225,
+      1138,
+      597,
+      712,
+      978,
+      301,
+      1197,
+      1556,
+      552,
+      1374,
+      25,
+      1538,
+      1033,
+      1367,
+      1512,
+      117,
+      440,
+      149,
+      788
+    ],
+    "remaining_after_new_allocation": 1280
+  },
+  "existing_role_inventory": [
+    "completed bottleneck/single-anchor 32",
+    "CVL train 96",
+    "CVL ranking-validation 32",
+    "CVL reserved closed-loop 32",
+    "objective-capacity folds reuse CVL train; validation reuses CVL validation"
+  ],
+  "identity_certificate": {
+    "distinct_source_keys": 1600,
+    "eligible": 1408,
+    "excluded_existing_role_ids": 192,
+    "heldout_1600_5999_payload_reads": 0,
+    "lock_sha256": "90ac1fd4e8e5fbaa3941ab9a5b7ed127bc20cb96018bed5d143b7dec2cbf64cb",
+    "metadata_range": [
+      0,
+      1599
+    ],
+    "new_evaluation": 32,
+    "new_training": 96,
+    "outcome_fields_decoded": 0,
+    "projection": "accepted selected-identity lexical reader; index,file,sha256,environment_seed,namespace,attempt only",
+    "reference_payload_reads": 0,
+    "registry_sha256": "3cce1a2b74c84feeece9503dd2873d8db6abd609b546311ed374984ca4d93f68",
+    "remaining": 1280,
+    "reserved_closed_payload_reads": 0
+  },
+  "records": {
+    "12": {
+      "environment_seed": 149043374,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00012.npz",
+      "sha256": "533b7bd2ebd934f7ce4f7e329f7f58a438224047c41683c3148dfd05efe40a8a",
+      "source_key": "final-20260906-primary-v1:32"
+    },
+    "14": {
+      "environment_seed": 3710588872,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00014.npz",
+      "sha256": "66e5103aa707bcc9d1e63f110313485631354a7ff5a481166e3b9e85fc385f2f",
+      "source_key": "final-20260906-primary-v1:37"
+    },
+    "25": {
+      "environment_seed": 2011326099,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00025.npz",
+      "sha256": "2e4961f3fb6f92c40ea67ad7fa7437df353fa1b1b41a0bbb86eeaa2acaea28a7",
+      "source_key": "final-20260906-primary-v1:62"
+    },
+    "30": {
+      "environment_seed": 4246146264,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00030.npz",
+      "sha256": "15d290ccf715ef5d13d52135f8c6611f4d991a1e2cc7545291fa11bd22c27f11",
+      "source_key": "final-20260906-primary-v1:82"
+    },
+    "33": {
+      "environment_seed": 2896245414,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00033.npz",
+      "sha256": "f5c2fdd3617b980a999572ab01ceb34bfc894273f5c3b5d3af449ed8ff26477e",
+      "source_key": "final-20260906-primary-v1:90"
+    },
+    "62": {
+      "environment_seed": 2994214944,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00062.npz",
+      "sha256": "1e379f84b68d8c54d98aa1b813f7339ee42145eb5712870ff70d84c77ab99b21",
+      "source_key": "final-20260906-primary-v1:165"
+    },
+    "82": {
+      "environment_seed": 990579048,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00082.npz",
+      "sha256": "eba2ab958425d848fab4593b538f99d1a804d33fc2cba9a00cb17eb10ed89f4a",
+      "source_key": "final-20260906-primary-v1:206"
+    },
+    "84": {
+      "environment_seed": 1361788269,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00084.npz",
+      "sha256": "65474c1d21dd01466fa15a140fd3e60a59834ec63f4ca14edcc883e358edc7dc",
+      "source_key": "final-20260906-primary-v1:209"
+    },
+    "88": {
+      "environment_seed": 3294420219,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00088.npz",
+      "sha256": "30eea2e85ee48d7c97622a0b91f7881ef9786648689ea299b320b31bdfaaac48",
+      "source_key": "final-20260906-primary-v1:215"
+    },
+    "92": {
+      "environment_seed": 3371750039,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00092.npz",
+      "sha256": "5af231955026baaa556e1a1de98ffff91426f8142da20790dc7b102ca60efdd3",
+      "source_key": "final-20260906-primary-v1:226"
+    },
+    "96": {
+      "environment_seed": 1069576813,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00096.npz",
+      "sha256": "3689817b0805311bcd8bce12469ed98bd648c3d35c608bd9c1d691e9f2f2bc48",
+      "source_key": "final-20260906-primary-v1:238"
+    },
+    "104": {
+      "environment_seed": 1792911184,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00104.npz",
+      "sha256": "700384a41dd1d983568405d1c2ec4b3ef8337f9258d71f62dee8a1a6c1e49a25",
+      "source_key": "final-20260906-primary-v1:263"
+    },
+    "117": {
+      "environment_seed": 1242569095,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00117.npz",
+      "sha256": "67b1660cbd01277730277f2eaa06971628a578b8d042b6e272fbdb6ed3897c1c",
+      "source_key": "final-20260906-primary-v1:291"
+    },
+    "121": {
+      "environment_seed": 2279765692,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00121.npz",
+      "sha256": "1aa5852682239aac2f60909fb31af9b6150e757658b1492dea98fa717e0d6e9b",
+      "source_key": "final-20260906-primary-v1:312"
+    },
+    "123": {
+      "environment_seed": 451413336,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00123.npz",
+      "sha256": "8f14bfdfc62c8c3b7698877f439b03e35872a7d875e69876d9824a2646430f62",
+      "source_key": "final-20260906-primary-v1:318"
+    },
+    "128": {
+      "environment_seed": 2669279736,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00128.npz",
+      "sha256": "cdcf7c7f65024b62126f871b17c07107e66079d88122e490c17e420ea2370cdf",
+      "source_key": "final-20260906-primary-v1:330"
+    },
+    "149": {
+      "environment_seed": 1230049663,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00149.npz",
+      "sha256": "e00d483ce80225bdc2a09b6126f81a6088eb6bd40ac3763aacd8baa26a38ae81",
+      "source_key": "final-20260906-primary-v1:389"
+    },
+    "152": {
+      "environment_seed": 3799194755,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00152.npz",
+      "sha256": "4944d4035eb0bb79e4bc2ee0cbe1eea7d99ebe18e6c0886ad806c65d26ca53b2",
+      "source_key": "final-20260906-primary-v1:400"
+    },
+    "157": {
+      "environment_seed": 3913704367,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00157.npz",
+      "sha256": "b0d374a1dfee66176c8b4856d86cc47b7a664fc13173f447ab73278ec33dd2fb",
+      "source_key": "final-20260906-primary-v1:416"
+    },
+    "160": {
+      "environment_seed": 2510136044,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00160.npz",
+      "sha256": "249dfcd15671050960ba4865871fb7e0cea24d4b7ff6bc191d66043d9c54d81f",
+      "source_key": "final-20260906-primary-v1:428"
+    },
+    "195": {
+      "environment_seed": 3122615539,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00195.npz",
+      "sha256": "d7e3ada2d22dc34270f8a660bcffbbf5e8c6735a016cc002fccfc26033bb3ca6",
+      "source_key": "final-20260906-primary-v1:528"
+    },
+    "206": {
+      "environment_seed": 1692344120,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00206.npz",
+      "sha256": "ad611dfc5d8052b376817f031fc59b570919774fdc81555f4c8013b431c8766b",
+      "source_key": "final-20260906-primary-v1:542"
+    },
+    "219": {
+      "environment_seed": 503831322,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00219.npz",
+      "sha256": "726b24040434098315e1c92109d8d189324e88c6813d9585b6ef0a266b88dcad",
+      "source_key": "final-20260906-primary-v1:582"
+    },
+    "222": {
+      "environment_seed": 2604523121,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00222.npz",
+      "sha256": "d2ef361b233becba9833b3eef4bd3d78923a5aaaf21fff99cdfd94d904b2d520",
+      "source_key": "final-20260906-primary-v1:586"
+    },
+    "225": {
+      "environment_seed": 482845920,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00225.npz",
+      "sha256": "fa47fdcae7acd1b203917ddcad29f8541a91c921622af2e6cb070e4be36cd07d",
+      "source_key": "final-20260906-primary-v1:595"
+    },
+    "241": {
+      "environment_seed": 4064505971,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00241.npz",
+      "sha256": "726d714a58aca60eed77f7622ce36b70674ca38c435cc70dafa3fc2d13d35d4d",
+      "source_key": "final-20260906-primary-v1:630"
+    },
+    "245": {
+      "environment_seed": 3685092322,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00245.npz",
+      "sha256": "9f43546fdc9ce6b03085a2e63684ccc92f98f28860cf984b91f62ab9fea2bf52",
+      "source_key": "final-20260906-primary-v1:637"
+    },
+    "246": {
+      "environment_seed": 1006315252,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00246.npz",
+      "sha256": "26fe311383c96b22e08f01cc99dbf463d941e50f1423d053c8938da98d5c86ac",
+      "source_key": "final-20260906-primary-v1:640"
+    },
+    "257": {
+      "environment_seed": 3713665511,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00257.npz",
+      "sha256": "f190d4b3454d851b573a6edcb3a5ed8409753de03d10c7cc5450fe4d5126dfe3",
+      "source_key": "final-20260906-primary-v1:671"
+    },
+    "258": {
+      "environment_seed": 4097218448,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00258.npz",
+      "sha256": "a7ae272155dc2f510369ca5fa821e7598b5c4c74cbd4c2a651c290d59b032eaa",
+      "source_key": "final-20260906-primary-v1:674"
+    },
+    "260": {
+      "environment_seed": 296012363,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00260.npz",
+      "sha256": "b064c358777b7870a8e9aebb9170f7119d9499ce8169994c946186b68419d949",
+      "source_key": "final-20260906-primary-v1:676"
+    },
+    "280": {
+      "environment_seed": 1286609605,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00280.npz",
+      "sha256": "f296be09ff6ae7a1cc58f8c76ac34959b4edca440aa38ec597568101915ca40a",
+      "source_key": "final-20260906-primary-v1:735"
+    },
+    "289": {
+      "environment_seed": 2454809694,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00289.npz",
+      "sha256": "5ea82552e1bfdc4f94664877048c5e8b1e0c9df02b6af3e16ce18f383c156226",
+      "source_key": "final-20260906-primary-v1:760"
+    },
+    "301": {
+      "environment_seed": 2176039020,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00301.npz",
+      "sha256": "6400ee7049ac3017203f81e3285457f88aa7cf092e7b1760abc74421391c3c4a",
+      "source_key": "final-20260906-primary-v1:797"
+    },
+    "307": {
+      "environment_seed": 2952677813,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00307.npz",
+      "sha256": "c57d24380d0dd775bf783c5b1ee9529f162f50480ec7f18512cce8265cd1c199",
+      "source_key": "final-20260906-primary-v1:807"
+    },
+    "320": {
+      "environment_seed": 3734310534,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00320.npz",
+      "sha256": "9a137fd46d5e79782f0cf1cb320033bad76fbbebda4a0d1e643fdd246ceaa5e7",
+      "source_key": "final-20260906-primary-v1:852"
+    },
+    "321": {
+      "environment_seed": 22499913,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00321.npz",
+      "sha256": "2e06d92af27fe49d6a76177f24e9790ec8adc21cc2417be40288f0b49054d348",
+      "source_key": "final-20260906-primary-v1:853"
+    },
+    "326": {
+      "environment_seed": 856632122,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00326.npz",
+      "sha256": "a95f37e2a147a811fe52b4a81e949c812a97ca928c7dc105ab47e198887f429b",
+      "source_key": "final-20260906-primary-v1:866"
+    },
+    "327": {
+      "environment_seed": 1096215821,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00327.npz",
+      "sha256": "67bb799046032cb0efd48ce7a32b68c89a2c2a4acd3415c711906238bb900ce2",
+      "source_key": "final-20260906-primary-v1:868"
+    },
+    "329": {
+      "environment_seed": 4219325566,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00329.npz",
+      "sha256": "f90faebe59585cb6bc6c25aeffc20bda4bd9698377d807ef0fe675cc002cb4b5",
+      "source_key": "final-20260906-primary-v1:870"
+    },
+    "333": {
+      "environment_seed": 2517477475,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00333.npz",
+      "sha256": "aca122e756dda2db80d19a784b8f8e748a50cf7b99274b3a81207821b709b502",
+      "source_key": "final-20260906-primary-v1:877"
+    },
+    "356": {
+      "environment_seed": 3049919466,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00356.npz",
+      "sha256": "e72ef49dd8763c93e7eb7c4b455f352082cd9c5dab6f9552171d0a1b332d133b",
+      "source_key": "final-20260906-primary-v1:928"
+    },
+    "357": {
+      "environment_seed": 3423563687,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00357.npz",
+      "sha256": "f54d308f570aed6e5716640c9e89d8f9da8d41e2b977e33814cc02da92905dd4",
+      "source_key": "final-20260906-primary-v1:930"
+    },
+    "386": {
+      "environment_seed": 2222081285,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00386.npz",
+      "sha256": "1ecc32312c5d77e9e9bf9d0903326edfeb393f473e34f9979b02fcd5f99ed90c",
+      "source_key": "final-20260906-primary-v1:994"
+    },
+    "387": {
+      "environment_seed": 418017638,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00387.npz",
+      "sha256": "e894282a3dc704ee03f1869549f68bc666a97a1ed15c46d3288f3a06b901addb",
+      "source_key": "final-20260906-primary-v1:997"
+    },
+    "396": {
+      "environment_seed": 3748828859,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00396.npz",
+      "sha256": "f935a73d0a1ba897de11dcd25bb6f4fe3c42cc84bf90a21b5070dcc4ca4bb922",
+      "source_key": "final-20260906-primary-v1:1019"
+    },
+    "410": {
+      "environment_seed": 588459934,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00410.npz",
+      "sha256": "1fd504c9f4e1432c35416d28b15a333153165247bb7a69fe6889f1e3765954ea",
+      "source_key": "final-20260906-primary-v1:1062"
+    },
+    "411": {
+      "environment_seed": 2152229899,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00411.npz",
+      "sha256": "5305d455b2a1dc55366b0eaac9a0f6a86689136d221efd4875ade17d31510f46",
+      "source_key": "final-20260906-primary-v1:1063"
+    },
+    "417": {
+      "environment_seed": 4118887827,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00417.npz",
+      "sha256": "c96701724a249012f4ef82c665b1573305e318dde62b8aa6092583aae8733d3f",
+      "source_key": "final-20260906-primary-v1:1077"
+    },
+    "424": {
+      "environment_seed": 497639237,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00424.npz",
+      "sha256": "7d4f8e5579018636f7310f2b4c31184308a0c296522b3639c9e2930e8b45c265",
+      "source_key": "final-20260906-primary-v1:1101"
+    },
+    "431": {
+      "environment_seed": 1943168787,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00431.npz",
+      "sha256": "30f026671ac9da5e737c40f43eb570fcf59c75648e1917f8b3a80f7572fe6a7a",
+      "source_key": "final-20260906-primary-v1:1120"
+    },
+    "433": {
+      "environment_seed": 1732318457,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00433.npz",
+      "sha256": "b2f56e6e5e238edb2b88ad732a83831a83d1004f46c0389cbb0d4b4b1242d6ad",
+      "source_key": "final-20260906-primary-v1:1123"
+    },
+    "435": {
+      "environment_seed": 1599158727,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00435.npz",
+      "sha256": "072674d5ccc1f2c8ab20579d044f37717a2d0e43c7413c9c07f7c5c214a6a153",
+      "source_key": "final-20260906-primary-v1:1128"
+    },
+    "440": {
+      "environment_seed": 3614793830,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00440.npz",
+      "sha256": "0a4e71e57858b104e6fe6b81570ba771419a8fbfd65ae54f90c50f43d5073646",
+      "source_key": "final-20260906-primary-v1:1135"
+    },
+    "443": {
+      "environment_seed": 732043396,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00443.npz",
+      "sha256": "936b5427d3385be97b355ac1fc54bc853b8951dcedf6757799d339019c009d46",
+      "source_key": "final-20260906-primary-v1:1143"
+    },
+    "444": {
+      "environment_seed": 60711812,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00444.npz",
+      "sha256": "69d13ae6d3c5395e903269be18c7b3ee130641b5a04bc0eb20a27166a2966e58",
+      "source_key": "final-20260906-primary-v1:1145"
+    },
+    "445": {
+      "environment_seed": 3252817861,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00445.npz",
+      "sha256": "92f033273f6285a2fc76ec06d89139f10dfc48e76b169a1ecc45562717bedca7",
+      "source_key": "final-20260906-primary-v1:1146"
+    },
+    "454": {
+      "environment_seed": 1326356765,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00454.npz",
+      "sha256": "d263479197fe31776b094b8704a609486065aad373dfe3b30a2eee1b04d9af83",
+      "source_key": "final-20260906-primary-v1:1168"
+    },
+    "463": {
+      "environment_seed": 984877058,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00463.npz",
+      "sha256": "73addeb9069b52b5d9888eee9947ca47affbed680dcea54104e48ba73a1b258c",
+      "source_key": "final-20260906-primary-v1:1192"
+    },
+    "465": {
+      "environment_seed": 2910111415,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00465.npz",
+      "sha256": "d3f7e2dddbe60db8f84b535617871a9c8ca9db664ddb12911181500413b511be",
+      "source_key": "final-20260906-primary-v1:1202"
+    },
+    "466": {
+      "environment_seed": 2306583682,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00466.npz",
+      "sha256": "5dfe7f7f05353ed4d76f3e718283cfc620ad5e09680cd8585d4a79c3389de808",
+      "source_key": "final-20260906-primary-v1:1205"
+    },
+    "467": {
+      "environment_seed": 1235830068,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00467.npz",
+      "sha256": "a6d17467146c53f32c4ab6872b89ec0036a0e20c3954519e661065f5506710b5",
+      "source_key": "final-20260906-primary-v1:1209"
+    },
+    "479": {
+      "environment_seed": 2771251200,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00479.npz",
+      "sha256": "f51fa355cfd884b33e342fa8b85f330f32fb2037192c10ae216163187462da70",
+      "source_key": "final-20260906-primary-v1:1242"
+    },
+    "483": {
+      "environment_seed": 1620683782,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00483.npz",
+      "sha256": "bdd3e80893559511095c16ba0a12b29ee7aae1cdd14c2b2eab203bf083a9ffae",
+      "source_key": "final-20260906-primary-v1:1249"
+    },
+    "484": {
+      "environment_seed": 3412051505,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00484.npz",
+      "sha256": "133d43d7716a2a4803343aff31e44c264845894c9013931c51b937bccf4a9301",
+      "source_key": "final-20260906-primary-v1:1250"
+    },
+    "485": {
+      "environment_seed": 3895529938,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00485.npz",
+      "sha256": "9b829035122c812c27df097a2f3ee99ca79bc59d1bf8b62dcec0335502e9ad4f",
+      "source_key": "final-20260906-primary-v1:1251"
+    },
+    "486": {
+      "environment_seed": 3717144929,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00486.npz",
+      "sha256": "4257e1258f99abc69af9ac80902a1a78be73a03bf3d37bb68fdbfc318cefec66",
+      "source_key": "final-20260906-primary-v1:1253"
+    },
+    "488": {
+      "environment_seed": 895519763,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00488.npz",
+      "sha256": "1b80e7c9dd9908326793b528f6e93fc2b15641f58d28b1529a959483567b60e1",
+      "source_key": "final-20260906-primary-v1:1255"
+    },
+    "492": {
+      "environment_seed": 288822900,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00492.npz",
+      "sha256": "0c655cf505d8ffad75cfeaa8f116b7912f8ef9d2371e07aa6625849c26ec759e",
+      "source_key": "final-20260906-primary-v1:1278"
+    },
+    "512": {
+      "environment_seed": 374778117,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00512.npz",
+      "sha256": "5c6d86eb41c751cb6e9f4404bc86faef8d83ab3872b48dc98fbef5a996f480ba",
+      "source_key": "final-20260906-primary-v1:1332"
+    },
+    "513": {
+      "environment_seed": 3680867530,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00513.npz",
+      "sha256": "d861ee591c3a5b8f96e388d25ad73dc2bfb04f00a3a2dcd0c8b21bc49cf1d587",
+      "source_key": "final-20260906-primary-v1:1337"
+    },
+    "514": {
+      "environment_seed": 3457805245,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00514.npz",
+      "sha256": "881a99adba390f2a0f4ea12d82fa97239e3dc3dd159fa8fbfd4df0fd4fd73c0d",
+      "source_key": "final-20260906-primary-v1:1341"
+    },
+    "518": {
+      "environment_seed": 181531924,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00518.npz",
+      "sha256": "c47145379e65a37fffd09f99327018f9656c3da02371f5e67a04478e3ad093be",
+      "source_key": "final-20260906-primary-v1:1351"
+    },
+    "526": {
+      "environment_seed": 1457635888,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00526.npz",
+      "sha256": "cef1e091295f696e6819e15582c89d0f5769b0bfba244a91957236594d478893",
+      "source_key": "final-20260906-primary-v1:1366"
+    },
+    "536": {
+      "environment_seed": 92537368,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00536.npz",
+      "sha256": "9c8faf358f8eb4f9cdd5ac2f855e8c09063d7283512eb73f604a6a6f8e876853",
+      "source_key": "final-20260906-primary-v1:1391"
+    },
+    "552": {
+      "environment_seed": 3446068198,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00552.npz",
+      "sha256": "8c79729a92ac65bcf3a3a237a4f6c652ce0470e9d52a2e386b5639c02c38f01f",
+      "source_key": "final-20260906-primary-v1:1424"
+    },
+    "556": {
+      "environment_seed": 2190301022,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00556.npz",
+      "sha256": "9dabaa026b5f944cb24bed5204b09cfb7fd4d369a728909707ec88a4a2131c44",
+      "source_key": "final-20260906-primary-v1:1432"
+    },
+    "557": {
+      "environment_seed": 367865870,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00557.npz",
+      "sha256": "52b39b02922fbeefb80cbaa2e2e491607b9c3385902ca182a0d9d4d055427e9c",
+      "source_key": "final-20260906-primary-v1:1443"
+    },
+    "566": {
+      "environment_seed": 3200171856,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00566.npz",
+      "sha256": "babdfe1b11c20b75ccf6b99105240015a411b30eb41718ffe3a6c20d8e9a61eb",
+      "source_key": "final-20260906-primary-v1:1466"
+    },
+    "570": {
+      "environment_seed": 707946030,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00570.npz",
+      "sha256": "56f2616050155228e5321c87053337ba9365dc2deb69bc2743de0b43e48c35b2",
+      "source_key": "final-20260906-primary-v1:1474"
+    },
+    "576": {
+      "environment_seed": 3456014933,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00576.npz",
+      "sha256": "4cdf7a563a998fe1a9f27368470c3c809bad65127b3348106c56110e8e6fa080",
+      "source_key": "final-20260906-primary-v1:1488"
+    },
+    "597": {
+      "environment_seed": 1395345290,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00597.npz",
+      "sha256": "ecaa2a9649cbe3bcdecd54b5142ca6a851433e44ead061f7a6df867a090bc834",
+      "source_key": "final-20260906-primary-v1:1529"
+    },
+    "598": {
+      "environment_seed": 2523312240,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00598.npz",
+      "sha256": "05839a7f2fe184e575fd57223fbdf24242625e1e622d6c33f02e5afe6cd53bab",
+      "source_key": "final-20260906-primary-v1:1531"
+    },
+    "602": {
+      "environment_seed": 4027434036,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00602.npz",
+      "sha256": "7b4688197135038525f0eb4247186c8b6de5c456dddbb6367d99114e35f4be3d",
+      "source_key": "final-20260906-primary-v1:1542"
+    },
+    "606": {
+      "environment_seed": 1821657750,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00606.npz",
+      "sha256": "6203ea26403b45557f36b9fcfdf39d5da63f6703bb9618db5c5e1e9646347af0",
+      "source_key": "final-20260906-primary-v1:1547"
+    },
+    "607": {
+      "environment_seed": 2941321072,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00607.npz",
+      "sha256": "01e1425bdf119cdb09592948752f28a1a6dcf1e1ce98e92d3d241ae611e13eab",
+      "source_key": "final-20260906-primary-v1:1548"
+    },
+    "609": {
+      "environment_seed": 3910834989,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00609.npz",
+      "sha256": "a4f845de0301b6a742c2703257e499a840dd0ca84a3bdc1249b2be4b49525e11",
+      "source_key": "final-20260906-primary-v1:1551"
+    },
+    "619": {
+      "environment_seed": 1226990338,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00619.npz",
+      "sha256": "4b8f9623cf651285d3436d5e13665d38b2f342b06a170c164f806e931e55a4d5",
+      "source_key": "final-20260906-primary-v1:1572"
+    },
+    "627": {
+      "environment_seed": 3307656197,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00627.npz",
+      "sha256": "d6541aba7dd5b8fb39df682c620f3928653775e2798ef0b0f5aa42ee6cbe0c8a",
+      "source_key": "final-20260906-primary-v1:1590"
+    },
+    "633": {
+      "environment_seed": 3176174371,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00633.npz",
+      "sha256": "c4c1a9d47c4663c49c23a4e22fb49243d07b3fa732620a9978a1077d1b8c8401",
+      "source_key": "final-20260906-primary-v1:1618"
+    },
+    "645": {
+      "environment_seed": 2012458259,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00645.npz",
+      "sha256": "f9fbc643605fb5b53686122c9c2ea79cb6d8ae60325398b9743ee8e9ea2b3cb9",
+      "source_key": "final-20260906-primary-v1:1652"
+    },
+    "648": {
+      "environment_seed": 42501993,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00648.npz",
+      "sha256": "91310907f8057cec4580c71cdb84794bd5250f56a5d0f7902c127bf2e3cd74b6",
+      "source_key": "final-20260906-primary-v1:1657"
+    },
+    "649": {
+      "environment_seed": 2281102976,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00649.npz",
+      "sha256": "4eccf6aad5c1a771e61673eed200410b8b39660046ba40bb9a6dd23dcce57b98",
+      "source_key": "final-20260906-primary-v1:1662"
+    },
+    "653": {
+      "environment_seed": 3839746492,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00653.npz",
+      "sha256": "0be83a836e7694c2d753979952d1bc2679e58f59a1f3103158658ce893d3c203",
+      "source_key": "final-20260906-primary-v1:1674"
+    },
+    "660": {
+      "environment_seed": 677419630,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00660.npz",
+      "sha256": "224dfbfc2a4c49fb4b909814da2dd05248bf1df68c25bb0cb41a6c6729416ca9",
+      "source_key": "final-20260906-primary-v1:1710"
+    },
+    "663": {
+      "environment_seed": 1109241920,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00663.npz",
+      "sha256": "6dc0b32f62176f3020a24223e239cd41ae7ade8a89065b1f7cc1ba3b81373fd6",
+      "source_key": "final-20260906-primary-v1:1716"
+    },
+    "664": {
+      "environment_seed": 3098658303,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00664.npz",
+      "sha256": "4ea0ec8a29d928293fb9096a900ab5fd97ea6f1fbd80e240ce06d6883953376b",
+      "source_key": "final-20260906-primary-v1:1719"
+    },
+    "673": {
+      "environment_seed": 1586727344,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00673.npz",
+      "sha256": "0b1a18e21df5224cd11e67ec0ed685aad1bb5ce6ce83cda1d179edd2cfc7c218",
+      "source_key": "final-20260906-primary-v1:1735"
+    },
+    "685": {
+      "environment_seed": 3604601552,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00685.npz",
+      "sha256": "2e9cdf65ff7c888eb9dcbbb8c2126c09a1f0e4a76b54df8c473a503ec470bcfa",
+      "source_key": "final-20260906-primary-v1:1763"
+    },
+    "686": {
+      "environment_seed": 3182945373,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00686.npz",
+      "sha256": "8b00e43446c85cc0fdd8048381b7b88221415d23e9a6b2ab696a7b2454561111",
+      "source_key": "final-20260906-primary-v1:1764"
+    },
+    "698": {
+      "environment_seed": 3653897339,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00698.npz",
+      "sha256": "65063da36ad8e4431d226c0804cf26a0b281945287d000f9b85a892184cd51d8",
+      "source_key": "final-20260906-primary-v1:1804"
+    },
+    "700": {
+      "environment_seed": 4053954161,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00700.npz",
+      "sha256": "f269c2758810af4f174b4021b98bd9dca8a37f492d54262881ad9b03ae0ce48c",
+      "source_key": "final-20260906-primary-v1:1808"
+    },
+    "711": {
+      "environment_seed": 2545558273,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00711.npz",
+      "sha256": "fcd3900b9e61e34dab1c193e2fe27c5b09bbabd27fe9253aa5ee055c23d352f3",
+      "source_key": "final-20260906-primary-v1:1841"
+    },
+    "712": {
+      "environment_seed": 381256801,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00712.npz",
+      "sha256": "f3cad48fa2654a7ca1cfd40bc0f14899e7410b2328b86435990f8440eae00756",
+      "source_key": "final-20260906-primary-v1:1842"
+    },
+    "728": {
+      "environment_seed": 3288771859,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00728.npz",
+      "sha256": "aeed70baa35926b15db46ad2a3907fb3933a253dd5ddd0e5a8ca9d8196f6591d",
+      "source_key": "final-20260906-primary-v1:1878"
+    },
+    "737": {
+      "environment_seed": 105825968,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00737.npz",
+      "sha256": "2267f3ee3a7f758773d49df84d76d250f7b640386375c9290cf7ccd24607c5ad",
+      "source_key": "final-20260906-primary-v1:1901"
+    },
+    "748": {
+      "environment_seed": 1007600722,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00748.npz",
+      "sha256": "082aa02c9b9ee58bd0ce26c26bdcd7cfa15b4e838518072f7a440d8370115f24",
+      "source_key": "final-20260906-primary-v1:1940"
+    },
+    "750": {
+      "environment_seed": 2450358135,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00750.npz",
+      "sha256": "d06885d1bde91b45baeb0f030f96fd0e2075211ffd31a8711e55626489833bbc",
+      "source_key": "final-20260906-primary-v1:1948"
+    },
+    "758": {
+      "environment_seed": 315423129,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00758.npz",
+      "sha256": "526430120f6e4dbfb84ca005c3db39bc20caf81c8d16f146522550a4247ffc7f",
+      "source_key": "final-20260906-primary-v1:1964"
+    },
+    "762": {
+      "environment_seed": 2109074690,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00762.npz",
+      "sha256": "b153c7df0f3ee4f251f36ed4702fddad45d6baa30e01f51eff9c7a93364c512a",
+      "source_key": "final-20260906-primary-v1:1970"
+    },
+    "767": {
+      "environment_seed": 606687944,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00767.npz",
+      "sha256": "124c85c32f9b66e7c5af5f03d06a80794250ae4781a5ed8eb681365d0ccce2d0",
+      "source_key": "final-20260906-primary-v1:1987"
+    },
+    "769": {
+      "environment_seed": 3329165197,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00769.npz",
+      "sha256": "141bdcee529c5e728f49d82727764fb7749b66054e8c957d392dfe8a8c56abf3",
+      "source_key": "final-20260906-primary-v1:1998"
+    },
+    "772": {
+      "environment_seed": 2636131668,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00772.npz",
+      "sha256": "f45be71fa418b8fff08fb7207c2439785603f3e263ed9963ac8b50383bce36da",
+      "source_key": "final-20260906-primary-v1:2012"
+    },
+    "778": {
+      "environment_seed": 2671703701,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00778.npz",
+      "sha256": "2055812374ae6da3ced241ff0b4665b97c2004ec42979646a69b5300e4c2f0a8",
+      "source_key": "final-20260906-primary-v1:2027"
+    },
+    "782": {
+      "environment_seed": 746232358,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00782.npz",
+      "sha256": "5c303956fcc483c67ca67c24b4abde18d4fcec2b2126334edb9833887fd3f569",
+      "source_key": "final-20260906-primary-v1:2039"
+    },
+    "788": {
+      "environment_seed": 3575089723,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00788.npz",
+      "sha256": "6563c53604dc23416c57ca5a435eea85bd530b7ae819912ae74841b4160219ed",
+      "source_key": "final-20260906-primary-v1:2054"
+    },
+    "800": {
+      "environment_seed": 1621473584,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00800.npz",
+      "sha256": "251d162862fe0a0b2786981e5c40d8b5c49f62d525d67a9f53bf81bfc39ddd99",
+      "source_key": "final-20260906-primary-v1:2092"
+    },
+    "806": {
+      "environment_seed": 3150165512,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00806.npz",
+      "sha256": "abbb337d62a4bd94b14f0fed54546c9836dd552a52476024d61d4f0c386c9156",
+      "source_key": "final-20260906-primary-v1:2099"
+    },
+    "808": {
+      "environment_seed": 2098938053,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00808.npz",
+      "sha256": "0c8702dd532da51e9743fe3e9b328453ec4cb58f2d8f840101191dae8cc0e145",
+      "source_key": "final-20260906-primary-v1:2103"
+    },
+    "813": {
+      "environment_seed": 1297433496,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00813.npz",
+      "sha256": "8f9f80d7729d2cfeea7967b1e7f1b12aaccdfc127c24a21598ce9c450808fc3d",
+      "source_key": "final-20260906-primary-v1:2116"
+    },
+    "818": {
+      "environment_seed": 2033900074,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00818.npz",
+      "sha256": "c2aded79080eb0e15d57da5065237911a52fc785727407ec310a2957574c84bf",
+      "source_key": "final-20260906-primary-v1:2128"
+    },
+    "825": {
+      "environment_seed": 653790244,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00825.npz",
+      "sha256": "aaaf14afd73880287c0f3814cb8b0a234090d49a8441a2b78c619413d0e3bb90",
+      "source_key": "final-20260906-primary-v1:2141"
+    },
+    "834": {
+      "environment_seed": 1206740086,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00834.npz",
+      "sha256": "28d25d4bf175603a5ab35858f3f18581b961975631224a45f3351646ecb92d54",
+      "source_key": "final-20260906-primary-v1:2163"
+    },
+    "859": {
+      "environment_seed": 304801896,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00859.npz",
+      "sha256": "3a6762da926100a42a4a3aa46b8c83e60b35d23b3b25a763036e99008481981b",
+      "source_key": "final-20260906-primary-v1:2222"
+    },
+    "864": {
+      "environment_seed": 799346903,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00864.npz",
+      "sha256": "a4854edaf8e60c8f02aa781ab12338024e9f24f4fc2446c0757ca93725e51d7e",
+      "source_key": "final-20260906-primary-v1:2236"
+    },
+    "870": {
+      "environment_seed": 3181965189,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00870.npz",
+      "sha256": "aaaa717733746d159a22b54791bdbdb96a5ea163067213386b1c00899dd46930",
+      "source_key": "final-20260906-primary-v1:2248"
+    },
+    "884": {
+      "environment_seed": 1347451255,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00884.npz",
+      "sha256": "7a920f48e860ddf475f73af8363562959cdc4224176d3ebd9085ff0f04c45297",
+      "source_key": "final-20260906-primary-v1:2277"
+    },
+    "894": {
+      "environment_seed": 2085243365,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00894.npz",
+      "sha256": "7fc6cd9628183e30acd5df9e2a10f76f559dc8672b79e3680246a69f511c6623",
+      "source_key": "final-20260906-primary-v1:2295"
+    },
+    "895": {
+      "environment_seed": 3181085907,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00895.npz",
+      "sha256": "5ceb7812eda748f970e14496d0eace05a16605636a474e48c2106a853f1107b7",
+      "source_key": "final-20260906-primary-v1:2296"
+    },
+    "898": {
+      "environment_seed": 3986315648,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00898.npz",
+      "sha256": "fc9534661dc7f9886d44993badd25007cc8f0598befc3e5f19adb5c37d7af00a",
+      "source_key": "final-20260906-primary-v1:2304"
+    },
+    "909": {
+      "environment_seed": 3589514324,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00909.npz",
+      "sha256": "435279b83f396dac10b7e735a18ff75492afbe6022a3698e59d65d048d0a45c4",
+      "source_key": "final-20260906-primary-v1:2335"
+    },
+    "910": {
+      "environment_seed": 57064931,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00910.npz",
+      "sha256": "21e035b26332b57861a5d6f3b4a6e8a5b9514c4643bebf764603ef762aeeea6a",
+      "source_key": "final-20260906-primary-v1:2337"
+    },
+    "915": {
+      "environment_seed": 1157052652,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00915.npz",
+      "sha256": "df6945c7b70ddfb1b25e595feb210751046d53719646eca35bd73b438f91039a",
+      "source_key": "final-20260906-primary-v1:2346"
+    },
+    "936": {
+      "environment_seed": 821044931,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00936.npz",
+      "sha256": "ce360c83ab23e4ea6c440d38b7a517a98605eb5b2303223fb4b286d2eb29f166",
+      "source_key": "final-20260906-primary-v1:2411"
+    },
+    "938": {
+      "environment_seed": 1008605143,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00938.npz",
+      "sha256": "d22a660ba9c61bc56cd9de9f818b2e042fc683ef0aa03e763e31bfea6707040f",
+      "source_key": "final-20260906-primary-v1:2416"
+    },
+    "944": {
+      "environment_seed": 1012271246,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00944.npz",
+      "sha256": "835fdd2a61e94e0680186dc687e532bcdd571a6e73a8eddf6bd9e7dab2388f57",
+      "source_key": "final-20260906-primary-v1:2432"
+    },
+    "947": {
+      "environment_seed": 2524988356,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00947.npz",
+      "sha256": "0875ab559c5b7ef25a1bd78b4d1f3fa8697ebf3748f38f8850b1b0d1338a21ce",
+      "source_key": "final-20260906-primary-v1:2438"
+    },
+    "949": {
+      "environment_seed": 3616950000,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00949.npz",
+      "sha256": "d7a113cbab4d1051b6aeea6e6cfdb9851e6bea31120894b08b75cda8441b02eb",
+      "source_key": "final-20260906-primary-v1:2441"
+    },
+    "952": {
+      "environment_seed": 1709413351,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00952.npz",
+      "sha256": "3bde1bda7ec2e22c1eb86ed951a0c98845cc818e59629ae2b873bd1d677b2fee",
+      "source_key": "final-20260906-primary-v1:2449"
+    },
+    "955": {
+      "environment_seed": 1543937167,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00955.npz",
+      "sha256": "504e126c928615954a6b9f9476a987b2c7687536dab2eab5e42c28d15ce31ba2",
+      "source_key": "final-20260906-primary-v1:2455"
+    },
+    "960": {
+      "environment_seed": 2905537301,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00960.npz",
+      "sha256": "9eb5b3982a95ad63a9ad2b14407617f53f509dfe8f0ef9a350bcd5ddb3c5caaf",
+      "source_key": "final-20260906-primary-v1:2474"
+    },
+    "977": {
+      "environment_seed": 2570142211,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00977.npz",
+      "sha256": "f4b5d5bb2061f6fa86c95991d11dd3351373457551c585c7e0291b77f551602a",
+      "source_key": "final-20260906-primary-v1:2523"
+    },
+    "978": {
+      "environment_seed": 1901524873,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00978.npz",
+      "sha256": "4aa70c1dccacf493d8c75ae3495e8d00b88b6b6e41ce98a22b4c593806b1358a",
+      "source_key": "final-20260906-primary-v1:2530"
+    },
+    "983": {
+      "environment_seed": 2848869795,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00983.npz",
+      "sha256": "032879f0a294deb347e19167ae6cee278ec752708f40d330fe166f1bd291d14f",
+      "source_key": "final-20260906-primary-v1:2541"
+    },
+    "990": {
+      "environment_seed": 3769437130,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00990.npz",
+      "sha256": "862a7c0be389d13446c56331fe26f65fda254bc075e968951f3c563420ac5700",
+      "source_key": "final-20260906-primary-v1:2564"
+    },
+    "999": {
+      "environment_seed": 3261410564,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-00999.npz",
+      "sha256": "b7d903c6470edc079b46f9617a1cc0d3da8ac6a49d1dd0278830d974d38ed7db",
+      "source_key": "final-20260906-primary-v1:2586"
+    },
+    "1021": {
+      "environment_seed": 2475985989,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01021.npz",
+      "sha256": "ba9911b4a52421934ddadfd0cdb68da85256958647ae01f0309c1da96512fc33",
+      "source_key": "final-20260906-primary-v1:2648"
+    },
+    "1033": {
+      "environment_seed": 3827880246,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01033.npz",
+      "sha256": "375e7b2eec3de15194766e8b2e9f77e24bebcb1dae267516d83de3cf5350fd4d",
+      "source_key": "final-20260906-primary-v1:2680"
+    },
+    "1037": {
+      "environment_seed": 1490210735,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01037.npz",
+      "sha256": "b6be7bbcb94a9fc006c910b1c61ba680fa42c590802bd260b6718db08dc53665",
+      "source_key": "final-20260906-primary-v1:2693"
+    },
+    "1056": {
+      "environment_seed": 3381885440,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01056.npz",
+      "sha256": "984e2896ec16309a3463657c23e50d712d165e8d004a507f85aafc2005a2a948",
+      "source_key": "final-20260906-primary-v1:2740"
+    },
+    "1057": {
+      "environment_seed": 3376911520,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01057.npz",
+      "sha256": "7704af3b66c7e24198c841f3c2fa52b4a91a2679d8d425225bacae513a92921c",
+      "source_key": "final-20260906-primary-v1:2745"
+    },
+    "1079": {
+      "environment_seed": 1607197205,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01079.npz",
+      "sha256": "09650d8531c1f6a775af248cf0c64b0a164919fedceee4d6f5e6f0bdb6cdf25a",
+      "source_key": "final-20260906-primary-v1:2801"
+    },
+    "1096": {
+      "environment_seed": 1847001322,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01096.npz",
+      "sha256": "e20639c5034bd142c328a3ce1ecc5d19c53f34baa551a27df9f78ace135a5892",
+      "source_key": "final-20260906-primary-v1:2841"
+    },
+    "1102": {
+      "environment_seed": 2097819213,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01102.npz",
+      "sha256": "0966d983fab87c89d74f9ac16ab58f0edb15b46f3fbfec8806bf54b3b4640b7b",
+      "source_key": "final-20260906-primary-v1:2854"
+    },
+    "1105": {
+      "environment_seed": 398873860,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01105.npz",
+      "sha256": "23f3245af7c2ce0d5e5726c4216c47095e9a8179815347073ca1938cff447af4",
+      "source_key": "final-20260906-primary-v1:2861"
+    },
+    "1120": {
+      "environment_seed": 4016915015,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01120.npz",
+      "sha256": "7b02291ccd75e6382b880207c2663cf77f8b9b852e8ebe783c9097738c59823d",
+      "source_key": "final-20260906-primary-v1:2909"
+    },
+    "1125": {
+      "environment_seed": 119779300,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01125.npz",
+      "sha256": "bf476060fe8ebffe17d5ef8b048afa491f140478be2b1ff8e8d8b1b58dbd9372",
+      "source_key": "final-20260906-primary-v1:2917"
+    },
+    "1128": {
+      "environment_seed": 2318513628,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01128.npz",
+      "sha256": "df1d9168c7476de8c923e22c954ca16a15c63b355e2c2d60d3f3950aabb6cb19",
+      "source_key": "final-20260906-primary-v1:2932"
+    },
+    "1130": {
+      "environment_seed": 1129439042,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01130.npz",
+      "sha256": "47bb71f7c0e13d489158769f86010088cfb01575033df83a1f595647ff71c1a2",
+      "source_key": "final-20260906-primary-v1:2936"
+    },
+    "1137": {
+      "environment_seed": 4259684201,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01137.npz",
+      "sha256": "dd3d7bd732418ee4051086f608cc66d55ae208d01668f82b7cfcff032de42d81",
+      "source_key": "final-20260906-primary-v1:2951"
+    },
+    "1138": {
+      "environment_seed": 393029136,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01138.npz",
+      "sha256": "c839b5f2e35583ccb94ef6efbc476aaa8638ed81b5c8952c9f60a06f622be2c0",
+      "source_key": "final-20260906-primary-v1:2953"
+    },
+    "1143": {
+      "environment_seed": 1316362093,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01143.npz",
+      "sha256": "c2c6ba2fa964b38454f3a884849cab4ba00d2158af0b75dd37bd797b281d1797",
+      "source_key": "final-20260906-primary-v1:2965"
+    },
+    "1161": {
+      "environment_seed": 2149686395,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01161.npz",
+      "sha256": "699e4d0647ea0b413545ae9f8ab12f3bcea157f19f0ce9918e7cebece3176594",
+      "source_key": "final-20260906-primary-v1:3011"
+    },
+    "1170": {
+      "environment_seed": 1143544832,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01170.npz",
+      "sha256": "c042aa3936061c08cf010b86e8055d25b859d345905daa5abbf19153c06e8055",
+      "source_key": "final-20260906-primary-v1:3029"
+    },
+    "1180": {
+      "environment_seed": 2139990903,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01180.npz",
+      "sha256": "a5af4dad7b84cc3ae479ba17e89668df015a42bab143ce456017be5091180716",
+      "source_key": "final-20260906-primary-v1:3047"
+    },
+    "1182": {
+      "environment_seed": 706253304,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01182.npz",
+      "sha256": "65988406bcddb30c168a36e3d851275f38924cd5975a619e0f7dd34d1b836779",
+      "source_key": "final-20260906-primary-v1:3051"
+    },
+    "1187": {
+      "environment_seed": 245096273,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01187.npz",
+      "sha256": "756b5aa94601cdfea46c0b8d62849ed4098fcdf4e03d1f5972a4dd877a3ea95a",
+      "source_key": "final-20260906-primary-v1:3072"
+    },
+    "1196": {
+      "environment_seed": 1485268554,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01196.npz",
+      "sha256": "427f74c8cb48f168671b2fc98ea1e865f41c5860a8082572274ad8e40d1c8ad6",
+      "source_key": "final-20260906-primary-v1:3101"
+    },
+    "1197": {
+      "environment_seed": 166953768,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01197.npz",
+      "sha256": "997fb10fdcfb74215299a6dadb86471ca81d1b0ecc545ba8e8481628988ecd91",
+      "source_key": "final-20260906-primary-v1:3103"
+    },
+    "1206": {
+      "environment_seed": 3463690524,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01206.npz",
+      "sha256": "009aa61ad905a361ed86288193081ff0c4ef0bc79f625ae2391db891c87dfcc9",
+      "source_key": "final-20260906-primary-v1:3124"
+    },
+    "1215": {
+      "environment_seed": 2504183072,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01215.npz",
+      "sha256": "7ac116c893f47901e96bbf18d9e21448053fddb84696ce23ac6a5289d81921fb",
+      "source_key": "final-20260906-primary-v1:3149"
+    },
+    "1225": {
+      "environment_seed": 3154531975,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01225.npz",
+      "sha256": "28fcfd95c4769240a2e851f2bb8bdb5d6027eed552003063cf2db7cce51eae40",
+      "source_key": "final-20260906-primary-v1:3171"
+    },
+    "1227": {
+      "environment_seed": 2246889847,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01227.npz",
+      "sha256": "c262c4fdb8defff9a67fe2f799ef7424c5c76e481d77155a731d504eab0ecee0",
+      "source_key": "final-20260906-primary-v1:3174"
+    },
+    "1228": {
+      "environment_seed": 3110050193,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01228.npz",
+      "sha256": "f3202fc3c66528ba9638797687a9d94b4c71c2894f46d8af3390dbfe07b3b436",
+      "source_key": "final-20260906-primary-v1:3177"
+    },
+    "1233": {
+      "environment_seed": 3361700222,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01233.npz",
+      "sha256": "41ee163edf6a4f8f412acb6b522cb93bc219b7b00c26e6fa808bfedc8163b0f8",
+      "source_key": "final-20260906-primary-v1:3190"
+    },
+    "1242": {
+      "environment_seed": 2760824306,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01242.npz",
+      "sha256": "e1f819f6f423064ee9b16b7059b7a06ed9c808982900261ca3b772f3540fb808",
+      "source_key": "final-20260906-primary-v1:3221"
+    },
+    "1255": {
+      "environment_seed": 3549768895,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01255.npz",
+      "sha256": "f24176e87fcb3e67af100678c63b4873b311498a9dda148e887d410017aca64c",
+      "source_key": "final-20260906-primary-v1:3265"
+    },
+    "1260": {
+      "environment_seed": 581602649,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01260.npz",
+      "sha256": "7b560f1fdb93b0b468716ad04894287e16a7d3d97b834f7282d387c74e5c3f11",
+      "source_key": "final-20260906-primary-v1:3280"
+    },
+    "1264": {
+      "environment_seed": 1874069114,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01264.npz",
+      "sha256": "e4cfd03c75d58520c9b58feac740929720a8b514dac004eda893af47a6ecbf98",
+      "source_key": "final-20260906-primary-v1:3287"
+    },
+    "1283": {
+      "environment_seed": 1838261702,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01283.npz",
+      "sha256": "40071c89487c6a33ebbd1dc9a19bc5489c1d136d0b9bbef7e82b2c427a569a3c",
+      "source_key": "final-20260906-primary-v1:3327"
+    },
+    "1290": {
+      "environment_seed": 1727815193,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01290.npz",
+      "sha256": "f9117e1bff1eac046ac9597b578da73c25e0d74517836b2155a56af51937de4c",
+      "source_key": "final-20260906-primary-v1:3350"
+    },
+    "1293": {
+      "environment_seed": 1240092231,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01293.npz",
+      "sha256": "61f3785c3636bd74cad8a83e165e0ba73af7b84190f23aa35cd1ca9168f0fac9",
+      "source_key": "final-20260906-primary-v1:3358"
+    },
+    "1299": {
+      "environment_seed": 2739589553,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01299.npz",
+      "sha256": "33edb772ce332c4ad24669a743ff80e278fae1ad6e91a840ee179de8de2fd8c0",
+      "source_key": "final-20260906-primary-v1:3369"
+    },
+    "1313": {
+      "environment_seed": 283964674,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01313.npz",
+      "sha256": "e34cfb8b4266a22d1b65e9ea1bbc04c1229560e25198764c9f97e242fe6f4dfb",
+      "source_key": "final-20260906-primary-v1:3390"
+    },
+    "1314": {
+      "environment_seed": 4194559702,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01314.npz",
+      "sha256": "e807b817757f5698fe68fc77b4e011bdcd089bfa8c871e5c5de1209c2d1baf6a",
+      "source_key": "final-20260906-primary-v1:3391"
+    },
+    "1319": {
+      "environment_seed": 3516231711,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01319.npz",
+      "sha256": "3b2639b548ff5eaae9d3e4350008c341298987314f3ecd6b48b09e782075c6e0",
+      "source_key": "final-20260906-primary-v1:3409"
+    },
+    "1327": {
+      "environment_seed": 3530054543,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01327.npz",
+      "sha256": "2df4a1fc4012ef3af1a5f5563446f03f3b39e4819ba1fb3add31d258dc434944",
+      "source_key": "final-20260906-primary-v1:3434"
+    },
+    "1336": {
+      "environment_seed": 319870433,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01336.npz",
+      "sha256": "c9403103646fa42d4c90acc49d41be3d1fb61a58a10b67080f43bf87d4a8ac8a",
+      "source_key": "final-20260906-primary-v1:3469"
+    },
+    "1338": {
+      "environment_seed": 550266063,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01338.npz",
+      "sha256": "25c24d8807a1a0203cd2af036c2919c4dc2f0ed71f21bbb09d9e2c534d4f7605",
+      "source_key": "final-20260906-primary-v1:3475"
+    },
+    "1350": {
+      "environment_seed": 1258051245,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01350.npz",
+      "sha256": "ce8978a49afd9ca9ec65a115d1d165582c70cb6496a69cc8bdb7555a308ba009",
+      "source_key": "final-20260906-primary-v1:3495"
+    },
+    "1357": {
+      "environment_seed": 2451122683,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01357.npz",
+      "sha256": "53dfda85f46f2b6aa85c4a41c0299d779b272baa286f57fa2989d1959057a181",
+      "source_key": "final-20260906-primary-v1:3506"
+    },
+    "1364": {
+      "environment_seed": 1449843109,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01364.npz",
+      "sha256": "4807902c42f8623a23431d4e3aaa38c4ec9ad4abea74f6a77870b2c67426be44",
+      "source_key": "final-20260906-primary-v1:3522"
+    },
+    "1367": {
+      "environment_seed": 3746316667,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01367.npz",
+      "sha256": "7debc81bc8aaaecf1b1aa38c3df56f9940358c1075b5eb9227d166c73c132a56",
+      "source_key": "final-20260906-primary-v1:3534"
+    },
+    "1374": {
+      "environment_seed": 3314916994,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01374.npz",
+      "sha256": "9eeed47c7d26c809ec5fca8214aeac4438fe24d8861ad9afb850f28527e0726b",
+      "source_key": "final-20260906-primary-v1:3548"
+    },
+    "1378": {
+      "environment_seed": 668185890,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01378.npz",
+      "sha256": "fc2feba61cec60467bce3457ae461897ac6539653a25dc5cd2f380da924478f3",
+      "source_key": "final-20260906-primary-v1:3561"
+    },
+    "1380": {
+      "environment_seed": 2453765559,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01380.npz",
+      "sha256": "5c8282ef2f40312b12f3621af2f3f12e19089d680e3b67caef5cbfa614940a9b",
+      "source_key": "final-20260906-primary-v1:3567"
+    },
+    "1389": {
+      "environment_seed": 2463584890,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01389.npz",
+      "sha256": "e031c293c89b65453abe20c0b36c98a8787c99b34d4c23647cd34db77346d1b2",
+      "source_key": "final-20260906-primary-v1:3581"
+    },
+    "1395": {
+      "environment_seed": 941452228,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01395.npz",
+      "sha256": "f5a39ede10cd11899cc8ad401a4ce689e7f8971fa25dcd261410b142c16721af",
+      "source_key": "final-20260906-primary-v1:3598"
+    },
+    "1407": {
+      "environment_seed": 1311928911,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01407.npz",
+      "sha256": "3e3164e13083e5d7aa0e1b70ec8f2c1280d6e2b4757058abbc210f425d9d0c3b",
+      "source_key": "final-20260906-primary-v1:3623"
+    },
+    "1408": {
+      "environment_seed": 3393472736,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01408.npz",
+      "sha256": "3fc846bd445d5639c21376193164a7f04bf61c0ad9743ea09cff97e8a927c771",
+      "source_key": "final-20260906-primary-v1:3625"
+    },
+    "1420": {
+      "environment_seed": 2908567676,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01420.npz",
+      "sha256": "6f6f523631340e25c21347ef638851a17ae09054b9cd44d807d139343d5cd9f7",
+      "source_key": "final-20260906-primary-v1:3644"
+    },
+    "1422": {
+      "environment_seed": 1227729184,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01422.npz",
+      "sha256": "605d0595025e6e16eb129b5a1997ec7456a70a405173bb335c4edb69990eaf1e",
+      "source_key": "final-20260906-primary-v1:3653"
+    },
+    "1444": {
+      "environment_seed": 3747668658,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01444.npz",
+      "sha256": "c1ef4c0d7423639bee258e432d19e60eeb428d89147a4e4e361339238c18c2cd",
+      "source_key": "final-20260906-primary-v1:3707"
+    },
+    "1452": {
+      "environment_seed": 3799974262,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01452.npz",
+      "sha256": "5c9101720699a7ae48d9d510cd044cc82a68745a291c744a95c96eea8f4def22",
+      "source_key": "final-20260906-primary-v1:3722"
+    },
+    "1458": {
+      "environment_seed": 2475643202,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01458.npz",
+      "sha256": "d5e7851dafc29616a1aa85fa4beb49b7c27f36a49d8f52dade29684abbb2afb6",
+      "source_key": "final-20260906-primary-v1:3740"
+    },
+    "1469": {
+      "environment_seed": 2539408866,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01469.npz",
+      "sha256": "46f586e219642fbd942eeeeb3562749ae4c07d5d42babaff7a91678b8fb00c4e",
+      "source_key": "final-20260906-primary-v1:3774"
+    },
+    "1472": {
+      "environment_seed": 3323434271,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01472.npz",
+      "sha256": "342f659a1715036a67d3eb30bb047de530a02b903190fe70a9c3f55cd8be484d",
+      "source_key": "final-20260906-primary-v1:3783"
+    },
+    "1478": {
+      "environment_seed": 3444196653,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01478.npz",
+      "sha256": "20948dac3a1180e1079c8d1df2c34bbf8631beaf47a637e2d5e43e7138ddefd0",
+      "source_key": "final-20260906-primary-v1:3792"
+    },
+    "1481": {
+      "environment_seed": 81938734,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01481.npz",
+      "sha256": "a8d108bcc054947da621d7e9cb50757dc5252fb1174e8709ef3698868c2eaedc",
+      "source_key": "final-20260906-primary-v1:3798"
+    },
+    "1487": {
+      "environment_seed": 3318631509,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01487.npz",
+      "sha256": "d53497e3be013fb0cdfe4c86adbb9b3e5b6d668787dc956ad10bb28bfa3b10bc",
+      "source_key": "final-20260906-primary-v1:3812"
+    },
+    "1512": {
+      "environment_seed": 3776124230,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01512.npz",
+      "sha256": "0216392c0e38a0ebf8711dd09d385a76b5fb3aa1dcb5a1f976441014fcb70b1d",
+      "source_key": "final-20260906-primary-v1:3900"
+    },
+    "1534": {
+      "environment_seed": 2917582170,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01534.npz",
+      "sha256": "cda5ccaaf053246320fce4506c0475df188ce2a4ffffacae73fc7d46358404ec",
+      "source_key": "final-20260906-primary-v1:3965"
+    },
+    "1537": {
+      "environment_seed": 4219960942,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01537.npz",
+      "sha256": "9525bc30603d5d97f8d6faf71a827df8e0a6686e60134bf9fc8354cc9d6277f5",
+      "source_key": "final-20260906-primary-v1:3987"
+    },
+    "1538": {
+      "environment_seed": 779140798,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01538.npz",
+      "sha256": "d19e6eb669d564d5342c4b55c678a781366106c5ee9d32c771d079a2ae0f503b",
+      "source_key": "final-20260906-primary-v1:3988"
+    },
+    "1543": {
+      "environment_seed": 4129937249,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01543.npz",
+      "sha256": "d568359b98b38fcef6204ae65130a4c4adfc72f208da9082fe4dd83a8d167b1e",
+      "source_key": "final-20260906-primary-v1:3996"
+    },
+    "1556": {
+      "environment_seed": 934057593,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01556.npz",
+      "sha256": "cc8b7f3640cc8acc6533921211012302dd7453c28f5bb1a74161a41f69dc1ebf",
+      "source_key": "final-20260906-primary-v1:4016"
+    },
+    "1558": {
+      "environment_seed": 961323778,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01558.npz",
+      "sha256": "92a856144436dcc4abb1838a46553c614990558a52f1e1c669c8e9d560c5dea1",
+      "source_key": "final-20260906-primary-v1:4018"
+    },
+    "1559": {
+      "environment_seed": 1647117390,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01559.npz",
+      "sha256": "48a8d69276c4f01634d4ed8ea5d8917ec88e84cc7f390f02f93684bd676b8ec2",
+      "source_key": "final-20260906-primary-v1:4022"
+    },
+    "1564": {
+      "environment_seed": 2588987132,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01564.npz",
+      "sha256": "29640ae2a2aa20cf4783533348f5fe79c222644ea9d99ed2c7ed80edb43a2e46",
+      "source_key": "final-20260906-primary-v1:4030"
+    },
+    "1573": {
+      "environment_seed": 277556493,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01573.npz",
+      "sha256": "a54ffbff71582bb52368bc3cacf10fa075426fe0e79a55b8779d4b4f6db70dd9",
+      "source_key": "final-20260906-primary-v1:4075"
+    },
+    "1576": {
+      "environment_seed": 3161317406,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01576.npz",
+      "sha256": "687eba505565caee0b139bbb487767ba1bb996a79126aab5208286b647b7469d",
+      "source_key": "final-20260906-primary-v1:4084"
+    },
+    "1584": {
+      "environment_seed": 2551188457,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01584.npz",
+      "sha256": "13102663f6b890a35296d7ddc6612ad21a591503380b0639f20fca6e10ebceb5",
+      "source_key": "final-20260906-primary-v1:4106"
+    },
+    "1590": {
+      "environment_seed": 2296740441,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01590.npz",
+      "sha256": "8ae224ea4d57933ca6085066edc6debd7f354f6b3dd35d61419630f599f3b9be",
+      "source_key": "final-20260906-primary-v1:4137"
+    },
+    "1594": {
+      "environment_seed": 2869902813,
+      "file": "/lustreFS/data/superworld/ckontzias/thesis/experiments/independent-pusht/final-20260906-4a608e5/collection/reference-01594.npz",
+      "sha256": "cca2a7614d1fbb2a76feabbe189bacde15fed42d266b75ba747e6737ae1d301a",
+      "source_key": "final-20260906-primary-v1:4155"
+    }
+  },
+  "researcher_approved": false,
+  "source_identity_verified": true,
+  "status": "PREPARED_NOT_AUTHORIZED_FOR_EXECUTION",
+  "version": "candidate-value-breadth-precision-20260915"
+}
