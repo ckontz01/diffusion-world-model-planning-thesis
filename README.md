@@ -191,6 +191,19 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**15 September: fixed CPU-only objective × capacity comparison completed.**
+The [60-fit study](docs/cvl1-objective-capacity-20260915-v1/REPORT.md) compared
+original/compact evaluators under absolute BCE and baseline-relative squared
+error, using only saved CVL-1 data. The training-only original-relative nominee
+was +0.152 percentage points versus continuation in source-held-out cross-fitting,
+but −1.497 points on exposed development validation; all four ensembles were
+negative there. Objective effects varied across folds, and compact capacity did
+not improve pooled cross-fitting. Continuation remains the working baseline;
+the frozen nomination is preserved, not replaced using validation. One 201-second
+4-CPU allocation completed all 60 fits, with external-SSD backup. CVL-1's
+`stop_no_ranking_promise`, earlier diagnosis, checkpoints and historical results
+remain unchanged. No new labels, GPU or closed-loop evaluation was used.
+
 **15 September: one CPU-only CVL-1 learning diagnosis completed.** The
 [saved-feature diagnosis](docs/cvl1-learning-diagnosis-20260915-v1/REPORT.md)
 preserves `stop_no_ranking_promise`. Ensemble selection was +12.72 points versus
