@@ -191,6 +191,15 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**15 September: CVL-1 collection paused by a dispatcher file-inventory race.**
+The [technical stop record](docs/candidate-value-learning-20260914/DISPATCH-STOP-20260915.md)
+documents 81 completed collection jobs and both preflights, 83 verified adjacent
+seals, and a member-verified external stopped-run backup. Job 301256 completed
+successfully after the dispatcher stopped on a disappearing temporary file.
+Reconciled cost is 4h45m51s including the earlier failed allocation. No partial
+scientific outcomes were interpreted, no models fitted, and no replacement
+jobs launched. The monitor is paused; frozen scientific settings remain unchanged.
+
 **15 September: CVL-1 technical collection tranche passed.** All eight jobs for
 the four fixed references at both horizons completed with verified seals and
 technical identities. The [gate record](docs/candidate-value-learning-20260914/TECHNICAL-PILOT-20260915.md)
