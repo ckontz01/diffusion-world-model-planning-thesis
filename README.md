@@ -191,6 +191,16 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**17 September (local): CVL-BP1 resumed after the approved SSD-check repair.**
+The second recovery reuses all 148 completed coordinates and submits only the
+302 unsubmitted tasks, starting with job 301630 (`breadth-140`, source 463, H75).
+The native Windows volume helper removes the failing WSL-to-Windows probe path;
+fresh identity/headroom checks and fail-closed dispatch remain required. The
+original scientific snapshot, budgets and all prior charges are unchanged.
+The existing monitor is active again. The study is running, not complete, and
+partial scientific results remain sealed. See the
+[second recovery launch](docs/candidate-value-breadth-precision-20260915/RECOVERY2-LAUNCH-20260917.md).
+
 **16 September: CVL-BP1 recovery paused after a WSL volume-probe failure.**
 All 46 recovery allocations completed successfully, bringing the total to 148
 completed coordinates. The backup companion's WSL-to-Windows volume-label query
