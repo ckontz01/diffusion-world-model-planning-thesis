@@ -196,7 +196,9 @@ An SSH timeout exited the external backup companion. The monitor stopped the
 serial dispatcher under the approved infrastructure-failure rule, preserving
 102 completed allocations and requesting cancellation of job301578. There was
 no observed scientific failure and no partial outcome inspection. Terminal
-accounting and verified failure-artifact backup remain pending; see the
+accounting is now reconciled at6h3m12s GPU allocation; the stopped run has a
+verified external-SSD archive, and monitoring is paused pending scoped recovery.
+See the
 [technical stop record](docs/candidate-value-breadth-precision-20260915/TECHNICAL-STOP-20260916.md).
 No retry or relaunch has been performed.
 
