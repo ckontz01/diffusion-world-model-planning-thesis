@@ -191,6 +191,16 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**16 September: approved CVL-BP1 launched after a narrow host-side repair.**
+The [launch record](docs/candidate-value-breadth-precision-20260915/LAUNCH-20260916.md)
+binds the unchanged scientific protocol and resource envelope to the repaired
+source. The first job is Slurm301452; the fixed serial dispatcher and external
+THESIS_SSD backup companion are running. The first16 included jobs must pass
+technical resource checks before the remaining stages proceed. No partial
+scientific results are reported, and the study is not yet complete. Historical
+decisions, continuation baseline and protected/reserved data boundaries remain
+unchanged.
+
 **15 September: source breadth versus continuation-label precision prepared; not launched.**
 The [CVL-BP1 executable proposal](docs/candidate-value-breadth-precision-20260915/PROTOCOL.md)
 compares original96×2 draws,192×2 draws and original96×4 draws with fixed
@@ -199,7 +209,8 @@ Identifier-only allocation assigns96 new training and32 new model-held-out
 development sources, excluding all192 earlier allocated sources. The proposed
 [resource envelope](docs/candidate-value-breadth-precision-20260915/RESOURCE-PLAN.md)
 covers at most32,768 new outcomes before unavailable-anchor reductions; no new
-labels, training, physics, GPU jobs or closed loop are authorized or executed.
+labels, training, physics, GPU jobs or closed loop were authorized or executed
+at that preparation stage. The later bounded launch approval is recorded above.
 Continuation and the recorded `original_relative` nomination remain unchanged.
 
 **15 September: fixed CPU-only objective × capacity comparison completed.**
