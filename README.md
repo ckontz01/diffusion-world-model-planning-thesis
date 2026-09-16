@@ -191,14 +191,25 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**16 September: CVL-BP1 recovery paused after a WSL volume-probe failure.**
+All 46 recovery allocations completed successfully, bringing the total to 148
+completed coordinates. The backup companion's WSL-to-Windows volume-label query
+failed; the recovery controller detected that stop and submitted no further job.
+No new allocation failed or required cancellation. Total charged GPU allocation
+is 8h53m24s, including the original cancelled attempt. The 148 completed outputs
+and stop evidence have verified external-SSD backups. Monitoring is paused;
+302 fixed coordinates remain, and partial scientific results remain unopened.
+See the [recovery stop record](docs/candidate-value-breadth-precision-20260915/RECOVERY-STOP-20260916.md).
+No second repair or resumption has been performed.
+
 **16 September: CVL-BP1 resumed under one scoped infrastructure recovery.**
 The user approved repairing backup liveness, reusing all102 completed outputs,
-and one replacement for cancelled301578. Replacement301579 is running the same
+and one replacement for cancelled301578. At launch, replacement301579 ran the same
 `breadth-94` coordinate from the unchanged scientific snapshot. The cancelled
 63 seconds remain charged; the fixed remainder and aggregate caps are unchanged.
 The separately frozen recovery controller checks fresh external-SSD liveness
-before every submission. Monitoring is active again; the study is not complete
-and no partial performance has been inspected. See the
+before every submission. Monitoring was re-enabled at launch; the subsequent
+stop is recorded above. No partial performance was inspected. See the
 [recovery launch](docs/candidate-value-breadth-precision-20260915/RECOVERY-LAUNCH-20260916.md)
 and its linked source/approval hashes, tests, accounting and preservation record.
 
