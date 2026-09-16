@@ -191,6 +191,16 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**17 September: CVL-BP1 cluster-only continuation authorized and launched.**
+The user moved external-SSD backup to the end, removing laptop liveness as a
+dispatch dependency while retaining cluster-side authentication and the full
+pre-evaluation model freeze. All150 completed tasks are reused; only300
+previously unsubmitted tasks remain, starting at breadth-142. No completed work
+or evaluator training is restarted. Original source, workers, science, budgets
+and failure charges remain unchanged. Final external backup is still pending.
+See the [operational amendment](docs/candidate-value-breadth-precision-20260915/CLUSTER-CONTINUATION-20260917.md)
+and [cluster launch](docs/candidate-value-breadth-precision-20260915/CLUSTER-CONTINUATION-LAUNCH-20260917.md).
+
 **17 September (local): CVL-BP1 resumed after the approved SSD-check repair.**
 The second recovery reuses all 148 completed coordinates and submits only the
 302 unsubmitted tasks, starting with job 301630 (`breadth-140`, source 463, H75).
