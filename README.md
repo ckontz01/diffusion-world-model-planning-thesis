@@ -191,6 +191,15 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**16 September: CVL-BP1 stopped on a backup-companion connection failure.**
+An SSH timeout exited the external backup companion. The monitor stopped the
+serial dispatcher under the approved infrastructure-failure rule, preserving
+102 completed allocations and requesting cancellation of job301578. There was
+no observed scientific failure and no partial outcome inspection. Terminal
+accounting and verified failure-artifact backup remain pending; see the
+[technical stop record](docs/candidate-value-breadth-precision-20260915/TECHNICAL-STOP-20260916.md).
+No retry or relaunch has been performed.
+
 **16 September: approved CVL-BP1 launched after a narrow host-side repair.**
 The [launch record](docs/candidate-value-breadth-precision-20260915/LAUNCH-20260916.md)
 binds the unchanged scientific protocol and resource envelope to the repaired
