@@ -59,6 +59,12 @@ The first authorized coordinate is **breadth-142, reference1559, H75**. All150
 completed outputs remain reused. Evaluator fitting had not begun before this
 continuation; there is no trained model restart or replacement fit.
 
+After authentication, the controller submitted **job301632** for breadth-142 at
+Unix UTC1789598752.5662887. A direct Slurm check reported `RUNNING`,91 elapsed
+allocation seconds, exit field0:0 (not a completion claim). Controller stderr
+remained0bytes and no new stop existed. This confirms actual forward continuation,
+not merely a prepared command or a laptop backup process.
+
 ## Monitoring and end backup
 
 The existing `monitor-cvl-bp1` was updated and re-enabled through the supported
