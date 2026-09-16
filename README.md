@@ -191,16 +191,27 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**16 September: CVL-BP1 resumed under one scoped infrastructure recovery.**
+The user approved repairing backup liveness, reusing all102 completed outputs,
+and one replacement for cancelled301578. Replacement301579 is running the same
+`breadth-94` coordinate from the unchanged scientific snapshot. The cancelled
+63 seconds remain charged; the fixed remainder and aggregate caps are unchanged.
+The separately frozen recovery controller checks fresh external-SSD liveness
+before every submission. Monitoring is active again; the study is not complete
+and no partial performance has been inspected. See the
+[recovery launch](docs/candidate-value-breadth-precision-20260915/RECOVERY-LAUNCH-20260916.md)
+and its linked source/approval hashes, tests, accounting and preservation record.
+
 **16 September: CVL-BP1 stopped on a backup-companion connection failure.**
 An SSH timeout exited the external backup companion. The monitor stopped the
 serial dispatcher under the approved infrastructure-failure rule, preserving
 102 completed allocations and requesting cancellation of job301578. There was
 no observed scientific failure and no partial outcome inspection. Terminal
 accounting is now reconciled at6h3m12s GPU allocation; the stopped run has a
-verified external-SSD archive, and monitoring is paused pending scoped recovery.
+verified external-SSD archive. At that stop, monitoring was paused pending scoped recovery.
 See the
 [technical stop record](docs/candidate-value-breadth-precision-20260915/TECHNICAL-STOP-20260916.md).
-No retry or relaunch has been performed.
+No retry or relaunch was performed before the separately authorized recovery above.
 
 **16 September: approved CVL-BP1 launched after a narrow host-side repair.**
 The [launch record](docs/candidate-value-breadth-precision-20260915/LAUNCH-20260916.md)
