@@ -6,9 +6,9 @@ import breadth_precision_contract as p
 import candidate_value_contract as ct
 
 EXTRA = tuple('cluster/prometheus/'+n for n in (
-    'breadth_precision_contract.py','breadth_precision_data.py','breadth_precision_learning.py',
+    'breadth_precision_contract.py','breadth_precision_data.py','breadth_precision_learning.py','breadth_precision_freeze.py',
     'breadth_precision_execute.py','breadth_precision_backup.py','breadth_precision_infra.py','prepare_breadth_precision.py',
-    'run_breadth_precision.sh','test_breadth_precision.py')) + (
+    'run_breadth_precision.sh','test_breadth_precision.py','test_breadth_precision_host.py')) + (
     'analysis/cvl1-objective-capacity-20260915-v1/study.py',
     p.MANIFEST,p.DOC,'docs/'+p.VERSION+'/RESOURCE-PLAN.md',
     'docs/'+p.VERSION+'/IMPLEMENTATION.md')
@@ -33,7 +33,7 @@ def source_freeze(repo, upstream, destination):
         raw=ct.child(repo,name).read_bytes().replace(b'\r\n',b'\n')
         p.require(b'\r' not in raw,'Source LF transport')
         target.write_bytes(raw)
-    from breadth_precision_learning import METRICS_SHA
+    from breadth_precision_freeze import METRICS_SHA
     p.require(p.sha(destination/'analysis/cvl1-objective-capacity-20260915-v1/study.py')==METRICS_SHA,
               'Unchanged accepted metrics helper')
     ct.json_write(destination/'EXECUTION-GRID.json',p.costs())

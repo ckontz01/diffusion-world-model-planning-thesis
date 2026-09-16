@@ -26,6 +26,11 @@ All new files are separate from accepted CVL-1 and objective/capacity sources.
 - `breadth_precision_infra.py`: three exact pure helper function bodies from
   the accepted storage-race-repaired dispatcher. Kept separate because the old
   immutable source predates that repair; no historical dispatcher is replaced.
+- `breadth_precision_freeze.py`: unchanged freeze-check function and constants,
+  moved to a standard-library-only module under the 16 September scoped repair
+  authorization. The controller and packager do not import numerical modules.
+- `test_breadth_precision_host.py`: isolated `python -I -S` host-boundary checks,
+  with numerical/runtime imports explicitly rejected.
 - `test_breadth_precision.py`: focused synthetic cases. Tests never call an
   optimizer, frozen neural checkpoint, planner, world model or physics simulator.
 
@@ -42,6 +47,7 @@ From this repository (set `PYTHONDONTWRITEBYTECODE=1` to keep source closures cl
 ```bash
 PYTHONPATH=cluster/prometheus python cluster/prometheus/prepare_breadth_precision.py plan
 PYTHONPATH=cluster/prometheus python -m unittest cluster/prometheus/test_breadth_precision.py -v
+python -I -S cluster/prometheus/test_breadth_precision_host.py
 bash -n cluster/prometheus/run_breadth_precision.sh
 ```
 
@@ -88,8 +94,8 @@ PYTHONDONTWRITEBYTECODE=1 PYTHONPATH="$REPO/cluster/prometheus" python \
   "$REPO/cluster/prometheus/breadth_precision_backup.py" \
   --run "$RUN" --approval "$APPROVAL" --source-sha "$SOURCE_SHA"
 
-# Prometheus, pinned runtime Python; do not start before exact launch approval:
-PYTHONDONTWRITEBYTECODE=1 PYTHONPATH="$SNAPSHOT/cluster/prometheus" python \
+# Prometheus host Python3, standard-library controller (workers retain pinned runtime):
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH="$SNAPSHOT/cluster/prometheus" python3 \
   "$SNAPSHOT/cluster/prometheus/breadth_precision_execute.py" dispatch \
   --source "$SNAPSHOT" --run "$RUN" --approval "$APPROVAL"
 ```

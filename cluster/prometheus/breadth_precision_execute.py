@@ -84,7 +84,7 @@ def dispatch(source,run,approval):
             p.require(p.reservation(gpu,cpu,bytes_used(run),fixed[pos:]),'Whole remaining workload reservation cannot fit')
             if spec['kind']=='fit':backup('train')
             if spec['kind']=='evaluation' and spec['index']==0:
-                from breadth_precision_learning import check_frozen
+                from breadth_precision_freeze import check_frozen
                 check_frozen(run,a['source_sha256']);backup('models')
             if spec['kind']=='analyze':backup('evaluation')
             cmd=arguments(spec,source,run,approval)

@@ -7,8 +7,7 @@ import breadth_precision_contract as p
 import candidate_value_contract as ct
 from candidate_value_data import read_npz,write_npz
 
-CONFIGS=tuple(condition+'_'+objective for condition in ('A','B','C') for objective in ('bce','relative'))
-METRICS_SHA='d54f2826a82af210d4148486f4a465e247f63ac7a8b8df54aa57cac839d166c5'
+from breadth_precision_freeze import CONFIGS,METRICS_SHA,check_frozen
 
 
 def helpers():
@@ -131,15 +130,6 @@ def train(run,out,source_sha):
         sampled_index_rows=8*len(rows),outcome_records=sum(b['y'].size for b in rows)) for k,rows in data.items()}
     return dict(fits=ledger,training=training,condition_support=support,models_frozen=True,evaluation_outcomes_opened=False,
                 original_decision='stop_no_ranking_promise',no_automatic_closed_loop=True)
-
-
-def check_frozen(run,source_sha):
-    directory=Path(run)/'fit-0';r=ct.verify_seal(directory)
-    p.require(r['models_frozen'] is True and r['new_source_sha256']==source_sha,'Frozen full model stage')
-    freeze=ct.json_read(directory/'PRE-EVALUATION-FREEZE.json')
-    p.require(freeze['fitted_models']==18 and freeze['configs']==list(CONFIGS) and not freeze['evaluation_outcomes_opened'], 'Pre-evaluation barrier')
-    for name,digest in freeze['members'].items():p.require(p.sha(ct.child(directory,name))==digest,'Frozen member')
-    return freeze
 
 
 def analyze(run,out,source_sha):
