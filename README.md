@@ -191,6 +191,14 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**18 September: saved-score information comparison prepared, not launched.**
+The [SI1 protocol](docs/candidate-value-score-information-20260918/PROTOCOL.md)
+compares the original 619 fields plus two zeros against the same fields plus
+authenticated immediate/continuation costs. Four source-disjoint folds of the
+192 B-training references give 24 fixed BCE fits. Preparation uses metadata and
+synthetic tests only; training requires separate approval. Continuation remains
+the baseline, with no model promotion or historical decision changes.
+
 **18 September local (17 September UTC): CVL-BP1 completed and backed up.**
 All450 coordinates succeeded (451 attempts including the preserved63s cancellation).
 All18 models were frozen before evaluation; all32 development references are reported.
