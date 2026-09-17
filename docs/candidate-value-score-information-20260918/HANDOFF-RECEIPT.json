@@ -1,0 +1,102 @@
+{
+  "ceiling_bytes": 1000000000,
+  "external_preparation_archive_manifest_receipt_handoff_bytes": 23637525,
+  "local_documentation_bytes": 2698315,
+  "measured_materialized_bytes_before_this_receipt": 67594451,
+  "members": [
+    {
+      "bytes": 1686,
+      "name": "ACCOUNTING.json",
+      "sha256": "3a72e371e96c4ef1f19f23f1ed118a388d964301b2a4808f2fca93142b856119"
+    },
+    {
+      "bytes": 1098,
+      "name": "EXECUTION-APPROVAL.json",
+      "sha256": "9cbddb0a9e19ab162961a38253efc0fefcc3e8936ec70a84cedbbe4955a23cef"
+    },
+    {
+      "bytes": 1993,
+      "name": "EXECUTION-PREFLIGHT-BLOCKED.md",
+      "sha256": "b0fe625c96d5c7d41c0a60a6151d77b44b93840ff08ea39ae3df7b4113931785"
+    },
+    {
+      "bytes": 2280635,
+      "name": "FINAL-AGGREGATE.json",
+      "sha256": "4d3aed3f401680be2f616fd15d8dd47810857ec9fe22cbbf72e099fb908d6eab"
+    },
+    {
+      "bytes": 15161,
+      "name": "FINAL-REPORT.md",
+      "sha256": "ef106a1a38c2858cb83b3298ccb5bf1895ba7cbed5ef5ee2c315d1435457d754"
+    },
+    {
+      "bytes": 4881,
+      "name": "FOLDS.json",
+      "sha256": "5556a92e89eadef268428bbe44f97a6c2655b98f30dbeae9f5808f82c0ee8813"
+    },
+    {
+      "bytes": 2226,
+      "name": "LAUNCH.md",
+      "sha256": "9ef8eac9f38c43bbe48c69639bb731f9f29f25a7d7894f32e32b5bd70da917d2"
+    },
+    {
+      "bytes": 298300,
+      "name": "LINEAGE.json",
+      "sha256": "633be15376a195ee35ef33b72694638b20967ecb82be2658f1eb0367c9aee8c5"
+    },
+    {
+      "bytes": 2449,
+      "name": "PREPARATION.md",
+      "sha256": "ded243e89a93dfe91e88ddfa96e3879c181df6f43a121aba1b6e1f28344c1b76"
+    },
+    {
+      "bytes": 7457,
+      "name": "PROTOCOL.md",
+      "sha256": "7234f2617fb8a1e78ea900870cd5d08de2f2d0bc2b5173ed972b83057a524953"
+    },
+    {
+      "bytes": 4180,
+      "name": "RESOURCE-PLAN.md",
+      "sha256": "9f0147b06a7f26684887fe53e37a8b354dd2af913740997135149c1a73812097"
+    },
+    {
+      "bytes": 61165,
+      "name": "THESIS-README.md",
+      "sha256": "82520fbc378c0635047badc4141fcea4beebf059cf540769ede980031715e179"
+    },
+    {
+      "bytes": 354,
+      "name": "VERIFIED-BACKUP.json",
+      "sha256": "208e5deb2e2647f9a322aad503ff51f68df5cf4cf50912aa044f00bd979dbacf"
+    },
+    {
+      "bytes": 1723,
+      "name": "backup_handoff.py",
+      "sha256": "1a3bcbb51c1a6a61cb015cb9c0c0c06992d08c1c2217af0eeaf5d6b4650c543c"
+    },
+    {
+      "bytes": 2896,
+      "name": "launch_once.py",
+      "sha256": "5a390760b158e364980937ea64b3468eae5d724c4f66eb24985f1690d97543e0"
+    },
+    {
+      "bytes": 3087,
+      "name": "preserve_completed.py",
+      "sha256": "1788ba564dceb7bcc73a08e038811631efe38dd45a4564a55e50d5d873d44819"
+    },
+    {
+      "bytes": 7600,
+      "name": "render_result.py",
+      "sha256": "be305556d9e4c0d509b1cd560ed1d28a3d95b5533ec9bbf76387aca56d8c6329"
+    },
+    {
+      "bytes": 1424,
+      "name": "verify_backup.py",
+      "sha256": "04ce9ddd45e2c526bd4f8d3afeaff4fa63d70a1bb936fddc0685218dc7a65be7"
+    }
+  ],
+  "notes": "Conservative scope includes preparation lineage staging and duplicate copies; excludes pre-existing research data, WSL recovery VHDX, Git database and filesystem block overhead. Receipt itself adds only a few KB.",
+  "remote_source_run_staging_bytes": 41258611,
+  "utc": 1789684658.1633909,
+  "verified": true
+}

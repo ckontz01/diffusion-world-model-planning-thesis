@@ -1,0 +1,63 @@
+{
+  "command": [
+    "sacct",
+    "-j",
+    "301953",
+    "--parsable2",
+    "--format=JobID,JobName,Partition,State,ExitCode,ElapsedRaw,AllocCPUS,ReqMem,AllocTRES,MaxRSS,TotalCPU,Submit,Start,End"
+  ],
+  "job": 301953,
+  "rows": [
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,mem=8G,node=1",
+      "ElapsedRaw": "102",
+      "End": "2026-09-18T01:32:45",
+      "ExitCode": "0:0",
+      "JobID": "301953",
+      "JobName": "si1-score-info",
+      "MaxRSS": "",
+      "Partition": "defq",
+      "ReqMem": "8Gn",
+      "Start": "2026-09-18T01:31:03",
+      "State": "COMPLETED",
+      "Submit": "2026-09-18T01:31:02",
+      "TotalCPU": "05:41.640"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,mem=8G,node=1",
+      "ElapsedRaw": "102",
+      "End": "2026-09-18T01:32:45",
+      "ExitCode": "0:0",
+      "JobID": "301953.batch",
+      "JobName": "batch",
+      "MaxRSS": "697768K",
+      "Partition": "",
+      "ReqMem": "8Gn",
+      "Start": "2026-09-18T01:31:03",
+      "State": "COMPLETED",
+      "Submit": "2026-09-18T01:31:03",
+      "TotalCPU": "05:41.640"
+    },
+    {
+      "AllocCPUS": "4",
+      "AllocTRES": "cpu=4,mem=8G,node=1",
+      "ElapsedRaw": "102",
+      "End": "2026-09-18T01:32:45",
+      "ExitCode": "0:0",
+      "JobID": "301953.extern",
+      "JobName": "extern",
+      "MaxRSS": "1364K",
+      "Partition": "",
+      "ReqMem": "8Gn",
+      "Start": "2026-09-18T01:31:03",
+      "State": "COMPLETED",
+      "Submit": "2026-09-18T01:31:03",
+      "TotalCPU": "00:00:00"
+    }
+  ],
+  "utc": 1789684382.4242828,
+  "verified_worker_members": 40,
+  "worker_seal_sha256": "73384f244abd42067fc13ae64318abfa6a1c3036708fc45bc34ec8cdc4e7c3e3"
+}

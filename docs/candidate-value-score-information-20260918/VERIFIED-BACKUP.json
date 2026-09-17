@@ -1,0 +1,10 @@
+{
+  "archive_sha256": "57deab4d1f30b3618f336c0c73bad45827e64301aa7ae3664bedc0e35d715e41",
+  "bytes": 20500480,
+  "external_volume": "0a2f1ba9-0000-0000-0000-100000000000",
+  "members": 68,
+  "source_models_preprocessing_predictions_reports_accounting_preserved": true,
+  "unique_payload_bytes": 20442378,
+  "utc": 1789684433.711179,
+  "verified": true
+}

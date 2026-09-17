@@ -191,6 +191,15 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**18 September: SI1 saved-score information comparison completed.**
+All 24 fixed CPU fits completed in one 102-second allocation. On 192 source-held-out
+development references, treatment selected success was 14.442%, control 14.507%,
+and continuation 15.668%. Treatment minus control was -0.065 percentage points;
+slightly better probability error did not improve selection. Retain continuation;
+promote no model. All outputs were sealed and backed up to the external SSD.
+See the [complete report and all source effects](docs/candidate-value-score-information-20260918/FINAL-REPORT.md)
+and [unaltered aggregate](docs/candidate-value-score-information-20260918/FINAL-AGGREGATE.json).
+
 **18 September: saved-score information comparison prepared, not launched.**
 The [SI1 protocol](docs/candidate-value-score-information-20260918/PROTOCOL.md)
 compares the original 619 fields plus two zeros against the same fields plus

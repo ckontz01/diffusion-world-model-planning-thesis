@@ -1,0 +1,22 @@
+{
+  "approved_commit": "b1cfcdd8e062ca995feb439e4d8cefe2dac40f08",
+  "authorization": "Researcher SI1 execution approval; one allocation; no retry",
+  "backup_destination": "D:/THESIS-BACKUPS/candidate-value-score-information-20260918/execution-68145e6458da0b90",
+  "backup_volume": "0a2f1ba9-0000-0000-0000-100000000000",
+  "caps": {
+    "artifact_bytes": 1000000000,
+    "cpu_allocation_wall_seconds": 7200,
+    "cpus": 4,
+    "fits": 24,
+    "gpu_allocations": 0,
+    "memory_bytes": 8589934592
+  },
+  "execution_authorized": true,
+  "fits": 24,
+  "folds_sha256": "5556a92e89eadef268428bbe44f97a6c2655b98f30dbeae9f5808f82c0ee8813",
+  "lineage_sha256": "633be15376a195ee35ef33b72694638b20967ecb82be2658f1eb0367c9aee8c5",
+  "runtime_environment": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006",
+  "runtime_image": "/lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif",
+  "source_sha256": "68145e6458da0b90255dd98e4fa2b9469dea12907797d7830c9bd233314be35c",
+  "study": "candidate-value-score-information-20260918"
+}
