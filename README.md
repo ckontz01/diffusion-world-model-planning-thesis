@@ -191,6 +191,17 @@ Reading the results does not require cluster access. The compact outcome table a
 
 ## Research history
 
+**18 September local (17 September UTC): CVL-BP1 completed and backed up.**
+All450 coordinates succeeded (451 attempts including the preserved63s cancellation).
+All18 models were frozen before evaluation; all32 development references are reported.
+None of the six learned ensembles exceeds continuation on mean selected success.
+Breadth improved BCE relative to its A/C versions, not demonstrably over continuation;
+extra tail draws did not establish improvement. No model is promoted or follow-up launched.
+Four verified SSD archives cover all450 outputs plus preservation evidence. Content-only
+auxiliary packaging resolved the metadata-copy error without permission changes.
+See the [final report](docs/candidate-value-breadth-precision-20260915/FINAL-REPORT.md)
+and [unchanged aggregate](docs/candidate-value-breadth-precision-20260915/FINAL-AGGREGATE.json).
+
 **17 September: CVL-BP1 cluster-only continuation authorized and launched.**
 The user moved external-SSD backup to the end, removing laptop liveness as a
 dispatch dependency while retaining cluster-side authentication and the full

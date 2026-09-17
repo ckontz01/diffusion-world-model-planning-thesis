@@ -1,5 +1,10 @@
 # CVL-BP1 computation complete; final preservation pending
 
+Historical intermediate status, superseded by [FINAL-REPORT.md](FINAL-REPORT.md).
+The user approved content-only packaging; a separate versioned package and all
+four external archives were verified without modifying permissions or deleting
+the partial package. Final aggregate disclosure followed backup verification.
+
 On 17 September 2026, direct Prometheus accounting confirmed all 300
 cluster-continuation allocations completed with exit 0:0, ending at analyzer
 job 301952. Including the authenticated historical prefix, the study has

@@ -1,0 +1,37 @@
+{
+  "archives": [
+    {
+      "archive": "/mnt/d/THESIS-BACKUPS/candidate-value-breadth-precision-20260915/run-70e3838c83561b8b/failure-20260916.tar",
+      "archive_sha256": "5f09feeabd59032c129940c69a6ab5163f1bf4171d52bc37ef96b7fc4f558bba",
+      "bytes": 312852480,
+      "request_sha256": "5a32ad65a667018d2987a74132a41fb56f4de70651525ca7ab546db8aa0cdb7c",
+      "verified": true
+    },
+    {
+      "archive": "/mnt/d/THESIS-BACKUPS/candidate-value-breadth-precision-20260915/run-70e3838c83561b8b/recovery-stop-20260916.tar",
+      "archive_sha256": "b5bbf19cc470ccbf58fad39f350ccfecf38fed2867b7eaf8344d2f8e6cc12d46",
+      "bytes": 154030080,
+      "request_sha256": "2e800637463fc1fbb121e8939875c553f004d71c4fbf84320001567af0321383",
+      "verified": true
+    },
+    {
+      "archive": "/mnt/d/THESIS-BACKUPS/candidate-value-breadth-precision-20260915/run-70e3838c83561b8b/cluster-final.tar",
+      "archive_sha256": "90e7489d681b8cd72a175711286f3b5a2d3319a0f05910c1bfe89d7f5d9de72c",
+      "bytes": 1089720320,
+      "request_sha256": "a1166ab7eab3d563388bb4065ed941f71621d9b6a03c57550896d9708bca74de",
+      "verified": true
+    },
+    {
+      "archive": "/mnt/d/THESIS-BACKUPS/candidate-value-breadth-precision-20260915/run-70e3838c83561b8b/final-preservation-content-only.tar",
+      "archive_sha256": "91cc9a3baf8c4e880772192281c3543ea277bc865f876623790d715704dfe8f3",
+      "bytes": 23582720,
+      "request_sha256": "eb60dd2eb4c7fb7c0286c9124ef31759c3052942fa2a87756e9a27579e6c5fee",
+      "verified": true
+    }
+  ],
+  "auxiliary_transfer_and_union_verification_seconds": 79.36904844900164,
+  "sealed_roots": 458,
+  "successful_coordinate_roots": 450,
+  "utc": 1789678818.8994987,
+  "verified": true
+}
