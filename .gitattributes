@@ -1,3 +1,5 @@
 cluster/prometheus/run_single_anchor_ranking.sh text eol=lf
 cluster/prometheus/preflight_single_anchor_ranking.sh text eol=lf
 cluster/prometheus/final_verify_single_anchor_ranking.sh text eol=lf
+docs/candidate-value-score-information-20260918/* text eol=lf
+cluster/prometheus/run_score_information.sh text eol=lf
