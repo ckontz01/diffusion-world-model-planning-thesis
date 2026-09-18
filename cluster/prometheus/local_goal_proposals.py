@@ -38,7 +38,7 @@ def stream_seed(episode, stage, purpose, seed):
 
 def convert_actions(blocks, source_mean, source_std, target_mean, target_std):
     """Normalize -> raw displacement -> destination normalization; no clipping."""
-    x = np.asarray(blocks)
+    x = np.asarray(blocks, dtype=np.float32)
     stats = [np.asarray(v) for v in (source_mean, source_std, target_mean, target_std)]
     if x.shape[-2:] != (3,10) or not np.isfinite(x).all():
         raise ValueError('Expected three five-action blocks')
@@ -47,7 +47,14 @@ def convert_actions(blocks, source_mean, source_std, target_mean, target_std):
     sm, ss, tm, ts = stats
     if (ss <= 0).any() or (ts <= 0).any():
         raise ValueError('Nonpositive action scale')
-    return (((x.reshape(*x.shape[:-2],15,2)*ss+sm)-tm)/ts).reshape(x.shape)
+    # Match the pinned sklearn decoder: float64 coefficients, an FP32 output
+    # store after EACH operation (not one fused double-precision expression).
+    raw = x.reshape(*x.shape[:-2],15,2).copy()
+    np.multiply(raw, ss.astype(np.float64), out=raw)
+    np.add(raw, sm.astype(np.float64), out=raw)
+    np.subtract(raw, tm.astype(np.float64), out=raw)
+    np.divide(raw, ts.astype(np.float64), out=raw)
+    return raw.reshape(x.shape)
 
 
 def lowdim_from_state(state):
@@ -58,7 +65,7 @@ def lowdim_from_state(state):
 
 
 def common_cem(context, sample, cost, *, proposal_rng, refinement_rng,
-               candidates=300, rounds=30, elites=30, project=None):
+               candidates=300, rounds=30, elites=30, project=None, noises=None):
     """Only sample(context,K,rng) is family-specific. Return final elite mean.
 
     Explicit shared departure from native topk: stable lowest-index elite ties.
@@ -69,26 +76,31 @@ def common_cem(context, sample, cost, *, proposal_rng, refinement_rng,
     b = context.validate()
     if not 2 <= elites <= candidates or rounds < 1:
         raise ValueError('Invalid CEM budget')
-    bank = np.asarray(sample(context,candidates,proposal_rng))
+    bank = np.asarray(sample(context,candidates,proposal_rng), dtype=np.float32)
     expected = (b,candidates,3,10)
     calls = []
     for iteration in range(rounds):
         if bank.shape != expected or not np.isfinite(bank).all():
             raise ValueError('Invalid proposal/refinement bank')
         if project is not None:
-            bank = np.asarray(project(bank))
+            bank = np.asarray(project(bank), dtype=np.float32)
             if bank.shape != expected or not np.isfinite(bank).all():
                 raise ValueError('Invalid projected bank')
-        values = np.asarray(cost(context,bank))
+        values = np.asarray(cost(context,bank), dtype=np.float32)
         if values.shape != (b,candidates) or not np.isfinite(values).all():
             raise ValueError('Invalid shared cost')
         order = np.argsort(values,axis=1,kind='stable')[:,:elites]
         selected = bank[np.arange(b)[:,None],order]
         mean, std = selected.mean(1), selected.std(1,ddof=1)
-        calls.append(dict(round=iteration,candidates=candidates,elite_indices=order.copy()))
+        calls.append(dict(round=iteration,candidates=candidates,elite_indices=order.copy(),dtype=str(bank.dtype)))
         if iteration+1 < rounds:
-            bank = refinement_rng.standard_normal(expected)*std[:,None]+mean[:,None]
+            noise = (refinement_rng.standard_normal(expected, dtype=np.float32)
+                     if noises is None else np.asarray(noises[iteration],dtype=np.float32))
+            if noise.shape != expected: raise ValueError('Supplied noise shape')
+            bank = noise*std[:,None]+mean[:,None]
             bank[:,0] = mean
+    if project is not None:
+        mean = np.asarray(project(mean[:,None]), dtype=np.float32)[:,0]
     return mean, calls
 
 

@@ -86,7 +86,11 @@ def sample(model, inputs, count, rng):
     b = inputs[0].shape[0]
     if model.family == 'gmm':
         logits,means,log_std = model(*inputs)
-        modes = torch.multinomial(logits.softmax(-1),count,replacement=True,generator=rng)
+        # Inverse-CDF categorical draw avoids CUDA multinomial's strict-
+        # determinism restriction; one shared mode per whole trajectory.
+        u=torch.rand((b,count),device=logits.device,generator=rng)
+        cumulative=logits.softmax(-1).cumsum(-1);cumulative[:,-1]=1
+        modes=(u[:,:,None]>cumulative[:,None]).sum(-1)
         rows = torch.arange(b,device=means.device)[:,None]
         mean,std = means[rows,modes],log_std[rows,modes].exp()
         return mean+std*torch.randn(mean.shape,device=mean.device,generator=rng)

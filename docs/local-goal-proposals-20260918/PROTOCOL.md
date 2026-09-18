@@ -288,13 +288,13 @@ No such follow-up is automatically authorized.
 
 ## 10. Preparation completeness and launch boundary
 
-Implemented now: tensor model/loss/samplers, NumPy common-CEM reference,
-coordinate bridge, context/clock/target checks, source/identifier inventory and
-focused synthetic tests. **Not implemented or validated end-to-end:** authenticated
-real cache construction, optimizer/data loop, GPU tensor-CEM adapter, policy-to-
-driver binding, cluster dispatcher/accounting and final aggregate writer.
-These are specified engineering tasks, not a completed training/evaluation runner.
-No source freeze for execution or sbatch command is supplied; approval template
-is disabled. Approval of the bounded study must be followed by completion and
-synthetic regression of these bindings and an immutable execution manifest before
-any real allocation. No scientific redesign or implicit additional experiment.
+The reviewed preparation at `63e1d9229492aa193c625fdf19c78200f4614f22`
+is preserved. Its missing bindings have now been implemented: authenticated
+cache construction, actual optimizer/data loop, tensor-CEM, fresh-driver adapter,
+serial dispatch/accounting, independent artifact checks, aggregate and final
+archive verification. See `IMPLEMENTATION-COMPLETION.md` for exact entry points,
+tests, corrections and the distinction between implemented and real-runtime-untested.
+`LAUNCH-PACKAGE.json` identifies the complete source manifest. The generated
+root `APPROVAL-TEMPLATE.json` is disabled and binds that source/input identity;
+the old disabled document template remains historical. No research execution
+is authorized. A separate explicit approval must bind the completed package.

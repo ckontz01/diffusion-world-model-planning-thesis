@@ -8,3 +8,7 @@ cluster/prometheus/local_goal_*.py text eol=lf
 cluster/prometheus/prepare_local_goal_inventory.py text eol=lf
 cluster/prometheus/seal_local_goal_preparation.py text eol=lf
 cluster/prometheus/test_local_goal_proposals.py text eol=lf
+cluster/prometheus/lgp1_*.py text eol=lf
+cluster/prometheus/test_lgp1_pipeline.py text eol=lf
+cluster/prometheus/prepare_lgp1_inputs.py text eol=lf
+cluster/prometheus/run_lgp1.sh text eol=lf

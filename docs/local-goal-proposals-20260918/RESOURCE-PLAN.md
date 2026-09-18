@@ -82,8 +82,38 @@ from an HTTPhealthcheck, fileexistence or a completed computation marker.
 
 ## Decision requested later
 
-Approve this bounded training-plus-development study only after the pending
-real-data/driver/dispatch bindings listed in PROTOCOL §10 are completed and
-synthetically tested against this interface. An approval must bind their exact
-source, data roles, resources and accounting; the current disabled template
-grants nothing. No collection, GPU allocation or training was launched here.
+Bindings are now implemented and synthetically tested (PROTOCOL §10 and
+IMPLEMENTATION-COMPLETION.md). The next decision is approval of this exact
+bounded launch package, not another general design review. An approval must bind
+its source manifest, input lock, data roles, resources and accounting. The
+generated disabled template grants nothing. No real inference, GPU allocation,
+research training or simulator execution was launched here.
+
+## Completed execution accounting clarifications
+
+Each 4h fit includes final-checkpoint validation: 8,000 loss rows and 300
+sampled action chunks per validation row (2.4 million chunks per fit). These
+are supporting offline diagnostics within the same fit allocation, not an
+extra job or checkpoint-selection rule. All six fits include this cost. It is
+not safe to estimate fit feasibility from optimizer time alone: the wall guard
+covers validation, authentication, checkpoint I/O and checks as well.
+
+Cache and fitting guards inspect timing after 256 existing rows/updates. The
+cache estimate covers the remaining cache rows; fitting projection covers
+remaining updates and cannot guarantee that validation will fit. A timeout in
+validation still stops the chain, even if the fixed final weights exist. No
+workload is reduced to fit. Technical integration uses a 1.5x worst observed
+planning-stage plus per-action delivery estimate for a full 30-stage pair.
+
+Wrapper/container authentication is part of Slurm allocation wall time. Worker
+wall/CPU/RSS are separately recorded and cannot replace terminal Slurm charges.
+Host-side dispatch, final archive construction, copied-member verification and
+transfer consume no extra scheduler allocation and are reported separately.
+The one CPU job is final complete-grid aggregation and independent worker checks.
+
+Worker payload <=5.9GB; source/root control/logs <=200MB; every episode <=10MB
+(each two-horizon worker <=20MB). One uncompressed final archive is reserved
+from actual bytes before creation; payload plus source/control plus tar overhead
+and archive must remain <=12GB. Two times the individual subcaps would exceed
+12GB, so archive creation must check the total, not assume subcaps guarantee it.
+No deletion or laptop fallback is used to satisfy a cap.

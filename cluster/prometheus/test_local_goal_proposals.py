@@ -43,7 +43,7 @@ class InterfaceTests(unittest.TestCase):
         x=np.arange(60.).reshape(2,3,10)/100
         y=convert_actions(x,[.1,.2],[.3,.4],[.2,.3],[.5,.6])
         z=convert_actions(y,[.2,.3],[.5,.6],[.1,.2],[.3,.4])
-        np.testing.assert_allclose(x,z,atol=1e-15)
+        np.testing.assert_allclose(x,z,atol=2e-7)
         with self.assertRaises(ValueError): convert_actions(x,[0,0],[0,1],[0,0],[1,1])
 
     def test_state_and_target_boundary(self):

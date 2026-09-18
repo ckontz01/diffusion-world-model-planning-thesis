@@ -8,8 +8,9 @@ Preparation update, 18 September 2026: [LGP1 local-goal proposal comparison](doc
 inspects the released SAGE interface and specifies matched new GMM/diffusion
 proposers inside one shared planner. Synthetic-only preparation; no launch.
 SI1 remains complete, continuation remains the baseline, and no learned evaluator
-is promoted. The package explicitly separates tested interface/model components
-from the real-data and execution bindings still to implement.
+is promoted. The execution bindings are now implemented and synthetically tested;
+real cache inference, fitting, simulation and cluster execution remain untested
+and unauthorized. See the [completion record](docs/local-goal-proposals-20260918/IMPLEMENTATION-COMPLETION.md).
 
 This project asks whether diffusion can generate useful action sequences for a learned world model, and whether looking beyond the first sequence helps the planner choose better actions. The world model, Le-WM, stays fixed; the learned action proposer is the part being studied.
 

@@ -1,7 +1,17 @@
 # LGP1 preparation handoff
 
-This is a source-inspected, synthetically tested feasibility package, **not a
-completed research execution pipeline and not a launch approval**.
+The execution pipeline is now implemented and synthetically tested. **Real
+runtime, numerical-data checks and throughput remain untested; execution is
+not approved.** The reviewed preparation is preserved at `63e1d922`.
+
+- [Implementation completion and launch commands](IMPLEMENTATION-COMPLETION.md)
+- [Complete immutable package identity](LAUNCH-PACKAGE.json)
+- [Pipeline regression evidence](PIPELINE-TEST-RESULTS.json)
+- [Authenticated source/input lock](INPUTS.json)
+
+The source package emits a separate disabled approval template that binds its
+actual manifest and inputs. The document template below is preserved historical
+preparation, not the completed package's approval form.
 
 - [Protocol and actual interfaces](PROTOCOL.md): common target and sample-only
   CEM boundary; E14/CVD difference; training, execution and endpoint design.
@@ -16,7 +26,7 @@ completed research execution pipeline and not a launch approval**.
 - [Source pins](SOURCE-PINS.json) and [synthetic evidence](TEST-RESULTS.json).
 - [Disabled approval](APPROVAL-TEMPLATE.json): cannot authorize execution.
 
-New implementation:
+Initial preparation components (the completion record lists the added bindings):
 
 - `cluster/prometheus/local_goal_proposals.py`: reference CEM, action bridge,
   lowdim construction, stage clock and local-target boundary.
@@ -41,12 +51,12 @@ imports models or opens research payloads. The first invocation encountered
 host Python3.6's lack of `subprocess(text=...)`; using `universal_newlines=True`
 fixed only that metadata helper. No allocation or research execution occurred.
 
-Remaining work is explicitly listed in protocol §10: real cache/training loops,
-tensor-CEM/runtime binding, driver adapter, dispatch and aggregate accounting.
-Do not present this preparation reference implementation as an end-to-end run.
-The smallest shared-planner comparison is scientifically specified, but actual
-throughput and runtime parity remain to be measured only after authorization.
+The bindings formerly missing from protocol §10 are implemented. This is not
+an end-to-end research run: actual throughput, GPU kernels, checkpoint loading,
+selected-data checks and physical integration remain to be measured only after
+authorization, within the fixed allocation envelope.
 
 No change to continuation, SI1/CVL decisions, E14/E19 decisions or model files.
 The three E12 untracked drafts were verified still present in `/home/chris/thesis`.
-No GPU job, research inference, training update, physics step or new label.
+No GPU job, research inference, research-data training update, physics step or
+new label. Artificial-tensor optimizer steps are included in the new tests.
