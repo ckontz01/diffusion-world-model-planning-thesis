@@ -67,3 +67,14 @@ storage/final archive coverage. No additional automatic retry is authorized.
 The controller runs wholly on Prometheus; laptop/SSD liveness is not a gate.
 Final accounting, aggregate interpretation and full verified SSD backup await
 completion; this launch record makes no efficacy claim.
+
+## Verified advancement after repaired validation
+
+Job301981 subsequently completed **COMPLETED0:0 in57seconds**. The controller
+verified the completed worker seal and advanced automatically, without reading
+validation metrics for a selection decision. Cumulative charged GPU time is
+3743seconds (3686prior+57new). There is no validation FAILURE or controller STOP.
+Next job **301982**, `fit-gmm-8302`, submitted Unix1789768894.3897753, was read
+back RUNNING at36seconds with matching live controller identity. Thus the
+identified deterministic-sampling failure is resolved in the real pinned
+runtime and the unchanged fixed chain has moved to previously unsubmitted work.
