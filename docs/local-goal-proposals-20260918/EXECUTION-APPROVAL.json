@@ -1,0 +1,30 @@
+{
+  "study": "LGP1",
+  "execution_authorized": true,
+  "authority": "Researcher conditional approval, 2026-09-18; not a new approval",
+  "authority_sha256": "f24a4b38314474b99af320a7ff5db1c9818c091199744cafd5088d2ab53cdec7",
+  "reviewed_base": "183b8b785cd151c5d9f3d97edc10807f7599f633",
+  "source_sha256": "8627b0c10b42f85ba31885d6d10996eab3a7d43c70ea4931b2e0361cfca4ea54",
+  "input_sha256": "b21bac97520696b8bb2008a3cfef3f5188d4c59dd117bc158cc2fe2e86ff5aaa",
+  "archive_sha256": "c1bf8a5ee5070a4438a29cd78fd447e20fc041210b71256c2747c9362db860f0",
+  "fitting_rows": 80000,
+  "validation_rows": 8000,
+  "fits": 6,
+  "updates": 72000,
+  "technical_episodes": 8,
+  "main_episodes": 384,
+  "gpu_allocations": 203,
+  "cpu_allocations": 1,
+  "caps": {
+    "control_bytes": 200000000,
+    "cpu_seconds": 7200,
+    "episode_bytes": 10000000,
+    "gpu_seconds": 336000,
+    "remote_bytes": 12000000000,
+    "worker_bytes": 5900000000
+  },
+  "backup_destination": "D:/THESIS-BACKUPS/local-goal-proposals-20260918",
+  "backup_volume_id": "0a2f1ba9-0000-0000-0000-100000000000",
+  "automatic_retry_or_resume": false,
+  "submission_status": "blocked_before_submission_see_EXECUTION-LAUNCH.md"
+}

@@ -14,7 +14,9 @@ def files():
         'independent_pusht_runtime.py','INDEPENDENT-PINNED-INPUTS.json'))
     names.update(p.relative_to(REPO).as_posix() for p in (REPO/c.DOC).iterdir()
                  if p.is_file() and p.name not in ('LAUNCH-PACKAGE.json','LGP1-SOURCE-MANIFEST.sha256',
-                     'CORRECTION-PACKAGE.json','LGP1-CORRECTION-SOURCE-MANIFEST.sha256','CORRECTION-EXPORTED-TESTS.json'))
+                     'CORRECTION-PACKAGE.json','LGP1-CORRECTION-SOURCE-MANIFEST.sha256','CORRECTION-EXPORTED-TESTS.json',
+                     'ANGLE-PACKAGE.json','LGP1-ANGLE-SOURCE-MANIFEST.sha256','ANGLE-EXPORTED-TESTS.json',
+                     'EXECUTION-APPROVAL.json','EXECUTION-LAUNCH.md'))
     return sorted(names)
 
 def build(output):

@@ -122,7 +122,7 @@ class CorrectionTests(unittest.TestCase):
             wanted=bool(native(None,np.zeros(7),p)[0])
             x,row=fixture();x['post_states'][-1]=p;x['flags'][-1,0]=wanted;row.update(success=int(wanted),terminated=wanted)
             self.assertEqual(bool(physical(x,row)['success']),wanted)
-        e,r=fixture();e['post_states'][-1,4]=2*np.pi
+        e,r=fixture();e['post_states'][-1,4]=np.nextafter(2*np.pi,np.inf)
         with self.assertRaisesRegex(RuntimeError,'angle domain'):physical(e,r)
         e,r=fixture();r['stages'][5]['physical_remaining']=150
         with self.assertRaisesRegex(RuntimeError,'schedule'):physical(e,r)
@@ -138,5 +138,26 @@ class CorrectionTests(unittest.TestCase):
             self.assertLess((root/'endpoint-h150.npz').stat().st_size,50000)
             r['endpoint_identity']['goal_index']=75
             with self.assertRaisesRegex(RuntimeError,'identity'):verify_file(root,r,ref)
+
+    def test_exact_observation_endpoint_without_byte_or_flag_changes(self):
+        end=np.float64(2*np.pi)
+        self.assertEqual(float(end).hex(),'0x1.921fb54442d18p+2')
+        for angle in (0.,np.nextafter(end,-np.inf),end):
+            e,r=fixture(n=1,success=True);e['post_states'][0,4]=angle
+            before={k:v.tobytes() for k,v in e.items()}
+            self.assertEqual(physical(e,r)['success'],1)
+            self.assertEqual(before,{k:v.tobytes() for k,v in e.items()})
+        e,r=fixture();e['requested_initial'][4]=np.nextafter(end,-np.inf);e['initialized_state'][4]=end
+        physical(e,r)  # existing reset comparison retained, native endpoint admitted
+        for angle in (np.nextafter(0.,-np.inf),np.nextafter(end,np.inf),np.nan,np.inf,-np.inf):
+            for name in ('post_states','initialized_state'):
+                e,r=fixture()
+                if name=='post_states':e[name][-1,4]=angle
+                else:e[name][4]=angle
+                with self.assertRaises(RuntimeError):physical(e,r)
+        for name in ('goal_state','requested_initial'):
+            for angle in (end,np.nextafter(end,np.inf),-1.,np.nan,np.inf):
+                e,r=fixture();e[name][4]=angle
+                with self.assertRaises(RuntimeError):physical(e,r)
 
 if __name__=='__main__':unittest.main()

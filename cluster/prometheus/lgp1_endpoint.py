@@ -26,8 +26,10 @@ def physical(evidence,row):
     c.require(initial.shape==goal.shape==evidence['initialized_state'].shape==(7,),'Initial/goal shape')
     c.require(states.shape==(n,7) and states.dtype==np.float64 and np.isfinite(states).all(),'Raw post-action states')
     c.require(np.isfinite(initial).all() and np.isfinite(goal).all(),'Initial/goal values')
-    for angles in (initial[4:5],goal[4:5],states[:,4],evidence['initialized_state'][4:5]):
-        c.require(((angles>=0)&(angles<2*np.pi)).all(),'Reviewed angle domain [0,2pi)')
+    for angles in (initial[4:5],goal[4:5]):
+        c.require(((angles>=0)&(angles<2*np.pi)).all(),'Canonical input/goal angle domain [0,2pi)')
+    for angles in (states[:,4],evidence['initialized_state'][4:5]):
+        c.require((np.isfinite(angles)&(angles>=0)&(angles<=2*np.pi)).all(),'Observed angle domain [0,2pi]')
     # Exactly the existing FreshEpisode reset check, not a new tolerance.
     np.testing.assert_allclose(evidence['initialized_state'],initial,rtol=0,atol=1e-10)
     c.require(actions.shape==(n,2) and actions.dtype==np.float32 and np.isfinite(actions).all() and
