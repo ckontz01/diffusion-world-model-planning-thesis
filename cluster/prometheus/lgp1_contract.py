@@ -39,6 +39,9 @@ def preserved_paths(run):
     approval=Path(run)/'APPROVAL.json'
     if not approval.exists():return []
     approved=read(approval)
+    if approved.get('policy_recovery'):
+        from lgp1_policy_recovery import roots
+        return roots(approved)
     if approved.get('validation_recovery'):
         from lgp1_validation_recovery import roots
         return roots(approved)
@@ -48,6 +51,9 @@ def preserved_paths(run):
 
 def task_root(run,spec):
     run=Path(run);approved=read(run/'APPROVAL.json')
+    if approved.get('policy_recovery') and spec['kind'] in ('cache','fit'):
+        from lgp1_policy_recovery import reused_root
+        return reused_root(spec)
     if approved.get('validation_recovery') and spec['kind']=='cache':
         from lgp1_validation_recovery import PRIOR,CACHE_SEAL
         require(sha(PRIOR/'cache/sha256.txt')==CACHE_SEAL,'Exact reused cache seal')
@@ -56,8 +62,8 @@ def task_root(run,spec):
 
 def execution_grid(source,approved):
     specs=grid(read(Path(source)/DOC/'DATA-ROLES.json')['development_reference_indices'],
-        14340 if approved.get('validation_recovery') else approved.get('recovery',{}).get('cache_seconds',14400))
-    if approved.get('validation_recovery'):specs[1]['seconds']=14100
+        14340 if approved.get('validation_recovery') or approved.get('policy_recovery') else approved.get('recovery',{}).get('cache_seconds',14400))
+    if approved.get('validation_recovery') or approved.get('policy_recovery'):specs[1]['seconds']=14100
     return specs
 def verify(root,manifest='sha256.txt'):
     root=Path(root).resolve();names=[]
@@ -117,6 +123,9 @@ def authorize(source,approval):
     if a.get('validation_recovery'):
         from lgp1_validation_recovery import authorize as validate_recovery
         validate_recovery(a)
+    if a.get('policy_recovery'):
+        from lgp1_policy_recovery import authorize as policy_recovery
+        policy_recovery(a)
     return a
 def authenticate_inputs(source,*,payload=False):
     lock=read(Path(source)/DOC/'INPUTS.json')

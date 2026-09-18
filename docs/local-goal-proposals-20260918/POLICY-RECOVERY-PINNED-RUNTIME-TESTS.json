@@ -1,0 +1,29 @@
+{
+  "artificial_optimizer_steps": 6,
+  "command": "python -B cluster/prometheus/lgp1_test_evidence.py --output <new-evidence-path> --exported",
+  "elapsed_seconds": 6.53276739269495,
+  "errors": 0,
+  "exported_package": true,
+  "failures": 0,
+  "frozen_model_calls": 0,
+  "gpu_jobs": 0,
+  "numpy": "2.2.6",
+  "old_preparation_reproducer": {
+    "old_affine_dtype": "float64",
+    "old_round_dtypes": [
+      "float32",
+      "float64",
+      "float64"
+    ]
+  },
+  "old_reproducer_reexecuted": false,
+  "python": "3.11.10",
+  "research_optimizer_steps": 0,
+  "research_payloads_opened": 0,
+  "shell_syntax": "pass",
+  "simulator_calls": 0,
+  "source_manifest_sha256": "b54a55b16bcb83a5092f15703a63fadb81fdbce3fa91f4e6a21b907c934cf361",
+  "synthetic_only": true,
+  "tests": 47,
+  "torch": "2.5.1+cu121"
+}

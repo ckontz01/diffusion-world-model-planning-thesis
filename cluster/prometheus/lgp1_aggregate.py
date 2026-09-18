@@ -30,7 +30,8 @@ def aggregate(run,specs,source):
     c.require(len(submitted)==196 and all(r['unix']>=frozen['unix'] for r in submitted),'Model-freeze ordering')
     c.require(len(frozen['models'])==6,'All-six model freeze')
     for name,digest in frozen['models'].items():
-        c.require(c.sha(run/name/'model.pt')==digest and c.sha(run/name/'sha256.txt')==frozen['seals'][name],'Frozen model identity')
+        fit_root=c.task_root(run,dict(name=name,kind='fit'))
+        c.require(c.sha(fit_root/'model.pt')==digest and c.sha(fit_root/'sha256.txt')==frozen['seals'][name],'Frozen model identity')
     for spec in specs:
         if spec['kind']=='analysis': continue
         root=c.task_root(run,spec);meta=verify.task(root,spec);resources.append(meta)
@@ -39,19 +40,23 @@ def aggregate(run,specs,source):
         c.require(meta['source_sha256']==origin_approval['source_sha256'] and
                   meta['approval_sha256']==c.sha(origin/'APPROVAL.json'),'Worker source/approval binding')
         if origin!=run:
-            c.require(spec['kind']=='cache' and approval.get('validation_recovery'),'Only explicit cache reuse')
+            c.require((spec['kind']=='cache' and approval.get('validation_recovery')) or
+                      (spec['kind'] in ('cache','fit') and approval.get('policy_recovery')),'Only explicit sealed reuse')
             c.require(origin_approval['input_sha256']==approval['input_sha256'],'Reused input identities')
         if spec['kind'] in ('technical','evaluation'):
             reference=c.read(Path(source)/c.DOC/'INPUTS.json')['references'][str(spec['reference'])]
             episodes=verify.episodes(run/spec['name'],spec,reference)
             if spec['kind']=='evaluation': rows.extend(episodes)
-        if spec['kind']=='fit': fits.append(c.read(run/spec['name']/'REPORT.json'))
+        if spec['kind']=='fit': fits.append(c.read(root/'REPORT.json'))
     c.require(sum(f['updates'] for f in fits)==72000 and sum(f['row_presentations'] for f in fits)==9216000,'Total fitting grid')
-    if approval.get('validation_recovery'):
+    if approval.get('validation_recovery') or approval.get('policy_recovery'):
         from lgp1_validation_recovery import MODEL
-        c.require(c.sha(run/'fit-gmm-8301/model.pt')==MODEL,'Original final GMM preserved')
+        c.require(c.sha(c.task_root(run,dict(name='fit-gmm-8301',kind='fit'))/'model.pt')==MODEL,'Original final GMM preserved')
         c.require(sum(f['optimizer_updates_this_allocation'] for f in fits)==60000,'No repeated saved-model updates')
         c.require(sum(f['row_presentations_this_allocation'] for f in fits)==7680000,'No repeated saved-model rows')
+    if approval.get('policy_recovery'):
+        c.require(not any(r['event']=='submitted' and r['task']['kind'] in ('cache','fit') for r in dispatch),
+                  'No cache or optimizer execution in policy recovery')
     result=summarize(rows)
     result.update(rows=rows,fits=fits,resources=resources,main_episodes=384,technical_episodes=8,
                   model_freeze=c.read(run/'PRE-EVALUATION-FREEZE.json'),ledger=c.read(run/'PRE-ANALYSIS-ACCOUNTING.json'))

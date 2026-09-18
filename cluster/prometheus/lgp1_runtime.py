@@ -64,6 +64,18 @@ class Policy:
     def set_env(self,env):
         if self.env is not None: raise RuntimeError('Policy already owned by an episode')
         self.env=env
+    def set_seed(self,seed):
+        """World attachment confirms the frozen episode seed, without global RNG edits.
+
+        Proposal/refinement RNGs are already constructed from this seed, source,
+        horizon and absolute stage in get_action. Attachment must not introduce
+        another stream, reset an active policy, or change the approved seed.
+        """
+        c.require(isinstance(seed,(int,np.integer)) and not isinstance(seed,(bool,np.bool_))
+                  and int(seed)==self.seed,'Policy attachment seed mismatch')
+        c.require(not self.terminal and self.elapsed==0 and self._stage_index==0
+                  and not self._action_buffer and not self.history,
+                  'Cannot reseed an active or finished episode')
     def finish(self): self.terminal=True;self._action_buffer.clear();self.history.clear()
     @torch.no_grad()
     def get_action(self,info):

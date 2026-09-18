@@ -69,6 +69,9 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--approval',type=Path,required=True)
     p.add_argument('--run',type=Path,required=True);a=p.parse_args()
     approved=c.authorize(a.source,a.approval)
+    if approved.get('policy_recovery'):
+        from lgp1_policy_recovery import run
+        return run(a.source,a.approval,a.run,approved)
     if approved.get('validation_recovery'):
         from lgp1_validation_recovery import run
         return run(a.source,a.approval,a.run,approved)

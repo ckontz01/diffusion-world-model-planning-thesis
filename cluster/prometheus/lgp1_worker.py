@@ -14,9 +14,11 @@ def evaluate(source,run,out,spec,guard):
     from lgp1_runtime import FrozenBackend,Policy
     from lgp1_endpoint import identity,verify_file
     lock=c.read(source/c.DOC/'INPUTS.json')
-    model,stats=load_model(run/f"fit-{spec['family']}-{spec['seed']}")
+    fit_name=f"fit-{spec['family']}-{spec['seed']}"
+    model,stats=load_model(c.task_root(run,dict(name=fit_name,kind='fit')))
     frozen=c.read(run/'PRE-EVALUATION-FREEZE.json')
-    for name,digest in frozen['models'].items(): c.require(c.sha(run/name/'model.pt')==digest,'All-six-model freeze')
+    for name,digest in frozen['models'].items():
+        c.require(c.sha(c.task_root(run,dict(name=name,kind='fit'))/'model.pt')==digest,'All-six-model freeze')
     backend=FrozenBackend(lock);modules=[backend.lewm,backend.generator,model];before=tensor_hash(modules)
     ref=lock['references'][str(spec['reference'])]
     c.require(c.sha(ref['file'])==ref['sha256'],'Allowed reference bytes')
@@ -73,6 +75,8 @@ def main():
     approved=c.authorize(a.source,a.approval)
     specs=c.execution_grid(a.source,approved)
     spec=next(x for x in specs if x['name']==a.task)
+    if approved.get('policy_recovery'):
+        c.require(spec['kind'] in ('technical','evaluation','analysis'),'Recovery forbids cache/fit execution')
     c.require(os.environ.get('SLURM_JOB_ID') and os.environ.get('SLURM_CPUS_PER_TASK')=='4','Allocation required')
     c.require(a.run.resolve().parent==c.ROOT/'experiments/local-goal-proposals-20260918','Run namespace')
     out=a.run/a.task;out.mkdir(exist_ok=False)
@@ -112,7 +116,11 @@ def main():
                 c.write(out/'SAMPLER-CHECK.json',check('cuda'))
                 result=validate_saved_final(cache,out,PRIOR/'fit-gmm-8301',MODEL,FIT_SEAL,guard)
             else:result=train(cache,out,spec['family'],spec['seed'],guard)
-        elif spec['kind'] in ('technical','evaluation'): result=evaluate(a.source,a.run,out,spec,guard)
+        elif spec['kind'] in ('technical','evaluation'):
+            if approved.get('policy_recovery') and spec['name']=='technical-gmm-8301-1269':
+                from lgp1_lifecycle_tests import runtime_check
+                c.write(out/'RUNTIME-CONTRACT-CHECK.json',runtime_check('cuda'))
+            result=evaluate(a.source,a.run,out,spec,guard)
         else:
             from lgp1_aggregate import aggregate
             result=aggregate(a.run,specs,a.source)

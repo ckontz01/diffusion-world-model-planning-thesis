@@ -10,7 +10,7 @@ def main(output,exported=False):
     repo=Path(__file__).resolve().parents[2];start=time.monotonic()
     if exported:c.verify(repo,'LGP1-SOURCE-MANIFEST.sha256')
     suite=unittest.TestSuite(unittest.defaultTestLoader.loadTestsFromName(n)
-        for n in ('test_local_goal_proposals','test_lgp1_pipeline','lgp1_correction_tests'))
+        for n in ('test_local_goal_proposals','test_lgp1_pipeline','lgp1_correction_tests','lgp1_lifecycle_tests','lgp1_policy_recovery_tests'))
     result=unittest.TextTestRunner(verbosity=2).run(suite)
     c.require(result.wasSuccessful(),'Synthetic regression failure')
     p=repo/c.DOC/'review_dtype_reproducer.py'
