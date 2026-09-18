@@ -1,5 +1,5 @@
 """Three narrow findings: pinned-source contracts and artificial endpoint data."""
-import ast,copy,hashlib,json,tempfile,unittest
+import ast,copy,hashlib,json,tempfile,unittest,subprocess,sys
 from pathlib import Path
 from types import SimpleNamespace
 import numpy as np
@@ -14,6 +14,35 @@ def contracts():
     for value in result['sources'].values():
         c.require(hashlib.sha256(value['text'].encode()).hexdigest()==value['sha256'],'Pinned fixture source hash')
     return result
+
+
+class HostControllerImportTests(unittest.TestCase):
+    def test_dispatch_and_sealed_task_without_site_packages(self):
+        # A separate isolated interpreter cannot inherit NumPy from this suite.
+        code = '''import sys, tempfile
+from pathlib import Path
+sys.path.insert(0, sys.argv[1])
+import lgp1_dispatch as d
+import lgp1_verify as v
+import lgp1_contract as c
+assert 'numpy' not in sys.modules
+with tempfile.TemporaryDirectory() as tmp:
+    root=Path(tmp)
+    spec=dict(name='cache',kind='cache',gpu=True,seconds=14400)
+    c.write(root/'TECHNICAL.json',dict(task=spec,complete=True,gpu_used=True))
+    c.seal(root)
+    assert d.verify_task(root,spec)['complete'] is True
+assert 'numpy' not in sys.modules
+try:
+    v.cache('/nonexistent-synthetic-cache')
+except ModuleNotFoundError as e:
+    assert e.name == 'numpy'
+else:
+    raise AssertionError('Cache verifier must still require NumPy')
+'''
+        result=subprocess.run([sys.executable,'-I','-S','-B','-c',code,str(Path(__file__).resolve().parent)],
+                              capture_output=True,text=True)
+        self.assertEqual(result.returncode,0,result.stdout+result.stderr)
 
 def method(suffix,cls,name):
     source=next(v['text'] for k,v in contracts()['sources'].items() if k.endswith(suffix))

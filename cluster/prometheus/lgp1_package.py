@@ -16,7 +16,10 @@ def files():
                  if p.is_file() and p.name not in ('LAUNCH-PACKAGE.json','LGP1-SOURCE-MANIFEST.sha256',
                      'CORRECTION-PACKAGE.json','LGP1-CORRECTION-SOURCE-MANIFEST.sha256','CORRECTION-EXPORTED-TESTS.json',
                      'ANGLE-PACKAGE.json','LGP1-ANGLE-SOURCE-MANIFEST.sha256','ANGLE-EXPORTED-TESTS.json',
-                     'EXECUTION-APPROVAL.json','EXECUTION-LAUNCH.md'))
+                     'EXECUTION-APPROVAL.json','EXECUTION-LAUNCH.md',
+                     'HOST-IMPORT-PACKAGE.json','LGP1-HOST-IMPORT-SOURCE-MANIFEST.sha256',
+                     'HOST-IMPORT-EXPORTED-TESTS.json','HOST-IMPORT-EXECUTION-APPROVAL.json',
+                     'HOST-IMPORT-LAUNCH.md'))
     return sorted(names)
 
 def build(output):

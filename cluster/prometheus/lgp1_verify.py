@@ -1,9 +1,9 @@
 """Independent saved-artifact checks; no model/physics calls or training imports."""
 from pathlib import Path
-import numpy as np
 import lgp1_contract as c
 
 def cache(root,*,synthetic=False):
+    import numpy as np
     rows=c.read(Path(root)/'ROWS.json')
     for role,count in [('P1_train',80000),('P1_val',8000)]:
         rr=[r for r in rows if r['role']==role]
