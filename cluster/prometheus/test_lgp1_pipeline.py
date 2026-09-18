@@ -84,6 +84,59 @@ class Tests(unittest.TestCase):
                 a=sample(model,inputs,3,torch.Generator().manual_seed(2));b=sample(other,inputs,3,torch.Generator().manual_seed(2))
                 torch.testing.assert_close(a,b,rtol=0,atol=0)
 
+    def test_recorded_targets_unclipped_execution_support_unchanged(self):
+        actions=np.linspace(-1.7,1.6,30,dtype=np.float32).reshape(15,2)
+        actions[12,1]=np.float32(1.413864016532898)
+        actions[13,1]=np.float32(1.0367851257324219)
+        original=actions.tobytes()
+        def reader(e,steps,keys):
+            if keys==['action']:return dict(action=actions)
+            state=np.tile(np.arange(7,dtype=np.float32),(len(steps),1))
+            return dict(pixels=np.zeros((len(steps),3,2,2),np.uint8),state=state,proprio=state[:,[0,1,5,6]])
+        _,_,_,packed=aligned(reader,dict(episode=0,t=10,delta=15))
+        self.assertEqual(packed.shape,(3,10));self.assertEqual(packed.dtype,np.float32)
+        self.assertEqual(packed.tobytes(),original);self.assertEqual(actions.tobytes(),original)
+        # Online proposals retain the exact declared raw support operation.
+        projected,_=project(torch.from_numpy(packed)[None,None],[0,0],[1,1])
+        self.assertTrue((projected.abs()<=1).all())
+        self.assertEqual(actions.tobytes(),original)
+        for invalid in (np.nan,np.inf,-np.inf):
+            actions[0,0]=invalid
+            with self.assertRaisesRegex(RuntimeError,'Invalid data values'):
+                aligned(reader,dict(episode=0,t=10,delta=15))
+
+    def test_replacement_cache_prior_charge_reservation(self):
+        specs=c.grid(list(range(32)),14340)
+        self.assertEqual(len(specs),204);self.assertEqual(sum(s['gpu'] for s in specs),203)
+        self.assertEqual(46+sum(s['seconds'] for s in specs if s['gpu']),335986)
+        self.assertEqual(specs[1:],c.grid(list(range(32)))[1:])
+        class Scheduler:
+            def __init__(self):self.n=0
+            def submit(self,s):self.n+=1;return str(self.n)
+            def wait(self,j,s):return dict(seconds=s['seconds'],state='COMPLETED',exit_code='0:0')
+        sch=Scheduler();ctl=Controller(specs,sch,lambda r:None,lambda:0,lambda s:None,lambda *a:None)
+        ctl.gpu=46;result=ctl.run()
+        self.assertEqual(result['gpu_seconds'],335986);self.assertEqual(result['cpu_seconds'],7200)
+        sch=Scheduler();ctl=Controller(c.grid(list(range(32))),sch,lambda r:None,lambda:0,lambda s:None,lambda *a:None)
+        ctl.gpu=46
+        with self.assertRaisesRegex(RuntimeError,'GPU reservation cap'):ctl.run()
+        self.assertEqual(sch.n,0)
+        with self.assertRaises(RuntimeError):c.grid(list(range(32)),14401)
+
+    def test_preserved_failure_counts_in_storage_caps(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);source=root/'source';run=root/'run';old=root/'old'
+            source.mkdir();run.mkdir();(old/'cache').mkdir(parents=True)
+            (old/'cache/partial').write_bytes(b'12345678')
+            (old/'log').write_bytes(b'ab')
+            with patch.object(c,'preserved_paths',return_value=[('failed-run',old)]):
+                sizes=c.storage(source,run)
+                self.assertEqual(sizes['worker_bytes'],8)
+                self.assertEqual(sizes['source_control_log_bytes'],2)
+                self.assertEqual(sizes['total_remote_bytes'],10)
+                with patch.dict(c.CAPS,worker_bytes=7):
+                    with self.assertRaisesRegex(RuntimeError,'cap'):c.storage(source,run)
+
     def test_real_data_loop_artificial_cache(self):
         with tempfile.TemporaryDirectory() as t:
             root=Path(t);cache=root/'cache';cache.mkdir()

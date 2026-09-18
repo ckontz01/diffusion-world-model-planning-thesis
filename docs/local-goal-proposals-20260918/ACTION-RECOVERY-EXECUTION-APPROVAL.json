@@ -1,0 +1,43 @@
+{
+  "study": "LGP1",
+  "execution_authorized": true,
+  "authority": "Original researcher conditional approval plus explicit user instruction: okay investigae, fix it and launch it again; one identified technical replacement only",
+  "original_authority_sha256": "f24a4b38314474b99af320a7ff5db1c9818c091199744cafd5088d2ab53cdec7",
+  "source_sha256": "b96b797315320184c3289e09d7a5c43f898ef2432ba57deb86b1a8094fb7653a",
+  "input_sha256": "b21bac97520696b8bb2008a3cfef3f5188d4c59dd117bc158cc2fe2e86ff5aaa",
+  "archive_sha256": "a9342a060657c29f916f136c25d1025a84e61525434016f4d24c5883027feb9c",
+  "fitting_rows": 80000,
+  "validation_rows": 8000,
+  "fits": 6,
+  "updates": 72000,
+  "technical_episodes": 8,
+  "main_episodes": 384,
+  "gpu_allocations": 203,
+  "cpu_allocations": 1,
+  "gpu_attempts_including_preserved_failure": 204,
+  "total_attempts_including_preserved_failure": 205,
+  "caps": {
+    "control_bytes": 200000000,
+    "cpu_seconds": 7200,
+    "episode_bytes": 10000000,
+    "gpu_seconds": 336000,
+    "remote_bytes": 12000000000,
+    "worker_bytes": 5900000000
+  },
+  "backup_destination": "D:/THESIS-BACKUPS/local-goal-proposals-20260918",
+  "backup_volume_id": "0a2f1ba9-0000-0000-0000-100000000000",
+  "recovery": {
+    "failed_job": "301977",
+    "prior_gpu_seconds": 46,
+    "prior_cpu_seconds": 0,
+    "prior_gpu_allocations": 1,
+    "cache_seconds": 14340,
+    "automatic_retry": false,
+    "ledger_sha256": "6e9e963aaec8cbac438f91ba8622198625cc82746c5d18858ef0e07fc36ea326",
+    "failure_seal_sha256": "24c839df422d27d2830abb42057eef7a1bc973866c063b82292c72119343873d",
+    "failed-run": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b514472d1d8a7f55",
+    "failed-source": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b514472d1d8a7f55",
+    "failed-control": "/lustreFS/data/superworld/ckontzias/thesis/staging/lgp1-execution-b514472d1d8a7f55",
+    "new-control": "/lustreFS/data/superworld/ckontzias/thesis/staging/lgp1-action-recovery-b96b797315320184"
+  }
+}

@@ -71,12 +71,31 @@ def main():
     approved=c.authorize(a.source,a.approval)
     c.require(a.run.parent.resolve()==c.ROOT/'experiments/local-goal-proposals-20260918' and
               a.run.name=='run-'+approved['source_sha256'][:16],'Exclusive namespace')
-    c.require(not a.run.parent.exists(),'Prior study namespace exists; no prior attempt/recovery permitted')
+    recovery=approved.get('recovery')
+    if not recovery:c.require(not a.run.parent.exists(),'Prior study namespace exists; no prior attempt/recovery permitted')
+    else:
+        prior=Path(recovery['failed-run'])
+        c.require(set(a.run.parent.iterdir())=={prior},'Only preserved failed run may exist')
+        c.require(not a.run.exists(),'No repeated recovery namespace')
+        c.require(c.sha(prior/'DISPATCH.jsonl')==recovery['ledger_sha256'] and
+                  c.sha(prior/'cache/sha256.txt')==recovery['failure_seal_sha256'],'Failed-attempt identity')
+        c.verify(prior/'cache')
+        prior_rows=[json.loads(line) for line in (prior/'DISPATCH.jsonl').read_text().splitlines()]
+        terminals=[r for r in prior_rows if r['event']=='terminal']
+        c.require(len(prior_rows)==3 and len(terminals)==1 and terminals[0]['job']=='301977' and
+                  terminals[0]['state']=='FAILED' and terminals[0]['seconds']==46,'Exact terminal failure')
+        observed=subprocess.check_output(['sacct','-X','-n','-P','-j','301977',
+                    '--format=JobID,State,ExitCode,ElapsedRaw'],text=True).strip().split('|')
+        c.require(observed[:4]==['301977','FAILED','1:0','46'],'Fresh failed-job reconciliation')
+        process=c.read(Path(recovery['failed-control'])/'CONTROLLER-PROCESS.json')
+        c.require(not Path('/proc',str(process['pid'])).exists(),'Prior controller must be absent')
     old=subprocess.check_output(['sacct','-X','-n','-P','--starttime=2026-09-18','--format=JobName'],text=True)
-    c.require(not any(x.startswith('lgp1-') for x in old.splitlines()),'Prior Slurm attempt')
+    attempts=[x.split('|')[0] for x in old.splitlines() if x.startswith('lgp1-')]
+    c.require(attempts==['lgp1-cache'] if recovery else not attempts,'Unexpected prior Slurm attempt')
     a.run.mkdir(parents=True,exist_ok=False)
     c.write(a.run/'APPROVAL.json',approved)
-    specs=c.grid(c.read(a.source/c.DOC/'DATA-ROLES.json')['development_reference_indices'])
+    specs=c.grid(c.read(a.source/c.DOC/'DATA-ROLES.json')['development_reference_indices'],
+                 recovery['cache_seconds'] if recovery else 14400)
     def record(row):
         row['unix']=time.time()
         with (a.run/'DISPATCH.jsonl').open('a') as f:f.write(json.dumps(row,sort_keys=True)+'\n');f.flush();__import__('os').fsync(f.fileno())
@@ -89,14 +108,20 @@ def main():
                 seals={s['name']:c.sha(a.run/s['name']/'sha256.txt') for s in fits}))
         else:
             c.require(len(completed)==203,'Complete GPU chain before aggregate')
-            c.write(a.run/'PRE-ANALYSIS-ACCOUNTING.json',dict(jobs=completed))
+            c.write(a.run/'PRE-ANALYSIS-ACCOUNTING.json',dict(jobs=completed,prior_failure=recovery))
     def bytes_used():
-        c.storage(a.source,a.run)
-        return c.size(a.run)
+        sizes=c.storage(a.source,a.run)
+        return sizes['worker_bytes']+sizes['source_control_log_bytes']-c.size(a.source)
     controller=Controller(specs,Slurm(a.source,a.run/'APPROVAL.json',a.run),record,bytes_used,
                           lambda s:verify_task(a.run/s['name'],s),freeze,c.size(a.source))
+    if recovery:
+        controller.gpu=recovery['prior_gpu_seconds'];controller.cpu=recovery['prior_cpu_seconds']
+        c.write(a.run/'PRIOR-FAILURE-ACCOUNTING.json',recovery)
     try:
         final=controller.run();final['storage']=c.storage(a.source,a.run);final['remote_bytes_before_archive']=c.size(a.run)+c.size(a.source)
+        final['prior_failure']=recovery
+        final['attempts_including_prior']=len(controller.completed)+(1 if recovery else 0)
+        final['remote_bytes_before_archive']=final['storage']['total_remote_bytes']
         c.write(a.run/'COMPUTE-COMPLETE.json',final)
     except BaseException as e:
         c.write(a.run/'STOP.json',dict(error=str(e),gpu_seconds=controller.gpu,cpu_seconds=controller.cpu,

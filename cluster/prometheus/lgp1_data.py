@@ -33,7 +33,10 @@ def aligned(reader,row):
     c.require(state.shape==(7,) and np.array_equal(proprio,state[[0,1,5,6]]),'Recorded proprio/state mismatch')
     actions=np.asarray(actions,np.float32)
     c.require(actions.shape==(15,2) and np.isfinite(actions).all() and np.isfinite(state).all(),'Invalid data values')
-    c.require((np.abs(actions)<=1).all(),'Recorded action support; no clipping/replacement')
+    # Authenticated expert targets are recorded commands, not online proposals.
+    # The source HDF5 contains finite commands outside the declared execution
+    # Box. Preserve them byte-for-byte; online projection/delivery checks stay
+    # separate and unchanged. Never clip, filter or replace training windows.
     return frames['pixels'][:3],frames['pixels'][3:4],np.r_[state,proprio],actions.reshape(3,10)
 
 def statistics(arrays,mask):

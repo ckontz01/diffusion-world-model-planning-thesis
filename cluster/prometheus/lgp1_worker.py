@@ -70,16 +70,21 @@ def evaluate(source,run,out,spec,guard):
 def main():
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--approval',type=Path,required=True)
     p.add_argument('--run',type=Path,required=True);p.add_argument('--task',required=True);a=p.parse_args()
-    c.authorize(a.source,a.approval)
-    specs=c.grid(c.read(a.source/c.DOC/'DATA-ROLES.json')['development_reference_indices'])
+    approved=c.authorize(a.source,a.approval)
+    specs=c.grid(c.read(a.source/c.DOC/'DATA-ROLES.json')['development_reference_indices'],
+                 approved.get('recovery',{}).get('cache_seconds',14400))
     spec=next(x for x in specs if x['name']==a.task)
     c.require(os.environ.get('SLURM_JOB_ID') and os.environ.get('SLURM_CPUS_PER_TASK')=='4','Allocation required')
     c.require(a.run.resolve().parent==c.ROOT/'experiments/local-goal-proposals-20260918','Run namespace')
     out=a.run/a.task;out.mkdir(exist_ok=False)
+    prior_worker_bytes=0
+    if 'recovery' in approved:
+        prior=Path(approved['recovery']['failed-run'])
+        prior_worker_bytes=sum(c.size(p) for p in prior.iterdir() if p.is_dir())
     began=time.monotonic();cpu=time.process_time();soft=spec['seconds']-120
     def guard():
         c.require(time.monotonic()-began<soft,'Worker allocation guard')
-        c.require(c.size(a.run)<=c.CAPS['worker_bytes'],'Worker payload cap')
+        c.require(c.size(a.run)+prior_worker_bytes<=c.CAPS['worker_bytes'],'Worker payload cap including preserved failure')
         c.require(c.size(out)<(2*c.CAPS['episode_bytes'] if spec['kind'] in ('technical','evaluation') else 2_000_000_000),'Job byte cap')
     def timeout(*_): raise TimeoutError('Preservation margin before Slurm timeout')
     signal.signal(signal.SIGALRM,timeout);signal.alarm(soft)

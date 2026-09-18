@@ -24,17 +24,19 @@ def archive(source,run):
     complete=c.read(run/'COMPUTE-COMPLETE.json')
     c.require(complete['jobs']==204 and len(complete['completed'])==204,'Complete fixed chain required')
     from lgp1_verify import task
-    for spec in c.grid(c.read(source/c.DOC/'DATA-ROLES.json')['development_reference_indices']):task(run/spec['name'],spec)
+    approval=c.read(run/'APPROVAL.json')
+    for spec in c.grid(c.read(source/c.DOC/'DATA-ROLES.json')['development_reference_indices'],
+                      approval.get('recovery',{}).get('cache_seconds',14400)):task(run/spec['name'],spec)
     destination=run/'final-preservation';destination.mkdir(exist_ok=False)
     paths={}
-    for prefix,root in [('source',source),('run',run)]:
+    for prefix,root in [('source',source),('run',run)]+c.preserved_paths(run):
         for p in sorted(root.rglob('*')):
             if destination in p.parents or not p.is_file():continue
             c.require(not p.is_symlink(),'No preservation symlinks')
             paths[prefix+'/'+p.relative_to(root).as_posix()]=p
     inventory={name:dict(bytes=p.stat().st_size,sha256=c.sha(p)) for name,p in paths.items()}
     raw=sum(v['bytes'] for v in inventory.values());overhead=2048*len(paths)+10240
-    c.require(c.size(source)+c.size(run)+raw+overhead<c.CAPS['remote_bytes'],'Archive reservation exceeds remote cap')
+    c.require(c.storage(source,run)['total_remote_bytes']+raw+overhead<c.CAPS['remote_bytes'],'Archive reservation exceeds remote cap')
     target=destination/'final.tar'
     with tarfile.open(target,'x',format=tarfile.PAX_FORMAT) as tar:
         for name,p in paths.items():tar.add(p,arcname=name,recursive=False)
@@ -42,7 +44,7 @@ def archive(source,run):
     c.write(destination/'BACKUP-REQUEST.json',dict(archive=str(target),members=inventory,**checked,
         host_archive_seconds=time.monotonic()-began,host_archive_cpu_seconds=time.process_time()-cpu,
         source_sha256=c.sha(source/'LGP1-SOURCE-MANIFEST.sha256'),backup_destination=str(DEST),volume_id=VOLUME))
-    c.require(c.size(source)+c.size(run)<=c.CAPS['remote_bytes'],'Final remote byte cap')
+    c.storage(source,run)
     return checked
 
 def check_ssd():
@@ -70,7 +72,7 @@ def backup(request):
         c.require(checked['sha256']==r['sha256'] and checked['bytes']==r['bytes'],'Transfer archive bytes')
         partial.rename(target)
         c.write(root/'BACKUP-VERIFIED.json',dict(**checked,seconds=time.monotonic()-began,volume_id=VOLUME,
-            source_sha256=r['source_sha256'],scope='source, approval, all 204 workers, final accounting and control/log evidence'))
+            source_sha256=r['source_sha256'],scope='complete request inventory: source, approval, all 204 workers, accounting, control/logs, and any explicitly preserved failed attempt'))
     except BaseException as e:
         c.write(root/'BACKUP-FAILURE.json',dict(error=str(e),automatic_retry=False));raise
 

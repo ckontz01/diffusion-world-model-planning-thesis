@@ -19,7 +19,9 @@ def files():
                      'EXECUTION-APPROVAL.json','EXECUTION-LAUNCH.md',
                      'HOST-IMPORT-PACKAGE.json','LGP1-HOST-IMPORT-SOURCE-MANIFEST.sha256',
                      'HOST-IMPORT-EXPORTED-TESTS.json','HOST-IMPORT-EXECUTION-APPROVAL.json',
-                     'HOST-IMPORT-LAUNCH.md'))
+                     'HOST-IMPORT-LAUNCH.md','ACTION-RECOVERY-PACKAGE.json',
+                     'LGP1-ACTION-RECOVERY-SOURCE-MANIFEST.sha256','ACTION-RECOVERY-EXPORTED-TESTS.json',
+                     'ACTION-RECOVERY-EXECUTION-APPROVAL.json','ACTION-RECOVERY-LAUNCH.md'))
     return sorted(names)
 
 def build(output):
