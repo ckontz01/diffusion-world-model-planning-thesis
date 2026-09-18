@@ -294,7 +294,8 @@ cache construction, actual optimizer/data loop, tensor-CEM, fresh-driver adapter
 serial dispatch/accounting, independent artifact checks, aggregate and final
 archive verification. See `IMPLEMENTATION-COMPLETION.md` for exact entry points,
 tests, corrections and the distinction between implemented and real-runtime-untested.
-`LAUNCH-PACKAGE.json` identifies the complete source manifest. The generated
+`CORRECTION-PACKAGE.json` identifies the corrected complete source manifest;
+`LAUNCH-PACKAGE.json` preserves the reviewed package. The generated
 root `APPROVAL-TEMPLATE.json` is disabled and binds that source/input identity;
 the old disabled document template remains historical. No research execution
 is authorized. A separate explicit approval must bind the completed package.

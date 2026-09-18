@@ -47,13 +47,13 @@ def convert_actions(blocks, source_mean, source_std, target_mean, target_std):
     sm, ss, tm, ts = stats
     if (ss <= 0).any() or (ts <= 0).any():
         raise ValueError('Nonpositive action scale')
-    # Match the pinned sklearn decoder: float64 coefficients, an FP32 output
-    # store after EACH operation (not one fused double-precision expression).
+    # Pinned sklearn casts coefficients to X.dtype BEFORE each operation.
+    # Float64 coefficients with only an FP32 output store are not equivalent.
     raw = x.reshape(*x.shape[:-2],15,2).copy()
-    np.multiply(raw, ss.astype(np.float64), out=raw)
-    np.add(raw, sm.astype(np.float64), out=raw)
-    np.subtract(raw, tm.astype(np.float64), out=raw)
-    np.divide(raw, ts.astype(np.float64), out=raw)
+    np.multiply(raw, ss.astype(raw.dtype), out=raw)
+    np.add(raw, sm.astype(raw.dtype), out=raw)
+    np.subtract(raw, tm.astype(raw.dtype), out=raw)
+    np.divide(raw, ts.astype(raw.dtype), out=raw)
     return raw.reshape(x.shape)
 
 

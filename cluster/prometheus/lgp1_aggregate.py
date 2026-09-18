@@ -22,7 +22,7 @@ def summarize(rows):
                 for f in c.FAMILIES for h in (75,150) for s in c.SEEDS],
         independent_units=32,interpretation='descriptive exposed development; proposer effect within modified planner; no promotion')
 
-def aggregate(run,specs):
+def aggregate(run,specs,source):
     run=Path(run);rows=[];resources=[];fits=[]
     approval=c.read(run/'APPROVAL.json');frozen=c.read(run/'PRE-EVALUATION-FREEZE.json')
     dispatch=[json.loads(line) for line in (run/'DISPATCH.jsonl').read_text().splitlines()]
@@ -36,7 +36,8 @@ def aggregate(run,specs):
         meta=verify.task(run/spec['name'],spec);resources.append(meta)
         c.require(meta['source_sha256']==approval['source_sha256'] and meta['approval_sha256']==c.sha(run/'APPROVAL.json'),'Worker source/approval binding')
         if spec['kind'] in ('technical','evaluation'):
-            episodes=verify.episodes(run/spec['name'],spec)
+            reference=c.read(Path(source)/c.DOC/'INPUTS.json')['references'][str(spec['reference'])]
+            episodes=verify.episodes(run/spec['name'],spec,reference)
             if spec['kind']=='evaluation': rows.extend(episodes)
         if spec['kind']=='fit': fits.append(c.read(run/spec['name']/'REPORT.json'))
     c.require(sum(f['updates'] for f in fits)==72000 and sum(f['row_presentations'] for f in fits)==9216000,'Total fitting grid')

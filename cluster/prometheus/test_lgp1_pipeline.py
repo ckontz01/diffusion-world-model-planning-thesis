@@ -19,15 +19,15 @@ class Tests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):torch.set_num_threads(1)
     def test_fp32_decoder_matches_pinned_sklearn(self):
-        from sklearn.preprocessing import StandardScaler
+        from lgp1_correction_tests import contracts
+        self.assertIn('xp.astype(self.scale_, X.dtype)',contracts()['methods']['inverse_transform'])
         mean=np.array([-.007812564379916172,.006860687229453032]);std=np.array([.20846744284501714,.20674862637362224])
-        scaler=StandardScaler();scaler.mean_=mean;scaler.scale_=std;scaler.n_features_in_=2
         x=np.random.default_rng(7).normal(size=(2,3,10)).astype(np.float32)
-        expected=scaler.inverse_transform(x.reshape(-1,2).copy()).reshape(x.shape)
+        expected=(x.reshape(-1,2)*std.astype(np.float32)+mean.astype(np.float32)).reshape(x.shape)
         actual=convert_actions(x,mean,std,[0,0],[1,1]);self.assertEqual(actual.dtype,np.float32)
         np.testing.assert_array_equal(actual,expected)
         np.testing.assert_array_equal(affine(torch.from_numpy(x),mean,std,[0,0],[1,1]).numpy(),expected)
-        expected=scaler.transform(expected.reshape(-1,2).copy()).reshape(x.shape)
+        expected=((expected.reshape(-1,2)-mean.astype(np.float32))/std.astype(np.float32)).reshape(x.shape)
         np.testing.assert_array_equal(convert_actions(actual,[0,0],[1,1],mean,std),expected)
         p,diag=project(torch.full((1,4,3,10),100.),mean,std)
         self.assertEqual(diag['exceeded'],120);self.assertTrue((affine(p,mean,std,[0,0],[1,1]).abs()<=1).all())
@@ -164,15 +164,21 @@ class Tests(unittest.TestCase):
 
     def test_saved_episode_action_verifier(self):
         from lgp1_verify import episodes
+        from lgp1_correction_tests import fixture
+        from lgp1_endpoint import identity
         with tempfile.TemporaryDirectory() as t:
             root=Path(t);spec=dict(reference=0,family='gmm',seed=8301)
-            rows=[dict(**spec,horizon=h,steps=1,success=1,failure=None,
-                stages=[dict(elapsed=0,rounds=[dict(candidates=300) for _ in range(30)])]) for h in (75,150)]
+            refpath=root/'synthetic-reference.npz';init=np.zeros(7);init[0]=100
+            np.savez(refpath,initial_request=init,states=np.zeros((151,7)))
+            ref=dict(file=str(refpath),sha256=c.sha(refpath));rows=[]
+            for h in (75,150):
+                evidence,row=fixture(h,1,True);row['endpoint_identity']=identity(ref,init,np.zeros(7),h);rows.append(row)
+                np.savez(root/f'endpoint-h{h}.npz',**evidence)
             c.write(root/'REPORT.json',{'rows':rows})
-            for h in (75,150):np.savez(root/f'actions-h{h}.npz',actions=np.zeros((1,2),np.float32))
-            self.assertEqual(len(episodes(root,spec)),2)
-            np.savez(root/'actions-h75.npz',actions=np.ones((1,2),np.float32)*2)
-            with self.assertRaisesRegex(RuntimeError,'Delivered'):episodes(root,spec)
+            self.assertEqual(len(episodes(root,spec,ref)),2)
+            evidence,_=fixture(75,1,True);evidence['actions'][:]=2
+            np.savez(root/'endpoint-h75.npz',**evidence)
+            with self.assertRaisesRegex(RuntimeError,'Delivered'):episodes(root,spec,ref)
 
     def test_policy_history_context_lifecycle(self):
         class Backend:

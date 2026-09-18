@@ -50,7 +50,7 @@ class FrozenBackend:
             info={'pixels':pixels[:,None].expand(b,k,*pixels.shape[1:]),
                   'goal':pixels[:,None].expand(b,k,*pixels.shape[1:]),
                   'emb':embedding[:,None].expand(b,k,*embedding.shape[1:]),
-                  'goal_emb':goal[:,None],
+                  'goal_emb':goal,
                   'action':torch.zeros((b,k,1,10),device=self.device,dtype=torch.bfloat16)}
             return self.lewm.get_cost(info,bank.to(torch.bfloat16)).float()
         return cost

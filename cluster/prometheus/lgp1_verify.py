@@ -43,7 +43,7 @@ def task(root,spec):
         c.require(meta['episodes']==2 and meta['models_unchanged'],'Episode count/frozen modules')
     return meta
 
-def episodes(root,spec):
+def episodes(root,spec,reference):
     rows=c.read(Path(root)/'REPORT.json')['rows']
     c.require(len(rows)==2 and {r['horizon'] for r in rows}=={75,150},'Episode horizons')
     for r in rows:
@@ -51,8 +51,6 @@ def episodes(root,spec):
         c.require(0<r['steps']<=2*r['horizon'] and r['success'] in (0,1) and r['failure'] is None,'Episode validity')
         c.require([s['elapsed'] for s in r['stages']]==list(range(0,r['steps'],15)),'Replanning positions')
         c.require(all(len(s['rounds'])==30 and all(v['candidates']==300 for v in s['rounds']) for s in r['stages']),'Refinement budget')
-        with np.load(Path(root)/f"actions-h{r['horizon']}.npz",allow_pickle=False) as f:
-            actions=f['actions']
-            c.require(actions.shape==(r['steps'],2) and actions.dtype==np.float32 and
-                      np.isfinite(actions).all() and (abs(actions)<=1).all(),'Delivered action evidence')
+        from lgp1_endpoint import verify_file
+        verify_file(root,r,reference)
     return rows

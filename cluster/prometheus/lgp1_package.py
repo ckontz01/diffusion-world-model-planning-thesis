@@ -1,5 +1,5 @@
 """Deterministic complete source closure; always emits disabled approval."""
-import argparse,hashlib,json
+import argparse,hashlib,json,tarfile
 from pathlib import Path
 import lgp1_contract as c
 
@@ -13,7 +13,8 @@ def files():
     names.update('cluster/prometheus/'+n for n in ('e18_fresh_driver.py','pusht_fresh_initialization.py',
         'independent_pusht_runtime.py','INDEPENDENT-PINNED-INPUTS.json'))
     names.update(p.relative_to(REPO).as_posix() for p in (REPO/c.DOC).iterdir()
-                 if p.is_file() and p.name not in ('LAUNCH-PACKAGE.json','LGP1-SOURCE-MANIFEST.sha256'))
+                 if p.is_file() and p.name not in ('LAUNCH-PACKAGE.json','LGP1-SOURCE-MANIFEST.sha256',
+                     'CORRECTION-PACKAGE.json','LGP1-CORRECTION-SOURCE-MANIFEST.sha256','CORRECTION-EXPORTED-TESTS.json'))
     return sorted(names)
 
 def build(output):
@@ -36,6 +37,16 @@ def build(output):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--output',type=Path,required=True);p.add_argument('--record',type=Path)
+    p.add_argument('--archive',type=Path)
     a=p.parse_args();result=build(a.output)
+    if a.archive:
+        from lgp1_preserve import verify_archive
+        expected={}
+        with tarfile.open(a.archive,'x',format=tarfile.PAX_FORMAT) as tar:
+            for path in sorted(p for p in a.output.rglob('*') if p.is_file()):
+                name=path.relative_to(a.output).as_posix();expected[name]=dict(sha256=c.sha(path),bytes=path.stat().st_size)
+                info=tar.gettarinfo(str(path),arcname=name);info.mtime=0;info.uid=info.gid=0;info.uname=info.gname='';info.mode=0o644
+                with path.open('rb') as f:tar.addfile(info,f)
+        result['archive']=verify_archive(a.archive,expected)
     if a.record:c.write(a.record,result)
     print(json.dumps(result))

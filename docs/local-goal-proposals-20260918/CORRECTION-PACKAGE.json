@@ -1,0 +1,12 @@
+{
+  "archive": {
+    "bytes": 993280,
+    "files": 46,
+    "sha256": "578f34da3310db133ccb91ca2a72f42d281580f6a823b0e7f549485246a77965"
+  },
+  "bytes": 952663,
+  "execution_authorized": false,
+  "files": 44,
+  "input_sha256": "b21bac97520696b8bb2008a3cfef3f5188d4c59dd117bc158cc2fe2e86ff5aaa",
+  "source_sha256": "683b60d6026868f791c1dc54efb6748e1895b5d5258ebd136c631dd7ecd68e3b"
+}

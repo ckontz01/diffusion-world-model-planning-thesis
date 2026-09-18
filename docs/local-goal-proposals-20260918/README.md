@@ -4,6 +4,12 @@ The execution pipeline is now implemented and synthetically tested. **Real
 runtime, numerical-data checks and throughput remain untested; execution is
 not approved.** The reviewed preparation is preserved at `63e1d922`.
 
+The three findings against `dc073fd6` are resolved in the separately frozen
+[correction package](CORRECTION-PACKAGE.json). Read the narrow
+[correction receipt](PRE-LAUNCH-CORRECTIONS.md) and
+[new test evidence](CORRECTION-TEST-RESULTS.json). The previous source package
+and its metadata remain preserved; neither package authorizes execution.
+
 - [Implementation completion and launch commands](IMPLEMENTATION-COMPLETION.md)
 - [Complete immutable package identity](LAUNCH-PACKAGE.json)
 - [Pipeline regression evidence](PIPELINE-TEST-RESULTS.json)

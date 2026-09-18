@@ -1,6 +1,10 @@
 # LGP1 implementation completion — 18 September 2026
 
 Preparation only. Implements the reviewed study, not a new research direction.
+**Correction receipt:** see `PRE-LAUNCH-CORRECTIONS.md` and
+`CORRECTION-PACKAGE.json` for the three subsequent pre-launch fixes. The original
+`LAUNCH-PACKAGE.json` and 22-test records identify the preserved reviewed package,
+not the corrected source. Both remain execution-disabled.
 The previous source, disabled approval and ten-test record remain available at
 `63e1d9229492aa193c625fdf19c78200f4614f22`. No historical result is amended.
 Continuation stays the baseline; no scorer/model is promoted.
@@ -52,9 +56,11 @@ validation checkpoint selection has been introduced.
 
 `review_dtype_reproducer.py` executes the immutable old reference on artificial
 arrays: old CEM round dtypes are FP32/FP64/FP64 and old affine output is FP64.
-The repaired reference fixes bank/noise/projection/reduction to FP32. Affine
-operations use float64 coefficients with an FP32 store **after each operation**,
-matching the existing sklearn decoder rather than a fused affine expression.
+The repaired reference fixes bank/noise/projection/reduction to FP32. The later
+pre-launch correction also casts coefficients to FP32 **before** each affine
+operation, as authenticated against the pinned cluster sklearn source. The
+reviewed package's float64-arithmetic/FP32-store claim was incorrect; its local
+sklearn comparison did not authenticate the cluster implementation.
 Tensor/reference parity uses identical supplied noise, not equal RNG seeds.
 
 The final mean receives the same support operation to handle floating-point
@@ -112,7 +118,8 @@ accounting, not equal-FLOP claims. Host archive/transfer times are separate.
 
 ## Source freeze and future commands — disabled now
 
-`LAUNCH-PACKAGE.json` binds the source-manifest and INPUTS hashes. The manifest
+`CORRECTION-PACKAGE.json` now binds the current source-manifest and INPUTS hashes;
+`LAUNCH-PACKAGE.json` preserves the previous package identity. The manifest
 itself is also published beside this document. The package root contains a
 generated **disabled** `APPROVAL-TEMPLATE.json`; create a separate approval only
 after the bounded launch decision. Do not edit the source package or preserved

@@ -5,12 +5,12 @@ import torch
 def affine(x, source_mean, source_std, target_mean, target_std):
     shape=x.shape
     x=x.float().reshape(*shape[:-2],15,2)
-    sm,ss,tm,ts=[torch.as_tensor(v,device=x.device,dtype=torch.float64)
+    sm,ss,tm,ts=[torch.as_tensor(v,device=x.device,dtype=x.dtype)
                  for v in (source_mean,source_std,target_mean,target_std)]
     if any(v.shape!=(2,) or not torch.isfinite(v).all() for v in (sm,ss,tm,ts)) or (ss<=0).any() or (ts<=0).any():
         raise ValueError('Invalid affine statistics')
-    x=(x.double()*ss).float();x=(x.double()+sm).float()
-    x=(x.double()-tm).float();x=(x.double()/ts).float()
+    x=x*ss;x=x+sm
+    x=x-tm;x=x/ts
     return x.reshape(shape)
 
 

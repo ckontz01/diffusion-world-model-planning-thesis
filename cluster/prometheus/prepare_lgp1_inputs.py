@@ -51,6 +51,8 @@ for folder in ('sage','stable_worldmodel'):
  for p in (sage/folder).rglob('*.py'):files[str(p)]=sha(p)
 env=root/'envs/hi-lewm-artifact-py311-cu121-swm006'
 site=env/'lib/python3.11/site-packages'
+for rel in ('sklearn/preprocessing/_data.py','gymnasium/wrappers/common.py'):
+ p=site/rel;files[str(p)]=sha(p)
 for p in (site/'stable_worldmodel').rglob('*.py'):files[str(p)]=sha(p)
 for pattern in ('torch-*.dist-info/RECORD','numpy-*.dist-info/RECORD','pylance-*.dist-info/RECORD','torchvision-*.dist-info/RECORD','scikit_learn-*.dist-info/RECORD'):
  for p in site.glob(pattern):files[str(p)]=sha(p)
