@@ -1,0 +1,76 @@
+{
+  "manifest_hashes": {
+    "data/manifests/pusht/seed32/h100.json": "98c55afdcb443ef18c10cf2d01dc9f42df57baa8ceeee5e4f820ac1b41de7cf4",
+    "data/manifests/pusht/seed32/h125.json": "e8c56e5165fea1394413a2905de6a1246328fad1af81f9f5c7703bcc4c78d9db",
+    "data/manifests/pusht/seed32/h150.json": "17ca440f296ff1eb1c7ef28c13e0ab71582b1e2b6290995976f912afce506ad0",
+    "data/manifests/pusht/seed32/h25.json": "d09c7f2982fc5d17b438cc2aaa7b302edefb342b195ab1ada5c1c9087487c0d8",
+    "data/manifests/pusht/seed32/h50.json": "8cc8b775f4ff3f05c349737e5aeda590fcfdf3ebae71809ba264a96a9dc73b33",
+    "data/manifests/pusht/seed32/h75.json": "c067de99ff6dc8ee6d45b2a543a8f3bd9e355643d9086b17e5e8b9f0020971ca",
+    "data/manifests/pusht/seed42/h100.json": "4ca5591a002f6c30b8a1937db9367dcdd4ce8b0979893f0910a6218a50cc9fe6",
+    "data/manifests/pusht/seed42/h125.json": "e09ee13b53037b2fce0fabb0cc1a1b34939cb9a5547565953d96447280d5bb10",
+    "data/manifests/pusht/seed42/h150.json": "d70192603979ef3e481965fc59e95c05fba9b6b644638c5c15f60780d900b21c",
+    "data/manifests/pusht/seed42/h25.json": "d7d26c926df42f6627968dab8dc9b8e7b12c41004f1244c81b6e34f996f35e01",
+    "data/manifests/pusht/seed42/h50.json": "9ac736d748eed977a935872fee063fd2614da5d22eb51bcb4dfdf51f7927c770",
+    "data/manifests/pusht/seed42/h75.json": "08fa60738816e2a6e08d52ea016b8342a673ecafcd2f732e5f68cae6df90ed0d",
+    "data/manifests/pusht/seed52/h100.json": "7c5e80d0cd618ff0446d3fc36527ed4286a8f524b6ab9468229afed16f252007",
+    "data/manifests/pusht/seed52/h125.json": "85a9e624d832acb431e98c38e1d7409e6a49d52b582755795a81c2826db02fcb",
+    "data/manifests/pusht/seed52/h150.json": "30d5192df86529c0ae2dbd436baeda8fdb73da52bad249b7ee755f3f9722cca3",
+    "data/manifests/pusht/seed52/h25.json": "44dde277e41e0e627240be82be8c59c80fae6d80964b146ea491f36010102496",
+    "data/manifests/pusht/seed52/h50.json": "03e9d468cd9c6e167d316862ff81cc263668e11f06373d863b1b7dff77de7c4c",
+    "data/manifests/pusht/seed52/h75.json": "754834d6e2ac2aec342af95c8d2e1602ce3539fc0ffdce8c8e9bfe1dfef6b4a6"
+  },
+  "model_or_simulator_called": false,
+  "paper_episode_count": 601,
+  "payload_read": false,
+  "registry_sha256": "34dcff8a457fb636fbee836e836f752de66013154c36739613b9d5c81dcba5e6",
+  "roles": {
+    "P1_train": {
+      "eligible": 11434,
+      "eligible_id_sha256": "def3c325ee75ec56009836fb4c86783eb89433143d50ff73a64481a9767dc80b",
+      "excluded_paper": 380,
+      "original": 11814,
+      "window_counts_by_delta": {
+        "105": 223321,
+        "120": 137702,
+        "135": 75045,
+        "15": 1135736,
+        "150": 39420,
+        "30": 964226,
+        "45": 793094,
+        "60": 626032,
+        "75": 473234,
+        "90": 335509
+      }
+    },
+    "P1_val": {
+      "eligible": 1258,
+      "eligible_id_sha256": "8f7b2d826381f1b6aa52997006fd5cdee809b537c5f3d51cb008efd2e1e63922",
+      "excluded_paper": 37,
+      "original": 1295,
+      "window_counts_by_delta": {
+        "105": 24399,
+        "120": 15350,
+        "135": 8559,
+        "15": 124587,
+        "150": 4423,
+        "30": 105717,
+        "45": 86895,
+        "60": 68504,
+        "75": 51539,
+        "90": 36385
+      }
+    }
+  },
+  "sage_commit": "8219029fd52e89157e05aebb998ab26f0ef46966",
+  "sage_tree": "0c64066eeac97c27fee382c1879bb26968b3fd56",
+  "source_hashes": {
+    "configs/paper.json": "7d605222298ef7e22b743f98e9db8461160f9936025a7d4df611af87b3c4c041",
+    "configs/training.json": "dee16bc8dba9cabdcf396eabbe955ecc77299f1a9bf04336bea96b3c5cc41dc0",
+    "sage/eval/pusht.py": "843bfa643ce151bc16054151441d03e4832b3668721c268da9d4fb976b9c7954",
+    "sage/models/action_prior.py": "b317133de1dd6ae0cf93b191deca37c31ad4dc1b3fbcad5a991b9e5ad8ab22a2",
+    "sage/models/subgoal.py": "0d3ae44daf99133a2f13f49912cd35824f412eba40e06cb5afe3aa1a3166a131",
+    "sage/runtime/lewm.py": "eee279b14aa1fff8c9a91371a225e10ce13cb8228af1f2e05a4d753c105f7c46",
+    "sage/train/pusht_action_prior.py": "17d6a47671a8ef860882ef629a77724c975c05a9b95aaea8e1346928be98fe47",
+    "stable_worldmodel/envs/pusht/env.py": "950265cb0bad2c1f14a2c959de35695a047f58a502f45d67b53749bf48364f6a"
+  }
+}

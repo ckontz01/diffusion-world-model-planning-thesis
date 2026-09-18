@@ -1,0 +1,14 @@
+{
+  "generator_sha256": "0b3647a3a41435969d750ec58176ef5f92a419c4eacae2b5cda74b35e63f90da",
+  "sage_commit": "8219029fd52e89157e05aebb998ab26f0ef46966",
+  "sage_tree": "0c64066eeac97c27fee382c1879bb26968b3fd56",
+  "source_files": {
+    "cluster/prometheus/INDEPENDENT-PINNED-INPUTS.json": "cf48fd85336fbf4d65f12ef290cd3b08f3969da2c8a29842ece4c55e848f52df",
+    "cluster/prometheus/candidate_value_contract.py": "c6c421c341387460bf1f1c0950e436ab4d7988038df917b917913ecbde242d01",
+    "cluster/prometheus/e18_fresh_driver.py": "2a9044162fc1c9352234bff1ed13379609dc4c8e1af836bfa753ced31488d616",
+    "cluster/prometheus/gdp_cem_e14_models.py": "44697cea94845d556d342d4c4a852787e09e10629f1d0a22721662c22cff0216",
+    "cluster/prometheus/independent_pusht_runtime.py": "d6bae762318b8bd4456e47a8a824d2f73f4f24fde3f7ea71a261af61ad49c148",
+    "cluster/prometheus/pusht_fresh_initialization.py": "798bb6749dd30b9c6a91ac7018422edbefd356f3bb6bc322bd8ca95987506a65"
+  },
+  "thesis_base_commit": "a99d6d144300a3067c86ee295c94f4775f06267c"
+}

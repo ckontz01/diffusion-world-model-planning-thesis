@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "study": "LGP1-local-goal-proposals",
+  "preparation_only": true,
+  "real_runner_complete": false,
+  "automatic_launch": false,
+  "required_execution_source_manifest_sha256": null,
+  "proposed_gpu_seconds": 336000,
+  "proposed_cpu_allocation_seconds": 7200,
+  "proposed_remote_storage_bytes": 12000000000,
+  "proposed_fits": 6,
+  "proposed_updates": 72000,
+  "proposed_primary_episodes": 384,
+  "proposed_technical_episodes": 8
+}

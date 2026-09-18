@@ -4,6 +4,13 @@
 
 Thesis code and experiment records. Updated 14 September 2026.
 
+Preparation update, 18 September 2026: [LGP1 local-goal proposal comparison](docs/local-goal-proposals-20260918/README.md)
+inspects the released SAGE interface and specifies matched new GMM/diffusion
+proposers inside one shared planner. Synthetic-only preparation; no launch.
+SI1 remains complete, continuation remains the baseline, and no learned evaluator
+is promoted. The package explicitly separates tested interface/model components
+from the real-data and execution bindings still to implement.
+
 This project asks whether diffusion can generate useful action sequences for a learned world model, and whether looking beyond the first sequence helps the planner choose better actions. The world model, Le-WM, stays fixed; the learned action proposer is the part being studied.
 
 The latest PushT experiment is complete. **Continuation-aware diffusion improved on greedy diffusion and Gaussian continuation, but SAGE achieved higher success.** Diffusion used less time per solver call. The results below include both sides of that comparison.

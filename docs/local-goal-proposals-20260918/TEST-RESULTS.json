@@ -1,0 +1,14 @@
+{
+  "checkpoint_loads": 0,
+  "errors": 0,
+  "failures": 0,
+  "full_width_parameter_counts": {
+    "diffusion": 13526410,
+    "gmm": 13336104
+  },
+  "optimizer_steps": 0,
+  "simulator_calls": 0,
+  "synthetic_only": true,
+  "tests": 10,
+  "torch_version": "2.13.0+cpu"
+}

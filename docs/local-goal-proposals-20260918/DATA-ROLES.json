@@ -1,0 +1,56 @@
+{
+  "development_reference_indices": [
+    1269,
+    582,
+    525,
+    722,
+    567,
+    716,
+    630,
+    1066,
+    1074,
+    1565,
+    70,
+    867,
+    221,
+    905,
+    1287,
+    621,
+    428,
+    288,
+    1488,
+    757,
+    641,
+    855,
+    1280,
+    420,
+    860,
+    98,
+    886,
+    432,
+    181,
+    783,
+    706,
+    989
+  ],
+  "episode_registry_sha256": "34dcff8a457fb636fbee836e836f752de66013154c36739613b9d5c81dcba5e6",
+  "expert_roles": "Existing P1_train/P1_val minus entire released SAGE val/test roles and paper memberships; INVENTORY-ELIGIBLE.json",
+  "horizons": [
+    75,
+    150
+  ],
+  "indices_1600_5999_excluded": true,
+  "reference_namespace": "independent-pusht/final-20260906-4a608e5/collection",
+  "reference_payloads_opened": false,
+  "reserved_closed_loop_excluded": true,
+  "technical_reference_indices": [
+    1269,
+    582
+  ],
+  "training_seeds": [
+    8301,
+    8302,
+    8303
+  ],
+  "whole_source_roles": true
+}
