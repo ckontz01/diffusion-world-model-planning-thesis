@@ -76,3 +76,36 @@ setting change. No reserved payloads or historical controllers are used.
 Execution remains detached on Prometheus; laptop/SSD availability is not a
 liveness gate. Full scientific artifact backup and aggregate interpretation
 remain pending complete computation and byte-verified final SSD preservation.
+
+## Verified real technical pass and main-stage release
+
+All four real technical allocations subsequently completed0:0:
+
+| Job | Coordinate | Allocation seconds |
+| --- | --- | ---: |
+|301988|technical-gmm-8301-1269|46|
+|301989|technical-gmm-8301-582|44|
+|301990|technical-diffusion-8301-1269|45|
+|301991|technical-diffusion-8301-582|45|
+
+All four worker seals and exact task identities were independently checked.
+Each TECHNICAL record reports two completed episodes and unchanged frozen model
+tensors. This establishes successful real integration through the existing
+endpoint, lifecycle and throughput guards, not an efficacy result. No partial
+scientific reports or outcomes were opened to decide advancement.
+
+`TECHNICAL-STAGE-PASSED.json` was written at Unix1789772895.9698336 with these
+seals:
+
+- GMM1269: `1dabd3b2ba5a2c71d4f547d9f96216cdfff4f6a31d4d0ab76ad6413f9b90689c`.
+- GMM582: `dfe00ce4ce65648801010ad6dde4fbe3fd84d802e40bd0838dfc0dd4820ae013`.
+- Diffusion1269: `76d47cdcc39bb291e7324b9e14eed2d051f8d5210d923007d696142581c6906c`.
+- Diffusion582: `396fd710e9655efbb60b031e079313db85cf732fe788a182cdd17db80a23ff28`.
+
+The four charges total180seconds; cumulative charged GPU time at that gate is
+6057seconds including all previous failures. The first main job **301992**,
+`evaluation-gmm-8301-1269`, was submitted after the gate at
+Unix1789772896.017337 and read back RUNNING at45seconds,4CPUs/24GiB/oneGPU.
+There was no STOP or COMPUTE-COMPLETE. The main grid is underway, not complete.
+The three E12 drafts were checked by existence/byte count only and remain
+untouched in `/home/chris/thesis`.
