@@ -123,6 +123,61 @@ class Tests(unittest.TestCase):
         self.assertEqual(sch.n,0)
         with self.assertRaises(RuntimeError):c.grid(list(range(32)),14401)
 
+    def test_strict_sampler_cdf_rng_and_repeat(self):
+        from lgp1_sampler_check import check
+        old=torch.are_deterministic_algorithms_enabled()
+        torch.use_deterministic_algorithms(True)
+        try:self.assertTrue(check('cpu')['passed'])
+        finally:torch.use_deterministic_algorithms(old)
+
+    def test_saved_final_validation_has_no_optimizer_and_preserves_bytes(self):
+        from lgp1_train import validate_saved_final
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);cache=root/'cache';prior=root/'prior';out=root/'out'
+            cache.mkdir();prior.mkdir();out.mkdir()
+            arrays={k:np.zeros(shape,np.float32) for k,shape in dict(history=(2,3,192),local=(2,1,192),
+                far=(2,1,192),lowdim=(2,11),actions=(2,3,10),remaining=(2,)).items()}
+            arrays['remaining'][:]=15
+            for k,v in arrays.items():np.save(cache/(k+'.npy'),v)
+            stats=statistics(arrays,np.array([True,False]));np.savez(cache/'normalization.npz',**stats)
+            c.write(cache/'ROWS.json',[dict(role=role,episode=i,t=10,delta=15) for i,role in enumerate(('P1_train','P1_val'))]);c.seal(cache)
+            model=LocalProposer('gmm',width=16,depth=1,heads=2)
+            payload=dict(family='gmm',seed=8301,config=dict(width=16,depth=1,heads=2),model=model.state_dict(),
+                stats={k:torch.from_numpy(v) for k,v in stats.items()},updates=12000,row_presentations=1536000,cache_seal=c.sha(cache/'sha256.txt'))
+            torch.save(payload,prior/'model.pt');digest=c.sha(prior/'model.pt')
+            c.write(prior/'FINAL-CHECKPOINT.json',dict(selection='fixed_final',updates=12000,sha256=digest));c.seal(prior)
+            with patch('torch.optim.AdamW',side_effect=AssertionError('No optimizer allowed')),patch('torch.Tensor.backward',side_effect=AssertionError('No backward allowed')):
+                result=validate_saved_final(cache,out,prior,digest,c.sha(prior/'sha256.txt'),lambda:None,device='cpu')
+            self.assertEqual(result['optimizer_updates_this_allocation'],0)
+            self.assertEqual(result['row_presentations_this_allocation'],0)
+            self.assertEqual(result['validation']['rows'],1)
+            self.assertEqual(c.sha(out/'model.pt'),digest)
+            self.assertEqual(c.sha(prior/'model.pt'),digest)
+            bad=root/'bad';bad.mkdir()
+            with self.assertRaisesRegex(RuntimeError,'model identity'):
+                validate_saved_final(cache,bad,prior,'0'*64,c.sha(prior/'sha256.txt'),lambda:None,device='cpu')
+
+    def test_validation_recovery_skips_cache_and_retains_full_grid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            source=Path(tmp);(source/c.DOC).mkdir(parents=True)
+            c.write(source/c.DOC/'DATA-ROLES.json',dict(development_reference_indices=list(range(32))))
+            specs=c.execution_grid(source,dict(validation_recovery={'enabled':True}))
+        self.assertEqual(specs[0]['seconds'],14340);self.assertEqual(specs[1]['seconds'],14100)
+        self.assertEqual(specs[2:],c.grid(list(range(32)))[2:])
+        self.assertEqual(3686+sum(s['seconds'] for s in specs[1:] if s['gpu']),324986)
+        class Scheduler:
+            def __init__(self):self.submitted=[]
+            def submit(self,s):self.submitted.append(s);return str(len(self.submitted))
+            def wait(self,j,s):return dict(seconds=s['seconds'],state='COMPLETED',exit_code='0:0')
+        scheduler=Scheduler();stages=[]
+        ctl=Controller(specs[1:],scheduler,lambda r:None,lambda:0,lambda s:None,lambda stage,rows:stages.append((stage,len(rows))))
+        ctl.gpu=3686;ctl.completed=[dict(task=specs[0],job='301979',state='COMPLETED',exit_code='0:0',seconds=3388)]
+        result=ctl.run()
+        self.assertEqual(result['gpu_seconds'],324986);self.assertEqual(result['jobs'],204)
+        self.assertEqual(len(scheduler.submitted),203)
+        self.assertFalse(any(s['kind']=='cache' for s in scheduler.submitted))
+        self.assertEqual(stages,[('models',7),('evaluation',203)])
+
     def test_preserved_failure_counts_in_storage_caps(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);source=root/'source';run=root/'run';old=root/'old'

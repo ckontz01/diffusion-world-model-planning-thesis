@@ -26,7 +26,7 @@ def storage(source,run):
     control=size(source)+sum(p.stat().st_size for p in run.iterdir() if p.is_file())
     retained=preserved_paths(run)
     for name,p in retained:
-        if name=='failed-run':
+        if name.endswith('-run'):
             workers+=sum(size(x) for x in p.iterdir() if x.is_dir())
             control+=sum(x.stat().st_size for x in p.iterdir() if x.is_file())
         else:control+=size(p)
@@ -38,9 +38,27 @@ def storage(source,run):
 def preserved_paths(run):
     approval=Path(run)/'APPROVAL.json'
     if not approval.exists():return []
-    recovery=read(approval).get('recovery')
+    approved=read(approval)
+    if approved.get('validation_recovery'):
+        from lgp1_validation_recovery import roots
+        return roots(approved)
+    recovery=approved.get('recovery')
     if not recovery:return []
     return [(key,Path(recovery[key])) for key in ('failed-run','failed-source','failed-control','new-control')]
+
+def task_root(run,spec):
+    run=Path(run);approved=read(run/'APPROVAL.json')
+    if approved.get('validation_recovery') and spec['kind']=='cache':
+        from lgp1_validation_recovery import PRIOR,CACHE_SEAL
+        require(sha(PRIOR/'cache/sha256.txt')==CACHE_SEAL,'Exact reused cache seal')
+        return PRIOR/'cache'
+    return run/spec['name']
+
+def execution_grid(source,approved):
+    specs=grid(read(Path(source)/DOC/'DATA-ROLES.json')['development_reference_indices'],
+        14340 if approved.get('validation_recovery') else approved.get('recovery',{}).get('cache_seconds',14400))
+    if approved.get('validation_recovery'):specs[1]['seconds']=14100
+    return specs
 def verify(root,manifest='sha256.txt'):
     root=Path(root).resolve();names=[]
     for line in (root/manifest).read_text().splitlines():
@@ -96,6 +114,9 @@ def authorize(source,approval):
                   'new-control':ROOT/('staging/lgp1-action-recovery-'+a['source_sha256'][:16])}
         require(all(Path(r[k])==v for k,v in expected.items()),'Preserved namespace identity')
         require(46+336000-60<=CAPS['gpu_seconds'],'Prior charge plus full reservations')
+    if a.get('validation_recovery'):
+        from lgp1_validation_recovery import authorize as validate_recovery
+        validate_recovery(a)
     return a
 def authenticate_inputs(source,*,payload=False):
     lock=read(Path(source)/DOC/'INPUTS.json')

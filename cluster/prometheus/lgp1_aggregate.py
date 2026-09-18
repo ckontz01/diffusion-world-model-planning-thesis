@@ -33,14 +33,25 @@ def aggregate(run,specs,source):
         c.require(c.sha(run/name/'model.pt')==digest and c.sha(run/name/'sha256.txt')==frozen['seals'][name],'Frozen model identity')
     for spec in specs:
         if spec['kind']=='analysis': continue
-        meta=verify.task(run/spec['name'],spec);resources.append(meta)
-        c.require(meta['source_sha256']==approval['source_sha256'] and meta['approval_sha256']==c.sha(run/'APPROVAL.json'),'Worker source/approval binding')
+        root=c.task_root(run,spec);meta=verify.task(root,spec);resources.append(meta)
+        origin=(root.parent if root.parent!=run else run)
+        origin_approval=c.read(origin/'APPROVAL.json')
+        c.require(meta['source_sha256']==origin_approval['source_sha256'] and
+                  meta['approval_sha256']==c.sha(origin/'APPROVAL.json'),'Worker source/approval binding')
+        if origin!=run:
+            c.require(spec['kind']=='cache' and approval.get('validation_recovery'),'Only explicit cache reuse')
+            c.require(origin_approval['input_sha256']==approval['input_sha256'],'Reused input identities')
         if spec['kind'] in ('technical','evaluation'):
             reference=c.read(Path(source)/c.DOC/'INPUTS.json')['references'][str(spec['reference'])]
             episodes=verify.episodes(run/spec['name'],spec,reference)
             if spec['kind']=='evaluation': rows.extend(episodes)
         if spec['kind']=='fit': fits.append(c.read(run/spec['name']/'REPORT.json'))
     c.require(sum(f['updates'] for f in fits)==72000 and sum(f['row_presentations'] for f in fits)==9216000,'Total fitting grid')
+    if approval.get('validation_recovery'):
+        from lgp1_validation_recovery import MODEL
+        c.require(c.sha(run/'fit-gmm-8301/model.pt')==MODEL,'Original final GMM preserved')
+        c.require(sum(f['optimizer_updates_this_allocation'] for f in fits)==60000,'No repeated saved-model updates')
+        c.require(sum(f['row_presentations_this_allocation'] for f in fits)==7680000,'No repeated saved-model rows')
     result=summarize(rows)
     result.update(rows=rows,fits=fits,resources=resources,main_episodes=384,technical_episodes=8,
                   model_freeze=c.read(run/'PRE-EVALUATION-FREEZE.json'),ledger=c.read(run/'PRE-ANALYSIS-ACCOUNTING.json'))

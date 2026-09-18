@@ -72,6 +72,15 @@ def cosine_alpha():
     return torch.cumprod(1-(1-f[1:]/f[:-1]).clamp(1e-5,.999),0).float()
 
 
+def categorical_cdf(logits):
+    # The pinned CUDA cumsum kernel rejects strict deterministic mode. Only
+    # the eight-probability prefix sum moves to CPU; softmax and random draws
+    # retain their original device/dtype/order. No RNG or determinism toggle.
+    cumulative=logits.softmax(-1).cpu().cumsum(-1).to(logits.device)
+    cumulative[:,-1]=1
+    return cumulative
+
+
 def velocity_loss(model, inputs, clean, noise, timestep):
     a = cosine_alpha().to(clean.device)[timestep][:,None,None]
     noisy = a.sqrt()*clean+(1-a).sqrt()*noise
@@ -89,7 +98,7 @@ def sample(model, inputs, count, rng):
         # Inverse-CDF categorical draw avoids CUDA multinomial's strict-
         # determinism restriction; one shared mode per whole trajectory.
         u=torch.rand((b,count),device=logits.device,generator=rng)
-        cumulative=logits.softmax(-1).cumsum(-1);cumulative[:,-1]=1
+        cumulative=categorical_cdf(logits)
         modes=(u[:,:,None]>cumulative[:,None]).sum(-1)
         rows = torch.arange(b,device=means.device)[:,None]
         mean,std = means[rows,modes],log_std[rows,modes].exp()

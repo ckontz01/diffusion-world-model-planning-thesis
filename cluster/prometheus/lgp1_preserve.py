@@ -25,8 +25,7 @@ def archive(source,run):
     c.require(complete['jobs']==204 and len(complete['completed'])==204,'Complete fixed chain required')
     from lgp1_verify import task
     approval=c.read(run/'APPROVAL.json')
-    for spec in c.grid(c.read(source/c.DOC/'DATA-ROLES.json')['development_reference_indices'],
-                      approval.get('recovery',{}).get('cache_seconds',14400)):task(run/spec['name'],spec)
+    for spec in c.execution_grid(source,approval):task(c.task_root(run,spec),spec)
     destination=run/'final-preservation';destination.mkdir(exist_ok=False)
     paths={}
     for prefix,root in [('source',source),('run',run)]+c.preserved_paths(run):

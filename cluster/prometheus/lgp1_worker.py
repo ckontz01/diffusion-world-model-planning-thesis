@@ -71,16 +71,14 @@ def main():
     p=argparse.ArgumentParser();p.add_argument('--source',type=Path,required=True);p.add_argument('--approval',type=Path,required=True)
     p.add_argument('--run',type=Path,required=True);p.add_argument('--task',required=True);a=p.parse_args()
     approved=c.authorize(a.source,a.approval)
-    specs=c.grid(c.read(a.source/c.DOC/'DATA-ROLES.json')['development_reference_indices'],
-                 approved.get('recovery',{}).get('cache_seconds',14400))
+    specs=c.execution_grid(a.source,approved)
     spec=next(x for x in specs if x['name']==a.task)
     c.require(os.environ.get('SLURM_JOB_ID') and os.environ.get('SLURM_CPUS_PER_TASK')=='4','Allocation required')
     c.require(a.run.resolve().parent==c.ROOT/'experiments/local-goal-proposals-20260918','Run namespace')
     out=a.run/a.task;out.mkdir(exist_ok=False)
     prior_worker_bytes=0
-    if 'recovery' in approved:
-        prior=Path(approved['recovery']['failed-run'])
-        prior_worker_bytes=sum(c.size(p) for p in prior.iterdir() if p.is_dir())
+    for name,prior in c.preserved_paths(a.run):
+        if name.endswith('-run'):prior_worker_bytes+=sum(c.size(p) for p in prior.iterdir() if p.is_dir())
     began=time.monotonic();cpu=time.process_time();soft=spec['seconds']-120
     def guard():
         c.require(time.monotonic()-began<soft,'Worker allocation guard')
@@ -106,8 +104,14 @@ def main():
             result=build_cache(a.source,out,FrozenBackend(c.read(a.source/c.DOC/'INPUTS.json')),guard)
             result['independent_check']=cache(out)
         elif spec['kind']=='fit':
-            from lgp1_train import train
-            result=train(a.run/'cache',out,spec['family'],spec['seed'],guard)
+            from lgp1_train import train,validate_saved_final
+            cache=c.task_root(a.run,specs[0])
+            if approved.get('validation_recovery') and spec['name']=='fit-gmm-8301':
+                from lgp1_validation_recovery import PRIOR,MODEL,FIT_SEAL
+                from lgp1_sampler_check import check
+                c.write(out/'SAMPLER-CHECK.json',check('cuda'))
+                result=validate_saved_final(cache,out,PRIOR/'fit-gmm-8301',MODEL,FIT_SEAL,guard)
+            else:result=train(cache,out,spec['family'],spec['seed'],guard)
         elif spec['kind'] in ('technical','evaluation'): result=evaluate(a.source,a.run,out,spec,guard)
         else:
             from lgp1_aggregate import aggregate
@@ -116,7 +120,8 @@ def main():
         technical=dict(task=spec,complete=True,gpu_used=spec['gpu'],wall_seconds=time.monotonic()-began,
             process_cpu_seconds=time.process_time()-cpu,peak_rss_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,
             source_sha256=c.sha(a.source/'LGP1-SOURCE-MANIFEST.sha256'),approval_sha256=c.sha(a.approval))
-        for key in ('updates','row_presentations','episodes','models_unchanged'):
+        for key in ('updates','row_presentations','episodes','models_unchanged',
+                    'optimizer_updates_this_allocation','row_presentations_this_allocation','validation_only'):
             if key in result: technical[key]=result[key]
         if spec['gpu']: technical['peak_gpu_bytes']=torch.cuda.max_memory_allocated()
         c.write(out/'TECHNICAL.json',technical);c.seal(out)
