@@ -9,8 +9,11 @@ are complete and frozen. The first technical episode job stopped before reset
 because the policy omitted the pinned World's seed-binding interface. The
 [scoped correction/recovery](docs/local-goal-proposals-20260918/POLICY-RECOVERY.md)
 reuses every completed artifact; all47 synthetic tests passed locally, from
-the export, and in the pinned cluster runtime. Main evaluation has not started.
-Real integration and throughput remain subject to the unchanged technical stage.
+the export, and in the pinned cluster runtime. The recovery has been
+[launched as job 301988](docs/local-goal-proposals-20260918/POLICY-RECOVERY-LAUNCH.md);
+the in-allocation CUDA synthetic interface check passed. Main evaluation has
+not started. Real integration and throughput remain subject to the unchanged
+technical stage.
 The following18September paragraph records the earlier preparation status.
 
 Preparation update, 18 September 2026: [LGP1 local-goal proposal comparison](docs/local-goal-proposals-20260918/README.md)
