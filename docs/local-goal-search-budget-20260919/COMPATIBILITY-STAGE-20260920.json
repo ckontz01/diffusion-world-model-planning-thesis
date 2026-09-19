@@ -1,0 +1,77 @@
+{
+  "observed_unix": 1789853414.0019498,
+  "process_matches": true,
+  "canonical_run_approval_sha256": "76365cdc4cffc323a9182fa48c883c2fd9258f358737fa6294196b102debec1c",
+  "gate": {
+    "scientific_selection": false,
+    "seals": {
+      "compatibility-diffusion": "ff759f58041de64bbce88b13bd4fb3db3c1fc64b1ce1b6b147bbaf382dd5fd1b",
+      "compatibility-gmm": "1e97664135daa9814c1e40c7c8da39e34600fd3626ecb43134d8bec67d8fd565"
+    },
+    "unix": 1789853164.3038952
+  },
+  "technical": {
+    "compatibility-gmm": {
+      "metadata": {
+        "approval_sha256": "76365cdc4cffc323a9182fa48c883c2fd9258f358737fa6294196b102debec1c",
+        "complete": true,
+        "episodes": 0,
+        "first_decisions": 8,
+        "gpu_used": true,
+        "models_unchanged": true,
+        "passed": true,
+        "peak_gpu_bytes": 223400960,
+        "peak_rss_bytes": 1601638400,
+        "physical_actions": 0,
+        "process_cpu_seconds": 14.416239701,
+        "source_sha256": "a0bcdb48029909e0b54a86d8b59c54fc4fa60a3734a9634c761e5caea4c9778b",
+        "task": {
+          "family": "gmm",
+          "gpu": true,
+          "kind": "compatibility",
+          "name": "compatibility-gmm",
+          "reference": 1269,
+          "seconds": 600,
+          "seed": 8301
+        },
+        "wall_seconds": 19.643797174008796
+      },
+      "seal": "1e97664135daa9814c1e40c7c8da39e34600fd3626ecb43134d8bec67d8fd565"
+    },
+    "compatibility-diffusion": {
+      "metadata": {
+        "approval_sha256": "76365cdc4cffc323a9182fa48c883c2fd9258f358737fa6294196b102debec1c",
+        "complete": true,
+        "episodes": 0,
+        "first_decisions": 8,
+        "gpu_used": true,
+        "models_unchanged": true,
+        "passed": true,
+        "peak_gpu_bytes": 241042944,
+        "peak_rss_bytes": 1590075392,
+        "physical_actions": 0,
+        "process_cpu_seconds": 14.628383094,
+        "source_sha256": "a0bcdb48029909e0b54a86d8b59c54fc4fa60a3734a9634c761e5caea4c9778b",
+        "task": {
+          "family": "diffusion",
+          "gpu": true,
+          "kind": "compatibility",
+          "name": "compatibility-diffusion",
+          "reference": 1269,
+          "seconds": 600,
+          "seed": 8301
+        },
+        "wall_seconds": 17.36791376399924
+      },
+      "seal": "ff759f58041de64bbce88b13bd4fb3db3c1fc64b1ce1b6b147bbaf382dd5fd1b"
+    }
+  },
+  "completed_main_jobs": 8,
+  "total_submitted": 11,
+  "charged_gpu_seconds": 250,
+  "current_dispatched": [
+    "302196"
+  ],
+  "stop": null,
+  "scheduler": "302196|RUNNING|0:0|6|4|billing=1,cpu=4,gres/gpu=1,mem=24G,node=1\n"
+}
