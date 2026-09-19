@@ -4,6 +4,12 @@
 
 Thesis code and experiment records. Updated 19 September 2026.
 
+Preparation update, 19 September 2026: [LGP-RB1 frozen-model search-budget comparison](docs/local-goal-search-budget-20260919/README.md)
+prepares common CEM budgets1/5/30 with the same six LGP1 checkpoints and32
+exposed sources. The384 old30-population episodes retain their original
+provenance;768 new main episodes are proposed, not launched. Only the
+refinement budget changes. Continuation remains the baseline; no promotion.
+
 **LGP1 completed development update, 19 September 2026:** matched local-goal
 diffusion achieved 26/192 native successes (13.542%), versus GMM 28/192 (14.583%)
 inside the same shared planner. The paired difference was −1.042 percentage

@@ -1,0 +1,3866 @@
+[
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "compatibility",
+    "name": "compatibility-gmm",
+    "reference": 1269,
+    "seconds": 600,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "compatibility",
+    "name": "compatibility-diffusion",
+    "reference": 1269,
+    "seconds": 600,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1269",
+    "populations": 1,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-582",
+    "populations": 1,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-525",
+    "populations": 1,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-722",
+    "populations": 1,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-567",
+    "populations": 1,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-716",
+    "populations": 1,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-630",
+    "populations": 1,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1066",
+    "populations": 1,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1074",
+    "populations": 1,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1565",
+    "populations": 1,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-70",
+    "populations": 1,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-867",
+    "populations": 1,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-221",
+    "populations": 1,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-905",
+    "populations": 1,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1287",
+    "populations": 1,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-621",
+    "populations": 1,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-428",
+    "populations": 1,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-288",
+    "populations": 1,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1488",
+    "populations": 1,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-757",
+    "populations": 1,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-641",
+    "populations": 1,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-855",
+    "populations": 1,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-1280",
+    "populations": 1,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-420",
+    "populations": 1,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-860",
+    "populations": 1,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-98",
+    "populations": 1,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-886",
+    "populations": 1,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-432",
+    "populations": 1,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-181",
+    "populations": 1,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-783",
+    "populations": 1,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-706",
+    "populations": 1,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8301-989",
+    "populations": 1,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1269",
+    "populations": 1,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-582",
+    "populations": 1,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-525",
+    "populations": 1,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-722",
+    "populations": 1,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-567",
+    "populations": 1,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-716",
+    "populations": 1,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-630",
+    "populations": 1,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1066",
+    "populations": 1,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1074",
+    "populations": 1,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1565",
+    "populations": 1,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-70",
+    "populations": 1,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-867",
+    "populations": 1,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-221",
+    "populations": 1,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-905",
+    "populations": 1,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1287",
+    "populations": 1,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-621",
+    "populations": 1,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-428",
+    "populations": 1,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-288",
+    "populations": 1,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1488",
+    "populations": 1,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-757",
+    "populations": 1,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-641",
+    "populations": 1,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-855",
+    "populations": 1,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-1280",
+    "populations": 1,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-420",
+    "populations": 1,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-860",
+    "populations": 1,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-98",
+    "populations": 1,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-886",
+    "populations": 1,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-432",
+    "populations": 1,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-181",
+    "populations": 1,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-783",
+    "populations": 1,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-706",
+    "populations": 1,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8302-989",
+    "populations": 1,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1269",
+    "populations": 1,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-582",
+    "populations": 1,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-525",
+    "populations": 1,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-722",
+    "populations": 1,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-567",
+    "populations": 1,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-716",
+    "populations": 1,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-630",
+    "populations": 1,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1066",
+    "populations": 1,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1074",
+    "populations": 1,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1565",
+    "populations": 1,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-70",
+    "populations": 1,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-867",
+    "populations": 1,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-221",
+    "populations": 1,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-905",
+    "populations": 1,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1287",
+    "populations": 1,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-621",
+    "populations": 1,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-428",
+    "populations": 1,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-288",
+    "populations": 1,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1488",
+    "populations": 1,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-757",
+    "populations": 1,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-641",
+    "populations": 1,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-855",
+    "populations": 1,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-1280",
+    "populations": 1,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-420",
+    "populations": 1,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-860",
+    "populations": 1,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-98",
+    "populations": 1,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-886",
+    "populations": 1,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-432",
+    "populations": 1,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-181",
+    "populations": 1,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-783",
+    "populations": 1,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-706",
+    "populations": 1,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-gmm-8303-989",
+    "populations": 1,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1269",
+    "populations": 1,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-582",
+    "populations": 1,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-525",
+    "populations": 1,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-722",
+    "populations": 1,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-567",
+    "populations": 1,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-716",
+    "populations": 1,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-630",
+    "populations": 1,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1066",
+    "populations": 1,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1074",
+    "populations": 1,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1565",
+    "populations": 1,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-70",
+    "populations": 1,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-867",
+    "populations": 1,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-221",
+    "populations": 1,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-905",
+    "populations": 1,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1287",
+    "populations": 1,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-621",
+    "populations": 1,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-428",
+    "populations": 1,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-288",
+    "populations": 1,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1488",
+    "populations": 1,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-757",
+    "populations": 1,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-641",
+    "populations": 1,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-855",
+    "populations": 1,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-1280",
+    "populations": 1,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-420",
+    "populations": 1,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-860",
+    "populations": 1,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-98",
+    "populations": 1,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-886",
+    "populations": 1,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-432",
+    "populations": 1,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-181",
+    "populations": 1,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-783",
+    "populations": 1,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-706",
+    "populations": 1,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8301-989",
+    "populations": 1,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1269",
+    "populations": 1,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-582",
+    "populations": 1,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-525",
+    "populations": 1,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-722",
+    "populations": 1,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-567",
+    "populations": 1,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-716",
+    "populations": 1,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-630",
+    "populations": 1,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1066",
+    "populations": 1,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1074",
+    "populations": 1,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1565",
+    "populations": 1,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-70",
+    "populations": 1,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-867",
+    "populations": 1,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-221",
+    "populations": 1,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-905",
+    "populations": 1,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1287",
+    "populations": 1,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-621",
+    "populations": 1,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-428",
+    "populations": 1,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-288",
+    "populations": 1,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1488",
+    "populations": 1,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-757",
+    "populations": 1,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-641",
+    "populations": 1,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-855",
+    "populations": 1,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-1280",
+    "populations": 1,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-420",
+    "populations": 1,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-860",
+    "populations": 1,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-98",
+    "populations": 1,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-886",
+    "populations": 1,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-432",
+    "populations": 1,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-181",
+    "populations": 1,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-783",
+    "populations": 1,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-706",
+    "populations": 1,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8302-989",
+    "populations": 1,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1269",
+    "populations": 1,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-582",
+    "populations": 1,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-525",
+    "populations": 1,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-722",
+    "populations": 1,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-567",
+    "populations": 1,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-716",
+    "populations": 1,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-630",
+    "populations": 1,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1066",
+    "populations": 1,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1074",
+    "populations": 1,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1565",
+    "populations": 1,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-70",
+    "populations": 1,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-867",
+    "populations": 1,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-221",
+    "populations": 1,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-905",
+    "populations": 1,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1287",
+    "populations": 1,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-621",
+    "populations": 1,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-428",
+    "populations": 1,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-288",
+    "populations": 1,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1488",
+    "populations": 1,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-757",
+    "populations": 1,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-641",
+    "populations": 1,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-855",
+    "populations": 1,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-1280",
+    "populations": 1,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-420",
+    "populations": 1,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-860",
+    "populations": 1,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-98",
+    "populations": 1,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-886",
+    "populations": 1,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-432",
+    "populations": 1,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-181",
+    "populations": 1,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-783",
+    "populations": 1,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-706",
+    "populations": 1,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r1-diffusion-8303-989",
+    "populations": 1,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1269",
+    "populations": 5,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-582",
+    "populations": 5,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-525",
+    "populations": 5,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-722",
+    "populations": 5,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-567",
+    "populations": 5,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-716",
+    "populations": 5,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-630",
+    "populations": 5,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1066",
+    "populations": 5,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1074",
+    "populations": 5,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1565",
+    "populations": 5,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-70",
+    "populations": 5,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-867",
+    "populations": 5,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-221",
+    "populations": 5,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-905",
+    "populations": 5,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1287",
+    "populations": 5,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-621",
+    "populations": 5,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-428",
+    "populations": 5,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-288",
+    "populations": 5,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1488",
+    "populations": 5,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-757",
+    "populations": 5,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-641",
+    "populations": 5,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-855",
+    "populations": 5,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-1280",
+    "populations": 5,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-420",
+    "populations": 5,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-860",
+    "populations": 5,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-98",
+    "populations": 5,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-886",
+    "populations": 5,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-432",
+    "populations": 5,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-181",
+    "populations": 5,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-783",
+    "populations": 5,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-706",
+    "populations": 5,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8301-989",
+    "populations": 5,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1269",
+    "populations": 5,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-582",
+    "populations": 5,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-525",
+    "populations": 5,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-722",
+    "populations": 5,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-567",
+    "populations": 5,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-716",
+    "populations": 5,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-630",
+    "populations": 5,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1066",
+    "populations": 5,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1074",
+    "populations": 5,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1565",
+    "populations": 5,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-70",
+    "populations": 5,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-867",
+    "populations": 5,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-221",
+    "populations": 5,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-905",
+    "populations": 5,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1287",
+    "populations": 5,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-621",
+    "populations": 5,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-428",
+    "populations": 5,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-288",
+    "populations": 5,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1488",
+    "populations": 5,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-757",
+    "populations": 5,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-641",
+    "populations": 5,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-855",
+    "populations": 5,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-1280",
+    "populations": 5,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-420",
+    "populations": 5,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-860",
+    "populations": 5,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-98",
+    "populations": 5,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-886",
+    "populations": 5,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-432",
+    "populations": 5,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-181",
+    "populations": 5,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-783",
+    "populations": 5,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-706",
+    "populations": 5,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8302-989",
+    "populations": 5,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1269",
+    "populations": 5,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-582",
+    "populations": 5,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-525",
+    "populations": 5,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-722",
+    "populations": 5,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-567",
+    "populations": 5,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-716",
+    "populations": 5,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-630",
+    "populations": 5,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1066",
+    "populations": 5,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1074",
+    "populations": 5,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1565",
+    "populations": 5,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-70",
+    "populations": 5,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-867",
+    "populations": 5,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-221",
+    "populations": 5,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-905",
+    "populations": 5,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1287",
+    "populations": 5,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-621",
+    "populations": 5,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-428",
+    "populations": 5,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-288",
+    "populations": 5,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1488",
+    "populations": 5,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-757",
+    "populations": 5,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-641",
+    "populations": 5,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-855",
+    "populations": 5,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-1280",
+    "populations": 5,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-420",
+    "populations": 5,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-860",
+    "populations": 5,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-98",
+    "populations": 5,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-886",
+    "populations": 5,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-432",
+    "populations": 5,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-181",
+    "populations": 5,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-783",
+    "populations": 5,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-706",
+    "populations": 5,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "gmm",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-gmm-8303-989",
+    "populations": 5,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1269",
+    "populations": 5,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-582",
+    "populations": 5,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-525",
+    "populations": 5,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-722",
+    "populations": 5,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-567",
+    "populations": 5,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-716",
+    "populations": 5,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-630",
+    "populations": 5,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1066",
+    "populations": 5,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1074",
+    "populations": 5,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1565",
+    "populations": 5,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-70",
+    "populations": 5,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-867",
+    "populations": 5,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-221",
+    "populations": 5,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-905",
+    "populations": 5,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1287",
+    "populations": 5,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-621",
+    "populations": 5,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-428",
+    "populations": 5,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-288",
+    "populations": 5,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1488",
+    "populations": 5,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-757",
+    "populations": 5,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-641",
+    "populations": 5,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-855",
+    "populations": 5,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-1280",
+    "populations": 5,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-420",
+    "populations": 5,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-860",
+    "populations": 5,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-98",
+    "populations": 5,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-886",
+    "populations": 5,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-432",
+    "populations": 5,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-181",
+    "populations": 5,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-783",
+    "populations": 5,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-706",
+    "populations": 5,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8301-989",
+    "populations": 5,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8301
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1269",
+    "populations": 5,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-582",
+    "populations": 5,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-525",
+    "populations": 5,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-722",
+    "populations": 5,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-567",
+    "populations": 5,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-716",
+    "populations": 5,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-630",
+    "populations": 5,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1066",
+    "populations": 5,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1074",
+    "populations": 5,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1565",
+    "populations": 5,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-70",
+    "populations": 5,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-867",
+    "populations": 5,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-221",
+    "populations": 5,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-905",
+    "populations": 5,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1287",
+    "populations": 5,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-621",
+    "populations": 5,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-428",
+    "populations": 5,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-288",
+    "populations": 5,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1488",
+    "populations": 5,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-757",
+    "populations": 5,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-641",
+    "populations": 5,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-855",
+    "populations": 5,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-1280",
+    "populations": 5,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-420",
+    "populations": 5,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-860",
+    "populations": 5,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-98",
+    "populations": 5,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-886",
+    "populations": 5,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-432",
+    "populations": 5,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-181",
+    "populations": 5,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-783",
+    "populations": 5,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-706",
+    "populations": 5,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8302-989",
+    "populations": 5,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8302
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1269",
+    "populations": 5,
+    "reference": 1269,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-582",
+    "populations": 5,
+    "reference": 582,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-525",
+    "populations": 5,
+    "reference": 525,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-722",
+    "populations": 5,
+    "reference": 722,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-567",
+    "populations": 5,
+    "reference": 567,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-716",
+    "populations": 5,
+    "reference": 716,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-630",
+    "populations": 5,
+    "reference": 630,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1066",
+    "populations": 5,
+    "reference": 1066,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1074",
+    "populations": 5,
+    "reference": 1074,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1565",
+    "populations": 5,
+    "reference": 1565,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-70",
+    "populations": 5,
+    "reference": 70,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-867",
+    "populations": 5,
+    "reference": 867,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-221",
+    "populations": 5,
+    "reference": 221,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-905",
+    "populations": 5,
+    "reference": 905,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1287",
+    "populations": 5,
+    "reference": 1287,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-621",
+    "populations": 5,
+    "reference": 621,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-428",
+    "populations": 5,
+    "reference": 428,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-288",
+    "populations": 5,
+    "reference": 288,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1488",
+    "populations": 5,
+    "reference": 1488,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-757",
+    "populations": 5,
+    "reference": 757,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-641",
+    "populations": 5,
+    "reference": 641,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-855",
+    "populations": 5,
+    "reference": 855,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-1280",
+    "populations": 5,
+    "reference": 1280,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-420",
+    "populations": 5,
+    "reference": 420,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-860",
+    "populations": 5,
+    "reference": 860,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-98",
+    "populations": 5,
+    "reference": 98,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-886",
+    "populations": 5,
+    "reference": 886,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-432",
+    "populations": 5,
+    "reference": 432,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-181",
+    "populations": 5,
+    "reference": 181,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-783",
+    "populations": 5,
+    "reference": 783,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-706",
+    "populations": 5,
+    "reference": 706,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "family": "diffusion",
+    "gpu": true,
+    "kind": "evaluation",
+    "name": "evaluation-r5-diffusion-8303-989",
+    "populations": 5,
+    "reference": 989,
+    "seconds": 180,
+    "seed": 8303
+  },
+  {
+    "gpu": false,
+    "kind": "analysis",
+    "name": "analysis",
+    "seconds": 7200
+  }
+]

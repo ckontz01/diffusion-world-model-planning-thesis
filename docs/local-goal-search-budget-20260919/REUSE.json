@@ -1,0 +1,3076 @@
+{
+  "aggregate_seal_sha256": "c50cb8c14deedce42b393a968921e39f31e38bd4f4684ededf003c4560967f75",
+  "aggregate_sha256": "aabd43c167696c447651bc000925a479abdb3eb9b5425fe77d2fb83f5adb176f",
+  "backup_members": 1733,
+  "backup_sha256": "24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd",
+  "canonical_approval_sha256": "deb7be0968fd8847df0178f19f081062e5b4d8993dfc531f4811456864302dea",
+  "diagnostic_inventory": {
+    "claim": "Context hashes and summaries cannot establish historical raw-bank equality or shorter-budget success.",
+    "endpoint_evidence": true,
+    "round_keys": [
+      "candidates",
+      "dtype",
+      "elite_indices",
+      "elite_std_mean",
+      "final_mean_projection",
+      "mean_cost",
+      "minimum",
+      "population_std_mean",
+      "projection",
+      "round",
+      "unique"
+    ],
+    "saved_complete_population_cost_vectors": false,
+    "saved_context_hashes": true,
+    "saved_elite_indices": true,
+    "saved_proposal_bank_hashes": false,
+    "saved_raw_proposal_banks": false,
+    "stage_keys": [
+      "candidate_trajectories",
+      "context_seconds",
+      "context_sha256",
+      "cost_calls",
+      "elapsed",
+      "encoding_seconds",
+      "final_goal",
+      "generator_seconds",
+      "physical_remaining",
+      "predicted_primitive_steps",
+      "proposal_seconds",
+      "refinement_total_seconds",
+      "remaining",
+      "rounds",
+      "scoring_seconds",
+      "seconds",
+      "stage"
+    ]
+  },
+  "freeze_sha256": "a8a5a0ff456cd870e540f838d2c8b62d00b542be6d7a2da53b377fbd91cbc305",
+  "historical_record": "f42c189b2e18968303dee5a733cf670d2301a657",
+  "input_sha256": "b21bac97520696b8bb2008a3cfef3f5188d4c59dd117bc158cc2fe2e86ff5aaa",
+  "legacy_runtime_sha256": "cf880903594619096bd6a0504f861aa3b74fd373947fcd73a0748cbbcea23300",
+  "main_workers": [
+    {
+      "job": "301992",
+      "name": "evaluation-gmm-8301-1269",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1269",
+      "seal": "a2218a5168c631f8e2ad36ab36459dba16606ac7ef43bb15825f0e7be39b317e",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1269",
+        "reference": 1269,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301993",
+      "name": "evaluation-gmm-8301-582",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-582",
+      "seal": "7af39a9beb4f7047ff4d02e144f5eed513468c198aae310d4bafc8ba91cd605a",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-582",
+        "reference": 582,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301994",
+      "name": "evaluation-gmm-8301-525",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-525",
+      "seal": "7b95f7b18c06279df4d04c25c7fe1d3e4a6b7703cb1b8d012a6ebfb4298f2204",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-525",
+        "reference": 525,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301995",
+      "name": "evaluation-gmm-8301-722",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-722",
+      "seal": "667edee5c962ff88d3da9799b01f3cc5c41c1322709bbdd12127305b721d001a",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-722",
+        "reference": 722,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301996",
+      "name": "evaluation-gmm-8301-567",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-567",
+      "seal": "398297277aa03075c38fdc9c9dfd312898c2c669fd2c949da0fd82b943b2c99f",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-567",
+        "reference": 567,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301997",
+      "name": "evaluation-gmm-8301-716",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-716",
+      "seal": "202ff0c56f24eb98d4223c4e163cacdcc0bc6020af5839f5a3348716eafe5c02",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-716",
+        "reference": 716,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301998",
+      "name": "evaluation-gmm-8301-630",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-630",
+      "seal": "5f7ef6bde849052fcab23ca6e84d867b9e7abe83c2abdd892504d1a4ab42478f",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-630",
+        "reference": 630,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "301999",
+      "name": "evaluation-gmm-8301-1066",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1066",
+      "seal": "5c02d0f247cb4d9db081b14bc1a831e469f47a795c7df903ccffb47378aa9ffd",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1066",
+        "reference": 1066,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302000",
+      "name": "evaluation-gmm-8301-1074",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1074",
+      "seal": "95933a81cea2885fb0d3b71cd97c31f25b81d2270447ea4339550ffa66b3023d",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1074",
+        "reference": 1074,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302001",
+      "name": "evaluation-gmm-8301-1565",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1565",
+      "seal": "b852bda757fc2e6cb43d2bfda66d6d0bc2d12ccd9feb0dacc6e182a2f6ac11d0",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1565",
+        "reference": 1565,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302002",
+      "name": "evaluation-gmm-8301-70",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-70",
+      "seal": "ca7fcfee2a080d7601336e040f330231f8bfa9358a9d8aa503c579f6634f60c9",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-70",
+        "reference": 70,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302003",
+      "name": "evaluation-gmm-8301-867",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-867",
+      "seal": "e9be003b2273566d234c281258c3ae8c01b40e1093b9a557bfb3c553b8863529",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-867",
+        "reference": 867,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302004",
+      "name": "evaluation-gmm-8301-221",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-221",
+      "seal": "4763dff76e8e49a177dac96e71bea11deba82feb804ee6d44c35ee3ab99a81b7",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-221",
+        "reference": 221,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302005",
+      "name": "evaluation-gmm-8301-905",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-905",
+      "seal": "e12f9e6afed8ac3454aa1f814a24e73b1f37dd08abcd002f35683cc12cf3eecd",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-905",
+        "reference": 905,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302006",
+      "name": "evaluation-gmm-8301-1287",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1287",
+      "seal": "8af0e3e370be3d09cb597aff1a057c426174f0b5b7aa1c2967ffb7a91b188c7e",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1287",
+        "reference": 1287,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302007",
+      "name": "evaluation-gmm-8301-621",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-621",
+      "seal": "5a410034bb9bea4a0b19a28198cec314834e09d9a3198ecf090d1ad2070a2095",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-621",
+        "reference": 621,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302008",
+      "name": "evaluation-gmm-8301-428",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-428",
+      "seal": "c76e9f1cd297f16385af60c7bc7f643ea4a621afb41303c4ed3f47dce419cde7",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-428",
+        "reference": 428,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302009",
+      "name": "evaluation-gmm-8301-288",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-288",
+      "seal": "b55457e80b593161714cce853ccaef264040c1f29c3b851b76fa1cc3f46e967f",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-288",
+        "reference": 288,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302010",
+      "name": "evaluation-gmm-8301-1488",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1488",
+      "seal": "968c343e7f465e6d556232ef04ca7171c71edb26755cddbbbafadfd164ce73b0",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1488",
+        "reference": 1488,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302011",
+      "name": "evaluation-gmm-8301-757",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-757",
+      "seal": "d34adc69e133435fa06d99d29348eb19bc22629f60ad7c434a9da010607afa2d",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-757",
+        "reference": 757,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302012",
+      "name": "evaluation-gmm-8301-641",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-641",
+      "seal": "38d006287337a460beb09b47a88548ba2db896526a668e25c9e775dead6f2723",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-641",
+        "reference": 641,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302013",
+      "name": "evaluation-gmm-8301-855",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-855",
+      "seal": "afde4617187ba9a5483d3a85a399c06de5b8afd4b09f324ef09bd9478ae87d63",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-855",
+        "reference": 855,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302014",
+      "name": "evaluation-gmm-8301-1280",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-1280",
+      "seal": "9cb407a1d47d0b454412cc42ef3b783794fde875ac0c237abcbf93fe7b56e621",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-1280",
+        "reference": 1280,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302015",
+      "name": "evaluation-gmm-8301-420",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-420",
+      "seal": "b0bcc8a8712b5479c08cddd738791c31152296753a62b581c0886f0cc02d54fc",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-420",
+        "reference": 420,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302016",
+      "name": "evaluation-gmm-8301-860",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-860",
+      "seal": "9f14e988b1a46925e5078a653769d60bade56c7cd697b2780aa2a6b61bb908f3",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-860",
+        "reference": 860,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302017",
+      "name": "evaluation-gmm-8301-98",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-98",
+      "seal": "e94356d993c36d984ab9151f9e802278e6119e4e33335df3179721c125ab2f19",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-98",
+        "reference": 98,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302018",
+      "name": "evaluation-gmm-8301-886",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-886",
+      "seal": "b9d5963dc258f1c9c11c4d5e90de636d440f219893f2926d7354b39e5c90a168",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-886",
+        "reference": 886,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302019",
+      "name": "evaluation-gmm-8301-432",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-432",
+      "seal": "e25fef501e514d73733aca6ac269aab0247457b915d104d4f5d52fd358e60d41",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-432",
+        "reference": 432,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302020",
+      "name": "evaluation-gmm-8301-181",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-181",
+      "seal": "c34c212a73efa6944bfb8f93fbc61b79fd1910ee1e41385d74546bbad9304f4c",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-181",
+        "reference": 181,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302021",
+      "name": "evaluation-gmm-8301-783",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-783",
+      "seal": "3c70081dea0956cf46d93c11a862f21fd4ec46534552345f432fe0fac6e7028a",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-783",
+        "reference": 783,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302022",
+      "name": "evaluation-gmm-8301-706",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-706",
+      "seal": "b52b9ba8c16c78432f1d72a93b3c5b764a89c6d74f8cb21db89f5d17498f5c64",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-706",
+        "reference": 706,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302023",
+      "name": "evaluation-gmm-8301-989",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8301-989",
+      "seal": "3b6c2de6bbe74f6aab095742f235f74d67b8625a96569899f11339a6e27e77c0",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8301-989",
+        "reference": 989,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302024",
+      "name": "evaluation-gmm-8302-1269",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1269",
+      "seal": "da044a8dc38857d54d6d6af8ecd5ca64c5e177459d6a2cebcdd2f05e700e441d",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1269",
+        "reference": 1269,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302025",
+      "name": "evaluation-gmm-8302-582",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-582",
+      "seal": "b1814ba34bde593740e3c003adad8bd7e31cf1dc5594b4b5cc844a9dbd867f63",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-582",
+        "reference": 582,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302026",
+      "name": "evaluation-gmm-8302-525",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-525",
+      "seal": "468457a307a95fa450ac916261e542f2a67f422f64396520362d40f833588338",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-525",
+        "reference": 525,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302027",
+      "name": "evaluation-gmm-8302-722",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-722",
+      "seal": "7bef35603a0ca0db50df64555cb910057d95d185b2d1e9c49d4f22be165e9ae0",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-722",
+        "reference": 722,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302028",
+      "name": "evaluation-gmm-8302-567",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-567",
+      "seal": "e66f4d346a3d16a1ef60ff1fed5b6a4b80123c64f5b12afc3550230057a742c9",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-567",
+        "reference": 567,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302029",
+      "name": "evaluation-gmm-8302-716",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-716",
+      "seal": "1ea12f6dba8505f313432261e3308dc81265c6ac3467a648b8d01eb7196940a3",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-716",
+        "reference": 716,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302030",
+      "name": "evaluation-gmm-8302-630",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-630",
+      "seal": "8946e82ee38661c267206fea687ecd9605fe67eb01e2bbb3c9280ecbd113efc9",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-630",
+        "reference": 630,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302031",
+      "name": "evaluation-gmm-8302-1066",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1066",
+      "seal": "d7a8dab8b6484cb9535e16765d7744723c632504810c2c0a85f7823e313ef902",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1066",
+        "reference": 1066,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302032",
+      "name": "evaluation-gmm-8302-1074",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1074",
+      "seal": "5f47f41c941edc1a464dc4cac146deb73a05ee4e56dc136f71048623ff83582d",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1074",
+        "reference": 1074,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302033",
+      "name": "evaluation-gmm-8302-1565",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1565",
+      "seal": "c4c2045e558f51e3620f237174440dfdec8164b336e58089bc12b78085deaba4",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1565",
+        "reference": 1565,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302034",
+      "name": "evaluation-gmm-8302-70",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-70",
+      "seal": "67bdb7be890875abc13d48b04107223aed150791f6949233109c7f1b07dbc3b6",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-70",
+        "reference": 70,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302035",
+      "name": "evaluation-gmm-8302-867",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-867",
+      "seal": "69d5270a5a1b0f26aad6d6b2ffb2d81f63ba39b2c73af017e50387857041f908",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-867",
+        "reference": 867,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302036",
+      "name": "evaluation-gmm-8302-221",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-221",
+      "seal": "2d4c0e0efd685e84d59fb440a729b8daf9919318db6b83b2f35ee1b56154c9b2",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-221",
+        "reference": 221,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302037",
+      "name": "evaluation-gmm-8302-905",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-905",
+      "seal": "9214e9d1b979a9c52d020650b5f67f1f7fc946723d0e25f142ec14e569c68760",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-905",
+        "reference": 905,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302038",
+      "name": "evaluation-gmm-8302-1287",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1287",
+      "seal": "b73f264b33b1591141c10c2b95aa4da1d4f253190bb8b15e86f7253333e55a80",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1287",
+        "reference": 1287,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302039",
+      "name": "evaluation-gmm-8302-621",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-621",
+      "seal": "ec6c9dcb24928ea7380e7caaa070916805ead7421facced87cf1c52ff0549649",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-621",
+        "reference": 621,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302040",
+      "name": "evaluation-gmm-8302-428",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-428",
+      "seal": "5da75abae67522edbe4595a1f20b805c76b784c75f8d5de7fd53310286260bd6",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-428",
+        "reference": 428,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302041",
+      "name": "evaluation-gmm-8302-288",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-288",
+      "seal": "a13f5980b26f4a827b6bde610c2c8d68dccd77d5c052eeb918fef5b2ce2e0f06",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-288",
+        "reference": 288,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302042",
+      "name": "evaluation-gmm-8302-1488",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1488",
+      "seal": "c719de7b8bc6dad0b32fcb55e57bf60423efd1dba1ce660e0d6a25b1f6e9b4a1",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1488",
+        "reference": 1488,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302043",
+      "name": "evaluation-gmm-8302-757",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-757",
+      "seal": "a19cd69e6f68baa4dd36a7f968a3eab1a23d1c06c329f5dedfb129a64c2d6c29",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-757",
+        "reference": 757,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302044",
+      "name": "evaluation-gmm-8302-641",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-641",
+      "seal": "76067c452ca484a4a5f945fc687a887cc36b89b1162a28911f90c053696fa7d2",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-641",
+        "reference": 641,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302045",
+      "name": "evaluation-gmm-8302-855",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-855",
+      "seal": "b8fab46240236669ec119c97f53bbe5a65e447e6bc1072b40695c85cb4b33fcd",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-855",
+        "reference": 855,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302046",
+      "name": "evaluation-gmm-8302-1280",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-1280",
+      "seal": "6ed9bd82f1917fb87d61aaec2e45742770e573469d4290b60b3c594fa66c8219",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-1280",
+        "reference": 1280,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302047",
+      "name": "evaluation-gmm-8302-420",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-420",
+      "seal": "c736a4c5d02de56a8ade6722a942cdf3f904a2c594dea4fdeff58b044dca9d4b",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-420",
+        "reference": 420,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302048",
+      "name": "evaluation-gmm-8302-860",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-860",
+      "seal": "d62b6c5836cb09ea4f0b40928563a9e76092eec05ab141c3c79622d9c9c34e9c",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-860",
+        "reference": 860,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302049",
+      "name": "evaluation-gmm-8302-98",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-98",
+      "seal": "b328305c664ab0b2f23eee4f2ce5ffe23d709de84c617ad931522cd8726d57a9",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-98",
+        "reference": 98,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302050",
+      "name": "evaluation-gmm-8302-886",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-886",
+      "seal": "b6684c0148ab8332a9052d02b67ae9035d0e8ae47c7062e760bf4a71b8857d85",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-886",
+        "reference": 886,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302051",
+      "name": "evaluation-gmm-8302-432",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-432",
+      "seal": "36ce99dfa32da8366354ce04a869cad03a5985bbd2f847890761336b8b8826f3",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-432",
+        "reference": 432,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302052",
+      "name": "evaluation-gmm-8302-181",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-181",
+      "seal": "96530fd057135bfbcfbc8f847b5d0077b72c2e4328bf9bda9fa6bf1eb5b6e480",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-181",
+        "reference": 181,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302053",
+      "name": "evaluation-gmm-8302-783",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-783",
+      "seal": "b8f5baa3e005d568118c5e3fb933439a03de8bf9c158ae34d7bfed4ade813110",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-783",
+        "reference": 783,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302054",
+      "name": "evaluation-gmm-8302-706",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-706",
+      "seal": "6c3d87bec92385da7c980c37cade39c59c00e1d7dacbc7748f332fa6dceda893",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-706",
+        "reference": 706,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302055",
+      "name": "evaluation-gmm-8302-989",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8302-989",
+      "seal": "4a5af26b6cefe0e1d3787fc2a28728176fb48aed0b198dc945ba4c32096c9202",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8302-989",
+        "reference": 989,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302056",
+      "name": "evaluation-gmm-8303-1269",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1269",
+      "seal": "a7be37a878f362aada66b9a27020310fbc565aa6cdfe9f666caffdca7b844d55",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1269",
+        "reference": 1269,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302057",
+      "name": "evaluation-gmm-8303-582",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-582",
+      "seal": "c0004dae23dd56859c16b1f37f938051f036bfe072fcee19556d5eead13f9bf2",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-582",
+        "reference": 582,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302058",
+      "name": "evaluation-gmm-8303-525",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-525",
+      "seal": "4ee1a91b88b2a469377203f8c4f0878160c6b3a863c7620d6f2d6beee405061f",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-525",
+        "reference": 525,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302059",
+      "name": "evaluation-gmm-8303-722",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-722",
+      "seal": "7d28c9e7ac046b8b2a4b15ed66a2ddbc6e9b128997487c4f65494eed01317e6b",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-722",
+        "reference": 722,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302060",
+      "name": "evaluation-gmm-8303-567",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-567",
+      "seal": "ca22cdf3e906f90142085d3f1cfbafb76008272de027b3706e7ff6626f2bc3a5",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-567",
+        "reference": 567,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302061",
+      "name": "evaluation-gmm-8303-716",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-716",
+      "seal": "6d87360f392265aa63c2dfba2f84c29d838b21b9c9a97bb317b7e0ae74c81cd4",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-716",
+        "reference": 716,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302062",
+      "name": "evaluation-gmm-8303-630",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-630",
+      "seal": "4660c189c2e00f525f679f464d08eefb8d25b5c4c6bde0a72dcba1a014deeff0",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-630",
+        "reference": 630,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302063",
+      "name": "evaluation-gmm-8303-1066",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1066",
+      "seal": "73fae152bb19bb8dab4b27bc7672dab16b5a4479ca1807d9e1b9729ad76ed6c7",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1066",
+        "reference": 1066,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302064",
+      "name": "evaluation-gmm-8303-1074",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1074",
+      "seal": "18586b3bcfa295aa06c861526a1bb9368639a2306f4e2705d59cbbe95781ab13",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1074",
+        "reference": 1074,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302065",
+      "name": "evaluation-gmm-8303-1565",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1565",
+      "seal": "6a2305d87ca1bd0ff66eb54ad710461fda4a66d72ca44ffecf9995607ee9f9f8",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1565",
+        "reference": 1565,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302066",
+      "name": "evaluation-gmm-8303-70",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-70",
+      "seal": "4cd216fc86afed6b67979e4d5ad6b03e0987da242500833763105ccc1df8d471",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-70",
+        "reference": 70,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302067",
+      "name": "evaluation-gmm-8303-867",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-867",
+      "seal": "3df34c05604ca4fef51caf0ec1b14cbe1c548d9a10e539ca78e1baed003b253d",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-867",
+        "reference": 867,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302068",
+      "name": "evaluation-gmm-8303-221",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-221",
+      "seal": "f1859ac9a40fc59fa935b0fae0a13277d7793e7a2ba62b3fa1ab6e805be4a4d5",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-221",
+        "reference": 221,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302069",
+      "name": "evaluation-gmm-8303-905",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-905",
+      "seal": "d26d38db41438ab760f31c0f24249c15776b74c357a3f87292fdbf0d664ee417",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-905",
+        "reference": 905,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302070",
+      "name": "evaluation-gmm-8303-1287",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1287",
+      "seal": "52d43be0f67a52c83245c864dc21fe114e438093db5b02659a442d3434cf9e8a",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1287",
+        "reference": 1287,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302071",
+      "name": "evaluation-gmm-8303-621",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-621",
+      "seal": "2a5a53a6e5a8095f7d17b5a6877d12f9ce8c7f9671bdf77f07b700da211867bf",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-621",
+        "reference": 621,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302072",
+      "name": "evaluation-gmm-8303-428",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-428",
+      "seal": "a71af0614fa8ddf27b1590d1c7b44ad33a2cbd8ca614062238bdcd78d0d4bc77",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-428",
+        "reference": 428,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302073",
+      "name": "evaluation-gmm-8303-288",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-288",
+      "seal": "6e5890a87bc0b2f6ca78ff62e748c1e06d6f4a374131e87b95d32f01cbb2bb42",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-288",
+        "reference": 288,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302074",
+      "name": "evaluation-gmm-8303-1488",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1488",
+      "seal": "09555fbfeec2d8f61d26a8dddaec558c7a31bbe7815c566f26f1aa33a612de05",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1488",
+        "reference": 1488,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302075",
+      "name": "evaluation-gmm-8303-757",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-757",
+      "seal": "7fbc07f7f0f418a23b8ca116a008dff5cc78ba1e8f19bab73bcaf76b3c6106db",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-757",
+        "reference": 757,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302076",
+      "name": "evaluation-gmm-8303-641",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-641",
+      "seal": "cd8e663b40680f6743a183ea3b29303bdea81428c31daf004e225d182ba90118",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-641",
+        "reference": 641,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302077",
+      "name": "evaluation-gmm-8303-855",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-855",
+      "seal": "dac0a8e22620433c24f018b83c5cec77ddd2da344ea4c9730cc28fe648f3c26b",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-855",
+        "reference": 855,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302078",
+      "name": "evaluation-gmm-8303-1280",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-1280",
+      "seal": "10115b6faf5aca820c5a33ea760d4ca417882a50d7bf38cc1d6cc903c4450acd",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-1280",
+        "reference": 1280,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302079",
+      "name": "evaluation-gmm-8303-420",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-420",
+      "seal": "2c2b0915d7a878ecaf079bde6534a48f59980323908e966f96c24246a07d9003",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-420",
+        "reference": 420,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302080",
+      "name": "evaluation-gmm-8303-860",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-860",
+      "seal": "3b31ec18c1e179f46ecad931007c176a866c17ffffd6144df3e136fb4355811e",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-860",
+        "reference": 860,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302081",
+      "name": "evaluation-gmm-8303-98",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-98",
+      "seal": "b70f000a28ba094d397f92876950f763fee35a3f8c882c9106201e1cb913c0c8",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-98",
+        "reference": 98,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302082",
+      "name": "evaluation-gmm-8303-886",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-886",
+      "seal": "d58386436200278a6f14f022d1a6cdc886a8bb7c6eadf1ac416a6cc2dfc4650a",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-886",
+        "reference": 886,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302083",
+      "name": "evaluation-gmm-8303-432",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-432",
+      "seal": "a4317f263a94672036841225af5f1e29a715c3679bb1fc06ebc0fc5421c59fe5",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-432",
+        "reference": 432,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302084",
+      "name": "evaluation-gmm-8303-181",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-181",
+      "seal": "be77537177e8deaa347b1595c29ccebc966a1af494cb862e11076d5e5babf7fe",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-181",
+        "reference": 181,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302085",
+      "name": "evaluation-gmm-8303-783",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-783",
+      "seal": "09e00f0c460b5bc78e22cb4bed208048af6767a8da924c957d6ba4f86b148a1b",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-783",
+        "reference": 783,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302086",
+      "name": "evaluation-gmm-8303-706",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-706",
+      "seal": "7d5d80ef475e4467c3e22e48286ed523f4b168778997b979aa30fd35a8b50697",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-706",
+        "reference": 706,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302087",
+      "name": "evaluation-gmm-8303-989",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-gmm-8303-989",
+      "seal": "337a6fb4fd004ef2075a3a826cf90a8f89cf151418c22cebaa1a75dc21c7f2fa",
+      "task": {
+        "family": "gmm",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-gmm-8303-989",
+        "reference": 989,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302088",
+      "name": "evaluation-diffusion-8301-1269",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1269",
+      "seal": "0006f04575dd1c6d67c11d139288520bb1b05d95fc6dbcf85ca06b998aefe2fb",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1269",
+        "reference": 1269,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302089",
+      "name": "evaluation-diffusion-8301-582",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-582",
+      "seal": "5e45d1b67972b7483cac5256278791eee31475b4b458af8219b0f389c9617cf1",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-582",
+        "reference": 582,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302090",
+      "name": "evaluation-diffusion-8301-525",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-525",
+      "seal": "9e3aeb3961994f6db5f406290a7bcc387c5b2f466038d7581948f35aae2bb201",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-525",
+        "reference": 525,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302091",
+      "name": "evaluation-diffusion-8301-722",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-722",
+      "seal": "6df935ba6f43000bb7067246cec7ea67aa7af2d05e2492ad1eff0b7042e63796",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-722",
+        "reference": 722,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302092",
+      "name": "evaluation-diffusion-8301-567",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-567",
+      "seal": "90a86f76b4462332f32559331afcd1373f6bed5d3dc42bfa1304b4d168be76ba",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-567",
+        "reference": 567,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302093",
+      "name": "evaluation-diffusion-8301-716",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-716",
+      "seal": "757241cb2ac1ac1883ecfd8939de1382259827364b3bd20f92cbf4c56607e375",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-716",
+        "reference": 716,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302094",
+      "name": "evaluation-diffusion-8301-630",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-630",
+      "seal": "e3c89ee109d6b83b11a3e4a4781421b2c468228d25c882ad539b962419c7ce7d",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-630",
+        "reference": 630,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302095",
+      "name": "evaluation-diffusion-8301-1066",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1066",
+      "seal": "42ed9f89180f3fc9b6387a5bb82f556d4bc588228c71946a500b9e1b88091a96",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1066",
+        "reference": 1066,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302096",
+      "name": "evaluation-diffusion-8301-1074",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1074",
+      "seal": "4306314a1e346b7f80916c34bac9af928b3dbd42532b1186b551cf281f86205f",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1074",
+        "reference": 1074,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302097",
+      "name": "evaluation-diffusion-8301-1565",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1565",
+      "seal": "1f9e0144b30dbd9b8a48b78bdb24dd863554487df2e2f5339ef1e367cf644015",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1565",
+        "reference": 1565,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302098",
+      "name": "evaluation-diffusion-8301-70",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-70",
+      "seal": "c7597a0f1ed878a75ed220376908c1b69ebdfb848c00fd0287816e31e15d768a",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-70",
+        "reference": 70,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302099",
+      "name": "evaluation-diffusion-8301-867",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-867",
+      "seal": "964686c6a626ec37758b09b87695f3415152dd10c6713cd7a08fb559c1cf6434",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-867",
+        "reference": 867,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302100",
+      "name": "evaluation-diffusion-8301-221",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-221",
+      "seal": "b9963cd3689e6d2474dbf1f5fc79d341ea72da7f86b5a6aa619e36cc92e0c1e7",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-221",
+        "reference": 221,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302101",
+      "name": "evaluation-diffusion-8301-905",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-905",
+      "seal": "8bcea412786f39f119fc571ce65567552be13df0ad3a6e193aecea70e33a9fae",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-905",
+        "reference": 905,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302102",
+      "name": "evaluation-diffusion-8301-1287",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1287",
+      "seal": "4c73c7665b279a6bc1c926ffe86d9e5d45eec9523caf38174fe3cb794edaa9c2",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1287",
+        "reference": 1287,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302103",
+      "name": "evaluation-diffusion-8301-621",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-621",
+      "seal": "721ee51eb92c8483d32a1d51e1d4b0dd94664b84c7eb24bcc799ae915ba76cc1",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-621",
+        "reference": 621,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302104",
+      "name": "evaluation-diffusion-8301-428",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-428",
+      "seal": "3acb892eed4c46dc55443e9069030710a5119f0aad3252c94cd14788683a54de",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-428",
+        "reference": 428,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302105",
+      "name": "evaluation-diffusion-8301-288",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-288",
+      "seal": "086d2fc826a06bf98b6046861de4f425812e2be8b8c8c003b434c4690f66a1ed",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-288",
+        "reference": 288,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302106",
+      "name": "evaluation-diffusion-8301-1488",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1488",
+      "seal": "941bebecad3ffc94c5a4e39a73d8db382b80da35fdafc0770aa8d70cb113f087",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1488",
+        "reference": 1488,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302107",
+      "name": "evaluation-diffusion-8301-757",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-757",
+      "seal": "0ea0a863c48edc9b9eda02a666c95d862d622a14a9c7ff7c23cee43fafba7705",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-757",
+        "reference": 757,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302108",
+      "name": "evaluation-diffusion-8301-641",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-641",
+      "seal": "103ad201577d059278c3f08c0ea0a5207ec529ed5c6cb8f982b3f2093655d4de",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-641",
+        "reference": 641,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302109",
+      "name": "evaluation-diffusion-8301-855",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-855",
+      "seal": "ba5859b18c01565c8d2291ae41917ef50d148efd67e662faf310e932e7c3bf22",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-855",
+        "reference": 855,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302110",
+      "name": "evaluation-diffusion-8301-1280",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-1280",
+      "seal": "f2da337119639be76e1e9965179a52b714fbf03ce7969775fb7cd2b719bcba97",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-1280",
+        "reference": 1280,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302111",
+      "name": "evaluation-diffusion-8301-420",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-420",
+      "seal": "3fe75b0a520a88c667f0a8cd18a2d73d013b1349682663007da2781cf2596e63",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-420",
+        "reference": 420,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302112",
+      "name": "evaluation-diffusion-8301-860",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-860",
+      "seal": "cfd73ba500af195a807863ec93af7baf0f7dc2c6d47131fe43e89c543eccb83e",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-860",
+        "reference": 860,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302113",
+      "name": "evaluation-diffusion-8301-98",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-98",
+      "seal": "002cf52aef030f365670f6446a943a7bdb975763b8dc70de3a09c137aa8df877",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-98",
+        "reference": 98,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302114",
+      "name": "evaluation-diffusion-8301-886",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-886",
+      "seal": "d1c71c858c5a19e6a0a270840b7ca33adfbc50bbf7519005a0e093792c31f019",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-886",
+        "reference": 886,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302115",
+      "name": "evaluation-diffusion-8301-432",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-432",
+      "seal": "3bc81d2ed4fd18290f8a21525b8e34f2e4adc4d4ba4cd6ca0d939622a1686fc3",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-432",
+        "reference": 432,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302116",
+      "name": "evaluation-diffusion-8301-181",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-181",
+      "seal": "3116133b64934c0f67406c2e398e5dfac9fe2680d7033b98bfc155433e20cb33",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-181",
+        "reference": 181,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302117",
+      "name": "evaluation-diffusion-8301-783",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-783",
+      "seal": "866434619461b32dcd1c7da61df9712bd7289c3554b0934ead38087d1a347844",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-783",
+        "reference": 783,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302118",
+      "name": "evaluation-diffusion-8301-706",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-706",
+      "seal": "9cae90601ad520ad409a6125f8b2d68882da93082f34815ff894881700b7a656",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-706",
+        "reference": 706,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302119",
+      "name": "evaluation-diffusion-8301-989",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8301-989",
+      "seal": "1d635c77df27f24817067f7a6043bffbe66998d7660501a34fc0e1883faf98a5",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8301-989",
+        "reference": 989,
+        "seconds": 1200,
+        "seed": 8301
+      }
+    },
+    {
+      "job": "302120",
+      "name": "evaluation-diffusion-8302-1269",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1269",
+      "seal": "74904251ea00580bbc3a89a50c5834d121cc8a7944345968a92157782e92de60",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1269",
+        "reference": 1269,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302121",
+      "name": "evaluation-diffusion-8302-582",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-582",
+      "seal": "ed71a8545c92e1222da16d01642cbd1f636d1629703921ab2530468d11fc4878",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-582",
+        "reference": 582,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302122",
+      "name": "evaluation-diffusion-8302-525",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-525",
+      "seal": "86dc73e6ad5f93cc41ce912460f3186fec7753669f316b5d6caa4b027358a219",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-525",
+        "reference": 525,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302123",
+      "name": "evaluation-diffusion-8302-722",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-722",
+      "seal": "1df2382a96527bafd0b8acc5b92470567eab0b84530b5d5d5b62fefb3bbb46cd",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-722",
+        "reference": 722,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302124",
+      "name": "evaluation-diffusion-8302-567",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-567",
+      "seal": "68f38857ba2d541c12a67fc1a8a9839accad80cee9e26a088d1345a819db27a8",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-567",
+        "reference": 567,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302125",
+      "name": "evaluation-diffusion-8302-716",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-716",
+      "seal": "2e62ebb4afc25a4825d41c96d4988c7b5052bdf49bd1e487a8e700f3b6a303f7",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-716",
+        "reference": 716,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302126",
+      "name": "evaluation-diffusion-8302-630",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-630",
+      "seal": "967f84d7a12aaa193f283d91b75d81761c0c1b0bb603a6800ddf0d636334167a",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-630",
+        "reference": 630,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302127",
+      "name": "evaluation-diffusion-8302-1066",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1066",
+      "seal": "11b0ef68e0f67d01ce53104e691f7ecc26aa88c483c5fbb91dfcf9a392928758",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1066",
+        "reference": 1066,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302128",
+      "name": "evaluation-diffusion-8302-1074",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1074",
+      "seal": "1bf9a54f872919ff9e3f90e1802e0f1c85be154b7606385cd90b05ce10207a6a",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1074",
+        "reference": 1074,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302129",
+      "name": "evaluation-diffusion-8302-1565",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1565",
+      "seal": "96bd5cf08b785ce198b2331dbf0c251f0c378dd557268405cc8183921a112e6c",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1565",
+        "reference": 1565,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302130",
+      "name": "evaluation-diffusion-8302-70",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-70",
+      "seal": "74d85f768ccae1e2725a878db8f1c0c6c3b9bb3106534e177878edf730c65705",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-70",
+        "reference": 70,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302131",
+      "name": "evaluation-diffusion-8302-867",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-867",
+      "seal": "3224f69ecb9f23b830d6cac489853406057c42f74e2139c3ede96b8fd865ead7",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-867",
+        "reference": 867,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302132",
+      "name": "evaluation-diffusion-8302-221",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-221",
+      "seal": "1dba8e0189cf2274225412f22032e5965c924d67e41951be589cb2155f799eae",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-221",
+        "reference": 221,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302133",
+      "name": "evaluation-diffusion-8302-905",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-905",
+      "seal": "7936b5080a8f7c8792dafcb1cfb47ffc823163badeb2f625e1eed15ce28a95ce",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-905",
+        "reference": 905,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302134",
+      "name": "evaluation-diffusion-8302-1287",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1287",
+      "seal": "301f1ca003c1d3bf3c58aa8607360106c3e85e2ce92e97805e899f8e33914cc2",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1287",
+        "reference": 1287,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302135",
+      "name": "evaluation-diffusion-8302-621",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-621",
+      "seal": "8e9df0e542b067a033341fe2a1d77be49bf385f2be38701d464fb0c451e30ed8",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-621",
+        "reference": 621,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302136",
+      "name": "evaluation-diffusion-8302-428",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-428",
+      "seal": "885314a05e72bb94f69aaa06c646e95d9e455890aab1a88b7a9fbc2aff1adf92",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-428",
+        "reference": 428,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302137",
+      "name": "evaluation-diffusion-8302-288",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-288",
+      "seal": "7891d243a1a97b30ac3f5ad666bb9cc2d30ba287da947a21c3fe49122dca2f2d",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-288",
+        "reference": 288,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302138",
+      "name": "evaluation-diffusion-8302-1488",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1488",
+      "seal": "e9399c289e649a4efc72a55f13c58d325986c4f868fbf7ecffa50794c2266785",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1488",
+        "reference": 1488,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302139",
+      "name": "evaluation-diffusion-8302-757",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-757",
+      "seal": "bd87a9dfa6c4a536ac95688215f23bc7124155734e5ea6785758b8af384482e1",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-757",
+        "reference": 757,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302140",
+      "name": "evaluation-diffusion-8302-641",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-641",
+      "seal": "cd2b25d9df7f9bb6fe6016bf364e2d3c224cd3107882f5300af5330ed11b800a",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-641",
+        "reference": 641,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302141",
+      "name": "evaluation-diffusion-8302-855",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-855",
+      "seal": "b386394126327fc73ba34a360eb9c54d836a605cd95216031effd8b40d862be4",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-855",
+        "reference": 855,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302142",
+      "name": "evaluation-diffusion-8302-1280",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-1280",
+      "seal": "27455fd6ae7abefe5fb3c6ddf0ad3e3e481d2e6c35a98a759bccc3a212dda3e5",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-1280",
+        "reference": 1280,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302143",
+      "name": "evaluation-diffusion-8302-420",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-420",
+      "seal": "1107dd0b115cacfab26ad25b24164a1f26fcde029f2afb8af52880ee441eab07",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-420",
+        "reference": 420,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302144",
+      "name": "evaluation-diffusion-8302-860",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-860",
+      "seal": "1652004d38a2a023166cd6cd85814a9badac5e61adb19f5aec5ccd8bb86c5075",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-860",
+        "reference": 860,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302145",
+      "name": "evaluation-diffusion-8302-98",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-98",
+      "seal": "6f8cc05c00dc76c36ac66423415e5b72c6485507ce6b84ab01380d0f1cac9751",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-98",
+        "reference": 98,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302146",
+      "name": "evaluation-diffusion-8302-886",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-886",
+      "seal": "51481156634ed4a74f0e872970ba5905471b16bd0f68a5a35bafd48adc5f89ac",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-886",
+        "reference": 886,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302147",
+      "name": "evaluation-diffusion-8302-432",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-432",
+      "seal": "01828edabedd29001b89757b2206234bb4281e78ccddf1472848c7b55340b4a3",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-432",
+        "reference": 432,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302148",
+      "name": "evaluation-diffusion-8302-181",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-181",
+      "seal": "5390222c5ba5a34a818005aca2b51831f89185628e1fefb2db3800e79c9158f5",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-181",
+        "reference": 181,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302149",
+      "name": "evaluation-diffusion-8302-783",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-783",
+      "seal": "bb14a65c28feeec886e32e1eff5371b98fa54adc97995f9d2b7e3057820e0e8f",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-783",
+        "reference": 783,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302150",
+      "name": "evaluation-diffusion-8302-706",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-706",
+      "seal": "f2b5734a5e0471860af21008227ebbc718424ac1f41250cfbdba8a03b24aa511",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-706",
+        "reference": 706,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302151",
+      "name": "evaluation-diffusion-8302-989",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8302-989",
+      "seal": "e6b2e061f2d44a68b6d4541114d609c3b8dc9fed3d2c608a00c6fc2a5d1c9fa0",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8302-989",
+        "reference": 989,
+        "seconds": 1200,
+        "seed": 8302
+      }
+    },
+    {
+      "job": "302152",
+      "name": "evaluation-diffusion-8303-1269",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1269",
+      "seal": "3b36508b437f331337715a6d4edfdc89406286c84947664985f47036d2eba835",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1269",
+        "reference": 1269,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302153",
+      "name": "evaluation-diffusion-8303-582",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-582",
+      "seal": "9bdb855dc6168132b786e6cfb1bbe70af3486ae6c847f7eb9012e70715d80e74",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-582",
+        "reference": 582,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302154",
+      "name": "evaluation-diffusion-8303-525",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-525",
+      "seal": "66a58e1c3faa9e2d3e12df4a7de128ee0038df51da5bba887c82665f56997294",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-525",
+        "reference": 525,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302155",
+      "name": "evaluation-diffusion-8303-722",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-722",
+      "seal": "7df766a6ad8e01402cbbaf3c4596c2bca0c222d0eebe83f999b265ec8074a2c9",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-722",
+        "reference": 722,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302156",
+      "name": "evaluation-diffusion-8303-567",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-567",
+      "seal": "f0a900154045fec5f391cbef577b7d07102eb549212d7be4b90ad4a67f9cdc10",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-567",
+        "reference": 567,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302157",
+      "name": "evaluation-diffusion-8303-716",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-716",
+      "seal": "bf4ecc44c32ec064d0dc31b95f0d2459cd5ff5c0339bf2f0b8d4f059e268fa5c",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-716",
+        "reference": 716,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302158",
+      "name": "evaluation-diffusion-8303-630",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-630",
+      "seal": "d6b28ee62d456fc74964f2795600039e229f54f60672720bf007919a67deffe8",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-630",
+        "reference": 630,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302159",
+      "name": "evaluation-diffusion-8303-1066",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1066",
+      "seal": "0eb7e3ca9e469d09b3f3543d77f41e069bee8d09834031b2e500b5804f03627f",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1066",
+        "reference": 1066,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302160",
+      "name": "evaluation-diffusion-8303-1074",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1074",
+      "seal": "9426dc74d5d886c996d4015abdcdb83ee47266b4731e31d14d9725a669903383",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1074",
+        "reference": 1074,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302161",
+      "name": "evaluation-diffusion-8303-1565",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1565",
+      "seal": "61ea662bb96eba222fdc7a61768b9a5f4876db733538b4ea1dd57edf46fcfeb6",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1565",
+        "reference": 1565,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302162",
+      "name": "evaluation-diffusion-8303-70",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-70",
+      "seal": "2b7948da09b8851a2916643805fb07433115f0f9126235b85cf9daa8f9e824c2",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-70",
+        "reference": 70,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302163",
+      "name": "evaluation-diffusion-8303-867",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-867",
+      "seal": "2993d8b4cc5ca1942c3f32456f77003ce1673a344c5263242b1d90093c7157a8",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-867",
+        "reference": 867,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302164",
+      "name": "evaluation-diffusion-8303-221",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-221",
+      "seal": "c4b30ea1844d8e1bcd5131d097916ec5689730cb451411407e8aa609959f4537",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-221",
+        "reference": 221,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302165",
+      "name": "evaluation-diffusion-8303-905",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-905",
+      "seal": "4b0145b1404387705f35c1b6230db014e0f74142a1df4647fda6c191955aff64",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-905",
+        "reference": 905,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302166",
+      "name": "evaluation-diffusion-8303-1287",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1287",
+      "seal": "1d267b0cfa57c23296afe3d95b53c1d2df3bd66dad7984c92775f9ae2d059e67",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1287",
+        "reference": 1287,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302167",
+      "name": "evaluation-diffusion-8303-621",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-621",
+      "seal": "107db5e9af12c4227bca8e5c806151f6cf4262ed473e14e0393295a64696f166",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-621",
+        "reference": 621,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302168",
+      "name": "evaluation-diffusion-8303-428",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-428",
+      "seal": "7ad64aaf09e2abfa9a4ae94ded3b4f28d4e6c18128cedbc399ab21e897320596",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-428",
+        "reference": 428,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302169",
+      "name": "evaluation-diffusion-8303-288",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-288",
+      "seal": "4b757c18cee69e56052674e2980bc4a40818bec8bd75459a7bb08807b147b0f8",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-288",
+        "reference": 288,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302170",
+      "name": "evaluation-diffusion-8303-1488",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1488",
+      "seal": "f14eb50a8ea215456d9ad69a557701cdf46f719854928f583acc3e96b8baeca6",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1488",
+        "reference": 1488,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302171",
+      "name": "evaluation-diffusion-8303-757",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-757",
+      "seal": "c146584d30c57cd0bf06bd76634405c6b3ee1fdf7a588e1f06323ef61a030fd0",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-757",
+        "reference": 757,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302172",
+      "name": "evaluation-diffusion-8303-641",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-641",
+      "seal": "0ee8ce09f0ca1c52a515b56f9d03c6d9bd498ce56371e209b16ec80e76db0b88",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-641",
+        "reference": 641,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302173",
+      "name": "evaluation-diffusion-8303-855",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-855",
+      "seal": "b7579bf9ac088c8f3329cec5b06fcbfeab753ee5715247a4228c8dd94d58e053",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-855",
+        "reference": 855,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302174",
+      "name": "evaluation-diffusion-8303-1280",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-1280",
+      "seal": "3b4729b083877e963ddad1526298c3d22c2f86bf5cfdb26275a12f585758588e",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-1280",
+        "reference": 1280,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302175",
+      "name": "evaluation-diffusion-8303-420",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-420",
+      "seal": "d6d8a1d40e05139e1e27b1404ae799d04419381a4b245061edfc6c3a67bc2512",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-420",
+        "reference": 420,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302176",
+      "name": "evaluation-diffusion-8303-860",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-860",
+      "seal": "9fb8023d0bf7cbf90377a7aec8f0487e79e76cc14084bbe71a00b234f833967f",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-860",
+        "reference": 860,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302177",
+      "name": "evaluation-diffusion-8303-98",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-98",
+      "seal": "e0af63e0a8cd8667377c20d8550d43574e9aa108b4f4a1ce9c0bd1de638fe18a",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-98",
+        "reference": 98,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302178",
+      "name": "evaluation-diffusion-8303-886",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-886",
+      "seal": "2273911796cb49dcb6b1b845314df32b311b322b98493003f70f0e822c81faab",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-886",
+        "reference": 886,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302179",
+      "name": "evaluation-diffusion-8303-432",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-432",
+      "seal": "7f89e705621f6f13b3583b45ae7849b2233e66ee6d7d403d9235fa87289d6dbb",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-432",
+        "reference": 432,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302180",
+      "name": "evaluation-diffusion-8303-181",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-181",
+      "seal": "5bd6ecf6ef33fd3c53f6adbd457b4ce127580e7577d424f600efa93d8312b81c",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-181",
+        "reference": 181,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302181",
+      "name": "evaluation-diffusion-8303-783",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-783",
+      "seal": "bb2bf893e5f2237f7c0b6cf73d61ce356601912607058b8ebf4af1a4c41e24d6",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-783",
+        "reference": 783,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302182",
+      "name": "evaluation-diffusion-8303-706",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-706",
+      "seal": "5b92a52790867f880724eb3991f469672394f267b01909db3c4898497898e823",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-706",
+        "reference": 706,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    },
+    {
+      "job": "302183",
+      "name": "evaluation-diffusion-8303-989",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/evaluation-diffusion-8303-989",
+      "seal": "96075469185521068123bf93b0cccd1138881d437ed66a1fac66555ba90e9fee",
+      "task": {
+        "family": "diffusion",
+        "gpu": true,
+        "kind": "evaluation",
+        "name": "evaluation-diffusion-8303-989",
+        "reference": 989,
+        "seconds": 1200,
+        "seed": 8303
+      }
+    }
+  ],
+  "models": {
+    "fit-diffusion-8301": {
+      "model_sha256": "3d12b183150693a4348a261c242efb1807afbbbf1282e0714eb12ad52c74e08f",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-diffusion-8301",
+      "seal": "081c63b1fe5d08a089a8bd60cdefa6d3c80c93f8abe2a011e77fc40665cddf3c"
+    },
+    "fit-diffusion-8302": {
+      "model_sha256": "a23324293eb5659da9d83c025742e5ea1b2792cfd0401cc2a220b4dcfa865605",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-diffusion-8302",
+      "seal": "66650c79c6afed38c72a30866c1e703944290b9ca8e0ae1465f6466e01fd3d76"
+    },
+    "fit-diffusion-8303": {
+      "model_sha256": "bb6fc5abed718821fe8930b5429a6027dc481fd5d1de2320684e7a08d6adf023",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-diffusion-8303",
+      "seal": "9b17f881230aea1914b39d633064017f5f849143234e4d187b6cdbb1e5af8491"
+    },
+    "fit-gmm-8301": {
+      "model_sha256": "2283b7aef1b38d50d546beeb6f73ad36e9fbc6f1fb1bc5001b830d182f062286",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-gmm-8301",
+      "seal": "14f55d9075a8f9a2ea9ef6c6d21fd2ae15b375a3ed4c2caa1ef32de03ef80c39"
+    },
+    "fit-gmm-8302": {
+      "model_sha256": "405e101ca97a7d96c317a85e42aab2a694eb8a51e3cc00d26d7a765adc6e9bf1",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-gmm-8302",
+      "seal": "ac34c898cef5a89720b387e73b9f199433ab4c15e77c402a120ae3acc2e74bed"
+    },
+    "fit-gmm-8303": {
+      "model_sha256": "ef56dbc8a51e05b2088f8b5a584025364eb157e02a863d1ecad9bfb1b4949f04",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-gmm-8303",
+      "seal": "9b6217d102cc3a41a1dd998156ed41d29a554297c5970a5eeafd059faf4fadba"
+    }
+  },
+  "references": [
+    1269,
+    582,
+    525,
+    722,
+    567,
+    716,
+    630,
+    1066,
+    1074,
+    1565,
+    70,
+    867,
+    221,
+    905,
+    1287,
+    621,
+    428,
+    288,
+    1488,
+    757,
+    641,
+    855,
+    1280,
+    420,
+    860,
+    98,
+    886,
+    432,
+    181,
+    783,
+    706,
+    989
+  ],
+  "reused_main_episodes": 384,
+  "reused_populations": 30,
+  "source": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b54a55b16bcb83a5",
+  "source_files": {
+    "cluster/prometheus/INDEPENDENT-PINNED-INPUTS.json": "cf48fd85336fbf4d65f12ef290cd3b08f3969da2c8a29842ece4c55e848f52df",
+    "cluster/prometheus/e18_fresh_driver.py": "2a9044162fc1c9352234bff1ed13379609dc4c8e1af836bfa753ced31488d616",
+    "cluster/prometheus/independent_pusht_runtime.py": "d6bae762318b8bd4456e47a8a824d2f73f4f24fde3f7ea71a261af61ad49c148",
+    "cluster/prometheus/lgp1_aggregate.py": "228473af87ca3751a68c0913087c9142d3ed9608e62fb0b816cdab6dcbe44514",
+    "cluster/prometheus/lgp1_capture_contracts.py": "1239b5e0c0a6d689fc72fd2f3a722186ab4585500505c1e047f3373920fb2bcc",
+    "cluster/prometheus/lgp1_contract.py": "7e3247adca96e74c611853c824babdcd71964a30dbad1b03c1deb316d69c4d1d",
+    "cluster/prometheus/lgp1_correction_tests.py": "24799b2b558a5f989bf7a1820c72106c74d6b7dd495019c089cca6e4e89f4701",
+    "cluster/prometheus/lgp1_data.py": "0457c09de1593c7ca2b399a64ff771d8e69813a46f9128121b7ca9c84f3cf8a1",
+    "cluster/prometheus/lgp1_dispatch.py": "1def4e1dd19e1075c1205204b259b5bc97189c1bbefc8cabdcf9caf85fecaee9",
+    "cluster/prometheus/lgp1_endpoint.py": "616cdc3aeba5b8bfc0653036b4300284a1c8eb3417c24edbdff2d025f3cbefff",
+    "cluster/prometheus/lgp1_lifecycle_tests.py": "7ef336118442fcd65a401c8520f0cb21e6b337c1669002f0bfef8991bbc67fa5",
+    "cluster/prometheus/lgp1_package.py": "8d5f4f92f3c9ccf1d5669d6abc4516296a5396e9e7e6ca419372213093d41fdf",
+    "cluster/prometheus/lgp1_policy_recovery.py": "9a38be8bd43f40a0aafeb5b5283c6d2b197aadf0ea4df2be2cbf4e937d337e8a",
+    "cluster/prometheus/lgp1_policy_recovery_tests.py": "174ffdebb2079e17106216b95e38962fc81fbea13bc338da13885c3ea7b0457d",
+    "cluster/prometheus/lgp1_preserve.py": "01319471fdbb901f04fa7140beb32deeb4613269269d507d93bd8719cc1e38d5",
+    "cluster/prometheus/lgp1_runtime.py": "cf880903594619096bd6a0504f861aa3b74fd373947fcd73a0748cbbcea23300",
+    "cluster/prometheus/lgp1_sampler_check.py": "78cdceed000c79b56dc44afcea3c39c437db8332f286441e49d74ad1e96ae3e7",
+    "cluster/prometheus/lgp1_tensor.py": "56fe3378f96f23390456949e30c39fb887b383542351cdc05065045f85b01c63",
+    "cluster/prometheus/lgp1_test_evidence.py": "477b05244aebba01b0f900fe40a82c5cf226970707f006c4d2c5eca27f54b7f8",
+    "cluster/prometheus/lgp1_train.py": "63487c821ad79497977b8f9155ea86f3a9c52d9b78e87549afc8ccbd0f279807",
+    "cluster/prometheus/lgp1_validation_recovery.py": "1747f24d56ff64f8913fe33a9b6b09a9e35564a55e4f93691c197ebd0875c659",
+    "cluster/prometheus/lgp1_verify.py": "5470718ea79596c414a72602d3ad58528d2168102c9395700455499fd9cdc8be",
+    "cluster/prometheus/lgp1_worker.py": "efe04de405ee595e7894d982f66c37840f272e5e882b465cde4bd95fef881d9e",
+    "cluster/prometheus/local_goal_models.py": "0db8bf8f105c4a225084e23b507e1976812d37549ede756cc3f9cefa91738cb7",
+    "cluster/prometheus/local_goal_proposals.py": "a75f413c986ac1f7fd178f7964b9810d5ba89f1481d7a7240c601bbfae57d0c2",
+    "cluster/prometheus/prepare_lgp1_inputs.py": "f142c035282b92aedf5438048ff71255fcb53ce208bcf91f380c2db268f3c493",
+    "cluster/prometheus/pusht_fresh_initialization.py": "798bb6749dd30b9c6a91ac7018422edbefd356f3bb6bc322bd8ca95987506a65",
+    "cluster/prometheus/run_lgp1.sh": "027faf0ba19c46adf3bdf3867995a5f561d22b64b265383288bcc37376f1a8a0",
+    "cluster/prometheus/test_lgp1_pipeline.py": "5d8da057094fec185fcfa568729eb0f0636f2d625891699ffba08c32fe62b224",
+    "cluster/prometheus/test_local_goal_proposals.py": "fd30f49ab5905c46c787d7d0f04dcae9b7261cc87ae0ecdaa388eba04b404e72",
+    "docs/local-goal-proposals-20260918/ACTION-RECOVERY-TEST-RESULTS.json": "3c1ca1e3ae8e28879d59265bed494ae3c6dfd547fc3b8ae5812faeb0c983a87b",
+    "docs/local-goal-proposals-20260918/ACTION-RECOVERY.md": "b62fc9c9973df7b56bd20cf37d4410ed7c2bb0667be256ba8427b640bfa57143",
+    "docs/local-goal-proposals-20260918/ANGLE-ENDPOINT-CORRECTION.md": "5b1724fdcf3c7d7039146eb679ccda1a6213d1d29f4ac57f08a47167bcf140f9",
+    "docs/local-goal-proposals-20260918/ANGLE-TEST-RESULTS.json": "4bad7c4ba25cd5e054ed042fe4b27f03516c4ce645ff277b3c05db548bd2b0a4",
+    "docs/local-goal-proposals-20260918/APPROVAL-TEMPLATE.json": "cf2b5ca3ae7ee032fd18c392d26c644cd218b52c5e9af1f78e53b8421c77fefe",
+    "docs/local-goal-proposals-20260918/CORRECTION-TEST-INITIAL.json": "359936b6ba927df3314e3fd4a6d3ed1d5c507ad6ceb95c51c5a26dc2f298f3ea",
+    "docs/local-goal-proposals-20260918/CORRECTION-TEST-RESULTS.json": "e5003b76a6837b2a338c48fc80870d155fe6ef7ce0d6656feed51fcedb275141",
+    "docs/local-goal-proposals-20260918/DATA-ROLES.json": "fa629d910727ba3f62d57abfbc3f42154e2bf83df7698705736835ad4f1dd8dd",
+    "docs/local-goal-proposals-20260918/HOST-IMPORT-CORRECTION.md": "73dc2f47c886937d27f635fd98069d443ebadd26c388dd0f19e7f4f76f811c7a",
+    "docs/local-goal-proposals-20260918/HOST-IMPORT-TEST-RESULTS.json": "b3dc7635ee5b7d4576adc39d30bd9d69195068b471c29a2cf834346f03a51149",
+    "docs/local-goal-proposals-20260918/IMPLEMENTATION-COMPLETION.md": "ccd32d507f7158b4b0092a1252610e2561294674dbe32c2232e6cd2c7b97bbdf",
+    "docs/local-goal-proposals-20260918/INPUTS.json": "b21bac97520696b8bb2008a3cfef3f5188d4c59dd117bc158cc2fe2e86ff5aaa",
+    "docs/local-goal-proposals-20260918/INVENTORY-ELIGIBLE.json": "11f8441a05f6b0b19a3972c8c7248e779636e95172a659cdd040c90a7b0ed2fa",
+    "docs/local-goal-proposals-20260918/INVENTORY.json": "d538c441bc85831595fefb19610b979816c3b598f94e49c6f9e350c8ff1b507a",
+    "docs/local-goal-proposals-20260918/PINNED-CONTRACTS-CORRECTION.json": "7b1c72c6cd5af823aa6b0c49123c8900a3e438bd9ca86a9193c3d91946ade8c3",
+    "docs/local-goal-proposals-20260918/PIPELINE-TEST-INITIAL.json": "98bb89b65f84b54e4c7f44401f18595e9ec87f68e4508e4fe288d45409069776",
+    "docs/local-goal-proposals-20260918/PIPELINE-TEST-RESULTS.json": "fcb354ee24b5fd15c30ab58c21099220aa5210d05acc742c86474f1d6ca1512c",
+    "docs/local-goal-proposals-20260918/PIPELINE-TEST-SECOND.json": "79d8c4f7362e40c7ee90f77aa230c474deeab0b9b11fa93b0a308ea850c5d501",
+    "docs/local-goal-proposals-20260918/POLICY-RECOVERY-TEST-RESULTS.json": "8c42f6574aa1356d21336c310864ab08f240d4ca7a8ff26cb51a77b59e50574b",
+    "docs/local-goal-proposals-20260918/POLICY-RECOVERY.md": "2c9649e8f5854dcb030eca629d8102986560c3e91e1688c11242e9311d5b87a8",
+    "docs/local-goal-proposals-20260918/PRE-LAUNCH-CORRECTIONS.md": "4ad920da1a58a9757142c6213eb9f124c0a50e65f0d397fe7df33dfff1d98942",
+    "docs/local-goal-proposals-20260918/PROTOCOL.md": "455bb2a538e9f0762f70f28d8c9863faa785c5dffd7a49ac62dc1d2daebebebf",
+    "docs/local-goal-proposals-20260918/README.md": "48de3ca47db7e1729a24eb199d0aaaa4971ff98aa921c2ec636648802073a3ea",
+    "docs/local-goal-proposals-20260918/RESOURCE-PLAN.md": "32ea3128f9a585fd3c4839950c1e8f8c60688677cdbad498951621e44312f03c",
+    "docs/local-goal-proposals-20260918/SOURCE-PINS.json": "65979c768dee9ee760535f116307a7bd1ad0ed38fe05a85d68b7b6957bfe4745",
+    "docs/local-goal-proposals-20260918/TEST-RESULTS.json": "d600d6e533081a2cdf355524dde6cd7ff9427c64c7110acbc9188a2fa64e2865",
+    "docs/local-goal-proposals-20260918/VALIDATION-RECOVERY-TEST-RESULTS.json": "a9d18cace9e0dedd659b80f99e0e5dd10aa25f98e09a570dd199ce82ff9f97a8",
+    "docs/local-goal-proposals-20260918/VALIDATION-RECOVERY.md": "4bf3aa9870a19ae9d88b4fd5923dba6331739f30819e4b778abed156b916353b",
+    "docs/local-goal-proposals-20260918/review_dtype_reproducer.py": "a9884fe7c6f3fabf5adc7fd32758f4dfd68d961b2bd835614aa36c7b700cc759"
+  },
+  "source_sha256": "b54a55b16bcb83a5092f15703a63fadb81fdbce3fa91f4e6a21b907c934cf361",
+  "unchanged_scientific_components": {
+    "cluster/prometheus/e18_fresh_driver.py": "2a9044162fc1c9352234bff1ed13379609dc4c8e1af836bfa753ced31488d616",
+    "cluster/prometheus/independent_pusht_runtime.py": "d6bae762318b8bd4456e47a8a824d2f73f4f24fde3f7ea71a261af61ad49c148",
+    "cluster/prometheus/lgp1_endpoint.py": "616cdc3aeba5b8bfc0653036b4300284a1c8eb3417c24edbdff2d025f3cbefff",
+    "cluster/prometheus/lgp1_tensor.py": "56fe3378f96f23390456949e30c39fb887b383542351cdc05065045f85b01c63",
+    "cluster/prometheus/lgp1_train.py": "63487c821ad79497977b8f9155ea86f3a9c52d9b78e87549afc8ccbd0f279807",
+    "cluster/prometheus/lgp1_worker.py": "efe04de405ee595e7894d982f66c37840f272e5e882b465cde4bd95fef881d9e",
+    "cluster/prometheus/local_goal_models.py": "0db8bf8f105c4a225084e23b507e1976812d37549ede756cc3f9cefa91738cb7",
+    "cluster/prometheus/local_goal_proposals.py": "a75f413c986ac1f7fd178f7964b9810d5ba89f1481d7a7240c601bbfae57d0c2",
+    "cluster/prometheus/pusht_fresh_initialization.py": "798bb6749dd30b9c6a91ac7018422edbefd356f3bb6bc322bd8ca95987506a65"
+  }
+}
