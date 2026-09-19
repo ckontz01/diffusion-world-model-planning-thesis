@@ -1,0 +1,17 @@
+{
+  "archive_bytes": 1734420480,
+  "archive_sha256": "24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd",
+  "authority": "Standing user authorization, 19 September 2026, narrow verified technical repair",
+  "authorization_sha256": "2727e634682f04a2a6e43482bf3be175f1709e4c3eb5c1b9f8e167ee84069443",
+  "backup_destination": "D:\\THESIS-BACKUPS\\local-goal-proposals-20260918",
+  "caps_unchanged": true,
+  "manifest_sha256": "9e926e1164c2ff6cbc4726abe6b36dded45397d624409c6959ba4cad1e767533",
+  "original_immutable_source_unchanged": true,
+  "package": "D:\\THESIS-BACKUPS\\local-goal-proposals-20260918\\backup-portability-20260919",
+  "request": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5/final-preservation/BACKUP-REQUEST.json",
+  "request_sha256": "631eb804754aff759c5f3f37492173c301d6927b06343f9e7da5afd666060999",
+  "scientific_source_sha256": "b54a55b16bcb83a5092f15703a63fadb81fdbce3fa91f4e6a21b907c934cf361",
+  "scope": "final backup only; zero job submission or research computation",
+  "tests_passed": 4,
+  "volume_id": "0a2f1ba9-0000-0000-0000-100000000000"
+}

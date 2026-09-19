@@ -1,6 +1,6 @@
 """Final-only exclusive archive and byte/member verification. Never run models."""
-import argparse,hashlib,json,os,subprocess,tarfile,time
-from pathlib import Path
+import argparse,hashlib,json,os,re,subprocess,tarfile,time
+from pathlib import Path, PurePosixPath
 import lgp1_contract as c
 
 VOLUME='0a2f1ba9-0000-0000-0000-100000000000'
@@ -52,10 +52,16 @@ def check_ssd():
         'Get-Volume -DriveLetter D | Select-Object FileSystemLabel,UniqueId,SizeRemaining | ConvertTo-Json -Compress'],text=True))
     c.require(v['FileSystemLabel']=='THESIS_SSD' and VOLUME in v['UniqueId'].lower() and v['SizeRemaining']>=40_000_000_000,'Designated SSD / 40GB free required')
 
+def validate_request(request):
+    # This is a remote Linux path even when this verifier runs on Windows.
+    prefix=(c.ROOT/'experiments/local-goal-proposals-20260918').as_posix()
+    c.require(isinstance(request,str) and str(PurePosixPath(request))==request and
+              re.fullmatch(re.escape(prefix)+r'/run-[0-9a-f]{16}/final-preservation/BACKUP-REQUEST\.json',request) is not None,
+              'Request namespace')
+
 def backup(request):
     check_ssd();began=time.monotonic()
-    c.require(request.startswith(str(c.ROOT/'experiments/local-goal-proposals-20260918')+'/run-') and
-              request.endswith('/final-preservation/BACKUP-REQUEST.json') and '..' not in request,'Request namespace')
+    validate_request(request)
     prefix=['wsl','-d','Thesis-Ubuntu','-u','chris','--']
     r=json.loads(subprocess.check_output(prefix+['ssh','prometheus','cat',request],text=True))
     c.require(r['archive']==request.rsplit('/',1)[0]+'/final.tar','Archive path identity')
