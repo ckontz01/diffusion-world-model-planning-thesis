@@ -1,0 +1,28 @@
+{
+  "automatic_retry": false,
+  "backup_destination": "D:/THESIS-BACKUPS/local-goal-search-budget-20260919",
+  "backup_volume_id": "0a2f1ba9-0000-0000-0000-100000000000",
+  "caps": {
+    "control_bytes": 100000000,
+    "cpu_seconds": 7200,
+    "episode_bytes": 10000000,
+    "gpu_seconds": 70320,
+    "total_with_history_bytes": 8000000000,
+    "worker_bytes": 2000000000
+  },
+  "cpu_allocations": 1,
+  "execution_authorized": true,
+  "gpu_allocations": 386,
+  "grid_sha256": "7014a7a101ec0da2e48d983575170f1c34a87a5f29b97243f898091b7ba7bf41",
+  "input_sha256": "b21bac97520696b8bb2008a3cfef3f5188d4c59dd117bc158cc2fe2e86ff5aaa",
+  "new_fits": 0,
+  "new_main_episodes": 768,
+  "new_optimizer_updates": 0,
+  "protocol_sha256": "69ae04db8d820da250a29fef73fa20e71d7b1ca1708c4a2846fba0055e9b20ee",
+  "reuse_sha256": "8dfbe2b7115e981f1198cb65f83de58d1d77a3ac7f91d4d0294aa7d7163df0eb",
+  "reused_main_episodes": 384,
+  "source_sha256": "a0bcdb48029909e0b54a86d8b59c54fc4fa60a3734a9634c761e5caea4c9778b",
+  "study": "LGP-RB1",
+  "technical_first_decisions": 16,
+  "technical_full_episodes": 0
+}
