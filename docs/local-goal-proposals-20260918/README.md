@@ -1,4 +1,21 @@
-# LGP1 preparation handoff
+# LGP1 — completed development result
+
+19 September 2026: **complete, authenticated and externally backed up**.
+Diffusion26/192 (13.542%) versus GMM28/192 (14.583%); paired difference
+−1.042pp, descriptive source-bootstrap interval[−7.292,+5.208]pp over32 exposed
+sources. Retain continuation; promote no model and launch no follow-up.
+
+- [Final report, all horizons/seeds and bounded interpretation](FINAL-REPORT.md)
+- [All32 source effects](FINAL-SOURCE-EFFECTS.md)
+- [Compact complete aggregate projection](FINAL-AGGREGATE-PROJECTION.json)
+- [Authentication of every worker and original model freeze](FINAL-AUTHENTICATION.json)
+- [Actual accounting](FINAL-ACCOUNTING.json) and [verified SSD backup](FINAL-BACKUP-VERIFIED.json)
+- [Final-copy-only portability correction](BACKUP-PORTABILITY.md)
+
+## Historical preparation handoff
+
+The following text preserves the preparation status before explicit execution
+approval and the separately recorded recoveries. It is not the current status.
 
 The execution pipeline is now implemented and synthetically tested. **Real
 runtime, numerical-data checks and throughput remain untested; execution is

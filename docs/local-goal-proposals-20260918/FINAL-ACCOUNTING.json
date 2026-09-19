@@ -1,0 +1,136 @@
+{
+  "archive_cpu_seconds": 7.064118754,
+  "archive_prefixes": [
+    "failed-control",
+    "failed-run",
+    "failed-source",
+    "new-control",
+    "prior-control",
+    "prior-run",
+    "prior-source",
+    "run",
+    "source",
+    "validation-control",
+    "validation-run",
+    "validation-source"
+  ],
+  "archive_wall_seconds": 9.886266943067312,
+  "archived_member_bytes": 1731352866,
+  "attempts": 207,
+  "backup": {
+    "bytes": 1734420480,
+    "files": 1733,
+    "scope": "complete request inventory: source, approval, all 204 workers, accounting, control/logs, and any explicitly preserved failed attempt",
+    "seconds": 56.8130000000092,
+    "sha256": "24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd",
+    "source_sha256": "b54a55b16bcb83a5092f15703a63fadb81fdbce3fa91f4e6a21b907c934cf361",
+    "volume_id": "0a2f1ba9-0000-0000-0000-100000000000"
+  },
+  "controller_cpu_seconds": null,
+  "controller_launch_to_final_terminal_seconds": 11915.97305059433,
+  "controller_peak_rss_bytes": null,
+  "controller_resource_note": "Controller process CPU/RSS were not captured before exit; do not infer zero from Slurm TotalCPU placeholders.",
+  "cpu_allocation_wall_seconds": 16,
+  "failure_gpu_allocation_seconds": 320,
+  "gpu_allocation_seconds": 15615,
+  "groups": {
+    "analysis": {
+      "allocation_seconds": 16,
+      "peak_gpu_bytes": 0,
+      "peak_rss_bytes": 319614976,
+      "process_cpu_seconds": 11.013635951,
+      "worker_bytes": 228389686,
+      "worker_wall_seconds": 12.572310065850616,
+      "workers": 1
+    },
+    "cache": {
+      "allocation_seconds": 3388,
+      "peak_gpu_bytes": 169371136,
+      "peak_rss_bytes": 1814249472,
+      "process_cpu_seconds": 4572.884544566,
+      "worker_bytes": 360079758,
+      "worker_wall_seconds": 3380.5854142180033,
+      "workers": 1
+    },
+    "evaluation": {
+      "allocation_seconds": 9558,
+      "peak_gpu_bytes": 241042944,
+      "peak_rss_bytes": 1603895296,
+      "process_cpu_seconds": 7544.624674311,
+      "worker_bytes": 232714292,
+      "worker_wall_seconds": 8175.989069528034,
+      "workers": 192
+    },
+    "fit": {
+      "allocation_seconds": 2169,
+      "peak_gpu_bytes": 342891520,
+      "peak_rss_bytes": 1644580864,
+      "process_cpu_seconds": 3142.233657625,
+      "worker_bytes": 322479966,
+      "worker_wall_seconds": 2126.2414925689955,
+      "workers": 6
+    },
+    "technical": {
+      "allocation_seconds": 180,
+      "peak_gpu_bytes": 241042944,
+      "peak_rss_bytes": 1621069824,
+      "process_cpu_seconds": 137.957286813,
+      "worker_bytes": 5091519,
+      "worker_wall_seconds": 150.5526553410018,
+      "workers": 4
+    }
+  },
+  "historical_failure_technical_records": {
+    "failed-run/cache/FAILURE.json": {
+      "message": "Recorded action support; no clipping/replacement",
+      "process_cpu_seconds": 32.053456727000004,
+      "retry_authorized": false,
+      "traceback": "Traceback (most recent call last):\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b514472d1d8a7f55/cluster/prometheus/lgp1_worker.py\", line 101, in main\n    result=build_cache(a.source,out,FrozenBackend(c.read(a.source/c.DOC/'INPUTS.json')),guard)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b514472d1d8a7f55/cluster/prometheus/lgp1_data.py\", line 88, in build_cache\n    history,far,state,action=aligned(reader,row)\n                             ^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b514472d1d8a7f55/cluster/prometheus/lgp1_data.py\", line 36, in aligned\n    c.require((np.abs(actions)<=1).all(),'Recorded action support; no clipping/replacement')\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b514472d1d8a7f55/cluster/prometheus/lgp1_contract.py\", line 12, in require\n    if not x: raise RuntimeError(message)\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: Recorded action support; no clipping/replacement\n",
+      "type": "RuntimeError",
+      "wall_seconds": 38.519001058994036
+    },
+    "prior-run/fit-gmm-8301/FAILURE.json": {
+      "message": "cumsum_cuda_kernel does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.",
+      "process_cpu_seconds": 242.762886239,
+      "retry_authorized": false,
+      "traceback": "Traceback (most recent call last):\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b96b797315320184/cluster/prometheus/lgp1_worker.py\", line 110, in main\n    result=train(a.run/'cache',out,spec['family'],spec['seed'],guard)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b96b797315320184/cluster/prometheus/lgp1_train.py\", line 70, in train\n    bank=sample(model,tuple(x[row:row+1] for x in inputs),300,vrng)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/lib/python3.11/site-packages/torch/utils/_contextlib.py\", line 116, in decorate_context\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b96b797315320184/cluster/prometheus/local_goal_models.py\", line 92, in sample\n    cumulative=logits.softmax(-1).cumsum(-1);cumulative[:,-1]=1\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: cumsum_cuda_kernel does not have a deterministic implementation, but you set 'torch.use_deterministic_algorithms(True)'. You can turn off determinism just for this operation, or you can use the 'warn_only=True' option, if that's acceptable for your application. You can also file an issue at https://github.com/pytorch/pytorch/issues to help us prioritize adding deterministic support for this operation.\n",
+      "type": "RuntimeError",
+      "wall_seconds": 245.41139526500046
+    },
+    "validation-run/technical-gmm-8301-1269/FAILURE.json": {
+      "message": "'Policy' object has no attribute 'set_seed'",
+      "process_cpu_seconds": 9.226965966,
+      "retry_authorized": false,
+      "traceback": "Traceback (most recent call last):\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b6d307bf26325ba6/cluster/prometheus/lgp1_worker.py\", line 115, in main\n    elif spec['kind'] in ('technical','evaluation'): result=evaluate(a.source,a.run,out,spec,guard)\n                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b6d307bf26325ba6/cluster/prometheus/lgp1_worker.py\", line 42, in evaluate\n    episode.start(dict(state=initial,goal_state=goals[h],proprio=initial[[0,1,5,6]]),horizon=h,budget=2*h,seed=spec['seed'])\n  File \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b6d307bf26325ba6/cluster/prometheus/e18_fresh_driver.py\", line 59, in start\n    self.world.set_policy(policy)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/world.py\", line 216, in set_policy\n    self.policy.set_seed(self.policy.seed)\n    ^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Policy' object has no attribute 'set_seed'\n",
+      "type": "AttributeError",
+      "wall_seconds": 15.184590863995254
+    }
+  },
+  "pre_archive_storage": {
+    "source_control_log_bytes": 8796826,
+    "total_remote_bytes": 1731124639,
+    "worker_bytes": 1722327813
+  },
+  "process_record": {
+    "approval_sha256": "b10ba2f2de17efbb177114a94214023bdebad75c4d158b3aaa78a907fbe50df2",
+    "command": [
+      "/usr/bin/python3.9",
+      "-B",
+      "/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b54a55b16bcb83a5/cluster/prometheus/lgp1_dispatch.py",
+      "--source",
+      "/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-proposals-20260918-b54a55b16bcb83a5",
+      "--approval",
+      "/lustreFS/data/superworld/ckontzias/thesis/staging/lgp1-policy-recovery-b54a55b16bcb83a5/EXECUTION-APPROVAL.json",
+      "--run",
+      "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b54a55b16bcb83a5"
+    ],
+    "pid": 3176628,
+    "source_sha256": "b54a55b16bcb83a5092f15703a63fadb81fdbce3fa91f4e6a21b907c934cf361",
+    "start_ticks": "852953972",
+    "unix": 1789772650.8015747
+  },
+  "successful_coordinates": 204,
+  "transfer_and_member_verification_wall_seconds": 56.8130000000092,
+  "unique_row_presentations": 9216000,
+  "unique_updates": 72000
+}

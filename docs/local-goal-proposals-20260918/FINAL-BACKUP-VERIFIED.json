@@ -1,0 +1,9 @@
+{
+  "bytes": 1734420480,
+  "files": 1733,
+  "scope": "complete request inventory: source, approval, all 204 workers, accounting, control/logs, and any explicitly preserved failed attempt",
+  "seconds": 56.8130000000092,
+  "sha256": "24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd",
+  "source_sha256": "b54a55b16bcb83a5092f15703a63fadb81fdbce3fa91f4e6a21b907c934cf361",
+  "volume_id": "0a2f1ba9-0000-0000-0000-100000000000"
+}

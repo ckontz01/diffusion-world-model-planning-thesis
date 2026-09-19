@@ -2,7 +2,20 @@
 
 **Christoforos Kontzias · University of Cyprus**
 
-Thesis code and experiment records. Updated 14 September 2026.
+Thesis code and experiment records. Updated 19 September 2026.
+
+**LGP1 completed development update, 19 September 2026:** matched local-goal
+diffusion achieved 26/192 native successes (13.542%), versus GMM 28/192 (14.583%)
+inside the same shared planner. The paired difference was −1.042 percentage
+points, with descriptive source-bootstrap interval [−7.292,+5.208] points over
+32 already-exposed references. Lower offline action error did not establish
+better closed-loop success. All384 main plus eight technical episodes, six
+fixed models and final analysis are sealed and externally backed up.
+Retain continuation; promote no model or automatic follow-up. Read the
+[complete result](docs/local-goal-proposals-20260918/FINAL-REPORT.md) and
+[all32 source effects](docs/local-goal-proposals-20260918/FINAL-SOURCE-EFFECTS.md).
+The next two paragraphs preserve earlier launch/preparation status, not the
+current completion state.
 
 Execution update, 19 September 2026: LGP1's cache and all six fits/validations
 are complete and frozen. The first technical episode job stopped before reset
@@ -27,9 +40,9 @@ and unauthorized. See the [completion record](docs/local-goal-proposals-20260918
 
 This project asks whether diffusion can generate useful action sequences for a learned world model, and whether looking beyond the first sequence helps the planner choose better actions. The world model, Le-WM, stays fixed; the learned action proposer is the part being studied.
 
-The latest PushT experiment is complete. **Continuation-aware diffusion improved on greedy diffusion and Gaussian continuation, but SAGE achieved higher success.** Diffusion used less time per solver call. The results below include both sides of that comparison.
+The earlier large-scale PushT benchmark is complete. **Continuation-aware diffusion improved on greedy diffusion and Gaussian continuation, but SAGE achieved higher success.** Diffusion used less time per solver call. The results below include both sides of that comparison; they are distinct from the small LGP1 development result above.
 
-The latest experiment code is on [`independent-pusht-benchmark`][code]. Result and source links point to recorded versions so they work from `main` as well.
+That benchmark's code is on [`independent-pusht-benchmark`][code]. Result and source links point to recorded versions so they work from `main` as well.
 
 ## How the planner works
 
@@ -39,7 +52,7 @@ The longer-horizon version adds a second action sequence before making that choi
 
 The code calls the proposer **VAD**, for variable-duration action diffusion. This continuation planner was first tested in **E18 (the exploratory continuation study)**. It uses diffusion to propose actions, not to add a feasibility penalty to CEM. The [planner implementation][planner] and [E18 protocol][e18-protocol] give the details.
 
-## Latest results: independent PushT evaluation
+## Large-scale results: independent PushT evaluation
 
 The study compared six methods on **1,600 independent reference trajectories**, with two goal offsets and three seed blocks: **57,600 individual evaluation runs**. Results were analyzed with repeated horizons and seeds grouped within each reference episode, rather than counted as independent samples.
 
@@ -211,6 +224,18 @@ The full evaluations use pinned Python environments and Apptainer containers on 
 Reading the results does not require cluster access. The compact outcome table and analysis files are committed in the [result archive][results]. Large reference and evaluation trajectories, model weights, latent caches, and container images are kept outside Git; their locations and hashes are recorded in the experiment documents. The latest results have a verified Windows recovery copy. Recovery of the older WSL bulk backups is a separate, unfinished operational task, not a missing analysis result.
 
 ## Research history
+
+**19 September: LGP1 completed, authenticated and externally preserved.**
+All204 scientific coordinates completed in207 attempts, including three charged
+historical failures. GPU allocations totaled15,615seconds; the one CPU analysis
+used16seconds. The original six-model freeze was reused without retraining.
+Native success was14.583% GMM versus13.542% diffusion, with no demonstrated
+diffusion advantage on32 exposed sources. Every source/horizon/seed is reported.
+The1.734GB full historical/current archive passed1,733 member checks on THESIS_SSD.
+A narrow Windows remote-path check was corrected only for final copying;
+scientific source, artifacts and analysis remain unchanged. Retain continuation,
+promote no model, and do not launch a follow-up. See the
+[final report and accounting](docs/local-goal-proposals-20260918/FINAL-REPORT.md).
 
 **18 September: SI1 saved-score information comparison completed.**
 All 24 fixed CPU fits completed in one 102-second allocation. On 192 source-held-out
