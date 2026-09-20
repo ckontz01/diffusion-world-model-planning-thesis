@@ -7,7 +7,9 @@ Thesis code and experiment records. Updated 20 September 2026.
 Preparation update: [LGP-RB2](docs/local-goal-source-replication-20260920/PREPARATION-RECEIPT.md)
 implements the delegated reasoning review's source-disjoint development replication:
 512 identifier-selected exposed sources, four frozen proposer/refinement arms,
-12,288 episodes in a proposed 128-GPU-hour envelope. All 35 exported synthetic
+12,288 episodes in a proposed 128-GPU-hour envelope. The
+[narrow storage correction](docs/local-goal-source-replication-publication-20260920/STORAGE-CORRECTION-RECEIPT.md)
+preserves all evidence under the unchanged cap; all 38 distinct exported synthetic
 tests passed. **Research execution remains disabled pending the selected reasoning
 conversation's explicit instruction.** No new outcome or model promotion is claimed.
 

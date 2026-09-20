@@ -40,7 +40,14 @@ Analysis allowance200MB gives7.88GB reserved, leaving120MB for margins. Per-epis
 10MB and endpointNPZ50KB ceilings remain but the5MB/job cap is stricter. Compact
 endpoint total at50KB×12,288 <=614.4MB. No full candidate banks or video.
 Rows retain round summaries, measured timers and bank hashes only. Per-cell JSON
-and whole worker report duplication is included in5MB/job, not ignored.
+and whole worker report duplication is retained. The reviewed v4 indented format
+did NOT fit the permitted full-budget case: a source-schema lower-bound fixture
+alone required5,146,579B. The prelaunch correction uses lossless compact JSON for
+those two payloads, not fewer fields or a larger cap. Complete artificial120stage/
+2100round jobs, long finite values and a conservative schema bound are checked
+under the actual5MBguard including8endpoints,TECHNICAL.json and the final seal.
+The test receipt reports the complete footprint/bound/margin; see
+STORAGE-CORRECTION.md. The8GB/24GBreservations below remain unchanged.
 
 Source/control/log reservation200MB. The24GB inclusive remote cap counts declared
 LGP1/RB1 history, new source/live work/failures and the complete final new archive.

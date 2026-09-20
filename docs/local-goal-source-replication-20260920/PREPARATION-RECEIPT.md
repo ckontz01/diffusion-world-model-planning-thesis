@@ -1,5 +1,11 @@
 # LGP-RB2 executable preparation receipt — 20 September 2026
 
+**Later narrow review:** the preserved v4 package below is not launchable because
+duplicated indented evidence can exceed its unchanged job cap. The
+[v6 lossless storage correction receipt](../local-goal-source-replication-publication-20260920/STORAGE-CORRECTION-RECEIPT.md)
+records the new tested package, exact bound and 38 distinct tests. Original v4
+hashes and receipts below remain historical; research execution is still disabled.
+
 Status: **prepared and synthetically tested; research execution disabled**.
 The user's advance delegation and the selected GPT-6 Pro preparation instruction
 are recorded in [REASONING-INSTRUCTION.md](REASONING-INSTRUCTION.md). The same

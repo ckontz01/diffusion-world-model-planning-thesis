@@ -8,6 +8,7 @@ from lgp1_endpoint import identity,verify_file
 from e18_fresh_driver import FreshEpisode
 
 from lgprb2_contract import cell_name
+from lgprb2_payload import write_payload
 
 def load_bundle(source,spec):
     import stable_worldmodel as swm
@@ -69,7 +70,7 @@ def run_cell(bundle,out,spec,cell,guard):
     row['world_close_seconds']=close_seconds
     row['complete_episode_seconds']=time.monotonic()-started
     c.require(len(json.dumps(row).encode())+c.old.size(out)<=c.CAPS['episode_bytes'],'Per-episode storage cap')
-    c.write(out/'EPISODE.json',row)
+    write_payload(out/'EPISODE.json',row)
     return row
 
 def technical_checks(rows):

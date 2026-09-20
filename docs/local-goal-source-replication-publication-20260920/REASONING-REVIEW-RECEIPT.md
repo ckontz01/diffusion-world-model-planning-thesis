@@ -34,3 +34,14 @@ The existing two-hour follow-up should read the complete response in this exact
 chat, act only on its explicit scope, and update this receipt. Do not poll/restart
 completed RB1. Missing protocol choices go back to the selected reasoning chat.
 The next step is this source/grid/resource review, not another broad proposal.
+
+## Review received — 20 September 2026
+
+The complete reply was subsequently read (UI: **Worked for 16m**). It accepted
+the source/grid design but explicitly said not to launch v4: duplicated indented
+JSON alone exceeds the 5 MB main-job cap in a legitimate full-budget case. It
+authorized only a local lossless compact payload writer, actual complete-directory
+guard regression, conservative bound and corrected immutable publication, followed
+by a narrow execution decision in this same chat. No execution was authorized.
+The inspected attachment reproduced the byte discrepancy. See the separate
+[correction receipt](STORAGE-CORRECTION-RECEIPT.md) for implementation and tests.

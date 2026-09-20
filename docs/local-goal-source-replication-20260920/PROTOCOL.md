@@ -93,6 +93,15 @@ full budget absent legitimate termination, no post-terminal work. Reuse the exac
 independent lgp1_endpoint verifier including angle domains and tolerances. Each
 cell has its own directory to prevent horizon-file collisions across arms.
 
+Representation-only prelaunch correction: new RB2 EPISODE.json and REPORT.json
+use a study-local exclusive compact JSON writer (sorted keys, UTF-8/LF, final
+newline, allow_nan=False). Both complete copies, every numeric value and all
+round/elite records remain. Inherited scientific/control writers and endpoint
+NPZ encoding are unchanged. The same production storage guard includes technical
+metadata and reserves the exact final seal bytes before sealing, then checks the
+complete sealed directory. No cap or scientific setting changes. See
+STORAGE-CORRECTION.md for the reproduced issue and full-directory regression.
+
 All four arms have common timing instrumentation. Complete-episode wall starts
 before World construction and ends after closing; it includes initialization,
 planning, physical delivery, evidence save/verification/close. Shared model/backend
