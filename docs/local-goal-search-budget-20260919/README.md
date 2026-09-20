@@ -1,4 +1,16 @@
-# LGP-RB1 executable preparation
+# LGP-RB1 completed development comparison
+
+Completed20September2026:387 successful jobs,768 new plus384 reused episodes,
+no failures/retries/training. Final source/endpoint/byte verification and
+external SSD union backup passed. Continuation retained; no proposer promotion.
+
+- [Final report](FINAL-REPORT.md): native successes, paired contrasts, measured costs and limitations.
+- [All32 sources and all horizon/seed strata](FINAL-SOURCE-EFFECTS.md).
+- [All episode identities/outcomes](FINAL-EPISODES.json), with original reuse provenance.
+- [Aggregate projection](FINAL-AGGREGATE-PROJECTION.json), [accounting](FINAL-ACCOUNTING.json),
+  [backup verification](FINAL-BACKUP-VERIFIED.json), [publication checks](FINAL-PUBLICATION-CHECKS.json).
+
+## Historical preparation (unchanged scope; subsequently explicitly approved)
 
 One frozen-model common-CEM-budget comparison requested after accepted LGP1.
 Preparation only. No research launch. Continuation retained; no promotion.

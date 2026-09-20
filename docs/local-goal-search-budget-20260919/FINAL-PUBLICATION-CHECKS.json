@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "archive receipt binding",
+    "accessed-member SHA/size",
+    "387 completed allocations",
+    "1152 unique source/horizon/seed/family/budget rows",
+    "768 new / 384 reused",
+    "endpoint result/count/post-action consistency",
+    "exact scoring-call arithmetic",
+    "success totals match source-weighted aggregate",
+    "96 job allocations per configuration"
+  ],
+  "passed": true,
+  "research_execution": false
+}

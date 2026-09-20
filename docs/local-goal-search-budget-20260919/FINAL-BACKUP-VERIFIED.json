@@ -1,0 +1,11 @@
+{
+  "bytes": 79155200,
+  "files": 2798,
+  "historical_archive_sha256": "24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd",
+  "historical_members": 1733,
+  "scope": "All new source/run/control plus separately reverified entire LGP1 historical archive; no relabelled fresh30 outcomes.",
+  "seconds": 14.094000000011874,
+  "sha256": "72c2717be4a10b0e103a05c6575710832e5ae4c9e9a21be573c8cb3c4441f175",
+  "source_sha256": "a0bcdb48029909e0b54a86d8b59c54fc4fa60a3734a9634c761e5caea4c9778b",
+  "volume_id": "0a2f1ba9-0000-0000-0000-100000000000"
+}

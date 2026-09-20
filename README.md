@@ -2,13 +2,17 @@
 
 **Christoforos Kontzias · University of Cyprus**
 
-Thesis code and experiment records. Updated 19 September 2026.
+Thesis code and experiment records. Updated 20 September 2026.
 
-Preparation update, 19 September 2026: [LGP-RB1 frozen-model search-budget comparison](docs/local-goal-search-budget-20260919/README.md)
-prepares common CEM budgets1/5/30 with the same six LGP1 checkpoints and32
-exposed sources. The384 old30-population episodes retain their original
-provenance;768 new main episodes are proposed, not launched. Only the
-refinement budget changes. Continuation remains the baseline; no promotion.
+**LGP-RB1 completed development update, 20 September 2026:** all768 new
+episodes at1/5 scored populations completed, with384 historical30 episodes
+reused unchanged. GMM/diffusion successes were3/10,19/25 and28/26 out of192
+per family at1/5/30. The diffusion-minus-GMM differences were+3.646,+3.125
+and−1.042 percentage points; both changes relative to30 have descriptive
+source-bootstrap intervals crossing zero. All387 jobs succeeded and the full
+new/historical archive union is verified on THESIS_SSD. Retain continuation;
+promote neither proposer. See the [complete result and measured costs](docs/local-goal-search-budget-20260919/FINAL-REPORT.md)
+and [all32 sources/horizon/seed strata](docs/local-goal-search-budget-20260919/FINAL-SOURCE-EFFECTS.md).
 
 **LGP1 completed development update, 19 September 2026:** matched local-goal
 diffusion achieved 26/192 native successes (13.542%), versus GMM 28/192 (14.583%)
@@ -230,6 +234,16 @@ The full evaluations use pinned Python environments and Apptainer containers on 
 Reading the results does not require cluster access. The compact outcome table and analysis files are committed in the [result archive][results]. Large reference and evaluation trajectories, model weights, latent caches, and container images are kept outside Git; their locations and hashes are recorded in the experiment documents. The latest results have a verified Windows recovery copy. Recovery of the older WSL bulk backups is a separate, unfinished operational task, not a missing analysis result.
 
 ## Research history
+
+**20 September: LGP-RB1 completed and externally preserved.**
+The exact frozen-model1/5/30 comparison completed387 allocations without
+failures, retries or training. New GPU allocations totaled10,440seconds;
+CPU analysis16seconds.768 new and384 unchanged reused episodes are reported
+over32 exposed sources. Less refinement gave a more favorable diffusion-minus-
+GMM point estimate, but both prespecified changes relative to30 remain uncertain;
+budget1 absolute success is low. No favorable-budget confirmation or promotion.
+The79,155,200-byte new archive passed2,798 member checks alongside the complete
+1,733-member historical archive. [Final result](docs/local-goal-search-budget-20260919/FINAL-REPORT.md).
 
 **19 September: LGP1 completed, authenticated and externally preserved.**
 All204 scientific coordinates completed in207 attempts, including three charged
