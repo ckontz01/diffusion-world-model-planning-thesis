@@ -1,0 +1,385 @@
+{
+  "complete": false,
+  "controller": {
+    "command": [
+      "/usr/bin/python3.9",
+      "-B",
+      "/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-source-replication-20260920-a8fa92772272e11a/cluster/prometheus/lgprb2_dispatch.py",
+      "--source",
+      "/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-source-replication-20260920-a8fa92772272e11a",
+      "--approval",
+      "/lustreFS/data/superworld/ckontzias/thesis/staging/local-goal-source-replication-20260920-a8fa92772272e11a/EXECUTION-APPROVAL.json",
+      "--run",
+      "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-source-replication-20260920/run-a8fa92772272e11a"
+    ],
+    "pid": 438664,
+    "start_ticks": "865775824",
+    "unix": 1789900869.320155
+  },
+  "controller_stderr_bytes": 0,
+  "cpu_seconds": 0,
+  "first_four": [
+    {
+      "allocation_seconds": 72,
+      "exit_code": "0:0",
+      "job": "302573",
+      "seal_sha256": "9c99b388d57e4133f226fe821974e7ace27002564a381385e92db8e7c8d485f7",
+      "state": "COMPLETED",
+      "task": "evaluation-8301-74",
+      "technical": {
+        "approval_sha256": "013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b",
+        "complete": true,
+        "episodes": 8,
+        "gpu_used": true,
+        "models_unchanged": true,
+        "peak_gpu_bytes": 294831104,
+        "peak_rss_bytes": 1629302784,
+        "process_cpu_seconds": 66.637521007,
+        "setup_seconds": 10.89880123999319,
+        "source_sha256": "a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec",
+        "task": {
+          "episodes": [
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 30
+            },
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 5
+            }
+          ],
+          "gpu": true,
+          "kind": "evaluation",
+          "name": "evaluation-8301-74",
+          "reference": 74,
+          "seconds": 300,
+          "seed": 8301,
+          "technical_tranche": true
+        },
+        "technical_checks": {
+          "common_initial_banks": true,
+          "endpoint_checks_passed": 8,
+          "fresh_episode_ownership": true
+        },
+        "wall_seconds": 65.11004072899232
+      },
+      "worker_bytes": 1490469
+    },
+    {
+      "allocation_seconds": 55,
+      "exit_code": "0:0",
+      "job": "302574",
+      "seal_sha256": "f85acbeb3dc21931a0d631d0f0624859efa89c5f0cc60a332f217949800844f8",
+      "state": "COMPLETED",
+      "task": "evaluation-8302-74",
+      "technical": {
+        "approval_sha256": "013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b",
+        "complete": true,
+        "episodes": 8,
+        "gpu_used": true,
+        "models_unchanged": true,
+        "peak_gpu_bytes": 294831104,
+        "peak_rss_bytes": 1618391040,
+        "process_cpu_seconds": 51.585651235,
+        "setup_seconds": 9.053394919988932,
+        "source_sha256": "a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec",
+        "task": {
+          "episodes": [
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 30
+            },
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 5
+            }
+          ],
+          "gpu": true,
+          "kind": "evaluation",
+          "name": "evaluation-8302-74",
+          "reference": 74,
+          "seconds": 300,
+          "seed": 8302,
+          "technical_tranche": true
+        },
+        "technical_checks": {
+          "common_initial_banks": true,
+          "endpoint_checks_passed": 8,
+          "fresh_episode_ownership": true
+        },
+        "wall_seconds": 48.00447610398987
+      },
+      "worker_bytes": 1005196
+    },
+    {
+      "allocation_seconds": 80,
+      "exit_code": "0:0",
+      "job": "302575",
+      "seal_sha256": "6e7000137cd45e276fd2f57c9eee2945090126e97e868b6bcdfd98424e52f620",
+      "state": "COMPLETED",
+      "task": "evaluation-8303-74",
+      "technical": {
+        "approval_sha256": "013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b",
+        "complete": true,
+        "episodes": 8,
+        "gpu_used": true,
+        "models_unchanged": true,
+        "peak_gpu_bytes": 294831104,
+        "peak_rss_bytes": 1621344256,
+        "process_cpu_seconds": 77.107448353,
+        "setup_seconds": 8.929259383992758,
+        "source_sha256": "a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec",
+        "task": {
+          "episodes": [
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 30
+            }
+          ],
+          "gpu": true,
+          "kind": "evaluation",
+          "name": "evaluation-8303-74",
+          "reference": 74,
+          "seconds": 300,
+          "seed": 8303,
+          "technical_tranche": true
+        },
+        "technical_checks": {
+          "common_initial_banks": true,
+          "endpoint_checks_passed": 8,
+          "fresh_episode_ownership": true
+        },
+        "wall_seconds": 73.22533415199723
+      },
+      "worker_bytes": 1810300
+    },
+    {
+      "allocation_seconds": 73,
+      "exit_code": "0:0",
+      "job": "302576",
+      "seal_sha256": "ac1a11a2021b1aec944a16a593308cee777deb23b656e7cb5103cd610900c67b",
+      "state": "COMPLETED",
+      "task": "evaluation-8301-1592",
+      "technical": {
+        "approval_sha256": "013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b",
+        "complete": true,
+        "episodes": 8,
+        "gpu_used": true,
+        "models_unchanged": true,
+        "peak_gpu_bytes": 294831104,
+        "peak_rss_bytes": 1617932288,
+        "process_cpu_seconds": 70.450231367,
+        "setup_seconds": 8.971441367000807,
+        "source_sha256": "a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec",
+        "task": {
+          "episodes": [
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 5
+            },
+            {
+              "family": "diffusion",
+              "horizon": 150,
+              "populations": 5
+            },
+            {
+              "family": "gmm",
+              "horizon": 75,
+              "populations": 30
+            },
+            {
+              "family": "gmm",
+              "horizon": 150,
+              "populations": 30
+            },
+            {
+              "family": "diffusion",
+              "horizon": 75,
+              "populations": 30
+            }
+          ],
+          "gpu": true,
+          "kind": "evaluation",
+          "name": "evaluation-8301-1592",
+          "reference": 1592,
+          "seconds": 300,
+          "seed": 8301,
+          "technical_tranche": true
+        },
+        "technical_checks": {
+          "common_initial_banks": true,
+          "endpoint_checks_passed": 8,
+          "fresh_episode_ownership": true
+        },
+        "wall_seconds": 66.4271651399904
+      },
+      "worker_bytes": 1602423
+    }
+  ],
+  "gpu_seconds": 280,
+  "start_ticks_match": true,
+  "stop": false,
+  "storage": {
+    "historical_bytes": 3619945254,
+    "new_source_control_bytes": 3617686,
+    "new_worker_bytes": 5908388,
+    "total_with_history_bytes": 3629471328
+  },
+  "submitted": [
+    {
+      "job": "302573",
+      "task": "evaluation-8301-74",
+      "unix": 1789900873.1740694
+    },
+    {
+      "job": "302574",
+      "task": "evaluation-8302-74",
+      "unix": 1789900964.164218
+    },
+    {
+      "job": "302575",
+      "task": "evaluation-8303-74",
+      "unix": 1789901055.1423178
+    },
+    {
+      "job": "302576",
+      "task": "evaluation-8301-1592",
+      "unix": 1789901146.1190832
+    },
+    {
+      "job": "302577",
+      "task": "evaluation-8302-1592",
+      "unix": 1789901237.101551
+    }
+  ],
+  "terminal_count": 4,
+  "tranche": {
+    "scientific_selection": false,
+    "seals": {
+      "evaluation-8301-1592": "ac1a11a2021b1aec944a16a593308cee777deb23b656e7cb5103cd610900c67b",
+      "evaluation-8301-74": "9c99b388d57e4133f226fe821974e7ace27002564a381385e92db8e7c8d485f7",
+      "evaluation-8302-74": "f85acbeb3dc21931a0d631d0f0624859efa89c5f0cc60a332f217949800844f8",
+      "evaluation-8303-74": "6e7000137cd45e276fd2f57c9eee2945090126e97e868b6bcdfd98424e52f620"
+    },
+    "unix": 1789901237.0791023
+  },
+  "tranche_sha256": "5e5ce13f7dbccdc8f5b3b52603597c50525c7133c83268b800bdb185ce78acbc",
+  "unix": 1789901260.674325,
+  "scheduler_launch_check": "302573|COMPLETED|0:0|72|4|24Gn|billing=1,cpu=4,gres/gpu=1,mem=24G,node=1|00:00:00\n302574|COMPLETED|0:0|55|4|24Gn|billing=1,cpu=4,gres/gpu=1,mem=24G,node=1|00:00:00\n302575|COMPLETED|0:0|80|4|24Gn|billing=1,cpu=4,gres/gpu=1,mem=24G,node=1|00:00:00\n302576|RUNNING|0:0|3|4|24Gn|billing=1,cpu=4,gres/gpu=1,mem=24G,node=1|00:00:00\n"
+}
