@@ -1,0 +1,32 @@
+{
+  "automatic_retry": false,
+  "backup_destination": "D:/THESIS-BACKUPS/local-goal-source-replication-20260920",
+  "backup_volume_id": "0a2f1ba9-0000-0000-0000-100000000000",
+  "bootstrap_resamples": 10000,
+  "bootstrap_seed": 20260920,
+  "caps": {
+    "analysis_bytes": 200000000,
+    "control_bytes": 200000000,
+    "cpu_seconds": 7200,
+    "endpoint_bytes": 50000,
+    "episode_bytes": 10000000,
+    "gpu_seconds": 460800,
+    "main_job_bytes": 5000000,
+    "total_with_history_bytes": 24000000000,
+    "worker_bytes": 8000000000
+  },
+  "cpu_allocations": 1,
+  "execution_authorized": false,
+  "grid_sha256": "6f911efe1c39848a91cd7d30c7436321315c1a16ce8307bd5402dd0e539618bc",
+  "input_sha256": "dad31b016748698595d980cd962d632725f140a1aa1091dc7add58ef562dcca8",
+  "main_episodes": 12288,
+  "main_gpu_allocations": 1536,
+  "new_fits": 0,
+  "new_optimizer_updates": 0,
+  "protocol_sha256": "f508ec6389067d6a3538914ca39a9a4c08dc9c3d9dc889e07c1c283c6b2952cf",
+  "reuse_sha256": "7ba0fba6fd4e2ecb75cc5853628d32cc26cfb1d958f0728d733c05cc8b70aea5",
+  "roles_sha256": "daa652174a7bf2f459190d0ddcea8524218a392fc1644b345a4ce94f8fc38536",
+  "source_sha256": "10b147c3e69009fcddee7b532fb960195defaab3b4e4731a9ddb3ab943666c41",
+  "study": "LGP-RB2",
+  "technical_tranche_included": 4
+}

@@ -1,0 +1,48 @@
+{
+  "historical_episodes_reused": 0,
+  "historical_scientific_record": "8a79e267cb0cb7b6243900cb3bc194e0eb069a85",
+  "models": {
+    "fit-diffusion-8301": {
+      "model_sha256": "3d12b183150693a4348a261c242efb1807afbbbf1282e0714eb12ad52c74e08f",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-diffusion-8301",
+      "seal": "081c63b1fe5d08a089a8bd60cdefa6d3c80c93f8abe2a011e77fc40665cddf3c"
+    },
+    "fit-diffusion-8302": {
+      "model_sha256": "a23324293eb5659da9d83c025742e5ea1b2792cfd0401cc2a220b4dcfa865605",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-diffusion-8302",
+      "seal": "66650c79c6afed38c72a30866c1e703944290b9ca8e0ae1465f6466e01fd3d76"
+    },
+    "fit-diffusion-8303": {
+      "model_sha256": "bb6fc5abed718821fe8930b5429a6027dc481fd5d1de2320684e7a08d6adf023",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-diffusion-8303",
+      "seal": "9b17f881230aea1914b39d633064017f5f849143234e4d187b6cdbb1e5af8491"
+    },
+    "fit-gmm-8301": {
+      "model_sha256": "2283b7aef1b38d50d546beeb6f73ad36e9fbc6f1fb1bc5001b830d182f062286",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-gmm-8301",
+      "seal": "14f55d9075a8f9a2ea9ef6c6d21fd2ae15b375a3ed4c2caa1ef32de03ef80c39"
+    },
+    "fit-gmm-8302": {
+      "model_sha256": "405e101ca97a7d96c317a85e42aab2a694eb8a51e3cc00d26d7a765adc6e9bf1",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-gmm-8302",
+      "seal": "ac34c898cef5a89720b387e73b9f199433ab4c15e77c402a120ae3acc2e74bed"
+    },
+    "fit-gmm-8303": {
+      "model_sha256": "ef56dbc8a51e05b2088f8b5a584025364eb157e02a863d1ecad9bfb1b4949f04",
+      "root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-proposals-20260918/run-b6d307bf26325ba6/fit-gmm-8303",
+      "seal": "9b6217d102cc3a41a1dd998156ed41d29a554297c5970a5eeafd059faf4fadba"
+    }
+  },
+  "original_model_freeze_sha256": "a8a5a0ff456cd870e540f838d2c8b62d00b542be6d7a2da53b377fbd91cbc305",
+  "rb1_source_sha256": "a0bcdb48029909e0b54a86d8b59c54fc4fa60a3734a9634c761e5caea4c9778b",
+  "unchanged_files": {
+    "cluster/prometheus/e18_fresh_driver.py": "2a9044162fc1c9352234bff1ed13379609dc4c8e1af836bfa753ced31488d616",
+    "cluster/prometheus/lgp1_endpoint.py": "616cdc3aeba5b8bfc0653036b4300284a1c8eb3417c24edbdff2d025f3cbefff",
+    "cluster/prometheus/lgp1_runtime.py": "649248e7ac739caaf6866a66857d91710039e70a3eabe00372d9e94e66ac9231",
+    "cluster/prometheus/lgp1_tensor.py": "56fe3378f96f23390456949e30c39fb887b383542351cdc05065045f85b01c63",
+    "cluster/prometheus/lgp1_train.py": "63487c821ad79497977b8f9155ea86f3a9c52d9b78e87549afc8ccbd0f279807",
+    "cluster/prometheus/local_goal_models.py": "0db8bf8f105c4a225084e23b507e1976812d37549ede756cc3f9cefa91738cb7",
+    "cluster/prometheus/local_goal_proposals.py": "a75f413c986ac1f7fd178f7964b9810d5ba89f1481d7a7240c601bbfae57d0c2",
+    "cluster/prometheus/pusht_fresh_initialization.py": "798bb6749dd30b9c6a91ac7018422edbefd356f3bb6bc322bd8ca95987506a65"
+  }
+}

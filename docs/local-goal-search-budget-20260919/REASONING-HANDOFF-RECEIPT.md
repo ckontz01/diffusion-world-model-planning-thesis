@@ -27,6 +27,13 @@ No permission bypass, credential extraction, unrelated data access or retroactiv
 history changes are authorized. Missing material choices go back to the selected
 reasoning conversation. The completed RB1 protocol itself was not changed.
 
-Status at this receipt: **sent and visibly reasoning; final response pending**.
-No next experiment has been launched. The existing scheduled follow-up remains
-active to read the complete response and carry out its bounded directions.
+Initial status at this receipt: **sent and visibly reasoning; final response pending**.
+
+Follow-up, 20 September 2026: the complete response was read in the same chat
+(UI: Worked for21m15s). It accepts RB1 within its limits and directs **preparation
+only** of LGP-RB2, a four-arm source-disjoint development replication. The reasoner
+requires an explicit execution instruction after reviewing its source/grid/resource
+package. The [instruction record](../local-goal-source-replication-20260920/REASONING-INSTRUCTION.md)
+and [tested preparation](../local-goal-source-replication-20260920/PREPARATION-RECEIPT.md)
+retain this boundary. No next experiment has been launched. RB1 is complete and
+must not be polled, rerun or rearchived because the follow-up remains active.
