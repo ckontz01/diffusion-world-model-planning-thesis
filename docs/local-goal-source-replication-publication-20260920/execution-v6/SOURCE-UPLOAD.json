@@ -1,0 +1,7 @@
+{
+  "ended": 1789900846.918362,
+  "exit_code": 0,
+  "started": 1789900845.6346564,
+  "stderr": "",
+  "stdout": "{\"archive_sha256\": \"f9e097120c3e332ca42823d30b6f6788cb398a1bba47a128dfe161db6c8421dd\", \"files\": 111, \"research_execution\": false, \"source\": \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/local-goal-source-replication-20260920-a8fa92772272e11a\", \"source_bytes\": 3586500, \"source_sha256\": \"a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec\", \"unix\": 1789900847.8632476}\n"
+}
