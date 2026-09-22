@@ -1,0 +1,96 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "aac945e7cf99aedaa81a6c311e38aef2e4838dfc",
+  "remote_head_verified": true,
+  "accepted_av0_commit": "ca0a05d5ec1c9ab66d723529ac227c98de5b73e1",
+  "branch": "action-verification-paired-improvement-addendum-20260922",
+  "source": "C:\\Users\\Chris\\thesis-recovery\\action-verification-testbed-20260922\\docs\\action-verification-paired-improvement-addendum-20260922",
+  "destination": "D:\\THESIS-BACKUPS\\action-verification-paired-improvement-addendum-20260922\\preparation-v1",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323614801920,
+  "payload_files": 13,
+  "payload_bytes": 189489.0,
+  "members": [
+    {
+      "path": "AUTHORIZATION.md",
+      "bytes": 2329,
+      "sha256": "41f1b1f4a8b0f16693bad271244eb4b3172003986964b71fa786d89f2c23655f",
+      "readback_match": true
+    },
+    {
+      "path": "backup_package.ps1",
+      "bytes": 4618,
+      "sha256": "aec2b3b5c98f014e7d80794232ed4e7bfd1082a976b494dbd53c062f28aa8871",
+      "readback_match": true
+    },
+    {
+      "path": "bounded_run.py",
+      "bytes": 2406,
+      "sha256": "fbd24ab693003e5d8555e489efa2f793a74912a70b59d8eccab3f5238dc7f5ff",
+      "readback_match": true
+    },
+    {
+      "path": "COMPARISON.json",
+      "bytes": 780,
+      "sha256": "f089aa1fd15437be3adab5bbd2994114027bb8489cbf79fe21c326465f75805a",
+      "readback_match": true
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 894,
+      "sha256": "f9d94e6110cd8c273bf3d6b0cc3ed53e4eba8e64f315ee16cdbd2396479ffb00",
+      "readback_match": true
+    },
+    {
+      "path": "evaluate_addendum.py",
+      "bytes": 6845,
+      "sha256": "b3b7474c6848f3873ba7ce3ee35f845edcd7db26f0783e1b1bb4efacdc551595",
+      "readback_match": true
+    },
+    {
+      "path": "EXECUTION-LOG.json",
+      "bytes": 3111,
+      "sha256": "3a30b32b25d986844c5f0347f84b1ac5d88615246009d18c981b32aed2f5002e",
+      "readback_match": true
+    },
+    {
+      "path": "paired_improvement.py",
+      "bytes": 3073,
+      "sha256": "607bb7034ee911ca6a5b4f5c9ef7e41bd85d9b7ee0f32e26ec8483c4bca6c1e8",
+      "readback_match": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 7233,
+      "sha256": "1faf35818b09dcbec24cbd867178e9c2ca30b95e70dd0bd3c465ad28dcd2c635",
+      "readback_match": true
+    },
+    {
+      "path": "report_addendum.py",
+      "bytes": 6172,
+      "sha256": "8053abe2453296f30baefec844ae3fe891b71e1b8f0225cf0179041fe03abdfc",
+      "readback_match": true
+    },
+    {
+      "path": "RESULTS.json",
+      "bytes": 134675,
+      "sha256": "13ac0c7698ad4cfe50c925568c5c35119485b268eca5737a0246fa4072004601",
+      "readback_match": true
+    },
+    {
+      "path": "RESULTS.md",
+      "bytes": 13874,
+      "sha256": "53893c6fa4c4e9d4096a181937b953d0490a3bbb1d5997e6c602dd5c65f16901",
+      "readback_match": true
+    },
+    {
+      "path": "test_addendum.py",
+      "bytes": 3479,
+      "sha256": "c935bc70ad64753b4e56b654cc6d42e65c23c762e3285eb453aa9d74e335e74c",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-22T20:08:00.7352282Z",
+  "preservation_seconds_through_payload_verification": 5.4164028,
+  "note": "Only the new addendum package. Receipt is copied and byte-hash read back separately. No original AV0 files or historical archives copied, opened for backup, changed or overwritten."
+}
