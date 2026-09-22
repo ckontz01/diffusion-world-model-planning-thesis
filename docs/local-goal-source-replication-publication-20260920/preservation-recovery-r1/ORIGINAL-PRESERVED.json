@@ -1,0 +1,21 @@
+{
+  "exclusive_read_lock": true,
+  "files": {
+    "BACKUP-FAILURE.json": {
+      "bytes": 81,
+      "mtime_ns": 1790073688036264000,
+      "sha256": "7d89f19b8e1e425568381e8bf3d679ddc2251bb0c19621cd465269c010d7022c"
+    },
+    "BACKUP-REQUEST.json": {
+      "bytes": 5557587,
+      "mtime_ns": 1790070134729927100,
+      "sha256": "f980786b598867e12dd9fad0589dbc9afc642bc4441136721abbfb787457af06"
+    },
+    "final.tar.partial": {
+      "bytes": 1202438144,
+      "mtime_ns": 1790070313623982800,
+      "sha256": "17193e4f9303e6180cd4dde45e4bcd491095050a12508dd07b74651b35d7fb05"
+    }
+  },
+  "old_transfer_session_exit_code": 1
+}

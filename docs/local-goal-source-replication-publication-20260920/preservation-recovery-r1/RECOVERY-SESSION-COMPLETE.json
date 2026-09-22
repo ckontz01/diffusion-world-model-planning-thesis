@@ -1,0 +1,23 @@
+{
+  "complete": true,
+  "directory_bytes_before_this_record": 4560502898,
+  "receipt_sha256": "f37008725443d44a883f7a3035c67070e2560dacedf2cbad3fccf0c23d688cb6",
+  "recovery_seal_sha256": "226aab3c8e95a309ad3da4d155b30b20cdbf97564b42ca567a4370e66a9b063b",
+  "supervisor": {
+    "owned_pid": 32748,
+    "owned_process_resolved": true,
+    "received_bytes": 1367,
+    "returncode": 0,
+    "seconds": 340.18699999997625,
+    "stored_bytes": 1367,
+    "watchdog": null
+  },
+  "wall_seconds": 347.7030000000377,
+  "worker": {
+    "bytes": 4560501531,
+    "local_total_process_cpu_seconds": 127.5,
+    "receipt_sha256": "f37008725443d44a883f7a3035c67070e2560dacedf2cbad3fccf0c23d688cb6",
+    "recovery_verified": true,
+    "wall_through_seal_seconds": 347.48399999999674
+  }
+}

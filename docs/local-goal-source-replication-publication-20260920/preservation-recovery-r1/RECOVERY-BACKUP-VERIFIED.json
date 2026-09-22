@@ -1,0 +1,1277 @@
+{
+  "approval_sha256": "013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b",
+  "archive_payload_received": 1673383936,
+  "archive_payload_transmission_upper_bound": 1673383936,
+  "authorization_sha256": "638e57066943747d61b43dd0c8eda55b7c2157a9e37bc1d410ee7d514ca7c810",
+  "bytes": 2875822080,
+  "files": 32393,
+  "final_ssd": {
+    "FileSystemLabel": "THESIS_SSD",
+    "SizeRemaining": 323615612928,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "final_verification_wall_seconds": 50.64000000001397,
+  "first_transfer_succeeded": false,
+  "frozen_commit": "c35beb5b5dcafb7baebc3f2aec9a803f3be4ea54",
+  "frozen_manifest_sha256": "a8f4c0e4b1ec1765b39ee683c85c56a25de997bb04a7bcd3c9d2dd85306d3b49",
+  "helper_sha256": "866b1768d34924883b5bfc0a2d5305cd10497946267db2af4ea952f9fd14ad71",
+  "historical": [
+    {
+      "bytes": 1734420480,
+      "files": 1733,
+      "path": "D:\\THESIS-BACKUPS\\local-goal-proposals-20260918\\run-b54a55b16bcb83a5\\final.tar",
+      "receipt_sha256": "776b6929bd52dc0fb77e6e454b4169284fb38e0aff67f1bed1c8096509f4d6b9",
+      "request_sha256": "631eb804754aff759c5f3f37492173c301d6927b06343f9e7da5afd666060999",
+      "sha256": "24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd"
+    },
+    {
+      "bytes": 79155200,
+      "files": 2798,
+      "path": "D:\\THESIS-BACKUPS\\local-goal-search-budget-20260919\\run-a0bcdb48029909e0\\final.tar",
+      "receipt_sha256": "958c4465ce6b62960091bf2879936e89c2a248d1b449027691ddc70b414d20c4",
+      "request_sha256": "f9cba359664e2d5ffa845101af9de5698172e3b506cd41fa690946ad4e754323",
+      "sha256": "72c2717be4a10b0e103a05c6575710832e5ae4c9e9a21be573c8cb3c4441f175"
+    }
+  ],
+  "inclusive_remote_bytes": 9320146032,
+  "initial_ssd": {
+    "FileSystemLabel": "THESIS_SSD",
+    "SizeRemaining": 328176349184,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "last_incorporated_range": 24,
+  "last_verified_offset": 2875822080,
+  "limits": {
+    "final_phase_seconds": 1800,
+    "inclusive_remote_bytes": 24000000000,
+    "metadata_invocations": 8,
+    "metadata_wall_seconds": 600,
+    "minimum_free_ssd_bytes": 40000000000,
+    "range_idle_seconds": 90,
+    "range_wall_seconds": 300,
+    "recovery_ssd_bytes": 8000000000,
+    "remote_archive_payload_bound": 3346767872,
+    "remote_cpu_seconds": 600,
+    "remote_recovery_disk_bytes": 64000000,
+    "retry_delay_seconds": 30,
+    "total_seconds": 7200,
+    "transfer_phase_seconds": 5400,
+    "transmissions": 50
+  },
+  "local_worker_process_cpu_seconds": 117.28125,
+  "metadata_invocations": 3,
+  "network_wire_overhead_measured": false,
+  "operations": [
+    {
+      "action": "request",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": false,
+      "label": "request-attempt-1",
+      "operation": "30a3c7644cb24d55838e773d20043167",
+      "remote_cpu_charge_seconds": 0.008402832999999998,
+      "remote_records": [
+        {
+          "action": "request",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "30a3c7644cb24d55838e773d20043167",
+          "pid": 3013019,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883293929,
+          "wall_limit": 580
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "30a3c7644cb24d55838e773d20043167",
+          "payload_bytes": 5557587,
+          "pid": 3013019,
+          "process_cpu_seconds": 0.008402832999999998,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883293929,
+          "wall_seconds": 0.5070760734379292
+        }
+      ],
+      "requested_maximum": 20000000,
+      "result": {
+        "owned_pid": 35988,
+        "owned_process_resolved": true,
+        "received_bytes": 5557587,
+        "returncode": 0,
+        "seconds": 1.7820000000065193,
+        "stored_bytes": 5557587,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "scan",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 120,
+      "is_archive_range": false,
+      "label": "range-manifest-attempt-1",
+      "operation": "b369d9cc074e42a1924e113ab4351e1e",
+      "remote_cpu_charge_seconds": 10.705774136999999,
+      "remote_records": [
+        {
+          "action": "scan",
+          "cpu_limit": 120,
+          "event": "start",
+          "operation": "b369d9cc074e42a1924e113ab4351e1e",
+          "pid": 3013047,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883294101,
+          "wall_limit": 580
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "b369d9cc074e42a1924e113ab4351e1e",
+          "payload_bytes": 4228,
+          "pid": 3013047,
+          "process_cpu_seconds": 10.705774136999999,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883294101,
+          "wall_seconds": 42.966357642784715
+        }
+      ],
+      "requested_maximum": 200000,
+      "result": {
+        "owned_pid": 41560,
+        "owned_process_resolved": true,
+        "received_bytes": 4228,
+        "returncode": 0,
+        "seconds": 43.73399999999674,
+        "stored_bytes": 4228,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-00-attempt-1",
+      "operation": "5985f073e88147b7b3a2ea4fcec55eda",
+      "remote_cpu_charge_seconds": 0.054380708,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "5985f073e88147b7b3a2ea4fcec55eda",
+          "pid": 3014013,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883299293,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "5985f073e88147b7b3a2ea4fcec55eda",
+          "payload_bytes": 67108864,
+          "pid": 3014013,
+          "process_cpu_seconds": 0.054380708,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883299293,
+          "wall_seconds": 8.145186629146338
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 36716,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 9.438000000023749,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-01-attempt-1",
+      "operation": "89b78a188da64fc79735097dc3b7d3ce",
+      "remote_cpu_charge_seconds": 0.05929879899999999,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "89b78a188da64fc79735097dc3b7d3ce",
+          "pid": 3014068,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883300354,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "89b78a188da64fc79735097dc3b7d3ce",
+          "payload_bytes": 67108864,
+          "pid": 3014068,
+          "process_cpu_seconds": 0.05929879899999999,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883300354,
+          "wall_seconds": 7.373616546392441
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 40996,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.84299999999348,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-02-attempt-1",
+      "operation": "d2911277c5664200bc8033967e88b92b",
+      "remote_cpu_charge_seconds": 0.08948851299999999,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "d2911277c5664200bc8033967e88b92b",
+          "pid": 3014309,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883301352,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "d2911277c5664200bc8033967e88b92b",
+          "payload_bytes": 67108864,
+          "pid": 3014309,
+          "process_cpu_seconds": 0.08948851299999999,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883301352,
+          "wall_seconds": 7.402538046240807
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 21688,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 9.436999999976251,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-03-attempt-1",
+      "operation": "cdfd79eecf4e4b0a84fc329778b37dd7",
+      "remote_cpu_charge_seconds": 0.060097249000000005,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "cdfd79eecf4e4b0a84fc329778b37dd7",
+          "pid": 3014386,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883302352,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "cdfd79eecf4e4b0a84fc329778b37dd7",
+          "payload_bytes": 67108864,
+          "pid": 3014386,
+          "process_cpu_seconds": 0.060097249000000005,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883302352,
+          "wall_seconds": 5.888727365061641
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 2292,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.625,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-04-attempt-1",
+      "operation": "90e5ed0539ea4bae958da4ac68979226",
+      "remote_cpu_charge_seconds": 0.073120644,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "90e5ed0539ea4bae958da4ac68979226",
+          "pid": 3014433,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883303174,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "90e5ed0539ea4bae958da4ac68979226",
+          "payload_bytes": 67108864,
+          "pid": 3014433,
+          "process_cpu_seconds": 0.073120644,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883303174,
+          "wall_seconds": 7.559875627979636
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 29800,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 9.327999999979511,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-05-attempt-1",
+      "operation": "833917208463443383060164b7547a7e",
+      "remote_cpu_charge_seconds": 0.05156118999999999,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "833917208463443383060164b7547a7e",
+          "pid": 3014498,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883304165,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "833917208463443383060164b7547a7e",
+          "payload_bytes": 67108864,
+          "pid": 3014498,
+          "process_cpu_seconds": 0.05156118999999999,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883304165,
+          "wall_seconds": 5.880974654108286
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 38484,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.60899999999674,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-06-attempt-1",
+      "operation": "8a7c0cc423984f32b1d55c4d3f572e54",
+      "remote_cpu_charge_seconds": 0.046559548000000006,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "8a7c0cc423984f32b1d55c4d3f572e54",
+          "pid": 3014547,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883304968,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "8a7c0cc423984f32b1d55c4d3f572e54",
+          "payload_bytes": 67108864,
+          "pid": 3014547,
+          "process_cpu_seconds": 0.046559548000000006,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883304968,
+          "wall_seconds": 4.481202872470021
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 7104,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 6.0310000000172295,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-07-attempt-1",
+      "operation": "3d5d5d7d67084a8587991bf031d2661c",
+      "remote_cpu_charge_seconds": 0.046439812999999996,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "3d5d5d7d67084a8587991bf031d2661c",
+          "pid": 3014595,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883305710,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "3d5d5d7d67084a8587991bf031d2661c",
+          "payload_bytes": 67108864,
+          "pid": 3014595,
+          "process_cpu_seconds": 0.046439812999999996,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883305710,
+          "wall_seconds": 4.606575978919864
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 38304,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.01600000000326,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-08-attempt-1",
+      "operation": "4fa4d35f0433489aba2899c2b20b0d7e",
+      "remote_cpu_charge_seconds": 0.077648844,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "4fa4d35f0433489aba2899c2b20b0d7e",
+          "pid": 3014628,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883306477,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "4fa4d35f0433489aba2899c2b20b0d7e",
+          "payload_bytes": 67108864,
+          "pid": 3014628,
+          "process_cpu_seconds": 0.077648844,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883306477,
+          "wall_seconds": 6.004614792764187
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 21708,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.327999999979511,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-09-attempt-1",
+      "operation": "ae67038d9f294120ba463b01af9c27d9",
+      "remote_cpu_charge_seconds": 0.046698105,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "ae67038d9f294120ba463b01af9c27d9",
+          "pid": 3014868,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883307367,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "ae67038d9f294120ba463b01af9c27d9",
+          "payload_bytes": 67108864,
+          "pid": 3014868,
+          "process_cpu_seconds": 0.046698105,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883307367,
+          "wall_seconds": 4.455342311412096
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 39932,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 6.545999999972992,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-10-attempt-1",
+      "operation": "dd256b304d3c4aaf8529a10f25e6974a",
+      "remote_cpu_charge_seconds": 0.062653089,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "dd256b304d3c4aaf8529a10f25e6974a",
+          "pid": 3014930,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883308103,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "dd256b304d3c4aaf8529a10f25e6974a",
+          "payload_bytes": 67108864,
+          "pid": 3014930,
+          "process_cpu_seconds": 0.062653089,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883308103,
+          "wall_seconds": 4.288003014400601
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 18956,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 6.702999999979511,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-11-attempt-1",
+      "operation": "1c254d53beab41229d72c8a24740a169",
+      "remote_cpu_charge_seconds": 0.062292321000000005,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "1c254d53beab41229d72c8a24740a169",
+          "pid": 3014992,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883308783,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "1c254d53beab41229d72c8a24740a169",
+          "payload_bytes": 67108864,
+          "pid": 3014992,
+          "process_cpu_seconds": 0.062292321000000005,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883308783,
+          "wall_seconds": 4.9226920157670975
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 40784,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 6.7810000000172295,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-12-attempt-1",
+      "operation": "2169b91244d540ca9b0fc338ceed73b6",
+      "remote_cpu_charge_seconds": 0.072652721,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "2169b91244d540ca9b0fc338ceed73b6",
+          "pid": 3015051,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883309575,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "2169b91244d540ca9b0fc338ceed73b6",
+          "payload_bytes": 67108864,
+          "pid": 3015051,
+          "process_cpu_seconds": 0.072652721,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883309575,
+          "wall_seconds": 4.954972796142101
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 26424,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.094000000040978,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-13-attempt-1",
+      "operation": "2aa652d5b2f54d158ab2dcbf39f69fbb",
+      "remote_cpu_charge_seconds": 0.069785466,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "2aa652d5b2f54d158ab2dcbf39f69fbb",
+          "pid": 3015097,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883310369,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "2aa652d5b2f54d158ab2dcbf39f69fbb",
+          "payload_bytes": 67108864,
+          "pid": 3015097,
+          "process_cpu_seconds": 0.069785466,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883310369,
+          "wall_seconds": 5.428925381973386
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 21528,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.797000000020489,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-14-attempt-1",
+      "operation": "30c4335bd33c4b8ea25a644f0daacb08",
+      "remote_cpu_charge_seconds": 0.050649209,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "30c4335bd33c4b8ea25a644f0daacb08",
+          "pid": 3015137,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883311236,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "30c4335bd33c4b8ea25a644f0daacb08",
+          "payload_bytes": 67108864,
+          "pid": 3015137,
+          "process_cpu_seconds": 0.050649209,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883311236,
+          "wall_seconds": 5.594532880932093
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 30324,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.280999999959022,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-15-attempt-1",
+      "operation": "199a88cfa29246c782f94b261ef977b9",
+      "remote_cpu_charge_seconds": 0.055398064,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "199a88cfa29246c782f94b261ef977b9",
+          "pid": 3015191,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883312000,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "199a88cfa29246c782f94b261ef977b9",
+          "payload_bytes": 67108864,
+          "pid": 3015191,
+          "process_cpu_seconds": 0.055398064,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883312000,
+          "wall_seconds": 7.416541365906596
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 25140,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.686999999976251,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-16-attempt-1",
+      "operation": "2fac9a6d2a854625810b92a6c001b888",
+      "remote_cpu_charge_seconds": 0.08961996,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "2fac9a6d2a854625810b92a6c001b888",
+          "pid": 3015441,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883312992,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "2fac9a6d2a854625810b92a6c001b888",
+          "payload_bytes": 67108864,
+          "pid": 3015441,
+          "process_cpu_seconds": 0.08961996,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883312992,
+          "wall_seconds": 5.336069857701659
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 16804,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.170999999972992,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-17-attempt-1",
+      "operation": "c973c45921884d60af15709740ad6e82",
+      "remote_cpu_charge_seconds": 0.048105623,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "c973c45921884d60af15709740ad6e82",
+          "pid": 3015518,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883313796,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "c973c45921884d60af15709740ad6e82",
+          "payload_bytes": 67108864,
+          "pid": 3015518,
+          "process_cpu_seconds": 0.048105623,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883313796,
+          "wall_seconds": 5.635661493986845
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 36660,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.563000000023749,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-18-attempt-1",
+      "operation": "12eab9ebd4cb4337b6df4d24dd0b7112",
+      "remote_cpu_charge_seconds": 0.064076086,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "12eab9ebd4cb4337b6df4d24dd0b7112",
+          "pid": 3015572,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883314598,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "12eab9ebd4cb4337b6df4d24dd0b7112",
+          "payload_bytes": 67108864,
+          "pid": 3015572,
+          "process_cpu_seconds": 0.064076086,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883314598,
+          "wall_seconds": 6.983448112383485
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 40768,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.797000000020489,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-19-attempt-1",
+      "operation": "1f23f6ffe9bb48bd98cf04f6f04ea360",
+      "remote_cpu_charge_seconds": 0.071971511,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "1f23f6ffe9bb48bd98cf04f6f04ea360",
+          "pid": 3016203,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883315587,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "1f23f6ffe9bb48bd98cf04f6f04ea360",
+          "payload_bytes": 67108864,
+          "pid": 3016203,
+          "process_cpu_seconds": 0.071971511,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883315587,
+          "wall_seconds": 7.665251860395074
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 35248,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 9.827999999979511,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-20-attempt-1",
+      "operation": "1c27fe7f8f9343baa29fa5baa66a1cbc",
+      "remote_cpu_charge_seconds": 0.049784534000000005,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "1c27fe7f8f9343baa29fa5baa66a1cbc",
+          "pid": 3016270,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883316607,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "1c27fe7f8f9343baa29fa5baa66a1cbc",
+          "payload_bytes": 67108864,
+          "pid": 3016270,
+          "process_cpu_seconds": 0.049784534000000005,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883316607,
+          "wall_seconds": 5.696000764146447
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 30344,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 7.592999999993481,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-21-attempt-1",
+      "operation": "757ee7c090e5475d937ce06abccd40a2",
+      "remote_cpu_charge_seconds": 0.061868730999999996,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "757ee7c090e5475d937ce06abccd40a2",
+          "pid": 3016319,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883317411,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "757ee7c090e5475d937ce06abccd40a2",
+          "payload_bytes": 67108864,
+          "pid": 3016319,
+          "process_cpu_seconds": 0.061868730999999996,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883317411,
+          "wall_seconds": 4.503856724128127
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 29828,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 6.312000000034459,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-22-attempt-1",
+      "operation": "d37fd58749974d29ad31799d31f77bd9",
+      "remote_cpu_charge_seconds": 0.054220979999999995,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "d37fd58749974d29ad31799d31f77bd9",
+          "pid": 3016368,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883318163,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "d37fd58749974d29ad31799d31f77bd9",
+          "payload_bytes": 67108864,
+          "pid": 3016368,
+          "process_cpu_seconds": 0.054220979999999995,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883318163,
+          "wall_seconds": 6.211349323391914
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 35076,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.73499999998603,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-23-attempt-1",
+      "operation": "48d9a3fcbd7a4b54b904d7efda83227d",
+      "remote_cpu_charge_seconds": 0.10120499399999999,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "48d9a3fcbd7a4b54b904d7efda83227d",
+          "pid": 3016588,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883319013,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "48d9a3fcbd7a4b54b904d7efda83227d",
+          "payload_bytes": 67108864,
+          "pid": 3016588,
+          "process_cpu_seconds": 0.10120499399999999,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883319013,
+          "wall_seconds": 6.967685567215085
+        }
+      ],
+      "requested_maximum": 67108864,
+      "result": {
+        "owned_pid": 29748,
+        "owned_process_resolved": true,
+        "received_bytes": 67108864,
+        "returncode": 0,
+        "seconds": 8.51500000001397,
+        "stored_bytes": 67108864,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "range",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": true,
+      "label": "range-24-attempt-1",
+      "operation": "6149c80cffc14ff9a970cd7b113a611d",
+      "remote_cpu_charge_seconds": 0.07956396,
+      "remote_records": [
+        {
+          "action": "range",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "6149c80cffc14ff9a970cd7b113a611d",
+          "pid": 3016659,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883319889,
+          "wall_limit": 280
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "6149c80cffc14ff9a970cd7b113a611d",
+          "payload_bytes": 62771200,
+          "pid": 3016659,
+          "process_cpu_seconds": 0.07956396,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883319889,
+          "wall_seconds": 5.107794936746359
+        }
+      ],
+      "requested_maximum": 62771200,
+      "result": {
+        "owned_pid": 16484,
+        "owned_process_resolved": true,
+        "received_bytes": 62771200,
+        "returncode": 0,
+        "seconds": 6.202999999979511,
+        "stored_bytes": 62771200,
+        "watchdog": null
+      }
+    },
+    {
+      "action": "identity",
+      "cpu_charge_is_upper_bound": false,
+      "cpu_quota_seconds": 8,
+      "is_archive_range": false,
+      "label": "final-remote-identity-attempt-1",
+      "operation": "8177b0be0d684942a3bd72473dc6f3b3",
+      "remote_cpu_charge_seconds": 0.00011569999999999983,
+      "remote_records": [
+        {
+          "action": "identity",
+          "cpu_limit": 8,
+          "event": "start",
+          "operation": "8177b0be0d684942a3bd72473dc6f3b3",
+          "pid": 3016713,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883320628,
+          "wall_limit": 580
+        },
+        {
+          "event": "end",
+          "ok": true,
+          "operation": "8177b0be0d684942a3bd72473dc6f3b3",
+          "payload_bytes": 137,
+          "pid": 3016713,
+          "process_cpu_seconds": 0.00011569999999999983,
+          "session": "a06863419bcd4b4e855539aeb4ee2be6",
+          "start_ticks": 883320628,
+          "wall_seconds": 0.0003768131136894226
+        }
+      ],
+      "requested_maximum": 65536,
+      "result": {
+        "owned_pid": 34444,
+        "owned_process_resolved": true,
+        "received_bytes": 137,
+        "returncode": 0,
+        "seconds": 1.5,
+        "stored_bytes": 137,
+        "watchdog": null
+      }
+    }
+  ],
+  "original_destination": "D:\\THESIS-BACKUPS\\local-goal-source-replication-20260920\\run-a8fa92772272e11a",
+  "original_failed_files": {
+    "BACKUP-FAILURE.json": {
+      "bytes": 81,
+      "mtime_ns": 1790073688036264000,
+      "sha256": "7d89f19b8e1e425568381e8bf3d679ddc2251bb0c19621cd465269c010d7022c"
+    },
+    "BACKUP-REQUEST.json": {
+      "bytes": 5557587,
+      "mtime_ns": 1790070134729927100,
+      "sha256": "f980786b598867e12dd9fad0589dbc9afc642bc4441136721abbfb787457af06"
+    },
+    "final.tar.partial": {
+      "bytes": 1202438144,
+      "mtime_ns": 1790070313623982800,
+      "sha256": "17193e4f9303e6180cd4dde45e4bcd491095050a12508dd07b74651b35d7fb05"
+    }
+  },
+  "payload_scope": "Archive payload only, not protocol/encryption wire measurement; failed-attempt reserved bytes included conservatively.",
+  "range_manifest_sha256": "efd4175870e27fef32381df78d1c3cbcb7dbfa106ffa8d7422598b7613599a45",
+  "receipt_and_seal_reservation_bytes": 1000000,
+  "recovery_directory_bytes_before_receipt": 4560450954,
+  "recovery_verified": true,
+  "remote_cpu_scope": "Measured CPU when helper receipt exists; whole reserved hard CPU quota otherwise.",
+  "remote_cpu_seconds_charged": 12.313433331999997,
+  "remote_recovery_disk_bytes": 0,
+  "request_sha256": "f980786b598867e12dd9fad0589dbc9afc642bc4441136721abbfb787457af06",
+  "session": "a06863419bcd4b4e855539aeb4ee2be6",
+  "sha256": "fa17faef59d068b6a71d0ca40a3178b7f1be0a4e78688282a1bd846eb8a8b2aa",
+  "source_sha256": "a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec",
+  "successful_destination": "D:\\THESIS-BACKUPS\\local-goal-source-replication-20260920\\run-a8fa92772272e11a-recovery-r1\\final.tar",
+  "suffix_transmissions": 25,
+  "tool_sha256": "b07fe47510227197a86ebd569b0e696e0528351427243c8ce80e660884257017",
+  "unresolved_remote_operations": [],
+  "wall_seconds": 336.43700000003446
+}

@@ -1,0 +1,28 @@
+{
+  "frozen_commit": "c35beb5b5dcafb7baebc3f2aec9a803f3be4ea54",
+  "initial_ssd": {
+    "FileSystemLabel": "THESIS_SSD",
+    "SizeRemaining": 328176353280,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "limits": {
+    "final_phase_seconds": 1800,
+    "inclusive_remote_bytes": 24000000000,
+    "metadata_invocations": 8,
+    "metadata_wall_seconds": 600,
+    "minimum_free_ssd_bytes": 40000000000,
+    "range_idle_seconds": 90,
+    "range_wall_seconds": 300,
+    "recovery_ssd_bytes": 8000000000,
+    "remote_archive_payload_bound": 3346767872,
+    "remote_cpu_seconds": 600,
+    "remote_recovery_disk_bytes": 64000000,
+    "retry_delay_seconds": 30,
+    "total_seconds": 7200,
+    "transfer_phase_seconds": 5400,
+    "transmissions": 50
+  },
+  "session": "a06863419bcd4b4e855539aeb4ee2be6",
+  "start_monotonic": 415383.328,
+  "start_unix": 1790076036.7824562
+}
