@@ -1,0 +1,17 @@
+{
+  "version": "AV0-artificial-v1",
+  "research_execution_authorized": false,
+  "seeds": [92201, 92202, 92203],
+  "scenarios": ["shared_error", "optimistic_search", "rare_override", "sparse_binary", "progress_conflict", "sequential_shift"],
+  "sources_per_seed_scenario": {"fit": 512, "learn": 256, "calibration": 512, "test": 2048},
+  "bank_size": 8,
+  "alpha": 0.05,
+  "delta": 0.05,
+  "ltt_thresholds": [0.0, 0.05, 0.1, 0.2, 0.4],
+  "predictor": "Laplace-smoothed saturated conditional Bernoulli table on 16 observable context categories and candidate slot; same fitted table for point, simultaneous, LTT and complete-branch PC",
+  "logged_predictor": "same table capacity and fit-source count; one uniform preassigned slot per source; separate point-logged control",
+  "cem_artificial": {"population": 40, "elites": 8, "iterations": 5, "dimensions": 6, "seed": 92200, "lambda": 0.07},
+  "ceilings": {"cumulative_test_wall_seconds": 14400, "cpu_affinity_count": 4, "memory_bytes": 8589934592, "new_output_bytes": 1000000000, "gpu": 0},
+  "no_scenario_retuning": true,
+  "unit_tests_are_not_monte_carlo_proofs": true
+}
