@@ -1,0 +1,43 @@
+{
+  "cases": 18,
+  "source_digest_matches": 18,
+  "accepted_cases": 9,
+  "deployed_rule_matches_conditional_harm_ltt": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "accepted_family_differences": [
+    {
+      "case": "shared_error",
+      "seed": 92203,
+      "improvement_accepted": [
+        0.0,
+        0.05,
+        0.1
+      ],
+      "ltt_accepted": [
+        0.0,
+        0.05
+      ]
+    }
+  ],
+  "practical_conclusion": "Same deployed decisions as conditional-harm LTT in all fixed cases; different tested target.",
+  "no_differentiated_treatment_yet": true,
+  "av1_launched": false
+}

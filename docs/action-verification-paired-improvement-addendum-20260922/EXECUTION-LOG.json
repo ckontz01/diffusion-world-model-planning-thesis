@@ -1,0 +1,53 @@
+[
+  {
+    "label": "unit-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "test_addendum.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790107204.943179,
+    "wall_seconds": 0.5160000000032596,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_all_ties (__main__.Tests.test_all_ties) ... ok\ntest_analytic_shared_uniform_example (__main__.Tests.test_analytic_shared_uniform_example) ... ok\ntest_boundary_threshold_and_prediction_ties (__main__.Tests.test_boundary_threshold_and_prediction_ties) ... ok\ntest_denominator_all_sources (__main__.Tests.test_denominator_all_sources) ... ok\ntest_family_correction_not_nominal_point05 (__main__.Tests.test_family_correction_not_nominal_point05) ... ok\ntest_fixed_family_type_and_single_source_guard (__main__.Tests.test_fixed_family_type_and_single_source_guard) ... ok\ntest_gains_only (__main__.Tests.test_gains_only) ... ok\ntest_losses_only (__main__.Tests.test_losses_only) ... ok\ntest_pvalue_orientation (__main__.Tests.test_pvalue_orientation) ... ok\ntest_small_sample_exhaustive_enumeration (__main__.Tests.test_small_sample_exhaustive_enumeration) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.042s\n\nOK\n",
+    "peak_job_memory_bytes": 28651520,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 19307
+  },
+  {
+    "label": "evaluate-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "evaluate_addendum.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790107205.7171783,
+    "wall_seconds": 14.01600000000326,
+    "returncode": 0,
+    "stdout": "{\"cases\": 18, \"matching_source_digests\": 18, \"original_files_unchanged\": 25, \"accepted_cases\": 9}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 70057984,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 155445
+  },
+  {
+    "label": "report-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "report_addendum.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790107365.9119272,
+    "wall_seconds": 0.2970000000204891,
+    "returncode": 0,
+    "stdout": "{\"cases\": 18, \"source_digest_matches\": 18, \"accepted_cases\": 9, \"deployed_rule_matches_conditional_harm_ltt\": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true], \"accepted_family_differences\": [{\"case\": \"shared_error\", \"seed\": 92203, \"improvement_accepted\": [0.0, 0.05, 0.1], \"ltt_accepted\": [0.0, 0.05]}], \"practical_conclusion\": \"Same deployed decisions as conditional-harm LTT in all fixed cases; different tested target.\", \"no_differentiated_treatment_yet\": true, \"av1_launched\": false}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 23076864,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 183869
+  }
+]
