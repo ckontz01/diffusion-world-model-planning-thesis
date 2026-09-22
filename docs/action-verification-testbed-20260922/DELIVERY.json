@@ -1,0 +1,160 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "e74559cef9c80e37da3d7528d212cc22ed7ce845",
+  "remote_head_verified": true,
+  "branch": "action-verification-testbed-preparation-20260922",
+  "source": "C:\\Users\\Chris\\thesis-recovery\\action-verification-testbed-20260922\\docs\\action-verification-testbed-20260922",
+  "destination": "D:\\THESIS-BACKUPS\\action-verification-testbed-20260922\\preparation-v1",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323615117312,
+  "payload_files": 24,
+  "payload_bytes": 258142.0,
+  "members": [
+    {
+      "path": "ARTIFICIAL-RESULTS.json",
+      "bytes": 107112,
+      "sha256": "181dbc8a3254bb7c20c0625e93bb4a26924b79d1eeb5fb4a12486e2af6462180",
+      "readback_match": true
+    },
+    {
+      "path": "ARTIFICIAL-RESULTS.md",
+      "bytes": 9515,
+      "sha256": "7aa06fda8905d1e55e5aaf536753837ac350f9211dc8d85b5168112502705d33",
+      "readback_match": true
+    },
+    {
+      "path": "AUTHORIZATION.md",
+      "bytes": 2108,
+      "sha256": "95ee193982ef09b96a8b51066cfad39415ff7e3c2f09570a6f0cb9ab48829943",
+      "readback_match": true
+    },
+    {
+      "path": "backup_package.ps1",
+      "bytes": 3748,
+      "sha256": "408d69220ced9bb6b77061122f1cb2cc8656d19ae22c2fce31f180fec7c4c943",
+      "readback_match": true
+    },
+    {
+      "path": "bounded_run.py",
+      "bytes": 3938,
+      "sha256": "e2df95f68c4e4a3d925ee8037ee2f35495158ae967fce7f032aa372b6a05367d",
+      "readback_match": true
+    },
+    {
+      "path": "CANDIDATE-MECHANISM.md",
+      "bytes": 2939,
+      "sha256": "ce68598eff27e38bb46afae79757b718c401fc24bd40f38fe3d0bad775325ed3",
+      "readback_match": true
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 1121,
+      "sha256": "2adda5cf7ecc8d6fb586f6d432031f898e6d411bb294bfb0daa0c14e02d91831",
+      "readback_match": true
+    },
+    {
+      "path": "controls.py",
+      "bytes": 4443,
+      "sha256": "e039a8a8785651d16bf09beae70437d92a9ccc086364b15898787536e2298545",
+      "readback_match": true
+    },
+    {
+      "path": "DATA-REUSE.md",
+      "bytes": 5183,
+      "sha256": "6003ab35aafe0d18ba7970c7807133ce035ff9d3182a2827d64ca2833a132525",
+      "readback_match": true
+    },
+    {
+      "path": "DATA-ROLES-PROPOSED.json",
+      "bytes": 35902,
+      "sha256": "d4120a7d5058864c1b8eff366bcdf29ec48b0e880b62c91411cce208b6818ef7",
+      "readback_match": true
+    },
+    {
+      "path": "EXECUTION-LOG.json",
+      "bytes": 7654,
+      "sha256": "8488964f0ae2295eb673c00ff88310fd93a8df9bda6eb7e6d226ce2562d70c01",
+      "readback_match": true
+    },
+    {
+      "path": "FIDELITY.md",
+      "bytes": 5966,
+      "sha256": "bf658c0402cb871db056c65aaca425fd38583e1c26c67b3532df42bae7fcece8",
+      "readback_match": true
+    },
+    {
+      "path": "inventory_crosscheck.py",
+      "bytes": 1722,
+      "sha256": "135a854a99a365a3429ff2354c79c10e006301feb97e55b7f0fc52c14307becb",
+      "readback_match": true
+    },
+    {
+      "path": "metadata_inventory.py",
+      "bytes": 2803,
+      "sha256": "82d8c21e29435bb11bc048dc616659272fc87bcd769499cd8602029efa7a54da",
+      "readback_match": true
+    },
+    {
+      "path": "pc_racp.py",
+      "bytes": 5678,
+      "sha256": "4e5cd7f4ad110ca3a28ce54086002cf731f89017b694e0c854ddbdf4f9e52865",
+      "readback_match": true
+    },
+    {
+      "path": "planning.py",
+      "bytes": 7622,
+      "sha256": "fe4afb996f84cbca31cd9142a5abb7179552782b1af1604f622345d1d838836f",
+      "readback_match": true
+    },
+    {
+      "path": "READINESS-NOTES.md",
+      "bytes": 3143,
+      "sha256": "13336da6c959f9c611c5e762e6ca80a64cf182bcb562058ffea23573b920775d",
+      "readback_match": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 4297,
+      "sha256": "98abf6b9bc1f8ee3a103516007a6a266c3aa64f29598e3acca610343d7eb8f8d",
+      "readback_match": true
+    },
+    {
+      "path": "REAL-RUNTIME-PROPOSAL.md",
+      "bytes": 13688,
+      "sha256": "30d2903319c079b52e6a110662b594b6b9462a0f513ca3d4823d52956044a66d",
+      "readback_match": true
+    },
+    {
+      "path": "report_artificial.py",
+      "bytes": 6861,
+      "sha256": "d1be707c9153c301a0fcb04cf40feea7ab9b9112baee334345380c44d7e3c4cd",
+      "readback_match": true
+    },
+    {
+      "path": "ROLE-CROSSCHECK.json",
+      "bytes": 818,
+      "sha256": "5183cb757f72c2149c52e89783b124495271c7c7006415e05014b4a6097077ea",
+      "readback_match": true
+    },
+    {
+      "path": "suite.py",
+      "bytes": 7812,
+      "sha256": "fd17c58aad62b39618724e644f93a4d96bf5da2f00145d93a65d6f07245db698",
+      "readback_match": true
+    },
+    {
+      "path": "TARGET-AND-GUARANTEES.md",
+      "bytes": 7015,
+      "sha256": "aa2180856d603194d28104c9581958de756bf16ff35942ef28c6c59399965ad3",
+      "readback_match": true
+    },
+    {
+      "path": "test_av0.py",
+      "bytes": 7054,
+      "sha256": "eb66a1b580b440383eb92d72e4a9e5eb6c15f73af138e8575e6b95aca6d5766b",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-22T19:25:49.8482193Z",
+  "note": "Receipt itself is copied and byte-hash read back separately; no historical archive opened or overwritten."
+}
