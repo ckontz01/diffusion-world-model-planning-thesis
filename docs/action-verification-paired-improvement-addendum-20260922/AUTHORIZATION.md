@@ -1,0 +1,11 @@
+# AV0 paired-improvement addendum authorization
+
+The user's direct addendum request authorizes exactly one established paired-improvement testing control, fixed to the original full-branch predictor and five thresholds. Accepted AV0 is `ca0a05d5ec1c9ab66d723529ac227c98de5b73e1`. Its files, outcomes and conclusion **no differentiated treatment yet** remain unchanged.
+
+Work is isolated on `action-verification-paired-improvement-addendum-20260922`, with all new artifacts in this sibling documentation directory. Initial checkout was clean at the accepted commit. No source allocation, model architecture/parameter search, research fitting, simulator, checkpoint, production integration, Slurm, GPU, dependency change or literature survey is authorized or performed. AV1 remains unlaunched; no automatic follow-up runs. Historical decisions and E12 drafts are untouched.
+
+The addendum uses at most one cumulative wall-hour of local scripted testing/analysis, four logical CPUs,8GiB memory and250MB new artifacts. The runner reuses only AV0's memory/affinity limiter function, never its entry point or its log. Pure-Python code is single threaded, native thread caps are set to1, GPU visibility empty, and all attempts have separate retained logs. The inspected evaluation produces only bounded aggregate JSON; it exclusive-creates outputs. No outcomes select scenarios, seeds, levels or test thresholds.
+
+AV0 did not store individual prediction vectors or table counts. Exact restoration from the same fitting fixtures is therefore necessary: count identical artificial observations, call the unchanged probability method and unchanged prediction perturbation. This reconstructs the accepted estimator without calling its training constructor or any optimizer. Its code and input fixtures are authenticated, all18 complete source-data digests must match AV0, and original point metrics, conditional-harm LTT tests and simultaneous quantile must match exactly. New prediction hashes are recorded; there is no claim that AV0 contained a historical prediction hash it did not save.
+
+The control/tests/contract/evaluation code are committed before this evaluation. No original ARTIFICIAL-RESULTS file is replaced, no existing calibrator modified, and only the new small package will be backed up to a fresh directory on THESIS_SSD.

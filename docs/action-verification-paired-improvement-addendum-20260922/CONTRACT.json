@@ -1,0 +1,15 @@
+{
+  "name": "AV0 established paired-improvement testing control addendum",
+  "accepted_av0_commit": "ca0a05d5ec1c9ab66d723529ac227c98de5b73e1",
+  "thresholds": [0, 0.05, 0.10, 0.20, 0.40],
+  "familywise_alpha": 0.05,
+  "per_rule_alpha": 0.01,
+  "alternative": "expected paired native-success difference > 0",
+  "test": "exact upper Binomial(G+L, 0.5) tail at G; no discordance p=1",
+  "selection": "smallest accepted threshold, otherwise baseline",
+  "fixtures": "unchanged AV0 six scenarios, seeds 92201/92202/92203, split sizes, prediction functions and coupling",
+  "output_policy": "exclusive-create in this addendum only; never overwrite AV0",
+  "ceilings": {"scripted_wall_seconds": 3600, "cpu_affinity_count": 4, "memory_bytes": 8589934592, "new_artifact_bytes": 250000000, "gpu": 0},
+  "research_execution_authorized": false,
+  "novelty_conclusion": "no differentiated treatment yet"
+}
