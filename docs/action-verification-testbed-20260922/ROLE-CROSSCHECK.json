@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "comparisons": 14,
+  "payload_reads": 0,
+  "pins": {
+    "rb2": {
+      "path": "docs/local-goal-source-replication-20260920/DATA-ROLES.json",
+      "sha256": "366ad8f73f1d47161b1fd2b82676bf3e21aa095f25ae64fa7aa97cc8f8cdbaaa"
+    },
+    "bp1": {
+      "path": "docs/candidate-value-breadth-precision-20260915/DATA-ROLES.json",
+      "sha256": "82f3c43edc5a9068a78c9186c7b9d7cc177afe2805ed7a609d00d0359b44226c"
+    },
+    "si1": {
+      "path": "docs/candidate-value-score-information-20260918/FOLDS.json",
+      "sha256": "5556a92e89eadef268428bbe44f97a6c2655b98f30dbeae9f5808f82c0ee8813"
+    },
+    "lgp1": {
+      "path": "docs/local-goal-proposals-20260918/DATA-ROLES.json",
+      "sha256": "fa629d910727ba3f62d57abfbc3f42154e2bf83df7698705736835ad4f1dd8dd"
+    }
+  }
+}

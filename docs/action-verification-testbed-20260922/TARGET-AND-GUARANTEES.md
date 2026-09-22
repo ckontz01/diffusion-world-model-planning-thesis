@@ -1,0 +1,35 @@
+# Target, information boundaries and guarantees
+
+At a fixed source situation b and its original remaining physical budget R, execute the chosen candidate chunk, then the fixed vanilla-CEM reference policy for at most R minus actual chunk actions. Native success at **any** candidate or tail step counts. Stop on native termination/truncation; do not reset or extend the budget. Define Y_b(a) in {0,1} accordingly and A_b(a)=Y_b(a)-Y_b(a_0), with a_0 the exact returned baseline mean.
+
+A paired draw uses declared common random streams across branches. It is an observed potential-outcome coupling, not a measurement of exact conditional probabilities. Additional draws stay grouped within source. Expected advantage E[A|b] differs from a realized A; whole-source averaging and source-level uncertainty are required.
+
+## Two executable paths
+
+`native_path` gives each policy its own observation history. Vanilla and ACID perform their own CEM searches; ACID changes every search population's ranking. `checked_path` constructs one vanilla bank before consulting a predictor/checker, then executes exactly one selected chunk. It does not accept replacement-bank or simulator callbacks in the checker interface. `FrozenLatentCost` receives only current information, fixed goal and predicted rollouts.
+
+The eight slots are: exact final returned mean first, then the seven lowest goal-cost **distinct** final-population action sequences, ties by original sample index. No final-mean rescore or extra sampling. Identity is canonical binary64 in the CPU reference, signed zero normalized; production FP32 primitive coordinates must be pinned separately. If fewer than eight unique actions remain, pad baseline aliases, expose their duplicate count, copy the original prediction, and canonicalize selection back to the baseline. Aliases are neither interventions nor extra observations. The production bank must save executable chunks and slot-to-action associations, not hashes alone.
+
+## Assumption/guarantee table
+
+| Method | Quantity / target population | Kind of statement | Required assumptions and roles | What is not guaranteed |
+|---|---|---|---|---|
+| Baseline | Native success of fixed reference on evaluated sources | Empirical reference, no verifier theorem | Fixed policy and native endpoint; independent sources for statistical uncertainty | Task success or safety simply from abstention |
+| Native ACID | Predicted inverse consistency used in search | No distribution-free success guarantee | Frozen forward/IDM interfaces; own observed states after divergence | Inverse-consistent predicted trajectories can still be wrong in the environment |
+| Point | Estimated conditional full-tail success | No finite-sample risk guarantee | Predictor and preprocessing fitted only on fit role; frozen before test | Search over optimistic errors, model misspecification, or repeated-policy safety |
+| Simultaneous | Whole-bank realized advantage vector on a new source under the same bank/tail law | Marginal simultaneous coverage >=1-alpha; consequently marginal harmful-selection probability <=alpha | Exchangeable independent calibration/test **banks**, predictor/bank design fixed; all paired branch outcomes; one score per source | Conditional harm among overrides, expected advantage, task failure, conditional coverage at every state, repeated deployment |
+| LTT | P(Y_selected<Y_baseline | override) for each fixed threshold rule under the source law | With probability >=1-delta over calibration, all accepted rules have conditional harm <=alpha | Independent source calibration; fixed predictor and finite family; valid Bernoulli tests conditional on override count; Bonferroni controls familywise testing; choose among accepted rules without test labels | Risk at individual contexts, new state distributions, positive expected advantage, whole-policy superiority; no overrides means undefined/unestimated conditional risk |
+| PC logged | Realized utility of the **fixed learned policy** and its set certificate under target context law | Marginal policy-coupled coverage; not conditional harmful-override control | Disjoint fit/learn/calibration, i.i.d. contexts, known positive randomized behavior probabilities, unconfounded logged draw, same target context law; inverse propensity weights and test weight | Local expected-value superiority, conditional override risk, policy improvement vs baseline, success probability >=1-alpha. Binary ties preclude a population-optimality claim here |
+| PC complete | Same fixed-policy realized utility, now observed once on every calibration source | Nested set calibration under complete-branch observation design | Fixed learned action, independent source banks; its branch extracted once; no propensity invented; other labels do not refit policy during calibration | Identical information cost to factual logging, or eightfold sample-size inflation |
+
+For the simultaneous control, h_i=p_i-p_0, R_j=max_(i!=0){h_ji-(Y_ji-Y_j0)}, q is order ceil((n+1)(1-alpha)), with infinity if rank exceeds n. Bounds L_i=h_i-q, L_0=0. Choose largest bound, baseline on tie. This is a standard rank construction, not a new method. Binary advantages can make q too large for any positive bound.
+
+LTT uses null r_t>.05, exact Binomial(n_override,.05) lower-tail p-value, and threshold .05/5. Its fixed family is {0,.05,.10,.20,.40}, with strict p_best-p_0>t. A rule with no calibration overrides receives p=1 and is not declared safe. If none pass, use baseline but report conditional risk as null.
+
+PC's binary utility is **exactly native success**, u(a,y)=y; it is not replaced by a smoother utility to improve plots. For m=max_a p_a, the relevant envelope has (t,theta)=(m,1) or (1,0). Policy learning searches their exact beta crossings on the learn fold. Calibration changes sets, not that policy. Ties prioritize the fixed learned action in final max-min selection. Binary certificates are 0 or 1; a zero certificate need not force baseline, and a nonzero certificate is not an estimated success probability. The full finite-label and conservative calibration paths are tested separately.
+
+## Reporting and repeated decisions
+
+Report native selected success, override frequency, marginal harmful overrides, conditional harmful overrides, successful improvements, sampled paired difference and estimated expected difference separately. The artificial suite can additionally report its **known** conditional probabilities averaged over sampled contexts. Real data cannot use this oracle column.
+
+At zero overrides conditional risk is null, not validated zero. Equal alpha=.05 in the three calibrators concerns different events; do not rank their safety by numerical alpha alone. The repeated-policy evaluation follows each policy's actually visited states and measures complete-episode native success. A fixed-tail single-intervention certificate does not transfer to that shifted distribution. No coverage, AUROC, loss or oracle result automatically advances to closed loop.

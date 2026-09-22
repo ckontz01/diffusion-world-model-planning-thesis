@@ -1,0 +1,104 @@
+[
+  {
+    "label": "unit-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "test_av0.py"
+    ],
+    "started_unix": 1790104292.6508055,
+    "state": "finished",
+    "wall_seconds": 1.3440000000409782,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_acid_constant_residual (__main__.Tests.test_acid_constant_residual) ... ok\ntest_acid_equation (__main__.Tests.test_acid_equation) ... ok\ntest_acid_location (__main__.Tests.test_acid_location) ... ok\ntest_conformal_rank (__main__.Tests.test_conformal_rank) ... ok\ntest_ltt_binomial_exact (__main__.Tests.test_ltt_binomial_exact) ... ok\ntest_ltt_harm_fails (__main__.Tests.test_ltt_harm_fails) ... ok\ntest_ltt_no_override_undefined (__main__.Tests.test_ltt_no_override_undefined) ... ok\ntest_native_actual_observations (__main__.Tests.test_native_actual_observations) ... ok\ntest_no_future_or_replacement_callback (__main__.Tests.test_no_future_or_replacement_callback) ... ok\ntest_pc_equation42_and45 (__main__.Tests.test_pc_equation42_and45) ... ok\ntest_pc_g_exact_binary_envelope (__main__.Tests.test_pc_g_exact_binary_envelope) ... ok\ntest_pc_insufficient_matches_not_fake_certificate (__main__.Tests.test_pc_insufficient_matches_not_fake_certificate) ... ok\ntest_pc_policy_separation_and_degeneracy (__main__.Tests.test_pc_policy_separation_and_degeneracy) ... ok\ntest_pc_rejects_fake_propensity (__main__.Tests.test_pc_rejects_fake_propensity) ... ok\ntest_pc_uniform_known_propensity (__main__.Tests.test_pc_uniform_known_propensity) ... ok\ntest_point_fitting_only (__main__.Tests.test_point_fitting_only) ... ok\ntest_shortlist_mean_and_dedup (__main__.Tests.test_shortlist_mean_and_dedup) ... ok\ntest_simultaneous_algebra (__main__.Tests.test_simultaneous_algebra) ... ok\ntest_success_in_chunk_counts (__main__.Tests.test_success_in_chunk_counts) ... ok\ntest_ties_preserve_baseline (__main__.Tests.test_ties_preserve_baseline) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.043s\n\nOK\n",
+    "peak_job_memory_bytes": 29343744,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 39949
+  },
+  {
+    "label": "metadata-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "metadata_inventory.py"
+    ],
+    "started_unix": 1790104307.6616294,
+    "state": "finished",
+    "wall_seconds": 0.20300000003771856,
+    "returncode": 0,
+    "stdout": "{\"excluded\": 832, \"available\": 768, \"roles\": {\"fit\": 192, \"policy_development\": 96, \"calibration\": 320, \"final_development_evaluation\": 160}, \"guidance_files_verified\": 5}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 19554304,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 78105
+  },
+  {
+    "label": "artificial-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "suite.py"
+    ],
+    "started_unix": 1790104308.106006,
+    "state": "finished",
+    "wall_seconds": 15.327999999979511,
+    "returncode": 0,
+    "stdout": "{\"cases\": 18, \"sources\": 59904}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 34959360,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 185881
+  },
+  {
+    "label": "unit-02",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "test_av0.py"
+    ],
+    "started_unix": 1790104928.9523957,
+    "state": "finished",
+    "wall_seconds": 0.46799999999348074,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_acid_constant_residual (__main__.Tests.test_acid_constant_residual) ... ok\ntest_acid_equation (__main__.Tests.test_acid_equation) ... ok\ntest_acid_location (__main__.Tests.test_acid_location) ... ok\ntest_aliases_not_overrides (__main__.Tests.test_aliases_not_overrides) ... ok\ntest_conformal_rank (__main__.Tests.test_conformal_rank) ... ok\ntest_latent_port_goal_and_residual (__main__.Tests.test_latent_port_goal_and_residual) ... ok\ntest_ltt_binomial_exact (__main__.Tests.test_ltt_binomial_exact) ... ok\ntest_ltt_harm_fails (__main__.Tests.test_ltt_harm_fails) ... ok\ntest_ltt_no_override_undefined (__main__.Tests.test_ltt_no_override_undefined) ... ok\ntest_native_actual_observations (__main__.Tests.test_native_actual_observations) ... ok\ntest_no_future_or_replacement_callback (__main__.Tests.test_no_future_or_replacement_callback) ... ok\ntest_pc_equation42_and45 (__main__.Tests.test_pc_equation42_and45) ... ok\ntest_pc_g_exact_binary_envelope (__main__.Tests.test_pc_g_exact_binary_envelope) ... ok\ntest_pc_insufficient_matches_not_fake_certificate (__main__.Tests.test_pc_insufficient_matches_not_fake_certificate) ... ok\ntest_pc_policy_separation_and_degeneracy (__main__.Tests.test_pc_policy_separation_and_degeneracy) ... ok\ntest_pc_rejects_fake_propensity (__main__.Tests.test_pc_rejects_fake_propensity) ... ok\ntest_pc_uniform_known_propensity (__main__.Tests.test_pc_uniform_known_propensity) ... ok\ntest_point_fitting_only (__main__.Tests.test_point_fitting_only) ... ok\ntest_shortlist_mean_and_dedup (__main__.Tests.test_shortlist_mean_and_dedup) ... ok\ntest_simultaneous_algebra (__main__.Tests.test_simultaneous_algebra) ... ok\ntest_success_in_chunk_counts (__main__.Tests.test_success_in_chunk_counts) ... ok\ntest_ties_preserve_baseline (__main__.Tests.test_ties_preserve_baseline) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.040s\n\nOK\n",
+    "peak_job_memory_bytes": 27029504,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 231767
+  },
+  {
+    "label": "role-crosscheck-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "inventory_crosscheck.py"
+    ],
+    "started_unix": 1790104929.6870341,
+    "state": "finished",
+    "wall_seconds": 0.2029999999795109,
+    "returncode": 0,
+    "stdout": "{\"passed\": true, \"comparisons\": 14, \"payload_reads\": 0, \"pins\": {\"rb2\": {\"path\": \"docs/local-goal-source-replication-20260920/DATA-ROLES.json\", \"sha256\": \"366ad8f73f1d47161b1fd2b82676bf3e21aa095f25ae64fa7aa97cc8f8cdbaaa\"}, \"bp1\": {\"path\": \"docs/candidate-value-breadth-precision-20260915/DATA-ROLES.json\", \"sha256\": \"82f3c43edc5a9068a78c9186c7b9d7cc177afe2805ed7a609d00d0359b44226c\"}, \"si1\": {\"path\": \"docs/candidate-value-score-information-20260918/FOLDS.json\", \"sha256\": \"5556a92e89eadef268428bbe44f97a6c2655b98f30dbeae9f5808f82c0ee8813\"}, \"lgp1\": {\"path\": \"docs/local-goal-proposals-20260918/DATA-ROLES.json\", \"sha256\": \"fa629d910727ba3f62d57abfbc3f42154e2bf83df7698705736835ad4f1dd8dd\"}}}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 19312640,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 235024
+  },
+  {
+    "label": "report-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "report_artificial.py"
+    ],
+    "started_unix": 1790104930.1352463,
+    "state": "finished",
+    "wall_seconds": 0.26600000000325963,
+    "returncode": 0,
+    "stdout": "All six cases and seven decision variants reported; no favorable-case filtering.\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 21704704,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 245765
+  }
+]

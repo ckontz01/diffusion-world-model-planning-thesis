@@ -137,5 +137,22 @@ class Tests(unittest.TestCase):
         self.assertEqual(point(model.predict(1)),1);self.assertEqual(point(model.predict(99)),0)
         with self.assertRaises(ValueError):TablePredictor(fit+fit[:1])
 
+    def test_aliases_not_overrides(self):
+        s=Solve((0.,),((0.,),),(0.,),(),1)
+        tr=checked_path(0,lambda o:s,lambda o,b:(.1,)+(.9,)*7,point,
+                        lambda o,a:(o,False,True),1)
+        self.assertEqual(tr[0][2],0)
+
+    def test_latent_port_goal_and_residual(self):
+        def rollout(z,actions):
+            out=[z]
+            for a in actions:out.append((out[-1][0]+a[0],))
+            return out
+        port=FrozenLatentCost(rollout,lambda z,n,t:(n[0]-z[0],),block_width=1)
+        goal,residual=port(((0.,),(3.,)),((1.,2.),(2.,2.)))
+        self.assertEqual(goal,(0.,1.));self.assertEqual(residual,(0.,0.))
+        with self.assertRaises(ValueError):
+            FrozenLatentCost(lambda z,a:[(9.,)]*3,block_width=1)(((0.,),(3.,)),((1.,2.),))
+
 
 if __name__=='__main__':unittest.main(verbosity=2)

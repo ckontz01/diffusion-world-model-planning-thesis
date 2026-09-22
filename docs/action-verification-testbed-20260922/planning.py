@@ -130,8 +130,13 @@ def checked_path(start, plan, predict, choose, execute_chunk, max_decisions):
     obs, trace = start, []
     for _ in range(max_decisions):
         bank = shortlist(plan(obs))
-        index = choose(tuple(predict(obs, bank)))
+        scores = tuple(predict(obs, bank))
+        if len(scores) != 8: raise ValueError('Prediction/action association mismatch')
+        # Alias slots do not create new interventions or prediction opportunities.
+        scores = tuple(scores[bank.ids.index(identity)] for identity in bank.ids)
+        index = choose(scores)
         if type(index) is not int or not 0 <= index < 8: raise ValueError('Invalid selection')
+        index = bank.ids.index(bank.ids[index])
         nxt, success, terminal = execute_chunk(obs, bank.actions[index])
         trace.append((obs, bank.ids, index, nxt, bool(success)))
         obs = nxt
@@ -141,3 +146,34 @@ def checked_path(start, plan, predict, choose, execute_chunk, max_decisions):
 
 def full_budget_success(chunk_success, tail_success):
     return bool(any(chunk_success) or any(tail_success))
+
+
+class FrozenLatentCost:
+    """Explicit Le-WM-shaped port; no model loading or physics entry point.
+
+    observation=(current_latent, fixed_goal_latent). A caller-supplied frozen
+    rollout(current, grouped_action) returns H+1 latents, including current.
+    inverse(z,z_next,t) returns a planner-coordinate action block; t selects
+    the predeclared common IDM noise, never a simulator query. Production
+    current-image encoding/tensor decoding must be separately parity-tested.
+    """
+    def __init__(self, rollout, inverse=None, block_width=10):
+        self.rollout=rollout;self.inverse=inverse;self.block_width=block_width
+
+    def __call__(self, observation, bank):
+        current, goal = observation
+        finite(current);finite(goal)
+        costs,residuals=[],[]
+        for flat in bank:
+            if len(flat)%self.block_width:raise ValueError('Incomplete primitive-action block')
+            action=tuple(tuple(flat[t:t+self.block_width]) for t in range(0,len(flat),self.block_width))
+            z=self.rollout(current,action)
+            if len(z)!=len(action)+1 or tuple(z[0])!=tuple(current):
+                raise ValueError('Rollout temporal/initial association')
+            if any(len(v)!=len(goal) for v in z):raise ValueError('Latent dimensions')
+            for v in z:finite(v)
+            costs.append(sum((x-y)**2 for x,y in zip(z[-1],goal)))
+            if self.inverse is not None:
+                inferred=tuple(tuple(self.inverse(z[t],z[t+1],t)) for t in range(len(action)))
+                residuals.append(inverse_consistency(action,inferred))
+        return tuple(costs),tuple(residuals)
