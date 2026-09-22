@@ -1,0 +1,608 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "1cf0d1ee2eda44eb98d12c5e029581dfa273ab71",
+  "remote_head_verified": true,
+  "base_commit": "02a6157ecb11ff2a9cf6ced6ce0523b181805db0",
+  "branch": "active-counterfactual-verification-preparation-20260923",
+  "source": "C:\\Users\\Chris\\thesis-recovery\\active-counterfactual-verification-20260923\\docs\\active-counterfactual-verification-20260923",
+  "destination": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-20260923\\preparation-v1",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323614580736,
+  "payload_files": 98,
+  "payload_bytes": 5279124.0,
+  "members": [
+    {
+      "path": ".gitattributes",
+      "bytes": 130,
+      "sha256": "758e1dffa1ec85435f065ecaba77f00a8c145a890ac7e76fad04dfd71a73553b",
+      "readback_match": true
+    },
+    {
+      "path": "ACV0-INSTRUCTION.txt",
+      "bytes": 16964,
+      "sha256": "2f7a2b0751f0b7102720d6cfcd170e8e7e3a4081fb498ccdae9bf9d322ae3bb7",
+      "readback_match": true
+    },
+    {
+      "path": "AUDIT-CORRECTIONS.json",
+      "bytes": 14486,
+      "sha256": "29d6c30aede517c053974e1e26c717536c2d19c1283dca48bbc9a2384c2a2d60",
+      "readback_match": true
+    },
+    {
+      "path": "AUTHORIZATION.md",
+      "bytes": 2525,
+      "sha256": "51c5496f6251bc49d3f784d9ccd687a60c13ce10bdc450073b2e15a37993f366",
+      "readback_match": true
+    },
+    {
+      "path": "backup_package.ps1",
+      "bytes": 4556,
+      "sha256": "4aab28bedda47091537364b4782ab182808dc56b1750f389850dc725fe5a1542",
+      "readback_match": true
+    },
+    {
+      "path": "bayes.py",
+      "bytes": 2184,
+      "sha256": "cffb190fdb57fdaa8af689df4535483c10ea660cb857444c56fa695aa4979489",
+      "readback_match": true
+    },
+    {
+      "path": "bounded_run.py",
+      "bytes": 2558,
+      "sha256": "c10073b6c300638ec7ce510b2d55513a4a2f80e6ff83c7d08ec06ca1b0627bcd",
+      "readback_match": true
+    },
+    {
+      "path": "build_pilot.py",
+      "bytes": 4699,
+      "sha256": "e6c893b4df2a63406784bd82f906552d3a8b97cd688b2a598467bbbb6f768947",
+      "readback_match": true
+    },
+    {
+      "path": "check_counter_revision.py",
+      "bytes": 2611,
+      "sha256": "4bbdb517f5ab22130e5efe76a21ba2d40737ecf3c83402edc36206cae3fde775",
+      "readback_match": true
+    },
+    {
+      "path": "checker.py",
+      "bytes": 3750,
+      "sha256": "ca906c331212f1a893c5afdf78d9463a51de2251e19c4134ff742c7cd543f846",
+      "readback_match": true
+    },
+    {
+      "path": "CONTRACT.json",
+      "bytes": 2022,
+      "sha256": "b0f9b04edbf3bd6eb6f88b2e50400bd565eb3ae106c34358af341f22fcd978f1",
+      "readback_match": true
+    },
+    {
+      "path": "DATA-ROLES-PROPOSED.json",
+      "bytes": 71132,
+      "sha256": "2c56493ab51011c4c37f30f45fc3f207f44dfb63bfc83a88e99ba70c98ef8c64",
+      "readback_match": true
+    },
+    {
+      "path": "EXECUTION-LOG.json",
+      "bytes": 26208,
+      "sha256": "ae2e3a6243943062fb32a54597c928991659f2dcc6963ae5f62b05961f908d77",
+      "readback_match": true
+    },
+    {
+      "path": "FIDELITY.md",
+      "bytes": 4232,
+      "sha256": "bcde96aebb2e922a48a1a1596d7cc5894e151f80601c8bc7e3f5ef2fc0d217f2",
+      "readback_match": true
+    },
+    {
+      "path": "import_prototype.ps1",
+      "bytes": 2602,
+      "sha256": "d3065b78801ec969df6532af92ea9f9da921728fa9cba57014d0add0e80dae60",
+      "readback_match": true
+    },
+    {
+      "path": "mock.py",
+      "bytes": 7955,
+      "sha256": "a68af7a8d16f9b8a32c47d9834209f3dd2c726a7f539d85982406bcd0f2f0482",
+      "readback_match": true
+    },
+    {
+      "path": "model.py",
+      "bytes": 12419,
+      "sha256": "d070acbd69170036fc2cd52a49a7d9eed255e2a1aaf763c55701e087cd93ac15",
+      "readback_match": true
+    },
+    {
+      "path": "ORIGINAL-PROTOTYPE.zip",
+      "bytes": 44549,
+      "sha256": "9d843e842aae5318e55d65520a21b782cbb0f1c34c50875375fad6aa46cd95b2",
+      "readback_match": true
+    },
+    {
+      "path": "PILOT-PROPOSED.json",
+      "bytes": 93278,
+      "sha256": "9107e1bf11cab7f893b5f29155203f6b7586a81eb97d5dae1afdb83b444e02f4",
+      "readback_match": true
+    },
+    {
+      "path": "PILOT-PROTOCOL.md",
+      "bytes": 15614,
+      "sha256": "d1c94f2a5e51167ab26967c36262ac3b865d979dd9b24a7ba07380de7a488afa",
+      "readback_match": true
+    },
+    {
+      "path": "plan_metadata.py",
+      "bytes": 6148,
+      "sha256": "52df0a49c24b0025bfa4cdd098232545cc19feaf41dfb6c663534b5a5b0f0b1e",
+      "readback_match": true
+    },
+    {
+      "path": "policy.py",
+      "bytes": 8101,
+      "sha256": "753271dcce8f1e7c21a665e215c4aee2e6a5a8f8098fe6d816a75e2b93a38453",
+      "readback_match": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 12550,
+      "sha256": "03fb51d078ad26a86e90d1398b982f256748c0a9cf977e9f4cc040377e5f4d99",
+      "readback_match": true
+    },
+    {
+      "path": "run_mock.py",
+      "bytes": 5265,
+      "sha256": "927a817c8449dba928e6bfd324f05bab691aaf511ed2beddd988187824accbbd",
+      "readback_match": true
+    },
+    {
+      "path": "run_synthetic.py",
+      "bytes": 4868,
+      "sha256": "1b5b45aa01d2597a2a2cb0d7acb75334cd7d94b3e95ac42b0c73fd1b331213ba",
+      "readback_match": true
+    },
+    {
+      "path": "runtime_adapter.py",
+      "bytes": 3154,
+      "sha256": "76dbb5886bf952e340ad99edd8175d98a4e4d10d0a19d9caa1f754b7cfb61654",
+      "readback_match": true
+    },
+    {
+      "path": "RUNTIME-PINS.json",
+      "bytes": 17595,
+      "sha256": "411e2cc8263738022eeec9dc67f714eb4dcd6cb57539ed2a4fb34bd480d223d6",
+      "readback_match": true
+    },
+    {
+      "path": "test_acv0.py",
+      "bytes": 11137,
+      "sha256": "4ab41fe51781b0a51b6926ce15758763c7d897706efadd2fec14f9dc7d3ccac1",
+      "readback_match": true
+    },
+    {
+      "path": "test_extended.py",
+      "bytes": 4552,
+      "sha256": "2c0e113589dace370cecd226846e15a1a72ace1153bd16998f7659186355b0b3",
+      "readback_match": true
+    },
+    {
+      "path": "TRAINING-AND-DECISION.md",
+      "bytes": 6080,
+      "sha256": "74566adabb86b9acb55b6318a2533f44f46e4ab9b3589c0c27c477682172408f",
+      "readback_match": true
+    },
+    {
+      "path": "tree.py",
+      "bytes": 7782,
+      "sha256": "e76d05b9e13f78f1dc6568cbe56b8ee23b35528fc1049f11858302aa8c2cf871",
+      "readback_match": true
+    },
+    {
+      "path": "VERIFICATION.json",
+      "bytes": 7952,
+      "sha256": "236a6551eb494b5b37369718f3a7f17a6040081dd271f32aa188eb31c6df4cf8",
+      "readback_match": true
+    },
+    {
+      "path": "verify_artifacts.py",
+      "bytes": 5235,
+      "sha256": "61ea6df23fea152db977447783dc3f78ca7f9bea407b0f45897c405b7f4d77c4",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v1\\CONFIG.json",
+      "bytes": 491,
+      "sha256": "e3e0c653edda1e74e90d5ba78717502bb603032237d76c9c91045aeffd117b67",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v1\\joint.npz",
+      "bytes": 46256,
+      "sha256": "f83da5247903827c8de0e0615aed1e9f72f921f575a4ba06209f9cd35fa747bf",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v1\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "a9afa9c27189c59c9369249244cbabd0809ea63f0490b92b782c9d17a24001f3",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v1\\RESULTS.json",
+      "bytes": 579362,
+      "sha256": "8327b90750c96ed80e267f96dc8c0b7e5933d3ed51fe55132993ec48c2b886db",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v2\\CONFIG.json",
+      "bytes": 575,
+      "sha256": "e2b2959b54e388c7037e64eee7c8bfb9f4350dec9036b6c4fe8ecb4947161f2c",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v2\\joint.npz",
+      "bytes": 46256,
+      "sha256": "f83da5247903827c8de0e0615aed1e9f72f921f575a4ba06209f9cd35fa747bf",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v2\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "a9afa9c27189c59c9369249244cbabd0809ea63f0490b92b782c9d17a24001f3",
+      "readback_match": true
+    },
+    {
+      "path": "mock-run-v2\\RESULTS.json",
+      "bytes": 585333,
+      "sha256": "15f588a3f15b56faa542f717379eef72c0543925a7796de7d400fa2fa6217a53",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\CONFIG.json",
+      "bytes": 2450,
+      "sha256": "6eabaa68a20561d393e1af9ee0b38a42a1a9b832a91b2ff263b9c21669301984",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\RESULTS.json",
+      "bytes": 55042,
+      "sha256": "06ef0a7201de18132b8087627526dab4f96f694df60771d0b1b8666df5b6648e",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\expensive_prefix\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "0a3718427f79e0f3c07dd298e7336c75ab20e596007d9e767fc60f20c25cf742",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\expensive_prefix\\FIT-RECIPE.json",
+      "bytes": 1329,
+      "sha256": "1d1fbb51103a69a5e7da6a9b13583bef538b2caf4a56c6706024e176cde27a21",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\expensive_prefix\\joint.npz",
+      "bytes": 184952,
+      "sha256": "69e0232ae599297eecfde1a1c6a80c96e38b8a89481bc06d8e3dd75c1de35597",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\expensive_prefix\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "57ff734fae168aedaf9621bc09b2bbc8aba31cc402624ccd0ae86bffa63ca771",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\expensive_prefix\\RESULTS.json",
+      "bytes": 6611,
+      "sha256": "a9214c8bbd236e05c0f70017f497eb77687920248e8e8ccc501c6d7fb05f6c86",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\informative_contact\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "7f101b1acb7c30ed7669ac416c03c823c4da5cbf519bb621eee3d0e600a92357",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\informative_contact\\FIT-RECIPE.json",
+      "bytes": 1332,
+      "sha256": "4cbc01f6bcb201ce8c7837abd2042e8a62de8e0c1ddad45e1cac598a8343ddd5",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\informative_contact\\joint.npz",
+      "bytes": 197240,
+      "sha256": "12daede59af0bb7f62838006e34eada3b04c8d9c48db2e1dc20c04f23b9a2adf",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\informative_contact\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "04be5923e6586d286037fe99d238f60a67352e02189fa2bea0a5781c018ae3ce",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\informative_contact\\RESULTS.json",
+      "bytes": 6689,
+      "sha256": "bd556c47f22ac1600aa7d49d8ccd6b1d090ef95999c26ffb7064796c984f215b",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\mostly_known_context\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "e454d755afa4848e00ffb158ac8cf19f9f005e6ef596a31a5ee43e02c88f4be6",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\mostly_known_context\\FIT-RECIPE.json",
+      "bytes": 1333,
+      "sha256": "b9c1f9e067879112fb2b39399ad372babe56c7fea15ae609dd77b7382bbc4ce4",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\mostly_known_context\\joint.npz",
+      "bytes": 201336,
+      "sha256": "2dee08ca0cb57c632e3fe0351194eed2b9084ef4c1339495cfddf609db99e296",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\mostly_known_context\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "9be7e70b8c10837d681c6080617e65ad13f5fd92b8d7beca86a1966e5215b7f3",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\mostly_known_context\\RESULTS.json",
+      "bytes": 6629,
+      "sha256": "cb2eae330dc190e82336fb4d0904185f0023bf533fd74d23ca1f33c0a2c3c982",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\no_decision_relevant_uncertainty\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "4bd67843f71ae646a94f2437f18fc86a3ae5c96f4b8175af5a1233841c59a803",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\no_decision_relevant_uncertainty\\FIT-RECIPE.json",
+      "bytes": 1345,
+      "sha256": "12beaa110e5515224e7b72a9860efcedf83fee5e748d5db82baca662ebdab1fa",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\no_decision_relevant_uncertainty\\joint.npz",
+      "bytes": 250488,
+      "sha256": "ba64f879c22a35618697302ee4d43e30447d4673e30da34e7a99a1c4ce151e6a",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\no_decision_relevant_uncertainty\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "44d681e4dce18c10f9699c30b5ae4b8eafdd3e517320a7d972c1b22c7d02a65e",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\no_decision_relevant_uncertainty\\RESULTS.json",
+      "bytes": 6625,
+      "sha256": "aba512482ab2b5e7106cf24c7f9c917f51f2675712c6f049a8abe24793890eb8",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unannounced_sensor_reversal\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "1bf4cc33d1ce8d8515539fa06dae21bab7cf99c509b97082d19aa16620f42cb1",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unannounced_sensor_reversal\\FIT-RECIPE.json",
+      "bytes": 1340,
+      "sha256": "d1eebf13136bd0df1f9ceec738e74b8f39a3f5cac849cacd16557e97fe667abf",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unannounced_sensor_reversal\\joint.npz",
+      "bytes": 230008,
+      "sha256": "aad7a6a707b7a71bcf9a34295616104a5aaf1bc039295780754a17c9bfe1c6e8",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unannounced_sensor_reversal\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "6cf9e4b9a8219bad7299ea2e2d6aaf433185d3c541067bbf112569100e7b36b1",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unannounced_sensor_reversal\\RESULTS.json",
+      "bytes": 6684,
+      "sha256": "eaa75ee57ca88283dc22be8c41f8139ad1de952d586c2b371be05381538f3b97",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\uninformative_prefix\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "52c97176ce6ba495203837f9eb18b85ad65e28746baf4112b7710fdec0cecf61",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\uninformative_prefix\\FIT-RECIPE.json",
+      "bytes": 1333,
+      "sha256": "c831c4dd87b456696362e0b719e2a331be51258f7d1640a7ac2a7063559beec8",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\uninformative_prefix\\joint.npz",
+      "bytes": 201336,
+      "sha256": "b21fefd4c11606cd1dc9efe451137c4da38b8186bdc6427aa246e5be196ed5d1",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\uninformative_prefix\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "48d51d8dacd8890dd13d633ed8ae48515d2a2989792811303ebf7b7740d7c503",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\uninformative_prefix\\RESULTS.json",
+      "bytes": 6611,
+      "sha256": "32fa93730f62b46d960f6272ba4db66d0d79a7d688443a09e8d0a7cc973e76ff",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unstable_contact_mode\\bayesian-last-layer.npz",
+      "bytes": 68884,
+      "sha256": "630d743aa6ed57bed2e725ebe5d24fb5691e8f7b4f120630469cd65a8157ab88",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unstable_contact_mode\\FIT-RECIPE.json",
+      "bytes": 1334,
+      "sha256": "7caf2d7ceb1f0bdbc628fa3255cb3b70568a5527d841704d043d297bfa5e0e0e",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unstable_contact_mode\\joint.npz",
+      "bytes": 205432,
+      "sha256": "85c3ad7cea397ce07a3e767adb33942b1b3179074dbbf0892e20fcdfe941c21b",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unstable_contact_mode\\ordinary.npz",
+      "bytes": 81434,
+      "sha256": "705d01f4ed67f648dec2c8f597c66495c492a71916772bec5ee8009463b88c77",
+      "readback_match": true
+    },
+    {
+      "path": "neural-run-v1\\unstable_contact_mode\\RESULTS.json",
+      "bytes": 6683,
+      "sha256": "99441fac9eda2aad788a69beaca988643288c078ad990994f1e148b6e3b05627",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\check_compression.py",
+      "bytes": 2709,
+      "sha256": "722a39c6590f7bfa8263f7c10c8ce9747cef370ec724ab12af95c9e499bdb420",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\contrast_filter.py",
+      "bytes": 3632,
+      "sha256": "0495f7162391c7656550e0c1372f6ad78f3b802ccef4c8793aaa45209a2dfe46",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\experiment.py",
+      "bytes": 9764,
+      "sha256": "eb5e3ed076558d0a99266d9ac55840bd2034f50f8731e8d153a2d933a0924129",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\MANIFEST.json",
+      "bytes": 2470,
+      "sha256": "7c16538b851dddaeedcb07f330864db04aa5cee8ca2cc29dcc791cf1632a73f0",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\METHOD.md",
+      "bytes": 10763,
+      "sha256": "f6b2f087157f3f1edddea8c65f57666510fa18d4d2bf5344c3cddc0f313ccb6d",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\PRIOR-ART.md",
+      "bytes": 3766,
+      "sha256": "e0b097a0fa566fa255b20832c951a68c71f2e89189f8675a68a5ad2eb54b3a28",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\README.md",
+      "bytes": 5190,
+      "sha256": "9f28fd7efe51df9bc69bc0b7dec6aa146ef28fee7643b77ab786677f36526e92",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\scale_check.py",
+      "bytes": 2512,
+      "sha256": "fa958e939fccbb4c717f9039e3e27f891ac90d486aa37e2eb4ace9699bea5b82",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\test-log.txt",
+      "bytes": 1719,
+      "sha256": "966a7acecfecf94c17b53e0be1bf41fd363e543b98aee280e404b8354c456889",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\tests.py",
+      "bytes": 3922,
+      "sha256": "bab1f2a0915cffcb8c2cc4f8cd940f167b17f0bea233cffd0b527eb4a6081bbb",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\compression-v1\\CONFIG.json",
+      "bytes": 156,
+      "sha256": "e6c6237a001cf3e522d699f2a52d443450a505f5882d3ef077df5e7da94bc2cf",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\compression-v1\\RESULTS.json",
+      "bytes": 452,
+      "sha256": "8116ba7eacd20708f0f0f24a8ace000e7d9263ad254fc2408d322104ba213c85",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\run-v1\\CONFIG.json",
+      "bytes": 1970,
+      "sha256": "4922873c0dee3427a601189897cc15a57d4bd16f90c01ef9079590512028ef08",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\run-v1\\RESULTS.json",
+      "bytes": 355438,
+      "sha256": "348acc837e90e60d855095284d0b001772288c7decc6c77add56d41bcae1d0bc",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\run-v1\\TABLE.md",
+      "bytes": 731,
+      "sha256": "5e96e71edb77fa0db7805eff950f56dea7fd1d5e9f322200e2a291a77199c7e8",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\sensitivity-v1\\CONFIG.json",
+      "bytes": 1478,
+      "sha256": "339970f05456a06b4316abe0345d26318b477f76d7c5db3be29f7c82dbd79c2a",
+      "readback_match": true
+    },
+    {
+      "path": "prototype\\sensitivity-v1\\RESULTS.json",
+      "bytes": 21882,
+      "sha256": "1f35f2e84e7b7c188c7d03b3c1d7bfe61df38d07f1155d0d0c6925fa1d426fb9",
+      "readback_match": true
+    },
+    {
+      "path": "prototype-reproduction\\CONFIG.json",
+      "bytes": 1970,
+      "sha256": "4922873c0dee3427a601189897cc15a57d4bd16f90c01ef9079590512028ef08",
+      "readback_match": true
+    },
+    {
+      "path": "prototype-reproduction\\RESULTS.json",
+      "bytes": 355438,
+      "sha256": "a0bed06be74ade9870389cd3b9413cea8b0853332098c3212f7441ed1db8c01f",
+      "readback_match": true
+    },
+    {
+      "path": "prototype-reproduction\\TABLE.md",
+      "bytes": 740,
+      "sha256": "a99569ed6fb3cad58329976de6f0504b6493dc7b19b88800e210f10545cedf0f",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-22T23:49:28.0430200Z",
+  "preservation_seconds_through_payload_verification": 4.6094275,
+  "research_execution_authorized": false,
+  "historical_archives_transferred": 0,
+  "note": "Only new ACV0 preparation package including supplied candidate ZIP. Every payload member read back; receipt copied and hash-read-back separately. No old archives or prior-study outputs retransmitted."
+}
