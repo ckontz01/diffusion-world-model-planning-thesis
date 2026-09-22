@@ -1,0 +1,2052 @@
+{
+  "status": "ARTIFICIAL_WIRING_ONLY",
+  "research_runtime_executed": false,
+  "config_sha256": "6eabaa68a20561d393e1af9ee0b38a42a1a9b832a91b2ff263b9c21669301984",
+  "statement": "All seven unchanged laws; no seed/parameter/scenario selection. Expected law values are not observed robot success.",
+  "results": [
+    {
+      "case": "informative_contact",
+      "training_digest": "b451241cdf9c705880a50dd095b90f9e4dc8af26499c89c34ba4f65014d47b0c",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.1161934079404356
+          },
+          {
+            "epoch": 2,
+            "loss": 3.0024318025590304
+          },
+          {
+            "epoch": 3,
+            "loss": 2.8733965466504676
+          },
+          {
+            "epoch": 4,
+            "loss": 2.6920534962405163
+          },
+          {
+            "epoch": 5,
+            "loss": 2.451021268500722
+          },
+          {
+            "epoch": 6,
+            "loss": 2.170948678068698
+          },
+          {
+            "epoch": 7,
+            "loss": 1.8675598354947542
+          },
+          {
+            "epoch": 8,
+            "loss": 1.569359999220886
+          },
+          {
+            "epoch": 9,
+            "loss": 1.3151875959442862
+          },
+          {
+            "epoch": 10,
+            "loss": 1.1202087461070827
+          },
+          {
+            "epoch": 11,
+            "loss": 0.9768710801464398
+          },
+          {
+            "epoch": 12,
+            "loss": 0.869119833737052
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.6970685313322018
+          },
+          {
+            "epoch": 2,
+            "loss": 0.6843491244778024
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6787512627392135
+          },
+          {
+            "epoch": 4,
+            "loss": 0.6755282140549334
+          },
+          {
+            "epoch": 5,
+            "loss": 0.6729886336112683
+          },
+          {
+            "epoch": 6,
+            "loss": 0.6736475592400781
+          },
+          {
+            "epoch": 7,
+            "loss": 0.6714719055626137
+          },
+          {
+            "epoch": 8,
+            "loss": 0.6700096703092102
+          },
+          {
+            "epoch": 9,
+            "loss": 0.6690878525874693
+          },
+          {
+            "epoch": 10,
+            "loss": 0.6687987471051192
+          },
+          {
+            "epoch": 11,
+            "loss": 0.6676811797961422
+          },
+          {
+            "epoch": 12,
+            "loss": 0.6662807981547426
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 2,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.590972795688427,
+            0.6893420281352429,
+            0.5698836114952568
+          ],
+          "expected_success": 0.5683999999999999,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            2,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.590972795688427,
+            0.6893420281352429,
+            0.5698836114952568
+          ],
+          "expected_success": 0.54,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.590972795688427,
+            0.6893420281352429,
+            0.5698836114952568
+          ],
+          "expected_success": 0.7565999999999999,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.590972795688427,
+            0.6893420281352429,
+            0.5698836114952568
+          ],
+          "expected_success": 0.5626,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5729765129749766,
+            0.621807226104325,
+            0.5626611526700922
+          ],
+          "expected_success": 0.7565999999999999,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.6012506624609998,
+            0.6486715612276968,
+            0.5734650047515589
+          ],
+          "expected_success": 0.7565999999999999,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "expected_success": 0.7565999999999999
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "f7cb07f5c927613d0f5747197591d1538001bdc31af900cc72e3719accb21796",
+          "joint_brier": 0.23481823728233606,
+          "ordinary_brier": 0.24137852761086048,
+          "joint_bce": 0.6615789642250872
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "8a83178657ecaa7208a21c570c899897e26c154180f5b0a53c35f30a13a9bba6",
+          "joint_brier": 0.23047624906567776,
+          "ordinary_brier": 0.24295987876516692,
+          "joint_bce": 0.6519095712585538
+        }
+      }
+    },
+    {
+      "case": "mostly_known_context",
+      "training_digest": "09b58d738c04b6c6ba3ed90da4f8ce2cfdaff7ef5139b041cb5149ede7ea9dbd",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.0152260517595812
+          },
+          {
+            "epoch": 2,
+            "loss": 2.871101248756953
+          },
+          {
+            "epoch": 3,
+            "loss": 2.7421475933925628
+          },
+          {
+            "epoch": 4,
+            "loss": 2.5622925049895056
+          },
+          {
+            "epoch": 5,
+            "loss": 2.321781524769399
+          },
+          {
+            "epoch": 6,
+            "loss": 2.0335853180662515
+          },
+          {
+            "epoch": 7,
+            "loss": 1.7400692550613692
+          },
+          {
+            "epoch": 8,
+            "loss": 1.4798533437288117
+          },
+          {
+            "epoch": 9,
+            "loss": 1.2621090313663172
+          },
+          {
+            "epoch": 10,
+            "loss": 1.0724514094801498
+          },
+          {
+            "epoch": 11,
+            "loss": 0.9184126164432361
+          },
+          {
+            "epoch": 12,
+            "loss": 0.7979804673790629
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.5789931425640578
+          },
+          {
+            "epoch": 2,
+            "loss": 0.5643954012609609
+          },
+          {
+            "epoch": 3,
+            "loss": 0.5625520426520745
+          },
+          {
+            "epoch": 4,
+            "loss": 0.5616809236779864
+          },
+          {
+            "epoch": 5,
+            "loss": 0.5617153081462611
+          },
+          {
+            "epoch": 6,
+            "loss": 0.5613307026299222
+          },
+          {
+            "epoch": 7,
+            "loss": 0.5605998361937716
+          },
+          {
+            "epoch": 8,
+            "loss": 0.5606619270857507
+          },
+          {
+            "epoch": 9,
+            "loss": 0.5605481814792856
+          },
+          {
+            "epoch": 10,
+            "loss": 0.5602405586471952
+          },
+          {
+            "epoch": 11,
+            "loss": 0.5607366693550516
+          },
+          {
+            "epoch": 12,
+            "loss": 0.561281520063655
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.8041656708654418,
+            0.6990336736893432,
+            0.7045856727949299
+          ],
+          "expected_success": 0.815,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.8041656708654418,
+            0.6990336736893432,
+            0.7045856727949299
+          ],
+          "expected_success": 0.815,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.8041656708654418,
+            0.6990336736893432,
+            0.7045856727949299
+          ],
+          "expected_success": 0.815,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.8041656708654418,
+            0.6990336736893432,
+            0.7045856727949299
+          ],
+          "expected_success": 0.815,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.7616658926476291,
+            0.7048686805427292,
+            0.7039141273472496
+          ],
+          "expected_success": 0.815,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.778132790082267,
+            0.7001826239276071,
+            0.7042053333210987
+          ],
+          "expected_success": 0.815,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "expected_success": 0.815
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "70944d1461d5ad4d1254ca4d0aeed5a18abb474b73cd0442ed4f49e1a9a45080",
+          "joint_brier": 0.17736532228998048,
+          "ordinary_brier": 0.18024864152014575,
+          "joint_bce": 0.5340680562646732
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "e08c1e7a17382e0f4058933d558a92667727335d1e31af2768344af77772b80d",
+          "joint_brier": 0.1649892405107608,
+          "ordinary_brier": 0.16719099355916753,
+          "joint_bce": 0.5068198258558885
+        }
+      }
+    },
+    {
+      "case": "uninformative_prefix",
+      "training_digest": "2f855a249dd8a8fd9beb274720612fd930d550338965086f4b3d9ce83abd664b",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.117994586773406
+          },
+          {
+            "epoch": 2,
+            "loss": 3.0038879966543757
+          },
+          {
+            "epoch": 3,
+            "loss": 2.87289917189267
+          },
+          {
+            "epoch": 4,
+            "loss": 2.6895949352276656
+          },
+          {
+            "epoch": 5,
+            "loss": 2.4544457409725284
+          },
+          {
+            "epoch": 6,
+            "loss": 2.1825952915269395
+          },
+          {
+            "epoch": 7,
+            "loss": 1.902618889735284
+          },
+          {
+            "epoch": 8,
+            "loss": 1.639232136543498
+          },
+          {
+            "epoch": 9,
+            "loss": 1.4136187320981946
+          },
+          {
+            "epoch": 10,
+            "loss": 1.2393863840931891
+          },
+          {
+            "epoch": 11,
+            "loss": 1.1129339774951204
+          },
+          {
+            "epoch": 12,
+            "loss": 1.0169727244303484
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.6963598572806057
+          },
+          {
+            "epoch": 2,
+            "loss": 0.6916304440216456
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6911779778106732
+          },
+          {
+            "epoch": 4,
+            "loss": 0.6918666044405122
+          },
+          {
+            "epoch": 5,
+            "loss": 0.6916200210260719
+          },
+          {
+            "epoch": 6,
+            "loss": 0.6909375208319446
+          },
+          {
+            "epoch": 7,
+            "loss": 0.6909020677035778
+          },
+          {
+            "epoch": 8,
+            "loss": 0.6915396085084723
+          },
+          {
+            "epoch": 9,
+            "loss": 0.6912637438198569
+          },
+          {
+            "epoch": 10,
+            "loss": 0.690900529190136
+          },
+          {
+            "epoch": 11,
+            "loss": 0.6907176107578943
+          },
+          {
+            "epoch": 12,
+            "loss": 0.68949736258007
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": true,
+          "predicted_values": [
+            0.585242526729921,
+            0.5682470239435934,
+            0.5701507462483607
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.585242526729921,
+            0.5682470239435934,
+            0.5701507462483607
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.585242526729921,
+            0.5682470239435934,
+            0.5701507462483607
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.585242526729921,
+            0.5682470239435934,
+            0.5701507462483607
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.558390973873774,
+            0.5398408262399575,
+            0.540482580471871
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5928721105017867,
+            0.571018666890148,
+            0.5648265113587516
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "expected_success": 0.58
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "75e7bad219c6c8c0bc39048d148da023efd05707993a82dd08a89bded779856a",
+          "joint_brier": 0.24761184731536423,
+          "ordinary_brier": 0.24895978413957684,
+          "joint_bce": 0.6883495567250786
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "098abd196c647afe5f27979c9be9449c00bba05160a0fce9f4c9fa9d74de6098",
+          "joint_brier": 0.24954285889617467,
+          "ordinary_brier": 0.24897291183658185,
+          "joint_bce": 0.6922507650992021
+        }
+      }
+    },
+    {
+      "case": "expensive_prefix",
+      "training_digest": "745047439f189980502f562221f27a3fa95905f3a67d5826af7bd760b21f2414",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.1039046593394235
+          },
+          {
+            "epoch": 2,
+            "loss": 2.9783871662686603
+          },
+          {
+            "epoch": 3,
+            "loss": 2.8402207425400707
+          },
+          {
+            "epoch": 4,
+            "loss": 2.6547405221675007
+          },
+          {
+            "epoch": 5,
+            "loss": 2.4251421098117523
+          },
+          {
+            "epoch": 6,
+            "loss": 2.15703851140303
+          },
+          {
+            "epoch": 7,
+            "loss": 1.860427141802257
+          },
+          {
+            "epoch": 8,
+            "loss": 1.567827477894527
+          },
+          {
+            "epoch": 9,
+            "loss": 1.3197667504147153
+          },
+          {
+            "epoch": 10,
+            "loss": 1.1313765704412244
+          },
+          {
+            "epoch": 11,
+            "loss": 0.994299625974954
+          },
+          {
+            "epoch": 12,
+            "loss": 0.8937544540356892
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.6809016520089003
+          },
+          {
+            "epoch": 2,
+            "loss": 0.6741565993122025
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6740620286299034
+          },
+          {
+            "epoch": 4,
+            "loss": 0.6709989964343869
+          },
+          {
+            "epoch": 5,
+            "loss": 0.6704737229091664
+          },
+          {
+            "epoch": 6,
+            "loss": 0.6703721744268686
+          },
+          {
+            "epoch": 7,
+            "loss": 0.6705888843495172
+          },
+          {
+            "epoch": 8,
+            "loss": 0.6691738597484294
+          },
+          {
+            "epoch": 9,
+            "loss": 0.6682997033924978
+          },
+          {
+            "epoch": 10,
+            "loss": 0.6680120626900262
+          },
+          {
+            "epoch": 11,
+            "loss": 0.6672211743472981
+          },
+          {
+            "epoch": 12,
+            "loss": 0.6666578970216916
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": true,
+          "predicted_values": [
+            0.5513277100671239,
+            0.4744658811386194,
+            0.520111630276335
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5513277100671239,
+            0.4744658811386194,
+            0.520111630276335
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5513277100671239,
+            0.4744658811386194,
+            0.520111630276335
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5513277100671239,
+            0.4744658811386194,
+            0.520111630276335
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 2,
+          "suffix_by_observed_bit": [
+            1,
+            2
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5056256254966467,
+            0.4823898247870676,
+            0.553526492093952
+          ],
+          "expected_success": 0.49,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5504338874955814,
+            0.4807334476716123,
+            0.5418463394893869
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "expected_success": 0.58
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "7d14b7fc1fa80974536e1ec8fe789f85ceb8b755f0dd513a95a636135f3b84ea",
+          "joint_brier": 0.23378651857398783,
+          "ordinary_brier": 0.23884553841339487,
+          "joint_bce": 0.6584576097338042
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "c1a507f26d21cc0f6dbb60c8345676e1f7d6f8dc3ce7cbeaf7d87fcf273a1ca2",
+          "joint_brier": 0.2340810771267263,
+          "ordinary_brier": 0.24041226499240567,
+          "joint_bce": 0.6581939642162433
+        }
+      }
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "training_digest": "1aef7688c57da5843ee02663c350aa51b1e1d46cff3e317d8b7dcbfd013af771",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.118866676964109
+          },
+          {
+            "epoch": 2,
+            "loss": 3.0081844998119998
+          },
+          {
+            "epoch": 3,
+            "loss": 2.8842753164591937
+          },
+          {
+            "epoch": 4,
+            "loss": 2.701716461779917
+          },
+          {
+            "epoch": 5,
+            "loss": 2.459862960786534
+          },
+          {
+            "epoch": 6,
+            "loss": 2.1771086593958433
+          },
+          {
+            "epoch": 7,
+            "loss": 1.889859881163399
+          },
+          {
+            "epoch": 8,
+            "loss": 1.6261409410487087
+          },
+          {
+            "epoch": 9,
+            "loss": 1.4093267056609224
+          },
+          {
+            "epoch": 10,
+            "loss": 1.2405983187451795
+          },
+          {
+            "epoch": 11,
+            "loss": 1.1138923703673627
+          },
+          {
+            "epoch": 12,
+            "loss": 1.014886214124778
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.696310267940215
+          },
+          {
+            "epoch": 2,
+            "loss": 0.6878891912106884
+          },
+          {
+            "epoch": 3,
+            "loss": 0.686248489136301
+          },
+          {
+            "epoch": 4,
+            "loss": 0.6871284363956333
+          },
+          {
+            "epoch": 5,
+            "loss": 0.6869655762582219
+          },
+          {
+            "epoch": 6,
+            "loss": 0.6853926247804129
+          },
+          {
+            "epoch": 7,
+            "loss": 0.6861784357756162
+          },
+          {
+            "epoch": 8,
+            "loss": 0.6854861832795074
+          },
+          {
+            "epoch": 9,
+            "loss": 0.684277472949277
+          },
+          {
+            "epoch": 10,
+            "loss": 0.6839655775192945
+          },
+          {
+            "epoch": 11,
+            "loss": 0.6839407452852008
+          },
+          {
+            "epoch": 12,
+            "loss": 0.6829129002048676
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": true,
+          "predicted_values": [
+            0.6126380643580733,
+            0.5938900875473478,
+            0.5838142275618476
+          ],
+          "expected_success": 0.62,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.6126380643580733,
+            0.5938900875473478,
+            0.5838142275618476
+          ],
+          "expected_success": 0.62,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": true,
+          "predicted_values": [
+            0.6126380643580733,
+            0.5938900875473478,
+            0.5838142275618476
+          ],
+          "expected_success": 0.62,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": true,
+          "predicted_values": [
+            0.6126380643580733,
+            0.5938900875473478,
+            0.5838142275618476
+          ],
+          "expected_success": 0.62,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5985583635831204,
+            0.5861534086634371,
+            0.5649717329858979
+          ],
+          "expected_success": 0.62,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.6189131731420258,
+            0.5864102054038985,
+            0.5840844415638532
+          ],
+          "expected_success": 0.62,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "expected_success": 0.62
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "e5609903cb7280ec873666d4255cec33f237f8422da7b2a64c6e169d6a3e77da",
+          "joint_brier": 0.24495513918513614,
+          "ordinary_brier": 0.247561671572524,
+          "joint_bce": 0.6829425120089729
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "ab91579c4cd15e94dfebdad21709dd0ca9cd68f3e32432e60686c4ab5701cf59",
+          "joint_brier": 0.24489460972831623,
+          "ordinary_brier": 0.24662181680728823,
+          "joint_bce": 0.682807463571261
+        }
+      }
+    },
+    {
+      "case": "unstable_contact_mode",
+      "training_digest": "e536582c24c6b8f7eae61761ee4281fbc7c1e2bcc124c513c98364a31158943b",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.1163610190229676
+          },
+          {
+            "epoch": 2,
+            "loss": 3.002102411862314
+          },
+          {
+            "epoch": 3,
+            "loss": 2.8705176345822174
+          },
+          {
+            "epoch": 4,
+            "loss": 2.681408022723602
+          },
+          {
+            "epoch": 5,
+            "loss": 2.443887045512077
+          },
+          {
+            "epoch": 6,
+            "loss": 2.1777242785362008
+          },
+          {
+            "epoch": 7,
+            "loss": 1.9093467501716903
+          },
+          {
+            "epoch": 8,
+            "loss": 1.6595041708266969
+          },
+          {
+            "epoch": 9,
+            "loss": 1.4474825379959921
+          },
+          {
+            "epoch": 10,
+            "loss": 1.2817768985687037
+          },
+          {
+            "epoch": 11,
+            "loss": 1.1549031621504016
+          },
+          {
+            "epoch": 12,
+            "loss": 1.058182581292664
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.6990695909876454
+          },
+          {
+            "epoch": 2,
+            "loss": 0.6951312460626854
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6931420861881339
+          },
+          {
+            "epoch": 4,
+            "loss": 0.6921734256910976
+          },
+          {
+            "epoch": 5,
+            "loss": 0.6962527902809086
+          },
+          {
+            "epoch": 6,
+            "loss": 0.6952411763884491
+          },
+          {
+            "epoch": 7,
+            "loss": 0.6931434075231858
+          },
+          {
+            "epoch": 8,
+            "loss": 0.6926000428385408
+          },
+          {
+            "epoch": 9,
+            "loss": 0.6920408299319074
+          },
+          {
+            "epoch": 10,
+            "loss": 0.6934093334426307
+          },
+          {
+            "epoch": 11,
+            "loss": 0.6927081573044374
+          },
+          {
+            "epoch": 12,
+            "loss": 0.6936374140826088
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 2,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5540682176115697,
+            0.5491630765074722,
+            0.5667516232958625
+          ],
+          "expected_success": 0.5684,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5540682176115697,
+            0.5491630765074722,
+            0.5667516232958625
+          ],
+          "expected_success": 0.5800000000000001,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 2,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5540682176115697,
+            0.5491630765074722,
+            0.5667516232958625
+          ],
+          "expected_success": 0.5684,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 2,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5540682176115697,
+            0.5491630765074722,
+            0.5667516232958625
+          ],
+          "expected_success": 0.5684,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            1,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.541046706396221,
+            0.5232054477237498,
+            0.5252771130943837
+          ],
+          "expected_success": 0.5000000000000001,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5649916587563694,
+            0.5293694615759177,
+            0.5293211979797874
+          ],
+          "expected_success": 0.5800000000000001,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "expected_success": 0.5800000000000001
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "651e995924fcf965bb607d1e5224a4074fc650d049761019a68393924b89f010",
+          "joint_brier": 0.2465676157370155,
+          "ordinary_brier": 0.24719679995864693,
+          "joint_bce": 0.6862493946352579
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "9d3fae705e6e094c65504a5290c2b69ac59403906be7da8e4a3fffb89094407b",
+          "joint_brier": 0.2501062189011813,
+          "ordinary_brier": 0.25027254273033805,
+          "joint_bce": 0.6933729942116279
+        }
+      }
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "training_digest": "89cc47a7205c3bbedceea9f7ca8a47e341e2c225875c495a21a7cf6174ed7dc4",
+      "original_fit_digest_matches": true,
+      "fit_joint": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 3.12070782670446
+          },
+          {
+            "epoch": 2,
+            "loss": 3.001673211447943
+          },
+          {
+            "epoch": 3,
+            "loss": 2.8691864407266237
+          },
+          {
+            "epoch": 4,
+            "loss": 2.6809745241092373
+          },
+          {
+            "epoch": 5,
+            "loss": 2.434117221435355
+          },
+          {
+            "epoch": 6,
+            "loss": 2.1552941891796116
+          },
+          {
+            "epoch": 7,
+            "loss": 1.8496834709948557
+          },
+          {
+            "epoch": 8,
+            "loss": 1.5496194982106664
+          },
+          {
+            "epoch": 9,
+            "loss": 1.2968931921086373
+          },
+          {
+            "epoch": 10,
+            "loss": 1.107465726464957
+          },
+          {
+            "epoch": 11,
+            "loss": 0.9709871466975728
+          },
+          {
+            "epoch": 12,
+            "loss": 0.8685414105689461
+          }
+        ],
+        "updates": 192,
+        "parameters": 5067,
+        "seed": 94011
+      },
+      "fit_ordinary": {
+        "trace": [
+          {
+            "epoch": 1,
+            "loss": 0.7007397285941972
+          },
+          {
+            "epoch": 2,
+            "loss": 0.6823692140349942
+          },
+          {
+            "epoch": 3,
+            "loss": 0.6757584213574972
+          },
+          {
+            "epoch": 4,
+            "loss": 0.6780562034930171
+          },
+          {
+            "epoch": 5,
+            "loss": 0.6740454874550388
+          },
+          {
+            "epoch": 6,
+            "loss": 0.6720643752918071
+          },
+          {
+            "epoch": 7,
+            "loss": 0.6712468959668171
+          },
+          {
+            "epoch": 8,
+            "loss": 0.6709849899355471
+          },
+          {
+            "epoch": 9,
+            "loss": 0.6704289938608439
+          },
+          {
+            "epoch": 10,
+            "loss": 0.6692536677499594
+          },
+          {
+            "epoch": 11,
+            "loss": 0.6689099932923959
+          },
+          {
+            "epoch": 12,
+            "loss": 0.6693647440030415
+          }
+        ],
+        "updates": 192,
+        "parameters": 9921,
+        "seed": 94012
+      },
+      "controls": [
+        {
+          "control": "static",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": true,
+          "predicted_values": [
+            0.5714421141019047,
+            0.6769077805806553,
+            0.5363266706837881
+          ],
+          "expected_success": 0.58,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "passive",
+          "prefix": 0,
+          "suffix_by_observed_bit": [
+            2,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5714421141019047,
+            0.6769077805806553,
+            0.5363266706837881
+          ],
+          "expected_success": 0.54,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "active",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5714421141019047,
+            0.6769077805806553,
+            0.5363266706837881
+          ],
+          "expected_success": 0.21339999999999998,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "no_update",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            0,
+            0
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5714421141019047,
+            0.6769077805806553,
+            0.5363266706837881
+          ],
+          "expected_success": 0.5626,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1152,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "ordinary",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.5733031073233831,
+            0.620046602370824,
+            0.5678169055414228
+          ],
+          "expected_success": 0.21339999999999998,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "bayesian",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            2,
+            1
+          ],
+          "direct_baseline": false,
+          "predicted_values": [
+            0.6155496693518406,
+            0.6423786134348112,
+            0.5788815592585297
+          ],
+          "expected_success": 0.21339999999999998,
+          "cost": {
+            "rollout_calls": 0,
+            "sequences": 0,
+            "latent_transitions": 0,
+            "physical_steps": 0,
+            "observations": 0,
+            "integration_responses": 384,
+            "outcome_queries": 1158,
+            "prefix_planning_calls": 0
+          }
+        },
+        {
+          "control": "correctly_specified_exact_Bayes",
+          "prefix": 1,
+          "suffix_by_observed_bit": [
+            1,
+            2
+          ],
+          "expected_success": 0.7565999999999999
+        }
+      ],
+      "held_out_support": {
+        "validation": {
+          "sources": 128,
+          "data_sha256": "ec3aee00254000561e28399f3a18b2198648f763cac506b33196e07c3aa70011",
+          "joint_brier": 0.3028124621220825,
+          "ordinary_brier": 0.2772374467071968,
+          "joint_bce": 0.8141328810736993
+        },
+        "test": {
+          "sources": 256,
+          "data_sha256": "2d4a98e7e3630286856f9620ba582d1017eaa44b2ccb2c1984a4319b56cf8c8e",
+          "joint_brier": 0.298557477615044,
+          "ordinary_brier": 0.27692045159828854,
+          "joint_bce": 0.8047119804650948
+        }
+      }
+    }
+  ]
+}

@@ -1,3 +1,4 @@
 prototype/** -text
 *.zip -text
 ACV0-INSTRUCTION.txt -text
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

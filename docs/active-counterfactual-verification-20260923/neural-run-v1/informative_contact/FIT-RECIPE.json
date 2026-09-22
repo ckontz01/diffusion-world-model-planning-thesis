@@ -1,0 +1,49 @@
+{
+  "case": "informative_contact",
+  "fit_digest": "b451241cdf9c705880a50dd095b90f9e4dc8af26499c89c34ba4f65014d47b0c",
+  "joint_parameters": 5067,
+  "ordinary_parameters": 9921,
+  "config": {
+    "cases": "unchanged seven prototype cases",
+    "fit_sources_per_case": 1024,
+    "fit_seed": 24000,
+    "neural_seed": 94011,
+    "ordinary_seed": 94012,
+    "epochs": 12,
+    "batch_sources": 64,
+    "optimizer_updates_per_model_case": 192,
+    "validation_seed": 94101,
+    "test_seed": 94102,
+    "validation_sources": 128,
+    "test_sources": 256,
+    "selection": "final epoch only; no tuning; artificial mock contract cases separate"
+  },
+  "loss": {
+    "components": 4,
+    "context_width": 32,
+    "candidate_width": 32,
+    "ordinary_widths": [
+      64,
+      64
+    ],
+    "variance_min": 0.01,
+    "variance_max": 4.0,
+    "activation": "tanh",
+    "dtype": "float64 CPU",
+    "loss_weights": {
+      "terminal_ce": 1.0,
+      "active_response_nll_per_dimension": 1.0,
+      "active_outcome_bce": 1.0
+    },
+    "reduction": "mean within unique suffixes, then prefixes, then whole source",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "global_gradient_clip": 5.0,
+    "weight_decay": 0.0
+  }
+}

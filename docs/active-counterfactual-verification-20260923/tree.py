@@ -31,6 +31,9 @@ class Ledger:
     integration_responses: int = 0
     outcome_queries: int = 0
     prefix_planning_calls: int = 0
+    cem_solves: int = 0
+    learned_module_forward_calls: int = 0
+    prior_candidate_predictions: int = 0
 
     def charge_rollout(self, n, steps):
         self.rollout_calls += 1; self.sequences += n; self.latent_transitions += n*steps
@@ -75,6 +78,8 @@ def cem(port, rng, *, prefix=None, population=300, elites=30, rounds=30):
     if not (1 < elites <= population <= 300 and 1 <= rounds <= 30): raise ValueError('CEM bounds')
     start = 0 if prefix is None else 5
     if prefix is not None and finite(prefix).shape != (5,2): raise ValueError('Fixed prefix shape')
+    port.ledger.cem_solves+=1
+    if prefix is not None:port.ledger.prefix_planning_calls+=1
     mean = np.zeros((15-start,2)); sd = np.ones_like(mean)
     for _ in range(rounds):
         normal = rng.normal(size=(population,15-start,2))*sd+mean

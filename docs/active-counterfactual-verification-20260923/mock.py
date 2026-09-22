@@ -43,7 +43,7 @@ def prototype_dataset(case,n,seed,role):
 
 def pack(rows):
     if not rows:raise ValueError('No source records')
-    maxk=max(max(len(r['a']),1) for r in rows);adim=next(r['a'].shape[-1] for r in rows if len(r['a']))
+    maxk=max(max(len(r['a']),1) for r in rows);adim=rows[0]['a'].shape[-1]
     output=dict(x=[],a=[],r=[],y=[],terminal=[],mask=[],source_ids=[],roles=[])
     seen=set()
     for r in rows:
@@ -51,6 +51,7 @@ def pack(rows):
         if key in seen:raise ValueError('Duplicate source/prefix record')
         seen.add(key)
         k=len(r['a']);aa=np.zeros((maxk,adim));yy=np.zeros(maxk);mask=np.zeros(maxk,dtype=bool)
+        if k>4 or len({identity(v) for v in r['a']})!=k:raise ValueError('Duplicate/oversized suffix bank')
         if r['terminal']!=2 and k:raise ValueError('Terminal prefix cannot carry unused suffix labels')
         if r['terminal']==2 and not k:raise ValueError('Active prefix requires its own suffix labels')
         aa[:k]=r['a'];yy[:k]=r['y'];mask[:k]=True
@@ -120,7 +121,7 @@ def collect_source(source_id,role,tree,factory,goal,tail_planner):
                 base_hash=prefix_hash
                 if obs.done:
                     terminal=0 if obs.success else 1
-                    receipts.append(dict(prefix=p,terminal=terminal,steps=obs.clock,unused_suffixes=0,
+                    receipts.append(dict(prefix=p,terminal=terminal,steps=obs.clock,unused_suffixes_executed=0,
                                          common_history_sha256=prefix_hash))
                     break
                 prefix_r=obs.latent-node.predicted_prefix;response_observations+=1

@@ -1,0 +1,93 @@
+{
+  "status": "PREPARATION_ONLY_REAL_RUNTIME_DISABLED",
+  "base_commit": "02a6157ecb11ff2a9cf6ced6ce0523b181805db0",
+  "prototype_zip_sha256": "9d843e842aae5318e55d65520a21b782cbb0f1c34c50875375fad6aa46cd95b2",
+  "local_limits": {
+    "wall_seconds": 14400,
+    "cpu_threads": 4,
+    "memory_bytes": 8589934592,
+    "new_bytes": 1000000000,
+    "gpu": 0
+  },
+  "physics": {
+    "initial_opportunities": 1,
+    "prefix_steps": 5,
+    "suffix_steps": 10,
+    "total_steps": 150,
+    "baseline_tail_starts": 15,
+    "goal_horizon": 75
+  },
+  "tree": {
+    "prefixes_max": 4,
+    "suffixes_per_prefix_max": 4,
+    "plans_max": 16
+  },
+  "cem": {
+    "population": 300,
+    "elites": 30,
+    "rounds": 30,
+    "blocks": 3,
+    "block_actions": 5,
+    "action_dim": 2
+  },
+  "integration": {
+    "samples_per_component": 32,
+    "components": 4,
+    "total_samples": 128,
+    "seed": 94021,
+    "method": "component-stratified antithetic normals; pi-weighted; common normals across prefixes and controls",
+    "sweeps": false
+  },
+  "neural": {
+    "components": 4,
+    "context_width": 32,
+    "candidate_width": 32,
+    "ordinary_widths": [
+      64,
+      64
+    ],
+    "variance_min": 0.01,
+    "variance_max": 4.0,
+    "activation": "tanh",
+    "dtype": "float64 CPU",
+    "loss_weights": {
+      "terminal_ce": 1.0,
+      "active_response_nll_per_dimension": 1.0,
+      "active_outcome_bce": 1.0
+    },
+    "reduction": "mean within unique suffixes, then prefixes, then whole source",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "epsilon": 1e-08,
+    "global_gradient_clip": 5.0,
+    "weight_decay": 0.0
+  },
+  "synthetic": {
+    "cases": "unchanged seven prototype cases",
+    "fit_sources_per_case": 1024,
+    "fit_seed": 24000,
+    "neural_seed": 94011,
+    "ordinary_seed": 94012,
+    "epochs": 12,
+    "batch_sources": 64,
+    "optimizer_updates_per_model_case": 192,
+    "validation_seed": 94101,
+    "test_seed": 94102,
+    "validation_sources": 128,
+    "test_sources": 256,
+    "selection": "final epoch only; no tuning; artificial mock contract cases separate"
+  },
+  "streams": {
+    "tree": 94001,
+    "fit_shuffle": 94013,
+    "integration": 94021,
+    "mock_environment": 94031,
+    "baseline_tail": 94041
+  },
+  "research_execution_authorized": false,
+  "automatic_followup": false
+}

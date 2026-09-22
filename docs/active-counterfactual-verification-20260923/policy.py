@@ -54,7 +54,8 @@ class Selector:
     def __init__(self,joint,ordinary=None,bayesian=None):
         self.joint=joint;self.ordinary=ordinary;self.bayesian=bayesian
 
-    def conditional(self,x,a,r,mode):
+    def conditional(self,x,a,r,mode,ledger=None):
+        if ledger is not None:ledger.learned_module_forward_calls+=1
         if mode=='ordinary':
             if self.ordinary is None:raise ValueError('Ordinary model required')
             return self.ordinary.forward(x,a,r)[0]
@@ -71,13 +72,14 @@ class Selector:
         values=[];means=[]
         for node in tree.nodes:
             x,a=features(h,node);o,_=self.joint.forward(x,a)
+            ledger.learned_module_forward_calls+=1;ledger.prior_candidate_predictions+=len(node.suffixes)
             # Stratified mixture integral: 32 antithetic normals per component.
             rnorm=o['mu'][0,:,None,:]+np.sqrt(o['var'][0,:,None,:])*eps[None]
             samples=rnorm.reshape(128,d)
             r=samples*self.joint.pre.rstd+self.joint.pre.rmean if self.joint.pre else samples
             weights=np.repeat(o['pi'][0]/32,32)
             xx=np.repeat(x,128,0);aa=np.repeat(a,128,0)
-            q=self.conditional(xx,aa,r,mode)
+            q=self.conditional(xx,aa,r,mode,ledger)
             ledger.integration_responses+=128;ledger.outcome_queries+=128*len(node.suffixes)
             if ledger.integration_responses>512:raise RuntimeError('Single-opportunity integration cap')
             ps,pf,pa=o['terminal'][0]
@@ -105,7 +107,7 @@ class Selector:
         if decision.suffix is not None:return decision.suffix
         node=tree.nodes[decision.prefix];x,a=features(h,node)
         r=(finite(observed_latent)-node.predicted_prefix)[None]
-        q=self.conditional(x,a,r,decision.mode)[0];ledger.outcome_queries+=len(q)
+        q=self.conditional(x,a,r,decision.mode,ledger)[0];ledger.outcome_queries+=len(q)
         return tie_argmax(q,[(0 if decision.prefix==0 and i==0 else 1,identity(s)) for i,s in enumerate(node.suffixes)])
 
 

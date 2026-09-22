@@ -1,0 +1,248 @@
+{
+  "status": "PASS",
+  "original_zip_sha256": "9d843e842aae5318e55d65520a21b782cbb0f1c34c50875375fad6aa46cd95b2",
+  "original_files": [
+    {
+      "path": "METHOD.md",
+      "bytes": 10763,
+      "sha256": "f6b2f087157f3f1edddea8c65f57666510fa18d4d2bf5344c3cddc0f313ccb6d"
+    },
+    {
+      "path": "PRIOR-ART.md",
+      "bytes": 3766,
+      "sha256": "e0b097a0fa566fa255b20832c951a68c71f2e89189f8675a68a5ad2eb54b3a28"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5190,
+      "sha256": "9f28fd7efe51df9bc69bc0b7dec6aa146ef28fee7643b77ab786677f36526e92"
+    },
+    {
+      "path": "check_compression.py",
+      "bytes": 2709,
+      "sha256": "722a39c6590f7bfa8263f7c10c8ce9747cef370ec724ab12af95c9e499bdb420"
+    },
+    {
+      "path": "compression-v1/CONFIG.json",
+      "bytes": 156,
+      "sha256": "e6c6237a001cf3e522d699f2a52d443450a505f5882d3ef077df5e7da94bc2cf"
+    },
+    {
+      "path": "compression-v1/RESULTS.json",
+      "bytes": 452,
+      "sha256": "8116ba7eacd20708f0f0f24a8ace000e7d9263ad254fc2408d322104ba213c85"
+    },
+    {
+      "path": "contrast_filter.py",
+      "bytes": 3632,
+      "sha256": "0495f7162391c7656550e0c1372f6ad78f3b802ccef4c8793aaa45209a2dfe46"
+    },
+    {
+      "path": "experiment.py",
+      "bytes": 9764,
+      "sha256": "eb5e3ed076558d0a99266d9ac55840bd2034f50f8731e8d153a2d933a0924129"
+    },
+    {
+      "path": "run-v1/CONFIG.json",
+      "bytes": 1970,
+      "sha256": "4922873c0dee3427a601189897cc15a57d4bd16f90c01ef9079590512028ef08"
+    },
+    {
+      "path": "run-v1/RESULTS.json",
+      "bytes": 355438,
+      "sha256": "348acc837e90e60d855095284d0b001772288c7decc6c77add56d41bcae1d0bc"
+    },
+    {
+      "path": "run-v1/TABLE.md",
+      "bytes": 731,
+      "sha256": "5e96e71edb77fa0db7805eff950f56dea7fd1d5e9f322200e2a291a77199c7e8"
+    },
+    {
+      "path": "scale_check.py",
+      "bytes": 2512,
+      "sha256": "fa958e939fccbb4c717f9039e3e27f891ac90d486aa37e2eb4ace9699bea5b82"
+    },
+    {
+      "path": "sensitivity-v1/CONFIG.json",
+      "bytes": 1478,
+      "sha256": "339970f05456a06b4316abe0345d26318b477f76d7c5db3be29f7c82dbd79c2a"
+    },
+    {
+      "path": "sensitivity-v1/RESULTS.json",
+      "bytes": 21882,
+      "sha256": "1f35f2e84e7b7c188c7d03b3c1d7bfe61df38d07f1155d0d0c6925fa1d426fb9"
+    },
+    {
+      "path": "test-log.txt",
+      "bytes": 1719,
+      "sha256": "966a7acecfecf94c17b53e0be1bf41fd363e543b98aee280e404b8354c456889"
+    },
+    {
+      "path": "tests.py",
+      "bytes": 3922,
+      "sha256": "bab1f2a0915cffcb8c2cc4f8cd940f167b17f0bea233cffd0b527eb4a6081bbb"
+    }
+  ],
+  "supplied_unit_tests": 15,
+  "main_reproduction_rows": 1470,
+  "main_reproduction_summary_rows": 49,
+  "main_reproduction_max_numeric_difference": 0.0,
+  "main_seconds_intentionally_not_compared": true,
+  "supplied_gaussian_output": {
+    "max_dense_compressed_mean_error": 6.181721801112872e-13,
+    "max_dense_compressed_covariance_error": 7.260858581048524e-14,
+    "cases": 64,
+    "conditional_means_checked": 1024,
+    "max_compressed_dimensions": 7,
+    "raw_observation_dimensions": 192,
+    "common_mode_dimensions": 0,
+    "scalar_envelope_invariance_cases": 100,
+    "seconds": 0.7650230460001239,
+    "scope": "Supplied valid Gaussian laws. No neural model was trained; no robotics result."
+  },
+  "supplied_gaussian_rerun": false,
+  "supplied_sensitivity": {
+    "cells": 2550,
+    "fits": 2800,
+    "configurations": 28,
+    "all_196_method_summaries_read": true,
+    "rerun": false,
+    "max_formula_error": 2.220446049250313e-16
+  },
+  "neural_complete_expected_law_results": [
+    {
+      "case": "informative_contact",
+      "values": {
+        "static": 0.5683999999999999,
+        "passive": 0.54,
+        "active": 0.7565999999999999,
+        "no_update": 0.5626,
+        "ordinary": 0.7565999999999999,
+        "bayesian": 0.7565999999999999,
+        "correctly_specified_exact_Bayes": 0.7565999999999999
+      }
+    },
+    {
+      "case": "mostly_known_context",
+      "values": {
+        "static": 0.815,
+        "passive": 0.815,
+        "active": 0.815,
+        "no_update": 0.815,
+        "ordinary": 0.815,
+        "bayesian": 0.815,
+        "correctly_specified_exact_Bayes": 0.815
+      }
+    },
+    {
+      "case": "uninformative_prefix",
+      "values": {
+        "static": 0.58,
+        "passive": 0.58,
+        "active": 0.58,
+        "no_update": 0.58,
+        "ordinary": 0.58,
+        "bayesian": 0.58,
+        "correctly_specified_exact_Bayes": 0.58
+      }
+    },
+    {
+      "case": "expensive_prefix",
+      "values": {
+        "static": 0.58,
+        "passive": 0.58,
+        "active": 0.58,
+        "no_update": 0.58,
+        "ordinary": 0.49,
+        "bayesian": 0.58,
+        "correctly_specified_exact_Bayes": 0.58
+      }
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "values": {
+        "static": 0.62,
+        "passive": 0.62,
+        "active": 0.62,
+        "no_update": 0.62,
+        "ordinary": 0.62,
+        "bayesian": 0.62,
+        "correctly_specified_exact_Bayes": 0.62
+      }
+    },
+    {
+      "case": "unstable_contact_mode",
+      "values": {
+        "static": 0.5684,
+        "passive": 0.5800000000000001,
+        "active": 0.5684,
+        "no_update": 0.5684,
+        "ordinary": 0.5000000000000001,
+        "bayesian": 0.5800000000000001,
+        "correctly_specified_exact_Bayes": 0.5800000000000001
+      }
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "values": {
+        "static": 0.58,
+        "passive": 0.54,
+        "active": 0.21339999999999998,
+        "no_update": 0.5626,
+        "ordinary": 0.21339999999999998,
+        "bayesian": 0.21339999999999998,
+        "correctly_specified_exact_Bayes": 0.7565999999999999
+      }
+    }
+  ],
+  "checkpoints_restored": [
+    {
+      "case": "informative_contact",
+      "joint_sha256": "12daede59af0bb7f62838006e34eada3b04c8d9c48db2e1dc20c04f23b9a2adf",
+      "ordinary_sha256": "04be5923e6586d286037fe99d238f60a67352e02189fa2bea0a5781c018ae3ce",
+      "passed": true
+    },
+    {
+      "case": "mostly_known_context",
+      "joint_sha256": "2dee08ca0cb57c632e3fe0351194eed2b9084ef4c1339495cfddf609db99e296",
+      "ordinary_sha256": "9be7e70b8c10837d681c6080617e65ad13f5fd92b8d7beca86a1966e5215b7f3",
+      "passed": true
+    },
+    {
+      "case": "uninformative_prefix",
+      "joint_sha256": "b21fefd4c11606cd1dc9efe451137c4da38b8186bdc6427aa246e5be196ed5d1",
+      "ordinary_sha256": "48d51d8dacd8890dd13d633ed8ae48515d2a2989792811303ebf7b7740d7c503",
+      "passed": true
+    },
+    {
+      "case": "expensive_prefix",
+      "joint_sha256": "69e0232ae599297eecfde1a1c6a80c96e38b8a89481bc06d8e3dd75c1de35597",
+      "ordinary_sha256": "57ff734fae168aedaf9621bc09b2bbc8aba31cc402624ccd0ae86bffa63ca771",
+      "passed": true
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "joint_sha256": "ba64f879c22a35618697302ee4d43e30447d4673e30da34e7a99a1c4ce151e6a",
+      "ordinary_sha256": "44d681e4dce18c10f9699c30b5ae4b8eafdd3e517320a7d972c1b22c7d02a65e",
+      "passed": true
+    },
+    {
+      "case": "unstable_contact_mode",
+      "joint_sha256": "85c3ad7cea397ce07a3e767adb33942b1b3179074dbbf0892e20fcdfe941c21b",
+      "ordinary_sha256": "705d01f4ed67f648dec2c8f597c66495c492a71916772bec5ee8009463b88c77",
+      "passed": true
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "joint_sha256": "aad7a6a707b7a71bcf9a34295616104a5aaf1bc039295780754a17c9bfe1c6e8",
+      "ordinary_sha256": "6cf9e4b9a8219bad7299ea2e2d6aaf433185d3c541067bbf112569100e7b36b1",
+      "passed": true
+    }
+  ],
+  "mock": 48,
+  "real_payload_reads": 0,
+  "research_checkpoint_loads": 0,
+  "physics_calls": 0,
+  "slurm_jobs": 0,
+  "gpu_allocations": 0
+}

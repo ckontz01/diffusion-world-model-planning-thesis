@@ -1,0 +1,25 @@
+{
+  "purpose": "contracts only; no efficacy inference",
+  "fit_source_seeds": [
+    94200,
+    94201,
+    94202,
+    94203
+  ],
+  "fit_events": [
+    "prefix-success-3",
+    "prefix-truncation-3",
+    "tail-success-18",
+    "budget-exhaustion"
+  ],
+  "heldout_seed": 94204,
+  "population": 8,
+  "elites": 2,
+  "rounds": 2,
+  "epochs": 12,
+  "batch_sources": 64,
+  "joint_seed": 94011,
+  "ordinary_seed": 94012,
+  "shuffle_seed": 94013,
+  "integration_seed": 94021
+}

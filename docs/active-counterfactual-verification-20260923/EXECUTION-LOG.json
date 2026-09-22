@@ -34,5 +34,221 @@
     "affinity_mask": 15,
     "gpu_allocations": 0,
     "package_bytes": 860556
+  },
+  {
+    "label": "implementation-tests-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "test_acv0.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790119330.4258971,
+    "wall_seconds": 2.7820000000065193,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_bayesian_regression_and_exact_oracle_negative_cases (__main__.ACV0Tests.test_bayesian_regression_and_exact_oracle_negative_cases) ... ok\ntest_checker_rejects_wrong_association_and_fictitious_endpoint (__main__.ACV0Tests.test_checker_rejects_wrong_association_and_fictitious_endpoint) ... ok\ntest_checkpoint_preprocessing_roundtrip (__main__.ACV0Tests.test_checkpoint_preprocessing_roundtrip) ... ok\ntest_clock_5_10_135_fresh_buffers (__main__.ACV0Tests.test_clock_5_10_135_fresh_buffers) ... ok\ntest_early_success_truncation_no_post_terminal_work (__main__.ACV0Tests.test_early_success_truncation_no_post_terminal_work) ... ok\ntest_exact_gradient_finite_differences_all_parameter_tensors (__main__.ACV0Tests.test_exact_gradient_finite_differences_all_parameter_tensors) ... ok\ntest_fit_only_preprocessing_and_source_reduction (__main__.ACV0Tests.test_fit_only_preprocessing_and_source_reduction) ... ok\ntest_forward_likelihood_bce_backward_finite (__main__.ACV0Tests.test_forward_likelihood_bce_backward_finite) ... ok\ntest_mock_collector_common_history_and_terminal_training (__main__.ACV0Tests.test_mock_collector_common_history_and_terminal_training) ... ok\ntest_no_deployment_optimization_or_branch_query (__main__.ACV0Tests.test_no_deployment_optimization_or_branch_query) ... ok\ntest_no_response_ablation_same_selection_and_cost (__main__.ACV0Tests.test_no_response_ablation_same_selection_and_cost) ... ok\ntest_nonfinite_limits_and_no_hidden_deployment_fields (__main__.ACV0Tests.test_nonfinite_limits_and_no_hidden_deployment_fields) ... ok\ntest_ordinary_gradient_and_same_information (__main__.ACV0Tests.test_ordinary_gradient_and_same_information) ... ok\ntest_posterior_normalization_opposite_ranking (__main__.ACV0Tests.test_posterior_normalization_opposite_ranking) ... ok\ntest_suffix_permutation_equivariance_and_independent_response (__main__.ACV0Tests.test_suffix_permutation_equivariance_and_independent_response) ... ok\ntest_terminal_failure_value_and_survival_not_conditioning_only (__main__.ACV0Tests.test_terminal_failure_value_and_survival_not_conditioning_only) ... ok\ntest_tree_exact_baseline_budget_and_duplicates (__main__.ACV0Tests.test_tree_exact_baseline_budget_and_duplicates) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.856s\n\nOK\n",
+    "peak_job_memory_bytes": 73015296,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 923006
+  },
+  {
+    "label": "neural-fixed-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "run_synthetic.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790119344.036561,
+    "wall_seconds": 16.20300000003772,
+    "returncode": 0,
+    "stdout": "{\"case\": \"informative_contact\", \"controls\": {\"static\": 0.5683999999999999, \"passive\": 0.54, \"active\": 0.7565999999999999, \"no_update\": 0.5626, \"ordinary\": 0.7565999999999999, \"bayesian\": 0.7565999999999999, \"correctly_specified_exact_Bayes\": 0.7565999999999999}}\n{\"case\": \"mostly_known_context\", \"controls\": {\"static\": 0.815, \"passive\": 0.815, \"active\": 0.815, \"no_update\": 0.815, \"ordinary\": 0.815, \"bayesian\": 0.815, \"correctly_specified_exact_Bayes\": 0.815}}\n{\"case\": \"uninformative_prefix\", \"controls\": {\"static\": 0.58, \"passive\": 0.58, \"active\": 0.58, \"no_update\": 0.58, \"ordinary\": 0.58, \"bayesian\": 0.58, \"correctly_specified_exact_Bayes\": 0.58}}\n{\"case\": \"expensive_prefix\", \"controls\": {\"static\": 0.58, \"passive\": 0.58, \"active\": 0.58, \"no_update\": 0.58, \"ordinary\": 0.49, \"bayesian\": 0.58, \"correctly_specified_exact_Bayes\": 0.58}}\n{\"case\": \"no_decision_relevant_uncertainty\", \"controls\": {\"static\": 0.62, \"passive\": 0.62, \"active\": 0.62, \"no_update\": 0.62, \"ordinary\": 0.62, \"bayesian\": 0.62, \"correctly_specified_exact_Bayes\": 0.62}}\n{\"case\": \"unstable_contact_mode\", \"controls\": {\"static\": 0.5684, \"passive\": 0.5800000000000001, \"active\": 0.5684, \"no_update\": 0.5684, \"ordinary\": 0.5000000000000001, \"bayesian\": 0.5800000000000001, \"correctly_specified_exact_Bayes\": 0.5800000000000001}}\n{\"case\": \"unannounced_sensor_reversal\", \"controls\": {\"static\": 0.58, \"passive\": 0.54, \"active\": 0.21339999999999998, \"no_update\": 0.5626, \"ordinary\": 0.21339999999999998, \"bayesian\": 0.21339999999999998, \"correctly_specified_exact_Bayes\": 0.7565999999999999}}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 116129792,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 3562218
+  },
+  {
+    "label": "implementation-tests-02",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "-m",
+      "unittest",
+      "test_acv0",
+      "test_extended",
+      "-v"
+    ],
+    "state": "finished",
+    "started_unix": 1790119938.4086628,
+    "wall_seconds": 2.8280000000377186,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_bayesian_regression_and_exact_oracle_negative_cases (test_acv0.ACV0Tests.test_bayesian_regression_and_exact_oracle_negative_cases) ... ok\ntest_checker_rejects_wrong_association_and_fictitious_endpoint (test_acv0.ACV0Tests.test_checker_rejects_wrong_association_and_fictitious_endpoint) ... ok\ntest_checkpoint_preprocessing_roundtrip (test_acv0.ACV0Tests.test_checkpoint_preprocessing_roundtrip) ... ok\ntest_clock_5_10_135_fresh_buffers (test_acv0.ACV0Tests.test_clock_5_10_135_fresh_buffers) ... ok\ntest_early_success_truncation_no_post_terminal_work (test_acv0.ACV0Tests.test_early_success_truncation_no_post_terminal_work) ... ok\ntest_exact_gradient_finite_differences_all_parameter_tensors (test_acv0.ACV0Tests.test_exact_gradient_finite_differences_all_parameter_tensors) ... ok\ntest_fit_only_preprocessing_and_source_reduction (test_acv0.ACV0Tests.test_fit_only_preprocessing_and_source_reduction) ... ok\ntest_forward_likelihood_bce_backward_finite (test_acv0.ACV0Tests.test_forward_likelihood_bce_backward_finite) ... ok\ntest_mock_collector_common_history_and_terminal_training (test_acv0.ACV0Tests.test_mock_collector_common_history_and_terminal_training) ... ok\ntest_no_deployment_optimization_or_branch_query (test_acv0.ACV0Tests.test_no_deployment_optimization_or_branch_query) ... ok\ntest_no_response_ablation_same_selection_and_cost (test_acv0.ACV0Tests.test_no_response_ablation_same_selection_and_cost) ... ok\ntest_nonfinite_limits_and_no_hidden_deployment_fields (test_acv0.ACV0Tests.test_nonfinite_limits_and_no_hidden_deployment_fields) ... ok\ntest_ordinary_gradient_and_same_information (test_acv0.ACV0Tests.test_ordinary_gradient_and_same_information) ... ok\ntest_posterior_normalization_opposite_ranking (test_acv0.ACV0Tests.test_posterior_normalization_opposite_ranking) ... ok\ntest_suffix_permutation_equivariance_and_independent_response (test_acv0.ACV0Tests.test_suffix_permutation_equivariance_and_independent_response) ... ok\ntest_terminal_failure_value_and_survival_not_conditioning_only (test_acv0.ACV0Tests.test_terminal_failure_value_and_survival_not_conditioning_only) ... ok\ntest_tree_exact_baseline_budget_and_duplicates (test_acv0.ACV0Tests.test_tree_exact_baseline_budget_and_duplicates) ... ok\ntest_all_terminal_schema_and_zero_suffix_response_gradients (test_extended.ExtendedTests.test_all_terminal_schema_and_zero_suffix_response_gradients) ... ok\ntest_common_history_mismatch_rejected (test_extended.ExtendedTests.test_common_history_mismatch_rejected) ... ok\ntest_duplicate_training_suffix_rejected (test_extended.ExtendedTests.test_duplicate_training_suffix_rejected) ... ok\ntest_early_replan_full_search_and_clock (test_extended.ExtendedTests.test_early_replan_full_search_and_clock) ... ok\ntest_full_tree_production_budget (test_extended.ExtendedTests.test_full_tree_production_budget) ... ok\ntest_independent_native_geometry_and_budget_flags (test_extended.ExtendedTests.test_independent_native_geometry_and_budget_flags) ... ok\ntest_real_disabled_and_existing_ordinary_checkpoint (test_extended.ExtendedTests.test_real_disabled_and_existing_ordinary_checkpoint) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 1.498s\n\nOK\n",
+    "peak_job_memory_bytes": 72781824,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 3579549
+  },
+  {
+    "label": "mock-end-to-end-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "run_mock.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790119952.9091475,
+    "wall_seconds": 1.062000000034459,
+    "returncode": 0,
+    "stdout": "{\"status\": \"MOCK_ONLY\", \"fits\": [12, 12], \"checks\": 48, \"collection_episodes\": 40, \"collection_physical_steps\": 2712, \"controls\": 8}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 79372288,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4290825
+  },
+  {
+    "label": "metadata-proposal-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "plan_metadata.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790120060.0203245,
+    "wall_seconds": 2.094000000040978,
+    "returncode": 0,
+    "stdout": "{\"proposed_counts\": {\"fit\": 64, \"validation\": 16, \"final_development\": 32}, \"remaining_unassigned\": 656, \"exact_source_keys\": 112, \"registry_sha256\": \"3cce1a2b74c84feeece9503dd2873d8db6abd609b546311ed374984ca4d93f68\", \"reference_payload_reads\": 0, \"runtime_metadata_pins\": 70}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 30019584,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4386339
+  },
+  {
+    "label": "pilot-grid-check-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "build_pilot.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790120352.8893929,
+    "wall_seconds": 0.15600000001722947,
+    "returncode": 0,
+    "stdout": "{\"status\": \"REVIEW_REQUIRED_REAL_RUNTIME_DISABLED\", \"maximum_physical_steps\": 230400, \"total_sequences\": 137524352, \"total_latent_transitions\": 412573056, \"gpu_allocation_seconds\": 220800, \"cpu_only_allocation_seconds\": 21600}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 19087360,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4505009
+  },
+  {
+    "label": "artifact-authentication-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "verify_artifacts.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790120452.470053,
+    "wall_seconds": 0.5939999999827705,
+    "returncode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\Chris\\thesis-recovery\\active-counterfactual-verification-20260923\\docs\\active-counterfactual-verification-20260923\\verify_artifacts.py\", line 82, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\active-counterfactual-verification-20260923\\docs\\active-counterfactual-verification-20260923\\verify_artifacts.py\", line 21, in main\n    assert z.read(name)==p.read_bytes()\n           ^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1585, in read\n    with self.open(name, \"r\", pwd) as fp:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1622, in open\n    zinfo = self.getinfo(name)\n            ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\zipfile\\__init__.py\", line 1550, in getinfo\n    raise KeyError(\nKeyError: \"There is no item named 'METHOD.md' in the archive\"\n",
+    "peak_job_memory_bytes": 64741376,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4510957
+  },
+  {
+    "label": "artifact-authentication-02",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "verify_artifacts.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790120475.1679964,
+    "wall_seconds": 1.0320000000065193,
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"original_files\": 16, \"rows\": 1470, \"summary_max_error\": 0.0, \"supplied_sensitivity_summaries_read\": 196, \"neural_cases\": 7, \"real_runtime_executed\": false}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 77697024,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4520657
+  },
+  {
+    "label": "final-contract-tests-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "-m",
+      "unittest",
+      "test_acv0",
+      "test_extended",
+      "-v"
+    ],
+    "state": "finished",
+    "started_unix": 1790120684.9946802,
+    "wall_seconds": 1.4689999999827705,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_bayesian_regression_and_exact_oracle_negative_cases (test_acv0.ACV0Tests.test_bayesian_regression_and_exact_oracle_negative_cases) ... ok\ntest_checker_rejects_wrong_association_and_fictitious_endpoint (test_acv0.ACV0Tests.test_checker_rejects_wrong_association_and_fictitious_endpoint) ... ok\ntest_checkpoint_preprocessing_roundtrip (test_acv0.ACV0Tests.test_checkpoint_preprocessing_roundtrip) ... ok\ntest_clock_5_10_135_fresh_buffers (test_acv0.ACV0Tests.test_clock_5_10_135_fresh_buffers) ... ok\ntest_early_success_truncation_no_post_terminal_work (test_acv0.ACV0Tests.test_early_success_truncation_no_post_terminal_work) ... ok\ntest_exact_gradient_finite_differences_all_parameter_tensors (test_acv0.ACV0Tests.test_exact_gradient_finite_differences_all_parameter_tensors) ... ok\ntest_fit_only_preprocessing_and_source_reduction (test_acv0.ACV0Tests.test_fit_only_preprocessing_and_source_reduction) ... ok\ntest_forward_likelihood_bce_backward_finite (test_acv0.ACV0Tests.test_forward_likelihood_bce_backward_finite) ... ok\ntest_mock_collector_common_history_and_terminal_training (test_acv0.ACV0Tests.test_mock_collector_common_history_and_terminal_training) ... ok\ntest_no_deployment_optimization_or_branch_query (test_acv0.ACV0Tests.test_no_deployment_optimization_or_branch_query) ... ok\ntest_no_response_ablation_same_selection_and_cost (test_acv0.ACV0Tests.test_no_response_ablation_same_selection_and_cost) ... ok\ntest_nonfinite_limits_and_no_hidden_deployment_fields (test_acv0.ACV0Tests.test_nonfinite_limits_and_no_hidden_deployment_fields) ... ok\ntest_ordinary_gradient_and_same_information (test_acv0.ACV0Tests.test_ordinary_gradient_and_same_information) ... ok\ntest_posterior_normalization_opposite_ranking (test_acv0.ACV0Tests.test_posterior_normalization_opposite_ranking) ... ok\ntest_suffix_permutation_equivariance_and_independent_response (test_acv0.ACV0Tests.test_suffix_permutation_equivariance_and_independent_response) ... ok\ntest_terminal_failure_value_and_survival_not_conditioning_only (test_acv0.ACV0Tests.test_terminal_failure_value_and_survival_not_conditioning_only) ... ok\ntest_tree_exact_baseline_budget_and_duplicates (test_acv0.ACV0Tests.test_tree_exact_baseline_budget_and_duplicates) ... ok\ntest_all_terminal_schema_and_zero_suffix_response_gradients (test_extended.ExtendedTests.test_all_terminal_schema_and_zero_suffix_response_gradients) ... ok\ntest_common_history_mismatch_rejected (test_extended.ExtendedTests.test_common_history_mismatch_rejected) ... ok\ntest_duplicate_training_suffix_rejected (test_extended.ExtendedTests.test_duplicate_training_suffix_rejected) ... ok\ntest_early_replan_full_search_and_clock (test_extended.ExtendedTests.test_early_replan_full_search_and_clock) ... ok\ntest_full_tree_production_budget (test_extended.ExtendedTests.test_full_tree_production_budget) ... ok\ntest_independent_native_geometry_and_budget_flags (test_extended.ExtendedTests.test_independent_native_geometry_and_budget_flags) ... ok\ntest_real_disabled_and_existing_ordinary_checkpoint (test_extended.ExtendedTests.test_real_disabled_and_existing_ordinary_checkpoint) ... ok\n\n----------------------------------------------------------------------\nRan 24 tests in 1.027s\n\nOK\n",
+    "peak_job_memory_bytes": 72392704,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4537787
+  },
+  {
+    "label": "complete-counter-tests-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "-m",
+      "unittest",
+      "test_acv0",
+      "test_extended",
+      "-v"
+    ],
+    "state": "finished",
+    "started_unix": 1790120787.3835,
+    "wall_seconds": 1.4380000000237487,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_bayesian_regression_and_exact_oracle_negative_cases (test_acv0.ACV0Tests.test_bayesian_regression_and_exact_oracle_negative_cases) ... ok\ntest_checker_rejects_wrong_association_and_fictitious_endpoint (test_acv0.ACV0Tests.test_checker_rejects_wrong_association_and_fictitious_endpoint) ... ok\ntest_checkpoint_preprocessing_roundtrip (test_acv0.ACV0Tests.test_checkpoint_preprocessing_roundtrip) ... ok\ntest_clock_5_10_135_fresh_buffers (test_acv0.ACV0Tests.test_clock_5_10_135_fresh_buffers) ... ok\ntest_early_success_truncation_no_post_terminal_work (test_acv0.ACV0Tests.test_early_success_truncation_no_post_terminal_work) ... ok\ntest_exact_gradient_finite_differences_all_parameter_tensors (test_acv0.ACV0Tests.test_exact_gradient_finite_differences_all_parameter_tensors) ... ok\ntest_fit_only_preprocessing_and_source_reduction (test_acv0.ACV0Tests.test_fit_only_preprocessing_and_source_reduction) ... ok\ntest_forward_likelihood_bce_backward_finite (test_acv0.ACV0Tests.test_forward_likelihood_bce_backward_finite) ... ok\ntest_mock_collector_common_history_and_terminal_training (test_acv0.ACV0Tests.test_mock_collector_common_history_and_terminal_training) ... ok\ntest_no_deployment_optimization_or_branch_query (test_acv0.ACV0Tests.test_no_deployment_optimization_or_branch_query) ... ok\ntest_no_response_ablation_same_selection_and_cost (test_acv0.ACV0Tests.test_no_response_ablation_same_selection_and_cost) ... ok\ntest_nonfinite_limits_and_no_hidden_deployment_fields (test_acv0.ACV0Tests.test_nonfinite_limits_and_no_hidden_deployment_fields) ... ok\ntest_ordinary_gradient_and_same_information (test_acv0.ACV0Tests.test_ordinary_gradient_and_same_information) ... ok\ntest_posterior_normalization_opposite_ranking (test_acv0.ACV0Tests.test_posterior_normalization_opposite_ranking) ... ok\ntest_suffix_permutation_equivariance_and_independent_response (test_acv0.ACV0Tests.test_suffix_permutation_equivariance_and_independent_response) ... ok\ntest_terminal_failure_value_and_survival_not_conditioning_only (test_acv0.ACV0Tests.test_terminal_failure_value_and_survival_not_conditioning_only) ... ok\ntest_tree_exact_baseline_budget_and_duplicates (test_acv0.ACV0Tests.test_tree_exact_baseline_budget_and_duplicates) ... ok\ntest_all_learned_calls_counted (test_extended.ExtendedTests.test_all_learned_calls_counted) ... ok\ntest_all_terminal_schema_and_zero_suffix_response_gradients (test_extended.ExtendedTests.test_all_terminal_schema_and_zero_suffix_response_gradients) ... ok\ntest_common_history_mismatch_rejected (test_extended.ExtendedTests.test_common_history_mismatch_rejected) ... ok\ntest_duplicate_training_suffix_rejected (test_extended.ExtendedTests.test_duplicate_training_suffix_rejected) ... ok\ntest_early_replan_full_search_and_clock (test_extended.ExtendedTests.test_early_replan_full_search_and_clock) ... ok\ntest_full_tree_production_budget (test_extended.ExtendedTests.test_full_tree_production_budget) ... ok\ntest_independent_native_geometry_and_budget_flags (test_extended.ExtendedTests.test_independent_native_geometry_and_budget_flags) ... ok\ntest_real_disabled_and_existing_ordinary_checkpoint (test_extended.ExtendedTests.test_real_disabled_and_existing_ordinary_checkpoint) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.979s\n\nOK\n",
+    "peak_job_memory_bytes": 72822784,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 4542906
+  },
+  {
+    "label": "mock-counter-receipt-02",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "run_mock.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790120789.4635901,
+    "wall_seconds": 0.9209999999729916,
+    "returncode": 0,
+    "stdout": "{\"status\": \"MOCK_ONLY\", \"fits\": [12, 12], \"checks\": 48, \"collection_episodes\": 40, \"collection_physical_steps\": 2712, \"controls\": 8}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 79953920,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 5260342
+  },
+  {
+    "label": "counter-revision-authentication-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "check_counter_revision.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790120866.0714798,
+    "wall_seconds": 0.625,
+    "returncode": 0,
+    "stdout": "{\"status\": \"PASS\", \"identical_mock_parameters_and_decisions\": true, \"neural_accounting_rows\": 42}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 72699904,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 5278828
   }
 ]

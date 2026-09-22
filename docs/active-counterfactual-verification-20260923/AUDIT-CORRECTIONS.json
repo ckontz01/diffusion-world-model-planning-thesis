@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "reason": "Complete instrumentation: CEM solve/fixed-prefix solve counters and previously separate prior neural predictions",
+  "first_mock_preserved": true,
+  "second_mock_all_parameters_losses_decisions_traces_identical": true,
+  "final_tests": 25,
+  "final_mock_independent_checks": 48,
+  "original_neural_efficacy_run_repeated": false,
+  "early_results_outcome_queries_mean": "conditional candidate queries only; add prior_candidate_predictions for all neural candidate predictions",
+  "corrected_neural_accounting": [
+    {
+      "case": "informative_contact",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "informative_contact",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "informative_contact",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "informative_contact",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "informative_contact",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "informative_contact",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "mostly_known_context",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "mostly_known_context",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "mostly_known_context",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "mostly_known_context",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "mostly_known_context",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "mostly_known_context",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "uninformative_prefix",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "uninformative_prefix",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "uninformative_prefix",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "uninformative_prefix",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "uninformative_prefix",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "uninformative_prefix",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "expensive_prefix",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "expensive_prefix",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "expensive_prefix",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "expensive_prefix",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "expensive_prefix",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "expensive_prefix",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "no_decision_relevant_uncertainty",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unstable_contact_mode",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unstable_contact_mode",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unstable_contact_mode",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unstable_contact_mode",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unstable_contact_mode",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unstable_contact_mode",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "control": "static",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "control": "passive",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "control": "active",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "control": "no_update",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1152,
+      "learned_module_forward_calls": 6,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "control": "ordinary",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    },
+    {
+      "case": "unannounced_sensor_reversal",
+      "control": "bayesian",
+      "prior_candidate_predictions": 9,
+      "conditional_candidate_predictions": 1158,
+      "learned_module_forward_calls": 8,
+      "note": "Counts include both enumerated artificial observed bits, not two physical deployments; no refit"
+    }
+  ]
+}

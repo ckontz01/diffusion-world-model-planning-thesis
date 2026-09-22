@@ -1,0 +1,292 @@
+{
+  "case": "unannounced_sensor_reversal",
+  "training_digest": "89cc47a7205c3bbedceea9f7ca8a47e341e2c225875c495a21a7cf6174ed7dc4",
+  "original_fit_digest_matches": true,
+  "fit_joint": {
+    "trace": [
+      {
+        "epoch": 1,
+        "loss": 3.12070782670446
+      },
+      {
+        "epoch": 2,
+        "loss": 3.001673211447943
+      },
+      {
+        "epoch": 3,
+        "loss": 2.8691864407266237
+      },
+      {
+        "epoch": 4,
+        "loss": 2.6809745241092373
+      },
+      {
+        "epoch": 5,
+        "loss": 2.434117221435355
+      },
+      {
+        "epoch": 6,
+        "loss": 2.1552941891796116
+      },
+      {
+        "epoch": 7,
+        "loss": 1.8496834709948557
+      },
+      {
+        "epoch": 8,
+        "loss": 1.5496194982106664
+      },
+      {
+        "epoch": 9,
+        "loss": 1.2968931921086373
+      },
+      {
+        "epoch": 10,
+        "loss": 1.107465726464957
+      },
+      {
+        "epoch": 11,
+        "loss": 0.9709871466975728
+      },
+      {
+        "epoch": 12,
+        "loss": 0.8685414105689461
+      }
+    ],
+    "updates": 192,
+    "parameters": 5067,
+    "seed": 94011
+  },
+  "fit_ordinary": {
+    "trace": [
+      {
+        "epoch": 1,
+        "loss": 0.7007397285941972
+      },
+      {
+        "epoch": 2,
+        "loss": 0.6823692140349942
+      },
+      {
+        "epoch": 3,
+        "loss": 0.6757584213574972
+      },
+      {
+        "epoch": 4,
+        "loss": 0.6780562034930171
+      },
+      {
+        "epoch": 5,
+        "loss": 0.6740454874550388
+      },
+      {
+        "epoch": 6,
+        "loss": 0.6720643752918071
+      },
+      {
+        "epoch": 7,
+        "loss": 0.6712468959668171
+      },
+      {
+        "epoch": 8,
+        "loss": 0.6709849899355471
+      },
+      {
+        "epoch": 9,
+        "loss": 0.6704289938608439
+      },
+      {
+        "epoch": 10,
+        "loss": 0.6692536677499594
+      },
+      {
+        "epoch": 11,
+        "loss": 0.6689099932923959
+      },
+      {
+        "epoch": 12,
+        "loss": 0.6693647440030415
+      }
+    ],
+    "updates": 192,
+    "parameters": 9921,
+    "seed": 94012
+  },
+  "controls": [
+    {
+      "control": "static",
+      "prefix": 0,
+      "suffix_by_observed_bit": [
+        0,
+        0
+      ],
+      "direct_baseline": true,
+      "predicted_values": [
+        0.5714421141019047,
+        0.6769077805806553,
+        0.5363266706837881
+      ],
+      "expected_success": 0.58,
+      "cost": {
+        "rollout_calls": 0,
+        "sequences": 0,
+        "latent_transitions": 0,
+        "physical_steps": 0,
+        "observations": 0,
+        "integration_responses": 384,
+        "outcome_queries": 1152,
+        "prefix_planning_calls": 0
+      }
+    },
+    {
+      "control": "passive",
+      "prefix": 0,
+      "suffix_by_observed_bit": [
+        2,
+        0
+      ],
+      "direct_baseline": false,
+      "predicted_values": [
+        0.5714421141019047,
+        0.6769077805806553,
+        0.5363266706837881
+      ],
+      "expected_success": 0.54,
+      "cost": {
+        "rollout_calls": 0,
+        "sequences": 0,
+        "latent_transitions": 0,
+        "physical_steps": 0,
+        "observations": 0,
+        "integration_responses": 384,
+        "outcome_queries": 1158,
+        "prefix_planning_calls": 0
+      }
+    },
+    {
+      "control": "active",
+      "prefix": 1,
+      "suffix_by_observed_bit": [
+        2,
+        1
+      ],
+      "direct_baseline": false,
+      "predicted_values": [
+        0.5714421141019047,
+        0.6769077805806553,
+        0.5363266706837881
+      ],
+      "expected_success": 0.21339999999999998,
+      "cost": {
+        "rollout_calls": 0,
+        "sequences": 0,
+        "latent_transitions": 0,
+        "physical_steps": 0,
+        "observations": 0,
+        "integration_responses": 384,
+        "outcome_queries": 1158,
+        "prefix_planning_calls": 0
+      }
+    },
+    {
+      "control": "no_update",
+      "prefix": 1,
+      "suffix_by_observed_bit": [
+        0,
+        0
+      ],
+      "direct_baseline": false,
+      "predicted_values": [
+        0.5714421141019047,
+        0.6769077805806553,
+        0.5363266706837881
+      ],
+      "expected_success": 0.5626,
+      "cost": {
+        "rollout_calls": 0,
+        "sequences": 0,
+        "latent_transitions": 0,
+        "physical_steps": 0,
+        "observations": 0,
+        "integration_responses": 384,
+        "outcome_queries": 1152,
+        "prefix_planning_calls": 0
+      }
+    },
+    {
+      "control": "ordinary",
+      "prefix": 1,
+      "suffix_by_observed_bit": [
+        2,
+        1
+      ],
+      "direct_baseline": false,
+      "predicted_values": [
+        0.5733031073233831,
+        0.620046602370824,
+        0.5678169055414228
+      ],
+      "expected_success": 0.21339999999999998,
+      "cost": {
+        "rollout_calls": 0,
+        "sequences": 0,
+        "latent_transitions": 0,
+        "physical_steps": 0,
+        "observations": 0,
+        "integration_responses": 384,
+        "outcome_queries": 1158,
+        "prefix_planning_calls": 0
+      }
+    },
+    {
+      "control": "bayesian",
+      "prefix": 1,
+      "suffix_by_observed_bit": [
+        2,
+        1
+      ],
+      "direct_baseline": false,
+      "predicted_values": [
+        0.6155496693518406,
+        0.6423786134348112,
+        0.5788815592585297
+      ],
+      "expected_success": 0.21339999999999998,
+      "cost": {
+        "rollout_calls": 0,
+        "sequences": 0,
+        "latent_transitions": 0,
+        "physical_steps": 0,
+        "observations": 0,
+        "integration_responses": 384,
+        "outcome_queries": 1158,
+        "prefix_planning_calls": 0
+      }
+    },
+    {
+      "control": "correctly_specified_exact_Bayes",
+      "prefix": 1,
+      "suffix_by_observed_bit": [
+        1,
+        2
+      ],
+      "expected_success": 0.7565999999999999
+    }
+  ],
+  "held_out_support": {
+    "validation": {
+      "sources": 128,
+      "data_sha256": "ec3aee00254000561e28399f3a18b2198648f763cac506b33196e07c3aa70011",
+      "joint_brier": 0.3028124621220825,
+      "ordinary_brier": 0.2772374467071968,
+      "joint_bce": 0.8141328810736993
+    },
+    "test": {
+      "sources": 256,
+      "data_sha256": "2d4a98e7e3630286856f9620ba582d1017eaa44b2ccb2c1984a4319b56cf8c8e",
+      "joint_brier": 0.298557477615044,
+      "ordinary_brier": 0.27692045159828854,
+      "joint_bce": 0.8047119804650948
+    }
+  }
+}

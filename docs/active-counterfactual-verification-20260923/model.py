@@ -210,6 +210,20 @@ class OrdinaryModel:
         _,g=self.net.backward((w*(q-y)).reshape(-1,1),cache)
         return loss,g,dict(outcome_bce=loss)
 
+    @classmethod
+    def load(cls,path,joint):
+        """Restore the declared companion checkpoint; preprocessing from joint."""
+        if Path(path).stat().st_size>20_000_000:raise ValueError('Checkpoint byte cap')
+        with np.load(path,allow_pickle=False) as p:
+            meta=json.loads(str(p['metadata']))
+            if meta['kind']!='ACV0-ordinary' or meta['preprocessing']!='joint.npz':raise ValueError('Checkpoint type')
+            model=cls(joint.xdim,joint.adim,joint.rdim,meta['seed'],joint.pre)
+            if tuple(meta['dims'])!=model.net.dims:raise ValueError('Checkpoint dimensions')
+            for i,v in enumerate(model.params):
+                if p[f'p{i}'].shape!=v.shape:raise ValueError('Checkpoint shape')
+                v[:]=finite(p[f'p{i}'])
+        return model
+
 
 class Adam:
     def __init__(self,params):
