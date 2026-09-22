@@ -1,0 +1,160 @@
+LGP LINE CLOSURE — evidence synthesis and thesis-results draft
+
+Accepted completed result:
+0b6507fc7398eb0624d0755035db22e666de74d5
+
+Accepted R1 preservation/location record:
+28cbcf18ec16bcb496132c7c9bd0204a7cf2eca9
+
+Close the current LGP1 / LGP-RB1 / LGP-RB2 proposer-and-refinement-budget
+development line. Retain continuation; promote neither proposer.
+
+This is a prospective research-priority decision. Do not alter any
+historical scientific verdict, interval, source allocation, checkpoint,
+approval, archive or recovery record.
+
+AUTHORIZED TASK
+
+Create one publication-ready, source-grounded closure package in:
+
+docs/local-goal-line-closure-20260922/
+
+Use a separate documentation branch/worktree based on the completed
+published record. Preserve unrelated changes and the E12 drafts.
+Do not merge automatically into main.
+
+DELIVERABLES
+
+1. DECISION.md — at most one page.
+
+Record:
+- The five-population diffusion lead did not replicate on the 512-source
+  development cohort.
+- The budget-interaction hypothesis was not supported.
+- Neither local proposer is promoted.
+- This line is closed for now; the overall thesis is not declared finished.
+- No further round-count, seed, return-rule, sampler or training search
+  is authorized by this decision.
+- Continuation remains the working system, but was not a live RB2 arm.
+
+2. RESULTS-AND-DISCUSSION.md — approximately 2,000–3,000 words.
+
+Write a thesis-ready section covering:
+- The original local-goal proposer question and shared-planner boundary.
+- LGP1's matched 30-population comparison.
+- RB1's small-source budget mapping and why it motivated replication.
+- RB2's source-role separation, fixed four arms, native endpoint and
+  source-cluster analysis.
+- All four RB2 success rates, the primary contrast, interaction and
+  prespecified secondary contrasts.
+- Actual timing boundaries and the success–computation trade-off.
+- What the results support, what they do not establish, and why this
+  specific line is being closed.
+
+Keep the original 32-source and new 512-source results separate.
+Do not pool their outcomes, recalculate confidence intervals, select
+subgroups, add a non-inferiority margin or invent a new decision gate.
+
+Explain that “not replicated” is not “equivalent” or “universally worse.”
+Do not claim CEM erased an advantage or identify an untested causal fault.
+
+Include a short context paragraph connecting this result to the earlier
+E11 and independent PushT findings, using their pinned original reports.
+Preserve their different populations, comparators, success definitions,
+timing boundaries and registered claim limits.
+
+Do not present cross-study absolute rates as a performance time series.
+Do not describe matched local GMM as native SAGE.
+
+3. CLAIMS-AND-EVIDENCE.csv
+
+For each substantive conclusion, record:
+- Exact proposed wording.
+- Supporting immutable file/commit and section.
+- Population and comparator.
+- Whether it is a reported result, arithmetic derivation, interpretation,
+  limitation or prospective research decision.
+- A stronger wording that the evidence does NOT support.
+
+Include explicit entries for:
+- Failed replication of the development-selected operating point.
+- No established proposer superiority/equivalence.
+- Uncertain family-by-budget interaction.
+- Shared success–compute trade-off.
+- No live continuation/SAGE comparison.
+- No untouched-confirmation or universally source-unseen claim.
+- Earlier positive evidence remaining valid within its original scope.
+
+4. Two fixed figures, with a small reproducible plotting script.
+
+Figure A:
+Diffusion-minus-GMM effects at five and thirty populations in RB1 and
+RB2, showing the already published intervals in separate cohort panels.
+Do not combine cohorts or add a new interval computation.
+
+Figure B:
+All four RB2 configurations, native success against mean measured
+complete-episode time. Use the frozen aggregate's reported success
+intervals and derive time means only as total divided by episode count.
+State explicitly that episode timing includes instrumentation/evidence
+handling and excludes shared model setup. Do not invent time intervals
+or statistical Pareto-dominance claims.
+
+Use published compact summaries only. No raw trajectory/model access.
+
+5. README status update on this documentation branch.
+
+Add a concise current conclusion and link to the closure package.
+Keep the historical chronology and immutable result links intact.
+Do not replace earlier findings with a single blanket negative verdict.
+
+DATA AND COMPUTATION BOUNDARY
+
+Allowed:
+Read the existing published reports, aggregate projections, metadata,
+preservation-location records and fixed episode/source summaries
+necessary for accurate documentation.
+
+Allowed calculations:
+Arithmetic formatting, rate/count checks, plotting existing estimates,
+and document/link consistency checks.
+
+Not allowed:
+New simulator or model calls, optimizer steps, checkpoint loading,
+new labels, new bootstrap/inferential analysis, subgroup search,
+raw protected/reserved payload access, analyzer reruns, archive creation,
+bulk retransfers or renewed integrity audits of completed physics.
+
+No Slurm jobs and zero GPU allocations.
+
+Finite local processing envelope:
+- At most two wall-hours of scripted document/plot/check execution.
+- At most four CPU threads and 8 GiB RAM.
+- At most 250,000,000 new bytes including generated figures, documents,
+  scripts and logs.
+- No dependency installation or filesystem/permission repair.
+- Stop and report a concrete tool or source blocker rather than
+  expanding the task or replacing evidence with assumptions.
+
+PRESERVATION AND COMPLETION
+
+Use the healthy checkout and designated THESIS_SSD.
+Back up only the new small closure package and verify its copied hashes.
+Reference the already verified R1 archive and historical union; do not
+repeat their bulk transfer or recompute the scientific analysis.
+
+Commit and push the completed documentation/figures/checks.
+Read back the exact remote commit.
+
+If the completed RB2-specific monitor is still enabled, disable only
+that positively identified task and preserve its final status.
+Do not modify unrelated scheduled tasks or cancel unrelated jobs.
+
+RETURN
+
+Return the completed package, verified commit, generated-file identities,
+document/figure checks and any explicitly unresolved source limitation.
+
+Do not propose or launch another experiment automatically.
+No extra researcher-approval loop is needed for this exact writing task.
+A new method-development study requires a separately justified direction.
