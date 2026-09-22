@@ -1,0 +1,15 @@
+{
+  "checks": [
+    "Verified full new and historical archive union receipts",
+    "Accessed archived aggregate/member SHA and bytes",
+    "1537 unique bounded successful allocations and all charges",
+    "12288 unique exact allowlisted source/seed/arm/horizon identities",
+    "Zero reused rows and endpoint actions/native-success/post-action consistency",
+    "1536 workers: unchanged models and 12288 endpoint checks",
+    "Every source equal-weight arm mean and every one of 24 strata matches complete rows",
+    "Exact planning scoring/candidate/predicted-step arithmetic",
+    "Primary and secondary intervals reused unchanged from sealed complete analyzer"
+  ],
+  "passed": true,
+  "research_execution": false
+}

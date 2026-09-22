@@ -1,0 +1,51 @@
+{
+  "checks": [
+    "All report arm rates, contrast estimates/intervals, counts, calls and timing cells match preserved completed aggregate projection",
+    "Complete 512-source / 24-stratum / 12288-identity disclosure",
+    "Verified recovery mapping and original failure retained"
+  ],
+  "files": {
+    "FINAL-ACCOUNTING.json": {
+      "bytes": 2568169,
+      "sha256": "1e3ea81fe4aa46ebaeadeba1c49b4a92d54a84880237cf514f71392a90f49dc2"
+    },
+    "FINAL-AGGREGATE-PROJECTION.json": {
+      "bytes": 203939,
+      "sha256": "c4a453a9c42c18315c6aa661ac26fe57c18b0dbd507d32d340c7fbefc302a630"
+    },
+    "FINAL-AUTHENTICATION.json": {
+      "bytes": 46925,
+      "sha256": "1ede4b14247b3ad82eb35e7cc8cf1d2dff8118f4cb924f77f591b3cb8048ce57"
+    },
+    "FINAL-BACKUP-VERIFIED.json": {
+      "bytes": 40864,
+      "sha256": "f37008725443d44a883f7a3035c67070e2560dacedf2cbad3fccf0c23d688cb6"
+    },
+    "FINAL-EPISODES.json": {
+      "bytes": 10789495,
+      "sha256": "3af4dcf7145d6be6f5769f66a84f250e117bd362c445a0aa916f06f074a4a859"
+    },
+    "FINAL-PUBLICATION-CHECKS.json": {
+      "bytes": 719,
+      "sha256": "15f3c20e1aaf6e2f034018989cbd8f1a24f62958c2414866a86f8ee141e8048c"
+    },
+    "FINAL-REPORT.md": {
+      "bytes": 13257,
+      "sha256": "ea6bb2dd73e7eb91642a3239ee01d8f64f128da4fd6d7145d7aa7cff96a032df"
+    },
+    "FINAL-SOURCE-EFFECTS.md": {
+      "bytes": 38224,
+      "sha256": "2899aa7ef3238c449e4dfbd7a83afb5ed1f8525c524d5d9b1283c2e65b025694"
+    },
+    "publish.py": {
+      "bytes": 13910,
+      "sha256": "14bf2798e7d64fcfc8f5d4e37cbdbc4e5f24191a555d5a935d3a39e54e74765e"
+    },
+    "verify_publication.py": {
+      "bytes": 3072,
+      "sha256": "38e7d6a437c90bb25e45ddb1814be8fd42e96384f5474952488f668ca9a461fc"
+    }
+  },
+  "passed": true,
+  "research_execution": false
+}
