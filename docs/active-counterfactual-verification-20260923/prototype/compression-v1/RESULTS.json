@@ -1,0 +1,12 @@
+{
+  "max_dense_compressed_mean_error": 6.181721801112872e-13,
+  "max_dense_compressed_covariance_error": 7.260858581048524e-14,
+  "cases": 64,
+  "conditional_means_checked": 1024,
+  "max_compressed_dimensions": 7,
+  "raw_observation_dimensions": 192,
+  "common_mode_dimensions": 0,
+  "scalar_envelope_invariance_cases": 100,
+  "seconds": 0.7650230460001239,
+  "scope": "Supplied valid Gaussian laws. No neural model was trained; no robotics result."
+}

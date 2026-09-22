@@ -1,0 +1,391 @@
+ACV0 — IMPLEMENT ACTIVE COUNTERFACTUAL FEEDBACK VERIFICATION
+
+This is a new, bounded implementation assignment under the existing
+delegation. It is separate from AV0, AV1, CVL and the closed LGP line.
+
+AUTHORIZED NOW:
+Implementation, source inspection, artificial-data training/testing,
+mocked end-to-end execution, metadata-only data planning, commits and
+verified small backups.
+
+NOT AUTHORIZED YET:
+Research-checkpoint inference, research-data training, simulator/physics
+execution, new outcome collection, Slurm submission or GPU allocation.
+
+The next deliverable is a runnable implementation and one costed,
+source-disjoint real-runtime pilot. Do not return only another literature
+review or another variant of the old calibration controls.
+
+WORKING QUESTION
+
+Can a short, budgeted action prefix provide evidence that improves the
+choice between its possible continuations—and can we learn which prefix
+is worth executing to obtain that evidence?
+
+The proposed contribution is the learned response-to-continuation
+relationship and its practical use around a frozen planner.
+
+Do not claim to invent dual control, Bayesian experimental design,
+feedback adaptation or active sensing. Novelty and robot efficacy
+remain unestablished.
+
+1. IMPORT AND CHECK THE PROVIDED PROTOTYPE
+
+Attachment:
+Active_counterfactual_verification_candidate_20260923.zip
+
+Archive SHA256:
+9d843e842aae5318e55d65520a21b782cbb0f1c34c50875375fad6aa46cd95b2
+
+Inspect before execution. Verify the internal manifest and preserve the
+original ZIP, source and outputs unchanged.
+
+Read METHOD.md, README.md and PRIOR-ART.md. Distinguish:
+- Implemented artificial table-learning and decision mechanism.
+- Implemented Gaussian analytical component.
+- Proposed but unimplemented neural model.
+- Unresolved real-data and prior-art questions.
+
+Run the supplied unit tests and main artificial experiment once in a
+fresh output directory. Check the recorded positive AND negative cases,
+including the reversal failure and equality with the exact Bayes control.
+
+Do not rerun the entire sensitivity grid unless needed to localize a
+specific implementation discrepancy. Do not change the original scenarios,
+training sizes or seeds to strengthen the proposal.
+
+Create a separate branch/workspace, for example:
+active-counterfactual-verification-preparation-20260923
+docs/active-counterfactual-verification-20260923/
+
+Inspect Git state first. Preserve unrelated work and E12 drafts.
+
+2. FIX THE FIRST EXECUTION OBJECT
+
+Use one active verification opportunity at the INITIAL decision only.
+After it, return to a fixed, explicitly identified baseline policy.
+
+Initial integration target:
+- PushT.
+- Existing H75 goal fixture.
+- Original 150-primitive-action total budget.
+- Five-action prefix, then a ten-action continuation.
+- At absolute action 15, hand off to the baseline for the remaining135.
+- Native success at any post-action step counts, including the prefix.
+- No budget restart, free probing, reset after observation or repeated
+  active verification during the same episode.
+
+These are the starting engineering choices for the pilot proposal,
+not historical results or authorization to execute it.
+
+Use frozen Le-WM and a direct-final-goal vanilla-CEM interface as the
+shared planning backbone. Inspect the actual compatible source.
+Do not instantiate SAGE/LGP local-target generators or train another
+diffusion/GMM proposer.
+
+Keep continuation as the project's existing working system. The vanilla
+CEM here is a separately specified experimental reference, not a
+retroactive replacement of the thesis baseline.
+
+3. BUILD AN EXPLICIT PREFIX–CONTINUATION TREE
+
+For implementation, use at most four prefix slots and four continuation
+slots per prefix: at most16 complete fifteen-action plans.
+
+Include the exact action sequence the unmodified baseline would return:
+its first five actions as a prefix and its remaining ten as one of that
+prefix's continuations.
+
+Define and document a deterministic, outcome-independent rule for:
+- Choosing the other prefixes from available planner proposals.
+- Constructing suffixes with each prefix held fixed.
+- Keeping the baseline sequence unchanged.
+- Handling exact duplicates and unavailable unique slots.
+- Resolving score ties.
+
+Do not pretend independently sampled continuous sequences share a prefix
+merely because their first actions are approximately close.
+
+Construct the entire matched tree using information available BEFORE
+prefix execution. Do not use observed branch outcomes to choose its nodes.
+
+The matched feedback selectors may choose only among the suffixes of
+the prefix actually executed. They may not:
+- Borrow a suffix that assumes a different prefix happened.
+- Regenerate extra candidates after inspecting the response.
+- Query the simulator for an unexecuted branch during deployment.
+
+This is a change to search packaging, not a rank-only intervention on
+an unchanged flat bank. Count every tree-construction rollout and model
+call, including any needed to retain the actual baseline plan.
+
+4. IMPLEMENT THE LEARNED JOINT RESPONSE MODEL
+
+Implement the four-component model proposed in METHOD.md.
+
+Available inputs:
+h = pre-prefix observed history, action history, goal and remaining budget.
+p = proposed five-action prefix.
+a_i = a ten-action continuation associated with that prefix.
+r = observed prefix latent minus its frozen-model predicted latent.
+
+Use a shared context/prefix encoder to produce:
+- Four component probabilities pi_m(h,p).
+- Four diagonal-Gaussian response means and scales.
+
+Use a shared continuation encoder to predict:
+s_m(h,p,a_i) = probability of full-budget native success under component m.
+
+After observing r:
+w_m ∝ pi_m × Normal(r; mu_m, Sigma_m)
+q_i(h,p,r) = sum_m w_m × s_m(h,p,a_i)
+
+Implement stable log-domain posterior normalization, positive bounded
+variance parameterization, finite-value checks and checkpoint round trips.
+
+Fit the proposed response likelihood and candidate outcome objective
+using artificial data now. Document the exact losses, reductions,
+weights, parameter counts, optimizer and seeds before fitting.
+
+Use a response-likelihood term once per actual prefix observation.
+Do not count its duplication across suffix labels as extra independent
+response evidence. Average outcome terms hierarchically within
+source/prefix; coupled branch outcomes are not independent sources.
+
+Fit preprocessing on fitting sources only. No reference-ID, candidate
+slot-ID shortcut, true hidden parameter, future outcome or simulator-only
+state unavailable to the controls may enter deployment inputs.
+
+Before-prefix response predictions must not depend on which future
+suffix happens to be evaluated. Changing the suffix bank must not
+change the predicted physical response to a fixed prefix.
+
+There are no optimizer steps at deployment. All learned weights remain
+fixed; only observation-conditioned posterior weights change.
+
+Leave Gaussian contrast compression out of the first neural treatment.
+Retain it as an analytical reference. Its Gaussian sufficiency result
+does not establish sufficiency for this nonlinear binary-success model.
+
+5. IMPLEMENT THE TWO-STAGE DECISION
+
+Before execution, estimate:
+
+V(p) = E_r [max_i q_i(h,p,r)].
+
+Compare this with the model's estimate for committing to the original
+baseline plan without an extra decision.
+
+Use a fixed, declared integration rule and response-sampling budget,
+with separate random streams and common integration samples wherever
+comparisons permit. No runtime sample-count or threshold sweep.
+
+Choose the prefix by expected full-task outcome, not entropy, residual
+magnitude, immediate distance or an arbitrary exploration bonus.
+
+Execute only the selected prefix, observe its actual response, then
+select its continuation using the posterior q_i.
+
+Every prefix's physical consequences and consumed actions belong in
+its eventual-success target. Do not add an arbitrary probe penalty
+that double-counts a cost already represented in that target.
+
+Handle prefix success and other native termination explicitly:
+- Stop immediately when the environment terminates.
+- Do not request an observation at action5 after earlier termination.
+- Do not generate or execute fictitious suffixes.
+- Do not evaluate only surviving prefixes and call that an unconditional
+  value estimate.
+
+Specify terminal-success, terminal-failure and active-prefix contributions
+to V(p). Include terminal-prefix cases in the training/collection schema
+without physically repeating unused suffix branches.
+
+6. IMPLEMENT THE NECESSARY CONTROLS
+
+Use the same tree, available inputs, training sources and physical budget
+wherever the comparison is meant to isolate the mechanism.
+
+Required mechanism controls:
+
+A. Static commitment:
+   Select a complete plan before seeing the prefix response.
+
+B. Passive feedback:
+   Use the baseline's fixed prefix, then the proposed response model
+   to select a continuation.
+
+C. Full active feedback:
+   Choose the prefix by V(p), observe, and rerank continuations.
+
+D. No response update:
+   Retain the full method's pre-prefix selection computation but choose
+   the suffix without conditioning on the actual response.
+   Charge all computation; do not portray this as a cheaper controller.
+
+E. Same-information ordinary predictor:
+   A strong ordinary history-conditioned outcome model receiving the
+   same available pre/post observations, actions, predictions and residual.
+   It lacks the proposed shared mixture structure—not the evidence.
+
+F. Established Bayesian feedback control:
+   A correctly specified tractable Bayesian reference on artificial
+   problems; propose a feasible ALPaCA-style/Bayesian-regression control
+   for the real integration, with fidelity and assumptions explicit.
+
+Use a shared response-sampling model and integration budget for active
+comparisons where possible. Do not give the proposed method a better
+prefix-value estimate merely by starving its control of inputs or samples.
+
+Also specify ordinary vanilla-CEM replanning after five actions as a
+practical early-replanning comparator. Because it may construct a fresh
+post-prefix bank, label it separately from the fixed-tree controls and
+account for its complete search budget.
+
+This comparator must not be weakened merely to preserve a common-bank
+claim. The mechanism must eventually add value beyond "observe sooner."
+
+An information-gain prefix selector can remain an artificial diagnostic.
+Do not expand into a large real comparator grid in this preparation.
+
+7. TEST THE ACTUAL IMPLEMENTATION, NOT ONLY THE OLD TABLE EXAMPLE
+
+Use artificial weights, observations and vector environments.
+
+Cover:
+- Model forward, likelihood, BCE and backward paths.
+- Posterior normalization and opposite candidate-ranking updates.
+- Checkpoint/preprocessing save-load identity.
+- Candidate permutation equivariance and duplicate handling.
+- Suffix independence of the response distribution.
+- Correct five-plus-ten action association.
+- Preservation of the baseline's exact complete action sequence.
+- Remaining-budget and absolute-clock accounting.
+- Early prefix and suffix success, truncation and no post-terminal work.
+- Fresh episode ownership of histories, buffers and random streams.
+- No hidden-mode or outcome leakage into the deployed policy.
+- No deployment callback that can inspect unexecuted physical branches.
+- No-response ablation actually removing the response update.
+- Same-information control actually receiving the same observations.
+- Finite integration and storage limits.
+- End-to-end mocked collection, fitting, decision and reporting paths.
+
+Retain the costly, uninformative, unstable and reversed-response cases.
+Add new tests only for implementation contracts, not artificial efficacy
+scenarios tuned to favor the neural model.
+
+A synthetic training pass establishes wiring, not real sample efficiency
+or useful behaviour on Le-WM representations.
+
+8. PREPARE A LEGITIMATE BRANCH-DATA DESIGN
+
+No new reference payload may be opened during this assignment.
+
+Inspect existing metadata and schemas to determine what can be reused.
+Do not reuse a CVL label under the wrong prefix, continuation or tail.
+
+For the future pilot, training labels must correspond to:
+
+native success after the recorded prefix,
+then one of ITS recorded continuations,
+then the fixed baseline tail to the original budget.
+
+Every suffix branch for a prefix must start from the same actual physical
+history. Use accepted fresh construction and prefix replay, not an
+assignment of a visible state vector that discards hidden physics.
+
+Check and record common post-prefix state/observation identity.
+Count replayed prefixes as real physical work.
+
+Do not pair one branch's observed residual with another branch's outcome
+unless their common-history identity is actually established. In a
+stochastic environment, define the coupling explicitly.
+
+Separate whole-source fitting, validation and final pilot evaluation.
+All prefixes, suffixes, draws and derived rows from a source stay together.
+
+Reconcile canonical roles. AV0/AV1 proposed allocations are not proof of
+actual exposure, while RB2's512 are now exposed evaluation sources.
+Do not silently reserve or consume every remaining eligible reference.
+
+Keep1600–5999, reserved CVL closed-loop, BP1 evaluation and earlier
+protected payloads unopened. Do not vary friction, mass or other physics
+to manufacture hidden uncertainty in the first PushT experiment.
+
+Return a small, explicitly developmental pilot allocation proposal with
+exact IDs and maximum branch counts. Do not claim it is powered
+confirmation.
+
+9. CHECK THE NARROW PRIOR-ART DIFFERENCE
+
+Use PRIOR-ART.md as leads, not proof.
+
+Verify the primary methods and available code for:
+knowledge-gradient/dual control, ALPaCA, Feedback World Model,
+CheckVLA and IMPLY.
+
+This is a short method-fidelity task alongside implementation, not another
+open-ended survey. Record inaccessible manuscripts honestly. Do not claim
+they lack a feature that could not be checked.
+
+State the proposed difference as an empirical system hypothesis:
+a compact learned prefix-response model may improve continuation choices
+beyond ordinary history conditioning and established Bayesian feedback.
+
+The decision-valued acquisition equation itself is known.
+The proposed model is not entitled to beat exact Bayesian control.
+A residual is derived from the observation, not privileged new information.
+
+No "first," universal guarantee, safety claim or paper-superiority claim
+without supporting evidence.
+
+10. RETURN ONE EXECUTABLE PILOT PACKAGE
+
+Deliver:
+- Neural response/continuation model and training code.
+- Explicit candidate-tree constructor.
+- One-shot prefix/observe/continue policy adapter.
+- Required control implementations.
+- Mocked branch collector and independent action/endpoint checker.
+- Focused tests and complete synthetic results.
+- Short prior-art/fidelity table.
+- Data-role proposal.
+- One fixed, staged real-runtime pilot protocol and cost plan.
+
+Specify exact baseline/runtime/checkpoints, sources, tree sizes, models,
+fit seeds, update budgets, response-integration samples, control grid,
+primary comparisons, physical steps and model-call bounds.
+
+The pilot's primary endpoint is full-budget native success.
+Held-out prediction improvements are supporting evidence only.
+
+Propose one included technical tranche and explicit compute/storage caps,
+no automatic retries, no case replacement and verified preservation.
+Account for both training branch collection and actual policy evaluation.
+
+Real runtime remains disabled until this concrete package is reviewed.
+Ordinary implementation work within this assignment needs no repeated
+general approval request.
+
+PREPARATION LIMITS
+
+At most four cumulative wall-hours of local scripted execution,
+four CPU threads, 8GiB RAM and1GB of new outputs.
+
+Artificial-data optimizer steps are allowed.
+Research-data optimizer steps and research-checkpoint loading are not.
+
+Use existing environments. Do not install into or alter the pinned
+scientific runtime. No Slurm/GPU work, filesystem repair, permission
+change, author contact or historical-controller restart.
+
+Preserve the original prototype, AV0/addendum, all scientific outcomes,
+checkpoints and E12 drafts.
+
+Commit/push in focused steps and verify the final remote hash.
+Back up the small new package on designated THESIS_SSD and verify bytes.
+Do not retransmit historical archives.
+
+Return implemented versus real-runtime-untested status clearly.
+No large collection, benchmark, model promotion or follow-up launches
+automatically.

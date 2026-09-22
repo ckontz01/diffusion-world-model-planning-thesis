@@ -1,0 +1,9 @@
+{
+  "cases": 64,
+  "latent_rank": 12,
+  "obs_noise": 0.3,
+  "observation_dim": 192,
+  "observations_per_case": 16,
+  "seed": 20260923,
+  "utility_dim": 8
+}

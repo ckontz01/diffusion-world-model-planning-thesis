@@ -1,0 +1,20 @@
+test_action_protocol_no_counterfactual_test_read (__main__.MechanismChecks.test_action_protocol_no_counterfactual_test_read) ... ok
+test_contingent_rule_equals_exhaustive_standard_bayes (__main__.MechanismChecks.test_contingent_rule_equals_exhaustive_standard_bayes) ... ok
+test_hidden_modes_not_in_fit_inputs (__main__.MechanismChecks.test_hidden_modes_not_in_fit_inputs) ... ok
+test_high_cost_probe_declined (__main__.MechanismChecks.test_high_cost_probe_declined) ... ok
+test_informative_example_exact (__main__.MechanismChecks.test_informative_example_exact) ... ok
+test_joint_normalization (__main__.MechanismChecks.test_joint_normalization) ... ok
+test_learned_joint_normalized (__main__.MechanismChecks.test_learned_joint_normalized) ... ok
+test_mode_known_prefers_direct (__main__.MechanismChecks.test_mode_known_prefers_direct) ... ok
+test_no_information_declined (__main__.MechanismChecks.test_no_information_declined) ... ok
+test_observation_law_does_not_depend_on_future_suffix (__main__.MechanismChecks.test_observation_law_does_not_depend_on_future_suffix) ... ok
+test_oracle_not_worse_than_static (__main__.MechanismChecks.test_oracle_not_worse_than_static) ... ok
+test_permutation_of_suffixes (__main__.MechanismChecks.test_permutation_of_suffixes) ... ok
+test_predictor_changes_ranking_after_signal (__main__.MechanismChecks.test_predictor_changes_ranking_after_signal) ... ok
+test_unannounced_reversal_is_failure_not_guarantee (__main__.MechanismChecks.test_unannounced_reversal_is_failure_not_guarantee) ... ok
+test_unstable_mode_declined (__main__.MechanismChecks.test_unstable_mode_declined) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.022s
+
+OK

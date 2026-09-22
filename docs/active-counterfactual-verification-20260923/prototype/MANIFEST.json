@@ -1,0 +1,74 @@
+{
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+  "research_calls": 0,
+  "gpu_calls": 0,
+  "scope": "Local generated arrays only, no actual physics",
+  "files": {
+    "METHOD.md": {
+      "bytes": 10763,
+      "sha256": "f6b2f087157f3f1edddea8c65f57666510fa18d4d2bf5344c3cddc0f313ccb6d"
+    },
+    "PRIOR-ART.md": {
+      "bytes": 3766,
+      "sha256": "e0b097a0fa566fa255b20832c951a68c71f2e89189f8675a68a5ad2eb54b3a28"
+    },
+    "README.md": {
+      "bytes": 5190,
+      "sha256": "9f28fd7efe51df9bc69bc0b7dec6aa146ef28fee7643b77ab786677f36526e92"
+    },
+    "check_compression.py": {
+      "bytes": 2709,
+      "sha256": "722a39c6590f7bfa8263f7c10c8ce9747cef370ec724ab12af95c9e499bdb420"
+    },
+    "compression-v1/CONFIG.json": {
+      "bytes": 156,
+      "sha256": "e6c6237a001cf3e522d699f2a52d443450a505f5882d3ef077df5e7da94bc2cf"
+    },
+    "compression-v1/RESULTS.json": {
+      "bytes": 452,
+      "sha256": "8116ba7eacd20708f0f0f24a8ace000e7d9263ad254fc2408d322104ba213c85"
+    },
+    "contrast_filter.py": {
+      "bytes": 3632,
+      "sha256": "0495f7162391c7656550e0c1372f6ad78f3b802ccef4c8793aaa45209a2dfe46"
+    },
+    "experiment.py": {
+      "bytes": 9764,
+      "sha256": "eb5e3ed076558d0a99266d9ac55840bd2034f50f8731e8d153a2d933a0924129"
+    },
+    "run-v1/CONFIG.json": {
+      "bytes": 1970,
+      "sha256": "4922873c0dee3427a601189897cc15a57d4bd16f90c01ef9079590512028ef08"
+    },
+    "run-v1/RESULTS.json": {
+      "bytes": 355438,
+      "sha256": "348acc837e90e60d855095284d0b001772288c7decc6c77add56d41bcae1d0bc"
+    },
+    "run-v1/TABLE.md": {
+      "bytes": 731,
+      "sha256": "5e96e71edb77fa0db7805eff950f56dea7fd1d5e9f322200e2a291a77199c7e8"
+    },
+    "scale_check.py": {
+      "bytes": 2512,
+      "sha256": "fa958e939fccbb4c717f9039e3e27f891ac90d486aa37e2eb4ace9699bea5b82"
+    },
+    "sensitivity-v1/CONFIG.json": {
+      "bytes": 1478,
+      "sha256": "339970f05456a06b4316abe0345d26318b477f76d7c5db3be29f7c82dbd79c2a"
+    },
+    "sensitivity-v1/RESULTS.json": {
+      "bytes": 21882,
+      "sha256": "1f35f2e84e7b7c188c7d03b3c1d7bfe61df38d07f1155d0d0c6925fa1d426fb9"
+    },
+    "test-log.txt": {
+      "bytes": 1719,
+      "sha256": "966a7acecfecf94c17b53e0be1bf41fd363e543b98aee280e404b8354c456889"
+    },
+    "tests.py": {
+      "bytes": 3922,
+      "sha256": "bab1f2a0915cffcb8c2cc4f8cd940f167b17f0bea233cffd0b527eb4a6081bbb"
+    }
+  }
+}
