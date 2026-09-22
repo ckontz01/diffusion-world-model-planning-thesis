@@ -1,0 +1,112 @@
+{
+  "provenance": {
+    "RB1": {
+      "commit": "8a79e267cb0cb7b6243900cb3bc194e0eb069a85",
+      "path": "docs/local-goal-search-budget-20260919/FINAL-AGGREGATE-PROJECTION.json",
+      "sha256": "0d322258a04270da446bebb02e3484ad321eea43afbed6efc40b2e5765bedbe6"
+    },
+    "RB2": {
+      "commit": "0b6507fc7398eb0624d0755035db22e666de74d5",
+      "path": "docs/local-goal-source-replication-publication-20260920/completion-v6/FINAL-AGGREGATE-PROJECTION.json",
+      "sha256": "c4a453a9c42c18315c6aa661ac26fe57c18b0dbd507d32d340c7fbefc302a630"
+    }
+  },
+  "figure_a": [
+    {
+      "cohort": "LGP-RB1",
+      "sources": 32,
+      "effects": [
+        {
+          "populations": 5,
+          "mean": 0.03125,
+          "interval": [
+            -0.03645833333333333,
+            0.09895833333333334
+          ]
+        },
+        {
+          "populations": 30,
+          "mean": -0.01041666666666667,
+          "interval": [
+            -0.078125,
+            0.05208333333333333
+          ]
+        }
+      ]
+    },
+    {
+      "cohort": "LGP-RB2",
+      "sources": 512,
+      "effects": [
+        {
+          "populations": 5,
+          "mean": -0.007486979166666666,
+          "interval": [
+            -0.020833333333333332,
+            0.005859375
+          ]
+        },
+        {
+          "populations": 30,
+          "mean": -0.007812499999999999,
+          "interval": [
+            -0.023437499999999997,
+            0.0078125
+          ]
+        }
+      ]
+    }
+  ],
+  "figure_b": [
+    {
+      "arm": "gmm-5",
+      "episodes": 3072,
+      "successes": 464,
+      "rate": 0.15104166666666669,
+      "interval": [
+        0.1328125,
+        0.1689453125
+      ],
+      "complete_episode_total_seconds": 9997.242131279752,
+      "mean_complete_episode_seconds": 3.2543105896092945
+    },
+    {
+      "arm": "diffusion-5",
+      "episodes": 3072,
+      "successes": 441,
+      "rate": 0.1435546875,
+      "interval": [
+        0.12630208333333331,
+        0.16178385416666666
+      ],
+      "complete_episode_total_seconds": 11119.466317414452,
+      "mean_complete_episode_seconds": 3.6196179418666836
+    },
+    {
+      "arm": "gmm-30",
+      "episodes": 3072,
+      "successes": 550,
+      "rate": 0.17903645833333331,
+      "interval": [
+        0.16178385416666666,
+        0.19661458333333331
+      ],
+      "complete_episode_total_seconds": 33834.92255190955,
+      "mean_complete_episode_seconds": 11.01397218486639
+    },
+    {
+      "arm": "diffusion-30",
+      "episodes": 3072,
+      "successes": 526,
+      "rate": 0.17122395833333334,
+      "interval": [
+        0.15266927083333334,
+        0.19010416666666666
+      ],
+      "complete_episode_total_seconds": 34923.24776029325,
+      "mean_complete_episode_seconds": 11.368244713637125
+    }
+  ],
+  "arithmetic_only": "Proportion to percentage/pp; complete episode total divided by count. No interval calculation.",
+  "timing": "Includes instrumentation/evidence; excludes shared backend/model setup."
+}

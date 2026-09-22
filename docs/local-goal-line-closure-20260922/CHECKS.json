@@ -1,0 +1,165 @@
+{
+  "passed": true,
+  "check_count": 55,
+  "checks": [
+    "Discussion is 2000-3000 words (excluding reference definitions)",
+    "Decision compact one-page text ceiling (350 words)",
+    "All five fixed RB2 contrast estimates included",
+    "All four rate/count pairs present",
+    "32 complete six-column claim records",
+    "All five claim categories present",
+    "Every immutable evidence link resolves to its exact local Git blob",
+    "Local link DECISION.md -> AUTHORIZATION.txt",
+    "Local link DECISION.md -> RESULTS-AND-DISCUSSION.md",
+    "Local link DECISION.md -> CLAIMS-AND-EVIDENCE.csv",
+    "Local link DECISION.md -> README.md",
+    "Local link README.md -> DECISION.md",
+    "Local link README.md -> RESULTS-AND-DISCUSSION.md",
+    "Local link README.md -> CLAIMS-AND-EVIDENCE.csv",
+    "Local link README.md -> figure-a.svg",
+    "Local link README.md -> figure-a.png",
+    "Local link README.md -> figure-b.svg",
+    "Local link README.md -> figure-b.png",
+    "Local link README.md -> FIGURE-DATA.json",
+    "Local link README.md -> plot_figures.py",
+    "Local link README.md -> CHECKS.json",
+    "Local link README.md -> MANIFEST.json",
+    "Local link README.md -> EXECUTION-LOG.json",
+    "Local link README.md -> BACKUP-RECEIPT.json",
+    "Local link README.md -> MONITOR-FINAL-STATUS.json",
+    "Local link README.md -> AUTHORIZATION.txt",
+    "Local link README.md -> figure-a.png",
+    "Local link README.md -> figure-b.png",
+    "Local link RESULTS-AND-DISCUSSION.md -> DECISION.md",
+    "Separate cohort LGP-RB1",
+    "Unchanged Figure A estimate/interval LGP-RB1 5",
+    "Unchanged Figure A estimate/interval LGP-RB1 30",
+    "Separate cohort LGP-RB2",
+    "Unchanged Figure A estimate/interval LGP-RB2 5",
+    "Unchanged Figure A estimate/interval LGP-RB2 30",
+    "Unchanged Figure B interval gmm-5",
+    "Arithmetic only mean gmm-5",
+    "Rate-count agreement gmm-5",
+    "Unchanged Figure B interval diffusion-5",
+    "Arithmetic only mean diffusion-5",
+    "Rate-count agreement diffusion-5",
+    "Unchanged Figure B interval gmm-30",
+    "Arithmetic only mean gmm-30",
+    "Rate-count agreement gmm-30",
+    "Unchanged Figure B interval diffusion-30",
+    "Arithmetic only mean diffusion-30",
+    "Rate-count agreement diffusion-30",
+    "figure-a PNG dimensions",
+    "figure-a SVG labels",
+    "figure-b PNG dimensions",
+    "figure-b SVG labels",
+    "Root README historical chronology unchanged after new dated status",
+    "Only identified RB2 monitor paused, not deleted",
+    "Tracked edits confined to README and closure package",
+    "Package below 250000000 bytes"
+  ],
+  "discussion_word_count": 2145,
+  "decision_word_count": 226,
+  "package_bytes_at_check": 361098,
+  "immutable_sources": [
+    {
+      "commit": "07aa9bbe30a3bd89dcae6f3ad1f713979f2048c1",
+      "path": "docs/local-goal-proposals-20260918/FINAL-REPORT.md",
+      "bytes": 14811,
+      "sha256": "aa756d286564826a53dcdd8a72d6855fb1ca1bdc8e4a4df5693a76b772de1074"
+    },
+    {
+      "commit": "0b6507fc7398eb0624d0755035db22e666de74d5",
+      "path": "docs/local-goal-source-replication-publication-20260920/completion-v6/FINAL-AGGREGATE-PROJECTION.json",
+      "bytes": 203939,
+      "sha256": "c4a453a9c42c18315c6aa661ac26fe57c18b0dbd507d32d340c7fbefc302a630"
+    },
+    {
+      "commit": "0b6507fc7398eb0624d0755035db22e666de74d5",
+      "path": "docs/local-goal-source-replication-publication-20260920/completion-v6/FINAL-REPORT.md",
+      "bytes": 13257,
+      "sha256": "ea6bb2dd73e7eb91642a3239ee01d8f64f128da4fd6d7145d7aa7cff96a032df"
+    },
+    {
+      "commit": "150035cfb6dc2aaa1038c187dbb983ddfeb4fb0e",
+      "path": "docs/local-goal-line-closure-20260922/AUTHORIZATION.txt",
+      "bytes": 6560,
+      "sha256": "1ec847f7b6a3bdaf352a118546b4eb6212d504d46aa24fe4356a7f0871e12b65"
+    },
+    {
+      "commit": "150035cfb6dc2aaa1038c187dbb983ddfeb4fb0e",
+      "path": "docs/local-goal-line-closure-20260922/DECISION.md",
+      "bytes": 2241,
+      "sha256": "210299e07bc6177e0830a2626ee3d2a858cdb17a6e8e464ec0646808daad40ef"
+    },
+    {
+      "commit": "28cbcf18ec16bcb496132c7c9bd0204a7cf2eca9",
+      "path": "docs/local-goal-source-replication-publication-20260920/preservation-recovery-r1/LOCATION-AND-RECEIPT.md",
+      "bytes": 3509,
+      "sha256": "5b3612d06d3ba3108ff9d7e9b73c665168d035af528d6a63e042f45a65eb521e"
+    },
+    {
+      "commit": "8a79e267cb0cb7b6243900cb3bc194e0eb069a85",
+      "path": "docs/local-goal-search-budget-20260919/FINAL-REPORT.md",
+      "bytes": 10252,
+      "sha256": "6048637ea9c85c0fb47bb53860d820912d01e1328598d09506420e602cee61ed"
+    },
+    {
+      "commit": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "path": "cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-PROTOCOL-2026-08-17.md",
+      "bytes": 12575,
+      "sha256": "9b4bde9e2f69a7b92abaaf33f9db3016b8f61e82bedbe662a71a054cf3832ce0"
+    },
+    {
+      "commit": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "path": "cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md",
+      "bytes": 10508,
+      "sha256": "65ba6eb2316cff18b3b74ea488279afbf38d3a3591e6158d25ae290b9bd991eb"
+    },
+    {
+      "commit": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "path": "cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md",
+      "bytes": 6353,
+      "sha256": "eed2c11593a905424fa52678ddddc1fefe1c263ddba58ce2d1fef516adbf95de"
+    },
+    {
+      "commit": "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "path": "cluster/prometheus/INDEPENDENT-PUSHT-RESULT-2026-09-07.md",
+      "bytes": 4344,
+      "sha256": "ca800b10f582649ca3bf16b200a79b96c1c6c8a75b01f69a2216f7579a616c85"
+    }
+  ],
+  "local_links": [
+    "AUTHORIZATION.txt",
+    "RESULTS-AND-DISCUSSION.md",
+    "CLAIMS-AND-EVIDENCE.csv",
+    "README.md",
+    "DECISION.md",
+    "RESULTS-AND-DISCUSSION.md",
+    "CLAIMS-AND-EVIDENCE.csv",
+    "figure-a.svg",
+    "figure-a.png",
+    "figure-b.svg",
+    "figure-b.png",
+    "FIGURE-DATA.json",
+    "plot_figures.py",
+    "CHECKS.json",
+    "MANIFEST.json",
+    "EXECUTION-LOG.json",
+    "BACKUP-RECEIPT.json",
+    "MONITOR-FINAL-STATUS.json",
+    "AUTHORIZATION.txt",
+    "figure-a.png",
+    "figure-b.png",
+    "DECISION.md"
+  ],
+  "visual_review": "Both full scientific figures and Claims A1:C3 preview inspected; no clipped scientific labels or hidden points. Figure A decimal formatting aligned to published report.",
+  "source_limitations": [
+    "No new source blocker",
+    "Historical30 separate reset/episode times unavailable, not reconstructed",
+    "E11 retains original task-callable endpoint/interface",
+    "Fixed-seed and development-population limits retained"
+  ],
+  "link_scope": "Local immutable Git blobs, not unauthenticated external URL availability",
+  "scope": "Documentation, fixed-summary arithmetic and plotting only; no new inferential/scientific analysis"
+}

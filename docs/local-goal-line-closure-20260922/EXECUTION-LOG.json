@@ -1,0 +1,72 @@
+[
+  {
+    "label": "claims",
+    "started_unix": 1790080383.2753403,
+    "wall_seconds": 13.5,
+    "returncode": 0,
+    "peak_job_memory_bytes": 281993216,
+    "affinity_mask": 15,
+    "package_bytes": 130501,
+    "stdout": "{\"claims\":32,\"roundtrip\":true}\n",
+    "stderr": ""
+  },
+  {
+    "label": "figures",
+    "started_unix": 1790080411.824325,
+    "wall_seconds": 1.0,
+    "returncode": 0,
+    "peak_job_memory_bytes": 62042112,
+    "affinity_mask": 15,
+    "package_bytes": 270467,
+    "stdout": "{\"points\": [[\"gmm-5\", 3.2543105896092945], [\"diffusion-5\", 3.6196179418666836], [\"gmm-30\", 11.01397218486639], [\"diffusion-30\", 11.368244713637125]], \"intervals_copied_unchanged\": true, \"formats\": [\"SVG\", \"PNG\"]}\n",
+    "stderr": ""
+  },
+  {
+    "label": "claims-final",
+    "started_unix": 1790080731.0685327,
+    "wall_seconds": 2.875,
+    "returncode": 0,
+    "peak_job_memory_bytes": 274276352,
+    "affinity_mask": 15,
+    "package_bytes": 284857,
+    "stdout": "{\"claims\":32,\"roundtrip\":true}\n",
+    "stderr": ""
+  },
+  {
+    "label": "figures-final",
+    "started_unix": 1790080735.1137407,
+    "wall_seconds": 0.8119999999762513,
+    "returncode": 0,
+    "peak_job_memory_bytes": 62320640,
+    "affinity_mask": 15,
+    "package_bytes": 285124,
+    "stdout": "{\"points\": [[\"gmm-5\", 3.2543105896092945], [\"diffusion-5\", 3.6196179418666836], [\"gmm-30\", 11.01397218486639], [\"diffusion-30\", 11.368244713637125]], \"intervals_copied_unchanged\": true, \"formats\": [\"SVG\", \"PNG\"]}\n",
+    "stderr": ""
+  },
+  {
+    "label": "checks",
+    "started_unix": 1790080785.6421273,
+    "wall_seconds": 0.7810000000172295,
+    "returncode": 1,
+    "peak_job_memory_bytes": 60768256,
+    "affinity_mask": 15,
+    "package_bytes": 285635,
+    "stdout": "",
+    "stderr": "fatal: path 'docs/local-goal-proposals-20260918/FINAL-REPORT.md\",\"Native' does not exist in '07aa9bbe30a3bd89dcae6f3ad1f713979f2048c1'\nTraceback (most recent call last):\n  File \"C:\\Users\\Chris\\thesis-recovery\\lgp-line-closure-20260922\\docs\\local-goal-line-closure-20260922\\verify_package.py\", line 98, in <module>\n    if __name__=='__main__': main()\n                             ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\lgp-line-closure-20260922\\docs\\local-goal-line-closure-20260922\\verify_package.py\", line 43, in main\n    b=pinned(commit,path)\n      ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\lgp-line-closure-20260922\\docs\\local-goal-line-closure-20260922\\verify_package.py\", line 17, in pinned\n    return subprocess.check_output(['git','show',f'{commit}:{path}'],cwd=REPO)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py\", line 466, in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['git', 'show', '07aa9bbe30a3bd89dcae6f3ad1f713979f2048c1:docs/local-goal-proposals-20260918/FINAL-REPORT.md\",\"Native']' returned non-zero exit status 128.\n"
+  },
+  {
+    "label": "checks-final",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "docs/local-goal-line-closure-20260922/verify_package.py"
+    ],
+    "started_unix": 1790080867.5982363,
+    "wall_seconds": 2.2969999999622814,
+    "returncode": 0,
+    "peak_job_memory_bytes": 70500352,
+    "affinity_mask": 15,
+    "package_bytes": 368148,
+    "stdout": "{\"passed\": true, \"check_count\": 55, \"discussion_word_count\": 2145, \"decision_word_count\": 226, \"package_bytes_at_check\": 361098}\n",
+    "stderr": "warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it\n"
+  }
+]

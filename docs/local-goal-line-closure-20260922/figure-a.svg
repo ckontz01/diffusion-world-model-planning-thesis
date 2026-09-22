@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="740" viewBox="0 0 1500 740">
+<rect width="100%" height="100%" fill="white"/>
+<text x="60" y="55" font-family="Arial, sans-serif" font-size="32" fill="#203144" font-weight="700" text-anchor="start">A  |  Diffusion minus matched GMM</text>
+<text x="60" y="92" font-family="Arial, sans-serif" font-size="22" fill="#657080" font-weight="400" text-anchor="start">Fixed estimates and published 95% source-cluster intervals; cohorts remain separate</text>
+<text x="80" y="160" font-family="Arial, sans-serif" font-size="25" fill="#203144" font-weight="700" text-anchor="start">LGP-RB1  /  32 development sources</text>
+<line x1="165.0" y1="525" x2="685.0" y2="525" stroke="#657080" stroke-width="2"/>
+<line x1="165.0" y1="525" x2="165.0" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="165.0" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">-10</text>
+<line x1="283.1818181818182" y1="525" x2="283.1818181818182" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="283.1818181818182" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">-5</text>
+<line x1="401.3636363636364" y1="525" x2="401.3636363636364" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="401.3636363636364" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">0</text>
+<line x1="519.5454545454545" y1="525" x2="519.5454545454545" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="519.5454545454545" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">+5</text>
+<line x1="637.7272727272727" y1="525" x2="637.7272727272727" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="637.7272727272727" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">+10</text>
+<line x1="401.3636363636364" y1="200" x2="401.3636363636364" y2="525" stroke="#B7BDC5" stroke-width="2"/>
+<text x="80" y="287" font-family="Arial, sans-serif" font-size="23" fill="#203144" font-weight="700" text-anchor="start">5</text>
+<line x1="315.18939393939394" y1="280" x2="635.2651515151515" y2="280" stroke="#27628B" stroke-width="4"/>
+<line x1="315.18939393939394" y1="271" x2="315.18939393939394" y2="289" stroke="#27628B" stroke-width="3"/>
+<line x1="635.2651515151515" y1="271" x2="635.2651515151515" y2="289" stroke="#27628B" stroke-width="3"/>
+<circle cx="475.2272727272727" cy="280" r="7" fill="#27628B"/>
+<text x="165" y="333" font-family="Arial, sans-serif" font-size="21" fill="#27628B" font-weight="400" text-anchor="start">+3.1250  [-3.6458, +9.8958] pp</text>
+<text x="80" y="437" font-family="Arial, sans-serif" font-size="23" fill="#203144" font-weight="700" text-anchor="start">30</text>
+<line x1="216.70454545454544" y1="430" x2="524.469696969697" y2="430" stroke="#A74929" stroke-width="4"/>
+<line x1="216.70454545454544" y1="421" x2="216.70454545454544" y2="439" stroke="#A74929" stroke-width="3"/>
+<line x1="524.469696969697" y1="421" x2="524.469696969697" y2="439" stroke="#A74929" stroke-width="3"/>
+<circle cx="376.74242424242425" cy="430" r="7" fill="#A74929"/>
+<text x="165" y="483" font-family="Arial, sans-serif" font-size="21" fill="#A74929" font-weight="400" text-anchor="start">-1.0417  [-7.8125, +5.2083] pp</text>
+<text x="80" y="206" font-family="Arial, sans-serif" font-size="19" fill="#657080" font-weight="400" text-anchor="start">Populations</text>
+<text x="425" y="598" font-family="Arial, sans-serif" font-size="22" fill="#203144" font-weight="400" text-anchor="middle">Diffusion − GMM (percentage points)</text>
+<text x="810" y="160" font-family="Arial, sans-serif" font-size="25" fill="#203144" font-weight="700" text-anchor="start">LGP-RB2  /  512 development sources</text>
+<line x1="895.0" y1="525" x2="1415.0" y2="525" stroke="#657080" stroke-width="2"/>
+<line x1="895.0" y1="525" x2="895.0" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="895.0" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">-10</text>
+<line x1="1013.1818181818181" y1="525" x2="1013.1818181818181" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="1013.1818181818181" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">-5</text>
+<line x1="1131.3636363636363" y1="525" x2="1131.3636363636363" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="1131.3636363636363" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">0</text>
+<line x1="1249.5454545454545" y1="525" x2="1249.5454545454545" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="1249.5454545454545" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">+5</text>
+<line x1="1367.7272727272727" y1="525" x2="1367.7272727272727" y2="532" stroke="#657080" stroke-width="2"/>
+<text x="1367.7272727272727" y="558" font-family="Arial, sans-serif" font-size="19" fill="#203144" font-weight="400" text-anchor="middle">+10</text>
+<line x1="1131.3636363636363" y1="200" x2="1131.3636363636363" y2="525" stroke="#B7BDC5" stroke-width="2"/>
+<text x="810" y="287" font-family="Arial, sans-serif" font-size="23" fill="#203144" font-weight="700" text-anchor="start">5</text>
+<line x1="1082.121212121212" y1="280" x2="1145.2130681818182" y2="280" stroke="#27628B" stroke-width="4"/>
+<line x1="1082.121212121212" y1="271" x2="1082.121212121212" y2="289" stroke="#27628B" stroke-width="3"/>
+<line x1="1145.2130681818182" y1="271" x2="1145.2130681818182" y2="289" stroke="#27628B" stroke-width="3"/>
+<circle cx="1113.6671401515152" cy="280" r="7" fill="#27628B"/>
+<text x="895" y="333" font-family="Arial, sans-serif" font-size="21" fill="#27628B" font-weight="400" text-anchor="start">-0.7487  [-2.0833, +0.5859] pp</text>
+<text x="810" y="437" font-family="Arial, sans-serif" font-size="23" fill="#203144" font-weight="700" text-anchor="start">30</text>
+<line x1="1075.965909090909" y1="430" x2="1149.8295454545455" y2="430" stroke="#A74929" stroke-width="4"/>
+<line x1="1075.965909090909" y1="421" x2="1075.965909090909" y2="439" stroke="#A74929" stroke-width="3"/>
+<line x1="1149.8295454545455" y1="421" x2="1149.8295454545455" y2="439" stroke="#A74929" stroke-width="3"/>
+<circle cx="1112.8977272727273" cy="430" r="7" fill="#A74929"/>
+<text x="895" y="483" font-family="Arial, sans-serif" font-size="21" fill="#A74929" font-weight="400" text-anchor="start">-0.7813  [-2.3438, +0.7813] pp</text>
+<text x="810" y="206" font-family="Arial, sans-serif" font-size="19" fill="#657080" font-weight="400" text-anchor="start">Populations</text>
+<text x="1155" y="598" font-family="Arial, sans-serif" font-size="22" fill="#203144" font-weight="400" text-anchor="middle">Diffusion − GMM (percentage points)</text>
+<text x="60" y="661" font-family="Arial, sans-serif" font-size="20" fill="#657080" font-weight="400" text-anchor="start">RB1: 30-population outcomes reused from LGP1; RB1 interval retained, not LGP1’s original interval.</text>
+<text x="60" y="699" font-family="Arial, sans-serif" font-size="20" fill="#657080" font-weight="400" text-anchor="start">No pooling, new resampling, subgroup selection or cross-cohort significance test.</text>
+</svg>

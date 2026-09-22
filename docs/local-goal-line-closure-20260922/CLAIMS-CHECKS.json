@@ -1,0 +1,54 @@
+{
+  "rows": 32,
+  "columns": 6,
+  "exact_matrix": true,
+  "csv_roundtrip": true,
+  "plain_csv_no_formulas": true,
+  "preview": "A1:C3",
+  "sources": {
+    "LGP1": [
+      "07aa9bbe30a3bd89dcae6f3ad1f713979f2048c1",
+      "docs/local-goal-proposals-20260918/FINAL-REPORT.md"
+    ],
+    "RB1": [
+      "8a79e267cb0cb7b6243900cb3bc194e0eb069a85",
+      "docs/local-goal-search-budget-20260919/FINAL-REPORT.md"
+    ],
+    "RB2": [
+      "0b6507fc7398eb0624d0755035db22e666de74d5",
+      "docs/local-goal-source-replication-publication-20260920/completion-v6/FINAL-REPORT.md"
+    ],
+    "RB2A": [
+      "0b6507fc7398eb0624d0755035db22e666de74d5",
+      "docs/local-goal-source-replication-publication-20260920/completion-v6/FINAL-AGGREGATE-PROJECTION.json"
+    ],
+    "R1": [
+      "28cbcf18ec16bcb496132c7c9bd0204a7cf2eca9",
+      "docs/local-goal-source-replication-publication-20260920/preservation-recovery-r1/LOCATION-AND-RECEIPT.md"
+    ],
+    "E11": [
+      "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-RESULT-2026-08-18.md"
+    ],
+    "E11P": [
+      "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "cluster/prometheus/ACID-ALTERNATIVE-E11-PURE-VELOCITY-UNTOUCHED-D3-PROTOCOL-2026-08-17.md"
+    ],
+    "IPT": [
+      "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "cluster/prometheus/INDEPENDENT-PUSHT-RESULT-2026-09-07.md"
+    ],
+    "IPTP": [
+      "f0cabb92d4b4214f3d423d9d19c77d3083d547da",
+      "cluster/prometheus/INDEPENDENT-PUSHT-PROTOCOL.md"
+    ],
+    "DECISION": [
+      "150035cfb6dc2aaa1038c187dbb983ddfeb4fb0e",
+      "docs/local-goal-line-closure-20260922/DECISION.md"
+    ],
+    "AUTHORITY": [
+      "150035cfb6dc2aaa1038c187dbb983ddfeb4fb0e",
+      "docs/local-goal-line-closure-20260922/AUTHORIZATION.txt"
+    ]
+  }
+}

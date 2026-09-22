@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="880" viewBox="0 0 1500 880">
+<rect width="100%" height="100%" fill="white"/>
+<text x="65" y="57" font-family="Arial, sans-serif" font-size="32" fill="#203144" font-weight="700" text-anchor="start">B  |  RB2 native success and measured episode time</text>
+<text x="65" y="95" font-family="Arial, sans-serif" font-size="22" fill="#657080" font-weight="400" text-anchor="start">512 source clusters; 3,072 episodes per arm; published success intervals only</text>
+<line x1="160.0" y1="660.0" x2="1340.0" y2="660.0" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="667.0" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">10%</text>
+<line x1="160.0" y1="586.6666666666666" x2="1340.0" y2="586.6666666666666" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="593.6666666666666" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">12%</text>
+<line x1="160.0" y1="513.3333333333334" x2="1340.0" y2="513.3333333333334" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="520.3333333333334" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">14%</text>
+<line x1="160.0" y1="440.0" x2="1340.0" y2="440.0" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="447.0" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">16%</text>
+<line x1="160.0" y1="366.6666666666667" x2="1340.0" y2="366.6666666666667" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="373.6666666666667" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">18%</text>
+<line x1="160.0" y1="293.3333333333333" x2="1340.0" y2="293.3333333333333" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="300.3333333333333" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">20%</text>
+<line x1="160.0" y1="220.0" x2="1340.0" y2="220.0" stroke="#E2E6EA" stroke-width="1"/>
+<text x="135" y="227.0" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="end">22%</text>
+<line x1="160.0" y1="660" x2="160.0" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="160.0" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">0</text>
+<line x1="328.57142857142856" y1="660" x2="328.57142857142856" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="328.57142857142856" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">2</text>
+<line x1="497.1428571428571" y1="660" x2="497.1428571428571" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="497.1428571428571" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">4</text>
+<line x1="665.7142857142857" y1="660" x2="665.7142857142857" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="665.7142857142857" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">6</text>
+<line x1="834.2857142857142" y1="660" x2="834.2857142857142" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="834.2857142857142" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">8</text>
+<line x1="1002.8571428571429" y1="660" x2="1002.8571428571429" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="1002.8571428571429" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">10</text>
+<line x1="1171.4285714285713" y1="660" x2="1171.4285714285713" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="1171.4285714285713" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">12</text>
+<line x1="1340.0" y1="660" x2="1340.0" y2="668" stroke="#657080" stroke-width="2"/>
+<text x="1340.0" y="696" font-family="Arial, sans-serif" font-size="20" fill="#203144" font-weight="400" text-anchor="middle">14</text>
+<line x1="160" y1="220" x2="160" y2="660" stroke="#657080" stroke-width="2"/>
+<line x1="160" y1="660" x2="1340" y2="660" stroke="#657080" stroke-width="2"/>
+<text x="160" y="173" font-family="Arial, sans-serif" font-size="23" fill="#203144" font-weight="700" text-anchor="start">Native success (%)</text>
+<line x1="434.2918925527834" y1="539.6875" x2="434.2918925527834" y2="407.2005208333333" stroke="#27628B" stroke-width="3"/>
+<line x1="426.2918925527834" y1="539.6875" x2="442.2918925527834" y2="539.6875" stroke="#27628B" stroke-width="3"/>
+<line x1="426.2918925527834" y1="407.2005208333333" x2="442.2918925527834" y2="407.2005208333333" stroke="#27628B" stroke-width="3"/>
+<circle cx="434.2918925527834" cy="472.8472222222222" r="7" fill="#27628B"/>
+<text x="406.2918925527834" y="455.8472222222222" font-family="Arial, sans-serif" font-size="23" fill="#27628B" font-weight="700" text-anchor="end">GMM5</text>
+<line x1="465.08208367162047" y1="563.5590277777778" x2="465.08208367162047" y2="433.45920138888897" stroke="#A74929" stroke-width="3"/>
+<line x1="457.08208367162047" y1="563.5590277777778" x2="473.08208367162047" y2="563.5590277777778" stroke="#A74929" stroke-width="3"/>
+<line x1="457.08208367162047" y1="433.45920138888897" x2="473.08208367162047" y2="433.45920138888897" stroke="#A74929" stroke-width="3"/>
+<rect x="458.08208367162047" y="493.29947916666663" width="14" height="14" fill="#A74929"/>
+<text x="490.08208367162047" y="531.2994791666666" font-family="Arial, sans-serif" font-size="23" fill="#A74929" font-weight="700" text-anchor="start">Diffusion5</text>
+<line x1="1088.3205127244528" y1="433.45920138888897" x2="1088.3205127244528" y2="305.7465277777778" stroke="#27628B" stroke-width="3"/>
+<line x1="1080.3205127244528" y1="433.45920138888897" x2="1096.3205127244528" y2="433.45920138888897" stroke="#27628B" stroke-width="3"/>
+<line x1="1080.3205127244528" y1="305.7465277777778" x2="1096.3205127244528" y2="305.7465277777778" stroke="#27628B" stroke-width="3"/>
+<circle cx="1088.3205127244528" cy="370.1996527777778" r="7" fill="#27628B"/>
+<text x="1060.3205127244528" y="353.1996527777778" font-family="Arial, sans-serif" font-size="23" fill="#27628B" font-weight="700" text-anchor="end">GMM30</text>
+<line x1="1118.1806258637007" y1="466.8793402777777" x2="1118.1806258637007" y2="329.61805555555566" stroke="#A74929" stroke-width="3"/>
+<line x1="1110.1806258637007" y1="466.8793402777777" x2="1126.1806258637007" y2="466.8793402777777" stroke="#A74929" stroke-width="3"/>
+<line x1="1110.1806258637007" y1="329.61805555555566" x2="1126.1806258637007" y2="329.61805555555566" stroke="#A74929" stroke-width="3"/>
+<rect x="1111.1806258637007" y="391.84548611111103" width="14" height="14" fill="#A74929"/>
+<text x="1143.1806258637007" y="429.84548611111103" font-family="Arial, sans-serif" font-size="23" fill="#A74929" font-weight="700" text-anchor="start">Diffusion30</text>
+<text x="750" y="750" font-family="Arial, sans-serif" font-size="23" fill="#203144" font-weight="400" text-anchor="middle">Mean complete-episode time (seconds; published total ÷ 3,072)</text>
+<text x="65" y="802" font-family="Arial, sans-serif" font-size="21" fill="#657080" font-weight="400" text-anchor="start">Timing includes initialization, planning, physical delivery, instrumentation/evidence and close.</text>
+<text x="65" y="840" font-family="Arial, sans-serif" font-size="21" fill="#657080" font-weight="400" text-anchor="start">Shared model setup excluded. No time intervals or statistical Pareto-dominance claim.</text>
+</svg>

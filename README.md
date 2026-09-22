@@ -2,9 +2,21 @@
 
 **Christoforos Kontzias · University of Cyprus**
 
-Thesis code and experiment records. Updated 20 September 2026.
+Thesis code and experiment records. Updated 22 September 2026.
 
-Preparation update: [LGP-RB2](docs/local-goal-source-replication-20260920/PREPARATION-RECEIPT.md)
+**Current conclusion, 22 September 2026:** LGP-RB2 completed and was preserved
+through verified R1 recovery. The five-population diffusion lead did not
+replicate on 512 development sources; the budget-interaction hypothesis was
+unsupported. Retain continuation and promote neither proposer. The current
+LGP1/RB1/RB2 proposer-and-refinement-budget line is closed for now, not the
+overall thesis. Continuation was not a live RB2 arm. See the
+[closure decision, thesis discussion, evidence table and figures](docs/local-goal-line-closure-20260922/README.md),
+[immutable RB2 result](https://github.com/ckontz01/diffusion-world-model-planning-thesis/blob/0b6507fc7398eb0624d0755035db22e666de74d5/docs/local-goal-source-replication-publication-20260920/completion-v6/FINAL-REPORT.md)
+and [R1 preservation record](https://github.com/ckontz01/diffusion-world-model-planning-thesis/blob/28cbcf18ec16bcb496132c7c9bd0204a7cf2eca9/docs/local-goal-source-replication-publication-20260920/preservation-recovery-r1/LOCATION-AND-RECEIPT.md).
+Earlier findings retain their original scope; the historical preparation and
+study chronology below is not the current execution status.
+
+Historical preparation update, 20 September 2026: [LGP-RB2](docs/local-goal-source-replication-20260920/PREPARATION-RECEIPT.md)
 implements the delegated reasoning review's source-disjoint development replication:
 512 identifier-selected exposed sources, four frozen proposer/refinement arms,
 12,288 episodes in a proposed 128-GPU-hour envelope. The

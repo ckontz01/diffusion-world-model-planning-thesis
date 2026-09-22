@@ -1,0 +1,23 @@
+{
+  "id": "monitor-lgp-rb1-every-two-hours",
+  "name": "Monitor LGP-RB1 every two hours",
+  "kind": "heartbeat",
+  "status_before": "ACTIVE",
+  "status_after": "PAUSED",
+  "target_thread_id": "019fa7b2-f535-75d0-a393-b189993ff3d3",
+  "rrule": "FREQ=HOURLY;INTERVAL=2",
+  "created_at": 1789853370330,
+  "updated_at": 1790080470039,
+  "decision_commit": "150035cfb6dc2aaa1038c187dbb983ddfeb4fb0e",
+  "rb2_result_commit": "0b6507fc7398eb0624d0755035db22e666de74d5",
+  "preservation_commit": "28cbcf18ec16bcb496132c7c9bd0204a7cf2eca9",
+  "final_handoff_commit": "dcf51819b1e0961388856e890b1e3c7f833257fe",
+  "file_readback_verified": true,
+  "prior_prompt_retained_verbatim": true,
+  "changed_only": [
+    "status",
+    "prompt (closure preface; prior text retained)"
+  ],
+  "unrelated_tasks_modified": false,
+  "deleted": false
+}

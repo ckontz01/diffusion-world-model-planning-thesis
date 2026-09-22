@@ -1,0 +1,137 @@
+{
+  "status": "verified",
+  "destination": "D:\\THESIS-BACKUPS\\local-goal-line-closure-20260922\\closure-package-v1",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+    "SizeRemaining": 323615551488
+  },
+  "copied_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "AUTHORIZATION.txt",
+      "bytes": 6719,
+      "sha256": "e2f173590209ff6b09ef466ea588b9bf28b476492e9b4f2eb7c1b8b47e666bb5"
+    },
+    {
+      "path": "bounded_run.py",
+      "bytes": 4304,
+      "sha256": "64f77176e0d6c63c26b5e733980837e81f6d34d2a075a82961829ae1a00a5f33"
+    },
+    {
+      "path": "build_claims.mjs",
+      "bytes": 14309,
+      "sha256": "0832cdd601bb194563ba5e1ee512c117c732a453f1001972fb3a34aac41d65b0"
+    },
+    {
+      "path": "CHECKS.json",
+      "bytes": 7050,
+      "sha256": "842e128f98ac8bc53b4ab4abbd51503f0f7cc4e061e1f261e74632532cd7af31"
+    },
+    {
+      "path": "CLAIMS-AND-EVIDENCE.csv",
+      "bytes": 18457,
+      "sha256": "827dbdec1d85e17f2ae3c1b64f6ce6090d387fbc3bb52d0e3f627657cc3bebb4"
+    },
+    {
+      "path": "CLAIMS-CHECKS.json",
+      "bytes": 1818,
+      "sha256": "a3397073e22309a84cd9219d289e040da433e509a7f60c851758076947f3e7dd"
+    },
+    {
+      "path": "CLAIMS-PREVIEW.png",
+      "bytes": 58030,
+      "sha256": "918a94842e14a7c51dba4d96aa7e924a0f47f31ad32edec36973d661f0d59e17"
+    },
+    {
+      "path": "DECISION.md",
+      "bytes": 2241,
+      "sha256": "210299e07bc6177e0830a2626ee3d2a858cdb17a6e8e464ec0646808daad40ef"
+    },
+    {
+      "path": "EXECUTION-LOG.json",
+      "bytes": 4177,
+      "sha256": "a567d457f504f5cb51b14b32c73b338b9fb7acd6b03eb052b6980dc967c1c14c"
+    },
+    {
+      "path": "figure-a.png",
+      "bytes": 58909,
+      "sha256": "0134e07f4afbfa6d4e3f1b85aa906963af547b3a3e4fd549669113fb8609d65b"
+    },
+    {
+      "path": "figure-a.svg",
+      "bytes": 7514,
+      "sha256": "8685ed6741edabdfea2ebda69d2cadd53172f5d78a2a42a30ed49135276aa18b"
+    },
+    {
+      "path": "figure-b.png",
+      "bytes": 62337,
+      "sha256": "b8371e705069cd920a1b9c01767d6f0456f2da80bf6c7f54d8d973361dc4ccd2"
+    },
+    {
+      "path": "figure-b.svg",
+      "bytes": 7778,
+      "sha256": "e7d4ab582c37df71c86f2ff7c47a40f0017ab0f43b17a2313b9722ef761d6c1e"
+    },
+    {
+      "path": "FIGURE-DATA.json",
+      "bytes": 3093,
+      "sha256": "62ccc2ff31623b421f8763df611379cc890a8504a9e8c624ea7bf8bb52c9eb1a"
+    },
+    {
+      "path": "MONITOR-FINAL-STATUS.json",
+      "bytes": 827,
+      "sha256": "76588c507c47719d53c18a0cba833d59bb71c9fd053b7d531ae9b30cd1befcaf"
+    },
+    {
+      "path": "plot_figures.py",
+      "bytes": 8333,
+      "sha256": "215d4538ae5b6d41dcf003a05e50a2aafe4a43ccda755fd8aad980313bb16fd5"
+    },
+    {
+      "path": "preserve_package.py",
+      "bytes": 4933,
+      "sha256": "2cf6791f531dc122391908780ae40c1e94b534b6bb666295a08303586d97bdad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5567,
+      "sha256": "fbc1f5da6d030b1bc63c0bf59291260e8d48d25531b3969ffd5f08ae10c6d40a"
+    },
+    {
+      "path": "RESULTS-AND-DISCUSSION.md",
+      "bytes": 17172,
+      "sha256": "c123de218c61d6d4a3d346865edb8a22e265717d4d233e87c8ad9abb571d2964"
+    },
+    {
+      "path": "ROOT-README-SNAPSHOT.txt",
+      "bytes": 68421,
+      "sha256": "8d08ef1ebec94233cf68f16e22f4dff67f99e3c66b41547abd7a1ea51ee3b7a8"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 6863,
+      "sha256": "9975d1e95c916cdbb032ced5c87c3d1f305fff30bbd939a007424673564c8716"
+    },
+    {
+      "path": "MANIFEST.json",
+      "bytes": 3925,
+      "sha256": "f8d06285d78db7371ae3e6f80186eb124dbeb08907cce0bdabd0dc20ccf76e25"
+    }
+  ],
+  "verified_files": 23,
+  "bytes_copied": 372785,
+  "manifest_sha256": "f8d06285d78db7371ae3e6f80186eb124dbeb08907cce0bdabd0dc20ccf76e25",
+  "backup_wall_seconds_through_verification": 8.860000000044238,
+  "peak_job_memory_bytes": 158941184,
+  "affinity_mask": 15,
+  "prior_scripted_seconds": 21.264999999955762,
+  "cumulative_scripted_seconds_through_verification": 30.125,
+  "no_archive_access_or_bulk_transfer": true,
+  "no_retry": true,
+  "receipt_self_hash": "Excluded; identical local/SSD receipt bytes checked after writing and hash printed."
+}
