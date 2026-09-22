@@ -1,0 +1,302 @@
+LGP-RB2 — PRESERVATION RECOVERY R1
+AUTHORIZED TO IMPLEMENT, TEST, FREEZE AND EXECUTE
+
+This is an explicit preservation-only recovery direction under the
+user’s existing delegation. It is not a new direct user signature.
+
+Accepted fault record:
+1da99c6b9d2aae5fbed8484beebd81f64c2bb864
+
+No additional general approval or preparation-only checkpoint is required
+for the exact recovery below. A material deviation requires a scoped
+decision; do not silently broaden it.
+
+1. IMMUTABLE INPUTS
+
+Remote archive, read-only:
+
+/lustreFS/data/superworld/ckontzias/thesis/experiments/local-goal-source-replication-20260920/run-a8fa92772272e11a/final-preservation/final.tar
+
+Expected archive:
+- Bytes: 2,875,822,080
+- Members: 32,393
+- SHA256:
+  fa17faef59d068b6a71d0ca40a3178b7f1be0a4e78688282a1bd846eb8a8b2aa
+
+Adjacent BACKUP-REQUEST.json SHA256:
+f980786b598867e12dd9fad0589dbc9afc642bc4441136721abbfb787457af06
+
+Executed source manifest:
+a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec
+
+Original enabled execution approval:
+013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b
+
+COMPUTE-COMPLETE.json:
+22768015b5421f7a050df3b3e3bfbf83e1fe2531a3681ce63d0664a49db2df0f
+
+Do not regenerate, rewrite, recompress or replace the remote archive,
+request, analysis, execution approval, worker outputs or source.
+
+2. PRESERVE THE ORIGINAL FAILED COPY
+
+Leave this entire directory unchanged:
+
+D:/THESIS-BACKUPS/local-goal-source-replication-20260920/run-a8fa92772272e11a
+
+In particular, preserve final.tar.partial:
+- Bytes: 1,202,438,144
+- SHA256:
+  17193e4f9303e6180cd4dde45e4bcd491095050a12508dd07b74651b35d7fb05
+
+Preserve the original request and BACKUP-FAILURE.json:
+7d89f19b8e1e425568381e8bf3d679ddc2251bb0c19621cd465269c010d7022c
+
+No append, truncate, deletion, rename, overwrite or replacement of
+those original files. Check that no old transfer process still owns
+or writes the partial. Do not kill unrelated processes.
+
+Create this NEW directory exclusively:
+
+D:/THESIS-BACKUPS/local-goal-source-replication-20260920/run-a8fa92772272e11a-recovery-r1
+
+If it already exists, stop for reconciliation rather than choosing
+another suffix or restarting.
+
+3. RECOVERY TOOL AND PRE-TRANSFER CHECKS
+
+Implement a small standard-library-only recovery tool outside the
+executed scientific source closure.
+
+Use the configured authenticated Prometheus SSH route and native
+Windows file access to THESIS_SSD. Do not use the broken WSL D: view
+for archive storage.
+
+Test on artificial files before production use:
+- Exact prefix and non-aligned suffix offsets.
+- Final short range.
+- Premature EOF, timeout and permitted retry accounting.
+- Wrong length/hash and changed-source rejection.
+- Binary stdout handling without text/newline conversion.
+- Exclusive output creation and preservation of failed attempts.
+- Successful whole-file reconstruction.
+- Watchdog cleanup restricted to this tool’s own child processes.
+
+Freeze the tool, tests, recovery authorization and finite limits;
+commit/push and verify the remote commit before transferring research
+archive bytes. Preserve this as recovery provenance, not a modification
+of the original experiment.
+
+Check the designated SSD label/volume:
+THESIS_SSD
+0a2f1ba9-0000-0000-0000-100000000000
+
+Require at least 40,000,000,000 bytes free before recovery and final
+acceptance. No laptop or alternate-disk fallback.
+
+Fetch the exact BACKUP-REQUEST.json as bytes, verify its pinned hash,
+and preserve those original bytes in the recovery directory.
+Do not edit its destination field to disguise the recovery location.
+
+Confirm archive path, expected size/hash, source binding and member
+inventory against the fault record.
+
+4. AUTHENTICATE THE PREFIX AND FREEZE THE RANGE MANIFEST
+
+Use a read-only, streaming remote helper against the exact archive.
+
+In one sequential scan:
+- Recompute the complete archive SHA256.
+- Compute the SHA256 of its first 1,202,438,144 bytes.
+- Compute the SHA256 of each of the 25 suffix ranges defined below.
+
+Require the whole-archive hash to match the pinned value.
+Require the prefix hash to match the retained partial’s recorded hash.
+Independently rehash the local partial and require the same match.
+
+Record the source file’s identity, size and modification metadata before
+and after the scan. Reject detected changes. Metadata stability alone
+is not a substitute for the whole-file hash.
+
+Save and seal a range manifest containing:
+archive identity/hash, prefix length/hash, and every range’s
+index, offset, exact length and SHA256.
+
+No tar extraction or scientific-content interpretation is needed.
+Do not load models, NPZ arrays, endpoint values or aggregate statistics.
+
+If any identity, prefix or hash check fails, stop immediately.
+A mismatch does NOT authorize discarding the partial or starting a
+fresh full download.
+
+5. TRANSFER ONLY THE MISSING SUFFIX
+
+Copy the authenticated original partial into a newly created
+recovery-r1/final.tar.partial using binary streaming.
+
+Verify that this new copy has exactly the authenticated prefix length
+and hash. The original partial remains untouched.
+
+Define ranges starting at offset 1,202,438,144:
+- Ranges 0–23: 67,108,864 bytes each.
+- Range 24: 62,771,200 bytes.
+- Total missing bytes: 1,673,383,936.
+
+Transfer ranges serially, with one active connection at a time.
+The remote helper may only read the requested allowlisted range of
+the existing archive. It must not create remote bulk chunk files.
+
+Write each attempt to a fresh, uniquely named file in recovery-r1.
+Do not append an unverified network stream directly to the assembled
+archive.
+
+Accept a range only after:
+- Successful process exit.
+- Exact expected byte count, with no extra stdout bytes.
+- Flush/close and on-disk SHA256 matching the frozen range manifest.
+
+Then append that verified range to the NEW assembled partial.
+Require its pre-append size to equal the range’s expected offset.
+Flush the assembled file and durably record progress.
+
+Retain successful chunk files and every failed-attempt partial/log.
+Do not overwrite attempt 1 when attempt 2 is permitted.
+
+6. FINITE RETRY AND TIME CONTRACT
+
+Maximum two transmission attempts per range:
+one initial attempt and, only for a transient transport interruption,
+one explicitly authorized retry of that same range.
+
+A premature stream caused by disconnect/timeout may receive that retry.
+A complete-length hash mismatch, changed source, wrong offset,
+unexpected stdout, authentication/host-key failure, SSD identity
+failure or local write/I/O failure is an immediate stop—not a retry.
+
+Retry delay: 30 seconds.
+No third attempt, alternate transport/provider, concurrent download,
+whole-file restart or automatic process/session resumption.
+
+At most:
+- 50 suffix-range transmissions.
+- 8 setup/metadata SSH invocations.
+- 3,346,767,872 bytes of remote archive payload transmitted,
+  counting failed range attempts as well as successful ones.
+  Protocol/encryption overhead is reported separately if measurable;
+  do not claim this number is a total network-wire measurement.
+
+Per invocation:
+- Connection timeout: 15 seconds.
+- One underlying connection attempt.
+- ServerAliveInterval=15; ServerAliveCountMax=3.
+- Preserve existing host verification and credentials.
+- No permanent configuration changes.
+
+For each range:
+- 90 seconds without new archive bytes: terminate the owned attempt.
+- 300 seconds absolute wall limit, including connection and transfer.
+- Drain stderr separately; never let diagnostics enter archive stdout.
+- Bound the remote helper’s lifetime too, so a lost client does not
+  leave an indefinite sender.
+- Reconcile/stop the owned child before any permitted retry.
+
+For setup/hash operations:
+- 600 seconds absolute per invocation.
+- No indefinite polling.
+- At most two attempts for a necessary operation, only on transient
+  transport failure and within the eight-invocation total.
+
+One recovery session:
+- 5,400-second maximum authentication/transfer phase.
+- A further 1,800 seconds maximum for assembly/final verification.
+- 7,200 seconds total from the first production preservation operation.
+- Once a limit is reached, stop, preserve and report. No clock reset.
+
+Preparation, synthetic tests and Git publication are recorded separately.
+They do not consume a research allocation or authorize indefinite
+transfer attempts.
+
+7. STORAGE AND COMPUTE LIMITS
+
+No Slurm submission, GPU work, model inference, training, simulation,
+research-controller restart or analyzer rerun.
+
+Use bounded streaming buffers, not whole-archive memory loading.
+
+Maximum new SSD recovery-directory footprint:
+8,000,000,000 bytes, including assembled archive, all successful and
+failed range files, request, manifests, tool/test receipts and logs.
+
+This leaves room for the complete assembled archive plus both allowed
+copies of every suffix range; do not rely on deleting attempts to fit.
+
+Maximum new remote recovery tool/metadata/log footprint:
+64,000,000 bytes, outside all sealed source/run/archive directories.
+
+Keep the existing 24,000,000,000-byte inclusive remote ceiling.
+Count recovery additions explicitly rather than hiding them outside
+the scientific accounting categories.
+
+No new remote bulk archive or chunk copies.
+Remote hashing/range helpers are single-process operational preservation;
+cap their aggregate recorded process CPU at 600 seconds.
+Record Windows verification CPU and all wall/transfer times separately.
+
+8. FINAL ACCEPTANCE — NO REANALYSIS
+
+After all ranges are incorporated, close and reread the assembled file.
+Require:
+- Exactly 2,875,822,080 bytes.
+- Whole-file SHA256 exactly:
+  fa17faef59d068b6a71d0ca40a3178b7f1be0a4e78688282a1bd846eb8a8b2aa
+- Every member matches the ORIGINAL authenticated request inventory.
+- Exactly 32,393 expected regular members, with no missing, duplicate
+  or unexpected members.
+
+Reuse the accepted member-verification logic without weakening it.
+Do not extract the archive merely to verify it.
+
+Reverify the complete historical SSD archive union:
+- LGP1:
+  24609c83f6c21d99edc579229ab990db184c6e0fa1133ebad4336882c35189fd
+- RB1:
+  72c2717be4a10b0e103a05c6575710832e5ae4c9e9a21be573c8cb3c4441f175
+
+Use their original inventories and receipts. Check SSD identity again.
+
+Only after all acceptance checks pass may the NEW assembled partial
+be renamed to recovery-r1/final.tar, provided that target is absent.
+
+Write RECOVERY-BACKUP-VERIFIED.json in recovery-r1. It must bind:
+- Original request, archive and source/approval identities.
+- Original failed partial and failure receipt.
+- Recovery authorization/tool/range-manifest hashes.
+- Exact successful recovery destination.
+- All transfer attempts, failures, byte counts and timings.
+- Whole/member verification and historical-union results.
+- Final storage and SSD identity.
+
+Do not create a success receipt in the original failed directory.
+Do not pretend the first transfer succeeded.
+Do not rewrite the remote archive to include the recovery receipt.
+
+Seal and preserve the recovery records separately and commit/push the
+compact receipt and location mapping. Verify the remote commit.
+
+9. INFORMATION BARRIER AND RETURN
+
+The preservation gate remains closed until the new archive and
+historical union pass all checks above.
+
+On success, the existing authority to read and publish the already
+computed fixed RB2 aggregate resumes. Use the verified recovery location.
+Do not rerun the analyzer, recompute a different analysis, or introduce
+a new scientific gate.
+
+On failure, return only the scoped preservation report, including the
+exact last verified offset/range, all attempt charges, retained paths
+and whether any process remains unresolved.
+
+No automatic further recovery session or research experiment is
+authorized. Preserve all excluded/reserved data boundaries, historical
+decisions and E12 drafts.

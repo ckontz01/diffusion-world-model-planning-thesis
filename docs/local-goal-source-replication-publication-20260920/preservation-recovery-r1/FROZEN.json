@@ -1,0 +1,41 @@
+{
+  "approval_sha256": "013dfa0c2498a627e84057d7f53a758871cae010c8f51a0db4553717a697e49b",
+  "archive_bytes": 2875822080,
+  "archive_sha256": "fa17faef59d068b6a71d0ca40a3178b7f1be0a4e78688282a1bd846eb8a8b2aa",
+  "authorization_sha256": "638e57066943747d61b43dd0c8eda55b7c2157a9e37bc1d410ee7d514ca7c810",
+  "failed_receipt_sha256": "7d89f19b8e1e425568381e8bf3d679ddc2251bb0c19621cd465269c010d7022c",
+  "files": {
+    ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "AUTHORIZATION.txt": "638e57066943747d61b43dd0c8eda55b7c2157a9e37bc1d410ee7d514ca7c810",
+    "PREPARATION.md": "8ccbc31761d81e5fddcdbeccf41704499c216c9d4d0c3b12315d918a5a09dfe6",
+    "TEST-RESULTS-initial.json": "ac0ebd5772b51f396c0c5ab08c0517db481dc52bd3b28dd9e4a8a6a3238668b4",
+    "TEST-RESULTS.json": "41cfb525c41301d33b654bc16eb630c306ed361b49b95540c3c09ae0d1e3c224",
+    "freeze.py": "a1a6cea7a8c3bdd757033e029e6418f335b57baab71e179345ee12b9e7323de0",
+    "recover.py": "b07fe47510227197a86ebd569b0e696e0528351427243c8ce80e660884257017",
+    "remote_helper.py": "866b1768d34924883b5bfc0a2d5305cd10497946267db2af4ea952f9fd14ad71",
+    "test_recovery.py": "4bee6ad9a5505940b4b5ad3081ccfb30f0d5d8f29a93e089df3d05631798b717"
+  },
+  "limits": {
+    "final_phase_seconds": 1800,
+    "inclusive_remote_bytes": 24000000000,
+    "metadata_invocations": 8,
+    "metadata_wall_seconds": 600,
+    "minimum_free_ssd_bytes": 40000000000,
+    "range_idle_seconds": 90,
+    "range_wall_seconds": 300,
+    "recovery_ssd_bytes": 8000000000,
+    "remote_archive_payload_bound": 3346767872,
+    "remote_cpu_seconds": 600,
+    "remote_recovery_disk_bytes": 64000000,
+    "retry_delay_seconds": 30,
+    "total_seconds": 7200,
+    "transfer_phase_seconds": 5400,
+    "transmissions": 50
+  },
+  "partial_sha256": "17193e4f9303e6180cd4dde45e4bcd491095050a12508dd07b74651b35d7fb05",
+  "prefix_bytes": 1202438144,
+  "recovery_destination": "D:\\THESIS-BACKUPS\\local-goal-source-replication-20260920\\run-a8fa92772272e11a-recovery-r1",
+  "request_sha256": "f980786b598867e12dd9fad0589dbc9afc642bc4441136721abbfb787457af06",
+  "research_execution": false,
+  "source_sha256": "a8fa92772272e11a279aac6c13699fc5b6da9f8160bd3264bab15e3f6bf68cec"
+}
