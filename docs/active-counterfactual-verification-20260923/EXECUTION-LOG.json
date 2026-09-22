@@ -1,0 +1,38 @@
+[
+  {
+    "label": "prototype-tests-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "prototype/tests.py"
+    ],
+    "state": "finished",
+    "started_unix": 1790118643.3523543,
+    "wall_seconds": 2.062999999965541,
+    "returncode": 0,
+    "stdout": "",
+    "stderr": "test_action_protocol_no_counterfactual_test_read (__main__.MechanismChecks.test_action_protocol_no_counterfactual_test_read) ... ok\ntest_contingent_rule_equals_exhaustive_standard_bayes (__main__.MechanismChecks.test_contingent_rule_equals_exhaustive_standard_bayes) ... ok\ntest_hidden_modes_not_in_fit_inputs (__main__.MechanismChecks.test_hidden_modes_not_in_fit_inputs) ... ok\ntest_high_cost_probe_declined (__main__.MechanismChecks.test_high_cost_probe_declined) ... ok\ntest_informative_example_exact (__main__.MechanismChecks.test_informative_example_exact) ... ok\ntest_joint_normalization (__main__.MechanismChecks.test_joint_normalization) ... ok\ntest_learned_joint_normalized (__main__.MechanismChecks.test_learned_joint_normalized) ... ok\ntest_mode_known_prefers_direct (__main__.MechanismChecks.test_mode_known_prefers_direct) ... ok\ntest_no_information_declined (__main__.MechanismChecks.test_no_information_declined) ... ok\ntest_observation_law_does_not_depend_on_future_suffix (__main__.MechanismChecks.test_observation_law_does_not_depend_on_future_suffix) ... ok\ntest_oracle_not_worse_than_static (__main__.MechanismChecks.test_oracle_not_worse_than_static) ... ok\ntest_permutation_of_suffixes (__main__.MechanismChecks.test_permutation_of_suffixes) ... ok\ntest_predictor_changes_ranking_after_signal (__main__.MechanismChecks.test_predictor_changes_ranking_after_signal) ... ok\ntest_unannounced_reversal_is_failure_not_guarantee (__main__.MechanismChecks.test_unannounced_reversal_is_failure_not_guarantee) ... ok\ntest_unstable_mode_declined (__main__.MechanismChecks.test_unstable_mode_declined) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.695s\n\nOK\n",
+    "peak_job_memory_bytes": 71696384,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 500127
+  },
+  {
+    "label": "prototype-main-01",
+    "command": [
+      "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+      "prototype/experiment.py",
+      "--out",
+      "prototype-reproduction"
+    ],
+    "state": "finished",
+    "started_unix": 1790118645.541326,
+    "wall_seconds": 0.5310000000172295,
+    "returncode": 0,
+    "stdout": "| Case | Static | Passive | Fixed probe | Information-gain probe | Active feedback | No transfer | Oracle |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| informative_contact | 58.00 | 58.00 | 75.66 | 56.71 | 75.66 | 56.26 | 75.66 |\n| mostly_known_context | 81.50 | 81.50 | 78.91 | 79.87 | 81.50 | 81.50 | 81.50 |\n| uninformative_prefix | 58.00 | 58.00 | 56.26 | 56.84 | 58.00 | 58.00 | 58.00 |\n| expensive_prefix | 58.00 | 58.00 | 50.70 | 56.84 | 58.00 | 58.00 | 58.00 |\n| no_decision_relevant_uncertainty | 62.00 | 62.00 | 60.14 | 60.76 | 62.00 | 62.00 | 62.00 |\n| unstable_contact_mode | 58.00 | 58.00 | 55.84 | 56.84 | 58.00 | 58.00 | 58.00 |\n| unannounced_sensor_reversal | 58.00 | 58.00 | 21.34 | 56.84 | 21.34 | 56.26 | 75.66 |\n{\n  \"config_sha256\": \"4922873c0dee3427a601189897cc15a57d4bd16f90c01ef9079590512028ef08\",\n  \"seconds\": 0.20333849999587983,\n  \"fit_count\": 210,\n  \"training_source_draws\": 215040,\n  \"artificial_branch_labels\": 1935360,\n  \"statement\": \"Constructed mechanism examples. No Le-WM, ACID, CheckVLA or other robotics method was run.\"\n}\n",
+    "stderr": "",
+    "peak_job_memory_bytes": 67543040,
+    "affinity_mask": 15,
+    "gpu_allocations": 0,
+    "package_bytes": 860556
+  }
+]
