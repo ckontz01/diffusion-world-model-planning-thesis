@@ -1,0 +1,9 @@
+# Existing monitor updated to R4
+
+The app successfully updated `monitor-acv0-and-recover-technical-faults` in place. Readback of its persisted prompt exactly matched the submitted text. It remains ACTIVE, every two hours, heartbeat kind, attached to the same task019fa7b2-f535-75d0-a393-b189993ff3d3. No duplicate monitor was created; no historical LGP monitor was modified.
+
+The saved prompt now identifies the R4 controller/source/approval, launch receipts and actual37-task reuse/4862GPU-second boundary. R3's failed status observation is explicitly historical. The prompt records the exact pending placeholder diagnosis, all old STOPs, current dated resolution and the correct finalize4.py lineage. It preserves technical-only inspection until full acceptance/SSD preservation, unchanged scientific/resource/data limits, finite diagnosed-recovery authority, quiet ordinary progress and pause after final preservation/report/handoff. Local preparation accounting is1078.673seconds through R4.
+
+The OpenAI Docs skill was used for the in-place scheduled-task update workflow; the app tool performed the mutation and local readback verified its exact saved state. [Official scheduled-task documentation](https://learn.chatgpt.com/docs/automations?surface=app) describes updating an existing task and retaining a task within the same chat. Keep the local computer and app running for scheduled checks; detached cluster execution itself remains independent.
+
+R4's latest live technical observation in this recovery is POST-LAUNCH-20260923.json at Unix1790199765.5682032: controller1041441/start895662237 healthy, job304260/collect-fit-256 RUNNING, stderr0, no new STOP/unresolved event. This is a timestamped observation, not a claim that later checks have happened. The launch receipt commit09bb7738e9613b69bf2b3c328001997fa3960a92 was pushed and remote-verified before this monitor update.
