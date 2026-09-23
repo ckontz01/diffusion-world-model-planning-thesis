@@ -1,0 +1,255 @@
+EXECUTE ACV0 — bindings-v1 bounded developmental pilot
+
+This is the explicit execution direction under the user's standing
+delegation to this conversation. It is not a newly obtained direct
+user signature.
+
+Approved implementation:
+3b2db69e563af89b1ced2149b11c11a1999ba4df
+
+Approved publication and preservation receipt:
+b27605ccf7e9097beb02e3d0d638d3e31a175121
+
+Proceed with this finite package. No additional general approval or
+preparation cycle is required. A concrete technical fault or material
+deviation must be reported rather than silently repaired in a running
+snapshot.
+
+1. EXACT PACKAGE AND APPROVAL
+
+Source-manifest SHA256:
+bf3f4558f2cdfbca98715ad684c596d23626d5650e32a72a0e26f46dc3f83554
+
+Thin source-export.tar:
+706,560 bytes
+SHA256:
+558681e9bccb8773b434ea928d67e55c4c40a65896033ba54021a12f86b099e9
+
+Input-bindings SHA256:
+45a50874435617c7f5cc31eff865cd923b2970d6eaa808697c05c418154aa1df
+
+Source-role file SHA256:
+2c56493ab51011c4c37f30f45fc3f207f44dfb63bfc83a88e99ba70c98ef8c64
+
+Executable grid's canonical-content digest used by Authorization:
+f9b4986c9f674122c253cff9aaf802e8d4b181180553d0e5643c0c92bb175a2a
+
+The serialized GRID.json file has a DIFFERENT byte hash:
+d415ca967041e3ed79bcb4bd355331106db332a42c9896790d83dd1ddb3772e7
+
+Do not confuse the canonical grid digest with the serialized-file hash.
+
+Exact run namespace:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-bf3f4558f2cdfbca
+
+Preserve the false approval template and all preparation records.
+Create a separate enabled approval using the exact strict schema.
+Its instruction field must record this EXECUTE ACV0 direction; preserve
+the delegation provenance separately without inventing a user signature.
+
+Authenticate every transport member and source dependency before launch.
+Preserve the repository-relative layout. Do not regenerate or edit the
+sealed scientific source.
+
+2. LAUNCH SETUP
+
+Use the existing approved account, partitions, runtime and container.
+Run the controller with the existing compatible pinned Python environment,
+including its NumPy/fitting dependencies. Do not assume a bare host
+Python interpreter is sufficient.
+
+Verify no prior ACV0 bindings-v1 run or ambiguous Slurm attempt exists.
+Use exclusive snapshot, approval, controller and run paths.
+If any intended exclusive path already exists, reconcile and report;
+do not select another name to bypass the check.
+
+Verify designated THESIS_SSD identity and at least 40 GB free.
+Use the healthy source/transport route. No dependency installation,
+permission changes, credential changes or WSL-filesystem repair.
+
+Launch only the prepared campaign entry point. Keep the controller
+cluster-resident; preserve its exact process identity and logs.
+Do not restart any historical research controller.
+
+3. SCIENTIFIC SCOPE
+
+Use exactly the existing 64 fitting, 16 validation and 32
+final-development sources bound by DATA-ROLES-PROPOSED.json.
+
+This direction activates only those declared roles and payload accesses.
+Do not open excluded/reserved CVL, BP1 evaluation, references1600–5999,
+or earlier protected payloads.
+
+Keep:
+- PushT, the fixed H75 goal, and150 total physical actions.
+- One initial active-verification opportunity.
+- Five prefix actions, ten associated continuation actions, then the
+  fixed vanilla-CEM tail from absolute action15.
+- Maximum four prefixes and four suffixes per prefix.
+- Exact original baseline-plan retention.
+- N300/K30/J30, declared NumPy float64 search, BF16 Le-WM inference,
+  recorded float32 delivery, projection and tie rules.
+- All frozen seeds and128 response-integration samples per prefix.
+- The existing mixture and ordinary architectures and losses.
+- All eight specified controllers.
+
+No new proposer, local-target generator, diffusion component, observation
+privilege, repeated active intervention, extra tree node or hidden
+post-response search is introduced.
+
+The ordinary early-replanning control remains its own unrestricted
+fresh-search comparator with its complete declared workload.
+
+4. INCLUDED TECHNICAL TRANCHE
+
+Start with collection sources490 and545, the first two jobs already
+inside the fixed grid. Their branches remain part of the fitting data.
+
+Both must finish and pass the prepared source, replay, endpoint,
+action-association, model-identity, clock, storage and resource checks
+before submitting a third collection job.
+
+No additional pilot, repeated branch, model-only preflight allocation
+or technical efficacy run is authorized.
+
+Inspect technical projections, seals and measured resources—not partial
+success rates or model promise—to apply this gate.
+
+If both pass, continue through the fixed remainder without another
+general approval request:
+- Complete all80 collection jobs.
+- Execute both CPU fitting jobs.
+- Freeze the two learned models, preprocessing and Bayesian fit.
+- Execute all256 final-development policy jobs.
+- Run the one CPU analysis.
+
+5. FIXED FITTING
+
+Exactly192 optimizer updates for EACH neural model.
+Whole-source batch64;384 total optimizer updates.
+
+Keep seeds94011/94012, shuffle94013, optimizer, losses and preprocessing.
+Fit preprocessing only on the64 fitting sources.
+
+Validation16 is reporting-only. No early stopping, favorable-epoch
+selection, extension, seed replacement or architecture adjustment.
+
+Preserve partial weights/history on technical failure, but never treat
+them as an accepted checkpoint or an authorized resume point.
+
+If the data contain no usable active fitting observations, preserve
+that limitation and stop. Do not replace sources or manufacture labels.
+
+Both final-update models and the Bayesian last-layer approximation
+must be sealed before any final-development source is opened.
+
+6. HARD EXECUTION AND STORAGE LIMITS
+
+Exactly339 scheduled allocations:
+-80 collection GPU jobs.
+-256 evaluation GPU jobs.
+-Two CPU fitting jobs.
+-One CPU analysis job.
+
+GPU:
+- One A6000 allocation at a time.
+-4CPUs /24GiB per job.
+-1,800 seconds per collection job, retaining120 seconds for preservation.
+-300 seconds per evaluation job, retaining60 seconds for preservation.
+-220,800 aggregate GPU-allocation seconds, including failures.
+
+CPU:
+- Three jobs, each4CPUs /8GiB /7,200 seconds.
+-21,600 aggregate allocation-wall seconds.
+- No GPU request or passthrough.
+
+Storage:
+-10,000,000 bytes per complete collection worker.
+-2,000,000 bytes per complete evaluation worker.
+- Existing100,000,000-byte limits for individual CPU-worker outputs.
+-500,000,000 bytes combined source/model/control/analysis.
+-2,000,000,000 bytes new live data.
+-8,000,000,000 bytes live/archive/partial preservation allowance.
+- Existing stdout/stderr limits and full-future reservations.
+- Designated THESIS_SSD with40GB free-space requirement.
+
+Do not add cap headroom because measured runs are faster or smaller.
+Do not discard evidence, round values or remove adverse cases to fit.
+
+Charge failed allocations before handling failure. Queue waiting is
+not GPU-allocation time. Report controller, archive and transfer work
+separately.
+
+7. FAIL-STOP RULE
+
+No automatic retry, requeue, resumption, replacement source, additional
+allocation or resource expansion.
+
+On a technical fault:
+- Stop new dispatch as specified.
+- Preserve successful and partial artifacts.
+- Reconcile submitted/live/ambiguous allocation identities and charges.
+- Return one scoped fault report.
+- Do not modify the running scientific snapshot.
+
+A poor scientific outcome, high validation loss, sparse success or
+uninformative feedback is not authority to change the experiment.
+
+8. ANALYSIS AND INTERPRETATION
+
+Primary endpoint remains full-budget native success.
+
+Report all eight arms, all32 source-level paired outcomes, and:
+- Active minus ordinary same-information predictor.
+- Active minus Bayesian last-layer feedback.
+- Active minus ordinary early replanning.
+
+Keep active minus vanilla/static/passive/no-update as the declared
+supporting comparisons.
+
+Use the frozen bootstrap specification, seed94301, without pooling
+training/validation sources or prior artificial results.
+Nominal small-development intervals are not a proof of coverage,
+safety, novelty or general superiority.
+
+Report choices, gains/losses/ties, prefix/suffix termination, prediction
+diagnostics, all recorded search/encoder/learned-model counts,
+physical actions, allocation time, process CPU, memory scopes and bytes.
+
+Do not replace native success with response-model fit or information
+gain when interpreting the result. Preserve the accurate Bayesian
+last-layer label; it is not a full ALPaCA reproduction.
+
+Keep scientific aggregates unread until complete verification and
+the prescribed external preservation gate have passed.
+
+9. PRESERVATION AND PUBLICATION
+
+Create the final immutable archive once, after complete339-job
+verification. Verify the new archive's whole-file hash and every member
+on the designated SSD.
+
+Transfer only this study's new archive. Do not recreate or retransmit
+historical archives.
+
+Preserve failed-transfer partials and receipts. No silent retry,
+overwrite, fallback disk, fake acknowledgment or research rerun.
+A transfer failure requires a scoped preservation-only recovery decision.
+
+Commit/push launch identities and final completion records outside the
+immutable execution closure. Read back the exact remote commits.
+
+Preserve continuation as the working system, all earlier scientific
+decisions, original artificial results, historical checkpoints and
+the three E12 drafts.
+
+RETURN
+
+Return the launch identity and included-tranche technical status when
+available, or a concrete fault report.
+
+On completion, return the complete fixed result, accounting, source/model
+identities and verified backup scope.
+
+No model promotion, larger replication or follow-up experiment launches
+automatically.
