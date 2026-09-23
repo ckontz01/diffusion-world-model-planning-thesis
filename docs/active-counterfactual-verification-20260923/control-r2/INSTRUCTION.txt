@@ -1,0 +1,306 @@
+EXECUTE ACV0 CONTROL-ONLY CONTINUATION R2
+
+This explicitly authorizes the bounded continuation below under the
+user's standing delegation. It is not a fresh direct user signature.
+
+Reviewed fault publication:
+4b74a58c3c5f382c2c8075f309e89cebf602d95e
+
+No additional general approval request is required after the specified
+control-only correction, tests, freeze and reconciliation pass.
+
+NO SUCCESSFUL SCIENTIFIC WORK MAY BE REPEATED.
+
+1. PRESERVE AND ACCEPT THE EXISTING SUCCESSFUL TASK
+
+Original R1 scientific source manifest:
+c2c6fcbe8c41fed22d0fde17bcb5f8cd456a74c1cb0d77039f4df94d86e0d468
+
+Original R1 enabled approval:
+e1e4b6f6d0e0d1fbb83e89d165be793128f02130647e21a1c12c5892d7d90460
+
+Existing run:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-c2c6fcbe8c41fed2
+
+Successful supplier:
+Slurm304193, collect-fit-490, attempt2, COMPLETED0:0,80seconds.
+
+Expected worker SEAL.json SHA256:
+c280ffb2e71288e8ea40fc5db34ff42fb464a928f42ab388e8e9b14abb8b3b6a
+
+Expected HARDWARE.json SHA256:
+44729aa05006bead67008711e31c6448678f2181076b0040c8fde3bb25cdec07
+
+Expected TECHNICAL.json SHA256:
+6eb9997d681fa98953f6e0917ad89933b30cc9ef3c28934ba65db01be4ad6a7b
+
+Authenticate those bytes, the complete worker seal, its original
+source/approval/spec bindings, and the exact scheduler allocation.
+
+Use hash/technical metadata verification for continuation acceptance.
+Do not regenerate its tree, run its model, replay physics, refit anything,
+or inspect its scientific outcomes to decide whether to reuse it.
+
+Record a NEW, currently dated acceptance event:
+"Accepted existing completed task304193 after the documented
+hostname-association correction."
+
+Do not backdate acceptance or claim the old controller accepted it.
+Do not modify, reseal, move or overwrite the successful worker directory.
+
+Block collect-fit-490 from every new submission path, including any
+fallback or generic restart path.
+
+2. EXACT HOSTNAME ASSOCIATION
+
+Accept only these pairs for the presently authorized GPU node:
+
+(worker_hostname, scheduler_node):
+("gpu09.cluster", "gpu09")
+("gpu09",         "gpu09")
+
+Require the worker's Slurm job ID to equal the exact allocation ID.
+Require one allocated GPU,4CPUs and the existing resource/site contract.
+Retain the exact device gate:
+NVIDIA RTX 6000 Ada Generation;
+CUDA available;
+exactly one visible device.
+
+Keep both original hostname strings and record the association rule.
+Do not rewrite the old HARDWARE.json or scheduler record.
+
+Reject different nodes, unknown suffixes, prefixes that merely resemble
+gpu09, multi-node/ambiguous allocation records, and mismatched job IDs.
+Do not perform DNS-based guessing or accept all names sharing a prefix.
+
+GPU UUIDs remain per-allocation evidence. Do not require future jobs to
+use the same physical GPU UUID as304193.
+
+Apply the corrected association to existing304193 acceptance and every
+subsequent GPU-worker acceptance.
+
+3. USE A NEW CONTROLLER; KEEP THE SCIENTIFIC SNAPSHOT
+
+Freeze the R2 controller, acceptance/finalization helpers, tests and
+authorization in a NEW exclusive control-only package.
+
+Keep the executed R1 source, scientific worker code, input bindings,
+roles, grid, models, planner and analysis unchanged.
+
+This instruction explicitly permits extending the EXISTING R1 run
+with never-created task directories and required not-yet-created
+gate/freeze/accounting/completion files. It does not permit restarting
+the original dispatch.py main() or restarting its339-task loop.
+
+New workers use the original authenticated R1 scientific snapshot
+and original worker approval, additionally governed by the separate
+R2 continuation authorization. Do not substitute the R2 control-package
+hash for the worker's original scientific source identity.
+
+Preserve all existing R1 files byte-for-byte:
+APPROVAL, CONTROLLER, DISPATCH, CAMPAIGN-ATTEMPTS, STOP, worker outputs
+and prior-v2 provenance.
+
+Write new controller identity, logs, acceptance events and campaign
+ledger segments in a separately named R2 directory. Do not overwrite
+or edit the old ledger to insert the missing acceptance.
+
+Provide one combined campaign view referencing the original immutable
+segments and the new append-only R2 segment. Identify existing304193
+once as a reused completed supplier—not as a newly submitted allocation.
+
+The original R1 STOP must remain at its original path and bytes:
+298615b25325a74d113cbda540528bc4b64508a0273b8dd1f1428b1c733f38fe
+
+The R2 authorization resolves only that exact, documented controller
+fault. A different STOP, a changed STOP, or a new unresolved R2 fault
+must still block dispatch and final acceptance.
+
+Do not monkey-patch the scientific modules or replace the old approval.
+
+4. RECONCILE BEFORE CONTINUING
+
+Verify that:
+-304189 is the authenticated failed23-second attempt.
+-304193 is the authenticated successful80-second attempt.
+-No other ACV0 allocation or ambiguous submission exists.
+-No campaign job remains live.
+-The old R1 controller is inactive, checked by PID AND start_ticks.
+-No R2 controller, submission or exclusive output already exists.
+
+The recorded R1 controller was PID684587/start_ticks893012584.
+Do not act on PID alone or kill unrelated processes.
+
+Use the existing hostPython3.9.6/Slurm control plane and approved transport.
+No dependencies, permissions, credentials or WSL changes.
+
+If reconciliation differs from the pinned report, stop rather than
+infer that a task should be repeated.
+
+5. CONTINUE ONLY THE338 NEVER-SUBMITTED TASKS
+
+Initialize:
+campaign_gpu_seconds=103;
+campaign_cpu_stage_seconds=0;
+accepted_unique_tasks={collect-fit-490 supplied by304193};
+known_allocation_ids={304189,304193}.
+
+Next task: collect-fit-545, attempt1, original1,800-second limit.
+
+After545 completes, require BOTH490 and545 to pass the original
+technical checks with the corrected hostname association.
+Write the previously absent technical-tranche marker only then.
+
+Do not count304189 or the controller restart as part of that gate.
+Do not infer a full tranche pass from490 alone.
+
+After the gate, continue the unchanged remaining collection, two
+192-update fits, model freeze,256 evaluations and one CPU analysis.
+
+Use original scientific task order and exact specifications.
+Keep model seals before access to the32 final-development sources.
+
+Construct the pre-analysis record from the339-task logical grid:
+existing304193 plus the subsequently completed tasks.
+The final analysis must receive all338 successful pre-analysis tasks
+in original order. Do not feed it merely the R2 segment.
+
+No extra hardware pilot, model probe, process repeat, fitting run,
+source replacement or research allocation is authorized.
+
+6. UNCHANGED CAPS; CARRY CHARGES FORWARD
+
+Remaining GPU tasks:
+79 collection ×1,800seconds;
+256 evaluation ×300seconds.
+
+Before every submission require:
+103
++ actual new charged GPU-seconds
++ full outstanding/remaining GPU reservations
+<=220,800.
+
+The initial maximum is219,103seconds.
+Unused headroom does not authorize another attempt or experiment.
+
+CPU stages remain three ×7,200 allocation-wall seconds:
+21,600 total;4CPUs/8GiB, no GPU.
+
+Retain one RTX6000 Ada allocation at a time,4CPUs/24GiB for GPU work,
+and the original worker preservation margins.
+
+Final counts if complete:
+-340 total allocated attempts.
+-339 successful unique scientific tasks.
+-One historical failed allocation.
+-One previously authorized replacement.
+-Zero replacement allocations authorized by R2.
+-Zero automatic retries.
+
+Preserve all original byte caps:
+10MB/collection;2MB/evaluation; existing CPU-worker limits;
+500MB source/model/control/analysis;2GB new live;
+8GB live/archive/partial allowance.
+
+Count R2 control/log/provenance additions, old failed-attempt evidence
+and preserved successful output in the appropriate reservations.
+Do not exclude extra directories from accounting simply because the
+original storage helper did not know their names.
+
+Verify designated THESIS_SSD and at least40GB free.
+No deletion or evidence reduction to fit.
+
+7. TEST THE COMPLETE CONTROL CONTINUATION BEFORE LAUNCH
+
+Use artificial fixtures and the recorded technical receipt values,
+without decoding scientific payloads or invoking research models.
+
+Required regressions:
+-Actual pair gpu09.cluster/gpu09 accepted.
+-Same short-name pair accepted.
+-Wrong hostname, suffix, node, job ID or GPU identity rejected.
+-Existing valid304193 accepted without scheduler/model/physics calls.
+-Corrupted or wrongly bound existing seal rejected.
+-No submission of490 under any path.
+-Only338 tasks submitted, beginning with545.
+-103seconds carried forward exactly once.
+-No third source before both technical suppliers pass.
+-Model freeze before final-source work.
+-Combined logical grid has339 successes at completion.
+-Combined attempt ledger has340 allocations, not341.
+-Unknown prior attempts or an already-started R2 rejected.
+
+Test finalization too—not just dispatch:
+-The exact historical STOP remains present.
+-Only that authenticated resolved STOP is permitted.
+-Any new/unrecognized stop blocks acceptance.
+-All original and R2 evidence appears in the final inventory.
+-No old artifact is rewritten to make a test pass.
+
+Use a two-hour cumulative local scripted-test ceiling,
+four CPU threads,8GiB RAM and250MB new preparation artifacts.
+No Slurm/GPU test allocation or dependency installation.
+
+Freeze the passing control-only package, commit/push, read back the
+remote hash, and verify the small package backup before continuation.
+Record this instruction and delegation accurately.
+
+A material change beyond this control-only scope requires a fault
+report, not a silently expanded repair.
+
+8. FINALIZATION AND PRESERVATION
+
+Implement a separate R2 finalization adapter rather than modifying
+the executed R1 preserve.py.
+
+The original archive entry point rejects any STOP, so do not run it
+unchanged and discover this again after the remaining computation.
+
+Final acceptance must authenticate:
+-Original failed304189.
+-Original successful304193 and its unchanged seal.
+-All338 subsequently successful unique tasks.
+-All340 allocation identities and full charges.
+-The exact resolved R1 STOP and this continuation authority.
+-No outstanding R2 fault.
+-All original scientific and storage acceptance conditions.
+
+Keep the scientific estimator, outcome denominator and analysis
+unchanged. Failed304189 and controller failures are provenance,
+not scientific observations.
+
+Create the final new-study-only archive once, using the established
+member/whole-file verification logic. Include:
+-original scientific source and approvals;
+-all successful task outputs and models;
+-failed-v2 provenance;
+-R1 controller failure and raw records;
+-R2 controller source, authority, ledger, resolution and completion.
+
+Preserve the original STOP inside the archive with its resolution
+record. Do not make the archive falsely appear to describe an
+uninterrupted run.
+
+Verify the archive and every member on designated THESIS_SSD.
+No historical-study rearchive/retransfer, overwrite, fallback disk,
+automatic transfer retry or research rerun.
+
+Keep scientific aggregates unread until complete acceptance and
+external preservation pass.
+
+9. STOP AND RETURN RULE
+
+Any further technical fault stops new dispatch, preserves partials,
+and requires exact reconciliation. No further retry or continuation
+is authorized by this message.
+
+An unfavorable scientific outcome is not a technical fault.
+No changes to sources, seeds, models, thresholds, training updates,
+endpoints or comparator definitions are permitted.
+
+Return the immutable R2 control/authorization identity and545/tranche
+status when available, or a scoped fault report. On completion return
+the full fixed result, campaign accounting and verified backup scope.
+
+No follow-up experiment, model promotion, protected-payload access
+or revival of historical monitors is authorized.

@@ -1,0 +1,27 @@
+# ACV0 control-only continuation R2 — preparation
+
+Authority: the exact user-supplied **EXECUTE ACV0 CONTROL-ONLY CONTINUATION R2** instruction, under standing delegation, not a fresh direct user signature. Reviewed fault: `4b74a58c3c5f382c2c8075f309e89cebf602d95e`. No scientific change, additional replacement or automatic retry is authorized.
+
+## Baseline
+
+The single direct baseline capture reconciled failed job 304189 (23 seconds) and successful 304193 (80 seconds); no other ACV0 allocations, ambiguous submissions or live campaign jobs were found. The original controller PID 684587/start_ticks 893012584 was inactive. The original scientific source, worker approval, successful worker seal/hardware/technical receipts and STOP matched every supplied hash. A 125-member SHA-256/byte inventory pins all existing R1 source/control/run records, including prior-v2 provenance. Outcome payloads were hashed without decoding or interpreting them. `BASELINE-CAPTURE.json` retains the exact technical observation; it is historical evidence, not a continuing live status.
+
+## Implementation and acceptance
+
+- Only the separate `control-r2` directory is executable R2 source. No executed R1 file was edited. New workers continue to use original source `c2c6fcbe8c41fed22d0fde17bcb5f8cd456a74c1cb0d77039f4df94d86e0d468` and worker approval `e1e4b6f6d0e0d1fbb83e89d165be793128f02130647e21a1c12c5892d7d90460`.
+- Reuse 304193 via its complete seal and original technical/allocation bindings. Write a new currently dated acceptance in R2, never alter/reseal/move/recompute the worker. Both loop and scheduler block collect-fit-490. Exact hostname pairs are gpu09.cluster/gpu09 and gpu09/gpu09; resource/device/job identity remain strict, and UUID is per allocation.
+- The new entry point submits exactly 338 original specifications, beginning with collect-fit-545 at 1,800 seconds. Both initial suppliers precede the third source; both 192-update fit seals precede final-source work. The unchanged CPU analysis receives the combined 338 successful pre-analysis tasks in original order.
+- Carry 103 GPU-seconds once. Initial full GPU reservation is 219,103/220,800 seconds. CPU-stage reservation remains 21,600 allocation-wall seconds. One GPU at a time; GPU jobs 4 CPU/24 GiB, CPU jobs 4 CPU/8 GiB. No extra allocation or fallback path. Final target is 339 successes/340 campaign allocations, one old failure, one previously authorized replacement, zero R2 replacements and zero automatic retries.
+- Preserve original ledgers, approval, controller and exact STOP bytes. The separate resolution permits only the authenticated hostname fault. Changed or new STOP/FAILURE records block continuation/finalization. The combined view references old immutable segments plus the new append-only R2 segment.
+- Count all R2 source/control/log/provenance bytes within the original source/model/control/analysis reservation, in addition to original failed evidence, successful output and full remaining workload. Retain all original byte caps and 2 GB live/8 GB inclusive bounds.
+- The separate finalizer authenticates every allocation/task, both gate timestamps, model identities, combined charges, original bytes and absence of new faults. Its one-shot archive includes the original STOP and R2 resolution. It never calls the old incompatible R1 archive entry point; only unchanged whole/member verification and native SSD transport are reused. No historical-study backup or archive cycle is performed.
+
+## Test and transport receipts
+
+`ATTEMPTS.jsonl` retains each bounded scripted attempt, including prior passing revisions. The final freeze records the exact successful suite and cumulative resources. All fixtures are artificial or pinned technical metadata; no model/physics calls, scientific payload decoding, GPU/Slurm test allocation or dependency installation occurred. The suite covers exact hostname acceptance/rejections, readonly reuse/corruption/wrong bindings, every submission exclusion, complete 338-task continuation and 339/340 accounting, unknown/live/already-started campaigns, full final inventory, archive/member verification, STOP resolution, old-byte preservation, gate ordering, storage additions, disabled authority, Python 3.9 grammar and fixed-bootstrap binary stdin transport. The final authority regression preserves the attachment's CRLF bytes exactly.
+
+The separate manifest/false template and enabled approval are not interchangeable. `FROZEN-PACKAGE.json` and `AUTHORIZATION-PROVENANCE.json` hold exact identities. The small-package backup includes only new R2 control and authority/preparation/test records, at the existing designated THESIS_SSD identity with >=40 GB free, after commit/push/remote hash verification. It does not claim final research preservation. Staging and launch use exclusive paths, configured SSH stdin and pinned host Python 3.9.6, and repeat metadata-only pre-continuation reconciliation. No old controller is restarted, and historical monitors remain paused.
+
+## Completion barrier
+
+Until compute acceptance **and** complete SSD whole/member verification pass, scientific aggregates remain unread. Any new fault ends dispatch and requires exact reconciliation; no additional retry/continuation is authorized by R2. No source, seed, endpoint, model, comparator, threshold or training-setting changes, promotion, protected payload access or subsequent experiment are authorized.
