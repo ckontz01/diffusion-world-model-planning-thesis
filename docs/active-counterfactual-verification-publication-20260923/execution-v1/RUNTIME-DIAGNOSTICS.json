@@ -1,0 +1,46 @@
+{
+  "scope": "Read-only runtime and executable metadata after authorized R1 transport preflight; no source transfer or research allocation",
+  "pinned_runtime": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006",
+  "python_link": "/opt/conda/bin/python",
+  "python_link_target_exists_on_login_host": false,
+  "pyvenv_cfg": {
+    "home": "/opt/conda/bin",
+    "include-system-site-packages": true,
+    "version": "3.11.10",
+    "executable": "/opt/conda/bin/python3.11"
+  },
+  "host_commands": {
+    "python": null,
+    "python3": "/usr/bin/python3",
+    "python3.9": "/usr/bin/python3.9",
+    "python3.11": null,
+    "apptainer": "/usr/bin/apptainer",
+    "sbatch": "/usr/bin/sbatch",
+    "sacct": "/usr/bin/sacct"
+  },
+  "existing_container_read_only_check": {
+    "container": "/lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif",
+    "returncode": 0,
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "numpy": "2.2.6",
+    "commands": {"sbatch": null, "sacct": null, "apptainer": null},
+    "gpu_passthrough": false,
+    "research_mount_read_only": true,
+    "stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts"
+  },
+  "host_python39_numpy_check": {
+    "returncode": 1,
+    "error": "ModuleNotFoundError: No module named 'numpy'"
+  },
+  "enabled_approval_created": false,
+  "source_snapshot_created": false,
+  "controller_started": false,
+  "submitted_jobs": 0,
+  "ambiguous_submissions": 0,
+  "gpu_allocation_seconds": 0,
+  "cpu_job_allocation_seconds": 0,
+  "research_checkpoint_loads": 0,
+  "reference_payload_reads": 0,
+  "simulator_episodes": 0,
+  "automatic_retry": false
+}

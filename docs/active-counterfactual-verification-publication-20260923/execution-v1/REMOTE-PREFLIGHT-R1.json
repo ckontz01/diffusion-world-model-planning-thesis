@@ -1,0 +1,7 @@
+{
+  "start_unix": 1790162394.5285225,
+  "end_unix": 1790162418.9390523,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<string>\", line 7, in <module>\n  File \"<acv0-operation>\", line 22, in <module>\n  File \"/usr/lib64/python3.9/subprocess.py\", line 505, in run\n    with Popen(*popenargs, **kwargs) as process:\n  File \"/usr/lib64/python3.9/subprocess.py\", line 951, in __init__\n    self._execute_child(args, executable, preexec_fn, close_fds,\n  File \"/usr/lib64/python3.9/subprocess.py\", line 1821, in _execute_child\n    raise child_exception_type(errno_num, err_msg, err_filename)\nFileNotFoundError: [Errno 2] No such file or directory: '/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python'\n"
+}

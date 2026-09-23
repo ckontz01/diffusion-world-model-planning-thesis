@@ -4,6 +4,7 @@ Uses native Windows files and configured SSH stdin. No retry, scientific edit,
 credential access, dependency installation or alternate namespace is provided.
 """
 import argparse
+import base64
 import hashlib
 import io
 import json
@@ -57,11 +58,26 @@ def local():
     assert volume['SizeRemaining']>=40_000_000_000
     return {'source_manifest':MANIFEST_SHA,'archive_sha256':ARCHIVE_SHA,'archive_bytes':706560,'transport_members':40,'volume':volume}
 
+BOOTSTRAP="""import base64,io,json,sys
+raw=sys.stdin.buffer.read(2000001)
+assert len(raw)<=2000000,'Transport envelope bound'
+request=json.loads(raw)
+assert set(request)=={'config','code','payload'},'Envelope schema'
+sys.stdin=io.TextIOWrapper(io.BytesIO(base64.b64decode(request['payload'],validate=True)),encoding='utf8')
+exec(compile(request['code'],'<acv0-operation>','exec'),{'CONFIG':request['config'],'json':json,'__name__':'__main__'})
+"""
+
+def envelope(code,payload=b''):
+    compile(code,'<acv0-operation>','exec')
+    config={'source':SOURCE,'control':CONTROL,'run':RUN,'rel':REL,
+            'manifest_sha':MANIFEST_SHA,'archive_sha':ARCHIVE_SHA,'inputs':read(PACKAGE/'INPUT-BINDINGS.json')}
+    data=json.dumps({'config':config,'code':code,'payload':base64.b64encode(payload).decode()},ensure_ascii=True).encode()
+    assert len(data)<=2_000_000,'Transport envelope bound'
+    return data
+
 def remote(code, payload=b'', timeout=180):
-    header='import json\nCONFIG=json.loads('+repr(json.dumps({'source':SOURCE,'control':CONTROL,'run':RUN,'rel':REL,
-       'manifest_sha':MANIFEST_SHA,'archive_sha':ARCHIVE_SHA,'inputs':read(PACKAGE/'INPUT-BINDINGS.json')}))+')\n'
-    code=header+code;compile(code,'<acv0-operation>','exec')
-    return subprocess.run(SSH+['python3.9 -B -S -c '+shlex.quote(code)],input=payload,capture_output=True,timeout=timeout)
+    # R1: only the fixed short bootstrap is an argument; all variable bytes use stdin.
+    return subprocess.run(SSH+['python3.9 -B -S -c '+shlex.quote(BOOTSTRAP)],input=envelope(code,payload),capture_output=True,timeout=timeout)
 
 def once(name,code,payload=b''):
     claim=HERE/(name+'.json')
@@ -197,9 +213,9 @@ print(json.dumps(result))
 
 def main():
     p=argparse.ArgumentParser();p.add_argument('mode',choices=['preflight','prepare','stage','launch','observe']);p.add_argument('--receipt');a=p.parse_args()
-    if a.mode=='preflight':write(HERE/'LOCAL-PREFLIGHT.json',local());once('REMOTE-PREFLIGHT',PREFLIGHT)
+    if a.mode=='preflight':write(HERE/'LOCAL-PREFLIGHT-R1.json',local());once('REMOTE-PREFLIGHT-R1',PREFLIGHT)
     elif a.mode=='prepare':
-        assert read(HERE/'REMOTE-PREFLIGHT.json')['returncode']==0
+        assert read(HERE/'REMOTE-PREFLIGHT-R1.json')['returncode']==0
         raw=ATTACHMENT.read_bytes();instruction=raw.decode('utf8');assert instruction.startswith('EXECUTE ACV0 ')
         approval=read(PACKAGE/'APPROVAL-TEMPLATE.json');assert approval['authorized'] is False
         approval.update(authorized=True,instruction=instruction)
@@ -208,6 +224,8 @@ def main():
         write(HERE/'AUTHORIZATION-PROVENANCE.json',{'basis':'Explicit EXECUTE ACV0 instruction supplied here under standing user delegation; not a newly obtained direct user signature',
           'attachment':str(ATTACHMENT),'instruction_sha256':hashlib.sha256(raw).hexdigest(),
           'approved_implementation':'3b2db69e563af89b1ced2149b11c11a1999ba4df','approved_receipt':'b27605ccf7e9097beb02e3d0d638d3e31a175121',
+          'transport_recovery_user_instruction':'fix it',
+          'transport_recovery_scope':'Correct only prelaunch transport; continue same approved launch and paths; no scientific change or research retry',
           'source_manifest':MANIFEST_SHA,'false_template_preserved':True,'source':SOURCE,'control':CONTROL,'run':RUN,
           'approval_sha256':sha(HERE/'EXECUTION-APPROVAL.json'),'no_additional_general_approval_required':True})
         print('Separate enabled approval recorded; original false template unchanged. No launch yet.')

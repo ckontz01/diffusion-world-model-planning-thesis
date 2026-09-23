@@ -1,0 +1,9 @@
+# Authorized prelaunch transport correction R1
+
+After the scoped prelaunch fault report, the user replied **“fix it”**. This authorizes the requested launch-transport-only correction and continuation of the original approved launch in the same exclusive snapshot, control and run paths. It does not authorize changes to the scientific snapshot, grid, caps, retries of research allocations, dependency installation or permission changes.
+
+The original failed preflight and zero-allocation reconciliation remain intact. `operate.py` now passes only a fixed short standard-library bootstrap on the command line. A size-bounded JSON envelope carries code, configuration and exact payload bytes through configured SSH stdin. Binary payloads are base64-framed and restored to the operation's stdin, preserving the existing staging logic. Local tests cover empty and large binary payloads, exact hashes, bounds and operation syntax; they make no network or research calls.
+
+The newly authorized preflight has separate R1 receipts. Enabled approval, transport and launch still use exclusive creation and stop on any further fault. The original EXECUTE ACV0 instruction remains the research authority under standing delegation, not a newly obtained direct user signature. The source manifest remains `bf3f4558f2cdfbca98715ad684c596d23626d5650e32a72a0e26f46dc3f83554`.
+
+R1 transported the preflight successfully. It then stopped on a separate controller-runtime fault before staging or allocation; see `RUNTIME-FAULT-20260923.md`. A local review also preserved the old operation header's inherited `json` global in the bootstrap and added an explicit local test for it. The first test receipt and failed R1 preflight are retained, not overwritten. The final transport tests make no network calls; no second remote preflight or launch retry was made.
