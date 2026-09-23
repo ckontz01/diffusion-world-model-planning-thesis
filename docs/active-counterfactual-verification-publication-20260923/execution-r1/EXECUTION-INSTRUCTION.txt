@@ -1,0 +1,319 @@
+EXECUTE ACV0 RECOVERY R1 — ONE AUTHORIZED REPLACEMENT
+
+This instruction authorizes implementation, testing, freezing and execution
+of the finite recovery below under the user's standing delegation.
+
+It is not a fresh direct user signature. It is not general permission
+for further retries or for changes to the scientific experiment.
+
+Reviewed fault/candidate publication:
+64ebad6d881680ec54973b9b38b18a6999b24212
+
+Executed bindings-v2 implementation:
+5d382ddf294ee711d21e137091c59fe3a57a05df
+
+Preserved executed source manifest:
+5630b222e8a88d0eaa45408876929724734d1f992afa657131ac770fb0400fa9
+
+Preserved executed approval:
+7ea5f67225ee1bff091e705e7515a4ed8f3589694e6093f1c2e7c607d27a6a88
+
+1. APPROVED HARDWARE
+
+The intended device for every new GPU worker is exactly:
+
+NVIDIA RTX 6000 Ada Generation
+
+Retain the site's:
+partition a6000
+QOS normal-a6000
+account superworld
+
+Require CUDA available and exactly one visible GPU.
+Do not accept RTX A6000, A100, other RTX6000 generations, substring
+matches, or arbitrary "equivalent" hardware.
+
+Use the reviewed candidate hardware gate before load_backend,
+checkpoint authentication/loading, reference loading or physics.
+
+Write HARDWARE.json before accepting or rejecting the observed device.
+Bind the receipt to the actual Slurm job and hostname; record the exact
+runtime device name and visible count. Preserve available identifying
+properties through the existing API without installing tools.
+
+If the device-query operation itself raises, retain a query-error
+receipt and stop. Do not fabricate an observed name or fall back to
+the repository specification.
+
+Apply the gate to EVERY GPU worker, not only the replacement.
+CPU stages retain their no-GPU contract.
+
+The first replacement allocation supplies the first live hardware
+measurement. No standalone hardware-probe allocation or unallocated
+research checkpoint load is authorized.
+
+Do not claim that job304189's exact device string was measured.
+Its node and historical hardware specification remain indirect evidence.
+
+2. EXACT REPLACEMENT AND REMAINDER
+
+Authorize exactly ONE new attempt at the SAME task:
+collect-fit-490.
+
+This is task490 attempt2. Failed allocation304189 remains attempt1.
+No episode, label or fitting observation from it is accepted or imputed.
+
+Replacement scheduler limit:
+1,740 seconds =29 minutes.
+
+Replacement work limit:
+1,620 seconds, retaining120 seconds for preservation.
+
+Propagate that envelope consistently through the execution grid,
+scheduler request, worker alarm, supervisor, reservations and receipts.
+Do not change its physical workload, candidate count or output cap.
+
+Then execute the original338 remaining unique task keys:
+-79 other collection jobs at1,800 seconds each.
+-Two CPU fitting jobs at7,200 seconds each.
+-256 GPU evaluation jobs at300 seconds each.
+-One CPU analysis job at7,200 seconds.
+
+Total new allocations:339.
+Total campaign allocations including304189:340.
+Expected successful unique task keys if complete:339.
+
+No second replacement, automatic retry, requeue, resume, extra pilot,
+source substitution or additional allocation is authorized.
+
+3. AGGREGATE ACCOUNTING
+
+Initialize campaign GPU charges with the authenticated23 seconds from
+job304189; initialize prior CPU-stage charges at zero.
+
+Before every submission enforce:
+
+23
++ actual charged GPU-seconds in R1
++ full reservations for outstanding/new remaining GPU tasks
+<=220,800.
+
+Initially the full maximum is:
+23 +1,740 +79×1,800 +256×300 =220,763 seconds.
+
+Keep the CPU-stage cap at21,600 allocation-wall seconds.
+
+Do not reset charges when creating the new run namespace.
+Do not subtract checkpoint-loading or failed-guard time.
+Do not spend the37-second margin on another attempt.
+
+Maintain both:
+- An append-only campaign attempt ledger containing the historical
+  failure and all subsequent allocations.
+- A unique scientific-task ledger showing which successful attempt
+  supplies each of the339 task keys.
+
+Record authorized_replacement_count=1 when that attempt is submitted
+and automatic_retry_count=0. Do not describe the completed campaign
+as having no failed attempts or no reattempt at all.
+
+Retain scheduler and worker resource measurements with their separate
+scopes. Queue time is excluded from allocation charges.
+
+4. NEW FROZEN RECOVERY PACKAGE
+
+Preserve bindings-v1, bindings-v2, their approvals and all source/run/
+control directories unchanged.
+
+Create one new, exclusively named recovery source/run/control namespace,
+tied to its actual new manifest. Do not reuse the failed run directory
+or delete STOP.
+
+Use the reviewed hardware.py and worker ordering. Permit only the
+additional control-plane changes needed for:
+- Authenticating prior failure304189.
+- Carrying forward its charge.
+- The one shortened replacement envelope.
+- Attempt identity and final acceptance.
+- New manifest/approval/path bindings.
+- Inclusion of prior-attempt evidence in final preservation.
+
+Keep the scientific modules and original input/role bindings unchanged.
+The scientific task grid remains339 unique keys; the replacement time
+field is an explicit execution-envelope amendment, not byte-identical
+to the old grid. Record both old and new hashes accurately.
+
+Create a separate recovery authorization binding:
+- This instruction and delegation provenance.
+- Old source and approval hashes.
+- Exact failed job/task/charge and fault-record hashes.
+- New source manifest, input/role/grid identities and namespace.
+- Exact permitted hardware.
+- Maximum340 campaign attempts and all resource limits.
+
+Preserve the original false templates. Do not alter an old approval
+to make it appear that this recovery was authorized before the failure.
+
+Freeze, commit/push, verify the remote commit, and authenticate the
+transported source before submission. No additional general approval
+request is needed for changes confined to this instruction.
+
+5. PRIOR-ATTEMPT RECONCILIATION AND CONTROLLER
+
+Before launch, make a bounded metadata-only reconciliation:
+- Job304189 remains terminal FAILED1:0 with23 seconds charged.
+- Its source, approval, task, node and logs match the pinned receipts.
+- No old controller remains active; identify it by PID AND start time.
+- No additional ACV0 allocation, live job or ambiguous submission exists.
+- No R1 run or submission already exists.
+
+The prior-attempt check may allow exactly the authenticated304189
+failure. It must still reject every unexplained attempt, including
+attempts under an alternate ACV0 job-name prefix.
+
+Do not merely disable that check. Do not kill unrelated processes/jobs.
+
+Keep the corrected hostPython3.9.6/Slurm control plane and bounded
+SSH-stdin transport. Workers retain the pinned scientific runtime.
+No dependency, credential, permission or WSL changes.
+
+6. INCLUDED TECHNICAL GATE
+
+The successful replacement490 and the original545 collection must
+both pass before any third source is submitted.
+
+Their physical branches remain included fitting data.
+Failed304189 does not count toward passing the tranche.
+
+Preserve the full existing checks:
+source/goal identity, actual initial hardware, frozen model identities,
+baseline/tree/action associations, physical common-prefix replay,
+native endpoints, clocks, full budgets and storage/resource compliance.
+
+Only technical status and resource evidence may determine this gate.
+No partial success-rate interpretation or scientific tuning.
+
+If the gate passes, continue the fixed remainder without another
+general permission checkpoint. Actual live renderer/physics correctness
+is not presumed from passing the name check.
+
+7. FOCUSED RECOVERY TESTING
+
+Before freezing, run the candidate tests and relevant integration tests
+with artificial data and mocked hardware/scheduler operations.
+
+Cover:
+- Exact-name acceptance and wrong/unavailable/multiple-device rejection.
+- Device-query failure preservation.
+- Executable call-order checks proving model/reference loaders are not
+  reached after a hardware rejection, not only line-number ordering.
+- Failed304189 authenticated and charged exactly once.
+- Unknown prior attempts rejected.
+- Task490 attempt2 and every remaining task attempted at most once.
+- Initial maximum220,763 and enforcement of all remaining reservations.
+- Replacement1,740 hard/1,620 work limits through the actual launch path.
+-490/545 technical gate and pre-evaluation model freeze.
+-339 successful unique tasks distinguished from340 total attempts.
+- Final archive includes the failed attempt without treating it as data.
+- Hardware/ledger/manifest additions fit existing storage limits.
+
+Preserve failed test attempts and corrections. No new efficacy scenario
+or research model/physics execution outside allocated tasks.
+
+Recovery preparation ceiling:
+two cumulative wall-hours of scripted local tests,
+four CPU threads,8GiB RAM,250MB new preparation outputs.
+Use existing environments; no extra Slurm allocation for tests.
+
+If a necessary correction changes scientific semantics or cannot fit
+these limits, stop and report the specific issue instead of broadening
+the recovery.
+
+8. SCIENTIFIC AND STORAGE CONTRACTS — UNCHANGED
+
+Preserve exactly:
+-64 fitting,16 validation,32 final-development source identities.
+-H75 and150 physical actions.
+-One initial five-action prefix/ten-action continuation opportunity,
+ followed by the fixed baseline tail.
+-Maximum4×4 tree and128 response samples per prefix.
+-All eight controllers, seeds, planner/dtype/action contracts.
+-192 optimizer updates EACH for joint and ordinary models.
+-Fitting-only preprocessing and final-update checkpoint selection.
+-All declared primary comparisons and bootstrap analysis.
+
+No final-development payload opens before all model seals.
+No excluded/reserved CVL, BP1 evaluation,1600–5999 or other protected
+payload access.
+
+Keep all existing worker RAM/CPU requests, concurrency, byte caps,
+log limits and preservation margins except the expressly shortened
+replacement hard/work limits.
+
+Retain:
+10MB/collection worker;
+2MB/evaluation worker;
+existing CPU-worker limits;
+500MB source/model/control/analysis;
+2GB new live data;
+8GB live/archive/partial preservation allowance;
+designated THESIS_SSD and40GB free-space requirement.
+
+Count old ACV0 failed-attempt artifacts, new recovery additions and their
+archive copies within these reservations. Do not hide them by placing
+them outside the new run root. No deletion to fit.
+
+9. ANY FURTHER FAULT
+
+Stop new dispatch, preserve partials, and reconcile exact allocation
+identities and all charges. Return one scoped report.
+
+This one recovery authorization does not permit another retry after
+a hardware mismatch, timeout, renderer failure, replay mismatch,
+training failure or transport fault.
+
+Successful computation must not be repeated to repair packaging.
+An unfavorable scientific outcome is not a technical fault.
+
+10. COMPLETION, PRESERVATION AND REPORTING
+
+Final acceptance requires:
+-339 successful unique scientific task keys from the approved R1 grid.
+-The separately authenticated FAILED304189 record.
+-All340 campaign allocations reconciled, if the campaign completes.
+-All original source/model/action/endpoint and resource checks.
+-The unchanged full scientific analysis, with failed304189 excluded
+ from all datasets, outcomes and scientific denominators.
+
+Keep the scientific estimator unchanged. Attach the combined campaign
+accounting rather than treating the prior failure as another outcome.
+
+Create one final new-study-only archive, including:
+-R1 scientific source, approval, workers, fitted models and analysis.
+-R1 control/ledger/launch/recovery records.
+-The failed v2 ACV0 attempt's source/approval/control/log/failure evidence,
+ copied byte-for-byte into a separately labelled provenance section.
+
+Do not alter the original failed directories.
+Do not rearchive or retransfer historical LGP/AV0 studies.
+
+Verify the complete new archive and every member on the designated SSD.
+No scientific aggregate interpretation before that preservation gate.
+A failed transfer retains partials and requires its own scoped decision.
+
+Publish actual hardware identity separately from partition name.
+Use "GPU-allocation hours on NVIDIA RTX6000 Ada Generation" for R1,
+not a false RTX A6000 measurement or a claimed historical speedup.
+
+Commit/push the recovery launch, tranche and final receipts; verify remote
+hashes. Preserve all prior scientific decisions and E12 drafts.
+
+RETURN
+
+Return the new immutable launch/approval identity and the490/545
+technical status when available, or a concrete fault.
+
+On completion return all eight arms, all32 source effects, primary
+contrasts, full340-attempt accounting and verified backup scope.
+
+No follow-up study, model promotion or wider recovery is authorized.
