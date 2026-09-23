@@ -1,0 +1,180 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "98a98ba44e5dd2b06bb2011605b24b2813253d3b",
+  "remote_head_verified": true,
+  "branch": "active-counterfactual-verification-preparation-20260923",
+  "destination": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-20260923\\control-r2",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323582033920,
+  "payload_files": 27,
+  "payload_bytes": 372130.0,
+  "members": [
+    {
+      "path": "source/APPROVAL-TEMPLATE.json",
+      "bytes": 3048,
+      "sha256": "99c94dc14a9a6b199140ac96acc8affe3ce8657802406578120a5df05bd7b946",
+      "readback_match": true
+    },
+    {
+      "path": "source/ATTEMPTS.jsonl",
+      "bytes": 6858,
+      "sha256": "11c1add6196b5750d415a674b7650420e54ee7268b8ecc11299da433f0cdaf8b",
+      "readback_match": true
+    },
+    {
+      "path": "source/backup_package.ps1",
+      "bytes": 4665,
+      "sha256": "17e837fab687f90e0322483659ea7cbf5d46d6456b203c4b14518b9d3469b158",
+      "readback_match": true
+    },
+    {
+      "path": "source/BASELINE.json",
+      "bytes": 30203,
+      "sha256": "7d382e11835e5cecd332604c1e64bdbd06310ec2ff052c9b10402a766e3fea1e",
+      "readback_match": true
+    },
+    {
+      "path": "source/bounded_run.py",
+      "bytes": 2590,
+      "sha256": "3768977e332cae535fcd3e35a40097e4e75bd08c56fd9643c32e9f9cd355ad7d",
+      "readback_match": true
+    },
+    {
+      "path": "source/CONTRACT.json",
+      "bytes": 2536,
+      "sha256": "153357af5047a9431ec8a386518deadfd173f8ce10611c3e24e0f77f82ef6ec4",
+      "readback_match": true
+    },
+    {
+      "path": "source/controller.py",
+      "bytes": 8506,
+      "sha256": "ee92e864e66feadc219f667a6ea18ccde56c731de2be28d6325c493ca700c3f7",
+      "readback_match": true
+    },
+    {
+      "path": "source/finalize.py",
+      "bytes": 12099,
+      "sha256": "9e976cfd3712e7c54eb12788b8b31a0e4b9a5b9e2081b73d09935396e5358a5b",
+      "readback_match": true
+    },
+    {
+      "path": "source/FREEZE-RECEIPT.json",
+      "bytes": 6793,
+      "sha256": "3873b20321f05fbab03823a5ca2b6e4e0b8156ced20f4c69c6907577747cf309",
+      "readback_match": true
+    },
+    {
+      "path": "source/INSTRUCTION.txt",
+      "bytes": 12182,
+      "sha256": "fb183dde7d7f74f16fc324b9505e47c89565e28b70df72dbc75c2e943b53f65b",
+      "readback_match": true
+    },
+    {
+      "path": "source/r2_core.py",
+      "bytes": 13418,
+      "sha256": "82b505f84cae6e1355ac4c65b996edf35d02b37b0b98216403205eb4329220c2",
+      "readback_match": true
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 3934,
+      "sha256": "08cac6aa1c5aa7b4a52a2f110cf662754515274b4e1362e60eeaec0ce9e0d6c2",
+      "readback_match": true
+    },
+    {
+      "path": "source/source-export.tar",
+      "bytes": 153600,
+      "sha256": "d5850b58efec1caec602459866dd8e549bfdb0931a154ec8bf43a52f48457bb0",
+      "readback_match": true
+    },
+    {
+      "path": "source/SOURCE-MANIFEST.json",
+      "bytes": 1233,
+      "sha256": "c005e20ac153b415d7e95fdf60a0e9f7290cd40da883847a8a7e789eaee8d752",
+      "readback_match": true
+    },
+    {
+      "path": "source/SOURCE-TRANSPORT.json",
+      "bytes": 1823,
+      "sha256": "07c7690433724e16c5a8d81d153002f281b282d740003ca44f983fa0f6916c6d",
+      "readback_match": true
+    },
+    {
+      "path": "source/test_r2.py",
+      "bytes": 17820,
+      "sha256": "ccd030d5a71dd43833edd1e995d4c9e113228763aa2189115efac071f24fac1a",
+      "readback_match": true
+    },
+    {
+      "path": "source/test_transport.py",
+      "bytes": 4355,
+      "sha256": "69c973e01356112165e7b97a2605deab10e6d303da8da1b21f0505a3a10b4ff8",
+      "readback_match": true
+    },
+    {
+      "path": "source/transport.py",
+      "bytes": 12534,
+      "sha256": "1afd48a2abf548abd1de23511676f6de18b909e2de1807ca991232f92a2e0640",
+      "readback_match": true
+    },
+    {
+      "path": "authority/AUTHORIZATION-PROVENANCE.json",
+      "bytes": 3985,
+      "sha256": "18bf02b064fd85ff1d2e0659947537efc43ba2bda8124f0b4e9f2bdde7711772",
+      "readback_match": true
+    },
+    {
+      "path": "authority/BASELINE-CAPTURE.json",
+      "bytes": 33428,
+      "sha256": "25336264c2a43b1a411d9d724a8d813820ef24e38478504e1ebd282317f56f55",
+      "readback_match": true
+    },
+    {
+      "path": "authority/capture_baseline.py",
+      "bytes": 3833,
+      "sha256": "8a5e40afc1ecd5f71dfcbf1fdfadee67a4b8af40659f24979b0354de19f38b81",
+      "readback_match": true
+    },
+    {
+      "path": "authority/EXECUTION-APPROVAL.json",
+      "bytes": 15867,
+      "sha256": "559be22ceb545afbe957fe2ce54980d778cfa08807cf7380c9f9d61ef3e3297f",
+      "readback_match": true
+    },
+    {
+      "path": "authority/freeze_package.py",
+      "bytes": 4863,
+      "sha256": "5baa04186ca0e575628abdd78545e26ef6f1e4f0cb6465c9b4f4e06d85321af9",
+      "readback_match": true
+    },
+    {
+      "path": "authority/FROZEN-PACKAGE.json",
+      "bytes": 2132,
+      "sha256": "ce77eedbac006831c158da04d44c40629d738e228eb3b75645c2bcfe3b36473a",
+      "readback_match": true
+    },
+    {
+      "path": "authority/IDENTITIES.md",
+      "bytes": 2227,
+      "sha256": "129d206c7a31d390ba810852aab8236d8379d2fd106e8e13b0c12c967df40da2",
+      "readback_match": true
+    },
+    {
+      "path": "authority/PREPARATION.md",
+      "bytes": 5424,
+      "sha256": "ee75d090af49d81d38b8231a6bef44d991e87077050ba4fcb553bf4b034d02ff",
+      "readback_match": true
+    },
+    {
+      "path": "authority/prepare_inputs.py",
+      "bytes": 2174,
+      "sha256": "4df4ffdbb101e3a97b73fde5f83339e6ac06ed121adbf1623d6cd9b6a2c8156a",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-23T16:54:10.1296299Z",
+  "wall_seconds_through_payload_readback": 6.2763451,
+  "historical_archives_transferred": 0,
+  "original_scientific_package_rebacked": false,
+  "note": "Only new control-r2 source and continuation-r2 authority/test/preparation records. Every payload and receipt read back. Not a substitute for final research archive preservation."
+}
