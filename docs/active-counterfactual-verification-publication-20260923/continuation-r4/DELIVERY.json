@@ -1,0 +1,174 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "02794d8e01dc55227c7f711d25b678dad369f4b3",
+  "remote_head_verified": true,
+  "branch": "active-counterfactual-verification-preparation-20260923",
+  "destination": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-20260923\\control-r4",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323580739584,
+  "payload_files": 26,
+  "payload_bytes": 1190066.0,
+  "members": [
+    {
+      "path": "source/APPROVAL-TEMPLATE.json",
+      "bytes": 5957,
+      "sha256": "2e21941cc3595a06e7c26be5743777c9953f6289fa62deafb1146fbc94a82f6b",
+      "readback_match": true
+    },
+    {
+      "path": "source/ATTEMPTS.jsonl",
+      "bytes": 2721,
+      "sha256": "c4588a9811aa95f30dd4642fc493f5659e59fcb044b872d85767ceaeb47de59c",
+      "readback_match": true
+    },
+    {
+      "path": "source/backup_package.ps1",
+      "bytes": 4665,
+      "sha256": "a905289eb9610cb373cb6fadcc94ddc380d6b503bc271c6c7a8b9943bf5f1aee",
+      "readback_match": true
+    },
+    {
+      "path": "source/BASELINE.json",
+      "bytes": 287630,
+      "sha256": "a66a398bb11ab71ac4c0191d9fdd54c5fc29aca1cc7962f36e1d608642394476",
+      "readback_match": true
+    },
+    {
+      "path": "source/bounded_run.py",
+      "bytes": 2847,
+      "sha256": "d4d344205e05801a09d2b26f63d9a937a6c983001efde414851f31ad04ccd35d",
+      "readback_match": true
+    },
+    {
+      "path": "source/CONTRACT.json",
+      "bytes": 5445,
+      "sha256": "5e8dfb96104cdbb7ff6cb5f614876240332eb17d2f2006b2b53813ae2b4da90a",
+      "readback_match": true
+    },
+    {
+      "path": "source/controller4.py",
+      "bytes": 11063,
+      "sha256": "7a98bc0978197f1ae7dc81e54aaf5e93fbfbcd9e74895cb55ed3e29b2d3fe5ab",
+      "readback_match": true
+    },
+    {
+      "path": "source/finalize4.py",
+      "bytes": 15198,
+      "sha256": "0f6ab58a3e56739dd6b40f6836b4fdf2411cb00ea94d52eadcd39fd5f97fd123",
+      "readback_match": true
+    },
+    {
+      "path": "source/FREEZE-RECEIPT.json",
+      "bytes": 3205,
+      "sha256": "89c579ae8cdbbad99db337b9ae4e8db8f38418d15f1060842ef20d3130aeb62d",
+      "readback_match": true
+    },
+    {
+      "path": "source/INSTRUCTION.txt",
+      "bytes": 164,
+      "sha256": "341ba052c12a30cdd9e878a7beaa5e5ad07dc81cbae594593492a1c3030d8251",
+      "readback_match": true
+    },
+    {
+      "path": "source/MONITORING-AUTHORIZATION.md",
+      "bytes": 7761,
+      "sha256": "bd77b12ecb9243e10174c5a5602e26fb8cf221f35fd02459e754dc2ccf13a9c1",
+      "readback_match": true
+    },
+    {
+      "path": "source/r4_core.py",
+      "bytes": 15243,
+      "sha256": "c1047a55197290cf341d1f717d5e79c400db4d394825f79bac811cdaadd0c08c",
+      "readback_match": true
+    },
+    {
+      "path": "source/README.md",
+      "bytes": 4001,
+      "sha256": "d8a5e0ce3ae07b94ba0faa12ec750748f7b147e82c3491de8a4740895e561a68",
+      "readback_match": true
+    },
+    {
+      "path": "source/source-export.tar",
+      "bytes": 419840,
+      "sha256": "ce32c4b528adfc37cdb8fcf673b2dd3aca579310f0515c319fac4a900cb52725",
+      "readback_match": true
+    },
+    {
+      "path": "source/SOURCE-MANIFEST.json",
+      "bytes": 1246,
+      "sha256": "51c8766838dca7b206b322d3995794663197123d284aec2e5bc64ad1dab42ed2",
+      "readback_match": true
+    },
+    {
+      "path": "source/SOURCE-TRANSPORT.json",
+      "bytes": 1836,
+      "sha256": "8a537a7c225fd729205ca6f3582f162b039197c607e600877f965aca7832972d",
+      "readback_match": true
+    },
+    {
+      "path": "source/test_r4.py",
+      "bytes": 23138,
+      "sha256": "349eddade2ec17c156df5efaeb9d4ff2ae2642efc887364fd4af2b0b42c3b6f0",
+      "readback_match": true
+    },
+    {
+      "path": "source/transport4.py",
+      "bytes": 12723,
+      "sha256": "3c88528c9fd82471a3d16ef2197794ad51b83b03f6abfdd4563be8a6757fc470",
+      "readback_match": true
+    },
+    {
+      "path": "authority/AUTHORIZATION-PROVENANCE.json",
+      "bytes": 7047,
+      "sha256": "abdf4b396d44f39631b796bbe53262444ab65ae29c226448b1b25194620d0c96",
+      "readback_match": true
+    },
+    {
+      "path": "authority/BASELINE-CAPTURE.json",
+      "bytes": 332955,
+      "sha256": "bef95600e5c57d9a1b0a6ad6a032501bf77bae7d9c0952c3034feb7fd39760c3",
+      "readback_match": true
+    },
+    {
+      "path": "authority/capture.py",
+      "bytes": 4511,
+      "sha256": "a8f2eb445c5030813006c89dd5cee6ea487ad53afa56167325aaeff07c1aac97",
+      "readback_match": true
+    },
+    {
+      "path": "authority/EXECUTION-APPROVAL.json",
+      "bytes": 6120,
+      "sha256": "ea6c4de1774775c2188a541d370e277e3325c73491cc8f47eb58fcb946853885",
+      "readback_match": true
+    },
+    {
+      "path": "authority/FAULT-AND-SCOPE.md",
+      "bytes": 4146,
+      "sha256": "63171f4b1c144eb33cd8ae73589bbf472387749972ba74c84ea3451d980fbe9f",
+      "readback_match": true
+    },
+    {
+      "path": "authority/freeze_package.py",
+      "bytes": 5620,
+      "sha256": "4edf2c31b6a6e2994729430136522db72eaf1713fb60a3081a5543bfd9071fe5",
+      "readback_match": true
+    },
+    {
+      "path": "authority/FROZEN-PACKAGE.json",
+      "bytes": 2145,
+      "sha256": "b98666e18ee5613861733e2375c6dfc72109e5e137f7812a518b789ba4968875",
+      "readback_match": true
+    },
+    {
+      "path": "authority/prepare_inputs.py",
+      "bytes": 2839,
+      "sha256": "aca5a375f0d25e2ce7a7af896ae53c4097d3aac6363a1e1a2b94e953e327ee45",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-23T21:41:01.3819619Z",
+  "wall_seconds_through_payload_readback": 7.3142153,
+  "historical_archives_transferred": 0,
+  "original_scientific_package_rebacked": false,
+  "note": "Only new control-r4 source and continuation-r4 authority/test/preparation records. Every payload and receipt read back. Not a substitute for final research archive preservation."
+}
