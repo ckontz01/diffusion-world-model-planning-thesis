@@ -1,0 +1,195 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "5d382ddf294ee711d21e137091c59fe3a57a05df",
+  "remote_head_verified": true,
+  "branch": "active-counterfactual-verification-preparation-20260923",
+  "reviewed_base": "1c66038901fe39640add38aa796a816c06ccd1ae",
+  "source": "C:\\Users\\Chris\\thesis-recovery\\active-counterfactual-verification-20260923\\docs\\active-counterfactual-verification-20260923\\bindings-v2",
+  "destination": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-20260923\\bindings-v2",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323583873024,
+  "payload_files": 29,
+  "payload_bytes": 791461.0,
+  "members": [
+    {
+      "path": "ANALYSIS-FOOTPRINT.json",
+      "bytes": 231,
+      "sha256": "7e9b2053a8a24b36b7fc10c718b111438931bfbae1a82f9afba5cfcac70a8cf8",
+      "readback_match": true
+    },
+    {
+      "path": "analysis.py",
+      "bytes": 5331,
+      "sha256": "99a749687728b6ce83deb1908e97b642300de8342949eabe56fb899990ab2838",
+      "readback_match": true
+    },
+    {
+      "path": "APPROVAL-TEMPLATE.json",
+      "bytes": 770,
+      "sha256": "05b85f6889b3c92bf9dcc0a54f1916d20f512607db4d2f985f86fcf443100fac",
+      "readback_match": true
+    },
+    {
+      "path": "artificial.py",
+      "bytes": 5892,
+      "sha256": "9f24943848210ce0340d9b9edaaab3a2a745d1958c644af60ca83beb14c7a05e",
+      "readback_match": true
+    },
+    {
+      "path": "ATTEMPTS.jsonl",
+      "bytes": 1355,
+      "sha256": "2bfac0dcb203b1b0c551e2d2e3a878eb5cdd52d27a7922fa62dce0fa7db58185",
+      "readback_match": true
+    },
+    {
+      "path": "backup_package.ps1",
+      "bytes": 4473,
+      "sha256": "8f1364fff111c6b94a04a58ddda08a6fc93f43fd43f3bb95cb3da4e3923ded96",
+      "readback_match": true
+    },
+    {
+      "path": "bounded_run.py",
+      "bytes": 2609,
+      "sha256": "f8df61c484cf0e8fb4e1a7b313ba77fc5a3af6138ebeadce8e837d213d64734b",
+      "readback_match": true
+    },
+    {
+      "path": "bridge.py",
+      "bytes": 10151,
+      "sha256": "c8ad8611f2f629b1ad82fc15a659596c59a21a8952ee07028f3ef0b44881c9d7",
+      "readback_match": true
+    },
+    {
+      "path": "common.py",
+      "bytes": 5871,
+      "sha256": "f2f6670a8e8c6778cda2a17bd8f0325a0ead346fb983207c8c09ced89c86c1b8",
+      "readback_match": true
+    },
+    {
+      "path": "controller_runtime.py",
+      "bytes": 500,
+      "sha256": "09b7a2efc8c40f6753303a5fbfc00b23a78ce6bd0d2323997cac43b97113a19d",
+      "readback_match": true
+    },
+    {
+      "path": "CONTROLLER-RUNTIME.json",
+      "bytes": 540,
+      "sha256": "4597bd05eddfd347bcce622d872610a8b7309f541384ff846b3bc49179b8894b",
+      "readback_match": true
+    },
+    {
+      "path": "dispatch.py",
+      "bytes": 7841,
+      "sha256": "fd1e27b1a89559fe9248260f5c3b66937f60699788bee875f564d8ce9131ef75",
+      "readback_match": true
+    },
+    {
+      "path": "episodes.py",
+      "bytes": 10735,
+      "sha256": "5f09b7c5c23b9c3ec947dec9e32f216a8a83e6422d379bbba5637b7e96712edc",
+      "readback_match": true
+    },
+    {
+      "path": "fitting.py",
+      "bytes": 5992,
+      "sha256": "c4fa3ee50cdcbac0267d10bb62d62ab7d8ccd16d8040d1043ebdf80109e060e1",
+      "readback_match": true
+    },
+    {
+      "path": "GRID.json",
+      "bytes": 62564,
+      "sha256": "d415ca967041e3ed79bcb4bd355331106db332a42c9896790d83dd1ddb3772e7",
+      "readback_match": true
+    },
+    {
+      "path": "INPUT-BINDINGS.json",
+      "bytes": 58394,
+      "sha256": "45a50874435617c7f5cc31eff865cd923b2970d6eaa808697c05c418154aa1df",
+      "readback_match": true
+    },
+    {
+      "path": "model_seal.py",
+      "bytes": 817,
+      "sha256": "e4fd2dc26059e2b34515ed83b3440423186e67ac2a20e2df25e18a14a0aaa754",
+      "readback_match": true
+    },
+    {
+      "path": "preserve.py",
+      "bytes": 6819,
+      "sha256": "5a9a804bffe2689a2a1b45db8f7250fc9640fd9367379f75fc1999fdb3af6a50",
+      "readback_match": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 2839,
+      "sha256": "a12d7489bc105ed30c10db14a373d486b224f259f76341dfe3b7359dee2c45f6",
+      "readback_match": true
+    },
+    {
+      "path": "run_worker.sh",
+      "bytes": 1304,
+      "sha256": "dcd22e56bd29963340966047e31c70424fb56ef5fc09ce378475ba3718b2f859",
+      "readback_match": true
+    },
+    {
+      "path": "source-export.tar",
+      "bytes": 542720,
+      "sha256": "ef5343b6cf1a686585987f99dccc8789612418c08ac30f99b9680a78a7566d5e",
+      "readback_match": true
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 5371,
+      "sha256": "5630b222e8a88d0eaa45408876929724734d1f992afa657131ac770fb0400fa9",
+      "readback_match": true
+    },
+    {
+      "path": "SOURCE-TRANSPORT.json",
+      "bytes": 6621,
+      "sha256": "91963dc46cbb03e2f2bdd912efccc8bb26ce4019fb78f13f5caebdfba862fb7c",
+      "readback_match": true
+    },
+    {
+      "path": "supervise.py",
+      "bytes": 2083,
+      "sha256": "2a0904c92701e637aa545d26d9662665b1e3cda5ccdb811cbe315c454f09d8f9",
+      "readback_match": true
+    },
+    {
+      "path": "TECHNICAL-REVISION-RECEIPT.json",
+      "bytes": 4345,
+      "sha256": "3692b5209227948f3897e3ce737343d7608eca6909ed3f834d85168b040fcb88",
+      "readback_match": true
+    },
+    {
+      "path": "test_bindings.py",
+      "bytes": 15975,
+      "sha256": "e99e3fd2b01eb2585925cfe2dafa60690c5ac9571dfeb8b226a0fdbce795b3e0",
+      "readback_match": true
+    },
+    {
+      "path": "test_revision.py",
+      "bytes": 2324,
+      "sha256": "b8c43825c3da2b3a180eb3719a09d4597b89efcef6c0e3dbed018196a1da2c44",
+      "readback_match": true
+    },
+    {
+      "path": "verify.py",
+      "bytes": 10082,
+      "sha256": "9186389548b9beee19684b99cec0f1f61c97e0dba744eec715529682de6f488d",
+      "readback_match": true
+    },
+    {
+      "path": "worker.py",
+      "bytes": 6912,
+      "sha256": "62dd2eb73f382c95088a7a4335e437aed88bb922023ebbd2d7aedf8406527f93",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-23T11:41:28.6171018Z",
+  "wall_seconds_through_payload_readback": 4.7551295,
+  "research_execution_authorized": false,
+  "historical_archives_transferred": 0,
+  "accepted_preparation_rebacked": false,
+  "note": "Only new bindings-v2 technical correction package. Every member and receipt read back. Existing bindings-v1, preparation-v1 and all historical archives untouched. This backup receipt is not execution authority."
+}

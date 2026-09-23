@@ -1,0 +1,7 @@
+{
+  "start_unix": 1790163732.5167837,
+  "end_unix": 1790163738.5333953,
+  "returncode": 0,
+  "stdout": "{\"pid\": 550069, \"start_ticks\": \"892062738\", \"unix\": 1790163738.4587762, \"command\": [\"/usr/bin/python3.9\", \"-B\", \"-S\", \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/active-counterfactual-verification-bindings-v2-5630b222e8a88d0e/docs/active-counterfactual-verification-20260923/bindings-v2/dispatch.py\", \"--approval\", \"/lustreFS/data/superworld/ckontzias/thesis/staging/active-counterfactual-verification-bindings-v2-5630b222e8a88d0e/EXECUTION-APPROVAL.json\", \"--run\", \"/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-5630b222e8a88d0e\"], \"source_manifest\": \"5630b222e8a88d0eaa45408876929724734d1f992afa657131ac770fb0400fa9\", \"approval_sha256\": \"7ea5f67225ee1bff091e705e7515a4ed8f3589694e6093f1c2e7c607d27a6a88\"}\n",
+  "stderr": ""
+}

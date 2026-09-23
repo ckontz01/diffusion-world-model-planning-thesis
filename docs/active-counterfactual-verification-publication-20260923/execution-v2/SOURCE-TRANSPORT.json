@@ -1,0 +1,7 @@
+{
+  "start_unix": 1790163702.8040555,
+  "end_unix": 1790163710.606731,
+  "returncode": 0,
+  "stdout": "{\"source\": \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/active-counterfactual-verification-bindings-v2-5630b222e8a88d0e\", \"control\": \"/lustreFS/data/superworld/ckontzias/thesis/staging/active-counterfactual-verification-bindings-v2-5630b222e8a88d0e\", \"run\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-5630b222e8a88d0e\", \"source_manifest\": \"5630b222e8a88d0eaa45408876929724734d1f992afa657131ac770fb0400fa9\", \"archive_sha256\": \"ef5343b6cf1a686585987f99dccc8789612418c08ac30f99b9680a78a7566d5e\", \"source_members\": 39, \"source_bytes\": 508560, \"approval_sha256\": \"7ea5f67225ee1bff091e705e7515a4ed8f3589694e6093f1c2e7c607d27a6a88\", \"instruction_sha256\": \"e6f0a90b53f902bf7b65cacb39ca330043aa6cd5a2cb857b881375c61f30fe1f\", \"all_members_readback_verified\": true, \"run_absent\": true, \"unix\": 1790163710.5166004, \"host_controller_import_verified\": true, \"controller_numpy_or_torch_loaded\": false}\n",
+  "stderr": ""
+}
