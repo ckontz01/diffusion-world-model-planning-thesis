@@ -1,0 +1,7 @@
+{
+  "start_unix": 1790173103.7204406,
+  "end_unix": 1790173120.1099024,
+  "returncode": 0,
+  "stdout": "{\"source\": \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/active-counterfactual-verification-recovery-r1-c2c6fcbe8c41fed2\", \"control\": \"/lustreFS/data/superworld/ckontzias/thesis/staging/active-counterfactual-verification-recovery-r1-c2c6fcbe8c41fed2\", \"run\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-c2c6fcbe8c41fed2\", \"source_manifest\": \"c2c6fcbe8c41fed22d0fde17bcb5f8cd456a74c1cb0d77039f4df94d86e0d468\", \"archive_sha256\": \"79a588f278282c1cbcb2a8c9daeffd26fa44abba16c31d1641c6e9035c73b898\", \"source_members\": 44, \"source_bytes\": 559136, \"approval_sha256\": \"e1e4b6f6d0e0d1fbb83e89d165be793128f02130647e21a1c12c5892d7d90460\", \"instruction_sha256\": \"1ac7a04083c2ccce2ea399bacc6eb407b21dca1e3da21b378281d7aa460d8214\", \"all_members_readback_verified\": true, \"run_absent\": true, \"unix\": 1790173119.7287464, \"host_controller_import_verified\": true, \"controller_numpy_or_torch_loaded\": false}\n",
+  "stderr": ""
+}

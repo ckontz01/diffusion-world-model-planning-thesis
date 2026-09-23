@@ -1,0 +1,7 @@
+{
+  "start_unix": 1790173165.9551754,
+  "end_unix": 1790173175.2913613,
+  "returncode": 0,
+  "stdout": "{\"unix\": 1790173174.9200947, \"namespace_inventory\": {\"source\": [\"/lustreFS/data/superworld/ckontzias/thesis/snapshots/active-counterfactual-verification-bindings-v2-5630b222e8a88d0e\", \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/active-counterfactual-verification-recovery-r1-c2c6fcbe8c41fed2\"], \"control\": [\"/lustreFS/data/superworld/ckontzias/thesis/staging/active-counterfactual-verification-bindings-v2-5630b222e8a88d0e\", \"/lustreFS/data/superworld/ckontzias/thesis/staging/active-counterfactual-verification-recovery-r1-c2c6fcbe8c41fed2\"], \"runs\": [\"/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-5630b222e8a88d0e\"]}, \"unknown_namespaces\": 0, \"r1_run_absent\": true, \"r1_launch_intent_absent\": true, \"reconciliation\": {\"authenticated_prior_job\": \"304189\", \"gpu_seconds\": 23, \"cpu_stage_seconds\": 0, \"prior_receipt_sha256\": \"150938606ffae86b041def61f07fc138bafd9319791e837ced3a81b6d3d14b35\", \"unexplained_attempts\": 0, \"live_acv0_jobs\": 0}}\n",
+  "stderr": ""
+}
