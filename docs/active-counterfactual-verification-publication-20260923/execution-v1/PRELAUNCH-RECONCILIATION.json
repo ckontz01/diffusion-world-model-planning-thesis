@@ -1,0 +1,7 @@
+{
+  "start_unix": 1790162029.0714896,
+  "end_unix": 1790162039.5748553,
+  "returncode": 0,
+  "stdout": "{\"unix\": 1790162039.5248885, \"path_exists\": {\"source\": false, \"control\": false, \"run\": false}, \"paths\": {\"source\": \"/lustreFS/data/superworld/ckontzias/thesis/snapshots/active-counterfactual-verification-bindings-v1-bf3f4558f2cdfbca\", \"control\": \"/lustreFS/data/superworld/ckontzias/thesis/staging/active-counterfactual-verification-bindings-v1-bf3f4558f2cdfbca\", \"run\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-verification-pilot-v1/run-bf3f4558f2cdfbca\"}, \"active_acv0b1_rows\": [], \"accounted_acv0b1_rows\": [], \"scope\": \"Read-only exact namespace and scheduler reconciliation; no preflight retry or research action\"}\n",
+  "stderr": ""
+}
