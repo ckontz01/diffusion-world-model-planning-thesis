@@ -1,0 +1,495 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "3b2db69e563af89b1ced2149b11c11a1999ba4df",
+  "remote_head_verified": true,
+  "branch": "active-counterfactual-verification-preparation-20260923",
+  "reviewed_base": "1c66038901fe39640add38aa796a816c06ccd1ae",
+  "source": "C:\\Users\\Chris\\thesis-recovery\\active-counterfactual-verification-20260923\\docs\\active-counterfactual-verification-20260923\\bindings-v1",
+  "destination": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-20260923\\bindings-v1",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323609088000,
+  "payload_files": 79,
+  "payload_bytes": 24763267.0,
+  "members": [
+    {
+      "path": "ANALYSIS-FOOTPRINT.json",
+      "bytes": 231,
+      "sha256": "7e9b2053a8a24b36b7fc10c718b111438931bfbae1a82f9afba5cfcac70a8cf8",
+      "readback_match": true
+    },
+    {
+      "path": "analysis.py",
+      "bytes": 5331,
+      "sha256": "99a749687728b6ce83deb1908e97b642300de8342949eabe56fb899990ab2838",
+      "readback_match": true
+    },
+    {
+      "path": "APPROVAL-TEMPLATE.json",
+      "bytes": 770,
+      "sha256": "fee6462266c9ca20ba3542a363c3543e2db784724170171622a5280f1a477f87",
+      "readback_match": true
+    },
+    {
+      "path": "artificial.py",
+      "bytes": 5892,
+      "sha256": "9f24943848210ce0340d9b9edaaab3a2a745d1958c644af60ca83beb14c7a05e",
+      "readback_match": true
+    },
+    {
+      "path": "ATTEMPTS.jsonl",
+      "bytes": 12636,
+      "sha256": "587ca62cbe9cf3fbd95e42d885bb101e5eda734a6fe1f273731559a48f896309",
+      "readback_match": true
+    },
+    {
+      "path": "audit_package.py",
+      "bytes": 2656,
+      "sha256": "59d50ba49f06a8710b7422b54c156fdb06d55cbe28753968b4f4758b02fe4f34",
+      "readback_match": true
+    },
+    {
+      "path": "backup_package.ps1",
+      "bytes": 4403,
+      "sha256": "699ee355df9824a02016c299e7dae2d32594b54f62dc18be456e01588d04cb69",
+      "readback_match": true
+    },
+    {
+      "path": "bounded_run.py",
+      "bytes": 2434,
+      "sha256": "2ae90a1bf374a11fa09ef7b3a783e745d557cabb264880fea2701943bb88ad41",
+      "readback_match": true
+    },
+    {
+      "path": "bridge.py",
+      "bytes": 10151,
+      "sha256": "c8ad8611f2f629b1ad82fc15a659596c59a21a8952ee07028f3ef0b44881c9d7",
+      "readback_match": true
+    },
+    {
+      "path": "common.py",
+      "bytes": 5871,
+      "sha256": "f2f6670a8e8c6778cda2a17bd8f0325a0ead346fb983207c8c09ced89c86c1b8",
+      "readback_match": true
+    },
+    {
+      "path": "dispatch.py",
+      "bytes": 7783,
+      "sha256": "7c82bfed4f344b49409b4cdabec473bdfe1abd578752fd3f87e760535a33a016",
+      "readback_match": true
+    },
+    {
+      "path": "episodes.py",
+      "bytes": 10735,
+      "sha256": "5f09b7c5c23b9c3ec947dec9e32f216a8a83e6422d379bbba5637b7e96712edc",
+      "readback_match": true
+    },
+    {
+      "path": "export_source.py",
+      "bytes": 1339,
+      "sha256": "74a6399018f27da8f1b7352ff0e327b3521c1760c6addc652f45c49936482ca0",
+      "readback_match": true
+    },
+    {
+      "path": "fitting.py",
+      "bytes": 5992,
+      "sha256": "c4fa3ee50cdcbac0267d10bb62d62ab7d8ccd16d8040d1043ebdf80109e060e1",
+      "readback_match": true
+    },
+    {
+      "path": "freeze.py",
+      "bytes": 2800,
+      "sha256": "2d25426ff29b9b3a56fa0f3d64531337f535b25d2460a74f43c0796ab77e4356",
+      "readback_match": true
+    },
+    {
+      "path": "GRID.json",
+      "bytes": 62564,
+      "sha256": "d415ca967041e3ed79bcb4bd355331106db332a42c9896790d83dd1ddb3772e7",
+      "readback_match": true
+    },
+    {
+      "path": "INPUT-BINDINGS.json",
+      "bytes": 58394,
+      "sha256": "45a50874435617c7f5cc31eff865cd923b2970d6eaa808697c05c418154aa1df",
+      "readback_match": true
+    },
+    {
+      "path": "inspect_sources.py",
+      "bytes": 1529,
+      "sha256": "5477037c5a2b514b5670ce6d148173a3d0d9c1ae36097f5ff2e57b4b75078596",
+      "readback_match": true
+    },
+    {
+      "path": "INSPECTED-SOURCES.json",
+      "bytes": 152890,
+      "sha256": "f99d4c6e7cbbd8ebe87e370d2a6785dba2bfbf3bb8972a5ed668bbded7092d8c",
+      "readback_match": true
+    },
+    {
+      "path": "PACKAGE-AUDIT.json",
+      "bytes": 1039,
+      "sha256": "fafda6988f736530f2ddbc8992cfa73470d44ae4266938637976ff59c41753e6",
+      "readback_match": true
+    },
+    {
+      "path": "post_freeze_audit.py",
+      "bytes": 3731,
+      "sha256": "c5499bd70a1517d5f41f72a82bc7ea507c2520c0e019221f627f937f12718c31",
+      "readback_match": true
+    },
+    {
+      "path": "POST-FREEZE-AUDIT.md",
+      "bytes": 1335,
+      "sha256": "384c660560cd73b0207d8777a82703410fe25222cd2df837f3fa0b4456918d6a",
+      "readback_match": true
+    },
+    {
+      "path": "preserve.py",
+      "bytes": 6819,
+      "sha256": "5a9a804bffe2689a2a1b45db8f7250fc9640fd9367379f75fc1999fdb3af6a50",
+      "readback_match": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 14290,
+      "sha256": "b5fec0af5791bf884d0aa9c4b0229995db3ed4073b5bed059933276cdf65ec65",
+      "readback_match": true
+    },
+    {
+      "path": "REVIEW-RECEIPT.md",
+      "bytes": 3138,
+      "sha256": "98ff10d26c33fb0624ac53650fe6e86cee145a03a736fb220ac853fb3b611fe8",
+      "readback_match": true
+    },
+    {
+      "path": "run_completion_tests.py",
+      "bytes": 6564,
+      "sha256": "3de1373c992d1d14a54fc5c4c5e54871e597a96c6102d9918ac5ae255361b90d",
+      "readback_match": true
+    },
+    {
+      "path": "run_worker.sh",
+      "bytes": 1304,
+      "sha256": "dcd22e56bd29963340966047e31c70424fb56ef5fc09ce378475ba3718b2f859",
+      "readback_match": true
+    },
+    {
+      "path": "source-export.tar",
+      "bytes": 706560,
+      "sha256": "558681e9bccb8773b434ea928d67e55c4c40a65896033ba54021a12f86b099e9",
+      "readback_match": true
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "bytes": 5419,
+      "sha256": "bf3f4558f2cdfbca98715ad684c596d23626d5650e32a72a0e26f46dc3f83554",
+      "readback_match": true
+    },
+    {
+      "path": "SOURCE-TRANSPORT.json",
+      "bytes": 6789,
+      "sha256": "1fea1c0f5f9a562fdbb71b34946ae6f41d8ef642f9de5d725d37e8f50b67a4cf",
+      "readback_match": true
+    },
+    {
+      "path": "supervise.py",
+      "bytes": 2083,
+      "sha256": "2a0904c92701e637aa545d26d9662665b1e3cda5ccdb811cbe315c454f09d8f9",
+      "readback_match": true
+    },
+    {
+      "path": "test_bindings.py",
+      "bytes": 15935,
+      "sha256": "78c403bcb4f044c217cdba02056f14a3898a67d0343ee13b647431582c5a64f8",
+      "readback_match": true
+    },
+    {
+      "path": "verify.py",
+      "bytes": 10082,
+      "sha256": "9186389548b9beee19684b99cec0f1f61c97e0dba744eec715529682de6f488d",
+      "readback_match": true
+    },
+    {
+      "path": "worker.py",
+      "bytes": 6912,
+      "sha256": "62dd2eb73f382c95088a7a4335e437aed88bb922023ebbd2d7aedf8406527f93",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-artificial-dataset.npz",
+      "bytes": 4190100,
+      "sha256": "22d3341e5f172d5df571590c8a27390b9771d9ff2459e92c0e8fd1bb6efcf30a",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\MODEL-FREEZE.json",
+      "bytes": 1053,
+      "sha256": "0d1d8e738864a1da4e837e9ece9350c11e3aa10e41898f4f46c3481ceb81f7e4",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\RESULTS.json",
+      "bytes": 16231,
+      "sha256": "1b5e2ad2f3f2516fb14f26a9a02b2af2b2c98ea4e762593d230312fdc6cab102",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\validation-artificial-dataset.npz",
+      "bytes": 1050772,
+      "sha256": "fe19e0bac845498b13fb9d1ebf15adf146dc244e0b12edc2af82db5d39eaf4c5",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-active\\EVIDENCE.json",
+      "bytes": 733,
+      "sha256": "4bc191f0024e52737b8e71ced34edaf3b93c6bc2ca5dc49e5efc60c9bdd32923",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-active\\evidence.npz",
+      "bytes": 1118902,
+      "sha256": "34c62f4f7b024c5a9aea4ecc214309156a97c89ca5790f3e5866d293b75f69ce",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-active\\SEAL.json",
+      "bytes": 277,
+      "sha256": "631e1f93b0b63bb0a225185f24cc5939c83080df6a7d90036a0dccc6e498879f",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-bayesian\\EVIDENCE.json",
+      "bytes": 725,
+      "sha256": "9fac61582deddaf49fede1292aef5ea2f64368ad35ffd12fdf092b744b8c7ec1",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-bayesian\\evidence.npz",
+      "bytes": 1118902,
+      "sha256": "1d07ef81fd532106c8eea7daad7ed596716935d184faa4e5e83d1e2ecb04598a",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-bayesian\\SEAL.json",
+      "bytes": 279,
+      "sha256": "7dd73686a2abc8b6759bf8d547dc8366c869c4ad2df3a6fae73340fbb42be1a5",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-early-replan\\EVIDENCE.json",
+      "bytes": 569,
+      "sha256": "c101312efee16c4b1a530163c96d1f2800f94a93a5a4788cec42aa41320cfa2d",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-early-replan\\evidence.npz",
+      "bytes": 1083212,
+      "sha256": "0a9f3f20ed28c45dde8471cd7710c2a06f35e7e8879445b47dbce1ce9994fa75",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-early-replan\\SEAL.json",
+      "bytes": 283,
+      "sha256": "256420dcf2b96b06747818f7df860129b62109f4da2afda106afea535960f6cf",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-no_update\\EVIDENCE.json",
+      "bytes": 739,
+      "sha256": "b9ec84b2adf0d31292116cf8c521ebc60d8f37769e429f78f24dec5253cfb74b",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-no_update\\evidence.npz",
+      "bytes": 1118902,
+      "sha256": "34c62f4f7b024c5a9aea4ecc214309156a97c89ca5790f3e5866d293b75f69ce",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-no_update\\SEAL.json",
+      "bytes": 280,
+      "sha256": "a8d90ffa6edc13945cc297f6c1268d0928d35348ff73ca6a5a86b31a22f33e1a",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-ordinary\\EVIDENCE.json",
+      "bytes": 737,
+      "sha256": "d5547c1c65f022d120e87991b19d92361627a790e44624c5ba7d2adba0033df8",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-ordinary\\evidence.npz",
+      "bytes": 1118902,
+      "sha256": "9feb0b432011f3ddda5bb9737320261417b031151b2588f4d8a93eeb2dcd887b",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-ordinary\\SEAL.json",
+      "bytes": 279,
+      "sha256": "915645012f2c904ff06858a23a695c896c9621a6e5d088960ae385a94621a4cf",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-passive\\EVIDENCE.json",
+      "bytes": 736,
+      "sha256": "0dd3a468581fcd290141d2d3ff396122b51b88427660f8cff974a6f3f661bf61",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-passive\\evidence.npz",
+      "bytes": 1118902,
+      "sha256": "9482b9cc048f264930fc8384e3f6e03d6b8f82ab2daac434c9a1dfd687f81eb8",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-passive\\SEAL.json",
+      "bytes": 278,
+      "sha256": "f8ea2fed213bf43767d50c3702aaa02b6a76041ef3c03a67ccd44f10c69ac12e",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-static\\EVIDENCE.json",
+      "bytes": 730,
+      "sha256": "1aa15c3a8069bc91fe50dc2512f65d4dbc1a494b58b20558925109027fd34bc4",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-static\\evidence.npz",
+      "bytes": 1118902,
+      "sha256": "34c62f4f7b024c5a9aea4ecc214309156a97c89ca5790f3e5866d293b75f69ce",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-static\\SEAL.json",
+      "bytes": 277,
+      "sha256": "f3900d17ae8b30d8465cea67c853d3b3721dcfa40410b0be92089ae8c6f60595",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-vanilla\\EVIDENCE.json",
+      "bytes": 550,
+      "sha256": "4f043b4158e22935ca6c06b29ffb210d0c77a9dcbb524b33617d3c2276b65806",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-vanilla\\evidence.npz",
+      "bytes": 1083212,
+      "sha256": "edf05b1e5bec347ddde2f6857a1a069755f9d4dc2178f5380bfc418fb11e7127",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\evaluate-vanilla\\SEAL.json",
+      "bytes": 278,
+      "sha256": "c3f7fe3c120c975112d824705089f400f4de5c2885295d0d049b8c6fe8ad6439",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-joint\\FIT.json",
+      "bytes": 85183,
+      "sha256": "f339f7f80bfde09fe712bfc83ca7f3c3ebeedf0c2107f1a1f1aa5cb3827cbacf",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-joint\\joint.npz",
+      "bytes": 754808,
+      "sha256": "031e5c86227c305f7c02402a8245132e64a48959f638d7aee67e0b1088c737ca",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-joint\\PREPROCESSING.json",
+      "bytes": 944,
+      "sha256": "e3f09762780a2ff9d17138db952b6dda81d679067811009301d392601b9f9b3d",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-joint\\SEAL.json",
+      "bytes": 509,
+      "sha256": "236963d3ffa90fcb09ca132f2465ad8c37d9a9fc5fe6a20d042beb3db035a9dc",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-ordinary\\bayesian.npz",
+      "bytes": 68884,
+      "sha256": "fe92918abbcba96d040b836aaf402cfe7fa101aced66dd221dc778a72d86f87f",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-ordinary\\FIT.json",
+      "bytes": 43794,
+      "sha256": "bd01ef5c27a2fc9b4afe0e586662647332090e6d5943a0f948f6b6ab54a90a6a",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-ordinary\\ordinary.npz",
+      "bytes": 851490,
+      "sha256": "9d179f592597be4a4c17821e973e67ce77bb2df4222cc4a5bb0c2bb14f789890",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-ordinary\\PREPROCESSING.json",
+      "bytes": 944,
+      "sha256": "e3f09762780a2ff9d17138db952b6dda81d679067811009301d392601b9f9b3d",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\fit-ordinary\\SEAL.json",
+      "bytes": 622,
+      "sha256": "3e6456173d45c4030be902120e554ace870456b698fd7c22b08990df3d2d722d",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-collection\\EVIDENCE.json",
+      "bytes": 13329,
+      "sha256": "240086f98e7dfea81a465402811e81b8b1374c077a87352c88a3b49f3108e3cf",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-collection\\evidence.npz",
+      "bytes": 6236760,
+      "sha256": "4d766d9f24a8fe4029f4b02d1ab2ce40110e5fe3299eed87f64d31a6cf8c8350",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-collection\\SEAL.json",
+      "bytes": 4665,
+      "sha256": "a30ec066cae3d6f23df639fc9d2bf780f20f0f098dbb671150fc9c5a2525e237",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-collection\\TECHNICAL.json",
+      "bytes": 65766,
+      "sha256": "defd728e73ef629c9e6424cd95e09a6477278b85c891b5092d26f00fc8cd4a5c",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-evaluation\\EVIDENCE.json",
+      "bytes": 1037,
+      "sha256": "c54d3e5e8103647896a68242131cba10c9f06b5a948c972d3859540e6813e8b6",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-evaluation\\evidence.npz",
+      "bytes": 1271968,
+      "sha256": "f6809c41e47666fe38ee0d9117730c99810e9bf3cf7f135c0ec28b225828a560",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-evaluation\\SEAL.json",
+      "bytes": 4672,
+      "sha256": "b22aeb8cdd1b0891f8131c2cc59914f42dc3a4e9501908110f2663c198a94d97",
+      "readback_match": true
+    },
+    {
+      "path": "completion-tests-v1\\footprint-evaluation\\TECHNICAL.json",
+      "bytes": 65749,
+      "sha256": "14bd8bfde9e50aa6c578482b6344dac3ce216db35b5026409b55855a2a906fab",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-23T10:21:21.5948540Z",
+  "wall_seconds_through_payload_readback": 4.1715291,
+  "research_execution_authorized": false,
+  "historical_archives_transferred": 0,
+  "accepted_preparation_rebacked": false,
+  "note": "Only new bindings-v1 preparation outputs. Every member and receipt read back. Existing preparation-v1 and all historical archives untouched."
+}
