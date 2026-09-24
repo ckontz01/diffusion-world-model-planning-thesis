@@ -1,0 +1,6090 @@
+{
+  "run/fit-joint/FIT.json": {
+    "checkpoint_selection": "final update only",
+    "final_fit_loss": 1.0499220232690623,
+    "final_validation_loss": 3.0185605656709495,
+    "parameters": 90795,
+    "seconds": 3.9407346043735743,
+    "seed": 94011,
+    "trace": [
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.7325520518005659,
+          "response_nll": 1.5187581392145748,
+          "source_count": 64,
+          "terminal_ce": 1.1030596796641343
+        },
+        "fit_pre_update_loss": 3.3543698706792746,
+        "update": 1,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6602725350968234,
+          "response_nll": 1.6687284693714577,
+          "source_count": 16,
+          "terminal_ce": 1.1484869316176116
+        },
+        "validation_post_update_loss": 3.477487936085893
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.5977572813626721,
+          "response_nll": 1.5173943151492881,
+          "source_count": 64,
+          "terminal_ce": 1.0838557319572153
+        },
+        "fit_pre_update_loss": 3.1990073284691753,
+        "update": 2,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6575637067950582,
+          "response_nll": 1.668794751569971,
+          "source_count": 16,
+          "terminal_ce": 1.144564941649374
+        },
+        "validation_post_update_loss": 3.4709234000144034
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.5087336452687775,
+          "response_nll": 1.5159284413363163,
+          "source_count": 64,
+          "terminal_ce": 1.0646771090197786
+        },
+        "fit_pre_update_loss": 3.0893391956248726,
+        "update": 3,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6599245859844893,
+          "response_nll": 1.668775555029579,
+          "source_count": 16,
+          "terminal_ce": 1.1389578492507912
+        },
+        "validation_post_update_loss": 3.4676579902648594
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.44600546842427413,
+          "response_nll": 1.514260788036932,
+          "source_count": 64,
+          "terminal_ce": 1.0453990622946256
+        },
+        "fit_pre_update_loss": 3.005665318755832,
+        "update": 4,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6656636583703284,
+          "response_nll": 1.6686746204924887,
+          "source_count": 16,
+          "terminal_ce": 1.132618826950933
+        },
+        "validation_post_update_loss": 3.46695710581375
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.3997481092696099,
+          "response_nll": 1.5124686937809606,
+          "source_count": 64,
+          "terminal_ce": 1.0259660429896638
+        },
+        "fit_pre_update_loss": 2.9381828460402346,
+        "update": 5,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6720353843113716,
+          "response_nll": 1.66851526361991,
+          "source_count": 16,
+          "terminal_ce": 1.1259532497750264
+        },
+        "validation_post_update_loss": 3.466503897706308
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.3637138430010724,
+          "response_nll": 1.5107088174733907,
+          "source_count": 64,
+          "terminal_ce": 1.0065462970581487
+        },
+        "fit_pre_update_loss": 2.8809689575326116,
+        "update": 6,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6776458127883764,
+          "response_nll": 1.6683139238494877,
+          "source_count": 16,
+          "terminal_ce": 1.1191846926171403
+        },
+        "validation_post_update_loss": 3.4651444292550044
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.3342759266736856,
+          "response_nll": 1.5090291513365788,
+          "source_count": 64,
+          "terminal_ce": 0.987132440735157
+        },
+        "fit_pre_update_loss": 2.8304375187454216,
+        "update": 7,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6821863704134449,
+          "response_nll": 1.66807648481217,
+          "source_count": 16,
+          "terminal_ce": 1.112394842098501
+        },
+        "validation_post_update_loss": 3.4626576973241163
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.3095735757364072,
+          "response_nll": 1.5074203156372719,
+          "source_count": 64,
+          "terminal_ce": 0.9674625800993841
+        },
+        "fit_pre_update_loss": 2.7844564714730633,
+        "update": 8,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6860690528954667,
+          "response_nll": 1.6678033486491646,
+          "source_count": 16,
+          "terminal_ce": 1.1055239379296193
+        },
+        "validation_post_update_loss": 3.4593963394742504
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.288674077350638,
+          "response_nll": 1.5058572896907279,
+          "source_count": 64,
+          "terminal_ce": 0.9472747495698158
+        },
+        "fit_pre_update_loss": 2.7418061166111816,
+        "update": 9,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6898232776107449,
+          "response_nll": 1.6674973655909922,
+          "source_count": 16,
+          "terminal_ce": 1.0984359616007229
+        },
+        "validation_post_update_loss": 3.4557566048024597
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.27098891338774217,
+          "response_nll": 1.5043207748248164,
+          "source_count": 64,
+          "terminal_ce": 0.9264783072347944
+        },
+        "fit_pre_update_loss": 2.7017879954473534,
+        "update": 10,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6935569784218863,
+          "response_nll": 1.6671690305351292,
+          "source_count": 16,
+          "terminal_ce": 1.0909711630681589
+        },
+        "validation_post_update_loss": 3.4516971720251743
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.2559946008033557,
+          "response_nll": 1.5028060741281826,
+          "source_count": 64,
+          "terminal_ce": 0.9051172957277263
+        },
+        "fit_pre_update_loss": 2.6639179706592646,
+        "update": 11,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6970845905998939,
+          "response_nll": 1.666834342034748,
+          "source_count": 16,
+          "terminal_ce": 1.0830138889196415
+        },
+        "validation_post_update_loss": 3.4469328215542836
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.24315357193894704,
+          "response_nll": 1.5013149980292677,
+          "source_count": 64,
+          "terminal_ce": 0.8832707752359438
+        },
+        "fit_pre_update_loss": 2.6277393452041586,
+        "update": 12,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.700506684406069,
+          "response_nll": 1.6665069069806304,
+          "source_count": 16,
+          "terminal_ce": 1.0745101616413075
+        },
+        "validation_post_update_loss": 3.4415237530280067
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.23207148542825368,
+          "response_nll": 1.4998439002543729,
+          "source_count": 64,
+          "terminal_ce": 0.8609814469476582
+        },
+        "fit_pre_update_loss": 2.5928968326302844,
+        "update": 13,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7044001482545792,
+          "response_nll": 1.6661937935973796,
+          "source_count": 16,
+          "terminal_ce": 1.065440471870905
+        },
+        "validation_post_update_loss": 3.4360344137228633
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.22239534307613232,
+          "response_nll": 1.4983869904694445,
+          "source_count": 64,
+          "terminal_ce": 0.8382490529774873
+        },
+        "fit_pre_update_loss": 2.5590313865230643,
+        "update": 14,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7093321440776501,
+          "response_nll": 1.6658956604202082,
+          "source_count": 16,
+          "terminal_ce": 1.055799970408438
+        },
+        "validation_post_update_loss": 3.4310277749062963
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.21377086572549667,
+          "response_nll": 1.4969447993894895,
+          "source_count": 64,
+          "terminal_ce": 0.815078032511475
+        },
+        "fit_pre_update_loss": 2.5257936976264617,
+        "update": 15,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7152130889373813,
+          "response_nll": 1.6656101805755406,
+          "source_count": 16,
+          "terminal_ce": 1.0456120809970368
+        },
+        "validation_post_update_loss": 3.4264353505099585
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.2060676269969168,
+          "response_nll": 1.4955209376691379,
+          "source_count": 64,
+          "terminal_ce": 0.7915143810685517
+        },
+        "fit_pre_update_loss": 2.493102945734606,
+        "update": 16,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7212021506995119,
+          "response_nll": 1.6653386675370807,
+          "source_count": 16,
+          "terminal_ce": 1.0349489923941249
+        },
+        "validation_post_update_loss": 3.4214898106307174
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1992356065680894,
+          "response_nll": 1.4941176850518592,
+          "source_count": 64,
+          "terminal_ce": 0.767651141683793
+        },
+        "fit_pre_update_loss": 2.4610044333037417,
+        "update": 17,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7264164419167655,
+          "response_nll": 1.6650858844675362,
+          "source_count": 16,
+          "terminal_ce": 1.023930343299487
+        },
+        "validation_post_update_loss": 3.415432669683789
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1930963379725124,
+          "response_nll": 1.4927355767602155,
+          "source_count": 64,
+          "terminal_ce": 0.7436229187737462
+        },
+        "fit_pre_update_loss": 2.429454833506474,
+        "update": 18,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7307998597030125,
+          "response_nll": 1.6648504840501943,
+          "source_count": 16,
+          "terminal_ce": 1.012697841821412
+        },
+        "validation_post_update_loss": 3.408348185574619
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.18753294890370015,
+          "response_nll": 1.4913690276421534,
+          "source_count": 64,
+          "terminal_ce": 0.7195926484736606
+        },
+        "fit_pre_update_loss": 2.3984946250195143,
+        "update": 19,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7350750632310388,
+          "response_nll": 1.6646237709031286,
+          "source_count": 16,
+          "terminal_ce": 1.0013828687813422
+        },
+        "validation_post_update_loss": 3.40108170291551
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.18247072552301458,
+          "response_nll": 1.490006976739845,
+          "source_count": 64,
+          "terminal_ce": 0.6957410380805855
+        },
+        "fit_pre_update_loss": 2.368218740343445,
+        "update": 20,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7395971812681809,
+          "response_nll": 1.6643996390935583,
+          "source_count": 16,
+          "terminal_ce": 0.9901068740756467
+        },
+        "validation_post_update_loss": 3.3941036944373857
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.17784390945828732,
+          "response_nll": 1.4886376364225438,
+          "source_count": 64,
+          "terminal_ce": 0.6722559584680501
+        },
+        "fit_pre_update_loss": 2.338737504348881,
+        "update": 21,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7434477487651272,
+          "response_nll": 1.6641810045343035,
+          "source_count": 16,
+          "terminal_ce": 0.978995821646363
+        },
+        "validation_post_update_loss": 3.3866245749457935
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.17373311190876917,
+          "response_nll": 1.487249420273435,
+          "source_count": 64,
+          "terminal_ce": 0.6492802062326977
+        },
+        "fit_pre_update_loss": 2.310262738414902,
+        "update": 22,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7453126246795734,
+          "response_nll": 1.663972860115339,
+          "source_count": 16,
+          "terminal_ce": 0.968155281475993
+        },
+        "validation_post_update_loss": 3.3774407662709054
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1700969353258817,
+          "response_nll": 1.4858346960052493,
+          "source_count": 64,
+          "terminal_ce": 0.6268699286216806
+        },
+        "fit_pre_update_loss": 2.2828015599528113,
+        "update": 23,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7451525272123012,
+          "response_nll": 1.6637685724769653,
+          "source_count": 16,
+          "terminal_ce": 0.9576229899983462
+        },
+        "validation_post_update_loss": 3.366544089687613
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1668826805534836,
+          "response_nll": 1.484385365871498,
+          "source_count": 64,
+          "terminal_ce": 0.6050352084136558
+        },
+        "fit_pre_update_loss": 2.2563032548386373,
+        "update": 24,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7439894012505424,
+          "response_nll": 1.6635546507207073,
+          "source_count": 16,
+          "terminal_ce": 0.9473556041025251
+        },
+        "validation_post_update_loss": 3.3548996560737745
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1640250895184219,
+          "response_nll": 1.482895170439902,
+          "source_count": 64,
+          "terminal_ce": 0.5837820074958227
+        },
+        "fit_pre_update_loss": 2.230702267454147,
+        "update": 25,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7418625632564888,
+          "response_nll": 1.663327291383867,
+          "source_count": 16,
+          "terminal_ce": 0.9372672128659729
+        },
+        "validation_post_update_loss": 3.342457067506329
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.16140292428813224,
+          "response_nll": 1.4813657513864136,
+          "source_count": 64,
+          "terminal_ce": 0.563109727831266
+        },
+        "fit_pre_update_loss": 2.2058784035058117,
+        "update": 26,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.73728356564177,
+          "response_nll": 1.663092193176243,
+          "source_count": 16,
+          "terminal_ce": 0.9272653090378079
+        },
+        "validation_post_update_loss": 3.327641067855821
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1589859447082313,
+          "response_nll": 1.4798016097387492,
+          "source_count": 64,
+          "terminal_ce": 0.5430355206601234
+        },
+        "fit_pre_update_loss": 2.1818230751071037,
+        "update": 27,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7290018949769674,
+          "response_nll": 1.6628506703291148,
+          "source_count": 16,
+          "terminal_ce": 0.9172469623502021
+        },
+        "validation_post_update_loss": 3.3090995276562842
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.15677908061232382,
+          "response_nll": 1.4782059677516441,
+          "source_count": 64,
+          "terminal_ce": 0.5236000600876565
+        },
+        "fit_pre_update_loss": 2.1585851084516245,
+        "update": 28,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7168487317717969,
+          "response_nll": 1.662595647211547,
+          "source_count": 16,
+          "terminal_ce": 0.9071038152081801
+        },
+        "validation_post_update_loss": 3.286548194191524
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.15480519492644762,
+          "response_nll": 1.4765793696765641,
+          "source_count": 64,
+          "terminal_ce": 0.5048224473388061
+        },
+        "fit_pre_update_loss": 2.136207011941818,
+        "update": 29,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7004817320011698,
+          "response_nll": 1.6623236246887547,
+          "source_count": 16,
+          "terminal_ce": 0.8967561649102436
+        },
+        "validation_post_update_loss": 3.259561521600168
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.15296316788406733,
+          "response_nll": 1.474925029865969,
+          "source_count": 64,
+          "terminal_ce": 0.4866817047824613
+        },
+        "fit_pre_update_loss": 2.1145699025324975,
+        "update": 30,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6791401516775615,
+          "response_nll": 1.6620404377469618,
+          "source_count": 16,
+          "terminal_ce": 0.8861752723860334
+        },
+        "validation_post_update_loss": 3.2273558618105564
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.15120415239289192,
+          "response_nll": 1.4732456722044407,
+          "source_count": 64,
+          "terminal_ce": 0.4691537637181206
+        },
+        "fit_pre_update_loss": 2.093603588315453,
+        "update": 31,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6538538905558672,
+          "response_nll": 1.6617512945417239,
+          "source_count": 16,
+          "terminal_ce": 0.8753676147797671
+        },
+        "validation_post_update_loss": 3.190972799877358
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.14953164702181207,
+          "response_nll": 1.4715403150565896,
+          "source_count": 64,
+          "terminal_ce": 0.45223763943290884
+        },
+        "fit_pre_update_loss": 2.0733096015113106,
+        "update": 32,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6285834178771394,
+          "response_nll": 1.6614508772492098,
+          "source_count": 16,
+          "terminal_ce": 0.8643617171987963
+        },
+        "validation_post_update_loss": 3.1543960123251455
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.14799803969996983,
+          "response_nll": 1.4698027625945616,
+          "source_count": 64,
+          "terminal_ce": 0.4359388146952404
+        },
+        "fit_pre_update_loss": 2.0537396169897715,
+        "update": 33,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.60776717652657,
+          "response_nll": 1.6611319667106201,
+          "source_count": 16,
+          "terminal_ce": 0.8532207753219974
+        },
+        "validation_post_update_loss": 3.1221199185591875
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.146521250107715,
+          "response_nll": 1.4680295713049631,
+          "source_count": 64,
+          "terminal_ce": 0.4202667952188581
+        },
+        "fit_pre_update_loss": 2.0348176166315364,
+        "update": 34,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5927131943483035,
+          "response_nll": 1.6607981681542119,
+          "source_count": 16,
+          "terminal_ce": 0.8420495624667224
+        },
+        "validation_post_update_loss": 3.095560924969238
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1450763952806818,
+          "response_nll": 1.4662210551237285,
+          "source_count": 64,
+          "terminal_ce": 0.4052524042515361
+        },
+        "fit_pre_update_loss": 2.0165498546559464,
+        "update": 35,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5819085068738779,
+          "response_nll": 1.6604573384091452,
+          "source_count": 16,
+          "terminal_ce": 0.8309857971202415
+        },
+        "validation_post_update_loss": 3.0733516424032645
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1436701281019448,
+          "response_nll": 1.464376743367603,
+          "source_count": 64,
+          "terminal_ce": 0.39091579408361343
+        },
+        "fit_pre_update_loss": 1.9989626655531612,
+        "update": 36,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5745393973148958,
+          "response_nll": 1.660105562004098,
+          "source_count": 16,
+          "terminal_ce": 0.8201895945149291
+        },
+        "validation_post_update_loss": 3.0548345538339228
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1423361193409641,
+          "response_nll": 1.462488902905706,
+          "source_count": 64,
+          "terminal_ce": 0.37721583582250107
+        },
+        "fit_pre_update_loss": 1.982040858069171,
+        "update": 37,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5707262737502554,
+          "response_nll": 1.6597351815267232,
+          "source_count": 16,
+          "terminal_ce": 0.809817931142784
+        },
+        "validation_post_update_loss": 3.0402793864197624
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1410362506429888,
+          "response_nll": 1.460550146432262,
+          "source_count": 64,
+          "terminal_ce": 0.3640846690504792
+        },
+        "fit_pre_update_loss": 1.9656710661257302,
+        "update": 38,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5690616636489814,
+          "response_nll": 1.6593537679521315,
+          "source_count": 16,
+          "terminal_ce": 0.7999908216509363
+        },
+        "validation_post_update_loss": 3.028406253252049
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13978364628948237,
+          "response_nll": 1.4585629350388132,
+          "source_count": 64,
+          "terminal_ce": 0.3514830122575393
+        },
+        "fit_pre_update_loss": 1.949829593585835,
+        "update": 39,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5677133608508467,
+          "response_nll": 1.6589766581706058,
+          "source_count": 16,
+          "terminal_ce": 0.7907753644794363
+        },
+        "validation_post_update_loss": 3.0174653835008884
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13859504987240237,
+          "response_nll": 1.4565337370885425,
+          "source_count": 64,
+          "terminal_ce": 0.3393828683233551
+        },
+        "fit_pre_update_loss": 1.9345116552843,
+        "update": 40,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5667984340212036,
+          "response_nll": 1.658609520313643,
+          "source_count": 16,
+          "terminal_ce": 0.7821654823462965
+        },
+        "validation_post_update_loss": 3.0075734366811426
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13744715417723433,
+          "response_nll": 1.4544647320832054,
+          "source_count": 64,
+          "terminal_ce": 0.3277618797870169
+        },
+        "fit_pre_update_loss": 1.9196737660474565,
+        "update": 41,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.566937945283027,
+          "response_nll": 1.6582505025870216,
+          "source_count": 16,
+          "terminal_ce": 0.7740812380337572
+        },
+        "validation_post_update_loss": 2.9992696859038057
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13631937093172397,
+          "response_nll": 1.4523549132814673,
+          "source_count": 64,
+          "terminal_ce": 0.3166340905399052
+        },
+        "fit_pre_update_loss": 1.9053083747530963,
+        "update": 42,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5672827285081703,
+          "response_nll": 1.6578981976288791,
+          "source_count": 16,
+          "terminal_ce": 0.766394759555097
+        },
+        "validation_post_update_loss": 2.9915756856921463
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13526879174534845,
+          "response_nll": 1.4502038541896571,
+          "source_count": 64,
+          "terminal_ce": 0.3060645128110192
+        },
+        "fit_pre_update_loss": 1.8915371587460248,
+        "update": 43,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5670382939042973,
+          "response_nll": 1.6575501227789173,
+          "source_count": 16,
+          "terminal_ce": 0.7589541471120063
+        },
+        "validation_post_update_loss": 2.983542563795221
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13425517043855398,
+          "response_nll": 1.4480163264003396,
+          "source_count": 64,
+          "terminal_ce": 0.2961068711147741
+        },
+        "fit_pre_update_loss": 1.8783783679536676,
+        "update": 44,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5668542389309249,
+          "response_nll": 1.6572019128017228,
+          "source_count": 16,
+          "terminal_ce": 0.7516126708827228
+        },
+        "validation_post_update_loss": 2.9756688226153707
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13325841277115275,
+          "response_nll": 1.445794783651855,
+          "source_count": 64,
+          "terminal_ce": 0.2867238911844051
+        },
+        "fit_pre_update_loss": 1.8657770876074127,
+        "update": 45,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5671932167048508,
+          "response_nll": 1.6568540275138932,
+          "source_count": 16,
+          "terminal_ce": 0.7442650364061645
+        },
+        "validation_post_update_loss": 2.9683122806249083
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13231042455801656,
+          "response_nll": 1.4435392182679305,
+          "source_count": 64,
+          "terminal_ce": 0.27781486304856184
+        },
+        "fit_pre_update_loss": 1.8536645058745091,
+        "update": 46,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5674716098695158,
+          "response_nll": 1.6565131478667174,
+          "source_count": 16,
+          "terminal_ce": 0.736858928761616
+        },
+        "validation_post_update_loss": 2.9608436864978493
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.13139362541243726,
+          "response_nll": 1.4412578629333173,
+          "source_count": 64,
+          "terminal_ce": 0.269303471856238
+        },
+        "fit_pre_update_loss": 1.8419549602019925,
+        "update": 47,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5677914490335622,
+          "response_nll": 1.6561805620655903,
+          "source_count": 16,
+          "terminal_ce": 0.7293685670638803
+        },
+        "validation_post_update_loss": 2.953340578163033
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1304642933357156,
+          "response_nll": 1.438959914630255,
+          "source_count": 64,
+          "terminal_ce": 0.2611462973425783
+        },
+        "fit_pre_update_loss": 1.830570505308549,
+        "update": 48,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5692265076869032,
+          "response_nll": 1.6558458636393716,
+          "source_count": 16,
+          "terminal_ce": 0.7217628748672168
+        },
+        "validation_post_update_loss": 2.9468352461934915
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12957366196397424,
+          "response_nll": 1.4366431567824742,
+          "source_count": 64,
+          "terminal_ce": 0.2532973254157552
+        },
+        "fit_pre_update_loss": 1.8195141441622036,
+        "update": 49,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5722146607183248,
+          "response_nll": 1.655498977459868,
+          "source_count": 16,
+          "terminal_ce": 0.7140137585910888
+        },
+        "validation_post_update_loss": 2.9417273967692816
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12871510709956438,
+          "response_nll": 1.434310133815857,
+          "source_count": 64,
+          "terminal_ce": 0.24573653126221595
+        },
+        "fit_pre_update_loss": 1.8087617721776375,
+        "update": 50,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5773702067607193,
+          "response_nll": 1.6551383403708086,
+          "source_count": 16,
+          "terminal_ce": 0.7060904798203731
+        },
+        "validation_post_update_loss": 2.938599026951901
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1278646830998858,
+          "response_nll": 1.4319682855393954,
+          "source_count": 64,
+          "terminal_ce": 0.23845729219746173
+        },
+        "fit_pre_update_loss": 1.7982902608367428,
+        "update": 51,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.5865668267642652,
+          "response_nll": 1.6547653040697556,
+          "source_count": 16,
+          "terminal_ce": 0.6979661693240988
+        },
+        "validation_post_update_loss": 2.9392983001581197
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12705691647074657,
+          "response_nll": 1.4296127731272417,
+          "source_count": 64,
+          "terminal_ce": 0.23144344087837193
+        },
+        "fit_pre_update_loss": 1.78811313047636,
+        "update": 52,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6005529005511461,
+          "response_nll": 1.6543751148014352,
+          "source_count": 16,
+          "terminal_ce": 0.689745140293454
+        },
+        "validation_post_update_loss": 2.9446731556460355
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1262733224080249,
+          "response_nll": 1.4272308269324385,
+          "source_count": 64,
+          "terminal_ce": 0.22473252257393955
+        },
+        "fit_pre_update_loss": 1.778236671914403,
+        "update": 53,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6167537029416059,
+          "response_nll": 1.6539569230521523,
+          "source_count": 16,
+          "terminal_ce": 0.6817479484001319
+        },
+        "validation_post_update_loss": 2.9524585743938903
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12550828013662127,
+          "response_nll": 1.42480953418241,
+          "source_count": 64,
+          "terminal_ce": 0.21838265581679678
+        },
+        "fit_pre_update_loss": 1.768700470135828,
+        "update": 54,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6316609296643765,
+          "response_nll": 1.6535049615119342,
+          "source_count": 16,
+          "terminal_ce": 0.6743178048956862
+        },
+        "validation_post_update_loss": 2.959483696071997
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12476748250654206,
+          "response_nll": 1.4223408502002253,
+          "source_count": 64,
+          "terminal_ce": 0.21236247313254916
+        },
+        "fit_pre_update_loss": 1.7594708058393165,
+        "update": 55,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.643954068266397,
+          "response_nll": 1.6530183029902392,
+          "source_count": 16,
+          "terminal_ce": 0.6676052245376165
+        },
+        "validation_post_update_loss": 2.9645775957942524
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12403570289743943,
+          "response_nll": 1.4198232784430485,
+          "source_count": 64,
+          "terminal_ce": 0.20658752570551456
+        },
+        "fit_pre_update_loss": 1.7504465070460025,
+        "update": 56,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6541416709270235,
+          "response_nll": 1.6525000233426332,
+          "source_count": 16,
+          "terminal_ce": 0.6615981582265776
+        },
+        "validation_post_update_loss": 2.968239852496234
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12332851948683483,
+          "response_nll": 1.417260768012399,
+          "source_count": 64,
+          "terminal_ce": 0.2010036727680104
+        },
+        "fit_pre_update_loss": 1.7415929602672442,
+        "update": 57,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6634091566348488,
+          "response_nll": 1.6519624456685715,
+          "source_count": 16,
+          "terminal_ce": 0.6562144491105496
+        },
+        "validation_post_update_loss": 2.97158605141397
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12264376746995137,
+          "response_nll": 1.4146628751175534,
+          "source_count": 64,
+          "terminal_ce": 0.1956239109701433
+        },
+        "fit_pre_update_loss": 1.732930553557648,
+        "update": 58,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6724430894151958,
+          "response_nll": 1.6514137209946904,
+          "source_count": 16,
+          "terminal_ce": 0.6513239797845114
+        },
+        "validation_post_update_loss": 2.975180790194398
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12195780139201909,
+          "response_nll": 1.4120392306649237,
+          "source_count": 64,
+          "terminal_ce": 0.19048929613817628
+        },
+        "fit_pre_update_loss": 1.724486328195119,
+        "update": 59,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6810402766513939,
+          "response_nll": 1.650848141802956,
+          "source_count": 16,
+          "terminal_ce": 0.6467812958821881
+        },
+        "validation_post_update_loss": 2.9786697143365375
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12129100337448195,
+          "response_nll": 1.409391527120066,
+          "source_count": 64,
+          "terminal_ce": 0.18558361457959405
+        },
+        "fit_pre_update_loss": 1.716266145074142,
+        "update": 60,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6891259463419771,
+          "response_nll": 1.650261213231893,
+          "source_count": 16,
+          "terminal_ce": 0.6424125039424025
+        },
+        "validation_post_update_loss": 2.9817996635162727
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.12061731448709129,
+          "response_nll": 1.4067177565752378,
+          "source_count": 64,
+          "terminal_ce": 0.18085053952509544
+        },
+        "fit_pre_update_loss": 1.7081856105874245,
+        "update": 61,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.6965223243063702,
+          "response_nll": 1.6496527707141697,
+          "source_count": 16,
+          "terminal_ce": 0.6380970391833513
+        },
+        "validation_post_update_loss": 2.984272134203891
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11996256488963192,
+          "response_nll": 1.4040179332477145,
+          "source_count": 64,
+          "terminal_ce": 0.1762396324060665
+        },
+        "fit_pre_update_loss": 1.7002201305434128,
+        "update": 62,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7033790038626266,
+          "response_nll": 1.6490275337945512,
+          "source_count": 16,
+          "terminal_ce": 0.6336908122682213
+        },
+        "validation_post_update_loss": 2.9860973499253993
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11932263427928327,
+          "response_nll": 1.4012973115585297,
+          "source_count": 64,
+          "terminal_ce": 0.17178784724218704
+        },
+        "fit_pre_update_loss": 1.69240779308,
+        "update": 63,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7093116935895952,
+          "response_nll": 1.648389426869761,
+          "source_count": 16,
+          "terminal_ce": 0.6292324246620046
+        },
+        "validation_post_update_loss": 2.9869335451213606
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11873752830026403,
+          "response_nll": 1.3985601875609621,
+          "source_count": 64,
+          "terminal_ce": 0.1675256360634546
+        },
+        "fit_pre_update_loss": 1.684823351924681,
+        "update": 64,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.715192606379367,
+          "response_nll": 1.647731211195314,
+          "source_count": 16,
+          "terminal_ce": 0.624432790789909
+        },
+        "validation_post_update_loss": 2.98735660836459
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11838260165688291,
+          "response_nll": 1.3958001130408126,
+          "source_count": 64,
+          "terminal_ce": 0.16352023369402036
+        },
+        "fit_pre_update_loss": 1.6777029483917159,
+        "update": 65,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7180674799590891,
+          "response_nll": 1.6470541486359558,
+          "source_count": 16,
+          "terminal_ce": 0.6199945519717442
+        },
+        "validation_post_update_loss": 2.9851161805667887
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11820792906487518,
+          "response_nll": 1.3930426281365478,
+          "source_count": 64,
+          "terminal_ce": 0.15964396192699787
+        },
+        "fit_pre_update_loss": 1.6708945191284208,
+        "update": 66,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7233609977676483,
+          "response_nll": 1.6463948682550569,
+          "source_count": 16,
+          "terminal_ce": 0.6151998604097964
+        },
+        "validation_post_update_loss": 2.984955726432502
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11730600741822758,
+          "response_nll": 1.3903041049389513,
+          "source_count": 64,
+          "terminal_ce": 0.156022101078998
+        },
+        "fit_pre_update_loss": 1.6636322134361767,
+        "update": 67,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7258510800582048,
+          "response_nll": 1.645729456322799,
+          "source_count": 16,
+          "terminal_ce": 0.6108791493853313
+        },
+        "validation_post_update_loss": 2.982459685766335
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11646855566884243,
+          "response_nll": 1.387560410145879,
+          "source_count": 64,
+          "terminal_ce": 0.15254759116187766
+        },
+        "fit_pre_update_loss": 1.6565765569765991,
+        "update": 68,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7274555772253648,
+          "response_nll": 1.6450722276999148,
+          "source_count": 16,
+          "terminal_ce": 0.6069299606910091
+        },
+        "validation_post_update_loss": 2.9794577656162886
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11626120317678823,
+          "response_nll": 1.38479874779602,
+          "source_count": 64,
+          "terminal_ce": 0.14921171974091837
+        },
+        "fit_pre_update_loss": 1.6502716707137266,
+        "update": 69,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.731045221201879,
+          "response_nll": 1.6444584135114992,
+          "source_count": 16,
+          "terminal_ce": 0.6031790814973366
+        },
+        "validation_post_update_loss": 2.978682716210715
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11539849982648859,
+          "response_nll": 1.3820475544150923,
+          "source_count": 64,
+          "terminal_ce": 0.14597534018271943
+        },
+        "fit_pre_update_loss": 1.6434213944243004,
+        "update": 70,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7334925758984958,
+          "response_nll": 1.6438444691578151,
+          "source_count": 16,
+          "terminal_ce": 0.5997880027644464
+        },
+        "validation_post_update_loss": 2.977125047820757
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11499982837062951,
+          "response_nll": 1.379280324722601,
+          "source_count": 64,
+          "terminal_ce": 0.14275055912300733
+        },
+        "fit_pre_update_loss": 1.637030712216238,
+        "update": 71,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7341660579416414,
+          "response_nll": 1.6432236745272695,
+          "source_count": 16,
+          "terminal_ce": 0.5967592549625633
+        },
+        "validation_post_update_loss": 2.9741489874314744
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1145341269886552,
+          "response_nll": 1.376512693386535,
+          "source_count": 64,
+          "terminal_ce": 0.13946672726985754
+        },
+        "fit_pre_update_loss": 1.6305135476450479,
+        "update": 72,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7364100261160236,
+          "response_nll": 1.6426446244545392,
+          "source_count": 16,
+          "terminal_ce": 0.5939621868941665
+        },
+        "validation_post_update_loss": 2.973016837464729
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1138367503868652,
+          "response_nll": 1.373754157378565,
+          "source_count": 64,
+          "terminal_ce": 0.13615830871580015
+        },
+        "fit_pre_update_loss": 1.6237492164812304,
+        "update": 73,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7390104464618743,
+          "response_nll": 1.6420840796244212,
+          "source_count": 16,
+          "terminal_ce": 0.5913817979644118
+        },
+        "validation_post_update_loss": 2.9724763240507075
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11358491340200678,
+          "response_nll": 1.3709786125611536,
+          "source_count": 64,
+          "terminal_ce": 0.13300827779724295
+        },
+        "fit_pre_update_loss": 1.6175718037604034,
+        "update": 74,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7398465541955708,
+          "response_nll": 1.6415032941059644,
+          "source_count": 16,
+          "terminal_ce": 0.5889651159569864
+        },
+        "validation_post_update_loss": 2.9703149642585216
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11288654490448091,
+          "response_nll": 1.368181478278055,
+          "source_count": 64,
+          "terminal_ce": 0.13014978186474443
+        },
+        "fit_pre_update_loss": 1.6112178050472803,
+        "update": 75,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7415369680938588,
+          "response_nll": 1.640926884780562,
+          "source_count": 16,
+          "terminal_ce": 0.5865611726384939
+        },
+        "validation_post_update_loss": 2.9690250255129147
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11244256702130996,
+          "response_nll": 1.3653459646426558,
+          "source_count": 64,
+          "terminal_ce": 0.12753194065264029
+        },
+        "fit_pre_update_loss": 1.6053204723166061,
+        "update": 76,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7441721756855222,
+          "response_nll": 1.6403524858915854,
+          "source_count": 16,
+          "terminal_ce": 0.5841136538757477
+        },
+        "validation_post_update_loss": 2.9686383154528553
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11199686893167707,
+          "response_nll": 1.362473873724016,
+          "source_count": 64,
+          "terminal_ce": 0.1250556871256907
+        },
+        "fit_pre_update_loss": 1.5995264297813838,
+        "update": 77,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7453966638793933,
+          "response_nll": 1.639747722452929,
+          "source_count": 16,
+          "terminal_ce": 0.581638809812439
+        },
+        "validation_post_update_loss": 2.9667831961447613
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11136118837644651,
+          "response_nll": 1.3595745096545337,
+          "source_count": 64,
+          "terminal_ce": 0.12266570897862698
+        },
+        "fit_pre_update_loss": 1.5936014070096072,
+        "update": 78,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7465942068590055,
+          "response_nll": 1.639133792476244,
+          "source_count": 16,
+          "terminal_ce": 0.5790973914274632
+        },
+        "validation_post_update_loss": 2.9648253907627127
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11098922956377408,
+          "response_nll": 1.3566464152988942,
+          "source_count": 64,
+          "terminal_ce": 0.12032285122010339
+        },
+        "fit_pre_update_loss": 1.5879584960827715,
+        "update": 79,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.748698090678233,
+          "response_nll": 1.6385163097136146,
+          "source_count": 16,
+          "terminal_ce": 0.5764772138902332
+        },
+        "validation_post_update_loss": 2.963691614282081
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.11041463139976948,
+          "response_nll": 1.3536720620771874,
+          "source_count": 64,
+          "terminal_ce": 0.11794423922990746
+        },
+        "fit_pre_update_loss": 1.5820309327068642,
+        "update": 80,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7499960597168405,
+          "response_nll": 1.6378846218458423,
+          "source_count": 16,
+          "terminal_ce": 0.5738138407135499
+        },
+        "validation_post_update_loss": 2.9616945222762325
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10991317958787332,
+          "response_nll": 1.3506736406195279,
+          "source_count": 64,
+          "terminal_ce": 0.11548472973437594
+        },
+        "fit_pre_update_loss": 1.5760715499417772,
+        "update": 81,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7499511159280833,
+          "response_nll": 1.6372132635065846,
+          "source_count": 16,
+          "terminal_ce": 0.5711933873327778
+        },
+        "validation_post_update_loss": 2.958357766767446
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10971683353413911,
+          "response_nll": 1.3476020285937587,
+          "source_count": 64,
+          "terminal_ce": 0.11289799615068787
+        },
+        "fit_pre_update_loss": 1.5702168582785858,
+        "update": 82,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.751420537008641,
+          "response_nll": 1.6365840585410403,
+          "source_count": 16,
+          "terminal_ce": 0.5686258411947319
+        },
+        "validation_post_update_loss": 2.956630436744413
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1092356267911004,
+          "response_nll": 1.344575160456638,
+          "source_count": 64,
+          "terminal_ce": 0.11051483901441293
+        },
+        "fit_pre_update_loss": 1.5643256262621512,
+        "update": 83,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7517709588409065,
+          "response_nll": 1.635875932891927,
+          "source_count": 16,
+          "terminal_ce": 0.5662553811802886
+        },
+        "validation_post_update_loss": 2.9539022729131226
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10971505780374546,
+          "response_nll": 1.3414269206637304,
+          "source_count": 64,
+          "terminal_ce": 0.10836331082450329
+        },
+        "fit_pre_update_loss": 1.559505289291979,
+        "update": 84,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7521275612257685,
+          "response_nll": 1.6351799149393222,
+          "source_count": 16,
+          "terminal_ce": 0.564022233555445
+        },
+        "validation_post_update_loss": 2.951329709720536
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1096471197787105,
+          "response_nll": 1.3383202688815077,
+          "source_count": 64,
+          "terminal_ce": 0.106487125192044
+        },
+        "fit_pre_update_loss": 1.5544545138522623,
+        "update": 85,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7538113227623315,
+          "response_nll": 1.6344983711194645,
+          "source_count": 16,
+          "terminal_ce": 0.5619370600727998
+        },
+        "validation_post_update_loss": 2.9502467539545956
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10870795390143254,
+          "response_nll": 1.3352491855963737,
+          "source_count": 64,
+          "terminal_ce": 0.1047497479299434
+        },
+        "fit_pre_update_loss": 1.5487068874277499,
+        "update": 86,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7561959876443238,
+          "response_nll": 1.6338347141601284,
+          "source_count": 16,
+          "terminal_ce": 0.5599901259136357
+        },
+        "validation_post_update_loss": 2.950020827718088
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10733139657768635,
+          "response_nll": 1.3322017940041142,
+          "source_count": 64,
+          "terminal_ce": 0.10311545280203135
+        },
+        "fit_pre_update_loss": 1.5426486433838318,
+        "update": 87,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7569808072277608,
+          "response_nll": 1.6330989005017613,
+          "source_count": 16,
+          "terminal_ce": 0.55819526857607
+        },
+        "validation_post_update_loss": 2.9482749763055924
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10665101662334761,
+          "response_nll": 1.3290398141688486,
+          "source_count": 64,
+          "terminal_ce": 0.10146506085100619
+        },
+        "fit_pre_update_loss": 1.5371558916432024,
+        "update": 88,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.75846764388936,
+          "response_nll": 1.632358074986372,
+          "source_count": 16,
+          "terminal_ce": 0.5565109442906787
+        },
+        "validation_post_update_loss": 2.9473366631664106
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10651998443512886,
+          "response_nll": 1.3258411249700826,
+          "source_count": 64,
+          "terminal_ce": 0.099838518728225
+        },
+        "fit_pre_update_loss": 1.5321996281334362,
+        "update": 89,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7604842394911233,
+          "response_nll": 1.6316486046239504,
+          "source_count": 16,
+          "terminal_ce": 0.554888851939197
+        },
+        "validation_post_update_loss": 2.947021696054271
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10583484408350505,
+          "response_nll": 1.3226862890172109,
+          "source_count": 64,
+          "terminal_ce": 0.0982697472156738
+        },
+        "fit_pre_update_loss": 1.5267908803163897,
+        "update": 90,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7613244366767242,
+          "response_nll": 1.630910741040221,
+          "source_count": 16,
+          "terminal_ce": 0.5533319808922934
+        },
+        "validation_post_update_loss": 2.9455671586092387
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10554027695593647,
+          "response_nll": 1.319478399771686,
+          "source_count": 64,
+          "terminal_ce": 0.0967133769948741
+        },
+        "fit_pre_update_loss": 1.5217320537224963,
+        "update": 91,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7628988208467755,
+          "response_nll": 1.630139810514808,
+          "source_count": 16,
+          "terminal_ce": 0.5518872775641939
+        },
+        "validation_post_update_loss": 2.944925908925777
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10536540239687318,
+          "response_nll": 1.3161955064297794,
+          "source_count": 64,
+          "terminal_ce": 0.09514345921523007
+        },
+        "fit_pre_update_loss": 1.5167043680418826,
+        "update": 92,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7651509237381553,
+          "response_nll": 1.6294184044152358,
+          "source_count": 16,
+          "terminal_ce": 0.5504365951923995
+        },
+        "validation_post_update_loss": 2.945005923345791
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10461306288137237,
+          "response_nll": 1.312974896010335,
+          "source_count": 64,
+          "terminal_ce": 0.09363514345752179
+        },
+        "fit_pre_update_loss": 1.511223102349229,
+        "update": 93,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7659011363010116,
+          "response_nll": 1.628702114136684,
+          "source_count": 16,
+          "terminal_ce": 0.54894068012262
+        },
+        "validation_post_update_loss": 2.943543930560316
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10476117918168139,
+          "response_nll": 1.309737693059245,
+          "source_count": 64,
+          "terminal_ce": 0.09218398219488541
+        },
+        "fit_pre_update_loss": 1.5066828544358117,
+        "update": 94,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7674967144282006,
+          "response_nll": 1.6279203499892592,
+          "source_count": 16,
+          "terminal_ce": 0.5475571829667831
+        },
+        "validation_post_update_loss": 2.942974247384243
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10437813842418722,
+          "response_nll": 1.3063905755325764,
+          "source_count": 64,
+          "terminal_ce": 0.0907365633284849
+        },
+        "fit_pre_update_loss": 1.5015052772852486,
+        "update": 95,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7702635738677016,
+          "response_nll": 1.6271969676535798,
+          "source_count": 16,
+          "terminal_ce": 0.5461396877274776
+        },
+        "validation_post_update_loss": 2.943600229248759
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10375465308744042,
+          "response_nll": 1.3031045014161193,
+          "source_count": 64,
+          "terminal_ce": 0.08938770857274206
+        },
+        "fit_pre_update_loss": 1.496246863076302,
+        "update": 96,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.77087644045209,
+          "response_nll": 1.6265074864510816,
+          "source_count": 16,
+          "terminal_ce": 0.5446052973413031
+        },
+        "validation_post_update_loss": 2.941989224244475
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10390458793544466,
+          "response_nll": 1.299850397685456,
+          "source_count": 64,
+          "terminal_ce": 0.08812907828987031
+        },
+        "fit_pre_update_loss": 1.491884063910771,
+        "update": 97,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7726265216457807,
+          "response_nll": 1.6257406425023315,
+          "source_count": 16,
+          "terminal_ce": 0.5431447790873632
+        },
+        "validation_post_update_loss": 2.9415119432354753
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10259061632197147,
+          "response_nll": 1.2964905111175948,
+          "source_count": 64,
+          "terminal_ce": 0.0868650134849504
+        },
+        "fit_pre_update_loss": 1.4859461409245167,
+        "update": 98,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7759744899463679,
+          "response_nll": 1.6250059600377675,
+          "source_count": 16,
+          "terminal_ce": 0.541692533933593
+        },
+        "validation_post_update_loss": 2.9426729839177286
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10268869728729896,
+          "response_nll": 1.2931255290802794,
+          "source_count": 64,
+          "terminal_ce": 0.08565820024587792
+        },
+        "fit_pre_update_loss": 1.4814724266134562,
+        "update": 99,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7762958148143709,
+          "response_nll": 1.6243100083744313,
+          "source_count": 16,
+          "terminal_ce": 0.5401166714599517
+        },
+        "validation_post_update_loss": 2.940722494648754
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10182827169254215,
+          "response_nll": 1.2898227501307604,
+          "source_count": 64,
+          "terminal_ce": 0.08452835461608443
+        },
+        "fit_pre_update_loss": 1.476179376439387,
+        "update": 100,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7786211882872338,
+          "response_nll": 1.6235804858767267,
+          "source_count": 16,
+          "terminal_ce": 0.5385789050891405
+        },
+        "validation_post_update_loss": 2.9407805792531008
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1013876895072017,
+          "response_nll": 1.2864405169392306,
+          "source_count": 64,
+          "terminal_ce": 0.08340479283011037
+        },
+        "fit_pre_update_loss": 1.4712329992765427,
+        "update": 101,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7818665117684149,
+          "response_nll": 1.6228181447081862,
+          "source_count": 16,
+          "terminal_ce": 0.5370426974145386
+        },
+        "validation_post_update_loss": 2.9417273538911397
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10136916714842756,
+          "response_nll": 1.2829912465639859,
+          "source_count": 64,
+          "terminal_ce": 0.08229026471596014
+        },
+        "fit_pre_update_loss": 1.4666506784283737,
+        "update": 102,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7821734957329634,
+          "response_nll": 1.6220962931582887,
+          "source_count": 16,
+          "terminal_ce": 0.5354089322584694
+        },
+        "validation_post_update_loss": 2.9396787211497215
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10063030309769053,
+          "response_nll": 1.2795968604355732,
+          "source_count": 64,
+          "terminal_ce": 0.08124576374789495
+        },
+        "fit_pre_update_loss": 1.4614729272811586,
+        "update": 103,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7852284968268703,
+          "response_nll": 1.6213955992683224,
+          "source_count": 16,
+          "terminal_ce": 0.5339054944161757
+        },
+        "validation_post_update_loss": 2.9405295905113684
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10061392987574692,
+          "response_nll": 1.2761809984882173,
+          "source_count": 64,
+          "terminal_ce": 0.08021041956562994
+        },
+        "fit_pre_update_loss": 1.4570053479295941,
+        "update": 104,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7870823296753522,
+          "response_nll": 1.6206267169384754,
+          "source_count": 16,
+          "terminal_ce": 0.5323023209812564
+        },
+        "validation_post_update_loss": 2.940011367595084
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09987670614684757,
+          "response_nll": 1.272690762789445,
+          "source_count": 64,
+          "terminal_ce": 0.07918062386703906
+        },
+        "fit_pre_update_loss": 1.4517480928033317,
+        "update": 105,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7886258449173152,
+          "response_nll": 1.6198800719150814,
+          "source_count": 16,
+          "terminal_ce": 0.5307106364646543
+        },
+        "validation_post_update_loss": 2.939216553297051
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09973151132180526,
+          "response_nll": 1.2692036071227963,
+          "source_count": 64,
+          "terminal_ce": 0.07818258119559277
+        },
+        "fit_pre_update_loss": 1.4471176996401944,
+        "update": 106,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7914089770255434,
+          "response_nll": 1.6191758651845263,
+          "source_count": 16,
+          "terminal_ce": 0.5292392821573286
+        },
+        "validation_post_update_loss": 2.9398241243673984
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0993740489175504,
+          "response_nll": 1.2657393316668168,
+          "source_count": 64,
+          "terminal_ce": 0.07720250090975664
+        },
+        "fit_pre_update_loss": 1.4423158814941237,
+        "update": 107,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7918376801898674,
+          "response_nll": 1.618417756367385,
+          "source_count": 16,
+          "terminal_ce": 0.527600704691434
+        },
+        "validation_post_update_loss": 2.9378561412486865
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09891731328124542,
+          "response_nll": 1.262216830362455,
+          "source_count": 64,
+          "terminal_ce": 0.07624970393648267
+        },
+        "fit_pre_update_loss": 1.437383847580183,
+        "update": 108,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7955174913808919,
+          "response_nll": 1.6176569099468896,
+          "source_count": 16,
+          "terminal_ce": 0.5261088050479714
+        },
+        "validation_post_update_loss": 2.9392832063757526
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09885646370362769,
+          "response_nll": 1.2586505286564373,
+          "source_count": 64,
+          "terminal_ce": 0.0752738682745029
+        },
+        "fit_pre_update_loss": 1.432780860634568,
+        "update": 109,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7957397425490553,
+          "response_nll": 1.6169285955020118,
+          "source_count": 16,
+          "terminal_ce": 0.5245051728851733
+        },
+        "validation_post_update_loss": 2.9371735109362405
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09824534477925781,
+          "response_nll": 1.2551321436603673,
+          "source_count": 64,
+          "terminal_ce": 0.07435960651244942
+        },
+        "fit_pre_update_loss": 1.4277370949520745,
+        "update": 110,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.7982401567639128,
+          "response_nll": 1.6161962713721012,
+          "source_count": 16,
+          "terminal_ce": 0.5229922839362402
+        },
+        "validation_post_update_loss": 2.937428712072254
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09805953283889436,
+          "response_nll": 1.251571651557335,
+          "source_count": 64,
+          "terminal_ce": 0.07343807432884047
+        },
+        "fit_pre_update_loss": 1.42306925872507,
+        "update": 111,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8003227680785433,
+          "response_nll": 1.6154195668840803,
+          "source_count": 16,
+          "terminal_ce": 0.5214046537820888
+        },
+        "validation_post_update_loss": 2.9371469887447126
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09778214368856186,
+          "response_nll": 1.247956543286979,
+          "source_count": 64,
+          "terminal_ce": 0.07252342252159744
+        },
+        "fit_pre_update_loss": 1.4182621094971384,
+        "update": 112,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.801604407635869,
+          "response_nll": 1.61467555310876,
+          "source_count": 16,
+          "terminal_ce": 0.519843105129659
+        },
+        "validation_post_update_loss": 2.9361230658742885
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09738782949290913,
+          "response_nll": 1.2443660294401437,
+          "source_count": 64,
+          "terminal_ce": 0.07164241049380417
+        },
+        "fit_pre_update_loss": 1.4133962694268571,
+        "update": 113,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8042232022673164,
+          "response_nll": 1.613948755897897,
+          "source_count": 16,
+          "terminal_ce": 0.5183451246433839
+        },
+        "validation_post_update_loss": 2.9365170828085976
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09727580290973106,
+          "response_nll": 1.2407673565948538,
+          "source_count": 64,
+          "terminal_ce": 0.07078119740090813
+        },
+        "fit_pre_update_loss": 1.408824356905493,
+        "update": 114,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.805591544134254,
+          "response_nll": 1.6131690266739298,
+          "source_count": 16,
+          "terminal_ce": 0.5167533664958499
+        },
+        "validation_post_update_loss": 2.9355139373040338
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09688140907796812,
+          "response_nll": 1.2371167165348889,
+          "source_count": 64,
+          "terminal_ce": 0.06993130537161915
+        },
+        "fit_pre_update_loss": 1.403929430984476,
+        "update": 115,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8082707850154651,
+          "response_nll": 1.6124185160035036,
+          "source_count": 16,
+          "terminal_ce": 0.5152445409090116
+        },
+        "validation_post_update_loss": 2.93593384192798
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09657537342659192,
+          "response_nll": 1.2334687630691858,
+          "source_count": 64,
+          "terminal_ce": 0.06910695851722619
+        },
+        "fit_pre_update_loss": 1.399151095013004,
+        "update": 116,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8099796839377285,
+          "response_nll": 1.6116852483288706,
+          "source_count": 16,
+          "terminal_ce": 0.5137659235457561
+        },
+        "validation_post_update_loss": 2.935430855812355
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09638973440078213,
+          "response_nll": 1.2298260088311246,
+          "source_count": 64,
+          "terminal_ce": 0.06830847313802665
+        },
+        "fit_pre_update_loss": 1.3945242163699332,
+        "update": 117,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8117934379627341,
+          "response_nll": 1.6109106513111175,
+          "source_count": 16,
+          "terminal_ce": 0.5122357740555572
+        },
+        "validation_post_update_loss": 2.934939863329409
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0960312254119643,
+          "response_nll": 1.2261318617646808,
+          "source_count": 64,
+          "terminal_ce": 0.0675133854637727
+        },
+        "fit_pre_update_loss": 1.3896764726404176,
+        "update": 118,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8150374751309774,
+          "response_nll": 1.610161445252088,
+          "source_count": 16,
+          "terminal_ce": 0.5107737152101564
+        },
+        "validation_post_update_loss": 2.935972635593222
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09578350231490004,
+          "response_nll": 1.2224282062920653,
+          "source_count": 64,
+          "terminal_ce": 0.06673746397430469
+        },
+        "fit_pre_update_loss": 1.3849491725812701,
+        "update": 119,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8159625606058063,
+          "response_nll": 1.6094268445961408,
+          "source_count": 16,
+          "terminal_ce": 0.509334706048922
+        },
+        "validation_post_update_loss": 2.934724111250869
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09557438598609563,
+          "response_nll": 1.2187286769050818,
+          "source_count": 64,
+          "terminal_ce": 0.06598188351614964
+        },
+        "fit_pre_update_loss": 1.380284946407327,
+        "update": 120,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.819146103493095,
+          "response_nll": 1.6086668025730173,
+          "source_count": 16,
+          "terminal_ce": 0.5078680627208637
+        },
+        "validation_post_update_loss": 2.935680968786976
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09522883528373546,
+          "response_nll": 1.2149792825944763,
+          "source_count": 64,
+          "terminal_ce": 0.06522691845295638
+        },
+        "fit_pre_update_loss": 1.375435036331168,
+        "update": 121,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8216001290860453,
+          "response_nll": 1.6079314547399555,
+          "source_count": 16,
+          "terminal_ce": 0.506448487693586
+        },
+        "validation_post_update_loss": 2.9359800715195865
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09492381708600237,
+          "response_nll": 1.2112271144003532,
+          "source_count": 64,
+          "terminal_ce": 0.06449396468501842
+        },
+        "fit_pre_update_loss": 1.370644896171374,
+        "update": 122,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8230548528499902,
+          "response_nll": 1.6072050618576394,
+          "source_count": 16,
+          "terminal_ce": 0.5050420066084562
+        },
+        "validation_post_update_loss": 2.935301921316086
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09476454140038569,
+          "response_nll": 1.2074584344230386,
+          "source_count": 64,
+          "terminal_ce": 0.06377903383878873
+        },
+        "fit_pre_update_loss": 1.366002009662213,
+        "update": 123,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8270195728528881,
+          "response_nll": 1.6064610782066764,
+          "source_count": 16,
+          "terminal_ce": 0.5036046043442945
+        },
+        "validation_post_update_loss": 2.937085255403859
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09458489901775605,
+          "response_nll": 1.2036418138666916,
+          "source_count": 64,
+          "terminal_ce": 0.06306940031695098
+        },
+        "fit_pre_update_loss": 1.3612961132013985,
+        "update": 124,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8284320607404834,
+          "response_nll": 1.6057590061134972,
+          "source_count": 16,
+          "terminal_ce": 0.5022190212848703
+        },
+        "validation_post_update_loss": 2.9364100881388504
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09425102118259307,
+          "response_nll": 1.1998442057884973,
+          "source_count": 64,
+          "terminal_ce": 0.06238317032900729
+        },
+        "fit_pre_update_loss": 1.3564783973000976,
+        "update": 125,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8316409693485359,
+          "response_nll": 1.605031684359408,
+          "source_count": 16,
+          "terminal_ce": 0.5007870765301873
+        },
+        "validation_post_update_loss": 2.937459730238131
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09396537447304144,
+          "response_nll": 1.1959921193108922,
+          "source_count": 64,
+          "terminal_ce": 0.06168828575001303
+        },
+        "fit_pre_update_loss": 1.3516457795339467,
+        "update": 126,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8349963277013479,
+          "response_nll": 1.6043409577753447,
+          "source_count": 16,
+          "terminal_ce": 0.49939753982391505
+        },
+        "validation_post_update_loss": 2.9387348253006076
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0937326217382074,
+          "response_nll": 1.192136273439065,
+          "source_count": 64,
+          "terminal_ce": 0.06099242192144754
+        },
+        "fit_pre_update_loss": 1.3468613170987198,
+        "update": 127,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8365943521040692,
+          "response_nll": 1.6036284709324802,
+          "source_count": 16,
+          "terminal_ce": 0.49795362945989347
+        },
+        "validation_post_update_loss": 2.938176452496443
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09363469635488633,
+          "response_nll": 1.1882499635424215,
+          "source_count": 64,
+          "terminal_ce": 0.06025319642977374
+        },
+        "fit_pre_update_loss": 1.3421378563270816,
+        "update": 128,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8418382177034811,
+          "response_nll": 1.6029734704801877,
+          "source_count": 16,
+          "terminal_ce": 0.49658875641746797
+        },
+        "validation_post_update_loss": 2.9414004446011366
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09396142664321452,
+          "response_nll": 1.18435648586438,
+          "source_count": 64,
+          "terminal_ce": 0.059463897484840766
+        },
+        "fit_pre_update_loss": 1.3377818099924352,
+        "update": 129,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8427099926885798,
+          "response_nll": 1.602234680367669,
+          "source_count": 16,
+          "terminal_ce": 0.495067596925613
+        },
+        "validation_post_update_loss": 2.940012269981862
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09697063671411432,
+          "response_nll": 1.1804201287616445,
+          "source_count": 64,
+          "terminal_ce": 0.05855645826506077
+        },
+        "fit_pre_update_loss": 1.3359472237408196,
+        "update": 130,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.848673931093251,
+          "response_nll": 1.6017198325309794,
+          "source_count": 16,
+          "terminal_ce": 0.49386469089818996
+        },
+        "validation_post_update_loss": 2.94425845452242
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.1018348506419702,
+          "response_nll": 1.1766847347023621,
+          "source_count": 64,
+          "terminal_ce": 0.05770145031178491
+        },
+        "fit_pre_update_loss": 1.3362210356561173,
+        "update": 131,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8489268588422599,
+          "response_nll": 1.6010293250679075,
+          "source_count": 16,
+          "terminal_ce": 0.49242279412243856
+        },
+        "validation_post_update_loss": 2.942378978032606
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09345344545859477,
+          "response_nll": 1.1730333631993084,
+          "source_count": 64,
+          "terminal_ce": 0.05688619298136084
+        },
+        "fit_pre_update_loss": 1.323373001639264,
+        "update": 132,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8564590552705975,
+          "response_nll": 1.6003039888180837,
+          "source_count": 16,
+          "terminal_ce": 0.4909815847952156
+        },
+        "validation_post_update_loss": 2.9477446288838967
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.10080864377905202,
+          "response_nll": 1.1691971955829328,
+          "source_count": 64,
+          "terminal_ce": 0.05619987486221595
+        },
+        "fit_pre_update_loss": 1.3262057142242007,
+        "update": 133,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8594938788762632,
+          "response_nll": 1.599790705709223,
+          "source_count": 16,
+          "terminal_ce": 0.48986349962219333
+        },
+        "validation_post_update_loss": 2.949148084207679
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09248424326155116,
+          "response_nll": 1.1657302656619555,
+          "source_count": 64,
+          "terminal_ce": 0.055621339674614814
+        },
+        "fit_pre_update_loss": 1.3138358485981214,
+        "update": 134,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8595549848255895,
+          "response_nll": 1.5992906444494395,
+          "source_count": 16,
+          "terminal_ce": 0.48882599259830933
+        },
+        "validation_post_update_loss": 2.9476716218733383
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09689244762142585,
+          "response_nll": 1.162156709678434,
+          "source_count": 64,
+          "terminal_ce": 0.05508753777878904
+        },
+        "fit_pre_update_loss": 1.3141366950786488,
+        "update": 135,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8668214624925801,
+          "response_nll": 1.5986717944166473,
+          "source_count": 16,
+          "terminal_ce": 0.48769009973824046
+        },
+        "validation_post_update_loss": 2.9531833566474677
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09476541999891014,
+          "response_nll": 1.1585152791036293,
+          "source_count": 64,
+          "terminal_ce": 0.05455901570004651
+        },
+        "fit_pre_update_loss": 1.307839714802586,
+        "update": 136,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8697026447707981,
+          "response_nll": 1.5979703509286483,
+          "source_count": 16,
+          "terminal_ce": 0.48640947818010283
+        },
+        "validation_post_update_loss": 2.9540824738795495
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09246145731515384,
+          "response_nll": 1.1548470178916828,
+          "source_count": 64,
+          "terminal_ce": 0.054032354924496734
+        },
+        "fit_pre_update_loss": 1.3013408301313334,
+        "update": 137,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8737841814486402,
+          "response_nll": 1.5973440173256643,
+          "source_count": 16,
+          "terminal_ce": 0.4853699978109979
+        },
+        "validation_post_update_loss": 2.9564981965853026
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09560528339809107,
+          "response_nll": 1.1511687711991598,
+          "source_count": 64,
+          "terminal_ce": 0.05352798952275796
+        },
+        "fit_pre_update_loss": 1.300302044120009,
+        "update": 138,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8784970906112236,
+          "response_nll": 1.5968400864358638,
+          "source_count": 16,
+          "terminal_ce": 0.4846791852675748
+        },
+        "validation_post_update_loss": 2.9600163623146623
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09177569518590893,
+          "response_nll": 1.1476427242515277,
+          "source_count": 64,
+          "terminal_ce": 0.053043576970459666
+        },
+        "fit_pre_update_loss": 1.2924619964078963,
+        "update": 139,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8784436645197798,
+          "response_nll": 1.596345776134168,
+          "source_count": 16,
+          "terminal_ce": 0.4840331474645737
+        },
+        "validation_post_update_loss": 2.9588225881185215
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09276025751783169,
+          "response_nll": 1.144087310251294,
+          "source_count": 64,
+          "terminal_ce": 0.05256645042370293
+        },
+        "fit_pre_update_loss": 1.2894140181928286,
+        "update": 140,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.882387866890028,
+          "response_nll": 1.5957866147858704,
+          "source_count": 16,
+          "terminal_ce": 0.4833015968166254
+        },
+        "validation_post_update_loss": 2.961476078492524
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09282790138920571,
+          "response_nll": 1.1404720198624496,
+          "source_count": 64,
+          "terminal_ce": 0.05209042063510335
+        },
+        "fit_pre_update_loss": 1.2853903418867587,
+        "update": 141,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8864798746209107,
+          "response_nll": 1.5951632187341123,
+          "source_count": 16,
+          "terminal_ce": 0.48242890364919205
+        },
+        "validation_post_update_loss": 2.9640719970042153
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09081893190368756,
+          "response_nll": 1.1368075690924984,
+          "source_count": 64,
+          "terminal_ce": 0.05161410898444655
+        },
+        "fit_pre_update_loss": 1.2792406099806326,
+        "update": 142,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8884294961089632,
+          "response_nll": 1.5945554013771808,
+          "source_count": 16,
+          "terminal_ce": 0.48158791123825134
+        },
+        "validation_post_update_loss": 2.9645728087243954
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09153669764835756,
+          "response_nll": 1.1331033006979947,
+          "source_count": 64,
+          "terminal_ce": 0.05114568821291705
+        },
+        "fit_pre_update_loss": 1.2757856865592694,
+        "update": 143,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8925756828201179,
+          "response_nll": 1.5939957597235594,
+          "source_count": 16,
+          "terminal_ce": 0.48089216214204455
+        },
+        "validation_post_update_loss": 2.9674636046857215
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09189844751760935,
+          "response_nll": 1.1294063976428323,
+          "source_count": 64,
+          "terminal_ce": 0.05068867012398956
+        },
+        "fit_pre_update_loss": 1.2719935152844313,
+        "update": 144,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8943578914707757,
+          "response_nll": 1.593479638726299,
+          "source_count": 16,
+          "terminal_ce": 0.48026644838987936
+        },
+        "validation_post_update_loss": 2.9681039785869543
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0909278596586874,
+          "response_nll": 1.1257676261712883,
+          "source_count": 64,
+          "terminal_ce": 0.05023884664410703
+        },
+        "fit_pre_update_loss": 1.2669343324740827,
+        "update": 145,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8953320313611698,
+          "response_nll": 1.5929792744567424,
+          "source_count": 16,
+          "terminal_ce": 0.47965536855829155
+        },
+        "validation_post_update_loss": 2.967966674376204
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09013413179021607,
+          "response_nll": 1.1221310464674283,
+          "source_count": 64,
+          "terminal_ce": 0.04979594803950947
+        },
+        "fit_pre_update_loss": 1.2620611262971537,
+        "update": 146,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8978029565608985,
+          "response_nll": 1.5924829074271087,
+          "source_count": 16,
+          "terminal_ce": 0.47903634442232945
+        },
+        "validation_post_update_loss": 2.9693222084103366
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09045457730983386,
+          "response_nll": 1.1184480080715742,
+          "source_count": 64,
+          "terminal_ce": 0.04936084636012105
+        },
+        "fit_pre_update_loss": 1.258263431741529,
+        "update": 147,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.8988400053945034,
+          "response_nll": 1.5919706724842655,
+          "source_count": 16,
+          "terminal_ce": 0.4782580159929756
+        },
+        "validation_post_update_loss": 2.9690686938717445
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.09048710696732756,
+          "response_nll": 1.1147205120448545,
+          "source_count": 64,
+          "terminal_ce": 0.0489285230447691
+        },
+        "fit_pre_update_loss": 1.2541361420569512,
+        "update": 148,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9013855615213962,
+          "response_nll": 1.5914489587708902,
+          "source_count": 16,
+          "terminal_ce": 0.4773455141137203
+        },
+        "validation_post_update_loss": 2.970180034406007
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08954329229659364,
+          "response_nll": 1.1109434487583656,
+          "source_count": 64,
+          "terminal_ce": 0.04850052455988169
+        },
+        "fit_pre_update_loss": 1.2489872656148409,
+        "update": 149,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9042136702747224,
+          "response_nll": 1.590937251549432,
+          "source_count": 16,
+          "terminal_ce": 0.47635945527081175
+        },
+        "validation_post_update_loss": 2.9715103770949662
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08967250341311185,
+          "response_nll": 1.107126489519469,
+          "source_count": 64,
+          "terminal_ce": 0.048076028119481
+        },
+        "fit_pre_update_loss": 1.2448750210520618,
+        "update": 150,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9056557872670074,
+          "response_nll": 1.5904417585591795,
+          "source_count": 16,
+          "terminal_ce": 0.4752876809150092
+        },
+        "validation_post_update_loss": 2.971385226741196
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0898055354400154,
+          "response_nll": 1.1032998097411413,
+          "source_count": 64,
+          "terminal_ce": 0.047650237163349
+        },
+        "fit_pre_update_loss": 1.2407555823445056,
+        "update": 151,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9077420211235734,
+          "response_nll": 1.5899866545819048,
+          "source_count": 16,
+          "terminal_ce": 0.47417794508934524
+        },
+        "validation_post_update_loss": 2.9719066207948233
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0896356814301224,
+          "response_nll": 1.0994701914571463,
+          "source_count": 64,
+          "terminal_ce": 0.04722009886041779
+        },
+        "fit_pre_update_loss": 1.2363259717476867,
+        "update": 152,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9088972423557176,
+          "response_nll": 1.5895867936015537,
+          "source_count": 16,
+          "terminal_ce": 0.4729949388400817
+        },
+        "validation_post_update_loss": 2.9714789747973533
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08923538715479773,
+          "response_nll": 1.0956442842127283,
+          "source_count": 64,
+          "terminal_ce": 0.046773488058097654
+        },
+        "fit_pre_update_loss": 1.2316531594256237,
+        "update": 153,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.909804871500846,
+          "response_nll": 1.5892475898067786,
+          "source_count": 16,
+          "terminal_ce": 0.47172794491466086
+        },
+        "validation_post_update_loss": 2.9707804062222856
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08880615889346104,
+          "response_nll": 1.0917926799649225,
+          "source_count": 64,
+          "terminal_ce": 0.046292353082376836
+        },
+        "fit_pre_update_loss": 1.2268911919407604,
+        "update": 154,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9111384176515828,
+          "response_nll": 1.5889784616183726,
+          "source_count": 16,
+          "terminal_ce": 0.47038851718080754
+        },
+        "validation_post_update_loss": 2.970505396450763
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08870540376981759,
+          "response_nll": 1.0878954942745276,
+          "source_count": 64,
+          "terminal_ce": 0.0457453835887953
+        },
+        "fit_pre_update_loss": 1.2223462816331405,
+        "update": 155,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.912008114318712,
+          "response_nll": 1.5887796052525784,
+          "source_count": 16,
+          "terminal_ce": 0.4689580929446614
+        },
+        "validation_post_update_loss": 2.969745812515952
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08874778023944765,
+          "response_nll": 1.0839516658460073,
+          "source_count": 64,
+          "terminal_ce": 0.04510079339583482
+        },
+        "fit_pre_update_loss": 1.2178002394812897,
+        "update": 156,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9135808113807244,
+          "response_nll": 1.5886365429412967,
+          "source_count": 16,
+          "terminal_ce": 0.46755145901414197
+        },
+        "validation_post_update_loss": 2.969768813336163
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08830793772874966,
+          "response_nll": 1.0799523420830226,
+          "source_count": 64,
+          "terminal_ce": 0.0444273662024265
+        },
+        "fit_pre_update_loss": 1.2126876460141989,
+        "update": 157,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9153330989389356,
+          "response_nll": 1.5885142123029006,
+          "source_count": 16,
+          "terminal_ce": 0.46633438752662754
+        },
+        "validation_post_update_loss": 2.9701816987684637
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08811727138851691,
+          "response_nll": 1.0759530538926274,
+          "source_count": 64,
+          "terminal_ce": 0.043876595225265075
+        },
+        "fit_pre_update_loss": 1.2079469205064095,
+        "update": 158,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9169023862894461,
+          "response_nll": 1.5883725185665665,
+          "source_count": 16,
+          "terminal_ce": 0.4653645317783922
+        },
+        "validation_post_update_loss": 2.970639436634405
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08812982048238559,
+          "response_nll": 1.0719894528801899,
+          "source_count": 64,
+          "terminal_ce": 0.04345745888851754
+        },
+        "fit_pre_update_loss": 1.2035767322510929,
+        "update": 159,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9184064831186698,
+          "response_nll": 1.5881841663589675,
+          "source_count": 16,
+          "terminal_ce": 0.4645935757063343
+        },
+        "validation_post_update_loss": 2.971184225183972
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08805247697890588,
+          "response_nll": 1.0680447207340247,
+          "source_count": 64,
+          "terminal_ce": 0.04310223661464215
+        },
+        "fit_pre_update_loss": 1.1991994343275727,
+        "update": 160,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9195561248732272,
+          "response_nll": 1.5879373781411603,
+          "source_count": 16,
+          "terminal_ce": 0.4639262722064201
+        },
+        "validation_post_update_loss": 2.9714197752208076
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08778436911923246,
+          "response_nll": 1.064114113604348,
+          "source_count": 64,
+          "terminal_ce": 0.04277019542267786
+        },
+        "fit_pre_update_loss": 1.194668678146258,
+        "update": 161,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9206583331535905,
+          "response_nll": 1.5876402865388777,
+          "source_count": 16,
+          "terminal_ce": 0.4633396331211449
+        },
+        "validation_post_update_loss": 2.971638252813613
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08747610654858295,
+          "response_nll": 1.0601807641159036,
+          "source_count": 64,
+          "terminal_ce": 0.04244854174609974
+        },
+        "fit_pre_update_loss": 1.1901054124105863,
+        "update": 162,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9219185267891333,
+          "response_nll": 1.5873033556436464,
+          "source_count": 16,
+          "terminal_ce": 0.4628038897788355
+        },
+        "validation_post_update_loss": 2.9720257722116155
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08734944477403735,
+          "response_nll": 1.0562417429996693,
+          "source_count": 64,
+          "terminal_ce": 0.0421318498716787
+        },
+        "fit_pre_update_loss": 1.1857230376453853,
+        "update": 163,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9236708352979061,
+          "response_nll": 1.5869173272765924,
+          "source_count": 16,
+          "terminal_ce": 0.4622626883805032
+        },
+        "validation_post_update_loss": 2.972850850955002
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08732232941262447,
+          "response_nll": 1.0522803906825902,
+          "source_count": 64,
+          "terminal_ce": 0.04181777773615514
+        },
+        "fit_pre_update_loss": 1.1814204978313698,
+        "update": 164,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9259417360762056,
+          "response_nll": 1.5864725167181637,
+          "source_count": 16,
+          "terminal_ce": 0.46169455353629785
+        },
+        "validation_post_update_loss": 2.9741088063306673
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08706679833612121,
+          "response_nll": 1.048282424201383,
+          "source_count": 64,
+          "terminal_ce": 0.041506596837833476
+        },
+        "fit_pre_update_loss": 1.1768558193753378,
+        "update": 165,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9286432063202079,
+          "response_nll": 1.585984099212223,
+          "source_count": 16,
+          "terminal_ce": 0.4611304438777497
+        },
+        "validation_post_update_loss": 2.975757749410181
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08690261307642072,
+          "response_nll": 1.0442725274453608,
+          "source_count": 64,
+          "terminal_ce": 0.0411975725825543
+        },
+        "fit_pre_update_loss": 1.172372713104336,
+        "update": 166,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9316283337328732,
+          "response_nll": 1.5854732498604094,
+          "source_count": 16,
+          "terminal_ce": 0.4606448753626148
+        },
+        "validation_post_update_loss": 2.9777464589558975
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08684335210167149,
+          "response_nll": 1.040250873595865,
+          "source_count": 64,
+          "terminal_ce": 0.040892949259567074
+        },
+        "fit_pre_update_loss": 1.1679871749571036,
+        "update": 167,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9351010257835023,
+          "response_nll": 1.5849502480876374,
+          "source_count": 16,
+          "terminal_ce": 0.46025358833190577
+        },
+        "validation_post_update_loss": 2.9803048622030457
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08668945806604511,
+          "response_nll": 1.0362222907195437,
+          "source_count": 64,
+          "terminal_ce": 0.0405925424038186
+        },
+        "fit_pre_update_loss": 1.1635042911894076,
+        "update": 168,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9390473890190917,
+          "response_nll": 1.584417039536057,
+          "source_count": 16,
+          "terminal_ce": 0.45996901626842396
+        },
+        "validation_post_update_loss": 2.9834334448235724
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08646099513347939,
+          "response_nll": 1.0321840475700628,
+          "source_count": 64,
+          "terminal_ce": 0.04029730934327538
+        },
+        "fit_pre_update_loss": 1.1589423520468176,
+        "update": 169,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9435033865329263,
+          "response_nll": 1.5838658125093765,
+          "source_count": 16,
+          "terminal_ce": 0.45977385927160574
+        },
+        "validation_post_update_loss": 2.9871430583139085
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08631607982366384,
+          "response_nll": 1.0281315117147158,
+          "source_count": 64,
+          "terminal_ce": 0.040007294330644684
+        },
+        "fit_pre_update_loss": 1.1544548858690242,
+        "update": 170,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.948774582875217,
+          "response_nll": 1.5832830642544196,
+          "source_count": 16,
+          "terminal_ce": 0.4596197431768901
+        },
+        "validation_post_update_loss": 2.991677390306527
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08624792468702698,
+          "response_nll": 1.0240513669435947,
+          "source_count": 64,
+          "terminal_ce": 0.03972141982297561
+        },
+        "fit_pre_update_loss": 1.1500207114535972,
+        "update": 171,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.954987125139427,
+          "response_nll": 1.5826676720082293,
+          "source_count": 16,
+          "terminal_ce": 0.45949798694239746
+        },
+        "validation_post_update_loss": 2.9971527840900536
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08606196210618215,
+          "response_nll": 1.0199337089999825,
+          "source_count": 64,
+          "terminal_ce": 0.03943923151682427
+        },
+        "fit_pre_update_loss": 1.145434902622989,
+        "update": 172,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.96220695811085,
+          "response_nll": 1.5820353875901016,
+          "source_count": 16,
+          "terminal_ce": 0.4594349833531116
+        },
+        "validation_post_update_loss": 3.0036773290540633
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08593254249681793,
+          "response_nll": 1.0157994734668743,
+          "source_count": 64,
+          "terminal_ce": 0.03915889097794574
+        },
+        "fit_pre_update_loss": 1.140890906941638,
+        "update": 173,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9696315816856802,
+          "response_nll": 1.581402926494202,
+          "source_count": 16,
+          "terminal_ce": 0.4594688118308473
+        },
+        "validation_post_update_loss": 3.0105033200107294
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08586658087593796,
+          "response_nll": 1.0116531464351617,
+          "source_count": 64,
+          "terminal_ce": 0.038881211570367336
+        },
+        "fit_pre_update_loss": 1.136400938881467,
+        "update": 174,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9769108076603557,
+          "response_nll": 1.5807795372019122,
+          "source_count": 16,
+          "terminal_ce": 0.4595484485819057
+        },
+        "validation_post_update_loss": 3.0172387934441733
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08570844411922149,
+          "response_nll": 1.0075220233845554,
+          "source_count": 64,
+          "terminal_ce": 0.03860704729013842
+        },
+        "fit_pre_update_loss": 1.1318375147939153,
+        "update": 175,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9832106813040788,
+          "response_nll": 1.5801776146534685,
+          "source_count": 16,
+          "terminal_ce": 0.4596245809816611
+        },
+        "validation_post_update_loss": 3.023012876939209
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08555378009155826,
+          "response_nll": 1.003399786779334,
+          "source_count": 64,
+          "terminal_ce": 0.03834114001861994
+        },
+        "fit_pre_update_loss": 1.1272947068895123,
+        "update": 176,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9888590655604652,
+          "response_nll": 1.5795959044528063,
+          "source_count": 16,
+          "terminal_ce": 0.45958755380085314
+        },
+        "validation_post_update_loss": 3.0280425238141246
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08547906266498242,
+          "response_nll": 0.9992775572314484,
+          "source_count": 64,
+          "terminal_ce": 0.038081895320493046
+        },
+        "fit_pre_update_loss": 1.1228385152169238,
+        "update": 177,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9934111170341932,
+          "response_nll": 1.5790300615799389,
+          "source_count": 16,
+          "terminal_ce": 0.4594089597958973
+        },
+        "validation_post_update_loss": 3.031850138410029
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08539460259336767,
+          "response_nll": 0.9951203000625731,
+          "source_count": 64,
+          "terminal_ce": 0.03782784051831257
+        },
+        "fit_pre_update_loss": 1.1183427431742534,
+        "update": 178,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9973770855551556,
+          "response_nll": 1.5784765930116276,
+          "source_count": 16,
+          "terminal_ce": 0.45907063441748386
+        },
+        "validation_post_update_loss": 3.034924312984267
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08530851528105121,
+          "response_nll": 0.9909540881591345,
+          "source_count": 64,
+          "terminal_ce": 0.03757491966733014
+        },
+        "fit_pre_update_loss": 1.1138375231075157,
+        "update": 179,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9998686073080268,
+          "response_nll": 1.5779534311709849,
+          "source_count": 16,
+          "terminal_ce": 0.45868485513557866
+        },
+        "validation_post_update_loss": 3.03650689361459
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.0853853804168576,
+          "response_nll": 0.9867663534956334,
+          "source_count": 64,
+          "terminal_ce": 0.037324563723707134
+        },
+        "fit_pre_update_loss": 1.109476297636198,
+        "update": 180,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0020558737054683,
+          "response_nll": 1.5774608301291295,
+          "source_count": 16,
+          "terminal_ce": 0.45821985531842857
+        },
+        "validation_post_update_loss": 3.0377365591530263
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08532446717081234,
+          "response_nll": 0.9825900546548813,
+          "source_count": 64,
+          "terminal_ce": 0.03707435504699047
+        },
+        "fit_pre_update_loss": 1.104988876872684,
+        "update": 181,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0028494330878748,
+          "response_nll": 1.5770038110359799,
+          "source_count": 16,
+          "terminal_ce": 0.45777590674897994
+        },
+        "validation_post_update_loss": 3.0376291508728346
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08543496815743287,
+          "response_nll": 0.9783935068501792,
+          "source_count": 64,
+          "terminal_ce": 0.03682712386071223
+        },
+        "fit_pre_update_loss": 1.1006555988683244,
+        "update": 182,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.003882012788012,
+          "response_nll": 1.5765588183419663,
+          "source_count": 16,
+          "terminal_ce": 0.4572107187291359
+        },
+        "validation_post_update_loss": 3.037651549859114
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08518591603917398,
+          "response_nll": 0.974219470360388,
+          "source_count": 64,
+          "terminal_ce": 0.03658056719243511
+        },
+        "fit_pre_update_loss": 1.0959859535919971,
+        "update": 183,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0037596106743232,
+          "response_nll": 1.5761242434316476,
+          "source_count": 16,
+          "terminal_ce": 0.4566371926526077
+        },
+        "validation_post_update_loss": 3.0365210467585784
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08494425890559307,
+          "response_nll": 0.9700107948167099,
+          "source_count": 64,
+          "terminal_ce": 0.03633850882192254
+        },
+        "fit_pre_update_loss": 1.0912935625442255,
+        "update": 184,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0038811822457125,
+          "response_nll": 1.5756994704278913,
+          "source_count": 16,
+          "terminal_ce": 0.45595364466428756
+        },
+        "validation_post_update_loss": 3.0355342973378914
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08446887274723189,
+          "response_nll": 0.9658094286617263,
+          "source_count": 64,
+          "terminal_ce": 0.03610145756194315
+        },
+        "fit_pre_update_loss": 1.0863797589709012,
+        "update": 185,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.003322770628801,
+          "response_nll": 1.575298005263216,
+          "source_count": 16,
+          "terminal_ce": 0.4553093727424371
+        },
+        "validation_post_update_loss": 3.0339301486344543
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08427689461098574,
+          "response_nll": 0.9615866739369086,
+          "source_count": 64,
+          "terminal_ce": 0.0358737450917671
+        },
+        "fit_pre_update_loss": 1.0817373136396613,
+        "update": 186,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0023707826052164,
+          "response_nll": 1.5749141937220938,
+          "source_count": 16,
+          "terminal_ce": 0.45470130135860465
+        },
+        "validation_post_update_loss": 3.031986277685915
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08431211071323616,
+          "response_nll": 0.9573502404059374,
+          "source_count": 64,
+          "terminal_ce": 0.03565741121187418
+        },
+        "fit_pre_update_loss": 1.0773197623310478,
+        "update": 187,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0015819996261048,
+          "response_nll": 1.574531690438268,
+          "source_count": 16,
+          "terminal_ce": 0.4540738519642304
+        },
+        "validation_post_update_loss": 3.030187542028603
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08432269920250207,
+          "response_nll": 0.9531206167363591,
+          "source_count": 64,
+          "terminal_ce": 0.03545281680541006
+        },
+        "fit_pre_update_loss": 1.0728961327442712,
+        "update": 188,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 1.0001280278212985,
+          "response_nll": 1.574136160444641,
+          "source_count": 16,
+          "terminal_ce": 0.4535471773533997
+        },
+        "validation_post_update_loss": 3.027811365619339
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08427601666046772,
+          "response_nll": 0.9488683749371348,
+          "source_count": 64,
+          "terminal_ce": 0.03525897228366908
+        },
+        "fit_pre_update_loss": 1.0684033638812716,
+        "update": 189,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9991587366231593,
+          "response_nll": 1.5737232858495205,
+          "source_count": 16,
+          "terminal_ce": 0.4529846505945858
+        },
+        "validation_post_update_loss": 3.0258666730672656
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08392158750634088,
+          "response_nll": 0.9446189536756376,
+          "source_count": 64,
+          "terminal_ce": 0.03507270410873183
+        },
+        "fit_pre_update_loss": 1.0636132452907103,
+        "update": 190,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9976137969464501,
+          "response_nll": 1.5733012556766248,
+          "source_count": 16,
+          "terminal_ce": 0.4525721899008897
+        },
+        "validation_post_update_loss": 3.0234872425239647
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08370277701768153,
+          "response_nll": 0.9403464838896197,
+          "source_count": 64,
+          "terminal_ce": 0.034890359839426094
+        },
+        "fit_pre_update_loss": 1.0589396207467274,
+        "update": 191,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9958733517784611,
+          "response_nll": 1.572873274365701,
+          "source_count": 16,
+          "terminal_ce": 0.4522562381759272
+        },
+        "validation_post_update_loss": 3.0210028643200895
+      },
+      {
+        "fit_components": {
+          "actual_response_terms": 256,
+          "outcome_bce": 0.08361863078858277,
+          "response_nll": 0.9360675333236023,
+          "source_count": 64,
+          "terminal_ce": 0.03470744913111498
+        },
+        "fit_pre_update_loss": 1.0543936132433,
+        "update": 192,
+        "validation_components": {
+          "actual_response_terms": 64,
+          "outcome_bce": 0.9941348876252571,
+          "response_nll": 1.5724383248548028,
+          "source_count": 16,
+          "terminal_ce": 0.45198735319088934
+        },
+        "validation_post_update_loss": 3.0185605656709495
+      }
+    ],
+    "updates": 192,
+    "validation_selection": false,
+    "whole_source_batch": 64
+  },
+  "run/fit-joint/PREPROCESSING.json": {
+    "fit_ids": [
+      "1015",
+      "1020",
+      "1047",
+      "1062",
+      "107",
+      "1087",
+      "1110",
+      "1134",
+      "1156",
+      "116",
+      "1163",
+      "1174",
+      "1204",
+      "1207",
+      "1274",
+      "1322",
+      "1324",
+      "1329",
+      "1342",
+      "1362",
+      "1401",
+      "1405",
+      "1411",
+      "144",
+      "1467",
+      "1517",
+      "1541",
+      "180",
+      "211",
+      "214",
+      "253",
+      "256",
+      "294",
+      "337",
+      "38",
+      "400",
+      "461",
+      "490",
+      "498",
+      "499",
+      "505",
+      "524",
+      "528",
+      "545",
+      "547",
+      "562",
+      "590",
+      "616",
+      "646",
+      "666",
+      "670",
+      "695",
+      "71",
+      "731",
+      "739",
+      "768",
+      "780",
+      "785",
+      "854",
+      "862",
+      "871",
+      "876",
+      "966",
+      "998"
+    ],
+    "provenance": "fit64 only; no validation/final fitting",
+    "statistics_sha256": {
+      "amean": "ab844112de24ad1000c7673c28d3987bf4e3d637547f54567a29b4197cf7cc92",
+      "astd": "c759a933cc4c5503d6b6f7b8aa9e5acc7e6736903107344ab3e4cf4899e3834b",
+      "rmean": "fd25ac6b10f8a40f4a67996f1b20a1d039ba7dddc3b0c847109947c3fb047c35",
+      "rstd": "6acfd262583fc62f2c197c1581e6dad4468545506e26f7bd96ddcacb0070b3ac",
+      "xmean": "3c821fbfe97d7cd72fabdfdda2838027a9d5450e05c52d04ec92d7a2a48fecc6",
+      "xstd": "4b73559aca1319baf0cfe06a639360f3f4dae627822699bdb65bd1706b14656d"
+    }
+  },
+  "run/fit-joint/SEAL.json": {
+    "files": {
+      "FIT.json": {
+        "bytes": 84851,
+        "sha256": "eaa14bc5871d0a4b1af9a8bfc360f0c36247fcfd0e7c713e9a146b991cbdd9bd"
+      },
+      "PREPROCESSING.json": {
+        "bytes": 944,
+        "sha256": "44f591ac7fe450fbe4c2c79431d1831b63706196c7ea056316d1aec17fb2d514"
+      },
+      "TECHNICAL.json": {
+        "bytes": 689,
+        "sha256": "cc2dcb400d8c77714cad95e3e89f31aa538f60fdb86f13c8be243a63cf4175d5"
+      },
+      "fit-dataset.npz": {
+        "bytes": 4190100,
+        "sha256": "36fbd7e41119b44fca00d6be7891969f90cc84a783b94171f2751fe760e96acf"
+      },
+      "joint.npz": {
+        "bytes": 754808,
+        "sha256": "bdfce685908c7696abfaa6cad84f68c15027aabc44662160a71818b18ea38cfb"
+      },
+      "validation-dataset.npz": {
+        "bytes": 1050772,
+        "sha256": "a89371b86cadd2db4afa271d2b6d43f4c2e7b67426b2b6913645006588a2a363"
+      }
+    },
+    "identity": {
+      "batch_sources": 64,
+      "byte_cap": 100000000,
+      "cpus": 4,
+      "gpu": 0,
+      "init_seed": 94011,
+      "key": "fit-joint",
+      "ram_gib": 8,
+      "seconds": 7200,
+      "sources": 64,
+      "stage": "fitting",
+      "updates": 192
+    }
+  },
+  "run/fit-joint/TECHNICAL.json": {
+    "approval": "e1e4b6f6d0e0d1fbb83e89d165be793128f02130647e21a1c12c5892d7d90460",
+    "attempt": 1,
+    "fit_count": 64,
+    "hard_seconds": 7200,
+    "package": "c2c6fcbe8c41fed22d0fde17bcb5f8cd456a74c1cb0d77039f4df94d86e0d468",
+    "passed": true,
+    "peak_process_rss_bytes": 105345024,
+    "process_cpu_seconds": 24.418090894,
+    "rss_scope": "Linux worker process high-water RSS; not total node RAM",
+    "selection": false,
+    "spec": {
+      "batch_sources": 64,
+      "byte_cap": 100000000,
+      "cpus": 4,
+      "gpu": 0,
+      "init_seed": 94011,
+      "key": "fit-joint",
+      "ram_gib": 8,
+      "seconds": 7200,
+      "sources": 64,
+      "stage": "fitting",
+      "updates": 192
+    },
+    "supervisor_seconds": 7190,
+    "updates": 192,
+    "validation_count": 16,
+    "work_seconds": 7140,
+    "worker_wall_seconds_through_payload": 13.573981003835797
+  },
+  "run/fit-ordinary/FIT.json": {
+    "bayesian_label": "Bayesian last-layer approximation",
+    "bayesian_seconds": 0.013644357037264854,
+    "checkpoint_selection": "final update only",
+    "final_fit_loss": 0.065843366226162,
+    "final_validation_loss": 3.1240088672131523,
+    "parameters": 106177,
+    "seconds": 3.9095644379849546,
+    "seed": 94012,
+    "trace": [
+      {
+        "fit_components": {
+          "outcome_bce": 0.7776484722500197
+        },
+        "fit_pre_update_loss": 0.7776484722500197,
+        "update": 1,
+        "validation_components": {
+          "outcome_bce": 0.8972985613003968
+        },
+        "validation_post_update_loss": 0.8972985613003968
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.5208497241854195
+        },
+        "fit_pre_update_loss": 0.5208497241854195,
+        "update": 2,
+        "validation_components": {
+          "outcome_bce": 0.9229817329312247
+        },
+        "validation_post_update_loss": 0.9229817329312247
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.3863185573066289
+        },
+        "fit_pre_update_loss": 0.3863185573066289,
+        "update": 3,
+        "validation_components": {
+          "outcome_bce": 0.9365879047560229
+        },
+        "validation_post_update_loss": 0.9365879047560229
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.3060842395562297
+        },
+        "fit_pre_update_loss": 0.3060842395562297,
+        "update": 4,
+        "validation_components": {
+          "outcome_bce": 0.9475471126436376
+        },
+        "validation_post_update_loss": 0.9475471126436376
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.2553993215190928
+        },
+        "fit_pre_update_loss": 0.2553993215190928,
+        "update": 5,
+        "validation_components": {
+          "outcome_bce": 0.9626165748565857
+        },
+        "validation_post_update_loss": 0.9626165748565857
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.22175959963122477
+        },
+        "fit_pre_update_loss": 0.22175959963122477,
+        "update": 6,
+        "validation_components": {
+          "outcome_bce": 0.9842376935687193
+        },
+        "validation_post_update_loss": 0.9842376935687193
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1985705711861607
+        },
+        "fit_pre_update_loss": 0.1985705711861607,
+        "update": 7,
+        "validation_components": {
+          "outcome_bce": 1.0118774193001205
+        },
+        "validation_post_update_loss": 1.0118774193001205
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.18192977651626444
+        },
+        "fit_pre_update_loss": 0.18192977651626444,
+        "update": 8,
+        "validation_components": {
+          "outcome_bce": 1.04353249556429
+        },
+        "validation_post_update_loss": 1.04353249556429
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1695639868638213
+        },
+        "fit_pre_update_loss": 0.1695639868638213,
+        "update": 9,
+        "validation_components": {
+          "outcome_bce": 1.0766586449397288
+        },
+        "validation_post_update_loss": 1.0766586449397288
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1600445099452771
+        },
+        "fit_pre_update_loss": 0.1600445099452771,
+        "update": 10,
+        "validation_components": {
+          "outcome_bce": 1.1088161310009597
+        },
+        "validation_post_update_loss": 1.1088161310009597
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1524635803434233
+        },
+        "fit_pre_update_loss": 0.1524635803434233,
+        "update": 11,
+        "validation_components": {
+          "outcome_bce": 1.138150229320197
+        },
+        "validation_post_update_loss": 1.138150229320197
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1462586867968297
+        },
+        "fit_pre_update_loss": 0.1462586867968297,
+        "update": 12,
+        "validation_components": {
+          "outcome_bce": 1.163769221297017
+        },
+        "validation_post_update_loss": 1.163769221297017
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1410585124445488
+        },
+        "fit_pre_update_loss": 0.1410585124445488,
+        "update": 13,
+        "validation_components": {
+          "outcome_bce": 1.1858610364010476
+        },
+        "validation_post_update_loss": 1.1858610364010476
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.13664984933235358
+        },
+        "fit_pre_update_loss": 0.13664984933235358,
+        "update": 14,
+        "validation_components": {
+          "outcome_bce": 1.2053841921805126
+        },
+        "validation_post_update_loss": 1.2053841921805126
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1329396799576242
+        },
+        "fit_pre_update_loss": 0.1329396799576242,
+        "update": 15,
+        "validation_components": {
+          "outcome_bce": 1.2235422084247907
+        },
+        "validation_post_update_loss": 1.2235422084247907
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1298468899858192
+        },
+        "fit_pre_update_loss": 0.1298468899858192,
+        "update": 16,
+        "validation_components": {
+          "outcome_bce": 1.241383400838121
+        },
+        "validation_post_update_loss": 1.241383400838121
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1272370357037543
+        },
+        "fit_pre_update_loss": 0.1272370357037543,
+        "update": 17,
+        "validation_components": {
+          "outcome_bce": 1.2596788953538511
+        },
+        "validation_post_update_loss": 1.2596788953538511
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.12497351175703195
+        },
+        "fit_pre_update_loss": 0.12497351175703195,
+        "update": 18,
+        "validation_components": {
+          "outcome_bce": 1.2789340747194833
+        },
+        "validation_post_update_loss": 1.2789340747194833
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.12300141450671169
+        },
+        "fit_pre_update_loss": 0.12300141450671169,
+        "update": 19,
+        "validation_components": {
+          "outcome_bce": 1.2994008125732128
+        },
+        "validation_post_update_loss": 1.2994008125732128
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.12132162870745686
+        },
+        "fit_pre_update_loss": 0.12132162870745686,
+        "update": 20,
+        "validation_components": {
+          "outcome_bce": 1.3210802483354018
+        },
+        "validation_post_update_loss": 1.3210802483354018
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11989207502928534
+        },
+        "fit_pre_update_loss": 0.11989207502928534,
+        "update": 21,
+        "validation_components": {
+          "outcome_bce": 1.3436996748582863
+        },
+        "validation_post_update_loss": 1.3436996748582863
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1186045754550762
+        },
+        "fit_pre_update_loss": 0.1186045754550762,
+        "update": 22,
+        "validation_components": {
+          "outcome_bce": 1.3667097005985283
+        },
+        "validation_post_update_loss": 1.3667097005985283
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11738097351692617
+        },
+        "fit_pre_update_loss": 0.11738097351692617,
+        "update": 23,
+        "validation_components": {
+          "outcome_bce": 1.3893770728509685
+        },
+        "validation_post_update_loss": 1.3893770728509685
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11624907341903071
+        },
+        "fit_pre_update_loss": 0.11624907341903071,
+        "update": 24,
+        "validation_components": {
+          "outcome_bce": 1.4109926737610359
+        },
+        "validation_post_update_loss": 1.4109926737610359
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11524993746959157
+        },
+        "fit_pre_update_loss": 0.11524993746959157,
+        "update": 25,
+        "validation_components": {
+          "outcome_bce": 1.4311717475686483
+        },
+        "validation_post_update_loss": 1.4311717475686483
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11432053507676011
+        },
+        "fit_pre_update_loss": 0.11432053507676011,
+        "update": 26,
+        "validation_components": {
+          "outcome_bce": 1.4499726424042858
+        },
+        "validation_post_update_loss": 1.4499726424042858
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1133950004041571
+        },
+        "fit_pre_update_loss": 0.1133950004041571,
+        "update": 27,
+        "validation_components": {
+          "outcome_bce": 1.467715965892519
+        },
+        "validation_post_update_loss": 1.467715965892519
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11255273470351836
+        },
+        "fit_pre_update_loss": 0.11255273470351836,
+        "update": 28,
+        "validation_components": {
+          "outcome_bce": 1.4846661166527997
+        },
+        "validation_post_update_loss": 1.4846661166527997
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.111805838904465
+        },
+        "fit_pre_update_loss": 0.111805838904465,
+        "update": 29,
+        "validation_components": {
+          "outcome_bce": 1.500857173915638
+        },
+        "validation_post_update_loss": 1.500857173915638
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11103375427855008
+        },
+        "fit_pre_update_loss": 0.11103375427855008,
+        "update": 30,
+        "validation_components": {
+          "outcome_bce": 1.5162357271328837
+        },
+        "validation_post_update_loss": 1.5162357271328837
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.11030291779006951
+        },
+        "fit_pre_update_loss": 0.11030291779006951,
+        "update": 31,
+        "validation_components": {
+          "outcome_bce": 1.5309887006476064
+        },
+        "validation_post_update_loss": 1.5309887006476064
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10966282938737949
+        },
+        "fit_pre_update_loss": 0.10966282938737949,
+        "update": 32,
+        "validation_components": {
+          "outcome_bce": 1.5457482322316276
+        },
+        "validation_post_update_loss": 1.5457482322316276
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10895942529707406
+        },
+        "fit_pre_update_loss": 0.10895942529707406,
+        "update": 33,
+        "validation_components": {
+          "outcome_bce": 1.5612386188938667
+        },
+        "validation_post_update_loss": 1.5612386188938667
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10828172666730988
+        },
+        "fit_pre_update_loss": 0.10828172666730988,
+        "update": 34,
+        "validation_components": {
+          "outcome_bce": 1.5777146486938267
+        },
+        "validation_post_update_loss": 1.5777146486938267
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10768028308895927
+        },
+        "fit_pre_update_loss": 0.10768028308895927,
+        "update": 35,
+        "validation_components": {
+          "outcome_bce": 1.594766540325099
+        },
+        "validation_post_update_loss": 1.594766540325099
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10701487913824695
+        },
+        "fit_pre_update_loss": 0.10701487913824695,
+        "update": 36,
+        "validation_components": {
+          "outcome_bce": 1.6115602687363846
+        },
+        "validation_post_update_loss": 1.6115602687363846
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1064178661685792
+        },
+        "fit_pre_update_loss": 0.1064178661685792,
+        "update": 37,
+        "validation_components": {
+          "outcome_bce": 1.627180079517763
+        },
+        "validation_post_update_loss": 1.627180079517763
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1058466761382954
+        },
+        "fit_pre_update_loss": 0.1058466761382954,
+        "update": 38,
+        "validation_components": {
+          "outcome_bce": 1.6409638539552587
+        },
+        "validation_post_update_loss": 1.6409638539552587
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10525207925283571
+        },
+        "fit_pre_update_loss": 0.10525207925283571,
+        "update": 39,
+        "validation_components": {
+          "outcome_bce": 1.6529352881833541
+        },
+        "validation_post_update_loss": 1.6529352881833541
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10469191354186178
+        },
+        "fit_pre_update_loss": 0.10469191354186178,
+        "update": 40,
+        "validation_components": {
+          "outcome_bce": 1.6640512971781916
+        },
+        "validation_post_update_loss": 1.6640512971781916
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10409552268763295
+        },
+        "fit_pre_update_loss": 0.10409552268763295,
+        "update": 41,
+        "validation_components": {
+          "outcome_bce": 1.675529379109558
+        },
+        "validation_post_update_loss": 1.675529379109558
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10352410560304048
+        },
+        "fit_pre_update_loss": 0.10352410560304048,
+        "update": 42,
+        "validation_components": {
+          "outcome_bce": 1.687653941073479
+        },
+        "validation_post_update_loss": 1.687653941073479
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10292664497900628
+        },
+        "fit_pre_update_loss": 0.10292664497900628,
+        "update": 43,
+        "validation_components": {
+          "outcome_bce": 1.699731056879577
+        },
+        "validation_post_update_loss": 1.699731056879577
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10236798696240496
+        },
+        "fit_pre_update_loss": 0.10236798696240496,
+        "update": 44,
+        "validation_components": {
+          "outcome_bce": 1.7116686701292716
+        },
+        "validation_post_update_loss": 1.7116686701292716
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10178397293433296
+        },
+        "fit_pre_update_loss": 0.10178397293433296,
+        "update": 45,
+        "validation_components": {
+          "outcome_bce": 1.7245335354730977
+        },
+        "validation_post_update_loss": 1.7245335354730977
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10122550251971729
+        },
+        "fit_pre_update_loss": 0.10122550251971729,
+        "update": 46,
+        "validation_components": {
+          "outcome_bce": 1.7384439075503528
+        },
+        "validation_post_update_loss": 1.7384439075503528
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.10064243659598551
+        },
+        "fit_pre_update_loss": 0.10064243659598551,
+        "update": 47,
+        "validation_components": {
+          "outcome_bce": 1.751547518281031
+        },
+        "validation_post_update_loss": 1.751547518281031
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.1000977678212278
+        },
+        "fit_pre_update_loss": 0.1000977678212278,
+        "update": 48,
+        "validation_components": {
+          "outcome_bce": 1.7629174461770851
+        },
+        "validation_post_update_loss": 1.7629174461770851
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09954420544682263
+        },
+        "fit_pre_update_loss": 0.09954420544682263,
+        "update": 49,
+        "validation_components": {
+          "outcome_bce": 1.774072959070566
+        },
+        "validation_post_update_loss": 1.774072959070566
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09901779901210855
+        },
+        "fit_pre_update_loss": 0.09901779901210855,
+        "update": 50,
+        "validation_components": {
+          "outcome_bce": 1.7854525105552348
+        },
+        "validation_post_update_loss": 1.7854525105552348
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09849285638695426
+        },
+        "fit_pre_update_loss": 0.09849285638695426,
+        "update": 51,
+        "validation_components": {
+          "outcome_bce": 1.795794038833968
+        },
+        "validation_post_update_loss": 1.795794038833968
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09796289042408175
+        },
+        "fit_pre_update_loss": 0.09796289042408175,
+        "update": 52,
+        "validation_components": {
+          "outcome_bce": 1.8062185415404697
+        },
+        "validation_post_update_loss": 1.8062185415404697
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09745945263531494
+        },
+        "fit_pre_update_loss": 0.09745945263531494,
+        "update": 53,
+        "validation_components": {
+          "outcome_bce": 1.8182858579706527
+        },
+        "validation_post_update_loss": 1.8182858579706527
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0969308788543515
+        },
+        "fit_pre_update_loss": 0.0969308788543515,
+        "update": 54,
+        "validation_components": {
+          "outcome_bce": 1.8302395766282709
+        },
+        "validation_post_update_loss": 1.8302395766282709
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0964179424654538
+        },
+        "fit_pre_update_loss": 0.0964179424654538,
+        "update": 55,
+        "validation_components": {
+          "outcome_bce": 1.8413383619934665
+        },
+        "validation_post_update_loss": 1.8413383619934665
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09591095179765652
+        },
+        "fit_pre_update_loss": 0.09591095179765652,
+        "update": 56,
+        "validation_components": {
+          "outcome_bce": 1.85292394947277
+        },
+        "validation_post_update_loss": 1.85292394947277
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09539479472505596
+        },
+        "fit_pre_update_loss": 0.09539479472505596,
+        "update": 57,
+        "validation_components": {
+          "outcome_bce": 1.86428546645589
+        },
+        "validation_post_update_loss": 1.86428546645589
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09487708611896048
+        },
+        "fit_pre_update_loss": 0.09487708611896048,
+        "update": 58,
+        "validation_components": {
+          "outcome_bce": 1.875409703209305
+        },
+        "validation_post_update_loss": 1.875409703209305
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09437313732820707
+        },
+        "fit_pre_update_loss": 0.09437313732820707,
+        "update": 59,
+        "validation_components": {
+          "outcome_bce": 1.8871186298249072
+        },
+        "validation_post_update_loss": 1.8871186298249072
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09387007374388465
+        },
+        "fit_pre_update_loss": 0.09387007374388465,
+        "update": 60,
+        "validation_components": {
+          "outcome_bce": 1.8980897933994365
+        },
+        "validation_post_update_loss": 1.8980897933994365
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09336562436542596
+        },
+        "fit_pre_update_loss": 0.09336562436542596,
+        "update": 61,
+        "validation_components": {
+          "outcome_bce": 1.9095538902089224
+        },
+        "validation_post_update_loss": 1.9095538902089224
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09288135372839665
+        },
+        "fit_pre_update_loss": 0.09288135372839665,
+        "update": 62,
+        "validation_components": {
+          "outcome_bce": 1.9220127022033318
+        },
+        "validation_post_update_loss": 1.9220127022033318
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0923915505520464
+        },
+        "fit_pre_update_loss": 0.0923915505520464,
+        "update": 63,
+        "validation_components": {
+          "outcome_bce": 1.9329605831638017
+        },
+        "validation_post_update_loss": 1.9329605831638017
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09190023572485738
+        },
+        "fit_pre_update_loss": 0.09190023572485738,
+        "update": 64,
+        "validation_components": {
+          "outcome_bce": 1.9442192286564017
+        },
+        "validation_post_update_loss": 1.9442192286564017
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09141673770380526
+        },
+        "fit_pre_update_loss": 0.09141673770380526,
+        "update": 65,
+        "validation_components": {
+          "outcome_bce": 1.9550847400881906
+        },
+        "validation_post_update_loss": 1.9550847400881906
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09094055083623809
+        },
+        "fit_pre_update_loss": 0.09094055083623809,
+        "update": 66,
+        "validation_components": {
+          "outcome_bce": 1.9656805452156154
+        },
+        "validation_post_update_loss": 1.9656805452156154
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.09046844425175796
+        },
+        "fit_pre_update_loss": 0.09046844425175796,
+        "update": 67,
+        "validation_components": {
+          "outcome_bce": 1.9781098243642252
+        },
+        "validation_post_update_loss": 1.9781098243642252
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08999659090203313
+        },
+        "fit_pre_update_loss": 0.08999659090203313,
+        "update": 68,
+        "validation_components": {
+          "outcome_bce": 1.9889399400306664
+        },
+        "validation_post_update_loss": 1.9889399400306664
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08952660271312457
+        },
+        "fit_pre_update_loss": 0.08952660271312457,
+        "update": 69,
+        "validation_components": {
+          "outcome_bce": 2.001831178800715
+        },
+        "validation_post_update_loss": 2.001831178800715
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08905918229485633
+        },
+        "fit_pre_update_loss": 0.08905918229485633,
+        "update": 70,
+        "validation_components": {
+          "outcome_bce": 2.012867013816323
+        },
+        "validation_post_update_loss": 2.012867013816323
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0885969266796729
+        },
+        "fit_pre_update_loss": 0.0885969266796729,
+        "update": 71,
+        "validation_components": {
+          "outcome_bce": 2.025199864038929
+        },
+        "validation_post_update_loss": 2.025199864038929
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08814114501732678
+        },
+        "fit_pre_update_loss": 0.08814114501732678,
+        "update": 72,
+        "validation_components": {
+          "outcome_bce": 2.0364565109617785
+        },
+        "validation_post_update_loss": 2.0364565109617785
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08769057044585671
+        },
+        "fit_pre_update_loss": 0.08769057044585671,
+        "update": 73,
+        "validation_components": {
+          "outcome_bce": 2.050502581169933
+        },
+        "validation_post_update_loss": 2.050502581169933
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08725464650472642
+        },
+        "fit_pre_update_loss": 0.08725464650472642,
+        "update": 74,
+        "validation_components": {
+          "outcome_bce": 2.0607110044542627
+        },
+        "validation_post_update_loss": 2.0607110044542627
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08685929362657052
+        },
+        "fit_pre_update_loss": 0.08685929362657052,
+        "update": 75,
+        "validation_components": {
+          "outcome_bce": 2.0766855969499534
+        },
+        "validation_post_update_loss": 2.0766855969499534
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0865851798153732
+        },
+        "fit_pre_update_loss": 0.0865851798153732,
+        "update": 76,
+        "validation_components": {
+          "outcome_bce": 2.0819494098548303
+        },
+        "validation_post_update_loss": 2.0819494098548303
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08665108722060191
+        },
+        "fit_pre_update_loss": 0.08665108722060191,
+        "update": 77,
+        "validation_components": {
+          "outcome_bce": 2.1061060453158413
+        },
+        "validation_post_update_loss": 2.1061060453158413
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08742586221832527
+        },
+        "fit_pre_update_loss": 0.08742586221832527,
+        "update": 78,
+        "validation_components": {
+          "outcome_bce": 2.105769346826948
+        },
+        "validation_post_update_loss": 2.105769346826948
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08772121812133496
+        },
+        "fit_pre_update_loss": 0.08772121812133496,
+        "update": 79,
+        "validation_components": {
+          "outcome_bce": 2.1302959350997828
+        },
+        "validation_post_update_loss": 2.1302959350997828
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08607801482984581
+        },
+        "fit_pre_update_loss": 0.08607801482984581,
+        "update": 80,
+        "validation_components": {
+          "outcome_bce": 2.1361469214476085
+        },
+        "validation_post_update_loss": 2.1361469214476085
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08435952980642208
+        },
+        "fit_pre_update_loss": 0.08435952980642208,
+        "update": 81,
+        "validation_components": {
+          "outcome_bce": 2.1415278664690494
+        },
+        "validation_post_update_loss": 2.1415278664690494
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08492287851273149
+        },
+        "fit_pre_update_loss": 0.08492287851273149,
+        "update": 82,
+        "validation_components": {
+          "outcome_bce": 2.1631510385573387
+        },
+        "validation_post_update_loss": 2.1631510385573387
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08536914814738038
+        },
+        "fit_pre_update_loss": 0.08536914814738038,
+        "update": 83,
+        "validation_components": {
+          "outcome_bce": 2.16529505681099
+        },
+        "validation_post_update_loss": 2.16529505681099
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08369119140641335
+        },
+        "fit_pre_update_loss": 0.08369119140641335,
+        "update": 84,
+        "validation_components": {
+          "outcome_bce": 2.177109708527746
+        },
+        "validation_post_update_loss": 2.177109708527746
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08309367801223537
+        },
+        "fit_pre_update_loss": 0.08309367801223537,
+        "update": 85,
+        "validation_components": {
+          "outcome_bce": 2.194322250673057
+        },
+        "validation_post_update_loss": 2.194322250673057
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08372654786028175
+        },
+        "fit_pre_update_loss": 0.08372654786028175,
+        "update": 86,
+        "validation_components": {
+          "outcome_bce": 2.195905866200171
+        },
+        "validation_post_update_loss": 2.195905866200171
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08288602408645593
+        },
+        "fit_pre_update_loss": 0.08288602408645593,
+        "update": 87,
+        "validation_components": {
+          "outcome_bce": 2.2134145432922763
+        },
+        "validation_post_update_loss": 2.2134145432922763
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08193321353031263
+        },
+        "fit_pre_update_loss": 0.08193321353031263,
+        "update": 88,
+        "validation_components": {
+          "outcome_bce": 2.2265248576720174
+        },
+        "validation_post_update_loss": 2.2265248576720174
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08211707129652983
+        },
+        "fit_pre_update_loss": 0.08211707129652983,
+        "update": 89,
+        "validation_components": {
+          "outcome_bce": 2.229097353973208
+        },
+        "validation_post_update_loss": 2.229097353973208
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08185487778836728
+        },
+        "fit_pre_update_loss": 0.08185487778836728,
+        "update": 90,
+        "validation_components": {
+          "outcome_bce": 2.24721700771192
+        },
+        "validation_post_update_loss": 2.24721700771192
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08109470908033235
+        },
+        "fit_pre_update_loss": 0.08109470908033235,
+        "update": 91,
+        "validation_components": {
+          "outcome_bce": 2.2561275616992793
+        },
+        "validation_post_update_loss": 2.2561275616992793
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08080008626888466
+        },
+        "fit_pre_update_loss": 0.08080008626888466,
+        "update": 92,
+        "validation_components": {
+          "outcome_bce": 2.2657330709220256
+        },
+        "validation_post_update_loss": 2.2657330709220256
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08071596792458287
+        },
+        "fit_pre_update_loss": 0.08071596792458287,
+        "update": 93,
+        "validation_components": {
+          "outcome_bce": 2.284023632149024
+        },
+        "validation_post_update_loss": 2.284023632149024
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08031392039052301
+        },
+        "fit_pre_update_loss": 0.08031392039052301,
+        "update": 94,
+        "validation_components": {
+          "outcome_bce": 2.289685888685934
+        },
+        "validation_post_update_loss": 2.289685888685934
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07973758663047377
+        },
+        "fit_pre_update_loss": 0.07973758663047377,
+        "update": 95,
+        "validation_components": {
+          "outcome_bce": 2.304592104368104
+        },
+        "validation_post_update_loss": 2.304592104368104
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07945161317410684
+        },
+        "fit_pre_update_loss": 0.07945161317410684,
+        "update": 96,
+        "validation_components": {
+          "outcome_bce": 2.320039619006586
+        },
+        "validation_post_update_loss": 2.320039619006586
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07938033555169077
+        },
+        "fit_pre_update_loss": 0.07938033555169077,
+        "update": 97,
+        "validation_components": {
+          "outcome_bce": 2.327836653485144
+        },
+        "validation_post_update_loss": 2.327836653485144
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0790349295292522
+        },
+        "fit_pre_update_loss": 0.0790349295292522,
+        "update": 98,
+        "validation_components": {
+          "outcome_bce": 2.343364803106936
+        },
+        "validation_post_update_loss": 2.343364803106936
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07838389380672778
+        },
+        "fit_pre_update_loss": 0.07838389380672778,
+        "update": 99,
+        "validation_components": {
+          "outcome_bce": 2.356640608778277
+        },
+        "validation_post_update_loss": 2.356640608778277
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0781754047250966
+        },
+        "fit_pre_update_loss": 0.0781754047250966,
+        "update": 100,
+        "validation_components": {
+          "outcome_bce": 2.368519053364649
+        },
+        "validation_post_update_loss": 2.368519053364649
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07820926790915378
+        },
+        "fit_pre_update_loss": 0.07820926790915378,
+        "update": 101,
+        "validation_components": {
+          "outcome_bce": 2.3828363354184985
+        },
+        "validation_post_update_loss": 2.3828363354184985
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07782657593219232
+        },
+        "fit_pre_update_loss": 0.07782657593219232,
+        "update": 102,
+        "validation_components": {
+          "outcome_bce": 2.39534119271275
+        },
+        "validation_post_update_loss": 2.39534119271275
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07736323770706605
+        },
+        "fit_pre_update_loss": 0.07736323770706605,
+        "update": 103,
+        "validation_components": {
+          "outcome_bce": 2.407507496964764
+        },
+        "validation_post_update_loss": 2.407507496964764
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07719433474699437
+        },
+        "fit_pre_update_loss": 0.07719433474699437,
+        "update": 104,
+        "validation_components": {
+          "outcome_bce": 2.4217759775643795
+        },
+        "validation_post_update_loss": 2.4217759775643795
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07696037566523206
+        },
+        "fit_pre_update_loss": 0.07696037566523206,
+        "update": 105,
+        "validation_components": {
+          "outcome_bce": 2.4332575377662815
+        },
+        "validation_post_update_loss": 2.4332575377662815
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07648824143436313
+        },
+        "fit_pre_update_loss": 0.07648824143436313,
+        "update": 106,
+        "validation_components": {
+          "outcome_bce": 2.445783645686668
+        },
+        "validation_post_update_loss": 2.445783645686668
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07614242951764409
+        },
+        "fit_pre_update_loss": 0.07614242951764409,
+        "update": 107,
+        "validation_components": {
+          "outcome_bce": 2.4592281477791964
+        },
+        "validation_post_update_loss": 2.4592281477791964
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07599692758008145
+        },
+        "fit_pre_update_loss": 0.07599692758008145,
+        "update": 108,
+        "validation_components": {
+          "outcome_bce": 2.4683027802062574
+        },
+        "validation_post_update_loss": 2.4683027802062574
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07583867732403769
+        },
+        "fit_pre_update_loss": 0.07583867732403769,
+        "update": 109,
+        "validation_components": {
+          "outcome_bce": 2.4855450428441914
+        },
+        "validation_post_update_loss": 2.4855450428441914
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07558334631098795
+        },
+        "fit_pre_update_loss": 0.07558334631098795,
+        "update": 110,
+        "validation_components": {
+          "outcome_bce": 2.4898172695950174
+        },
+        "validation_post_update_loss": 2.4898172695950174
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0755581902138471
+        },
+        "fit_pre_update_loss": 0.0755581902138471,
+        "update": 111,
+        "validation_components": {
+          "outcome_bce": 2.513769465477044
+        },
+        "validation_post_update_loss": 2.513769465477044
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07649457883595484
+        },
+        "fit_pre_update_loss": 0.07649457883595484,
+        "update": 112,
+        "validation_components": {
+          "outcome_bce": 2.5069376826352947
+        },
+        "validation_post_update_loss": 2.5069376826352947
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07901512098201861
+        },
+        "fit_pre_update_loss": 0.07901512098201861,
+        "update": 113,
+        "validation_components": {
+          "outcome_bce": 2.549738260511072
+        },
+        "validation_post_update_loss": 2.549738260511072
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08242855506283145
+        },
+        "fit_pre_update_loss": 0.08242855506283145,
+        "update": 114,
+        "validation_components": {
+          "outcome_bce": 2.5370948887632654
+        },
+        "validation_post_update_loss": 2.5370948887632654
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07790465087014162
+        },
+        "fit_pre_update_loss": 0.07790465087014162,
+        "update": 115,
+        "validation_components": {
+          "outcome_bce": 2.5466098108817814
+        },
+        "validation_post_update_loss": 2.5466098108817814
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0770262752194798
+        },
+        "fit_pre_update_loss": 0.0770262752194798,
+        "update": 116,
+        "validation_components": {
+          "outcome_bce": 2.566512903095866
+        },
+        "validation_post_update_loss": 2.566512903095866
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.08043901394450148
+        },
+        "fit_pre_update_loss": 0.08043901394450148,
+        "update": 117,
+        "validation_components": {
+          "outcome_bce": 2.5567233456457017
+        },
+        "validation_post_update_loss": 2.5567233456457017
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07557167311216714
+        },
+        "fit_pre_update_loss": 0.07557167311216714,
+        "update": 118,
+        "validation_components": {
+          "outcome_bce": 2.574113582587467
+        },
+        "validation_post_update_loss": 2.574113582587467
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07595892953264106
+        },
+        "fit_pre_update_loss": 0.07595892953264106,
+        "update": 119,
+        "validation_components": {
+          "outcome_bce": 2.5885367620751403
+        },
+        "validation_post_update_loss": 2.5885367620751403
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07829848938004522
+        },
+        "fit_pre_update_loss": 0.07829848938004522,
+        "update": 120,
+        "validation_components": {
+          "outcome_bce": 2.585124838602708
+        },
+        "validation_post_update_loss": 2.585124838602708
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07378324065948062
+        },
+        "fit_pre_update_loss": 0.07378324065948062,
+        "update": 121,
+        "validation_components": {
+          "outcome_bce": 2.5982941742737706
+        },
+        "validation_post_update_loss": 2.5982941742737706
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07632662614957089
+        },
+        "fit_pre_update_loss": 0.07632662614957089,
+        "update": 122,
+        "validation_components": {
+          "outcome_bce": 2.6200960643801494
+        },
+        "validation_post_update_loss": 2.6200960643801494
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0752994303369872
+        },
+        "fit_pre_update_loss": 0.0752994303369872,
+        "update": 123,
+        "validation_components": {
+          "outcome_bce": 2.617280159883413
+        },
+        "validation_post_update_loss": 2.617280159883413
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07387104577210117
+        },
+        "fit_pre_update_loss": 0.07387104577210117,
+        "update": 124,
+        "validation_components": {
+          "outcome_bce": 2.605187602685291
+        },
+        "validation_post_update_loss": 2.605187602685291
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07580818515836704
+        },
+        "fit_pre_update_loss": 0.07580818515836704,
+        "update": 125,
+        "validation_components": {
+          "outcome_bce": 2.6266195061053845
+        },
+        "validation_post_update_loss": 2.6266195061053845
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07318497517642279
+        },
+        "fit_pre_update_loss": 0.07318497517642279,
+        "update": 126,
+        "validation_components": {
+          "outcome_bce": 2.646149442069102
+        },
+        "validation_post_update_loss": 2.646149442069102
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07445484576687886
+        },
+        "fit_pre_update_loss": 0.07445484576687886,
+        "update": 127,
+        "validation_components": {
+          "outcome_bce": 2.643597273881852
+        },
+        "validation_post_update_loss": 2.643597273881852
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07325560547012791
+        },
+        "fit_pre_update_loss": 0.07325560547012791,
+        "update": 128,
+        "validation_components": {
+          "outcome_bce": 2.643386918495679
+        },
+        "validation_post_update_loss": 2.643386918495679
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07337383506274031
+        },
+        "fit_pre_update_loss": 0.07337383506274031,
+        "update": 129,
+        "validation_components": {
+          "outcome_bce": 2.653626066549595
+        },
+        "validation_post_update_loss": 2.653626066549595
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07285241942504747
+        },
+        "fit_pre_update_loss": 0.07285241942504747,
+        "update": 130,
+        "validation_components": {
+          "outcome_bce": 2.6645308033490873
+        },
+        "validation_post_update_loss": 2.6645308033490873
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07293430251092961
+        },
+        "fit_pre_update_loss": 0.07293430251092961,
+        "update": 131,
+        "validation_components": {
+          "outcome_bce": 2.6757190576665746
+        },
+        "validation_post_update_loss": 2.6757190576665746
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07238007960478099
+        },
+        "fit_pre_update_loss": 0.07238007960478099,
+        "update": 132,
+        "validation_components": {
+          "outcome_bce": 2.6774761725227894
+        },
+        "validation_post_update_loss": 2.6774761725227894
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07261099571834762
+        },
+        "fit_pre_update_loss": 0.07261099571834762,
+        "update": 133,
+        "validation_components": {
+          "outcome_bce": 2.676426610345538
+        },
+        "validation_post_update_loss": 2.676426610345538
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07191633802451011
+        },
+        "fit_pre_update_loss": 0.07191633802451011,
+        "update": 134,
+        "validation_components": {
+          "outcome_bce": 2.6961716525564556
+        },
+        "validation_post_update_loss": 2.6961716525564556
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07200910047620562
+        },
+        "fit_pre_update_loss": 0.07200910047620562,
+        "update": 135,
+        "validation_components": {
+          "outcome_bce": 2.7115307855410955
+        },
+        "validation_post_update_loss": 2.7115307855410955
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07166623452707839
+        },
+        "fit_pre_update_loss": 0.07166623452707839,
+        "update": 136,
+        "validation_components": {
+          "outcome_bce": 2.7100257054963355
+        },
+        "validation_post_update_loss": 2.7100257054963355
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07140967520780145
+        },
+        "fit_pre_update_loss": 0.07140967520780145,
+        "update": 137,
+        "validation_components": {
+          "outcome_bce": 2.705152514068217
+        },
+        "validation_post_update_loss": 2.705152514068217
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07151987947244365
+        },
+        "fit_pre_update_loss": 0.07151987947244365,
+        "update": 138,
+        "validation_components": {
+          "outcome_bce": 2.7296189214845574
+        },
+        "validation_post_update_loss": 2.7296189214845574
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07102631557701555
+        },
+        "fit_pre_update_loss": 0.07102631557701555,
+        "update": 139,
+        "validation_components": {
+          "outcome_bce": 2.747300995367497
+        },
+        "validation_post_update_loss": 2.747300995367497
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0709368871442452
+        },
+        "fit_pre_update_loss": 0.0709368871442452,
+        "update": 140,
+        "validation_components": {
+          "outcome_bce": 2.7422717962195176
+        },
+        "validation_post_update_loss": 2.7422717962195176
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07077946657110057
+        },
+        "fit_pre_update_loss": 0.07077946657110057,
+        "update": 141,
+        "validation_components": {
+          "outcome_bce": 2.742186522977596
+        },
+        "validation_post_update_loss": 2.742186522977596
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07057270577952825
+        },
+        "fit_pre_update_loss": 0.07057270577952825,
+        "update": 142,
+        "validation_components": {
+          "outcome_bce": 2.761589301280873
+        },
+        "validation_post_update_loss": 2.761589301280873
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07032567960426113
+        },
+        "fit_pre_update_loss": 0.07032567960426113,
+        "update": 143,
+        "validation_components": {
+          "outcome_bce": 2.778034975966226
+        },
+        "validation_post_update_loss": 2.778034975966226
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07042426646096948
+        },
+        "fit_pre_update_loss": 0.07042426646096948,
+        "update": 144,
+        "validation_components": {
+          "outcome_bce": 2.7813390621810132
+        },
+        "validation_post_update_loss": 2.7813390621810132
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06992428459660163
+        },
+        "fit_pre_update_loss": 0.06992428459660163,
+        "update": 145,
+        "validation_components": {
+          "outcome_bce": 2.7810277221585777
+        },
+        "validation_post_update_loss": 2.7810277221585777
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07004571136989296
+        },
+        "fit_pre_update_loss": 0.07004571136989296,
+        "update": 146,
+        "validation_components": {
+          "outcome_bce": 2.7964364502396677
+        },
+        "validation_post_update_loss": 2.7964364502396677
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06969947418032035
+        },
+        "fit_pre_update_loss": 0.06969947418032035,
+        "update": 147,
+        "validation_components": {
+          "outcome_bce": 2.8115021560736557
+        },
+        "validation_post_update_loss": 2.8115021560736557
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06970645601117563
+        },
+        "fit_pre_update_loss": 0.06970645601117563,
+        "update": 148,
+        "validation_components": {
+          "outcome_bce": 2.8156375981081405
+        },
+        "validation_post_update_loss": 2.8156375981081405
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06944789491202151
+        },
+        "fit_pre_update_loss": 0.06944789491202151,
+        "update": 149,
+        "validation_components": {
+          "outcome_bce": 2.816007332939573
+        },
+        "validation_post_update_loss": 2.816007332939573
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0694100964916965
+        },
+        "fit_pre_update_loss": 0.0694100964916965,
+        "update": 150,
+        "validation_components": {
+          "outcome_bce": 2.837953177590172
+        },
+        "validation_post_update_loss": 2.837953177590172
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06930740627515433
+        },
+        "fit_pre_update_loss": 0.06930740627515433,
+        "update": 151,
+        "validation_components": {
+          "outcome_bce": 2.845328228975906
+        },
+        "validation_post_update_loss": 2.845328228975906
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06935280228716095
+        },
+        "fit_pre_update_loss": 0.06935280228716095,
+        "update": 152,
+        "validation_components": {
+          "outcome_bce": 2.8513305549971557
+        },
+        "validation_post_update_loss": 2.8513305549971557
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06943218070409068
+        },
+        "fit_pre_update_loss": 0.06943218070409068,
+        "update": 153,
+        "validation_components": {
+          "outcome_bce": 2.847316019801314
+        },
+        "validation_post_update_loss": 2.847316019801314
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07032170544652042
+        },
+        "fit_pre_update_loss": 0.07032170544652042,
+        "update": 154,
+        "validation_components": {
+          "outcome_bce": 2.884209478611575
+        },
+        "validation_post_update_loss": 2.884209478611575
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07267203289446472
+        },
+        "fit_pre_update_loss": 0.07267203289446472,
+        "update": 155,
+        "validation_components": {
+          "outcome_bce": 2.8758450294375786
+        },
+        "validation_post_update_loss": 2.8758450294375786
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07287158921811782
+        },
+        "fit_pre_update_loss": 0.07287158921811782,
+        "update": 156,
+        "validation_components": {
+          "outcome_bce": 2.89656818086273
+        },
+        "validation_post_update_loss": 2.89656818086273
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07161410005621272
+        },
+        "fit_pre_update_loss": 0.07161410005621272,
+        "update": 157,
+        "validation_components": {
+          "outcome_bce": 2.8863590453153156
+        },
+        "validation_post_update_loss": 2.8863590453153156
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06939374814382347
+        },
+        "fit_pre_update_loss": 0.06939374814382347,
+        "update": 158,
+        "validation_components": {
+          "outcome_bce": 2.899349274977719
+        },
+        "validation_post_update_loss": 2.899349274977719
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06863866696145753
+        },
+        "fit_pre_update_loss": 0.06863866696145753,
+        "update": 159,
+        "validation_components": {
+          "outcome_bce": 2.9089953189124085
+        },
+        "validation_post_update_loss": 2.9089953189124085
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06904248336980304
+        },
+        "fit_pre_update_loss": 0.06904248336980304,
+        "update": 160,
+        "validation_components": {
+          "outcome_bce": 2.9056006590111565
+        },
+        "validation_post_update_loss": 2.9056006590111565
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07048869916784015
+        },
+        "fit_pre_update_loss": 0.07048869916784015,
+        "update": 161,
+        "validation_components": {
+          "outcome_bce": 2.9396992046229795
+        },
+        "validation_post_update_loss": 2.9396992046229795
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07109190231844686
+        },
+        "fit_pre_update_loss": 0.07109190231844686,
+        "update": 162,
+        "validation_components": {
+          "outcome_bce": 2.932795372067557
+        },
+        "validation_post_update_loss": 2.932795372067557
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06911021389687147
+        },
+        "fit_pre_update_loss": 0.06911021389687147,
+        "update": 163,
+        "validation_components": {
+          "outcome_bce": 2.9332747162861397
+        },
+        "validation_post_update_loss": 2.9332747162861397
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06812467283424886
+        },
+        "fit_pre_update_loss": 0.06812467283424886,
+        "update": 164,
+        "validation_components": {
+          "outcome_bce": 2.9446786586948934
+        },
+        "validation_post_update_loss": 2.9446786586948934
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06968043206539712
+        },
+        "fit_pre_update_loss": 0.06968043206539712,
+        "update": 165,
+        "validation_components": {
+          "outcome_bce": 2.940214119464895
+        },
+        "validation_post_update_loss": 2.940214119464895
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07138207990944023
+        },
+        "fit_pre_update_loss": 0.07138207990944023,
+        "update": 166,
+        "validation_components": {
+          "outcome_bce": 2.9780744205188174
+        },
+        "validation_post_update_loss": 2.9780744205188174
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07096147324881107
+        },
+        "fit_pre_update_loss": 0.07096147324881107,
+        "update": 167,
+        "validation_components": {
+          "outcome_bce": 2.971386534976453
+        },
+        "validation_post_update_loss": 2.971386534976453
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0682034946277445
+        },
+        "fit_pre_update_loss": 0.0682034946277445,
+        "update": 168,
+        "validation_components": {
+          "outcome_bce": 2.9608788125980627
+        },
+        "validation_post_update_loss": 2.9608788125980627
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06986083709040136
+        },
+        "fit_pre_update_loss": 0.06986083709040136,
+        "update": 169,
+        "validation_components": {
+          "outcome_bce": 2.992156594707139
+        },
+        "validation_post_update_loss": 2.992156594707139
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.07226566252130384
+        },
+        "fit_pre_update_loss": 0.07226566252130384,
+        "update": 170,
+        "validation_components": {
+          "outcome_bce": 2.983733642675457
+        },
+        "validation_post_update_loss": 2.983733642675457
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06952818630147263
+        },
+        "fit_pre_update_loss": 0.06952818630147263,
+        "update": 171,
+        "validation_components": {
+          "outcome_bce": 2.9879649588416384
+        },
+        "validation_post_update_loss": 2.9879649588416384
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06787811465099317
+        },
+        "fit_pre_update_loss": 0.06787811465099317,
+        "update": 172,
+        "validation_components": {
+          "outcome_bce": 3.004584590041401
+        },
+        "validation_post_update_loss": 3.004584590041401
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.0694691252059512
+        },
+        "fit_pre_update_loss": 0.0694691252059512,
+        "update": 173,
+        "validation_components": {
+          "outcome_bce": 3.006615953892167
+        },
+        "validation_post_update_loss": 3.006615953892167
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06918121844690855
+        },
+        "fit_pre_update_loss": 0.06918121844690855,
+        "update": 174,
+        "validation_components": {
+          "outcome_bce": 3.0145310652023998
+        },
+        "validation_post_update_loss": 3.0145310652023998
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06748534612548601
+        },
+        "fit_pre_update_loss": 0.06748534612548601,
+        "update": 175,
+        "validation_components": {
+          "outcome_bce": 3.0158447242826494
+        },
+        "validation_post_update_loss": 3.0158447242826494
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06852891044375105
+        },
+        "fit_pre_update_loss": 0.06852891044375105,
+        "update": 176,
+        "validation_components": {
+          "outcome_bce": 3.0161305594486856
+        },
+        "validation_post_update_loss": 3.0161305594486856
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06894216167409707
+        },
+        "fit_pre_update_loss": 0.06894216167409707,
+        "update": 177,
+        "validation_components": {
+          "outcome_bce": 3.0405005961337688
+        },
+        "validation_post_update_loss": 3.0405005961337688
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06741372972796222
+        },
+        "fit_pre_update_loss": 0.06741372972796222,
+        "update": 178,
+        "validation_components": {
+          "outcome_bce": 3.0423849893504253
+        },
+        "validation_post_update_loss": 3.0423849893504253
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06779297835244444
+        },
+        "fit_pre_update_loss": 0.06779297835244444,
+        "update": 179,
+        "validation_components": {
+          "outcome_bce": 3.032569142430811
+        },
+        "validation_post_update_loss": 3.032569142430811
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06813121640547407
+        },
+        "fit_pre_update_loss": 0.06813121640547407,
+        "update": 180,
+        "validation_components": {
+          "outcome_bce": 3.048792776985904
+        },
+        "validation_post_update_loss": 3.048792776985904
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06735597890805478
+        },
+        "fit_pre_update_loss": 0.06735597890805478,
+        "update": 181,
+        "validation_components": {
+          "outcome_bce": 3.0547066562717013
+        },
+        "validation_post_update_loss": 3.0547066562717013
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06723927179849187
+        },
+        "fit_pre_update_loss": 0.06723927179849187,
+        "update": 182,
+        "validation_components": {
+          "outcome_bce": 3.0596381269219064
+        },
+        "validation_post_update_loss": 3.0596381269219064
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06741024632622483
+        },
+        "fit_pre_update_loss": 0.06741024632622483,
+        "update": 183,
+        "validation_components": {
+          "outcome_bce": 3.072337891436663
+        },
+        "validation_post_update_loss": 3.072337891436663
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06685593189649891
+        },
+        "fit_pre_update_loss": 0.06685593189649891,
+        "update": 184,
+        "validation_components": {
+          "outcome_bce": 3.070176941386406
+        },
+        "validation_post_update_loss": 3.070176941386406
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06676255228648027
+        },
+        "fit_pre_update_loss": 0.06676255228648027,
+        "update": 185,
+        "validation_components": {
+          "outcome_bce": 3.073155616236777
+        },
+        "validation_post_update_loss": 3.073155616236777
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06716624063206358
+        },
+        "fit_pre_update_loss": 0.06716624063206358,
+        "update": 186,
+        "validation_components": {
+          "outcome_bce": 3.0861587220267666
+        },
+        "validation_post_update_loss": 3.0861587220267666
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06669571715918886
+        },
+        "fit_pre_update_loss": 0.06669571715918886,
+        "update": 187,
+        "validation_components": {
+          "outcome_bce": 3.0882436886261155
+        },
+        "validation_post_update_loss": 3.0882436886261155
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06630931795304305
+        },
+        "fit_pre_update_loss": 0.06630931795304305,
+        "update": 188,
+        "validation_components": {
+          "outcome_bce": 3.095540009134882
+        },
+        "validation_post_update_loss": 3.095540009134882
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06627074321588783
+        },
+        "fit_pre_update_loss": 0.06627074321588783,
+        "update": 189,
+        "validation_components": {
+          "outcome_bce": 3.107654868897951
+        },
+        "validation_post_update_loss": 3.107654868897951
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06646830098246893
+        },
+        "fit_pre_update_loss": 0.06646830098246893,
+        "update": 190,
+        "validation_components": {
+          "outcome_bce": 3.107664718089377
+        },
+        "validation_post_update_loss": 3.107664718089377
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06629604816132817
+        },
+        "fit_pre_update_loss": 0.06629604816132817,
+        "update": 191,
+        "validation_components": {
+          "outcome_bce": 3.1084694623970828
+        },
+        "validation_post_update_loss": 3.1084694623970828
+      },
+      {
+        "fit_components": {
+          "outcome_bce": 0.06576235456611702
+        },
+        "fit_pre_update_loss": 0.06576235456611702,
+        "update": 192,
+        "validation_components": {
+          "outcome_bce": 3.1240088672131523
+        },
+        "validation_post_update_loss": 3.1240088672131523
+      }
+    ],
+    "updates": 192,
+    "validation_selection": false,
+    "whole_source_batch": 64
+  },
+  "run/fit-ordinary/PREPROCESSING.json": {
+    "fit_ids": [
+      "1015",
+      "1020",
+      "1047",
+      "1062",
+      "107",
+      "1087",
+      "1110",
+      "1134",
+      "1156",
+      "116",
+      "1163",
+      "1174",
+      "1204",
+      "1207",
+      "1274",
+      "1322",
+      "1324",
+      "1329",
+      "1342",
+      "1362",
+      "1401",
+      "1405",
+      "1411",
+      "144",
+      "1467",
+      "1517",
+      "1541",
+      "180",
+      "211",
+      "214",
+      "253",
+      "256",
+      "294",
+      "337",
+      "38",
+      "400",
+      "461",
+      "490",
+      "498",
+      "499",
+      "505",
+      "524",
+      "528",
+      "545",
+      "547",
+      "562",
+      "590",
+      "616",
+      "646",
+      "666",
+      "670",
+      "695",
+      "71",
+      "731",
+      "739",
+      "768",
+      "780",
+      "785",
+      "854",
+      "862",
+      "871",
+      "876",
+      "966",
+      "998"
+    ],
+    "provenance": "fit64 only; no validation/final fitting",
+    "statistics_sha256": {
+      "amean": "ab844112de24ad1000c7673c28d3987bf4e3d637547f54567a29b4197cf7cc92",
+      "astd": "c759a933cc4c5503d6b6f7b8aa9e5acc7e6736903107344ab3e4cf4899e3834b",
+      "rmean": "fd25ac6b10f8a40f4a67996f1b20a1d039ba7dddc3b0c847109947c3fb047c35",
+      "rstd": "6acfd262583fc62f2c197c1581e6dad4468545506e26f7bd96ddcacb0070b3ac",
+      "xmean": "3c821fbfe97d7cd72fabdfdda2838027a9d5450e05c52d04ec92d7a2a48fecc6",
+      "xstd": "4b73559aca1319baf0cfe06a639360f3f4dae627822699bdb65bd1706b14656d"
+    }
+  },
+  "run/fit-ordinary/SEAL.json": {
+    "files": {
+      "FIT.json": {
+        "bytes": 41863,
+        "sha256": "895212d74bc6f39889c07c36010c3446dab7dcbcaad5bb045973c158cc0e06de"
+      },
+      "PREPROCESSING.json": {
+        "bytes": 944,
+        "sha256": "44f591ac7fe450fbe4c2c79431d1831b63706196c7ea056316d1aec17fb2d514"
+      },
+      "TECHNICAL.json": {
+        "bytes": 692,
+        "sha256": "4448fb9f5fc7ecb30820112d372d2e5a87243af37dab371e18644ad140a66dcf"
+      },
+      "bayesian.npz": {
+        "bytes": 68884,
+        "sha256": "ae1be2b69abd4f2d9cf26d5e76167880b801c1de053244a03049f84a014c62d7"
+      },
+      "fit-dataset.npz": {
+        "bytes": 4190100,
+        "sha256": "36fbd7e41119b44fca00d6be7891969f90cc84a783b94171f2751fe760e96acf"
+      },
+      "ordinary.npz": {
+        "bytes": 851490,
+        "sha256": "609e5230a32ac7007b7f6f5af05c9b86f3c35ca774ea2b4200858613e2a9110f"
+      },
+      "validation-dataset.npz": {
+        "bytes": 1050772,
+        "sha256": "a89371b86cadd2db4afa271d2b6d43f4c2e7b67426b2b6913645006588a2a363"
+      }
+    },
+    "identity": {
+      "batch_sources": 64,
+      "byte_cap": 100000000,
+      "cpus": 4,
+      "gpu": 0,
+      "init_seed": 94012,
+      "key": "fit-ordinary",
+      "ram_gib": 8,
+      "seconds": 7200,
+      "sources": 64,
+      "stage": "fitting",
+      "updates": 192
+    }
+  },
+  "run/fit-ordinary/TECHNICAL.json": {
+    "approval": "e1e4b6f6d0e0d1fbb83e89d165be793128f02130647e21a1c12c5892d7d90460",
+    "attempt": 1,
+    "fit_count": 64,
+    "hard_seconds": 7200,
+    "package": "c2c6fcbe8c41fed22d0fde17bcb5f8cd456a74c1cb0d77039f4df94d86e0d468",
+    "passed": true,
+    "peak_process_rss_bytes": 111915008,
+    "process_cpu_seconds": 24.452770408,
+    "rss_scope": "Linux worker process high-water RSS; not total node RAM",
+    "selection": false,
+    "spec": {
+      "batch_sources": 64,
+      "byte_cap": 100000000,
+      "cpus": 4,
+      "gpu": 0,
+      "init_seed": 94012,
+      "key": "fit-ordinary",
+      "ram_gib": 8,
+      "seconds": 7200,
+      "sources": 64,
+      "stage": "fitting",
+      "updates": 192
+    },
+    "supervisor_seconds": 7190,
+    "updates": 192,
+    "validation_count": 16,
+    "work_seconds": 7140,
+    "worker_wall_seconds_through_payload": 13.607781857950613
+  }
+}

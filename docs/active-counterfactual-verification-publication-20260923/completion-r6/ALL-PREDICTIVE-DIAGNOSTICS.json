@@ -1,0 +1,1730 @@
+[
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.2121497340648815,
+    "brier": 0.49342627624999236,
+    "conditional_response_nll_per_coordinate": 1.8430271808207015,
+    "control": "static",
+    "reference": 931,
+    "terminal_ce": 0.04938788036877746
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.2510087945772121,
+    "brier": 0.5094877155610782,
+    "conditional_response_nll_per_coordinate": 1.8166888549203135,
+    "control": "passive",
+    "reference": 931,
+    "terminal_ce": 0.04935973545661327
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.2510087945772121,
+    "brier": 0.5094877155610782,
+    "conditional_response_nll_per_coordinate": 1.8166888549203135,
+    "control": "active",
+    "reference": 931,
+    "terminal_ce": 0.04935973545661327
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.2510087945772121,
+    "brier": 0.5094877155610782,
+    "conditional_response_nll_per_coordinate": 1.8166888549203135,
+    "control": "no_update",
+    "reference": 931,
+    "terminal_ce": 0.04935973545661327
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.005077404073381387,
+    "brier": 2.5649523331318925e-05,
+    "conditional_response_nll_per_coordinate": 1.8524657114707914,
+    "control": "ordinary",
+    "reference": 931,
+    "terminal_ce": 0.049379639688422565
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.06191214142037797,
+    "brier": 0.003604145129213224,
+    "conditional_response_nll_per_coordinate": 1.8524657114707914,
+    "control": "bayesian",
+    "reference": 931,
+    "terminal_ce": 0.049379639688422565
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.02322113883702284,
+    "brier": 0.0005268678917089508,
+    "conditional_response_nll_per_coordinate": 0.9059708966718926,
+    "control": "static",
+    "reference": 643,
+    "terminal_ce": 0.011198118120955542
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.01572735401603012,
+    "brier": 0.00024349495876493452,
+    "conditional_response_nll_per_coordinate": 0.8861875927483402,
+    "control": "passive",
+    "reference": 643,
+    "terminal_ce": 0.011198065257194188
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.024836429269242673,
+    "brier": 0.0006017475285189241,
+    "conditional_response_nll_per_coordinate": 0.9059708966718926,
+    "control": "active",
+    "reference": 643,
+    "terminal_ce": 0.011198118120955542
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.02322113883702284,
+    "brier": 0.0005268678917089508,
+    "conditional_response_nll_per_coordinate": 0.9059708966718926,
+    "control": "no_update",
+    "reference": 643,
+    "terminal_ce": 0.011198118120955542
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.008509303948982394,
+    "brier": 7.17951571267221e-05,
+    "conditional_response_nll_per_coordinate": 0.9059708966718926,
+    "control": "ordinary",
+    "reference": 643,
+    "terminal_ce": 0.011198118120955542
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.09072889320472158,
+    "brier": 0.007522913429661822,
+    "conditional_response_nll_per_coordinate": 0.9059708966718926,
+    "control": "bayesian",
+    "reference": 643,
+    "terminal_ce": 0.011198118120955542
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.3160789784529534,
+    "brier": 0.9287275851742923,
+    "conditional_response_nll_per_coordinate": 1.590914308147667,
+    "control": "passive",
+    "reference": 1000,
+    "terminal_ce": 0.25327143161508753
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 3.4784287726912946,
+    "brier": 0.9392403747061809,
+    "conditional_response_nll_per_coordinate": 1.653821172677745,
+    "control": "active",
+    "reference": 1000,
+    "terminal_ce": 0.25201152977079105
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 3.471350379072616,
+    "brier": 0.9388155795980915,
+    "conditional_response_nll_per_coordinate": 1.653821172677745,
+    "control": "no_update",
+    "reference": 1000,
+    "terminal_ce": 0.25201152977079105
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.08442400509548871,
+    "brier": 0.006554279500466496,
+    "conditional_response_nll_per_coordinate": 1.653821172677745,
+    "control": "ordinary",
+    "reference": 1000,
+    "terminal_ce": 0.25201152977079105
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.21581246952437852,
+    "brier": 0.03768008350626426,
+    "conditional_response_nll_per_coordinate": 1.653821172677745,
+    "control": "bayesian",
+    "reference": 1000,
+    "terminal_ce": 0.25201152977079105
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 3.471350379072616,
+    "brier": 0.9388155795980915,
+    "conditional_response_nll_per_coordinate": 1.653821172677745,
+    "control": "static",
+    "reference": 1000,
+    "terminal_ce": 0.25201152977079105
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.3638924426115113,
+    "brier": 0.5540365551332549,
+    "conditional_response_nll_per_coordinate": 1.518301559931739,
+    "control": "active",
+    "reference": 146,
+    "terminal_ce": 1.4417655360773787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.3638924426115113,
+    "brier": 0.5540365551332549,
+    "conditional_response_nll_per_coordinate": 1.518301559931739,
+    "control": "no_update",
+    "reference": 146,
+    "terminal_ce": 1.4417655360773787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 8.688160241721464,
+    "brier": 0.9996628886779436,
+    "conditional_response_nll_per_coordinate": 1.518301559931739,
+    "control": "ordinary",
+    "reference": 146,
+    "terminal_ce": 1.4417655360773787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.7617347420752414,
+    "brier": 0.8776278365102901,
+    "conditional_response_nll_per_coordinate": 1.518301559931739,
+    "control": "bayesian",
+    "reference": 146,
+    "terminal_ce": 1.4417655360773787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.3638924426115113,
+    "brier": 0.5540365551332549,
+    "conditional_response_nll_per_coordinate": 1.518301559931739,
+    "control": "static",
+    "reference": 146,
+    "terminal_ce": 1.4417655360773787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.3638924426115113,
+    "brier": 0.5540365551332549,
+    "conditional_response_nll_per_coordinate": 1.518301559931739,
+    "control": "passive",
+    "reference": 146,
+    "terminal_ce": 1.4417655360773787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.16324917290772348,
+    "brier": 0.022686529091842884,
+    "conditional_response_nll_per_coordinate": 1.4190945000320419,
+    "control": "no_update",
+    "reference": 672,
+    "terminal_ce": 0.6461007352471474
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.4650068316214619,
+    "brier": 0.13828669147917202,
+    "conditional_response_nll_per_coordinate": 1.4190945000320419,
+    "control": "ordinary",
+    "reference": 672,
+    "terminal_ce": 0.6461007352471474
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.6390637022100935,
+    "brier": 0.22298572371654168,
+    "conditional_response_nll_per_coordinate": 1.4190945000320419,
+    "control": "bayesian",
+    "reference": 672,
+    "terminal_ce": 0.6461007352471474
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.16324917290772348,
+    "brier": 0.022686529091842884,
+    "conditional_response_nll_per_coordinate": 1.4190945000320419,
+    "control": "static",
+    "reference": 672,
+    "terminal_ce": 0.6461007352471474
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.1618052471435663,
+    "brier": 0.02231831430575849,
+    "conditional_response_nll_per_coordinate": 1.4190945000320419,
+    "control": "passive",
+    "reference": 672,
+    "terminal_ce": 0.6461007352471474
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.1618052471435663,
+    "brier": 0.02231831430575849,
+    "conditional_response_nll_per_coordinate": 1.4190945000320419,
+    "control": "active",
+    "reference": 672,
+    "terminal_ce": 0.6461007352471474
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.0015905391015771607,
+    "brier": 2.5257945953190854e-06,
+    "conditional_response_nll_per_coordinate": 1.2488105583164089,
+    "control": "ordinary",
+    "reference": 623,
+    "terminal_ce": 0.6560177119896992
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.0000000000005e-12,
+    "brier": 1e-24,
+    "conditional_response_nll_per_coordinate": 1.2488105583164089,
+    "control": "bayesian",
+    "reference": 623,
+    "terminal_ce": 0.6560177119896992
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.6529733282376435,
+    "brier": 0.6537050281495661,
+    "conditional_response_nll_per_coordinate": 1.2488105583164089,
+    "control": "static",
+    "reference": 623,
+    "terminal_ce": 0.6560177119896992
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.413739511072478,
+    "brier": 0.8290465675337442,
+    "conditional_response_nll_per_coordinate": 1.262696827718967,
+    "control": "passive",
+    "reference": 623,
+    "terminal_ce": 0.6440844832397475
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.413739511072478,
+    "brier": 0.8290465675337442,
+    "conditional_response_nll_per_coordinate": 1.262696827718967,
+    "control": "active",
+    "reference": 623,
+    "terminal_ce": 0.6440844832397475
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.413739511072478,
+    "brier": 0.8290465675337442,
+    "conditional_response_nll_per_coordinate": 1.262696827718967,
+    "control": "no_update",
+    "reference": 623,
+    "terminal_ce": 0.6440844832397475
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.6320195350459779,
+    "brier": 0.21947604154624006,
+    "conditional_response_nll_per_coordinate": 1.2875273494002013,
+    "control": "bayesian",
+    "reference": 847,
+    "terminal_ce": 0.8036209536897518
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.026573485710345682,
+    "brier": 0.0006876728674681186,
+    "conditional_response_nll_per_coordinate": 1.276184039875773,
+    "control": "static",
+    "reference": 847,
+    "terminal_ce": 0.8061015272732301
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.04371697798375351,
+    "brier": 0.001829714754305542,
+    "conditional_response_nll_per_coordinate": 1.2875273494002013,
+    "control": "passive",
+    "reference": 847,
+    "terminal_ce": 0.8036209536897518
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.04371697798375351,
+    "brier": 0.001829714754305542,
+    "conditional_response_nll_per_coordinate": 1.2875273494002013,
+    "control": "active",
+    "reference": 847,
+    "terminal_ce": 0.8036209536897518
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.8730344251476847,
+    "brier": 0.8901410400063451,
+    "conditional_response_nll_per_coordinate": 1.2875273494002013,
+    "control": "no_update",
+    "reference": 847,
+    "terminal_ce": 0.8036209536897518
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.3087091816900394,
+    "brier": 0.07054638028318268,
+    "conditional_response_nll_per_coordinate": 1.2875273494002013,
+    "control": "ordinary",
+    "reference": 847,
+    "terminal_ce": 0.8036209536897518
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.6655694301761003,
+    "brier": 0.2362146936773771,
+    "conditional_response_nll_per_coordinate": 1.0577983893189327,
+    "control": "static",
+    "reference": 175,
+    "terminal_ce": 0.19318583550712726
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.6017127870728107,
+    "brier": 0.20441932764807305,
+    "conditional_response_nll_per_coordinate": 1.0577806411285076,
+    "control": "passive",
+    "reference": 175,
+    "terminal_ce": 0.18935204897681407
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.6017127870728107,
+    "brier": 0.20441932764807305,
+    "conditional_response_nll_per_coordinate": 1.0577806411285076,
+    "control": "active",
+    "reference": 175,
+    "terminal_ce": 0.18935204897681407
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.6017127870728107,
+    "brier": 0.20441932764807305,
+    "conditional_response_nll_per_coordinate": 1.0577806411285076,
+    "control": "no_update",
+    "reference": 175,
+    "terminal_ce": 0.18935204897681407
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.020918337018517003,
+    "brier": 0.0004285341428581101,
+    "conditional_response_nll_per_coordinate": 1.0577983893189327,
+    "control": "ordinary",
+    "reference": 175,
+    "terminal_ce": 0.19318583550712726
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.4019836659144417,
+    "brier": 0.10956651256430698,
+    "conditional_response_nll_per_coordinate": 1.0577983893189327,
+    "control": "bayesian",
+    "reference": 175,
+    "terminal_ce": 0.19318583550712726
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.04472446189539178,
+    "brier": 0.0019131060816813556,
+    "conditional_response_nll_per_coordinate": 1.079876983805804,
+    "control": "static",
+    "reference": 553,
+    "terminal_ce": 0.025315409749573786
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.04472446189539178,
+    "brier": 0.0019131060816813556,
+    "conditional_response_nll_per_coordinate": 1.079876983805804,
+    "control": "passive",
+    "reference": 553,
+    "terminal_ce": 0.025315409749573786
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.04472446189539178,
+    "brier": 0.0019131060816813556,
+    "conditional_response_nll_per_coordinate": 1.079876983805804,
+    "control": "active",
+    "reference": 553,
+    "terminal_ce": 0.025315409749573786
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.04472446189539178,
+    "brier": 0.0019131060816813556,
+    "conditional_response_nll_per_coordinate": 1.079876983805804,
+    "control": "no_update",
+    "reference": 553,
+    "terminal_ce": 0.025315409749573786
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.00016580339504401279,
+    "brier": 2.7486208186635913e-08,
+    "conditional_response_nll_per_coordinate": 1.1515923191184838,
+    "control": "ordinary",
+    "reference": 553,
+    "terminal_ce": 0.025448263461981438
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 1.0000000000005e-12,
+    "brier": 1e-24,
+    "conditional_response_nll_per_coordinate": 1.127116868441229,
+    "control": "bayesian",
+    "reference": 553,
+    "terminal_ce": 0.025355397266902332
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 2.0390698160333245,
+    "brier": 0.7566395134936914,
+    "conditional_response_nll_per_coordinate": 1.0616286663271681,
+    "control": "static",
+    "reference": 1334,
+    "terminal_ce": 0.11925163875982703
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.8257215221390408,
+    "brier": 0.7037509215082852,
+    "conditional_response_nll_per_coordinate": 1.1342216323793155,
+    "control": "passive",
+    "reference": 1334,
+    "terminal_ce": 0.11858838552204556
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 2.044858952817418,
+    "brier": 0.7579470763167893,
+    "conditional_response_nll_per_coordinate": 1.0616286663271681,
+    "control": "active",
+    "reference": 1334,
+    "terminal_ce": 0.11925163875982703
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 2.0390698160333245,
+    "brier": 0.7566395134936914,
+    "conditional_response_nll_per_coordinate": 1.0616286663271681,
+    "control": "no_update",
+    "reference": 1334,
+    "terminal_ce": 0.11925163875982703
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.07930310522109875,
+    "brier": 0.005812555049480979,
+    "conditional_response_nll_per_coordinate": 1.1342216323793155,
+    "control": "ordinary",
+    "reference": 1334,
+    "terminal_ce": 0.11858838552204556
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.4454555002473922,
+    "brier": 0.12921692174232632,
+    "conditional_response_nll_per_coordinate": 1.1342216323793155,
+    "control": "bayesian",
+    "reference": 1334,
+    "terminal_ce": 0.11858838552204556
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.344394594656609,
+    "brier": 0.08488526321569619,
+    "conditional_response_nll_per_coordinate": 1.2327391671554635,
+    "control": "passive",
+    "reference": 1570,
+    "terminal_ce": 0.3382356571804332
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.344394594656609,
+    "brier": 0.08488526321569619,
+    "conditional_response_nll_per_coordinate": 1.2327391671554635,
+    "control": "active",
+    "reference": 1570,
+    "terminal_ce": 0.3382356571804332
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.344394594656609,
+    "brier": 0.08488526321569619,
+    "conditional_response_nll_per_coordinate": 1.2327391671554635,
+    "control": "no_update",
+    "reference": 1570,
+    "terminal_ce": 0.3382356571804332
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.0001968825891814886,
+    "brier": 3.8755123087864866e-08,
+    "conditional_response_nll_per_coordinate": 1.215440560730228,
+    "control": "ordinary",
+    "reference": 1570,
+    "terminal_ce": 0.33755078086777673
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.0000000000005e-12,
+    "brier": 1e-24,
+    "conditional_response_nll_per_coordinate": 1.215440560730228,
+    "control": "bayesian",
+    "reference": 1570,
+    "terminal_ce": 0.33755078086777673
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.344394594656609,
+    "brier": 0.08488526321569619,
+    "conditional_response_nll_per_coordinate": 1.2327391671554635,
+    "control": "static",
+    "reference": 1570,
+    "terminal_ce": 0.3382356571804332
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.1906366122025609,
+    "brier": 0.030125555835062278,
+    "conditional_response_nll_per_coordinate": 1.1445016297971229,
+    "control": "active",
+    "reference": 361,
+    "terminal_ce": 0.15563441326290484
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.1906366122025609,
+    "brier": 0.030125555835062278,
+    "conditional_response_nll_per_coordinate": 1.1445016297971229,
+    "control": "no_update",
+    "reference": 361,
+    "terminal_ce": 0.15563441326290484
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.09446736273379133,
+    "brier": 0.008125683034270609,
+    "conditional_response_nll_per_coordinate": 1.1410230180601775,
+    "control": "ordinary",
+    "reference": 361,
+    "terminal_ce": 0.15486381164431418
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.5052616841162889,
+    "brier": 0.15733307227029006,
+    "conditional_response_nll_per_coordinate": 1.1445016297971229,
+    "control": "bayesian",
+    "reference": 361,
+    "terminal_ce": 0.15563441326290484
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.1906366122025609,
+    "brier": 0.030125555835062278,
+    "conditional_response_nll_per_coordinate": 1.1445016297971229,
+    "control": "static",
+    "reference": 361,
+    "terminal_ce": 0.15563441326290484
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.1906366122025609,
+    "brier": 0.030125555835062278,
+    "conditional_response_nll_per_coordinate": 1.1445016297971229,
+    "control": "passive",
+    "reference": 361,
+    "terminal_ce": 0.15563441326290484
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.923180269690028,
+    "brier": 0.3633031548964199,
+    "conditional_response_nll_per_coordinate": 1.0693709102811548,
+    "control": "no_update",
+    "reference": 658,
+    "terminal_ce": 0.1307887889165345
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 4.774611624228851,
+    "brier": 0.9831885328475813,
+    "conditional_response_nll_per_coordinate": 1.072017398462948,
+    "control": "ordinary",
+    "reference": 658,
+    "terminal_ce": 0.13013189791902263
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.5984260980375524,
+    "brier": 0.6364616505306712,
+    "conditional_response_nll_per_coordinate": 1.0693709102811548,
+    "control": "bayesian",
+    "reference": 658,
+    "terminal_ce": 0.1307887889165345
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.923180269690028,
+    "brier": 0.3633031548964199,
+    "conditional_response_nll_per_coordinate": 1.0693709102811548,
+    "control": "static",
+    "reference": 658,
+    "terminal_ce": 0.1307887889165345
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.923180269690028,
+    "brier": 0.3633031548964199,
+    "conditional_response_nll_per_coordinate": 1.0693709102811548,
+    "control": "passive",
+    "reference": 658,
+    "terminal_ce": 0.1307887889165345
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.923180269690028,
+    "brier": 0.3633031548964199,
+    "conditional_response_nll_per_coordinate": 1.0693709102811548,
+    "control": "active",
+    "reference": 658,
+    "terminal_ce": 0.1307887889165345
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.0001241393238121943,
+    "brier": 1.540865879712234e-08,
+    "conditional_response_nll_per_coordinate": 1.1363801499841466,
+    "control": "ordinary",
+    "reference": 1219,
+    "terminal_ce": 0.8727796999309108
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 9.999778782803785e-13,
+    "brier": 9.999557570491275e-25,
+    "conditional_response_nll_per_coordinate": 1.1361945010235652,
+    "control": "bayesian",
+    "reference": 1219,
+    "terminal_ce": 0.873065078336649
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.004833927634613862,
+    "brier": 2.3254220530984073e-05,
+    "conditional_response_nll_per_coordinate": 1.1361945010235652,
+    "control": "static",
+    "reference": 1219,
+    "terminal_ce": 0.873065078336649
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.004458777165031444,
+    "brier": 1.979228034175949e-05,
+    "conditional_response_nll_per_coordinate": 1.1363801499841466,
+    "control": "passive",
+    "reference": 1219,
+    "terminal_ce": 0.8727796999309108
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.004782549559733009,
+    "brier": 2.276369464055047e-05,
+    "conditional_response_nll_per_coordinate": 1.1361945010235652,
+    "control": "active",
+    "reference": 1219,
+    "terminal_ce": 0.873065078336649
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.004833927634613862,
+    "brier": 2.3254220530984073e-05,
+    "conditional_response_nll_per_coordinate": 1.1361945010235652,
+    "control": "no_update",
+    "reference": 1219,
+    "terminal_ce": 0.873065078336649
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 27.631021115928547,
+    "brier": 0.999999999998,
+    "conditional_response_nll_per_coordinate": 1.4554386231192977,
+    "control": "bayesian",
+    "reference": 5,
+    "terminal_ce": 0.01857238152821821
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 3.803303188870035,
+    "brier": 0.9559031583957915,
+    "conditional_response_nll_per_coordinate": 1.449730678434982,
+    "control": "static",
+    "reference": 5,
+    "terminal_ce": 0.018792520907914896
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.881936500453187,
+    "brier": 0.9592030610181788,
+    "conditional_response_nll_per_coordinate": 1.4554386231192977,
+    "control": "passive",
+    "reference": 5,
+    "terminal_ce": 0.01857238152821821
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.881936500453187,
+    "brier": 0.9592030610181788,
+    "conditional_response_nll_per_coordinate": 1.4554386231192977,
+    "control": "active",
+    "reference": 5,
+    "terminal_ce": 0.01857238152821821
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.89784691386069,
+    "brier": 0.9598404212187566,
+    "conditional_response_nll_per_coordinate": 1.4554386231192977,
+    "control": "no_update",
+    "reference": 5,
+    "terminal_ce": 0.01857238152821821
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 9.339405669779033,
+    "brier": 0.9998242244104733,
+    "conditional_response_nll_per_coordinate": 1.449730678434982,
+    "control": "ordinary",
+    "reference": 5,
+    "terminal_ce": 0.018792520907914896
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.5060760897025721,
+    "brier": 0.1577229607146055,
+    "conditional_response_nll_per_coordinate": 3.688712090760768,
+    "control": "static",
+    "reference": 1234,
+    "terminal_ce": 0.792233576389375
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.819767421027475,
+    "brier": 0.31300209151646474,
+    "conditional_response_nll_per_coordinate": 3.6492764983836423,
+    "control": "passive",
+    "reference": 1234,
+    "terminal_ce": 0.7925169042932051
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.5060760897025721,
+    "brier": 0.1577229607146055,
+    "conditional_response_nll_per_coordinate": 3.688712090760768,
+    "control": "active",
+    "reference": 1234,
+    "terminal_ce": 0.792233576389375
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.5060760897025721,
+    "brier": 0.1577229607146055,
+    "conditional_response_nll_per_coordinate": 3.688712090760768,
+    "control": "no_update",
+    "reference": 1234,
+    "terminal_ce": 0.792233576389375
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.1126694790256749e-05,
+    "brier": 1.2380195944252322e-10,
+    "conditional_response_nll_per_coordinate": 3.678021203854085,
+    "control": "ordinary",
+    "reference": 1234,
+    "terminal_ce": 0.7973657542504962
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.00941037254523824,
+    "brier": 8.772633096584767e-05,
+    "conditional_response_nll_per_coordinate": 3.688712090760768,
+    "control": "bayesian",
+    "reference": 1234,
+    "terminal_ce": 0.792233576389375
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.16227354062652852,
+    "brier": 0.022437461676221904,
+    "conditional_response_nll_per_coordinate": 4.022311080112437,
+    "control": "static",
+    "reference": 592,
+    "terminal_ce": 0.2561345289996824
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.22552693923763711,
+    "brier": 0.04076540286250184,
+    "conditional_response_nll_per_coordinate": 4.022311080112437,
+    "control": "passive",
+    "reference": 592,
+    "terminal_ce": 0.2561345289996824
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.22552693923763711,
+    "brier": 0.04076540286250184,
+    "conditional_response_nll_per_coordinate": 4.022311080112437,
+    "control": "active",
+    "reference": 592,
+    "terminal_ce": 0.2561345289996824
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.16227354062652852,
+    "brier": 0.022437461676221904,
+    "conditional_response_nll_per_coordinate": 4.022311080112437,
+    "control": "no_update",
+    "reference": 592,
+    "terminal_ce": 0.2561345289996824
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 9.606716495798837,
+    "brier": 0.9998654538040371,
+    "conditional_response_nll_per_coordinate": 4.021017575885456,
+    "control": "ordinary",
+    "reference": 592,
+    "terminal_ce": 0.25681358489632095
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 27.63104323789336,
+    "brier": 0.999999999998,
+    "conditional_response_nll_per_coordinate": 4.021017575885456,
+    "control": "bayesian",
+    "reference": 592,
+    "terminal_ce": 0.25681358489632095
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.5711335580530073,
+    "brier": 0.6275658125646953,
+    "conditional_response_nll_per_coordinate": 1.2705759898518922,
+    "control": "static",
+    "reference": 1236,
+    "terminal_ce": 0.5416243821479292
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.0325876786905825,
+    "brier": 0.4146273829777508,
+    "conditional_response_nll_per_coordinate": 1.27119633061082,
+    "control": "passive",
+    "reference": 1236,
+    "terminal_ce": 0.5471867449874277
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.0325876786905825,
+    "brier": 0.4146273829777508,
+    "conditional_response_nll_per_coordinate": 1.27119633061082,
+    "control": "active",
+    "reference": 1236,
+    "terminal_ce": 0.5471867449874277
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.6099345720034083,
+    "brier": 0.20849596089583214,
+    "conditional_response_nll_per_coordinate": 1.27119633061082,
+    "control": "no_update",
+    "reference": 1236,
+    "terminal_ce": 0.5471867449874277
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 5.424600113044034,
+    "brier": 0.9912057640482772,
+    "conditional_response_nll_per_coordinate": 1.2705759898518922,
+    "control": "ordinary",
+    "reference": 1236,
+    "terminal_ce": 0.5416243821479292
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 1.6254802117563654,
+    "brier": 0.6451027088412209,
+    "conditional_response_nll_per_coordinate": 1.2705759898518922,
+    "control": "bayesian",
+    "reference": 1236,
+    "terminal_ce": 0.5416243821479292
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 4.409256078910479,
+    "brier": 0.9758195199746759,
+    "conditional_response_nll_per_coordinate": 2.10137597957823,
+    "control": "passive",
+    "reference": 1160,
+    "terminal_ce": 1.1591688670088813
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 4.409256078910479,
+    "brier": 0.9758195199746759,
+    "conditional_response_nll_per_coordinate": 2.10137597957823,
+    "control": "active",
+    "reference": 1160,
+    "terminal_ce": 1.1591688670088813
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 4.218769412699244,
+    "brier": 0.9707830953340209,
+    "conditional_response_nll_per_coordinate": 2.10137597957823,
+    "control": "no_update",
+    "reference": 1160,
+    "terminal_ce": 1.1591688670088813
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 5.053084418887282,
+    "brier": 0.9872616372544544,
+    "conditional_response_nll_per_coordinate": 2.10137597957823,
+    "control": "ordinary",
+    "reference": 1160,
+    "terminal_ce": 1.1591688670088813
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 1.4402389991267923,
+    "brier": 0.5823656570856715,
+    "conditional_response_nll_per_coordinate": 2.0785111117309825,
+    "control": "bayesian",
+    "reference": 1160,
+    "terminal_ce": 1.1564584417037291
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 4.116642959780755,
+    "brier": 0.9676673828139766,
+    "conditional_response_nll_per_coordinate": 2.0588592531690204,
+    "control": "static",
+    "reference": 1160,
+    "terminal_ce": 1.1522153184443487
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.07774109073857052,
+    "brier": 0.005594450680564532,
+    "conditional_response_nll_per_coordinate": 1.2942206715762918,
+    "control": "active",
+    "reference": 1393,
+    "terminal_ce": 0.3447960449327163
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.077066216039493,
+    "brier": 0.005501404458355194,
+    "conditional_response_nll_per_coordinate": 1.2942206715762918,
+    "control": "no_update",
+    "reference": 1393,
+    "terminal_ce": 0.3447960449327163
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.00047243829635623707,
+    "brier": 2.2309252566185603e-07,
+    "conditional_response_nll_per_coordinate": 1.3405180315905527,
+    "control": "ordinary",
+    "reference": 1393,
+    "terminal_ce": 0.3515941457580596
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.029127899927972982,
+    "brier": 0.0008241361550701742,
+    "conditional_response_nll_per_coordinate": 1.3405180315905527,
+    "control": "bayesian",
+    "reference": 1393,
+    "terminal_ce": 0.3515941457580596
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.077066216039493,
+    "brier": 0.005501404458355194,
+    "conditional_response_nll_per_coordinate": 1.2942206715762918,
+    "control": "static",
+    "reference": 1393,
+    "terminal_ce": 0.3447960449327163
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.07774109073857052,
+    "brier": 0.005594450680564532,
+    "conditional_response_nll_per_coordinate": 1.2942206715762918,
+    "control": "passive",
+    "reference": 1393,
+    "terminal_ce": 0.3447960449327163
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.4148425229735802,
+    "brier": 0.573103699605498,
+    "conditional_response_nll_per_coordinate": 3.34666907001826,
+    "control": "no_update",
+    "reference": 784,
+    "terminal_ce": 0.14684371929259019
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 8.382395283436171,
+    "brier": 0.9995423301750151,
+    "conditional_response_nll_per_coordinate": 3.4808814206233802,
+    "control": "ordinary",
+    "reference": 784,
+    "terminal_ce": 0.14647770127755172
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 27.63104323789336,
+    "brier": 0.999999999998,
+    "conditional_response_nll_per_coordinate": 3.545652129343072,
+    "control": "bayesian",
+    "reference": 784,
+    "terminal_ce": 0.14753397921648287
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.2148864208863057,
+    "brier": 0.03739077671738756,
+    "conditional_response_nll_per_coordinate": 3.4808814206233802,
+    "control": "static",
+    "reference": 784,
+    "terminal_ce": 0.14647770127755172
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.4086119662617884,
+    "brier": 0.5708068475905095,
+    "conditional_response_nll_per_coordinate": 3.34666907001826,
+    "control": "passive",
+    "reference": 784,
+    "terminal_ce": 0.14684371929259019
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.4086119662617884,
+    "brier": 0.5708068475905095,
+    "conditional_response_nll_per_coordinate": 3.34666907001826,
+    "control": "active",
+    "reference": 784,
+    "terminal_ce": 0.14684371929259019
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 6.662672668925423e-05,
+    "brier": 4.438824956737058e-09,
+    "conditional_response_nll_per_coordinate": 1.2761759973878435,
+    "control": "ordinary",
+    "reference": 213,
+    "terminal_ce": 0.947510448105203
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.0000000000005e-12,
+    "brier": 1e-24,
+    "conditional_response_nll_per_coordinate": 1.2761759973878435,
+    "control": "bayesian",
+    "reference": 213,
+    "terminal_ce": 0.947510448105203
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.7085912722413252,
+    "brier": 0.871178427496099,
+    "conditional_response_nll_per_coordinate": 1.2761759973878435,
+    "control": "static",
+    "reference": 213,
+    "terminal_ce": 0.947510448105203
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.7243591405320475,
+    "brier": 0.8731253707054469,
+    "conditional_response_nll_per_coordinate": 1.2761759973878435,
+    "control": "passive",
+    "reference": 213,
+    "terminal_ce": 0.947510448105203
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.7243591405320475,
+    "brier": 0.8731253707054469,
+    "conditional_response_nll_per_coordinate": 1.2761759973878435,
+    "control": "active",
+    "reference": 213,
+    "terminal_ce": 0.947510448105203
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.7085912722413252,
+    "brier": 0.871178427496099,
+    "conditional_response_nll_per_coordinate": 1.2761759973878435,
+    "control": "no_update",
+    "reference": 213,
+    "terminal_ce": 0.947510448105203
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 2.066403846623967,
+    "brier": 0.7627570222722659,
+    "conditional_response_nll_per_coordinate": 1.4536085876273728,
+    "control": "bayesian",
+    "reference": 1391,
+    "terminal_ce": 0.7823589133466902
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.655505476274267,
+    "brier": 0.6544883010615562,
+    "conditional_response_nll_per_coordinate": 1.4369195072662986,
+    "control": "static",
+    "reference": 1391,
+    "terminal_ce": 0.7817726752920606
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.7974334489462436,
+    "brier": 0.696016976193033,
+    "conditional_response_nll_per_coordinate": 1.4369195072662986,
+    "control": "passive",
+    "reference": 1391,
+    "terminal_ce": 0.7817726752920606
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.7974334489462436,
+    "brier": 0.696016976193033,
+    "conditional_response_nll_per_coordinate": 1.4369195072662986,
+    "control": "active",
+    "reference": 1391,
+    "terminal_ce": 0.7817726752920606
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.655505476274267,
+    "brier": 0.6544883010615562,
+    "conditional_response_nll_per_coordinate": 1.4369195072662986,
+    "control": "no_update",
+    "reference": 1391,
+    "terminal_ce": 0.7817726752920606
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 5.551370543736407,
+    "brier": 0.9922508050309127,
+    "conditional_response_nll_per_coordinate": 1.4536085876273728,
+    "control": "ordinary",
+    "reference": 1391,
+    "terminal_ce": 0.7823589133466902
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 4.501175998623344,
+    "brier": 0.9779312397810125,
+    "conditional_response_nll_per_coordinate": 1.310211671854219,
+    "control": "static",
+    "reference": 1247,
+    "terminal_ce": 1.4448741783053247
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.008732468022737763,
+    "brier": 7.559347411942793e-05,
+    "conditional_response_nll_per_coordinate": 1.2991225072298178,
+    "control": "passive",
+    "reference": 1247,
+    "terminal_ce": 1.4435939462457292
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.008732468022737763,
+    "brier": 7.559347411942793e-05,
+    "conditional_response_nll_per_coordinate": 1.2991225072298178,
+    "control": "active",
+    "reference": 1247,
+    "terminal_ce": 1.4435939462457292
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.009038750861100071,
+    "brier": 8.096443862379213e-05,
+    "conditional_response_nll_per_coordinate": 1.2991225072298178,
+    "control": "no_update",
+    "reference": 1247,
+    "terminal_ce": 1.4435939462457292
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.005165978454088256,
+    "brier": 2.654988173866673e-05,
+    "conditional_response_nll_per_coordinate": 1.2991225072298178,
+    "control": "ordinary",
+    "reference": 1247,
+    "terminal_ce": 1.4435939462457292
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.0000000000005e-12,
+    "brier": 1e-24,
+    "conditional_response_nll_per_coordinate": 1.2991225072298178,
+    "control": "bayesian",
+    "reference": 1247,
+    "terminal_ce": 1.4435939462457292
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 2.341467953155151,
+    "brier": 0.8168791365093362,
+    "conditional_response_nll_per_coordinate": 1.5950004549311416,
+    "control": "static",
+    "reference": 1031,
+    "terminal_ce": 0.6254551289272443
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 2.137797846353201,
+    "brier": 0.778075318770089,
+    "conditional_response_nll_per_coordinate": 1.5935294878755144,
+    "control": "passive",
+    "reference": 1031,
+    "terminal_ce": 0.619776966575341
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 2.2918628802904144,
+    "brier": 0.8080607797700745,
+    "conditional_response_nll_per_coordinate": 1.5865698089084599,
+    "control": "active",
+    "reference": 1031,
+    "terminal_ce": 0.6249574488767891
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 2.2918628802904144,
+    "brier": 0.8080607797700745,
+    "conditional_response_nll_per_coordinate": 1.5865698089084599,
+    "control": "no_update",
+    "reference": 1031,
+    "terminal_ce": 0.6249574488767891
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.008929746736461635,
+    "brier": 7.90320103977448e-05,
+    "conditional_response_nll_per_coordinate": 1.5950004549311416,
+    "control": "ordinary",
+    "reference": 1031,
+    "terminal_ce": 0.6254551289272443
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.09038643511018288,
+    "brier": 0.007468748532381791,
+    "conditional_response_nll_per_coordinate": 1.5865698089084599,
+    "control": "bayesian",
+    "reference": 1031,
+    "terminal_ce": 0.6249574488767891
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 4.709343024568311,
+    "brier": 0.9820598017447651,
+    "conditional_response_nll_per_coordinate": 1.2885877431379031,
+    "control": "static",
+    "reference": 880,
+    "terminal_ce": 0.6704868047530624
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 4.703330113450281,
+    "brier": 0.9819520965894138,
+    "conditional_response_nll_per_coordinate": 1.2884624375980043,
+    "control": "passive",
+    "reference": 880,
+    "terminal_ce": 0.6697392398736667
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 4.719688111115651,
+    "brier": 0.9822436109477557,
+    "conditional_response_nll_per_coordinate": 1.2885877431379031,
+    "control": "active",
+    "reference": 880,
+    "terminal_ce": 0.6704868047530624
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 4.709343024568311,
+    "brier": 0.9820598017447651,
+    "conditional_response_nll_per_coordinate": 1.2885877431379031,
+    "control": "no_update",
+    "reference": 880,
+    "terminal_ce": 0.6704868047530624
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.8316253683279475,
+    "brier": 0.9571210614637762,
+    "conditional_response_nll_per_coordinate": 1.2884624375980043,
+    "control": "ordinary",
+    "reference": 880,
+    "terminal_ce": 0.6697392398736667
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.3719476842865623,
+    "brier": 0.5570942686857221,
+    "conditional_response_nll_per_coordinate": 1.2884624375980043,
+    "control": "bayesian",
+    "reference": 880,
+    "terminal_ce": 0.6697392398736667
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.451986172424013,
+    "brier": 0.9376384968075541,
+    "conditional_response_nll_per_coordinate": 0.9862214086834847,
+    "control": "passive",
+    "reference": 911,
+    "terminal_ce": 0.011225474001124149
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.451986172424013,
+    "brier": 0.9376384968075541,
+    "conditional_response_nll_per_coordinate": 0.9862214086834847,
+    "control": "active",
+    "reference": 911,
+    "terminal_ce": 0.011225474001124149
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.451986172424013,
+    "brier": 0.9376384968075541,
+    "conditional_response_nll_per_coordinate": 0.9862214086834847,
+    "control": "no_update",
+    "reference": 911,
+    "terminal_ce": 0.011225474001124149
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 8.637547598499038,
+    "brier": 0.9996453889782089,
+    "conditional_response_nll_per_coordinate": 0.9677490031344457,
+    "control": "ordinary",
+    "reference": 911,
+    "terminal_ce": 0.011186550537653162
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 27.63104323789336,
+    "brier": 0.999999999998,
+    "conditional_response_nll_per_coordinate": 0.9677490031344457,
+    "control": "bayesian",
+    "reference": 911,
+    "terminal_ce": 0.011186550537653162
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.451986172424013,
+    "brier": 0.9376384968075541,
+    "conditional_response_nll_per_coordinate": 0.9862214086834847,
+    "control": "static",
+    "reference": 911,
+    "terminal_ce": 0.011225474001124149
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.5121490320689404,
+    "brier": 0.16063544550615028,
+    "conditional_response_nll_per_coordinate": 1.5557220030682963,
+    "control": "active",
+    "reference": 1005,
+    "terminal_ce": 0.38128517613612406
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.453675292582625,
+    "brier": 0.1330141260644121,
+    "conditional_response_nll_per_coordinate": 1.5557220030682963,
+    "control": "no_update",
+    "reference": 1005,
+    "terminal_ce": 0.38128517613612406
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.7012329617697193,
+    "brier": 0.2540428030293214,
+    "conditional_response_nll_per_coordinate": 1.5557220030682963,
+    "control": "ordinary",
+    "reference": 1005,
+    "terminal_ce": 0.38128517613612406
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.5994579585125648,
+    "brier": 0.20330251766648913,
+    "conditional_response_nll_per_coordinate": 1.5557220030682963,
+    "control": "bayesian",
+    "reference": 1005,
+    "terminal_ce": 0.38128517613612406
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.552712814459764,
+    "brier": 0.1802963919784405,
+    "conditional_response_nll_per_coordinate": 1.3929154723768988,
+    "control": "static",
+    "reference": 1005,
+    "terminal_ce": 0.3751811301342343
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.5121490320689404,
+    "brier": 0.16063544550615028,
+    "conditional_response_nll_per_coordinate": 1.5557220030682963,
+    "control": "passive",
+    "reference": 1005,
+    "terminal_ce": 0.38128517613612406
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 1.1632270457276286,
+    "brier": 0.4726890069416165,
+    "conditional_response_nll_per_coordinate": 2.046091320179846,
+    "control": "no_update",
+    "reference": 662,
+    "terminal_ce": 0.775683356783596
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.002333322629916407,
+    "brier": 5.431708239956115e-06,
+    "conditional_response_nll_per_coordinate": 1.9856973867610785,
+    "control": "ordinary",
+    "reference": 662,
+    "terminal_ce": 0.7811907658414908
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.13461756531396077,
+    "brier": 0.01586337356683522,
+    "conditional_response_nll_per_coordinate": 2.0372233216782094,
+    "control": "bayesian",
+    "reference": 662,
+    "terminal_ce": 0.7752741760810331
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 1.1632270457276286,
+    "brier": 0.4726890069416165,
+    "conditional_response_nll_per_coordinate": 2.046091320179846,
+    "control": "static",
+    "reference": 662,
+    "terminal_ce": 0.775683356783596
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 1.3310868693454228,
+    "brier": 0.541416407272813,
+    "conditional_response_nll_per_coordinate": 1.9856973867610785,
+    "control": "passive",
+    "reference": 662,
+    "terminal_ce": 0.7811907658414908
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 1.2397015244656717,
+    "brier": 0.504852021244773,
+    "conditional_response_nll_per_coordinate": 2.046091320179846,
+    "control": "active",
+    "reference": 662,
+    "terminal_ce": 0.775683356783596
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.00023268236241531987,
+    "brier": 5.412848581409143e-08,
+    "conditional_response_nll_per_coordinate": 1.0102510538142846,
+    "control": "ordinary",
+    "reference": 1493,
+    "terminal_ce": 0.040042226804274654
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 3.930262722824434,
+    "brier": 0.9611086463892726,
+    "conditional_response_nll_per_coordinate": 1.0807667083031498,
+    "control": "bayesian",
+    "reference": 1493,
+    "terminal_ce": 0.03940954137764671
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 4.009032572329723,
+    "brier": 0.9640275639108518,
+    "conditional_response_nll_per_coordinate": 0.9712404691451694,
+    "control": "static",
+    "reference": 1493,
+    "terminal_ce": 0.0395535294366458
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 3.7709273952689024,
+    "brier": 0.9544690232583575,
+    "conditional_response_nll_per_coordinate": 1.0118731102307443,
+    "control": "passive",
+    "reference": 1493,
+    "terminal_ce": 0.03987398518929815
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 3.9916809226386216,
+    "brier": 0.9634038034935808,
+    "conditional_response_nll_per_coordinate": 0.9712404691451694,
+    "control": "active",
+    "reference": 1493,
+    "terminal_ce": 0.0395535294366458
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 4.009032572329723,
+    "brier": 0.9640275639108518,
+    "conditional_response_nll_per_coordinate": 0.9712404691451694,
+    "control": "no_update",
+    "reference": 1493,
+    "terminal_ce": 0.0395535294366458
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.2281561731861076,
+    "brier": 0.04161602599714671,
+    "conditional_response_nll_per_coordinate": 1.4107433116300196,
+    "control": "bayesian",
+    "reference": 1598,
+    "terminal_ce": 1.2888831406643053
+  },
+  {
+    "actual_selected_prefix": 2,
+    "bce": 0.08438054336858246,
+    "brier": 0.006547813483201895,
+    "conditional_response_nll_per_coordinate": 1.4051848793488644,
+    "control": "static",
+    "reference": 1598,
+    "terminal_ce": 1.2782068706631742
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.18099027535643383,
+    "brier": 0.027408963525786725,
+    "conditional_response_nll_per_coordinate": 1.4160193661532008,
+    "control": "passive",
+    "reference": 1598,
+    "terminal_ce": 1.2851754046526787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.18099027535643383,
+    "brier": 0.027408963525786725,
+    "conditional_response_nll_per_coordinate": 1.4160193661532008,
+    "control": "active",
+    "reference": 1598,
+    "terminal_ce": 1.2851754046526787
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.0996791381749487,
+    "brier": 0.009000735774172887,
+    "conditional_response_nll_per_coordinate": 1.4160193661532008,
+    "control": "no_update",
+    "reference": 1598,
+    "terminal_ce": 1.2851754046526787
+  },
+  {
+    "actual_selected_prefix": 3,
+    "bce": 0.054456032566944215,
+    "brier": 0.0028089846185748966,
+    "conditional_response_nll_per_coordinate": 1.4107433116300196,
+    "control": "ordinary",
+    "reference": 1598,
+    "terminal_ce": 1.2888831406643053
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 1.6817721578067502,
+    "brier": 0.6625243952862288,
+    "conditional_response_nll_per_coordinate": 1.2008301558368546,
+    "control": "static",
+    "reference": 1326,
+    "terminal_ce": 0.20263434042392522
+  },
+  {
+    "actual_selected_prefix": 0,
+    "bce": 0.2139353518436943,
+    "brier": 0.03709453647092791,
+    "conditional_response_nll_per_coordinate": 1.1222985790624367,
+    "control": "passive",
+    "reference": 1326,
+    "terminal_ce": 0.20591413160032096
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 1.6817721578067502,
+    "brier": 0.6625243952862288,
+    "conditional_response_nll_per_coordinate": 1.2008301558368546,
+    "control": "active",
+    "reference": 1326,
+    "terminal_ce": 0.20263434042392522
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 1.6817721578067502,
+    "brier": 0.6625243952862288,
+    "conditional_response_nll_per_coordinate": 1.2008301558368546,
+    "control": "no_update",
+    "reference": 1326,
+    "terminal_ce": 0.20263434042392522
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.0005749566245693319,
+    "brier": 3.3038511751182903e-07,
+    "conditional_response_nll_per_coordinate": 1.2008301558368546,
+    "control": "ordinary",
+    "reference": 1326,
+    "terminal_ce": 0.20263434042392522
+  },
+  {
+    "actual_selected_prefix": 1,
+    "bce": 0.0935275530846401,
+    "brier": 0.007972181917375754,
+    "conditional_response_nll_per_coordinate": 1.2008301558368546,
+    "control": "bayesian",
+    "reference": 1326,
+    "terminal_ce": 0.20263434042392522
+  }
+]

@@ -1,0 +1,132 @@
+{
+  "status": "VERIFIED",
+  "package_commit": "b569970f272b50860b9062bdcf9ca0e7de1f717a",
+  "remote_head_verified": true,
+  "branch": "active-counterfactual-verification-preparation-20260923",
+  "destination": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-20260923\\preservation-r6",
+  "ssd_volume": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+  "free_bytes_before": 323574968320,
+  "payload_files": 19,
+  "payload_bytes": 97885.0,
+  "members": [
+    {
+      "path": "source/APPROVAL-TEMPLATE.json",
+      "bytes": 1625,
+      "sha256": "a4c232035f16d1e083ccf6f8cd0b97fb9daf8e3c4ef99a02938d40efa9ddd2d8",
+      "readback_match": true
+    },
+    {
+      "path": "source/archive6.py",
+      "bytes": 6627,
+      "sha256": "dfd8accd623dd64af0a0243ea220a330e60144dab16df71f2f2286e58d30406d",
+      "readback_match": true
+    },
+    {
+      "path": "source/ATTEMPTS.jsonl",
+      "bytes": 1188,
+      "sha256": "d4c70d91243b0a74aa02f75097ab40087932f4cb33c451e982ba335f4261ccac",
+      "readback_match": true
+    },
+    {
+      "path": "source/backup_package.ps1",
+      "bytes": 4664,
+      "sha256": "f1e7e5f5735346412b0ac24a9ec2009ecf3a60b80567709981ca88e23a8adc71",
+      "readback_match": true
+    },
+    {
+      "path": "source/BASELINE.json",
+      "bytes": 3887,
+      "sha256": "c2524c4ae93c35fed2c7932c100f9b65f6b7d7ad7228db5992d535d3637b7103",
+      "readback_match": true
+    },
+    {
+      "path": "source/bounded_run.py",
+      "bytes": 3002,
+      "sha256": "0c3893d9f143178411de6d5e9e6b94601232f69f17ed4b8c2b741d3ac25f8d9f",
+      "readback_match": true
+    },
+    {
+      "path": "source/CONTRACT.json",
+      "bytes": 1221,
+      "sha256": "f184366f4a145a6a5f6b935b3039508767c09ee31de2d9c74944780e22f80646",
+      "readback_match": true
+    },
+    {
+      "path": "source/FREEZE-RECEIPT.json",
+      "bytes": 1101,
+      "sha256": "d38606b2ff953b9de56c222c252d0267df6beb9ee65f18c374b71c2e2ef7ca07",
+      "readback_match": true
+    },
+    {
+      "path": "source/R5-ARCHIVE-FAILURE.json",
+      "bytes": 1338,
+      "sha256": "3f600e6787643b12b07456031f60ffbdedd185fec8ea191504016cbc2a0a9854",
+      "readback_match": true
+    },
+    {
+      "path": "source/source-export.tar",
+      "bytes": 51200,
+      "sha256": "55dd00b6ac668212759a69103b70a72ca2fdaa54269586a640dc77351874285c",
+      "readback_match": true
+    },
+    {
+      "path": "source/SOURCE-MANIFEST.json",
+      "bytes": 815,
+      "sha256": "f1542bafa0adab4716e15aec3e7c42977e89e97a80393a8ddb51cde87b7b433c",
+      "readback_match": true
+    },
+    {
+      "path": "source/SOURCE-TRANSPORT.json",
+      "bytes": 1313,
+      "sha256": "b58121a0096c64df2a42d5eec3260b459c427f0bed66177ecda340099d2e3367",
+      "readback_match": true
+    },
+    {
+      "path": "source/test_r6.py",
+      "bytes": 4725,
+      "sha256": "36d29824a9ab6f7490075c0250c8fbed2f9e317bc11c3030a31eff1dcf25bb61",
+      "readback_match": true
+    },
+    {
+      "path": "source/transport6.py",
+      "bytes": 4483,
+      "sha256": "58095caa8d7437def1291340bf10096fbea4dfdc29e2b4eb960fd75dd581407f",
+      "readback_match": true
+    },
+    {
+      "path": "authority/EXECUTION-APPROVAL.json",
+      "bytes": 1624,
+      "sha256": "6b386848d4d51bc4789ea19b766f17933ef3f4f456971625b4cc0366a0e36b9a",
+      "readback_match": true
+    },
+    {
+      "path": "authority/FAULT-AND-SCOPE.md",
+      "bytes": 2064,
+      "sha256": "c586c144917610cd416759263f25fe945f0a2746f6502e7c36f89d86f4e8ca3a",
+      "readback_match": true
+    },
+    {
+      "path": "authority/freeze.py",
+      "bytes": 2392,
+      "sha256": "e4a074c74ea722253b16d8e4743ada13e84899f6913e292f3920cf0d7a1a7900",
+      "readback_match": true
+    },
+    {
+      "path": "authority/FROZEN-PACKAGE.json",
+      "bytes": 3028,
+      "sha256": "9341e8adf9d48d771f910ef2437a809ae46cb65453eaae623f3dc9434b15b560",
+      "readback_match": true
+    },
+    {
+      "path": "authority/prepare.py",
+      "bytes": 1588,
+      "sha256": "b2e0de0b7d398ea4d470f62c7056e2d03f347a79e28ab1380a08b47950d71b1c",
+      "readback_match": true
+    }
+  ],
+  "generated_utc": "2026-09-24T03:55:47.4006711Z",
+  "wall_seconds_through_payload_readback": 5.0284822,
+  "historical_archives_transferred": 0,
+  "original_scientific_package_rebacked": false,
+  "note": "Only new preservation-r6 source and authority/test/preparation records. Every payload and receipt read back. Not a substitute for final research archive preservation."
+}

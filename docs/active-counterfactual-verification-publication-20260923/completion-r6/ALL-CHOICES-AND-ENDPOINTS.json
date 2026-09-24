@@ -1,0 +1,2562 @@
+[
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 931,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 931,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 931,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 931,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 931,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 931,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 931,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 931,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 643,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 643,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 643,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 643,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 643,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 643,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 643,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 643,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1000,
+    "steps": 112,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1000,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 146,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 146,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 146,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 146,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 146,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 146,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 146,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 146,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 672,
+    "steps": 44,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 672,
+    "steps": 44,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 672,
+    "steps": 44,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 672,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 672,
+    "steps": 46,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 672,
+    "steps": 44,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 672,
+    "steps": 69,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 672,
+    "steps": 69,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 623,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 623,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 623,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 623,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 623,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 623,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 623,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 623,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 847,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 847,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 847,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 847,
+    "steps": 68,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 847,
+    "steps": 89,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 847,
+    "steps": 89,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 847,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 847,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 175,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 175,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 175,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 175,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 175,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 175,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 175,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 175,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 553,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 553,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 553,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 553,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 553,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 553,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 553,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 553,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1334,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1570,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 361,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 361,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 361,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 361,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 361,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 361,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 361,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 361,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 658,
+    "steps": 15,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "ordinary",
+    "native_success": 1,
+    "prefix": 2,
+    "reference": 658,
+    "steps": 13,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "bayesian",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 658,
+    "steps": 15,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 658,
+    "steps": 13,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 658,
+    "steps": 13,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 658,
+    "steps": 15,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 658,
+    "steps": 15,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 658,
+    "steps": 15,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "ordinary",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1219,
+    "steps": 30,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1219,
+    "steps": 46,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1219,
+    "steps": 20,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1219,
+    "steps": 30,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1219,
+    "steps": 46,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1219,
+    "steps": 30,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1219,
+    "steps": 37,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1219,
+    "steps": 46,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 5,
+    "steps": 39,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 5,
+    "steps": 48,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 5,
+    "steps": 39,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 5,
+    "steps": 42,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 5,
+    "steps": 44,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 5,
+    "steps": 44,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 5,
+    "steps": 39,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 5,
+    "steps": 42,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1234,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1234,
+    "steps": 99,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1234,
+    "steps": 57,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1234,
+    "steps": 99,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1234,
+    "steps": 57,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1234,
+    "steps": 57,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1234,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1234,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 592,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 592,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 592,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 592,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 592,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 592,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 592,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 592,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1236,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1160,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1393,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 784,
+    "steps": 29,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 784,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 784,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 784,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 784,
+    "steps": 18,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 784,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 784,
+    "steps": 28,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 784,
+    "steps": 28,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 213,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 213,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 213,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 213,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 213,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 213,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 213,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 213,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1391,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1247,
+    "steps": 19,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1247,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1247,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1247,
+    "steps": 14,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1247,
+    "steps": 14,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1247,
+    "steps": 14,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": true
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1247,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1247,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1031,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 880,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 880,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 880,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 880,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 880,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 880,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 880,
+    "steps": 48,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 880,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 911,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 911,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 911,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 911,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 911,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 911,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 911,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 911,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1005,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 662,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 662,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 662,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 662,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 662,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 662,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 662,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 662,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 1,
+    "reference": 1493,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 1,
+    "prefix": 2,
+    "reference": 1493,
+    "steps": 24,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1493,
+    "steps": 27,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 1,
+    "prefix": null,
+    "reference": 1493,
+    "steps": 24,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1493,
+    "steps": 24,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 1,
+    "prefix": 0,
+    "reference": 1493,
+    "steps": 24,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1493,
+    "steps": 20,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 3,
+    "reference": 1493,
+    "steps": 24,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 0,
+    "prefix": 2,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": 1,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 0,
+    "prefix": 3,
+    "reference": 1598,
+    "steps": 150,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "early-replan",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1326,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "vanilla",
+    "native_success": 0,
+    "prefix": null,
+    "reference": 1326,
+    "steps": 150,
+    "suffix": null,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "static",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1326,
+    "steps": 60,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "passive",
+    "native_success": 0,
+    "prefix": 0,
+    "reference": 1326,
+    "steps": 150,
+    "suffix": 0,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "active",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1326,
+    "steps": 60,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "no_update",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1326,
+    "steps": 60,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "ordinary",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1326,
+    "steps": 60,
+    "suffix": 2,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  },
+  {
+    "control": "bayesian",
+    "native_success": 1,
+    "prefix": 1,
+    "reference": 1326,
+    "steps": 43,
+    "suffix": 3,
+    "terminal_prefix": false,
+    "terminal_suffix": false
+  }
+]

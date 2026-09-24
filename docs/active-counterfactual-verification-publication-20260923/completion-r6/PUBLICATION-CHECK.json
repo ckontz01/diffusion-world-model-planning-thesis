@@ -1,0 +1,14 @@
+{
+  "status": "PASSED",
+  "unix": 1790222967.7845192,
+  "wall_seconds": 0.09399999999732245,
+  "scope": "Read-only publication arithmetic and hashes; no new bootstrap, experiment, transfer or whole-archive verification cycle",
+  "sources": 32,
+  "arms": 8,
+  "choices": 256,
+  "successful_tasks": 339,
+  "attempts": 340,
+  "report_sha256": "28fe9fa78fd6b6e4dad4059abb15092ad78d5f502d2c2470974cf594412bfacf",
+  "archive_sha256": "bd0f53b85c3de36376bc68a084d4fbc7cb5b0958943534a890d0ee9b2d70342b",
+  "publication_generator_note": "RESULTS-20260924.md includes editorial scope notes added after generation; sealed REPORT.json is unmodified"
+}

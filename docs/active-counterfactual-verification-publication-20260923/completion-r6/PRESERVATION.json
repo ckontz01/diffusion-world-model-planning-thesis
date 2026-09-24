@@ -1,0 +1,33 @@
+{
+  "archive_cpu_seconds": 4.945017271,
+  "archive_sha256": "bd0f53b85c3de36376bc68a084d4fbc7cb5b0958943534a890d0ee9b2d70342b",
+  "archive_wall_seconds": 5.067805130034685,
+  "backup_receipt_sha256": "180b319779520d4164e4e4b6d20ea5dede2879a8bd5fd504440cbcb8f085e994",
+  "bytes": 814663680,
+  "historical_archives_transferred": 0,
+  "members": 3308,
+  "r5_manifest": "aec0bcc8d628072bbc65f5aeb2ddb91acfb0474d5d46e347f97e207eeac982c6",
+  "r6_manifest": "f1542bafa0adab4716e15aec3e7c42977e89e97a80393a8ddb51cde87b7b433c",
+  "read_gate_unix": 1790222372.960864,
+  "request_sha256": "1628cc4d732734729818077238c47b8099c7041503262d8ff7d5796fc6abaea4",
+  "root_labels": [
+    "control",
+    "r2_control",
+    "r2_source",
+    "r3_control",
+    "r3_source",
+    "r4_control",
+    "r4_source",
+    "run",
+    "source",
+    "r5_source",
+    "r5_control",
+    "r6_source",
+    "r6_control"
+  ],
+  "scientific_aggregate_first_opened_after_verified_backup": true,
+  "source_manifest": "c2c6fcbe8c41fed22d0fde17bcb5f8cd456a74c1cb0d77039f4df94d86e0d468",
+  "ssd": "D:\\THESIS-BACKUPS\\active-counterfactual-verification-pilot-v1\\run-c2c6fcbe8c41fed2",
+  "transfer_wall_seconds": 75.48399999999674,
+  "worker_approval": "e1e4b6f6d0e0d1fbb83e89d165be793128f02130647e21a1c12c5892d7d90460"
+}
