@@ -1,0 +1,1 @@
+The user explicitly answered yes to increasing only the ACVM1 aggregate CPU-stage ceiling from 36,000 to 36,008 allocation-wall seconds and fixing the diagnosed study tree.py import ordering, then launching one finite replacement continuation. All scientific, per-job, GPU, data-role, storage, information-barrier and no-blind-retry restrictions remain unchanged.

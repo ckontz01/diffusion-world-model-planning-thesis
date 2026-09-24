@@ -1,0 +1,6 @@
+{"label":"r2-integration-01","state":"started","record_basis":"retrospective terminal output; exact start timestamp unavailable"}
+{"label":"r2-integration-01","state":"finished","passed":true,"wall_seconds":129.49,"record_basis":"retrospective terminal output; preserved in TEST-RECEIPT-01.json"}
+{"label":"r2-integration-02","state":"started","unix":1790261524.541328}
+{"label":"r2-integration-02","passed":true,"peak_job_memory_bytes":0,"state":"finished","unix":1790261649.5577903,"wall_seconds":125.03099999998813}
+{"label":"r2-integration-03","state":"started","unix":1790261700.7797682}
+{"label":"r2-integration-03","passed":true,"peak_job_memory_bytes":0,"state":"finished","unix":1790261866.783717,"wall_seconds":166.0}
