@@ -1,0 +1,105 @@
+--- runtime-v2/worker.py
++++ control-r1/worker_r1.py
+@@ -1,4 +1,5 @@
+ """Production CPU fit/analysis and GPU evaluation entry point. Disabled by default."""
++import r1 as r
+ import common as c
+ import argparse
+ import io
+@@ -65,13 +66,13 @@
+ 
+ def main():
+     p=argparse.ArgumentParser();p.add_argument('--approval',required=True);p.add_argument('--run',required=True);p.add_argument('--task',required=True);a=p.parse_args()
+-    auth=c.Authorization(a.approval,a.run);spec=next(j for j in c.grid() if j['key']==a.task)
++    ctx=r.Context(os.environ['ACVM_R1_APPROVAL']);c.require(a.approval==str(ctx.worker_approval) and a.run==str(ctx.run),'Recovery worker invocation');auth=ctx.auth;spec=next(j for j in c.grid() if j['key']==a.task)
+     c.require(os.environ.get('SLURM_JOB_ID','').isdigit() and os.environ.get('SLURM_CPUS_PER_TASK')=='4','Allocated worker only')
+     started=time.monotonic();cpu=time.process_time();out=auth.run/spec['key'];out.mkdir(exist_ok=False)
+     def timeout(*_):raise TimeoutError('Work timeout: retain partial evidence, no retry')
+     signal.signal(signal.SIGALRM,timeout);signal.signal(signal.SIGTERM,timeout);signal.alarm(spec['work_seconds'])
+     try:
+-        claim=auth.run/'submissions'/(spec['key']+'.json')
++        claim=auth.run/'submissions-r1'/(spec['key']+'.json')
+         while not claim.exists() and time.monotonic()-started<40:time.sleep(.2)
+         r=c.read(claim);c.require(r==dict(job=os.environ['SLURM_JOB_ID'],spec=spec,package=auth.approval['package_sha256']),'Exact submitted allocation association')
+         auth.runtime()
+@@ -86,7 +87,7 @@
+                 extra=analyze(auth,out)
+         import resource
+         c.write(out/'TECHNICAL.json',dict(passed=True,spec=spec,package=auth.approval['package_sha256'],approval=auth.approval_sha,
+-                job=os.environ['SLURM_JOB_ID'],hard_seconds=spec['seconds'],work_seconds=spec['work_seconds'],
++                recovery_approval=ctx.approval_sha,job=os.environ['SLURM_JOB_ID'],hard_seconds=spec['seconds'],work_seconds=spec['work_seconds'],
+                 worker_wall_seconds=time.monotonic()-started,process_cpu_seconds=time.process_time()-cpu,
+                 peak_process_rss_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,
+                 rss_scope='worker-process high-water RSS, not total node memory',**extra))
+--- runtime-v2/dispatch.py
++++ control-r1/campaign_r1.py
+@@ -1,4 +1,5 @@
+ """One-shot serial dispatcher. A restart is NEVER a resubmission strategy."""
++import r1 as r
+ import common as c
+ import argparse
+ import os
+@@ -74,7 +75,7 @@
+             # Claim durable before scheduler side effect. Any ambiguity is irrevocably fail-stop.
+             job=sched.submit(spec)
+             event('submitted',key=spec['key'],job=job)
+-            c.write(auth.run/'submissions'/(spec['key']+'.json'),dict(job=job,spec=spec,package=auth.approval['package_sha256']))
++            c.write(auth.run/'submissions-r1'/(spec['key']+'.json'),dict(job=job,spec=spec,package=auth.approval['package_sha256']))
+             row=sched.terminal(job,spec)
+             # Charge BEFORE state, hardware or evidence validation; preserve terminal faults.
+             event('terminal',key=spec['key'],row=row); terminals[spec['key']]={'row':row}
+@@ -102,4 +103,4 @@
+              reuse=lambda:reuse(auth),freeze=lambda:freeze(auth.run,auth.approval['package_sha256']),
+              gate=lambda:acceptance.gate(auth.run,c.grid()),
+              storage_check=lambda done:storage.check(c.REPO,control,auth.run,c.grid(),done))
+-if __name__=='__main__':main()
++if __name__=='__main__':raise SystemExit('Use controller.py with separate recovery authority')
+--- runtime-v2/acceptance.py
++++ control-r1/acceptance_r1.py
+@@ -1,4 +1,5 @@
+ """Independent byte/technical acceptance; no efficacy-based continuation."""
++import r1 as r
+ import common as c
+ import scheduler as s
+ import time
+@@ -12,7 +13,7 @@
+     c.require(t['job']==row['job'] and t['hard_seconds']==spec['seconds'] and t['work_seconds']==spec['work_seconds'],'Worker identity/time')
+     c.require(c.bytes_in(root)<=spec['byte_cap'],'Complete worker seal footprint')
+     for suffix in ('.slurm.out','.slurm.err','.out','.err'):
+-        log=run/'logs'/(spec['key']+suffix)
++        log=r.slurm_log(run,spec['key'],suffix)
+         c.require(log.is_file() and log.stat().st_size<=4096,'Bounded complete worker/container/Slurm logs')
+     c.require(t['peak_process_rss_bytes']<=spec['ram_gib']*(1<<30),'RSS envelope')
+     if spec['gpu']:
+@@ -71,7 +72,7 @@
+ 
+ def full(auth,control,rows,resolution=None):
+     jobs=c.grid(); state=ledger(control,jobs,False)
+-    allowed={j['key'] for j in jobs}|{'reused','submissions','logs','ALL-MODELS-FROZEN.json','TECHNICAL-TRANCHE-PASSED.json'}
++    allowed={j['key'] for j in jobs}|{'reused','submissions','submissions-r1','logs','ALL-MODELS-FROZEN.json','TECHNICAL-TRANCHE-PASSED.json'}
+     c.require({p.name for p in auth.run.iterdir()}<=allowed,'Unrecognized run artifact/extra task')
+     expected={j['key'] for j in jobs}; c.require(set(state['claimed'])==set(state['terminal'])==expected,'All claimed tasks terminal, no ambiguity')
+     raw={r['job']:r for r in rows}; c.require(len(rows)==len(raw)==len(jobs) and set(raw)=={e['job'] for e in state['submitted'].values()},'Independent exact allocation set')
+--- runtime-v2/preserve.py
++++ control-r1/preserve_r1.py
+@@ -1,4 +1,5 @@
+ """Exclusive archive and native-Windows transfer; hashes EVERY regular member."""
++import r1 as r
+ import common as c
+ import argparse
+ import hashlib
+@@ -55,7 +56,7 @@
+         c.verify_seal(auth.run/r['key'])
+     c.write(out/'ARCHIVE-INTENT.json',dict(unix=time.time(),acceptance=c.sha(acceptance),attempt=1))
+     try:
+-        roots=dict(source=c.REPO,control=control,run=auth.run)
++        ctx=r.Context(control/'EXECUTION-APPROVAL.json');r.baseline(ctx);roots=dict(science_source=c.REPO,recovery_source=r.ROOT,original_control=ctx.old_control,recovery_control=control,run=auth.run)
+         items,paths=inventory(roots,start+7200)
+         c.require(len(items)<=MAX_MEMBERS and sum(x['bytes'] for x in items.values())+TAR_OVERHEAD<=c.caps()['archive_bytes'],'Complete archive reserve')
+         partial=out/'final.tar.partial'
+@@ -128,4 +129,4 @@
+     auth=c.Authorization(a.approval,a.run)
+     if a.operation=='archive':print(archive(auth,Path(a.control),Path(a.acceptance)))
+     else:print(backup(auth,a.request))
+-if __name__=='__main__':main()
++if __name__=='__main__':raise SystemExit('Use preserve_entry.py with separate recovery authority')
