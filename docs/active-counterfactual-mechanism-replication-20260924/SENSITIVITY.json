@@ -1,0 +1,29 @@
+{
+  "assumption": "single-pair Bernoulli difference variance <= discordance; no extra independence or gain from three model seeds assumed",
+  "fixed_effect_size_of_interest": 0.05,
+  "guaranteed_power": false,
+  "hoeffding_family7_halfwidth": 0.14836069859427017,
+  "interaction_halfwidth": 0.29672139718854035,
+  "normal_80pct_two_sided_bonferroni7": [
+    {
+      "conservative_difference_scale": 0.0349009790199737,
+      "discordance": 0.05
+    },
+    {
+      "conservative_difference_scale": 0.04935743787014566,
+      "discordance": 0.1
+    },
+    {
+      "conservative_difference_scale": 0.07804096156995519,
+      "discordance": 0.25
+    },
+    {
+      "conservative_difference_scale": 0.11036658627286813,
+      "discordance": 0.5
+    },
+    {
+      "conservative_difference_scale": 0.15608192313991037,
+      "discordance": 1.0
+    }
+  ]
+}

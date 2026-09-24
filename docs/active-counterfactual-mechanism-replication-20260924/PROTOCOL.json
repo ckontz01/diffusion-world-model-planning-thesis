@@ -1,0 +1,170 @@
+{
+  "attempts": {
+    "automatic_retry": false,
+    "failure_rule": "fail-stop, preserve/account all attempts; no replacement or budget extension in this proposal",
+    "max_cpu_allocations": 5,
+    "max_gpu_allocations": 8192,
+    "requeue": false
+  },
+  "authorized": false,
+  "baseline_repetitions": 1,
+  "bootstrap_samples": 10000,
+  "bootstrap_seed": 94431,
+  "execution_gate": "Separate explicit execution authorization + immutable new source/input/model/grid/approval hashes + backed-up small package; no current launch capability.",
+  "external_seed_independent_arm": "early-replan",
+  "family": [
+    "active-minus-no_update",
+    "active-minus-committed_feedback",
+    "committed_feedback-minus-static",
+    "no_update-minus-static",
+    "feedback-by-prefix-interaction",
+    "active-minus-ordinary",
+    "active-minus-early-replan"
+  ],
+  "familywise_alpha": 0.05,
+  "learned_arms": [
+    "static",
+    "committed_feedback",
+    "no_update",
+    "active",
+    "ordinary"
+  ],
+  "namespace": "active-counterfactual-mechanism-replication-v1",
+  "new_collection_jobs": 0,
+  "new_fits": 4,
+  "old_final32_in_primary": false,
+  "original_pair_reused": true,
+  "original_result_commit": "5d8666754ad8aa0507730f86cf3ee6caa32c105a",
+  "other_prespecified_contrasts": [
+    "committed_feedback-minus-static",
+    "no_update-minus-static",
+    "feedback-by-prefix-interaction",
+    "active-minus-ordinary",
+    "active-minus-early-replan"
+  ],
+  "pairing": {
+    "environment_seed": "exact registry environment_seed, identical across16 cells of a source",
+    "planner_seed": [
+      94041,
+      "reference_index",
+      "absolute_clock"
+    ],
+    "response_integration_seed": 94021,
+    "response_samples_per_prefix": 128,
+    "seeds_are_not_independent_sources": true,
+    "tree_check": "exact candidate actions/predicted features across learned arms and model seeds",
+    "tree_seed": [
+      94001,
+      "prefix-content-hash32"
+    ]
+  },
+  "primary_mechanism_contrasts": [
+    "active-minus-no_update",
+    "active-minus-committed_feedback"
+  ],
+  "resources": {
+    "archive_bytes": 18500000000,
+    "archive_cpus": 4,
+    "archive_ram_gib": 8,
+    "archive_wall_seconds": 7200,
+    "cpu_core_seconds_reservation": 144000,
+    "cpu_job_cpus": 4,
+    "cpu_job_ram_gib": 8,
+    "cpu_job_seconds": 7200,
+    "cpu_stage_allocation_seconds": 36000,
+    "evaluation_output_bytes": 16384000000,
+    "gpu_allocation_seconds": 2457600,
+    "gpu_concurrency": 1,
+    "gpu_job_cpus": 4,
+    "gpu_job_ram_gib": 24,
+    "gpu_job_seconds": 300,
+    "gpu_type": "NVIDIA RTX 6000 Ada Generation",
+    "inclusive_bytes": 80000000000,
+    "live_bytes": 18000000000,
+    "node": "gpu09",
+    "postpreservation_reporting_cpu_seconds": 7200,
+    "preservation_host_seconds": 28800,
+    "required_ssd_free_bytes": 40000000000,
+    "source_models_control_analysis_bytes": 1000000000,
+    "stream_bytes_cap": 18500000000,
+    "transfer_attempts": 1,
+    "transfer_wall_seconds": 14400
+  },
+  "seed_pairs": [
+    {
+      "joint_key": "fit-pair0-joint",
+      "joint_seed": 94011,
+      "ordinary_key": "fit-pair0-ordinary",
+      "ordinary_seed": 94012,
+      "pair": 0
+    },
+    {
+      "joint_key": "fit-pair1-joint",
+      "joint_seed": 94411,
+      "ordinary_key": "fit-pair1-ordinary",
+      "ordinary_seed": 94412,
+      "pair": 1
+    },
+    {
+      "joint_key": "fit-pair2-joint",
+      "joint_seed": 94421,
+      "ordinary_key": "fit-pair2-ordinary",
+      "ordinary_seed": 94422,
+      "pair": 2
+    }
+  ],
+  "sensitivity": {
+    "assumption": "single-pair Bernoulli difference variance <= discordance; no extra independence or gain from three model seeds assumed",
+    "fixed_effect_size_of_interest": 0.05,
+    "guaranteed_power": false,
+    "hoeffding_family7_halfwidth": 0.14836069859427017,
+    "interaction_halfwidth": 0.29672139718854035,
+    "normal_80pct_two_sided_bonferroni7": [
+      {
+        "conservative_difference_scale": 0.0349009790199737,
+        "discordance": 0.05
+      },
+      {
+        "conservative_difference_scale": 0.04935743787014566,
+        "discordance": 0.1
+      },
+      {
+        "conservative_difference_scale": 0.07804096156995519,
+        "discordance": 0.25
+      },
+      {
+        "conservative_difference_scale": 0.11036658627286813,
+        "discordance": 0.5
+      },
+      {
+        "conservative_difference_scale": 0.15608192313991037,
+        "discordance": 1.0
+      }
+    ]
+  },
+  "source_count": 512,
+  "status": "PREPARATION_ONLY_EXECUTION_DISABLED",
+  "stopping": "No interim efficacy inspection or optional stopping. Stop on any unresolved task/seal/hardware/identity/accounting/resource fault. Terminal prefix is normal. Poor outcomes are not faults.",
+  "storage_policy": "Reserve all remaining worker caps plus tar headers and both live/archive/SSD partial or final, retained partials and <=1GB reused input/provenance allowance; never delete old artifacts to fit.",
+  "training": {
+    "batch_sources": 64,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "checkpoint": "final192 only",
+    "early_stopping": false,
+    "epsilon": 1e-08,
+    "fit_sources": 64,
+    "gradient_norm_cap": 5,
+    "learning_rate": 0.001,
+    "model_selection": false,
+    "preprocessing": "identical authenticated fit64-only statistics; no recomputation from evaluation",
+    "shuffle_seed": 94013,
+    "update_count": 192,
+    "validation_sources": 16,
+    "weight_decay": 0
+  },
+  "unique_outcomes": 8192,
+  "unique_tasks": 8197
+}

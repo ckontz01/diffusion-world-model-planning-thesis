@@ -1,0 +1,54 @@
+{
+  "docs/active-counterfactual-verification-20260923/DATA-ROLES-PROPOSED.json": {
+    "bytes": 71132,
+    "sha256": "2c56493ab51011c4c37f30f45fc3f207f44dfb63bfc83a88e99ba70c98ef8c64"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/INPUT-BINDINGS.json": {
+    "bytes": 58394,
+    "sha256": "45a50874435617c7f5cc31eff865cd923b2970d6eaa808697c05c418154aa1df"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/artificial.py": {
+    "bytes": 5892,
+    "sha256": "9f24943848210ce0340d9b9edaaab3a2a745d1958c644af60ca83beb14c7a05e"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/bridge.py": {
+    "bytes": 10151,
+    "sha256": "c8ad8611f2f629b1ad82fc15a659596c59a21a8952ee07028f3ef0b44881c9d7"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/common.py": {
+    "bytes": 6474,
+    "sha256": "4065dd1e9bb1fe4f4c696361e719128a5cda68c574a4bf29168505d8b558df55"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/episodes.py": {
+    "bytes": 10735,
+    "sha256": "5f09b7c5c23b9c3ec947dec9e32f216a8a83e6422d379bbba5637b7e96712edc"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/fitting.py": {
+    "bytes": 5992,
+    "sha256": "c4fa3ee50cdcbac0267d10bb62d62ab7d8ccd16d8040d1043ebdf80109e060e1"
+  },
+  "docs/active-counterfactual-verification-20260923/bindings-r1/verify.py": {
+    "bytes": 10082,
+    "sha256": "9186389548b9beee19684b99cec0f1f61c97e0dba744eec715529682de6f488d"
+  },
+  "docs/active-counterfactual-verification-20260923/mock.py": {
+    "bytes": 7955,
+    "sha256": "a68af7a8d16f9b8a32c47d9834209f3dd2c726a7f539d85982406bcd0f2f0482"
+  },
+  "docs/active-counterfactual-verification-20260923/model.py": {
+    "bytes": 12419,
+    "sha256": "d070acbd69170036fc2cd52a49a7d9eed255e2a1aaf763c55701e087cd93ac15"
+  },
+  "docs/active-counterfactual-verification-20260923/policy.py": {
+    "bytes": 8101,
+    "sha256": "753271dcce8f1e7c21a665e215c4aee2e6a5a8f8098fe6d816a75e2b93a38453"
+  },
+  "docs/active-counterfactual-verification-20260923/runtime_adapter.py": {
+    "bytes": 3154,
+    "sha256": "76dbb5886bf952e340ad99edd8175d98a4e4d10d0a19d9caa1f754b7cfb61654"
+  },
+  "docs/active-counterfactual-verification-20260923/tree.py": {
+    "bytes": 7782,
+    "sha256": "e76d05b9e13f78f1dc6568cbe56b8ee23b35528fc1049f11858302aa8c2cf871"
+  }
+}

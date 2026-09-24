@@ -1,0 +1,7 @@
+# Preparation audit notes
+
+The new controller is a separate wrapper; original policy/model/tree/fitting/episode hashes are checked on import. Original static/active/no_update/passive/ordinary decision and accounting behavior is tested unchanged. The new control retains the static selector's integration work for a matched accounting convention, although those integrated values do not choose its prefix; the `Decision.values` field retains that legacy diagnostic convention. Prefix selection uses the committed marginal outcome, not these diagnostic active scores.
+
+The first attempt to start the metadata reconciliation wrapper overlapped the saved-data analysis. The append-only runner correctly refused it with `AssertionError: Unreconciled attempt` before recording a start or issuing any SSH query. After the saved-data analysis completed, the one metadata query ran successfully. No experiment, saved-data analysis or query was duplicated; no resource interlock was weakened. The rejected wrapper consumed less than one second of process wall time; reserve one additional preparation second in the final accounting beyond the measured child attempts.
+
+The saved-data report was run once. The report-rendering and independent JSON consistency checks do not rerun predictors, physical traces or the original statistical analysis. No original file, archive, receipt or monitor configuration is edited by this task.
