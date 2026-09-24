@@ -1,0 +1,75 @@
+{
+  "commit": "bb181cc6b6c60770898afacdcca3fb9e604c90c1",
+  "scope": "source-excerpt tests with artificial data/mocked runtime; no full-suite rerun",
+  "scheduler_submissions": 0,
+  "research_model_loads": 0,
+  "physics_steps": 0,
+  "batch_script_operand_checks": [
+    {
+      "gpu": 0,
+      "first_script_operand": "/bin/bash",
+      "intended_script": "/tmp/tmp9fk9nkgd/package/run_worker.sh",
+      "operand_magic_hex": "7f454c46",
+      "intended_script_starts_hashbang": true
+    },
+    {
+      "gpu": 1,
+      "first_script_operand": "/bin/bash",
+      "intended_script": "/tmp/tmp9fk9nkgd/package/run_worker.sh",
+      "operand_magic_hex": "7f454c46",
+      "intended_script_starts_hashbang": true
+    }
+  ],
+  "authenticated_reader_checks": [
+    {
+      "control": "static",
+      "failure": "KeyError('initial_sha256')",
+      "missing_keys": [
+        "initial_sha256",
+        "goal_sha256"
+      ]
+    },
+    {
+      "control": "committed_feedback",
+      "failure": "KeyError('initial_sha256')",
+      "missing_keys": [
+        "initial_sha256",
+        "goal_sha256"
+      ]
+    },
+    {
+      "control": "no_update",
+      "failure": "KeyError('initial_sha256')",
+      "missing_keys": [
+        "initial_sha256",
+        "goal_sha256"
+      ]
+    },
+    {
+      "control": "active",
+      "failure": "KeyError('initial_sha256')",
+      "missing_keys": [
+        "initial_sha256",
+        "goal_sha256"
+      ]
+    },
+    {
+      "control": "ordinary",
+      "failure": "KeyError('initial_sha256')",
+      "missing_keys": [
+        "initial_sha256",
+        "goal_sha256"
+      ]
+    },
+    {
+      "control": "early-replan",
+      "failure": "KeyError('initial_sha256')",
+      "missing_keys": [
+        "initial_sha256",
+        "goal_sha256"
+      ]
+    }
+  ],
+  "supplying_both_missing_fields_resolves_isolated_reader_failure": true,
+  "all_expected_probe_checks_passed": true
+}
