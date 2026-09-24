@@ -1,0 +1,33 @@
+{
+  "status": "IMPLEMENTED_AND_ARTIFICIALLY_TESTED_NOT_FROZEN",
+  "reviewed_preparation": "70e359258d0763a29be40831998696e2ca7a9d0d",
+  "execution_enabled": false,
+  "live_metadata_reconciliation": "BLOCKED_DESIGNATED_SSD_DISCONNECTED",
+  "small_package_ssd_backup": "NOT_PERFORMED_DESIGNATED_SSD_DISCONNECTED",
+  "integration_tests": 19,
+  "preservation_workflow_passed": true,
+  "cumulative_local_scripted_wall_seconds": 949.5940000000119,
+  "peak_job_memory_bytes": 352030720,
+  "retained_artifact_bytes": 360341,
+  "research_fits": 0,
+  "research_gpu_jobs": 0,
+  "new_evaluation_payload_reads": 0,
+  "simulator_calls": 0,
+  "scientific_design_changed": false,
+  "saved_data_analysis_repeated": false,
+  "original_scientific_modules_changed": false,
+  "tests_sha256": "f9310494b69f412f6d7ce60ce26af19643ba534f81b791de03b277dd648264f8",
+  "preservation_test_sha256": "a476ff72723ab2a0a6721083bd66737669c0af995bb6ad8a67c0682ec28f78c1",
+  "bindings": {
+    "INPUT-BINDINGS.json": "d8efe00e2ff4280e0fa2940f98147aef73e54cf4b89801fad962faf98da3a934",
+    "ROLES.json": "9f29e18f5598110b562e7c5489a55a881ccea4a712f22dac993ae1224887941a",
+    "MODEL-REUSE.json": "cb98fc034ca92960da82dfaad6cfaf8b89a6488f25aa23236c6f405ba7695380",
+    "CONTROLLER-RUNTIME.json": "7185900aa773914073574bc60c28244b59b66b9ad7a15f28b083d6276b5242e5",
+    "RECONCILIATION.json": "19c12ca6c3780de2f5104830883a99cdc473bfaa08217ee2bc30faa947b84eb1",
+    "REPORTING-CONTRACT.json": "0230637833cfbf89b4b6843eedc1017d2d6c7e4bf8475c5dcdf718bd1bde012a",
+    "FOOTPRINT.json": "ebed1a507e555db3f99b98d19a2b822a23f2062341c59775c08758a3ada1de51",
+    "reviewed_GRID.json": "21716e2c8233e6c9c8a2b3521829b4e4a1b8305a46e1ec1ad809a48e3dcd29bc",
+    "reviewed_PROTOCOL.json": "6fdaa15c844e046fc46fe1ec4afa62e56f35550ae68904de0bf11ade908734cc"
+  },
+  "bindings_status": "Recorded local byte identities; NOT a completed runtime source freeze."
+}
