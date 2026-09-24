@@ -1,0 +1,1 @@
+{"end_unix":1790221646.0503592,"returncode":0,"start_unix":1790221629.3614962,"stderr":"","stdout":"{\"successful_tasks\": 339, \"attempts\": 340, \"gpu_seconds\": 19365, \"cpu_stage_seconds\": 52, \"completion_sha256\": \"a3df3959960154cd7e39d4f0868488142ddc2b8f388344a9c4947609d2b30f59\"}\n"}
