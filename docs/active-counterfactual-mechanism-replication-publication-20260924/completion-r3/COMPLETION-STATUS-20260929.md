@@ -1,0 +1,17 @@
+# ACVM1 computation accepted; first SSD transfer in progress
+
+Status recorded on 29 September 2026 while the first native SSD transfer was running. This is a historical receipt; read the exact transfer records below for current status. Do not start another transfer or archive from this document.
+
+- Computation completed at 2026-09-29 13:57:03 UTC, Unix 1790690223.1612318. All 8192 evaluation episodes and all 8197 successful logical tasks completed. The last analysis allocation was 312870. R3 controller 2859603/start_ticks902007058 exited; stderr was empty, no R3 STOP, no unaccepted or ambiguous submission.
+- Independent frozen R3 finalization ran once and passed at Unix 1790694987.190904. It reconciled all 8199 allocation attempts, including historical failures 304589/0 seconds and 304591/8 seconds, and carried successful R2 fit 304593 without repetition. GPU allocation 265130 seconds; CPU-stage allocation-wall 6496 seconds. Final acceptance SHA256: `8f896135824a282294de61d2aa1c20d331595bd2ce031e49789825e0844cea23`.
+- Frozen R3 archive ran once successfully in 191.95279833488166 wall seconds. The nine-root final archive is 10440048640 bytes / 90382 regular members, SHA256 `02e55e2bd0c6a1671e4da179869ac5ac4cfd3475e9d712b1a3f420e357370310`.
+- Remote archive/request directory: `/lustreFS/data/superworld/ckontzias/thesis/experiments/active-counterfactual-mechanism-replication-v1/run-9f91156fd11a5d54-preservation`.
+- First and only SSD transfer was invoked through unchanged `control-r3/transport.py backup`, with local receipt name `BACKUP-20260929.json`. TRANSFER-INTENT Unix 1790695219.8987274. Request SHA256 `32f9c46fcdbb51691d43be53c9a77fbb7269853b38df6051817cfe2d92eb52c7`.
+- Exact native destination: `D:/THESIS-BACKUPS/active-counterfactual-mechanism-replication-v1/run-9f91156fd11a5d54`. Designated THESIS_SSD volume `0a2f1ba9-0000-0000-0000-100000000000`, initial free bytes 322748841984. At the initial observation 405798912 bytes had reached `final.tar.partial`; this figure is not current progress.
+- The running backup itself verifies the streamed whole-file hash, every member, and a further whole-file readback before renaming the partial and writing `BACKUP-VERIFIED.json`. It retains partials and writes `BACKUP-FAILURE.json` on failure. No retry, fallback, overwrite or recomputation is implied by this receipt.
+
+## Remaining completion work
+
+First inspect the existing destination and the running transfer; do not invoke backup again. The current command was started in local execution session 22683. On verified completion, check both the frozen `recovery-r3/BACKUP-20260929.json` and destination `BACKUP-VERIFIED.json` against the archive/request identities above. Scientific aggregates have not yet been opened.
+
+`read_preserved.py` and `publish.py` in this directory are new, unrun publication helpers, outside every frozen execution closure. Their syntax was checked without reading scientific data. Run them only after the actual SSD gate passes; they authenticate selected archived members and present the existing sealed analysis without fitting, physics or a bootstrap rerun. Verify the complete publication and interpretations, commit/push with exact remote readback, and perform the previously authorized complete handoff to the exact selected conversation. Do not report the study as fully preserved until the SSD verification exists and passes. The user-paused scheduled monitor has not been restarted.

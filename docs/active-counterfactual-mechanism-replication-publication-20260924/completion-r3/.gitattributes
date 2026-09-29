@@ -1,0 +1,4 @@
+# Preserve authenticated serialized bytes, including on Windows checkout.
+*.json -text
+*.md text eol=lf
+*.py text eol=lf

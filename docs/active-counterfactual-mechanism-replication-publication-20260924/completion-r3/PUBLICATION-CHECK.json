@@ -1,0 +1,12 @@
+{
+  "analysis_rerun": false,
+  "attempts": 8199,
+  "episodes": 8192,
+  "fixed_contrasts": 7,
+  "fixed_seed_pairs": 3,
+  "passed": true,
+  "report_sha256": "13749ea4a9c32250abbf7fa99cf209cf266349e933bec9fa7cf755e915c9ceeb",
+  "source_count": 512,
+  "source_is_unit": true,
+  "successful_tasks": 8197
+}
