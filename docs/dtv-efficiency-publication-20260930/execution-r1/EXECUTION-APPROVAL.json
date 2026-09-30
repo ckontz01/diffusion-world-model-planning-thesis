@@ -1,0 +1,11 @@
+{
+  "study": "DTV-EFF0",
+  "version": "control-correction-r1",
+  "execute": true,
+  "research_execution_authorized": true,
+  "preparation_only": false,
+  "bindings_sha256": "cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68",
+  "package_manifest_sha256": "8d3ebff35241a01f7bf55a111a03881143ac36d57f996b7a8cb5f2e7130e8a30",
+  "authorization_record": "/lustreFS/data/superworld/ckontzias/thesis/staging/dtv-efficiency-20260930-8d3ebff35241a01f/AUTHORIZATION.json",
+  "authorization_record_sha256": "3ca9c58e9bd4b31f502e884d063f2a0dac8c44d7cec73aefc71446815e5737c5"
+}

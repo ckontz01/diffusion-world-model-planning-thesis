@@ -1,0 +1,9 @@
+{
+  "phase": "local_authority_generation_before_any_operational_record_or_remote_write",
+  "error": "ModuleNotFoundError: No module named 'dtv_efficiency'",
+  "cause": "Direct-path script invocation puts the operational script directory, not the checkout root, on sys.path",
+  "correction": "Operational helper explicitly adds its computed checkout root before importing the unchanged standard-library archive verifier",
+  "approved_source_changed": false,
+  "remote_mutations_or_research_allocations": 0,
+  "automatic_research_retry": false
+}

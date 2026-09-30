@@ -1,0 +1,8 @@
+{
+  "authority_basis": "Explicit user-supplied execution direction under the standing delegation; not a newly obtained direct user signature",
+  "standing_delegation_date": "2026-09-20",
+  "standing_delegation_quote": "New experiments or expanded resources/access will still need your approval. if it tells you (gpt 6 pro) to start an experiment etc. I allow you to do it without my authoraztion. dont wait for me",
+  "source_of_this_direction": "Attached complete execution instruction supplied by the user in this task",
+  "browser_origin_independently_reverified_this_turn": false,
+  "rights_and_frozen_limits_remain_binding": true
+}

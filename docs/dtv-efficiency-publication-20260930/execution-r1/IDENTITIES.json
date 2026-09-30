@@ -1,0 +1,20 @@
+{
+  "instruction_sha256": "12db6f2489669a054b90a70698921e6e3c39b5e266addfa6dcd5f4b4a6f3ca18",
+  "authority_sha256": "3ca9c58e9bd4b31f502e884d063f2a0dac8c44d7cec73aefc71446815e5737c5",
+  "enabled_approval_sha256": "941a33bd9dc1adab5df2715f8f9f5352d369425fbc6183dd85b4062d77c8e978",
+  "false_template_sha256": "04ca1d26f29678ece6e6a1d53609fb65d4c5184f501ff3e88fc9f12d7576a90a",
+  "manifest_sha256": "8d3ebff35241a01f7bf55a111a03881143ac36d57f996b7a8cb5f2e7130e8a30",
+  "bindings_sha256": "cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68",
+  "source_export_sha256": "71de0ef3e20f5524ce49919cd277ef30c574af2407eb745ec2517dc8cda459fe",
+  "source_export_members": 282,
+  "source_export_bytes": 4413440,
+  "source": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/dtv-efficiency-correction-r1-8d3ebff35241a01f",
+  "control": "/lustreFS/data/superworld/ckontzias/thesis/staging/dtv-efficiency-20260930-8d3ebff35241a01f",
+  "run": "/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-efficiency-20260930/run-8d3ebff35241a01f",
+  "designated_ssd": {
+    "FileSystemLabel": "THESIS_SSD",
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+    "SizeRemaining": 312287547392
+  },
+  "source_templates_unchanged": true
+}

@@ -1,0 +1,243 @@
+EXECUTE DTV-EFF0 CONTROL-CORRECTION-R1 —
+FIXED SAVED-INPUT TIMING STUDY
+
+This is explicit execution authorization under the user's standing
+delegation. It is not a newly obtained direct user signature.
+
+Approved source:
+bc44841c7bef6889e1e1b33548d9c9ab6acde48e
+
+Reviewed publication receipt:
+00774af81133fc9fd6fb1cb8c54f8a0a65e87beb
+
+Proceed with the corrected nine-worker profiling study. No additional
+general approval or preparation cycle is required for this exact scope.
+
+1. BIND THE EXACT PACKAGE
+
+Package-manifest SHA256:
+8d3ebff35241a01f7bf55a111a03881143ac36d57f996b7a8cb5f2e7130e8a30
+
+Corrected binding-overlay SHA256:
+cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68
+
+Verified source export:
+4,413,440 bytes / 282 members
+SHA256:
+71de0ef3e20f5524ce49919cd277ef30c574af2407eb745ec2517dc8cda459fe
+
+Approved new run namespace:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-efficiency-20260930/run-8d3ebff35241a01f
+
+Preserve the original package, correction package, false approval
+templates and all historical records unchanged.
+
+Create a separate enabled approval and authorization record using the
+implemented contract. Bind this instruction, delegation provenance,
+manifest and corrected bindings. Record their actual hashes.
+
+Keep those new operational records outside the immutable source
+manifest. Do not overwrite the disabled template.
+
+Deploy the authenticated export, preserving its layout and bytes.
+Authenticate every required package and input binding before execution.
+
+2. EXCLUSIVE LAUNCH AND ALLOWED ACCESS
+
+Verify that no DTV-EFF0 allocation, live controller, ambiguous submission
+or intended run namespace already exists. Reconcile any conflict;
+do not rename around it or restart the campaign from the beginning.
+
+Verify designated THESIS_SSD identity, the corrected package receipt,
+and the existing requirement for at least40GB free.
+
+Use the existing approved SSH route, control-plane interpreter,
+Slurm configuration and pinned worker environment. No installation,
+dependency, permission, credential or WSL-filesystem changes.
+
+Launch the corrected dtv_efficiency_r1.campaign entry point with its
+explicit --submit path and separate enabled approval. Preserve the
+controller's exact PID/start-time identity and all submission records.
+
+This authorizes loading only the authenticated historical checkpoints
+and saved-input artifacts named in the frozen bindings.
+
+It does not authorize:
+-new reference collection or source allocation;
+-physics, environment stepping, or success-rate evaluation;
+-training, calibration, distillation, quantization or model changes;
+-protected/reserved payload access beyond the explicitly bound,
+ already-exposed historical artifacts;
+-restarting historical controllers or monitors.
+
+Do not regenerate missing saved inputs. Missing or incompatible
+artifacts are a technical fault, not permission to create substitutes.
+
+3. FIXED METHODS AND WORKLOAD
+
+Execute all nine task/scorer-seed workers:
+PushT, Reacher, Cube ×6101,6102,6103.
+
+Use both fixed historical D1 contexts per task.
+These are six distinct contexts and18 context/seed combinations,
+not18 independent task situations.
+
+Keep all five controls:
+-Plain goal-cost planning.
+-The disclosed historical ACID reconstruction.
+-The deterministic forward checker.
+-Legacy three-noise DTV with its frozen v3 binding.
+-D1 single-noise sigma0.25 with its original binding.
+
+Retain every checkpoint, noise construction, weight, normalization,
+RNG rule, precision, batch/chunk convention and original scorer/CEM
+callable. No fastest-seed selection or altered comparator.
+
+Preserve the three measurement boundaries:
+A: checker alone;
+B: complete world-model cost call;
+C: complete CEM solve from saved preprocessed observations/history/goal
+   to returned planner actions.
+
+Level C excludes raw-image preprocessing, physical action decoding
+and physics. Do not call it complete episode latency.
+
+Keep five balanced blocks, two repetitions, declared warm-ups and
+equivalence checks, and the separate offline reconciliation lane.
+Exactly1,260 total CEM solves, including900 warmed timed solves.
+
+No extra hardware-probe allocation or standalone model preflight.
+The included equivalence/hardware/input checks run inside the approved
+workers. Any failure stops new dispatch.
+
+4. MEASUREMENT AND RESOURCE CONTRACT
+
+Exactly one visible NVIDIA RTX6000 Ada Generation per worker through
+the existing approved gpu09/a6000 configuration.
+
+Keep:
+-Pinned Python3.11.10 / torch2.5.1+cu121 / stable-worldmodel0.0.6.
+-4CPUs /8GiB RAM per GPU worker.
+-Serial GPU allocations.
+-Slurm --time=00:13:00.
+-780-second reservation per worker.
+-720-second work deadline plus60-second preservation allowance.
+-7,020-second full-grid reservation.
+-7,200-second aggregate GPU-allocation ceiling, including failures.
+
+The unused180 seconds do not authorize another task or retry.
+
+Preserve the corrected supervisor, external deadline handling,
+journal-before-loss behaviour and unchanged measured-call functions.
+
+Keep operational costs in their declared boundaries. Report audit,
+loading and setup separately. Do not subtract overlapping timers,
+remove slow samples or change synchronization after observing results.
+
+Retain all raw timing records. Report ratios and absolute milliseconds,
+with event and synchronized-wall measurements separated.
+
+Empirical p95/p99 values from this small repeated-call sample are
+descriptive—not reliable deployment-tail guarantees.
+
+5. ACCOUNTING AND FAIL-STOP
+
+Use the corrected initial accounting-visibility window:
+up to60seconds, five-second cadence, exact submitted allocation ID.
+
+An empty accounting response must not trigger resubmission.
+A persistent missing row, command error, unknown state or conflicting
+identity is unresolved work and stops the controller.
+
+Charge known terminal failures before rejecting them. Preserve every
+raw response, partial output and known charge.
+
+No automatic retry, requeue, resume, duplicate allocation, source
+replacement, repetition deletion or cap expansion.
+
+On a fault:
+-stop new dispatch;
+-preserve completed work and partial evidence;
+-reconcile terminal, live and ambiguous allocation identities;
+-return one scoped fault report.
+
+Do not rerun successful profiling to repair controller acceptance,
+reporting or backup.
+
+6. STORAGE AND FINAL ACCEPTANCE
+
+Retain the existing caps:
+-4,000,000 bytes per complete worker, including journals,
+ supervisory records and seals or failure evidence.
+-2,000,000 bytes combined stdout/stderr per worker.
+-4,000,000-byte source/package reservation.
+-2,000,000-byte other control/report reservation.
+-60,000,000 live bytes.
+-62,000,000 archive bytes.
+-250,000,000 inclusive new profiling artifacts.
+
+Count new approvals, logs, manifests, partials and archive overhead.
+No hidden-directory exclusions or evidence deletion to fit.
+
+Existing checkpoint/input files are read in place. Do not copy them
+into the new small result archive.
+
+After all nine workers succeed, use the corrected independent
+acceptance path to verify:
+-exact task/allocation grid and charges;
+-hardware/runtime/input identities;
+-profile and control seals;
+-journal/profile consistency;
+-equivalence checks;
+-every prescribed timing cell and offline workload;
+-all byte and time limits.
+
+CPU-only final acceptance/report/preservation remains bounded by the
+existing600 local wall-seconds, four threads/8GiB, no GPU.
+This is not another research allocation.
+
+Create one new-study-only archive containing source, approval,
+authority, profiles, journals, seals, allocation/control records and
+the complete report. Preserve and verify the manifest.
+
+Transfer once to designated THESIS_SSD and verify both the whole
+archive and every expected member. No historical-study rearchive,
+bulk input transfer, fallback disk, overwrite or automatic transfer retry.
+
+If preservation fails, retain partials and request a scoped
+preservation-only decision. Never repeat the research work.
+
+7. FROZEN INTERPRETATION
+
+Retain the utility screen:
+at least10% complete-CEM synchronized-wall saving versus ACID
+in every task/seed/context median, with at least10% saving in
+four of five blocks for every cell.
+
+Report all smaller, mixed and negative results as well.
+Failure of this demanding screen does not prove exactly zero saving.
+
+The checker-only offline ratio cannot by itself advance the line.
+Keep the plain and forward comparisons visible.
+
+Do not attach historical success rates to a differently configured
+timing result. Do not claim training-cost, energy, whole-device-memory
+or closed-loop-success improvements from these measurements.
+
+A favorable result authorizes no follow-up automatically. A separate
+success–cost study would still need its own frozen protocol, matched
+lower-budget controls and explicit execution decision.
+
+8. RETURN
+
+Publish the enabled-approval hash, authenticated launch identities
+and final complete result, or a scoped technical fault.
+
+Interpret timings only after full-grid acceptance and prescribed
+preservation; no partial timing-based tuning or stopping.
+
+Report every task, scorer seed, context, method and measurement level,
+all allocation charges, setup/audit scopes and verified backup scope.
+
+Keep ACV0/ACVM1, historical closures, reserved data and E12 unchanged.
+No monitor, model promotion, fitting or simulator stage follows.

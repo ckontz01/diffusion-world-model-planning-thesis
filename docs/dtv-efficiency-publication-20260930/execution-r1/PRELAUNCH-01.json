@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"exclusive_prelaunch_clear\", \"observed_unix\": 1790785166.4964602, \"host\": \"controller1\", \"control_python\": \"3.9.6 (default, Nov  9 2021, 13:31:27) \\n[GCC 8.5.0 20210514 (Red Hat 8.5.0-3)]\", \"checks\": {\"queue\": {\"command\": [\"squeue\", \"-h\", \"--name=dtveff0-pusht-6101,dtveff0-pusht-6102,dtveff0-pusht-6103,dtveff0-reacher-6101,dtveff0-reacher-6102,dtveff0-reacher-6103,dtveff0-cube-6101,dtveff0-cube-6102,dtveff0-cube-6103\", \"-o\", \"%i|%j|%T|%N\"], \"returncode\": 0, \"stdout\": \"\", \"stderr\": \"\"}, \"history\": {\"command\": [\"sacct\", \"-n\", \"-P\", \"-X\", \"-S\", \"2026-09-30\", \"--name=dtveff0-pusht-6101,dtveff0-pusht-6102,dtveff0-pusht-6103,dtveff0-reacher-6101,dtveff0-reacher-6102,dtveff0-reacher-6103,dtveff0-cube-6101,dtveff0-cube-6102,dtveff0-cube-6103\", \"--format=JobIDRaw,JobName,State,ExitCode,ElapsedRaw,AllocTRES,NodeList\"], \"returncode\": 0, \"stdout\": \"\", \"stderr\": \"\"}, \"controllers\": [], \"existing_run_directories\": []}, \"source_absent\": true, \"control_absent\": true, \"run_absent\": true}\n",
+  "stderr": "",
+  "local_wall_seconds": 12.031000000002678,
+  "automatic_retry": false
+}
