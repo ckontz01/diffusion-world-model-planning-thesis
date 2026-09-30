@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"observed_unix\": 1790785997.1708364, \"exact_controller_alive\": true, \"process\": {\"pid\": 3475182, \"state\": \"S\", \"start_ticks\": 954285224}, \"expected_process\": {\"pid\": 3475182, \"state\": \"R\", \"start_ticks\": 954285224}, \"controller_stderr_bytes\": 0, \"controller_stdout_bytes\": 0, \"submitted\": [{\"event\": \"submitted\", \"task\": \"pusht-6101\", \"allocation_id\": \"312907\", \"initial_visibility_allowance_seconds\": 60}], \"terminal\": [], \"known_terminal_gpu_seconds\": 0, \"stop\": null, \"all_complete\": false, \"scheduler\": {\"command\": [\"sacct\", \"-n\", \"-P\", \"-X\", \"-j\", \"312907\", \"--format=JobIDRaw,JobName,State,ExitCode,ElapsedRaw,AllocTRES,NodeList\"], \"returncode\": 0, \"stdout\": \"312907|dtveff0-pusht-6101|RUNNING|0:0|33|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\\n\", \"stderr\": \"\"}, \"run_bytes\": 6404, \"control_bytes\": 78095, \"sealed_workers\": []}\n",
+  "stderr": "",
+  "local_wall_seconds": 13.437000000005355,
+  "automatic_retry": false
+}
