@@ -67,7 +67,8 @@ complete = dict(fixed_report=report, authentication=auth, operations=ops,
                     audit_scopes_overlap_first_calls=True, no_overlapping_timer_subtraction=True,
                     no_training_energy_whole_device_memory_or_success_claim=True,
                     no_promotion_or_next_stage=True))
-write(root/'COMPLETE-RESULTS.json', complete)
+with (root/'COMPLETE-RESULTS.json').open('x', encoding='utf-8') as stream:
+    json.dump(complete, stream, separators=(',', ':'))
 write(root/'AUTHENTICATION.json', auth)
 write(root/'PRESERVATION.json', preserved)
 
