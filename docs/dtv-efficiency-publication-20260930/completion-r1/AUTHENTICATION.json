@@ -1,0 +1,128 @@
+{
+  "status": "independently_accepted_complete_grid",
+  "manifest_sha256": "8d3ebff35241a01f7bf55a111a03881143ac36d57f996b7a8cb5f2e7130e8a30",
+  "bindings_sha256": "cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68",
+  "approval_sha256": "941a33bd9dc1adab5df2715f8f9f5352d369425fbc6183dd85b4062d77c8e978",
+  "authority_sha256": "3ca9c58e9bd4b31f502e884d063f2a0dac8c44d7cec73aefc71446815e5737c5",
+  "source_files": 283,
+  "authenticated_bound_files": 167,
+  "bound_input_deserialization": false,
+  "all_worker_seals_verified": true,
+  "all_journals_verified": true,
+  "workers": 9,
+  "context_seed_cells": 18,
+  "distinct_historical_contexts": 6,
+  "methods": 5,
+  "full_cem_solves": 1260,
+  "warmed_timed_cem_solves": 900,
+  "timing_interpreted_by_operator": false,
+  "final_scheduler": {
+    "command": "sacct exact nine submitted IDs",
+    "stdout": "312907|dtveff0-pusht-6101|COMPLETED|0:0|267|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312908|dtveff0-pusht-6102|COMPLETED|0:0|264|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312909|dtveff0-pusht-6103|COMPLETED|0:0|266|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312910|dtveff0-reacher-6101|COMPLETED|0:0|265|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312911|dtveff0-reacher-6102|COMPLETED|0:0|271|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312912|dtveff0-reacher-6103|COMPLETED|0:0|268|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312913|dtveff0-cube-6101|COMPLETED|0:0|271|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312914|dtveff0-cube-6102|COMPLETED|0:0|271|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n312915|dtveff0-cube-6103|COMPLETED|0:0|272|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\n",
+    "stderr": ""
+  },
+  "allocations": [
+    {
+      "event": "terminal",
+      "task": "pusht-6101",
+      "allocation_id": "312907",
+      "elapsed_seconds": 267,
+      "cumulative_gpu_seconds": 267,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "pusht-6102",
+      "allocation_id": "312908",
+      "elapsed_seconds": 264,
+      "cumulative_gpu_seconds": 531,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "pusht-6103",
+      "allocation_id": "312909",
+      "elapsed_seconds": 266,
+      "cumulative_gpu_seconds": 797,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "reacher-6101",
+      "allocation_id": "312910",
+      "elapsed_seconds": 265,
+      "cumulative_gpu_seconds": 1062,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "reacher-6102",
+      "allocation_id": "312911",
+      "elapsed_seconds": 271,
+      "cumulative_gpu_seconds": 1333,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "reacher-6103",
+      "allocation_id": "312912",
+      "elapsed_seconds": 268,
+      "cumulative_gpu_seconds": 1601,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "cube-6101",
+      "allocation_id": "312913",
+      "elapsed_seconds": 271,
+      "cumulative_gpu_seconds": 1872,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "cube-6102",
+      "allocation_id": "312914",
+      "elapsed_seconds": 271,
+      "cumulative_gpu_seconds": 2143,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    },
+    {
+      "event": "terminal",
+      "task": "cube-6103",
+      "allocation_id": "312915",
+      "elapsed_seconds": 272,
+      "cumulative_gpu_seconds": 2415,
+      "state": "COMPLETED",
+      "exit": "0:0",
+      "node": "gpu09",
+      "allocated_resources": "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1"
+    }
+  ],
+  "gpu_allocation_seconds": 2415,
+  "report_sha256": "421bdac69d6ca011468ff28cc37fa9c2ac47acd4109abf3b6261303b41bfa2b6",
+  "automatic_retry": false
+}

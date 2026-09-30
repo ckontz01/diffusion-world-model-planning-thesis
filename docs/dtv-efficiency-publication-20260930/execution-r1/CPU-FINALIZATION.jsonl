@@ -1,2 +1,8 @@
 {"event": "intent", "action": "test", "observed_unix": 1790786721.8752038}
 {"event": "finished", "action": "test", "status": "passed", "error": null, "wall_seconds": 1.062000000005355, "automatic_retry": false}
+{"event": "intent", "action": "accept-archive", "observed_unix": 1790788529.5213375}
+{"event": "finished", "action": "accept-archive", "status": "passed", "error": null, "wall_seconds": 10.671000000002095, "automatic_retry": false}
+{"event": "intent", "action": "backup", "observed_unix": 1790788559.0187063}
+{"event": "finished", "action": "backup", "status": "passed", "error": null, "wall_seconds": 11.014999999999418, "automatic_retry": false}
+{"event": "intent", "action": "publish", "observed_unix": 1790788582.692698}
+{"event": "finished", "action": "publish", "status": "passed", "error": null, "wall_seconds": 0.5469999999913853, "automatic_retry": false}
