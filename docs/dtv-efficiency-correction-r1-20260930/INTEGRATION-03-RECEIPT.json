@@ -1,0 +1,17 @@
+{
+  "wall_seconds": 35.875,
+  "exit_code": 0,
+  "error": null,
+  "output_sha256": "2655e5370a19a5835f673b5f88be02b46d027fdae1ba9f323e03a538573d11c0",
+  "timeout_seconds": 600,
+  "cpu_threads": 4,
+  "ram_ceiling_bytes": 8589934592,
+  "existing_environment": true,
+  "native_control_only": false,
+  "full_regression_suite": true,
+  "research_inference": false,
+  "physics": false,
+  "gpu": false,
+  "checkpoint_deserialization": false,
+  "slurm": false
+}

@@ -1,0 +1,1419 @@
+{
+  "study": "DTV-EFF0",
+  "version": "control-correction-r1",
+  "execute": false,
+  "reviewed_commit": "712c39041a8242c3f45d43f95b3199bd77ca64ba",
+  "reviewed_manifest_sha256": "a9a3b495e479916dfc64279e2c099a76a8817119c53607770b04e22f693796ae",
+  "files": [
+    {
+      "path": "dtv_efficiency/.gitattributes",
+      "bytes": 9,
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab"
+    },
+    {
+      "path": "dtv_efficiency/__init__.py",
+      "bytes": 71,
+      "sha256": "bf4fbeb42ddd416ea530c6eb925b7f8c941ef9a82c1dab649d9e06038ce65cf2"
+    },
+    {
+      "path": "dtv_efficiency/accept.py",
+      "bytes": 5997,
+      "sha256": "910e43b10582b17d1f88516fa7d630d8c859d9f80fc1db7660c22f89bea5ad2c"
+    },
+    {
+      "path": "dtv_efficiency/audit_metadata.py",
+      "bytes": 2593,
+      "sha256": "f0b62d689e4fc955e36771e5607586fd9417b13a1f48a326ef09630f11dc37e4"
+    },
+    {
+      "path": "dtv_efficiency/audit_package.py",
+      "bytes": 4639,
+      "sha256": "9d76fc541edf7bf38e9564d4fe987576ac11deb0d08cbec0f0c0bfda15f2825b"
+    },
+    {
+      "path": "dtv_efficiency/campaign.py",
+      "bytes": 5747,
+      "sha256": "4b1f1a4a3e710a28ae0710bae60225551772fb79caf013ad7a80f2cd31c8abfc"
+    },
+    {
+      "path": "dtv_efficiency/check_preparation.py",
+      "bytes": 1803,
+      "sha256": "6970ea40025046809eb32b9627cb6a68a02ba4c6354a0bb1488af70fcd3db9f6"
+    },
+    {
+      "path": "dtv_efficiency/package.py",
+      "bytes": 4046,
+      "sha256": "8ad4a9fb08821ec0e9c504e1c33256a7c97be40cb7ebd7b5fac88006e043a173"
+    },
+    {
+      "path": "dtv_efficiency/prepare.py",
+      "bytes": 8701,
+      "sha256": "f5eb034f6bbe49ef886eacec6a0716324cbc30ff070d48a34eb8fa2273dbcb50"
+    },
+    {
+      "path": "dtv_efficiency/profile.py",
+      "bytes": 23718,
+      "sha256": "8a6589db19ba72da1406e4a4a67f993c087ecc84cce0e78b17e88bd7ff38b52e"
+    },
+    {
+      "path": "dtv_efficiency/recover.py",
+      "bytes": 4672,
+      "sha256": "2919b9a5ae3d12a0ebf32077326edb3b3e531d829e4fc1743f7967d2a4a61916"
+    },
+    {
+      "path": "dtv_efficiency/recover_bindings.py",
+      "bytes": 3878,
+      "sha256": "2d3f303bb29a1017f9521da8f698ebfb219bc43f1efb3afbe9832d560569f8ab"
+    },
+    {
+      "path": "dtv_efficiency/recover_final_evidence.py",
+      "bytes": 3372,
+      "sha256": "a40f844ac129e6800378a359883d093f9d12b1f2c89efa12706ea2ca38173cf5"
+    },
+    {
+      "path": "dtv_efficiency/test_profile.py",
+      "bytes": 15870,
+      "sha256": "33b7c4cbae368633c28206e861505ae5cb43355d7e852c9115b8ab04ba947341"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/.gitattributes",
+      "bytes": 9,
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/BINDINGS.json",
+      "bytes": 511229,
+      "sha256": "c8dc6785db94109bf4141e3c31e48e64d2e2b9267f56cacad76fd653a11faed9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/CONFIGURATION-LINEAGE.md",
+      "bytes": 8108,
+      "sha256": "07ea00a014cafcc1ba34db851e4b95403d88f3d466fdbc764df7ab4229d90e14"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/DISABLED-DISPATCH-PLAN.json",
+      "bytes": 16364,
+      "sha256": "0ec869416a4b1a203ba2698aad3b772fb12412d21ca100b85743af4735b9f0d7"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/DISABLED-WORKER-RECEIPT.txt",
+      "bytes": 1120,
+      "sha256": "58560af055cc516d0acb0024662dda926fe146630cb1ba1c13085d975edd9afc"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/E3-TIMINGS.json",
+      "bytes": 63677,
+      "sha256": "7756ad549f04da6b2d53dcb281ff81941f0f7cb0cfb04f01a82699f28e7a333c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/AUTHENTICATED-BYTES.json",
+      "bytes": 35815,
+      "sha256": "fc4c1ba33b155b3426e30cb3562e8d7d7dd229eab8c8f3050520b68751731d8b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/manifests/acid-alternative-v1/cube/d1-fresh-development.tsv",
+      "bytes": 2477,
+      "sha256": "9e5c3d336c44226dbd293c2f2c77427ef86941202d15874d509e884691cffcf4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/manifests/acid-alternative-v1/pusht/d1-fresh-development.tsv",
+      "bytes": 2482,
+      "sha256": "948a5e0dc1f79551845a9ef039908729d3d0c4c4bee5deb8445fe465f694814e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/manifests/acid-alternative-v1/reacher/d1-fresh-development.tsv",
+      "bytes": 2496,
+      "sha256": "0b6e89cbe785ec88b0a3ff8e2ff77375ba9518695ab54f9bc2d3256013084a56"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/manifests/acid-alternative-v3-d2/cube/job-297535/d2-fresh.tsv",
+      "bytes": 5038,
+      "sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/manifests/acid-alternative-v3-d2/pusht/job-297535/d2-fresh.tsv",
+      "bytes": 5062,
+      "sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/manifests/acid-alternative-v3-d2/reacher/job-297535/d2-fresh.tsv",
+      "bytes": 5064,
+      "sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/RECOVERY.json",
+      "bytes": 24894,
+      "sha256": "36264462810d693a75121fea7a0a588c05f8897cb02b28bd73609a68bfabac6e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/analysis/d1/sensitivity/job-297131/summary.json",
+      "bytes": 135448,
+      "sha256": "9af2d7dba0be0f5d7e342313a628d3044e958854098029ef4df2b76f5fc49f33"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/diagnostics/cube/d1-b0-candidate-pools/planner-seed-7101-job-297079/manifest.json",
+      "bytes": 2019,
+      "sha256": "4791539d9b54820fc1b3b3500bc4f179a4a78f355eaafcea4f5662eed92a635c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/diagnostics/cube/d1-candidate-scores/job-297080/manifest.json",
+      "bytes": 12394,
+      "sha256": "57038355fddc7ce3b00a7e4fdf2e02173770fad62a7501637bffef2037c3a55e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/diagnostics/pusht/d1-b0-candidate-pools/planner-seed-7101-job-297055/manifest.json",
+      "bytes": 2025,
+      "sha256": "e127bb47676905fcf08f355b7613ab8dc89ba084aa66f3f13151ed13100ef49c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/diagnostics/pusht/d1-candidate-scores/job-297056/manifest.json",
+      "bytes": 12422,
+      "sha256": "5f030e8520b10ca48bcb7a0bf267cca76d4d30df21ce9f1ce20187eee3a9c563"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/diagnostics/reacher/d1-b0-candidate-pools/planner-seed-7101-job-297114/manifest.json",
+      "bytes": 2011,
+      "sha256": "080e7b7497fc66c2dfbacb065237aad5c1d941d4d722e4b418d7cdfb2b846631"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/diagnostics/reacher/d1-candidate-scores/job-297162/manifest.json",
+      "bytes": 37115,
+      "sha256": "a10ac1b7bfb37d4dc814f20cb0abf30f2d4525e7b529fbe294c4ef4d6beb6997"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/analysis/job-297573/summary.json",
+      "bytes": 94607,
+      "sha256": "2a4134b49f770cd3f339d73233183d5bd2013b562aee751abc0e8a744959fdbb"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6101-planner-seed-8301-job-297572-39/summary.json",
+      "bytes": 8138,
+      "sha256": "c93727dc4c9851c384d5332a31fbf29979424b1e9dc0016b4a7f957060e5659e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6102-planner-seed-8302-job-297572-40/summary.json",
+      "bytes": 8138,
+      "sha256": "3a3281b006ff0242328741c0a32fef36ffb572d2f0a1922e63ef84e56568fa02"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6103-planner-seed-8303-job-297572-41/summary.json",
+      "bytes": 8141,
+      "sha256": "b5368e408c72b38c4fd2f325ade6c87e5e5e4338066939af56255a161a3c05c4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6101-planner-seed-8301-job-297572-48/summary.json",
+      "bytes": 9071,
+      "sha256": "73d95665115d0d7289240ce439b7d215fe275b58388f30bd602df49e369cb624"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6102-planner-seed-8302-job-297572-49/summary.json",
+      "bytes": 9034,
+      "sha256": "6edbc429256b9469385498de7aa9008aa1210a8c20954ab17821642ae5446f66"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6103-planner-seed-8303-job-297572-50/summary.json",
+      "bytes": 9020,
+      "sha256": "01ee0a0a7c1050f7e852404ca77b6162c0835f2faec1dbddc708514d7298965b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-51/summary.json",
+      "bytes": 9161,
+      "sha256": "8b940632d988271ad52ecc94e17884041eeced1f464780574754558eaf280b6a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-52/summary.json",
+      "bytes": 9124,
+      "sha256": "8c3c18e528e48201c91ba5fe4ede71caa2457d6de5e102dd13ee9ad24cab1312"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-53/summary.json",
+      "bytes": 9118,
+      "sha256": "37fefd6c4b6cd085b483df4d5e54ab84e8747f19e46f70c310f07f3247fb82d5"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6101-planner-seed-8301-job-297572-36/summary.json",
+      "bytes": 5741,
+      "sha256": "7ed8d4074adec0b9b245c1ec1969860f745e6065c68f482c1a713f40614c9541"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6102-planner-seed-8302-job-297572-37/summary.json",
+      "bytes": 5746,
+      "sha256": "7d95c9c12ebc05dc265adc4669ff345b228030d97b9363f2863d8911e2323c15"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6103-planner-seed-8303-job-297572-38/summary.json",
+      "bytes": 5748,
+      "sha256": "d281c0e98878990fe10a6d4db09b4b4b68856fce2c9597ccd88a27ebb67e7a99"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6101-planner-seed-8301-job-297572-42/summary.json",
+      "bytes": 7826,
+      "sha256": "81acd32ba216ace7b3dd5537150446f7a630d48d583f50c798507ed430ca67a0"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6102-planner-seed-8302-job-297572-43/summary.json",
+      "bytes": 7829,
+      "sha256": "dd2803636ab583e2d6f9067990f05a2943887041f5d170b2101c745ad7ae714a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6103-planner-seed-8303-job-297572-44/summary.json",
+      "bytes": 7833,
+      "sha256": "01263ac3742c175c37507acaa8e9b2445e99263402e9491b39df25c87cc04449"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6101-planner-seed-8301-job-297572-45/summary.json",
+      "bytes": 9075,
+      "sha256": "adfe276a54cd21d28142e83195e131cbf130b678d6ee30042a45a4a17f09633e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6102-planner-seed-8302-job-297572-46/summary.json",
+      "bytes": 9039,
+      "sha256": "cf415b01cde148e6fb05549e22c2c594c4cbf5077a8436cf20473c693dac8c73"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6103-planner-seed-8303-job-297572-47/summary.json",
+      "bytes": 9024,
+      "sha256": "d3ee72e6048e26e5ea87fb100c06c9f402d55b7b934d5d6e26ff99d6d94ccaaf"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6101-planner-seed-8301-job-297572-3/summary.json",
+      "bytes": 7350,
+      "sha256": "d82621e9bf862327362e03e19f56c0fddff1b66c727c0f54e9d1fea0cea96661"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6102-planner-seed-8302-job-297572-4/summary.json",
+      "bytes": 7351,
+      "sha256": "fd8800ea899afd2b121f8cb036a827f89974ee3b37ad94ebeca011908c300a21"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6103-planner-seed-8303-job-297572-5/summary.json",
+      "bytes": 7351,
+      "sha256": "cbee59fbd29b48c17f70f36e210f1a3cbba9e5081c1283bd9d0963411ebf12f7"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6101-planner-seed-8301-job-297572-12/summary.json",
+      "bytes": 8277,
+      "sha256": "a5e1323edf572eae98b8304630e1c747dfc4aef1908d2e86ee69f9ae993433ef"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6102-planner-seed-8302-job-297572-13/summary.json",
+      "bytes": 8238,
+      "sha256": "a7e41934aad1a96c1d253ec2f86494b91daa52a377cfab44078dc5543e97dc90"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6103-planner-seed-8303-job-297572-14/summary.json",
+      "bytes": 8234,
+      "sha256": "0be9a9d769386b7c88a822850373c9d3df3e76378718aa63f7a579c4fe52f588"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-15/summary.json",
+      "bytes": 8370,
+      "sha256": "6e49748f5de96ad94f20e9800f1ecb6a528309eb42dcbaf6d5253dea0468a38e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-16/summary.json",
+      "bytes": 8332,
+      "sha256": "da4f0f192542b88582387d2e8b64e52dc85f7f74b8c53b06d363f80f647d32ac"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-17/summary.json",
+      "bytes": 8331,
+      "sha256": "878dbec5a84b8b56305371444153b88d8d2602502af07b9edbde741b4f389d13"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6101-planner-seed-8301-job-297572-0/summary.json",
+      "bytes": 5297,
+      "sha256": "deb8910067b19b1bf9eeafacb9de913977fa89d468bbce5dbe832549b0094fc5"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6102-planner-seed-8302-job-297572-1/summary.json",
+      "bytes": 5294,
+      "sha256": "90c5460112c9f882d6dee0f63139b89e58a4f5ddb76621aaac1df20c30eb7db7"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6103-planner-seed-8303-job-297572-2/summary.json",
+      "bytes": 5297,
+      "sha256": "f73011bc9d172d69d108a3f5ca003d0920fe0eb6ed71eb9794941b0aa78d96ac"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6101-planner-seed-8301-job-297572-6/summary.json",
+      "bytes": 7039,
+      "sha256": "86f50f43956d0f1d69e498cf933cc455543f31afff20e1ae4751c73c50a2dd9d"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6102-planner-seed-8302-job-297572-7/summary.json",
+      "bytes": 7040,
+      "sha256": "75c4bbc59e52cdf1248a58cb4362ac1ca5c7f6557ec00bb249969f6809955d87"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6103-planner-seed-8303-job-297572-8/summary.json",
+      "bytes": 7039,
+      "sha256": "224f65c3411c73bc39991d20863a280526fc0a4d3cf444b33ee7d2c0847b40de"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6101-planner-seed-8301-job-297572-9/summary.json",
+      "bytes": 8278,
+      "sha256": "c6bfb7ab11018df19d5da7df54385fa870a59efb40a1506251a3cc1fc0ac6fdc"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6102-planner-seed-8302-job-297572-10/summary.json",
+      "bytes": 8240,
+      "sha256": "10dc2c8327976193eaf229cd5533502ff47f2abaf5da9a5e7e18d5d337006748"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6103-planner-seed-8303-job-297572-11/summary.json",
+      "bytes": 8241,
+      "sha256": "7dace904851bec7d1809be70943e0b82bbbf51667d01e6a124b10622f7685c43"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6101-planner-seed-8301-job-297572-21/summary.json",
+      "bytes": 7471,
+      "sha256": "9459ce1863ea44c885c807e85e00c293cf116fc60ba2e2bb7dd35f078a576a83"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6102-planner-seed-8302-job-297572-22/summary.json",
+      "bytes": 7473,
+      "sha256": "d925fd187b7d8df42deed7706a1566960106ccaf889a08d16a2fc895d4875432"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6103-planner-seed-8303-job-297572-23/summary.json",
+      "bytes": 7475,
+      "sha256": "7df247e80675a0620d88ff6865a9b5b83ff8fd74104db043eec7374b607af0d4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6101-planner-seed-8301-job-297572-30/summary.json",
+      "bytes": 8406,
+      "sha256": "dc5467aef101caa6d58b0d5ae66ae5024f9ef65c7e45ca8bc08f11683720e4f7"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6102-planner-seed-8302-job-297572-31/summary.json",
+      "bytes": 8369,
+      "sha256": "9acde5e7f134bae5cd659f59e24b0f817c134cf88b25cd8550160bb2b5d40ec3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6103-planner-seed-8303-job-297572-32/summary.json",
+      "bytes": 8380,
+      "sha256": "24b58f7750fd114939c16671e9b64287325e982e5d8173ebccd33e3a66189c5c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-33/summary.json",
+      "bytes": 8475,
+      "sha256": "960295a5c4994543e2412f4db761e421d76e42c59b86f03db50a54ebc442ab77"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-34/summary.json",
+      "bytes": 8459,
+      "sha256": "3eaab09ce6d06fef0a1c9b918033a1083a5518d5d33072805be52fd15ca872e6"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-35/summary.json",
+      "bytes": 8464,
+      "sha256": "e8e03ad5bb8e924cdf5055fef7756ac0a75de30b63af7ba52c9d6e73d76547af"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6101-planner-seed-8301-job-297572-18/summary.json",
+      "bytes": 5371,
+      "sha256": "e0008c2e20a6c2dca6e925f69b4c9df92896570d77294a754be96c2b637dbd98"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6102-planner-seed-8302-job-297572-19/summary.json",
+      "bytes": 5373,
+      "sha256": "3bf12d3ce92173585529cc5b18fa332eff0c06dfed629594e54daaa27be81a62"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6103-planner-seed-8303-job-297572-20/summary.json",
+      "bytes": 5376,
+      "sha256": "5e48242b6cde24ff6cc61de8cf3a2dab9d405c5b60880212cfcf55c8c2ac83e3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6101-planner-seed-8301-job-297572-24/summary.json",
+      "bytes": 7164,
+      "sha256": "f3d5fb5915fcdce005f64d0aeae1038c859d99a7f1202ea495843c46a921bdf3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6102-planner-seed-8302-job-297572-25/summary.json",
+      "bytes": 7162,
+      "sha256": "22e36c0f1361805ee3b1b1a5c80c55d050d8ae75e6163b2060fd3d4adf6caaa1"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6103-planner-seed-8303-job-297572-26/summary.json",
+      "bytes": 7166,
+      "sha256": "104571c40b0a7248a8c057d4d28783891f3fd3438876df6c6337e333418a0444"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6101-planner-seed-8301-job-297572-27/summary.json",
+      "bytes": 8407,
+      "sha256": "dd3111e0402106e3684fcb3032589cbd347fa69a488008898315f9664030d5f2"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6102-planner-seed-8302-job-297572-28/summary.json",
+      "bytes": 8369,
+      "sha256": "712f51ef06a364353c2151ed07e7f2bc6c5d181de824fa3c287f79f80c32cdbe"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6103-planner-seed-8303-job-297572-29/summary.json",
+      "bytes": 8384,
+      "sha256": "94ed9f61e123271344f95ecea56f69e7a195d747f78eb77b7ffa3de53b038f35"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/analysis/job-297657/summary.json",
+      "bytes": 15517,
+      "sha256": "84ae66457c70f5a8c386d682dab5a77bfd807f3fdf0c52de0ea7b3264ebbc0cc"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/closed-loop/cube/acid_cont/seed-6101-8301-job-297656-21/summary.json",
+      "bytes": 7942,
+      "sha256": "5d88a2f911c469be9b4af4933581ea1109b8584b9c5543decffee41867a19f2b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/closed-loop/cube/rdx_gate_all_q40/seed-6101-8301-job-297656-26/summary.json",
+      "bytes": 9128,
+      "sha256": "3769ec1d8c846fae5bc86cd2651fb6144d869b3454e12e2fb15a30475c0ae0e1"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/closed-loop/pusht/acid_cont/seed-6101-8301-job-297656-1/summary.json",
+      "bytes": 7155,
+      "sha256": "2021d263c99406c79386706b8811e46180ab80f43a6400631166b98f4820094a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/closed-loop/pusht/rdx_gate_all_q40/seed-6101-8301-job-297656-6/summary.json",
+      "bytes": 8337,
+      "sha256": "43e06cde30104e53e9890ab7bfbe551ad30ce5a08cc1cbb2079482905aeb95a8"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/closed-loop/reacher/acid_cont/seed-6101-8301-job-297656-11/summary.json",
+      "bytes": 7274,
+      "sha256": "340636e2268cffa28ce01d8613092b29b55c1cd8c58b903661f8529e57c93f5f"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6-d2-quantile/closed-loop/reacher/rdx_gate_all_q40/seed-6101-8301-job-297656-16/summary.json",
+      "bytes": 8469,
+      "sha256": "0cd511b91d7213871826dabe3f27fcad9b17e60041c444142e52c3fab7d86790"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/analysis/job-297691/summary.json",
+      "bytes": 6763,
+      "sha256": "740e02e12d3b757f82af7d53b604707825941d19d73c46e869f49bc6fd27cc79"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/acid_gate_all_q40/job-297690-8/summary.json",
+      "bytes": 8132,
+      "sha256": "d8d3f3b21ec199d330c4ced4e3df8c2d1f2aea79956c49e76f19d80fc217a812"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/forward_gate_all_q40/job-297690-7/summary.json",
+      "bytes": 7878,
+      "sha256": "9d93712274ab0687165b30df120dd236aff79359f0b4abeda941d36b79a19c38"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/rdx_shuffled_gate_all_q40/job-297690-6/summary.json",
+      "bytes": 9202,
+      "sha256": "6fe0b0714be090fa748f365243e800f4fb09ee1cfba00cecfe95a0e9f34937c8"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/pusht/acid_gate_all_q40/job-297690-2/summary.json",
+      "bytes": 7345,
+      "sha256": "b7747e025996989cf205850446aff8301c9cdc7b1cb71a81cfbf947312f205b7"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/pusht/forward_gate_all_q40/job-297690-1/summary.json",
+      "bytes": 7097,
+      "sha256": "779975dabf742dc69576c5b0a4d33536610e38ebb371d40872787dc7c2601a09"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/pusht/rdx_shuffled_gate_all_q40/job-297690-0/summary.json",
+      "bytes": 8418,
+      "sha256": "757d8538f3655405e26480070596cb6198bd01eec830614be258132fb5579650"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/reacher/acid_gate_all_q40/job-297690-5/summary.json",
+      "bytes": 7465,
+      "sha256": "edd248fdb51fe0b69fbae1efb518bbc66bc4db4bab660eb83faef490d1ee862c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/reacher/forward_gate_all_q40/job-297690-4/summary.json",
+      "bytes": 7223,
+      "sha256": "a989c7fd3c09445da0e28c140fc6a0501f408a124098a0eeea63504025793a26"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/e6d-allgate-controls/closed-loop/reacher/rdx_shuffled_gate_all_q40/job-297690-3/summary.json",
+      "bytes": 8521,
+      "sha256": "b4a78fcdd6a8d54299196e9e70c2bbe30c1eff1129514000e86b437cd4a96384"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/latency/cube/cuda-components/multi/job-297084/summary.json",
+      "bytes": 10554,
+      "sha256": "9ab26b8e1813b8500bddb9bfd0f785007783e662e266d64d150afa490646632f"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/latency/cube/end-to-end-episode/job-297085/summary.json",
+      "bytes": 13203,
+      "sha256": "0b9913f3668d919057334c26dfc4d07f2b235e84f5f450d28969de09ed0b118f"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/latency/pusht/cuda-components/multi/job-297060/summary.json",
+      "bytes": 10551,
+      "sha256": "18f10c037a3941b96363a4a3e19e805dedfe5439c63addd9f418951137f29b78"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/latency/pusht/end-to-end-episode/job-297061/summary.json",
+      "bytes": 13195,
+      "sha256": "e6dbb5793ae77968dfc499f430b1a7855d121c1653abad663ee6112349a54639"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/latency/reacher/cuda-components/multi/job-297119/summary.json",
+      "bytes": 10570,
+      "sha256": "847deb69b572c36baa597fb048f798fc5ea3f3bdfc422d9c60c0c68d5bb5b83e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/latency/reacher/end-to-end-episode/job-297163/summary.json",
+      "bytes": 17371,
+      "sha256": "29feeedcaa0fa12ac326eb758e888a96911744e2119533e365fc507bafb05fe9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/acid/true/seed-6101-job-296669-0/summary.json",
+      "bytes": 5073,
+      "sha256": "faef541066fb4b4c04f4806dcfaad936a7590a643014e0821763e1e55bff7a11"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/acid/true/seed-6102-job-296669-1/summary.json",
+      "bytes": 5088,
+      "sha256": "bb069ab33f97d8bb0fdfd0c60e18e501fb10dc03d8404587aa4529f7945da23a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/acid/true/seed-6103-job-296669-2/summary.json",
+      "bytes": 5066,
+      "sha256": "4d31db51f7c5adc10f4fa40bb49cbed0bf80ab0391ccf017a18132e3a4440461"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/diffusion/true/seed-6101-job-296669-3/summary.json",
+      "bytes": 13649,
+      "sha256": "00e50f35f2862ce7d53df5591963ba71e4456bdb0e99fbc133b8d5f672cc1f3e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/diffusion/true/seed-6102-job-296669-4/summary.json",
+      "bytes": 13632,
+      "sha256": "328cdd69d0eafeff2a554b713791dc2bde75594bccce78e8b8986a6498a7f6fd"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/diffusion/true/seed-6103-job-296669-5/summary.json",
+      "bytes": 13618,
+      "sha256": "61137c3f10e8444ce191169c60886342553881bb4edde18d8c7c6e52c9ac455a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/forward/true/seed-6101-job-296669-6/summary.json",
+      "bytes": 13962,
+      "sha256": "a0540daa5903baf66574f7aac25d27e116c6e883fd3fbff0a50c8bd55c7f9b28"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/forward/true/seed-6102-job-296669-7/summary.json",
+      "bytes": 13961,
+      "sha256": "33fbb85b6cd8edbcdcdcece9a4f8f6b688b53aa51a8fdfb82f5e705c2e86a641"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/cube/forward/true/seed-6103-job-296669-8/summary.json",
+      "bytes": 13984,
+      "sha256": "234a9784ff97f7a4d74fe324bfc0eb86280762f894fbf565a063cfe89fd8190a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/acid/true/seed-6101-job-296631-0/summary.json",
+      "bytes": 4308,
+      "sha256": "c0113069d73f9a29b322492816d950787b4d966130fed0b74f49f7aa261a86d3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/acid/true/seed-6102-job-296631-1/summary.json",
+      "bytes": 4312,
+      "sha256": "e489e7103b409d87f3ae30d3ea99f5f91e29bf883b00e3ad3082729c6843ba86"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/acid/true/seed-6103-job-296631-2/summary.json",
+      "bytes": 4312,
+      "sha256": "e25a3548249e3e9a53358c1857781587864fc45ac06a6cba2db46ce783f97b58"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/diffusion/true/seed-6101-job-296631-3/summary.json",
+      "bytes": 13657,
+      "sha256": "5e2915f32e88e5cb75d18f61d7b5895f9d8b1cfe1ccf6a1e8a278e41c94865a3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/diffusion/true/seed-6102-job-296631-4/summary.json",
+      "bytes": 13635,
+      "sha256": "0ee073b7160da0cac8bc21c8ad34924fb75cf4d7b6917d258f34efaa0c5f5d3a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/diffusion/true/seed-6103-job-296631-5/summary.json",
+      "bytes": 13653,
+      "sha256": "0f4f956c44a33914b758b4539695cc7eefa355f3805b0ec540f2d4ca5bc7a7be"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/forward/true/seed-6101-job-296631-6/summary.json",
+      "bytes": 14004,
+      "sha256": "66063c81b42a41d52df510feef6566be62f8482114995403b9cc2ca5f6462bdf"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/forward/true/seed-6102-job-296631-7/summary.json",
+      "bytes": 13986,
+      "sha256": "87c0cc23e9dbfcb84f2ed9e314efcc7e98d7d0baf53a3d4755d86510a29ee99c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/pusht/forward/true/seed-6103-job-296631-8/summary.json",
+      "bytes": 13997,
+      "sha256": "e9a252cea62d33e94b72b10e1b93084ee36c9b3c8982e6771e054b4048fafd9b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/acid/true/seed-6101-job-296650-0/summary.json",
+      "bytes": 4284,
+      "sha256": "1ad3121c05abfbdf5c46dedc9ef87154474694a8e60125c43339ee9df0a07e56"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/acid/true/seed-6102-job-296650-1/summary.json",
+      "bytes": 4290,
+      "sha256": "7683a46f4985f194bc215776a97b054fa22a31ef9f516eeb990b1aa32062dabc"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/acid/true/seed-6103-job-296650-2/summary.json",
+      "bytes": 4277,
+      "sha256": "dea9525076ba3ae8e72d4302db84caf44ca8692609f5acaaaa7b810c1733632a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/diffusion/true/seed-6101-job-296650-3/summary.json",
+      "bytes": 13825,
+      "sha256": "956e97bc1d4cac8dea529b655a89edb7192da8754d5109917c1ce4ac779aa2d9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/diffusion/true/seed-6102-job-296650-4/summary.json",
+      "bytes": 13816,
+      "sha256": "584ca654e717288c9ee322aaa07b7ef4345d9819d681c46e0fae5abee92a9df3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/diffusion/true/seed-6103-job-296650-5/summary.json",
+      "bytes": 13830,
+      "sha256": "226d87a8a3c490ce50bc720204702fa2245301ca95180ff08fa6447c05ec8bfb"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/forward/true/seed-6101-job-296650-6/summary.json",
+      "bytes": 13647,
+      "sha256": "8419b5e3e85a91d6261bfd27af3473306f3d539aa7c7152d1caf26e6e24d3ff6"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/forward/true/seed-6102-job-296650-7/summary.json",
+      "bytes": 13644,
+      "sha256": "8ee942fa92a38f62fb730a6752fad973143760f9859c8388e374f773c8c86aab"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/scorers/reacher/forward/true/seed-6103-job-296650-8/summary.json",
+      "bytes": 13645,
+      "sha256": "58823277e6a1d13f0e44a8e1052191696a7f3d4f0823c052e7750bd780602045"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297083-99/summary.json",
+      "bytes": 6664,
+      "sha256": "f0fdf2dce9ee8583d3b7b82fc6dd745ff3261ef84432a200067dd8770f1ea5b6"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297083-100/summary.json",
+      "bytes": 6664,
+      "sha256": "7c2d9052b9df1d6cb38891d5f4ea8d6138f672bb7ef8e9afbb1fc50960d6e751"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297083-101/summary.json",
+      "bytes": 6664,
+      "sha256": "9975619466ee1df182eb84762908f8a82936649156310fc46f4dac8a6e80b99d"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297059-99/summary.json",
+      "bytes": 5552,
+      "sha256": "9f85d9f1041fdea13c8ea5f14c537947cd26988e1a310db4d22ebdd48057256f"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297059-100/summary.json",
+      "bytes": 5555,
+      "sha256": "f4db6e49f79c53e616100ce8b3a73ddb9ecaf360d5d57156475059989ae72cd5"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297059-101/summary.json",
+      "bytes": 5528,
+      "sha256": "01eae2ac0ff221d29f0f79aa1fb54a0ecda9530db258447ea0cad1a78c248f5c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297118-99/summary.json",
+      "bytes": 5711,
+      "sha256": "47bce1de4a93bd54a11ac07ad985501a7b026209486639cf90898d58be08cbcc"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297118-100/summary.json",
+      "bytes": 5691,
+      "sha256": "b8461c4efdf80372ec1e5aa9f32f4f0dda5e476914024f7e585e6a068558b8a8"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297118-101/summary.json",
+      "bytes": 5715,
+      "sha256": "5acaecdf36818412fa589ad256959cf3e3cddb250b3f167c2c01dc4060bd9140"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/analysis/job-297565/summary.json",
+      "bytes": 106598,
+      "sha256": "0af2181b1060d761a295c885f2eae34af47a0fd94992a8f3a59cf05e57ecbe37"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/cube/capture/planner-seed-8201-job-297536-2/manifest.json",
+      "bytes": 1992,
+      "sha256": "9301ed5c05cd1bebf5cea45156651877a647befe2f35d0c4ca53edf05fa08595"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/cube/frozen-scores/job-297564-2/manifest.json",
+      "bytes": 44339,
+      "sha256": "fcf17a6ae56619707906a7d92918d784caac436ba4f149e3ef13858e3cf46b64"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/cube/shared-score/job-297538-2/manifest.json",
+      "bytes": 18123,
+      "sha256": "424e19d8171074359f9b2174edae24c6b7d9c9acf00bb63ea984fb392e9edc5a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/pusht/capture/planner-seed-8201-job-297536-0/manifest.json",
+      "bytes": 1996,
+      "sha256": "4d539fa375f227dc63fb16665ab3a315933995d88a3f8d901cf76bc3fd05a4f4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/pusht/frozen-scores/job-297564-0/manifest.json",
+      "bytes": 44363,
+      "sha256": "3727b155b0b50a916333b95f7948d9de2129c80e8da9b731317e138a78b88d92"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/pusht/shared-score/job-297538-0/manifest.json",
+      "bytes": 14806,
+      "sha256": "309fc0e86856a328317975d3b21c3b910e2a86eec7438135916c962d587490b9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/reacher/capture/planner-seed-8201-job-297536-1/manifest.json",
+      "bytes": 1982,
+      "sha256": "ff722e442972b1f3617a4b8e7e2c672fe10ac7ba189afeb6e56ee1317cfec427"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/reacher/frozen-scores/job-297564-1/manifest.json",
+      "bytes": 44456,
+      "sha256": "56c06db3d338803e10b5913461383d805afb8cce734cb456c9ae5bee34236b55"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/results/acid-alternative/v3-d2/stage-a/reacher/shared-score/job-297538-1/manifest.json",
+      "bytes": 15235,
+      "sha256": "748eed97a0ea741ab2ead715e13112741f9f5c6c959de0f99e13c30f74c9fb60"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/runtime/stable_worldmodel/policy.py",
+      "bytes": 17037,
+      "sha256": "37a55735dd169f5200c79b61b760664deb996e3704d416831a3dea12102b9e7a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/runtime/stable_worldmodel/solver/cem.py",
+      "bytes": 7618,
+      "sha256": "d88c86dcd1bd1e6d89221ac22079a3efe296cc7566532de0d36605e2f1536050"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/runtime/stable_worldmodel/solver/solver.py",
+      "bytes": 2320,
+      "sha256": "9b87a03aeeae6516147efc885ac20d2a9655af178470dff094ec5b85b58437c1"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-e3-d2-323318f12407690c/SOURCE-MANIFEST.sha256",
+      "bytes": 4850,
+      "sha256": "323318f12407690c4ebff4a738cd3676c1321c29748da3fc8cb24aa0de6d63c5"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alt_d2_models.py",
+      "bytes": 32369,
+      "sha256": "67635ebb05505210bca3e712e73e95c8f8e81c0ea873260f238cf8218e04b15c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/action_standardization.py",
+      "bytes": 4449,
+      "sha256": "d8bce68508836fb02ed69af38ba5e2c61ce80947ba00bdd27763ae4c712ea0c4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/costs.py",
+      "bytes": 13114,
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/evaluate_matched.py",
+      "bytes": 16953,
+      "sha256": "2a1ce23b2439d681dc5cf794586ac521e9b8cf0aff0edac4bb53a0cc59c78730"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/io_utils.py",
+      "bytes": 1511,
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/models.py",
+      "bytes": 16184,
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/task_registry.py",
+      "bytes": 2313,
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/train_transition_scorer.py",
+      "bytes": 36763,
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "bytes": 15995,
+      "sha256": "e0ba719362747f695cb6fb032255f9c368f83749431636396fe0638c0f4c0081"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative_diagnostics/score_candidate_pools.py",
+      "bytes": 16109,
+      "sha256": "8edf6746fff3989a70d9e6c2d4821ec5ab471b428920c2bf559cc919562451a9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/run_acid_alt_v3_core_score.slurm",
+      "bytes": 3615,
+      "sha256": "79a85aa879d54243753fa61e4081e9de6bd9f3854ca6c3619e483d2c14530165"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/run_acid_alt_v3_d2_score.slurm",
+      "bytes": 4561,
+      "sha256": "8d4419b699700c717d8336f090b617b74ce88c0d68040920b0097f7dccb077f0"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/score_acid_alt_d2_task.py",
+      "bytes": 31284,
+      "sha256": "86bd3da5a451185196bab52eb47ce47567aa8f42f106c0f2123bf2ece1dbcc3b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/SOURCE-MANIFEST.sha256",
+      "bytes": 6750,
+      "sha256": "2c8f890c31e9f5bf5e8b6769ccc424d7cd565278c422405d507d1c702d3580ea"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/action_standardization.py",
+      "bytes": 4449,
+      "sha256": "d8bce68508836fb02ed69af38ba5e2c61ce80947ba00bdd27763ae4c712ea0c4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/costs.py",
+      "bytes": 13114,
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/evaluate_matched.py",
+      "bytes": 16953,
+      "sha256": "2a1ce23b2439d681dc5cf794586ac521e9b8cf0aff0edac4bb53a0cc59c78730"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/io_utils.py",
+      "bytes": 1511,
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/models.py",
+      "bytes": 16184,
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/task_registry.py",
+      "bytes": 2313,
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/train_transition_scorer.py",
+      "bytes": 36763,
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "bytes": 15995,
+      "sha256": "e0ba719362747f695cb6fb032255f9c368f83749431636396fe0638c0f4c0081"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative_diagnostics/score_candidate_pools.py",
+      "bytes": 16109,
+      "sha256": "8edf6746fff3989a70d9e6c2d4821ec5ab471b428920c2bf559cc919562451a9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/run_acid_alt_v3_core_score.slurm",
+      "bytes": 3615,
+      "sha256": "79a85aa879d54243753fa61e4081e9de6bd9f3854ca6c3619e483d2c14530165"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/run_acid_alt_v3_d2_score.slurm",
+      "bytes": 4561,
+      "sha256": "8d4419b699700c717d8336f090b617b74ce88c0d68040920b0097f7dccb077f0"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/score_acid_alt_d2_task.py",
+      "bytes": 31120,
+      "sha256": "08b4aa32befe6175609e8e9f873741c74da248e434a6ee99b34c82de213d8f8b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/SOURCE-MANIFEST.sha256",
+      "bytes": 6636,
+      "sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/costs.py",
+      "bytes": 13114,
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/evaluate_matched.py",
+      "bytes": 16721,
+      "sha256": "d4ff35d4ce2c5b622b5d14d5631f153e214f901ac471c3711c792932dae1b6d0"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/io_utils.py",
+      "bytes": 1511,
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/models.py",
+      "bytes": 16184,
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/task_registry.py",
+      "bytes": 2313,
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/train_transition_scorer.py",
+      "bytes": 36763,
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/SOURCE-MANIFEST.sha256",
+      "bytes": 3176,
+      "sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/action_standardization.py",
+      "bytes": 4449,
+      "sha256": "d8bce68508836fb02ed69af38ba5e2c61ce80947ba00bdd27763ae4c712ea0c4"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/costs.py",
+      "bytes": 13114,
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/evaluate_matched.py",
+      "bytes": 16953,
+      "sha256": "2a1ce23b2439d681dc5cf794586ac521e9b8cf0aff0edac4bb53a0cc59c78730"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/io_utils.py",
+      "bytes": 1511,
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/models.py",
+      "bytes": 16184,
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/task_registry.py",
+      "bytes": 2313,
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/train_transition_scorer.py",
+      "bytes": 36763,
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+      "bytes": 3409,
+      "sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/benchmark_episode_latency.py",
+      "bytes": 15114,
+      "sha256": "7a19abef84505af48ca62f57278d8f8c36b5434d754a6d451e97ff5cfa37fdd6"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/benchmark_latency.py",
+      "bytes": 14596,
+      "sha256": "348be060a57684057fb80f8750e177902f49e47f8591af2269ecdb6f3f82b6aa"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "bytes": 15910,
+      "sha256": "e7cbd3856088c79774bd09cf88d1e863d755b820bfff64dd8ace327dec9580cd"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/score_candidate_pools.py",
+      "bytes": 16103,
+      "sha256": "14604180dbae477bf974df0095950e07a8fcf2dea92ab27f2114ad529b77958d"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/SOURCE-MANIFEST.sha256",
+      "bytes": 2681,
+      "sha256": "2a55d07d912bf1b6c39f36219c603e3b45c38c3a0a4ccdb475c5bc0d93971614"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/benchmark_episode_latency.py",
+      "bytes": 14910,
+      "sha256": "445997f716435606bce3b06a429086b1d7f21dcfced1ca180daa037ee213ccfa"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/benchmark_latency.py",
+      "bytes": 14596,
+      "sha256": "348be060a57684057fb80f8750e177902f49e47f8591af2269ecdb6f3f82b6aa"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "bytes": 15910,
+      "sha256": "e7cbd3856088c79774bd09cf88d1e863d755b820bfff64dd8ace327dec9580cd"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/score_candidate_pools.py",
+      "bytes": 15522,
+      "sha256": "b5303767e03c857d0090a5b6cfc4db275a61e0415e18ad13e718c00f63f8927c"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/SOURCE-MANIFEST.sha256",
+      "bytes": 2681,
+      "sha256": "53065f818adf09b30469306e64d5bf76388481f4595896ef4be1e1855d69b278"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/EXECUTION-APPROVAL.json",
+      "bytes": 212,
+      "sha256": "6f4729ffa650e9d36c4af8caf7601da4110e92bfc198d74f5b0807db76497c92"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/FINAL-PREPARATION-AUDIT.json",
+      "bytes": 286,
+      "sha256": "f4831a5fd7d8eaf043f0c725651de863f6e0762a4f59587676b998c9f13b437a"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/FINAL-RECOVERY.json",
+      "bytes": 31761,
+      "sha256": "9f0a341664a16afce151f5f2919340716f01a59efd96c0703beca364c9185158"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/HISTORICAL-TIMING-RECONCILIATION.md",
+      "bytes": 9439,
+      "sha256": "ee235ea4961d4c2384957d6c83bf955e4124493328e07a6f15d9cd564fc01a80"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/HISTORICAL-TIMINGS-VERIFIED.json",
+      "bytes": 202903,
+      "sha256": "ac3af5ee8dd0c6604b1119ae2e2659ad2e6424eb43995c92f0eecbd7eb1c39d9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/HISTORICAL-TIMINGS.json",
+      "bytes": 203530,
+      "sha256": "c29ec2a94b3715ff4e68ca9a9c522a77551e3e5a40ec1cec142bb0c575beaac8"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/INPUT-AUTHENTICATION.json",
+      "bytes": 4167,
+      "sha256": "f47583c792ba4dc6545d1327bd1cdfdfebe01e87402c3ee52f40e0c0ee204bfd"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/INTEGRATION-CONFIRMED-RECEIPT.json",
+      "bytes": 370,
+      "sha256": "2837a0c7716e1dca309b3517e1d10f6237225f3509c871b12c3a3944c07ac366"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/INTEGRATION-CONFIRMED.log",
+      "bytes": 2437,
+      "sha256": "0e326efefd8d17fd1329bdc9ce194b1027d91ffa71aeb711c9060879dddd9006"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/INTEGRATION-FINAL-RECEIPT.json",
+      "bytes": 382,
+      "sha256": "1315b5ca36c44981880b577e1b6cd0e41a7f963be508d41ce8c954bf75e5cd6e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/INTEGRATION-FINAL.log",
+      "bytes": 2352,
+      "sha256": "863abd111b3da8742e361e179dd9060732efd5811634ce31627541e82f054d51"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/METADATA-AUDIT.json",
+      "bytes": 161,
+      "sha256": "6992f518efc40e63f610880e4eacfe8d9e74374740740e69edbc6ed690747e8e"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/MISSING-ARTIFACTS.md",
+      "bytes": 3648,
+      "sha256": "1ee6f970f781a3d43c2404989b95a0deb4c34b4926ab0c5df24ee4ff94d6152b"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/PREPARATION-ACCOUNTING.json",
+      "bytes": 1621,
+      "sha256": "b007137fa9bd7ce5b348749861832cefe37bc329225bbf0dba7229a8ca146401"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/PREPARATION-AUDIT-FIRST-FAILURE.txt",
+      "bytes": 603,
+      "sha256": "55ec70b08cf0f3b784f47152e8a5484511d9699977f03d55dbda5130065f1822"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/PREPARATION-AUTHORITY.json",
+      "bytes": 1112,
+      "sha256": "2057060509ae577589cd7e4469d6f6e232aa6b9de2f9d4c6aaffc685f5f324e3"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/PREPARATION-PASS.json",
+      "bytes": 123,
+      "sha256": "ec660d206010be85c53c948f348df13e9bf791f02083eac57e6c37da743a52eb"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/PROFILING-PROTOCOL.md",
+      "bytes": 10192,
+      "sha256": "8ee350b8bb0e419c55a094afef4c30fad90321a4acbd923c7d8c0c35d516c239"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/README.md",
+      "bytes": 5939,
+      "sha256": "206a6f6cd9657688d79e3032c39bf657ecf41e5db9ce3720af683595ca896625"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/RESOURCE-PLAN.md",
+      "bytes": 4156,
+      "sha256": "724e8f052cd772e2c36748c74f6abd0254463462cd036d4cad5329641d65edb2"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/SINGLE-NOISE-EXECUTIONS.json",
+      "bytes": 30689,
+      "sha256": "0ec590d7374837665c37496f63f852e38ce38951c5ace7d1fd7f812dfed43bd7"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/SOURCE-AUTHENTICATION.json",
+      "bytes": 3819,
+      "sha256": "ab05efc63809f6502a39c2f5b9ec87c9fbb06501ce63835963bd938cc1f3d17f"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/TEST-FINAL.log",
+      "bytes": 1641,
+      "sha256": "6e17029bd24638040f79b02d1c80a2e0000fe8f36e79f9f74e66e4eae76a3d4d"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/TEST-FIRST-FAILURE.txt",
+      "bytes": 1146,
+      "sha256": "9caaaf71a8c833945f5b331e885ae3c894340ca828d874a9a1e1a9f41a2576b6"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/TEST-RECEIPT.json",
+      "bytes": 382,
+      "sha256": "3b85aedd8a24f8b872882e6d39a58755899f34f4beb1f57628f4e950990ed065"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/TEST-RUNNER-STARTUP-FAILURE.txt",
+      "bytes": 547,
+      "sha256": "512b26354a695429b2a114618e5e19f1ab01cc729c32534448b232d0508dfac9"
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/PACKAGE-MANIFEST.json",
+      "bytes": 62789,
+      "sha256": "a9a3b495e479916dfc64279e2c099a76a8817119c53607770b04e22f693796ae"
+    },
+    {
+      "path": "dtv_efficiency_r1/.gitattributes",
+      "bytes": 9,
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab"
+    },
+    {
+      "path": "dtv_efficiency_r1/__init__.py",
+      "bytes": 75,
+      "sha256": "89271fd1e3910f334eda8de639aef3a12607f01872b68e213ac043cdf4f27175"
+    },
+    {
+      "path": "dtv_efficiency_r1/accept.py",
+      "bytes": 7136,
+      "sha256": "e2a04d2c16fac2d8c62743b7889b0a423ca462716e0db58da1a69f9063b793b7"
+    },
+    {
+      "path": "dtv_efficiency_r1/audit.py",
+      "bytes": 3675,
+      "sha256": "e0159b4fa2e5b61948780dec5df6925a78cde6ebf2f603c5b3b4b3ba6d5a471b"
+    },
+    {
+      "path": "dtv_efficiency_r1/campaign.py",
+      "bytes": 9185,
+      "sha256": "ce9c4365b3a15b08cc3114a78c3b9ec4549b8e8f6c769d6c176b1c76f5f52387"
+    },
+    {
+      "path": "dtv_efficiency_r1/check_preparation.py",
+      "bytes": 2338,
+      "sha256": "49a0977fa5409ff5c41bb95b1447b0309f850790efe1c2d8c538bafeab218a16"
+    },
+    {
+      "path": "dtv_efficiency_r1/control.py",
+      "bytes": 1486,
+      "sha256": "0c99a6f75435e5ab14fdc438640f043ff2c6c9f8cd8597b8e6d748c7ba85f20a"
+    },
+    {
+      "path": "dtv_efficiency_r1/deadline.py",
+      "bytes": 4056,
+      "sha256": "8cb9c73902784a2b7f09f3b95f30f5c9095a277140edda1261844e40ce33dc0a"
+    },
+    {
+      "path": "dtv_efficiency_r1/package.py",
+      "bytes": 4521,
+      "sha256": "f7186ff13370a83db6061e825eba77ccaf335eca5294b2747c7ab9103c9b8995"
+    },
+    {
+      "path": "dtv_efficiency_r1/profile.py",
+      "bytes": 26853,
+      "sha256": "1cbe00249a5a3349563e61f1a6a7b00d7eaf8d07a2af16192622e4e0dd049d4e"
+    },
+    {
+      "path": "dtv_efficiency_r1/run_tests.py",
+      "bytes": 1204,
+      "sha256": "85740bc663f756fb1ac0cf66216f11dbceadd0235be4a5041fc0bc8e5e7ef27c"
+    },
+    {
+      "path": "dtv_efficiency_r1/test_control.py",
+      "bytes": 14143,
+      "sha256": "714399f951adbbef0e7b499036397b03a2bca672d37831dd342fe6681bcdfb25"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/.gitattributes",
+      "bytes": 9,
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/BINDINGS.json",
+      "bytes": 461,
+      "sha256": "cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/CORRECTION.md",
+      "bytes": 4664,
+      "sha256": "8e03cd391fc785bed86e059fd8cafd2939d4ad91ea3cf721eebb6b2174b5eea2"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/EXECUTION-APPROVAL.json",
+      "bytes": 243,
+      "sha256": "04ca1d26f29678ece6e6a1d53609fb65d4c5184f501ff3e88fc9f12d7576a90a"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/FINAL-METADATA-RECEIPT.json",
+      "bytes": 990,
+      "sha256": "33649ed7693277ba9a53c13451ef1c508ea8f2d5906d6b1f5805e7e1c2ec631e"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/GENERATED-PLAN-FINAL.json",
+      "bytes": 17426,
+      "sha256": "59d5f9b2397f43e44c91503dc41601d18e5b9ce2c2c9384ae3e5dab2a53f2866"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/GENERATED-PLAN.json",
+      "bytes": 17426,
+      "sha256": "59d5f9b2397f43e44c91503dc41601d18e5b9ce2c2c9384ae3e5dab2a53f2866"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/INTEGRATION-01-RECEIPT.json",
+      "bytes": 414,
+      "sha256": "a7645873e8bc6eb9bfcf775bb820adde5806becb387a5bc4aff3102cf34a7e80"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/INTEGRATION-01.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/INTEGRATION-02-RECEIPT.json",
+      "bytes": 479,
+      "sha256": "013ae213dfd6f16c0102672052070b33353371442086e3794215d683871d4edd"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/INTEGRATION-02.log",
+      "bytes": 4963,
+      "sha256": "e04347566e8a81823b37e3d3f1fea6c2b4ca673fea86725ad6e45c653e3ebcbd"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/INTEGRATION-03-RECEIPT.json",
+      "bytes": 468,
+      "sha256": "6cd138fdf9c73cf88883a38d382f71e259aa1bde0409fbf097fa19a06e9aa61f"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/INTEGRATION-03.log",
+      "bytes": 4957,
+      "sha256": "2655e5370a19a5835f673b5f88be02b46d027fdae1ba9f323e03a538573d11c0"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/METADATA-01-RECEIPT.json",
+      "bytes": 975,
+      "sha256": "e81fe512cd322229d7a59f541440931e4b7b38fd38303e9c9af608bc79a2e39e"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/NATIVE-CONTROL-01-RECEIPT.json",
+      "bytes": 479,
+      "sha256": "336879f5438c868398f1de838af17b7d94b077527c000808af8d692767694e93"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/NATIVE-CONTROL-01.log",
+      "bytes": 1490,
+      "sha256": "236e97fdd254f22eae25c4f50865c0909fb73279a146d6ceefbacfe975a92afb"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/NATIVE-CONTROL-02-RECEIPT.json",
+      "bytes": 478,
+      "sha256": "16055eb92f221c852878baba32dbf551661801333b9b277ef7aed572af7dfadb"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/NATIVE-CONTROL-02.log",
+      "bytes": 1575,
+      "sha256": "653e0f42bc272a37180cfc09c1e3c572daf81222c728f92a28d53c6910a1ba68"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/PREPARATION-ACCOUNTING.json",
+      "bytes": 1708,
+      "sha256": "b8e5da9bb333b3baceada416efe7f9d40c386af85adfe2eb442fc4c7618f60d0"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/PREPARATION-AUTHORITY.json",
+      "bytes": 781,
+      "sha256": "8216ef777f21a019f769036882948482d963658c6e3571a91b21c682e2987322"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/PREPARATION-BLOCKER.md",
+      "bytes": 1859,
+      "sha256": "6666863fffbbbcf7f77c864fd0939068bd120e5cf528db85b527a60da4ed3c33"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/PROFILING-PROTOCOL.md",
+      "bytes": 3197,
+      "sha256": "a79b368d0e86dba13908ca9e7c63d4de239f01509055eea11616187fe8b0f026"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/README.md",
+      "bytes": 3753,
+      "sha256": "fb63da689f34716b08646e2f4a20f05d649e6db1fab366b2d6758c0e81348bb2"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/RECONNECTION-RESOLUTION.md",
+      "bytes": 1315,
+      "sha256": "497a696ff95395ac67574815ffce9db8514da05f70d8fddc642eaad1904aeebd"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/RESOURCE-PLAN.md",
+      "bytes": 2934,
+      "sha256": "e402d184a46c14680e5d41a737fe39d5158440c549ea0a12636c3e5b7922e573"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/SOURCE-DIFF-FINAL.patch",
+      "bytes": 59884,
+      "sha256": "5c56bb4d6338c0500e7615cca560415b3fe79520e517541e8237d9cf942d0342"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/SOURCE-DIFF.patch",
+      "bytes": 59183,
+      "sha256": "9d21c357dd772e7ef29187da23edf8fafb88d927fcbb3084935af35a85d76d86"
+    },
+    {
+      "path": "docs/dtv-efficiency-correction-r1-20260930/TEST-RESULTS.md",
+      "bytes": 3136,
+      "sha256": "a1c7c15bcb2203cdde686846ec4fdfe0e70c93be7c841b5df68f7f94630295b5"
+    }
+  ]
+}

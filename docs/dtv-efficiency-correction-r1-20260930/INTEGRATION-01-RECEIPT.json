@@ -1,0 +1,15 @@
+{
+  "wall_seconds": 27.35899999999674,
+  "exit_code": 135,
+  "error": null,
+  "output_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "timeout_seconds": 600,
+  "cpu_threads": 4,
+  "ram_ceiling_bytes": 8589934592,
+  "existing_environment": true,
+  "research_inference": false,
+  "physics": false,
+  "gpu": false,
+  "checkpoint_deserialization": false,
+  "slurm": false
+}

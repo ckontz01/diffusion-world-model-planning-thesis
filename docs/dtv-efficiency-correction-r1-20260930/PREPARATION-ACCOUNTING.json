@@ -1,0 +1,28 @@
+{
+  "study": "DTV-EFF0",
+  "version": "control-correction-r1",
+  "status": "full_regressions_passed_publication_and_backup_within_reserved_scripts",
+  "cap_seconds": 1800,
+  "instrumented_suite_receipts": [
+    {"receipt": "INTEGRATION-01-RECEIPT.json", "seconds": 27.35899999999674, "exit_code": 135},
+    {"receipt": "NATIVE-CONTROL-01-RECEIPT.json", "seconds": 5.094000000011874, "exit_code": 0},
+    {"receipt": "NATIVE-CONTROL-02-RECEIPT.json", "seconds": 4.26600000000326, "exit_code": 0},
+    {"receipt": "INTEGRATION-02-RECEIPT.json", "seconds": 36.26599999998871, "exit_code": 0},
+    {"receipt": "INTEGRATION-03-RECEIPT.json", "seconds": 35.875, "exit_code": 0}
+  ],
+  "measured_suite_seconds": 108.86,
+  "conservative_other_script_and_eventual_publication_reservation_seconds": 600,
+  "measured_plus_conservative_reservation_seconds": 708.86,
+  "remaining_test_allowance_seconds": 1091.14,
+  "cpu_threads_cap": 4,
+  "ram_budget_bytes": 8589934592,
+  "new_correction_artifact_cap_bytes": 50000000,
+  "scope_note": "600 seconds conservatively covers other metadata/diagnostic/artifact scripts and publication/backup. It is not an exact reconstructed observation. Nested test/CPU times are not added to outer suite wall times. The first aborted WSL attempt remains charged; two later full WSL artificial runs passed. Native standard-library runs and their receipts remain preserved. Final export/file bytes are reported separately; all new correction outputs/caches/export count against 50 MB.",
+  "research_inference": false,
+  "research_checkpoint_deserializations": 0,
+  "slurm_allocations": 0,
+  "gpu_allocations": 0,
+  "physics": false,
+  "historical_rerun": false,
+  "monitor_created": false
+}

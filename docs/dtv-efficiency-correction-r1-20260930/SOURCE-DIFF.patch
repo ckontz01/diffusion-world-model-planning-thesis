@@ -1,0 +1,699 @@
+--- dtv_efficiency/profile.py
++++ dtv_efficiency_r1/profile.py
+@@ -3,6 +3,8 @@
+ The headline path delegates to authenticated historical scorers and released CEM.
+ Extra tracing, hashes and numerical equivalence checks are outside hot timers.
+ """
++import time
++ENTRY_STARTED=time.monotonic()  # before auth, torch import or child startup
+ import argparse
+ import hashlib
+ import importlib
+@@ -14,7 +16,8 @@
+ import time
+ from pathlib import Path
+ 
+-DOC = Path(__file__).resolve().parents[1] / 'docs/dtv-efficiency-20260930'
++from dtv_efficiency_r1.control import DOC, ORIGINAL_DOC, load_bindings, WORK_SECONDS
++from dtv_efficiency_r1.deadline import EvidenceList, supervise
+ ARMS = ('plain', 'acid', 'forward', 'legacy_dtv', 'd1_sigma025')
+ 
+ def sha(path):
+@@ -133,24 +136,28 @@
+     if hasattr(wrapper,'raw_cost'):return wrapper.raw_cost(trajectory,actions,goal)
+     return wrapper._diffusion_cost(trajectory,actions)
+ 
+-def main():
++def worker_main():
+     parser=argparse.ArgumentParser()
+     parser.add_argument('--bindings',type=Path,default=DOC/'BINDINGS.json')
+     parser.add_argument('--approval',type=Path,default=DOC/'EXECUTION-APPROVAL.json')
++    parser.add_argument('--worker-child',action='store_true')
+     parser.add_argument('--job',required=True)
+     parser.add_argument('--output',type=Path,required=True)
+     args=parser.parse_args()
+     gate(args.bindings,json.loads(args.approval.read_text()))  # before imports/payload access
+-    c=json.loads(args.bindings.read_text());job=next(j for j in c['jobs'] if j['id']==args.job)
+-    if args.output.exists():raise RuntimeError('exclusive output already exists')
+-    args.output.mkdir(parents=True)
+-    began=time.monotonic();records=[];audit=[]
++    if not args.worker_child or os.getppid()!=int(os.environ.get('DTVEFF_SUPERVISOR_PID','-1')):
++        raise RuntimeError('owned deadline supervisor required')
++    c=load_bindings(args.bindings);job=next(j for j in c['jobs'] if j['id']==args.job)
++    if not args.output.is_dir() or set(p.name for p in args.output.iterdir())!={'SUPERVISOR-STARTED.json'}:
++        raise RuntimeError('exclusive supervised output required')
++    began=float(os.environ['DTVEFF_START_MONOTONIC'])
++    records=EvidenceList(args.output/'RECORDS.jsonl');audit=EvidenceList(args.output/'EQUIVALENCE.jsonl')
+     def budget():
+-        if time.monotonic()-began>740:raise RuntimeError('soft worker ceiling reached; preserve without retry')
++        if time.monotonic()-began>WORK_SECONDS:raise RuntimeError('soft worker ceiling reached; preserve without retry')
+         logs=sum(p.stat().st_size for p in (args.output.parent/(job['id']+'.out'),args.output.parent/(job['id']+'.err')) if p.exists())
+         if logs>2000000:raise RuntimeError('operational log ceiling reached; preserve without retry')
+     try:
+-        model_runtime=json.loads((DOC/'FINAL-RECOVERY.json').read_text())['model_runtime_sources']
++        model_runtime=json.loads((ORIGINAL_DOC/'FINAL-RECOVERY.json').read_text())['model_runtime_sources']
+         for row in c['runtime']+model_runtime:
+             if sha(row['path'])!=row['sha256']:raise RuntimeError('installed runtime source changed')
+         remote_root=Path('/lustreFS/data/superworld/ckontzias/thesis')
+@@ -302,10 +309,46 @@
+             if r.get('phase')=='warm':groups.setdefault(f"{r['context']}:{r['arm']}:{r['level']}",[]).append(r)
+         properties=torch.cuda.get_device_properties(0)
+         result=dict(status='completed',job=job['id'],authentication_seconds=authentication_seconds,setup_seconds=setup_seconds,records=records,equivalence=audit,summaries={k:{field:summary([x[field] for x in rows]) for field in ('gpu_event_ms','synchronized_wall_ms')} for k,rows in groups.items()},rss_high_water_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,python=platform.python_version(),torch=torch.__version__,gpu=torch.cuda.get_device_name(),gpu_properties=dict(uuid=str(getattr(properties,'uuid','unavailable')),total_memory_bytes=properties.total_memory,multiprocessor_count=properties.multi_processor_count,compute_capability=[properties.major,properties.minor]),hostname=platform.node(),slurm_allocation_id=os.environ['SLURM_JOB_ID'],bindings_sha256=sha(args.bindings),wall_seconds=time.monotonic()-began,science_outcomes_computed=False)
+-        with (args.output/'PROFILE.json').open('x') as f:json.dump(result,f,indent=2)
++        encoded=json.dumps(result,indent=2)
++        if sum(p.stat().st_size for p in args.output.iterdir() if p.is_file())+len(encoded.encode())+4096>job['output_limit_bytes']:raise RuntimeError('profile plus seal/fault reservation exceeds worker cap')
++        with (args.output/'PROFILE.json').open('x') as f:f.write(encoded)
+         if sum(p.stat().st_size for p in args.output.rglob('*') if p.is_file())>job['output_limit_bytes']:raise RuntimeError('worker output cap')
+         with (args.output/'SEAL.json').open('x') as f:json.dump(dict(profile_sha256=sha(args.output/'PROFILE.json'),job=job['id']),f)
+     except Exception as e:
+-        with (args.output/'FAILURE.json').open('x') as f:json.dump(dict(error=repr(e),records=records,equivalence=audit,wall_seconds=time.monotonic()-began,automatic_retry=False),f)
++        with (args.output/'FAILURE.json').open('x') as f:json.dump(dict(error=repr(e),records_journal='RECORDS.jsonl',equivalence_journal='EQUIVALENCE.jsonl',completed_records=len(records),completed_equivalence=len(audit),wall_seconds=time.monotonic()-began,automatic_retry=False),f)
+         raise
++def seal_output(output,job):
++    names=('PROFILE.json','SEAL.json','RECORDS.jsonl','EQUIVALENCE.jsonl','SUPERVISOR-STARTED.json','SUPERVISION.json')
++    if not all((output/name).is_file() for name in names):raise RuntimeError('child completed without full evidence')
++    content=json.dumps(dict(job=job,files={name:sha(output/name) for name in names}),indent=2)
++    if sum(p.stat().st_size for p in output.iterdir() if p.is_file())+len(content.encode())>4000000:
++        raise RuntimeError('complete supervised artifact cap exceeded')
++    with (output/'CONTROL-SEAL.json').open('x') as f:f.write(content)
++
++def main():
++    parser=argparse.ArgumentParser()
++    parser.add_argument('--bindings',type=Path,default=DOC/'BINDINGS.json')
++    parser.add_argument('--approval',type=Path,default=DOC/'EXECUTION-APPROVAL.json')
++    parser.add_argument('--job',required=True)
++    parser.add_argument('--output',type=Path,required=True)
++    parser.add_argument('--worker-child',action='store_true')
++    args=parser.parse_args()
++    if args.worker_child:
++        worker_main();return
++    approval=json.loads(args.approval.read_text())
++    if approval.get('execute') is not True or approval.get('research_execution_authorized') is not True:
++        raise RuntimeError('DTV-EFF0 research execution disabled; explicit immutable execution instruction required')
++    if args.output.exists():raise RuntimeError('exclusive output already exists')
++    args.output.mkdir(parents=True)
++    with (args.output/'SUPERVISOR-STARTED.json').open('x') as f:
++        json.dump(dict(job=args.job,pid=os.getpid(),start_monotonic=ENTRY_STARTED,work_seconds=WORK_SECONDS,preservation_seconds=60),f)
++    command=[sys.executable,'-m','dtv_efficiency_r1.profile',*sys.argv[1:],'--worker-child']
++    record=supervise(command,args.output,work_seconds=WORK_SECONDS,started=ENTRY_STARTED)
++    if record['fault'] or record['child_exit_code']!=0:raise SystemExit(124 if record['fault']=='work_deadline' else 1)
++    try:seal_output(args.output,args.job)
++    except Exception as e:
++        if not (args.output/'FAILURE.json').exists():
++            with (args.output/'FAILURE.json').open('x') as f:json.dump(dict(error=repr(e),automatic_retry=False),f)
++        raise
++
+ if __name__=='__main__':main()
+--- dtv_efficiency/campaign.py
++++ dtv_efficiency_r1/campaign.py
+@@ -1,57 +1,98 @@
+-"""Finite serial timing dispatch. Default prints plan; disabled approval blocks submit."""
++"""Corrected finite serial dispatch and bounded initial sacct visibility."""
+ import argparse,json,subprocess,time
+ from pathlib import Path
+-from dtv_efficiency.profile import DOC,gate,sha
++from dtv_efficiency_r1.control import DOC,ROOT,load_bindings,WORKER_SECONDS,GRID_RESERVATION_SECONDS,AGGREGATE_SECONDS
++from dtv_efficiency_r1.profile import gate
+ 
+-def footprint(run,c):
+-    total=sum(p.stat().st_size for p in run.rglob('*') if p.is_file())
+-    package=json.loads((DOC/'PACKAGE-MANIFEST.json').read_text())
+-    if total+sum(r['bytes'] for r in package['files'])>c['live_bytes_cap']:raise RuntimeError('live footprint ceiling; preserve without resubmission')
+-    for job in c['jobs']:
+-        logs=sum(p.stat().st_size for p in (run/(job['id']+'.out'),run/(job['id']+'.err')) if p.exists())
+-        if logs>2000000:raise RuntimeError('worker log reservation exceeded')
+-        root=run/job['id']
+-        if root.exists() and sum(p.stat().st_size for p in root.rglob('*') if p.is_file())>job['output_limit_bytes']:raise RuntimeError('worker artifact reservation exceeded')
+-    return total
++LIVE={'PENDING','RUNNING','CONFIGURING','COMPLETING','SUSPENDED','RESIZING','SIGNALING'}
++TERMINAL={'BOOT_FAIL','CANCELLED','COMPLETED','DEADLINE','FAILED','NODE_FAIL','OUT_OF_MEMORY','PREEMPTED','TIMEOUT'}
++
++class ControlFault(RuntimeError):
++    def __init__(self,message,charged):super().__init__(message);self.charged=charged
+ 
+ def plan(c,package_root,approval,run):
+     env='/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006'
+     image='/lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif'
+-    if len(c['jobs'])!=9 or sum(j['wall_limit_seconds'] for j in c['jobs'])>7200:raise RuntimeError('grid/reservation mismatch')
+-    return [dict(id=j['id'],reservation_seconds=j['wall_limit_seconds'],command=['sbatch','--parsable','--job-name=dtveff0-'+j['id'],'--account=superworld','--partition=a6000','--qos=normal-a6000','--nodelist=gpu09','--gres=gpu:1','--cpus-per-task=4','--mem=8G','--time=00:13:20','--no-requeue','--output='+str(run/(j['id']+'.out')),'--error='+str(run/(j['id']+'.err')),'--wrap='+'apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis '+image+' env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH='+str(package_root)+' CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME '+env+'/bin/python -m dtv_efficiency.profile --bindings '+str(package_root/'docs/dtv-efficiency-20260930/BINDINGS.json')+' --approval '+str(approval)+' --job '+j['id']+' --output '+str(run/j['id'])]) for j in c['jobs']]
++    if len(c['jobs'])!=9 or any(j['wall_limit_seconds']!=WORKER_SECONDS for j in c['jobs']) or sum(j['wall_limit_seconds'] for j in c['jobs'])!=GRID_RESERVATION_SECONDS:raise RuntimeError('corrected grid/reservation mismatch')
++    return [dict(id=j['id'],reservation_seconds=j['wall_limit_seconds'],command=['sbatch','--parsable','--job-name=dtveff0-'+j['id'],'--account=superworld','--partition=a6000','--qos=normal-a6000','--nodelist=gpu09','--gres=gpu:1','--cpus-per-task=4','--mem=8G','--time=00:13:00','--no-requeue','--output='+str(run/(j['id']+'.out')),'--error='+str(run/(j['id']+'.err')),'--wrap='+'apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis '+image+' env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH='+str(package_root)+' CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME '+env+'/bin/python -m dtv_efficiency_r1.profile --bindings '+str(package_root/'docs/dtv-efficiency-correction-r1-20260930/BINDINGS.json')+' --approval '+str(approval)+' --job '+j['id']+' --output '+str(run/j['id'])]) for j in c['jobs']]
++
++def invoke(command,timeout):
++    return subprocess.run(command,stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True,timeout=timeout)
++
++def dispatch_one(job,append,charged=0,call=invoke,clock=time.monotonic,sleep=time.sleep,check=lambda:None):
++    """Exactly one submission. Missing/error responses never become charges."""
++    append(dict(event='submission_intent',task=job['id'],attempt=1))
++    try:response=call(job['command'],30)
++    except subprocess.TimeoutExpired as e:
++        append(dict(event='submission_response',task=job['id'],returncode=None,stdout=str(e.stdout or ''),stderr=str(e.stderr or ''),command_timeout=True))
++        raise ControlFault('ambiguous submission command timeout; reconcile, never retry',charged)
++    append(dict(event='submission_response',task=job['id'],returncode=response.returncode,stdout=response.stdout,stderr=response.stderr))
++    allocation=response.stdout.strip().split(';')[0]
++    if response.returncode or not allocation.isdigit():raise ControlFault('ambiguous submission preserved; no retry',charged)
++    submitted_at=clock();seen=False
++    append(dict(event='submitted',task=job['id'],allocation_id=allocation,initial_visibility_allowance_seconds=60))
++    while True:
++        check()
++        command=['sacct','-n','-P','-X','-j',allocation,'--format=JobIDRaw,JobName,State,ExitCode,ElapsedRaw,AllocTRES,NodeList']
++        timeout=10 if seen else max(.001,min(10,60-(clock()-submitted_at)))
++        try:response=call(command,timeout)
++        except subprocess.TimeoutExpired as e:
++            append(dict(event='scheduler',allocation_id=allocation,returncode=None,stdout=str(e.stdout or ''),stderr=str(e.stderr or ''),command_timeout=True))
++            raise ControlFault('unresolved allocation: accounting command timeout',charged)
++        append(dict(event='scheduler',allocation_id=allocation,returncode=response.returncode,stdout=response.stdout,stderr=response.stderr,seconds_since_submission=clock()-submitted_at))
++        if response.returncode:raise ControlFault('unresolved allocation: accounting command error',charged)
++        rows=[line.split('|') for line in response.stdout.splitlines() if line.strip()]
++        if not rows:
++            if seen or clock()-submitted_at>=60:raise ControlFault('unresolved allocation: missing accounting row',charged)
++            sleep(min(5,60-(clock()-submitted_at)));continue
++        if not seen and clock()-submitted_at>60:raise ControlFault('unresolved allocation: initial visibility deadline exceeded',charged)
++        if len(rows)!=1:raise ControlFault('unresolved allocation: duplicate/unexpected rows',charged)
++        row=rows[0]
++        if row[-1]=='':row.pop()
++        if len(row)!=7 or row[0]!=allocation or row[1]!='dtveff0-'+job['id']:raise ControlFault('unresolved allocation: conflicting allocation/task identity',charged)
++        seen=True;state=row[2].split()[0] if row[2].strip() else ''
++        if state in LIVE:sleep(5);continue
++        if state not in TERMINAL:raise ControlFault('unresolved allocation: unknown/nonterminal state',charged)
++        try:elapsed=int(row[4])
++        except ValueError:raise ControlFault('unresolved terminal accounting: invalid elapsed charge',charged)
++        if elapsed<0:raise ControlFault('unresolved terminal accounting: negative charge',charged)
++        charged+=elapsed
++        terminal=dict(event='terminal',task=job['id'],allocation_id=allocation,elapsed_seconds=elapsed,cumulative_gpu_seconds=charged,state=state,exit=row[3],node=row[6],allocated_resources=row[5])
++        try:append(terminal)
++        except Exception as e:raise ControlFault('actual terminal charge retained despite control-record fault: '+repr(terminal)+'; '+repr(e),charged) from e
++        if elapsed>WORKER_SECONDS or charged>AGGREGATE_SECONDS or state!='COMPLETED' or row[3]!='0:0' or row[6] not in ('gpu09','gpu09.cluster') or 'gres/gpu=1' not in row[5]:raise ControlFault('actual terminal fault charged once; no retry',charged)
++        return charged,terminal
++
++def footprint(run,c):
++    package=json.loads((DOC/'PACKAGE-MANIFEST.json').read_text())
++    if sum(p.stat().st_size for p in run.rglob('*') if p.is_file())+sum(r['bytes'] for r in package['files'])>c['live_bytes_cap']:raise RuntimeError('live footprint ceiling')
++    for job in c['jobs']:
++        if sum(p.stat().st_size for p in (run/(job['id']+'.out'),run/(job['id']+'.err')) if p.exists())>2000000:raise RuntimeError('worker log cap')
++        root=run/job['id']
++        if root.exists() and sum(p.stat().st_size for p in root.rglob('*') if p.is_file())>job['output_limit_bytes']:raise RuntimeError('complete worker output cap')
+ 
+ def main():
+-    a=argparse.ArgumentParser();a.add_argument('--submit',action='store_true');a.add_argument('--run',type=Path,required=True);a.add_argument('--approval',type=Path,default=DOC/'EXECUTION-APPROVAL.json');args=a.parse_args()
+-    c=json.loads((DOC/'BINDINGS.json').read_text());jobs=plan(c,DOC.parents[1],args.approval,args.run)
+-    if not args.submit:print(json.dumps(dict(execute=False,full_future_gpu_reservation_seconds=7200,jobs=jobs),indent=2));return
++    parser=argparse.ArgumentParser();parser.add_argument('--submit',action='store_true');parser.add_argument('--run',type=Path,required=True);parser.add_argument('--approval',type=Path,default=DOC/'EXECUTION-APPROVAL.json');args=parser.parse_args()
++    c=load_bindings();jobs=plan(c,ROOT,args.approval,args.run)
++    if not args.submit:print(json.dumps(dict(execute=False,full_future_gpu_reservation_seconds=GRID_RESERVATION_SECONDS,aggregate_gpu_allocation_seconds_ceiling=AGGREGATE_SECONDS,jobs=jobs),indent=2));return
+     gate(DOC/'BINDINGS.json',json.loads(args.approval.read_text()))
+-    if not str(args.run).startswith('/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-efficiency-20260930/run-') or args.run.exists():raise RuntimeError('exclusive study namespace required')
++    if not str(args.run).startswith('/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-efficiency-20260930/run-') or args.run.exists():raise RuntimeError('exclusive namespace required; successful/live/ambiguous work never repeated')
+     args.run.mkdir(parents=True);charged=0;ledger=args.run/'DISPATCH.jsonl'
+-    def append(value):
+-        if ledger.exists() and ledger.stat().st_size>1000000:raise RuntimeError('control ledger reservation exhausted; retain exact records')
+-        with ledger.open('a') as f:f.write(json.dumps(value)+'\n');f.flush()
+-    for index,job in enumerate(jobs):
+-        if charged+sum(j['reservation_seconds'] for j in jobs[index:])>7200:raise RuntimeError('full remaining reservation exhausted')
+-        append(dict(event='submission_intent',task=job['id'],remaining_reserved_seconds=sum(j['reservation_seconds'] for j in jobs[index:]),attempt=1))
+-        r=subprocess.run(job['command'],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+-        append(dict(event='submission_response',task=job['id'],returncode=r.returncode,stdout=r.stdout,stderr=r.stderr))
+-        allocation=r.stdout.strip().split(';')[0]
+-        if r.returncode or not allocation.isdigit():raise RuntimeError('ambiguous submission preserved; no automatic retry')
+-        append(dict(event='submitted',task=job['id'],allocation_id=allocation))
+-        while True:
++    def append(event):
++        with ledger.open('a') as f:f.write(json.dumps(event)+'\n');f.flush()
++        # Preserve the triggering raw response/charge rather than discard it.
++        if ledger.stat().st_size>1000000:raise RuntimeError('control ledger cap; triggering evidence retained')
++    try:
++        for index,job in enumerate(jobs):
++            remaining=sum(j['reservation_seconds'] for j in jobs[index:])
++            if charged+remaining>AGGREGATE_SECONDS:raise ControlFault('full remaining reservation exhausted',charged)
++            append(dict(event='full_remaining_reservation',charged_seconds=charged,remaining_seconds=remaining))
++            charged,_=dispatch_one(job,append,charged=charged,check=lambda:footprint(args.run,c))
++            if not (args.run/job['id']/'CONTROL-SEAL.json').is_file():raise ControlFault('terminal success without independently sealed control evidence',charged)
+             footprint(args.run,c)
+-            r=subprocess.run(['sacct','-n','-P','-X','-j',allocation,'--format=JobIDRaw,JobName,State,ExitCode,ElapsedRaw,AllocTRES,NodeList'],stdout=subprocess.PIPE,stderr=subprocess.PIPE,text=True)
+-            append(dict(event='scheduler',allocation_id=allocation,stdout=r.stdout,stderr=r.stderr,returncode=r.returncode))
+-            rows=[x.split('|') for x in r.stdout.strip().splitlines() if x]
+-            if r.returncode or len(rows)!=1 or rows[0][0]!=allocation:raise RuntimeError('unresolved allocation; preserve, reconcile before any recovery')
+-            row=rows[0]
+-            if row[1]!='dtveff0-'+job['id']:raise RuntimeError('allocation task identity mismatch')
+-            state=row[2].split()[0]
+-            if state not in ('PENDING','RUNNING','CONFIGURING','COMPLETING'):
+-                elapsed=int(row[4]);charged+=elapsed;append(dict(event='terminal',task=job['id'],allocation_id=allocation,elapsed_seconds=elapsed,cumulative_gpu_seconds=charged,state=state,exit=row[3],node=row[6],allocated_resources=row[5]))
+-                if elapsed>800 or state!='COMPLETED' or row[3]!='0:0' or row[6] not in ('gpu09','gpu09.cluster') or 'gres/gpu=1' not in row[5] or not (args.run/job['id']/'SEAL.json').is_file():raise RuntimeError('terminal fault charged and preserved; no retry')
+-                footprint(args.run,c)
+-                break
+-            time.sleep(5)
+-    append(dict(event='all_complete',cumulative_gpu_seconds=charged,successful_jobs=9,research_outcomes=False))
++        append(dict(event='all_complete',cumulative_gpu_seconds=charged,successful_jobs=9,research_outcomes=False))
++    except Exception as e:
++        charged=getattr(e,'charged',charged)
++        with (args.run/'STOP.json').open('x') as f:json.dump(dict(error=repr(e),known_terminal_gpu_seconds=charged,unresolved_allocations_must_be_reconciled=True,automatic_retry=False),f,indent=2)
++        raise
+ if __name__=='__main__':main()
+--- dtv_efficiency/accept.py
++++ dtv_efficiency_r1/accept.py
+@@ -1,13 +1,14 @@
+ """Independent full-grid timing acceptance, then all-cell comparison (no selection)."""
+ import argparse,json
+ from pathlib import Path
+-from dtv_efficiency.profile import DOC,sha,ARMS,summary
++from dtv_efficiency_r1.profile import DOC,sha,ARMS,summary
++from dtv_efficiency_r1.control import load_bindings, WORK_SECONDS, WORKER_SECONDS, AGGREGATE_SECONDS
+ 
+ def validate(run,c):
+     events=[json.loads(x) for x in (run/'DISPATCH.jsonl').read_text().splitlines()]
+     terminal=[e for e in events if e['event']=='terminal']
+     if len(terminal)!=9 or len({e['allocation_id'] for e in terminal})!=9 or {e['task'] for e in terminal}!={j['id'] for j in c['jobs']}:raise RuntimeError('full-grid accounting mismatch')
+-    if any(e['state']!='COMPLETED' or e['exit']!='0:0' or e['elapsed_seconds']>800 for e in terminal) or sum(e['elapsed_seconds'] for e in terminal)>7200:raise RuntimeError('failure/cap; never omit')
++    if any(e['state']!='COMPLETED' or e['exit']!='0:0' or e['elapsed_seconds']>WORKER_SECONDS for e in terminal) or sum(e['elapsed_seconds'] for e in terminal)>AGGREGATE_SECONDS:raise RuntimeError('failure/cap; never omit')
+     if any(e.get('node') not in ('gpu09','gpu09.cluster') or 'gres/gpu=1' not in e.get('allocated_resources','') for e in terminal):raise RuntimeError('allocation hardware identity mismatch')
+     submitted=[e for e in events if e['event']=='submitted']
+     if len(submitted)!=9 or {(e['task'],e['allocation_id']) for e in submitted}!={(e['task'],e['allocation_id']) for e in terminal}:raise RuntimeError('submission/terminal lineage mismatch')
+@@ -15,10 +16,16 @@
+     for job in c['jobs']:
+         root=run/job['id'];seal=json.loads((root/'SEAL.json').read_text());profile_path=root/'PROFILE.json'
+         if seal['profile_sha256']!=sha(profile_path) or seal['job']!=job['id']:raise RuntimeError('worker seal mismatch')
++        control=json.loads((root/'CONTROL-SEAL.json').read_text())
++        required={'PROFILE.json','SEAL.json','RECORDS.jsonl','EQUIVALENCE.jsonl','SUPERVISOR-STARTED.json','SUPERVISION.json'}
++        if control.get('job')!=job['id'] or set(control.get('files',{}))!=required or any(sha(root/name)!=digest for name,digest in control['files'].items()):raise RuntimeError('complete supervisory evidence seal mismatch')
++        supervisor=json.loads((root/'SUPERVISION.json').read_text())
++        if supervisor['fault'] is not None or supervisor['child_exit_code']!=0 or supervisor['unresolved_process'] or supervisor['elapsed_seconds']>WORKER_SECONDS or supervisor['work_deadline_seconds']!=WORK_SECONDS:raise RuntimeError('deadline/control acceptance failure')
+         value=json.loads(profile_path.read_text())
++        if [json.loads(x) for x in (root/'RECORDS.jsonl').read_text().splitlines()]!=value['records'] or [json.loads(x) for x in (root/'EQUIVALENCE.jsonl').read_text().splitlines()]!=value['equivalence']:raise RuntimeError('completed journal/profile evidence mismatch')
+         if value['status']!='completed' or value['job']!=job['id'] or value['bindings_sha256']!=sha(DOC/'BINDINGS.json') or value['science_outcomes_computed']:raise RuntimeError('wrong worker contract')
+         if value['gpu']!='NVIDIA RTX 6000 Ada Generation' or value['hostname'] not in ('gpu09','gpu09.cluster') or value['python']!='3.11.10' or value['torch']!='2.5.1+cu121' or value['rss_high_water_bytes']>c['ram_bytes']:raise RuntimeError('worker hardware/runtime/memory mismatch')
+-        if value['wall_seconds']>800:raise RuntimeError('worker wall ceiling')
++        if value['wall_seconds']>WORK_SECONDS:raise RuntimeError('worker work deadline')
+         warm=[r for r in value['records'] if r.get('phase')=='warm']
+         expected={(context,arm,level,block,rep) for context in (0,1) for arm in ARMS for level in ('A','B','C') if not (arm=='plain' and level=='A') for block in range(5) for rep in range(2)}
+         observed=[(r['context'],r['arm'],r['level'],r['block'],r['repetition']) for r in warm]
+@@ -54,7 +61,7 @@
+ 
+ def main():
+     parser=argparse.ArgumentParser();parser.add_argument('--run',type=Path,required=True);parser.add_argument('--output',type=Path,required=True);args=parser.parse_args()
+-    c=json.loads((DOC/'BINDINGS.json').read_text());profiles,terminal=validate(args.run,c)
++    c=load_bindings();profiles,terminal=validate(args.run,c)
+     cells=comparisons(profiles)
+     screen={arm:all(r['utility_cell_pass'] for r in cells if r['arm']==arm and r['level']=='C' and r['metric']=='synchronized_wall_ms') for arm in ('legacy_dtv','d1_sigma025')}
+     with args.output.open('x') as f:json.dump(dict(status='complete_fixed_grid',bindings_sha256=sha(DOC/'BINDINGS.json'),worker_profiles=[dict(job=j['id'],sha256=sha(args.run/j['id']/'PROFILE.json')) for j in c['jobs']],comparisons=cells,frozen_utility_screen=screen,allocation_seconds=sum(e['elapsed_seconds'] for e in terminal),models_promoted=False,next_stage_authorized=False,science_outcomes=False),f,indent=2)
+--- /dev/null
++++ dtv_efficiency_r1/__init__.py
+@@ -0,0 +1 @@
++"""DTV-EFF0 control correction R1; research execution remains disabled."""
+--- /dev/null
++++ dtv_efficiency_r1/audit.py
+@@ -0,0 +1,33 @@
++"""Metadata-only correction audit; no research payload or scheduler access."""
++import argparse,difflib,json,time
++from pathlib import Path
++from dtv_efficiency_r1 import campaign,package
++from dtv_efficiency_r1.control import ROOT,DOC,ORIGINAL_DOC,load_bindings
++from dtv_efficiency_r1.profile import sha
++
++def write(path,value):
++    with path.open('x',encoding='utf-8',newline='\n') as f:f.write(value)
++
++def main():
++    parser=argparse.ArgumentParser();parser.add_argument('--label',required=True);args=parser.parse_args()
++    started=time.monotonic();c=load_bindings()
++    names=('profile.py','campaign.py','accept.py');diff=[]
++    for name in names:
++        old=ROOT/'dtv_efficiency'/name;new=ROOT/'dtv_efficiency_r1'/name
++        diff.extend(difflib.unified_diff(old.read_text().splitlines(True),new.read_text().splitlines(True),fromfile='dtv_efficiency/'+name,tofile='dtv_efficiency_r1/'+name))
++    for new in sorted((ROOT/'dtv_efficiency_r1').glob('*.py')):
++        if new.name not in names:diff.extend(difflib.unified_diff([],new.read_text().splitlines(True),fromfile='/dev/null',tofile=new.relative_to(ROOT).as_posix()))
++    for target in (DOC/'SOURCE-DIFF.patch',DOC/'GENERATED-PLAN.json'):
++        if target.exists():raise RuntimeError('preserve audit artifacts; do not regenerate a frozen audit')
++    write(DOC/'SOURCE-DIFF.patch',''.join(diff))
++    remote_package=Path('/lustreFS/data/superworld/ckontzias/thesis/snapshots/dtv-efficiency-correction-r1-PACKAGE_HASH')
++    run=Path('/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-efficiency-20260930/run-PACKAGE_HASH')
++    jobs=campaign.plan(c,remote_package,remote_package/'docs/dtv-efficiency-correction-r1-20260930/EXECUTION-APPROVAL.json',run)
++    if sum(j['reservation_seconds'] for j in jobs)!=7020 or any('--time=00:13:00' not in j['command'] for j in jobs):raise RuntimeError('reservation arithmetic')
++    write(DOC/'GENERATED-PLAN.json',json.dumps(dict(execute=False,paths_are_unstaged_templates=True,wall_seconds_per_worker=780,work_seconds=720,preservation_seconds=60,full_future_gpu_reservation_seconds=7020,aggregate_gpu_ceiling_seconds=7200,jobs=jobs),indent=2)+'\n')
++    rows=package.files();source=sum(r['bytes'] for r in rows)
++    live=9*(4000000+2000000)+source+2000000
++    if live>c['live_bytes_cap'] or live+2000000>c['archive_bytes_cap']:raise RuntimeError('complete output reservations')
++    receipt=dict(status='metadata_verified_tests_and_ssd_still_pending',reviewed_members_verified=len(json.loads((ORIGINAL_DOC/'PACKAGE-MANIFEST.json').read_text())['files']),reviewed_manifest_sha256=sha(ORIGINAL_DOC/'PACKAGE-MANIFEST.json'),binding_overlay_sha256=sha(DOC/'BINDINGS.json'),plan_sha256=sha(DOC/'GENERATED-PLAN.json'),exact_source_diff_sha256=sha(DOC/'SOURCE-DIFF.patch'),source_members=len(rows),source_bytes_before_this_receipt=source,source_cap_bytes=4000000,complete_live_bound_before_this_receipt=live,complete_archive_bound_before_this_receipt=live+2000000,correction_new_bytes_before_this_receipt=sum(r['bytes'] for r in rows if r['path'].startswith(('dtv_efficiency_r1/','docs/dtv-efficiency-correction-r1-20260930/'))),correction_artifact_cap_bytes=50000000,worker_complete_outputs_tested=True,original_package_unchanged=True,research_inference=False,slurm=False,gpu=False,wall_seconds=time.monotonic()-started)
++    write(DOC/(args.label+'-RECEIPT.json'),json.dumps(receipt,indent=2)+'\n');print(json.dumps(receipt,indent=2))
++if __name__=='__main__':main()
+--- /dev/null
++++ dtv_efficiency_r1/check_preparation.py
+@@ -0,0 +1,28 @@
++"""Accounted correction-only runner; never rewrites reviewed evidence."""
++import argparse,json,os,subprocess,sys,time
++from dtv_efficiency_r1.control import ROOT,DOC
++from dtv_efficiency_r1.profile import sha
++
++def main():
++    parser=argparse.ArgumentParser();parser.add_argument('--label',required=True);parser.add_argument('--native-control-only',action='store_true');args=parser.parse_args()
++    if not args.label.replace('-','').isalnum():raise ValueError('exclusive receipt label required')
++    output=DOC/(args.label+'.log');receipt=DOC/(args.label+'-RECEIPT.json')
++    if output.exists() or receipt.exists():raise RuntimeError('preserve receipts; new label required')
++    previous=sum(json.loads(p.read_text())['wall_seconds'] for p in DOC.glob('*-RECEIPT.json'))
++    # Reserve a conservative 600 seconds for other local scripts/publication.
++    allowance=1800-600-previous
++    if allowance<=0:raise RuntimeError('correction scripted-test envelope exhausted')
++    env=dict(os.environ,OMP_NUM_THREADS='4',MKL_NUM_THREADS='4',OPENBLAS_NUM_THREADS='4',PYTHONDONTWRITEBYTECODE='1')
++    start=time.monotonic();timeout=min(600,allowance);error=None
++    try:
++        command=[sys.executable,'-m','dtv_efficiency_r1.test_control'] if args.native_control_only else ['wsl.exe','-d','Thesis-Ubuntu','-u','chris','--','/home/chris/miniforge3/envs/thesis/bin/python','-m','dtv_efficiency_r1.run_tests']
++        result=subprocess.run(command,cwd=ROOT,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=timeout,env=env)
++        code=result.returncode;data=result.stdout
++    except subprocess.TimeoutExpired as e:
++        code=124;data=e.stdout or b'';error='bounded local suite timeout; no automatic retry'
++    with output.open('xb') as f:f.write(data)
++    record=dict(wall_seconds=time.monotonic()-start,exit_code=code,error=error,output_sha256=sha(output),timeout_seconds=timeout,cpu_threads=4,ram_ceiling_bytes=8*1024**3,existing_environment=True,native_control_only=args.native_control_only,full_regression_suite=not args.native_control_only,research_inference=False,physics=False,gpu=False,checkpoint_deserialization=False,slurm=False)
++    with receipt.open('x') as f:json.dump(record,f,indent=2)
++    print(data.decode(errors='replace'));print(json.dumps(record,indent=2))
++    if code:raise SystemExit(code)
++if __name__=='__main__':main()
+--- /dev/null
++++ dtv_efficiency_r1/control.py
+@@ -0,0 +1,29 @@
++"""Strict binding overlay; scientific/input fields are inherited byte-exact."""
++import copy,json
++from pathlib import Path
++from dtv_efficiency.profile import sha
++
++ROOT=Path(__file__).resolve().parents[1]
++DOC=ROOT/'docs/dtv-efficiency-correction-r1-20260930'
++ORIGINAL_DOC=ROOT/'docs/dtv-efficiency-20260930'
++WORK_SECONDS=720
++PRESERVATION_SECONDS=60
++WORKER_SECONDS=780
++GRID_RESERVATION_SECONDS=7020
++AGGREGATE_SECONDS=7200
++
++def load_bindings(path=DOC/'BINDINGS.json'):
++    overlay=json.loads(Path(path).read_text())
++    base=ROOT/overlay['reviewed_bindings_path']
++    if base.resolve()!=ORIGINAL_DOC/'BINDINGS.json' or sha(base)!=overlay['reviewed_bindings_sha256']:
++        raise RuntimeError('reviewed scientific bindings changed')
++    expected=dict(work_deadline_seconds=WORK_SECONDS,preservation_allowance_seconds=PRESERVATION_SECONDS,worker_wall_seconds=WORKER_SECONDS,grid_reservation_seconds=GRID_RESERVATION_SECONDS,gpu_allocation_seconds_cap=AGGREGATE_SECONDS)
++    if overlay.get('control')!=expected or overlay.get('execute') is not False:
++        raise RuntimeError('corrected finite contract differs')
++    result=copy.deepcopy(json.loads(base.read_text()))
++    for job in result['jobs']:job['wall_limit_seconds']=WORKER_SECONDS
++    result.update(expected)
++    result['execute']=False
++    if len(result['jobs'])!=9 or sum(j['wall_limit_seconds'] for j in result['jobs'])!=GRID_RESERVATION_SECONDS:
++        raise RuntimeError('nine-worker reservation mismatch')
++    return result
+--- /dev/null
++++ dtv_efficiency_r1/deadline.py
+@@ -0,0 +1,56 @@
++"""Outer-process deadline supervisor; nothing wraps the timed CUDA callable."""
++import json,os,signal,subprocess,time
++from pathlib import Path
++
++class EvidenceList(list):
++    """Journal completed records outside timers; interrupted tail stays intact."""
++    def __init__(self,path):super().__init__();self.path=Path(path)
++    def append(self,value):
++        with self.path.open('a',encoding='utf-8') as f:
++            f.write(json.dumps(value,separators=(',',':'))+'\n');f.flush()
++        super().append(value)
++
++def signal_group(process,force):
++    if os.name=='posix':
++        try:os.killpg(process.pid,signal.SIGKILL if force else signal.SIGTERM)
++        except ProcessLookupError:pass
++    elif force:process.kill()
++    else:process.terminate()
++
++def supervise(command,output,work_seconds=720,started=None,termination_grace=5,kill_wait=5,env=None):
++    """Bounded waits, not a guarantee of uninterruptible kernel/I/O cleanup."""
++    started=time.monotonic() if started is None else started
++    output=Path(output);deadline=started+work_seconds
++    child_env=dict(os.environ if env is None else env)
++    child_env.update(DTVEFF_START_MONOTONIC=str(started),DTVEFF_SUPERVISOR_PID=str(os.getpid()))
++    if time.monotonic()>=deadline:
++        record=dict(status='deadline_fault',fault='work_deadline',child_pid=None,child_exit_code=None,accounting_start_monotonic=started,work_deadline_seconds=work_seconds,elapsed_seconds=time.monotonic()-started,termination_sent=False,kill_sent=False,termination_grace_seconds=termination_grace,kill_wait_seconds=kill_wait,unresolved_process=False,cleanup_guaranteed=False,automatic_retry=False)
++        with (output/'SUPERVISION.json').open('x') as f:json.dump(record,f,indent=2)
++        with (output/'FAILURE.json').open('x') as f:json.dump(dict(error='deadline exhausted before child startup',automatic_retry=False),f)
++        return record
++    try:process=subprocess.Popen(command,env=child_env,start_new_session=os.name=='posix')
++    except OSError as e:
++        record=dict(status='startup_fault',fault='child_startup',error=repr(e),child_pid=None,child_exit_code=None,accounting_start_monotonic=started,work_deadline_seconds=work_seconds,elapsed_seconds=time.monotonic()-started,unresolved_process=False,cleanup_guaranteed=False,automatic_retry=False)
++        with (output/'SUPERVISION.json').open('x') as f:json.dump(record,f,indent=2)
++        with (output/'FAILURE.json').open('x') as f:json.dump(record,f,indent=2)
++        return record
++    fault=None;term=False;kill=False;unresolved=False
++    try:
++        process.wait(timeout=max(0,deadline-time.monotonic()))
++    except subprocess.TimeoutExpired:
++        fault='work_deadline';term=True;signal_group(process,False)
++        try:process.wait(timeout=termination_grace)
++        except subprocess.TimeoutExpired:
++            kill=True;signal_group(process,True)
++            try:process.wait(timeout=kill_wait)
++            except subprocess.TimeoutExpired:unresolved=True
++    record=dict(status='deadline_fault' if fault else 'child_exited',fault=fault,child_pid=process.pid,child_exit_code=process.poll(),accounting_start_monotonic=started,work_deadline_seconds=work_seconds,elapsed_seconds=time.monotonic()-started,termination_sent=term,kill_sent=kill,termination_grace_seconds=termination_grace,kill_wait_seconds=kill_wait,unresolved_process=unresolved,cleanup_guaranteed=False,automatic_retry=False)
++    with (output/'SUPERVISION.json').open('x') as f:json.dump(record,f,indent=2)
++    if fault:
++        evidence={p.name:p.stat().st_size for p in output.iterdir() if p.is_file()}
++        with (output/'DEADLINE-FAULT.json').open('x') as f:json.dump(dict(**record,retained_evidence_bytes=evidence),f,indent=2)
++    if fault or process.poll()!=0:
++        failure=output/'FAILURE.json'
++        if not failure.exists():
++            with failure.open('x') as f:json.dump(dict(error=fault or 'child_exit_nonzero',supervision='SUPERVISION.json',records_journal='RECORDS.jsonl',equivalence_journal='EQUIVALENCE.jsonl',automatic_retry=False),f,indent=2)
++    return record
+--- /dev/null
++++ dtv_efficiency_r1/package.py
+@@ -0,0 +1,50 @@
++"""Exclusive correction export, including immutable reviewed dependencies."""
++import argparse,json,shutil,subprocess,tarfile,time
++from pathlib import Path
++from dtv_efficiency.package import verify_archive,VOLUME
++from dtv_efficiency_r1.control import ROOT,DOC,ORIGINAL_DOC
++from dtv_efficiency_r1.profile import sha
++
++DEST=Path('D:/THESIS-BACKUPS/dtv-efficiency-20260930/correction-r1')
++REVIEWED_MANIFEST_SHA='a9a3b495e479916dfc64279e2c099a76a8817119c53607770b04e22f693796ae'
++
++def files():
++    original=ORIGINAL_DOC/'PACKAGE-MANIFEST.json'
++    if sha(original)!=REVIEWED_MANIFEST_SHA:raise RuntimeError('reviewed manifest changed')
++    rows=json.loads(original.read_text())['files']
++    for row in rows:
++        if sha(ROOT/row['path'])!=row['sha256'] or (ROOT/row['path']).stat().st_size!=row['bytes']:raise RuntimeError('reviewed source changed')
++    extra=[original]+[p for base in (ROOT/'dtv_efficiency_r1',DOC) for p in sorted(base.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and p.name not in ('PACKAGE-MANIFEST.json','SSD-BACKUP.json','PUBLICATION.json')]
++    rows=rows+[dict(path=p.relative_to(ROOT).as_posix(),bytes=p.stat().st_size,sha256=sha(p)) for p in extra]
++    if len({r['path'] for r in rows})!=len(rows):raise RuntimeError('duplicate export member')
++    if sum(r['bytes'] for r in rows)>4000000:raise RuntimeError('complete source package exceeds unchanged 4 MB reservation')
++    new_bytes=sum(r['bytes'] for r in rows if r['path'].startswith(('dtv_efficiency_r1/','docs/dtv-efficiency-correction-r1-20260930/')))
++    if new_bytes>50000000:raise RuntimeError('new correction artifact envelope')
++    return rows
++
++def main():
++    parser=argparse.ArgumentParser();parser.add_argument('mode',choices=('freeze','backup'));args=parser.parse_args()
++    manifest=DOC/'PACKAGE-MANIFEST.json'
++    if args.mode=='freeze':
++        with manifest.open('x') as f:json.dump(dict(study='DTV-EFF0',version='control-correction-r1',execute=False,reviewed_commit='712c39041a8242c3f45d43f95b3199bd77ca64ba',reviewed_manifest_sha256=REVIEWED_MANIFEST_SHA,files=files()),f,indent=2)
++        print('package_manifest_sha256',sha(manifest));return
++    raw=subprocess.check_output(['powershell.exe','-NoProfile','-Command','Get-Volume -DriveLetter D | Select-Object FileSystemLabel,UniqueId,SizeRemaining | ConvertTo-Json -Compress'],text=True)
++    volume=json.loads(raw)
++    if volume['FileSystemLabel']!='THESIS_SSD' or volume['UniqueId'].lower()!=VOLUME.lower() or volume['SizeRemaining']<40000000000:raise RuntimeError('required designated SSD/40 GB free unavailable')
++    entries=json.loads(manifest.read_text())['files']
++    if entries!=files():raise RuntimeError('frozen correction changed')
++    identity=sha(manifest);target=DEST/('package-'+identity[:16])
++    if target.exists():raise RuntimeError('exclusive SSD export already exists; no extra cycle')
++    target.mkdir(parents=True);started=time.monotonic();path=target/'package.tar'
++    with tarfile.open(path,'x:') as archive:
++        for row in entries:archive.add(ROOT/row['path'],arcname=row['path'],recursive=False)
++    before=sha(path);members=verify_archive(path,entries);after=sha(path)
++    if before!=after:raise RuntimeError('whole archive changed during verification')
++    shutil.copyfile(manifest,target/'PACKAGE-MANIFEST.json')
++    if sha(target/'PACKAGE-MANIFEST.json')!=identity:raise RuntimeError('manifest copied bytes differ')
++    receipt=dict(status='verified',archive=str(path),archive_sha256=after,whole_sha256_before_after_match=True,archive_bytes=path.stat().st_size,members=members,all_member_hashes_verified=True,manifest_sha256=identity,volume=volume,wall_seconds=time.monotonic()-started,reviewed_export_unchanged=True,historical_archives_touched=False,research_execution=False)
++    if path.stat().st_size+sum(r['bytes'] for r in entries if r['path'].startswith(('dtv_efficiency_r1/','docs/dtv-efficiency-correction-r1-20260930/')))>50000000:raise RuntimeError('new correction export/artifact cap')
++    for destination in (target/'VERIFIED.json',DOC/'SSD-BACKUP.json'):
++        with destination.open('x') as f:json.dump(receipt,f,indent=2)
++    print(json.dumps(receipt,indent=2))
++if __name__=='__main__':main()
+--- /dev/null
++++ dtv_efficiency_r1/run_tests.py
+@@ -0,0 +1,14 @@
++"""One artificial CPU suite, with resource scope reported explicitly."""
++import json,os,resource,time,unittest
++
++resource.setrlimit(resource.RLIMIT_AS,(8*1024**3,8*1024**3))
++if hasattr(os,'sched_getaffinity'):
++    os.sched_setaffinity(0,sorted(os.sched_getaffinity(0))[:4])
++started=time.monotonic();cpu=time.process_time()
++from dtv_efficiency import test_profile
++from dtv_efficiency_r1 import test_control
++
++suite=unittest.TestSuite([unittest.defaultTestLoader.loadTestsFromModule(module) for module in (test_profile,test_control)])
++result=unittest.TextTestRunner(verbosity=2).run(suite)
++print('RESOURCE_RECEIPT '+json.dumps(dict(tests=result.testsRun,failures=len(result.failures),errors=len(result.errors),wall_seconds=time.monotonic()-started,process_cpu_seconds=time.process_time()-cpu,parent_rss_high_water_bytes=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss*1024,child_rss_high_water_bytes=resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss*1024,affinity_cpu_count=len(os.sched_getaffinity(0)),virtual_address_space_limit_bytes=8*1024**3,torch_threads=4,interop_threads=1,artificial=True,research_inference=False,gpu=False,slurm=False)))
++raise SystemExit(0 if result.wasSuccessful() else 1)
+--- /dev/null
++++ dtv_efficiency_r1/test_control.py
+@@ -0,0 +1,167 @@
++"""Artificial fixtures only: real OS blocking mock, mocked Slurm, no models."""
++import ast,json,os,subprocess,sys,tempfile,time,types,unittest
++from pathlib import Path
++from dtv_efficiency_r1 import profile as p,campaign,accept
++from dtv_efficiency_r1.control import DOC,ORIGINAL_DOC,ROOT,load_bindings
++from dtv_efficiency_r1.deadline import supervise,EvidenceList
++
++class Clock:
++    def __init__(self):self.now=0
++    def __call__(self):return self.now
++    def sleep(self,seconds):self.now+=seconds
++
++def response(text='',code=0,stderr=''):return types.SimpleNamespace(stdout=text,stderr=stderr,returncode=code)
++def allocation_row(state='COMPLETED',allocation='101',task='pusht-6101',elapsed=17):return f'{allocation}|dtveff0-{task}|{state}|0:0|{elapsed}|cpu=4,gres/gpu=1,mem=8G|gpu09|\n'
++
++class Scheduler(unittest.TestCase):
++    def run_script(self,script,repeat_last=False,charged=0):
++        events=[];calls=[];clock=Clock();values=list(script)
++        job=campaign.plan(load_bindings(),ROOT,DOC/'EXECUTION-APPROVAL.json',Path('/artificial/run'))[0]
++        def invoke(cmd,timeout):
++            calls.append(cmd)
++            if cmd[0]=='sbatch':return response('101\n')
++            if len(values)>1 or not repeat_last:return values.pop(0)
++            return values[0]
++        error=None;result=None
++        try:result=campaign.dispatch_one(job,events.append,charged,invoke,clock,clock.sleep)
++        except campaign.ControlFault as e:error=e
++        self.assertEqual(sum(c[0]=='sbatch' for c in calls),1)
++        self.assertEqual(len([e for e in events if e['event']=='submitted']),1)
++        self.assertEqual({e['allocation_id'] for e in events if e['event'] in ('submitted','scheduler','terminal')},{'101'})
++        return events,calls,clock,result,error
++    def test_empty_empty_running_completed_same_allocation(self):
++        events,_,clock,result,error=self.run_script([response(),response(),response(allocation_row('RUNNING')),response(allocation_row())])
++        self.assertIsNone(error);self.assertEqual(result[0],17);self.assertEqual(clock.now,15)
++        self.assertEqual(len([e for e in events if e['event']=='scheduler']),4)
++        self.assertEqual(len([e for e in events if e['event']=='terminal']),1)
++    def test_persistently_empty_is_scoped_unresolved_no_guess_charge(self):
++        events,_,clock,result,error=self.run_script([response()],True,charged=37)
++        self.assertIsNotNone(error);self.assertEqual(error.charged,37);self.assertEqual(clock.now,60)
++        self.assertEqual(len([e for e in events if e['event']=='scheduler']),13)
++        self.assertFalse(any(e['event']=='terminal' for e in events))
++    def test_wrong_allocation_rejected_no_charge(self):
++        _,_,_,_,error=self.run_script([response(allocation_row(allocation='102'))])
++        self.assertIn('identity',str(error));self.assertEqual(error.charged,0)
++    def test_wrong_task_rejected_no_charge(self):
++        _,_,_,_,error=self.run_script([response(allocation_row(task='cube-6101'))])
++        self.assertIn('identity',str(error));self.assertEqual(error.charged,0)
++    def test_duplicate_matching_rows_rejected(self):
++        _,_,_,_,error=self.run_script([response(allocation_row()+allocation_row())])
++        self.assertIn('duplicate',str(error));self.assertEqual(error.charged,0)
++    def test_terminal_failure_charge_carried_once_no_resubmit(self):
++        events,_,_,_,error=self.run_script([response(allocation_row('FAILED',elapsed=23))],charged=37)
++        self.assertEqual(error.charged,60)
++        terminal=[e for e in events if e['event']=='terminal'];self.assertEqual(len(terminal),1)
++        self.assertEqual(terminal[0]['elapsed_seconds'],23);self.assertEqual(terminal[0]['cumulative_gpu_seconds'],60)
++    def test_command_error_not_grace_or_guessed_charge(self):
++        events,_,clock,_,error=self.run_script([response('',1,'artificial accounting error')],charged=37)
++        self.assertEqual(error.charged,37);self.assertEqual(clock.now,0)
++        self.assertEqual(events[-1]['stderr'],'artificial accounting error');self.assertEqual(events[-1]['returncode'],1)
++    def test_unknown_state_not_terminal(self):
++        events,_,_,_,error=self.run_script([response(allocation_row('UNKNOWN'))])
++        self.assertIn('nonterminal',str(error));self.assertFalse(any(e['event']=='terminal' for e in events))
++    def test_live_suspended_not_terminal(self):
++        events,_,_,result,error=self.run_script([response(allocation_row('SUSPENDED')),response(allocation_row())])
++        self.assertIsNone(error);self.assertEqual(result[0],17);self.assertEqual(len([e for e in events if e['event']=='terminal']),1)
++    def test_terminal_record_fault_does_not_reset_actual_charge(self):
++        events=[];calls=[];clock=Clock()
++        job=campaign.plan(load_bindings(),ROOT,DOC/'EXECUTION-APPROVAL.json',Path('/artificial/run'))[0]
++        def invoke(cmd,timeout):
++            calls.append(cmd);return response('101\n' if cmd[0]=='sbatch' else allocation_row('FAILED',elapsed=23))
++        def append(event):
++            events.append(event)
++            if event['event']=='terminal':raise RuntimeError('artificial record cap fault')
++        with self.assertRaises(campaign.ControlFault) as raised:campaign.dispatch_one(job,append,37,invoke,clock,clock.sleep)
++        self.assertEqual(raised.exception.charged,60);self.assertEqual(sum(c[0]=='sbatch' for c in calls),1)
++        self.assertEqual(len([e for e in events if e['event']=='terminal']),1)
++
++class Deadline(unittest.TestCase):
++    def test_mock_blocking_operation_killed_partial_evidence_preserved(self):
++        with tempfile.TemporaryDirectory(prefix='dtveff-r1-artificial-') as name:
++            root=Path(name)
++            code="import json,signal,time,sys;from pathlib import Path;signal.signal(signal.SIGTERM,signal.SIG_IGN);p=Path(sys.argv[1]);p.joinpath('RECORDS.jsonl').write_text(json.dumps({'completed_artificial_call':1})+'\\n');time.sleep(30)"
++            began=time.monotonic()
++            result=supervise([sys.executable,'-c',code,name],root,work_seconds=1,termination_grace=.2,kill_wait=.2,started=began)
++            self.assertEqual(result['fault'],'work_deadline');self.assertTrue(result['termination_sent']);self.assertFalse(result['unresolved_process'])
++            if os.name=='posix':self.assertTrue(result['kill_sent'])
++            self.assertLess(time.monotonic()-began,3)
++            self.assertEqual(json.loads((root/'RECORDS.jsonl').read_text())['completed_artificial_call'],1)
++            self.assertTrue((root/'FAILURE.json').is_file());self.assertTrue((root/'DEADLINE-FAULT.json').is_file())
++            self.assertLess(sum(p.stat().st_size for p in root.iterdir()),4000000)
++    def test_prior_startup_time_counts_no_deadline_reset(self):
++        with tempfile.TemporaryDirectory(prefix='dtveff-r1-artificial-') as name:
++            began=time.monotonic();start=began-.7
++            result=supervise([sys.executable,'-c','import time;time.sleep(30)'],Path(name),work_seconds=1,started=start,termination_grace=.2,kill_wait=.2)
++            self.assertEqual(result['accounting_start_monotonic'],start);self.assertEqual(result['fault'],'work_deadline')
++            self.assertLess(time.monotonic()-began,.9)
++    def test_expired_before_child_startup_does_not_start_work(self):
++        with tempfile.TemporaryDirectory(prefix='dtveff-r1-artificial-') as name:
++            result=supervise([sys.executable,'-c','raise RuntimeError("must not run")'],Path(name),work_seconds=.1,started=time.monotonic()-1)
++            self.assertIsNone(result['child_pid']);self.assertEqual(result['fault'],'work_deadline')
++    def test_normal_completion_and_startup_failure_artifacts(self):
++        with tempfile.TemporaryDirectory(prefix='dtveff-r1-artificial-') as name:
++            result=supervise([sys.executable,'-c','pass'],Path(name),work_seconds=2)
++            self.assertIsNone(result['fault']);self.assertEqual(result['child_exit_code'],0);self.assertFalse((Path(name)/'FAILURE.json').exists())
++        with tempfile.TemporaryDirectory(prefix='dtveff-r1-artificial-') as name:
++            result=supervise(['/nonexistent/artificial-program'],Path(name),work_seconds=2)
++            self.assertEqual(result['fault'],'child_startup');self.assertTrue((Path(name)/'FAILURE.json').is_file())
++
++class Contract(unittest.TestCase):
++    def test_generated_exact_minutes_and_full_grid_reservation(self):
++        c=load_bindings();jobs=campaign.plan(c,ROOT,DOC/'EXECUTION-APPROVAL.json',Path('/artificial/run'))
++        self.assertEqual(sum(j['reservation_seconds'] for j in jobs),7020)
++        self.assertEqual(c['gpu_allocation_seconds_cap'],7200)
++        self.assertTrue(all(j['reservation_seconds']==780 and '--time=00:13:00' in j['command'] for j in jobs))
++        self.assertTrue(all('--no-requeue' in j['command'] and '--mem=8G' in j['command'] for j in jobs))
++        self.assertEqual(c['work_deadline_seconds'],720);self.assertEqual(c['preservation_allowance_seconds'],60)
++    def test_only_control_bindings_change_all_science_preserved(self):
++        original=json.loads((ORIGINAL_DOC/'BINDINGS.json').read_text());corrected=load_bindings()
++        for job in corrected['jobs']:job['wall_limit_seconds']=800
++        for key in ('work_deadline_seconds','preservation_allowance_seconds','worker_wall_seconds','grid_reservation_seconds'):corrected.pop(key)
++        self.assertEqual(corrected,original)
++        self.assertEqual(original['blocks']*original['repetitions']*5*2,100)
++        self.assertEqual((100+20+10+10)*len(original['jobs']),1260)
++    def test_hot_path_helpers_and_entire_workload_unchanged_ast(self):
++        old=ast.parse((ROOT/'dtv_efficiency/profile.py').read_text());new=ast.parse((ROOT/'dtv_efficiency_r1/profile.py').read_text())
++        functions=lambda tree:{n.name:n for n in tree.body if isinstance(n,ast.FunctionDef)}
++        before,after=functions(old),functions(new)
++        for name in ('order','quantile','summary','hardware','world_prefix','measured','output_hash','reset','equivalent','make_wrapper','raw'):
++            self.assertEqual(ast.dump(before[name],include_attributes=False),ast.dump(after[name],include_attributes=False),name)
++        old_work=next(n for n in ast.walk(before['main']) if isinstance(n,ast.With) and ast.unparse(n.items[0].context_expr)=='torch.inference_mode()')
++        new_work=next(n for n in ast.walk(after['worker_main']) if isinstance(n,ast.With) and ast.unparse(n.items[0].context_expr)=='torch.inference_mode()')
++        self.assertEqual(ast.dump(old_work,include_attributes=False),ast.dump(new_work,include_attributes=False))
++        old_cmp=functions(ast.parse((ROOT/'dtv_efficiency/accept.py').read_text()))['comparisons']
++        new_cmp=functions(ast.parse((ROOT/'dtv_efficiency_r1/accept.py').read_text()))['comparisons']
++        self.assertEqual(ast.dump(old_cmp,include_attributes=False),ast.dump(new_cmp,include_attributes=False))
++    def test_disabled_corrected_worker_gate(self):
++        with self.assertRaisesRegex(RuntimeError,'disabled'):p.gate(DOC/'BINDINGS.json',json.loads((DOC/'EXECUTION-APPROVAL.json').read_text()))
++    def test_full_grid_complete_outputs_and_independent_acceptance(self):
++        c=load_bindings()
++        with tempfile.TemporaryDirectory(prefix='dtveff-r1-artificial-') as name:
++            run=Path(name);events=[];total=0
++            for index,job in enumerate(c['jobs']):
++                root=run/job['id'];root.mkdir();records=EvidenceList(root/'RECORDS.jsonl');audit=EvidenceList(root/'EQUIVALENCE.jsonl')
++                for context in (0,1):
++                    for arm in p.ARMS:
++                        audit.append(dict(context=context,arm=arm,index_equivalence=True,rounds=30))
++                        for level in ('A','B','C'):
++                            if level=='A' and arm=='plain':continue
++                            for block in range(5):
++                                for repetition in range(2):records.append(dict(context=context,arm=arm,level=level,phase='warm',block=block,repetition=repetition,gpu_event_ms=2,synchronized_wall_ms=3))
++                for arm in ('acid','forward','legacy_dtv'):
++                    for repetition in range(2):records.append(dict(level='A_offline_reconciliation',arm=arm,repetition=repetition,candidate_sequences=15000,horizon_transitions=75000,transition_chunk=8192,gpu_event_ms=2,synchronized_wall_ms=3))
++                allocation=str(1000+index);total+=17
++                profile=dict(status='completed',job=job['id'],bindings_sha256=p.sha(DOC/'BINDINGS.json'),science_outcomes_computed=False,gpu='NVIDIA RTX 6000 Ada Generation',hostname='gpu09',python='3.11.10',torch='2.5.1+cu121',rss_high_water_bytes=1000000,wall_seconds=17,records=records,equivalence=audit,slurm_allocation_id=allocation,artificial=True)
++                (root/'PROFILE.json').write_text(json.dumps(profile));(root/'SEAL.json').write_text(json.dumps(dict(job=job['id'],profile_sha256=p.sha(root/'PROFILE.json'))))
++                (root/'SUPERVISOR-STARTED.json').write_text(json.dumps(dict(artificial=True)))
++                (root/'SUPERVISION.json').write_text(json.dumps(dict(fault=None,child_exit_code=0,unresolved_process=False,elapsed_seconds=17,work_deadline_seconds=720,artificial=True)))
++                p.seal_output(root,job['id'])
++                self.assertLess(sum(f.stat().st_size for f in root.iterdir()),4000000)
++                events.extend([dict(event='submitted',task=job['id'],allocation_id=allocation),dict(event='terminal',task=job['id'],allocation_id=allocation,state='COMPLETED',exit='0:0',elapsed_seconds=17,cumulative_gpu_seconds=total,node='gpu09',allocated_resources='gres/gpu=1')])
++            (run/'DISPATCH.jsonl').write_text(''.join(json.dumps(e)+'\n' for e in events))
++            profiles,terminal=accept.validate(run,c);self.assertEqual(len(profiles),9);self.assertEqual(len(terminal),9)
++            # Remove no evidence: append a fault to make authentication reject.
++            last=run/c['jobs'][-1]['id']/'SUPERVISION.json';last.write_text(last.read_text()+' ')
++            with self.assertRaisesRegex(RuntimeError,'seal'):accept.validate(run,c)
++
++if __name__=='__main__':unittest.main(verbosity=2)

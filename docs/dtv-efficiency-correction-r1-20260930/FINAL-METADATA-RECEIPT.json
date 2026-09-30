@@ -1,0 +1,21 @@
+{
+  "status": "final_metadata_verified_manifest_and_ssd_verification_follow",
+  "reviewed_members_verified": 241,
+  "reviewed_manifest_sha256": "a9a3b495e479916dfc64279e2c099a76a8817119c53607770b04e22f693796ae",
+  "binding_overlay_sha256": "cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68",
+  "plan_sha256": "59d5f9b2397f43e44c91503dc41601d18e5b9ce2c2c9384ae3e5dab2a53f2866",
+  "exact_source_diff_sha256": "5c56bb4d6338c0500e7615cca560415b3fe79520e517541e8237d9cf942d0342",
+  "source_members": 281,
+  "source_bytes_before_this_receipt": 3908204,
+  "source_cap_bytes": 4000000,
+  "complete_live_bound_before_this_receipt": 59908204,
+  "complete_archive_bound_before_this_receipt": 61908204,
+  "correction_new_bytes_before_this_receipt": 268938,
+  "correction_artifact_cap_bytes": 50000000,
+  "worker_complete_outputs_tested": true,
+  "original_package_unchanged": true,
+  "research_inference": false,
+  "slurm": false,
+  "gpu": false,
+  "wall_seconds": 0.4210000000020955
+}

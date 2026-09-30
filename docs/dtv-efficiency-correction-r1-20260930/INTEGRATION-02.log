@@ -1,0 +1,52 @@
+test_archive_rejects_parent_escape (dtv_efficiency.test_profile.Contract) ... ok
+test_balanced_order_each_position (dtv_efficiency.test_profile.Contract) ... ok
+test_campaign_full_future_reservation_and_no_requeue (dtv_efficiency.test_profile.Contract) ... ok
+test_complete_serialized_footprint_reservation (dtv_efficiency.test_profile.Contract) ... ok
+test_disabled_gate_before_torch_or_payload_access (dtv_efficiency.test_profile.Contract) ... ok
+test_exact_grid_all_tasks_and_seeds_no_fastest_selection (dtv_efficiency.test_profile.Contract) ... ok
+test_exact_input_context_role_never_later_reference_ids (dtv_efficiency.test_profile.Contract) ... ok
+test_exact_world_loader_rejects_newest_directory_fallback (dtv_efficiency.test_profile.Contract) ... ok
+test_nonfinite_timings_are_rejected (dtv_efficiency.test_profile.Contract) ... ok
+test_quantiles_and_no_averaging_unlike_scopes (dtv_efficiency.test_profile.Contract) ... ok
+test_report_keeps_unfavorable_cells_and_separate_boundaries (dtv_efficiency.test_profile.Contract) ... ok
+test_source_authenticated_metadata_and_no_payload_recovery (dtv_efficiency.test_profile.Contract) ... ok
+test_whole_member_verification_detects_corruption (dtv_efficiency.test_profile.Contract) ... ok
+test_wrong_binding_and_missing_authority_rejected (dtv_efficiency.test_profile.Contract) ... ok
+test_wrong_gpu_or_missing_allocation_rejected (dtv_efficiency.test_profile.Contract) ... ok
+test_all_five_original_delegated_paths (dtv_efficiency.test_profile.Integration) ... ok
+test_cem_trace_indices_plan_rng_full_thirty_rounds (dtv_efficiency.test_profile.Integration) ... ok
+test_chunks_preserve_dtv_forward_and_acid_draws (dtv_efficiency.test_profile.Integration) ... ok
+test_d1_reduction_and_scaling (dtv_efficiency.test_profile.Integration) ... ok
+test_dtv_literal_matches_original_multilevel_equation (dtv_efficiency.test_profile.Integration) ... ok
+test_equivalence_rejects_changed_values_without_tolerance_relaxation (dtv_efficiency.test_profile.Integration) ... ok
+test_no_score_cache_and_one_rollout_each_call (dtv_efficiency.test_profile.Integration) ... ok
+test_operational_cpu_diagnostics_retained (dtv_efficiency.test_profile.Integration) ... ok
+test_separate_owned_equal_initial_streams_diverge_by_decisions (dtv_efficiency.test_profile.Integration) ... ok
+test_single_noise_bank_is_new_first_draw_not_legacy_middle (dtv_efficiency.test_profile.Integration) ... ok
+test_v3_forward_and_acid_lambdas (dtv_efficiency.test_profile.Integration) ... ok
+test_warmup_reset_cost_call_index (dtv_efficiency.test_profile.Integration) ... ok
+test_disabled_corrected_worker_gate (dtv_efficiency_r1.test_control.Contract) ... ok
+test_full_grid_complete_outputs_and_independent_acceptance (dtv_efficiency_r1.test_control.Contract) ... ok
+test_generated_exact_minutes_and_full_grid_reservation (dtv_efficiency_r1.test_control.Contract) ... ok
+test_hot_path_helpers_and_entire_workload_unchanged_ast (dtv_efficiency_r1.test_control.Contract) ... ok
+test_only_control_bindings_change_all_science_preserved (dtv_efficiency_r1.test_control.Contract) ... ok
+test_expired_before_child_startup_does_not_start_work (dtv_efficiency_r1.test_control.Deadline) ... ok
+test_mock_blocking_operation_killed_partial_evidence_preserved (dtv_efficiency_r1.test_control.Deadline) ... ok
+test_normal_completion_and_startup_failure_artifacts (dtv_efficiency_r1.test_control.Deadline) ... ok
+test_prior_startup_time_counts_no_deadline_reset (dtv_efficiency_r1.test_control.Deadline) ... ok
+test_command_error_not_grace_or_guessed_charge (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_duplicate_matching_rows_rejected (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_empty_empty_running_completed_same_allocation (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_live_suspended_not_terminal (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_persistently_empty_is_scoped_unresolved_no_guess_charge (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_terminal_failure_charge_carried_once_no_resubmit (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_terminal_record_fault_does_not_reset_actual_charge (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_unknown_state_not_terminal (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_wrong_allocation_rejected_no_charge (dtv_efficiency_r1.test_control.Scheduler) ... ok
+test_wrong_task_rejected_no_charge (dtv_efficiency_r1.test_control.Scheduler) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 23.109s
+
+OK
+RESOURCE_RECEIPT {"tests": 46, "failures": 0, "errors": 0, "wall_seconds": 27.321083344999998, "process_cpu_seconds": 11.478978664, "parent_rss_high_water_bytes": 259403776, "child_rss_high_water_bytes": 259403776, "affinity_cpu_count": 4, "virtual_address_space_limit_bytes": 8589934592, "torch_threads": 4, "interop_threads": 1, "artificial": true, "research_inference": false, "gpu": false, "slurm": false}

@@ -1,0 +1,19 @@
+{
+  "study": "DTV-EFF0",
+  "version": "control-correction-r1",
+  "reviewed_commit": "712c39041a8242c3f45d43f95b3199bd77ca64ba",
+  "instruction_attachment_sha256": "74c5ac1cbe58347cde9ddf74b9bdf1862698c181e1ba2649f3f914df9ebd1d7d",
+  "authority": "User-supplied narrow pre-launch correction and subsequent SSD reconnection message",
+  "preparation_authorized": true,
+  "execution_authorized": false,
+  "local_scripted_wall_seconds_cap": 1800,
+  "cpu_threads_cap": 4,
+  "ram_bytes_cap": 8589934592,
+  "new_artifact_bytes_cap": 50000000,
+  "science_change_authorized": false,
+  "research_inference_authorized": false,
+  "gpu_or_slurm_authorized": false,
+  "dependency_or_permission_changes_authorized": false,
+  "fitting_or_physics_authorized": false,
+  "monitor_authorized": false
+}

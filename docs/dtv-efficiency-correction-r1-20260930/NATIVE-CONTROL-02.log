@@ -1,0 +1,24 @@
+test_disabled_corrected_worker_gate (__main__.Contract) ... ok
+test_full_grid_complete_outputs_and_independent_acceptance (__main__.Contract) ... ok
+test_generated_exact_minutes_and_full_grid_reservation (__main__.Contract) ... ok
+test_hot_path_helpers_and_entire_workload_unchanged_ast (__main__.Contract) ... ok
+test_only_control_bindings_change_all_science_preserved (__main__.Contract) ... ok
+test_expired_before_child_startup_does_not_start_work (__main__.Deadline) ... ok
+test_mock_blocking_operation_killed_partial_evidence_preserved (__main__.Deadline) ... ok
+test_normal_completion_and_startup_failure_artifacts (__main__.Deadline) ... ok
+test_prior_startup_time_counts_no_deadline_reset (__main__.Deadline) ... ok
+test_command_error_not_grace_or_guessed_charge (__main__.Scheduler) ... ok
+test_duplicate_matching_rows_rejected (__main__.Scheduler) ... ok
+test_empty_empty_running_completed_same_allocation (__main__.Scheduler) ... ok
+test_live_suspended_not_terminal (__main__.Scheduler) ... ok
+test_persistently_empty_is_scoped_unresolved_no_guess_charge (__main__.Scheduler) ... ok
+test_terminal_failure_charge_carried_once_no_resubmit (__main__.Scheduler) ... ok
+test_terminal_record_fault_does_not_reset_actual_charge (__main__.Scheduler) ... ok
+test_unknown_state_not_terminal (__main__.Scheduler) ... ok
+test_wrong_allocation_rejected_no_charge (__main__.Scheduler) ... ok
+test_wrong_task_rejected_no_charge (__main__.Scheduler) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 3.920s
+
+OK

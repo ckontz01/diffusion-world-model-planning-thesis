@@ -1,0 +1,8 @@
+{
+  "study": "DTV-EFF0",
+  "version": "control-correction-r1",
+  "bindings_sha256": "cc6ae51b954df12adbddde9aae1d32cc506947c77c4237beee6f8a8f40b3af68",
+  "execute": false,
+  "research_execution_authorized": false,
+  "preparation_only": true
+}

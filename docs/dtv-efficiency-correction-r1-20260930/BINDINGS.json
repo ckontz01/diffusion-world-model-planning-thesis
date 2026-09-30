@@ -1,0 +1,14 @@
+{
+  "study": "DTV-EFF0",
+  "version": "control-correction-r1",
+  "execute": false,
+  "reviewed_bindings_path": "docs/dtv-efficiency-20260930/BINDINGS.json",
+  "reviewed_bindings_sha256": "c8dc6785db94109bf4141e3c31e48e64d2e2b9267f56cacad76fd653a11faed9",
+  "control": {
+    "work_deadline_seconds": 720,
+    "preservation_allowance_seconds": 60,
+    "worker_wall_seconds": 780,
+    "grid_reservation_seconds": 7020,
+    "gpu_allocation_seconds_cap": 7200
+  }
+}
