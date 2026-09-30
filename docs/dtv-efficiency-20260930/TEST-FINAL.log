@@ -1,0 +1,25 @@
+test_balanced_order_each_position (__main__.Contract) ... ok
+test_disabled_gate_before_torch_or_payload_access (__main__.Contract) ... ok
+test_exact_grid_all_tasks_and_seeds_no_fastest_selection (__main__.Contract) ... ok
+test_exact_input_context_role_never_later_reference_ids (__main__.Contract) ... ok
+test_quantiles_and_no_averaging_unlike_scopes (__main__.Contract) ... ok
+test_source_authenticated_metadata_and_no_payload_recovery (__main__.Contract) ... ok
+test_wrong_binding_and_missing_authority_rejected (__main__.Contract) ... ok
+test_wrong_gpu_or_missing_allocation_rejected (__main__.Contract) ... ok
+test_all_five_original_delegated_paths (__main__.Integration) ... ok
+test_cem_trace_indices_plan_rng_full_thirty_rounds (__main__.Integration) ... ok
+test_chunks_preserve_dtv_forward_and_acid_draws (__main__.Integration) ... ok
+test_d1_reduction_and_scaling (__main__.Integration) ... ok
+test_dtv_literal_matches_original_multilevel_equation (__main__.Integration) ... ok
+test_equivalence_rejects_changed_values_without_tolerance_relaxation (__main__.Integration) ... ok
+test_no_score_cache_and_one_rollout_each_call (__main__.Integration) ... ok
+test_operational_cpu_diagnostics_retained (__main__.Integration) ... ok
+test_separate_owned_equal_initial_streams_diverge_by_decisions (__main__.Integration) ... ok
+test_single_noise_bank_is_new_first_draw_not_legacy_middle (__main__.Integration) ... ok
+test_v3_forward_and_acid_lambdas (__main__.Integration) ... ok
+test_warmup_reset_cost_call_index (__main__.Integration) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.216s
+
+OK

@@ -1,0 +1,19 @@
+First artificial CPU run (preserved): 20 tests, 1.066 s unittest time,
+18 passed, two failed. Existing WSL thesis environment, torch 2.13.0+cpu.
+
+FAIL test_quantiles_and_no_averaging_unlike_scopes:
+AssertionError: 3.8499999999999996 != 3.85
+The fixture incorrectly required decimal literal bit equality. The corrected
+quantile assertion uses 12 decimal places; scorer tolerances remain 1e-6/1e-6.
+
+FAIL test_single_noise_bank_is_new_first_draw_not_legacy_middle:
+AssertionError: torch.equal(single.diffusion_noise[0], legacy_bank[0]) was False.
+The tiny 5x4 fixture had a CPU randn tail whose output depends on requested
+shape. Correct test checks a fresh generator with the original single-bank
+shape, and separately tests the actual 5x192 historical shape. No generator,
+noise schedule, scientific score, or comparison tolerance was altered.
+
+Separate metadata curation defect found by inspecting table: task path index
+4 named cuda-components/end-to-end-episode, not task. Fixed index is 3.
+Original generated HISTORICAL-TIMINGS.json is retained as the superseded first
+curation pass; HISTORICAL-TIMINGS-VERIFIED.json is the corrected ledger.

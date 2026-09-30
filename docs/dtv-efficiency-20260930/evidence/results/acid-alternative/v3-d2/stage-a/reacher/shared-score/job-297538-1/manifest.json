@@ -1,0 +1,448 @@
+{
+  "analysis_role": "D2",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/shared-score/job-297538-1/candidate-scores.pt",
+  "artifact_sha256": "b38136f59abb338631eeaf8edb6427a92df501c24e4ecf40a0d13ae9ff71ef4e",
+  "b0_recompute_max_abs": 0.0,
+  "candidate_artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/capture/planner-seed-8201-job-297536-1/candidate-pools.pt",
+  "candidate_artifact_sha256": "176a47b8b4823ca7fde543035ba2ef7965a61a33224d50d207b1a7503599db93",
+  "candidate_manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/capture/planner-seed-8201-job-297536-1/manifest.json",
+  "candidate_manifest_sha256": "ff722e442972b1f3617a4b8e7e2c672fe10ac7ba189afeb6e56ee1317cfec427",
+  "candidates_per_pool": 300,
+  "confirmation_authorization_sha256": null,
+  "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+  "diffusion_sigmas": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "elapsed_seconds": 7.992449045181274,
+  "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+  "kind": "flat_same_candidate_shared_rollout_scores",
+  "lambda_weight": 0.07,
+  "pool_count": 50,
+  "private_world_model_rollouts_per_scorer": 0,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 138203136,
+    "peak_cuda_memory_reserved_bytes": 148897792,
+    "python": "3.11.10",
+    "slurm_job_id": "297558",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "scorer_count_excluding_b0": 9,
+  "scorers": [
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6101-job-296650-6/best.pt",
+      "checkpoint_sha256": "0e0e16399cddf0a9ee90536b975c725b4564284d692ea500836947d26a91332e",
+      "condition": "true",
+      "label": "forward_true_seed_6101",
+      "parameter_count": 2005664,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6101
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6101-job-296650-3/best.pt",
+      "checkpoint_sha256": "169d44963b280eac331ef4294f9a5763b5fe08433f5af24126391a4e04e0e50a",
+      "condition": "true",
+      "label": "legacy_dtv_true_seed_6101",
+      "parameter_count": 2026176,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6101
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/reachability/true/seed-6101-job-296652-0/best.pt",
+      "checkpoint_sha256": "98000a2cd58d36b292487e6180986500f835bebac64fe5799f5415f4bcaba3ad",
+      "condition": "true",
+      "label": "reachability_true_seed_6101",
+      "parameter_count": 262913,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6101
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6102-job-296650-7/best.pt",
+      "checkpoint_sha256": "c801e3a6101904b155ef6164cf8e295bd441b56f1849095829040df7a79fed3a",
+      "condition": "true",
+      "label": "forward_true_seed_6102",
+      "parameter_count": 2005664,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6102
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6102-job-296650-4/best.pt",
+      "checkpoint_sha256": "44d7e9194812b67da2b21886d676f01ecd26001fdccb593381a3c1d98604c6a2",
+      "condition": "true",
+      "label": "legacy_dtv_true_seed_6102",
+      "parameter_count": 2026176,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6102
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/reachability/true/seed-6102-job-296652-1/best.pt",
+      "checkpoint_sha256": "e5cb6465a48a04865b283bf4b9e5616144513ae57a81a5c0007408617764e696",
+      "condition": "true",
+      "label": "reachability_true_seed_6102",
+      "parameter_count": 262913,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6102
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6103-job-296650-8/best.pt",
+      "checkpoint_sha256": "a24ab78ba83459bd713dc6380fabe3c1b4427c6f3144656f8ffa52cef188c2b3",
+      "condition": "true",
+      "label": "forward_true_seed_6103",
+      "parameter_count": 2005664,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6103
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6103-job-296650-5/best.pt",
+      "checkpoint_sha256": "9d7346ac754897c5f6189bde4df4b978af6a987a03f504e05059c529ff9d830f",
+      "condition": "true",
+      "label": "legacy_dtv_true_seed_6103",
+      "parameter_count": 2026176,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6103
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/reachability/true/seed-6103-job-296652-2/best.pt",
+      "checkpoint_sha256": "57feea9b49131a2d7ffe43becf30b9e42423f1c4ce40add596829f257bd66ee3",
+      "condition": "true",
+      "label": "reachability_true_seed_6103",
+      "parameter_count": 262913,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "training_seed": 6103
+    }
+  ],
+  "shared_world_model_rollouts": 50,
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+  "status": "ok",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt",
+  "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+}

@@ -1,0 +1,550 @@
+{
+  "observed_unix": 1790768286.2286143,
+  "files": [
+    {
+      "path": "results/acid-alternative/scorers/pusht/acid/true/seed-6101-job-296631-0/summary.json",
+      "sha256": "c0113069d73f9a29b322492816d950787b4d966130fed0b74f49f7aa261a86d3",
+      "bytes": 4308
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/acid/true/seed-6102-job-296631-1/summary.json",
+      "sha256": "e489e7103b409d87f3ae30d3ea99f5f91e29bf883b00e3ad3082729c6843ba86",
+      "bytes": 4312
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/acid/true/seed-6103-job-296631-2/summary.json",
+      "sha256": "e25a3548249e3e9a53358c1857781587864fc45ac06a6cba2db46ce783f97b58",
+      "bytes": 4312
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/diffusion/true/seed-6101-job-296631-3/summary.json",
+      "sha256": "5e2915f32e88e5cb75d18f61d7b5895f9d8b1cfe1ccf6a1e8a278e41c94865a3",
+      "bytes": 13657
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/diffusion/true/seed-6102-job-296631-4/summary.json",
+      "sha256": "0ee073b7160da0cac8bc21c8ad34924fb75cf4d7b6917d258f34efaa0c5f5d3a",
+      "bytes": 13635
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/diffusion/true/seed-6103-job-296631-5/summary.json",
+      "sha256": "0f4f956c44a33914b758b4539695cc7eefa355f3805b0ec540f2d4ca5bc7a7be",
+      "bytes": 13653
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/forward/true/seed-6101-job-296631-6/summary.json",
+      "sha256": "66063c81b42a41d52df510feef6566be62f8482114995403b9cc2ca5f6462bdf",
+      "bytes": 14004
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/forward/true/seed-6102-job-296631-7/summary.json",
+      "sha256": "87c0cc23e9dbfcb84f2ed9e314efcc7e98d7d0baf53a3d4755d86510a29ee99c",
+      "bytes": 13986
+    },
+    {
+      "path": "results/acid-alternative/scorers/pusht/forward/true/seed-6103-job-296631-8/summary.json",
+      "sha256": "e9a252cea62d33e94b72b10e1b93084ee36c9b3c8982e6771e054b4048fafd9b",
+      "bytes": 13997
+    },
+    {
+      "path": "results/acid-alternative/latency/pusht/cuda-components/multi/job-297060/summary.json",
+      "sha256": "18f10c037a3941b96363a4a3e19e805dedfe5439c63addd9f418951137f29b78",
+      "bytes": 10551
+    },
+    {
+      "path": "results/acid-alternative/latency/pusht/end-to-end-episode/job-297061/summary.json",
+      "sha256": "e6dbb5793ae77968dfc499f430b1a7855d121c1653abad663ee6112349a54639",
+      "bytes": 13195
+    },
+    {
+      "path": "results/acid-alternative/diagnostics/pusht/d1-b0-candidate-pools/planner-seed-7101-job-297055/manifest.json",
+      "sha256": "e127bb47676905fcf08f355b7613ab8dc89ba084aa66f3f13151ed13100ef49c",
+      "bytes": 2025
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/pusht/capture/planner-seed-8201-job-297536-0/manifest.json",
+      "sha256": "4d539fa375f227dc63fb16665ab3a315933995d88a3f8d901cf76bc3fd05a4f4",
+      "bytes": 1996
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/pusht/shared-score/job-297538-0/manifest.json",
+      "sha256": "309fc0e86856a328317975d3b21c3b910e2a86eec7438135916c962d587490b9",
+      "bytes": 14806
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/pusht/frozen-scores/job-297564-0/manifest.json",
+      "sha256": "3727b155b0b50a916333b95f7948d9de2129c80e8da9b731317e138a78b88d92",
+      "bytes": 44363
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/pusht/acid_gate_all_q40/job-297690-2/summary.json",
+      "sha256": "b7747e025996989cf205850446aff8301c9cdc7b1cb71a81cfbf947312f205b7",
+      "bytes": 7345
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/pusht/forward_gate_all_q40/job-297690-1/summary.json",
+      "sha256": "779975dabf742dc69576c5b0a4d33536610e38ebb371d40872787dc7c2601a09",
+      "bytes": 7097
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/pusht/rdx_shuffled_gate_all_q40/job-297690-0/summary.json",
+      "sha256": "757d8538f3655405e26480070596cb6198bd01eec830614be258132fb5579650",
+      "bytes": 8418
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/acid/true/seed-6101-job-296650-0/summary.json",
+      "sha256": "1ad3121c05abfbdf5c46dedc9ef87154474694a8e60125c43339ee9df0a07e56",
+      "bytes": 4284
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/acid/true/seed-6102-job-296650-1/summary.json",
+      "sha256": "7683a46f4985f194bc215776a97b054fa22a31ef9f516eeb990b1aa32062dabc",
+      "bytes": 4290
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/acid/true/seed-6103-job-296650-2/summary.json",
+      "sha256": "dea9525076ba3ae8e72d4302db84caf44ca8692609f5acaaaa7b810c1733632a",
+      "bytes": 4277
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/diffusion/true/seed-6101-job-296650-3/summary.json",
+      "sha256": "956e97bc1d4cac8dea529b655a89edb7192da8754d5109917c1ce4ac779aa2d9",
+      "bytes": 13825
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/diffusion/true/seed-6102-job-296650-4/summary.json",
+      "sha256": "584ca654e717288c9ee322aaa07b7ef4345d9819d681c46e0fae5abee92a9df3",
+      "bytes": 13816
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/diffusion/true/seed-6103-job-296650-5/summary.json",
+      "sha256": "226d87a8a3c490ce50bc720204702fa2245301ca95180ff08fa6447c05ec8bfb",
+      "bytes": 13830
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/forward/true/seed-6101-job-296650-6/summary.json",
+      "sha256": "8419b5e3e85a91d6261bfd27af3473306f3d539aa7c7152d1caf26e6e24d3ff6",
+      "bytes": 13647
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/forward/true/seed-6102-job-296650-7/summary.json",
+      "sha256": "8ee942fa92a38f62fb730a6752fad973143760f9859c8388e374f773c8c86aab",
+      "bytes": 13644
+    },
+    {
+      "path": "results/acid-alternative/scorers/reacher/forward/true/seed-6103-job-296650-8/summary.json",
+      "sha256": "58823277e6a1d13f0e44a8e1052191696a7f3d4f0823c052e7750bd780602045",
+      "bytes": 13645
+    },
+    {
+      "path": "results/acid-alternative/latency/reacher/cuda-components/multi/job-297119/summary.json",
+      "sha256": "847deb69b572c36baa597fb048f798fc5ea3f3bdfc422d9c60c0c68d5bb5b83e",
+      "bytes": 10570
+    },
+    {
+      "path": "results/acid-alternative/latency/reacher/end-to-end-episode/job-297163/summary.json",
+      "sha256": "29feeedcaa0fa12ac326eb758e888a96911744e2119533e365fc507bafb05fe9",
+      "bytes": 17371
+    },
+    {
+      "path": "results/acid-alternative/diagnostics/reacher/d1-b0-candidate-pools/planner-seed-7101-job-297114/manifest.json",
+      "sha256": "080e7b7497fc66c2dfbacb065237aad5c1d941d4d722e4b418d7cdfb2b846631",
+      "bytes": 2011
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/reacher/capture/planner-seed-8201-job-297536-1/manifest.json",
+      "sha256": "ff722e442972b1f3617a4b8e7e2c672fe10ac7ba189afeb6e56ee1317cfec427",
+      "bytes": 1982
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/reacher/shared-score/job-297538-1/manifest.json",
+      "sha256": "748eed97a0ea741ab2ead715e13112741f9f5c6c959de0f99e13c30f74c9fb60",
+      "bytes": 15235
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/reacher/frozen-scores/job-297564-1/manifest.json",
+      "sha256": "56c06db3d338803e10b5913461383d805afb8cce734cb456c9ae5bee34236b55",
+      "bytes": 44456
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/reacher/acid_gate_all_q40/job-297690-5/summary.json",
+      "sha256": "edd248fdb51fe0b69fbae1efb518bbc66bc4db4bab660eb83faef490d1ee862c",
+      "bytes": 7465
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/reacher/forward_gate_all_q40/job-297690-4/summary.json",
+      "sha256": "a989c7fd3c09445da0e28c140fc6a0501f408a124098a0eeea63504025793a26",
+      "bytes": 7223
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/reacher/rdx_shuffled_gate_all_q40/job-297690-3/summary.json",
+      "sha256": "b4a78fcdd6a8d54299196e9e70c2bbe30c1eff1129514000e86b437cd4a96384",
+      "bytes": 8521
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/acid/true/seed-6101-job-296669-0/summary.json",
+      "sha256": "faef541066fb4b4c04f4806dcfaad936a7590a643014e0821763e1e55bff7a11",
+      "bytes": 5073
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/acid/true/seed-6102-job-296669-1/summary.json",
+      "sha256": "bb069ab33f97d8bb0fdfd0c60e18e501fb10dc03d8404587aa4529f7945da23a",
+      "bytes": 5088
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/acid/true/seed-6103-job-296669-2/summary.json",
+      "sha256": "4d31db51f7c5adc10f4fa40bb49cbed0bf80ab0391ccf017a18132e3a4440461",
+      "bytes": 5066
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/diffusion/true/seed-6101-job-296669-3/summary.json",
+      "sha256": "00e50f35f2862ce7d53df5591963ba71e4456bdb0e99fbc133b8d5f672cc1f3e",
+      "bytes": 13649
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/diffusion/true/seed-6102-job-296669-4/summary.json",
+      "sha256": "328cdd69d0eafeff2a554b713791dc2bde75594bccce78e8b8986a6498a7f6fd",
+      "bytes": 13632
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/diffusion/true/seed-6103-job-296669-5/summary.json",
+      "sha256": "61137c3f10e8444ce191169c60886342553881bb4edde18d8c7c6e52c9ac455a",
+      "bytes": 13618
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/forward/true/seed-6101-job-296669-6/summary.json",
+      "sha256": "a0540daa5903baf66574f7aac25d27e116c6e883fd3fbff0a50c8bd55c7f9b28",
+      "bytes": 13962
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/forward/true/seed-6102-job-296669-7/summary.json",
+      "sha256": "33fbb85b6cd8edbcdcdcece9a4f8f6b688b53aa51a8fdfb82f5e705c2e86a641",
+      "bytes": 13961
+    },
+    {
+      "path": "results/acid-alternative/scorers/cube/forward/true/seed-6103-job-296669-8/summary.json",
+      "sha256": "234a9784ff97f7a4d74fe324bfc0eb86280762f894fbf565a063cfe89fd8190a",
+      "bytes": 13984
+    },
+    {
+      "path": "results/acid-alternative/latency/cube/cuda-components/multi/job-297084/summary.json",
+      "sha256": "9ab26b8e1813b8500bddb9bfd0f785007783e662e266d64d150afa490646632f",
+      "bytes": 10554
+    },
+    {
+      "path": "results/acid-alternative/latency/cube/end-to-end-episode/job-297085/summary.json",
+      "sha256": "0b9913f3668d919057334c26dfc4d07f2b235e84f5f450d28969de09ed0b118f",
+      "bytes": 13203
+    },
+    {
+      "path": "results/acid-alternative/diagnostics/cube/d1-b0-candidate-pools/planner-seed-7101-job-297079/manifest.json",
+      "sha256": "4791539d9b54820fc1b3b3500bc4f179a4a78f355eaafcea4f5662eed92a635c",
+      "bytes": 2019
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/cube/capture/planner-seed-8201-job-297536-2/manifest.json",
+      "sha256": "9301ed5c05cd1bebf5cea45156651877a647befe2f35d0c4ca53edf05fa08595",
+      "bytes": 1992
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/cube/shared-score/job-297538-2/manifest.json",
+      "sha256": "424e19d8171074359f9b2174edae24c6b7d9c9acf00bb63ea984fb392e9edc5a",
+      "bytes": 18123
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/cube/frozen-scores/job-297564-2/manifest.json",
+      "sha256": "fcf17a6ae56619707906a7d92918d784caac436ba4f149e3ef13858e3cf46b64",
+      "bytes": 44339
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/cube/acid_gate_all_q40/job-297690-8/summary.json",
+      "sha256": "d8d3f3b21ec199d330c4ced4e3df8c2d1f2aea79956c49e76f19d80fc217a812",
+      "bytes": 8132
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/cube/forward_gate_all_q40/job-297690-7/summary.json",
+      "sha256": "9d93712274ab0687165b30df120dd236aff79359f0b4abeda941d36b79a19c38",
+      "bytes": 7878
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/closed-loop/cube/rdx_shuffled_gate_all_q40/job-297690-6/summary.json",
+      "sha256": "6fe0b0714be090fa748f365243e800f4fb09ee1cfba00cecfe95a0e9f34937c8",
+      "bytes": 9202
+    },
+    {
+      "path": "results/acid-alternative/v3-d2/stage-a/analysis/job-297565/summary.json",
+      "sha256": "0af2181b1060d761a295c885f2eae34af47a0fd94992a8f3a59cf05e57ecbe37",
+      "bytes": 106598
+    },
+    {
+      "path": "results/acid-alternative/e6d-allgate-controls/analysis/job-297691/summary.json",
+      "sha256": "740e02e12d3b757f82af7d53b604707825941d19d73c46e869f49bc6fd27cc79",
+      "bytes": 6763
+    },
+    {
+      "path": "results/acid-alternative/analysis/d1/sensitivity/job-297131/summary.json",
+      "sha256": "9af2d7dba0be0f5d7e342313a628d3044e958854098029ef4df2b76f5fc49f33",
+      "bytes": 135448
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/SOURCE-MANIFEST.sha256",
+      "sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "bytes": 3176
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/costs.py",
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a",
+      "bytes": 13114
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/models.py",
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b",
+      "bytes": 16184
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/evaluate_matched.py",
+      "sha256": "d4ff35d4ce2c5b622b5d14d5631f153e214f901ac471c3711c792932dae1b6d0",
+      "bytes": 16721
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/train_transition_scorer.py",
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12",
+      "bytes": 36763
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/task_registry.py",
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26",
+      "bytes": 2313
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-3074081ea1ebadd9/acid_alternative/io_utils.py",
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a",
+      "bytes": 1511
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+      "sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+      "bytes": 3409
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/costs.py",
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a",
+      "bytes": 13114
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/models.py",
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b",
+      "bytes": 16184
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/evaluate_matched.py",
+      "sha256": "2a1ce23b2439d681dc5cf794586ac521e9b8cf0aff0edac4bb53a0cc59c78730",
+      "bytes": 16953
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/train_transition_scorer.py",
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12",
+      "bytes": 36763
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/task_registry.py",
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26",
+      "bytes": 2313
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/action_standardization.py",
+      "sha256": "d8bce68508836fb02ed69af38ba5e2c61ce80947ba00bdd27763ae4c712ea0c4",
+      "bytes": 4449
+    },
+    {
+      "path": "snapshots/acid-alternative-core-v1-52acea39e4a1f6da/acid_alternative/io_utils.py",
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a",
+      "bytes": 1511
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/SOURCE-MANIFEST.sha256",
+      "sha256": "2a55d07d912bf1b6c39f36219c603e3b45c38c3a0a4ccdb475c5bc0d93971614",
+      "bytes": 2681
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/benchmark_latency.py",
+      "sha256": "348be060a57684057fb80f8750e177902f49e47f8591af2269ecdb6f3f82b6aa",
+      "bytes": 14596
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/benchmark_episode_latency.py",
+      "sha256": "7a19abef84505af48ca62f57278d8f8c36b5434d754a6d451e97ff5cfa37fdd6",
+      "bytes": 15114
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/score_candidate_pools.py",
+      "sha256": "14604180dbae477bf974df0095950e07a8fcf2dea92ab27f2114ad529b77958d",
+      "bytes": 16103
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-2a55d07d912bf1b6/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "sha256": "e7cbd3856088c79774bd09cf88d1e863d755b820bfff64dd8ace327dec9580cd",
+      "bytes": 15910
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/SOURCE-MANIFEST.sha256",
+      "sha256": "53065f818adf09b30469306e64d5bf76388481f4595896ef4be1e1855d69b278",
+      "bytes": 2681
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/benchmark_latency.py",
+      "sha256": "348be060a57684057fb80f8750e177902f49e47f8591af2269ecdb6f3f82b6aa",
+      "bytes": 14596
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/benchmark_episode_latency.py",
+      "sha256": "445997f716435606bce3b06a429086b1d7f21dcfced1ca180daa037ee213ccfa",
+      "bytes": 14910
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/score_candidate_pools.py",
+      "sha256": "b5303767e03c857d0090a5b6cfc4db275a61e0415e18ad13e718c00f63f8927c",
+      "bytes": 15522
+    },
+    {
+      "path": "snapshots/acid-alternative-diagnostics-v1-53065f818adf09b3/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "sha256": "e7cbd3856088c79774bd09cf88d1e863d755b820bfff64dd8ace327dec9580cd",
+      "bytes": 15910
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/SOURCE-MANIFEST.sha256",
+      "sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+      "bytes": 6636
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/costs.py",
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a",
+      "bytes": 13114
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/models.py",
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b",
+      "bytes": 16184
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/evaluate_matched.py",
+      "sha256": "2a1ce23b2439d681dc5cf794586ac521e9b8cf0aff0edac4bb53a0cc59c78730",
+      "bytes": 16953
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/train_transition_scorer.py",
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12",
+      "bytes": 36763
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/task_registry.py",
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26",
+      "bytes": 2313
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/action_standardization.py",
+      "sha256": "d8bce68508836fb02ed69af38ba5e2c61ce80947ba00bdd27763ae4c712ea0c4",
+      "bytes": 4449
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative/io_utils.py",
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a",
+      "bytes": 1511
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative_diagnostics/score_candidate_pools.py",
+      "sha256": "8edf6746fff3989a70d9e6c2d4821ec5ab471b428920c2bf559cc919562451a9",
+      "bytes": 16109
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "sha256": "e0ba719362747f695cb6fb032255f9c368f83749431636396fe0638c0f4c0081",
+      "bytes": 15995
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/score_acid_alt_d2_task.py",
+      "sha256": "08b4aa32befe6175609e8e9f873741c74da248e434a6ee99b34c82de213d8f8b",
+      "bytes": 31120
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/run_acid_alt_v3_d2_score.slurm",
+      "sha256": "8d4419b699700c717d8336f090b617b74ce88c0d68040920b0097f7dccb077f0",
+      "bytes": 4561
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-875a9cbc19dba78d/run_acid_alt_v3_core_score.slurm",
+      "sha256": "79a85aa879d54243753fa61e4081e9de6bd9f3854ca6c3619e483d2c14530165",
+      "bytes": 3615
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/SOURCE-MANIFEST.sha256",
+      "sha256": "2c8f890c31e9f5bf5e8b6769ccc424d7cd565278c422405d507d1c702d3580ea",
+      "bytes": 6750
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/costs.py",
+      "sha256": "9a715c8bc22aba714bfc3fbd0b62ec69f57c306b0a4162acb5f4247c6b8ddc1a",
+      "bytes": 13114
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/models.py",
+      "sha256": "543b2f6da2def42f5d920ab07a17bde6498d766e425f29f7048021c97757f69b",
+      "bytes": 16184
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/evaluate_matched.py",
+      "sha256": "2a1ce23b2439d681dc5cf794586ac521e9b8cf0aff0edac4bb53a0cc59c78730",
+      "bytes": 16953
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/train_transition_scorer.py",
+      "sha256": "705dade2c93355418fd31ef053e1fbfebb0b20dbcd64a0aac0d09e4b8d00eb12",
+      "bytes": 36763
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/task_registry.py",
+      "sha256": "ff21d21bc6a4e62652d1aaf4ae2167489543368b2283eefab01bf4ac5ff24e26",
+      "bytes": 2313
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/action_standardization.py",
+      "sha256": "d8bce68508836fb02ed69af38ba5e2c61ce80947ba00bdd27763ae4c712ea0c4",
+      "bytes": 4449
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative/io_utils.py",
+      "sha256": "091cefbf248514d8eab2c1ec317d6c1b90f835a0aeac831e21a1b6563ac2958a",
+      "bytes": 1511
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative_diagnostics/score_candidate_pools.py",
+      "sha256": "8edf6746fff3989a70d9e6c2d4821ec5ab471b428920c2bf559cc919562451a9",
+      "bytes": 16109
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alternative_diagnostics/capture_candidate_pools.py",
+      "sha256": "e0ba719362747f695cb6fb032255f9c368f83749431636396fe0638c0f4c0081",
+      "bytes": 15995
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/score_acid_alt_d2_task.py",
+      "sha256": "86bd3da5a451185196bab52eb47ce47567aa8f42f106c0f2123bf2ece1dbcc3b",
+      "bytes": 31284
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/run_acid_alt_v3_d2_score.slurm",
+      "sha256": "8d4419b699700c717d8336f090b617b74ce88c0d68040920b0097f7dccb077f0",
+      "bytes": 4561
+    },
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/run_acid_alt_v3_core_score.slurm",
+      "sha256": "79a85aa879d54243753fa61e4081e9de6bd9f3854ca6c3619e483d2c14530165",
+      "bytes": 3615
+    }
+  ],
+  "missing": [],
+  "bytes": 1529461,
+  "local_wall_seconds": 7.842999999993481,
+  "checkpoint_deserialization": false,
+  "new_payload_access": false
+}

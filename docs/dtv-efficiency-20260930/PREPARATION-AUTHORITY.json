@@ -1,0 +1,19 @@
+{
+  "study": "DTV-EFF0",
+  "date": "2026-09-30",
+  "authority": "Direct user instruction to perform the attached bounded preparation assignment",
+  "attachment": "C:/Users/Chris/.codex/attachments/c4d924b3-c603-44d9-af4c-0cccb6c15831/Pasted text.txt",
+  "attachment_sha256": "773a2c1c5c30f2b721fe3f6d13cac8c8ac2d4c6748ad3d1b5a766f13b4962d7e",
+  "historical_base_commit": "fad8f21bc756cbd1268c21856aedb52cdb488b6d",
+  "branch": "dtv-efficiency-recovery-20260930",
+  "authorized": ["Historical metadata/source/timing recovery", "Whole-byte authentication without tensor deserialization", "Executable profiling preparation", "Artificial CPU tests", "Git publication and exact remote verification", "New small-package designated-SSD preservation"],
+  "execution_authorized": false,
+  "research_inference": false,
+  "gpu_profiling": false,
+  "physics": false,
+  "fitting": false,
+  "new_outcomes_or_roles": false,
+  "protected_payload_access": false,
+  "monitoring_automation": false,
+  "preparation_caps": {"scripted_wall_seconds": 7200, "cpu_threads": 4, "ram_bytes": 8589934592, "new_artifact_bytes": 250000000}
+}

@@ -1,0 +1,665 @@
+{
+  "observed_unix": 1790768543.2687855,
+  "records": [
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6101-job-296669-0/best.pt",
+      "sha256": "dade8d6afd8392f475d1e56c031f330c4e72c924e2c4254c2bcca5bf6d6be416",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7332122,
+      "actual_sha256": "dade8d6afd8392f475d1e56c031f330c4e72c924e2c4254c2bcca5bf6d6be416"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6102-job-296669-1/best.pt",
+      "sha256": "03c00b01b2e9e038f3b553ee52288cb886432cc6e17f3c0e81e3ea49bb8b8830",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7332122,
+      "actual_sha256": "03c00b01b2e9e038f3b553ee52288cb886432cc6e17f3c0e81e3ea49bb8b8830"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6103-job-296669-2/best.pt",
+      "sha256": "cc1c6a1bad9cc16d521a8e02f15d6a1d4ba423265e4c031801b1c086e12a468d",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7332122,
+      "actual_sha256": "cc1c6a1bad9cc16d521a8e02f15d6a1d4ba423265e4c031801b1c086e12a468d"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6101-job-296669-3/best.pt",
+      "sha256": "7dcb95f0f96cb03a15f5eee61e0c636d5f7e1fd060c23be974a528c35ead26c8",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8143198,
+      "actual_sha256": "7dcb95f0f96cb03a15f5eee61e0c636d5f7e1fd060c23be974a528c35ead26c8"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6102-job-296669-4/best.pt",
+      "sha256": "741de03107fe79d7f819e70527cc3089f48f85aaaca1c8e9190c4c559c9c742f",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8143198,
+      "actual_sha256": "741de03107fe79d7f819e70527cc3089f48f85aaaca1c8e9190c4c559c9c742f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6103-job-296669-5/best.pt",
+      "sha256": "cc59504558645476d091fdc5c39c3c58ef157dd5c0ad67e8c75792c87dc2bcba",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8143198,
+      "actual_sha256": "cc59504558645476d091fdc5c39c3c58ef157dd5c0ad67e8c75792c87dc2bcba"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6101-job-296669-6/best.pt",
+      "sha256": "1691fb0f6864dbad830a814cc98e54534a150da081299f40f3db77dea503ed62",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8061278,
+      "actual_sha256": "1691fb0f6864dbad830a814cc98e54534a150da081299f40f3db77dea503ed62"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6102-job-296669-7/best.pt",
+      "sha256": "ae533413735dc59953272e5fe02b5da23f2b995ef11528ccc6727d256f7d5400",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8061278,
+      "actual_sha256": "ae533413735dc59953272e5fe02b5da23f2b995ef11528ccc6727d256f7d5400"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6103-job-296669-8/best.pt",
+      "sha256": "db3285b38c469f139ed0879ac4cf4e9d8bfdea1540efd6c56f8de36627381aed",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8061278,
+      "actual_sha256": "db3285b38c469f139ed0879ac4cf4e9d8bfdea1540efd6c56f8de36627381aed"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/acid/true/seed-6101-job-296631-0/best.pt",
+      "sha256": "6b49d24ab9a3cfdbe4695343f3a9c30723f9ee4d70c892fe603f8e9818b3f9d2",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7308634,
+      "actual_sha256": "6b49d24ab9a3cfdbe4695343f3a9c30723f9ee4d70c892fe603f8e9818b3f9d2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/acid/true/seed-6102-job-296631-1/best.pt",
+      "sha256": "1ae9a988c93321d6de9ffdbb22faebc8289d82f76ae171d51e1754fe9be228f8",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7308634,
+      "actual_sha256": "1ae9a988c93321d6de9ffdbb22faebc8289d82f76ae171d51e1754fe9be228f8"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/acid/true/seed-6103-job-296631-2/best.pt",
+      "sha256": "d1e293821fd5c20a8bf5f35b0a01a61a3446a4896dbf7d7ccd429d093e00cad8",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7308634,
+      "actual_sha256": "d1e293821fd5c20a8bf5f35b0a01a61a3446a4896dbf7d7ccd429d093e00cad8"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6101-job-296631-3/best.pt",
+      "sha256": "012d39be8a7cf9437e18110d9abc8a9b5abc95185c8c5ffc34042c0766405f14",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8120030,
+      "actual_sha256": "012d39be8a7cf9437e18110d9abc8a9b5abc95185c8c5ffc34042c0766405f14"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6102-job-296631-4/best.pt",
+      "sha256": "968a6cab8bcebb79cccc12d2538d07b10752488196c9d9955aa96231988a97dd",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8120030,
+      "actual_sha256": "968a6cab8bcebb79cccc12d2538d07b10752488196c9d9955aa96231988a97dd"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6103-job-296631-5/best.pt",
+      "sha256": "f944f25fb6cd17385d1d1bd8b5abacc9dbeaba4ff6f9857fd95ab7d94d8113d3",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8120030,
+      "actual_sha256": "f944f25fb6cd17385d1d1bd8b5abacc9dbeaba4ff6f9857fd95ab7d94d8113d3"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/forward/true/seed-6101-job-296631-6/best.pt",
+      "sha256": "826177bb363e8004ef22b8a4e273135befabf285e416935eed69bd907b479b3b",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8037662,
+      "actual_sha256": "826177bb363e8004ef22b8a4e273135befabf285e416935eed69bd907b479b3b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/forward/true/seed-6102-job-296631-7/best.pt",
+      "sha256": "02f8e229c6bcbdfff50b8604a08486771d315fc4dd7f628cdf3be821f5c2bcc6",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8037662,
+      "actual_sha256": "02f8e229c6bcbdfff50b8604a08486771d315fc4dd7f628cdf3be821f5c2bcc6"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/forward/true/seed-6103-job-296631-8/best.pt",
+      "sha256": "d77affdbdc3df8a04d2511b64192e8df9633d624bd1dbfa513d71e7d28add888",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8037662,
+      "actual_sha256": "d77affdbdc3df8a04d2511b64192e8df9633d624bd1dbfa513d71e7d28add888"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6101-job-296650-0/best.pt",
+      "sha256": "8e0a7bad0f8c9d4ce574fca611d2642e5213e8831e7db0c7b4559939146ae5ab",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7308634,
+      "actual_sha256": "8e0a7bad0f8c9d4ce574fca611d2642e5213e8831e7db0c7b4559939146ae5ab"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6102-job-296650-1/best.pt",
+      "sha256": "44cabeb97163fcd3c102a470e4ba146e94633cdd647dd4d02fe8ba6def1edcbd",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7308634,
+      "actual_sha256": "44cabeb97163fcd3c102a470e4ba146e94633cdd647dd4d02fe8ba6def1edcbd"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6103-job-296650-2/best.pt",
+      "sha256": "01c51d787f20514dd5ab00bd1f365dd1c4a5426202d13a8b106c7c7f6485260d",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 7308634,
+      "actual_sha256": "01c51d787f20514dd5ab00bd1f365dd1c4a5426202d13a8b106c7c7f6485260d"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6101-job-296650-3/best.pt",
+      "sha256": "169d44963b280eac331ef4294f9a5763b5fe08433f5af24126391a4e04e0e50a",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8120030,
+      "actual_sha256": "169d44963b280eac331ef4294f9a5763b5fe08433f5af24126391a4e04e0e50a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6102-job-296650-4/best.pt",
+      "sha256": "44d7e9194812b67da2b21886d676f01ecd26001fdccb593381a3c1d98604c6a2",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8120030,
+      "actual_sha256": "44d7e9194812b67da2b21886d676f01ecd26001fdccb593381a3c1d98604c6a2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6103-job-296650-5/best.pt",
+      "sha256": "9d7346ac754897c5f6189bde4df4b978af6a987a03f504e05059c529ff9d830f",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8120030,
+      "actual_sha256": "9d7346ac754897c5f6189bde4df4b978af6a987a03f504e05059c529ff9d830f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6101-job-296650-6/best.pt",
+      "sha256": "0e0e16399cddf0a9ee90536b975c725b4564284d692ea500836947d26a91332e",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8037662,
+      "actual_sha256": "0e0e16399cddf0a9ee90536b975c725b4564284d692ea500836947d26a91332e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6102-job-296650-7/best.pt",
+      "sha256": "c801e3a6101904b155ef6164cf8e295bd441b56f1849095829040df7a79fed3a",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8037662,
+      "actual_sha256": "c801e3a6101904b155ef6164cf8e295bd441b56f1849095829040df7a79fed3a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6103-job-296650-8/best.pt",
+      "sha256": "a24ab78ba83459bd713dc6380fabe3c1b4427c6f3144656f8ffa52cef188c2b3",
+      "kind": "checkpoint",
+      "exists": true,
+      "bytes": 8037662,
+      "actual_sha256": "a24ab78ba83459bd713dc6380fabe3c1b4427c6f3144656f8ffa52cef188c2b3"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/cube/d1-b0-candidate-pools/planner-seed-7101-job-297079/candidate-pools.pt",
+      "sha256": "353c8c9b5706f5ae7c5108086138f7f7aef37ab60838e9a3200d9e2579dc546a",
+      "kind": "input",
+      "exists": true,
+      "bytes": 32655804,
+      "actual_sha256": "353c8c9b5706f5ae7c5108086138f7f7aef37ab60838e9a3200d9e2579dc546a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+      "sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07",
+      "kind": "world_model",
+      "exists": true,
+      "bytes": 72349393,
+      "actual_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/pusht/d1-b0-candidate-pools/planner-seed-7101-job-297055/candidate-pools.pt",
+      "sha256": "c746799819c8780e9a53ecb696cd7ce4d9f169d2f6a321f8feba971a93c3044a",
+      "kind": "input",
+      "exists": true,
+      "bytes": 30400036,
+      "actual_sha256": "c746799819c8780e9a53ecb696cd7ce4d9f169d2f6a321f8feba971a93c3044a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+      "sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+      "kind": "world_model",
+      "exists": true,
+      "bytes": 72348817,
+      "actual_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/reacher/d1-b0-candidate-pools/planner-seed-7101-job-297114/candidate-pools.pt",
+      "sha256": "94a9a3a05640439bca103c03530791e86361ede17598c8ec80fa771bc16f4f97",
+      "kind": "input",
+      "exists": true,
+      "bytes": 30403747,
+      "actual_sha256": "94a9a3a05640439bca103c03530791e86361ede17598c8ec80fa771bc16f4f97"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt",
+      "sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d",
+      "kind": "world_model",
+      "exists": true,
+      "bytes": 72345376,
+      "actual_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    }
+  ],
+  "files": [
+    {
+      "path": "snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/acid_alt_d2_models.py",
+      "bytes": 32369,
+      "sha256": "67635ebb05505210bca3e712e73e95c8f8e81c0ea873260f238cf8218e04b15c"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/closed-loop/cube/acid_cont/seed-6101-8301-job-297656-21/summary.json",
+      "bytes": 7942,
+      "sha256": "5d88a2f911c469be9b4af4933581ea1109b8584b9c5543decffee41867a19f2b"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/closed-loop/pusht/acid_cont/seed-6101-8301-job-297656-1/summary.json",
+      "bytes": 7155,
+      "sha256": "2021d263c99406c79386706b8811e46180ab80f43a6400631166b98f4820094a"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/closed-loop/reacher/acid_cont/seed-6101-8301-job-297656-11/summary.json",
+      "bytes": 7274,
+      "sha256": "340636e2268cffa28ce01d8613092b29b55c1cd8c58b903661f8529e57c93f5f"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/closed-loop/cube/rdx_gate_all_q40/seed-6101-8301-job-297656-26/summary.json",
+      "bytes": 9128,
+      "sha256": "3769ec1d8c846fae5bc86cd2651fb6144d869b3454e12e2fb15a30475c0ae0e1"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/closed-loop/pusht/rdx_gate_all_q40/seed-6101-8301-job-297656-6/summary.json",
+      "bytes": 8337,
+      "sha256": "43e06cde30104e53e9890ab7bfbe551ad30ce5a08cc1cbb2079482905aeb95a8"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/closed-loop/reacher/rdx_gate_all_q40/seed-6101-8301-job-297656-16/summary.json",
+      "bytes": 8469,
+      "sha256": "0cd511b91d7213871826dabe3f27fcad9b17e60041c444142e52c3fab7d86790"
+    },
+    {
+      "path": "results/acid-alternative/e6-d2-quantile/analysis/job-297657/summary.json",
+      "bytes": 15517,
+      "sha256": "84ae66457c70f5a8c386d682dab5a77bfd807f3fdf0c52de0ea7b3264ebbc0cc"
+    },
+    {
+      "path": "results/acid-alternative/diagnostics/pusht/d1-candidate-scores/job-297056/manifest.json",
+      "bytes": 12422,
+      "sha256": "5f030e8520b10ca48bcb7a0bf267cca76d4d30df21ce9f1ce20187eee3a9c563"
+    },
+    {
+      "path": "results/acid-alternative/diagnostics/reacher/d1-candidate-scores/job-297162/manifest.json",
+      "bytes": 37115,
+      "sha256": "a10ac1b7bfb37d4dc814f20cb0abf30f2d4525e7b529fbe294c4ef4d6beb6997"
+    },
+    {
+      "path": "results/acid-alternative/diagnostics/cube/d1-candidate-scores/job-297080/manifest.json",
+      "bytes": 12394,
+      "sha256": "57038355fddc7ce3b00a7e4fdf2e02173770fad62a7501637bffef2037c3a55e"
+    },
+    {
+      "path": "runtime/stable_worldmodel/solver/cem.py",
+      "bytes": 7618,
+      "sha256": "d88c86dcd1bd1e6d89221ac22079a3efe296cc7566532de0d36605e2f1536050"
+    },
+    {
+      "path": "runtime/stable_worldmodel/solver/solver.py",
+      "bytes": 2320,
+      "sha256": "9b87a03aeeae6516147efc885ac20d2a9655af178470dff094ec5b85b58437c1"
+    }
+  ],
+  "runtime": [
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/__init__.py",
+      "bytes": 429,
+      "sha256": "098841b3d30e15ebc9ef7d6f4448b971c33369b93d9cd3a4a7b7b94e548f223a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/cli.py",
+      "bytes": 10800,
+      "sha256": "66ef29cd090e9e74d9bff82d307166e958a79e1d977b6a85b91bbd6aa7da6f25"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/data/__init__.py",
+      "bytes": 367,
+      "sha256": "181e7e9c8d732e23649e2d6d78cecbfebda630b95be9fab4bb4086580e14b425"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/data/dataset.py",
+      "bytes": 28675,
+      "sha256": "8eea182267730a9bad95eb6412db58f66eb859ffc2e39e67aef078bc858ccf6f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/data/utils.py",
+      "bytes": 284,
+      "sha256": "1b1f91a23095015d2344cde015289fe9a3392d89da6ae256c83fe7310f901ccb"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/__init__.py",
+      "bytes": 3013,
+      "sha256": "3ae8cbbeecfb0dc52886dd6a1defec6caa3bf5e8df5d7d8f15ee559f4e584d95"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/__init__.py",
+      "bytes": 68,
+      "sha256": "a1644dcf113801b8769920f5ed231e29934ab6f453923f4eeb71040fc92799c8"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/acrobot.py",
+      "bytes": 11913,
+      "sha256": "a4d05a08f237abf25641b068b9b9172d2d649e5c58ba09d446b5ebd02bb1eb43"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/ball_in_cup.py",
+      "bytes": 13623,
+      "sha256": "b01ab29085b61dfd14acae4182268f2c73cf66930069730f0ab4cd30957a9a8d"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/cartpole.py",
+      "bytes": 9805,
+      "sha256": "a00c8ea9118e37e8b948e54726bfebe5220cfed2b45807007d632a0ec6e66d2f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/cheetah.py",
+      "bytes": 12272,
+      "sha256": "f7d5879ef89d866d419b609b82ce0c831112be212d4e3b860fe399c1b0bf0cec"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/custom_tasks/cheetah.py",
+      "bytes": 6531,
+      "sha256": "da7ddaad68f96afbfe48be3e5871b48663e2078f5cb5850075a06cbd5ffa59c5"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/custom_tasks/hopper.py",
+      "bytes": 2026,
+      "sha256": "b2cf01138b07a0c94a8ad3f45928e647bb9891d5a115b5b04e9e22ed4589ba30"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/custom_tasks/reacher.py",
+      "bytes": 1130,
+      "sha256": "e5e2e82c0621efca7b4c3c194f422c946db59edb12db7735fbe8bdcf12e37e7c"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/custom_tasks/walker.py",
+      "bytes": 5803,
+      "sha256": "7b33d2ac7efabb1e1b897600953d2b2cdf55d39237bd319a5bdbc432d66c4f6e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/dmcontrol.py",
+      "bytes": 5694,
+      "sha256": "13d55bf73f9b7f8a9b5a2b380e12750e253a391716e64e65f795b1c9fff8bc08"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/expert_policy.py",
+      "bytes": 3096,
+      "sha256": "1c4cf6833aa817027094be27dfdd7841b0531b9c4c1d5b1480c791056b604251"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/finger.py",
+      "bytes": 14447,
+      "sha256": "272642004fd941f24842908b0e83763df9dfb755b88e4988db1302fc93bea79b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/hopper.py",
+      "bytes": 11558,
+      "sha256": "e82b49bf7bdff0ae1c084f6d2fb8010d8b01dcb35902d900add7e2b5f8ee86c3"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/humanoid.py",
+      "bytes": 11844,
+      "sha256": "75ebd91080760e80f5a22e7a219b9ee1b234c89b268556003f5e667fbdd93b81"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/manipulator.py",
+      "bytes": 10830,
+      "sha256": "68a3eae3f11d5123b1467cb3eff61ccc6d2e32a101faa498440eddd85b6db3c4"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/pendulum.py",
+      "bytes": 9750,
+      "sha256": "c6b9474d43c6e5f0aa1ddd4edb9da3196511402e9ff3c8041cf0efb907228b7b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/quadruped.py",
+      "bytes": 11708,
+      "sha256": "c6e96bb174b91e74b973fa1920017b893ba2811a266192d9ab37e177b82e1cb3"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/reacher.py",
+      "bytes": 12522,
+      "sha256": "05bbf859383a047b92598dc0553a9e917193a732f065d2ed05c31005d03ba2cb"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/walker.py",
+      "bytes": 13333,
+      "sha256": "7cd0b84946a0ec2d871f754007a0237ebe20d0939b76225e72cbc51d5a00190d"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/image_positioning.py",
+      "bytes": 15212,
+      "sha256": "eba74f31d60f5ac3137020dbd4dd4bb4e006f055750d06663646015601e299f2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/ogbench/__init__.py",
+      "bytes": 210,
+      "sha256": "b6baaf7c63d609eb03fcb8c0bca360796d61f4359c43abcc2d986af396e058d2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/ogbench/cube_env.py",
+      "bytes": 69008,
+      "sha256": "01d1b240c760a9f994d4b629ce36a4b5bc7329d73f3a8173ce9fe30d42d41939"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/ogbench/expert_policy.py",
+      "bytes": 11464,
+      "sha256": "a8dfc86975ae64ef086c24d62f27f5af4eead126537373c7b0848f9b784c1c96"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/ogbench/pointmaze_env.py",
+      "bytes": 20612,
+      "sha256": "803335cbc681031b4fe21c510068aba8c99ae3a9adb12514fd16977659d5201b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/ogbench/scene_env.py",
+      "bytes": 55089,
+      "sha256": "d0eebdce0131f86e3247736c601f97c2b11d0dbfad56fca998df3192f08a7b9f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/pusht/__init__.py",
+      "bytes": 154,
+      "sha256": "5dd9c5e599289cf9093560ecaa9621510fe620e0a0e2011e47b22f4061f10573"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/pusht/env.py",
+      "bytes": 30822,
+      "sha256": "d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/pusht/env_discrete.py",
+      "bytes": 1351,
+      "sha256": "4b478282c956f41a1b191066ae84730bcb3d8b8d0963b62fc71db3cf2b9a66b8"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/pusht/expert_policy.py",
+      "bytes": 2969,
+      "sha256": "b947eb9fc0e08cec7b9960a3c1cb877755a51defe516231bbeadd327e8d46433"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/quantizer.py",
+      "bytes": 1645,
+      "sha256": "9426badbb85af875576161f16159ac7805d2e85b81500fabe56dd312331a73cb"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/robocasa.py",
+      "bytes": 36193,
+      "sha256": "450258bf924856e66988b5c8e18325d15956a0c3c446f70c6b9a7784a37c4a61"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/rocket_landing/__init__.py",
+      "bytes": 151,
+      "sha256": "3bf017e4d62b3727dc7cdcd3760837740a0a9925a8cc6b340adf830b0434e4e4"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/rocket_landing/expert_policy.py",
+      "bytes": 18777,
+      "sha256": "275a9e8388ab039067230fed465ba64108eb17b3ccaeeba5cea598015fb60d15"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/rocket_landing/pyflyt_rocketlanding.py",
+      "bytes": 22697,
+      "sha256": "7dacbbe58f413717a628f37c053b9ca37d5ce8beaa68f620d14c9decc6e3bfa9"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/simple_nav/__init__.py",
+      "bytes": 129,
+      "sha256": "6e0bd762f2ca24daeb40254a1fa005c9ccaf09eb0a5c5caf42c38c8e42fdbb07"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/simple_nav/env.py",
+      "bytes": 12134,
+      "sha256": "76f1f45692f48f1ffcbf2a7dd2aac1bd90bae4451300f6d613c8717c5763ab59"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/simple_nav/expert_policy.py",
+      "bytes": 4751,
+      "sha256": "5164dc99f0d640aca281bbe17b32f014759c0a1528767d6bd509d9c5fd02a637"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/simple_point_maze.py",
+      "bytes": 12991,
+      "sha256": "1091977070a9157f7f0a93c5ee32fe9d94a8f3ed6171d2b5a0814132181c4ded"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/two_room/__init__.py",
+      "bytes": 110,
+      "sha256": "a2ee00ccaf03e7bd7d10c980b7d9fef55cf7edb43fd9f80b503d3d187d8f0801"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/two_room/env.py",
+      "bytes": 27757,
+      "sha256": "5e1d392de5b02472062dbe872aded67fd465fcc8f7eaa1c02a753b2fc31c61f0"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/two_room/expert_policy.py",
+      "bytes": 7231,
+      "sha256": "c49fcae8f18c521310a04460e5b773a86ea83b77c94ea258a0a8e8af7bc80d25"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/two_room/legacy_env.py",
+      "bytes": 27495,
+      "sha256": "10bfb438a4304308318ad0deb000c1bba12a5b60cf40f78045fbaa712d818ee7"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/utils.py",
+      "bytes": 7688,
+      "sha256": "38314dcabc556c954d64b1c2a1b558e32b48a0db092657dd745dcb960c9cf6f0"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/policy.py",
+      "bytes": 17037,
+      "sha256": "37a55735dd169f5200c79b61b760664deb996e3704d416831a3dea12102b9e7a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/__init__.py",
+      "bytes": 369,
+      "sha256": "eb6d54ff34617f6ca86934732f11b8b7e3f29edaa9b0188910723a1d9e586ee4"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/cem.py",
+      "bytes": 7618,
+      "sha256": "d88c86dcd1bd1e6d89221ac22079a3efe296cc7566532de0d36605e2f1536050"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/discrete_solvers.py",
+      "bytes": 9976,
+      "sha256": "0edf707c66664f97c2afb4fb6600a4c3b8cb680ad055fac353b9e01cce7fbb02"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/gd.py",
+      "bytes": 8584,
+      "sha256": "4fb14f73f5e576c4738d3d245619c1d90b90edde5759f5143475806d3e0b0c92"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/icem.py",
+      "bytes": 9083,
+      "sha256": "c41601845b21abf7fee994293a6335eb8f27069117735d8769100dd4063b215d"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/lagrangian.py",
+      "bytes": 14503,
+      "sha256": "a06a6a56b051e13607521ca6f63eab3940093072f0b7a92b6970c1892db7c4bb"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/mppi.py",
+      "bytes": 8158,
+      "sha256": "328a4260df63228d16fb2cb07480846acf0d71f0b38290ce18f241904704f70e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/solver/solver.py",
+      "bytes": 2320,
+      "sha256": "9b87a03aeeae6516147efc885ac20d2a9655af178470dff094ec5b85b58437c1"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/spaces.py",
+      "bytes": 26860,
+      "sha256": "1c4346e3498c70ef0f4ea3f8320687e52fd601d973907703bdcc5f90bf09b220"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/utils.py",
+      "bytes": 4032,
+      "sha256": "58b5df5e11222ca1ecf07d913939c219b34721644a1d285a9143c440ff2f9ad5"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/wm/__init__.py",
+      "bytes": 130,
+      "sha256": "790279a17065244fb65f5980d76595d42d7d74d4f12be1bafe3f11986158c5df"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/wm/gcrl.py",
+      "bytes": 26395,
+      "sha256": "d5070702675e2c3f60bf021b5d2edf16fb777c1713d1fd0b2983d66d0b772d2f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/wm/prejepa.py",
+      "bytes": 21879,
+      "sha256": "58269b7d363c7ef552fc20d05f359bf630c2a4630d55b578ef8a70d76f2b2d14"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/world.py",
+      "bytes": 36272,
+      "sha256": "15fc9e4a69d2ad81d29ca8fedd689b53e96887f7614fa98223ef5ddee37bbda6"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/wrapper.py",
+      "bytes": 29915,
+      "sha256": "9d7298d987fb509d52e2b6423b6938d12ae20eefcdcc2d720f315729ed44f417"
+    }
+  ],
+  "local_wall_seconds": 10.187000000005355,
+  "checkpoint_deserialization": false
+}

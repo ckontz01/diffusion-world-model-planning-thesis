@@ -1,0 +1,2768 @@
+{
+  "analysis_role": "D1",
+  "confirmation_authorization_sha256": null,
+  "kind": "three_task_cem_weight_sigma_sensitivity_analysis",
+  "outcome_role": "descriptive development sensitivity; no claim gate or multiplicity-adjusted inference",
+  "pooled_equal_task_rates": {
+    "pop150-lambda007": {
+      "acid": 0.8333333333333334,
+      "b0": 0.8101851851851852,
+      "diffusion": 0.8379629629629629,
+      "forward": 0.8194444444444443,
+      "reachability": 0.8055555555555557
+    },
+    "pop30-lambda007": {
+      "acid": 0.7916666666666666,
+      "b0": 0.7268518518518517,
+      "diffusion": 0.75,
+      "forward": 0.736111111111111,
+      "reachability": 0.6990740740740741
+    },
+    "pop300-lambda0005": {
+      "acid": 0.8194444444444445,
+      "diffusion": 0.8518518518518517,
+      "forward": 0.8425925925925926,
+      "reachability": 0.8287037037037037
+    },
+    "pop300-lambda004": {
+      "acid": 0.8564814814814814,
+      "diffusion": 0.851851851851852,
+      "forward": 0.8194444444444443,
+      "reachability": 0.8425925925925926
+    },
+    "pop300-lambda007": {
+      "acid": 0.8472222222222222,
+      "b0": 0.7962962962962963,
+      "diffusion": 0.8148148148148149,
+      "forward": 0.8472222222222222,
+      "reachability": 0.8194444444444445
+    },
+    "pop300-lambda007-sigma010": {
+      "diffusion": 0.8194444444444445
+    },
+    "pop300-lambda007-sigma025": {
+      "diffusion": 0.8379629629629629
+    },
+    "pop300-lambda007-sigma050": {
+      "diffusion": 0.8055555555555555
+    },
+    "pop300-lambda010": {
+      "acid": 0.8611111111111112,
+      "diffusion": 0.8287037037037037,
+      "forward": 0.8472222222222223,
+      "reachability": 0.8240740740740741
+    },
+    "pop50-lambda007": {
+      "acid": 0.8148148148148149,
+      "b0": 0.7962962962962963,
+      "diffusion": 0.7685185185185186,
+      "forward": 0.7731481481481483,
+      "reachability": 0.7824074074074074
+    }
+  },
+  "rates": {
+    "cube": {
+      "pop150-lambda007": {
+        "acid": 0.7361111111111112,
+        "b0": 0.7361111111111112,
+        "diffusion": 0.7916666666666666,
+        "forward": 0.7916666666666666,
+        "reachability": 0.7083333333333334
+      },
+      "pop30-lambda007": {
+        "acid": 0.6805555555555556,
+        "b0": 0.6944444444444444,
+        "diffusion": 0.7361111111111112,
+        "forward": 0.7222222222222222,
+        "reachability": 0.7222222222222222
+      },
+      "pop300-lambda0005": {
+        "acid": 0.7361111111111112,
+        "diffusion": 0.7638888888888888,
+        "forward": 0.7777777777777778,
+        "reachability": 0.75
+      },
+      "pop300-lambda004": {
+        "acid": 0.7916666666666666,
+        "diffusion": 0.8194444444444444,
+        "forward": 0.7916666666666666,
+        "reachability": 0.7361111111111112
+      },
+      "pop300-lambda007": {
+        "acid": 0.7916666666666666,
+        "b0": 0.7638888888888888,
+        "diffusion": 0.7916666666666666,
+        "forward": 0.7916666666666666,
+        "reachability": 0.75
+      },
+      "pop300-lambda007-sigma010": {
+        "diffusion": 0.8055555555555556
+      },
+      "pop300-lambda007-sigma025": {
+        "diffusion": 0.7777777777777778
+      },
+      "pop300-lambda007-sigma050": {
+        "diffusion": 0.7777777777777778
+      },
+      "pop300-lambda010": {
+        "acid": 0.8055555555555556,
+        "diffusion": 0.8055555555555556,
+        "forward": 0.8055555555555556,
+        "reachability": 0.7638888888888888
+      },
+      "pop50-lambda007": {
+        "acid": 0.75,
+        "b0": 0.75,
+        "diffusion": 0.75,
+        "forward": 0.7361111111111112,
+        "reachability": 0.7361111111111112
+      }
+    },
+    "pusht": {
+      "pop150-lambda007": {
+        "acid": 0.8055555555555556,
+        "b0": 0.8611111111111112,
+        "diffusion": 0.9166666666666666,
+        "forward": 0.8888888888888888,
+        "reachability": 0.9027777777777778
+      },
+      "pop30-lambda007": {
+        "acid": 0.8472222222222222,
+        "b0": 0.7638888888888888,
+        "diffusion": 0.8055555555555556,
+        "forward": 0.8055555555555556,
+        "reachability": 0.7083333333333334
+      },
+      "pop300-lambda0005": {
+        "acid": 0.875,
+        "diffusion": 0.9027777777777778,
+        "forward": 0.8611111111111112,
+        "reachability": 0.8472222222222222
+      },
+      "pop300-lambda004": {
+        "acid": 0.875,
+        "diffusion": 0.9027777777777778,
+        "forward": 0.875,
+        "reachability": 0.9027777777777778
+      },
+      "pop300-lambda007": {
+        "acid": 0.8333333333333334,
+        "b0": 0.8333333333333334,
+        "diffusion": 0.9027777777777778,
+        "forward": 0.9027777777777778,
+        "reachability": 0.8611111111111112
+      },
+      "pop300-lambda007-sigma010": {
+        "diffusion": 0.9305555555555556
+      },
+      "pop300-lambda007-sigma025": {
+        "diffusion": 0.9027777777777778
+      },
+      "pop300-lambda007-sigma050": {
+        "diffusion": 0.8611111111111112
+      },
+      "pop300-lambda010": {
+        "acid": 0.8194444444444444,
+        "diffusion": 0.875,
+        "forward": 0.875,
+        "reachability": 0.8888888888888888
+      },
+      "pop50-lambda007": {
+        "acid": 0.8055555555555556,
+        "b0": 0.7638888888888888,
+        "diffusion": 0.8472222222222222,
+        "forward": 0.8333333333333334,
+        "reachability": 0.8055555555555556
+      }
+    },
+    "reacher": {
+      "pop150-lambda007": {
+        "acid": 0.9583333333333334,
+        "b0": 0.8333333333333334,
+        "diffusion": 0.8055555555555556,
+        "forward": 0.7777777777777778,
+        "reachability": 0.8055555555555556
+      },
+      "pop30-lambda007": {
+        "acid": 0.8472222222222222,
+        "b0": 0.7222222222222222,
+        "diffusion": 0.7083333333333334,
+        "forward": 0.6805555555555556,
+        "reachability": 0.6666666666666666
+      },
+      "pop300-lambda0005": {
+        "acid": 0.8472222222222222,
+        "diffusion": 0.8888888888888888,
+        "forward": 0.8888888888888888,
+        "reachability": 0.8888888888888888
+      },
+      "pop300-lambda004": {
+        "acid": 0.9027777777777778,
+        "diffusion": 0.8333333333333334,
+        "forward": 0.7916666666666666,
+        "reachability": 0.8888888888888888
+      },
+      "pop300-lambda007": {
+        "acid": 0.9166666666666666,
+        "b0": 0.7916666666666666,
+        "diffusion": 0.75,
+        "forward": 0.8472222222222222,
+        "reachability": 0.8472222222222222
+      },
+      "pop300-lambda007-sigma010": {
+        "diffusion": 0.7222222222222222
+      },
+      "pop300-lambda007-sigma025": {
+        "diffusion": 0.8333333333333334
+      },
+      "pop300-lambda007-sigma050": {
+        "diffusion": 0.7777777777777778
+      },
+      "pop300-lambda010": {
+        "acid": 0.9583333333333334,
+        "diffusion": 0.8055555555555556,
+        "forward": 0.8611111111111112,
+        "reachability": 0.8194444444444444
+      },
+      "pop50-lambda007": {
+        "acid": 0.8888888888888888,
+        "b0": 0.875,
+        "diffusion": 0.7083333333333334,
+        "forward": 0.75,
+        "reachability": 0.8055555555555556
+      }
+    }
+  },
+  "rates_tsv": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/analysis/d1/sensitivity/job-297131/sensitivity-rates.tsv",
+  "rates_tsv_sha256": "fa187020bb59af5aa000881a5d117203b96d59697c3e55d7c2292028560571aa",
+  "runs": [
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/acid/train-seed-6101-planner-seed-7101-job-297083-33/summary.json",
+      "summary_sha256": "4aaa5ebbc6f7fc103b6fd9f2b334559c25ddc429b3dbbd8819935f0a2ce472d4",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/acid/train-seed-6102-planner-seed-7102-job-297083-34/summary.json",
+      "summary_sha256": "f47705f83cd318a7a1f4df05b00be510c32c99de5344afdb16a5263ed82983cc",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/acid/train-seed-6103-planner-seed-7103-job-297083-35/summary.json",
+      "summary_sha256": "295ca55199085d94263fdb1eaf4207c0f77673e631c8b0591ac08efbf40144f5",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/b0/train-seed-6101-planner-seed-7101-job-297083-30/summary.json",
+      "summary_sha256": "a2f71f3a570e9118c5b76eeed2e20acdbd15713b129689250ef545d586ac8514",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/b0/train-seed-6102-planner-seed-7102-job-297083-31/summary.json",
+      "summary_sha256": "a9d75004919f2e52761ce02fe3e96e0acfee9b8dedf8c2e7fe1442999387236d",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/b0/train-seed-6103-planner-seed-7103-job-297083-32/summary.json",
+      "summary_sha256": "3b08241fd15ba14d98d7c50311b956cf5cc0d9de0ce4b6ee59222055ce13716c",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297083-39/summary.json",
+      "summary_sha256": "5dae559a7e82009949507668cf78a34ec4c1eb5ab16a125f2b59465a3aa5256c",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297083-40/summary.json",
+      "summary_sha256": "c1d05df427663dc224e1224d7a287f5982eaf6295277ac96671bd03ce3ec03f9",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297083-41/summary.json",
+      "summary_sha256": "4b638b27ff50ae4283eadbf7b2c7fdcb3914be4e4233083f1b32143bc7160824",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/forward/train-seed-6101-planner-seed-7101-job-297083-42/summary.json",
+      "summary_sha256": "2cc6ab68b81973cd13abe6ed4043c19c92e7ea661361e1ff862e9fdf893276c6",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/forward/train-seed-6102-planner-seed-7102-job-297083-43/summary.json",
+      "summary_sha256": "3d2e75e4e8c5e9586dadbf144c3868181dbb039d0c49258ae206e81062a2efef",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/forward/train-seed-6103-planner-seed-7103-job-297083-44/summary.json",
+      "summary_sha256": "293203f2cdeac5fd07e96745e45e7916170be700cde6aea84072f9e2f1f098e3",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297083-36/summary.json",
+      "summary_sha256": "bc4e3f7c3467e0e5655c6fdd88a7a77c268298aaea6547bdbcc09f3255938157",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297083-37/summary.json",
+      "summary_sha256": "ad2ccd169dca981a5814a777de48bd0a918827d77065db12bae5d5c4c2669baa",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop150-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297083-38/summary.json",
+      "summary_sha256": "e4b572691246927fba480ba723ee92b561ec8847e891845c874f8006a336799c",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/acid/train-seed-6101-planner-seed-7101-job-297083-3/summary.json",
+      "summary_sha256": "760a9ce5af5b5e0dc280b2463123732ad8d0bad846ee8b2905a57b9e8d5c2d35",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/acid/train-seed-6102-planner-seed-7102-job-297083-4/summary.json",
+      "summary_sha256": "c35df002cf8efa22052825a71f96e432f4030e1a7c667b78ed7ddf399712ae22",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/acid/train-seed-6103-planner-seed-7103-job-297083-5/summary.json",
+      "summary_sha256": "1b023edbbac2210fb194656b5119609c8670069905f2099b7203e7480af42692",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/b0/train-seed-6101-planner-seed-7101-job-297083-0/summary.json",
+      "summary_sha256": "a7f9772ceca32f93dead4a00b02a369c8655aba1a31bcd9b908707e1e2dd56ff",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/b0/train-seed-6102-planner-seed-7102-job-297083-1/summary.json",
+      "summary_sha256": "d02813e840df511bb591684b929280f1147a77f4f2c9fc82b979126613a77bb5",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/b0/train-seed-6103-planner-seed-7103-job-297083-2/summary.json",
+      "summary_sha256": "c0a6af24592a6c1e3e0d5e9a25650bd5166cb78187cd9277d9a8e688815d11ce",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297083-9/summary.json",
+      "summary_sha256": "2b5b311ab3abce831c69ed9d6d0ae8630da8f0d1b7d73557b4a156e6e3642ce9",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297083-10/summary.json",
+      "summary_sha256": "38dd51db95ca445be586de9ccfa2c8c91217069f777f9c1d458b7ebb40bffb9d",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297083-11/summary.json",
+      "summary_sha256": "c75d3a9cb975e80814658e845b01a5862ae776879f0975262b90e1a722ff7617",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/forward/train-seed-6101-planner-seed-7101-job-297083-12/summary.json",
+      "summary_sha256": "0ded17987057614388d58dc31fedc6c8f6c081133b994dba4f1dde6ffb77bd4f",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/forward/train-seed-6102-planner-seed-7102-job-297083-13/summary.json",
+      "summary_sha256": "ec3b9b47161e5fae8de7c52d985726f6443b96c915a945edbef913f8b9da24f2",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/forward/train-seed-6103-planner-seed-7103-job-297083-14/summary.json",
+      "summary_sha256": "630c72ced2fe50df169c437f063d3117268bbc408a3dc9ccb932c59bfb9aafdb",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297083-6/summary.json",
+      "summary_sha256": "b31908963a3a8021b473a3ea58d692cecff95fb7a2aa09a7dc17c71ccfd451ee",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297083-7/summary.json",
+      "summary_sha256": "b30ce7bd38db62e08d2d967dfcd46dd69a92eaab935fd81b04beca97fc2729c8",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop30-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297083-8/summary.json",
+      "summary_sha256": "ada8b2c2048b4b7a22ccc63cd330de7c4ac0c93f593cb9dd77cff6caec7d0811",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/acid/train-seed-6101-planner-seed-7101-job-297083-60/summary.json",
+      "summary_sha256": "37dda8cb0e051ab7b3f995c3da309863b9e443343b6a482c3ab18d77d086af6f",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/acid/train-seed-6102-planner-seed-7102-job-297083-61/summary.json",
+      "summary_sha256": "191c72c44e1eefb7dbe922c1933387db40a06cf6d5a40a8b21a7595f7208c054",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/acid/train-seed-6103-planner-seed-7103-job-297083-62/summary.json",
+      "summary_sha256": "78462cdb0f7d9c800bb9a7b4bace1d4577e71197dd29ce9cbd638c17403362db",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/diffusion/train-seed-6101-planner-seed-7101-job-297083-66/summary.json",
+      "summary_sha256": "34dffb6c0e692d95e2d367b470d52f0a632117725a7474f598cdadd5ee0aff8f",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/diffusion/train-seed-6102-planner-seed-7102-job-297083-67/summary.json",
+      "summary_sha256": "d54139fa37479efdc4e4c04c9a485de34d45baf25d9a587cf6b129ece80e575b",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/diffusion/train-seed-6103-planner-seed-7103-job-297083-68/summary.json",
+      "summary_sha256": "90beccbde7882af2f675009d95db5df2b2ac75fdb38a70fc8246061b55a00014",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/forward/train-seed-6101-planner-seed-7101-job-297083-69/summary.json",
+      "summary_sha256": "584ed7c3d7bdcd9a0e946cfd1d053c13e7594f37fa510dac606522b4d0fddd9b",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/forward/train-seed-6102-planner-seed-7102-job-297083-70/summary.json",
+      "summary_sha256": "089eda91468092e479cafaaa2d178c3b2b58091fa3e64789a93bdd2edffc23f9",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/forward/train-seed-6103-planner-seed-7103-job-297083-71/summary.json",
+      "summary_sha256": "f95d3154a8a52d57e288d9a353c9c026ec69379a5f5fbe4434e24228ccc7dd8a",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/reachability/train-seed-6101-planner-seed-7101-job-297083-63/summary.json",
+      "summary_sha256": "983bf5b8f48bc81daa58c952d61a7af0818a5b9d5ca9ccd693c37f284beac64a",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/reachability/train-seed-6102-planner-seed-7102-job-297083-64/summary.json",
+      "summary_sha256": "3040302affa052716452b5500b5034a7b1fecee09f006143783c01161d13e133",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda0005/reachability/train-seed-6103-planner-seed-7103-job-297083-65/summary.json",
+      "summary_sha256": "02d9e0d2f64eb2d476bd154b42d3ffb9c48efe95a8900ca02ae69599ffeeb605",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/acid/train-seed-6101-planner-seed-7101-job-297083-72/summary.json",
+      "summary_sha256": "044c0c7e9f1d1653983ffb417b3b8dc0e0d34eead39e18674181c8750b088ea7",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/acid/train-seed-6102-planner-seed-7102-job-297083-73/summary.json",
+      "summary_sha256": "929dd503c590b13531f5b86a7c71fef0f4af8351720f620c179ae207d10813b4",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/acid/train-seed-6103-planner-seed-7103-job-297083-74/summary.json",
+      "summary_sha256": "34b5107fb4519b652590a15d8ba9360d22c8e91b34019353e8503c5dc0655922",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/diffusion/train-seed-6101-planner-seed-7101-job-297083-78/summary.json",
+      "summary_sha256": "164e993632469807505a7f3743197e31f7cf97b6603b7b80e0dc97a90d9e708e",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/diffusion/train-seed-6102-planner-seed-7102-job-297083-79/summary.json",
+      "summary_sha256": "7afea8c9f267d38f180fd069ef3e9da6ab8ce56fae05eb80757945b36016b3fa",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/diffusion/train-seed-6103-planner-seed-7103-job-297083-80/summary.json",
+      "summary_sha256": "ed691f975d173ae8b406980bdff879afbbe474064a953722b3e16fe72a091dae",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/forward/train-seed-6101-planner-seed-7101-job-297083-81/summary.json",
+      "summary_sha256": "8b92401e0966ba5fd3eeec091978e75497855d1f2748334943978c885eddc540",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/forward/train-seed-6102-planner-seed-7102-job-297083-82/summary.json",
+      "summary_sha256": "2e5079f787067da119d319bcabaa863e211d7cc1e0c74a862ecba37044ac743f",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/forward/train-seed-6103-planner-seed-7103-job-297083-83/summary.json",
+      "summary_sha256": "c6e7f9f591a91e95edc0efaa531f3fe3501a8af1a81ae7d011b28bbac3e20472",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/reachability/train-seed-6101-planner-seed-7101-job-297083-75/summary.json",
+      "summary_sha256": "47a12bcaa22f0359add5037320f3abf4e14adee737abfb323fe05d3faa0f7cb1",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/reachability/train-seed-6102-planner-seed-7102-job-297083-76/summary.json",
+      "summary_sha256": "3ca166e65168b06c82fcde9ef0b6aa3111ecd9fdcb1065ab56425e47de12c259",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda004/reachability/train-seed-6103-planner-seed-7103-job-297083-77/summary.json",
+      "summary_sha256": "a749ca3f3178be6ef4efc6b860f44ec35a7ac4effb672d0cd59497509a3bc81e",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/acid/train-seed-6101-planner-seed-7101-job-297083-48/summary.json",
+      "summary_sha256": "5191fe4bbb88e97ee7a14b6b5c0accc427018463875ec75feff1e562aa7d6bcb",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/acid/train-seed-6102-planner-seed-7102-job-297083-49/summary.json",
+      "summary_sha256": "4727cbefda3162aa1ed0c94c93993e4aa28d4325a470e69cde6c8571950da1d5",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/acid/train-seed-6103-planner-seed-7103-job-297083-50/summary.json",
+      "summary_sha256": "4c94abbee48b98a2a81f62e69373a6eeb3b2537d1fdbe32e6d93a60cf120014a",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/b0/train-seed-6101-planner-seed-7101-job-297083-45/summary.json",
+      "summary_sha256": "057d20bf6c8b34c3b76c06dd88b92b5dc77dddf6af056e87c971a112ae082902",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/b0/train-seed-6102-planner-seed-7102-job-297083-46/summary.json",
+      "summary_sha256": "08d1174fe668e0680c8bee78ecb337aeb27485b6dd1838f07d5bc89926dea7f2",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/b0/train-seed-6103-planner-seed-7103-job-297083-47/summary.json",
+      "summary_sha256": "b77e7b5d087a3a8124dcd2d47ef230320980420a5e797f8e50914e4e98044b21",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297083-54/summary.json",
+      "summary_sha256": "ee56bde860520a24f2a2d655b425ae832f0e1cc0aabc1e0c6c99725f186432e5",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297083-55/summary.json",
+      "summary_sha256": "83a92d394b6cd34ba95a442248e4c1bbf37aedaee1941bcb5d2be10aef32caee",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297083-56/summary.json",
+      "summary_sha256": "632ad670d9167f96dd8c1c61208c69d6d32f0f8bb154d6ebdb8c354de6c793d2",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/forward/train-seed-6101-planner-seed-7101-job-297083-57/summary.json",
+      "summary_sha256": "c02a172db67328a0554d8a3737f8b451c54a4ca486bf0ed27eb91ce7288e002d",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/forward/train-seed-6102-planner-seed-7102-job-297083-58/summary.json",
+      "summary_sha256": "a5e48b29b5d237dd6e9718b572c8b8bbd0cc304919dcc6587461af427db2c5ce",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/forward/train-seed-6103-planner-seed-7103-job-297083-59/summary.json",
+      "summary_sha256": "4e086862c86a9c8f423a856ec6ee600b7e41d02b6a501a69ea64c86a377aac8b",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297083-51/summary.json",
+      "summary_sha256": "670a7279777a5a135cbb34439cce8005bd0db7be6f56cf03b41310862cd11989",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297083-52/summary.json",
+      "summary_sha256": "16b356bbbdec44ba11c7e9a940d84991d1506e6e74cdeaeea2c465abb97550df",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297083-53/summary.json",
+      "summary_sha256": "60f477595a7f5057dee1b6c230fcf043a6cff3d947b6703f5b8b97480fa57049",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma010/diffusion/train-seed-6101-planner-seed-7101-job-297083-96/summary.json",
+      "summary_sha256": "c21eb7f7341e3de27eafbcaedd61ce1aeeb4f4f8ef2da549803a34aa39089233",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma010/diffusion/train-seed-6102-planner-seed-7102-job-297083-97/summary.json",
+      "summary_sha256": "355af950c098c5097e7dfb259cd118be8c605b856aafacd5f0552079b5e9ec34",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma010/diffusion/train-seed-6103-planner-seed-7103-job-297083-98/summary.json",
+      "summary_sha256": "4d518539d335ad167427f8446673a28ec77b07daec4668e98f803241a7164c60",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297083-99/summary.json",
+      "summary_sha256": "f0fdf2dce9ee8583d3b7b82fc6dd745ff3261ef84432a200067dd8770f1ea5b6",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297083-100/summary.json",
+      "summary_sha256": "7c2d9052b9df1d6cb38891d5f4ea8d6138f672bb7ef8e9afbb1fc50960d6e751",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297083-101/summary.json",
+      "summary_sha256": "9975619466ee1df182eb84762908f8a82936649156310fc46f4dac8a6e80b99d",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma050/diffusion/train-seed-6101-planner-seed-7101-job-297083-102/summary.json",
+      "summary_sha256": "5cf42cd1e79f63ad8e55c8115abe467a9b22f0b6ebff921f89b54f08f251fb7e",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma050/diffusion/train-seed-6102-planner-seed-7102-job-297083-103/summary.json",
+      "summary_sha256": "3efb68e8cae50cb39c70e8fc5c970a4d85d56ded0cc34d7c52c5c15802344b92",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma050/diffusion/train-seed-6103-planner-seed-7103-job-297083-104/summary.json",
+      "summary_sha256": "302c370556d84a441a55bca3ca6e4a51b95e8b4a2ed9e181f56926305b819981",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/acid/train-seed-6101-planner-seed-7101-job-297083-84/summary.json",
+      "summary_sha256": "a898714442aec7f5c9c0a470544e6193404d56b440047c14ff6c9d5d354529e1",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/acid/train-seed-6102-planner-seed-7102-job-297083-85/summary.json",
+      "summary_sha256": "4248e0916e931dde839609544d00ee623e8653a437529c8e8782e65b75f03d23",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/acid/train-seed-6103-planner-seed-7103-job-297083-86/summary.json",
+      "summary_sha256": "38c92c6c77eac85e05c9f0bd12c9face5aab40a99a7d44f890e0a3310cbbc3b1",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/diffusion/train-seed-6101-planner-seed-7101-job-297083-90/summary.json",
+      "summary_sha256": "9a6a28ab84e66186f41c952f4502cd795db2d2502c555aebc8a2a8e5f9f4b10f",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/diffusion/train-seed-6102-planner-seed-7102-job-297083-91/summary.json",
+      "summary_sha256": "0a3feb40630c3795d6f40c273abd61d720d198af1508d48569f5f3fdfa69db1a",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/diffusion/train-seed-6103-planner-seed-7103-job-297083-92/summary.json",
+      "summary_sha256": "3b3b198e332d736406077c00ccf2b616c642dc9deb0b0908de00ced755ed30e1",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/forward/train-seed-6101-planner-seed-7101-job-297083-93/summary.json",
+      "summary_sha256": "949d939a15fe0f5eecde57558ca3327a6e5fb2630a8e3e918f70bd4224428b65",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/forward/train-seed-6102-planner-seed-7102-job-297083-94/summary.json",
+      "summary_sha256": "1051f06cececd87ba4aa1f4b2181af1613bdca1c07c1983a59fef403b083f5d7",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/forward/train-seed-6103-planner-seed-7103-job-297083-95/summary.json",
+      "summary_sha256": "51e3e832e9495ecb93226bf3b0de7ab08637a9c1fc3bd75244a669072e5debc4",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/reachability/train-seed-6101-planner-seed-7101-job-297083-87/summary.json",
+      "summary_sha256": "c2497d36bc9871d876d42441bda6c721014167a60f5d74762d1a6544ab4c6cf1",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/reachability/train-seed-6102-planner-seed-7102-job-297083-88/summary.json",
+      "summary_sha256": "55ea253a9497962affc6630af67ebbea91d651ffb58eb4163068cf75a501cca7",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop300-lambda010/reachability/train-seed-6103-planner-seed-7103-job-297083-89/summary.json",
+      "summary_sha256": "f6d54c5c5c42280ac02fd4e2d99e247b5fef9e6c5dfee26cc7f48c753f19e66b",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/acid/train-seed-6101-planner-seed-7101-job-297083-18/summary.json",
+      "summary_sha256": "7c85a725d0ecd03c913bca17a252e76305966b47b476fbf8054a6ab853aa769c",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/acid/train-seed-6102-planner-seed-7102-job-297083-19/summary.json",
+      "summary_sha256": "5cd6ac4c0db1871fe6a9a1d8919d6d7f1e923c391aea60b5e248bc71d58bdd4f",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/acid/train-seed-6103-planner-seed-7103-job-297083-20/summary.json",
+      "summary_sha256": "20ffe4b861b221172c5de5da7361fc324ba67963ff6af8ce64fbdb151da8610f",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/b0/train-seed-6101-planner-seed-7101-job-297083-15/summary.json",
+      "summary_sha256": "aa723bf3c5abc4c5e073f53a5760907dbb089066bc67da01760bec7d77f982c3",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/b0/train-seed-6102-planner-seed-7102-job-297083-16/summary.json",
+      "summary_sha256": "1cfeaf43cb01dbd3d62c6fcae24eaed947ecdf0941b34207a3b16993b2ef3518",
+      "task": "cube"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/b0/train-seed-6103-planner-seed-7103-job-297083-17/summary.json",
+      "summary_sha256": "a5b6c2919ed2eb8938a67d52eb058ea7fe976820c075ded94cc685682353a9ee",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297083-24/summary.json",
+      "summary_sha256": "cf0b990123bd229d3900a6ef386533cbaf683259299b66ad7d979d5f98ad5378",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297083-25/summary.json",
+      "summary_sha256": "59bbeda3caf998a29959f67682620620dc207bcb253033b280b555a5738831d5",
+      "task": "cube"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297083-26/summary.json",
+      "summary_sha256": "61ea04fc232499ee929f3b7422688dd35ff5e05ce6d99698b3a9fd801e20a5f7",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/forward/train-seed-6101-planner-seed-7101-job-297083-27/summary.json",
+      "summary_sha256": "d76acf8f666ce6b32dc1afa20cc9f260ce3d641720989f237529bdfea0a85f97",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/forward/train-seed-6102-planner-seed-7102-job-297083-28/summary.json",
+      "summary_sha256": "92cf2b58facca871ee90d7d46735af38eadfc59cd639645f7d825641597e00c9",
+      "task": "cube"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/forward/train-seed-6103-planner-seed-7103-job-297083-29/summary.json",
+      "summary_sha256": "e9e6718afed08f3269807c267776bffa30a1b104c54b4be8400406f28a6643a7",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297083-21/summary.json",
+      "summary_sha256": "7d804aa9fc2bc0ff6229c841e83c16150889d1f2fb8977a328c52810862f1cf3",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297083-22/summary.json",
+      "summary_sha256": "b14d39a0c0ba4ffc06063b9b7f8f30e34501a18789d21b6467eae27158c8f7e1",
+      "task": "cube"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/cube/pop50-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297083-23/summary.json",
+      "summary_sha256": "61193a15fc2e937dd3a1395351b3298c82cb6b954fd7a14019ffcf9fb05ec328",
+      "task": "cube"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/acid/train-seed-6101-planner-seed-7101-job-297059-33/summary.json",
+      "summary_sha256": "204508f9f6d3e11e3ed3865255cf9362fd9ac49edd51eb06690555b4a9eaa6f6",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/acid/train-seed-6102-planner-seed-7102-job-297059-34/summary.json",
+      "summary_sha256": "0aa6dfcd5ef864edfd0345a9f07774b649f95b66fefb618f39c9d90a1d9d8458",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/acid/train-seed-6103-planner-seed-7103-job-297059-35/summary.json",
+      "summary_sha256": "5fd45c48470be6575efc576483c4461aec06d39549da268a12d63a8d719ca1b7",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/b0/train-seed-6101-planner-seed-7101-job-297059-30/summary.json",
+      "summary_sha256": "6b7058115938f57c78c4cda6bba85dd1a432640e8a9d751e75ee238d8c467d9a",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/b0/train-seed-6102-planner-seed-7102-job-297059-31/summary.json",
+      "summary_sha256": "18fae2aec3238570f76f2521396d11cd37e2e840518c1d165cfa4b2f24951f4e",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/b0/train-seed-6103-planner-seed-7103-job-297059-32/summary.json",
+      "summary_sha256": "5516f816930cac06b51c5f4121dc1b3e3f461c59a18f8ac69e9e395acfac8489",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297059-39/summary.json",
+      "summary_sha256": "de341c8867c3af88d9246e9ebcfa864af8cad7c03b390dee5e6e7f41ac6e5c28",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297059-40/summary.json",
+      "summary_sha256": "61d16011091b4d89532f4c1ece2e184a61f60c5889fcaf4214c2575461c6a113",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297059-41/summary.json",
+      "summary_sha256": "6c0bca2399321b1dd03f5963cb15326982dda59033d0e0a0b2a931ad41462fb9",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/forward/train-seed-6101-planner-seed-7101-job-297059-42/summary.json",
+      "summary_sha256": "d30d1aed27de564858b3c7adfe4b0f86807795dd4dcfdb3b9860c35713e0e5e2",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/forward/train-seed-6102-planner-seed-7102-job-297059-43/summary.json",
+      "summary_sha256": "e51d6c7b45d1a4627d094b28bd0171b27db65f9e50608c26e79fbe738efc4840",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/forward/train-seed-6103-planner-seed-7103-job-297059-44/summary.json",
+      "summary_sha256": "2fe0d65af7335088e2600a6f95941a75f42cfc7ef2ea5f4d13706a2f311a7451",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297059-36/summary.json",
+      "summary_sha256": "335940ef00619500a748bb7b961613b20752da407ffa4daae4651d9e81ffdd00",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297059-37/summary.json",
+      "summary_sha256": "85d3056f3f7326488f73276a0e03988960dbcd536aaffc9b2c823757d845b22a",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop150-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297059-38/summary.json",
+      "summary_sha256": "3df891954c5f95e7319cde5046695661aa0787ebb006185af145ccb51d6e0e68",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/acid/train-seed-6101-planner-seed-7101-job-297059-3/summary.json",
+      "summary_sha256": "70be3508bdab709921e094363b621332c18a7263a03205317ca1df6b6f4d6632",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/acid/train-seed-6102-planner-seed-7102-job-297059-4/summary.json",
+      "summary_sha256": "91a8cb7ccfe8d726fbb60b7d7c70b70b371a4edda0d7d065ecc5fb855602aeff",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/acid/train-seed-6103-planner-seed-7103-job-297059-5/summary.json",
+      "summary_sha256": "0328bc53629fb193c6473849b10d8baf10cc5860556c286dd25cdccbfb41eb5c",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/b0/train-seed-6101-planner-seed-7101-job-297059-0/summary.json",
+      "summary_sha256": "53bce89dac8abf955862d6f35934269cf29f1610427e52c1e84aabcac4db56e2",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/b0/train-seed-6102-planner-seed-7102-job-297059-1/summary.json",
+      "summary_sha256": "a9edfce4a302dd1cef5d10817ef24b6af0c1a23fe0f478ee551544b3aac5870f",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/b0/train-seed-6103-planner-seed-7103-job-297059-2/summary.json",
+      "summary_sha256": "95d0f962cad831cc64a6011b19ad872ebf04c9184383f3fdc0f242cc179a8a4a",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297059-9/summary.json",
+      "summary_sha256": "77963a987289b40643dc895645c148977a9768ea78062554290df1dfa8d15a72",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297059-10/summary.json",
+      "summary_sha256": "8cbf293a7e3a8564b512e3c4ad5982b8d13373bb96f547af9a5012a7751f439c",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297059-11/summary.json",
+      "summary_sha256": "c3672a6ccd0eafb8ede4cf5585584d2e7c6e78ee5d0b34fb8380c8a2035955a8",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/forward/train-seed-6101-planner-seed-7101-job-297059-12/summary.json",
+      "summary_sha256": "4836f5ea4a4ca6d7ae9142e19cecd403c036c3b8d80701deb8a8ac73c65fdfa5",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/forward/train-seed-6102-planner-seed-7102-job-297059-13/summary.json",
+      "summary_sha256": "b1bd1cb13ed243aa8f92d256184d75bd842ae1d966c8a6cc5359cb7608a4dc16",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/forward/train-seed-6103-planner-seed-7103-job-297059-14/summary.json",
+      "summary_sha256": "0b77ebc3b084d05b14b4141d5925c6eb5e29ea9a46bf092d6c201f20d903c803",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297059-6/summary.json",
+      "summary_sha256": "99bbee6b3c3b76f04e6a6ad2ab65a1c21421f2eb15e3fbb1c8edacaac7afd2f6",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297059-7/summary.json",
+      "summary_sha256": "db3b70165eb421469c5079ae8d65d0a729c159c6b64b8dff2b82edd2742d3c44",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop30-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297059-8/summary.json",
+      "summary_sha256": "30e4675fe8469618988dea95665cc3c752f5de994610844ee35d4a2d0aa46b15",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/acid/train-seed-6101-planner-seed-7101-job-297059-60/summary.json",
+      "summary_sha256": "91eb7605b45b5fa25022c9e19c383aaa774f9fe327c8dd67f5824413c35d846a",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/acid/train-seed-6102-planner-seed-7102-job-297059-61/summary.json",
+      "summary_sha256": "56f3380dbb581cfbc6b47d802eec253247d16c50a9885b8e385e1f79980fe91d",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/acid/train-seed-6103-planner-seed-7103-job-297059-62/summary.json",
+      "summary_sha256": "b3e2d8509888772132ee6f6f7c48f62b68c659039a8c6a2ae2da0516d04530ec",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/diffusion/train-seed-6101-planner-seed-7101-job-297059-66/summary.json",
+      "summary_sha256": "671cbbaf44bb4c7c547f6761342377570138d12e7f256ef2445f4f0712ca1e36",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/diffusion/train-seed-6102-planner-seed-7102-job-297059-67/summary.json",
+      "summary_sha256": "801cbab87df542e9fbdc02992768de7c7800ae6db5f56537c34acc8d7ea627ff",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/diffusion/train-seed-6103-planner-seed-7103-job-297059-68/summary.json",
+      "summary_sha256": "56e35107027c80fd359135fa004050b478497e456c15260e8ab32ba2339841f7",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/forward/train-seed-6101-planner-seed-7101-job-297059-69/summary.json",
+      "summary_sha256": "df85c1140d926828872c458fd3d522c80b1b6a5ed37737c325d21b6def54d68e",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/forward/train-seed-6102-planner-seed-7102-job-297059-70/summary.json",
+      "summary_sha256": "c46bb348a41c7afcf591837669eab666545c3a1d0148a905cbf7b6ffe2ef2c54",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/forward/train-seed-6103-planner-seed-7103-job-297059-71/summary.json",
+      "summary_sha256": "92631aba3f53795faa34ef7017d99a31a0145b410e74e223afaf43b2eb81686d",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/reachability/train-seed-6101-planner-seed-7101-job-297059-63/summary.json",
+      "summary_sha256": "62c1286d0106c145bb2c015ae1a5e952d941e5223c85c3d759a049eb66175ccf",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/reachability/train-seed-6102-planner-seed-7102-job-297059-64/summary.json",
+      "summary_sha256": "e6e5652c1505cd0fb87dfc92c3c36e3258f413cc46ddbba503388953b2da63ee",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda0005/reachability/train-seed-6103-planner-seed-7103-job-297059-65/summary.json",
+      "summary_sha256": "514ce050a4faa6b83a0d8e29349b6da0de10c445d54941c8d1d17b14cc1c7753",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/acid/train-seed-6101-planner-seed-7101-job-297059-72/summary.json",
+      "summary_sha256": "3a33efe646d89771051bcb41b8ad308ecd94c4b8dee4ea667a7034c70b0363eb",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/acid/train-seed-6102-planner-seed-7102-job-297059-73/summary.json",
+      "summary_sha256": "6e99678dcb84f7db654b1604dd9f65b42b0dbbf9d54180f042c87d7027cb6be6",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/acid/train-seed-6103-planner-seed-7103-job-297059-74/summary.json",
+      "summary_sha256": "5f43fe068a34031e8d71c262224632c5520d0a1206565508f0c0783315f4a7b5",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/diffusion/train-seed-6101-planner-seed-7101-job-297059-78/summary.json",
+      "summary_sha256": "2c3b0f305f9a99e3e586b035ab4685eccafb535511bb895445c614bec9795ceb",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/diffusion/train-seed-6102-planner-seed-7102-job-297059-79/summary.json",
+      "summary_sha256": "362aa35ee3b83695454bc4fb8499997a9f502c9df6b9b47c0da842cfca05737e",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/diffusion/train-seed-6103-planner-seed-7103-job-297059-80/summary.json",
+      "summary_sha256": "d96fb264573e24a5b9dc22a27661d72bbd55431a3370fd03ca0a7e843686c1a0",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/forward/train-seed-6101-planner-seed-7101-job-297059-81/summary.json",
+      "summary_sha256": "5edef5ad255228d175bd59aab0a7400a69420c268dd8553a3ff4cf7355ad7551",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/forward/train-seed-6102-planner-seed-7102-job-297059-82/summary.json",
+      "summary_sha256": "35dbc58d8201b6ace9cd05429299a60c14c8dc3b9fc0a1e92ac79817a1e24fe0",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/forward/train-seed-6103-planner-seed-7103-job-297059-83/summary.json",
+      "summary_sha256": "f774901e0ed6c38bfd05832c89b2cac7cfce3622a98de406a25ae72eca02a73b",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/reachability/train-seed-6101-planner-seed-7101-job-297059-75/summary.json",
+      "summary_sha256": "f6ff890bdcae6f15ca90d767bac6ae009fc5a4310041849e0d1f55def398684a",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/reachability/train-seed-6102-planner-seed-7102-job-297059-76/summary.json",
+      "summary_sha256": "e20599034ecc6a37d64848ff1e42cd23bbf20ea4723590afbdc50312cf2e183e",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda004/reachability/train-seed-6103-planner-seed-7103-job-297059-77/summary.json",
+      "summary_sha256": "53ea9c00e4b82c793763d0019e8059c30dfae516fa33b6381461c7b025f2297f",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/acid/train-seed-6101-planner-seed-7101-job-297059-48/summary.json",
+      "summary_sha256": "bbab29eef9c98d09665b9e609bfca3aca66fda762c0f676256e0e19f5f9d23dd",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/acid/train-seed-6102-planner-seed-7102-job-297059-49/summary.json",
+      "summary_sha256": "9d47cd84ff2d8eb0ed3a4ca7cfdafd793f6d4803cdfa4161252f32a1f0171646",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/acid/train-seed-6103-planner-seed-7103-job-297059-50/summary.json",
+      "summary_sha256": "33e30df3403cb8c6fb3a4d8cd4bd3040e738433f4e9a5634504fba317f597f43",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/b0/train-seed-6101-planner-seed-7101-job-297059-45/summary.json",
+      "summary_sha256": "8789a7c0d7217e4a216cd4fff0102353b437a4a984ce29412be8873387e0d78a",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/b0/train-seed-6102-planner-seed-7102-job-297059-46/summary.json",
+      "summary_sha256": "dae86ed43d6c2892ca6032e1ae65a877328d4aec654060a4c097e41daf8e910f",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/b0/train-seed-6103-planner-seed-7103-job-297059-47/summary.json",
+      "summary_sha256": "a9570e339234ce9d65fc285b0178be02da13ad3fec699e69a762447b33421c92",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297059-54/summary.json",
+      "summary_sha256": "c9d0bdcb6453f6fa3b724fcd97f96a9ec2f1ee42baa58f7602b47450a11e7798",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297059-55/summary.json",
+      "summary_sha256": "0b19fa1dea2d8877b5a68038157fed238d6750ec92b6e4198d74aef1a37ea2ad",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297059-56/summary.json",
+      "summary_sha256": "abb6248408efd61c06fa891febd88da91d687d90a0745c0a5a8aee6cf1a60205",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/forward/train-seed-6101-planner-seed-7101-job-297059-57/summary.json",
+      "summary_sha256": "903e8d00cf14e61fe4770ca1d5bfb9a7df0ea515ed816f69787ac82707012656",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/forward/train-seed-6102-planner-seed-7102-job-297059-58/summary.json",
+      "summary_sha256": "cce8673a5d1dd546cfc72324ace08a70d83c60a519b61445c3e2f17883bc87bc",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/forward/train-seed-6103-planner-seed-7103-job-297059-59/summary.json",
+      "summary_sha256": "c2fbbf36dd5701d7c79e891a289644d90fe17c9acca1fab98cd8e1ad7cdce663",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297059-51/summary.json",
+      "summary_sha256": "0616cfcc881e544f61871baa0c9957e323a4c0e91c4a03ef9ac37dbf4abb0f95",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297059-52/summary.json",
+      "summary_sha256": "cb0f70bbff6e4170fdd199dbdad694fa901e0ee1d45c91a51216f1c376375d08",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297059-53/summary.json",
+      "summary_sha256": "6620ed8ee9f7593d0e57237dd034932d49b420add7a19ec2f7fd748ee87abadf",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma010/diffusion/train-seed-6101-planner-seed-7101-job-297059-96/summary.json",
+      "summary_sha256": "f202db1d0fea0428b3e537566fdf5aa5b8aa0ebbf7fbe25767db92d826133cc6",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma010/diffusion/train-seed-6102-planner-seed-7102-job-297059-97/summary.json",
+      "summary_sha256": "10564e80455b8d5ab711b33fcffc0d32a15a0c629b46b2f17c17cdea675bbbb3",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma010/diffusion/train-seed-6103-planner-seed-7103-job-297059-98/summary.json",
+      "summary_sha256": "9a42cced9e474633d4a93026a62a60b41031aefe02738af4744b586432d30d22",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297059-99/summary.json",
+      "summary_sha256": "9f85d9f1041fdea13c8ea5f14c537947cd26988e1a310db4d22ebdd48057256f",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297059-100/summary.json",
+      "summary_sha256": "f4db6e49f79c53e616100ce8b3a73ddb9ecaf360d5d57156475059989ae72cd5",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297059-101/summary.json",
+      "summary_sha256": "01eae2ac0ff221d29f0f79aa1fb54a0ecda9530db258447ea0cad1a78c248f5c",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma050/diffusion/train-seed-6101-planner-seed-7101-job-297059-102/summary.json",
+      "summary_sha256": "92f7330dd3c0409d19536cd0f1972bce2d5d3185f3223e4c49cf93cef274fa83",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma050/diffusion/train-seed-6102-planner-seed-7102-job-297059-103/summary.json",
+      "summary_sha256": "e5935a0c1ded2b7cf65767c3829cf4e38bb40258f5a4668fb2bedbc1787f8a5d",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma050/diffusion/train-seed-6103-planner-seed-7103-job-297059-104/summary.json",
+      "summary_sha256": "b4cc4c59164f5ffb7d67d2084cce6a8c0c2acc4707a8202ec39e87c9c7c99829",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/acid/train-seed-6101-planner-seed-7101-job-297059-84/summary.json",
+      "summary_sha256": "7768b76e66ce99dad177b0423736ca9ae3d6fbed0db1d01df7dc2f06d5fc707a",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/acid/train-seed-6102-planner-seed-7102-job-297059-85/summary.json",
+      "summary_sha256": "153cc278d9abd066e8c83c70fc9e1415394353be0c198321b0a5770a80d6d18e",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/acid/train-seed-6103-planner-seed-7103-job-297059-86/summary.json",
+      "summary_sha256": "6c1b296b18eaf280fbe174dea5b2b2e72f6814fbacff5151e596166571ea9c95",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/diffusion/train-seed-6101-planner-seed-7101-job-297059-90/summary.json",
+      "summary_sha256": "e17381379d74f2125248f6abe34b7968405c3b5415e650868e048934bfc35612",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/diffusion/train-seed-6102-planner-seed-7102-job-297059-91/summary.json",
+      "summary_sha256": "2658b964f87f1b398584cf46b2928ab0c366cfd6d1be09c6318eeaf5b73344bd",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/diffusion/train-seed-6103-planner-seed-7103-job-297059-92/summary.json",
+      "summary_sha256": "88f092b3726b47aeb29c84c01a87e4d0338df3b79a4b6aa28c2ae6460aa4c8b5",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/forward/train-seed-6101-planner-seed-7101-job-297059-93/summary.json",
+      "summary_sha256": "68bee772de144bb177987c95d019582468ce7459e2cc0ccb78623eade32d823b",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/forward/train-seed-6102-planner-seed-7102-job-297059-94/summary.json",
+      "summary_sha256": "5a271748e83981509bc74670aab91e1a79c3a62983d9ecb4edd9a5e336d339c8",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/forward/train-seed-6103-planner-seed-7103-job-297059-95/summary.json",
+      "summary_sha256": "0f928dff10767e6ec8a4694a66731928885c4c44d21db4a1cbe10827a06ca0b8",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/reachability/train-seed-6101-planner-seed-7101-job-297059-87/summary.json",
+      "summary_sha256": "29fd731686a1c2a93d03428f88953200c3b3b32926b8ade811e53b99a27ad09b",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/reachability/train-seed-6102-planner-seed-7102-job-297059-88/summary.json",
+      "summary_sha256": "02dc779ddebcf738e087d530e72c000326bdb3ef587d8cb40b30562efc377e12",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop300-lambda010/reachability/train-seed-6103-planner-seed-7103-job-297059-89/summary.json",
+      "summary_sha256": "3390db8cbd50f65e3e23f4b03648ecfc41d985e735920647e53408fb1b7f94db",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/acid/train-seed-6101-planner-seed-7101-job-297059-18/summary.json",
+      "summary_sha256": "8aa82e45f815e0096e5faeb5a0772549b55a0279e186b28c6a8cc4f9938cf66c",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/acid/train-seed-6102-planner-seed-7102-job-297059-19/summary.json",
+      "summary_sha256": "72dafabbf29e13164445c7d2e066e019b6e447d4c678dcd954d3e76ea3a34b21",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/acid/train-seed-6103-planner-seed-7103-job-297059-20/summary.json",
+      "summary_sha256": "d59c4e91e1a0ef0eb5f70f7cf1e1ccddf719fa67142a57eca86be535f7b7f3cb",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/b0/train-seed-6101-planner-seed-7101-job-297059-15/summary.json",
+      "summary_sha256": "e3f98727da46edb57e3ef8c88fbdbc4de0310344c6914fd47fbcb5863764bad9",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/b0/train-seed-6102-planner-seed-7102-job-297059-16/summary.json",
+      "summary_sha256": "b096971930c769f3c6476ade0f97ba1565f92f72ce9325c974553d9cdf47f741",
+      "task": "pusht"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/b0/train-seed-6103-planner-seed-7103-job-297059-17/summary.json",
+      "summary_sha256": "9e12b742cc3c6e78c0eb63fd179c6ad18be4f4d8402972edbf21b4932c930498",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297059-24/summary.json",
+      "summary_sha256": "be6a32b69c616f61d23e36ebf475f80b251977fd31291318e5ff195e6383f5d5",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297059-25/summary.json",
+      "summary_sha256": "12ce45a46f5c2c480714ba46dd7c72d062829d4ded3092fed0c52679b0142f08",
+      "task": "pusht"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297059-26/summary.json",
+      "summary_sha256": "bf14d75efee5ca604d1104c39d85b9b902175e0707360a3413b378c799132816",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/forward/train-seed-6101-planner-seed-7101-job-297059-27/summary.json",
+      "summary_sha256": "3ad6d3bb8884ad7b151d524ce8c56c250eef6c17b6e9bef9fce236add57cd078",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/forward/train-seed-6102-planner-seed-7102-job-297059-28/summary.json",
+      "summary_sha256": "7675081a21ff8dd6d94831798183da1aa0df09f43ccab9615c41c1f65972ed2f",
+      "task": "pusht"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/forward/train-seed-6103-planner-seed-7103-job-297059-29/summary.json",
+      "summary_sha256": "06d8128ed8f07101f11829a3ec067103c3e8dd11d76c11d2c92ebd03c7035619",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297059-21/summary.json",
+      "summary_sha256": "7ba9bcdf60b53a795620c1c0eca1badc11b11479c66efc7a8f1f46cf461554d7",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297059-22/summary.json",
+      "summary_sha256": "f27a7a93ae0941ded3c021953baf09e49ae20b2c2289594387a2256e543b309d",
+      "task": "pusht"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/pusht/pop50-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297059-23/summary.json",
+      "summary_sha256": "ac95e195cbf0fc500b8bdd9ac8773bb4c24c62737d83a122c07e2fde43cfc6f4",
+      "task": "pusht"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/acid/train-seed-6101-planner-seed-7101-job-297118-33/summary.json",
+      "summary_sha256": "e2ee095ab779d1f1e7c17de05e5fa4d5fcb6d05cc9b5eea9b42425d4d3262314",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/acid/train-seed-6102-planner-seed-7102-job-297118-34/summary.json",
+      "summary_sha256": "9f1aefde9247f40d7bc62ef991c6b02a6dd5edc39bccc3d8ccee0fa4c29737d6",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/acid/train-seed-6103-planner-seed-7103-job-297118-35/summary.json",
+      "summary_sha256": "ab3bdbd9a71751918ca3b479465061722e1ef0274e7b0e7c1a9025bde4aa1781",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/b0/train-seed-6101-planner-seed-7101-job-297118-30/summary.json",
+      "summary_sha256": "109a99466149cfc03c2c979e30f0cf1f503c25447f4363b199a6c38c6f92dcbd",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/b0/train-seed-6102-planner-seed-7102-job-297118-31/summary.json",
+      "summary_sha256": "2325cf94d5b9c541eb75cc6481d30f5997cf25d18463af850a3b4d877e1c8269",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/b0/train-seed-6103-planner-seed-7103-job-297118-32/summary.json",
+      "summary_sha256": "176bcdbcf8dd80a8884d3c508ca6c2e43f9b757fbb8d3bf746b1196c42d3cb04",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297118-39/summary.json",
+      "summary_sha256": "117387763761658ee9a2a8cac31e9ee2bc9e360a8eb79f50f54ce644728519b5",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297118-40/summary.json",
+      "summary_sha256": "6074471cb54873e73292a91a09dcfcfea6f5d1d7bed4414db4e129a2978f3771",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297118-41/summary.json",
+      "summary_sha256": "757b6276c357d4d8c6a9c4554954d6efd89644ae87237cbc7cc822fc87fb1849",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/forward/train-seed-6101-planner-seed-7101-job-297118-42/summary.json",
+      "summary_sha256": "5eb9ee45408e2af612b6d90bcb42d8e835abbb2c7403f91887c0ba77a1645ddf",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/forward/train-seed-6102-planner-seed-7102-job-297118-43/summary.json",
+      "summary_sha256": "14940683bbcb4a2f9583f203386cae3d60bdfc0c702cdf84e34a9eabfa79b9a1",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/forward/train-seed-6103-planner-seed-7103-job-297118-44/summary.json",
+      "summary_sha256": "fa9ecf54a5b85afbb4ead2562eb19c4fa188829176650004726bc082c140c770",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297118-36/summary.json",
+      "summary_sha256": "f4a7f74f3d993518d5b1a89c7e09f2ba9b7bbda20a31d1c79f3a34c1669da036",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297118-37/summary.json",
+      "summary_sha256": "e9d095cda634b6c5d0e0ed98cf5bae5aa9b9a58ee029325834f91d63589f9746",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop150-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop150-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297118-38/summary.json",
+      "summary_sha256": "ec80eea48d60998715475d21ab9dfb38a53b7ae0686482c43a764897ef34c849",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/acid/train-seed-6101-planner-seed-7101-job-297118-3/summary.json",
+      "summary_sha256": "83208eb0504064cacec39a66b5dedf2ae3cb22249375ce2ed4b9deb73530c2de",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/acid/train-seed-6102-planner-seed-7102-job-297118-4/summary.json",
+      "summary_sha256": "4d208913b27a232e6a4d2f99c6cfb84d628bfd4cfe62545b5000e87da7178c28",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/acid/train-seed-6103-planner-seed-7103-job-297118-5/summary.json",
+      "summary_sha256": "760e02b77869ad568eccf70c14a77b9ddd81fd0cee3c713f367c07d7ce9c2816",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/b0/train-seed-6101-planner-seed-7101-job-297118-0/summary.json",
+      "summary_sha256": "32fd5963ade7b10d195ec11f9ede24237c9b5bacb9ee2be93597b18239b00fc6",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/b0/train-seed-6102-planner-seed-7102-job-297118-1/summary.json",
+      "summary_sha256": "c7634cfd95b5309b70455d00547acaa1cb43d02a708fd723a8a804219a7a3c1c",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/b0/train-seed-6103-planner-seed-7103-job-297118-2/summary.json",
+      "summary_sha256": "5e6466964f50d15093702a79a60eba4efcec3dd7b922d896fbca098499f5ed9e",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297118-9/summary.json",
+      "summary_sha256": "c3c6be7bc2739561181f2ad91e30dd2efacaca5e81cd4bad0cd6bfddcef0ccfc",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297118-10/summary.json",
+      "summary_sha256": "7d056dbd91c74568bc4fa9386d78f25bb7ab3fee1bd6cbe0793df4b9d774f3e1",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297118-11/summary.json",
+      "summary_sha256": "7968b9bc2980ab68b5cad697c5d18edd7e3319fc3849c8fbe66efc6c588d3aa4",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/forward/train-seed-6101-planner-seed-7101-job-297118-12/summary.json",
+      "summary_sha256": "79d0e459c5a0931567522ac9336fbb6b4a1ea3cea4bf5467ee9aad8cc9bd3fd9",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/forward/train-seed-6102-planner-seed-7102-job-297118-13/summary.json",
+      "summary_sha256": "0b57e48e88784decab782622c942e82a44704ee0b041976a57e863484c7df529",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/forward/train-seed-6103-planner-seed-7103-job-297118-14/summary.json",
+      "summary_sha256": "4628ff489b8e6dd59d076cd92a88773d1a9e6bfeb7b4f965f55c2485c82e0c63",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297118-6/summary.json",
+      "summary_sha256": "12a8a3f6c125e4be816434c6667dc8bec48274efe29819d320d12f724ad16032",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297118-7/summary.json",
+      "summary_sha256": "f6ad8f04eaad5ac1fc06c6440ee02c93ff390d9cfe6966f1d6c52271c1290a52",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop30-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop30-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297118-8/summary.json",
+      "summary_sha256": "7e8e0ef66502e6cbd3c5aff72c235f3c05c1c0a7648db8f3bd5206a8ba043b0b",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/acid/train-seed-6101-planner-seed-7101-job-297118-60/summary.json",
+      "summary_sha256": "1c0470c349f1f84d7622f8728629cc4ce907da4ef8dee9b50c51a4806662015c",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/acid/train-seed-6102-planner-seed-7102-job-297118-61/summary.json",
+      "summary_sha256": "3a8af9b5399d162bd3bc350162f2bac9183d7ba403b6f5f265566b289d1e2bc1",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/acid/train-seed-6103-planner-seed-7103-job-297118-62/summary.json",
+      "summary_sha256": "f48cdab555f5ad1a299be1dfc1fdc276c3ece07e5d6bee875502c5efc3f5c76b",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/diffusion/train-seed-6101-planner-seed-7101-job-297118-66/summary.json",
+      "summary_sha256": "4bb7d33fcdf1fe8584e4c64e2bea765e571eaf19ca7fca3233e88a4cb02aba41",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/diffusion/train-seed-6102-planner-seed-7102-job-297118-67/summary.json",
+      "summary_sha256": "2ec463675fa39b07ef7334081e6b537acfc011aad3ed8d44a610b959fc60f415",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/diffusion/train-seed-6103-planner-seed-7103-job-297118-68/summary.json",
+      "summary_sha256": "850f068e4da7dcf357723f74e7bec5433743537813e0a0d6cd075effd2a19b9a",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/forward/train-seed-6101-planner-seed-7101-job-297118-69/summary.json",
+      "summary_sha256": "33d615e62b07d6bb253a82073b4e7f10d1e3913cd90ed96abf9f1980314e7339",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/forward/train-seed-6102-planner-seed-7102-job-297118-70/summary.json",
+      "summary_sha256": "441f94f5430a13c1bd2cc8364451eb5003576ea9f80f8874bbe594b4a3578cc7",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/forward/train-seed-6103-planner-seed-7103-job-297118-71/summary.json",
+      "summary_sha256": "1e51ebd85c16f6163999ee3e1d777781267101bfa81193c62b8ac458d2772ece",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/reachability/train-seed-6101-planner-seed-7101-job-297118-63/summary.json",
+      "summary_sha256": "a4816ce32c60db8cb123a62575e7083e9eea6f06aacd07b024a13278e90a98f2",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/reachability/train-seed-6102-planner-seed-7102-job-297118-64/summary.json",
+      "summary_sha256": "ff9afe4c508c3b8b674f7222412cbf6e5275d21baa8ff8d9e9989f1d8948ad8f",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda0005",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda0005/reachability/train-seed-6103-planner-seed-7103-job-297118-65/summary.json",
+      "summary_sha256": "be9a028f4894b89a9e5a265448dae83be92813d0d1d98ae28b2675bd7bf0a3e8",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/acid/train-seed-6101-planner-seed-7101-job-297118-72/summary.json",
+      "summary_sha256": "d65aa93f9dcd6719e020374dfec77633fe0115a4c67470c1565632d24230cd06",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/acid/train-seed-6102-planner-seed-7102-job-297118-73/summary.json",
+      "summary_sha256": "ae1ef8c158bf31ba192f96948af8bc376019d13aac618a2c51a87b8285b9b892",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/acid/train-seed-6103-planner-seed-7103-job-297118-74/summary.json",
+      "summary_sha256": "4e9a7e468eb30747817cdb10c579d222f173bd20ad5afc294245bd44cea7f476",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/diffusion/train-seed-6101-planner-seed-7101-job-297118-78/summary.json",
+      "summary_sha256": "140697c7079f8b2817744d4ea5b02a89ba52bc16a7aebf24afa0ea7a03e7ee57",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/diffusion/train-seed-6102-planner-seed-7102-job-297118-79/summary.json",
+      "summary_sha256": "cd31df9bfa402ed6d6de9e7e67e417131132233b0de7998bb43592c80c226fe0",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/diffusion/train-seed-6103-planner-seed-7103-job-297118-80/summary.json",
+      "summary_sha256": "6e271ca8813ea07c48424eaf399b43210559889d166fe7e1496f98dd86924283",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/forward/train-seed-6101-planner-seed-7101-job-297118-81/summary.json",
+      "summary_sha256": "10f5e7388be86f00eb47cb489cdc96533c4f39893ce6092cbda3cf2a1103c284",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/forward/train-seed-6102-planner-seed-7102-job-297118-82/summary.json",
+      "summary_sha256": "24d84fc54646117e313dbe5d854bb87ad62098ed41c116edaee56823d4850607",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/forward/train-seed-6103-planner-seed-7103-job-297118-83/summary.json",
+      "summary_sha256": "569dad2d134a7b2f84be33b161aa9089c2e0745684693ef04df7bfb52aeff3b0",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/reachability/train-seed-6101-planner-seed-7101-job-297118-75/summary.json",
+      "summary_sha256": "8317d225e12a78922b8a67944ab6b63fae6eb86e49cf3281bc4c25032c853d0d",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/reachability/train-seed-6102-planner-seed-7102-job-297118-76/summary.json",
+      "summary_sha256": "25afcc1703742108a0b6a577c82c9afea8d6a41552203c6cc2a9436e01c01dec",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda004",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda004/reachability/train-seed-6103-planner-seed-7103-job-297118-77/summary.json",
+      "summary_sha256": "4f15d6a8f3b48e517d93e866c89aebfa7470a6218d23e278b36935e3090c1aec",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/acid/train-seed-6101-planner-seed-7101-job-297118-48/summary.json",
+      "summary_sha256": "c14e775203d0b9a2d35f4d417dcef9d47a412d25494cce62e05d5a47ecf783ed",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/acid/train-seed-6102-planner-seed-7102-job-297118-49/summary.json",
+      "summary_sha256": "5368aa38ba29e966f9ac55e6f45e4047e623604318e69cc6f3c1a7f1be12c04b",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/acid/train-seed-6103-planner-seed-7103-job-297118-50/summary.json",
+      "summary_sha256": "d868d9a2e95cc9522db47387bfc4fb8eb641cef5b76dbdd1d79922c7e52e8c44",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/b0/train-seed-6101-planner-seed-7101-job-297118-45/summary.json",
+      "summary_sha256": "d23b70849fdfc4adb66dd28f5957de2dc98319e4512ef47bb3f151041b5b39ba",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/b0/train-seed-6102-planner-seed-7102-job-297118-46/summary.json",
+      "summary_sha256": "b133287ce886a79af24759162fc9b2fdcd726192ee642bf22b219fb87cee850b",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/b0/train-seed-6103-planner-seed-7103-job-297118-47/summary.json",
+      "summary_sha256": "fc8d99e4f23619cee51e3d735ca467d32e7456230a45569ed986056dc9e66979",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297118-54/summary.json",
+      "summary_sha256": "a6ccab5a42b02443e479785b231637746957228e1833541468bf76466b926fbe",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297118-55/summary.json",
+      "summary_sha256": "1187f0a3630137101c5fffca8656cdaa96982bd03ea3cb4aac07a36ca68fccd5",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297118-56/summary.json",
+      "summary_sha256": "6b7f98034322bb2753a8b61fda522e15a9a9db10965b2795efcf6ba76efe7b5b",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/forward/train-seed-6101-planner-seed-7101-job-297118-57/summary.json",
+      "summary_sha256": "dac03a984d6a1a851956fe01cda5d41c3347ee3d3e184b5911b9a424c7ef336c",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/forward/train-seed-6102-planner-seed-7102-job-297118-58/summary.json",
+      "summary_sha256": "a52324a6d66327e4f0a2fbd7ba7db04e53d643a40edc8d059838eeb16c5debe6",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/forward/train-seed-6103-planner-seed-7103-job-297118-59/summary.json",
+      "summary_sha256": "eb195c78d7354d68467706fe01ad5921cc6866b39af6bf339e274acc3fce13c5",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297118-51/summary.json",
+      "summary_sha256": "c0584c4859abf44381c2e43b1ba005b73aee9867f143a449a8d0065244bc7bcd",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297118-52/summary.json",
+      "summary_sha256": "4f5b57d98fe69affa0cb62581435832a0db0b9fd096b2913bf7cc9461166548b",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297118-53/summary.json",
+      "summary_sha256": "537f942494cec061ddcfe018306ee4dff3a82fd7a14f744b82bd6ad5112ebbad",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma010/diffusion/train-seed-6101-planner-seed-7101-job-297118-96/summary.json",
+      "summary_sha256": "e6c31a90f3fb13cf36878dcfba55125dfca5dfc9c13022e7174e7ff1744f5d55",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma010/diffusion/train-seed-6102-planner-seed-7102-job-297118-97/summary.json",
+      "summary_sha256": "675ee4dd3ab1173a2c3f11563515dcd3c908523ea5eb995d465abc0d050e2181",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma010/diffusion/train-seed-6103-planner-seed-7103-job-297118-98/summary.json",
+      "summary_sha256": "cfa31b2ff74b473a49470b43e8702284adcae5e4d88d81d5083d36a1293d398e",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297118-99/summary.json",
+      "summary_sha256": "47bce1de4a93bd54a11ac07ad985501a7b026209486639cf90898d58be08cbcc",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297118-100/summary.json",
+      "summary_sha256": "b8461c4efdf80372ec1e5aa9f32f4f0dda5e476914024f7e585e6a068558b8a8",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma025",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297118-101/summary.json",
+      "summary_sha256": "5acaecdf36818412fa589ad256959cf3e3cddb250b3f167c2c01dc4060bd9140",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma050/diffusion/train-seed-6101-planner-seed-7101-job-297118-102/summary.json",
+      "summary_sha256": "5d339e75c7814a220df23482ef11c5d18ce38a211447b791aaf0bbbca87ba783",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma050/diffusion/train-seed-6102-planner-seed-7102-job-297118-103/summary.json",
+      "summary_sha256": "4f6ce800fad5e6fe6845e2814d23a9dd0125493e12a419a79fb8293965f3c377",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda007-sigma050",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma050/diffusion/train-seed-6103-planner-seed-7103-job-297118-104/summary.json",
+      "summary_sha256": "79980b266cd079f6925491e5874bc1709ad5c75f274f9f681a90310d65c66658",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/acid/train-seed-6101-planner-seed-7101-job-297118-84/summary.json",
+      "summary_sha256": "beb6faed337f4d26cb78859c5075ac946219adc9aacdcde367b35258629f13de",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/acid/train-seed-6102-planner-seed-7102-job-297118-85/summary.json",
+      "summary_sha256": "da9b4cad92953ba4d2b767f10a5570ead25240c52e411461490b826d40f97260",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/acid/train-seed-6103-planner-seed-7103-job-297118-86/summary.json",
+      "summary_sha256": "62085a2eb17c0b0236105ecb1975ec758803e1b0affa7de7658136156e6681d5",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/diffusion/train-seed-6101-planner-seed-7101-job-297118-90/summary.json",
+      "summary_sha256": "fc7ec2b36e12e7535e48cb47e07aac9fa1d029795756d6ed0434d824aa827f19",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/diffusion/train-seed-6102-planner-seed-7102-job-297118-91/summary.json",
+      "summary_sha256": "efa22cf2da72f1dfd8c59d1a54d18ef48612b6e0105ce2b3f068fa98021d2153",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/diffusion/train-seed-6103-planner-seed-7103-job-297118-92/summary.json",
+      "summary_sha256": "4df5f4fe17cba39fe0bd45d980c93cabc5c05e3ba0276d74b802f5dc387b71e7",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/forward/train-seed-6101-planner-seed-7101-job-297118-93/summary.json",
+      "summary_sha256": "89436826d1ec2e5fb76dc71e218676a991306f1733131ef7a21a1ceee37ab6bc",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/forward/train-seed-6102-planner-seed-7102-job-297118-94/summary.json",
+      "summary_sha256": "a3d40230566d0b77054039cbbeab536f293cfd0eeb8411f06ff3b397ae028cd8",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/forward/train-seed-6103-planner-seed-7103-job-297118-95/summary.json",
+      "summary_sha256": "dd3e44635ec9aa67e69c771529a3cc1f996e2577096dd21a40cd9aef887ffc03",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/reachability/train-seed-6101-planner-seed-7101-job-297118-87/summary.json",
+      "summary_sha256": "5873ecd46cb25e17eb386503a437cad38d832d09286cdb9a01e7f4d06cc98cc9",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/reachability/train-seed-6102-planner-seed-7102-job-297118-88/summary.json",
+      "summary_sha256": "1a7c16c58ec57f528fffc2a21454421053b04a7a13fc05d1331c0fe7a2fd5a00",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop300-lambda010",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop300-lambda010/reachability/train-seed-6103-planner-seed-7103-job-297118-89/summary.json",
+      "summary_sha256": "837b9da02607e182af8bbb67fa1a7a9c4d248f66cac3a5f46cb8acdc3100853d",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/acid/train-seed-6101-planner-seed-7101-job-297118-18/summary.json",
+      "summary_sha256": "a6258a7c2b67cb4ea359df39feda33b7768dca82052cc739b1f4537a760cd012",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/acid/train-seed-6102-planner-seed-7102-job-297118-19/summary.json",
+      "summary_sha256": "ffecb1884a5a4862ff1b8b04edba6343996c426313c787aea786ad357f4149b1",
+      "task": "reacher"
+    },
+    {
+      "arm": "acid",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/acid/train-seed-6103-planner-seed-7103-job-297118-20/summary.json",
+      "summary_sha256": "7aee4a5d665a190b96808e74a3f169493f3e51e824f33476524485e9182ac3bf",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/b0/train-seed-6101-planner-seed-7101-job-297118-15/summary.json",
+      "summary_sha256": "67d8027726bacd59de6669f2f3eca42dcb403e4f185aa276836879e82de46f99",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/b0/train-seed-6102-planner-seed-7102-job-297118-16/summary.json",
+      "summary_sha256": "96e54fc3e92f4563e96f8c46280bc4a50408619610aa5075f7f3e3d21e6d1e13",
+      "task": "reacher"
+    },
+    {
+      "arm": "b0",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/b0/train-seed-6103-planner-seed-7103-job-297118-17/summary.json",
+      "summary_sha256": "e08ba2e2e8542b0332713b2cbb3b6daadc3edf44d7cfdedcf5f6e3fa77469730",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/diffusion/train-seed-6101-planner-seed-7101-job-297118-24/summary.json",
+      "summary_sha256": "e43138878578ede5614a58c880ce07e8ef2dc16468850e0320314c7e0c2dc9ee",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/diffusion/train-seed-6102-planner-seed-7102-job-297118-25/summary.json",
+      "summary_sha256": "594e7341e7ca4e82019eb8ccbfe26e00733d7935d6cbcdb631bc15dd1e914fd7",
+      "task": "reacher"
+    },
+    {
+      "arm": "diffusion",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/diffusion/train-seed-6103-planner-seed-7103-job-297118-26/summary.json",
+      "summary_sha256": "03292af39da6881efbf1a8f1c8d4527fd02067d3fefa2c152c2cd6d9dc52a9ea",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/forward/train-seed-6101-planner-seed-7101-job-297118-27/summary.json",
+      "summary_sha256": "d7be384b4fd982e793037c87fbf0f9f8d55aa5e9f6f329b045670381cdf50ada",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/forward/train-seed-6102-planner-seed-7102-job-297118-28/summary.json",
+      "summary_sha256": "1a5dd0dd0a8cd6b030d05351e8b93075aa482fc21e797f2b8fb4c725f6738899",
+      "task": "reacher"
+    },
+    {
+      "arm": "forward",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/forward/train-seed-6103-planner-seed-7103-job-297118-29/summary.json",
+      "summary_sha256": "979fc41173128318ba8548de561000dc75a31db0db8e4cf570c87c71d01f479e",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6101,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/reachability/train-seed-6101-planner-seed-7101-job-297118-21/summary.json",
+      "summary_sha256": "33263850d24d048ebb9b0ce7bfcfdb0565ce9356ab71742a299af163e1cde7a4",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6102,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/reachability/train-seed-6102-planner-seed-7102-job-297118-22/summary.json",
+      "summary_sha256": "10e7564af315875d267c3be44534723b8f391952b0ffb21028d8cc9e446d986d",
+      "task": "reacher"
+    },
+    {
+      "arm": "reachability",
+      "seed": 6103,
+      "setting": "pop50-lambda007",
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/sensitivity/d1/reacher/pop50-lambda007/reachability/train-seed-6103-planner-seed-7103-job-297118-23/summary.json",
+      "summary_sha256": "ea025c29bddaa05c74febd07f2939a4d39fe709fcd4b859a5b24ae603c9db7eb",
+      "task": "reacher"
+    }
+  ],
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+  "status": "ok",
+  "tasks": [
+    "cube",
+    "pusht",
+    "reacher"
+  ]
+}

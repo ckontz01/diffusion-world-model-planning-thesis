@@ -1,0 +1,6 @@
+{
+  "gpu": false,
+  "local_wall_seconds": 10.328000000008615,
+  "physics": false,
+  "torch_deserialization": false
+}

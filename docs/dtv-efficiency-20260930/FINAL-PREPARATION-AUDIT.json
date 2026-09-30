@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "source_compile": true,
+  "disabled_worker_refused_before_payload_access": true,
+  "disabled_plan_jobs": 9,
+  "raw_d1_display_values_verified": true,
+  "metadata_only": true,
+  "new_package_bytes": 3570028,
+  "local_wall_seconds": 0.7350000000005821
+}

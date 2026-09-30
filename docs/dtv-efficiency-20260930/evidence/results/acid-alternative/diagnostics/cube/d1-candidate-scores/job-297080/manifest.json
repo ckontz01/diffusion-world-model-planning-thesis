@@ -1,0 +1,259 @@
+{
+  "analysis_role": "D1",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/cube/d1-candidate-scores/job-297080/candidate-scores.pt",
+  "artifact_sha256": "cde4f509a1ce3fc88e3ba00e3ebbf9f7d2e89bf2fd368b760cef86a289b50548",
+  "b0_recompute_max_abs": 0.0,
+  "candidate_artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/cube/d1-b0-candidate-pools/planner-seed-7101-job-297079/candidate-pools.pt",
+  "candidate_artifact_sha256": "353c8c9b5706f5ae7c5108086138f7f7aef37ab60838e9a3200d9e2579dc546a",
+  "candidate_manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/cube/d1-b0-candidate-pools/planner-seed-7101-job-297079/manifest.json",
+  "candidate_manifest_sha256": "4791539d9b54820fc1b3b3500bc4f179a4a78f355eaafcea4f5662eed92a635c",
+  "candidates_per_pool": 300,
+  "confirmation_authorization_sha256": null,
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "diffusion_sigmas": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "elapsed_seconds": 5.116032600402832,
+  "eval_manifest_sha256": "9e5c3d336c44226dbd293c2f2c77427ef86941202d15874d509e884691cffcf4",
+  "kind": "flat_same_candidate_shared_rollout_scores",
+  "lambda_weight": 0.07,
+  "pool_count": 24,
+  "private_world_model_rollouts_per_scorer": 0,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 159963648,
+    "peak_cuda_memory_reserved_bytes": 169869312,
+    "python": "3.11.10",
+    "slurm_job_id": "297080",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "scorer_count_excluding_b0": 24,
+  "scorers": [
+    {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6101-job-296669-0/best.pt",
+      "checkpoint_sha256": "dade8d6afd8392f475d1e56c031f330c4e72c924e2c4254c2bcca5bf6d6be416",
+      "condition": "true",
+      "label": "acid-true-6101",
+      "parameter_count": 1827289,
+      "training_seed": 6101
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/true/seed-6101-job-296671-0/best.pt",
+      "checkpoint_sha256": "ffc158daee855c4794e51ba48abbbc2045851db2c25080a4c4fe1a50673dd9b8",
+      "condition": "true",
+      "label": "reachability-true-6101",
+      "parameter_count": 262913,
+      "training_seed": 6101
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/shuffled_label/seed-6101-job-296671-3/best.pt",
+      "checkpoint_sha256": "2777f7da9a360f35e1c131f89dd96fee3bba29e465b3a06ca6246037c2a19c83",
+      "condition": "shuffled_label",
+      "label": "reachability-shuffled-6101",
+      "parameter_count": 262913,
+      "training_seed": 6101
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6101-job-296669-3/best.pt",
+      "checkpoint_sha256": "7dcb95f0f96cb03a15f5eee61e0c636d5f7e1fd060c23be974a528c35ead26c8",
+      "condition": "true",
+      "label": "diffusion-true-6101",
+      "parameter_count": 2031936,
+      "training_seed": 6101
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6101-job-296669-6/best.pt",
+      "checkpoint_sha256": "1691fb0f6864dbad830a814cc98e54534a150da081299f40f3db77dea503ed62",
+      "condition": "true",
+      "label": "forward-true-6101",
+      "parameter_count": 2011544,
+      "training_seed": 6101
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/shuffled_action/seed-6101-job-296670-0/best.pt",
+      "checkpoint_sha256": "48bc2b9009c696e8ff98bf911dec0341d2a1a6f9777275404116e9f15ba6f427",
+      "condition": "shuffled_action",
+      "label": "diffusion-shuffled-6101",
+      "parameter_count": 2031936,
+      "training_seed": 6101
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/shuffled_action/seed-6101-job-296670-3/best.pt",
+      "checkpoint_sha256": "3eeda8296ea4730be7f2ecf2e51cd8c14f21a0df0a4c133652607883659e2d6c",
+      "condition": "shuffled_action",
+      "label": "forward-shuffled-6101",
+      "parameter_count": 2011544,
+      "training_seed": 6101
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/action_ablated/seed-6101-job-296670-6/best.pt",
+      "checkpoint_sha256": "dd826f49b9ca45314d0bf506f060770f652b972cda07f77f62453d6ee2514368",
+      "condition": "action_ablated",
+      "label": "diffusion-action-ablated-6101",
+      "parameter_count": 2031936,
+      "training_seed": 6101
+    },
+    {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6102-job-296669-1/best.pt",
+      "checkpoint_sha256": "03c00b01b2e9e038f3b553ee52288cb886432cc6e17f3c0e81e3ea49bb8b8830",
+      "condition": "true",
+      "label": "acid-true-6102",
+      "parameter_count": 1827289,
+      "training_seed": 6102
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/true/seed-6102-job-296671-1/best.pt",
+      "checkpoint_sha256": "548631decf704c8ca14375b5fffa9a4e302d4ec6406e7e2c7fa4ab6b304e86f9",
+      "condition": "true",
+      "label": "reachability-true-6102",
+      "parameter_count": 262913,
+      "training_seed": 6102
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/shuffled_label/seed-6102-job-296671-4/best.pt",
+      "checkpoint_sha256": "d782bb13356787c3374273c8a5b7c944430e108e4e483e8e3a8bcb24daf7dc93",
+      "condition": "shuffled_label",
+      "label": "reachability-shuffled-6102",
+      "parameter_count": 262913,
+      "training_seed": 6102
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6102-job-296669-4/best.pt",
+      "checkpoint_sha256": "741de03107fe79d7f819e70527cc3089f48f85aaaca1c8e9190c4c559c9c742f",
+      "condition": "true",
+      "label": "diffusion-true-6102",
+      "parameter_count": 2031936,
+      "training_seed": 6102
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6102-job-296669-7/best.pt",
+      "checkpoint_sha256": "ae533413735dc59953272e5fe02b5da23f2b995ef11528ccc6727d256f7d5400",
+      "condition": "true",
+      "label": "forward-true-6102",
+      "parameter_count": 2011544,
+      "training_seed": 6102
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/shuffled_action/seed-6102-job-296670-1/best.pt",
+      "checkpoint_sha256": "076c84f71c28902b049c94696184f8dd29927d31f468815d9d0953cc5e30d690",
+      "condition": "shuffled_action",
+      "label": "diffusion-shuffled-6102",
+      "parameter_count": 2031936,
+      "training_seed": 6102
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/shuffled_action/seed-6102-job-296670-4/best.pt",
+      "checkpoint_sha256": "3ad317b056c45e9e91ae6405cd5e22343afa23b9fd39e1a4003c03e21673788b",
+      "condition": "shuffled_action",
+      "label": "forward-shuffled-6102",
+      "parameter_count": 2011544,
+      "training_seed": 6102
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/action_ablated/seed-6102-job-296670-7/best.pt",
+      "checkpoint_sha256": "ec1c02906fe3e128686f4317cf3d99f16cfeeb5d90cb7579e3011aa573a6b91d",
+      "condition": "action_ablated",
+      "label": "diffusion-action-ablated-6102",
+      "parameter_count": 2031936,
+      "training_seed": 6102
+    },
+    {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6103-job-296669-2/best.pt",
+      "checkpoint_sha256": "cc1c6a1bad9cc16d521a8e02f15d6a1d4ba423265e4c031801b1c086e12a468d",
+      "condition": "true",
+      "label": "acid-true-6103",
+      "parameter_count": 1827289,
+      "training_seed": 6103
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/true/seed-6103-job-296671-2/best.pt",
+      "checkpoint_sha256": "6e60966ea66f5518573d5eead7ae6a4da6f3c923939e4382e3f4aa21b2b4d8f3",
+      "condition": "true",
+      "label": "reachability-true-6103",
+      "parameter_count": 262913,
+      "training_seed": 6103
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/shuffled_label/seed-6103-job-296671-5/best.pt",
+      "checkpoint_sha256": "2f392f2cef5a86a6936d4371dceb1ddb14a725c9fd46db3a4f9aae1df667b2e3",
+      "condition": "shuffled_label",
+      "label": "reachability-shuffled-6103",
+      "parameter_count": 262913,
+      "training_seed": 6103
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6103-job-296669-5/best.pt",
+      "checkpoint_sha256": "cc59504558645476d091fdc5c39c3c58ef157dd5c0ad67e8c75792c87dc2bcba",
+      "condition": "true",
+      "label": "diffusion-true-6103",
+      "parameter_count": 2031936,
+      "training_seed": 6103
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6103-job-296669-8/best.pt",
+      "checkpoint_sha256": "db3285b38c469f139ed0879ac4cf4e9d8bfdea1540efd6c56f8de36627381aed",
+      "condition": "true",
+      "label": "forward-true-6103",
+      "parameter_count": 2011544,
+      "training_seed": 6103
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/shuffled_action/seed-6103-job-296670-2/best.pt",
+      "checkpoint_sha256": "682f32812151b18153db0b01677e868a7d92899558e1249e5c4d132c0b6a5948",
+      "condition": "shuffled_action",
+      "label": "diffusion-shuffled-6103",
+      "parameter_count": 2031936,
+      "training_seed": 6103
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/shuffled_action/seed-6103-job-296670-5/best.pt",
+      "checkpoint_sha256": "0ddcc4c5f336e438f2c736e35a6e85ce59878c3c913969196475f8a3e557987b",
+      "condition": "shuffled_action",
+      "label": "forward-shuffled-6103",
+      "parameter_count": 2011544,
+      "training_seed": 6103
+    },
+    {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/action_ablated/seed-6103-job-296670-8/best.pt",
+      "checkpoint_sha256": "c3cd3bc281d79fe74fccd7af32256f66a92db06facb15847d42eb11975522c16",
+      "condition": "action_ablated",
+      "label": "diffusion-action-ablated-6103",
+      "parameter_count": 2031936,
+      "training_seed": 6103
+    }
+  ],
+  "shared_world_model_rollouts": 24,
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+  "status": "ok",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+}

@@ -1,0 +1,42 @@
+{
+  "analysis_role": "D1",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/pusht/d1-b0-candidate-pools/planner-seed-7101-job-297055/candidate-pools.pt",
+  "artifact_sha256": "c746799819c8780e9a53ecb696cd7ce4d9f169d2f6a321f8feba971a93c3044a",
+  "candidates_per_pool": 300,
+  "configuration": {
+    "action_block": 5,
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "goal_offset": 25,
+    "horizon": 5,
+    "receding_horizon": 5
+  },
+  "confirmation_authorization": null,
+  "confirmation_authorization_sha256": null,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5",
+  "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+  "elapsed_seconds": 82.82582569122314,
+  "eval_config_name": "pusht",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/d1-fresh-development.tsv",
+  "eval_manifest_sha256": "948a5e0dc1f79551845a9ef039908729d3d0c4c4bee5deb8445fe465f694814e",
+  "kind": "flat_b0_final_cem_candidate_pools",
+  "outcome_role": "development mechanism audit; no efficacy endpoint retained",
+  "planner_seed": 7101,
+  "pool_count": 24,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 494883840,
+    "peak_cuda_memory_reserved_bytes": 505413632,
+    "python": "3.11.10",
+    "slurm_job_id": "297055",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+  "status": "ok",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+  "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+}

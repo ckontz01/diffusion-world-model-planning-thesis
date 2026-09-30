@@ -1,0 +1,106 @@
+{
+  "best_step": 200000,
+  "best_validation_loss": 1.31481033203125,
+  "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6103-job-296650-2/best.pt",
+  "checkpoint_sha256": "01c51d787f20514dd5ab00bd1f365dd1c4a5426202d13a8b106c7c7f6485260d",
+  "condition": "true",
+  "confirmation_identification_data": "external I1 episodes are absent from this training cache",
+  "confirmation_test_outcomes_computed": false,
+  "elapsed_seconds": 3276.865545988083,
+  "final_validation": {
+    "correct_action_cost": 8.32841630859375,
+    "correct_action_pairwise_accuracy": 0.73296,
+    "correct_cost_per_dimension": [
+      0.7589706420898438,
+      0.7882274401855469,
+      0.7991838623046875,
+      0.788420888671875,
+      0.8500021008300781,
+      0.7891678515625,
+      0.910355400390625,
+      0.7986270629882812,
+      0.9735339819335938,
+      0.871927001953125
+    ],
+    "examples": 100000.0,
+    "loss": 1.31481033203125,
+    "permuted_action_cost": 11.7111114453125,
+    "permuted_cost_per_dimension": [
+      1.244071015625,
+      1.213075283203125,
+      1.2116751794433593,
+      1.2113858764648437,
+      1.15714537109375,
+      1.2114598046875,
+      1.0972033422851561,
+      1.2024597290039063,
+      1.034055498046875,
+      1.1285804333496094
+    ]
+  },
+  "kind": "flat_transition_scorer_training",
+  "latent_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/acid-alternative-v1/reacher/lewm/p1-flat-latents-job-296647/latents.h5",
+  "latent_h5_sha256": "96bbf0a02e7368aa9636edda74edc641d95810b109605714c920522608b5f76e",
+  "model": "acid",
+  "model_config": {
+    "action_dim": 10,
+    "depth": 4,
+    "heads": 3,
+    "latent_dim": 192,
+    "mlp_ratio": 4,
+    "name": "acid",
+    "reconstruction_choices": {
+      "action_projection": "biased_linear",
+      "activation": "GELU",
+      "dropout": 0.0,
+      "latent_projection": "one_shared_biased_linear_for_both_prefix_tokens",
+      "mlp_ratio": 4,
+      "normalization": "pre_layer_norm",
+      "time_embedding": "sinusoidal_tau_max_period_10000",
+      "token_position": "learned_three_token_embedding",
+      "transformer_implementation": "torch.nn.TransformerEncoderLayer",
+      "velocity_head": "final_layer_norm_then_biased_linear"
+    },
+    "width": 192
+  },
+  "optimization": {
+    "batch_size": 256,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "gradient_clip": 1.0,
+    "maximum_steps": 200000,
+    "mixed_precision": "bf16",
+    "peak_learning_rate": 0.0001,
+    "warmup_steps": 1000,
+    "weight_decay": 0.0001
+  },
+  "parameter_count": 1821514,
+  "runtime": {
+    "device": "cuda",
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "python": "3.11.10",
+    "torch": "2.5.1+cu121"
+  },
+  "seed": 6103,
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-3074081ea1ebadd9/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+  "status": "ok",
+  "train_pairs": 1233428,
+  "training_action_permutation": null,
+  "training_log": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6103-job-296650-2/training.jsonl",
+  "training_log_sha256": "85c292336eca61c75ca76301f4b4841376354ea907729d1efc66db7bbe8f7b7e",
+  "transition_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/acid-alternative-v1/reacher/lewm/transition-cache-job-296648/transitions.h5",
+  "transition_h5_sha256": "9e456f798dc01ebcab5ceab921ed9bf9037f7607fbc091fdb69ec2215f7d9296",
+  "validation_action_permutation": {
+    "fixed_points": 0,
+    "kind": "single_cycle_random_derangement",
+    "seed": 2026081306
+  },
+  "validation_example_definition": "development-only P1_val diagnostic: positive correct_minus_permuted_margin means the frozen scorer assigned lower cost to the true action than to the fixed permutation",
+  "validation_examples": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6103-job-296650-2/validation-examples.npz",
+  "validation_examples_sha256": "336ce457b122115ca32273096f65eec076f0580a04f6d44a3f57d8bd685e80ea",
+  "validation_pairs_evaluated": 100000,
+  "validation_pairs_total": 132888
+}

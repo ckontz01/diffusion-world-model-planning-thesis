@@ -1,0 +1,33 @@
+test_archive_rejects_parent_escape (__main__.Contract) ... ok
+test_balanced_order_each_position (__main__.Contract) ... ok
+test_campaign_full_future_reservation_and_no_requeue (__main__.Contract) ... ok
+test_complete_serialized_footprint_reservation (__main__.Contract) ... ok
+test_disabled_gate_before_torch_or_payload_access (__main__.Contract) ... ok
+test_exact_grid_all_tasks_and_seeds_no_fastest_selection (__main__.Contract) ... ok
+test_exact_input_context_role_never_later_reference_ids (__main__.Contract) ... ok
+test_exact_world_loader_rejects_newest_directory_fallback (__main__.Contract) ... ok
+test_nonfinite_timings_are_rejected (__main__.Contract) ... ok
+test_quantiles_and_no_averaging_unlike_scopes (__main__.Contract) ... ok
+test_report_keeps_unfavorable_cells_and_separate_boundaries (__main__.Contract) ... ok
+test_source_authenticated_metadata_and_no_payload_recovery (__main__.Contract) ... ok
+test_whole_member_verification_detects_corruption (__main__.Contract) ... ok
+test_wrong_binding_and_missing_authority_rejected (__main__.Contract) ... ok
+test_wrong_gpu_or_missing_allocation_rejected (__main__.Contract) ... ok
+test_all_five_original_delegated_paths (__main__.Integration) ... ok
+test_cem_trace_indices_plan_rng_full_thirty_rounds (__main__.Integration) ... ok
+test_chunks_preserve_dtv_forward_and_acid_draws (__main__.Integration) ... ok
+test_d1_reduction_and_scaling (__main__.Integration) ... ok
+test_dtv_literal_matches_original_multilevel_equation (__main__.Integration) ... ok
+test_equivalence_rejects_changed_values_without_tolerance_relaxation (__main__.Integration) ... ok
+test_no_score_cache_and_one_rollout_each_call (__main__.Integration) ... ok
+test_operational_cpu_diagnostics_retained (__main__.Integration) ... ok
+test_separate_owned_equal_initial_streams_diverge_by_decisions (__main__.Integration) ... ok
+test_single_noise_bank_is_new_first_draw_not_legacy_middle (__main__.Integration) ... ok
+test_v3_forward_and_acid_lambdas (__main__.Integration) ... ok
+test_warmup_reset_cost_call_index (__main__.Integration) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 11.252s
+
+OK
+{"artificial_only": true, "test_count": 27, "cpu_threads": 4, "test_wall_seconds": 11.252704612, "process_cpu_seconds": 4.436497984999999, "process_rss_high_water_bytes": 254685184, "torch": "2.13.0+cpu", "cuda_available": false, "research_checkpoint_loaded": false}

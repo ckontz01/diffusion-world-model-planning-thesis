@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Chris\thesis-recovery\dtv-efficiency-recovery-20260930\dtv_efficiency\profile.py", line 303, in <module>
+    if __name__=='__main__':main()
+  File "C:\Users\Chris\thesis-recovery\dtv-efficiency-recovery-20260930\dtv_efficiency\profile.py", line 135, in main
+    gate(args.bindings,json.loads(args.approval.read_text()))  # before imports/payload access
+  File "C:\Users\Chris\thesis-recovery\dtv-efficiency-recovery-20260930\dtv_efficiency\profile.py", line 28, in gate
+    raise RuntimeError('DTV-EFF0 research execution disabled; explicit immutable execution instruction required')
+RuntimeError: DTV-EFF0 research execution disabled; explicit immutable execution instruction required

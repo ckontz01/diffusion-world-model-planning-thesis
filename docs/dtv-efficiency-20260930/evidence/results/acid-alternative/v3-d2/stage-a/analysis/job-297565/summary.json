@@ -1,0 +1,2820 @@
+{
+  "all_stage_a_gates_pass": false,
+  "analysis_role": "fresh preregistered D2 development",
+  "decision": "stop_before_stage_b",
+  "gates": {
+    "1_rdx_positive_all_tasks_and_pooled": true,
+    "2_rdx_beats_shuffled": true,
+    "3_rdx_noninferior_forward_and_acid": false,
+    "4_ae_beats_shuffled_without_negative_task": true,
+    "5_ae_selection_noninferior_acid": true
+  },
+  "inputs": {
+    "cube": {
+      "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/frozen-scores/job-297564-2/d2-task-scores.npz",
+      "artifact_sha256": "a65e4e46c4561734814f756e2810b87478b9eafe15fd2d3e81d4aeaef3a42e02",
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/frozen-scores/job-297564-2/manifest.json",
+      "manifest_sha256": "fcf17a6ae56619707906a7d92918d784caac436ba4f149e3ef13858e3cf46b64",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "pusht": {
+      "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/pusht/frozen-scores/job-297564-0/d2-task-scores.npz",
+      "artifact_sha256": "8d9c97d068a10a10cd62648c27fd5c8fd2eda128374e896e8d6f6c3342d36ce6",
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/pusht/frozen-scores/job-297564-0/manifest.json",
+      "manifest_sha256": "3727b155b0b50a916333b95f7948d9de2129c80e8da9b731317e138a78b88d92",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "reacher": {
+      "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/frozen-scores/job-297564-1/d2-task-scores.npz",
+      "artifact_sha256": "1787fae3e703ec0a9e10a7e64a2aaaf9df79607e0e8a5b72d6b6dde1de066b36",
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/frozen-scores/job-297564-1/manifest.json",
+      "manifest_sha256": "56c06db3d338803e10b5913461383d805afb8cce734cb456c9ae5bee34236b55",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    }
+  },
+  "kind": "acid_alt_v3_d2_stage_a_analysis",
+  "p1_gate": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/p1-gate/job-297534/gate.json",
+  "p1_gate_sha256": "93d260a6368ed3c2d71d7c7377759bf43a07056b7beae8f264d1fd5bad308c1a",
+  "pool_level_tsv": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/analysis/job-297565/pool-level.tsv",
+  "pool_level_tsv_sha256": "b699cb94447d7319debb3c13d636ee6b413f8410a675442e2ce430824db988a2",
+  "protected_c1_i1_read": false,
+  "protocol": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/ACID-ALTERNATIVE-V3-MULTISEED-D2-PROTOCOL-2026-08-16.md",
+  "protocol_sha256": "c38e086ee09cbabaa9ab53246add92835d59f95173b5f35290f474abb94a4dfb",
+  "rank_contrasts": {
+    "ae_minus_shuffled": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.14049774773435109,
+        "lower_95_one_sided": 0.10619315730764817,
+        "lower_95_two_sided": 0.09972164479400912,
+        "upper_95_one_sided": 0.1753801602769147,
+        "upper_95_two_sided": 0.1822571468098683
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.14830445384762223,
+          "lower_95_one_sided": 0.09589047917382958,
+          "lower_95_two_sided": 0.08591000227903732,
+          "per_seed": {
+            "6101": 0.1841245393572716,
+            "6102": 0.126991056499963,
+            "6103": 0.13379776568563212
+          },
+          "upper_95_one_sided": 0.200896700013541,
+          "upper_95_two_sided": 0.2111656878028945
+        },
+        "pusht": {
+          "estimate": 0.19963535579876188,
+          "lower_95_one_sided": 0.12762867233629271,
+          "lower_95_two_sided": 0.11454914553855641,
+          "per_seed": {
+            "6101": 0.13013306519532494,
+            "6102": 0.24579181719268456,
+            "6103": 0.2229811850082762
+          },
+          "upper_95_one_sided": 0.2759086737535774,
+          "upper_95_two_sided": 0.29148701973630076
+        },
+        "reacher": {
+          "estimate": 0.07355343355666913,
+          "lower_95_one_sided": 0.023368402019281694,
+          "lower_95_two_sided": 0.014288340092667695,
+          "per_seed": {
+            "6101": 0.09965392504361159,
+            "6102": 0.07967983644262713,
+            "6103": 0.0413265391837687
+          },
+          "upper_95_one_sided": 0.1234545647544232,
+          "upper_95_two_sided": 0.13305517631677385
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_minus_acid": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.13149121011001919,
+        "lower_95_one_sided": 0.09362274279425968,
+        "lower_95_two_sided": 0.08637359816932819,
+        "upper_95_one_sided": 0.1691029645095083,
+        "upper_95_two_sided": 0.17633233322942882
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.20190148145598927,
+          "lower_95_one_sided": 0.1479536163065376,
+          "lower_95_two_sided": 0.13781774389957452,
+          "per_seed": {
+            "6101": 0.22046245616735102,
+            "6102": 0.16865395461259372,
+            "6103": 0.21658803358802298
+          },
+          "upper_95_one_sided": 0.2570446864760931,
+          "upper_95_two_sided": 0.2677852743562353
+        },
+        "pusht": {
+          "estimate": 0.1596752710050373,
+          "lower_95_one_sided": 0.07481308437026726,
+          "lower_95_two_sided": 0.058557318144026586,
+          "per_seed": {
+            "6101": 0.15047177992963814,
+            "6102": 0.15042083597006298,
+            "6103": 0.17813319711541084
+          },
+          "upper_95_one_sided": 0.24443561021961338,
+          "upper_95_two_sided": 0.26043965216225173
+        },
+        "reacher": {
+          "estimate": 0.03289687786903101,
+          "lower_95_one_sided": -0.018795653837987075,
+          "lower_95_two_sided": -0.028504272155968378,
+          "per_seed": {
+            "6101": 0.04639669329659218,
+            "6102": 0.03664382864259343,
+            "6103": 0.01565011166790742
+          },
+          "upper_95_one_sided": 0.08467186915893335,
+          "upper_95_two_sided": 0.09484758074478648
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_minus_dtv": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.02316846880045539,
+        "lower_95_one_sided": -0.005835684922964286,
+        "lower_95_two_sided": -0.011450674533263212,
+        "upper_95_one_sided": 0.05222325143256151,
+        "upper_95_two_sided": 0.057692574182128774
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.016744771157662614,
+          "lower_95_one_sided": -0.0581672448185114,
+          "lower_95_two_sided": -0.06604190233471623,
+          "per_seed": {
+            "6101": -0.0009840671370189625,
+            "6102": -0.041124253279492734,
+            "6103": -0.008125993056476152
+          },
+          "upper_95_one_sided": 0.024997343069675198,
+          "upper_95_two_sided": 0.033020352446828126
+        },
+        "pusht": {
+          "estimate": 0.050055898382127685,
+          "lower_95_one_sided": -0.004414665783262453,
+          "lower_95_two_sided": -0.014538330701690924,
+          "per_seed": {
+            "6101": 0.026125691679384496,
+            "6102": 0.05616175193080204,
+            "6103": 0.06788025153619646
+          },
+          "upper_95_one_sided": 0.10595625605035408,
+          "upper_95_two_sided": 0.11678265018831055
+        },
+        "reacher": {
+          "estimate": 0.036194279176901094,
+          "lower_95_one_sided": -0.017829146834426858,
+          "lower_95_two_sided": -0.028501003218695954,
+          "per_seed": {
+            "6101": 0.050157828420315784,
+            "6102": 0.03793699986229716,
+            "6103": 0.020488009248090345
+          },
+          "upper_95_one_sided": 0.08971625055545279,
+          "upper_95_two_sided": 0.0999047131245343
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_minus_forward": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": -0.023078417772659305,
+        "lower_95_one_sided": -0.04418746587614803,
+        "lower_95_two_sided": -0.048249059709987864,
+        "upper_95_one_sided": -0.0016593946467366148,
+        "upper_95_two_sided": 0.0024914424860829803
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.05709413016956205,
+          "lower_95_one_sided": -0.08922440871095434,
+          "lower_95_two_sided": -0.09558326998401562,
+          "per_seed": {
+            "6101": -0.05059197846193733,
+            "6102": -0.06584534923712852,
+            "6103": -0.054845062809620336
+          },
+          "upper_95_one_sided": -0.024053803478880333,
+          "upper_95_two_sided": -0.017643132163344556
+        },
+        "pusht": {
+          "estimate": -0.04376329645208681,
+          "lower_95_one_sided": -0.0850752200522473,
+          "lower_95_two_sided": -0.093439624239048,
+          "per_seed": {
+            "6101": -0.06430127408484462,
+            "6102": -0.059004668879575,
+            "6103": -0.007983946391840796
+          },
+          "upper_95_one_sided": -0.0034875232486486084,
+          "upper_95_two_sided": 0.003995450613317431
+        },
+        "reacher": {
+          "estimate": 0.03162217330367095,
+          "lower_95_one_sided": -0.00421362161256885,
+          "lower_95_two_sided": -0.010982990591236691,
+          "per_seed": {
+            "6101": 0.045317000471907995,
+            "6102": 0.035520154668385207,
+            "6103": 0.014029364770719666
+          },
+          "upper_95_one_sided": 0.06831806099435149,
+          "upper_95_two_sided": 0.07600303861945422
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_minus_reachability": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.18286831905133835,
+        "lower_95_one_sided": 0.13725393385221227,
+        "lower_95_two_sided": 0.1284664560283984,
+        "upper_95_one_sided": 0.22832857191280576,
+        "upper_95_two_sided": 0.23696846569389862
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.19648536040865328,
+          "lower_95_one_sided": 0.1288770954208141,
+          "lower_95_two_sided": 0.11609885032938987,
+          "per_seed": {
+            "6101": 0.2130290500487186,
+            "6102": 0.1684079216061214,
+            "6103": 0.20801910957111988
+          },
+          "upper_95_one_sided": 0.26473559241227956,
+          "upper_95_two_sided": 0.2782804366696503
+        },
+        "pusht": {
+          "estimate": 0.16977848779496277,
+          "lower_95_one_sided": 0.06625302182555745,
+          "lower_95_two_sided": 0.0459997787032049,
+          "per_seed": {
+            "6101": 0.12881224238556102,
+            "6102": 0.19391479022255426,
+            "6103": 0.1866084307767731
+          },
+          "upper_95_one_sided": 0.2733286025250716,
+          "upper_95_two_sided": 0.29224877680945244
+        },
+        "reacher": {
+          "estimate": 0.18234110895039893,
+          "lower_95_one_sided": 0.12431446212926124,
+          "lower_95_two_sided": 0.11354302901995612,
+          "per_seed": {
+            "6101": 0.20745237161836083,
+            "6102": 0.17569452105023384,
+            "6103": 0.16387643418260203
+          },
+          "upper_95_one_sided": 0.2409492351971217,
+          "upper_95_two_sided": 0.25256273164940335
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_minus_shuffled": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.031723813730409736,
+        "lower_95_one_sided": 0.0101893631263082,
+        "lower_95_two_sided": 0.006098083769409747,
+        "upper_95_one_sided": 0.05341416377065941,
+        "upper_95_two_sided": 0.05772008257774932
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.011967294595277827,
+          "lower_95_one_sided": -0.052312584903544665,
+          "lower_95_two_sided": -0.06004607943335623,
+          "per_seed": {
+            "6101": 0.004993318421195597,
+            "6102": -0.023234911984599368,
+            "6103": -0.01766029022242971
+          },
+          "upper_95_one_sided": 0.029689156217948983,
+          "upper_95_two_sided": 0.03749360686058423
+        },
+        "pusht": {
+          "estimate": 0.04631472677020859,
+          "lower_95_one_sided": 0.008785999738286034,
+          "lower_95_two_sided": 0.001553930279591564,
+          "per_seed": {
+            "6101": 0.0294462885362084,
+            "6102": 0.036008888569846555,
+            "6103": 0.07348900320457084
+          },
+          "upper_95_one_sided": 0.08341279935469846,
+          "upper_95_two_sided": 0.09046933824923953
+        },
+        "reacher": {
+          "estimate": 0.06082400901629845,
+          "lower_95_one_sided": 0.026917145934522387,
+          "lower_95_two_sided": 0.020567277213034682,
+          "per_seed": {
+            "6101": 0.07822276205706209,
+            "6102": 0.059342392693252144,
+            "6103": 0.04490687229858109
+          },
+          "upper_95_one_sided": 0.09457196356488547,
+          "upper_95_two_sided": 0.10117867726562779
+        }
+      },
+      "task_weighting": "equal"
+    }
+  },
+  "rank_levels": {
+    "acid": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.06688569063182714,
+        "lower_95_one_sided": 0.047911215564770085,
+        "lower_95_two_sided": 0.04432841829393477,
+        "upper_95_one_sided": 0.08630481016412098,
+        "upper_95_two_sided": 0.09002984291243372
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.04619785725638954,
+          "lower_95_one_sided": 0.02362430960443322,
+          "lower_95_two_sided": 0.019345560803520616,
+          "per_seed": {
+            "6101": 0.039408118098712336,
+            "6102": 0.06134747739169323,
+            "6103": 0.037837976278763036
+          },
+          "upper_95_one_sided": 0.06923476851343281,
+          "upper_95_two_sided": 0.07371337078204074
+        },
+        "pusht": {
+          "estimate": 0.06153919528333896,
+          "lower_95_one_sided": 0.02681484650149189,
+          "lower_95_two_sided": 0.01980787525904719,
+          "per_seed": {
+            "6101": 0.056309759474539305,
+            "6102": 0.0672590632013918,
+            "6103": 0.0610487631740858
+          },
+          "upper_95_one_sided": 0.09690524704131313,
+          "upper_95_two_sided": 0.1037434079420682
+        },
+        "reacher": {
+          "estimate": 0.09292001935575295,
+          "lower_95_one_sided": 0.05476742663322445,
+          "lower_95_two_sided": 0.047962102940570135,
+          "per_seed": {
+            "6101": 0.09267382082023133,
+            "6102": 0.09371760203996969,
+            "6103": 0.09236863520705783
+          },
+          "upper_95_one_sided": 0.13312611873465252,
+          "upper_95_two_sided": 0.1412055327503462
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_shuffled": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": -0.022292492131196925,
+        "lower_95_one_sided": -0.04011517612955454,
+        "lower_95_two_sided": -0.04351946815932658,
+        "upper_95_one_sided": -0.004419791298267469,
+        "upper_95_two_sided": -0.0009824382219125803
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.02100665118489826,
+          "lower_95_one_sided": -0.04558102497413325,
+          "lower_95_two_sided": -0.05067504083378703,
+          "per_seed": {
+            "6101": -0.060155895303930756,
+            "6102": -0.011824882640615137,
+            "6103": 0.008960824389851093
+          },
+          "upper_95_one_sided": 0.0020947062375858694,
+          "upper_95_two_sided": 0.00631242865683875
+        },
+        "pusht": {
+          "estimate": -0.04660526299874203,
+          "lower_95_one_sided": -0.07906633747782384,
+          "lower_95_two_sided": -0.08530999471741588,
+          "per_seed": {
+            "6101": 0.0005723756218434611,
+            "6102": -0.09694369074792782,
+            "6103": -0.04344447387014175
+          },
+          "upper_95_one_sided": -0.01408737346777107,
+          "upper_95_two_sided": -0.007444024415086103
+        },
+        "reacher": {
+          "estimate": 0.0007344377900495166,
+          "lower_95_one_sided": -0.03440232476657148,
+          "lower_95_two_sided": -0.0409159600291855,
+          "per_seed": {
+            "6101": -0.008947023855820614,
+            "6102": -0.016320270225224722,
+            "6103": 0.0274706074511939
+          },
+          "upper_95_one_sided": 0.036293415704618935,
+          "upper_95_two_sided": 0.04337217035744834
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_true": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.11820525560315416,
+        "lower_95_one_sided": 0.08942009830279837,
+        "lower_95_two_sided": 0.0838436401263359,
+        "upper_95_one_sided": 0.1472896144289398,
+        "upper_95_two_sided": 0.1529130847667459
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.12729780266272397,
+          "lower_95_one_sided": 0.07967612757024693,
+          "lower_95_two_sided": 0.07053597116622307,
+          "per_seed": {
+            "6101": 0.12396864405334088,
+            "6102": 0.11516617385934787,
+            "6103": 0.14275859007548325
+          },
+          "upper_95_one_sided": 0.17529531206117316,
+          "upper_95_two_sided": 0.18423880491007089
+        },
+        "pusht": {
+          "estimate": 0.15303009280001986,
+          "lower_95_one_sided": 0.09047424587387456,
+          "lower_95_two_sided": 0.07865348421306044,
+          "per_seed": {
+            "6101": 0.13070544081716842,
+            "6102": 0.14884812644475676,
+            "6103": 0.1795367111381344
+          },
+          "upper_95_one_sided": 0.21645166511491082,
+          "upper_95_two_sided": 0.22850058207675142
+        },
+        "reacher": {
+          "estimate": 0.07428787134671867,
+          "lower_95_one_sided": 0.03811032478138647,
+          "lower_95_two_sided": 0.031040020074297132,
+          "per_seed": {
+            "6101": 0.09070690118779097,
+            "6102": 0.06335956621740241,
+            "6103": 0.0687971466349626
+          },
+          "upper_95_one_sided": 0.11026375433801114,
+          "upper_95_two_sided": 0.1169757682492768
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "dtv": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.175208431941391,
+        "lower_95_one_sided": 0.1396707101532392,
+        "lower_95_two_sided": 0.13262174613060773,
+        "upper_95_one_sided": 0.21052945910202084,
+        "upper_95_two_sided": 0.21740420715338304
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.2648441098700414,
+          "lower_95_one_sided": 0.21728097437938965,
+          "lower_95_two_sided": 0.20792324802984677,
+          "per_seed": {
+            "6101": 0.2608546414030823,
+            "6102": 0.2711256852837797,
+            "6103": 0.26255200292326214
+          },
+          "upper_95_one_sided": 0.31233054694861995,
+          "upper_95_two_sided": 0.3215033214308432
+        },
+        "pusht": {
+          "estimate": 0.17115856790624862,
+          "lower_95_one_sided": 0.0945605666094418,
+          "lower_95_two_sided": 0.07923998620867406,
+          "per_seed": {
+            "6101": 0.18065584772479298,
+            "6102": 0.16151814724065272,
+            "6103": 0.17130170875330017
+          },
+          "upper_95_one_sided": 0.2465306244666689,
+          "upper_95_two_sided": 0.260095103085126
+        },
+        "reacher": {
+          "estimate": 0.08962261804788288,
+          "lower_95_one_sided": 0.03182998973089267,
+          "lower_95_two_sided": 0.02097630464981784,
+          "per_seed": {
+            "6101": 0.08891268569650775,
+            "6102": 0.09242443082026597,
+            "6103": 0.08753073762687492
+          },
+          "upper_95_one_sided": 0.14702978417282053,
+          "upper_95_two_sided": 0.157932040635618
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "forward": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.22145531851450562,
+        "lower_95_one_sided": 0.1830690156477407,
+        "lower_95_two_sided": 0.1754925866283587,
+        "upper_95_one_sided": 0.25977418932621,
+        "upper_95_two_sided": 0.2670641420949135
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.3051934688819408,
+          "lower_95_one_sided": 0.24774300965461607,
+          "lower_95_two_sided": 0.23674624125453245,
+          "per_seed": {
+            "6101": 0.31046255272800066,
+            "6102": 0.2958467812414155,
+            "6103": 0.3092710726764063
+          },
+          "upper_95_one_sided": 0.36173911149691107,
+          "upper_95_two_sided": 0.3726261375665244
+        },
+        "pusht": {
+          "estimate": 0.2649777627404631,
+          "lower_95_one_sided": 0.1768653775158685,
+          "lower_95_two_sided": 0.15982513155278588,
+          "per_seed": {
+            "6101": 0.2710828134890221,
+            "6102": 0.27668456805102976,
+            "6103": 0.2471659066813374
+          },
+          "upper_95_one_sided": 0.35193161408082196,
+          "upper_95_two_sided": 0.36802888302182857
+        },
+        "reacher": {
+          "estimate": 0.09419472392111301,
+          "lower_95_one_sided": 0.045591706453971245,
+          "lower_95_two_sided": 0.03662015340911194,
+          "per_seed": {
+            "6101": 0.09375351364491552,
+            "6102": 0.09484127601417792,
+            "6103": 0.09398938210424561
+          },
+          "upper_95_one_sided": 0.14359752822830438,
+          "upper_95_two_sided": 0.15312804043892536
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_shuffled": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.1666530870114366,
+        "lower_95_one_sided": 0.1313710447887181,
+        "lower_95_two_sided": 0.12445164077818784,
+        "upper_95_one_sided": 0.20176542059048627,
+        "upper_95_two_sided": 0.2083197252437144
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.2600666333076566,
+          "lower_95_one_sided": 0.21105191880343235,
+          "lower_95_two_sided": 0.20161150526627344,
+          "per_seed": {
+            "6101": 0.25487725584486776,
+            "6102": 0.25323634398888634,
+            "6103": 0.27208630008921575
+          },
+          "upper_95_one_sided": 0.308412523074547,
+          "upper_95_two_sided": 0.317615429555128
+        },
+        "pusht": {
+          "estimate": 0.17489973951816767,
+          "lower_95_one_sided": 0.09475204218369199,
+          "lower_95_two_sided": 0.07882621492530817,
+          "per_seed": {
+            "6101": 0.17733525086796906,
+            "6102": 0.1816710106016082,
+            "6103": 0.1656929570849258
+          },
+          "upper_95_one_sided": 0.254950196062456,
+          "upper_95_two_sided": 0.2700438375264021
+        },
+        "reacher": {
+          "estimate": 0.06499288820848553,
+          "lower_95_one_sided": 0.016129630609766573,
+          "lower_95_two_sided": 0.006553542817142412,
+          "per_seed": {
+            "6101": 0.06084775205976142,
+            "6102": 0.07101903798931099,
+            "6103": 0.06311187457638417
+          },
+          "upper_95_one_sided": 0.1132161825413855,
+          "upper_95_two_sided": 0.12243645522335678
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "rdx_true": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.19837690074184636,
+        "lower_95_one_sided": 0.16081593660937024,
+        "lower_95_two_sided": 0.15356289005402957,
+        "upper_95_one_sided": 0.2356916156590331,
+        "upper_95_two_sided": 0.24259493191402215
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.2480993387123788,
+          "lower_95_one_sided": 0.19542044548052404,
+          "lower_95_two_sided": 0.18547426041326448,
+          "per_seed": {
+            "6101": 0.25987057426606336,
+            "6102": 0.230001432004287,
+            "6103": 0.25442600986678604
+          },
+          "upper_95_one_sided": 0.30052496465417555,
+          "upper_95_two_sided": 0.31087446879185743
+        },
+        "pusht": {
+          "estimate": 0.22121446628837635,
+          "lower_95_one_sided": 0.13436823155966118,
+          "lower_95_two_sided": 0.11723808906239278,
+          "per_seed": {
+            "6101": 0.2067815394041775,
+            "6102": 0.21767989917145478,
+            "6103": 0.23918196028949665
+          },
+          "upper_95_one_sided": 0.30676712546607077,
+          "upper_95_two_sided": 0.322473691080853
+        },
+        "reacher": {
+          "estimate": 0.12581689722478398,
+          "lower_95_one_sided": 0.0764424068415575,
+          "lower_95_two_sided": 0.06693300266299254,
+          "per_seed": {
+            "6101": 0.13907051411682353,
+            "6102": 0.13036143068256315,
+            "6103": 0.10801874687496527
+          },
+          "upper_95_one_sided": 0.1750135242984181,
+          "upper_95_two_sided": 0.18447879791256938
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "reachability": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.015508581690508026,
+        "lower_95_one_sided": -0.009622799791652014,
+        "lower_95_two_sided": -0.014371228874876303,
+        "upper_95_one_sided": 0.0406650920654249,
+        "upper_95_two_sided": 0.04540547839255267
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.051613978303725494,
+          "lower_95_one_sided": 0.0064097313370182945,
+          "lower_95_two_sided": -0.002429273231716485,
+          "per_seed": {
+            "6101": 0.04684152421734478,
+            "6102": 0.06159351039816558,
+            "6103": 0.04640690029566613
+          },
+          "upper_95_one_sided": 0.09689756456929052,
+          "upper_95_two_sided": 0.10563907183868794
+        },
+        "pusht": {
+          "estimate": 0.051435978493413526,
+          "lower_95_one_sided": 0.0017191027328863448,
+          "lower_95_two_sided": -0.007409099397798083,
+          "per_seed": {
+            "6101": 0.07796929701861648,
+            "6102": 0.023765108948900528,
+            "6103": 0.05257352951272358
+          },
+          "upper_95_one_sided": 0.10015973880911978,
+          "upper_95_two_sided": 0.10951986283577891
+        },
+        "reacher": {
+          "estimate": -0.05652421172561494,
+          "lower_95_one_sided": -0.09104789694732793,
+          "lower_95_two_sided": -0.09761137088082257,
+          "per_seed": {
+            "6101": -0.06838185750153733,
+            "6102": -0.04533309036767075,
+            "6103": -0.055857687307636746
+          },
+          "upper_95_one_sided": -0.021165973969712534,
+          "upper_95_two_sided": -0.014410998405713445
+        }
+      },
+      "task_weighting": "equal"
+    }
+  },
+  "scorer_compute_profile": {
+    "candidate_sequences_per_measurement": 15000,
+    "equal_task_seed_mean": {
+      "acid": {
+        "mean_elapsed_seconds": 0.09651942899977763,
+        "mean_microseconds_per_horizon_transition": 1.286925719997035,
+        "mean_microseconds_per_network_pair": 1.286925719997035
+      },
+      "dtv": {
+        "mean_elapsed_seconds": 0.04259925166641349,
+        "mean_microseconds_per_horizon_transition": 0.5679900222188465,
+        "mean_microseconds_per_network_pair": 0.18933000740628217
+      },
+      "forward": {
+        "mean_elapsed_seconds": 0.01558259144480366,
+        "mean_microseconds_per_horizon_transition": 0.20776788593071546,
+        "mean_microseconds_per_network_pair": 0.20776788593071546
+      },
+      "reachability": {
+        "mean_elapsed_seconds": 0.006284299222089531,
+        "mean_microseconds_per_horizon_transition": 0.08379065629452709,
+        "mean_microseconds_per_network_pair": 0.41895328147263544
+      },
+      "residual_shuffled_RDX_AE_joint": {
+        "mean_elapsed_seconds": 0.7937379481114072,
+        "mean_microseconds_per_horizon_transition": 10.58317264148543,
+        "mean_microseconds_per_network_pair": 0.22048276336427974
+      },
+      "residual_true_RDX_AE_joint": {
+        "mean_elapsed_seconds": 0.7888498302224131,
+        "mean_microseconds_per_horizon_transition": 10.517997736298842,
+        "mean_microseconds_per_network_pair": 0.2191249528395592
+      }
+    },
+    "horizon_transitions_per_measurement": 75000,
+    "measurement": "one warmup pool followed by one CUDA-synchronized full-D2 scorer pass; loading and the shared Le-WM rollout excluded; RDX and AE computed jointly",
+    "per_task": {
+      "cube": {
+        "acid": {
+          "mean_elapsed_seconds": 0.09976693800005403,
+          "mean_microseconds_per_horizon_transition": 1.3302258400007203,
+          "mean_microseconds_per_network_pair": 1.3302258400007203,
+          "mean_parameter_count": 1827289.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.09985450900057913,
+              "microseconds_per_horizon_transition": 1.331393453341055,
+              "microseconds_per_network_pair": 1.331393453341055,
+              "milliseconds_per_candidate_sequence": 0.006656967266705275,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1827289,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.09933074699802091,
+              "microseconds_per_horizon_transition": 1.324409959973612,
+              "microseconds_per_network_pair": 1.324409959973612,
+              "milliseconds_per_candidate_sequence": 0.006622049799868061,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1827289,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.10011555800156202,
+              "microseconds_per_horizon_transition": 1.3348741066874936,
+              "microseconds_per_network_pair": 1.3348741066874936,
+              "milliseconds_per_candidate_sequence": 0.0066743705334374685,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1827289,
+              "seed": 6103
+            }
+          ]
+        },
+        "dtv": {
+          "mean_elapsed_seconds": 0.04220245166652603,
+          "mean_microseconds_per_horizon_transition": 0.5626993555536804,
+          "mean_microseconds_per_network_pair": 0.1875664518512268,
+          "mean_parameter_count": 2031936.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.042022581001219805,
+              "microseconds_per_horizon_transition": 0.5603010800162641,
+              "microseconds_per_network_pair": 0.18676702667208803,
+              "milliseconds_per_candidate_sequence": 0.00280150540008132,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2031936,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.04311439899902325,
+              "microseconds_per_horizon_transition": 0.57485865332031,
+              "microseconds_per_network_pair": 0.19161955110677,
+              "milliseconds_per_candidate_sequence": 0.0028742932666015503,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2031936,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.041470374999335036,
+              "microseconds_per_horizon_transition": 0.5529383333244672,
+              "microseconds_per_network_pair": 0.18431277777482238,
+              "milliseconds_per_candidate_sequence": 0.0027646916666223356,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2031936,
+              "seed": 6103
+            }
+          ]
+        },
+        "forward": {
+          "mean_elapsed_seconds": 0.015284746333539564,
+          "mean_microseconds_per_horizon_transition": 0.2037966177805275,
+          "mean_microseconds_per_network_pair": 0.2037966177805275,
+          "mean_parameter_count": 2011544.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.015233434998663142,
+              "microseconds_per_horizon_transition": 0.2031124666488419,
+              "microseconds_per_network_pair": 0.2031124666488419,
+              "milliseconds_per_candidate_sequence": 0.0010155623332442096,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2011544,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.015693084002123214,
+              "microseconds_per_horizon_transition": 0.20924112002830952,
+              "microseconds_per_network_pair": 0.20924112002830952,
+              "milliseconds_per_candidate_sequence": 0.0010462056001415477,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2011544,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.014927719999832334,
+              "microseconds_per_horizon_transition": 0.1990362666644311,
+              "microseconds_per_network_pair": 0.1990362666644311,
+              "milliseconds_per_candidate_sequence": 0.0009951813333221556,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2011544,
+              "seed": 6103
+            }
+          ]
+        },
+        "reachability": {
+          "mean_elapsed_seconds": 0.006942010333053379,
+          "mean_microseconds_per_horizon_transition": 0.09256013777404505,
+          "mean_microseconds_per_network_pair": 0.46280068887022535,
+          "mean_parameter_count": 262913.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.017453500997362426,
+              "microseconds_per_horizon_transition": 0.232713346631499,
+              "microseconds_per_network_pair": 1.163566733157495,
+              "milliseconds_per_candidate_sequence": 0.001163566733157495,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.0016944599992712028,
+              "microseconds_per_horizon_transition": 0.022592799990282703,
+              "microseconds_per_network_pair": 0.11296399995141353,
+              "milliseconds_per_candidate_sequence": 0.00011296399995141352,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.0016780700025265105,
+              "microseconds_per_horizon_transition": 0.022374266700353473,
+              "microseconds_per_network_pair": 0.11187133350176737,
+              "milliseconds_per_candidate_sequence": 0.00011187133350176737,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6103
+            }
+          ]
+        },
+        "residual_shuffled_RDX_AE_joint": {
+          "mean_elapsed_seconds": 0.7795966329989218,
+          "mean_microseconds_per_horizon_transition": 10.394621773318958,
+          "mean_microseconds_per_network_pair": 0.21655462027747827,
+          "mean_parameter_count": 2032320.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.7761910799999896,
+              "microseconds_per_horizon_transition": 10.34921439999986,
+              "microseconds_per_network_pair": 0.21560863333333044,
+              "milliseconds_per_candidate_sequence": 0.0517460719999993,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2032320,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.7736120269983076,
+              "microseconds_per_horizon_transition": 10.314827026644101,
+              "microseconds_per_network_pair": 0.2148922297217521,
+              "milliseconds_per_candidate_sequence": 0.051574135133220504,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2032320,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.7889867919984681,
+              "microseconds_per_horizon_transition": 10.519823893312909,
+              "microseconds_per_network_pair": 0.21916299777735226,
+              "milliseconds_per_candidate_sequence": 0.052599119466564544,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2032320,
+              "seed": 6103
+            }
+          ]
+        },
+        "residual_true_RDX_AE_joint": {
+          "mean_elapsed_seconds": 0.7767550246680912,
+          "mean_microseconds_per_horizon_transition": 10.356733662241217,
+          "mean_microseconds_per_network_pair": 0.2157652846300253,
+          "mean_parameter_count": 2032320.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.7727431450002769,
+              "microseconds_per_horizon_transition": 10.303241933337025,
+              "microseconds_per_network_pair": 0.214650873611188,
+              "milliseconds_per_candidate_sequence": 0.051516209666685124,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2032320,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.7836564880017249,
+              "microseconds_per_horizon_transition": 10.448753173356332,
+              "microseconds_per_network_pair": 0.21768235777825692,
+              "milliseconds_per_candidate_sequence": 0.052243765866781665,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2032320,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.7738654410022718,
+              "microseconds_per_horizon_transition": 10.318205880030291,
+              "microseconds_per_network_pair": 0.21496262250063106,
+              "milliseconds_per_candidate_sequence": 0.05159102940015146,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2032320,
+              "seed": 6103
+            }
+          ]
+        }
+      },
+      "pusht": {
+        "acid": {
+          "mean_elapsed_seconds": 0.09553512433315821,
+          "mean_microseconds_per_horizon_transition": 1.273801657775443,
+          "mean_microseconds_per_network_pair": 1.273801657775443,
+          "mean_parameter_count": 1821514.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.0963422509994416,
+              "microseconds_per_horizon_transition": 1.2845633466592214,
+              "microseconds_per_network_pair": 1.2845633466592214,
+              "milliseconds_per_candidate_sequence": 0.006422816733296107,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1821514,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.09539109199977247,
+              "microseconds_per_horizon_transition": 1.271881226663633,
+              "microseconds_per_network_pair": 1.271881226663633,
+              "milliseconds_per_candidate_sequence": 0.006359406133318164,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1821514,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.09487203000026057,
+              "microseconds_per_horizon_transition": 1.2649604000034742,
+              "microseconds_per_network_pair": 1.2649604000034742,
+              "milliseconds_per_candidate_sequence": 0.006324802000017371,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1821514,
+              "seed": 6103
+            }
+          ]
+        },
+        "dtv": {
+          "mean_elapsed_seconds": 0.04292642966538551,
+          "mean_microseconds_per_horizon_transition": 0.5723523955384735,
+          "mean_microseconds_per_network_pair": 0.19078413184615783,
+          "mean_parameter_count": 2026176.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.042762736997246975,
+              "microseconds_per_horizon_transition": 0.5701698266299596,
+              "microseconds_per_network_pair": 0.1900566088766532,
+              "milliseconds_per_candidate_sequence": 0.0028508491331497984,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2026176,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.04282389299987699,
+              "microseconds_per_horizon_transition": 0.5709852399983598,
+              "microseconds_per_network_pair": 0.1903284133327866,
+              "milliseconds_per_candidate_sequence": 0.0028549261999917994,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2026176,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.043192658999032574,
+              "microseconds_per_horizon_transition": 0.575902119987101,
+              "microseconds_per_network_pair": 0.19196737332903366,
+              "milliseconds_per_candidate_sequence": 0.002879510599935505,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2026176,
+              "seed": 6103
+            }
+          ]
+        },
+        "forward": {
+          "mean_elapsed_seconds": 0.01570563466763512,
+          "mean_microseconds_per_horizon_transition": 0.2094084622351349,
+          "mean_microseconds_per_network_pair": 0.2094084622351349,
+          "mean_parameter_count": 2005664.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.015548938001302304,
+              "microseconds_per_horizon_transition": 0.20731917335069738,
+              "microseconds_per_network_pair": 0.20731917335069738,
+              "milliseconds_per_candidate_sequence": 0.0010365958667534869,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2005664,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.015898016001301585,
+              "microseconds_per_horizon_transition": 0.21197354668402113,
+              "microseconds_per_network_pair": 0.21197354668402113,
+              "milliseconds_per_candidate_sequence": 0.0010598677334201056,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2005664,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.01566995000030147,
+              "microseconds_per_horizon_transition": 0.20893266667068625,
+              "microseconds_per_network_pair": 0.20893266667068625,
+              "milliseconds_per_candidate_sequence": 0.0010446633333534314,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2005664,
+              "seed": 6103
+            }
+          ]
+        },
+        "reachability": {
+          "mean_elapsed_seconds": 0.005949682331750712,
+          "mean_microseconds_per_horizon_transition": 0.07932909775667617,
+          "mean_microseconds_per_network_pair": 0.39664548878338085,
+          "mean_parameter_count": 262913.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.014624138999351999,
+              "microseconds_per_horizon_transition": 0.19498851999136,
+              "microseconds_per_network_pair": 0.9749425999567999,
+              "milliseconds_per_candidate_sequence": 0.0009749425999568,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.0015366989973699674,
+              "microseconds_per_horizon_transition": 0.0204893199649329,
+              "microseconds_per_network_pair": 0.10244659982466449,
+              "milliseconds_per_candidate_sequence": 0.0001024465998246645,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.0016882089985301718,
+              "microseconds_per_horizon_transition": 0.022509453313735623,
+              "microseconds_per_network_pair": 0.11254726656867813,
+              "milliseconds_per_candidate_sequence": 0.00011254726656867812,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6103
+            }
+          ]
+        },
+        "residual_shuffled_RDX_AE_joint": {
+          "mean_elapsed_seconds": 0.8077473033348118,
+          "mean_microseconds_per_horizon_transition": 10.769964044464158,
+          "mean_microseconds_per_network_pair": 0.2243742509263366,
+          "mean_parameter_count": 2026560.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.8020562890014844,
+              "microseconds_per_horizon_transition": 10.694083853353126,
+              "microseconds_per_network_pair": 0.22279341361152344,
+              "milliseconds_per_candidate_sequence": 0.05347041926676563,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.8096055870009877,
+              "microseconds_per_horizon_transition": 10.794741160013169,
+              "microseconds_per_network_pair": 0.2248904408336077,
+              "milliseconds_per_candidate_sequence": 0.05397370580006585,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.8115800340019632,
+              "microseconds_per_horizon_transition": 10.821067120026177,
+              "microseconds_per_network_pair": 0.22543889833387867,
+              "milliseconds_per_candidate_sequence": 0.05410533560013088,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6103
+            }
+          ]
+        },
+        "residual_true_RDX_AE_joint": {
+          "mean_elapsed_seconds": 0.8041333109989258,
+          "mean_microseconds_per_horizon_transition": 10.721777479985677,
+          "mean_microseconds_per_network_pair": 0.22337036416636827,
+          "mean_parameter_count": 2026560.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.796564264997869,
+              "microseconds_per_horizon_transition": 10.620856866638254,
+              "microseconds_per_network_pair": 0.22126785138829697,
+              "milliseconds_per_candidate_sequence": 0.05310428433319127,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.8055101039972214,
+              "microseconds_per_horizon_transition": 10.740134719962953,
+              "microseconds_per_network_pair": 0.22375280666589484,
+              "milliseconds_per_candidate_sequence": 0.053700673599814765,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.8103255640016869,
+              "microseconds_per_horizon_transition": 10.804340853355825,
+              "microseconds_per_network_pair": 0.22509043444491303,
+              "milliseconds_per_candidate_sequence": 0.05402170426677912,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6103
+            }
+          ]
+        }
+      },
+      "reacher": {
+        "acid": {
+          "mean_elapsed_seconds": 0.09425622466612064,
+          "mean_microseconds_per_horizon_transition": 1.2567496622149419,
+          "mean_microseconds_per_network_pair": 1.2567496622149419,
+          "mean_parameter_count": 1821514.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.09486816199932946,
+              "microseconds_per_horizon_transition": 1.2649088266577262,
+              "microseconds_per_network_pair": 1.2649088266577262,
+              "milliseconds_per_candidate_sequence": 0.006324544133288631,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1821514,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.09405131899984553,
+              "microseconds_per_horizon_transition": 1.254017586664607,
+              "microseconds_per_network_pair": 1.254017586664607,
+              "milliseconds_per_candidate_sequence": 0.006270087933323036,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1821514,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.09384919299918693,
+              "microseconds_per_horizon_transition": 1.2513225733224924,
+              "microseconds_per_network_pair": 1.2513225733224924,
+              "milliseconds_per_candidate_sequence": 0.006256612866612461,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 1821514,
+              "seed": 6103
+            }
+          ]
+        },
+        "dtv": {
+          "mean_elapsed_seconds": 0.04266887366732893,
+          "mean_microseconds_per_horizon_transition": 0.5689183155643858,
+          "mean_microseconds_per_network_pair": 0.1896394385214619,
+          "mean_parameter_count": 2026176.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.04186843600109569,
+              "microseconds_per_horizon_transition": 0.5582458133479425,
+              "microseconds_per_network_pair": 0.1860819377826475,
+              "milliseconds_per_candidate_sequence": 0.0027912290667397124,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2026176,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.04338123900015489,
+              "microseconds_per_horizon_transition": 0.5784165200020652,
+              "microseconds_per_network_pair": 0.19280550666735508,
+              "milliseconds_per_candidate_sequence": 0.002892082600010326,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2026176,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.04275694600073621,
+              "microseconds_per_horizon_transition": 0.5700926133431494,
+              "microseconds_per_network_pair": 0.19003087111438313,
+              "milliseconds_per_candidate_sequence": 0.002850463066715747,
+              "network_pairs_per_sequence": 15,
+              "parameter_count": 2026176,
+              "seed": 6103
+            }
+          ]
+        },
+        "forward": {
+          "mean_elapsed_seconds": 0.015757393333236298,
+          "mean_microseconds_per_horizon_transition": 0.210098577776484,
+          "mean_microseconds_per_network_pair": 0.210098577776484,
+          "mean_parameter_count": 2005664.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.01625799400062533,
+              "microseconds_per_horizon_transition": 0.21677325334167108,
+              "microseconds_per_network_pair": 0.21677325334167108,
+              "milliseconds_per_candidate_sequence": 0.0010838662667083554,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2005664,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.015870903996983543,
+              "microseconds_per_horizon_transition": 0.21161205329311392,
+              "microseconds_per_network_pair": 0.21161205329311392,
+              "milliseconds_per_candidate_sequence": 0.0010580602664655694,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2005664,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.015143282002100023,
+              "microseconds_per_horizon_transition": 0.20191042669466697,
+              "microseconds_per_network_pair": 0.20191042669466697,
+              "milliseconds_per_candidate_sequence": 0.0010095521334733347,
+              "network_pairs_per_sequence": 5,
+              "parameter_count": 2005664,
+              "seed": 6103
+            }
+          ]
+        },
+        "reachability": {
+          "mean_elapsed_seconds": 0.005961205001464502,
+          "mean_microseconds_per_horizon_transition": 0.07948273335286003,
+          "mean_microseconds_per_network_pair": 0.3974136667643002,
+          "mean_parameter_count": 262913.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.014781261001189705,
+              "microseconds_per_horizon_transition": 0.19708348001586273,
+              "microseconds_per_network_pair": 0.9854174000793137,
+              "milliseconds_per_candidate_sequence": 0.0009854174000793136,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.0015916750016913284,
+              "microseconds_per_horizon_transition": 0.021222333355884377,
+              "microseconds_per_network_pair": 0.1061116667794219,
+              "milliseconds_per_candidate_sequence": 0.00010611166677942189,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.0015106790015124716,
+              "microseconds_per_horizon_transition": 0.020142386686832953,
+              "microseconds_per_network_pair": 0.10071193343416478,
+              "milliseconds_per_candidate_sequence": 0.00010071193343416477,
+              "network_pairs_per_sequence": 1,
+              "parameter_count": 262913,
+              "seed": 6103
+            }
+          ]
+        },
+        "residual_shuffled_RDX_AE_joint": {
+          "mean_elapsed_seconds": 0.7938699080004881,
+          "mean_microseconds_per_horizon_transition": 10.584932106673174,
+          "mean_microseconds_per_network_pair": 0.22051941888902446,
+          "mean_parameter_count": 2026560.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.7881196039998031,
+              "microseconds_per_horizon_transition": 10.50826138666404,
+              "microseconds_per_network_pair": 0.2189221122221675,
+              "milliseconds_per_candidate_sequence": 0.0525413069333202,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.7940868959994987,
+              "microseconds_per_horizon_transition": 10.587825279993316,
+              "microseconds_per_network_pair": 0.22057969333319408,
+              "milliseconds_per_candidate_sequence": 0.05293912639996658,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.7994032240021625,
+              "microseconds_per_horizon_transition": 10.658709653362166,
+              "microseconds_per_network_pair": 0.2220564511117118,
+              "milliseconds_per_candidate_sequence": 0.05329354826681083,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6103
+            }
+          ]
+        },
+        "residual_true_RDX_AE_joint": {
+          "mean_elapsed_seconds": 0.7856611550002223,
+          "mean_microseconds_per_horizon_transition": 10.47548206666963,
+          "mean_microseconds_per_network_pair": 0.21823920972228397,
+          "mean_parameter_count": 2026560.0,
+          "per_seed": [
+            {
+              "elapsed_seconds": 0.7782587239998975,
+              "microseconds_per_horizon_transition": 10.3767829866653,
+              "microseconds_per_network_pair": 0.2161829788888604,
+              "milliseconds_per_candidate_sequence": 0.051883914933326496,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6101
+            },
+            {
+              "elapsed_seconds": 0.7837165029995958,
+              "microseconds_per_horizon_transition": 10.449553373327944,
+              "microseconds_per_network_pair": 0.21769902861099885,
+              "milliseconds_per_candidate_sequence": 0.05224776686663972,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6102
+            },
+            {
+              "elapsed_seconds": 0.7950082380011736,
+              "microseconds_per_horizon_transition": 10.600109840015648,
+              "microseconds_per_network_pair": 0.22083562166699267,
+              "milliseconds_per_candidate_sequence": 0.05300054920007824,
+              "network_pairs_per_sequence": 240,
+              "parameter_count": 2026560,
+              "seed": 6103
+            }
+          ]
+        }
+      }
+    }
+  },
+  "selection_contrasts": {
+    "ae_minus_acid_rmse": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": -0.0024494094981087574,
+        "lower_95_one_sided": -0.02507377682129542,
+        "lower_95_two_sided": -0.029911446169432664,
+        "upper_95_one_sided": 0.01828609881632858,
+        "upper_95_two_sided": 0.021931066025462416
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.019613202661275864,
+          "lower_95_one_sided": -0.0028539961278438563,
+          "lower_95_two_sided": -0.006782988299926122,
+          "per_seed": {
+            "6101": 0.019901519268751146,
+            "6102": 0.03784047469496727,
+            "6103": 0.0010976140201091767
+          },
+          "upper_95_one_sided": 0.04412930629154046,
+          "upper_95_two_sided": 0.04930020839969317
+        },
+        "pusht": {
+          "estimate": -0.0026646643380324048,
+          "lower_95_one_sided": -0.012828893604377905,
+          "lower_95_two_sided": -0.014981227366874615,
+          "per_seed": {
+            "6101": -0.0014985869824886322,
+            "6102": -0.005416197180747986,
+            "6103": -0.0010792088508605956
+          },
+          "upper_95_one_sided": 0.007003653575976683,
+          "upper_95_two_sided": 0.008869117056330046
+        },
+        "reacher": {
+          "estimate": -0.02429676681756973,
+          "lower_95_one_sided": -0.08726512392113606,
+          "lower_95_two_sided": -0.10123693922410408,
+          "per_seed": {
+            "6101": -0.039573007822036745,
+            "6102": -0.016691193878650666,
+            "6103": -0.01662609875202179
+          },
+          "upper_95_one_sided": 0.032057850604255964,
+          "upper_95_two_sided": 0.04152787550662954
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_minus_acid_success": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.017777777777777778,
+        "lower_95_one_sided": -0.02,
+        "lower_95_two_sided": -0.02666666666666667,
+        "upper_95_one_sided": 0.05555555555555555,
+        "upper_95_two_sided": 0.06222222222222223
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.02666666666666667,
+          "lower_95_one_sided": -0.07333333333333333,
+          "lower_95_two_sided": -0.08,
+          "per_seed": {
+            "6101": -0.04,
+            "6102": -0.04,
+            "6103": 0.0
+          },
+          "upper_95_one_sided": 0.006666666666666667,
+          "upper_95_two_sided": 0.013333333333333334
+        },
+        "pusht": {
+          "estimate": -0.006666666666666667,
+          "lower_95_one_sided": -0.04666666666666667,
+          "lower_95_two_sided": -0.06,
+          "per_seed": {
+            "6101": 0.0,
+            "6102": 0.0,
+            "6103": -0.02
+          },
+          "upper_95_one_sided": 0.02666666666666667,
+          "upper_95_two_sided": 0.04
+        },
+        "reacher": {
+          "estimate": 0.08666666666666667,
+          "lower_95_one_sided": -0.006666666666666667,
+          "lower_95_two_sided": -0.02666666666666667,
+          "per_seed": {
+            "6101": 0.1,
+            "6102": 0.08,
+            "6103": 0.08
+          },
+          "upper_95_one_sided": 0.18666666666666668,
+          "upper_95_two_sided": 0.20666666666666667
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_minus_dtv_rmse": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.00381906862060229,
+        "lower_95_one_sided": -0.005312924300630886,
+        "lower_95_two_sided": -0.006771511897444725,
+        "upper_95_one_sided": 0.01495236058450407,
+        "upper_95_two_sided": 0.01749086327726642
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.002003475179274877,
+          "lower_95_one_sided": -0.0055902117937803265,
+          "lower_95_two_sided": -0.0064421473940213525,
+          "per_seed": {
+            "6101": 0.004198480099439621,
+            "6102": -0.0020653173327445985,
+            "6103": 0.0038772627711296083
+          },
+          "upper_95_one_sided": 0.013178615669409434,
+          "upper_95_two_sided": 0.015115482753763596
+        },
+        "pusht": {
+          "estimate": -6.368130445480347e-05,
+          "lower_95_one_sided": -0.001447301238775253,
+          "lower_95_two_sided": -0.0016969863548874854,
+          "per_seed": {
+            "6101": -0.00041223764419555663,
+            "6102": 0.0016819238662719727,
+            "6103": -0.0014607301354408265
+          },
+          "upper_95_one_sided": 0.0014919704049825653,
+          "upper_95_two_sided": 0.0018521187379956245
+        },
+        "reacher": {
+          "estimate": 0.009517411986986796,
+          "lower_95_one_sided": -0.016012884904940922,
+          "lower_95_two_sided": -0.019970612352093055,
+          "per_seed": {
+            "6101": 0.004510746598243714,
+            "6102": 0.0127705779671669,
+            "6103": 0.011270911395549775
+          },
+          "upper_95_one_sided": 0.041501095106204325,
+          "upper_95_two_sided": 0.0489498633146286
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_minus_dtv_success": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.0022222222222222222,
+        "lower_95_one_sided": -0.011111111111111112,
+        "lower_95_two_sided": -0.013333333333333334,
+        "upper_95_one_sided": 0.017777777777777778,
+        "upper_95_two_sided": 0.02
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.013333333333333334,
+          "lower_95_one_sided": -0.04,
+          "lower_95_two_sided": -0.04,
+          "per_seed": {
+            "6101": -0.02,
+            "6102": 0.0,
+            "6103": -0.02
+          },
+          "upper_95_one_sided": 0.0,
+          "upper_95_two_sided": 0.0
+        },
+        "pusht": {
+          "estimate": 0.0,
+          "lower_95_one_sided": 0.0,
+          "lower_95_two_sided": 0.0,
+          "per_seed": {
+            "6101": 0.0,
+            "6102": 0.0,
+            "6103": 0.0
+          },
+          "upper_95_one_sided": 0.0,
+          "upper_95_two_sided": 0.0
+        },
+        "reacher": {
+          "estimate": 0.02,
+          "lower_95_one_sided": -0.013333333333333334,
+          "lower_95_two_sided": -0.013333333333333334,
+          "per_seed": {
+            "6101": 0.04,
+            "6102": 0.0,
+            "6103": 0.02
+          },
+          "upper_95_one_sided": 0.06,
+          "upper_95_two_sided": 0.06666666666666667
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_minus_reachability_rmse": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": -0.005011257694827186,
+        "lower_95_one_sided": -0.027123976105617148,
+        "lower_95_two_sided": -0.03169988219150238,
+        "upper_95_one_sided": 0.015312796283927224,
+        "upper_95_two_sided": 0.018842876862320623
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.017836577246586483,
+          "lower_95_one_sided": -0.0031128475343187648,
+          "lower_95_two_sided": -0.0064285714129606875,
+          "per_seed": {
+            "6101": 0.023158361464738847,
+            "6102": 0.013251876085996627,
+            "6103": 0.01709949418902397
+          },
+          "upper_95_one_sided": 0.04221103710929553,
+          "upper_95_two_sided": 0.04775927541156609
+        },
+        "pusht": {
+          "estimate": 0.0020582116146882377,
+          "lower_95_one_sided": -0.0009755943889419238,
+          "lower_95_two_sided": -0.00130145667369167,
+          "per_seed": {
+            "6101": 0.002125679403543472,
+            "6102": 0.002777929902076721,
+            "6103": 0.001271025538444519
+          },
+          "upper_95_one_sided": 0.006215022658308339,
+          "upper_95_two_sided": 0.007166321715960894
+        },
+        "reacher": {
+          "estimate": -0.034928561945756276,
+          "lower_95_one_sided": -0.09756497957557439,
+          "lower_95_two_sided": -0.11121477592612307,
+          "per_seed": {
+            "6101": -0.03901281863451004,
+            "6102": -0.03705857828259468,
+            "6103": -0.02871428892016411
+          },
+          "upper_95_one_sided": 0.020880771008630544,
+          "upper_95_two_sided": 0.029912930745631443
+        }
+      },
+      "task_weighting": "equal"
+    },
+    "ae_minus_reachability_success": {
+      "bootstrap_repetitions": 100000,
+      "bootstrap_seed": 2026081604,
+      "cluster_unit": "D2 start; all three paired scorer seeds retained",
+      "equal_task": {
+        "estimate": 0.022222222222222223,
+        "lower_95_one_sided": -0.0022222222222222227,
+        "lower_95_two_sided": -0.006666666666666667,
+        "upper_95_one_sided": 0.04666666666666667,
+        "upper_95_two_sided": 0.05333333333333334
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.006666666666666667,
+          "lower_95_one_sided": -0.04666666666666667,
+          "lower_95_two_sided": -0.06,
+          "per_seed": {
+            "6101": -0.02,
+            "6102": 0.0,
+            "6103": 0.0
+          },
+          "upper_95_one_sided": 0.02666666666666667,
+          "upper_95_two_sided": 0.04
+        },
+        "pusht": {
+          "estimate": -0.006666666666666667,
+          "lower_95_one_sided": -0.02,
+          "lower_95_two_sided": -0.02,
+          "per_seed": {
+            "6101": 0.0,
+            "6102": 0.0,
+            "6103": -0.02
+          },
+          "upper_95_one_sided": 0.0,
+          "upper_95_two_sided": 0.0
+        },
+        "reacher": {
+          "estimate": 0.08,
+          "lower_95_one_sided": 0.02,
+          "lower_95_two_sided": 0.006666666666666667,
+          "per_seed": {
+            "6101": 0.1,
+            "6102": 0.06,
+            "6103": 0.08
+          },
+          "upper_95_one_sided": 0.14666666666666667,
+          "upper_95_two_sided": 0.16
+        }
+      },
+      "task_weighting": "equal"
+    }
+  },
+  "selection_levels": {
+    "acid": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.4116926629179054,
+          "lower_95_one_sided": 0.3748911987543106,
+          "lower_95_two_sided": 0.3678027731221583,
+          "upper_95_one_sided": 0.4494220383639137,
+          "upper_95_two_sided": 0.4565074757937756
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5105710594852766,
+            "lower_95_one_sided": 0.43591630237797896,
+            "lower_95_two_sided": 0.4216282268476983,
+            "per_seed": {
+              "6101": 0.5093470641970634,
+              "6102": 0.49383835345506666,
+              "6103": 0.5285277608036995
+            },
+            "upper_95_one_sided": 0.5861491452952226,
+            "upper_95_two_sided": 0.6001919316612183
+          },
+          "pusht": {
+            "estimate": 0.2190766220788161,
+            "lower_95_one_sided": 0.1871510498970747,
+            "lower_95_two_sided": 0.18219665002947052,
+            "per_seed": {
+              "6101": 0.21823431059718132,
+              "6102": 0.2221650105714798,
+              "6103": 0.21683054506778718
+            },
+            "upper_95_one_sided": 0.2557267461642623,
+            "upper_95_two_sided": 0.2641020325894157
+          },
+          "reacher": {
+            "estimate": 0.5054303071896236,
+            "lower_95_one_sided": 0.431825167949001,
+            "lower_95_two_sided": 0.4185645687331756,
+            "per_seed": {
+              "6101": 0.5125493523478508,
+              "6102": 0.5016682645678521,
+              "6103": 0.5020733046531677
+            },
+            "upper_95_one_sided": 0.5834267958377798,
+            "upper_95_two_sided": 0.5992884736383954
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6133333333333333,
+          "lower_95_one_sided": 0.5533333333333333,
+          "lower_95_two_sided": 0.5422222222222222,
+          "upper_95_one_sided": 0.6733333333333333,
+          "upper_95_two_sided": 0.6844444444444444
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7266666666666667,
+            "lower_95_one_sided": 0.62,
+            "lower_95_two_sided": 0.6,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8266666666666667,
+            "upper_95_two_sided": 0.8466666666666667
+          },
+          "pusht": {
+            "estimate": 0.7466666666666667,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.6266666666666667,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.76
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.36666666666666664,
+            "lower_95_one_sided": 0.26,
+            "lower_95_two_sided": 0.24,
+            "per_seed": {
+              "6101": 0.36,
+              "6102": 0.36,
+              "6103": 0.38
+            },
+            "upper_95_one_sided": 0.48,
+            "upper_95_two_sided": 0.5
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "ae_shuffled": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.4144513189461496,
+          "lower_95_one_sided": 0.3766895974054933,
+          "lower_95_two_sided": 0.36992660457433924,
+          "upper_95_one_sided": 0.45278530267212125,
+          "upper_95_two_sided": 0.4603335812029739
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5344889965156714,
+            "lower_95_one_sided": 0.4538225071703394,
+            "lower_95_two_sided": 0.4387290690330168,
+            "per_seed": {
+              "6101": 0.5343029317259789,
+              "6102": 0.5330228400230408,
+              "6103": 0.5361412177979946
+            },
+            "upper_95_one_sided": 0.6160432343433301,
+            "upper_95_two_sided": 0.631426362282286
+          },
+          "pusht": {
+            "estimate": 0.2184953426818053,
+            "lower_95_one_sided": 0.18823313280194998,
+            "lower_95_two_sided": 0.18357179287572703,
+            "per_seed": {
+              "6101": 0.2191246084868908,
+              "6102": 0.21827479511499404,
+              "6103": 0.21808662444353102
+            },
+            "upper_95_one_sided": 0.2531424863139788,
+            "upper_95_two_sided": 0.2608540658826629
+          },
+          "reacher": {
+            "estimate": 0.49036961764097214,
+            "lower_95_one_sided": 0.4190834507818023,
+            "lower_95_two_sided": 0.4060747557878494,
+            "per_seed": {
+              "6101": 0.4639332640171051,
+              "6102": 0.5078805513679981,
+              "6103": 0.4992950375378132
+            },
+            "upper_95_one_sided": 0.5662966535861292,
+            "upper_95_two_sided": 0.5814842793469627
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6177777777777778,
+          "lower_95_one_sided": 0.5555555555555556,
+          "lower_95_two_sided": 0.5444444444444444,
+          "upper_95_one_sided": 0.6777777777777777,
+          "upper_95_two_sided": 0.6888888888888888
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7,
+            "lower_95_one_sided": 0.6,
+            "lower_95_two_sided": 0.56,
+            "per_seed": {
+              "6101": 0.7,
+              "6102": 0.7,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8,
+            "upper_95_two_sided": 0.82
+          },
+          "pusht": {
+            "estimate": 0.7466666666666667,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.76
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.4066666666666667,
+            "lower_95_one_sided": 0.3,
+            "lower_95_two_sided": 0.28,
+            "per_seed": {
+              "6101": 0.4,
+              "6102": 0.4,
+              "6103": 0.42
+            },
+            "upper_95_one_sided": 0.5133333333333333,
+            "upper_95_two_sided": 0.5333333333333333
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "ae_true": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.40924325341979667,
+          "lower_95_one_sided": 0.37030558740016484,
+          "lower_95_two_sided": 0.3630759769495991,
+          "upper_95_one_sided": 0.44879660171187585,
+          "upper_95_two_sided": 0.4562518338407907
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5301842621465525,
+            "lower_95_one_sided": 0.44975047566245,
+            "lower_95_two_sided": 0.43497574389974275,
+            "per_seed": {
+              "6101": 0.5292485834658146,
+              "6102": 0.531678828150034,
+              "6103": 0.5296253748238087
+            },
+            "upper_95_one_sided": 0.611403617983063,
+            "upper_95_two_sided": 0.6269016292753319
+          },
+          "pusht": {
+            "estimate": 0.2164119577407837,
+            "lower_95_one_sided": 0.18595170755436022,
+            "lower_95_two_sided": 0.18113148715967933,
+            "per_seed": {
+              "6101": 0.21673572361469268,
+              "6102": 0.21674881339073182,
+              "6103": 0.21575133621692658
+            },
+            "upper_95_one_sided": 0.25131934709350257,
+            "upper_95_two_sided": 0.2587278443798423
+          },
+          "reacher": {
+            "estimate": 0.4811335403720538,
+            "lower_95_one_sided": 0.4042470811034242,
+            "lower_95_two_sided": 0.3908099218420684,
+            "per_seed": {
+              "6101": 0.47297634452581405,
+              "6102": 0.4849770706892014,
+              "6103": 0.48544720590114593
+            },
+            "upper_95_one_sided": 0.5620746630082527,
+            "upper_95_two_sided": 0.5782212220790485
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6311111111111111,
+          "lower_95_one_sided": 0.5688888888888889,
+          "lower_95_two_sided": 0.5555555555555555,
+          "upper_95_one_sided": 0.6933333333333334,
+          "upper_95_two_sided": 0.7044444444444444
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7,
+            "lower_95_one_sided": 0.6,
+            "lower_95_two_sided": 0.56,
+            "per_seed": {
+              "6101": 0.7,
+              "6102": 0.7,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8,
+            "upper_95_two_sided": 0.82
+          },
+          "pusht": {
+            "estimate": 0.74,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.74
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.4533333333333333,
+            "lower_95_one_sided": 0.34,
+            "lower_95_two_sided": 0.32,
+            "per_seed": {
+              "6101": 0.46,
+              "6102": 0.44,
+              "6103": 0.46
+            },
+            "upper_95_one_sided": 0.5666666666666667,
+            "upper_95_two_sided": 0.5866666666666667
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "b0": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.41042587876319886,
+          "lower_95_one_sided": 0.37243789558609325,
+          "lower_95_two_sided": 0.3653272248059511,
+          "upper_95_one_sided": 0.44904912402729186,
+          "upper_95_two_sided": 0.4565786021202803
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5330285178124905,
+            "lower_95_one_sided": 0.45249528817087414,
+            "lower_95_two_sided": 0.43756556791812184,
+            "per_seed": {
+              "6101": 0.5330285178124905,
+              "6102": 0.5330285178124905,
+              "6103": 0.5330285178124905
+            },
+            "upper_95_one_sided": 0.6144040025696158,
+            "upper_95_two_sided": 0.6297267918474971
+          },
+          "pusht": {
+            "estimate": 0.21376744657754898,
+            "lower_95_one_sided": 0.18342960898578164,
+            "lower_95_two_sided": 0.17862348605692385,
+            "per_seed": {
+              "6101": 0.21376744657754898,
+              "6102": 0.21376744657754898,
+              "6103": 0.21376744657754898
+            },
+            "upper_95_one_sided": 0.24878694622963665,
+            "upper_95_two_sided": 0.2562488640323281
+          },
+          "reacher": {
+            "estimate": 0.4844816718995571,
+            "lower_95_one_sided": 0.4112335423976183,
+            "lower_95_two_sided": 0.39847777150571345,
+            "per_seed": {
+              "6101": 0.4844816718995571,
+              "6102": 0.4844816718995571,
+              "6103": 0.4844816718995571
+            },
+            "upper_95_one_sided": 0.5612749618813394,
+            "upper_95_two_sided": 0.576867923155427
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.62,
+          "lower_95_one_sided": 0.5599999999999999,
+          "lower_95_two_sided": 0.5466666666666667,
+          "upper_95_one_sided": 0.68,
+          "upper_95_two_sided": 0.6933333333333334
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7,
+            "lower_95_one_sided": 0.6,
+            "lower_95_two_sided": 0.56,
+            "per_seed": {
+              "6101": 0.7,
+              "6102": 0.7,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8,
+            "upper_95_two_sided": 0.82
+          },
+          "pusht": {
+            "estimate": 0.74,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.74
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.42,
+            "lower_95_one_sided": 0.3,
+            "lower_95_two_sided": 0.28,
+            "per_seed": {
+              "6101": 0.42,
+              "6102": 0.42,
+              "6103": 0.42
+            },
+            "upper_95_one_sided": 0.54,
+            "upper_95_two_sided": 0.56
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "dtv": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.40542418479919434,
+          "lower_95_one_sided": 0.3670573469599088,
+          "lower_95_two_sided": 0.3600761497165594,
+          "upper_95_one_sided": 0.4444604563257761,
+          "upper_95_two_sided": 0.4518690099819666
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5281807869672775,
+            "lower_95_one_sided": 0.44779445805897317,
+            "lower_95_two_sided": 0.4330355181197325,
+            "per_seed": {
+              "6101": 0.5250501033663749,
+              "6102": 0.5337441454827786,
+              "6103": 0.525748112052679
+            },
+            "upper_95_one_sided": 0.6094754946356018,
+            "upper_95_two_sided": 0.6247697934098542
+          },
+          "pusht": {
+            "estimate": 0.2164756390452385,
+            "lower_95_one_sided": 0.18605184772610664,
+            "lower_95_two_sided": 0.18116602654506764,
+            "per_seed": {
+              "6101": 0.21714796125888824,
+              "6102": 0.21506688952445985,
+              "6103": 0.2172120663523674
+            },
+            "upper_95_one_sided": 0.25133708834896484,
+            "upper_95_two_sided": 0.2588505685987572
+          },
+          "reacher": {
+            "estimate": 0.471616128385067,
+            "lower_95_one_sided": 0.3966059733753403,
+            "lower_95_two_sided": 0.3833985185399652,
+            "per_seed": {
+              "6101": 0.46846559792757037,
+              "6102": 0.47220649272203447,
+              "6103": 0.4741762945055962
+            },
+            "upper_95_one_sided": 0.5503328826526801,
+            "upper_95_two_sided": 0.5666837789962689
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6288888888888889,
+          "lower_95_one_sided": 0.5666666666666667,
+          "lower_95_two_sided": 0.5533333333333333,
+          "upper_95_one_sided": 0.6911111111111111,
+          "upper_95_two_sided": 0.7022222222222222
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7133333333333334,
+            "lower_95_one_sided": 0.6066666666666667,
+            "lower_95_two_sided": 0.5866666666666667,
+            "per_seed": {
+              "6101": 0.72,
+              "6102": 0.7,
+              "6103": 0.72
+            },
+            "upper_95_one_sided": 0.8133333333333334,
+            "upper_95_two_sided": 0.8333333333333334
+          },
+          "pusht": {
+            "estimate": 0.74,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.74
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.43333333333333335,
+            "lower_95_one_sided": 0.32,
+            "lower_95_two_sided": 0.3,
+            "per_seed": {
+              "6101": 0.42,
+              "6102": 0.44,
+              "6103": 0.44
+            },
+            "upper_95_one_sided": 0.5466666666666666,
+            "upper_95_two_sided": 0.5733333333333334
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "forward": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.413563523027632,
+          "lower_95_one_sided": 0.3742045043847627,
+          "lower_95_two_sided": 0.36712676654590504,
+          "upper_95_one_sided": 0.4534746726022825,
+          "upper_95_two_sided": 0.46106343596428634
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5352590198318163,
+            "lower_95_one_sided": 0.4541964331517617,
+            "lower_95_two_sided": 0.43905325054501493,
+            "per_seed": {
+              "6101": 0.5351402419805527,
+              "6102": 0.5355321994423866,
+              "6103": 0.5351046180725098
+            },
+            "upper_95_one_sided": 0.6170923710664112,
+            "upper_95_two_sided": 0.6324475175254046
+          },
+          "pusht": {
+            "estimate": 0.2168257040778796,
+            "lower_95_one_sided": 0.1864534055093924,
+            "lower_95_two_sided": 0.18162631162504356,
+            "per_seed": {
+              "6101": 0.21690672606229783,
+              "6102": 0.21635831981897355,
+              "6103": 0.2172120663523674
+            },
+            "upper_95_one_sided": 0.25157116990784806,
+            "upper_95_two_sided": 0.25897818539912504
+          },
+          "reacher": {
+            "estimate": 0.4886058451732,
+            "lower_95_one_sided": 0.41041136585672694,
+            "lower_95_two_sided": 0.3967758950653176,
+            "per_seed": {
+              "6101": 0.48914363980293274,
+              "6102": 0.48763109296560286,
+              "6103": 0.4890428027510643
+            },
+            "upper_95_one_sided": 0.5701733557805418,
+            "upper_95_two_sided": 0.5869291649063427
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6377777777777778,
+          "lower_95_one_sided": 0.5733333333333334,
+          "lower_95_two_sided": 0.5622222222222222,
+          "upper_95_one_sided": 0.6999999999999998,
+          "upper_95_two_sided": 0.7111111111111111
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7,
+            "lower_95_one_sided": 0.6,
+            "lower_95_two_sided": 0.56,
+            "per_seed": {
+              "6101": 0.7,
+              "6102": 0.7,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8,
+            "upper_95_two_sided": 0.82
+          },
+          "pusht": {
+            "estimate": 0.74,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.74
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.47333333333333333,
+            "lower_95_one_sided": 0.36,
+            "lower_95_two_sided": 0.34,
+            "per_seed": {
+              "6101": 0.48,
+              "6102": 0.46,
+              "6103": 0.48
+            },
+            "upper_95_one_sided": 0.5866666666666667,
+            "upper_95_two_sided": 0.6133333333333333
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "rdx_true": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.42230537359913195,
+          "lower_95_one_sided": 0.3832230103520884,
+          "lower_95_two_sided": 0.3760976922545168,
+          "upper_95_one_sided": 0.4620295431423519,
+          "upper_95_two_sided": 0.4694461756145788
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.5328740174571673,
+            "lower_95_one_sided": 0.45231615035980943,
+            "lower_95_two_sided": 0.4373736439620455,
+            "per_seed": {
+              "6101": 0.5325514134764672,
+              "6102": 0.5330421210825443,
+              "6103": 0.5330285178124905
+            },
+            "upper_95_one_sided": 0.6143176191821694,
+            "upper_95_two_sided": 0.6296201952286065
+          },
+          "pusht": {
+            "estimate": 0.21691188325484595,
+            "lower_95_one_sided": 0.1865114046509067,
+            "lower_95_two_sided": 0.1816881544366479,
+            "per_seed": {
+              "6101": 0.21709612071514128,
+              "6102": 0.21709612071514128,
+              "6103": 0.21654340833425523
+            },
+            "upper_95_one_sided": 0.2516857711548606,
+            "upper_95_two_sided": 0.2591611348527173
+          },
+          "reacher": {
+            "estimate": 0.5171302200853825,
+            "lower_95_one_sided": 0.43994094696392616,
+            "lower_95_two_sided": 0.4258564681385954,
+            "per_seed": {
+              "6101": 0.51872064858675,
+              "6102": 0.5089440982043744,
+              "6103": 0.5237259134650231
+            },
+            "upper_95_one_sided": 0.5981142288918296,
+            "upper_95_two_sided": 0.6144399819957712
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6311111111111111,
+          "lower_95_one_sided": 0.5666666666666668,
+          "lower_95_two_sided": 0.5555555555555555,
+          "upper_95_one_sided": 0.6933333333333334,
+          "upper_95_two_sided": 0.7044444444444444
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7,
+            "lower_95_one_sided": 0.6,
+            "lower_95_two_sided": 0.56,
+            "per_seed": {
+              "6101": 0.7,
+              "6102": 0.7,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8,
+            "upper_95_two_sided": 0.82
+          },
+          "pusht": {
+            "estimate": 0.74,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.74
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.4533333333333333,
+            "lower_95_one_sided": 0.34,
+            "lower_95_two_sided": 0.32,
+            "per_seed": {
+              "6101": 0.46,
+              "6102": 0.44,
+              "6103": 0.46
+            },
+            "upper_95_one_sided": 0.5666666666666667,
+            "upper_95_two_sided": 0.5933333333333334
+          }
+        },
+        "task_weighting": "equal"
+      }
+    },
+    "reachability": {
+      "rmse": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.4142545111146238,
+          "lower_95_one_sided": 0.3774384920009308,
+          "lower_95_two_sided": 0.3707916610410644,
+          "upper_95_one_sided": 0.4517679816244377,
+          "upper_95_two_sided": 0.45931909339336885
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.512347684899966,
+            "lower_95_one_sided": 0.43438978654146193,
+            "lower_95_two_sided": 0.41959640125061076,
+            "per_seed": {
+              "6101": 0.5060902220010758,
+              "6102": 0.5184269520640373,
+              "6103": 0.5125258806347847
+            },
+            "upper_95_one_sided": 0.5919252037952343,
+            "upper_95_two_sided": 0.6064664201438426
+          },
+          "pusht": {
+            "estimate": 0.21435374612609545,
+            "lower_95_one_sided": 0.1839616298203667,
+            "lower_95_two_sided": 0.17916525959099333,
+            "per_seed": {
+              "6101": 0.2146100442111492,
+              "6102": 0.2139708834886551,
+              "6103": 0.21448031067848206
+            },
+            "upper_95_one_sided": 0.24944079291075466,
+            "upper_95_two_sided": 0.25699221294745805
+          },
+          "reacher": {
+            "estimate": 0.51606210231781,
+            "lower_95_one_sided": 0.4461068370193243,
+            "lower_95_two_sided": 0.43387578138833244,
+            "per_seed": {
+              "6101": 0.5119891631603241,
+              "6102": 0.522035648971796,
+              "6103": 0.51416149482131
+            },
+            "upper_95_one_sided": 0.5903421837960681,
+            "upper_95_two_sided": 0.6056762773171067
+          }
+        },
+        "task_weighting": "equal"
+      },
+      "success": {
+        "bootstrap_repetitions": 100000,
+        "bootstrap_seed": 2026081604,
+        "cluster_unit": "D2 start; all three paired scorer seeds retained",
+        "equal_task": {
+          "estimate": 0.6088888888888889,
+          "lower_95_one_sided": 0.5488888888888889,
+          "lower_95_two_sided": 0.5377777777777778,
+          "upper_95_one_sided": 0.6666666666666666,
+          "upper_95_two_sided": 0.6777777777777777
+        },
+        "per_task": {
+          "cube": {
+            "estimate": 0.7066666666666667,
+            "lower_95_one_sided": 0.6,
+            "lower_95_two_sided": 0.58,
+            "per_seed": {
+              "6101": 0.72,
+              "6102": 0.7,
+              "6103": 0.7
+            },
+            "upper_95_one_sided": 0.8066666666666666,
+            "upper_95_two_sided": 0.8266666666666667
+          },
+          "pusht": {
+            "estimate": 0.7466666666666667,
+            "lower_95_one_sided": 0.64,
+            "lower_95_two_sided": 0.62,
+            "per_seed": {
+              "6101": 0.74,
+              "6102": 0.74,
+              "6103": 0.76
+            },
+            "upper_95_one_sided": 0.84,
+            "upper_95_two_sided": 0.86
+          },
+          "reacher": {
+            "estimate": 0.37333333333333335,
+            "lower_95_one_sided": 0.2733333333333333,
+            "lower_95_two_sided": 0.25333333333333335,
+            "per_seed": {
+              "6101": 0.36,
+              "6102": 0.38,
+              "6103": 0.38
+            },
+            "upper_95_one_sided": 0.47333333333333333,
+            "upper_95_two_sided": 0.49333333333333335
+          }
+        },
+        "task_weighting": "equal"
+      }
+    }
+  },
+  "selection_task_distance_levels": {
+    "cube": {
+      "acid": {},
+      "ae_shuffled": {},
+      "ae_true": {},
+      "b0": {},
+      "dtv": {},
+      "forward": {},
+      "rdx_true": {},
+      "reachability": {}
+    },
+    "pusht": {
+      "acid": {
+        "final_distance": {
+          "estimate": 17.758943514823912,
+          "lower_95_one_sided": 14.995874870777131,
+          "lower_95_two_sided": 14.54383074704806,
+          "per_seed": {
+            "6101": 17.713748965263367,
+            "6102": 18.124219903945924,
+            "6103": 17.43886167526245
+          },
+          "upper_95_one_sided": 20.81927010464668,
+          "upper_95_two_sided": 21.486281036257743
+        },
+        "minimum_distance": {
+          "estimate": 15.99604242404302,
+          "lower_95_one_sided": 13.374806163112321,
+          "lower_95_two_sided": 12.93921371181806,
+          "per_seed": {
+            "6101": 15.992159411907195,
+            "6102": 16.283425619602202,
+            "6103": 15.71254224061966
+          },
+          "upper_95_one_sided": 18.842904596845308,
+          "upper_95_two_sided": 19.435201966265836
+        }
+      },
+      "ae_shuffled": {
+        "final_distance": {
+          "estimate": 17.6934090979894,
+          "lower_95_one_sided": 14.808125487089157,
+          "lower_95_two_sided": 14.312191440383593,
+          "per_seed": {
+            "6101": 17.65516632556915,
+            "6102": 17.965096740722657,
+            "6103": 17.45996422767639
+          },
+          "upper_95_one_sided": 20.835353001356122,
+          "upper_95_two_sided": 21.511015543580054
+        },
+        "minimum_distance": {
+          "estimate": 15.73543471177419,
+          "lower_95_one_sided": 13.152581079085667,
+          "lower_95_two_sided": 12.723876304984094,
+          "per_seed": {
+            "6101": 15.801670355796814,
+            "6102": 15.990101690292358,
+            "6103": 15.414532089233399
+          },
+          "upper_95_one_sided": 18.55544947274525,
+          "upper_95_two_sided": 19.149223341226577
+        }
+      },
+      "ae_true": {
+        "final_distance": {
+          "estimate": 17.564184573491413,
+          "lower_95_one_sided": 14.632059821446736,
+          "lower_95_two_sided": 14.125523475964865,
+          "per_seed": {
+            "6101": 17.609251317977904,
+            "6102": 17.614932775497437,
+            "6103": 17.4683696269989
+          },
+          "upper_95_one_sided": 20.75628363307317,
+          "upper_95_two_sided": 21.43773078680038
+        },
+        "minimum_distance": {
+          "estimate": 15.611977100372314,
+          "lower_95_one_sided": 13.007448411941528,
+          "lower_95_two_sided": 12.573072357972462,
+          "per_seed": {
+            "6101": 15.611997547149658,
+            "6102": 15.61767900466919,
+            "6103": 15.606254749298095
+          },
+          "upper_95_one_sided": 18.44393790245056,
+          "upper_95_two_sided": 19.027072355667748
+        }
+      },
+      "b0": {
+        "final_distance": {
+          "estimate": 17.731279706954957,
+          "lower_95_one_sided": 14.776371393203735,
+          "lower_95_two_sided": 14.265234625816346,
+          "per_seed": {
+            "6101": 17.731279706954957,
+            "6102": 17.731279706954957,
+            "6103": 17.731279706954957
+          },
+          "upper_95_one_sided": 20.934839963436126,
+          "upper_95_two_sided": 21.63140215587616
+        },
+        "minimum_distance": {
+          "estimate": 15.756284656524658,
+          "lower_95_one_sided": 13.08507962656021,
+          "lower_95_two_sided": 12.642949206829071,
+          "per_seed": {
+            "6101": 15.756284656524658,
+            "6102": 15.756284656524658,
+            "6103": 15.756284656524658
+          },
+          "upper_95_one_sided": 18.672826487541197,
+          "upper_95_two_sided": 19.278045021533966
+        }
+      },
+      "dtv": {
+        "final_distance": {
+          "estimate": 17.658172534306843,
+          "lower_95_one_sided": 14.730623826026916,
+          "lower_95_two_sided": 14.221179009358089,
+          "per_seed": {
+            "6101": 17.61860857963562,
+            "6102": 17.81405821800232,
+            "6103": 17.541850805282593
+          },
+          "upper_95_one_sided": 20.844301253477727,
+          "upper_95_two_sided": 21.528546834786734
+        },
+        "minimum_distance": {
+          "estimate": 15.767165724436442,
+          "lower_95_one_sided": 13.104321313858032,
+          "lower_95_two_sided": 12.664677606503169,
+          "per_seed": {
+            "6101": 15.769595890045165,
+            "6102": 15.839063167572021,
+            "6103": 15.692838115692139
+          },
+          "upper_95_one_sided": 18.663646444161728,
+          "upper_95_two_sided": 19.27406223758062
+        }
+      },
+      "forward": {
+        "final_distance": {
+          "estimate": 17.630934947331745,
+          "lower_95_one_sided": 14.692407742500306,
+          "lower_95_two_sided": 14.184543729225794,
+          "per_seed": {
+            "6101": 17.674252653121947,
+            "6102": 17.676701383590697,
+            "6103": 17.541850805282593
+          },
+          "upper_95_one_sided": 20.830267582416532,
+          "upper_95_two_sided": 21.514503959973652
+        },
+        "minimum_distance": {
+          "estimate": 15.70542142868042,
+          "lower_95_one_sided": 13.071544003327688,
+          "lower_95_two_sided": 12.633919109185538,
+          "per_seed": {
+            "6101": 15.660157375335693,
+            "6102": 15.763268795013428,
+            "6103": 15.692838115692139
+          },
+          "upper_95_one_sided": 18.569956074873605,
+          "upper_95_two_sided": 19.166530695120493
+        }
+      },
+      "rdx_true": {
+        "final_distance": {
+          "estimate": 17.63918219566345,
+          "lower_95_one_sided": 14.707716833114624,
+          "lower_95_two_sided": 14.203916091442109,
+          "per_seed": {
+            "6101": 17.662338132858277,
+            "6102": 17.662338132858277,
+            "6103": 17.592870321273804
+          },
+          "upper_95_one_sided": 20.830297935962676,
+          "upper_95_two_sided": 21.518213339090345
+        },
+        "minimum_distance": {
+          "estimate": 15.797029781341553,
+          "lower_95_one_sided": 13.126374022960663,
+          "lower_95_two_sided": 12.681365507841111,
+          "per_seed": {
+            "6101": 15.83016695022583,
+            "6102": 15.83016695022583,
+            "6103": 15.730755443572997
+          },
+          "upper_95_one_sided": 18.705419462203977,
+          "upper_95_two_sided": 19.317022812128066
+        }
+      },
+      "reachability": {
+        "final_distance": {
+          "estimate": 17.71700031598409,
+          "lower_95_one_sided": 14.83866679652532,
+          "lower_95_two_sided": 14.341418362696967,
+          "per_seed": {
+            "6101": 17.813627672195434,
+            "6102": 17.599477853775024,
+            "6103": 17.73789542198181
+          },
+          "upper_95_one_sided": 20.850795179526006,
+          "upper_95_two_sided": 21.524043602784474
+        },
+        "minimum_distance": {
+          "estimate": 15.75485158920288,
+          "lower_95_one_sided": 13.14972794310252,
+          "lower_95_two_sided": 12.722410817305247,
+          "per_seed": {
+            "6101": 15.838632621765136,
+            "6102": 15.650529708862305,
+            "6103": 15.775392436981202
+          },
+          "upper_95_one_sided": 18.597877297719318,
+          "upper_95_two_sided": 19.192776266177496
+        }
+      }
+    },
+    "reacher": {
+      "acid": {},
+      "ae_shuffled": {},
+      "ae_true": {},
+      "b0": {},
+      "dtv": {},
+      "forward": {},
+      "rdx_true": {},
+      "reachability": {}
+    }
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "2c8f890c31e9f5bf5e8b6769ccc424d7cd565278c422405d507d1c702d3580ea",
+  "status": "ok",
+  "upstream_source_manifest_sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388"
+}

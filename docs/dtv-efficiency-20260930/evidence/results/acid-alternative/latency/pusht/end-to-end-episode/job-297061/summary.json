@@ -1,0 +1,429 @@
+{
+  "configuration": {
+    "action_block": 5,
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "diffusion_sigmas": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "eval_budget": 50,
+    "goal_offset": 25,
+    "horizon": 5,
+    "lambda_weight": 0.07,
+    "measured_episodes": 5,
+    "planner_seed_reinitialized_per_episode": 7101,
+    "receding_horizon": 5,
+    "warmup_episodes": 1
+  },
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5",
+  "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+  "elapsed_seconds": 222.4705469608307,
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/d1-fresh-development.tsv",
+  "eval_manifest_sha256": "948a5e0dc1f79551845a9ef039908729d3d0c4c4bee5deb8445fe465f694814e",
+  "kind": "matched_single_environment_episode_latency_benchmark",
+  "outcome_role": "latency only; recorded successes are execution sanity checks and are excluded from efficacy analyses",
+  "results": {
+    "acid": {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/acid/true/seed-6101-job-296631-0/best.pt",
+      "checkpoint_sha256": "6b49d24ab9a3cfdbe4695343f3a9c30723f9ee4d70c892fe603f8e9818b3f9d2",
+      "condition": "true",
+      "end_to_end_episode_wall_clock": {
+        "calls": 5,
+        "iqr_ms": 44.222377000551205,
+        "maximum_ms": 6436.197248999633,
+        "median_ms": 6397.9395530004695,
+        "minimum_ms": 6368.514902999777,
+        "p95_ms": 6433.78668339974,
+        "q25_ms": 6379.922043999613,
+        "q75_ms": 6424.144421000165
+      },
+      "episode_records": [
+        {
+          "duration_ms": 6626.031284999954,
+          "episode_id": 890,
+          "eval_index": 0,
+          "phase": "warmup",
+          "start_step": 63,
+          "success_sanity_only": false
+        },
+        {
+          "duration_ms": 6424.144421000165,
+          "episode_id": 2005,
+          "eval_index": 1,
+          "phase": "measured",
+          "start_step": 46,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6368.514902999777,
+          "episode_id": 12136,
+          "eval_index": 2,
+          "phase": "measured",
+          "start_step": 2,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6379.922043999613,
+          "episode_id": 12138,
+          "eval_index": 3,
+          "phase": "measured",
+          "start_step": 74,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6397.9395530004695,
+          "episode_id": 12464,
+          "eval_index": 4,
+          "phase": "measured",
+          "start_step": 54,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6436.197248999633,
+          "episode_id": 213,
+          "eval_index": 5,
+          "phase": "measured",
+          "start_step": 25,
+          "success_sanity_only": true
+        }
+      ],
+      "measured_successes_sanity_only": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "peak_cuda_memory_allocated_bytes": 502181376,
+      "peak_cuda_memory_reserved_bytes": 511705088,
+      "scorer_parameter_count": 1821514,
+      "training_seed": 6101
+    },
+    "b0": {
+      "arm": "b0",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "condition": null,
+      "end_to_end_episode_wall_clock": {
+        "calls": 5,
+        "iqr_ms": 54.356629999347206,
+        "maximum_ms": 6232.666854999479,
+        "median_ms": 6172.59456300053,
+        "minimum_ms": 6143.990686999132,
+        "p95_ms": 6227.284885199515,
+        "q25_ms": 6151.400376000311,
+        "q75_ms": 6205.757005999658
+      },
+      "episode_records": [
+        {
+          "duration_ms": 7013.270527999339,
+          "episode_id": 890,
+          "eval_index": 0,
+          "phase": "warmup",
+          "start_step": 63,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6172.59456300053,
+          "episode_id": 2005,
+          "eval_index": 1,
+          "phase": "measured",
+          "start_step": 46,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6151.400376000311,
+          "episode_id": 12136,
+          "eval_index": 2,
+          "phase": "measured",
+          "start_step": 2,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6143.990686999132,
+          "episode_id": 12138,
+          "eval_index": 3,
+          "phase": "measured",
+          "start_step": 74,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6205.757005999658,
+          "episode_id": 12464,
+          "eval_index": 4,
+          "phase": "measured",
+          "start_step": 54,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6232.666854999479,
+          "episode_id": 213,
+          "eval_index": 5,
+          "phase": "measured",
+          "start_step": 25,
+          "success_sanity_only": true
+        }
+      ],
+      "measured_successes_sanity_only": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "peak_cuda_memory_allocated_bytes": 494884352,
+      "peak_cuda_memory_reserved_bytes": 505413632,
+      "scorer_parameter_count": 0,
+      "training_seed": null
+    },
+    "diffusion": {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6101-job-296631-3/best.pt",
+      "checkpoint_sha256": "012d39be8a7cf9437e18110d9abc8a9b5abc95185c8c5ffc34042c0766405f14",
+      "condition": "true",
+      "end_to_end_episode_wall_clock": {
+        "calls": 5,
+        "iqr_ms": 4.326881999077159,
+        "maximum_ms": 6433.550275998641,
+        "median_ms": 6432.349365000846,
+        "minimum_ms": 6425.933799999257,
+        "p95_ms": 6433.350517398867,
+        "q25_ms": 6428.224601000693,
+        "q75_ms": 6432.55148299977
+      },
+      "episode_records": [
+        {
+          "duration_ms": 6440.433667999059,
+          "episode_id": 890,
+          "eval_index": 0,
+          "phase": "warmup",
+          "start_step": 63,
+          "success_sanity_only": false
+        },
+        {
+          "duration_ms": 6428.224601000693,
+          "episode_id": 2005,
+          "eval_index": 1,
+          "phase": "measured",
+          "start_step": 46,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6432.55148299977,
+          "episode_id": 12136,
+          "eval_index": 2,
+          "phase": "measured",
+          "start_step": 2,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6433.550275998641,
+          "episode_id": 12138,
+          "eval_index": 3,
+          "phase": "measured",
+          "start_step": 74,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6432.349365000846,
+          "episode_id": 12464,
+          "eval_index": 4,
+          "phase": "measured",
+          "start_step": 54,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6425.933799999257,
+          "episode_id": 213,
+          "eval_index": 5,
+          "phase": "measured",
+          "start_step": 25,
+          "success_sanity_only": true
+        }
+      ],
+      "measured_successes_sanity_only": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "peak_cuda_memory_allocated_bytes": 503003136,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "scorer_parameter_count": 2026176,
+      "training_seed": 6101
+    },
+    "forward": {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/forward/true/seed-6101-job-296631-6/best.pt",
+      "checkpoint_sha256": "826177bb363e8004ef22b8a4e273135befabf285e416935eed69bd907b479b3b",
+      "condition": "true",
+      "end_to_end_episode_wall_clock": {
+        "calls": 5,
+        "iqr_ms": 5.720962997656898,
+        "maximum_ms": 6306.031009000435,
+        "median_ms": 6263.913926999521,
+        "minimum_ms": 6254.9080879998655,
+        "p95_ms": 6297.96972840013,
+        "q25_ms": 6260.003643001255,
+        "q75_ms": 6265.724605998912
+      },
+      "episode_records": [
+        {
+          "duration_ms": 6248.080753999602,
+          "episode_id": 890,
+          "eval_index": 0,
+          "phase": "warmup",
+          "start_step": 63,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6254.9080879998655,
+          "episode_id": 2005,
+          "eval_index": 1,
+          "phase": "measured",
+          "start_step": 46,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6260.003643001255,
+          "episode_id": 12136,
+          "eval_index": 2,
+          "phase": "measured",
+          "start_step": 2,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6265.724605998912,
+          "episode_id": 12138,
+          "eval_index": 3,
+          "phase": "measured",
+          "start_step": 74,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6306.031009000435,
+          "episode_id": 12464,
+          "eval_index": 4,
+          "phase": "measured",
+          "start_step": 54,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6263.913926999521,
+          "episode_id": 213,
+          "eval_index": 5,
+          "phase": "measured",
+          "start_step": 25,
+          "success_sanity_only": true
+        }
+      ],
+      "measured_successes_sanity_only": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "peak_cuda_memory_allocated_bytes": 502916608,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "scorer_parameter_count": 2005664,
+      "training_seed": 6101
+    },
+    "reachability": {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/reachability/true/seed-6101-job-296633-0/best.pt",
+      "checkpoint_sha256": "09e08ef112da2b2280bbed44914bf4041e5cd342095ac9677eb1a3e921050432",
+      "condition": "true",
+      "end_to_end_episode_wall_clock": {
+        "calls": 5,
+        "iqr_ms": 15.379363000647572,
+        "maximum_ms": 6202.048207999724,
+        "median_ms": 6166.544738999619,
+        "minimum_ms": 6159.483307000301,
+        "p95_ms": 6197.556816599899,
+        "q25_ms": 6164.211887999954,
+        "q75_ms": 6179.591251000602
+      },
+      "episode_records": [
+        {
+          "duration_ms": 6200.346456000261,
+          "episode_id": 890,
+          "eval_index": 0,
+          "phase": "warmup",
+          "start_step": 63,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6202.048207999724,
+          "episode_id": 2005,
+          "eval_index": 1,
+          "phase": "measured",
+          "start_step": 46,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6179.591251000602,
+          "episode_id": 12136,
+          "eval_index": 2,
+          "phase": "measured",
+          "start_step": 2,
+          "success_sanity_only": false
+        },
+        {
+          "duration_ms": 6164.211887999954,
+          "episode_id": 12138,
+          "eval_index": 3,
+          "phase": "measured",
+          "start_step": 74,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6166.544738999619,
+          "episode_id": 12464,
+          "eval_index": 4,
+          "phase": "measured",
+          "start_step": 54,
+          "success_sanity_only": true
+        },
+        {
+          "duration_ms": 6159.483307000301,
+          "episode_id": 213,
+          "eval_index": 5,
+          "phase": "measured",
+          "start_step": 25,
+          "success_sanity_only": true
+        }
+      ],
+      "measured_successes_sanity_only": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "peak_cuda_memory_allocated_bytes": 495936512,
+      "peak_cuda_memory_reserved_bytes": 505413632,
+      "scorer_parameter_count": 262913,
+      "training_seed": 6101
+    }
+  },
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "python": "3.11.10",
+    "slurm_job_id": "297061",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+  "status": "ok",
+  "timing_scope": "dataset reset, preprocessing, all released CEM replans, environment steps, and synchronization for one environment",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+  "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+}

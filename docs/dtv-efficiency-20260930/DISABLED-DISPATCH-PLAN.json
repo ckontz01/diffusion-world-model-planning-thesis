@@ -1,0 +1,195 @@
+{
+  "execute": false,
+  "full_future_gpu_reservation_seconds": 7200,
+  "jobs": [
+    {
+      "id": "pusht-6101",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-pusht-6101",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6101.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6101.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job pusht-6101 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6101"
+      ]
+    },
+    {
+      "id": "pusht-6102",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-pusht-6102",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6102.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6102.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job pusht-6102 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6102"
+      ]
+    },
+    {
+      "id": "pusht-6103",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-pusht-6103",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6103.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6103.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job pusht-6103 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\pusht-6103"
+      ]
+    },
+    {
+      "id": "reacher-6101",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-reacher-6101",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6101.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6101.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job reacher-6101 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6101"
+      ]
+    },
+    {
+      "id": "reacher-6102",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-reacher-6102",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6102.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6102.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job reacher-6102 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6102"
+      ]
+    },
+    {
+      "id": "reacher-6103",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-reacher-6103",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6103.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6103.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job reacher-6103 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\reacher-6103"
+      ]
+    },
+    {
+      "id": "cube-6101",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-cube-6101",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6101.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6101.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job cube-6101 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6101"
+      ]
+    },
+    {
+      "id": "cube-6102",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-cube-6102",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6102.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6102.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job cube-6102 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6102"
+      ]
+    },
+    {
+      "id": "cube-6103",
+      "reservation_seconds": 800,
+      "command": [
+        "sbatch",
+        "--parsable",
+        "--job-name=dtveff0-cube-6103",
+        "--account=superworld",
+        "--partition=a6000",
+        "--qos=normal-a6000",
+        "--nodelist=gpu09",
+        "--gres=gpu:1",
+        "--cpus-per-task=4",
+        "--mem=8G",
+        "--time=00:13:20",
+        "--no-requeue",
+        "--output=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6103.out",
+        "--error=\\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6103.err",
+        "--wrap=apptainer exec --nv --cleanenv --bind /lustreFS/data/superworld/ckontzias/thesis:/lustreFS/data/superworld/ckontzias/thesis /lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif env OMP_NUM_THREADS=4 MKL_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 PYTHONNOUSERSITE=1 PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930 CUBLAS_WORKSPACE_CONFIG=:4096:8 SLURM_JOB_ID=$SLURM_JOB_ID SLURM_JOB_NAME=$SLURM_JOB_NAME SLURMD_NODENAME=$SLURMD_NODENAME /lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/bin/python -m dtv_efficiency.profile --bindings C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\BINDINGS.json --approval C:\\Users\\Chris\\thesis-recovery\\dtv-efficiency-recovery-20260930\\docs\\dtv-efficiency-20260930\\EXECUTION-APPROVAL.json --job cube-6103 --output \\lustreFS\\data\\superworld\\ckontzias\\thesis\\experiments\\dtv-efficiency-20260930\\run-PREPARATION-ONLY\\cube-6103"
+      ]
+    }
+  ]
+}

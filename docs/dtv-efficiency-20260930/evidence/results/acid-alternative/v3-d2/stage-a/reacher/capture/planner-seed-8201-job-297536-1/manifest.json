@@ -1,0 +1,42 @@
+{
+  "analysis_role": "D2",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/capture/planner-seed-8201-job-297536-1/candidate-pools.pt",
+  "artifact_sha256": "176a47b8b4823ca7fde543035ba2ef7965a61a33224d50d207b1a7503599db93",
+  "candidates_per_pool": 300,
+  "configuration": {
+    "action_block": 5,
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "goal_offset": 25,
+    "horizon": 5,
+    "receding_horizon": 5
+  },
+  "confirmation_authorization": null,
+  "confirmation_authorization_sha256": null,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher.h5",
+  "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+  "elapsed_seconds": 182.3075816631317,
+  "eval_config_name": "reacher",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/reacher/job-297535/d2-fresh.tsv",
+  "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+  "kind": "flat_b0_final_cem_candidate_pools",
+  "outcome_role": "fresh preregistered development mechanism audit",
+  "planner_seed": 8201,
+  "pool_count": 50,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 494916096,
+    "peak_cuda_memory_reserved_bytes": 505413632,
+    "python": "3.11.10",
+    "slurm_job_id": "297554",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+  "status": "ok",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt",
+  "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+}

@@ -1,0 +1,8 @@
+30 September 2026, local preparation only.
+Command: python -m dtv_efficiency.check_preparation --label INTEGRATION-FINAL
+Exit: 1 before invoking the artificial test process or creating a receipt.
+ModuleNotFoundError: No module named 'recover'
+Cause: the original standalone runner used sibling imports; package-module
+execution required qualified dtv_efficiency imports. Both imports corrected.
+No research inference, GPU, checkpoint deserialization or physics occurred.
+This record preserves the failed invocation; it is not a scientific result.

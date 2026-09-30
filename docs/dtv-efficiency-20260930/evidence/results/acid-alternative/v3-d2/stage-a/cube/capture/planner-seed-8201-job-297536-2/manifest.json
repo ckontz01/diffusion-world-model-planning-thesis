@@ -1,0 +1,42 @@
+{
+  "analysis_role": "D2",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/capture/planner-seed-8201-job-297536-2/candidate-pools.pt",
+  "artifact_sha256": "500ad6f52ef9200f4421da8290632c6212f09b3ad1fe526ced48c3a7a54c3790",
+  "candidates_per_pool": 300,
+  "configuration": {
+    "action_block": 5,
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "goal_offset": 25,
+    "horizon": 5,
+    "receding_horizon": 5
+  },
+  "confirmation_authorization": null,
+  "confirmation_authorization_sha256": null,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube_single_expert.h5",
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "elapsed_seconds": 206.5926353931427,
+  "eval_config_name": "cube",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/d2-fresh.tsv",
+  "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+  "kind": "flat_b0_final_cem_candidate_pools",
+  "outcome_role": "fresh preregistered development mechanism audit",
+  "planner_seed": 8201,
+  "pool_count": 50,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 496035840,
+    "peak_cuda_memory_reserved_bytes": 505413632,
+    "python": "3.11.10",
+    "slurm_job_id": "297536",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-875a9cbc19dba78d/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+  "status": "ok",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+}

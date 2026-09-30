@@ -1,0 +1,276 @@
+{
+  "alternative_to_acid_claim_allowed": false,
+  "analysis_role": "post_e3_e5_exposed_d2_planner_integration_development",
+  "arm": "rdx_shuffled_gate_all_q40",
+  "arm_spec": {
+    "active_tail_steps": 30,
+    "integration": "quantile_gate",
+    "reject_fraction": 0.4,
+    "score_arm": "rdx",
+    "shuffled": true
+  },
+  "authorization": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e6d-allgate-controls/authorization/job-297689/authorization.json",
+  "authorization_sha256": "a5672bf582ab314b14d8f410dc1c7e68d89d3456513129dee7e1f5608caffe79",
+  "cem_cost_calls": 3000,
+  "cem_diagnostics": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/rdx_shuffled_gate_all_q40/job-297690-6/cem-diagnostics.jsonl",
+  "cem_diagnostics_sha256": "b0b0b94bf436f75dc7a33b26fdd747abe4fbd1266a03a3d6581b500128edd83d",
+  "confirmation_claim_allowed": false,
+  "d3_selected": false,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube_single_expert.h5",
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "e3_summary_sha256": "2a4134b49f770cd3f339d73233183d5bd2013b562aee751abc0e8a744959fdbb",
+  "e5_summary_sha256": "0c956e95e258eeb440bad12e71de3528b317c49c06f50519e5bc110e3c5da553",
+  "elapsed_seconds": 687.3163726329803,
+  "episode_count": 50,
+  "episodes_tsv": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/rdx_shuffled_gate_all_q40/job-297690-6/episodes.tsv",
+  "episodes_tsv_sha256": "5a3d3dc87341a246db1e054172272c40d7a650a1108752a8654dedb41c423aba",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/d2-fresh.tsv",
+  "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+  "eval_provenance": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/provenance.json",
+  "eval_provenance_sha256": "fa0dfb090aadeb1daadaf703707a64f049cac988c1c9074f0a09345eebb8a62b",
+  "kind": "acid_alt_e6_d2_quantile_closed_loop_evaluation",
+  "metrics": {
+    "episode_successes": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "seeds": null,
+    "success_rate": 88.0
+  },
+  "planner_seed": 8301,
+  "protected_c1_i1_read": false,
+  "protocol": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e6d-d2-be1fbf7803460e2e/ACID-ALTERNATIVE-E6D-ALL-ITERATIONS-MATCHED-CONTROLS-2026-08-17.md",
+  "protocol_sha256": "808f16435775c04b36862637efa200bc4eb47797089ac3f913be962035ed9fd4",
+  "resolved_config": {
+    "action_block": 5,
+    "action_standardization": {
+      "actual_mean": [
+        0.0108846967805138,
+        -0.0031414329928013945,
+        0.0026465825646189004,
+        0.0004239286647865428,
+        0.15925256653030173
+      ],
+      "actual_scale": [
+        0.2894198325506555,
+        0.39371697495490987,
+        0.6431365217957304,
+        0.3928016202283424,
+        0.2503073640045173
+      ],
+      "exact_legacy_float32_refit_match": {
+        "mean": false,
+        "scale": false
+      },
+      "exact_source_dtype_match": {
+        "mean": true,
+        "scale": true
+      },
+      "expected_mean": [
+        0.0108846967805138,
+        -0.0031414329928013945,
+        0.0026465825646189004,
+        0.0004239286647865428,
+        0.15925256653030173
+      ],
+      "expected_scale": [
+        0.2894198325506555,
+        0.39371697495490987,
+        0.6431365217957304,
+        0.3928016202283424,
+        0.2503073640045173
+      ],
+      "float32_rounding_envelope": 4.76837158203125e-07,
+      "maximum_absolute_difference": {
+        "mean": 0.0,
+        "scale": 0.0
+      },
+      "mode": "exact_source_dtype",
+      "source_action_dtype": "float32",
+      "source_rows": 2010000,
+      "status": "pass",
+      "usable_rows": 2000000
+    },
+    "arm": "rdx_shuffled_gate_all_q40",
+    "arm_spec": {
+      "active_tail_steps": 30,
+      "integration": "quantile_gate",
+      "reject_fraction": 0.4,
+      "score_arm": "rdx",
+      "shuffled": true
+    },
+    "callables": [
+      {
+        "args": {
+          "qpos": {
+            "value": "qpos"
+          },
+          "qvel": {
+            "value": "qvel"
+          }
+        },
+        "method": "set_state"
+      },
+      {
+        "args": {
+          "cube_id": {
+            "in_dataset": false,
+            "value": 0
+          },
+          "target_pos": {
+            "value": "goal_privileged_block_0_pos"
+          },
+          "target_quat": {
+            "value": "goal_privileged_block_0_quat"
+          }
+        },
+        "method": "set_target_pos"
+      }
+    ],
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "continuous_lambda_weight": null,
+    "eval_budget": 50,
+    "goal_offset": 25,
+    "horizon": 5,
+    "planner_seed": 8301,
+    "receding_horizon": 5,
+    "residual_noise_draws": 8,
+    "residual_sigmas": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "scorer_seed": 6101,
+    "task": "cube",
+    "world": {
+      "env_name": "swm/OGBCube-v0",
+      "env_type": "single",
+      "height": 224,
+      "max_episode_steps": 100,
+      "multiview": false,
+      "num_envs": 50,
+      "ob_type": "states",
+      "terminate_at_goal": true,
+      "visualize_info": false,
+      "width": 224
+    }
+  },
+  "resolved_world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 504257536,
+    "peak_cuda_memory_reserved_bytes": 528482304,
+    "python": "3.11.10",
+    "slurm_array_task_id": "6",
+    "slurm_job_id": "297701",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "scorer": {
+    "best_step": 100000,
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v2-residual-diffusion-pilot/cube/shuffled_action/seed-6101-job-297483-5/best.pt",
+    "checkpoint_sha256": "b603846083a66a70570c6f55c8c9f05209e8feb6407f59ad8a08794437566ecb",
+    "condition": "shuffled_action",
+    "final_validation": {
+      "action_contrastive_hinge": 0.04999829822540283,
+      "by_sigma": {
+        "0.25": {
+          "examples": 100000,
+          "permuted_action_cost": 0.009165413684844971,
+          "true_action_cost": 0.009158578605651856,
+          "true_action_pairwise_accuracy": 0.50072,
+          "wrong_minus_true_margin": 6.835079193115234e-06
+        },
+        "1.0": {
+          "examples": 100000,
+          "permuted_action_cost": 0.0248553666305542,
+          "true_action_cost": 0.024848320007324218,
+          "true_action_pairwise_accuracy": 0.50466,
+          "wrong_minus_true_margin": 7.0466232299804685e-06
+        },
+        "4.0": {
+          "examples": 100000,
+          "permuted_action_cost": 0.1331705973815918,
+          "true_action_cost": 0.13321074645996095,
+          "true_action_pairwise_accuracy": 0.49442,
+          "wrong_minus_true_margin": -4.014907836914062e-05
+        }
+      },
+      "composite_loss": 0.08072013694254558,
+      "diagnostic_permuted_action_cost": 0.055730459232330325,
+      "diagnostic_true_action_cost": 0.05573921502431234,
+      "diagnostic_true_action_pairwise_accuracy": 0.49993333333333334,
+      "diagnostic_wrong_minus_true_margin": -8.755791982014975e-06,
+      "examples": 100000,
+      "selected_condition_cost": 0.055730459232330325,
+      "unconditional_cost": 0.05568310221989949
+    },
+    "kind": "residual_diffusion_x0_pilot_training",
+    "parameter_count": 2032320,
+    "protocol_sha256": "a6c33f33cc20da6e93ccdeb77269438de34869cb60c91b20e6da47801861ebff",
+    "seed": 6101,
+    "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v2-residual-diffusion-pilot/cube/shuffled_action/seed-6101-job-297483-5/summary.json",
+    "summary_sha256": "49121e4440cf8234d98f6804a4c6ae8efa556277f5dd29eb32b7ec75bf6ee31e"
+  },
+  "scorer_seed": 6101,
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e6d-d2-be1fbf7803460e2e/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "be1fbf7803460e2e92bff190e6123f1237e794a4c9625ea836b90ec84c6d9750",
+  "status": "ok",
+  "success_count": 44,
+  "success_rate_fraction": 0.88,
+  "task": "cube",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07",
+  "world_model_policy": "cube/lewm_hf_b0747c5"
+}

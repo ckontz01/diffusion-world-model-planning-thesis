@@ -1,0 +1,85 @@
+[
+  {
+    "authenticated_recovered_members": [
+      "acid_alt_d2_models.py",
+      "acid_alternative/action_standardization.py",
+      "acid_alternative/costs.py",
+      "acid_alternative/evaluate_matched.py",
+      "acid_alternative/io_utils.py",
+      "acid_alternative/models.py",
+      "acid_alternative/task_registry.py",
+      "acid_alternative/train_transition_scorer.py",
+      "acid_alternative_diagnostics/capture_candidate_pools.py",
+      "acid_alternative_diagnostics/score_candidate_pools.py",
+      "run_acid_alt_v3_core_score.slurm",
+      "run_acid_alt_v3_d2_score.slurm",
+      "score_acid_alt_d2_task.py"
+    ],
+    "path": "docs\\dtv-efficiency-20260930\\evidence\\snapshots\\acid-alt-v3-d2-2c8f890c31e9f5bf\\SOURCE-MANIFEST.sha256",
+    "sha256": "2c8f890c31e9f5bf5e8b6769ccc424d7cd565278c422405d507d1c702d3580ea",
+    "unretrieved_members": 50
+  },
+  {
+    "authenticated_recovered_members": [
+      "acid_alternative/action_standardization.py",
+      "acid_alternative/costs.py",
+      "acid_alternative/evaluate_matched.py",
+      "acid_alternative/io_utils.py",
+      "acid_alternative/models.py",
+      "acid_alternative/task_registry.py",
+      "acid_alternative/train_transition_scorer.py",
+      "acid_alternative_diagnostics/capture_candidate_pools.py",
+      "acid_alternative_diagnostics/score_candidate_pools.py",
+      "run_acid_alt_v3_core_score.slurm",
+      "run_acid_alt_v3_d2_score.slurm",
+      "score_acid_alt_d2_task.py"
+    ],
+    "path": "docs\\dtv-efficiency-20260930\\evidence\\snapshots\\acid-alt-v3-d2-875a9cbc19dba78d\\SOURCE-MANIFEST.sha256",
+    "sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+    "unretrieved_members": 50
+  },
+  {
+    "authenticated_recovered_members": [
+      "acid_alternative/costs.py",
+      "acid_alternative/evaluate_matched.py",
+      "acid_alternative/io_utils.py",
+      "acid_alternative/models.py",
+      "acid_alternative/task_registry.py",
+      "acid_alternative/train_transition_scorer.py"
+    ],
+    "path": "docs\\dtv-efficiency-20260930\\evidence\\snapshots\\acid-alternative-core-v1-3074081ea1ebadd9\\SOURCE-MANIFEST.sha256",
+    "sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+    "unretrieved_members": 23
+  },
+  {
+    "authenticated_recovered_members": [
+      "acid_alternative/action_standardization.py",
+      "acid_alternative/costs.py",
+      "acid_alternative/evaluate_matched.py",
+      "acid_alternative/io_utils.py",
+      "acid_alternative/models.py",
+      "acid_alternative/task_registry.py",
+      "acid_alternative/train_transition_scorer.py"
+    ],
+    "path": "docs\\dtv-efficiency-20260930\\evidence\\snapshots\\acid-alternative-core-v1-52acea39e4a1f6da\\SOURCE-MANIFEST.sha256",
+    "sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+    "unretrieved_members": 24
+  },
+  {
+    "authenticated_recovered_members": [
+      "acid_alternative_diagnostics/benchmark_episode_latency.py",
+      "acid_alternative_diagnostics/benchmark_latency.py",
+      "acid_alternative_diagnostics/capture_candidate_pools.py",
+      "acid_alternative_diagnostics/score_candidate_pools.py"
+    ],
+    "path": "docs\\dtv-efficiency-20260930\\evidence\\snapshots\\acid-alternative-diagnostics-v1-2a55d07d912bf1b6\\SOURCE-MANIFEST.sha256",
+    "sha256": "2a55d07d912bf1b6c39f36219c603e3b45c38c3a0a4ccdb475c5bc0d93971614",
+    "unretrieved_members": 17
+  },
+  {
+    "authenticated_recovered_members": [],
+    "path": "docs\\dtv-efficiency-20260930\\evidence\\snapshots\\acid-alternative-diagnostics-v1-53065f818adf09b3\\SOURCE-MANIFEST.sha256",
+    "sha256": "53065f818adf09b30469306e64d5bf76388481f4595896ef4be1e1855d69b278",
+    "unretrieved_members": 21
+  }
+]

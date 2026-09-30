@@ -1,0 +1,42 @@
+{
+  "analysis_role": "D1",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/cube/d1-b0-candidate-pools/planner-seed-7101-job-297079/candidate-pools.pt",
+  "artifact_sha256": "353c8c9b5706f5ae7c5108086138f7f7aef37ab60838e9a3200d9e2579dc546a",
+  "candidates_per_pool": 300,
+  "configuration": {
+    "action_block": 5,
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "goal_offset": 25,
+    "horizon": 5,
+    "receding_horizon": 5
+  },
+  "confirmation_authorization": null,
+  "confirmation_authorization_sha256": null,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube_single_expert.h5",
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "elapsed_seconds": 93.791757106781,
+  "eval_config_name": "cube",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/cube/d1-fresh-development.tsv",
+  "eval_manifest_sha256": "9e5c3d336c44226dbd293c2f2c77427ef86941202d15874d509e884691cffcf4",
+  "kind": "flat_b0_final_cem_candidate_pools",
+  "outcome_role": "development mechanism audit; no efficacy endpoint retained",
+  "planner_seed": 7101,
+  "pool_count": 24,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 496010240,
+    "peak_cuda_memory_reserved_bytes": 505413632,
+    "python": "3.11.10",
+    "slurm_job_id": "297079",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+  "status": "ok",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+}

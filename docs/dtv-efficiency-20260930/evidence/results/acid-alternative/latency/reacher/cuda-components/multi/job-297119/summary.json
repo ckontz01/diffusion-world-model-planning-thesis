@@ -1,0 +1,293 @@
+{
+  "candidate_artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/reacher/d1-b0-candidate-pools/planner-seed-7101-job-297114/candidate-pools.pt",
+  "candidate_artifact_sha256": "94a9a3a05640439bca103c03530791e86361ede17598c8ec80fa771bc16f4f97",
+  "configuration": {
+    "action_block": 5,
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "diffusion_sigmas": [
+      0.1,
+      0.25,
+      0.5
+    ],
+    "flat_action_dim": 10,
+    "full_solve_repetitions": 10,
+    "full_solve_warmups": 1,
+    "horizon": 5,
+    "lambda_weight": 0.07,
+    "measured_calls": 100,
+    "pool_index": 0,
+    "receding_horizon": 5,
+    "warmup_calls": 20
+  },
+  "elapsed_seconds": 163.44267463684082,
+  "end_to_end_episode_latency": "reported from matched closed-loop summary elapsed_seconds / episode_count",
+  "kind": "matched_cuda_event_latency_benchmark",
+  "results": {
+    "acid": {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/acid/true/seed-6101-job-296650-0/best.pt",
+      "checkpoint_sha256": "8e0a7bad0f8c9d4ce574fca611d2642e5213e8831e7db0c7b4559939146ae5ab",
+      "condition": "true",
+      "full_released_cem_solve": {
+        "calls": 10,
+        "iqr_ms": 2.577392578125,
+        "maximum_ms": 1748.6295166015625,
+        "median_ms": 1746.04052734375,
+        "minimum_ms": 1743.88037109375,
+        "p95_ms": 1748.1112365722656,
+        "q25_ms": 1744.51025390625,
+        "q75_ms": 1747.087646484375
+      },
+      "peak_cuda_memory_allocated_bytes": 162266624,
+      "peak_cuda_memory_reserved_bytes": 178257920,
+      "scorer_parameter_count": 1821514,
+      "total_cost_call": {
+        "calls": 100,
+        "iqr_ms": 0.31243133544921875,
+        "maximum_ms": 60.71388626098633,
+        "median_ms": 57.89116668701172,
+        "minimum_ms": 57.437599182128906,
+        "p95_ms": 58.90763416290283,
+        "q25_ms": 57.709439277648926,
+        "q75_ms": 58.021870613098145
+      },
+      "training_seed": 6101,
+      "verifier_only": {
+        "calls": 100,
+        "iqr_ms": 0.024072229862213135,
+        "maximum_ms": 4.226047992706299,
+        "median_ms": 4.006272077560425,
+        "minimum_ms": 3.976223945617676,
+        "p95_ms": 4.190574359893799,
+        "q25_ms": 3.9933839440345764,
+        "q75_ms": 4.0174561738967896
+      },
+      "world_model_rollout": {
+        "calls": 100,
+        "iqr_ms": 0.3579120635986328,
+        "maximum_ms": 58.68544006347656,
+        "median_ms": 56.27849578857422,
+        "minimum_ms": 55.539710998535156,
+        "p95_ms": 56.834200859069824,
+        "q25_ms": 56.06500053405762,
+        "q75_ms": 56.42291259765625
+      }
+    },
+    "b0": {
+      "arm": "b0",
+      "checkpoint": null,
+      "checkpoint_sha256": null,
+      "condition": null,
+      "full_released_cem_solve": {
+        "calls": 10,
+        "iqr_ms": 1.755523681640625,
+        "maximum_ms": 1624.4632568359375,
+        "median_ms": 1621.7103881835938,
+        "minimum_ms": 1619.3236083984375,
+        "p95_ms": 1624.2683044433593,
+        "q25_ms": 1621.5580139160156,
+        "q75_ms": 1623.3135375976562
+      },
+      "peak_cuda_memory_allocated_bytes": 137426432,
+      "peak_cuda_memory_reserved_bytes": 150994944,
+      "scorer_parameter_count": 0,
+      "total_cost_call": {
+        "calls": 100,
+        "iqr_ms": 0.38015079498291016,
+        "maximum_ms": 55.49283218383789,
+        "median_ms": 53.69633483886719,
+        "minimum_ms": 52.95257568359375,
+        "p95_ms": 54.41475772857666,
+        "q25_ms": 53.4554328918457,
+        "q75_ms": 53.83558368682861
+      },
+      "training_seed": null,
+      "verifier_only": {
+        "calls": 100,
+        "iqr_ms": 0.0,
+        "maximum_ms": 0.0,
+        "median_ms": 0.0,
+        "minimum_ms": 0.0,
+        "p95_ms": 0.0,
+        "q25_ms": 0.0,
+        "q75_ms": 0.0
+      },
+      "world_model_rollout": {
+        "calls": 100,
+        "iqr_ms": 0.31683921813964844,
+        "maximum_ms": 59.13075256347656,
+        "median_ms": 56.31905555725098,
+        "minimum_ms": 55.92377471923828,
+        "p95_ms": 57.257113456726074,
+        "q25_ms": 56.14544105529785,
+        "q75_ms": 56.4622802734375
+      }
+    },
+    "diffusion": {
+      "arm": "diffusion",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6101-job-296650-3/best.pt",
+      "checkpoint_sha256": "169d44963b280eac331ef4294f9a5763b5fe08433f5af24126391a4e04e0e50a",
+      "condition": "true",
+      "full_released_cem_solve": {
+        "calls": 10,
+        "iqr_ms": 0.508392333984375,
+        "maximum_ms": 1754.9525146484375,
+        "median_ms": 1753.9560546875,
+        "minimum_ms": 1750.9324951171875,
+        "p95_ms": 1754.7708557128906,
+        "q25_ms": 1753.8162536621094,
+        "q75_ms": 1754.3246459960938
+      },
+      "peak_cuda_memory_allocated_bytes": 146858496,
+      "peak_cuda_memory_reserved_bytes": 174063616,
+      "scorer_parameter_count": 2026176,
+      "total_cost_call": {
+        "calls": 100,
+        "iqr_ms": 0.32862281799316406,
+        "maximum_ms": 60.57344055175781,
+        "median_ms": 58.15852737426758,
+        "minimum_ms": 57.69740676879883,
+        "p95_ms": 58.7072473526001,
+        "q25_ms": 58.007225036621094,
+        "q75_ms": 58.33584785461426
+      },
+      "training_seed": 6101,
+      "verifier_only": {
+        "calls": 100,
+        "iqr_ms": 0.023432254791259766,
+        "maximum_ms": 4.376575946807861,
+        "median_ms": 4.179984092712402,
+        "minimum_ms": 4.148223876953125,
+        "p95_ms": 4.283164668083191,
+        "q25_ms": 4.1656317710876465,
+        "q75_ms": 4.189064025878906
+      },
+      "world_model_rollout": {
+        "calls": 100,
+        "iqr_ms": 0.36966419219970703,
+        "maximum_ms": 58.24812698364258,
+        "median_ms": 56.48537635803223,
+        "minimum_ms": 55.78153610229492,
+        "p95_ms": 57.12296810150146,
+        "q25_ms": 56.25907230377197,
+        "q75_ms": 56.62873649597168
+      }
+    },
+    "forward": {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/forward/true/seed-6101-job-296650-6/best.pt",
+      "checkpoint_sha256": "0e0e16399cddf0a9ee90536b975c725b4564284d692ea500836947d26a91332e",
+      "condition": "true",
+      "full_released_cem_solve": {
+        "calls": 10,
+        "iqr_ms": 1.032257080078125,
+        "maximum_ms": 1669.6405029296875,
+        "median_ms": 1668.3695678710938,
+        "minimum_ms": 1663.8765869140625,
+        "p95_ms": 1669.6258361816406,
+        "q25_ms": 1668.112548828125,
+        "q75_ms": 1669.1448059082031
+      },
+      "peak_cuda_memory_allocated_bytes": 146771968,
+      "peak_cuda_memory_reserved_bytes": 171966464,
+      "scorer_parameter_count": 2005664,
+      "total_cost_call": {
+        "calls": 100,
+        "iqr_ms": 0.3135652542114258,
+        "maximum_ms": 58.06169509887695,
+        "median_ms": 55.33679962158203,
+        "minimum_ms": 54.89683151245117,
+        "p95_ms": 56.03553237915039,
+        "q25_ms": 55.15485763549805,
+        "q75_ms": 55.46842288970947
+      },
+      "training_seed": 6101,
+      "verifier_only": {
+        "calls": 100,
+        "iqr_ms": 0.00705602765083313,
+        "maximum_ms": 1.403648018836975,
+        "median_ms": 1.252351999282837,
+        "minimum_ms": 1.2410880327224731,
+        "p95_ms": 1.2615679502487183,
+        "q25_ms": 1.2483679950237274,
+        "q75_ms": 1.2554240226745605
+      },
+      "world_model_rollout": {
+        "calls": 100,
+        "iqr_ms": 0.3457221984863281,
+        "maximum_ms": 58.636287689208984,
+        "median_ms": 56.4279670715332,
+        "minimum_ms": 55.61360168457031,
+        "p95_ms": 57.007822036743164,
+        "q25_ms": 56.19150257110596,
+        "q75_ms": 56.537224769592285
+      }
+    },
+    "reachability": {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/reachability/true/seed-6101-job-296652-0/best.pt",
+      "checkpoint_sha256": "98000a2cd58d36b292487e6180986500f835bebac64fe5799f5415f4bcaba3ad",
+      "condition": "true",
+      "full_released_cem_solve": {
+        "calls": 10,
+        "iqr_ms": 1.24249267578125,
+        "maximum_ms": 1648.728759765625,
+        "median_ms": 1647.0472412109375,
+        "minimum_ms": 1644.4107666015625,
+        "p95_ms": 1648.5360595703125,
+        "q25_ms": 1646.5656127929688,
+        "q75_ms": 1647.80810546875
+      },
+      "peak_cuda_memory_allocated_bytes": 139791872,
+      "peak_cuda_memory_reserved_bytes": 153092096,
+      "scorer_parameter_count": 262913,
+      "total_cost_call": {
+        "calls": 100,
+        "iqr_ms": 0.3831357955932617,
+        "maximum_ms": 57.65379333496094,
+        "median_ms": 54.663551330566406,
+        "minimum_ms": 54.1874885559082,
+        "p95_ms": 55.25184783935547,
+        "q25_ms": 54.41244888305664,
+        "q75_ms": 54.7955846786499
+      },
+      "training_seed": 6101,
+      "verifier_only": {
+        "calls": 100,
+        "iqr_ms": 0.006080001592636108,
+        "maximum_ms": 0.6656000018119812,
+        "median_ms": 0.4903839975595474,
+        "minimum_ms": 0.48230400681495667,
+        "p95_ms": 0.49663999676704407,
+        "q25_ms": 0.48742398619651794,
+        "q75_ms": 0.49350398778915405
+      },
+      "world_model_rollout": {
+        "calls": 100,
+        "iqr_ms": 0.2437753677368164,
+        "maximum_ms": 58.671104431152344,
+        "median_ms": 56.51265525817871,
+        "minimum_ms": 55.96249771118164,
+        "p95_ms": 57.195163345336915,
+        "q25_ms": 56.385512351989746,
+        "q75_ms": 56.62928771972656
+      }
+    }
+  },
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "python": "3.11.10",
+    "slurm_job_id": "297119",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alternative-core-v1-52acea39e4a1f6da/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "52acea39e4a1f6dadfa5d5be4ec6206a9aefb46159e5def7355a8575f0062f1d",
+  "status": "ok",
+  "timing_scope": "single captured task D1 start; identical candidate/info tensors; arms measured sequentially on one allocated GPU",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt",
+  "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+}

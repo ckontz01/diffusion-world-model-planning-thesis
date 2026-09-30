@@ -1,0 +1,18 @@
+{
+  "status": "verified",
+  "archive": "D:\\THESIS-BACKUPS\\dtv-efficiency-20260930\\package-a9a3b495e479916d\\package.tar",
+  "archive_sha256": "c098da63ff66d2a0a49d8111cb2106e70b010df74a83dd5c945c4fafcc75e2dc",
+  "whole_sha256_before_after_match": true,
+  "archive_bytes": 4014080,
+  "members": 241,
+  "all_member_hashes_verified": true,
+  "manifest_sha256": "a9a3b495e479916dfc64279e2c099a76a8817119c53607770b04e22f693796ae",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+    "SizeRemaining": 312296124416
+  },
+  "wall_seconds": 0.25,
+  "historical_archives_touched": false,
+  "research_execution": false
+}

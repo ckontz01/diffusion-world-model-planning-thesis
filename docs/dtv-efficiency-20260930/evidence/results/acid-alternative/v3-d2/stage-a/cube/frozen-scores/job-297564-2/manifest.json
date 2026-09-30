@@ -1,0 +1,978 @@
+{
+  "acid_inference": "literal candidate-specific one-sample, one-Euler-step reconstruction; SHA-256-derived stream keyed by task, scorer seed, planner seed, and cost-call index",
+  "acid_lambda": 0.07,
+  "analysis_role": "D2",
+  "artifact": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/frozen-scores/job-297564-2/d2-task-scores.npz",
+  "artifact_sha256": "a65e4e46c4561734814f756e2810b87478b9eafe15fd2d3e81d4aeaef3a42e02",
+  "candidates_per_pool": 300,
+  "d2_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/d2-fresh.tsv",
+  "d2_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+  "d2_provenance": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/provenance.json",
+  "d2_provenance_sha256": "fa0dfb090aadeb1daadaf703707a64f049cac988c1c9074f0a09345eebb8a62b",
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "diffusion_lambda": 0.005,
+  "elapsed_seconds": 7.912957429885864,
+  "endpoints": {
+    "AE": "log conditional MSE minus log unconditional MSE",
+    "RDX": "conditional clean-residual MSE",
+    "legacy_DTV": "v1 multiscale epsilon-prediction error",
+    "reachability": "v1 terminal-to-goal learned reachability cost"
+  },
+  "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+  "execution": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/execution/job-297537-2/candidate-executions.h5",
+  "execution_manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/execution/job-297537-2/manifest.json",
+  "execution_manifest_sha256": "d2b437fc04ef9754b128869a4e7c785ae4e7dc72d531435da733f0b5f150a326",
+  "execution_sha256": "7d641e10086c0396aba686fe9d7ce49623fc1c0eae79d1890a32e37a2a3399a9",
+  "kind": "acid_alt_v3_d2_task_endpoint_scores",
+  "latency_measurement": "one warmup pool then one synchronized full-D2 scorer pass on the same GPU; excludes loading and shared Le-WM rollout; residual RDX/AE are computed jointly",
+  "legacy_dtv_lambda": 0.005,
+  "legacy_dtv_sigmas": [
+    0.1,
+    0.25,
+    0.5
+  ],
+  "noise_draws": 8,
+  "p1_gate": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/p1-gate/job-297534/gate.json",
+  "p1_gate_sha256": "93d260a6368ed3c2d71d7c7377759bf43a07056b7beae8f264d1fd5bad308c1a",
+  "pool_count": 50,
+  "protected_c1_i1_read": false,
+  "protocol": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/ACID-ALTERNATIVE-V3-MULTISEED-D2-PROTOCOL-2026-08-16.md",
+  "protocol_sha256": "c38e086ee09cbabaa9ab53246add92835d59f95173b5f35290f474abb94a4dfb",
+  "reachability_lambda": 0.07,
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 588523008,
+    "python": "3.11.10",
+    "slurm_job_id": "297564",
+    "torch": "2.5.1+cu121"
+  },
+  "scorer_seeds": [
+    6101,
+    6102,
+    6103
+  ],
+  "scorers": [
+    {
+      "arm": "residual_diffusion",
+      "best_step": 100000,
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v2-residual-diffusion-pilot/cube/true/seed-6101-job-297483-4/best.pt",
+      "checkpoint_sha256": "40db3809cded3d7134c28dd72efe1d7149bf626ada6d603dd7cb53451c901aa7",
+      "condition": "true",
+      "endpoints": [
+        "RDX",
+        "AE"
+      ],
+      "final_validation": {
+        "action_contrastive_hinge": 0.000825633893609047,
+        "by_sigma": {
+          "0.25": {
+            "examples": 100000,
+            "permuted_action_cost": 1.1255932348632813,
+            "true_action_cost": 0.008905819129943848,
+            "true_action_pairwise_accuracy": 0.99948,
+            "wrong_minus_true_margin": 1.1166874157333373
+          },
+          "1.0": {
+            "examples": 100000,
+            "permuted_action_cost": 1.285705419921875,
+            "true_action_cost": 0.011765406284332276,
+            "true_action_pairwise_accuracy": 0.99933,
+            "wrong_minus_true_margin": 1.2739400136375427
+          },
+          "4.0": {
+            "examples": 100000,
+            "permuted_action_cost": 1.643223486328125,
+            "true_action_cost": 0.02133058994293213,
+            "true_action_pairwise_accuracy": 0.99887,
+            "wrong_minus_true_margin": 1.6218928963851929
+          }
+        },
+        "composite_loss": 0.025121699001451336,
+        "diagnostic_permuted_action_cost": 1.3515073803710937,
+        "diagnostic_true_action_cost": 0.014000605119069417,
+        "diagnostic_true_action_pairwise_accuracy": 0.9992266666666667,
+        "diagnostic_wrong_minus_true_margin": 1.3375067752520244,
+        "examples": 100000,
+        "selected_condition_cost": 0.014000605119069417,
+        "unconditional_cost": 0.06754198979695639
+      },
+      "kind": "residual_diffusion_x0_pilot_training",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 19411.365984999615,
+        "elapsed_seconds": 0.7727431450002769,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 10.303241933337025,
+        "microseconds_per_network_pair": 0.214650873611188,
+        "milliseconds_per_candidate_sequence": 0.051516209666685124,
+        "network_pair_evaluations": 3600000,
+        "network_pairs_per_sequence": 240,
+        "outputs_computed_jointly": [
+          "RDX",
+          "AE"
+        ],
+        "transition_batch_size": 8192
+      },
+      "parameter_count": 2032320,
+      "protocol_sha256": "a6c33f33cc20da6e93ccdeb77269438de34869cb60c91b20e6da47801861ebff",
+      "seed": 6101,
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v2-residual-diffusion-pilot/cube/true/seed-6101-job-297483-4/summary.json",
+      "summary_sha256": "e1e9f404853c098026e70ba5b6ce305ed880225ab4d49f9700ceeaa7128fc44a"
+    },
+    {
+      "arm": "residual_diffusion",
+      "best_step": 100000,
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v2-residual-diffusion-pilot/cube/shuffled_action/seed-6101-job-297483-5/best.pt",
+      "checkpoint_sha256": "b603846083a66a70570c6f55c8c9f05209e8feb6407f59ad8a08794437566ecb",
+      "condition": "shuffled_action",
+      "endpoints": [
+        "RDX_shuffled",
+        "AE_shuffled"
+      ],
+      "final_validation": {
+        "action_contrastive_hinge": 0.04999829822540283,
+        "by_sigma": {
+          "0.25": {
+            "examples": 100000,
+            "permuted_action_cost": 0.009165413684844971,
+            "true_action_cost": 0.009158578605651856,
+            "true_action_pairwise_accuracy": 0.50072,
+            "wrong_minus_true_margin": 6.835079193115234e-06
+          },
+          "1.0": {
+            "examples": 100000,
+            "permuted_action_cost": 0.0248553666305542,
+            "true_action_cost": 0.024848320007324218,
+            "true_action_pairwise_accuracy": 0.50466,
+            "wrong_minus_true_margin": 7.0466232299804685e-06
+          },
+          "4.0": {
+            "examples": 100000,
+            "permuted_action_cost": 0.1331705973815918,
+            "true_action_cost": 0.13321074645996095,
+            "true_action_pairwise_accuracy": 0.49442,
+            "wrong_minus_true_margin": -4.014907836914062e-05
+          }
+        },
+        "composite_loss": 0.08072013694254558,
+        "diagnostic_permuted_action_cost": 0.055730459232330325,
+        "diagnostic_true_action_cost": 0.05573921502431234,
+        "diagnostic_true_action_pairwise_accuracy": 0.49993333333333334,
+        "diagnostic_wrong_minus_true_margin": -8.755791982014975e-06,
+        "examples": 100000,
+        "selected_condition_cost": 0.055730459232330325,
+        "unconditional_cost": 0.05568310221989949
+      },
+      "kind": "residual_diffusion_x0_pilot_training",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 19325.138340935588,
+        "elapsed_seconds": 0.7761910799999896,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 10.34921439999986,
+        "microseconds_per_network_pair": 0.21560863333333044,
+        "milliseconds_per_candidate_sequence": 0.0517460719999993,
+        "network_pair_evaluations": 3600000,
+        "network_pairs_per_sequence": 240,
+        "outputs_computed_jointly": [
+          "RDX_shuffled",
+          "AE_shuffled"
+        ],
+        "transition_batch_size": 8192
+      },
+      "parameter_count": 2032320,
+      "protocol_sha256": "a6c33f33cc20da6e93ccdeb77269438de34869cb60c91b20e6da47801861ebff",
+      "seed": 6101,
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v2-residual-diffusion-pilot/cube/shuffled_action/seed-6101-job-297483-5/summary.json",
+      "summary_sha256": "49121e4440cf8234d98f6804a4c6ae8efa556277f5dd29eb32b7ec75bf6ee31e"
+    },
+    {
+      "arm": "residual_diffusion",
+      "best_step": 100000,
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/true/seed-6102-job-297533-8/best.pt",
+      "checkpoint_sha256": "1695170a747bc7d2a4b4729069273b1b8ff5a48be8d28bec35f3ddb088ad10b0",
+      "condition": "true",
+      "endpoints": [
+        "RDX",
+        "AE"
+      ],
+      "final_validation": {
+        "action_contrastive_hinge": 0.0007980355143547059,
+        "by_sigma": {
+          "0.25": {
+            "examples": 100000,
+            "permuted_action_cost": 1.1598829638671875,
+            "true_action_cost": 0.008987933893203735,
+            "true_action_pairwise_accuracy": 0.99933,
+            "wrong_minus_true_margin": 1.1508950299739837
+          },
+          "1.0": {
+            "examples": 100000,
+            "permuted_action_cost": 1.3205659350585937,
+            "true_action_cost": 0.01182173885345459,
+            "true_action_pairwise_accuracy": 0.99927,
+            "wrong_minus_true_margin": 1.3087441962051392
+          },
+          "4.0": {
+            "examples": 100000,
+            "permuted_action_cost": 1.67685591796875,
+            "true_action_cost": 0.02136897621154785,
+            "true_action_pairwise_accuracy": 0.9988,
+            "wrong_minus_true_margin": 1.6554869417572022
+          }
+        },
+        "composite_loss": 0.025243674126704533,
+        "diagnostic_permuted_action_cost": 1.385768272298177,
+        "diagnostic_true_action_cost": 0.014059549652735393,
+        "diagnostic_true_action_pairwise_accuracy": 0.9991333333333333,
+        "diagnostic_wrong_minus_true_margin": 1.3717087226454416,
+        "examples": 100000,
+        "selected_condition_cost": 0.014059549652735393,
+        "unconditional_cost": 0.06798508323669433
+      },
+      "kind": "residual_diffusion_x0_multiseed_d2_training",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 19141.039766351023,
+        "elapsed_seconds": 0.7836564880017249,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 10.448753173356332,
+        "microseconds_per_network_pair": 0.21768235777825692,
+        "milliseconds_per_candidate_sequence": 0.052243765866781665,
+        "network_pair_evaluations": 3600000,
+        "network_pairs_per_sequence": 240,
+        "outputs_computed_jointly": [
+          "RDX",
+          "AE"
+        ],
+        "transition_batch_size": 8192
+      },
+      "parameter_count": 2032320,
+      "protocol_sha256": "c38e086ee09cbabaa9ab53246add92835d59f95173b5f35290f474abb94a4dfb",
+      "seed": 6102,
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/true/seed-6102-job-297533-8/summary.json",
+      "summary_sha256": "3f24bed724af7f569ef35b0828eea5e110184825e92c24cfe2f3d11c4de5d1a1"
+    },
+    {
+      "arm": "residual_diffusion",
+      "best_step": 100000,
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/shuffled_action/seed-6102-job-297533-10/best.pt",
+      "checkpoint_sha256": "5b1a2e27cb6d037db02ecb55f45eaedf7566638a0d34ce951b000176de759d8a",
+      "condition": "shuffled_action",
+      "endpoints": [
+        "RDX_shuffled",
+        "AE_shuffled"
+      ],
+      "final_validation": {
+        "action_contrastive_hinge": 0.050001965103149415,
+        "by_sigma": {
+          "0.25": {
+            "examples": 100000,
+            "permuted_action_cost": 0.009221081447601318,
+            "true_action_cost": 0.009213439712524415,
+            "true_action_pairwise_accuracy": 0.50398,
+            "wrong_minus_true_margin": 7.641735076904297e-06
+          },
+          "1.0": {
+            "examples": 100000,
+            "permuted_action_cost": 0.02486083972930908,
+            "true_action_cost": 0.02485887145996094,
+            "true_action_pairwise_accuracy": 0.49951,
+            "wrong_minus_true_margin": 1.9682693481445314e-06
+          },
+          "4.0": {
+            "examples": 100000,
+            "permuted_action_cost": 0.13308385696411132,
+            "true_action_cost": 0.13315650390625,
+            "true_action_pairwise_accuracy": 0.49374,
+            "wrong_minus_true_margin": -7.264694213867187e-05
+          }
+        },
+        "composite_loss": 0.0807127110678355,
+        "diagnostic_permuted_action_cost": 0.05572192604700724,
+        "diagnostic_true_action_cost": 0.05574293835957845,
+        "diagnostic_true_action_pairwise_accuracy": 0.49907666666666667,
+        "diagnostic_wrong_minus_true_margin": -2.101231257120768e-05,
+        "examples": 100000,
+        "selected_condition_cost": 0.05572192604700724,
+        "unconditional_cost": 0.055670938393274944
+      },
+      "kind": "residual_diffusion_x0_multiseed_d2_training",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 19389.564118078033,
+        "elapsed_seconds": 0.7736120269983076,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 10.314827026644101,
+        "microseconds_per_network_pair": 0.2148922297217521,
+        "milliseconds_per_candidate_sequence": 0.051574135133220504,
+        "network_pair_evaluations": 3600000,
+        "network_pairs_per_sequence": 240,
+        "outputs_computed_jointly": [
+          "RDX_shuffled",
+          "AE_shuffled"
+        ],
+        "transition_batch_size": 8192
+      },
+      "parameter_count": 2032320,
+      "protocol_sha256": "c38e086ee09cbabaa9ab53246add92835d59f95173b5f35290f474abb94a4dfb",
+      "seed": 6102,
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/shuffled_action/seed-6102-job-297533-10/summary.json",
+      "summary_sha256": "706ead1562b6e17a7d36cfc6eb6754dfb66f3ec25715145ad8c39dafd4bb6fb4"
+    },
+    {
+      "arm": "residual_diffusion",
+      "best_step": 100000,
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/true/seed-6103-job-297533-9/best.pt",
+      "checkpoint_sha256": "5e384171561aa4989dd62a9b77b8f85d58cedbc3fc7d1f126c1dba6d900605db",
+      "condition": "true",
+      "endpoints": [
+        "RDX",
+        "AE"
+      ],
+      "final_validation": {
+        "action_contrastive_hinge": 0.000813929159939289,
+        "by_sigma": {
+          "0.25": {
+            "examples": 100000,
+            "permuted_action_cost": 1.1165142419433594,
+            "true_action_cost": 0.009016488380432128,
+            "true_action_pairwise_accuracy": 0.99932,
+            "wrong_minus_true_margin": 1.1074977535629273
+          },
+          "1.0": {
+            "examples": 100000,
+            "permuted_action_cost": 1.2814010375976563,
+            "true_action_cost": 0.01185001335144043,
+            "true_action_pairwise_accuracy": 0.99932,
+            "wrong_minus_true_margin": 1.2695510242462158
+          },
+          "4.0": {
+            "examples": 100000,
+            "permuted_action_cost": 1.6543462890625,
+            "true_action_cost": 0.021604211769104004,
+            "true_action_pairwise_accuracy": 0.9989,
+            "wrong_minus_true_margin": 1.632742077293396
+          }
+        },
+        "composite_loss": 0.02530934661172827,
+        "diagnostic_permuted_action_cost": 1.3507538562011718,
+        "diagnostic_true_action_cost": 0.01415690450032552,
+        "diagnostic_true_action_pairwise_accuracy": 0.99918,
+        "diagnostic_wrong_minus_true_margin": 1.3365969517008462,
+        "examples": 100000,
+        "selected_condition_cost": 0.01415690450032552,
+        "unconditional_cost": 0.06788429215749105
+      },
+      "kind": "residual_diffusion_x0_multiseed_d2_training",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 19383.214710522218,
+        "elapsed_seconds": 0.7738654410022718,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 10.318205880030291,
+        "microseconds_per_network_pair": 0.21496262250063106,
+        "milliseconds_per_candidate_sequence": 0.05159102940015146,
+        "network_pair_evaluations": 3600000,
+        "network_pairs_per_sequence": 240,
+        "outputs_computed_jointly": [
+          "RDX",
+          "AE"
+        ],
+        "transition_batch_size": 8192
+      },
+      "parameter_count": 2032320,
+      "protocol_sha256": "c38e086ee09cbabaa9ab53246add92835d59f95173b5f35290f474abb94a4dfb",
+      "seed": 6103,
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/true/seed-6103-job-297533-9/summary.json",
+      "summary_sha256": "c503f50213bec0c39c016143e75cebfe67eae1399b6bd8f7cb6c207d6ca85073"
+    },
+    {
+      "arm": "residual_diffusion",
+      "best_step": 100000,
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/shuffled_action/seed-6103-job-297533-11/best.pt",
+      "checkpoint_sha256": "11b18cfdee7a1f4d6eab3786baf8e19c80a4f46c59b1095bbe583525c10cd6f2",
+      "condition": "shuffled_action",
+      "endpoints": [
+        "RDX_shuffled",
+        "AE_shuffled"
+      ],
+      "final_validation": {
+        "action_contrastive_hinge": 0.05000875881195068,
+        "by_sigma": {
+          "0.25": {
+            "examples": 100000,
+            "permuted_action_cost": 0.009197999668121338,
+            "true_action_cost": 0.009185345544815064,
+            "true_action_pairwise_accuracy": 0.5066,
+            "wrong_minus_true_margin": 1.2654123306274414e-05
+          },
+          "1.0": {
+            "examples": 100000,
+            "permuted_action_cost": 0.024998690490722657,
+            "true_action_cost": 0.024987563362121584,
+            "true_action_pairwise_accuracy": 0.50186,
+            "wrong_minus_true_margin": 1.112712860107422e-05
+          },
+          "4.0": {
+            "examples": 100000,
+            "permuted_action_cost": 0.13305160690307616,
+            "true_action_cost": 0.13302229583740235,
+            "true_action_pairwise_accuracy": 0.50438,
+            "wrong_minus_true_margin": 2.9311065673828125e-05
+          }
+        },
+        "composite_loss": 0.08074248550287882,
+        "diagnostic_permuted_action_cost": 0.05574943235397339,
+        "diagnostic_true_action_cost": 0.05573173491477966,
+        "diagnostic_true_action_pairwise_accuracy": 0.50428,
+        "diagnostic_wrong_minus_true_margin": 1.7697439193725587e-05,
+        "examples": 100000,
+        "selected_condition_cost": 0.05574943235397339,
+        "unconditional_cost": 0.055692801068623864
+      },
+      "kind": "residual_diffusion_x0_multiseed_d2_training",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 19011.725103795052,
+        "elapsed_seconds": 0.7889867919984681,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 10.519823893312909,
+        "microseconds_per_network_pair": 0.21916299777735226,
+        "milliseconds_per_candidate_sequence": 0.052599119466564544,
+        "network_pair_evaluations": 3600000,
+        "network_pairs_per_sequence": 240,
+        "outputs_computed_jointly": [
+          "RDX_shuffled",
+          "AE_shuffled"
+        ],
+        "transition_batch_size": 8192
+      },
+      "parameter_count": 2032320,
+      "protocol_sha256": "c38e086ee09cbabaa9ab53246add92835d59f95173b5f35290f474abb94a4dfb",
+      "seed": 6103,
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers-v3-d2/cube/shuffled_action/seed-6103-job-297533-11/summary.json",
+      "summary_sha256": "a8dae4547218819208c225c54f0f41729449e3c77722e14f9135ce0145a21e3e"
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6101-job-296669-6/best.pt",
+      "checkpoint_sha256": "1691fb0f6864dbad830a814cc98e54534a150da081299f40f3db77dea503ed62",
+      "label": "forward_true_seed_6101",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 984676.1417445489,
+        "elapsed_seconds": 0.015233434998663142,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.2031124666488419,
+        "microseconds_per_network_pair": 0.2031124666488419,
+        "milliseconds_per_candidate_sequence": 0.0010155623332442096,
+        "network_pair_evaluations": 75000,
+        "network_pairs_per_sequence": 5,
+        "outputs_computed_jointly": [
+          "forward"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "capacity_reference": {
+          "matched_parameter_count": 2011544,
+          "model": "diffusion",
+          "parameter_count": 2031936,
+          "relative_difference": 0.010035749157453778,
+          "width_grid": {
+            "maximum": 640,
+            "minimum": 128,
+            "step": 8
+          }
+        },
+        "depth": 3,
+        "latent_dim": 192,
+        "name": "forward",
+        "width": 392
+      },
+      "parameter_count": 2011544,
+      "seed": 6101,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.384185791015625e-07
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6102-job-296669-7/best.pt",
+      "checkpoint_sha256": "ae533413735dc59953272e5fe02b5da23f2b995ef11528ccc6727d256f7d5400",
+      "label": "forward_true_seed_6102",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 955835.0670888245,
+        "elapsed_seconds": 0.015693084002123214,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.20924112002830952,
+        "microseconds_per_network_pair": 0.20924112002830952,
+        "milliseconds_per_candidate_sequence": 0.0010462056001415477,
+        "network_pair_evaluations": 75000,
+        "network_pairs_per_sequence": 5,
+        "outputs_computed_jointly": [
+          "forward"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "capacity_reference": {
+          "matched_parameter_count": 2011544,
+          "model": "diffusion",
+          "parameter_count": 2031936,
+          "relative_difference": 0.010035749157453778,
+          "width_grid": {
+            "maximum": 640,
+            "minimum": 128,
+            "step": 8
+          }
+        },
+        "depth": 3,
+        "latent_dim": 192,
+        "name": "forward",
+        "width": 392
+      },
+      "parameter_count": 2011544,
+      "seed": 6102,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.2351741790771484e-07
+    },
+    {
+      "arm": "forward",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6103-job-296669-8/best.pt",
+      "checkpoint_sha256": "db3285b38c469f139ed0879ac4cf4e9d8bfdea1540efd6c56f8de36627381aed",
+      "label": "forward_true_seed_6103",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 1004841.9986554194,
+        "elapsed_seconds": 0.014927719999832334,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.1990362666644311,
+        "microseconds_per_network_pair": 0.1990362666644311,
+        "milliseconds_per_candidate_sequence": 0.0009951813333221556,
+        "network_pair_evaluations": 75000,
+        "network_pairs_per_sequence": 5,
+        "outputs_computed_jointly": [
+          "forward"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "capacity_reference": {
+          "matched_parameter_count": 2011544,
+          "model": "diffusion",
+          "parameter_count": 2031936,
+          "relative_difference": 0.010035749157453778,
+          "width_grid": {
+            "maximum": 640,
+            "minimum": 128,
+            "step": 8
+          }
+        },
+        "depth": 3,
+        "latent_dim": 192,
+        "name": "forward",
+        "width": 392
+      },
+      "parameter_count": 2011544,
+      "seed": 6103,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.682209014892578e-07
+    },
+    {
+      "arm": "dtv",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6101-job-296669-3/best.pt",
+      "checkpoint_model_arm": "diffusion",
+      "checkpoint_sha256": "7dcb95f0f96cb03a15f5eee61e0c636d5f7e1fd060c23be974a528c35ead26c8",
+      "label": "legacy_dtv_true_seed_6101",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 356950.94500655704,
+        "elapsed_seconds": 0.042022581001219805,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.5603010800162641,
+        "microseconds_per_network_pair": 0.18676702667208803,
+        "milliseconds_per_candidate_sequence": 0.00280150540008132,
+        "network_pair_evaluations": 225000,
+        "network_pairs_per_sequence": 15,
+        "outputs_computed_jointly": [
+          "legacy_DTV"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "depth": 3,
+        "latent_dim": 192,
+        "name": "diffusion",
+        "noise_embedding_dim": 64,
+        "sigma_distribution": "log_uniform",
+        "sigma_max": 1.0,
+        "sigma_min": 0.01,
+        "width": 384
+      },
+      "parameter_count": 2031936,
+      "seed": 6101,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.384185791015625e-07
+    },
+    {
+      "arm": "dtv",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6102-job-296669-4/best.pt",
+      "checkpoint_model_arm": "diffusion",
+      "checkpoint_sha256": "741de03107fe79d7f819e70527cc3089f48f85aaaca1c8e9190c4c559c9c742f",
+      "label": "legacy_dtv_true_seed_6102",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 347911.61069738725,
+        "elapsed_seconds": 0.04311439899902325,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.57485865332031,
+        "microseconds_per_network_pair": 0.19161955110677,
+        "milliseconds_per_candidate_sequence": 0.0028742932666015503,
+        "network_pair_evaluations": 225000,
+        "network_pairs_per_sequence": 15,
+        "outputs_computed_jointly": [
+          "legacy_DTV"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "depth": 3,
+        "latent_dim": 192,
+        "name": "diffusion",
+        "noise_embedding_dim": 64,
+        "sigma_distribution": "log_uniform",
+        "sigma_max": 1.0,
+        "sigma_min": 0.01,
+        "width": 384
+      },
+      "parameter_count": 2031936,
+      "seed": 6102,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.384185791015625e-07
+    },
+    {
+      "arm": "dtv",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6103-job-296669-5/best.pt",
+      "checkpoint_model_arm": "diffusion",
+      "checkpoint_sha256": "cc59504558645476d091fdc5c39c3c58ef157dd5c0ad67e8c75792c87dc2bcba",
+      "label": "legacy_dtv_true_seed_6103",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 361703.9874908418,
+        "elapsed_seconds": 0.041470374999335036,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.5529383333244672,
+        "microseconds_per_network_pair": 0.18431277777482238,
+        "milliseconds_per_candidate_sequence": 0.0027646916666223356,
+        "network_pair_evaluations": 225000,
+        "network_pairs_per_sequence": 15,
+        "outputs_computed_jointly": [
+          "legacy_DTV"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "depth": 3,
+        "latent_dim": 192,
+        "name": "diffusion",
+        "noise_embedding_dim": 64,
+        "sigma_distribution": "log_uniform",
+        "sigma_max": 1.0,
+        "sigma_min": 0.01,
+        "width": 384
+      },
+      "parameter_count": 2031936,
+      "seed": 6103,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.980232238769531e-07
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/true/seed-6101-job-296671-0/best.pt",
+      "checkpoint_sha256": "ffc158daee855c4794e51ba48abbbc2045851db2c25080a4c4fe1a50673dd9b8",
+      "label": "reachability_true_seed_6101",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 859426.4269539275,
+        "elapsed_seconds": 0.017453500997362426,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.232713346631499,
+        "microseconds_per_network_pair": 1.163566733157495,
+        "milliseconds_per_candidate_sequence": 0.001163566733157495,
+        "network_pair_evaluations": 15000,
+        "network_pairs_per_sequence": 1,
+        "outputs_computed_jointly": [
+          "reachability"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "hidden_width": 256,
+        "latent_dim": 192,
+        "name": "reachability"
+      },
+      "parameter_count": 262913,
+      "seed": 6101,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 1.7881393432617188e-07
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/true/seed-6102-job-296671-1/best.pt",
+      "checkpoint_sha256": "548631decf704c8ca14375b5fffa9a4e302d4ec6406e7e2c7fa4ab6b304e86f9",
+      "label": "reachability_true_seed_6102",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 8852377.75247075,
+        "elapsed_seconds": 0.0016944599992712028,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.022592799990282703,
+        "microseconds_per_network_pair": 0.11296399995141353,
+        "milliseconds_per_candidate_sequence": 0.00011296399995141352,
+        "network_pair_evaluations": 15000,
+        "network_pairs_per_sequence": 1,
+        "outputs_computed_jointly": [
+          "reachability"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "hidden_width": 256,
+        "latent_dim": 192,
+        "name": "reachability"
+      },
+      "parameter_count": 262913,
+      "seed": 6102,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.086162567138672e-07
+    },
+    {
+      "arm": "reachability",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/reachability/true/seed-6103-job-296671-2/best.pt",
+      "checkpoint_sha256": "6e60966ea66f5518573d5eead7ae6a4da6f3c923939e4382e3f4aa21b2b4d8f3",
+      "label": "reachability_true_seed_6103",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 8938840.440157995,
+        "elapsed_seconds": 0.0016780700025265105,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 0.022374266700353473,
+        "microseconds_per_network_pair": 0.11187133350176737,
+        "milliseconds_per_candidate_sequence": 0.00011187133350176737,
+        "network_pair_evaluations": 15000,
+        "network_pairs_per_sequence": 1,
+        "outputs_computed_jointly": [
+          "reachability"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "hidden_width": 256,
+        "latent_dim": 192,
+        "name": "reachability"
+      },
+      "parameter_count": 262913,
+      "seed": 6103,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc",
+      "validation_max_abs_against_shared_score": 2.384185791015625e-07
+    },
+    {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6101-job-296669-0/best.pt",
+      "checkpoint_sha256": "dade8d6afd8392f475d1e56c031f330c4e72c924e2c4254c2bcca5bf6d6be416",
+      "inference_sampling": "one independent Gaussian draw per candidate and horizon transition",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 150218.55447622304,
+        "elapsed_seconds": 0.09985450900057913,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 1.331393453341055,
+        "microseconds_per_network_pair": 1.331393453341055,
+        "milliseconds_per_candidate_sequence": 0.006656967266705275,
+        "network_pair_evaluations": 75000,
+        "network_pairs_per_sequence": 5,
+        "outputs_computed_jointly": [
+          "ACID"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "depth": 4,
+        "heads": 3,
+        "latent_dim": 192,
+        "mlp_ratio": 4,
+        "name": "acid",
+        "reconstruction_choices": {
+          "action_projection": "biased_linear",
+          "activation": "GELU",
+          "dropout": 0.0,
+          "latent_projection": "one_shared_biased_linear_for_both_prefix_tokens",
+          "mlp_ratio": 4,
+          "normalization": "pre_layer_norm",
+          "time_embedding": "sinusoidal_tau_max_period_10000",
+          "token_position": "learned_three_token_embedding",
+          "transformer_implementation": "torch.nn.TransformerEncoderLayer",
+          "velocity_head": "final_layer_norm_then_biased_linear"
+        },
+        "width": 192
+      },
+      "noise_seed": 1065107710870119567,
+      "noise_stream_key": {
+        "cost_call_index": 1,
+        "planner_seed": 8201,
+        "scorer_seed": 6101,
+        "task": "cube"
+      },
+      "parameter_count": 1827289,
+      "seed": 6101,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc"
+    },
+    {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6102-job-296669-1/best.pt",
+      "checkpoint_sha256": "03c00b01b2e9e038f3b553ee52288cb886432cc6e17f3c0e81e3ea49bb8b8830",
+      "inference_sampling": "one independent Gaussian draw per candidate and horizon transition",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 151010.64326334788,
+        "elapsed_seconds": 0.09933074699802091,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 1.324409959973612,
+        "microseconds_per_network_pair": 1.324409959973612,
+        "milliseconds_per_candidate_sequence": 0.006622049799868061,
+        "network_pair_evaluations": 75000,
+        "network_pairs_per_sequence": 5,
+        "outputs_computed_jointly": [
+          "ACID"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "depth": 4,
+        "heads": 3,
+        "latent_dim": 192,
+        "mlp_ratio": 4,
+        "name": "acid",
+        "reconstruction_choices": {
+          "action_projection": "biased_linear",
+          "activation": "GELU",
+          "dropout": 0.0,
+          "latent_projection": "one_shared_biased_linear_for_both_prefix_tokens",
+          "mlp_ratio": 4,
+          "normalization": "pre_layer_norm",
+          "time_embedding": "sinusoidal_tau_max_period_10000",
+          "token_position": "learned_three_token_embedding",
+          "transformer_implementation": "torch.nn.TransformerEncoderLayer",
+          "velocity_head": "final_layer_norm_then_biased_linear"
+        },
+        "width": 192
+      },
+      "noise_seed": 5069179255438078006,
+      "noise_stream_key": {
+        "cost_call_index": 1,
+        "planner_seed": 8201,
+        "scorer_seed": 6102,
+        "task": "cube"
+      },
+      "parameter_count": 1827289,
+      "seed": 6102,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc"
+    },
+    {
+      "arm": "acid",
+      "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/acid/true/seed-6103-job-296669-2/best.pt",
+      "checkpoint_sha256": "cc1c6a1bad9cc16d521a8e02f15d6a1d4ba423265e4c031801b1c086e12a468d",
+      "inference_sampling": "one independent Gaussian draw per candidate and horizon transition",
+      "latency": {
+        "candidate_sequences": 15000,
+        "candidate_sequences_per_second": 149826.8630712318,
+        "elapsed_seconds": 0.10011555800156202,
+        "horizon_transitions": 75000,
+        "measurement": "one 300-sequence warmup pool followed by one CUDA-synchronized exact full-D2 scorer pass; excludes model loading and shared world-model rollout",
+        "microseconds_per_horizon_transition": 1.3348741066874936,
+        "microseconds_per_network_pair": 1.3348741066874936,
+        "milliseconds_per_candidate_sequence": 0.0066743705334374685,
+        "network_pair_evaluations": 75000,
+        "network_pairs_per_sequence": 5,
+        "outputs_computed_jointly": [
+          "ACID"
+        ],
+        "transition_batch_size": 8192
+      },
+      "model_config": {
+        "action_dim": 25,
+        "depth": 4,
+        "heads": 3,
+        "latent_dim": 192,
+        "mlp_ratio": 4,
+        "name": "acid",
+        "reconstruction_choices": {
+          "action_projection": "biased_linear",
+          "activation": "GELU",
+          "dropout": 0.0,
+          "latent_projection": "one_shared_biased_linear_for_both_prefix_tokens",
+          "mlp_ratio": 4,
+          "normalization": "pre_layer_norm",
+          "time_embedding": "sinusoidal_tau_max_period_10000",
+          "token_position": "learned_three_token_embedding",
+          "transformer_implementation": "torch.nn.TransformerEncoderLayer",
+          "velocity_head": "final_layer_norm_then_biased_linear"
+        },
+        "width": 192
+      },
+      "noise_seed": 2412135478722433257,
+      "noise_stream_key": {
+        "cost_call_index": 1,
+        "planner_seed": 8201,
+        "scorer_seed": 6103,
+        "task": "cube"
+      },
+      "parameter_count": 1827289,
+      "seed": 6103,
+      "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc"
+    }
+  ],
+  "shared_score_manifest": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/shared-score/job-297538-2/manifest.json",
+  "shared_score_manifest_sha256": "424e19d8171074359f9b2174edae24c6b7d9c9acf00bb63ea984fb392e9edc5a",
+  "shared_scores": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/shared-score/job-297538-2/candidate-scores.pt",
+  "shared_scores_sha256": "0009530ce002043595187a6bc062b184d0d12331c51778ca55606c10ab3fccc6",
+  "sigmas": [
+    0.25,
+    1.0,
+    4.0
+  ],
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-v3-d2-2c8f890c31e9f5bf/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "2c8f890c31e9f5bf5e8b6769ccc424d7cd565278c422405d507d1c702d3580ea",
+  "status": "ok",
+  "task": "cube",
+  "upstream_source_manifest_sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+  "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+}

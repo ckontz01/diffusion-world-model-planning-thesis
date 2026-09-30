@@ -1,0 +1,219 @@
+{
+  "alternative_to_acid_claim_allowed": false,
+  "analysis_role": "post_v3_exploratory_d2_closed_loop_development",
+  "arm": "acid",
+  "cem_cost_calls": 3000,
+  "cem_diagnostics": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6102-planner-seed-8302-job-297572-4/cem-diagnostics.jsonl",
+  "cem_diagnostics_sha256": "a7dad46f4c540b3f2bd2f8268d7703ac437a0671192e25270974dcd2b94e63e7",
+  "confirmation_claim_allowed": false,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5",
+  "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+  "elapsed_seconds": 368.37347388267517,
+  "episode_count": 50,
+  "episodes_tsv": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6102-planner-seed-8302-job-297572-4/episodes.tsv",
+  "episodes_tsv_sha256": "a415ba4208bc1d6c62461cd457647e20151dfecd7d1643e157b627716473fd0c",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/pusht/job-297535/d2-fresh.tsv",
+  "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+  "eval_provenance": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/pusht/job-297535/provenance.json",
+  "eval_provenance_sha256": "fcb07dfb55822bc6717c56016f62f26646a7486b8c834762d4bf0fd8eb771ede",
+  "exploratory_authorization": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/authorization/job-297571/authorization.json",
+  "exploratory_authorization_sha256": "88b6901f2ad4d4eed8ad276849b1c91343fd4d25d9dfbbe422b0d5bef5eec8a5",
+  "kind": "acid_alt_e3_d2_exploratory_closed_loop_evaluation",
+  "metrics": {
+    "episode_successes": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    "seeds": null,
+    "success_rate": 88.0
+  },
+  "planner_seed": 8302,
+  "protected_c1_i1_read": false,
+  "protocol": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e3-d2-323318f12407690c/ACID-ALTERNATIVE-E3-EXPLORATORY-D2-CLOSED-LOOP-PROTOCOL-2026-08-16.md",
+  "protocol_sha256": "c48eaf320c9b378af5e5d265397af8efd3485c45a288481d25f5161238af1fb0",
+  "resolved_config": {
+    "acid_noise_stream": "SHA-256(task, scorer seed, planner seed, cost-call index)",
+    "action_block": 5,
+    "action_standardization": {
+      "actual_mean": [
+        -0.007812564379916172,
+        0.006860687229453032
+      ],
+      "actual_scale": [
+        0.20846744284501714,
+        0.20674862637362224
+      ],
+      "exact_legacy_float32_refit_match": {
+        "mean": false,
+        "scale": false
+      },
+      "exact_source_dtype_match": {
+        "mean": true,
+        "scale": true
+      },
+      "expected_mean": [
+        -0.007812564379916172,
+        0.006860687229453032
+      ],
+      "expected_scale": [
+        0.20846744284501714,
+        0.20674862637362224
+      ],
+      "float32_rounding_envelope": 4.76837158203125e-07,
+      "maximum_absolute_difference": {
+        "mean": 0.0,
+        "scale": 0.0
+      },
+      "mode": "exact_source_dtype",
+      "source_action_dtype": "float32",
+      "source_rows": 2336736,
+      "status": "pass",
+      "usable_rows": 2336736
+    },
+    "arm": "acid",
+    "callables": [
+      {
+        "args": {
+          "state": {
+            "value": "state"
+          }
+        },
+        "method": "_set_state"
+      },
+      {
+        "args": {
+          "goal_state": {
+            "value": "goal_state"
+          }
+        },
+        "method": "_set_goal_state"
+      }
+    ],
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "eval_budget": 50,
+    "goal_offset": 25,
+    "horizon": 5,
+    "lambda_weight": 0.07,
+    "planner_seed": 8302,
+    "receding_horizon": 5,
+    "residual_noise_draws": 8,
+    "residual_sigmas": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "scorer_seed": 6102,
+    "task": "pusht",
+    "world": {
+      "env_name": "swm/PushT-v1",
+      "max_episode_steps": 100,
+      "num_envs": 50
+    }
+  },
+  "resolved_world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 502199296,
+    "peak_cuda_memory_reserved_bytes": 511705088,
+    "python": "3.11.10",
+    "slurm_array_task_id": "4",
+    "slurm_job_id": "297578",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "scorer": {
+    "arm": "acid",
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/acid/true/seed-6102-job-296631-1/best.pt",
+    "checkpoint_sha256": "1ae9a988c93321d6de9ffdbb22faebc8289d82f76ae171d51e1754fe9be228f8",
+    "model_config": {
+      "action_dim": 10,
+      "depth": 4,
+      "heads": 3,
+      "latent_dim": 192,
+      "mlp_ratio": 4,
+      "name": "acid",
+      "reconstruction_choices": {
+        "action_projection": "biased_linear",
+        "activation": "GELU",
+        "dropout": 0.0,
+        "latent_projection": "one_shared_biased_linear_for_both_prefix_tokens",
+        "mlp_ratio": 4,
+        "normalization": "pre_layer_norm",
+        "time_embedding": "sinusoidal_tau_max_period_10000",
+        "token_position": "learned_three_token_embedding",
+        "transformer_implementation": "torch.nn.TransformerEncoderLayer",
+        "velocity_head": "final_layer_norm_then_biased_linear"
+      },
+      "width": 192
+    },
+    "parameter_count": 1821514,
+    "seed": 6102,
+    "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc"
+  },
+  "scorer_seed": 6102,
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e3-d2-323318f12407690c/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "323318f12407690c4ebff4a738cd3676c1321c29748da3fc8cb24aa0de6d63c5",
+  "stage_a_manifest_sha256": "3558b8612787035cfa92c17d8a36f46f379bb2812f67aa0a73438d8cab974053",
+  "stage_a_summary_sha256": "0af2181b1060d761a295c885f2eae34af47a0fd94992a8f3a59cf05e57ecbe37",
+  "status": "ok",
+  "success_count": 44,
+  "success_rate_fraction": 0.88,
+  "task": "pusht",
+  "upstream_source_manifest_sha256": "2c8f890c31e9f5bf5e8b6769ccc424d7cd565278c422405d507d1c702d3580ea",
+  "v3_stage_b_authorized": false,
+  "v3_upstream_source_manifest_sha256": "875a9cbc19dba78db1706169b7f2d8bc97a70913d82b55f793735dfe8c2df388",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+  "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+  "world_model_policy": "pusht/lewm_hf_22b330c"
+}

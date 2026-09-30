@@ -1,0 +1,1001 @@
+[
+  {
+    "task": "cube",
+    "scorer_seed": 6101,
+    "planner_seed": 7101,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "qpos": {
+              "value": "qpos"
+            },
+            "qvel": {
+              "value": "qvel"
+            }
+          },
+          "method": "set_state"
+        },
+        {
+          "args": {
+            "cube_id": {
+              "in_dataset": false,
+              "value": 0
+            },
+            "target_pos": {
+              "value": "goal_privileged_block_0_pos"
+            },
+            "target_quat": {
+              "value": "goal_privileged_block_0_quat"
+            }
+          },
+          "method": "set_target_pos"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          0.0108846967805138,
+          -0.0031414329928013945,
+          0.0026465825646189004,
+          0.0004239286647865428,
+          0.15925256653030173
+        ],
+        "actual_scale": [
+          0.2894198325506555,
+          0.39371697495490987,
+          0.6431365217957304,
+          0.3928016202283424,
+          0.2503073640045173
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": false,
+          "scale": false
+        },
+        "exact_source_dtype_match": {
+          "mean": true,
+          "scale": true
+        },
+        "expected_mean": [
+          0.0108846967805138,
+          -0.0031414329928013945,
+          0.0026465825646189004,
+          0.0004239286647865428,
+          0.15925256653030173
+        ],
+        "expected_scale": [
+          0.2894198325506555,
+          0.39371697495490987,
+          0.6431365217957304,
+          0.3928016202283424,
+          0.2503073640045173
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 0.0,
+          "scale": 0.0
+        },
+        "mode": "exact_source_dtype",
+        "source_action_dtype": "float32",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "planner_seed": 7101,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/OGBCube-v0",
+        "env_type": "single",
+        "height": 224,
+        "max_episode_steps": 100,
+        "multiview": false,
+        "num_envs": 24,
+        "ob_type": "states",
+        "terminate_at_goal": true,
+        "visualize_info": false,
+        "width": 224
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6101-job-296669-3/best.pt",
+    "checkpoint_sha256": "7dcb95f0f96cb03a15f5eee61e0c636d5f7e1fd060c23be974a528c35ead26c8",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\cube\\pop300-lambda007-sigma025\\diffusion\\train-seed-6101-planner-seed-7101-job-297083-99\\summary.json",
+    "artifact_sha256": "f0fdf2dce9ee8583d3b7b82fc6dd745ff3261ef84432a200067dd8770f1ea5b6",
+    "elapsed_seconds": 188.80397987365723,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 17,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 504144384,
+      "peak_cuda_memory_reserved_bytes": 528482304,
+      "python": "3.11.10",
+      "slurm_job_id": "297083_99",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "cube",
+    "scorer_seed": 6102,
+    "planner_seed": 7102,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "qpos": {
+              "value": "qpos"
+            },
+            "qvel": {
+              "value": "qvel"
+            }
+          },
+          "method": "set_state"
+        },
+        {
+          "args": {
+            "cube_id": {
+              "in_dataset": false,
+              "value": 0
+            },
+            "target_pos": {
+              "value": "goal_privileged_block_0_pos"
+            },
+            "target_quat": {
+              "value": "goal_privileged_block_0_quat"
+            }
+          },
+          "method": "set_target_pos"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          0.0108846967805138,
+          -0.0031414329928013945,
+          0.0026465825646189004,
+          0.0004239286647865428,
+          0.15925256653030173
+        ],
+        "actual_scale": [
+          0.2894198325506555,
+          0.39371697495490987,
+          0.6431365217957304,
+          0.3928016202283424,
+          0.2503073640045173
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": false,
+          "scale": false
+        },
+        "exact_source_dtype_match": {
+          "mean": true,
+          "scale": true
+        },
+        "expected_mean": [
+          0.0108846967805138,
+          -0.0031414329928013945,
+          0.0026465825646189004,
+          0.0004239286647865428,
+          0.15925256653030173
+        ],
+        "expected_scale": [
+          0.2894198325506555,
+          0.39371697495490987,
+          0.6431365217957304,
+          0.3928016202283424,
+          0.2503073640045173
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 0.0,
+          "scale": 0.0
+        },
+        "mode": "exact_source_dtype",
+        "source_action_dtype": "float32",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "planner_seed": 7102,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/OGBCube-v0",
+        "env_type": "single",
+        "height": 224,
+        "max_episode_steps": 100,
+        "multiview": false,
+        "num_envs": 24,
+        "ob_type": "states",
+        "terminate_at_goal": true,
+        "visualize_info": false,
+        "width": 224
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6102-job-296669-4/best.pt",
+    "checkpoint_sha256": "741de03107fe79d7f819e70527cc3089f48f85aaaca1c8e9190c4c559c9c742f",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\cube\\pop300-lambda007-sigma025\\diffusion\\train-seed-6102-planner-seed-7102-job-297083-100\\summary.json",
+    "artifact_sha256": "7c2d9052b9df1d6cb38891d5f4ea8d6138f672bb7ef8e9afbb1fc50960d6e751",
+    "elapsed_seconds": 179.53668403625488,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 20,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 504144384,
+      "peak_cuda_memory_reserved_bytes": 528482304,
+      "python": "3.11.10",
+      "slurm_job_id": "297083_100",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "cube",
+    "scorer_seed": 6103,
+    "planner_seed": 7103,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "qpos": {
+              "value": "qpos"
+            },
+            "qvel": {
+              "value": "qvel"
+            }
+          },
+          "method": "set_state"
+        },
+        {
+          "args": {
+            "cube_id": {
+              "in_dataset": false,
+              "value": 0
+            },
+            "target_pos": {
+              "value": "goal_privileged_block_0_pos"
+            },
+            "target_quat": {
+              "value": "goal_privileged_block_0_quat"
+            }
+          },
+          "method": "set_target_pos"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          0.0108846967805138,
+          -0.0031414329928013945,
+          0.0026465825646189004,
+          0.0004239286647865428,
+          0.15925256653030173
+        ],
+        "actual_scale": [
+          0.2894198325506555,
+          0.39371697495490987,
+          0.6431365217957304,
+          0.3928016202283424,
+          0.2503073640045173
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": false,
+          "scale": false
+        },
+        "exact_source_dtype_match": {
+          "mean": true,
+          "scale": true
+        },
+        "expected_mean": [
+          0.0108846967805138,
+          -0.0031414329928013945,
+          0.0026465825646189004,
+          0.0004239286647865428,
+          0.15925256653030173
+        ],
+        "expected_scale": [
+          0.2894198325506555,
+          0.39371697495490987,
+          0.6431365217957304,
+          0.3928016202283424,
+          0.2503073640045173
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 0.0,
+          "scale": 0.0
+        },
+        "mode": "exact_source_dtype",
+        "source_action_dtype": "float32",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "planner_seed": 7103,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/OGBCube-v0",
+        "env_type": "single",
+        "height": 224,
+        "max_episode_steps": 100,
+        "multiview": false,
+        "num_envs": 24,
+        "ob_type": "states",
+        "terminate_at_goal": true,
+        "visualize_info": false,
+        "width": 224
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/diffusion/true/seed-6103-job-296669-5/best.pt",
+    "checkpoint_sha256": "cc59504558645476d091fdc5c39c3c58ef157dd5c0ad67e8c75792c87dc2bcba",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\cube\\pop300-lambda007-sigma025\\diffusion\\train-seed-6103-planner-seed-7103-job-297083-101\\summary.json",
+    "artifact_sha256": "9975619466ee1df182eb84762908f8a82936649156310fc46f4dac8a6e80b99d",
+    "elapsed_seconds": 183.4119610786438,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 19,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 504144384,
+      "peak_cuda_memory_reserved_bytes": 528482304,
+      "python": "3.11.10",
+      "slurm_job_id": "297083_101",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "pusht",
+    "scorer_seed": 6101,
+    "planner_seed": 7101,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "state": {
+              "value": "state"
+            }
+          },
+          "method": "_set_state"
+        },
+        {
+          "args": {
+            "goal_state": {
+              "value": "goal_state"
+            }
+          },
+          "method": "_set_goal_state"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          -0.007812564379916172,
+          0.006860687229453032
+        ],
+        "actual_scale": [
+          0.20846744284501714,
+          0.20674862637362224
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": false,
+          "scale": false
+        },
+        "exact_source_dtype_match": {
+          "mean": true,
+          "scale": true
+        },
+        "expected_mean": [
+          -0.007812564379916172,
+          0.006860687229453032
+        ],
+        "expected_scale": [
+          0.20846744284501714,
+          0.20674862637362224
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 0.0,
+          "scale": 0.0
+        },
+        "mode": "exact_source_dtype",
+        "source_action_dtype": "float32",
+        "source_rows": 2336736,
+        "status": "pass",
+        "usable_rows": 2336736
+      },
+      "planner_seed": 7101,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/PushT-v1",
+        "max_episode_steps": 100,
+        "num_envs": 24
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6101-job-296631-3/best.pt",
+    "checkpoint_sha256": "012d39be8a7cf9437e18110d9abc8a9b5abc95185c8c5ffc34042c0766405f14",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\pusht\\pop300-lambda007-sigma025\\diffusion\\train-seed-6101-planner-seed-7101-job-297059-99\\summary.json",
+    "artifact_sha256": "9f85d9f1041fdea13c8ea5f14c537947cd26988e1a310db4d22ebdd48057256f",
+    "elapsed_seconds": 177.14311480522156,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 22,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 503004672,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "python": "3.11.10",
+      "slurm_job_id": "297059_99",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "pusht",
+    "scorer_seed": 6102,
+    "planner_seed": 7102,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "state": {
+              "value": "state"
+            }
+          },
+          "method": "_set_state"
+        },
+        {
+          "args": {
+            "goal_state": {
+              "value": "goal_state"
+            }
+          },
+          "method": "_set_goal_state"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          -0.007812564379916172,
+          0.006860687229453032
+        ],
+        "actual_scale": [
+          0.20846744284501714,
+          0.20674862637362224
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": false,
+          "scale": false
+        },
+        "exact_source_dtype_match": {
+          "mean": true,
+          "scale": true
+        },
+        "expected_mean": [
+          -0.007812564379916172,
+          0.006860687229453032
+        ],
+        "expected_scale": [
+          0.20846744284501714,
+          0.20674862637362224
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 0.0,
+          "scale": 0.0
+        },
+        "mode": "exact_source_dtype",
+        "source_action_dtype": "float32",
+        "source_rows": 2336736,
+        "status": "pass",
+        "usable_rows": 2336736
+      },
+      "planner_seed": 7102,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/PushT-v1",
+        "max_episode_steps": 100,
+        "num_envs": 24
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6102-job-296631-4/best.pt",
+    "checkpoint_sha256": "968a6cab8bcebb79cccc12d2538d07b10752488196c9d9955aa96231988a97dd",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\pusht\\pop300-lambda007-sigma025\\diffusion\\train-seed-6102-planner-seed-7102-job-297059-100\\summary.json",
+    "artifact_sha256": "f4db6e49f79c53e616100ce8b3a73ddb9ecaf360d5d57156475059989ae72cd5",
+    "elapsed_seconds": 177.85108613967896,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 22,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 503004672,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "python": "3.11.10",
+      "slurm_job_id": "297059_100",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "pusht",
+    "scorer_seed": 6103,
+    "planner_seed": 7103,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "state": {
+              "value": "state"
+            }
+          },
+          "method": "_set_state"
+        },
+        {
+          "args": {
+            "goal_state": {
+              "value": "goal_state"
+            }
+          },
+          "method": "_set_goal_state"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          -0.007812564379916172,
+          0.006860687229453032
+        ],
+        "actual_scale": [
+          0.20846744284501714,
+          0.20674862637362224
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": false,
+          "scale": false
+        },
+        "exact_source_dtype_match": {
+          "mean": true,
+          "scale": true
+        },
+        "expected_mean": [
+          -0.007812564379916172,
+          0.006860687229453032
+        ],
+        "expected_scale": [
+          0.20846744284501714,
+          0.20674862637362224
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 0.0,
+          "scale": 0.0
+        },
+        "mode": "exact_source_dtype",
+        "source_action_dtype": "float32",
+        "source_rows": 2336736,
+        "status": "pass",
+        "usable_rows": 2336736
+      },
+      "planner_seed": 7103,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/PushT-v1",
+        "max_episode_steps": 100,
+        "num_envs": 24
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/pusht/diffusion/true/seed-6103-job-296631-5/best.pt",
+    "checkpoint_sha256": "f944f25fb6cd17385d1d1bd8b5abacc9dbeaba4ff6f9857fd95ab7d94d8113d3",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\pusht\\pop300-lambda007-sigma025\\diffusion\\train-seed-6103-planner-seed-7103-job-297059-101\\summary.json",
+    "artifact_sha256": "01eae2ac0ff221d29f0f79aa1fb54a0ecda9530db258447ea0cad1a78c248f5c",
+    "elapsed_seconds": 169.478937625885,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 21,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 503004672,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "python": "3.11.10",
+      "slurm_job_id": "297059_101",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "reacher",
+    "scorer_seed": 6101,
+    "planner_seed": 7101,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "qpos": {
+              "value": "qpos"
+            },
+            "qvel": {
+              "value": "qvel"
+            }
+          },
+          "method": "set_state"
+        },
+        {
+          "args": {
+            "target_qpos": {
+              "value": "goal_qpos"
+            }
+          },
+          "method": "set_target_qpos"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "planner_seed": 7101,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/ReacherDMControl-v0",
+        "max_episode_steps": 100,
+        "num_envs": 24,
+        "task": "qpos_match"
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6101-job-296650-3/best.pt",
+    "checkpoint_sha256": "169d44963b280eac331ef4294f9a5763b5fe08433f5af24126391a4e04e0e50a",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\reacher\\pop300-lambda007-sigma025\\diffusion\\train-seed-6101-planner-seed-7101-job-297118-99\\summary.json",
+    "artifact_sha256": "47bce1de4a93bd54a11ac07ad985501a7b026209486639cf90898d58be08cbcc",
+    "elapsed_seconds": 162.13698768615723,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 22,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 503016960,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "python": "3.11.10",
+      "slurm_job_id": "297118_99",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "reacher",
+    "scorer_seed": 6102,
+    "planner_seed": 7102,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "qpos": {
+              "value": "qpos"
+            },
+            "qvel": {
+              "value": "qvel"
+            }
+          },
+          "method": "set_state"
+        },
+        {
+          "args": {
+            "target_qpos": {
+              "value": "goal_qpos"
+            }
+          },
+          "method": "set_target_qpos"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "planner_seed": 7102,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/ReacherDMControl-v0",
+        "max_episode_steps": 100,
+        "num_envs": 24,
+        "task": "qpos_match"
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6102-job-296650-4/best.pt",
+    "checkpoint_sha256": "44d7e9194812b67da2b21886d676f01ecd26001fdccb593381a3c1d98604c6a2",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\reacher\\pop300-lambda007-sigma025\\diffusion\\train-seed-6102-planner-seed-7102-job-297118-100\\summary.json",
+    "artifact_sha256": "b8461c4efdf80372ec1e5aa9f32f4f0dda5e476914024f7e585e6a068558b8a8",
+    "elapsed_seconds": 173.04681181907654,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 18,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 503016960,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "python": "3.11.10",
+      "slurm_job_id": "297118_100",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  },
+  {
+    "task": "reacher",
+    "scorer_seed": 6103,
+    "planner_seed": 7103,
+    "config": {
+      "action_block": 5,
+      "arm": "diffusion",
+      "callables": [
+        {
+          "args": {
+            "qpos": {
+              "value": "qpos"
+            },
+            "qvel": {
+              "value": "qvel"
+            }
+          },
+          "method": "set_state"
+        },
+        {
+          "args": {
+            "target_qpos": {
+              "value": "goal_qpos"
+            }
+          },
+          "method": "set_target_qpos"
+        }
+      ],
+      "cem_samples": 300,
+      "cem_steps": 30,
+      "cem_topk": 30,
+      "diffusion_sigmas": [
+        0.25
+      ],
+      "eval_budget": 50,
+      "goal_offset": 25,
+      "horizon": 5,
+      "lambda_weight": 0.07,
+      "planner_action_standardization": {
+        "actual_mean": [
+          3.5727661713243504e-05,
+          -0.0005056222437278677
+        ],
+        "actual_scale": [
+          0.5774140806845414,
+          0.577182679325366
+        ],
+        "exact_legacy_float32_refit_match": {
+          "mean": true,
+          "scale": true
+        },
+        "exact_source_dtype_match": {
+          "mean": false,
+          "scale": false
+        },
+        "expected_mean": [
+          3.5727669540276966e-05,
+          -0.0005056222431816063
+        ],
+        "expected_scale": [
+          0.5774140806940178,
+          0.5771826793365499
+        ],
+        "float32_rounding_envelope": 4.76837158203125e-07,
+        "maximum_absolute_difference": {
+          "mean": 7.827033461735734e-12,
+          "scale": 1.1183831638561514e-11
+        },
+        "mode": "exact_legacy_float32_refit",
+        "source_action_dtype": "float64",
+        "source_rows": 2010000,
+        "status": "pass",
+        "usable_rows": 2000000
+      },
+      "planner_seed": 7103,
+      "receding_horizon": 5,
+      "scorer_condition": "true",
+      "world": {
+        "env_name": "swm/ReacherDMControl-v0",
+        "max_episode_steps": 100,
+        "num_envs": 24,
+        "task": "qpos_match"
+      }
+    },
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/reacher/diffusion/true/seed-6103-job-296650-5/best.pt",
+    "checkpoint_sha256": "9d7346ac754897c5f6189bde4df4b978af6a987a03f504e05059c529ff9d830f",
+    "artifact": "results\\acid-alternative\\sensitivity\\d1\\reacher\\pop300-lambda007-sigma025\\diffusion\\train-seed-6103-planner-seed-7103-job-297118-101\\summary.json",
+    "artifact_sha256": "5acaecdf36818412fa589ad256959cf3e3cddb250b3f167c2c01dc4060bd9140",
+    "elapsed_seconds": 178.0762288570404,
+    "scope": "24-source batched evaluator, NOT dedicated checker/solver latency",
+    "cost_calls": 1440,
+    "episode_count": 24,
+    "recorded_successes": 20,
+    "runtime": {
+      "gpu": "NVIDIA RTX 6000 Ada Generation",
+      "hostname": "gpu09.cluster",
+      "peak_cuda_memory_allocated_bytes": 503016960,
+      "peak_cuda_memory_reserved_bytes": 526385152,
+      "python": "3.11.10",
+      "slurm_job_id": "297118_101",
+      "stable_worldmodel": "0.0.6",
+      "torch": "2.5.1+cu121"
+    }
+  }
+]

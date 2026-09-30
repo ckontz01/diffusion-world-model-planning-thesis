@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "bytes": 2482,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/pusht/d1-fresh-development.tsv",
+      "sha256": "948a5e0dc1f79551845a9ef039908729d3d0c4c4bee5deb8445fe465f694814e"
+    },
+    {
+      "bytes": 5062,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/pusht/job-297535/d2-fresh.tsv",
+      "sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89"
+    },
+    {
+      "bytes": 2496,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/reacher/d1-fresh-development.tsv",
+      "sha256": "0b6e89cbe785ec88b0a3ff8e2ff77375ba9518695ab54f9bc2d3256013084a56"
+    },
+    {
+      "bytes": 5064,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/reacher/job-297535/d2-fresh.tsv",
+      "sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61"
+    },
+    {
+      "bytes": 2477,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/cube/d1-fresh-development.tsv",
+      "sha256": "9e5c3d336c44226dbd293c2f2c77427ef86941202d15874d509e884691cffcf4"
+    },
+    {
+      "bytes": 5038,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/d2-fresh.tsv",
+      "sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388"
+    },
+    {
+      "bytes": 17037,
+      "path": "runtime/stable_worldmodel/policy.py",
+      "sha256": "37a55735dd169f5200c79b61b760664deb996e3704d416831a3dea12102b9e7a"
+    }
+  ],
+  "observed_unix": 1790768938.469612,
+  "records": [
+    {
+      "actual_sha256": "b69fbb161c176b7fb102e42c221489e080435d94833cdd5aa4fbc5c3c3c6f206",
+      "bytes": 36144736,
+      "kind": "saved_score_input",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/pusht/d1-candidate-scores/job-297056/candidate-scores.pt",
+      "sha256": "b69fbb161c176b7fb102e42c221489e080435d94833cdd5aa4fbc5c3c3c6f206"
+    },
+    {
+      "actual_sha256": "7b5f241129d886113f0295379fdcec5e7d4483a944169482a1058b9a78b3daca",
+      "bytes": 73347870,
+      "kind": "saved_score_input",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/pusht/shared-score/job-297538-0/candidate-scores.pt",
+      "sha256": "7b5f241129d886113f0295379fdcec5e7d4483a944169482a1058b9a78b3daca"
+    },
+    {
+      "actual_sha256": "3026581aac383a2fe459548b12b1ba780f6053dbd549f9eafdb29b5fb4b295d7",
+      "bytes": 36144800,
+      "kind": "saved_score_input",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/reacher/d1-candidate-scores/job-297162/candidate-scores.pt",
+      "sha256": "3026581aac383a2fe459548b12b1ba780f6053dbd549f9eafdb29b5fb4b295d7"
+    },
+    {
+      "actual_sha256": "b38136f59abb338631eeaf8edb6427a92df501c24e4ecf40a0d13ae9ff71ef4e",
+      "bytes": 73347934,
+      "kind": "saved_score_input",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/reacher/shared-score/job-297538-1/candidate-scores.pt",
+      "sha256": "b38136f59abb338631eeaf8edb6427a92df501c24e4ecf40a0d13ae9ff71ef4e"
+    },
+    {
+      "actual_sha256": "cde4f509a1ce3fc88e3ba00e3ebbf9f7d2e89bf2fd368b760cef86a289b50548",
+      "bytes": 38305504,
+      "kind": "saved_score_input",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/diagnostics/cube/d1-candidate-scores/job-297080/candidate-scores.pt",
+      "sha256": "cde4f509a1ce3fc88e3ba00e3ebbf9f7d2e89bf2fd368b760cef86a289b50548"
+    },
+    {
+      "actual_sha256": "0009530ce002043595187a6bc062b184d0d12331c51778ca55606c10ab3fccc6",
+      "bytes": 77847838,
+      "kind": "saved_score_input",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/v3-d2/stage-a/cube/shared-score/job-297538-2/candidate-scores.pt",
+      "sha256": "0009530ce002043595187a6bc062b184d0d12331c51778ca55606c10ab3fccc6"
+    }
+  ]
+}

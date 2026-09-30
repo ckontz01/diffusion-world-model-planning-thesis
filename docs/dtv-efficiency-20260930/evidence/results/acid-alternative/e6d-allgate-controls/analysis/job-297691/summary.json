@@ -1,0 +1,244 @@
+{
+  "all_e6d_gates_pass": false,
+  "analysis_role": "post_e6_exposed_d2_allgate_diagnostic",
+  "authorization_sha256": "a5672bf582ab314b14d8f410dc1c7e68d89d3456513129dee7e1f5608caffe79",
+  "bootstrap_repetitions": 100000,
+  "bootstrap_seed": 2026081701,
+  "claim_decision": "no_claim_from_exposed_d2_diagnostic",
+  "confirmation_claim_allowed": false,
+  "contrasts": {
+    "true_minus_acid_allgate": {
+      "equal_task": {
+        "estimate": -0.013333333333333327,
+        "lower_95_two_sided": -0.06666666666666668,
+        "upper_95_two_sided": 0.04
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.1,
+          "lower_95_two_sided": 0.0,
+          "upper_95_two_sided": 0.2
+        },
+        "pusht": {
+          "estimate": -0.02,
+          "lower_95_two_sided": -0.1,
+          "upper_95_two_sided": 0.06
+        },
+        "reacher": {
+          "estimate": -0.12,
+          "lower_95_two_sided": -0.22,
+          "upper_95_two_sided": -0.02
+        }
+      }
+    },
+    "true_minus_acid_cont": {
+      "equal_task": {
+        "estimate": -0.026666666666666672,
+        "lower_95_two_sided": -0.08666666666666667,
+        "upper_95_two_sided": 0.03333333333333333
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.06,
+          "lower_95_two_sided": -0.02,
+          "upper_95_two_sided": 0.14
+        },
+        "pusht": {
+          "estimate": 0.0,
+          "lower_95_two_sided": -0.1,
+          "upper_95_two_sided": 0.1
+        },
+        "reacher": {
+          "estimate": -0.14,
+          "lower_95_two_sided": -0.26,
+          "upper_95_two_sided": -0.02
+        }
+      }
+    },
+    "true_minus_forward_allgate": {
+      "equal_task": {
+        "estimate": 0.04666666666666667,
+        "lower_95_two_sided": -0.006666666666666667,
+        "upper_95_two_sided": 0.10000000000000002
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.04,
+          "lower_95_two_sided": 0.0,
+          "upper_95_two_sided": 0.1
+        },
+        "pusht": {
+          "estimate": 0.04,
+          "lower_95_two_sided": -0.06,
+          "upper_95_two_sided": 0.16
+        },
+        "reacher": {
+          "estimate": 0.06,
+          "lower_95_two_sided": -0.04,
+          "upper_95_two_sided": 0.16
+        }
+      }
+    },
+    "true_minus_shuffled_allgate": {
+      "equal_task": {
+        "estimate": -0.03333333333333333,
+        "lower_95_two_sided": -0.08666666666666667,
+        "upper_95_two_sided": 0.02
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.02,
+          "lower_95_two_sided": 0.0,
+          "upper_95_two_sided": 0.06
+        },
+        "pusht": {
+          "estimate": 0.0,
+          "lower_95_two_sided": -0.1,
+          "upper_95_two_sided": 0.1
+        },
+        "reacher": {
+          "estimate": -0.12,
+          "lower_95_two_sided": -0.24,
+          "upper_95_two_sided": 0.0
+        }
+      }
+    }
+  },
+  "d3_access_allowed": false,
+  "decision": "end_rdx_verifier_gating",
+  "e6_summary_sha256": "84ae66457c70f5a8c386d682dab5a77bfd807f3fdf0c52de0ea7b3264ebbc0cc",
+  "gates": {
+    "1_true_beats_shuffled_equal_task": false,
+    "2_true_beats_forward_equal_task": true,
+    "3_true_noninferior_acid_equal_task": true,
+    "4_true_task_pattern_vs_shuffled": false,
+    "5_true_task_floor_vs_acid": true
+  },
+  "kind": "acid_alt_e6d_allgate_control_analysis",
+  "levels": {
+    "acid_cont": {
+      "equal_task": {
+        "estimate": 0.88,
+        "lower_95_two_sided": 0.8266666666666667,
+        "upper_95_two_sided": 0.9266666666666666
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.84,
+          "lower_95_two_sided": 0.74,
+          "upper_95_two_sided": 0.94
+        },
+        "pusht": {
+          "estimate": 0.88,
+          "lower_95_two_sided": 0.78,
+          "upper_95_two_sided": 0.96
+        },
+        "reacher": {
+          "estimate": 0.92,
+          "lower_95_two_sided": 0.84,
+          "upper_95_two_sided": 0.98
+        }
+      }
+    },
+    "acid_gate_all_q40": {
+      "equal_task": {
+        "estimate": 0.8666666666666667,
+        "lower_95_two_sided": 0.8133333333333334,
+        "upper_95_two_sided": 0.9199999999999999
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.8,
+          "lower_95_two_sided": 0.68,
+          "upper_95_two_sided": 0.9
+        },
+        "pusht": {
+          "estimate": 0.9,
+          "lower_95_two_sided": 0.82,
+          "upper_95_two_sided": 0.98
+        },
+        "reacher": {
+          "estimate": 0.9,
+          "lower_95_two_sided": 0.82,
+          "upper_95_two_sided": 0.98
+        }
+      }
+    },
+    "forward_gate_all_q40": {
+      "equal_task": {
+        "estimate": 0.8066666666666666,
+        "lower_95_two_sided": 0.7399999999999999,
+        "upper_95_two_sided": 0.8666666666666667
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.86,
+          "lower_95_two_sided": 0.76,
+          "upper_95_two_sided": 0.94
+        },
+        "pusht": {
+          "estimate": 0.84,
+          "lower_95_two_sided": 0.74,
+          "upper_95_two_sided": 0.94
+        },
+        "reacher": {
+          "estimate": 0.72,
+          "lower_95_two_sided": 0.6,
+          "upper_95_two_sided": 0.84
+        }
+      }
+    },
+    "rdx_gate_all_q40": {
+      "equal_task": {
+        "estimate": 0.8533333333333334,
+        "lower_95_two_sided": 0.7933333333333333,
+        "upper_95_two_sided": 0.9066666666666666
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.9,
+          "lower_95_two_sided": 0.8,
+          "upper_95_two_sided": 0.98
+        },
+        "pusht": {
+          "estimate": 0.88,
+          "lower_95_two_sided": 0.78,
+          "upper_95_two_sided": 0.96
+        },
+        "reacher": {
+          "estimate": 0.78,
+          "lower_95_two_sided": 0.66,
+          "upper_95_two_sided": 0.88
+        }
+      }
+    },
+    "rdx_shuffled_gate_all_q40": {
+      "equal_task": {
+        "estimate": 0.8866666666666667,
+        "lower_95_two_sided": 0.8333333333333334,
+        "upper_95_two_sided": 0.9333333333333332
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.88,
+          "lower_95_two_sided": 0.78,
+          "upper_95_two_sided": 0.96
+        },
+        "pusht": {
+          "estimate": 0.88,
+          "lower_95_two_sided": 0.78,
+          "upper_95_two_sided": 0.96
+        },
+        "reacher": {
+          "estimate": 0.9,
+          "lower_95_two_sided": 0.82,
+          "upper_95_two_sided": 0.98
+        }
+      }
+    }
+  },
+  "protected_c1_i1_read": false,
+  "protocol_sha256": "808f16435775c04b36862637efa200bc4eb47797089ac3f913be962035ed9fd4",
+  "source_manifest_sha256": "be1fbf7803460e2e92bff190e6123f1237e794a4c9625ea836b90ec84c6d9750",
+  "status": "ok"
+}

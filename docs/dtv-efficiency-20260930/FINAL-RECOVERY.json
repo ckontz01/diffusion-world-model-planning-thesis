@@ -1,0 +1,648 @@
+{
+  "files": [
+    {
+      "path": "results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297083-99/summary.json",
+      "sha256": "f0fdf2dce9ee8583d3b7b82fc6dd745ff3261ef84432a200067dd8770f1ea5b6",
+      "bytes": 6664
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297083-100/summary.json",
+      "sha256": "7c2d9052b9df1d6cb38891d5f4ea8d6138f672bb7ef8e9afbb1fc50960d6e751",
+      "bytes": 6664
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/cube/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297083-101/summary.json",
+      "sha256": "9975619466ee1df182eb84762908f8a82936649156310fc46f4dac8a6e80b99d",
+      "bytes": 6664
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297059-99/summary.json",
+      "sha256": "9f85d9f1041fdea13c8ea5f14c537947cd26988e1a310db4d22ebdd48057256f",
+      "bytes": 5552
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297059-100/summary.json",
+      "sha256": "f4db6e49f79c53e616100ce8b3a73ddb9ecaf360d5d57156475059989ae72cd5",
+      "bytes": 5555
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/pusht/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297059-101/summary.json",
+      "sha256": "01eae2ac0ff221d29f0f79aa1fb54a0ecda9530db258447ea0cad1a78c248f5c",
+      "bytes": 5528
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6101-planner-seed-7101-job-297118-99/summary.json",
+      "sha256": "47bce1de4a93bd54a11ac07ad985501a7b026209486639cf90898d58be08cbcc",
+      "bytes": 5711
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6102-planner-seed-7102-job-297118-100/summary.json",
+      "sha256": "b8461c4efdf80372ec1e5aa9f32f4f0dda5e476914024f7e585e6a068558b8a8",
+      "bytes": 5691
+    },
+    {
+      "path": "results/acid-alternative/sensitivity/d1/reacher/pop300-lambda007-sigma025/diffusion/train-seed-6103-planner-seed-7103-job-297118-101/summary.json",
+      "sha256": "5acaecdf36818412fa589ad256959cf3e3cddb250b3f167c2c01dc4060bd9140",
+      "bytes": 5715
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/analysis/job-297573/summary.json",
+      "sha256": "2a4134b49f770cd3f339d73233183d5bd2013b562aee751abc0e8a744959fdbb",
+      "bytes": 94607
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6103-planner-seed-8303-job-297572-26/summary.json",
+      "sha256": "104571c40b0a7248a8c057d4d28783891f3fd3438876df6c6337e333418a0444",
+      "bytes": 7166
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6101-planner-seed-8301-job-297572-24/summary.json",
+      "sha256": "f3d5fb5915fcdce005f64d0aeae1038c859d99a7f1202ea495843c46a921bdf3",
+      "bytes": 7164
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6102-planner-seed-8302-job-297572-25/summary.json",
+      "sha256": "22e36c0f1361805ee3b1b1a5c80c55d050d8ae75e6163b2060fd3d4adf6caaa1",
+      "bytes": 7162
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-35/summary.json",
+      "sha256": "e8e03ad5bb8e924cdf5055fef7756ac0a75de30b63af7ba52c9d6e73d76547af",
+      "bytes": 8464
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-34/summary.json",
+      "sha256": "3eaab09ce6d06fef0a1c9b918033a1083a5518d5d33072805be52fd15ca872e6",
+      "bytes": 8459
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-33/summary.json",
+      "sha256": "960295a5c4994543e2412f4db761e421d76e42c59b86f03db50a54ebc442ab77",
+      "bytes": 8475
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6101-planner-seed-8301-job-297572-21/summary.json",
+      "sha256": "9459ce1863ea44c885c807e85e00c293cf116fc60ba2e2bb7dd35f078a576a83",
+      "bytes": 7471
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6102-planner-seed-8302-job-297572-22/summary.json",
+      "sha256": "d925fd187b7d8df42deed7706a1566960106ccaf889a08d16a2fc895d4875432",
+      "bytes": 7473
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6103-planner-seed-8303-job-297572-23/summary.json",
+      "sha256": "7df247e80675a0620d88ff6865a9b5b83ff8fd74104db043eec7374b607af0d4",
+      "bytes": 7475
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6102-planner-seed-8302-job-297572-28/summary.json",
+      "sha256": "712f51ef06a364353c2151ed07e7f2bc6c5d181de824fa3c287f79f80c32cdbe",
+      "bytes": 8369
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6103-planner-seed-8303-job-297572-29/summary.json",
+      "sha256": "94ed9f61e123271344f95ecea56f69e7a195d747f78eb77b7ffa3de53b038f35",
+      "bytes": 8384
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6101-planner-seed-8301-job-297572-27/summary.json",
+      "sha256": "dd3111e0402106e3684fcb3032589cbd347fa69a488008898315f9664030d5f2",
+      "bytes": 8407
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6101-planner-seed-8301-job-297572-18/summary.json",
+      "sha256": "e0008c2e20a6c2dca6e925f69b4c9df92896570d77294a754be96c2b637dbd98",
+      "bytes": 5371
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6102-planner-seed-8302-job-297572-19/summary.json",
+      "sha256": "3bf12d3ce92173585529cc5b18fa332eff0c06dfed629594e54daaa27be81a62",
+      "bytes": 5373
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6103-planner-seed-8303-job-297572-20/summary.json",
+      "sha256": "5e48242b6cde24ff6cc61de8cf3a2dab9d405c5b60880212cfcf55c8c2ac83e3",
+      "bytes": 5376
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6103-planner-seed-8303-job-297572-32/summary.json",
+      "sha256": "24b58f7750fd114939c16671e9b64287325e982e5d8173ebccd33e3a66189c5c",
+      "bytes": 8380
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6101-planner-seed-8301-job-297572-30/summary.json",
+      "sha256": "dc5467aef101caa6d58b0d5ae66ae5024f9ef65c7e45ca8bc08f11683720e4f7",
+      "bytes": 8406
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6102-planner-seed-8302-job-297572-31/summary.json",
+      "sha256": "9acde5e7f134bae5cd659f59e24b0f817c134cf88b25cd8550160bb2b5d40ec3",
+      "bytes": 8369
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6103-planner-seed-8303-job-297572-38/summary.json",
+      "sha256": "d281c0e98878990fe10a6d4db09b4b4b68856fce2c9597ccd88a27ebb67e7a99",
+      "bytes": 5748
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6101-planner-seed-8301-job-297572-36/summary.json",
+      "sha256": "7ed8d4074adec0b9b245c1ec1969860f745e6065c68f482c1a713f40614c9541",
+      "bytes": 5741
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6102-planner-seed-8302-job-297572-37/summary.json",
+      "sha256": "7d95c9c12ebc05dc265adc4669ff345b228030d97b9363f2863d8911e2323c15",
+      "bytes": 5746
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6103-planner-seed-8303-job-297572-50/summary.json",
+      "sha256": "01ee0a0a7c1050f7e852404ca77b6162c0835f2faec1dbddc708514d7298965b",
+      "bytes": 9020
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6102-planner-seed-8302-job-297572-49/summary.json",
+      "sha256": "6edbc429256b9469385498de7aa9008aa1210a8c20954ab17821642ae5446f66",
+      "bytes": 9034
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6101-planner-seed-8301-job-297572-48/summary.json",
+      "sha256": "73d95665115d0d7289240ce439b7d215fe275b58388f30bd602df49e369cb624",
+      "bytes": 9071
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6101-planner-seed-8301-job-297572-39/summary.json",
+      "sha256": "c93727dc4c9851c384d5332a31fbf29979424b1e9dc0016b4a7f957060e5659e",
+      "bytes": 8138
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6102-planner-seed-8302-job-297572-40/summary.json",
+      "sha256": "3a3281b006ff0242328741c0a32fef36ffb572d2f0a1922e63ef84e56568fa02",
+      "bytes": 8138
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6103-planner-seed-8303-job-297572-41/summary.json",
+      "sha256": "b5368e408c72b38c4fd2f325ade6c87e5e5e4338066939af56255a161a3c05c4",
+      "bytes": 8141
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6103-planner-seed-8303-job-297572-44/summary.json",
+      "sha256": "01263ac3742c175c37507acaa8e9b2445e99263402e9491b39df25c87cc04449",
+      "bytes": 7833
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6101-planner-seed-8301-job-297572-42/summary.json",
+      "sha256": "81acd32ba216ace7b3dd5537150446f7a630d48d583f50c798507ed430ca67a0",
+      "bytes": 7826
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6102-planner-seed-8302-job-297572-43/summary.json",
+      "sha256": "dd2803636ab583e2d6f9067990f05a2943887041f5d170b2101c745ad7ae714a",
+      "bytes": 7829
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-51/summary.json",
+      "sha256": "8b940632d988271ad52ecc94e17884041eeced1f464780574754558eaf280b6a",
+      "bytes": 9161
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-53/summary.json",
+      "sha256": "37fefd6c4b6cd085b483df4d5e54ab84e8747f19e46f70c310f07f3247fb82d5",
+      "bytes": 9118
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-52/summary.json",
+      "sha256": "8c3c18e528e48201c91ba5fe4ede71caa2457d6de5e102dd13ee9ad24cab1312",
+      "bytes": 9124
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6101-planner-seed-8301-job-297572-45/summary.json",
+      "sha256": "adfe276a54cd21d28142e83195e131cbf130b678d6ee30042a45a4a17f09633e",
+      "bytes": 9075
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6103-planner-seed-8303-job-297572-47/summary.json",
+      "sha256": "d3ee72e6048e26e5ea87fb100c06c9f402d55b7b934d5d6e26ff99d6d94ccaaf",
+      "bytes": 9024
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6102-planner-seed-8302-job-297572-46/summary.json",
+      "sha256": "cf415b01cde148e6fb05549e22c2c594c4cbf5077a8436cf20473c693dac8c73",
+      "bytes": 9039
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-16/summary.json",
+      "sha256": "da4f0f192542b88582387d2e8b64e52dc85f7f74b8c53b06d363f80f647d32ac",
+      "bytes": 8332
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-17/summary.json",
+      "sha256": "878dbec5a84b8b56305371444153b88d8d2602502af07b9edbde741b4f389d13",
+      "bytes": 8331
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-15/summary.json",
+      "sha256": "6e49748f5de96ad94f20e9800f1ecb6a528309eb42dcbaf6d5253dea0468a38e",
+      "bytes": 8370
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6102-planner-seed-8302-job-297572-4/summary.json",
+      "sha256": "fd8800ea899afd2b121f8cb036a827f89974ee3b37ad94ebeca011908c300a21",
+      "bytes": 7351
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6101-planner-seed-8301-job-297572-3/summary.json",
+      "sha256": "d82621e9bf862327362e03e19f56c0fddff1b66c727c0f54e9d1fea0cea96661",
+      "bytes": 7350
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6103-planner-seed-8303-job-297572-5/summary.json",
+      "sha256": "cbee59fbd29b48c17f70f36e210f1a3cbba9e5081c1283bd9d0963411ebf12f7",
+      "bytes": 7351
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6101-planner-seed-8301-job-297572-12/summary.json",
+      "sha256": "a5e1323edf572eae98b8304630e1c747dfc4aef1908d2e86ee69f9ae993433ef",
+      "bytes": 8277
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6102-planner-seed-8302-job-297572-13/summary.json",
+      "sha256": "a7e41934aad1a96c1d253ec2f86494b91daa52a377cfab44078dc5543e97dc90",
+      "bytes": 8238
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6103-planner-seed-8303-job-297572-14/summary.json",
+      "sha256": "0be9a9d769386b7c88a822850373c9d3df3e76378718aa63f7a579c4fe52f588",
+      "bytes": 8234
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6103-planner-seed-8303-job-297572-2/summary.json",
+      "sha256": "f73011bc9d172d69d108a3f5ca003d0920fe0eb6ed71eb9794941b0aa78d96ac",
+      "bytes": 5297
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6102-planner-seed-8302-job-297572-1/summary.json",
+      "sha256": "90c5460112c9f882d6dee0f63139b89e58a4f5ddb76621aaac1df20c30eb7db7",
+      "bytes": 5294
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6101-planner-seed-8301-job-297572-0/summary.json",
+      "sha256": "deb8910067b19b1bf9eeafacb9de913977fa89d468bbce5dbe832549b0094fc5",
+      "bytes": 5297
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6102-planner-seed-8302-job-297572-10/summary.json",
+      "sha256": "10dc2c8327976193eaf229cd5533502ff47f2abaf5da9a5e7e18d5d337006748",
+      "bytes": 8240
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6103-planner-seed-8303-job-297572-11/summary.json",
+      "sha256": "7dace904851bec7d1809be70943e0b82bbbf51667d01e6a124b10622f7685c43",
+      "bytes": 8241
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6101-planner-seed-8301-job-297572-9/summary.json",
+      "sha256": "c6bfb7ab11018df19d5da7df54385fa870a59efb40a1506251a3cc1fc0ac6fdc",
+      "bytes": 8278
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6101-planner-seed-8301-job-297572-6/summary.json",
+      "sha256": "86f50f43956d0f1d69e498cf933cc455543f31afff20e1ae4751c73c50a2dd9d",
+      "bytes": 7039
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6102-planner-seed-8302-job-297572-7/summary.json",
+      "sha256": "75c4bbc59e52cdf1248a58cb4362ac1ca5c7f6557ec00bb249969f6809955d87",
+      "bytes": 7040
+    },
+    {
+      "path": "results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6103-planner-seed-8303-job-297572-8/summary.json",
+      "sha256": "224f65c3411c73bc39991d20863a280526fc0a4d3cf444b33ee7d2c0847b40de",
+      "bytes": 7039
+    },
+    {
+      "path": "snapshots/acid-alt-e3-d2-323318f12407690c/SOURCE-MANIFEST.sha256",
+      "sha256": "323318f12407690c4ebff4a738cd3676c1321c29748da3fc8cb24aa0de6d63c5",
+      "bytes": 4850
+    }
+  ],
+  "model_runtime_sources": [
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/__init__.py",
+      "bytes": 482,
+      "sha256": "570947f6a2a1d0a66ccbf52b1080ae398e375a765233d5d6e92d37c894ae8c89"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/baseline/__init__.py",
+      "bytes": 282,
+      "sha256": "991295ac7b60d56fcff818e8d60caaaf7e543b9d8fda9b9845d4464ee51030c8"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/baseline/adapter.py",
+      "bytes": 3852,
+      "sha256": "f0b5b97cf1e764ef74d4f183efce3ebf43e7361ca923cd2fcb481a016a7a2c49"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/checkpoint_compat.py",
+      "bytes": 896,
+      "sha256": "921a5f80a7e153df7f2d613f50401255035b7958a858464f715010b30ecfaf76"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/checkpoints.py",
+      "bytes": 12094,
+      "sha256": "c3106755b1e130d4fe55d714e97c145192730473c0de544757fc1c1d76d8a77f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/eval/__init__.py",
+      "bytes": 40,
+      "sha256": "00095b041879a3d30b62bd3a989387b2aa2a7a347b590748a03085a46632ad4a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/eval/baseline.py",
+      "bytes": 240,
+      "sha256": "78b40ca1c19b56b0c455db25829ebb04256546108de8d308d1d2daa2417faf1c"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/eval/baseline_manifest.py",
+      "bytes": 10556,
+      "sha256": "288fb5a59301669fed677e782d9671c3c59df0955d11d1b13c49b7329b688392"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/eval/determinism.py",
+      "bytes": 3204,
+      "sha256": "f5572a65084cf335720ddf8db47eedcf50207c9f34a6b4aeba9458b1fd7dff66"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/eval/hierarchical.py",
+      "bytes": 22831,
+      "sha256": "75065921dfba543570dd25373e0f888eb8e1a7040fe1b1d0950000b7b33405d2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/experiments/__init__.py",
+      "bytes": 536,
+      "sha256": "3a966379d2b12ce53e6fdccf86bb4e7b7f66a83fd49f5366e2955f0541372996"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/experiments/pusht_diagnostics.py",
+      "bytes": 8802,
+      "sha256": "6b129b089faaa573bad2f8432076b02856b121935ad1de82137a615a18ed4eb9"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/experiments/run.py",
+      "bytes": 23384,
+      "sha256": "59eac3abb649be18ba3d482867c0c646f5d5a7d3e860ba18ca552e5775512a7e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/models/__init__.py",
+      "bytes": 45,
+      "sha256": "f62ce6ffbcb85106a2662b27cfc64c02b43279b7583ea10b6a6efd8b8206ba6b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/models/jepa.py",
+      "bytes": 23609,
+      "sha256": "bb5338bbb4f9e76b0bd15b94767624168883c994ab4c2ad8209337a3d70022a2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/models/latent_action.py",
+      "bytes": 3518,
+      "sha256": "d06aa5955c5fdc6e61ec2f7a06317d024d8c4ad6ec6ceba7802e3d203e518e58"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/models/vq.py",
+      "bytes": 8926,
+      "sha256": "f6206504154c7962533755c1ee2f98e99f6a631d9134708558bf5e6340fdc005"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/models/waypoint_sampling.py",
+      "bytes": 10694,
+      "sha256": "ae072ca39f6c257cc8c2db543998f8eda0d99a6ad235d871cdab00993180817b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/paths.py",
+      "bytes": 1601,
+      "sha256": "20e1313e2eea7b65ecc15835f69c709a323c1320e3cc0242152b901e71f18a00"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/planning/__init__.py",
+      "bytes": 49,
+      "sha256": "d825da87f494668ad1154ffceff250f82f0b7ff4f35feb34e007056ec5935bc2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/planning/policies.py",
+      "bytes": 40931,
+      "sha256": "d6e7d476b45e47c5015494775b4d96727b8ebb8c801f719a100ba32878f288d1"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/probe/__init__.py",
+      "bytes": 58,
+      "sha256": "69f4bac5f699f5eda06580a2eebd590c126779246239d5bad3e451479a66730b"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/probe/eval.py",
+      "bytes": 5941,
+      "sha256": "fe6967b91f93e52038a89730104816c8ed18ecacfd069c56c0c3f456f1c7a433"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/probe/model.py",
+      "bytes": 11286,
+      "sha256": "4fc04345eb11f5776663a12a9e2ede31e4f1ac1a522cb852472df122b3540812"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/probe/train.py",
+      "bytes": 13977,
+      "sha256": "29b64552588e172ccdc846cd38423fd2cd3b33c5537116e62e52542a7a0605d7"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/train/__init__.py",
+      "bytes": 51,
+      "sha256": "aa59dda961c4960485f709719eeacc026aafcc492c71d24f99739e316ec49d31"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/train/baseline.py",
+      "bytes": 241,
+      "sha256": "6141238321b1c3f8f4b02d5a21e50c422aa793827c732330f0224907da6afd42"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/train/hierarchical.py",
+      "bytes": 23508,
+      "sha256": "da0cfb47e4ee9bd43e53371ac44a96503b9fde199436a70a8ccbb4b95bcc631e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/train/pretrained.py",
+      "bytes": 3670,
+      "sha256": "e2e12358d94fe0bfdfcba9204dc9e9c9f4ec4ea49aa14eeebaf50a04eff2a817"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/train/steps.py",
+      "bytes": 10127,
+      "sha256": "c51d87e7bf85f3def0423d1971bf7a5953475e58ba1c20aeaf8a17f4bae57a15"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/train/waypoint_ops.py",
+      "bytes": 4847,
+      "sha256": "f953f6399ffc6f4ee43501b08884ed0d913441ff734b36d734ddaf79d9dd6689"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/h_le_wm/validate.py",
+      "bytes": 8408,
+      "sha256": "7a45c41107d21cc86f8e4f8da49ed75e648de43248fc0a078debb6f3a4ea82cf"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/__init__.py",
+      "bytes": 64,
+      "sha256": "68db56745fe2faa98c389fc6c288cb5807d6a851f9cd63f1f05e270e1340c88e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/__init__.py",
+      "bytes": 79,
+      "sha256": "53cd378b2dbe081d6ab56a518392b5a600f76fc2bc0edd8091ea98afdaeb193a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/decoder_probe_notebook_utils.py",
+      "bytes": 18958,
+      "sha256": "6ab9bd64ee23e1f0f4024dc3cf500f0f93318bda1240905b03484aead3ac30ef"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/hi_acting_diagnostics.py",
+      "bytes": 68133,
+      "sha256": "82c06d23b62051868d09d32f86918a9ebc890349245ee69520a8c2b127d22ace"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/hi_diagnostics.py",
+      "bytes": 47881,
+      "sha256": "3a64463109e86bce12ffc6df385ae9262b46001dc16818de115f465d84f5600d"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/render_hi_decoder_diagnostic_stories.py",
+      "bytes": 23626,
+      "sha256": "7e5d53a46dfdf923db499c9e4cdc925887ad27e6a5d00cbc4d2e632d4d865f82"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/render_hi_paper_diagnostics.py",
+      "bytes": 9564,
+      "sha256": "bd068cd844a8b5b8cbd6423dfc6ae841f4a57872e7854dfcb53ad0e9accf423f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/render_hi_story_figures.py",
+      "bytes": 35736,
+      "sha256": "6005979a5282f4e6493a58d7360539c7abd1f9d6c222407d39d7abe7cc5688cc"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/run_decoder_probe_report.py",
+      "bytes": 14753,
+      "sha256": "9d761f87dbd88615e0d66b309a0c7e06d3758a2c3aeff56c8e56e3406bd41663"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/run_hi_acting_diagnostic.py",
+      "bytes": 3762,
+      "sha256": "1fa60e3455e9d7e2e499e1b683a91dbdf144b324d8b1c4109dc4b1f7492a997e"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/run_hi_diagnostic.py",
+      "bytes": 4024,
+      "sha256": "e24ee522760a6deec187ef4373fc15dac6497d6ca8962bdc6fda081706196a66"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/diagnostics/test_macro_action_manifold.py",
+      "bytes": 2706,
+      "sha256": "cfe1f7db46d93b22d9aa66e960b5fd0e78c119df6b88acc004cbc49ce43c73c9"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/tools/__init__.py",
+      "bytes": 86,
+      "sha256": "444768ebf5285c6e3ca9b168594824066261124b1fe83c402ac183b167d31ff0"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/tools/check_baseline_integrity.py",
+      "bytes": 4542,
+      "sha256": "fbe712dba82389930ec9672b53cd8ccc17f79a9f0789c4b80db91fef500e0185"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/scripts/tools/convert_hf_weights_to_object_ckpt.py",
+      "bytes": 10687,
+      "sha256": "4ec630ac7b22d7716c2692fc075975910a6496cb6029260a1eaa18bc5f0fb2d1"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_checkpoint_registry.py",
+      "bytes": 3693,
+      "sha256": "238a887baac7751b85ed894e25fdad44a29ccc8e1ff8050ca76d6167f7b38baa"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_experiment_runner.py",
+      "bytes": 12443,
+      "sha256": "bb0bf48b594ba1bc9ad0d12a93390c56cd3f1aab597512128b2f229e432f6191"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_hi_decoder_probe.py",
+      "bytes": 794,
+      "sha256": "c8f8fbf979cc68c850c0560b7f6b5c0069fa64b05e4f836b116a17c86e793d0c"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_hi_eval_sampling.py",
+      "bytes": 3434,
+      "sha256": "3d7dc254fd229dcae53c4e5c928c6b74dcc9c5c9054a97d00291ba561f427cf1"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_hi_planning.py",
+      "bytes": 29661,
+      "sha256": "6d97dabc00473ef0f727483ee931c4d7e47e5c2ca07d016716be6f987b0f7976"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_hi_train_speedups.py",
+      "bytes": 16093,
+      "sha256": "ae56e718adf7748745b404e9fc35e91d156758e0b3e2dd345db380f55c411640"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_package_surface.py",
+      "bytes": 4710,
+      "sha256": "f4529fa18c0d7e3a5269b16be1d85cd12b58d4f6f8d29b0cf46e89765e17722a"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_paths.py",
+      "bytes": 2338,
+      "sha256": "693ace88bf32c2bb6b2728ea79740b4c14fa1ebbd400084819fbd4e3d725cad4"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_public_surface.py",
+      "bytes": 2323,
+      "sha256": "556de948bb99dedb4174a8f47f3bd79a2caa8b3f3d7ed0a8a55abe9a50956de6"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_validate_cli.py",
+      "bytes": 4254,
+      "sha256": "f14edda8220e082db1d36d809d743c1ce53cf9a185ca9674e9a0fd68e73aaad4"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/tests/test_waypoint_sampling.py",
+      "bytes": 5900,
+      "sha256": "cb84d20f2e36c50d43ea56dfc7e06e12b2f80122a12a7b8afc4e79aa59881c84"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/eval.py",
+      "bytes": 5822,
+      "sha256": "6584f009b40550fa0df2f8dee22b9329fbfacdfaf74464aa4fd105f464795245"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/jepa.py",
+      "bytes": 5398,
+      "sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/module.py",
+      "bytes": 8433,
+      "sha256": "0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/train.py",
+      "bytes": 4566,
+      "sha256": "5d5666a785148635f8bcb50b49f98dd4527c5aba8a02d90206eb5d46406079d2"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/utils.py",
+      "bytes": 2275,
+      "sha256": "b3e5cfce6d0eecd9510f06a7adc178edde86074e1474b899ff739ed8a5355b08"
+    }
+  ],
+  "observed_unix": 1790769839.7679,
+  "local_wall_seconds": 8.235000000000582
+}

@@ -1,0 +1,9 @@
+30 September 2026, standard-library metadata/display audit.
+Command: python -m dtv_efficiency.audit_package
+Exit 1: AssertionError: ('pusht', 'acid', 'total_cost')
+Cause: this new audit named the existing ledger scope incorrectly.
+Canonical existing scopes are total_cost_call and full_released_cem_solve.
+The audit labels were corrected; source timing data and tolerances unchanged.
+The nine-job disabled dry plan and expected disabled-worker refusal had
+already passed and their original files were preserved, not overwritten.
+No research checkpoint deserialization, inference, Slurm, GPU or physics.

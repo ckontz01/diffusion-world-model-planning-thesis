@@ -1,0 +1,11 @@
+{
+  "wall_seconds": 11.656000000002678,
+  "exit_code": 0,
+  "output_sha256": "6e17029bd24638040f79b02d1c80a2e0000fe8f36e79f9f74e66e4eae76a3d4d",
+  "cpu_threads": 4,
+  "research_inference": false,
+  "physics": false,
+  "gpu": false,
+  "checkpoint_deserialization": false,
+  "test_environment": "existing WSL thesis; artificial torch 2.13.0+cpu; not proposed CUDA runtime"
+}

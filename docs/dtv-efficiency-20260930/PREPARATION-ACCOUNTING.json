@@ -1,0 +1,53 @@
+{
+  "study": "DTV-EFF0",
+  "cap_seconds": 7200,
+  "instrumented_receipts": [
+    {
+      "receipt": "evidence/RECOVERY.json",
+      "seconds": 7.842999999993481
+    },
+    {
+      "receipt": "PREPARATION-PASS.json",
+      "seconds": 10.328000000008615
+    },
+    {
+      "receipt": "FINAL-RECOVERY.json",
+      "seconds": 8.235000000000582
+    },
+    {
+      "receipt": "METADATA-AUDIT.json",
+      "seconds": 0.10899999999674037
+    },
+    {
+      "receipt": "TEST-RECEIPT.json",
+      "seconds": 11.656000000002678
+    },
+    {
+      "receipt": "INTEGRATION-FINAL-RECEIPT.json",
+      "seconds": 22.969000000011874
+    },
+    {
+      "receipt": "INTEGRATION-CONFIRMED-RECEIPT.json",
+      "seconds": 22.625
+    },
+    {
+      "receipt": "FINAL-PREPARATION-AUDIT.json",
+      "seconds": 0.7350000000005821
+    }
+  ],
+  "measured_seconds": 84.50000000001455,
+  "additional_conservative_charge_seconds": 3600,
+  "remaining_publication_backup_reservation_seconds": 600,
+  "cpu_threads_cap": 4,
+  "ram_cap_bytes": 8589934592,
+  "artifact_bytes_at_audit": 3570028,
+  "artifact_cap_bytes": 250000000,
+  "unmeasured_wall_time_reconstructed": false,
+  "scope_note": "Conservative charge covers earlier uninstrumented metadata/shell/transport/startup/test checks; it is not an exact stopwatch observation. Receipt intervals are not added to overlapping subtest CPU/wall intervals.",
+  "research_inference": false,
+  "gpu_allocations": 0,
+  "physics": false,
+  "research_checkpoint_deserializations": 0,
+  "original_archives_copied": 0,
+  "charged_plus_remaining_seconds": 4284.500000000015
+}

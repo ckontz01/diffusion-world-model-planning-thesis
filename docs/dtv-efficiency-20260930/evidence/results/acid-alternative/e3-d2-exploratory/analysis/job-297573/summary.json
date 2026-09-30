@@ -1,0 +1,1803 @@
+{
+  "all_e3_promotion_gates_pass": false,
+  "alternative_to_acid_claim_allowed": false,
+  "analysis_role": "post_v3_exploratory_d2_closed_loop_development",
+  "bootstrap_repetitions": 100000,
+  "bootstrap_seed": 2026081605,
+  "claim_decision": "no_publication_claim_from_exploratory_e3",
+  "confirmation_claim_allowed": false,
+  "contrasts": {
+    "ae_minus_acid": {
+      "equal_task": {
+        "estimate": -0.05111111111111111,
+        "lower_95_one_sided": -0.08,
+        "lower_95_two_sided": -0.08444444444444445,
+        "upper_95_one_sided": -0.022222222222222227,
+        "upper_95_two_sided": -0.017777777777777778
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.06,
+          "lower_95_one_sided": -0.10666666666666667,
+          "lower_95_two_sided": -0.11333333333333333,
+          "upper_95_one_sided": -0.02,
+          "upper_95_two_sided": -0.013333333333333334
+        },
+        "pusht": {
+          "estimate": 0.006666666666666667,
+          "lower_95_one_sided": -0.02666666666666667,
+          "lower_95_two_sided": -0.03333333333333333,
+          "upper_95_one_sided": 0.04,
+          "upper_95_two_sided": 0.04666666666666667
+        },
+        "reacher": {
+          "estimate": -0.1,
+          "lower_95_one_sided": -0.16666666666666666,
+          "lower_95_two_sided": -0.18,
+          "upper_95_one_sided": -0.03333333333333333,
+          "upper_95_two_sided": -0.02666666666666667
+        }
+      }
+    },
+    "ae_minus_ae_shuffled": {
+      "equal_task": {
+        "estimate": -0.008888888888888889,
+        "lower_95_one_sided": -0.03333333333333333,
+        "lower_95_two_sided": -0.03777777777777777,
+        "upper_95_one_sided": 0.015555555555555553,
+        "upper_95_two_sided": 0.02
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.04,
+          "lower_95_one_sided": 0.0,
+          "lower_95_two_sided": -0.006666666666666667,
+          "upper_95_one_sided": 0.08,
+          "upper_95_two_sided": 0.09333333333333334
+        },
+        "pusht": {
+          "estimate": -0.006666666666666667,
+          "lower_95_one_sided": -0.04,
+          "lower_95_two_sided": -0.04666666666666667,
+          "upper_95_one_sided": 0.02666666666666667,
+          "upper_95_two_sided": 0.03333333333333333
+        },
+        "reacher": {
+          "estimate": -0.06,
+          "lower_95_one_sided": -0.10666666666666667,
+          "lower_95_two_sided": -0.12,
+          "upper_95_one_sided": -0.013333333333333334,
+          "upper_95_two_sided": 0.0
+        }
+      }
+    },
+    "ae_minus_b0": {
+      "equal_task": {
+        "estimate": 0.011111111111111112,
+        "lower_95_one_sided": -0.017777777777777774,
+        "lower_95_two_sided": -0.022222222222222223,
+        "upper_95_one_sided": 0.04,
+        "upper_95_two_sided": 0.04666666666666666
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.06666666666666667,
+          "lower_95_one_sided": 0.02666666666666667,
+          "lower_95_two_sided": 0.02,
+          "upper_95_one_sided": 0.11333333333333333,
+          "upper_95_two_sided": 0.12666666666666668
+        },
+        "pusht": {
+          "estimate": 0.006666666666666667,
+          "lower_95_one_sided": -0.02666666666666667,
+          "lower_95_two_sided": -0.03333333333333333,
+          "upper_95_one_sided": 0.04,
+          "upper_95_two_sided": 0.04666666666666667
+        },
+        "reacher": {
+          "estimate": -0.04,
+          "lower_95_one_sided": -0.1,
+          "lower_95_two_sided": -0.11333333333333333,
+          "upper_95_one_sided": 0.02666666666666667,
+          "upper_95_two_sided": 0.04
+        }
+      }
+    },
+    "ae_minus_forward": {
+      "equal_task": {
+        "estimate": -0.011111111111111112,
+        "lower_95_one_sided": -0.03777777777777778,
+        "lower_95_two_sided": -0.04222222222222222,
+        "upper_95_one_sided": 0.013333333333333334,
+        "upper_95_two_sided": 0.017777777777777778
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.013333333333333334,
+          "lower_95_one_sided": -0.04666666666666667,
+          "lower_95_two_sided": -0.05333333333333334,
+          "upper_95_one_sided": 0.02,
+          "upper_95_two_sided": 0.02
+        },
+        "pusht": {
+          "estimate": 0.013333333333333334,
+          "lower_95_one_sided": -0.02,
+          "lower_95_two_sided": -0.02,
+          "upper_95_one_sided": 0.04666666666666667,
+          "upper_95_two_sided": 0.05333333333333334
+        },
+        "reacher": {
+          "estimate": -0.03333333333333333,
+          "lower_95_one_sided": -0.09333333333333334,
+          "lower_95_two_sided": -0.10666666666666667,
+          "upper_95_one_sided": 0.02666666666666667,
+          "upper_95_two_sided": 0.04
+        }
+      }
+    },
+    "rdx_minus_acid": {
+      "equal_task": {
+        "estimate": -0.042222222222222223,
+        "lower_95_one_sided": -0.07111111111111111,
+        "lower_95_two_sided": -0.07555555555555556,
+        "upper_95_one_sided": -0.015555555555555553,
+        "upper_95_two_sided": -0.00888888888888889
+      },
+      "per_task": {
+        "cube": {
+          "estimate": -0.07333333333333333,
+          "lower_95_one_sided": -0.12666666666666668,
+          "lower_95_two_sided": -0.14,
+          "upper_95_one_sided": -0.02666666666666667,
+          "upper_95_two_sided": -0.02
+        },
+        "pusht": {
+          "estimate": 0.0,
+          "lower_95_one_sided": -0.03333333333333333,
+          "lower_95_two_sided": -0.04,
+          "upper_95_one_sided": 0.03333333333333333,
+          "upper_95_two_sided": 0.04
+        },
+        "reacher": {
+          "estimate": -0.05333333333333334,
+          "lower_95_one_sided": -0.10666666666666667,
+          "lower_95_two_sided": -0.12,
+          "upper_95_one_sided": 0.006666666666666667,
+          "upper_95_two_sided": 0.013333333333333334
+        }
+      }
+    },
+    "rdx_minus_b0": {
+      "equal_task": {
+        "estimate": 0.02,
+        "lower_95_one_sided": -0.006666666666666665,
+        "lower_95_two_sided": -0.011111111111111112,
+        "upper_95_one_sided": 0.04666666666666667,
+        "upper_95_two_sided": 0.05333333333333334
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.05333333333333334,
+          "lower_95_one_sided": 0.006666666666666667,
+          "lower_95_two_sided": 0.0,
+          "upper_95_one_sided": 0.10666666666666667,
+          "upper_95_two_sided": 0.12
+        },
+        "pusht": {
+          "estimate": 0.0,
+          "lower_95_one_sided": -0.02,
+          "lower_95_two_sided": -0.02666666666666667,
+          "upper_95_one_sided": 0.02,
+          "upper_95_two_sided": 0.02666666666666667
+        },
+        "reacher": {
+          "estimate": 0.006666666666666667,
+          "lower_95_one_sided": -0.04666666666666667,
+          "lower_95_two_sided": -0.06,
+          "upper_95_one_sided": 0.06666666666666667,
+          "upper_95_two_sided": 0.08
+        }
+      }
+    }
+  },
+  "decision": "stop_diffusion_development_and_pivot",
+  "exact_paired_sensitivity": {
+    "ae_minus_acid": {
+      "per_task": {
+        "cube": {
+          "negative": 9,
+          "positive": 2,
+          "ties": 39,
+          "two_sided_exact_p": 0.0654296875,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "pusht": {
+          "negative": 4,
+          "positive": 5,
+          "ties": 41,
+          "two_sided_exact_p": 1.0,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "reacher": {
+          "negative": 18,
+          "positive": 7,
+          "ties": 25,
+          "two_sided_exact_p": 0.043285250663757324,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        }
+      },
+      "pooled_equal_task_descriptive": {
+        "negative": 31,
+        "positive": 14,
+        "ties": 105,
+        "two_sided_exact_p": 0.016094360031274846,
+        "unit": "start cluster; three paired scorer/planner seeds averaged"
+      }
+    },
+    "ae_minus_ae_shuffled": {
+      "per_task": {
+        "cube": {
+          "negative": 2,
+          "positive": 6,
+          "ties": 42,
+          "two_sided_exact_p": 0.2890625,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "pusht": {
+          "negative": 5,
+          "positive": 4,
+          "ties": 41,
+          "two_sided_exact_p": 1.0,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "reacher": {
+          "negative": 15,
+          "positive": 6,
+          "ties": 29,
+          "two_sided_exact_p": 0.0783538818359375,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        }
+      },
+      "pooled_equal_task_descriptive": {
+        "negative": 22,
+        "positive": 16,
+        "ties": 112,
+        "two_sided_exact_p": 0.417692190836533,
+        "unit": "start cluster; three paired scorer/planner seeds averaged"
+      }
+    },
+    "ae_minus_b0": {
+      "per_task": {
+        "cube": {
+          "negative": 1,
+          "positive": 8,
+          "ties": 41,
+          "two_sided_exact_p": 0.0390625,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "pusht": {
+          "negative": 4,
+          "positive": 5,
+          "ties": 41,
+          "two_sided_exact_p": 1.0,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "reacher": {
+          "negative": 15,
+          "positive": 8,
+          "ties": 27,
+          "two_sided_exact_p": 0.21003961563110352,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        }
+      },
+      "pooled_equal_task_descriptive": {
+        "negative": 20,
+        "positive": 21,
+        "ties": 109,
+        "two_sided_exact_p": 1.0,
+        "unit": "start cluster; three paired scorer/planner seeds averaged"
+      }
+    },
+    "ae_minus_forward": {
+      "per_task": {
+        "cube": {
+          "negative": 5,
+          "positive": 3,
+          "ties": 42,
+          "two_sided_exact_p": 0.7265625,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "pusht": {
+          "negative": 3,
+          "positive": 5,
+          "ties": 42,
+          "two_sided_exact_p": 0.7265625,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "reacher": {
+          "negative": 13,
+          "positive": 11,
+          "ties": 26,
+          "two_sided_exact_p": 0.8388197422027588,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        }
+      },
+      "pooled_equal_task_descriptive": {
+        "negative": 21,
+        "positive": 19,
+        "ties": 110,
+        "two_sided_exact_p": 0.8746293123804207,
+        "unit": "start cluster; three paired scorer/planner seeds averaged"
+      }
+    },
+    "rdx_minus_acid": {
+      "per_task": {
+        "cube": {
+          "negative": 8,
+          "positive": 1,
+          "ties": 41,
+          "two_sided_exact_p": 0.0390625,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "pusht": {
+          "negative": 4,
+          "positive": 3,
+          "ties": 43,
+          "two_sided_exact_p": 1.0,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "reacher": {
+          "negative": 15,
+          "positive": 7,
+          "ties": 28,
+          "two_sided_exact_p": 0.13380050659179688,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        }
+      },
+      "pooled_equal_task_descriptive": {
+        "negative": 27,
+        "positive": 11,
+        "ties": 112,
+        "two_sided_exact_p": 0.013852965261321515,
+        "unit": "start cluster; three paired scorer/planner seeds averaged"
+      }
+    },
+    "rdx_minus_b0": {
+      "per_task": {
+        "cube": {
+          "negative": 3,
+          "positive": 8,
+          "ties": 39,
+          "two_sided_exact_p": 0.2265625,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "pusht": {
+          "negative": 2,
+          "positive": 2,
+          "ties": 46,
+          "two_sided_exact_p": 1.0,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        },
+        "reacher": {
+          "negative": 10,
+          "positive": 9,
+          "ties": 31,
+          "two_sided_exact_p": 1.0,
+          "unit": "start cluster; three paired scorer/planner seeds averaged"
+        }
+      },
+      "pooled_equal_task_descriptive": {
+        "negative": 15,
+        "positive": 19,
+        "ties": 116,
+        "two_sided_exact_p": 0.6075913612730801,
+        "unit": "start cluster; three paired scorer/planner seeds averaged"
+      }
+    }
+  },
+  "exploratory_authorization": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/authorization/job-297571/authorization.json",
+  "exploratory_authorization_sha256": "88b6901f2ad4d4eed8ad276849b1c91343fd4d25d9dfbbe422b0d5bef5eec8a5",
+  "gates": {
+    "1_ae_noninferior_acid": false,
+    "2_ae_beats_b0": false,
+    "3_ae_beats_shuffled": false,
+    "4_ae_task_pattern_vs_b0": true,
+    "5_ae_noninferior_forward": true
+  },
+  "kind": "acid_alt_e3_d2_exploratory_closed_loop_analysis",
+  "levels": {
+    "acid": {
+      "equal_task": {
+        "estimate": 0.8488888888888889,
+        "lower_95_one_sided": 0.8066666666666666,
+        "lower_95_two_sided": 0.7977777777777777,
+        "upper_95_one_sided": 0.888888888888889,
+        "upper_95_two_sided": 0.8977777777777778
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.8066666666666666,
+          "lower_95_one_sided": 0.72,
+          "lower_95_two_sided": 0.7,
+          "upper_95_one_sided": 0.8866666666666667,
+          "upper_95_two_sided": 0.9
+        },
+        "pusht": {
+          "estimate": 0.8733333333333333,
+          "lower_95_one_sided": 0.7933333333333333,
+          "lower_95_two_sided": 0.7733333333333333,
+          "upper_95_one_sided": 0.94,
+          "upper_95_two_sided": 0.9533333333333334
+        },
+        "reacher": {
+          "estimate": 0.8666666666666667,
+          "lower_95_one_sided": 0.8133333333333334,
+          "lower_95_two_sided": 0.8,
+          "upper_95_one_sided": 0.92,
+          "upper_95_two_sided": 0.9266666666666666
+        }
+      }
+    },
+    "ae": {
+      "equal_task": {
+        "estimate": 0.7977777777777778,
+        "lower_95_one_sided": 0.7555555555555555,
+        "lower_95_two_sided": 0.7466666666666667,
+        "upper_95_one_sided": 0.8377777777777778,
+        "upper_95_two_sided": 0.8466666666666667
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.7466666666666667,
+          "lower_95_one_sided": 0.6533333333333333,
+          "lower_95_two_sided": 0.6333333333333333,
+          "upper_95_one_sided": 0.8333333333333334,
+          "upper_95_two_sided": 0.8466666666666667
+        },
+        "pusht": {
+          "estimate": 0.88,
+          "lower_95_one_sided": 0.8133333333333334,
+          "lower_95_two_sided": 0.8,
+          "upper_95_one_sided": 0.94,
+          "upper_95_two_sided": 0.9466666666666667
+        },
+        "reacher": {
+          "estimate": 0.7666666666666667,
+          "lower_95_one_sided": 0.7066666666666667,
+          "lower_95_two_sided": 0.6933333333333334,
+          "upper_95_one_sided": 0.8266666666666667,
+          "upper_95_two_sided": 0.8333333333333334
+        }
+      }
+    },
+    "ae_shuffled": {
+      "equal_task": {
+        "estimate": 0.8066666666666666,
+        "lower_95_one_sided": 0.7666666666666666,
+        "lower_95_two_sided": 0.7577777777777778,
+        "upper_95_one_sided": 0.8466666666666667,
+        "upper_95_two_sided": 0.8533333333333334
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.7066666666666667,
+          "lower_95_one_sided": 0.6133333333333333,
+          "lower_95_two_sided": 0.6,
+          "upper_95_one_sided": 0.7933333333333333,
+          "upper_95_two_sided": 0.8066666666666666
+        },
+        "pusht": {
+          "estimate": 0.8866666666666667,
+          "lower_95_one_sided": 0.8266666666666667,
+          "lower_95_two_sided": 0.8133333333333334,
+          "upper_95_one_sided": 0.94,
+          "upper_95_two_sided": 0.9466666666666667
+        },
+        "reacher": {
+          "estimate": 0.8266666666666667,
+          "lower_95_one_sided": 0.7666666666666667,
+          "lower_95_two_sided": 0.7533333333333333,
+          "upper_95_one_sided": 0.88,
+          "upper_95_two_sided": 0.8933333333333333
+        }
+      }
+    },
+    "b0": {
+      "equal_task": {
+        "estimate": 0.7866666666666666,
+        "lower_95_one_sided": 0.7400000000000001,
+        "lower_95_two_sided": 0.7311111111111112,
+        "upper_95_one_sided": 0.831111111111111,
+        "upper_95_two_sided": 0.84
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.68,
+          "lower_95_one_sided": 0.58,
+          "lower_95_two_sided": 0.56,
+          "upper_95_one_sided": 0.7733333333333333,
+          "upper_95_two_sided": 0.7933333333333333
+        },
+        "pusht": {
+          "estimate": 0.8733333333333333,
+          "lower_95_one_sided": 0.8,
+          "lower_95_two_sided": 0.78,
+          "upper_95_one_sided": 0.94,
+          "upper_95_two_sided": 0.9533333333333334
+        },
+        "reacher": {
+          "estimate": 0.8066666666666666,
+          "lower_95_one_sided": 0.74,
+          "lower_95_two_sided": 0.7266666666666667,
+          "upper_95_one_sided": 0.8733333333333333,
+          "upper_95_two_sided": 0.88
+        }
+      }
+    },
+    "forward": {
+      "equal_task": {
+        "estimate": 0.8088888888888889,
+        "lower_95_one_sided": 0.7666666666666666,
+        "lower_95_two_sided": 0.7577777777777778,
+        "upper_95_one_sided": 0.8488888888888889,
+        "upper_95_two_sided": 0.8577777777777778
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.76,
+          "lower_95_one_sided": 0.6733333333333333,
+          "lower_95_two_sided": 0.6533333333333333,
+          "upper_95_one_sided": 0.8466666666666667,
+          "upper_95_two_sided": 0.86
+        },
+        "pusht": {
+          "estimate": 0.8666666666666667,
+          "lower_95_one_sided": 0.7933333333333333,
+          "lower_95_two_sided": 0.78,
+          "upper_95_one_sided": 0.9333333333333333,
+          "upper_95_two_sided": 0.94
+        },
+        "reacher": {
+          "estimate": 0.8,
+          "lower_95_one_sided": 0.74,
+          "lower_95_two_sided": 0.7266666666666667,
+          "upper_95_one_sided": 0.86,
+          "upper_95_two_sided": 0.8666666666666667
+        }
+      }
+    },
+    "rdx": {
+      "equal_task": {
+        "estimate": 0.8066666666666666,
+        "lower_95_one_sided": 0.7644444444444444,
+        "lower_95_two_sided": 0.7555555555555555,
+        "upper_95_one_sided": 0.8488888888888888,
+        "upper_95_two_sided": 0.8555555555555555
+      },
+      "per_task": {
+        "cube": {
+          "estimate": 0.7333333333333333,
+          "lower_95_one_sided": 0.64,
+          "lower_95_two_sided": 0.62,
+          "upper_95_one_sided": 0.8266666666666667,
+          "upper_95_two_sided": 0.84
+        },
+        "pusht": {
+          "estimate": 0.8733333333333333,
+          "lower_95_one_sided": 0.8066666666666666,
+          "lower_95_two_sided": 0.7933333333333333,
+          "upper_95_one_sided": 0.9333333333333333,
+          "upper_95_two_sided": 0.94
+        },
+        "reacher": {
+          "estimate": 0.8133333333333334,
+          "lower_95_one_sided": 0.7533333333333333,
+          "lower_95_two_sided": 0.74,
+          "upper_95_one_sided": 0.8666666666666667,
+          "upper_95_two_sided": 0.88
+        }
+      }
+    }
+  },
+  "protected_c1_i1_read": false,
+  "protocol": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e3-d2-323318f12407690c/ACID-ALTERNATIVE-E3-EXPLORATORY-D2-CLOSED-LOOP-PROTOCOL-2026-08-16.md",
+  "protocol_sha256": "c48eaf320c9b378af5e5d265397af8efd3485c45a288481d25f5161238af1fb0",
+  "run_inputs": {
+    "cube/acid/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 376.06802797317505,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6101-planner-seed-8301-job-297572-39/episodes.tsv",
+      "episodes_sha256": "e0688ade4c0ce92f4076975bad9d5dc02902ace1972d4dc98ce9c851c8399124",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503354880,
+        "peak_cuda_memory_reserved_bytes": 513802240,
+        "python": "3.11.10",
+        "slurm_array_task_id": "39",
+        "slurm_job_id": "297613",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6101-planner-seed-8301-job-297572-39/summary.json",
+      "summary_sha256": "c93727dc4c9851c384d5332a31fbf29979424b1e9dc0016b4a7f957060e5659e",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/acid/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 401.2343623638153,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6102-planner-seed-8302-job-297572-40/episodes.tsv",
+      "episodes_sha256": "e96abd23362bec8e9dcbbd9563efa43328e95b7368c286d67633e9e33bb0dde7",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503354880,
+        "peak_cuda_memory_reserved_bytes": 513802240,
+        "python": "3.11.10",
+        "slurm_array_task_id": "40",
+        "slurm_job_id": "297614",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6102-planner-seed-8302-job-297572-40/summary.json",
+      "summary_sha256": "3a3281b006ff0242328741c0a32fef36ffb572d2f0a1922e63ef84e56568fa02",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/acid/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 407.0984468460083,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6103-planner-seed-8303-job-297572-41/episodes.tsv",
+      "episodes_sha256": "9eabf8efba3f3cb63fabde0a4c78565dd52303cbbf17488449b2bbaa1137dae9",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503354880,
+        "peak_cuda_memory_reserved_bytes": 513802240,
+        "python": "3.11.10",
+        "slurm_array_task_id": "41",
+        "slurm_job_id": "297615",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/acid/scorer-seed-6103-planner-seed-8303-job-297572-41/summary.json",
+      "summary_sha256": "b5368e408c72b38c4fd2f325ade6c87e5e5e4338066939af56255a161a3c05c4",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/ae/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 560.9001309871674,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6101-planner-seed-8301-job-297572-48/episodes.tsv",
+      "episodes_sha256": "fab886abdda4883eba48ccf9528269b70e5ec83900d09988e33ed332925b2cf0",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "48",
+        "slurm_job_id": "297622",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6101-planner-seed-8301-job-297572-48/summary.json",
+      "summary_sha256": "73d95665115d0d7289240ce439b7d215fe275b58388f30bd602df49e369cb624",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/ae/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 576.3223950862885,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6102-planner-seed-8302-job-297572-49/episodes.tsv",
+      "episodes_sha256": "2f232d91721429c8ae91c29d79f0fd4a792d195fbb2f34f1ae6bba55d633f2c4",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "49",
+        "slurm_job_id": "297623",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6102-planner-seed-8302-job-297572-49/summary.json",
+      "summary_sha256": "6edbc429256b9469385498de7aa9008aa1210a8c20954ab17821642ae5446f66",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/ae/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 592.7089102268219,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6103-planner-seed-8303-job-297572-50/episodes.tsv",
+      "episodes_sha256": "2a91bb19f6c788f46b860cacc44fe24b2e162fd2d4abb7da91dc4dd64348afb5",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "50",
+        "slurm_job_id": "297624",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae/scorer-seed-6103-planner-seed-8303-job-297572-50/summary.json",
+      "summary_sha256": "01ee0a0a7c1050f7e852404ca77b6162c0835f2faec1dbddc708514d7298965b",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/ae_shuffled/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 556.426764011383,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-51/episodes.tsv",
+      "episodes_sha256": "c2fd3e80a1fe83992ed8d8ea032ffa23a597d4a7f969bee19ea04d7f4ec7a273",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "51",
+        "slurm_job_id": "297625",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-51/summary.json",
+      "summary_sha256": "8b940632d988271ad52ecc94e17884041eeced1f464780574754558eaf280b6a",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/ae_shuffled/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 569.3488998413086,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-52/episodes.tsv",
+      "episodes_sha256": "4b1ab58ab7863b6a06fe35645a6c85cbb476c5384d4588a09e1a73b7e39909fa",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "52",
+        "slurm_job_id": "297626",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-52/summary.json",
+      "summary_sha256": "8c3c18e528e48201c91ba5fe4ede71caa2457d6de5e102dd13ee9ad24cab1312",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/ae_shuffled/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 589.1069774627686,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-53/episodes.tsv",
+      "episodes_sha256": "cf91453f18ddb89ca5c6d2a5bcd66427e6036209e182d03a15b1030b62408047",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "53",
+        "slurm_job_id": "297572",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-53/summary.json",
+      "summary_sha256": "37fefd6c4b6cd085b483df4d5e54ab84e8747f19e46f70c310f07f3247fb82d5",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/b0/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 368.7783091068268,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6101-planner-seed-8301-job-297572-36/episodes.tsv",
+      "episodes_sha256": "dfd7501d6bf6f7a038ed6a8ecc72465a4977c42788877ba7c40dc2a265c46a4f",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 496035840,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "36",
+        "slurm_job_id": "297610",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6101-planner-seed-8301-job-297572-36/summary.json",
+      "summary_sha256": "7ed8d4074adec0b9b245c1ec1969860f745e6065c68f482c1a713f40614c9541",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/b0/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 379.01188683509827,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6102-planner-seed-8302-job-297572-37/episodes.tsv",
+      "episodes_sha256": "721dfb7d4a95b545e7af7565fc0b1bd40b5a6245c20e091d65ed27317c3a98fb",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 496035840,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "37",
+        "slurm_job_id": "297611",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6102-planner-seed-8302-job-297572-37/summary.json",
+      "summary_sha256": "7d95c9c12ebc05dc265adc4669ff345b228030d97b9363f2863d8911e2323c15",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/b0/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 381.7868084907532,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6103-planner-seed-8303-job-297572-38/episodes.tsv",
+      "episodes_sha256": "647c4bac5645fd225415da24383567517bc411458b58f3ad981e0725d8f036a1",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 496035840,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "38",
+        "slurm_job_id": "297612",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/b0/scorer-seed-6103-planner-seed-8303-job-297572-38/summary.json",
+      "summary_sha256": "d281c0e98878990fe10a6d4db09b4b4b68856fce2c9597ccd88a27ebb67e7a99",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/forward/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 365.40288186073303,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6101-planner-seed-8301-job-297572-42/episodes.tsv",
+      "episodes_sha256": "b1bd05ced366d1fe2cd7050a380e2c22f188c1b7f20575564c75a8050e0741ed",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504089600,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "42",
+        "slurm_job_id": "297616",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6101-planner-seed-8301-job-297572-42/summary.json",
+      "summary_sha256": "81acd32ba216ace7b3dd5537150446f7a630d48d583f50c798507ed430ca67a0",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/forward/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 386.5523190498352,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6102-planner-seed-8302-job-297572-43/episodes.tsv",
+      "episodes_sha256": "90f7cbf33865e297e2648d45905663f55f9e058ab984f17ade6e9ee6a690b986",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504089600,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "43",
+        "slurm_job_id": "297617",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6102-planner-seed-8302-job-297572-43/summary.json",
+      "summary_sha256": "dd2803636ab583e2d6f9067990f05a2943887041f5d170b2101c745ad7ae714a",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/forward/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 390.7120769023895,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6103-planner-seed-8303-job-297572-44/episodes.tsv",
+      "episodes_sha256": "f5483084a8ec912acacbd77a84fffeed2c7af6e21a90edc8bbdb3ad44e91a628",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504089600,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "44",
+        "slurm_job_id": "297618",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/forward/scorer-seed-6103-planner-seed-8303-job-297572-44/summary.json",
+      "summary_sha256": "01263ac3742c175c37507acaa8e9b2445e99263402e9491b39df25c87cc04449",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/rdx/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 557.0718929767609,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6101-planner-seed-8301-job-297572-45/episodes.tsv",
+      "episodes_sha256": "2e49d7d0c548d54645d6d4ef5525156db94a764e00de1c42bfe8578dff9f37c4",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "45",
+        "slurm_job_id": "297619",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6101-planner-seed-8301-job-297572-45/summary.json",
+      "summary_sha256": "adfe276a54cd21d28142e83195e131cbf130b678d6ee30042a45a4a17f09633e",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/rdx/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 573.9166948795319,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6102-planner-seed-8302-job-297572-46/episodes.tsv",
+      "episodes_sha256": "48864715b45b4a9463b345cfd70e7bd30b049333040281f57156e73a5252c56f",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "46",
+        "slurm_job_id": "297620",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6102-planner-seed-8302-job-297572-46/summary.json",
+      "summary_sha256": "cf415b01cde148e6fb05549e22c2c594c4cbf5077a8436cf20473c693dac8c73",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "cube/rdx/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+      "elapsed_seconds": 592.4461441040039,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6103-planner-seed-8303-job-297572-47/episodes.tsv",
+      "episodes_sha256": "600a4e16836ade253664e31a7b509aee1051e09175722fc50cda60e98c8ef8ac",
+      "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 504257536,
+        "peak_cuda_memory_reserved_bytes": 528482304,
+        "python": "3.11.10",
+        "slurm_array_task_id": "47",
+        "slurm_job_id": "297621",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/cube/rdx/scorer-seed-6103-planner-seed-8303-job-297572-47/summary.json",
+      "summary_sha256": "d3ee72e6048e26e5ea87fb100c06c9f402d55b7b934d5d6e26ff99d6d94ccaaf",
+      "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07"
+    },
+    "pusht/acid/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 386.1510272026062,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6101-planner-seed-8301-job-297572-3/episodes.tsv",
+      "episodes_sha256": "bd64d386cfa1a4b67a6e92dd748a1a782474c0a5adf015d164853c0d67c71216",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502199296,
+        "peak_cuda_memory_reserved_bytes": 511705088,
+        "python": "3.11.10",
+        "slurm_array_task_id": "3",
+        "slurm_job_id": "297577",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6101-planner-seed-8301-job-297572-3/summary.json",
+      "summary_sha256": "d82621e9bf862327362e03e19f56c0fddff1b66c727c0f54e9d1fea0cea96661",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/acid/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 368.37347388267517,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6102-planner-seed-8302-job-297572-4/episodes.tsv",
+      "episodes_sha256": "a415ba4208bc1d6c62461cd457647e20151dfecd7d1643e157b627716473fd0c",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502199296,
+        "peak_cuda_memory_reserved_bytes": 511705088,
+        "python": "3.11.10",
+        "slurm_array_task_id": "4",
+        "slurm_job_id": "297578",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6102-planner-seed-8302-job-297572-4/summary.json",
+      "summary_sha256": "fd8800ea899afd2b121f8cb036a827f89974ee3b37ad94ebeca011908c300a21",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/acid/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 386.8768000602722,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6103-planner-seed-8303-job-297572-5/episodes.tsv",
+      "episodes_sha256": "a95fcfa22558c3d297ef1338ae565a4339162b90f86a2ea1400f7ba1a99d9407",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502199296,
+        "peak_cuda_memory_reserved_bytes": 511705088,
+        "python": "3.11.10",
+        "slurm_array_task_id": "5",
+        "slurm_job_id": "297579",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/acid/scorer-seed-6103-planner-seed-8303-job-297572-5/summary.json",
+      "summary_sha256": "cbee59fbd29b48c17f70f36e210f1a3cbba9e5081c1283bd9d0963411ebf12f7",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/ae/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 535.4295544624329,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6101-planner-seed-8301-job-297572-12/episodes.tsv",
+      "episodes_sha256": "8b920cb5f48e16808350044be5d4020bd4577a9598c3053e97acd0488f5c9cc0",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "12",
+        "slurm_job_id": "297586",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6101-planner-seed-8301-job-297572-12/summary.json",
+      "summary_sha256": "a5e1323edf572eae98b8304630e1c747dfc4aef1908d2e86ee69f9ae993433ef",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/ae/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 548.6681218147278,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6102-planner-seed-8302-job-297572-13/episodes.tsv",
+      "episodes_sha256": "c91e652813272a718dbad1d753c97d6f438128a5fffe883ae4b1dc7c436dd7bd",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "13",
+        "slurm_job_id": "297587",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6102-planner-seed-8302-job-297572-13/summary.json",
+      "summary_sha256": "a7e41934aad1a96c1d253ec2f86494b91daa52a377cfab44078dc5543e97dc90",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/ae/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 563.5302093029022,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6103-planner-seed-8303-job-297572-14/episodes.tsv",
+      "episodes_sha256": "cc600ac02e2b43967e69ded8aa84c4be923908e808014980d0d1168aee61a7ef",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "14",
+        "slurm_job_id": "297588",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae/scorer-seed-6103-planner-seed-8303-job-297572-14/summary.json",
+      "summary_sha256": "0be9a9d769386b7c88a822850373c9d3df3e76378718aa63f7a579c4fe52f588",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/ae_shuffled/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 538.0699572563171,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-15/episodes.tsv",
+      "episodes_sha256": "859a95f950d98cd4d49b864e6e816a4c8cff7dce93e9b05bc45399287a8bdea3",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "15",
+        "slurm_job_id": "297589",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-15/summary.json",
+      "summary_sha256": "6e49748f5de96ad94f20e9800f1ecb6a528309eb42dcbaf6d5253dea0468a38e",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/ae_shuffled/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 559.6990220546722,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-16/episodes.tsv",
+      "episodes_sha256": "67c9bcff787002762328abc783e5fd619995793f2817c53e0b44d877c3284d6b",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "16",
+        "slurm_job_id": "297590",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-16/summary.json",
+      "summary_sha256": "da4f0f192542b88582387d2e8b64e52dc85f7f74b8c53b06d363f80f647d32ac",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/ae_shuffled/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 560.5637776851654,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-17/episodes.tsv",
+      "episodes_sha256": "3b7b89656cf0b32b529a71e98110ced1901cce1aa27e5f310697a02df1351c6b",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "17",
+        "slurm_job_id": "297591",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-17/summary.json",
+      "summary_sha256": "878dbec5a84b8b56305371444153b88d8d2602502af07b9edbde741b4f389d13",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/b0/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 374.14205026626587,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6101-planner-seed-8301-job-297572-0/episodes.tsv",
+      "episodes_sha256": "3bf6659d3a7088fb2b0b465e00738d571826c39ee6ec669a82aa727850cedefb",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 494903808,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "0",
+        "slurm_job_id": "297574",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6101-planner-seed-8301-job-297572-0/summary.json",
+      "summary_sha256": "deb8910067b19b1bf9eeafacb9de913977fa89d468bbce5dbe832549b0094fc5",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/b0/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 356.62670969963074,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6102-planner-seed-8302-job-297572-1/episodes.tsv",
+      "episodes_sha256": "54c42ee8bde7b8a743cc0d158716cc2c8017f1ab9995b515cbeaac32d2e85e60",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 494903808,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "1",
+        "slurm_job_id": "297575",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6102-planner-seed-8302-job-297572-1/summary.json",
+      "summary_sha256": "90c5460112c9f882d6dee0f63139b89e58a4f5ddb76621aaac1df20c30eb7db7",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/b0/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 374.11865425109863,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6103-planner-seed-8303-job-297572-2/episodes.tsv",
+      "episodes_sha256": "254416e242e6d943656a71ac09faa6282a6138f6df15b901a410d2eeb69fdf3c",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 494903808,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "2",
+        "slurm_job_id": "297576",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/b0/scorer-seed-6103-planner-seed-8303-job-297572-2/summary.json",
+      "summary_sha256": "f73011bc9d172d69d108a3f5ca003d0920fe0eb6ed71eb9794941b0aa78d96ac",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/forward/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 358.7388446331024,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6101-planner-seed-8301-job-297572-6/episodes.tsv",
+      "episodes_sha256": "484519398dc007ea4b740db5d34fe38cca6895d2a638fd771a15483ecc2e8cee",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502934016,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "6",
+        "slurm_job_id": "297580",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6101-planner-seed-8301-job-297572-6/summary.json",
+      "summary_sha256": "86f50f43956d0f1d69e498cf933cc455543f31afff20e1ae4751c73c50a2dd9d",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/forward/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 376.21513533592224,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6102-planner-seed-8302-job-297572-7/episodes.tsv",
+      "episodes_sha256": "7eb7200097b12ccd5d72101f09eda55a9965f5426543b07e43a7a3c2740362f4",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502934016,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "7",
+        "slurm_job_id": "297581",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6102-planner-seed-8302-job-297572-7/summary.json",
+      "summary_sha256": "75c4bbc59e52cdf1248a58cb4362ac1ca5c7f6557ec00bb249969f6809955d87",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/forward/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 376.38614439964294,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6103-planner-seed-8303-job-297572-8/episodes.tsv",
+      "episodes_sha256": "9f1fb72c6c4d303690df947b4e7efededdfd0a53ae551619ea3adcdefc1b6cfc",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502934016,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "8",
+        "slurm_job_id": "297582",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/forward/scorer-seed-6103-planner-seed-8303-job-297572-8/summary.json",
+      "summary_sha256": "224f65c3411c73bc39991d20863a280526fc0a4d3cf444b33ee7d2c0847b40de",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/rdx/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 538.026745557785,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6101-planner-seed-8301-job-297572-9/episodes.tsv",
+      "episodes_sha256": "73a2cc03d1270c4a48ef14b9a1b52ec9ddd9f7c38ad600e550b235e0fd8bef65",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "9",
+        "slurm_job_id": "297583",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6101-planner-seed-8301-job-297572-9/summary.json",
+      "summary_sha256": "c6bfb7ab11018df19d5da7df54385fa870a59efb40a1506251a3cc1fc0ac6fdc",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/rdx/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 564.2174334526062,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6102-planner-seed-8302-job-297572-10/episodes.tsv",
+      "episodes_sha256": "49813c55ca6fb083972f49868d41de4ad800b474eaa9a94581fd376e875dae32",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "10",
+        "slurm_job_id": "297584",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6102-planner-seed-8302-job-297572-10/summary.json",
+      "summary_sha256": "10dc2c8327976193eaf229cd5533502ff47f2abaf5da9a5e7e18d5d337006748",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "pusht/rdx/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "elapsed_seconds": 549.1827039718628,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6103-planner-seed-8303-job-297572-11/episodes.tsv",
+      "episodes_sha256": "0efa7636f18069fbc97669a981d17503ef141dd57bca55662a1f4a861c2d262c",
+      "eval_manifest_sha256": "85fd2bc499892be09a5e92000aab879e314ebc3100b11017c3864104d4d25e89",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503102464,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "11",
+        "slurm_job_id": "297585",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/pusht/rdx/scorer-seed-6103-planner-seed-8303-job-297572-11/summary.json",
+      "summary_sha256": "7dace904851bec7d1809be70943e0b82bbbf51667d01e6a124b10622f7685c43",
+      "world_model_checkpoint_sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "reacher/acid/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 379.37355518341064,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6101-planner-seed-8301-job-297572-21/episodes.tsv",
+      "episodes_sha256": "ce36f67250b5975a1def418c423fae54bce73846a57fe46f0260fad7d6aa59d2",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502211584,
+        "peak_cuda_memory_reserved_bytes": 511705088,
+        "python": "3.11.10",
+        "slurm_array_task_id": "21",
+        "slurm_job_id": "297595",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6101-planner-seed-8301-job-297572-21/summary.json",
+      "summary_sha256": "9459ce1863ea44c885c807e85e00c293cf116fc60ba2e2bb7dd35f078a576a83",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/acid/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 390.4744110107422,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6102-planner-seed-8302-job-297572-22/episodes.tsv",
+      "episodes_sha256": "166d029908dee1a0845164b3d9ae9d0dab0e9b8edf185a202fd57087b8aeb08d",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502211584,
+        "peak_cuda_memory_reserved_bytes": 511705088,
+        "python": "3.11.10",
+        "slurm_array_task_id": "22",
+        "slurm_job_id": "297596",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6102-planner-seed-8302-job-297572-22/summary.json",
+      "summary_sha256": "d925fd187b7d8df42deed7706a1566960106ccaf889a08d16a2fc895d4875432",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/acid/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 387.8135612010956,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6103-planner-seed-8303-job-297572-23/episodes.tsv",
+      "episodes_sha256": "e284d7dfbdb3bdba43ddd1de2d0f95468f8bcc8e490c6ca7c64f6adac051e0f2",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502211584,
+        "peak_cuda_memory_reserved_bytes": 511705088,
+        "python": "3.11.10",
+        "slurm_array_task_id": "23",
+        "slurm_job_id": "297597",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/acid/scorer-seed-6103-planner-seed-8303-job-297572-23/summary.json",
+      "summary_sha256": "7df247e80675a0620d88ff6865a9b5b83ff8fd74104db043eec7374b607af0d4",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/ae/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 541.6143486499786,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6101-planner-seed-8301-job-297572-30/episodes.tsv",
+      "episodes_sha256": "6f86bfb3e72e354a204c2f747cb4bc94335105c21d3e398d65ea269a53308eae",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "30",
+        "slurm_job_id": "297604",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6101-planner-seed-8301-job-297572-30/summary.json",
+      "summary_sha256": "dc5467aef101caa6d58b0d5ae66ae5024f9ef65c7e45ca8bc08f11683720e4f7",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/ae/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 558.7161374092102,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6102-planner-seed-8302-job-297572-31/episodes.tsv",
+      "episodes_sha256": "058b09fa5e073fa2c17998c6bc63f11e9f49fb32bfa3f258f1f9dab05373cc2b",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "31",
+        "slurm_job_id": "297605",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6102-planner-seed-8302-job-297572-31/summary.json",
+      "summary_sha256": "9acde5e7f134bae5cd659f59e24b0f817c134cf88b25cd8550160bb2b5d40ec3",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/ae/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 566.9598882198334,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6103-planner-seed-8303-job-297572-32/episodes.tsv",
+      "episodes_sha256": "71cb9eead489a724561a532151687f387d0136f3fd4224f3b6cc2cefb2778af9",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "32",
+        "slurm_job_id": "297606",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae/scorer-seed-6103-planner-seed-8303-job-297572-32/summary.json",
+      "summary_sha256": "24b58f7750fd114939c16671e9b64287325e982e5d8173ebccd33e3a66189c5c",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/ae_shuffled/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 548.973959684372,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-33/episodes.tsv",
+      "episodes_sha256": "62ac84aff49c15a5a9a5ceb6e5a9f05e182f76bd22f10d37bf194d4792cc0f13",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "33",
+        "slurm_job_id": "297607",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6101-planner-seed-8301-job-297572-33/summary.json",
+      "summary_sha256": "960295a5c4994543e2412f4db761e421d76e42c59b86f03db50a54ebc442ab77",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/ae_shuffled/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 553.9280986785889,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-34/episodes.tsv",
+      "episodes_sha256": "a3ed776736cc81fb6ed97e9ad7eef0a40be6b82344f4dbf7596d40d0c96e91e1",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "34",
+        "slurm_job_id": "297608",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6102-planner-seed-8302-job-297572-34/summary.json",
+      "summary_sha256": "3eaab09ce6d06fef0a1c9b918033a1083a5518d5d33072805be52fd15ca872e6",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/ae_shuffled/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 564.1352648735046,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-35/episodes.tsv",
+      "episodes_sha256": "91d61d23990b5f28d46734822912bce42f411f305dc9dcb41210417db72ea0c4",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "35",
+        "slurm_job_id": "297609",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/ae_shuffled/scorer-seed-6103-planner-seed-8303-job-297572-35/summary.json",
+      "summary_sha256": "e8e03ad5bb8e924cdf5055fef7756ac0a75de30b63af7ba52c9d6e73d76547af",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/b0/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 348.4807846546173,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6101-planner-seed-8301-job-297572-18/episodes.tsv",
+      "episodes_sha256": "8592c0741754fa8828595d125a24542b58bebd934c7bf2e9a7fb38d5f70d6ade",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 494916096,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "18",
+        "slurm_job_id": "297592",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6101-planner-seed-8301-job-297572-18/summary.json",
+      "summary_sha256": "e0008c2e20a6c2dca6e925f69b4c9df92896570d77294a754be96c2b637dbd98",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/b0/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 370.46909976005554,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6102-planner-seed-8302-job-297572-19/episodes.tsv",
+      "episodes_sha256": "ef29d790be2cd3413203d1c6757aebe6cf5a679fd0a83916210da8c78585bf6a",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 494916096,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "19",
+        "slurm_job_id": "297593",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6102-planner-seed-8302-job-297572-19/summary.json",
+      "summary_sha256": "3bf12d3ce92173585529cc5b18fa332eff0c06dfed629594e54daaa27be81a62",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/b0/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 372.99512219429016,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6103-planner-seed-8303-job-297572-20/episodes.tsv",
+      "episodes_sha256": "fe91c3d75f2dfe2deb605a35eb0c5e05a77c9e021df17f4003207f030aa6bec8",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 494916096,
+        "peak_cuda_memory_reserved_bytes": 505413632,
+        "python": "3.11.10",
+        "slurm_array_task_id": "20",
+        "slurm_job_id": "297594",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/b0/scorer-seed-6103-planner-seed-8303-job-297572-20/summary.json",
+      "summary_sha256": "5e48242b6cde24ff6cc61de8cf3a2dab9d405c5b60880212cfcf55c8c2ac83e3",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/forward/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 350.98320984840393,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6101-planner-seed-8301-job-297572-24/episodes.tsv",
+      "episodes_sha256": "e818919c8ac03f1d111921d36b765a7c703e8861b66662a6ed068371845fa1b4",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502946304,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "24",
+        "slurm_job_id": "297598",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6101-planner-seed-8301-job-297572-24/summary.json",
+      "summary_sha256": "f3d5fb5915fcdce005f64d0aeae1038c859d99a7f1202ea495843c46a921bdf3",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/forward/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 378.2317605018616,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6102-planner-seed-8302-job-297572-25/episodes.tsv",
+      "episodes_sha256": "d3afae1c1b28f53a9911e1e2aefa87daa31f74a7f15ae79b2ce6bdd1a147b8da",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502946304,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "25",
+        "slurm_job_id": "297599",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6102-planner-seed-8302-job-297572-25/summary.json",
+      "summary_sha256": "22e36c0f1361805ee3b1b1a5c80c55d050d8ae75e6163b2060fd3d4adf6caaa1",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/forward/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 378.6860423088074,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6103-planner-seed-8303-job-297572-26/episodes.tsv",
+      "episodes_sha256": "9f6e8400d12ac6f8a349469886e00fdbe756573b6a526c0daf28519fe7d756ca",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 502946304,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "26",
+        "slurm_job_id": "297600",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/forward/scorer-seed-6103-planner-seed-8303-job-297572-26/summary.json",
+      "summary_sha256": "104571c40b0a7248a8c057d4d28783891f3fd3438876df6c6337e333418a0444",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/rdx/6101": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 546.2259542942047,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6101-planner-seed-8301-job-297572-27/episodes.tsv",
+      "episodes_sha256": "e3bf154e8309885ca28cce48b5bcdaac66f4ec795183147fe1a03cbae7b90578",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "27",
+        "slurm_job_id": "297601",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6101-planner-seed-8301-job-297572-27/summary.json",
+      "summary_sha256": "dd3111e0402106e3684fcb3032589cbd347fa69a488008898315f9664030d5f2",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/rdx/6102": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 568.9681758880615,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6102-planner-seed-8302-job-297572-28/episodes.tsv",
+      "episodes_sha256": "6ad5232ae6f5414a6fcb96ecdf5326ba4590b7f802834489fac27ac5196840f3",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "28",
+        "slurm_job_id": "297602",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6102-planner-seed-8302-job-297572-28/summary.json",
+      "summary_sha256": "712f51ef06a364353c2151ed07e7f2bc6c5d181de824fa3c287f79f80c32cdbe",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    },
+    "reacher/rdx/6103": {
+      "cem_cost_calls": 3000,
+      "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "elapsed_seconds": 570.9441213607788,
+      "episodes": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6103-planner-seed-8303-job-297572-29/episodes.tsv",
+      "episodes_sha256": "f2e22dad2cff3b2718ed984682726994e587bcbc47f363d58af75d1f939dc543",
+      "eval_manifest_sha256": "a8683cccfd998017fdf52f21ec6b3a588a4cbda2578049ba007f8bd4f817fd61",
+      "runtime": {
+        "gpu": "NVIDIA RTX 6000 Ada Generation",
+        "hostname": "gpu09.cluster",
+        "peak_cuda_memory_allocated_bytes": 503114752,
+        "peak_cuda_memory_reserved_bytes": 526385152,
+        "python": "3.11.10",
+        "slurm_array_task_id": "29",
+        "slurm_job_id": "297603",
+        "stable_worldmodel": "0.0.6",
+        "torch": "2.5.1+cu121"
+      },
+      "summary": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/closed-loop/reacher/rdx/scorer-seed-6103-planner-seed-8303-job-297572-29/summary.json",
+      "summary_sha256": "94ed9f61e123271344f95ecea56f69e7a195d747f78eb77b7ffa3de53b038f35",
+      "world_model_checkpoint_sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    }
+  },
+  "runs_tsv": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e3-d2-exploratory/analysis/job-297573/runs.tsv",
+  "runs_tsv_sha256": "118b5c05a0030be63cc74f080a1b7baa778fe9acc09dee22fd7025ab4711d809",
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e3-d2-323318f12407690c/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "323318f12407690c4ebff4a738cd3676c1321c29748da3fc8cb24aa0de6d63c5",
+  "stage_a_manifest_sha256": "3558b8612787035cfa92c17d8a36f46f379bb2812f67aa0a73438d8cab974053",
+  "stage_a_summary_sha256": "0af2181b1060d761a295c885f2eae34af47a0fd94992a8f3a59cf05e57ecbe37",
+  "status": "ok",
+  "v3_stage_b_authorized": false
+}

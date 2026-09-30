@@ -1,0 +1,256 @@
+{
+  "alternative_to_acid_claim_allowed": false,
+  "analysis_role": "post_e3_e5_exposed_d2_planner_integration_development",
+  "arm": "forward_gate_all_q40",
+  "arm_spec": {
+    "active_tail_steps": 30,
+    "integration": "quantile_gate",
+    "reject_fraction": 0.4,
+    "score_arm": "forward",
+    "shuffled": false
+  },
+  "authorization": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e6d-allgate-controls/authorization/job-297689/authorization.json",
+  "authorization_sha256": "a5672bf582ab314b14d8f410dc1c7e68d89d3456513129dee7e1f5608caffe79",
+  "cem_cost_calls": 3000,
+  "cem_diagnostics": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/forward_gate_all_q40/job-297690-7/cem-diagnostics.jsonl",
+  "cem_diagnostics_sha256": "694cc3668cfdeb6fc933f9d97c700f09f15814bd34285cfbdb470cbb2cc33d77",
+  "confirmation_claim_allowed": false,
+  "d3_selected": false,
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube_single_expert.h5",
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "e3_summary_sha256": "2a4134b49f770cd3f339d73233183d5bd2013b562aee751abc0e8a744959fdbb",
+  "e5_summary_sha256": "0c956e95e258eeb440bad12e71de3528b317c49c06f50519e5bc110e3c5da553",
+  "elapsed_seconds": 541.0934064388275,
+  "episode_count": 50,
+  "episodes_tsv": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/e6d-allgate-controls/closed-loop/cube/forward_gate_all_q40/job-297690-7/episodes.tsv",
+  "episodes_tsv_sha256": "cf832d37a7b1c0cdf8b6b02f174738195ab6afa8ad67fff9878e53ed8a2d690f",
+  "eval_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/d2-fresh.tsv",
+  "eval_manifest_sha256": "bd131f4fc43e69311cf9722dfd678abb7cf888fe067ddf00f7310ff866eb7388",
+  "eval_provenance": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v3-d2/cube/job-297535/provenance.json",
+  "eval_provenance_sha256": "fa0dfb090aadeb1daadaf703707a64f049cac988c1c9074f0a09345eebb8a62b",
+  "kind": "acid_alt_e6_d2_quantile_closed_loop_evaluation",
+  "metrics": {
+    "episode_successes": [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "seeds": null,
+    "success_rate": 86.0
+  },
+  "planner_seed": 8301,
+  "protected_c1_i1_read": false,
+  "protocol": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e6d-d2-be1fbf7803460e2e/ACID-ALTERNATIVE-E6D-ALL-ITERATIONS-MATCHED-CONTROLS-2026-08-17.md",
+  "protocol_sha256": "808f16435775c04b36862637efa200bc4eb47797089ac3f913be962035ed9fd4",
+  "resolved_config": {
+    "action_block": 5,
+    "action_standardization": {
+      "actual_mean": [
+        0.0108846967805138,
+        -0.0031414329928013945,
+        0.0026465825646189004,
+        0.0004239286647865428,
+        0.15925256653030173
+      ],
+      "actual_scale": [
+        0.2894198325506555,
+        0.39371697495490987,
+        0.6431365217957304,
+        0.3928016202283424,
+        0.2503073640045173
+      ],
+      "exact_legacy_float32_refit_match": {
+        "mean": false,
+        "scale": false
+      },
+      "exact_source_dtype_match": {
+        "mean": true,
+        "scale": true
+      },
+      "expected_mean": [
+        0.0108846967805138,
+        -0.0031414329928013945,
+        0.0026465825646189004,
+        0.0004239286647865428,
+        0.15925256653030173
+      ],
+      "expected_scale": [
+        0.2894198325506555,
+        0.39371697495490987,
+        0.6431365217957304,
+        0.3928016202283424,
+        0.2503073640045173
+      ],
+      "float32_rounding_envelope": 4.76837158203125e-07,
+      "maximum_absolute_difference": {
+        "mean": 0.0,
+        "scale": 0.0
+      },
+      "mode": "exact_source_dtype",
+      "source_action_dtype": "float32",
+      "source_rows": 2010000,
+      "status": "pass",
+      "usable_rows": 2000000
+    },
+    "arm": "forward_gate_all_q40",
+    "arm_spec": {
+      "active_tail_steps": 30,
+      "integration": "quantile_gate",
+      "reject_fraction": 0.4,
+      "score_arm": "forward",
+      "shuffled": false
+    },
+    "callables": [
+      {
+        "args": {
+          "qpos": {
+            "value": "qpos"
+          },
+          "qvel": {
+            "value": "qvel"
+          }
+        },
+        "method": "set_state"
+      },
+      {
+        "args": {
+          "cube_id": {
+            "in_dataset": false,
+            "value": 0
+          },
+          "target_pos": {
+            "value": "goal_privileged_block_0_pos"
+          },
+          "target_quat": {
+            "value": "goal_privileged_block_0_quat"
+          }
+        },
+        "method": "set_target_pos"
+      }
+    ],
+    "cem_samples": 300,
+    "cem_steps": 30,
+    "cem_topk": 30,
+    "continuous_lambda_weight": null,
+    "eval_budget": 50,
+    "goal_offset": 25,
+    "horizon": 5,
+    "planner_seed": 8301,
+    "receding_horizon": 5,
+    "residual_noise_draws": 8,
+    "residual_sigmas": [
+      0.25,
+      1.0,
+      4.0
+    ],
+    "scorer_seed": 6101,
+    "task": "cube",
+    "world": {
+      "env_name": "swm/OGBCube-v0",
+      "env_type": "single",
+      "height": 224,
+      "max_episode_steps": 100,
+      "multiview": false,
+      "num_envs": 50,
+      "ob_type": "states",
+      "terminate_at_goal": true,
+      "visualize_info": false,
+      "width": 224
+    }
+  },
+  "resolved_world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "runtime": {
+    "gpu": "NVIDIA RTX 6000 Ada Generation",
+    "hostname": "gpu09.cluster",
+    "peak_cuda_memory_allocated_bytes": 504089600,
+    "peak_cuda_memory_reserved_bytes": 528482304,
+    "python": "3.11.10",
+    "slurm_array_task_id": "7",
+    "slurm_job_id": "297702",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121"
+  },
+  "scorer": {
+    "arm": "forward",
+    "checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/results/acid-alternative/scorers/cube/forward/true/seed-6101-job-296669-6/best.pt",
+    "checkpoint_sha256": "1691fb0f6864dbad830a814cc98e54534a150da081299f40f3db77dea503ed62",
+    "model_config": {
+      "action_dim": 25,
+      "capacity_reference": {
+        "matched_parameter_count": 2011544,
+        "model": "diffusion",
+        "parameter_count": 2031936,
+        "relative_difference": 0.010035749157453778,
+        "width_grid": {
+          "maximum": 640,
+          "minimum": 128,
+          "step": 8
+        }
+      },
+      "depth": 3,
+      "latent_dim": 192,
+      "name": "forward",
+      "width": 392
+    },
+    "parameter_count": 2011544,
+    "seed": 6101,
+    "source_manifest_sha256": "3074081ea1ebadd9ef08fef68ce1d81e6b7db656d873ef9d8470690b6fd0c1fc"
+  },
+  "scorer_seed": 6101,
+  "source_manifest": "/lustreFS/data/superworld/ckontzias/thesis/snapshots/acid-alt-e6d-d2-be1fbf7803460e2e/SOURCE-MANIFEST.sha256",
+  "source_manifest_sha256": "be1fbf7803460e2e92bff190e6123f1237e794a4c9625ea836b90ec84c6d9750",
+  "status": "ok",
+  "success_count": 43,
+  "success_rate_fraction": 0.86,
+  "task": "cube",
+  "world_model_checkpoint": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube/lewm_hf_b0747c5_object.ckpt",
+  "world_model_checkpoint_sha256": "5175b8d7a99b3c19aeee08027c666fb0562e316f14c36e74ac3a52ecce531e07",
+  "world_model_policy": "cube/lewm_hf_b0747c5"
+}
