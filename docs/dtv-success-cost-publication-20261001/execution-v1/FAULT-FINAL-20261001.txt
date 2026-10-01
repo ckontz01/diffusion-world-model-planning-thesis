@@ -1,0 +1,73 @@
+DTV-EFF1 - reconciled launch fault, 1 October 2026
+
+CURRENT STATUS: computation dispatch is stopped before GPU evaluation.
+The CPU preflight completed successfully; no allocation remains live or
+ambiguous. No new execution, retry, resume or monitoring task is authorized
+by this report. The earlier live observations are historical, not current.
+
+Exact successful preflight:
+312920|dtveff1-preflight|COMPLETED|0:0|178|cpu=4,mem=8G,node=1|gpu03
+
+Actual charges:178 CPU-stage allocation-wall seconds,0 GPU seconds.
+Exactly1 allocation /1 successful CPU preflight computation;0 GPU workers,
+0 evaluation episodes,0 included-tranche workers and0 analysis submissions.
+The original dispatcher has0 accepted events because it exited before
+accepting this successful preflight. This is not rewritten or backdated.
+
+Independent metadata/seal authentication at Unix1790857010.5532506:
+-All3 dataset whole-file hashes and current file identities match.
+-All30 explicitly reused checkpoint/model input bindings match.
+-No new evaluation payload was decoded.
+-CPU preflight seal:
+  1e199f70d9b35d98500b50571de68850b584771c7dd6d21ef87af8a7b1452fe7.
+-INPUT-AUTHENTICATION.json:
+  f7754ffea9db87a8813f8f709c84d2421e3cba14e39a26f8ba8a3bbba1c69f63.
+The raw terminal accounting, full verified member inventory and dated
+receipt are preserved in PREFLIGHT-TERMINAL-RECONCILIATION-01.json locally
+and fault-provenance-20261001/PREFLIGHT-TERMINAL-RECONCILIATION.json in the run.
+
+Cause: the first sacct response was the incomplete CPU pending placeholder
+312920|allocation|PENDING|0:0|0||gpu03.
+The prepared finite placeholder grace is restricted to GPU tasks, so the
+CPU response hit the strict task-name check and stopped the controller.
+The scheduler and preflight were healthy. This is a defect in the prepared
+controller's CPU accounting-visibility handling, not a cluster outage,
+scientific failure, poor outcome or resource exhaustion.
+
+The run was launched once at Unix1790856726.6204395 by PID167586,
+Linux start_ticks961361554. That exact controller exited and must not be
+restarted. The original STOP and339-byte dispatch ledger are preserved:
+STOP SHA b4eef86b148e1badb99a1f69c5061e4459210b2bd9874fe3bb2538901cec638d;
+DISPATCH SHA be97ca02e9cdb8f58b164210820910db09f867a87f318f51f46f2cc52c05c81e.
+Launch authority, instruction, control runtime, logs, stage proof and fault
+receipts are copied byte-identically into the campaign's provenance roots.
+
+Frozen source/control/run:
+/lustreFS/data/superworld/ckontzias/thesis/snapshots/dtv-success-cost-20261001-3826f23ccf5ad334
+/lustreFS/data/superworld/ckontzias/thesis/staging/dtv-success-cost-20261001-3826f23ccf5ad334
+/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-success-cost-20261001/run-bc3b36c71362f172
+Package3826f23ccf5ad33479943d819f04c293cccbc79a62bed4d03e3ad7134dd82b04;
+approval8768e82f12746010f460d0e45ed29d58dc21e98375c04fb574cf722116d34c03;
+authority6dd660e912f418e3ef2d768dc98f19c097a19a5ec5e5949aca4bf0e60e904f85.
+
+Required next decision: a separately specified control-only continuation,
+with finite acceptance/finalization changes, no new scientific settings or
+resource expansion. Authenticate and carry312920 and its charges forward;
+never rerun it. Preserve and explicitly resolve the old control STOP in a
+new dated record rather than deleting/ignoring it. Extend only the bounded
+incomplete-pending handling to the declared CPU stages, while keeping
+terminal allocation identity and resources strict. Test the new control
+adapter artificially and preserve its separately versioned source/authority
+before any new dispatch. This report does not implement that continuation.
+
+The exact remaining work is2880 GPU workers /23040 episodes plus1 CPU
+analysis. Full GPU reservation remains864000 seconds. Actual CPU178 plus
+full remaining analysis7200 =7378, below the unchanged14400-second cap.
+There is no additional research-attempt allowance. The9-worker /72-episode
+included technical gate remains unperformed and must precede source2.
+
+No scientific aggregate, success, cost contrast or protected payload was
+opened. No training, model change, source replacement, historical artifact
+edit, archive/retransfer cycle, dependency/security/permission/WSL change
+or automation occurred. DTV-EFF0's failed10% screen, smaller timing result,
+historical decisions, original checkpoints/backups and E12 remain unchanged.
