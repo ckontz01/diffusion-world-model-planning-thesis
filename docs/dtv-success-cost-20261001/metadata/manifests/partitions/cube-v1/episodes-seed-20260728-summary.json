@@ -1,0 +1,45 @@
+{
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/cube_single_expert.h5",
+  "dataset_name": "ogbench/cube_single_expert",
+  "dataset_sha256": "0664d507c4ff12009010644c9ae950836f954e700c172ccf22e7423af1a55625",
+  "episode_counts": {
+    "P1": 7053,
+    "P2": 1004,
+    "P3": 950,
+    "P4": 993
+  },
+  "frame_counts": {
+    "P1": 1417653,
+    "P2": 201804,
+    "P3": 190950,
+    "P4": 199593
+  },
+  "hash_rule": "SHA256(dataset_name + NUL + seed + NUL + episode_id)",
+  "kind": "episode_partition",
+  "manifest_sha256": "2bb7dbe8faedcf58dc00669def093efeb9b70198fe8602a9f650b09c5adfcf8d",
+  "manifest_tsv": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/cube-v1/episodes-seed-20260728.tsv",
+  "p0_rule": "union of supplied pre-partition observed episode manifests",
+  "seed": 20260728,
+  "source_exclusion_manifests": [],
+  "status": "ok",
+  "thresholds": {
+    "P1": [
+      0.0,
+      0.7
+    ],
+    "P2": [
+      0.7,
+      0.8
+    ],
+    "P3": [
+      0.8,
+      0.9
+    ],
+    "P4": [
+      0.9,
+      1.0
+    ]
+  },
+  "total_episodes": 10000,
+  "total_frames": 2010000
+}

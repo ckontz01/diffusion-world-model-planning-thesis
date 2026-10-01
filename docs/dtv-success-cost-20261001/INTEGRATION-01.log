@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home/chris/miniforge3/envs/thesis/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/chris/miniforge3/envs/thesis/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/mnt/c/Users/Chris/thesis-recovery/dtv-efficiency-recovery-20260930/dtv_success_cost/run_tests.py", line 8, in <module>
+    from dtv_success_cost import test_pipeline,test_science
+  File "/mnt/c/Users/Chris/thesis-recovery/dtv-efficiency-recovery-20260930/dtv_success_cost/test_science.py", line 13, in <module>
+    from dtv_efficiency.test_profile import core,m,d2,cem,p,E
+  File "/mnt/c/Users/Chris/thesis-recovery/dtv-efficiency-recovery-20260930/dtv_efficiency/test_profile.py", line 35, in <module>
+    torch.set_num_threads(4);torch.set_num_interop_threads(1)
+RuntimeError: Error: cannot set number of interop threads after parallel work has started or set_num_interop_threads called

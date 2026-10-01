@@ -1,0 +1,297 @@
+{
+  "candidate_selection": {
+    "candidate_count_per_pool": 64,
+    "rule": "first candidate_count indices sorted by domain-separated SHA-256",
+    "shared_query_within_pool": true,
+    "source": "final population from unmodified stable_worldmodel.solver.CEMSolver"
+  },
+  "classification": "p2_stratum3_b0_candidate_pools",
+  "dataset": "pusht_expert_train",
+  "determinism": {
+    "cublas_workspace_config": ":4096:8",
+    "cuda_available": true,
+    "cuda_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_tf32": false,
+    "mode": "strict",
+    "pythonhashseed": "42",
+    "seed": 42,
+    "torch_deterministic_algorithms": true
+  },
+  "elapsed_seconds": 27.385652542114258,
+  "inputs": {
+    "checkpoint_file": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15_object.ckpt",
+    "checkpoint_sha256": "b87805747d40037841877ce7b99b7dda3ebe7a52202c0ba46bf0006ab5d6f008",
+    "latent_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/latents/hi-lewm-pusht-epoch15/p2-job-294590/latents.h5",
+    "latent_h5_sha256": "2280089eee8a8817dcd8d8658543616188af005817ba5b445dd92dcd4a2c9ca4",
+    "latent_manifest_sha256": "f8c079cf9485b1cfd869e8141563583b108300858ae0df6d78d37fefd21eb5b3",
+    "partition_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/pusht-v1/episodes-seed-20260728.tsv",
+    "partition_manifest_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+    "policy": "runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15"
+  },
+  "output_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p2-stratum3-b0-d75-h2-job-294604/candidate-pools.h5",
+  "output_h5_bytes": 4086636,
+  "output_h5_sha256": "34af2fe38a82a2a70d782c9f744862ec4a6005ee13e1b7404adf1ba42a506d06",
+  "partition": "P2",
+  "planner": {
+    "candidate_clipping": false,
+    "goal_offset_primitive_steps": 75,
+    "high_action_block": 1,
+    "high_horizon": 2,
+    "initial_mean": 0.0,
+    "initial_standard_deviation": 1.0,
+    "latent_action_dim": 32,
+    "n_steps": 60,
+    "num_samples": 1200,
+    "official_solver_unchanged": true,
+    "topk": 10,
+    "var_scale": 1.0
+  },
+  "query_selection": {
+    "episode_distinct": true,
+    "episode_rule": "first pool_count episodes sorted by domain-separated SHA-256",
+    "queries": [
+      {
+        "episode_id": 14453,
+        "goal_cache_position": 185785,
+        "goal_global_row": 1819174,
+        "goal_step": 122,
+        "planner_seed": 7371641101393132401,
+        "pool_id": 0,
+        "source_cache_position": 185710,
+        "source_global_row": 1819099,
+        "source_step": 47
+      },
+      {
+        "episode_id": 15997,
+        "goal_cache_position": 205175,
+        "goal_global_row": 2001794,
+        "goal_step": 102,
+        "planner_seed": 5755939799585568941,
+        "pool_id": 1,
+        "source_cache_position": 205100,
+        "source_global_row": 2001719,
+        "source_step": 27
+      },
+      {
+        "episode_id": 9601,
+        "goal_cache_position": 122309,
+        "goal_global_row": 1176494,
+        "goal_step": 99,
+        "planner_seed": 4425545621011068975,
+        "pool_id": 2,
+        "source_cache_position": 122234,
+        "source_global_row": 1176419,
+        "source_step": 24
+      },
+      {
+        "episode_id": 8231,
+        "goal_cache_position": 105082,
+        "goal_global_row": 1014850,
+        "goal_step": 83,
+        "planner_seed": 7541204567645403308,
+        "pool_id": 3,
+        "source_cache_position": 105007,
+        "source_global_row": 1014775,
+        "source_step": 8
+      },
+      {
+        "episode_id": 13956,
+        "goal_cache_position": 178212,
+        "goal_global_row": 1754646,
+        "goal_step": 138,
+        "planner_seed": 3011956705969380814,
+        "pool_id": 4,
+        "source_cache_position": 178137,
+        "source_global_row": 1754571,
+        "source_step": 63
+      },
+      {
+        "episode_id": 3940,
+        "goal_cache_position": 49688,
+        "goal_global_row": 489778,
+        "goal_step": 91,
+        "planner_seed": 6168222110046117679,
+        "pool_id": 5,
+        "source_cache_position": 49613,
+        "source_global_row": 489703,
+        "source_step": 16
+      },
+      {
+        "episode_id": 7037,
+        "goal_cache_position": 88892,
+        "goal_global_row": 873512,
+        "goal_step": 95,
+        "planner_seed": 5671822105301903970,
+        "pool_id": 6,
+        "source_cache_position": 88817,
+        "source_global_row": 873437,
+        "source_step": 20
+      },
+      {
+        "episode_id": 18270,
+        "goal_cache_position": 235183,
+        "goal_global_row": 2296416,
+        "goal_step": 91,
+        "planner_seed": 6791351111132078653,
+        "pool_id": 7,
+        "source_cache_position": 235108,
+        "source_global_row": 2296341,
+        "source_step": 16
+      },
+      {
+        "episode_id": 990,
+        "goal_cache_position": 13113,
+        "goal_global_row": 123218,
+        "goal_step": 115,
+        "planner_seed": 6536303972728191774,
+        "pool_id": 8,
+        "source_cache_position": 13038,
+        "source_global_row": 123143,
+        "source_step": 40
+      },
+      {
+        "episode_id": 90,
+        "goal_cache_position": 955,
+        "goal_global_row": 9893,
+        "goal_step": 83,
+        "planner_seed": 2625176248107030800,
+        "pool_id": 9,
+        "source_cache_position": 880,
+        "source_global_row": 9818,
+        "source_step": 8
+      },
+      {
+        "episode_id": 2050,
+        "goal_cache_position": 24443,
+        "goal_global_row": 246696,
+        "goal_step": 96,
+        "planner_seed": 1814767589646286749,
+        "pool_id": 10,
+        "source_cache_position": 24368,
+        "source_global_row": 246621,
+        "source_step": 21
+      },
+      {
+        "episode_id": 1475,
+        "goal_cache_position": 19297,
+        "goal_global_row": 181023,
+        "goal_step": 75,
+        "planner_seed": 7001686307501404725,
+        "pool_id": 11,
+        "source_cache_position": 19222,
+        "source_global_row": 180948,
+        "source_step": 0
+      }
+    ],
+    "start_rule": "domain-separated SHA-256 modulo eligible within-episode starts"
+  },
+  "repeat_check": false,
+  "runtime": {
+    "gpu": "NVIDIA RTX A5000",
+    "h5py": "3.16.0",
+    "numpy": "2.2.6",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121",
+    "torch_cuda": "12.1"
+  },
+  "seed": 20260728,
+  "shapes": {
+    "final_population": [
+      12,
+      1200,
+      2,
+      32
+    ],
+    "latent_dim": 192,
+    "pools": 12,
+    "selected_actions": [
+      12,
+      64,
+      2,
+      32
+    ],
+    "selected_z_subgoal": [
+      12,
+      64,
+      192
+    ]
+  },
+  "solver_checks": [
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 0,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 1,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 2,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 3,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 4,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 5,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 6,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 7,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 8,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 9,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 10,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 11,
+      "repeat_check": false
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,120 @@
+{
+  "files": [
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-294647/manifest.json",
+      "bytes": 3379,
+      "sha256": "c64392271995ea7521570e9d49c86d0a178a2f72fb7c44efd6cae29909e393b2"
+    },
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295087/manifest.json",
+      "bytes": 3380,
+      "sha256": "52adb65c603cb1e88847c984bc46ae5f318f293f0cdfcaa32f91838969e8ce64"
+    },
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p2-real-frame-job-295089/manifest.json",
+      "bytes": 3511,
+      "sha256": "af88e3ce9de55cb87c1c1b6eec2eeda74b46d06f1da0549fbf55502c194a5f94"
+    },
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p2-stratum3-b0-d75-h2-job-294604/manifest.json",
+      "bytes": 8513,
+      "sha256": "eb075085165216715e357d90a71e6af16876130d68d3b95a10b8abb43bb7f179"
+    },
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p3-real-frame-job-295090/manifest.json",
+      "bytes": 3613,
+      "sha256": "ffead8f0bca51cab59114ebe36ac05a601d974aba94575761e54df722a8ad7d6"
+    },
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p3-stratum3-b0-d75-h2-job-294828/manifest.json",
+      "bytes": 13941,
+      "sha256": "303a4a9809203c874b0ae7ef3b10dd0edcafee887c6adf3a4b2a5f39040dec26"
+    },
+    {
+      "path": "data/stablewm/derived/candidate-pools/pusht-v1/p3-stratum3-capture-smoke-job-294827/manifest.json",
+      "bytes": 3633,
+      "sha256": "f04013317a6baf6ac08886260178445fcb17ac2efd99d86f14714c75b811edb2"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/data/dataset.py",
+      "bytes": 28675,
+      "sha256": "8eea182267730a9bad95eb6412db58f66eb859ffc2e39e67aef078bc858ccf6f"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/custom_tasks/reacher.py",
+      "bytes": 1130,
+      "sha256": "e5e2e82c0621efca7b4c3c194f422c946db59edb12db7735fbe8bdcf12e37e7c"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/dmcontrol.py",
+      "bytes": 5694,
+      "sha256": "13d55bf73f9b7f8a9b5a2b380e12750e253a391716e64e65f795b1c9fff8bc08"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/dmcontrol/reacher.py",
+      "bytes": 12522,
+      "sha256": "05bbf859383a047b92598dc0553a9e917193a732f065d2ed05c31005d03ba2cb"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/ogbench/cube_env.py",
+      "bytes": 69008,
+      "sha256": "01d1b240c760a9f994d4b629ce36a4b5bc7329d73f3a8173ce9fe30d42d41939"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/envs/pusht/env.py",
+      "bytes": 30822,
+      "sha256": "d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/world.py",
+      "bytes": 36272,
+      "sha256": "15fc9e4a69d2ad81d29ca8fedd689b53e96887f7614fa98223ef5ddee37bbda6"
+    },
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/stable_worldmodel/wrapper.py",
+      "bytes": 29915,
+      "sha256": "9d7298d987fb509d52e2b6423b6938d12ae20eefcdcc2d720f315729ed44f417"
+    },
+    {
+      "path": "experiments/gdp-cem-e14/development-run-20260823-99f92cbe/p2-manifests/33ae351f/cube/queries.tsv",
+      "bytes": 6178,
+      "sha256": "936acc3998a4adaa2e6661111802f093e030e2cd3619059b4dc0b71a76fcaf35"
+    },
+    {
+      "path": "experiments/gdp-cem-e14/development-run-20260823-99f92cbe/p2-manifests/33ae351f/pusht/queries.tsv",
+      "bytes": 6225,
+      "sha256": "a2308d25a274c2459187220ed15a028734dd9bbfb92c7bd41b878f4d76df9ce3"
+    },
+    {
+      "path": "experiments/gdp-cem-e18/development-run-20260827-182ed1e7/p2-manifests/cube/queries.tsv",
+      "bytes": 2521,
+      "sha256": "e5af2ac0acec6ebbcad26bc35c2723ff3c4bc09694f435f65aaac43cacedaf93"
+    },
+    {
+      "path": "experiments/gdp-cem-e18/development-run-20260827-182ed1e7/p2-manifests/pusht/queries.tsv",
+      "bytes": 2534,
+      "sha256": "54f5f974b745ac70ddf0f599bd141df8dda97926beca75efce7de47b068cfef1"
+    },
+    {
+      "path": "src/hi-lewm/third_party/lewm/config/eval/cube.yaml",
+      "bytes": 1129,
+      "sha256": "9d75b9740a13d4e80538010cbd20cb3bf3fa6185bef48814412e1cb3189308e0"
+    },
+    {
+      "path": "src/hi-lewm/third_party/lewm/config/eval/pusht.yaml",
+      "bytes": 837,
+      "sha256": "a98551ac20a7fdf336a9c2178bb96e26e769995dc5266b09cc82e2246377c7a8"
+    },
+    {
+      "path": "src/hi-lewm/third_party/lewm/config/eval/reacher.yaml",
+      "bytes": 841,
+      "sha256": "fcc0ea2f41c1ec078740f428575c68c3d73388ddb700897229590604d3e81647"
+    }
+  ],
+  "total_bytes": 274273,
+  "observed_unix": 1790810096.1891766,
+  "payload_reads": 0,
+  "inference": false,
+  "physics": false,
+  "local_wall_seconds": 1.2810000000172295
+}

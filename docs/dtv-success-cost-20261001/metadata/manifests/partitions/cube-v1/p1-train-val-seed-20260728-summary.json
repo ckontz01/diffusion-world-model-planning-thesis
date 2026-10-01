@@ -1,0 +1,29 @@
+{
+  "dataset_name": "ogbench/cube_single_expert",
+  "episode_counts": {
+    "P1_train": 6385,
+    "P1_val": 668
+  },
+  "frame_counts": {
+    "P1_train": 1283385,
+    "P1_val": 134268
+  },
+  "hash_rule": "SHA256(dataset_name + NUL + seed + NUL + p1_train_val + NUL + episode_id)",
+  "kind": "p1_episode_train_validation_split",
+  "manifest_sha256": "9f424915726822a251100c5a07e918ca811d6979ca30de7cf2d8960db9ffb516",
+  "manifest_tsv": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/cube-v1/p1-train-val-seed-20260728.tsv",
+  "seed": 20260728,
+  "source_partition_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/cube-v1/episodes-seed-20260728.tsv",
+  "source_partition_manifest_sha256": "2bb7dbe8faedcf58dc00669def093efeb9b70198fe8602a9f650b09c5adfcf8d",
+  "status": "ok",
+  "thresholds": {
+    "P1_train": [
+      0.0,
+      0.9
+    ],
+    "P1_val": [
+      0.9,
+      1.0
+    ]
+  }
+}

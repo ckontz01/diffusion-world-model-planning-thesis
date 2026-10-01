@@ -1,0 +1,502 @@
+{
+  "candidate_selection": {
+    "candidate_count_per_pool": 64,
+    "rule": "first candidate_count indices sorted by domain-separated SHA-256",
+    "shared_query_within_pool": true,
+    "source": "final population from unmodified stable_worldmodel.solver.CEMSolver"
+  },
+  "classification": "p3_stratum3_b0_candidate_pools",
+  "dataset": "pusht_expert_train",
+  "determinism": {
+    "cublas_workspace_config": ":4096:8",
+    "cuda_available": true,
+    "cuda_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_tf32": false,
+    "mode": "strict",
+    "pythonhashseed": "42",
+    "seed": 42,
+    "torch_deterministic_algorithms": true
+  },
+  "elapsed_seconds": 51.433465003967285,
+  "inputs": {
+    "checkpoint_file": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15_object.ckpt",
+    "checkpoint_sha256": "b87805747d40037841877ce7b99b7dda3ebe7a52202c0ba46bf0006ab5d6f008",
+    "latent_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/latents/hi-lewm-pusht-epoch15/p3-job-294787/latents.h5",
+    "latent_h5_sha256": "18ba80c5346cdb99202a64b160e20f4eed9b8d0728f9b44fe0ac67e3c292e19b",
+    "latent_manifest_sha256": "59b1188b4da112a8044e58763f444691ccecd2b8583ff4f6611901b95bd8da63",
+    "partition_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/pusht-v1/episodes-seed-20260728.tsv",
+    "partition_manifest_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+    "policy": "runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15"
+  },
+  "output_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p3-stratum3-b0-d75-h2-job-294828/candidate-pools.h5",
+  "output_h5_bytes": 8152028,
+  "output_h5_sha256": "64341a03c5d618ebe1b5c6c86f701add6ee9ab841f2a20e57ead23fde35efdaf",
+  "partition": "P3",
+  "planner": {
+    "candidate_clipping": false,
+    "goal_offset_primitive_steps": 75,
+    "high_action_block": 1,
+    "high_horizon": 2,
+    "initial_mean": 0.0,
+    "initial_standard_deviation": 1.0,
+    "latent_action_dim": 32,
+    "n_steps": 60,
+    "num_samples": 1200,
+    "official_solver_unchanged": true,
+    "topk": 10,
+    "var_scale": 1.0
+  },
+  "query_selection": {
+    "episode_distinct": true,
+    "episode_rule": "first pool_count episodes sorted by domain-separated SHA-256",
+    "hash_namespace": "p3_stratum3",
+    "queries": [
+      {
+        "episode_id": 16925,
+        "goal_cache_position": 206543,
+        "goal_global_row": 2124867,
+        "goal_step": 98,
+        "planner_seed": 8959337272521732245,
+        "pool_id": 0,
+        "source_cache_position": 206468,
+        "source_global_row": 2124792,
+        "source_step": 23
+      },
+      {
+        "episode_id": 16572,
+        "goal_cache_position": 201892,
+        "goal_global_row": 2087215,
+        "goal_step": 92,
+        "planner_seed": 1305508374245455968,
+        "pool_id": 1,
+        "source_cache_position": 201817,
+        "source_global_row": 2087140,
+        "source_step": 17
+      },
+      {
+        "episode_id": 7980,
+        "goal_cache_position": 92823,
+        "goal_global_row": 980950,
+        "goal_step": 102,
+        "planner_seed": 8360796440659988941,
+        "pool_id": 2,
+        "source_cache_position": 92748,
+        "source_global_row": 980875,
+        "source_step": 27
+      },
+      {
+        "episode_id": 18556,
+        "goal_cache_position": 224087,
+        "goal_global_row": 2322465,
+        "goal_step": 82,
+        "planner_seed": 8064756654053024590,
+        "pool_id": 3,
+        "source_cache_position": 224012,
+        "source_global_row": 2322390,
+        "source_step": 7
+      },
+      {
+        "episode_id": 9397,
+        "goal_cache_position": 111051,
+        "goal_global_row": 1153447,
+        "goal_step": 75,
+        "planner_seed": 8759893957376477617,
+        "pool_id": 4,
+        "source_cache_position": 110976,
+        "source_global_row": 1153372,
+        "source_step": 0
+      },
+      {
+        "episode_id": 2812,
+        "goal_cache_position": 31004,
+        "goal_global_row": 326667,
+        "goal_step": 86,
+        "planner_seed": 2292631440401616299,
+        "pool_id": 5,
+        "source_cache_position": 30929,
+        "source_global_row": 326592,
+        "source_step": 11
+      },
+      {
+        "episode_id": 11665,
+        "goal_cache_position": 142984,
+        "goal_global_row": 1463221,
+        "goal_step": 81,
+        "planner_seed": 245194127824636382,
+        "pool_id": 6,
+        "source_cache_position": 142909,
+        "source_global_row": 1463146,
+        "source_step": 6
+      },
+      {
+        "episode_id": 11467,
+        "goal_cache_position": 140818,
+        "goal_global_row": 1435691,
+        "goal_step": 111,
+        "planner_seed": 4888198600522414624,
+        "pool_id": 7,
+        "source_cache_position": 140743,
+        "source_global_row": 1435616,
+        "source_step": 36
+      },
+      {
+        "episode_id": 16351,
+        "goal_cache_position": 199498,
+        "goal_global_row": 2065108,
+        "goal_step": 84,
+        "planner_seed": 8139391874804573599,
+        "pool_id": 8,
+        "source_cache_position": 199423,
+        "source_global_row": 2065033,
+        "source_step": 9
+      },
+      {
+        "episode_id": 2724,
+        "goal_cache_position": 30245,
+        "goal_global_row": 317927,
+        "goal_step": 99,
+        "planner_seed": 7468767386553076191,
+        "pool_id": 9,
+        "source_cache_position": 30170,
+        "source_global_row": 317852,
+        "source_step": 24
+      },
+      {
+        "episode_id": 10831,
+        "goal_cache_position": 130205,
+        "goal_global_row": 1338071,
+        "goal_step": 161,
+        "planner_seed": 8189227937881521152,
+        "pool_id": 10,
+        "source_cache_position": 130130,
+        "source_global_row": 1337996,
+        "source_step": 86
+      },
+      {
+        "episode_id": 9845,
+        "goal_cache_position": 116168,
+        "goal_global_row": 1203736,
+        "goal_step": 83,
+        "planner_seed": 2949722846900173628,
+        "pool_id": 11,
+        "source_cache_position": 116093,
+        "source_global_row": 1203661,
+        "source_step": 8
+      },
+      {
+        "episode_id": 1434,
+        "goal_cache_position": 17073,
+        "goal_global_row": 177257,
+        "goal_step": 81,
+        "planner_seed": 8471217053935317710,
+        "pool_id": 12,
+        "source_cache_position": 16998,
+        "source_global_row": 177182,
+        "source_step": 6
+      },
+      {
+        "episode_id": 14950,
+        "goal_cache_position": 183955,
+        "goal_global_row": 1879351,
+        "goal_step": 76,
+        "planner_seed": 2205871800879943702,
+        "pool_id": 13,
+        "source_cache_position": 183880,
+        "source_global_row": 1879276,
+        "source_step": 1
+      },
+      {
+        "episode_id": 3952,
+        "goal_cache_position": 45382,
+        "goal_global_row": 491491,
+        "goal_step": 124,
+        "planner_seed": 6659411297379556068,
+        "pool_id": 14,
+        "source_cache_position": 45307,
+        "source_global_row": 491416,
+        "source_step": 49
+      },
+      {
+        "episode_id": 6699,
+        "goal_cache_position": 75922,
+        "goal_global_row": 833439,
+        "goal_step": 76,
+        "planner_seed": 7222517181896744048,
+        "pool_id": 15,
+        "source_cache_position": 75847,
+        "source_global_row": 833364,
+        "source_step": 1
+      },
+      {
+        "episode_id": 9399,
+        "goal_cache_position": 111145,
+        "goal_global_row": 1153630,
+        "goal_step": 80,
+        "planner_seed": 1361155923346436618,
+        "pool_id": 16,
+        "source_cache_position": 111070,
+        "source_global_row": 1153555,
+        "source_step": 5
+      },
+      {
+        "episode_id": 7758,
+        "goal_cache_position": 90460,
+        "goal_global_row": 961746,
+        "goal_step": 100,
+        "planner_seed": 2853647145758177739,
+        "pool_id": 17,
+        "source_cache_position": 90385,
+        "source_global_row": 961671,
+        "source_step": 25
+      },
+      {
+        "episode_id": 10445,
+        "goal_cache_position": 125204,
+        "goal_global_row": 1290832,
+        "goal_step": 152,
+        "planner_seed": 3742978098141583599,
+        "pool_id": 18,
+        "source_cache_position": 125129,
+        "source_global_row": 1290757,
+        "source_step": 77
+      },
+      {
+        "episode_id": 17188,
+        "goal_cache_position": 208667,
+        "goal_global_row": 2154770,
+        "goal_step": 91,
+        "planner_seed": 5877774777748921964,
+        "pool_id": 19,
+        "source_cache_position": 208592,
+        "source_global_row": 2154695,
+        "source_step": 16
+      },
+      {
+        "episode_id": 10206,
+        "goal_cache_position": 120433,
+        "goal_global_row": 1253624,
+        "goal_step": 146,
+        "planner_seed": 3987460131835703330,
+        "pool_id": 20,
+        "source_cache_position": 120358,
+        "source_global_row": 1253549,
+        "source_step": 71
+      },
+      {
+        "episode_id": 93,
+        "goal_cache_position": 1495,
+        "goal_global_row": 10215,
+        "goal_step": 78,
+        "planner_seed": 6897426283064134216,
+        "pool_id": 21,
+        "source_cache_position": 1420,
+        "source_global_row": 10140,
+        "source_step": 3
+      },
+      {
+        "episode_id": 17783,
+        "goal_cache_position": 216655,
+        "goal_global_row": 2236863,
+        "goal_step": 180,
+        "planner_seed": 249102956092869238,
+        "pool_id": 22,
+        "source_cache_position": 216580,
+        "source_global_row": 2236788,
+        "source_step": 105
+      },
+      {
+        "episode_id": 11786,
+        "goal_cache_position": 144810,
+        "goal_global_row": 1476808,
+        "goal_step": 124,
+        "planner_seed": 8584930517280753094,
+        "pool_id": 23,
+        "source_cache_position": 144735,
+        "source_global_row": 1476733,
+        "source_step": 49
+      }
+    ],
+    "start_rule": "domain-separated SHA-256 modulo eligible within-episode starts"
+  },
+  "repeat_check": false,
+  "runtime": {
+    "gpu": "NVIDIA RTX A5000",
+    "h5py": "3.16.0",
+    "numpy": "2.2.6",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121",
+    "torch_cuda": "12.1"
+  },
+  "seed": 20260728,
+  "shapes": {
+    "final_population": [
+      24,
+      1200,
+      2,
+      32
+    ],
+    "latent_dim": 192,
+    "pools": 24,
+    "selected_actions": [
+      24,
+      64,
+      2,
+      32
+    ],
+    "selected_z_subgoal": [
+      24,
+      64,
+      192
+    ]
+  },
+  "solver_checks": [
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 0,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 1,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 2,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 3,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 4,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 5,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 6,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 7,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 8,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 9,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 10,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 11,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 12,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 13,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 14,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 15,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 16,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 17,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 18,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 19,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 20,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 21,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 22,
+      "repeat_check": false
+    },
+    {
+      "cost_calls": 60,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 23,
+      "repeat_check": false
+    }
+  ],
+  "status": "ok"
+}

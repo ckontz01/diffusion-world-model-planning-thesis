@@ -1,0 +1,100 @@
+{
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher.h5",
+  "dataset_sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+  "goal_offset": 25,
+  "kind": "flat_matched_evaluation_manifests",
+  "legacy_excluded_path_tokens": [
+    "pusht",
+    "cube",
+    "tworoom"
+  ],
+  "legacy_sources": [
+    {
+      "pairs_found": 0,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/candidate-results",
+      "status": "missing_optional_root"
+    },
+    {
+      "pairs_found": 0,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/reacher-v1",
+      "status": "missing_optional_root"
+    },
+    {
+      "pairs_found": 0,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-executions/reacher-v1",
+      "status": "missing_optional_root"
+    },
+    {
+      "pairs_found": 0,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/closed-loop-confirmation/reacher-v1",
+      "status": "missing_optional_root"
+    },
+    {
+      "pairs_found": 50,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/b1_determinism_d25_seed42_job_294580/rep1/b1_rep1_results_episodes.tsv",
+      "sha256": "e7cdf923238ad574f6b011f569ecb22d3e211f5576ee63102643d85a4100f5df"
+    },
+    {
+      "pairs_found": 50,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/b1_determinism_d25_seed42_job_294580/rep2/b1_rep2_results_episodes.tsv",
+      "sha256": "62a4f4f541bb1e03d86bb2f2db430ffb472aa7abe82374393b25108f7f7fa707"
+    },
+    {
+      "pairs_found": 1,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p2-b0-candidate-capture-smoke-job-294602/candidate-pools.h5",
+      "sha256": "84b83dee8f730e2b52edf5c94e61515fec6bdc372f0dba1a457fe9c92ec25b9c"
+    },
+    {
+      "pairs_found": 2,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p2-real-frame-smoke-job-294657/executions.h5",
+      "sha256": "482eae370465d2844e4ead66cebd5e22094f24cf0201119b1af6ba695e0989ce"
+    },
+    {
+      "pairs_found": 2,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/p3-real-frame-smoke-job-295092/executions.h5",
+      "sha256": "95f7c8eb64fad2bc6c901b9fbc135185b38fb2c68db0e5bdb873e9e84238845e"
+    },
+    {
+      "files_skipped": 16,
+      "pairs_found": 0,
+      "status": "excluded_other_task_paths",
+      "tokens": [
+        "pusht",
+        "cube",
+        "tworoom"
+      ]
+    }
+  ],
+  "legacy_unique_pairs_excluded": 55,
+  "maximum_legacy_h5_bytes": 134217728,
+  "namespaces": {
+    "C1": {
+      "count": 50,
+      "eligible_count": 174410,
+      "partition": "P4",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/reacher/c1-locked-confirmation.tsv",
+      "seed": 2026081202,
+      "sha256": "861610390045f4600dd6c374a6d42fc7c132f1208c675deb81a57321e9276c1b"
+    },
+    "D1": {
+      "count": 24,
+      "eligible_count": 180745,
+      "partition": "P2",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/reacher/d1-fresh-development.tsv",
+      "seed": 2026081201,
+      "sha256": "0b6e89cbe785ec88b0a3ff8e2ff77375ba9518695ab54f9bc2d3256013084a56"
+    },
+    "R0": {
+      "count": 50,
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/acid-alternative-v1/reacher/r0-official-seed42.tsv",
+      "seed": 42,
+      "sha256": "7a72a2a3e1ea89b5ec8bb0a39807673621c2ae92e0c581b34276e0bc11f9279e"
+    }
+  },
+  "partition_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/reacher-v1/episodes-seed-20260728.tsv",
+  "partition_manifest_sha256": "d0628d371224bcccc4b65db20d91212aafdc91a5bbb2b707be10354470910fcd",
+  "selection_rule": "ascending SHA256(task + NUL + seed + NUL + episode + NUL + start)",
+  "stable_worldmodel_goal_step_note": "load_chunk end is exclusive; declared offset 25 selects dataset step start+24",
+  "status": "ok",
+  "task": "reacher"
+}

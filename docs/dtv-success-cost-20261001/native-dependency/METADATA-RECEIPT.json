@@ -1,0 +1,15 @@
+{
+  "files": [
+    {
+      "path": "envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/ogbench/manipspace/envs/manipspace_env.py",
+      "bytes": 20920,
+      "sha256": "03524eb1c95155bbc2ec3d29e9836fccffe8eb9fce1be15b6f0e7062cc1bb5fd"
+    }
+  ],
+  "total_bytes": 20920,
+  "observed_unix": 1790810778.9480228,
+  "payload_reads": 0,
+  "inference": false,
+  "physics": false,
+  "local_wall_seconds": 7.687999999994645
+}

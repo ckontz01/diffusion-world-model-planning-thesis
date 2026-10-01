@@ -1,0 +1,111 @@
+{
+  "candidate_selection": {
+    "candidate_count_per_pool": 8,
+    "rule": "first candidate_count indices sorted by domain-separated SHA-256",
+    "shared_query_within_pool": true,
+    "source": "final population from unmodified stable_worldmodel.solver.CEMSolver"
+  },
+  "classification": "development_smoke",
+  "dataset": "pusht_expert_train",
+  "determinism": {
+    "cublas_workspace_config": ":4096:8",
+    "cuda_available": true,
+    "cuda_tf32": false,
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_tf32": false,
+    "mode": "strict",
+    "pythonhashseed": "42",
+    "seed": 42,
+    "torch_deterministic_algorithms": true
+  },
+  "elapsed_seconds": 2.3090574741363525,
+  "inputs": {
+    "checkpoint_file": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15_object.ckpt",
+    "checkpoint_sha256": "b87805747d40037841877ce7b99b7dda3ebe7a52202c0ba46bf0006ab5d6f008",
+    "latent_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/latents/hi-lewm-pusht-epoch15/p3-job-294787/latents.h5",
+    "latent_h5_sha256": "18ba80c5346cdb99202a64b160e20f4eed9b8d0728f9b44fe0ac67e3c292e19b",
+    "latent_manifest_sha256": "59b1188b4da112a8044e58763f444691ccecd2b8583ff4f6611901b95bd8da63",
+    "partition_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/pusht-v1/episodes-seed-20260728.tsv",
+    "partition_manifest_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+    "policy": "runs/pusht_hierarchical_default/pusht_hierarchical_default_epoch_15"
+  },
+  "output_h5": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/derived/candidate-pools/pusht-v1/p3-stratum3-capture-smoke-job-294827/candidate-pools.h5",
+  "output_h5_bytes": 65721,
+  "output_h5_sha256": "d2b8e9050353f340c043da09f78e736d4c5f400d81568182e7ba5e4b958c04e6",
+  "partition": "P3",
+  "planner": {
+    "candidate_clipping": false,
+    "goal_offset_primitive_steps": 75,
+    "high_action_block": 1,
+    "high_horizon": 2,
+    "initial_mean": 0.0,
+    "initial_standard_deviation": 1.0,
+    "latent_action_dim": 32,
+    "n_steps": 2,
+    "num_samples": 64,
+    "official_solver_unchanged": true,
+    "topk": 8,
+    "var_scale": 1.0
+  },
+  "query_selection": {
+    "episode_distinct": true,
+    "episode_rule": "first pool_count episodes sorted by domain-separated SHA-256",
+    "hash_namespace": "p3_stratum3",
+    "queries": [
+      {
+        "episode_id": 16925,
+        "goal_cache_position": 206543,
+        "goal_global_row": 2124867,
+        "goal_step": 98,
+        "planner_seed": 8959337272521732245,
+        "pool_id": 0,
+        "source_cache_position": 206468,
+        "source_global_row": 2124792,
+        "source_step": 23
+      }
+    ],
+    "start_rule": "domain-separated SHA-256 modulo eligible within-episode starts"
+  },
+  "repeat_check": true,
+  "runtime": {
+    "gpu": "NVIDIA RTX A5000",
+    "h5py": "3.16.0",
+    "numpy": "2.2.6",
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "stable_worldmodel": "0.0.6",
+    "torch": "2.5.1+cu121",
+    "torch_cuda": "12.1"
+  },
+  "seed": 20260728,
+  "shapes": {
+    "final_population": [
+      1,
+      64,
+      2,
+      32
+    ],
+    "latent_dim": 192,
+    "pools": 1,
+    "selected_actions": [
+      1,
+      8,
+      2,
+      32
+    ],
+    "selected_z_subgoal": [
+      1,
+      8,
+      192
+    ]
+  },
+  "solver_checks": [
+    {
+      "cost_calls": 2,
+      "elite_mean_vs_returned_max_abs": 0.0,
+      "pool_id": 0,
+      "repeat_check": true
+    }
+  ],
+  "status": "ok"
+}

@@ -1,0 +1,49 @@
+{
+  "dataset": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5",
+  "dataset_name": "pusht_expert_train",
+  "episode_counts": {
+    "P0": 51,
+    "P1": 13109,
+    "P2": 1930,
+    "P3": 1810,
+    "P4": 1785
+  },
+  "frame_counts": {
+    "P0": 6979,
+    "P1": 1640727,
+    "P2": 240567,
+    "P3": 224998,
+    "P4": 223465
+  },
+  "hash_rule": "SHA256(dataset_name + \"\\0\" + seed + \"\\0\" + episode_id)",
+  "manifest_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+  "manifest_tsv": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/pusht-v1/episodes-seed-20260728.tsv",
+  "p0_rule": "union of supplied pre-partition observed episode manifests",
+  "seed": 20260728,
+  "source_exclusion_manifests": [
+    "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/pusht_checkpoint_smoke/hi_pusht_checkpoint_smoke_results_episodes.tsv",
+    "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/pusht_b0_b1_d25_seed42_job_294573/b0/b0_results_episodes.tsv",
+    "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/repro/pusht_b0_b1_d25_seed42_job_294575/b0/b0_results_episodes.tsv"
+  ],
+  "status": "ok",
+  "thresholds": {
+    "P1": [
+      0.0,
+      0.7
+    ],
+    "P2": [
+      0.7,
+      0.8
+    ],
+    "P3": [
+      0.8,
+      0.9
+    ],
+    "P4": [
+      0.9,
+      1.0
+    ]
+  },
+  "total_episodes": 18685,
+  "total_frames": 2336736
+}

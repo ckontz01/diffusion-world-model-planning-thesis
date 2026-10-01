@@ -1,0 +1,29 @@
+{
+  "dataset_name": "dmc/reacher_random",
+  "episode_counts": {
+    "P1_train": 6293,
+    "P1_val": 678
+  },
+  "frame_counts": {
+    "P1_train": 1264893,
+    "P1_val": 136278
+  },
+  "hash_rule": "SHA256(dataset_name + NUL + seed + NUL + p1_train_val + NUL + episode_id)",
+  "kind": "p1_episode_train_validation_split",
+  "manifest_sha256": "d3638a7d767598ba78c3785493bc99b5a393699f58b8cb145be1cb49f02ccc99",
+  "manifest_tsv": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/reacher-v1/p1-train-val-seed-20260728.tsv",
+  "seed": 20260728,
+  "source_partition_manifest": "/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/reacher-v1/episodes-seed-20260728.tsv",
+  "source_partition_manifest_sha256": "d0628d371224bcccc4b65db20d91212aafdc91a5bbb2b707be10354470910fcd",
+  "status": "ok",
+  "thresholds": {
+    "P1_train": [
+      0.0,
+      0.9
+    ],
+    "P1_val": [
+      0.9,
+      1.0
+    ]
+  }
+}

@@ -12,3 +12,7 @@ cluster/prometheus/lgp1_*.py text eol=lf
 cluster/prometheus/test_lgp1_pipeline.py text eol=lf
 cluster/prometheus/prepare_lgp1_inputs.py text eol=lf
 cluster/prometheus/run_lgp1.sh text eol=lf
+
+# Preserve exact hash-bound preparation bytes; do not normalize recovered metadata.
+dtv_success_cost/** -text
+docs/dtv-success-cost-20261001/** -text

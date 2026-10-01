@@ -1,0 +1,40 @@
+{
+  "files": [
+    {
+      "path": "manifests/acid-alternative-v1/pusht-invalidated-job-296413-unfiltered-task-paths/c1-locked-confirmation.tsv",
+      "bytes": 5055,
+      "sha256": "1f7bad9e944d583b2610a874d30854db1261c5dce0db458a2116b5ff9b20339d"
+    },
+    {
+      "path": "manifests/acid-alternative-v1/pusht-invalidated-job-296413-unfiltered-task-paths/d1-fresh-development.tsv",
+      "bytes": 2482,
+      "sha256": "948a5e0dc1f79551845a9ef039908729d3d0c4c4bee5deb8445fe465f694814e"
+    },
+    {
+      "path": "manifests/acid-alternative-v1/pusht-invalidated-job-296413-unfiltered-task-paths/r0-official-seed42.tsv",
+      "bytes": 5085,
+      "sha256": "232c71ec2c69c2f130d2506cc8b720448975728f6eb3ad763f648e74df13cd79"
+    },
+    {
+      "path": "manifests/quarantine/acid-alt-preparation-20260814/reacher-eval-v1-cancelled-job-296512/c1-locked-confirmation.tsv",
+      "bytes": 5048,
+      "sha256": "861610390045f4600dd6c374a6d42fc7c132f1208c675deb81a57321e9276c1b"
+    },
+    {
+      "path": "manifests/quarantine/acid-alt-preparation-20260814/reacher-eval-v1-cancelled-job-296512/d1-fresh-development.tsv",
+      "bytes": 2496,
+      "sha256": "0b6e89cbe785ec88b0a3ff8e2ff77375ba9518695ab54f9bc2d3256013084a56"
+    },
+    {
+      "path": "manifests/quarantine/acid-alt-preparation-20260814/reacher-eval-v1-cancelled-job-296512/r0-official-seed42.tsv",
+      "bytes": 5058,
+      "sha256": "7a72a2a3e1ea89b5ec8bb0a39807673621c2ae92e0c581b34276e0bc11f9279e"
+    }
+  ],
+  "total_bytes": 25224,
+  "observed_unix": 1790811974.4861853,
+  "payload_reads": 0,
+  "inference": false,
+  "physics": false,
+  "local_wall_seconds": 5.937000000005355
+}
