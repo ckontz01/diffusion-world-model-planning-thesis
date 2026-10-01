@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"R1_staged_authenticated\", \"observed_unix\": 1790858586.468137, \"source_bytes\": 18790382, \"control_bytes\": 19630679, \"roles\": {\"files\": 54, \"bytes\": 12813354, \"parents_per_task\": 320, \"metadata_only\": true, \"payload_reads\": 0}, \"runtime\": {\"python\": \"3.10.16 | packaged by conda-forge | (main, Apr  8 2025, 20:53:32) [GCC 13.3.0]\", \"numpy\": \"2.2.6\", \"slurm\": {\"sbatch\": \"/usr/bin/sbatch\", \"sacct\": \"/usr/bin/sacct\", \"squeue\": \"/usr/bin/squeue\"}, \"research_execution\": false}, \"imports\": \"r1_control_imports_ok\\n\", \"reconciliation\": {\"observed_unix\": 1790858583.3738182, \"old_process\": null, \"terminal_row\": [\"312920\", \"dtveff1-preflight\", \"COMPLETED\", \"0:0\", \"178\", \"cpu=4,mem=8G,node=1\", \"gpu03\"], \"controllers\": []}, \"resolution_sha256\": \"aae9e28b83237a261811bcf6a41bca7a08c3f192fb96e086510b5932a4ec7a9e\", \"recovery_manifest_sha256\": \"61b46d8e206a078310e2f7a39eda58417f299a317efbc9b92473af3edfb48ad9\", \"research_payloads_decoded\": false, \"allocation_submissions\": 0}\n",
+  "stderr": "",
+  "local_wall_seconds": 12.296999999991385,
+  "automatic_retry": false
+}
