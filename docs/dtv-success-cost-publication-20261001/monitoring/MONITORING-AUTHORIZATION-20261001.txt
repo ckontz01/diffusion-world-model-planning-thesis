@@ -1,0 +1,65 @@
+DTV-EFF1: direct monitoring and technical recovery authorization
+1 October 2026
+
+The user directly requested:
+"spawn a luna agent that checks every 30 minutes, that will report to you in case an error occurs, and you have to fix it if that issue is technical, and automaticallr resume the run without my input"
+
+This authorizes a GPT-6 Luna technical checker and parent-managed, diagnosed
+technical repairs/resumption without another approval request. It supersedes
+the historical no-automatic-monitoring restriction only for this DTV-EFF1 run.
+No scientific, resource, data-role, dependency, account/security or permission
+expansion is granted. Historical studies and their paused monitors stay closed.
+
+App heartbeat monitor-dtv-eff1-with-luna is ACTIVE, every 30 minutes in this chat.
+At each wake the parent delegates one bounded technical check to the existing
+dtv_luna_checker agent, or a new gpt-6-luna agent if unavailable. Luna reports to
+the parent and does not repair, submit, alter authority or inspect outcomes.
+This is not a persistent sleeping agent or a separate standalone cron job.
+Local scheduling requires the computer awake and the Codex app running.
+
+Current lineage R4: b8e47b7ddec520ea730337c50b239ca5febff208fcaea8a96667cdb0e938e7d3.
+Read recovery-r4 launch/contract/identities and any later recovery records before
+checking. Use frozen transport.py observe with a new exclusive OBSERVATION-
+receipt label, configured WSL Thesis-Ubuntu/chris SSH prometheus bastion access,
+one scheduler snapshot for exact dispatched IDs, and PID plus start_ticks.
+Do not stage, launch or restart a healthy/already-started controller. SSH loss
+does not establish cluster failure. Routine healthy progress stays quiet.
+
+The parent must preserve every error, partial, STOP, successful artifact and
+charge; reconcile live/terminal/ambiguous allocations and authenticated suppliers
+before repair. Use a separately versioned exclusive package outside executed
+closures, artificial/interface tests, finite replacement attempts, full-future
+reservations, commit/push/full remote verification and required small-package
+SSD verification before precise resumption. No blind retry or recovery loop,
+no successful/live/ambiguous task repetition, no cap reset or evidence deletion.
+Metadata-only resolution of missing successful acceptance never recomputes it.
+Any necessary genuine failed replacement is explicitly enumerated and charged;
+new accounting must not rewrite historical records.
+
+Science stays fixed: 320 ordered P2 parents/task, three seeds, eight configs,
+2880 GPU workers/23040 episodes plus CPU preflight and analysis. Passed included
+9-worker/72-episode technical gate is retained, not repeated. R4 expects 2882
+successful logical tasks/2885 actual attempts absent a later diagnosed failure.
+Caps remain serial one exact RTX6000 Ada/gpu09, 4CPU/8GiB/300s GPU jobs,
+864000 cumulative GPU allocation seconds including failures; 4CPU/8GiB/7200s
+CPU stages, 14400 aggregate CPU-stage allocation-wall seconds. Source20MB,
+control100MB, worker1MB+100KB log, live4GB/archive4.2GB/inclusive13GB; all retained
+recoveries/failures count. Local preparation ceiling14400s/fourCPU/8GiB includes
+prior7530.894s plus R4 reservation1800s, combined9330.894s reserved to date.
+
+Only technical/control/scheduler/process/seal/resource metadata may be inspected
+until complete independent acceptance AND designated THESIS_SSD whole/member
+preservation. Use actual-lineage acceptance/preservation adapters at completion,
+currently R4, never obsolete finalizers. Preserve archive/transfer partials and
+provenance; never rerun compute because preservation fails. Final backup only to
+D:/THESIS-BACKUPS/dtv-success-cost-20261001, THESIS_SSD volume
+0a2f1ba9-0000-0000-0000-100000000000 with at least40GB free. Existing completed
+small packages and historical archives are not rebacked up. Publish the complete
+fixed result only after the gate, verify Git remote, fulfill required final handoff
+without duplication, then pause this same monitor retaining its history.
+
+Notify meaningful faults, diagnosed repairs/resumption, stage changes, completion
+or required action. Actual rights/security barriers, exhausted finite caps,
+unavailable required SSD or unresolved scientific choices stop affected actions
+and are reported precisely. No guarantee of zero future technical faults.
+This record is outside all frozen research/recovery closures; none is amended.
