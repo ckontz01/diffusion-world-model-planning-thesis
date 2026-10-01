@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"observed_unix\": 1790858633.2077584, \"exact_controller_alive\": true, \"current_process\": {\"pid\": 187488, \"state\": \"S\", \"start_ticks\": 961551134}, \"expected_process\": {\"pid\": 187488, \"state\": \"R\", \"start_ticks\": 961551134}, \"stderr_bytes\": 0, \"submitted\": [{\"event\": \"submitted\", \"task\": \"pusht-13675-6101\", \"allocation_id\": \"312921\", \"recorded_unix\": 1790858624.2922182}], \"terminal\": [], \"accepted\": [], \"carried\": [{\"event\": \"carried_preflight_accepted\", \"task\": \"preflight\", \"allocation_id\": \"312920\", \"elapsed_seconds\": 178, \"seal_sha256\": \"1e199f70d9b35d98500b50571de68850b584771c7dd6d21ef87af8a7b1452fe7\", \"resolution_sha256\": \"aae9e28b83237a261811bcf6a41bca7a08c3f192fb96e086510b5932a4ec7a9e\", \"original_dispatch_accepted\": false, \"recorded_unix\": 1790858623.2247806}], \"gate\": [], \"stop\": null, \"complete\": false, \"scheduler\": {\"command\": [\"sacct\", \"-n\", \"-P\", \"-X\", \"-j\", \"312920,312921\", \"--format=JobIDRaw,JobName%200,State,ExitCode,ElapsedRaw,AllocTRES,NodeList\"], \"returncode\": 0, \"stdout\": \"312920|dtveff1-preflight|COMPLETED|0:0|178|cpu=4,mem=8G,node=1|gpu03\\n312921|dtveff1-pusht-13675-6101|RUNNING|0:0|9|billing=1,cpu=4,gres/gpu=1,mem=8G,node=1|gpu09\\n\", \"stderr\": \"\"}, \"run_bytes\": 199706, \"scientific_results_opened\": false}\n",
+  "stderr": "",
+  "local_wall_seconds": 1.3599999999860302,
+  "automatic_retry": false
+}

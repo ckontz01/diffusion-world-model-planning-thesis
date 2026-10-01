@@ -1,0 +1,51 @@
+DTV-EFF1 R1 control-only continuation launched, 1 October 2026
+
+Source/authority/verified small SSD package: commit
+a3959ed93f5bf604144ed149b31f3fe00a4a0f7b, pushed and exact remote readback.
+Authenticated stage receipt:235f42ff3c85555012e1ac8bc5f0d369a8e8c9ca,
+pushed and exact remote readback before launch.
+
+R1 manifest61b46d8e206a078310e2f7a39eda58417f299a317efbc9b92473af3edfb48ad9;
+authority0706bc77d7c7a1c8f9f8cc0fc1fef52ed6c3a82d16b550c29bb70477fea552f6;
+approval1028d22bad369313b0c80625e86230c90b37bf4a4c55711ea5920671d843a1f9.
+Small SSD archive122880B/21members, whole/every member verified;
+SHA3e0a783fcc5aee4d79842febd4080a225dcd934e72fe20dd323940d60d66f04e.
+Authority, approval and manifest copies verified separately; identity copy
+SHA b3bada1ce43c895871e9ae51c9191ad7afbf9bb3eedefe1bda20601582b185f6.
+All20 R1 Git source blobs authenticated against the frozen raw hashes;
+all444 original scientific package members remain unchanged.
+
+R1 source:
+/lustreFS/data/superworld/ckontzias/thesis/snapshots/dtv-success-cost-control-r1-20261001-61b46d8e206a0783
+R1 control:
+/lustreFS/data/superworld/ckontzias/thesis/staging/dtv-success-cost-control-r1-20261001-61b46d8e206a0783
+Canonical run unchanged:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-success-cost-20261001/run-bc3b36c71362f172
+
+Launch occurred once at Unix1790858622.4128714, PID187488,
+Linux start_ticks961551134. No obsolete controller was restarted.
+Stage reauthenticated the original STOP/dispatch/preflight, all preserved
+preflight model inputs, unchanged dataset identities and54 role files.
+Combined deployed source18790382B/20MB; retained controls19630679B/100MB.
+Original178 CPU seconds are retained in the dated R1 carry. No successful
+task was repeated, no extra research attempt was added and no cap reset.
+STOP-RESOLUTION SHAaae9e28b83237a261811bcf6a41bca7a08c3f192fb96e086510b5932a4ec7a9e.
+Original STOP and historical dispatch remain byte-identical.
+
+Historical launch observation at Unix1790858633.2077584 (not a promise of
+later status): exact R1 controller alive, stderr0, STOP-R1 absent.
+312920 preflight COMPLETED0:0/178s was explicitly accepted by a new dated
+receipt, not inserted into or backdated in the original dispatch.
+312921 dtveff1-pusht-13675-6101 RUNNING, cpu4,mem8G,gres/gpu1,gpu09.
+Zero new terminal GPU workers at this observation; nine-worker/72-episode
+included technical gate not yet reached. No scientific aggregate or partial
+effect was opened. Full remaining resource reservations stay enforced.
+
+47 artificial regression/integration tests passed. Failed local harness
+attempts/receipts are retained; measured suite/startup total72.4383612s.
+No training, changed predictor/policy/data role/seed/endpoint/estimator,
+dependency, permission, credential, security or WSL change occurred.
+No recurring monitor or automatic retry/recovery loop was created.
+Independent R1 acceptance/analysis/archive adapters are present; later
+final results remain blocked until complete acceptance and actual designated
+SSD whole/member preservation. Historical studies and E12 are unchanged.
