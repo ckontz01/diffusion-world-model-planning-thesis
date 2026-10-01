@@ -1,0 +1,23 @@
+DTV-EFF1 R4 replacement accepted — 1 October 2026
+
+OBSERVATION-02 directly observedUnix1790867563.9427962 through configuredPrometheus
+SSH. ExactR4 controllerPID330036/start_ticks962433210 alive,stderr0,STOP absent.
+Named replacement312951/pusht-3819-6101 COMPLETED0:0 in48GPU allocationseconds.
+Independent worker acceptance passed all8 fixed episodes, input/endpoint/action
+evidence, hardware/checkpoint identities and per-configuration numerical reset
+certificates. AcceptedSEALSHA25279b33e869ae575a05ccaf6e21d99988745c28cab6d726612ac3bf43da815e.
+Originalfailed312950 and its21seconds remain preserved and charged, never overwritten.
+
+The controller then submitted312952/pusht-3819-6102; the same observation reports
+RUNNING on gpu09. This is a historical observation, not a future completion claim.
+28GPU workers/224episodes accepted in total at this check (27carried plus1new).
+Cumulative terminal charges1670GPU seconds including59failed,178CPU seconds.
+Remaining work continues automatically under the same fixed grid and finitecaps.
+
+The repaired condition is numerical initialization verification only: no state,
+physics, model, source allocation, prediction/scientific target, endpoint, estimator
+or seed changed. No partial aggregate/scientific effect opened. Historical
+successes and all old STOP/failure/authority/evidence records retained.
+Both full artificial suites passed; latest92tests. Git/sourcebytes/remotehash and
+new small designatedSSD whole/member/authority copies verified before launch.
+No new monitor/retry/study created. Unknown future faults still fail closed.
