@@ -1,0 +1,73 @@
+DTV-EFF1 R4: PushT coordinate round-trip verification, 1 October 2026
+
+312950/pusht-3819-6101 failed1:0 in21GPU allocation seconds before any episode.
+The normal instantaneous initializer assigns the exact saved state. Pymunk7.3.0
+stores the center-of-gravity position and reconstructs the body's local origin.
+Native T geometry has CoG(0,45). A body-only arithmetic diagnostic on the failed
+worker's already-preserved initial coordinate reproduces an error2.842170943040401e-14
+at state index3. No environment, Space, physics step, rendering/model/GPU/Slurm
+allocation or new reference payload was used. 10000 artificial setter fixtures
+show max5.684341886080802e-14 and all exact float32 readbacks. The preliminary
+CoG(0,30) diagnostic did not reproduce this failure and remains preserved alongside
+the corrected native-geometry diagnostic; no unfavorable receipt is removed.
+
+The only scientific-runtime change is verification, not initialization or observations:
+fields0,1,4,5,6 must remain exactly equal. Only block positions2,3 can have absolute
+error <=min(1e-12,8*float64_epsilon*max(1,abs(source coordinate),45)), AND the entire
+native state must round-trip exactly to the saved source dtype. Geometry must remain
+CoG(0,45). Reject nonfinite, wrong shape/dtype/geometry or larger changes. Each PushT
+episode stores a separate initialization certificate, independently reconstructed
+from its actual initial endpoint and preserved SOURCE-INPUT by acceptance. The
+original independent native reset bound1e-12 is not relaxed. No state rounding,
+new physics step, target change, endpoint/estimator/config/RNG/model change occurs.
+The Reacher EGL routing and Cube constructor compatibility fixes remain unchanged.
+
+All31 historical attempts reconcile terminal, no live/ambiguous allocation/controller:
+27successful GPU workers/216episodes plus CPU preflight312920/178seconds. GPU charges
+1622 include all3 failures312924/19,312928/19,312950/21 (59GPU seconds total).
+Original/R1/R2/R3 STOPs, partials, raw ledgers, suppliers, seals, logs, authorities
+and accepted included72-episode gate are preserved. The passed gate is not repeated.
+All27successful outputs are reused exactly once; no preflight/refit/analysis rerun.
+
+Finite R4:2853GPU tasks, comprising ONE named replacement pusht-3819-6101 and2852
+never-submitted tasks, then ONE CPU analysis. One attempt each, no automatic retry,
+requeue or controller restart. Exclusive recovery-r4/workers output namespace.
+Original logical grid2882successes/23040episodes, intended actual2885attempts if
+no further failure. Independent accounting includes3failed attempts exactly once
+and separate exact successful suppliers; original histories are not rewritten.
+
+All original scientific source444members,320P2 parents/task order, three blocks,
+eight configurations and32-cell analysis remain byte unchanged. Metadata-only
+source-role inventory must remain identical; no protected/new scope or E12 change.
+No partial efficacy/outcome aggregate inspection. Technical acceptance is not a
+favorable-science gate. Full acceptance AND designatedSSD whole/member verification
+are required before fixed result interpretation.
+
+Caps unchanged: serial1 RTX6000Ada gpu09/gpu09.cluster,4CPU8GiB300seconds/GPU
+(240work+60preserve),864000 cumulativeGPU including failures. Analysis4CPU8GiB
+7200seconds(7140work+60preserve)/noGPU,14400 cumulativeCPU-stage wall seconds.
+Full initial reserve1622+2853*300=857522GPU and178+7200=7378CPU. Keep strict
+allocation/hardware identity, accepted bounded initial-placeholder grace, terminal
+charge preservation and full-future reservations. No resource/data/security/dependency/
+credential/permission/WSL changes. New unknown STOP or fault fails closed.
+
+All5source/control roots count:20MB source/100MB control, retained failures/logs,
+1MB each complete GPU worker+100KBlogs,40MB analysis+100KBlogs,1MB preflight+100KBlogs,
+428451336B reused models,4GB live/4.2GB archive/13GB inclusive. New certificates count
+inside unchanged1MB caps. Worst-case fixed worker footprint plus metadata allowance
+is below4GB; preserve all hidden files and retained evidence, no deletion/cap reset.
+Archive inventory includes original source plus full run carrying every original/
+R1/R2/R3/R4 source/control/authority/STOP/resolution/failure, reused checkpoints;
+actual member header bound <=4.2GB before creation. R4 independent finalization/
+analysis adapters use the unchanged scientific analyzer, actual2885attempt contract.
+One new-study archive/transfer only,7200second deadlines; preserve any partials.
+
+R4 preparation reservation1800scripted seconds/4CPU8GiB/100MB new outputs.
+Prior accounted/reserved7530.894, combined9330.894<14400 ceiling. All passing and
+failed test receipts remain; arithmetic diagnostics and bounded local suites count.
+Artificial numeric/orchestration/lineage/archive tests only, no efficacy sweep.
+Commit/push/exact full remote verification and new small package designatedSSD
+whole/member/copy verification before launch. THESIS_SSD volume0a2f1ba9-0000-0000-
+0000-100000000000/>=40GBfree, D:/THESIS-BACKUPS/dtv-success-cost-20261001.
+No fallback disk, historical-study rearchive/retransfer, automatic monitor or study.
+No guarantee of zero future faults; future diagnosed failures retain fail-stop.

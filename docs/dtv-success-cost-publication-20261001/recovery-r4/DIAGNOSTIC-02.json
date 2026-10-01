@@ -1,0 +1,522 @@
+{
+  "observed_unix": 1790866126.2979717,
+  "all_attempts_terminal": true,
+  "terminal_rows": [
+    [
+      "312920",
+      "dtveff1-preflight",
+      "COMPLETED",
+      "0:0",
+      "178",
+      "cpu=4,mem=8G,node=1",
+      "gpu03"
+    ],
+    [
+      "312921",
+      "dtveff1-pusht-13675-6101",
+      "COMPLETED",
+      "0:0",
+      "50",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312922",
+      "dtveff1-pusht-13675-6102",
+      "COMPLETED",
+      "0:0",
+      "59",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312923",
+      "dtveff1-pusht-13675-6103",
+      "COMPLETED",
+      "0:0",
+      "46",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312924",
+      "dtveff1-reacher-4374-6101",
+      "FAILED",
+      "1:0",
+      "19",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312925",
+      "dtveff1-reacher-4374-6101",
+      "COMPLETED",
+      "0:0",
+      "74",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312926",
+      "dtveff1-reacher-4374-6102",
+      "COMPLETED",
+      "0:0",
+      "61",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312927",
+      "dtveff1-reacher-4374-6103",
+      "COMPLETED",
+      "0:0",
+      "67",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312928",
+      "dtveff1-cube-3506-6101",
+      "FAILED",
+      "1:0",
+      "19",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312929",
+      "dtveff1-cube-3506-6101",
+      "COMPLETED",
+      "0:0",
+      "27",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312930",
+      "dtveff1-cube-3506-6102",
+      "COMPLETED",
+      "0:0",
+      "27",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312931",
+      "dtveff1-cube-3506-6103",
+      "COMPLETED",
+      "0:0",
+      "27",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312932",
+      "dtveff1-pusht-17315-6101",
+      "COMPLETED",
+      "0:0",
+      "72",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312933",
+      "dtveff1-pusht-17315-6102",
+      "COMPLETED",
+      "0:0",
+      "72",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312934",
+      "dtveff1-pusht-17315-6103",
+      "COMPLETED",
+      "0:0",
+      "73",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312935",
+      "dtveff1-reacher-6159-6101",
+      "COMPLETED",
+      "0:0",
+      "57",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312936",
+      "dtveff1-reacher-6159-6102",
+      "COMPLETED",
+      "0:0",
+      "67",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312937",
+      "dtveff1-reacher-6159-6103",
+      "COMPLETED",
+      "0:0",
+      "54",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312938",
+      "dtveff1-cube-2885-6101",
+      "COMPLETED",
+      "0:0",
+      "61",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312939",
+      "dtveff1-cube-2885-6102",
+      "COMPLETED",
+      "0:0",
+      "74",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312940",
+      "dtveff1-cube-2885-6103",
+      "COMPLETED",
+      "0:0",
+      "55",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312941",
+      "dtveff1-pusht-13337-6101",
+      "COMPLETED",
+      "0:0",
+      "47",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312942",
+      "dtveff1-pusht-13337-6102",
+      "COMPLETED",
+      "0:0",
+      "47",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312943",
+      "dtveff1-pusht-13337-6103",
+      "COMPLETED",
+      "0:0",
+      "47",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312944",
+      "dtveff1-reacher-5415-6101",
+      "COMPLETED",
+      "0:0",
+      "65",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312945",
+      "dtveff1-reacher-5415-6102",
+      "COMPLETED",
+      "0:0",
+      "55",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312946",
+      "dtveff1-reacher-5415-6103",
+      "COMPLETED",
+      "0:0",
+      "51",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312947",
+      "dtveff1-cube-6019-6101",
+      "COMPLETED",
+      "0:0",
+      "80",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312948",
+      "dtveff1-cube-6019-6102",
+      "COMPLETED",
+      "0:0",
+      "72",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312949",
+      "dtveff1-cube-6019-6103",
+      "COMPLETED",
+      "0:0",
+      "76",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312950",
+      "dtveff1-pusht-3819-6101",
+      "FAILED",
+      "1:0",
+      "21",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ]
+  ],
+  "r3_stop_sha256": "e8721f9b6429ae0eb89904ca95371ec5a0b45a25336a0e361b40f5e019a7e0ca",
+  "r3_dispatch_sha256": "bf307a7a6b4ae35307ddcc4123e9a2e0e93711112788955f803545625dc7a696",
+  "r3_resolution_sha256": "1386ff0a615108a42cdc647e584b7ab49d310662da51c10406ad05fdca5187a0",
+  "carried": [
+    {
+      "task": "cube-3506-6101",
+      "allocation_id": "312929",
+      "elapsed_seconds": 27,
+      "seal_sha256": "6318eb2a440e02583755400191a58e8da80e56726b260eed713af38e50898b85",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-3506-6102",
+      "allocation_id": "312930",
+      "elapsed_seconds": 27,
+      "seal_sha256": "57a10eeff182c0d055faa766d84c2c8e9b9419d76998c91dac76c70584aa67bb",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-3506-6103",
+      "allocation_id": "312931",
+      "elapsed_seconds": 27,
+      "seal_sha256": "9accda9cadb7f3e3f29acd0515847d377c9634dfa3b7014c87d50a45c59165a5",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "pusht-17315-6101",
+      "allocation_id": "312932",
+      "elapsed_seconds": 72,
+      "seal_sha256": "09294045bf2af89eabfd1fee649d8196d75ceb6832a0ad3a60a0bdf09152e9e5",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "pusht-17315-6102",
+      "allocation_id": "312933",
+      "elapsed_seconds": 72,
+      "seal_sha256": "0ec6d367588ea30ecc7029d74965fb5db0c43b3fa0bc53d96c59d4025aef72a7",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "pusht-17315-6103",
+      "allocation_id": "312934",
+      "elapsed_seconds": 73,
+      "seal_sha256": "847988dc30c5903aec088d454bff30070c13fa5dcb9762ab5b7446f0562af8bd",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "reacher-6159-6101",
+      "allocation_id": "312935",
+      "elapsed_seconds": 57,
+      "seal_sha256": "b591d6d65fa49d3030edccc4ee7b9098a3d52f38b3f079655dee948c604d2352",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "reacher-6159-6102",
+      "allocation_id": "312936",
+      "elapsed_seconds": 67,
+      "seal_sha256": "bdeaba790d86216ba47c8f9c5f9d75119b0a8c1a1a72c6138f78c4c6127d14c1",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "reacher-6159-6103",
+      "allocation_id": "312937",
+      "elapsed_seconds": 54,
+      "seal_sha256": "f41d6a5f599c57bf3432b6f0724b546399dd0323ce68158fe59bf53ad4f030bf",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-2885-6101",
+      "allocation_id": "312938",
+      "elapsed_seconds": 61,
+      "seal_sha256": "1fe19ea9ff06d99e1479ed6ccc87f4e7ac3c83116bde5b41ef46f9ab97f05578",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-2885-6102",
+      "allocation_id": "312939",
+      "elapsed_seconds": 74,
+      "seal_sha256": "4bcb159b1e7e1580b6f036bc2ec3c9ae704560f384a6a255f41d15e95906566c",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-2885-6103",
+      "allocation_id": "312940",
+      "elapsed_seconds": 55,
+      "seal_sha256": "d60edca7ceb5da9379fd2ef321dd3d5949f6a37b18675a7deb22238eacc0d941",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "pusht-13337-6101",
+      "allocation_id": "312941",
+      "elapsed_seconds": 47,
+      "seal_sha256": "cf264309bc74c153713594facb56400af4d7b72febb1312baa2434df7ffe535b",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "pusht-13337-6102",
+      "allocation_id": "312942",
+      "elapsed_seconds": 47,
+      "seal_sha256": "e0601a80f5a7af595f310f53de3509d8ed7cc04ed330cfe1905caee5cf765ac7",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "pusht-13337-6103",
+      "allocation_id": "312943",
+      "elapsed_seconds": 47,
+      "seal_sha256": "69a4b4b9dcd14d65af0ddbcd8361021731745aeb8c849aebcc0ffaed5b30d77b",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "reacher-5415-6101",
+      "allocation_id": "312944",
+      "elapsed_seconds": 65,
+      "seal_sha256": "3b7a671d4546526227fa404f92ca2d2e175e6def2a8fef7746abd83f2c425570",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "reacher-5415-6102",
+      "allocation_id": "312945",
+      "elapsed_seconds": 55,
+      "seal_sha256": "4feb1cecde03e0cafa070bb3431d4ada16a26cab5766d95c41797408f507ae1c",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "reacher-5415-6103",
+      "allocation_id": "312946",
+      "elapsed_seconds": 51,
+      "seal_sha256": "85dc8f0ef7aa78e87004e15e1b1bb1a63e45b5446ce641c6df3bc1e1611fe0ca",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-6019-6101",
+      "allocation_id": "312947",
+      "elapsed_seconds": 80,
+      "seal_sha256": "fa5b6ce0a68d6e51c9403389831efbaf9d3c661eda68d851268a1a6261c51bc9",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-6019-6102",
+      "allocation_id": "312948",
+      "elapsed_seconds": 72,
+      "seal_sha256": "4cb77b7634e9efe21d04cee20d463a3ed7562340b41bbcd56c850e4977707d7e",
+      "output_lineage": "recovery-r3"
+    },
+    {
+      "task": "cube-6019-6103",
+      "allocation_id": "312949",
+      "elapsed_seconds": 76,
+      "seal_sha256": "23f0030c34199e73cbe954f088c88233aef14403301f30403b617da679453531",
+      "output_lineage": "recovery-r3"
+    }
+  ],
+  "failed_task": "pusht-3819-6101",
+  "failed_allocation": "312950",
+  "failed_seconds": 21,
+  "failed_members": [
+    {
+      "path": "FAILURE.json",
+      "bytes": 101,
+      "sha256": "87a380065249cb441e0e79ebdcf522b46706694b19a4fef9875189a02ba6fd45"
+    },
+    {
+      "path": "RENDER-BACKEND.json",
+      "bytes": 568,
+      "sha256": "54b6a8907d4c4e5c25fba4b020d267363b557d220cf9d9ab0b0e1a37031f829f"
+    },
+    {
+      "path": "SOURCE-INPUT.npz",
+      "bytes": 151928,
+      "sha256": "bd27a9ac4a7bc22137c0018d29045085228adec21be8884a8c6668b0915cbf10"
+    },
+    {
+      "path": "SUPERVISION.json",
+      "bytes": 417,
+      "sha256": "51132174c3cb930251dd3d4dcf6944d51f1f63e5459431f73c208cae29714031"
+    }
+  ],
+  "failure": {
+    "automatic_retry": false,
+    "error": "RuntimeError('instantaneous PushT source initialization changed')"
+  },
+  "gpu_seconds": 1622,
+  "cpu_seconds": 178,
+  "completed_gpu_workers": 27,
+  "completed_episodes": 216,
+  "scientific_aggregates_opened": false,
+  "error_logs": [
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/staging/dtv-success-cost-control-r3-20261001-a75d361f6e23fad9/controller.err",
+      "bytes": 1280,
+      "sha256": "e98cabcb7b072e798627d17360ecce706c287b52cf720eb2a4a940dadd48d4ea"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-success-cost-20261001/run-bc3b36c71362f172/recovery-r3/workers/pusht-3819-6101.err",
+      "bytes": 411,
+      "sha256": "f5f8c184c473ba5457a4828c12275ba2fdba0ab3fcfeeff5219bb5417f27690f"
+    },
+    {
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-success-cost-20261001/run-bc3b36c71362f172/recovery-r3/workers/pusht-3819-6101.out",
+      "bytes": 5500,
+      "sha256": "4bdf97f440afa0e2702668321cb939fa67ac9c2e6af6407d968bdc339f67e1d1"
+    }
+  ],
+  "technical_gate": [
+    {
+      "event": "technical_tranche_passed",
+      "included_workers": 9,
+      "included_episodes": 72,
+      "carried_workers": 6,
+      "new_workers": 3,
+      "scientific_selection": false,
+      "recorded_unix": 1790864228.7382448
+    }
+  ],
+  "setter_diagnostic": {
+    "artificial_fixtures": 10000,
+    "nonexact_setter_roundtrips": 840,
+    "max_error": 5.684341886080802e-14,
+    "all_f32_roundtrips_equal": true,
+    "max_bound_fraction": 0.20676132500642816,
+    "failed_worker_block_position_mismatch_indices": [
+      3
+    ],
+    "failed_worker_max_roundtrip_error": 2.842170943040401e-14,
+    "failed_worker_f32_roundtrip_equal": true,
+    "wall_seconds": 0.34573777206242085,
+    "rss_bytes": 37629952,
+    "pymunk_version": "7.3.0",
+    "environment_created": false,
+    "space_created": false,
+    "physics_steps": 0,
+    "model_calls": 0,
+    "gpu": false,
+    "slurm_allocations": 0,
+    "new_references_opened": false
+  },
+  "setter_stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n"
+}

@@ -1,0 +1,34 @@
+DTV-EFF1 R4 prelaunch technical receipt — 1 October 2026
+
+Direct current instruction FIX IT AND RESUME authorizes the diagnosed finite
+PushT initialization-verification repair. Existing scientific models, inputs,
+source roles, settings, decoder, endpoint and analysis remain unchanged.
+
+31 actual prior allocations reconciled terminal. 27 GPU successes/216episodes
+and CPUpreflight are carried without recomputation. R3 STOP at312950 preserved:
+21GPU seconds, no episode initialized/journaled, no successful seal. Total1622GPU
+includes three failures/59seconds; CPU178. No live or ambiguous study allocation.
+
+Setter/getter arithmetic reproduced2.842170943040401e-14 local-origin roundoff
+using nativeT CoG(0,45). Corrected diagnostic uses no Space/environment/step/GPU.
+10000 artificial checks max5.684341886080802e-14, allfloat32 readbacks identical.
+Preliminary30-CoG non-reproduction and both diagnostic receipts preserved.
+The new strict verification changes no physics body, source value or observation.
+
+TEST-01:88tests0errors0failures61.047seconds. Expanded TEST-02:92tests0errors0
+failures60.172seconds. FourCPU affinity/8GiB job limit/900second deadline enforced.
+Original and all executed recovery source manifests must independently hash-match
+at freeze. New independent acceptance reconstructs every new PushT certificate.
+Full grid tests retain all2882success identities/23040episodes and all2885attempts,
+with failures separately charged. Passed included72-episode gate is carried once.
+
+Remaining2853GPU workers+analysis; full reservations857522GPU/7378CPU remain
+below unchanged864000/14400 cumulativecaps. Complete footprint includes new
+certificates and all retained failure/control/source/archive evidence. No deletes,
+scientific aggregate access, historical-study backup or automatic monitor.
+
+Before real continuation: frozen package/authority must be Git-pushed and exact
+remote branch hash checked, then designatedSSD small package whole/member/copy
+verified. Metadata-only roles, authenticated sources, input identities/checkpoints,
+all prior seals/STOPs/partial hashes and exact terminal attempts rechecked at stage.
+Only new R4 controller may then launch once into exclusive remaining-work namespace.
