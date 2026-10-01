@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"observed_unix\": 1790856754.6678874, \"exact_controller_alive\": false, \"current_process\": null, \"expected_process\": {\"pid\": 167586, \"state\": \"R\", \"start_ticks\": 961361554}, \"controller_stderr_bytes\": 1180, \"submitted\": [{\"event\": \"submitted\", \"task\": \"preflight\", \"allocation_id\": \"312920\"}], \"terminal\": [], \"accepted\": [], \"technical_gate\": [], \"stop\": {\"automatic_retry\": false, \"charges\": {\"cpu\": 0, \"gpu\": 0}, \"error\": \"ControlFault('nonterminal identity/state fault')\"}, \"complete\": false, \"scheduler\": {\"command\": [\"sacct\", \"-n\", \"-P\", \"-X\", \"-j\", \"312920\", \"--format=JobIDRaw,JobName%200,State,ExitCode,ElapsedRaw,AllocTRES,NodeList\"], \"returncode\": 0, \"stdout\": \"312920|dtveff1-preflight|RUNNING|0:0|26|cpu=4,mem=8G,node=1|gpu03\\n\", \"stderr\": \"\"}, \"run_bytes\": 61067, \"control_bytes\": 19475581, \"source_bytes\": 18710612, \"partial_scientific_results_opened\": false}\n",
+  "stderr": "",
+  "local_wall_seconds": 6.280999999988126,
+  "automatic_retry": false
+}

@@ -1,0 +1,53 @@
+DTV-EFF1 launch and scoped control fault - 1 October 2026
+
+The campaign was launched exactly once at Unix1790856726.6204395.
+Controller PID167586 / Linux start_ticks961361554 is now exited.
+The only submitted allocation is CPU preflight312920; no GPU allocation,
+evaluation episode, included-tranche completion or scientific result exists.
+
+Exact triggering first scheduler response, preserved in DISPATCH.jsonl:
+312920|allocation|PENDING|0:0|0||gpu03
+
+The frozen dispatcher permits this incomplete pending-name placeholder only
+when job['gpu'] is true. The CPU preflight therefore reached the strict
+nonterminal name check and raised ControlFault('nonterminal identity/state
+fault'). This is a controller acceptance fault, not evidence that the cluster
+or the preflight computation failed. It was not caused by the selected host
+Python environment: the actual scheduler command returned successfully.
+
+The original STOP remains unchanged, SHA256:
+b4eef86b148e1badb99a1f69c5061e4459210b2bd9874fe3bb2538901cec638d.
+Original DISPATCH at diagnosis:
+be97ca02e9cdb8f58b164210820910db09f867a87f318f51f46f2cc52c05c81e.
+The controller traceback, submission stdout312920, scheduler stdout and
+metadata-only reconciliation are preserved in FAULT-DIAGNOSIS-01.json.
+
+At Unix1790856799.4424164, preflight312920 was RUNNING, correct actual name
+dtveff1-preflight, cpu=4,mem=8G,node=1 on gpu03, with no GPU allocation.
+Its 71 elapsed allocation-wall seconds are a live lower-bound observation,
+not a final terminal charge. The original STOP's cpu=0 is the controller's
+pre-terminal ledger, not a claim that this live allocation cost nothing.
+Reserve the entire7200-second preflight limit until terminal accounting is
+available, plus7200 seconds for the unsubmitted analysis. GPU charges are0;
+the unchanged remaining GPU grid reserves864000 seconds.
+
+No new dispatch, retry, requeue, cancel, resume, repeated preflight, source
+replacement, approval change or scientific patch was attempted. The live
+preflight is allowed to finish its already-authorized byte authentication;
+its final accounting/seal must be reconciled before any future action.
+Protected outcomes and partial scientific aggregates remain unopened.
+
+A separately scoped control-only recovery decision is required. If the
+existing preflight finishes successfully and is authenticated, it must be
+carried forward without recomputation. A future versioned controller would
+need a bounded incomplete-pending grace for the CPU stages as well as the
+existing GPU case, strict terminal identities, complete charge carryover,
+and an explicitly authenticated resolution of the preserved original STOP.
+It must retain the exact science/grid/caps and9-worker gate. This report
+does not implement or authorize that recovery.
+
+The enabled approval remains
+8768e82f12746010f460d0e45ed29d58dc21e98375c04fb574cf722116d34c03,
+authority6dd660e912f418e3ef2d768dc98f19c097a19a5ec5e5949aca4bf0e60e904f85.
+The approved frozen source/export, false template, all historical results
+and E12 drafts remain unchanged. No monitoring automation was created.
