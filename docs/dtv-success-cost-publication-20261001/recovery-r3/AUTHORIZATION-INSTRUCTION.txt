@@ -1,0 +1,8 @@
+Direct current user instruction, 1 October 2026:
+"fix it and ensure no issue happens again"
+
+This authorizes diagnosed technical fixes and resumption, not a guarantee of zero
+future faults. R3 resolves the separately diagnosed Cube constructor-reset fault.
+One replacement of genuinely failed allocation312928 is permitted within unchanged
+cumulative caps; no successful/live/ambiguous work may be repeated. Prior R2 was
+not blindly restarted. Science, data roles, controls, settings and estimator stay fixed.

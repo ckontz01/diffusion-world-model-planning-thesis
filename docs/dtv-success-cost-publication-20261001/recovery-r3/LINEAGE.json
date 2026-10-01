@@ -1,0 +1,166 @@
+{
+  "study": "DTV-EFF1-R3",
+  "observed_unix": 1790863509.6638656,
+  "carried": [
+    {
+      "task": "pusht-13675-6101",
+      "seal_sha256": "45b83aed9dcd08b13c7e1b576ddc6f4280d7f962b7f79e122a8ae5b3a31bd34d",
+      "allocation_id": "312921",
+      "elapsed_seconds": 50,
+      "output_lineage": "original"
+    },
+    {
+      "task": "pusht-13675-6102",
+      "seal_sha256": "231b1e4f6bbfacb1418096e5e334120739a69ac6806cc255ef478111e045c6fe",
+      "allocation_id": "312922",
+      "elapsed_seconds": 59,
+      "output_lineage": "original"
+    },
+    {
+      "task": "pusht-13675-6103",
+      "seal_sha256": "372d0ee84b1829d998fa60ee90205be90fdfa57f231ea0f80b1bfd0a3b478436",
+      "allocation_id": "312923",
+      "elapsed_seconds": 46,
+      "output_lineage": "original"
+    },
+    {
+      "task": "reacher-4374-6101",
+      "allocation_id": "312925",
+      "elapsed_seconds": 74,
+      "seal_sha256": "96d0ec10a6148fc7baf12ea54d55f83bfd474967d58add521e296e22e51a5542",
+      "output_lineage": "R2"
+    },
+    {
+      "task": "reacher-4374-6102",
+      "allocation_id": "312926",
+      "elapsed_seconds": 61,
+      "seal_sha256": "ee79129ef846681b227558b5308f19c3692451c130134bb2c415cb337d1ea4ec",
+      "output_lineage": "R2"
+    },
+    {
+      "task": "reacher-4374-6103",
+      "allocation_id": "312927",
+      "elapsed_seconds": 67,
+      "seal_sha256": "345657c1688058b3b064cfac992ee07d4b4fadf381fee47b00bb6f07bfd76c96",
+      "output_lineage": "R2"
+    }
+  ],
+  "failed_task": "cube-3506-6101",
+  "failed_allocation": "312928",
+  "failed_seconds": 19,
+  "failed_members": [
+    {
+      "path": "FAILURE.json",
+      "bytes": 89,
+      "sha256": "faed67a1e4676c81d0f4b2cb799566c3ac20d7d21e2223381b71842bf063298f"
+    },
+    {
+      "path": "RENDER-BACKEND.json",
+      "bytes": 568,
+      "sha256": "54b6a8907d4c4e5c25fba4b020d267363b557d220cf9d9ab0b0e1a37031f829f"
+    },
+    {
+      "path": "SOURCE-INPUT.npz",
+      "bytes": 153760,
+      "sha256": "bf6b6a4f5557720816c205d9f49ccfff3636a7452001248ef7774b1fba88b298"
+    },
+    {
+      "path": "SUPERVISION.json",
+      "bytes": 417,
+      "sha256": "3874199a6d2593f34794159951b954cfcf9a21dda87c75a4f63e2b6ea097eb75"
+    }
+  ],
+  "terminal_rows": [
+    [
+      "312920",
+      "dtveff1-preflight",
+      "COMPLETED",
+      "0:0",
+      "178",
+      "cpu=4,mem=8G,node=1",
+      "gpu03"
+    ],
+    [
+      "312921",
+      "dtveff1-pusht-13675-6101",
+      "COMPLETED",
+      "0:0",
+      "50",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312922",
+      "dtveff1-pusht-13675-6102",
+      "COMPLETED",
+      "0:0",
+      "59",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312923",
+      "dtveff1-pusht-13675-6103",
+      "COMPLETED",
+      "0:0",
+      "46",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312924",
+      "dtveff1-reacher-4374-6101",
+      "FAILED",
+      "1:0",
+      "19",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312925",
+      "dtveff1-reacher-4374-6101",
+      "COMPLETED",
+      "0:0",
+      "74",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312926",
+      "dtveff1-reacher-4374-6102",
+      "COMPLETED",
+      "0:0",
+      "61",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312927",
+      "dtveff1-reacher-4374-6103",
+      "COMPLETED",
+      "0:0",
+      "67",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312928",
+      "dtveff1-cube-3506-6101",
+      "FAILED",
+      "1:0",
+      "19",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ]
+  ],
+  "carried_preflight": "312920",
+  "carried_cpu_seconds": 178,
+  "carried_gpu_seconds": 395,
+  "logical_tasks": 2882,
+  "expected_attempts": 2884,
+  "scientific_changes": false,
+  "r2_stop_sha256": "3bf93c70ab2ff3a989a1f23ebc6cb149ef47702617db1fe6e42adf160b92c2ee",
+  "r2_dispatch_sha256": "37e93ab2603b76e0a3e107e41b03373b1f73e7030fe78588abd2389808112aa8",
+  "r2_resolution_sha256": "0e25db4849b8e1203aa536e8b61d8a90284ef228e8d533429d193216cae19bee",
+  "diagnosis": "Cube observation_space lazily calls reset(options=None) during PassiveEnvChecker construction. FreshCube reset applied options['state'] unconditionally after the base reset. Failure before any evaluation episode."
+}

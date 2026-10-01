@@ -1,0 +1,11 @@
+Run bounded dtv_success_cost_r3.run_tests with an exclusive receipt; freeze/authorize
+via dtv_success_cost_r3.package; commit/push/full-remote-readback the immutable new
+package/authority. Back up only this small R3 package, whole/every member plus copies
+on designated native Windows SSD, then identify. Keep R2's vendor routing dependency.
+Use recovery-r3/transport.py stage once (exact9terminal allocations/role metadata/
+seals/partials/cumulative charges); publish its receipt; then launch once. Observe
+technical records with exclusive receipt labels and PID plus start_ticks. Never
+restart original/R1/R2/R3 or patch their frozen closures. Complete the included first
+Cube block and nine-worker gate before any source2. Final host helper/analysis uses
+R3 adapters with R3:R2:R1:original source roots on PYTHONPATH. Original Windows
+backup verifier remains valid for canonical analysis and unchanged archive contract.

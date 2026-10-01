@@ -1,0 +1,82 @@
+DTV-EFF1 Cube lazy-constructor compatibility recovery R3, 1 October 2026
+
+R2 fixed the EGL rendering failure:312925/312926/312927 all completed0:0 and
+passed independent worker evidence checks,74/61/67 GPU-allocation seconds. Their
+24 episodes are carried once. Actual MuJoCo/dm_control/PyOpenGL EGL module evidence
+is sealed. No scientific aggregate was opened and no efficacy gate applied.
+
+Cube312928 failed1:0 in19GPU seconds before any evaluation episode. Native
+ManipSpaceEnv.observation_space calls reset(options=None) during the normal Gym
+PassiveEnvChecker constructor. The original FreshCube subclass successfully called
+the base reset, then unconditionally indexed options['state'] and failed on None.
+R3 returns that normal base reset result only when options is None. The explicit
+saved-state episode-reset path, its seed, qpos/qvel, target pose, native pre/post
+step, observation and reset info remain exactly as declared. Constructor bootstrap
+is ordinary environment construction, not an extra research episode or probe.
+
+Original native environment/read-source/decoder/adapter and GPU scientific body
+are copied into a new immutable package and exact-code regression checked except
+the diagnosed constructor branch and the new module/output/authority routing.
+No executed scientific source or R1/R2 snapshot is patched. The working R2 EGL
+vendor/settings/backend guard is reused byte-identically from authenticated R2.
+No dependency, permission, GPU/hostname/account, credential, WSL or network changes.
+
+All nine historical allocations reconciled terminal before this continuation:
+preflight312920/178CPU seconds; PushT312921-312923/50+59+46GPU seconds;
+failed Reacher312924/19; successful Reacher312925-312927/74+61+67;
+failed Cube312928/19. Total395GPU including38failed;178CPU. Seven successes
+(preflight plus six GPU workers/48episodes) are authenticated and never repeated.
+Both failed directories, original/R1/R2 STOPs/ledgers/resolutions/logs/seals remain.
+The same logical Reacher task has a failed R1 and successful R2 supplier: independent
+accounting filters each history by its exact supplier, not by task name alone.
+No historical acceptance, raw event, charge or namespace is falsified/backdated.
+
+Finite R3:2874 GPU tasks (one named Cube replacement plus2873 never submitted),
+then one CPU analysis. Exactly one attempt each; no retry/requeue/restart loop.
+The intended final grid remains2882 successful logical tasks/23040episodes,
+with2884 actual attempts if no further fault. New outputs exclusively under
+run/recovery-r3/workers; both old failed roots and all successful roots stay untouched.
+No new preflight/warmup/physics/model probe. Any new unknown STOP, unresolved/live/
+ambiguous allocation, terminal failure or acceptance mismatch stops and is retained.
+
+All original science and data scopes remain unchanged:320P2 parents/task in their
+fixed order, three blocks/proposal seeds, eight28/30 configurations, native action/
+endpoint/decoder, FP32/RNG/fresh-world rules, fixed32-cell whole-parent analysis.
+R3's first three Cube successes finish the included nine-worker/72episode tranche
+alongside six carried successes. No source2 before its technical/resource gate.
+No partial effects, success-conditioned timing, model selection or endpoint tuning.
+
+Caps unchanged: serial exact RTX6000Ada gpu09/gpu09.cluster,4CPU8GiB300seconds/GPU,
+240work+60preserve;864000 aggregateGPU seconds including failures. Analysis
+4CPU8GiB7200seconds/7140work+60preserve/noGPU;14400 aggregateCPU stage seconds.
+Full initial future reservation395+2874*300=862595GPU seconds;178+7200=7378CPU.
+No cap reset or expansion. Keep strict full-width scheduler identity and existing
+eight-poll/60second initial CPU-analysis/GPU placeholder grace, no terminal relaxation.
+
+Storage: all original/R1/R2/R3 roots, old failures, new outputs/seals/journals/logs,
+authorities/receipts and complete future reserves count. Source20MB/control100MB;
+GPUworker1MB+100KBlogs; analysis40MB+100KBlogs; preflight1MB+100KBlogs;
+reused models428451336B; live4GB/archive4.2GB/inclusive13GB. Actual tar inventory+
+2048B/member+10240B overhead must fit before creating archive. Never delete evidence
+or omit hidden directories to fit. Full future output/model/control/source ceiling
+plus conservatively retained5MB metadata/failure allowance remains below4GB.
+4GB live+20MB source+two4.2GB archives=12420000000B<13GB.
+
+R3 preparation reservation1800 scripted wall seconds/fourCPUthreads/8GiB/100MB new
+artifacts. Prior cumulative reservations5730.894 plus1800 =7530.894<14400 original
+ceiling; all failed/passing test receipts and actual usage retained. Artificial
+lazy-constructor and exact explicit-state reset integration tests, full combined
+grid/attempt/gate/resource tests only; no efficacy sweep, physics, forward, research
+payload or Slurm/GPU test allocation. Original444 scientific members unchanged.
+
+R3 analysis/preserve must use R3 independent accounting across all three ledgers,
+including both19-second failed attempts, while calling the unchanged analyze function.
+Do not invoke obsolete R1/R2 acceptance that rejects a resolved later STOP. The final
+new-study archive includes original/R1/R2/R3 provenance under source/run/reused-models
+simple labels, preserving every failure/authority. One archive/transfer when absent,
+7200second deadlines, whole/every-member verification and trueSSDACK as originally.
+Only designated THESIS_SSD volume0a2f1ba9-0000-0000-0000-100000000000/>=40GBfree,
+D:/THESIS-BACKUPS/dtv-success-cost-20261001. Verify new small R3 package before launch;
+no historical rearchive/retransfer/fallback. No scientific interpretation before
+complete acceptance AND external whole/member preservation. No new monitor/study/
+model promotion. Historical results, false templates and E12 drafts unchanged.

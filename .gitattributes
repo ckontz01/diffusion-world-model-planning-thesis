@@ -17,5 +17,6 @@ cluster/prometheus/run_lgp1.sh text eol=lf
 dtv_success_cost/** -text
 dtv_success_cost_r1/** -text
 dtv_success_cost_r2/** -text
+dtv_success_cost_r3/** -text
 docs/dtv-success-cost-20261001/** -text
 docs/dtv-success-cost-publication-20261001/** -text
