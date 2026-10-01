@@ -1,0 +1,23 @@
+R1 production paths (original scientific package unchanged)
+
+Local: dtv_success_cost_r1.run_tests -- one bounded artificial CPU suite.
+Freeze: dtv_success_cost_r1.package freeze -- new small closure only.
+SSD: dtv_success_cost_r1.package backup -- whole/member source export plus
+     authority/approval copies, designated volume and>=40GBfree required.
+Transport: recovery-r1/transport.py stage|launch|observe -- exclusive receipt
+           label each invocation; stage/launch exactly once, never restart.
+Controller: python -B -m dtv_success_cost_r1.campaign --submit --approval
+            <R1control>/EXECUTION-APPROVAL.json
+GPU workers: unchanged original dtv_success_cost.worker/approval/container.
+CPU analysis: dtv_success_cost_r1.analysis_entry (dispatcher supplies both
+              the original worker and new R1 control approvals).
+Independent accounting: dtv_success_cost_r1.accept.accounting/accept_grid.
+Host archive: python -B -m dtv_success_cost_r1.preserve --approval <R1approval>.
+Native SSD final transfer: unchanged dtv_success_cost.preserve backup
+    --approval <original Windows approval> --request <canonical POSIX request>.
+Only after actual SSD ACK: original preserved_report. Never open partial
+REPORT/outcomes while monitoring, or use original archive acceptance on R1.
+
+No scheduled task is added. The launched controller is detached from laptop
+and SSD liveness. SSH loss is not evidence of cluster failure. Any new fault
+requires concrete reconciliation; this contract does not automate retries.

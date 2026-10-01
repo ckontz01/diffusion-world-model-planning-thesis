@@ -1,0 +1,72 @@
+DTV-EFF1 control-only recovery R1, 1 October 2026
+
+Authority: direct user request "fix the bug and try again", scoped to the
+diagnosed scheduler/control fault. This is not an expanded science approval,
+an unlimited retry instruction, or a replacement of historical authority.
+
+The original dispatcher stopped at a temporary incomplete CPU pending row.
+CPU preflight312920 subsequently completed0:0 in178 allocation-wall seconds.
+R1 independently authenticates and accepts that successful supplier in a
+dated receipt, preserving the original STOP, ledger and unsuccessful control
+acceptance history byte-for-byte. Preflight is never repeated.
+
+Remaining finite execution:2880 originally specified GPU workers (23040
+episodes) and one CPU analysis. Exactly one attempt per remaining logical
+task; no additional/replacement allocation allowance. Serial one exact
+NVIDIA RTX6000Ada on gpu09/gpu09.cluster,4CPU8GiB,300 seconds perGPU worker.
+CPU analysis4CPU8GiB7200 seconds,7140 work plus60 preservation. Existing
+178 CPU seconds are carried. Full remaining reservations:864000 GPU seconds,
+7378 CPU seconds including the carry, within unchanged864000/14400 caps.
+Expected final2882 allocations and2882 successful logical tasks only if no
+new fault. Ambiguous submissions or terminal failures stop and are preserved;
+no blind retry, restart, requeue, charge reset or evidence deletion.
+
+Only the remaining declared CPU analysis gets the finite incomplete pending
+placeholder grace: exact submitted ID, allocation/PENDING/0:0/0, empty
+AllocTRES, safe hostname spelling, eight polls and60-second visibility bound.
+GPU grace remains as frozen. Full-width JobName%200 avoids truncation.
+All terminal names, IDs, charges and hardware checks remain strict.
+
+New separate DISPATCH-R1, STOP-R1, STARTED and process identity bind this
+continuation. Original STOP is resolved only by its exact authenticated,
+dated resolution. Any new unknown STOP is a blocker. Existing successful,
+live or ambiguous output is never submitted again. Independent accounting
+explicitly projects the preserved original preflight plus the dated R1 carry
+and new ledger in memory; the historical dispatch file is never rewritten.
+
+Original source/package/bindings/cohort/runtime/approvals/model inputs,
+320 parents per task, scorer/proposal seeds, eight policies, endpoints,
+fresh state/streams, actions, stopping and fixed estimator remain unchanged.
+The original GPU commands are reused byte-identically. The CPU analysis
+adapter uses the exact original analyze function after current-lineage
+independent technical acceptance. No tuning, fitting or efficacy gate.
+The nine included GPU workers/72 episodes must pass before source2.
+
+Storage caps unchanged:20MB cumulative deployed source,100MB control,
+40MB analysis,1MB output plus100KB logs perGPUworker,428451336B reused models,
+4GB live,4.2GB archive,13GB inclusive. R1 sources, controls, preserved
+failures, metadata, logs and full future outputs count. No hidden cleanup.
+Worst future GPU outputs/logs:3168000000B. Analysis plusCPU log:40100000B.
+Conservative preflight/source/control/models and1MB extra metadata bring
+the live reservation below4GB; tar member/header reservation below4.2GB.
+4GB live +20MB source +two4.2GB archive copies =12420000000B <13GB.
+
+Preparation: at most900 seconds for each bounded artificial suite, but a
+finite cumulative R1 preparation reservation of1800 seconds, four CPU
+threads,8GiB RAM and100MB new package/evidence. This includes failed harness
+attempts, passing47-test suite, fixture generation, freeze and small-package
+backup; no research allocation, physics, model forward or new payload.
+Prior accounted preparation/reservations2130.894 seconds plus1800 =3930.894,
+below the original14400-second preparation ceiling. Actual suite times are
+separately retained. No dependency, account, security, permission or WSL fix.
+
+Finalization uses R1 accept/preserve, never incompatible original accounting.
+Exactly one new-study archive when absent. The R1 source/authority/control
+and dated resolution are included under run/recovery-r1, preserving simple
+source/run/reused-models archive labels. Original whole/member verifier,
+bounded7200-second archive/transfer and native SSD backup remain unchanged.
+Designated THESIS_SSD volume0a2f1ba9-0000-0000-0000-100000000000,>=40GBfree.
+No historical archive transfer, fallback disk, partial overwrite or fakeACK.
+Read scientific aggregates only after complete acceptance AND verified SSD
+whole/every-member preservation. Final complete reporting follows original
+instructions. No automatic next experiment or recurring monitor.

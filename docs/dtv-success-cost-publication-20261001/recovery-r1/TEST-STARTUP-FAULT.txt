@@ -1,0 +1,6 @@
+First local artificial-test harness invocation stopped before tests (0.7503612 seconds).
+The Windows ctypes affinity call lacked an explicit HANDLE argument type and
+raised OverflowError converting the process handle. Explicit Win32 signatures
+were added to the separately versioned test harness. No cluster, research,
+payload, GPU or scheduler action occurred. This failed preparation attempt is
+retained and included in cumulative preparation accounting.

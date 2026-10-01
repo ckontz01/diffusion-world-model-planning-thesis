@@ -1,0 +1,7 @@
+TEST-01: 46 artificial tests, 45 passed, one platform error, 20.172 wall seconds.
+The inherited host-only POSIX archive-deadline test attempted SIGALRM on
+Windows. Production archive remains POSIX-only and unchanged. The local
+recovery regression subclass supplies an artificial signal interface solely
+for this error-path test; no historical source is edited. The subsequent
+suite also verifies the R1 POSIX deadline/error-preservation path via that
+mock. Original failed receipt is retained, not rewritten as passed.

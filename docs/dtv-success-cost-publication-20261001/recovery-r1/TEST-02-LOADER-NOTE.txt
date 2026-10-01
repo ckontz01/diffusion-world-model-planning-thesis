@@ -1,0 +1,6 @@
+The second local suite's module-wide loader also discovered the imported
+original Authentication base class, duplicating its tests and its unmocked
+Windows SIGALRM error. The R1 runner now selects the four declared test
+classes explicitly, including the Windows-compatible regression subclass.
+TEST-02 is retained as a failed preparation receipt; historical modules and
+production POSIX behavior remain untouched. No research operation occurred.
