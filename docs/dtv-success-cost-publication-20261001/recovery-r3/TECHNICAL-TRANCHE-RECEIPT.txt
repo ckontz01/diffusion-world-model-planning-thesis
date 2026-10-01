@@ -1,0 +1,40 @@
+DTV-EFF1 R3 repair verified on the included technical tranche — 1 October 2026
+
+Launch publication dc891bc279e329b4156dbb1086ddf356c6fa4bf2 pushed with exact full
+remote branch readback. Source/authority ec8690b1bf585a19fb43403c6c25670f50172ba5;
+staging/SSD receipt35bbed9ebecc85de4a4e017bb2531bf21c2506b8. No historical closure
+was edited. Both diagnosed failures and charges remain preserved.
+
+All three Cube included workers312929/312930/312931 completed0:0, 27seconds each,
+passed independent complete-worker input/endpoint/action/trace/checkpoint/hardware
+and seal checks. Exactly24 included Cube episodes, no extra research probe or pilot.
+All six historical PushT/Reacher workers were reused without recomputation.
+
+The complete original included technical gate passed: nine workers, 72episodes.
+Gate recorded Unix1790864228.7382448; first source2 submission intent recorded
+1790864228.9530907 and allocation312932 at1790864228.983705. Gate preceded source2.
+No success/efficacy ranking or scientific continuation condition was applied.
+
+Independent technical observation at Unix1790864290.1532815 authenticated all nine
+successful suppliers/seals and all72 endpoint/action/input checks. Successful
+tranche GPU allocation438s + preserved failed allocation38s =476s; CPUpreflight178s.
+Complete worker sizes171044–550757B and logs959–19111B were within original caps.
+Complete evidence is in TECHNICAL-TRANCHE-OBSERVATION.json.
+
+OBSERVATION-03 at Unix1790864248.2102041 verified exact controller PID290342 and
+start_ticks962101002 alive, stderr0, no STOP-R3, compute-complete absent; source2
+pusht-17315-6101 allocation312932 RUNNING on gpu09. These are dated technical
+observations, not permanent status or a claim the whole study is complete.
+
+The renderer is explicitly NVIDIA EGL using the existing driver route; no fallback
+to GLFW. Native Cube constructor options=None now returns the native reset result;
+explicit saved-state resets, policies, seeds, source roles, endpoints and estimates
+remain unchanged. Seventy-three artificial integration/regression tests passed.
+Full remaining reservations, exact allocation/hardware gates, no-success-repeat
+checks, independent acceptance, preserved failures and fail-stop behavior remain.
+No scientific aggregates were opened, model promoted, automatic retry/monitor
+created, resources expanded or additional experiment launched.
+
+The campaign is resumed and the known fixes are demonstrated. Future infrastructure
+or unseen runtime failures cannot be ruled out; they must stop safely and be
+diagnosed from preserved evidence rather than hidden or retried blindly.
