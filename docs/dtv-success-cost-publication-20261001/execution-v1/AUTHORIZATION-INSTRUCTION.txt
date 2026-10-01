@@ -1,0 +1,315 @@
+EXECUTE DTV-EFF1 — FIXED MATCHED SUCCESS–COST STUDY
+
+This explicitly authorizes the finite study below under the user's
+standing delegation. It is not a newly obtained direct user signature.
+
+Approved immutable publication:
+b5380b4b29ac9a94ad97da5f617bec4d78c8178e
+
+Proceed through the prepared authentication, included technical tranche,
+remaining evaluation, analysis and preservation. No additional general
+approval or preparation cycle is required for this exact successful path.
+
+1. EXACT SOURCE, INPUTS AND APPROVAL
+
+Package-manifest SHA256:
+3826f23ccf5ad33479943d819f04c293cccbc79a62bed4d03e3ad7134dd82b04
+
+Bindings SHA256:
+bc3b36c71362f17238ddb9a6fcd04846c0fafac488b41b26f6be2e74eb598866
+
+Cohort SHA256:
+27bf5ff45108242dfffb90c35ea083bb3bfe2f7a55542303c517dffbf96380b1
+
+Verified preparation export:
+19,415,040 bytes /445 members
+SHA256:
+31b997e7628b424f7b36fc084f4622c4e1526a9a1db2137e3684ec6f8466de97
+
+Source capability:
+DTV-EFF1-P2-320-per-task
+
+Approved run namespace:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-success-cost-20261001/run-bc3b36c71362f172
+
+Preserve the false approval template and every earlier source/result
+unchanged. Create a separate enabled approval and matching authority
+record using the implemented gate contract.
+
+Bind this instruction, the delegation provenance, package, bindings,
+cohort and source capability. Record the actual new approval and
+authority hashes; do not invent them in advance.
+
+Deploy the exact export with its matching manifest and preserved layout.
+Do not rebuild scientific files through a different newline conversion.
+
+2. EXCLUSIVE STAGING AND PERMITTED ACCESS
+
+Before submission:
+-Reconcile the canonical role metadata and inventory against the
+ frozen assignments.
+-Require the exact320 parents/task and their recorded order.
+-Confirm no prior DTV-EFF1 launch, controller, allocation, ambiguous
+ submission or intended run namespace exists.
+-Verify designated THESIS_SSD identity and at least40GB free.
+
+A conflict stops launch. Do not substitute sources, rename around an
+unresolved attempt, or reinterpret a protected role as available.
+
+Use the existing configured SSH, container, site account and runtime.
+Run controller/acceptance/archive helpers in an existing environment
+that supports their actual dependencies, including NumPy and Slurm
+invocation. A non-research import/path check during staging is permitted.
+No dependency, permission, credential or WSL changes.
+
+The CPU preflight may authenticate complete dataset/model/container
+bytes and role metadata without decoding protected outcomes.
+
+Subsequent workers may decode only the explicitly allowlisted source/
+goal fields and target frame for their assigned cohort entries.
+Do not access other evaluation payloads for convenience or diagnostics.
+
+Preserve the exact controller PID/start-time identity and launch logs.
+Store byte-identical copies of the enabled approval and authority,
+plus launch/accounting provenance, as new campaign records that the
+final archive includes. Do not alter the frozen source to insert them.
+
+3. FIXED SCIENTIFIC COMPARISON
+
+Keep all eight configurations:
+dtv30, dtv28;
+acid30, acid28;
+forward30, forward28;
+plain30, plain28.
+
+All use300 candidates and30 elites, with28 or30 total scored populations
+including the initial population.
+
+DTV:
+-original epsilon-prediction checkpoints;
+-single freshly constructed sigma0.25 noise bank;
+-lambda0.07;
+-unchanged normalization, scaling, reductions and RNG.
+
+ACID:
+-the exact profiled historical reconstruction;
+-lambda0.07 and its retained call-index/noise construction.
+
+Forward:
+-the exact profiled deterministic checker;
+-lambda0.005.
+
+Plain:
+-goal cost without a learned checker.
+
+Preserve all three scorer blocks6101/6102/6103 and corresponding
+proposal seeds7101/7102/7103, plus the frozen environment-seed rules.
+
+No fitting, reselection, distillation, compilation, quantization,
+weight/noise sweep, extra budget point or alternate comparator.
+
+ACID remains a disclosed reconstruction, not official-code superiority
+evidence. The28-round comparison is not assumed to be equal latency.
+
+4. PHYSICAL INTERFACE AND ENDPOINTS
+
+Execute the exact short-horizon interface in the protocol:
+-Horizon5 grouped actions.
+-Five primitive controller actions per group.
+-25-action replanning cadence.
+-At most50 delivered controller actions.
+-Original final-elite-mean return and action decoder.
+
+Retain the documented prospective PushT/Cube initialization bindings,
+Reacher action repeat and native endpoint definitions.
+
+Each episode has fresh physics, histories, buffers, counters and
+generators. Pair initial conditions and allowed randomness, but follow
+each policy's own observations after it chooses different actions.
+
+Do not force later candidate banks or trajectories to coincide.
+Do not use saved start pixels instead of fresh observations.
+
+Count initial native success consistently with zero actions/plans,
+as frozen. Stop at actual success or legitimate termination/truncation.
+No post-terminal work, artificial padding or extended physical budget.
+
+Report initial-success frequencies separately as descriptive context;
+do not remove them from the frozen primary population after inspection.
+
+No historical absolute success rate is rewritten using this new
+interface or population.
+
+5. INCLUDED TECHNICAL TRANCHE AND ORDER
+
+Execute exactly:
+-one CPU authentication preflight;
+-2,880 GPU workers;
+-one CPU analysis.
+
+The first parent source of each task, across all three blocks, gives
+nine included GPU workers and72 episodes.
+
+Require all nine to pass the existing:
+-input/source/checkpoint authentication;
+-native initialization and endpoint checks;
+-action/plan/decoder association;
+-raw journal and saved-evidence readback;
+-initial pairing, seals, allocation and resource checks;
+
+before any second source is submitted.
+
+Apply the gate using technical status and resource receipts, not
+success rates or speed comparisons. Successful included episodes are
+retained once.
+
+If the gate passes, continue the exact remaining grid automatically
+under this instruction. No extra pilot, warm-up episode, GPU probe,
+process repeat or benchmark is authorized.
+
+6. HARD COMPUTE AND STORAGE LIMITS
+
+GPU:
+-one exact NVIDIA RTX6000 Ada Generation at a time;
+-existing gpu09/gpu09.cluster allocation association;
+-4CPUs /8GiB per worker;
+-Slurm00:05:00;
+-240-second work deadline plus60-second preservation allowance;
+-864,000 aggregate GPU-allocation seconds, including failures.
+
+CPU:
+-two stages, each4CPUs /8GiB /7,200 allocation seconds;
+-7,140-second work deadline plus60-second preservation allowance;
+-14,400 aggregate CPU-stage allocation-wall seconds;
+-no GPU access.
+
+Maximum successful task grid:2,882.
+Maximum evaluation episodes:23,040.
+No automatic retries or additional attempt allowance.
+
+Retain full-remaining-work reservations before every submission.
+Queue waiting is not GPU-allocation time.
+Unused headroom does not authorize more science or replacements.
+
+Storage:
+-1,000,000 bytes per complete GPU worker;
+-100,000 bytes combined logs per worker;
+-preflight1MB plus100k logs;
+-analysis40MB plus100k logs;
+-source including manifest20MB;
+-control/receipts100MB;
+-explicit reused-model inputs428,451,336 bytes;
+-4GB live;
+-4.2GB archive;
+-13GB inclusive preservation allowance.
+
+Count journals, seals, failures, temporary files, approval records,
+archive overhead and retained transfer partials. No deletion or
+hidden-directory exclusion to fit the limits.
+
+Archive/authentication and native transfer each retain their existing
+7,200-second host deadline. These are not extra research allocations.
+
+7. FIXED MEASUREMENT AND ANALYSIS
+
+Primary comparison:
+DTV30 minus ACID30, jointly reported on native success and complete
+cumulative observation-to-action planning cost.
+
+Practical comparisons:
+DTV30 minus ACID28;
+DTV30 minus forward30;
+DTV30 minus plain30.
+
+Retain every other predefined success–cost point.
+
+Preserve the distinction between:
+-solver time;
+-observation-to-action planning and buffered-action work;
+-total planning time per episode;
+-operational episode time;
+-environment construction/reset;
+-setup, authentication and audit overhead.
+
+Include failed scientific outcomes in cost summaries.
+No success-conditioned timing filter.
+
+Fewer decisions or earlier termination may change episode cost;
+do not automatically attribute those differences to a faster solver.
+Later states are policy-dependent, not matched-state timing contexts.
+
+Retain the frozen source-clustered analysis:
+-average fixed blocks inside each parent;
+-task-first and equal-task summaries;
+-10,000 shared parent-bootstrap draws, seed20261001;
+-the32-cell success/cost comparison family;
+-all source effects and fixed-block results.
+
+Nominal percentile and Bonferroni-adjusted bootstrap intervals remain
+approximate, with relatively coarse extreme tails. They are not
+finite-sample guarantees or independent-training-seed inference.
+
+No non-inferiority margin or equivalent-performance flag is introduced.
+No new10% screen, favorable-seed selection, old-outcome pooling,
+endpoint change or sample expansion after results.
+
+A supported smaller saving is reportable. An uncertain success loss
+must remain uncertain. Neither is an automatic publication verdict.
+
+8. FAIL-STOP AND INFORMATION BARRIER
+
+Use the prepared bounded accounting-visibility and deadline mechanisms.
+Preserve raw submission and scheduler responses.
+
+On a technical fault:
+-stop new dispatch;
+-retain completed and partial evidence;
+-reconcile live, terminal and ambiguous allocations;
+-preserve all known charges;
+-return one scoped fault report.
+
+No automatic retry, requeue, resume, source replacement or cap expansion.
+Never repeat successful scientific work to repair controller acceptance,
+reporting or backup.
+
+An unfavorable success–cost trade-off is not a technical fault and does
+not authorize changed settings.
+
+Keep partial scientific aggregates uninterpreted. Complete analysis,
+independent acceptance and prescribed external preservation precede
+research interpretation/publication.
+
+9. PRESERVATION AND RETURN
+
+After all scheduled tasks complete, require exact-grid acceptance,
+independent native endpoint/action reconstruction, final dataset
+authentication and full allocation reconciliation.
+
+Create one final new-study archive with the frozen package, campaign
+approval/authority, workers, input evidence, explicitly reused models,
+analysis, control records and accounting.
+
+Do not recreate or retransfer historical-study archives.
+
+Transfer once to designated THESIS_SSD. Verify the whole archive and
+every expected member before writing the genuine SSD acknowledgment.
+Retain request/receipt hashes and archive-member scope.
+
+A failed transfer retains its partial and requires a separately scoped
+preservation decision—not recomputation or an automatic retry.
+
+Publish launch and completion records outside the immutable scientific
+closure and verify their full remote commit identities.
+
+Return the launch/approval identity and included-tranche technical
+status when available, or a concrete fault report.
+
+After complete preservation, return all eight success–cost points,
+all tasks and fixed blocks, all parent effects, primary/practical
+contrasts, full accounting and verified backup scope.
+
+No model promotion, further fitting, new study, protected-data access
+or monitoring automation follows automatically.
+
+Preserve DTV-EFF0's failed10% screen, its smaller positive timing result,
+all earlier scientific decisions and the E12 drafts.

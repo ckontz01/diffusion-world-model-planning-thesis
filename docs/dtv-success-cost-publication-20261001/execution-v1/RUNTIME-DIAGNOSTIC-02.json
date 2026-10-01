@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"existing_host_interpreter\": \"/lustreFS/data/superworld/ckontzias/thesis/envs/sage-official-py310-torch251-cu121/bin/python\", \"returncode\": 0, \"stdout\": \"{\\\"python\\\": \\\"3.10.16 | packaged by conda-forge | (main, Apr  8 2025, 20:53:32) [GCC 13.3.0]\\\", \\\"executable\\\": \\\"/lustreFS/data/superworld/ckontzias/thesis/envs/sage-official-py310-torch251-cu121/bin/python\\\", \\\"numpy\\\": \\\"2.2.6\\\", \\\"numpy_path\\\": \\\"/lustreFS/data/superworld/ckontzias/thesis/envs/sage-official-py310-torch251-cu121/lib/python3.10/site-packages/numpy/__init__.py\\\", \\\"slurm\\\": {\\\"sbatch\\\": \\\"/usr/bin/sbatch\\\", \\\"sacct\\\": \\\"/usr/bin/sacct\\\", \\\"squeue\\\": \\\"/usr/bin/squeue\\\"}}\\n\", \"stderr\": \"\", \"research_execution\": false, \"new_dependencies\": false, \"slurm_submissions\": 0}\n",
+  "stderr": "",
+  "local_wall_seconds": 6.921999999991385,
+  "automatic_retry": false
+}

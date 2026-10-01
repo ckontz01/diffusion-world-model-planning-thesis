@@ -1,0 +1,59 @@
+DTV-EFF1 delegated execution authority - 1 October 2026
+
+The user supplied the complete explicit execution instruction in this chat.
+It is preserved byte-for-byte in AUTHORIZATION-INSTRUCTION.txt, SHA256
+e5f7d59314a6b6446a15f2eabe66185bac5c3f14972803d9d6c0fad6b7ece420.
+This records direction under the user's 20 September standing delegation,
+not a newly obtained direct user signature. Its browser origin was not
+independently reverified in this turn; no such claim is made. The historical
+delegation provenance is copied unchanged in DELEGATION-PROVENANCE.txt.
+
+Approved publication: b5380b4b29ac9a94ad97da5f617bec4d78c8178e.
+Frozen package: 3826f23ccf5ad33479943d819f04c293cccbc79a62bed4d03e3ad7134dd82b04.
+Bindings: bc3b36c71362f17238ddb9a6fcd04846c0fafac488b41b26f6be2e74eb598866.
+Cohort: 27bf5ff45108242dfffb90c35ea083bb3bfe2f7a55542303c517dffbf96380b1.
+The existing designated SSD source export was authenticated whole and for
+all 445 members: 19,415,040 bytes,
+31b997e7628b424f7b36fc084f4622c4e1526a9a1db2137e3684ec6f8466de97.
+No export rebuild or historical backup cycle occurred.
+
+Separate enabled cluster approval:
+8768e82f12746010f460d0e45ed29d58dc21e98375c04fb574cf722116d34c03.
+Matching authority:
+6dd660e912f418e3ef2d768dc98f19c097a19a5ec5e5949aca4bf0e60e904f85.
+The separate native-Windows preservation approval differs only in the
+authority-record location, bound to the same authority bytes:
+72a09596adf492cb824a24aca815e9db5e33edc2a73512046ccc113af92dfdb9.
+Neither approval overwrites the frozen false template. Both grant only
+DTV-EFF1-P2-320-per-task, the exact source/grid and finite envelope.
+
+PRELAUNCH-01 preserved a non-research interpreter-path check failure:
+the pinned worker interpreter is a symlink to /opt/conda/bin/python,
+available inside the unchanged container but not directly on the host.
+The system Python lacks NumPy. No source staging, launch or allocation
+occurred during these checks. RUNTIME-DIAGNOSTIC-01/02 preserve the diagnosis.
+
+CONTROL-RUNTIME.json selects the already-existing host Python3.10.16 /
+NumPy2.2.6 environment at
+/lustreFS/data/superworld/ckontzias/thesis/envs/sage-official-py310-torch251-cu121/bin/python.
+Only standard-library/NumPy controller, independent acceptance and archive
+helpers use it. No SAGE code/model/policy is imported or added. Its Slurm
+commands remain the existing /usr/bin/sbatch, /usr/bin/sacct and /usr/bin/squeue.
+The scientific source, worker container/Python3.11.10, models, methods,
+precision, source roles and every resource cap remain unchanged. No
+dependency, permission, credentials or WSL modification was performed.
+
+PRELAUNCH-02 directly authenticated all 54 role-inventory files /12,813,354
+bytes against the frozen inventory and exact 320 parents/task. There was
+no matching queued/historical allocation, live controller or prior run;
+the exact source/control/run namespaces were absent. Protected reference
+payloads were not decoded. The designated SSD has over 40GB free.
+
+Only the prepared preflight, 2,880 GPU workers /23,040 episodes and CPU
+analysis are enabled. Nine included workers /72 episodes must pass the
+technical gate before source 2; no efficacy or speed comparison enters it.
+The same exact controller may then complete the remainder automatically.
+All failure/no-retry, information-barrier, compute/storage, full-future
+reservation and final whole/member SSD-preservation rules remain binding.
+No additional approval checkpoint, research pilot, new experiment, model
+promotion or monitoring automation is created.

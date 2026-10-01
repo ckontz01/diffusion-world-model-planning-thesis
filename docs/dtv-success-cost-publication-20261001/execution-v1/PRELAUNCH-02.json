@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"exclusive_prelaunch_clear\", \"observed_unix\": 1790856564.8135173, \"host\": \"controller1\", \"checks\": {\"queue\": {\"command\": [\"squeue\", \"-h\", \"-u\", \"ckontzias\", \"-o\", \"%i|%j|%T|%N\"], \"returncode\": 0, \"stdout\": \"\", \"stderr\": \"\"}, \"history\": {\"command\": [\"sacct\", \"-n\", \"-P\", \"-X\", \"-u\", \"ckontzias\", \"-S\", \"2026-09-01\", \"--format=JobIDRaw,JobName%200,State,ExitCode,ElapsedRaw,AllocTRES,NodeList\"], \"returncode\": 0, \"stdout\": \"\", \"stderr\": \"\"}, \"controllers\": [], \"existing_run_directories\": []}, \"roles\": {\"files\": 54, \"bytes\": 12813354, \"parents_per_task\": 320, \"metadata_only\": true, \"payload_reads\": 0}, \"runtime\": {\"python\": \"3.10.16 | packaged by conda-forge | (main, Apr  8 2025, 20:53:32) [GCC 13.3.0]\", \"numpy\": \"2.2.6\", \"slurm\": {\"sbatch\": \"/usr/bin/sbatch\", \"sacct\": \"/usr/bin/sacct\", \"squeue\": \"/usr/bin/squeue\"}, \"research_execution\": false}, \"source_absent\": true, \"control_absent\": true, \"run_absent\": true}\n",
+  "stderr": "",
+  "local_wall_seconds": 6.640999999974156,
+  "automatic_retry": false
+}
