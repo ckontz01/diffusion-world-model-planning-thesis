@@ -1,0 +1,25 @@
+{
+  "runtime_files": {
+    "mujoco/__init__.py": {
+      "bytes": 8067,
+      "sha256": "131342cd035fa2022b8ea46e1380aaa80641ee1d983d65c427a694517c3c6790"
+    },
+    "mujoco/rendering/classic/gl_context.py": {
+      "bytes": 1849,
+      "sha256": "a3cac3b6d582c149a93e95e4742c7fd4ad2083d31a329ee5b675e59e5377ff75"
+    },
+    "dm_control/_render/pyopengl/egl_renderer.py": {
+      "bytes": 5185,
+      "sha256": "3fa55e7628b21be590dcac56cc811b5577af4b812c24c862c987514daed59be0"
+    }
+  },
+  "technical_source_read_only": true,
+  "research_payloads": false,
+  "graphics_contexts_created": 0,
+  "notes": [
+    "Installed MuJoCo exports GLContext from mujoco.egl for MUJOCO_GL=egl.",
+    "Installed dm_control selects EGLContext from dm_control._render.pyopengl.egl_renderer for MUJOCO_GL=egl.",
+    "dm_control's normal EGL module initializes its driver display at import. The worker reuses that normal module; no probe context or extra episode is created.",
+    "No renderer import, device/display initialization, physics or model forward was executed by this source inspection."
+  ]
+}

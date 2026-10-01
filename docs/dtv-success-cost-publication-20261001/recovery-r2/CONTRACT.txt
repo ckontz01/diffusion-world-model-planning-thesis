@@ -1,0 +1,80 @@
+DTV-EFF1 EGL routing recovery R2, 1 October 2026
+
+Cause: GPU Reacher312924 failed before constructing any episode because the
+Apptainer --cleanenv worker command omitted the established headless EGL routing.
+The runtime therefore selected GLFW, which could not create a display/context.
+The complete failed output, source-input evidence, logs, R1 STOP and allocation
+charge remain byte-identical. No outcome-dependent decision or partial efficacy
+analysis was performed. The old controller is exited and is never restarted.
+
+Technical change: a separately frozen launcher sets MUJOCO_GL=egl,
+PYOPENGL_PLATFORM=egl, SDL_VIDEODRIVER=dummy and MPLBACKEND=Agg, plus a study-owned
+GLVND vendor JSON selecting libEGL_nvidia.so.0 provided by the existing --nv route.
+No package/library installation, host config change, permission, account, key,
+network or WSL repair. No CUDA_VISIBLE_DEVICES mutation or graphics fallback.
+Workers fail before source decoding if the declared environment/backend differs.
+Import-time checks do not instantiate a probe context, extra physics or warmup.
+The included original episode renders through the actual native interface.
+
+Every original scientific GPU-body line is retained except canonical input-
+authentication routing for the new output root and the inserted backend guard.
+Original models, inference, precision, RNG, actions, physics, histories, stopping,
+endpoints, cohort, proposal/scorer seeds and fixed estimator remain unchanged.
+R2 outputs live only under run/recovery-r2/workers; the failed old canonical
+directory and its logs are not renamed, overwritten, deleted or treated as success.
+
+All five historical attempts have been independently reconciled terminal:
+312920 preflight COMPLETED0:0/178 CPU-wall seconds;
+312921/312922/312923 first PushT workers COMPLETED0:0/50/59/46 GPU seconds;
+312924 first Reacher worker FAILED1:0/19 GPU seconds, zero completed episodes.
+The four successful tasks are authenticated and reused, not recomputed. Dated
+R2 carry/resolution records bind both old STOPs, ledgers, success seals and failure
+members. No historical acceptance or event is fabricated/backdated/rewritten.
+
+Finite remaining work:2877 GPU workers (one named failed-task replacement plus
+2876 never-submitted logical workers), then one CPU analysis. No extra preflight.
+Exactly one attempt per remaining task, no auto retry/requeue/restart. Unknown
+STOPs, ambiguous submissions, new terminal faults or failed acceptance stop dispatch
+and preserve evidence. Full intended final grid remains2882 successful logical
+tasks/23040 episodes, with2883 actual attempts including the retained failure.
+
+All original caps remain: serial one exact RTX6000 Ada on gpu09/gpu09.cluster;
+4CPU8GiB,300seconds/GPU (240work+60preserve);864000 GPU-allocation seconds including
+failures. Analysis4CPU8GiB7200seconds (7140work+60preserve), no GPU,14400 aggregate
+CPU-stage wall seconds. Initial full remaining reservations including carry:
+174+2877*300=863274 GPU seconds;178+7200=7378 CPU seconds. No cap reset or expansion.
+
+The first six R2 successes finish the original included tranche: first Reacher
+and Cube parent across three scorer blocks. With the three carried PushT workers,
+all nine workers/72episodes must pass technical/resource checks before source2.
+No efficacy or ranking gate. Full-width strict scheduler identity, bounded initial
+GPU/analysis placeholder grace and terminal charging remain the accepted R1 code.
+
+Storage counts all old/R1/R2 roots, old failures, new workers, journals, metadata,
+logs, seals, authorities and complete future reservations. Source20MB/control100MB;
+worker1MB plus100KB logs; preflight1MB+100KB logs; analysis40MB+100KB logs;
+reused models428451336B; live4GB/archive4.2GB/inclusive13GB. No hidden paths/deletion.
+Future workers/logs3164700000B, analysis40100000B, source/control/model120000000+
+428451336B, plus3MB conservatively retained metadata/failures:3756251336B <4GB.
+4GB live+20MB source+two4.2GB archive copies=12420000000B <13GB.
+Actual inventory plus2048B/member+10240B tar overhead must fit4.2GB before archive.
+
+Preparation finite reservation1800 scripted wall seconds, four CPU threads,
+8GiB RAM and100MB new artifacts; prior accounted/reserved3930.894 plus1800 equals
+5730.894 <14400 original preparation ceiling. Retain all failed/passing test
+receipts and actual times; no artificial efficacy sweep, physics, GPU or research
+payload tests. Verify the original444-member closure remains unchanged.
+
+Final analysis/finalization must use the R2 combined-ledger adapter, never R1's
+obsolete STOP rejection. The estimator itself is the unchanged original analyze.
+The final new-study archive includes original/R1/R2 provenance under simple
+source/run/reused-models roots and accounts the failed19GPU seconds once.
+Original bounded7200-second archive/transfer and whole/every-member verification
+remain. Destination only designated THESIS_SSD volume0a2f1ba9-0000-0000-0000-
+100000000000 under D:/THESIS-BACKUPS/dtv-success-cost-20261001,>=40GB free.
+Verify the new small R2 package before staging/launch. No old archive cycle.
+No partial scientific interpretation until final acceptance and SSD preservation.
+
+A rendering configuration repair cannot guarantee all future jobs will succeed.
+No new monitoring automation, research stage, model promotion or scientific change
+is authorized here. Historical studies, false templates and E12 drafts are retained.

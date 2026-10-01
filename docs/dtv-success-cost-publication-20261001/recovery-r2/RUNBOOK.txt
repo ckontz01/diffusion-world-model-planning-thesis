@@ -1,0 +1,14 @@
+Use the existing native Python and configured Thesis-Ubuntu/chris/prometheus SSH.
+1. Run bounded dtv_success_cost_r2.run_tests with an exclusive receipt.
+2. dtv_success_cost_r2.package freeze then authorize; publish immutable source/
+authority with full remote readback. No scientific closure edits.
+3. dtv_success_cost_r2.package backup then identify; verify designated SSD copy.
+4. recovery-r2/transport.py stage --label STAGE-01; reconcile five old terminal
+allocations, seals/failed inventory/role metadata/all roots before staging.
+5. Publish stage receipt with remote readback, then transport.py launch once.
+6. transport.py observe with a new exclusive label; one exact scheduler snapshot,
+PID plus start_ticks, rendering evidence, STOP/gate/accounting metadata only.
+7. On completion: use R2 preserve via the recorded host control Python/PYTHONPATH.
+Original Windows dtv_success_cost.preserve backup remains valid for canonical
+analysis output and the unchanged archive contract. Never rerun compute to repair
+publication or transfer. Do not use R1 accept/archive on this resolved lineage.

@@ -1,0 +1,6 @@
+The first artificial suite ran 64 tests: 63 passed, one command-route assertion failed.
+The new command builder mixed native Windows Path text with the original builder's
+POSIX run path, so its replacement was absent in that artificial fixture. The
+builder now uses the same explicit POSIX output representation and replaces the
+complete shell-quoted PYTHONPATH token. No cluster stage/submission had occurred.
+Retain TEST-01.json and its 32.125 seconds in cumulative local accounting.

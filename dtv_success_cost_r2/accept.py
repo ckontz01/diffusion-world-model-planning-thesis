@@ -1,0 +1,58 @@
+"""Independent R2 accounting: preserved failed attempt plus exactly one supplier/task."""
+from dtv_success_cost.common import *
+from dtv_success_cost.accept import accept_worker
+from dtv_success_cost_r1.accept import accounting_events
+from dtv_success_cost_r2.common import *
+from dtv_success_cost_r2.render import verify_evidence
+
+def combined_events(run,c):
+    r=load(location(run)/'EXECUTION-APPROVAL.json')
+    resolution=verify_resolution(run,r);prior=authenticate_history(run)
+    old=events(Path(run)/'DISPATCH.jsonl')
+    if [x['event'] for x in old]!=['submission_intent','submission_response','submitted','scheduler']:
+        raise RuntimeError('original history changed')
+    projected=old+[dict(event='scheduler',allocation_id='312920',returncode=0,stdout='|'.join(ROW)+'\n',supplier='R1 dated resolution'),
+                   dict(event='terminal',task='preflight',allocation_id='312920',state='COMPLETED',exit='0:0',elapsed_seconds=178,supplier='R1 dated resolution'),
+                   dict(event='accepted',task='preflight',supplier='R1 dated carry')]
+    # Only the authenticated successful R1 attempt records enter the logical
+    # grid. The unsuccessful attempt is accounted separately, never erased.
+    ids=set(CARRIED_IDS);tasks={x['task'] for x in load(LINEAGE)['carried']}
+    projected += [x for x in prior if x.get('allocation_id') in ids or x.get('task') in tasks]
+    current=events(location(run)/'DISPATCH-R2.jsonl')
+    carry=dict(event='carried_history_accepted',gpu_seconds=174,cpu_seconds=178,
+               allocations=['312920']+CARRIED_IDS,failed_allocation=FAILED_ID,
+               lineage_sha256=sha(LINEAGE),resolution_sha256=sha(location(run)/'STOP-RESOLUTION.json'))
+    if not current or any(current[0].get(k)!=v for k,v in carry.items()) or sum(x['event']=='carried_history_accepted' for x in current)!=1:
+        raise RuntimeError('dated R2 carry acceptance differs')
+    return projected+current[1:]
+
+def accounting(run,c,include_analysis=False):
+    projected=combined_events(run,c)
+    receipt=accounting_events(projected,c,include_analysis)
+    allocations=receipt['allocations'];actual=[dict(x) for x in allocations]
+    if FAILED_ID in {x['allocation_id'] for x in actual}:raise RuntimeError('failed allocation reused')
+    actual.insert(4,dict(event='submitted',task=load(LINEAGE)['failed_task'],allocation_id=FAILED_ID,state='FAILED',elapsed_seconds=19,supplier='preserved R1 failure'))
+    gpu=receipt['gpu_allocation_seconds']+FAILED_SECONDS
+    if gpu>c['gpu_seconds'] or receipt['cpu_stage_allocation_seconds']>c['cpu_seconds']:
+        raise RuntimeError('cumulative charge cap including failure')
+    receipt.update(gpu_allocation_seconds=gpu,failed_gpu_allocation_seconds=19,failed_allocations=[FAILED_ID],
+                   successful_gpu_allocation_seconds=gpu-19,lineage='R2',actual_attempts=len(actual),
+                   actual_allocations=actual,dated_stop_resolution_sha256=sha(location(run)/'STOP-RESOLUTION.json'),
+                   original_and_r1_stops_preserved=True,successful_tasks_recomputed=False,replacement_attempts=1)
+    return receipt
+
+def accept_grid(c,run):
+    receipt=accounting(run,c);records=[]
+    allocations={x['task']:x['allocation_id'] for x in receipt['allocations']}
+    for j in c['jobs']:
+        root=output_root(run,j)
+        if root!=Path(run):verify_evidence(root/j['id'])
+        for e in accept_worker(c,j,root,allocations[j['id']]):
+            records.append({k:e[k] for k in ('task','source','parent','scorer_seed','config','success','planning_seconds','episode_operational_seconds','episode_elapsed_including_audit_seconds','process_cpu_seconds','resources','initial_success')} |
+                           dict(decisions=len(e['plans']),actions=len(e['actions']),solve_seconds=sum(p['solve_seconds'] for p in e['plans']),
+                                first_decision_seconds=next((t['observation_to_action_seconds'] for t in e['timings'] if t['planning_decision']),0.),
+                                decision_observation_to_action_seconds=sum(t['observation_to_action_seconds'] for t in e['timings'] if t['planning_decision']),
+                                later_decision_seconds=sum(t['observation_to_action_seconds'] for t in e['timings'] if t['planning_decision'] and t['step']>0),
+                                reset_seconds=e['reset_seconds'],environment_construction_seconds=e.get('environment_construction_seconds',0.),audit_seconds=e['audit_seconds']))
+    if len(records)!=len(c['jobs'])*8:raise RuntimeError('incomplete episode grid')
+    return records,dict(**receipt,episodes=len(records),all_endpoint_traces_verified=True,science_selection=False)

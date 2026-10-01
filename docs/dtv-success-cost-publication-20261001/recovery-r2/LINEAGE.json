@@ -1,0 +1,97 @@
+{
+  "study": "DTV-EFF1-R2",
+  "observed_unix": 1790862009.8815167,
+  "carried": [
+    {
+      "task": "pusht-13675-6101",
+      "seal_sha256": "45b83aed9dcd08b13c7e1b576ddc6f4280d7f962b7f79e122a8ae5b3a31bd34d",
+      "allocation_id": "312921",
+      "elapsed_seconds": 50
+    },
+    {
+      "task": "pusht-13675-6102",
+      "seal_sha256": "231b1e4f6bbfacb1418096e5e334120739a69ac6806cc255ef478111e045c6fe",
+      "allocation_id": "312922",
+      "elapsed_seconds": 59
+    },
+    {
+      "task": "pusht-13675-6103",
+      "seal_sha256": "372d0ee84b1829d998fa60ee90205be90fdfa57f231ea0f80b1bfd0a3b478436",
+      "allocation_id": "312923",
+      "elapsed_seconds": 46
+    }
+  ],
+  "failed_task": "reacher-4374-6101",
+  "failed_allocation": "312924",
+  "failed_seconds": 19,
+  "failed_members": [
+    {
+      "path": "FAILURE.json",
+      "bytes": 221,
+      "sha256": "d22bd4ce6d3008a4c96f8206d5d6e1202414e84d0855fc9011ddf80b02f9f4f1"
+    },
+    {
+      "path": "SOURCE-INPUT.npz",
+      "bytes": 151888,
+      "sha256": "ae5066b5b6e35f5ae658f89bf6bebf1f74a1d435ae632712e6e88235f29b83a4"
+    },
+    {
+      "path": "SUPERVISION.json",
+      "bytes": 417,
+      "sha256": "8a1cb5e3642a5d922be8b01969d571c1d7c71b50667196417f0d90fd10c274c6"
+    }
+  ],
+  "terminal_rows": [
+    [
+      "312920",
+      "dtveff1-preflight",
+      "COMPLETED",
+      "0:0",
+      "178",
+      "cpu=4,mem=8G,node=1",
+      "gpu03"
+    ],
+    [
+      "312921",
+      "dtveff1-pusht-13675-6101",
+      "COMPLETED",
+      "0:0",
+      "50",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312922",
+      "dtveff1-pusht-13675-6102",
+      "COMPLETED",
+      "0:0",
+      "59",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312923",
+      "dtveff1-pusht-13675-6103",
+      "COMPLETED",
+      "0:0",
+      "46",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ],
+    [
+      "312924",
+      "dtveff1-reacher-4374-6101",
+      "FAILED",
+      "1:0",
+      "19",
+      "billing=1,cpu=4,gres/gpu=1,mem=8G,node=1",
+      "gpu09"
+    ]
+  ],
+  "carried_preflight": "312920",
+  "carried_cpu_seconds": 178,
+  "carried_gpu_seconds": 174,
+  "logical_tasks": 2882,
+  "expected_attempts": 2883,
+  "scientific_changes": false
+}
