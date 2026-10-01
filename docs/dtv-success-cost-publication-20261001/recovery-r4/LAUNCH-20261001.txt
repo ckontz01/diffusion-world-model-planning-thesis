@@ -1,0 +1,40 @@
+DTV-EFF1 R4 launched once — 1 October 2026
+
+Source/authority publication368ecbbf348f49328ee2e2d3b37221369d5e7b2e and
+SSD/stage publicatione00834d8ed6cb727c848580d2a223ac91a6d721b were pushed
+and exact full remote branch readbacks matched before launch. All26 committed
+source blobs equal their raw frozen hashes. Small designatedSSD export204800B,
+27members/SHAc150fb8a4f74e0c5c6a595fe22f7ea05a1e32d7abe95414394e8554b2a3bb2bb
+was whole/member verified; manifest/authority/approval copied bytes verified.
+
+Manifestb8e47b7ddec520ea730337c50b239ca5febff208fcaea8a96667cdb0e938e7d3;
+approval87b912f647bc50af61d04cfa49c626a32fd0fbe09b6d28930a911eb5c601d1fb;
+authority21afb9c5aec8f1c0e1441fd8a116d3ed9eaf7a5b4925d3be0689167adf920b9b.
+Source/control suffix dtv-success-cost-control-r4-20261001-b8e47b7ddec520ea.
+Canonical run unchanged: /lustreFS/data/superworld/ckontzias/thesis/experiments/
+dtv-success-cost-20261001/run-bc3b36c71362f172.
+Current campaign/worker/accept/analysis_entry/preserve adapters are R4. Never
+restart original/R1/R2/R3/R4 or patch any executed source/approval closure.
+
+Staging atUnix1790867377.6371868 authenticated all31prior terminal allocations,
+historical seals/failed partials/STOPs, exact54-file metadata role inventory,
+existing input file identities and reused checkpoint hashes, all5source/control
+roots, and current control imports. Source19133525B<20MB/control20297667B<100MB.
+DatedR4 resolutionSHAf9eeb39d2b1b4153ffa1c0a9e76050ccd56bb3949a2e07cd8cb59e1b8b8a4e61.
+No source payload, aggregate or new science was decoded by staging.
+
+LaunchUnix1790867443.1775544. Exact controllerPID330036/start_ticks962433210.
+All27GPU successes and CPUpreflight carried;1622GPU incl59failed/178CPU seconds.
+Full future857522GPU/7378CPU remains within unchanged864000/14400 caps.
+Finite2853remainingGPU+analysis, one explicitly named replacement plus2852
+never-submitted workers. Expected2882successful logicaltasks/2885actualattempts.
+The included72-episode gate is already passed and preserved, never re-run.
+
+OBSERVATION-01 atUnix1790867486.2527726 verified exactPID+start_ticks alive,
+stderr0, noSTOP-R4, noCOMPUTE-COMPLETE. Replacement312951/pusht-3819-6101
+RUNNING on gpu09 with exactoriginalresources. This launch-time observation is
+historical, not a claim that the worker subsequently completed.
+
+No scientific aggregate opened. No automatic monitor, retry or newstudy created.
+Originalscientific444members and all prior executed recovery closures unchanged;
+historical results and E12 unchanged. Preserve every success/failure/charge.
