@@ -1,0 +1,39 @@
+DTV-EFF1 R3 — authenticated Cube constructor-reset recovery
+
+Source and finite authority published at ec8690b1bf585a19fb43403c6c25670f50172ba5.
+The full remote branch hash was read back and matched. Twenty committed raw
+manifest/archive members were independently checked against their exact hashes.
+
+Manifest: a75d361f6e23fad93742498f92bc7cfd9e4d07e96644c7bfd6418ebf87db5e15
+Authority: 4682d0a04cd6570d9cdc02bed66300f6bcfff35497210004ff021769a7297292
+Enabled R3 approval: 00e4b88b19e66a060467fa4a10a303cae2bf82c599316737c45c850b0a7a3dd2
+
+TEST-01: 73 artificial integration tests passed; no failures/errors; 34.437 seconds,
+four CPU threads, 8 GiB limit. No research payload, physics or GPU/Slurm test run.
+All 444 original scientific source members remain unchanged.
+
+Only the new small package was backed up on the designated THESIS_SSD volume.
+Archive: D:/THESIS-BACKUPS/dtv-success-cost-20261001/recovery-r3/package-a75d361f6e23fad9/package.tar
+133120 bytes, 20 members, SHA ed7947ce8442d3a0a11293cf99c59414129369e66c2f3f37e1799438a795c508.
+Whole file, every member and manifest/authority/approval copies verified.
+
+STAGE-01 at Unix1790864072.5687983 authenticated all nine historical allocations,
+six sealed successful GPU workers and the preflight, preserved both failed workers
+and original/R1/R2 STOPs, and found no live, ambiguous or additional submission.
+Carried allocation charges: 395 GPU-seconds and 178 CPU-stage wall seconds.
+Exactly 2874 GPU workers and one CPU analysis remain, including one replacement
+for failed Cube task cube-3506-6101. Full reservations: 862595 GPU-seconds and
+7378 CPU-stage wall seconds within unchanged original caps.
+
+Metadata-only role reconciliation passed: 54 files, 12813354 bytes, exact320/task.
+All four retained source roots total18975318 bytes; control roots19990906 bytes.
+R3 control interpreter/import and complete-future-footprint checks passed.
+New dated STOP resolution SHA1386ff0a615108a42cdc647e584b7ab49d310662da51c10406ad05fdca5187a0.
+
+R3 lets the native Cube options=None constructor reset return its native result;
+the explicit saved-state evaluation reset is unchanged. R2 EGL routing is retained.
+All historical successful tasks are carried, not repeated. Original roles, seeds,
+policies, endpoints, grid, estimator, resources and information barrier stay fixed.
+The three included Cube workers must pass before source2; failures still stop
+dispatch and preserve charges/evidence. No guarantee of zero future faults is made.
+No automatic retry, new monitor, additional experiment or scientific expansion.
