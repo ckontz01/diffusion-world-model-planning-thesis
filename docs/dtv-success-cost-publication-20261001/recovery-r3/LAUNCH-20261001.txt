@@ -1,0 +1,22 @@
+DTV-EFF1 R3 launched once — 1 October 2026
+
+Verified staging/SSD receipt publication35bbed9ebecc85de4a4e017bb2531bf21c2506b8.
+Exact full remote branch readback matched before launch.
+
+Launch Unix1790864121.0930965. Controller PID290342, Linux start_ticks962101002.
+Source/control suffix dtv-success-cost-control-r3-20261001-a75d361f6e23fad9.
+Canonical run remains /lustreFS/data/superworld/ckontzias/thesis/experiments/dtv-success-cost-20261001/run-bc3b36c71362f172.
+Current actual adapters are dtv_success_cost_r3.campaign/worker/accept/analysis_entry/preserve.
+Original/R1/R2 controllers and frozen sources must not be restarted or modified.
+
+OBSERVATION-01 at Unix1790864129.6811357 verified PID and start_ticks alive,
+stderr0, STOP absent, compute-complete absent. First replacement allocation312929,
+cube-3506-6101, RUNNING on gpu09 with original resources. All nine prior allocations
+reconciled terminal. Historical successes carried without recomputation, GPU395s
+and CPU178s charged. This is a historical launch observation, not later progress.
+
+The original included first-source gate requires all nine workers/72 episodes;
+six successful workers are carried and the three Cube workers must pass technical
+acceptance before source2. No outcome-informed continuation decision is allowed.
+No scientific result was opened. Full future reservations and original caps remain.
+No automatic retry or monitoring automation is created by this recovery.

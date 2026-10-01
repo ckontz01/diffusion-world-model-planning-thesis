@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"R3_launched_once\", \"launch_unix\": 1790864121.0930965, \"pid\": 290342, \"process\": {\"pid\": 290342, \"state\": \"R\", \"start_ticks\": 962101002}, \"argv\": [\"/lustreFS/data/superworld/ckontzias/thesis/envs/sage-official-py310-torch251-cu121/bin/python\", \"-B\", \"-m\", \"dtv_success_cost_r3.campaign\", \"--submit\", \"--approval\", \"/lustreFS/data/superworld/ckontzias/thesis/staging/dtv-success-cost-control-r3-20261001-a75d361f6e23fad9/EXECUTION-APPROVAL.json\"], \"recovery_manifest_sha256\": \"a75d361f6e23fad93742498f92bc7cfd9e4d07e96644c7bfd6418ebf87db5e15\", \"approval_sha256\": \"00e4b88b19e66a060467fa4a10a303cae2bf82c599316737c45c850b0a7a3dd2\", \"authorization_sha256\": \"4682d0a04cd6570d9cdc02bed66300f6bcfff35497210004ff021769a7297292\", \"gpu_carried_seconds\": 395, \"cpu_carried_seconds\": 178, \"full_reservations\": {\"gpu\": 862595, \"cpu\": 7378}, \"automatic_retry\": false, \"roles\": {\"files\": 54, \"bytes\": 12813354, \"parents_per_task\": 320, \"metadata_only\": true, \"payload_reads\": 0}}\n",
+  "stderr": "",
+  "local_wall_seconds": 8.265999999974156,
+  "automatic_retry": false
+}
