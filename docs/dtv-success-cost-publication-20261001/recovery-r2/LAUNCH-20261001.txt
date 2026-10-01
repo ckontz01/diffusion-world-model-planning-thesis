@@ -1,0 +1,34 @@
+DTV-EFF1 R2 recovery launched once at2026-10-01T13:57:20.162Z.
+
+Verified source/authority publication aaa52800c9fd9ad51c94925ae66459f02e767b53.
+Verified SSD/staging publication 5e29fb395def41a61a00d21ebbd3eadd6cbe0861.
+R2 manifest cb86f64c3c558218eeec2cfc2cfa866cba67aeb67653bd72f6030293c8df2dbd.
+R2 approval f46fd20a95885fc29b5427497ef20a0fb25cfd99d99f265532e3e019438515f0.
+R2 authority 88994240ecc6c14818358e308d63d61746965260b89e6367906d1de9bf4d5344.
+Controller PID276802/Linux start_ticks961992909, exact process recorded.
+First R2 allocation312925 is the one authorized reacher-4374-6101 replacement.
+Three successful PushT workers and CPU preflight remain carried without repeat.
+Original failed312924 and its19GPU seconds, partials/logs and both prior STOPs
+are retained. Full initial reservation863274GPU/7378CPU seconds within oldcaps.
+Exact historical/current input/source/role/seal authentication passed staging.
+
+All65 final artificial tests passed in31.468seconds, fourthreads/8GiB cap.
+Earlier suite receipts retained: first64-test suite had one Windows/POSIX
+command-routing fixture failure (32.125seconds); corrected64/65-test suites
+passed (32.406/31.000seconds). Cumulative actual suites126.999seconds. No
+research/physics/GPU/Slurm artificial test allocations or efficacy sweep.
+All444 original scientific closure members and all25 R2 committed members
+matched raw manifest hashes. R2 small SSD package143360B/26members, SHA
+6b3bbc22f51e92171408d151011d6467c4e36404e66d754ae62140daea9e2d61,
+whole and every member plus authority copies verified on designated THESIS_SSD.
+
+Historical observer receipts are not current progress. OBSERVATION-01 at Unix
+1790863052.334586 showed exactcontrolleralive/stderr0/STOPabsent,312925RUNNING,
+no R2 successes yet and no gate. This is not a claim that all rendering works.
+Actual included-worker acceptance and the nine-worker gate must follow before
+source2. No partial scientific aggregate or comparison was opened.
+
+Finalization must use dtv_success_cost_r2.accept/analysis_entry/preserve with
+the three frozen source roots on PYTHONPATH. Do not use old R1 acceptance,
+restart prior controllers, delete a STOP or write into the failed old root.
+No new monitoring task, new research stage or historical artifact changes.
