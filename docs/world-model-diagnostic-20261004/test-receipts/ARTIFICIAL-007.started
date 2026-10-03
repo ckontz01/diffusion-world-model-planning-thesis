@@ -1,0 +1,18 @@
+{
+  "label": "ARTIFICIAL-007",
+  "state": "running",
+  "started_unix": 1791071447.5996864,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.resource_plan"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 3.2373181999428198,
+  "domain": "artificial",
+  "research_access": false
+}

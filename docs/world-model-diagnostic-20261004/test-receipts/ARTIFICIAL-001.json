@@ -1,0 +1,26 @@
+{
+  "label": "ARTIFICIAL-001",
+  "state": "finished",
+  "started_unix": 1791069994.265457,
+  "wall_seconds": 0.8104694999638014,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.test_components"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 0,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_absolute_budget_and_separate_tail_draws (__main__.ComponentTests.test_absolute_budget_and_separate_tail_draws) ... ok\ntest_dino_tokens_preserved (__main__.ComponentTests.test_dino_tokens_preserved) ... ok\ntest_duplicates_and_tie_order (__main__.ComponentTests.test_duplicates_and_tie_order) ... ok\ntest_initial_success_absorbed (__main__.ComponentTests.test_initial_success_absorbed) ... ok\ntest_joint_and_periodic_geometry (__main__.ComponentTests.test_joint_and_periodic_geometry) ... ok\ntest_matrix_same_actions_and_s1 (__main__.ComponentTests.test_matrix_same_actions_and_s1) ... ok\ntest_native_mean_retained_not_argmin (__main__.ComponentTests.test_native_mean_retained_not_argmin) ... ok\ntest_negative_zero_oracle_accepted_parent_unit (__main__.ComponentTests.test_negative_zero_oracle_accepted_parent_unit) ... ok\ntest_no_outcomes_in_bank_or_selector (__main__.ComponentTests.test_no_outcomes_in_bank_or_selector) ... ok\ntest_real_fitting_and_backend_disabled (__main__.ComponentTests.test_real_fitting_and_backend_disabled) ... ok\ntest_replay_mismatch_rejected_closes_world (__main__.ComponentTests.test_replay_mismatch_rejected_closes_world) ... ok\ntest_ridge_fixed_quality_no_refit (__main__.ComponentTests.test_ridge_fixed_quality_no_refit) ... ok\ntest_roles_whole_parent (__main__.ComponentTests.test_roles_whole_parent) ... ok\ntest_saved_array_roundtrip_independent_acceptance (__main__.ComponentTests.test_saved_array_roundtrip_independent_acceptance) ... ok\ntest_temporal_alignment_absorbs_not_physics (__main__.ComponentTests.test_temporal_alignment_absorbs_not_physics) ... ok\ntest_terminal_during_chunk_no_tail (__main__.ComponentTests.test_terminal_during_chunk_no_tail) ... ok\ntest_truncation_and_failure_not_success (__main__.ComponentTests.test_truncation_and_failure_not_success) ... ok\ntest_wrong_backbone_goal_and_preprocessing (__main__.ComponentTests.test_wrong_backbone_goal_and_preprocessing) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.190s\n\nOK\n",
+  "cumulative_test_wall_seconds": 0.8104694999638014,
+  "peak_job_memory_bytes": 69435392,
+  "affinity_mask": 15,
+  "new_package_bytes": 41562,
+  "gpu_allocations": 0
+}

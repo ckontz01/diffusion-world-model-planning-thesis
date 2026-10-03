@@ -1,0 +1,20 @@
+{
+  "label": "ARTIFICIAL-006",
+  "state": "running",
+  "started_unix": 1791071447.1545308,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.analysis",
+    "docs/world-model-diagnostic-20261004/ARTIFICIAL-ANALYSIS-INPUT.json",
+    "--artificial"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 2.924171599908732,
+  "domain": "artificial",
+  "research_access": false
+}

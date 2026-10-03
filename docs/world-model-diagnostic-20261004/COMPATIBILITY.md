@@ -1,0 +1,30 @@
+# Compatibility: exact known identities and unresolved bindings
+
+All four preferred settings are discovery settings: PushT/Reacher × frozen Le-WM/released DINO-WM without proprioception. Comparisons are primarily **within** a backbone. Different training/pretraining prevents an architecture-only claim; raw latent errors are not common units.
+
+## Authenticated/referenced sources
+
+Base repository commit 10ceaa51875a11338e381c676f66c14c23d9bbed; completed DTV-EFF1 publication cf216e5312ab32a7f7097a38d3f2396e34c2a37e unchanged. INPUT-MANIFEST.json distinguishes historical checkpoint hashes from live metadata verification.
+
+| Item | Exact contract / evidence | Status or gap |
+|---|---|---|
+| Le-WM public source | [lucas-maes/le-wm](https://github.com/lucas-maes/le-wm/tree/8edfeb336732b5f3ce7b8b210d0ba370a09e2cac), MIT; [stable-worldmodel](https://github.com/galilai-group/stable-worldmodel/tree/21446f1ede6d5284e981bd7b47f432b994e6d812), MIT | Released README lists DINO-WM no-proprioception for both PushT and Reacher; original DINO-WM task coverage must not be substituted for this release. |
+| Le-WM PushT frozen object | /lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt; 72,348,817 B; c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659 | Hash inherited from authenticated DTV binding; live file-size metadata matched. No weights loaded or new inference. Public HF revision 22b330c28c27ead4bfd1888615af1340e3fe9052 is a lead, not a substitute object-config seal. |
+| Le-WM Reacher frozen object | /lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt; 72,345,376 B; 6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d | Same historical/live distinction. Exact conversion/configuration metadata must be bound before launch. |
+| Le-WM representation/S0 | Live jepa.py SHA256 41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96: native encoder CLS→checkpoint projector, predictor projections retained; 192-dimensional native latent; terminal squared-error **sum**, not mean | Input policy history_len=1 with native predictor history_size=3 rollout semantics; 5 macro predictions. Production array/goal bridge not implemented. |
+| Le-WM preprocessing/action contract | Existing R4 path: ToImage→float32 scaled→ImageNet normalization→Resize224. Native action normalization and physical decoder retained; 5 groups ×5 controller actions ×2 dimensions, warm start, native CEM 300 samples/30 elites/30 iterations, final elite mean | Physical action coordinates and exact normalized-to-decoded byte binding need the production bridge; do not clip/rescale differently or replace native tie semantics. |
+| DINO-WM no-proprioception release | [release folder](https://drive.google.com/drive/folders/1r31os0d4-rR0mdHc7OlY_e5nh3XT4r4e); [original DINO-WM source](https://github.com/gaoyuezhou/dino_wm/tree/0a9492fa12044b852ae9e001cc74604b79c8bb0c), MIT | No DINO-named artifact found by metadata-only search of the declared stablewm data root. This is not proof of global absence. Public folder text fetch unavailable; exact weights/config/hash/training roles unknown. |
+| Original DINO source, not the bound release | conf/encoder/dino.yaml, models/dino.py: DINOv2 ViT-S/14 normalized patch tokens; planning/objectives.py: terminal visual MSE plus configurable proprioceptive term; 224-pixel input would yield 256×384 patch features | No-proprioception configuration, temporal reduction, context length/frame skip/action coordinates/checkpoint feature layout must be authenticated. 256×384 is a resource-planning bound, not a proven released artifact shape. No pooling tokens to imitate Le-WM. |
+| Task inputs/training roles | Proposed sources are whole P2 parents, disjoint fit/validation/diagnostic, no new dataset payload access; visual deployment inputs only | Checkpoint training-parent overlap remains unknown for released DINO and must be disclosed. Readout coordinate supervision is additional **training** information. This is not evidence of world-model-training-held-out sources. |
+
+## Physical contract and exact blocking entry points
+
+Proposed per task: goal stored at source+24 frames (legacy goal-offset25 exclusive convention); 25 controller-action chunk; original diagnostic control budget50, not 50 additional tail actions. Native temporal grouping must genuinely support sampling at 5,10,15,20,25 for both backbones; incompatibility is a blocker, not an automatic change.
+
+Fresh construction must recreate the accepted episode origin, controller/contact history and every replay observation. Replaying dataset actions from an authenticated native root is required; assigning visible mid-episode state is forbidden. Existing fresh-root routines are leads only; a production fresh-history bridge is still absent.
+
+Native PushT success jointly requires norm(agent_xy,block_xy discrepancy)<20 and wrapped angle discrepancy<π/9. S1 preserves the joint positional criterion. Native Reacher source SHA256 e5e2e82c0621efca7b4c3c194f422c946db59edb12db7735fbe8bdcf12e37e7c uses **raw qpos absolute difference <.05 for each joint**, not modulo angles. Proposed S1 uses both periodic joints: this differs near coordinate-chart cuts and is explicitly a **review gate**, not a changed native endpoint. Readout cannot infer winding from one visual frame. Do not launch until chart range/history sufficiency and this proxy convention are resolved.
+
+wm_diag0.core.ResearchBackend unconditionally raises PermissionError. Artificial adapters accept supplied codecs only with domain=artificial; native model loader, production physics/replay, native action/tail bridge and native endpoint adapter are absent. No scheduler submitter exists. Tests demonstrate components, not production compatibility.
+
+The inherited pinned PyTorch SIF and hi-lewm Python environment are unchanged. No dependencies, permissions, accounts or filesystem modifications are authorized.

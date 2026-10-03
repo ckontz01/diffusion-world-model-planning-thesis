@@ -1,0 +1,29 @@
+{
+  "label": "ARTIFICIAL-004",
+  "state": "finished",
+  "started_unix": 1791071278.809142,
+  "wall_seconds": 0.46567140001570806,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "wm_diag0.test_components",
+    "wm_diag0.test_package",
+    "-v"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 1.9689965998986736,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_absolute_budget_and_separate_tail_draws (wm_diag0.test_components.ComponentTests.test_absolute_budget_and_separate_tail_draws) ... ok\ntest_dino_tokens_preserved (wm_diag0.test_components.ComponentTests.test_dino_tokens_preserved) ... ok\ntest_duplicates_and_tie_order (wm_diag0.test_components.ComponentTests.test_duplicates_and_tie_order) ... ok\ntest_initial_success_absorbed (wm_diag0.test_components.ComponentTests.test_initial_success_absorbed) ... ok\ntest_joint_and_periodic_geometry (wm_diag0.test_components.ComponentTests.test_joint_and_periodic_geometry) ... ok\ntest_matrix_same_actions_and_s1 (wm_diag0.test_components.ComponentTests.test_matrix_same_actions_and_s1) ... ok\ntest_native_cost_reduction_not_silently_changed (wm_diag0.test_components.ComponentTests.test_native_cost_reduction_not_silently_changed) ... ok\ntest_native_mean_retained_not_argmin (wm_diag0.test_components.ComponentTests.test_native_mean_retained_not_argmin) ... ok\ntest_negative_zero_oracle_accepted_parent_unit (wm_diag0.test_components.ComponentTests.test_negative_zero_oracle_accepted_parent_unit) ... ok\ntest_no_outcomes_in_bank_or_selector (wm_diag0.test_components.ComponentTests.test_no_outcomes_in_bank_or_selector) ... ok\ntest_real_fitting_and_backend_disabled (wm_diag0.test_components.ComponentTests.test_real_fitting_and_backend_disabled) ... ok\ntest_replay_is_charged_separately_from_original_budget (wm_diag0.test_components.ComponentTests.test_replay_is_charged_separately_from_original_budget) ... ok\ntest_replay_mismatch_rejected_closes_world (wm_diag0.test_components.ComponentTests.test_replay_mismatch_rejected_closes_world) ... ok\ntest_ridge_fixed_quality_no_refit (wm_diag0.test_components.ComponentTests.test_ridge_fixed_quality_no_refit) ... ok\ntest_roles_whole_parent (wm_diag0.test_components.ComponentTests.test_roles_whole_parent) ... ok\ntest_saved_array_roundtrip_independent_acceptance (wm_diag0.test_components.ComponentTests.test_saved_array_roundtrip_independent_acceptance) ... ok\ntest_saved_postterminal_work_rejected (wm_diag0.test_components.ComponentTests.test_saved_postterminal_work_rejected) ... ok\ntest_temporal_alignment_absorbs_not_physics (wm_diag0.test_components.ComponentTests.test_temporal_alignment_absorbs_not_physics) ... ok\ntest_terminal_during_chunk_no_tail (wm_diag0.test_components.ComponentTests.test_terminal_during_chunk_no_tail) ... ok\ntest_truncation_and_failure_not_success (wm_diag0.test_components.ComponentTests.test_truncation_and_failure_not_success) ... ok\ntest_wrong_backbone_goal_and_preprocessing (wm_diag0.test_components.ComponentTests.test_wrong_backbone_goal_and_preprocessing) ... ok\ntest_finite_complete_workload (wm_diag0.test_package.PackageTests.test_finite_complete_workload) ... ok\ntest_research_authorization_remains_disabled (wm_diag0.test_package.PackageTests.test_research_authorization_remains_disabled) ... ok\ntest_roles_and_rows_are_proposals (wm_diag0.test_package.PackageTests.test_roles_and_rows_are_proposals) ... ok\ntest_selection_precedes_outcome_join_artificial_chain (wm_diag0.test_package.PackageTests.test_selection_precedes_outcome_join_artificial_chain) ... ok\n\n----------------------------------------------------------------------\nRan 25 tests in 0.087s\n\nOK\n",
+  "cumulative_test_wall_seconds": 2.4346679999143817,
+  "peak_job_memory_bytes": 69423104,
+  "affinity_mask": 15,
+  "new_package_bytes": 156188,
+  "gpu_allocations": 0
+}

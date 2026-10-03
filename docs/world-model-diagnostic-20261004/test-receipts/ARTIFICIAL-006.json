@@ -1,0 +1,28 @@
+{
+  "label": "ARTIFICIAL-006",
+  "state": "finished",
+  "started_unix": 1791071447.1545308,
+  "wall_seconds": 0.3131466000340879,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.analysis",
+    "docs/world-model-diagnostic-20261004/ARTIFICIAL-ANALYSIS-INPUT.json",
+    "--artificial"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 2.924171599908732,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"n_independent_parents\": 3,\n  \"parent_ids\": [\n    \"fixture-a\",\n    \"fixture-b\",\n    \"fixture-c\"\n  ],\n  \"cells\": {\n    \"P0\": 0.5,\n    \"P1\": 0.5,\n    \"O0\": 0.16666666666666666,\n    \"O1\": 0.16666666666666666\n  },\n  \"source_cells\": [\n    [\n      1.0,\n      1.0,\n      0.0,\n      0.0\n    ],\n    [\n      0.0,\n      0.0,\n      0.0,\n      0.0\n    ],\n    [\n      0.5,\n      0.5,\n      0.5,\n      0.5\n    ]\n  ],\n  \"cell_ci95\": {\n    \"P0\": [\n      0.0,\n      1.0\n    ],\n    \"P1\": [\n      0.0,\n      1.0\n    ],\n    \"O0\": [\n      0.0,\n      0.5\n    ],\n    \"O1\": [\n      0.0,\n      0.5\n    ]\n  },\n  \"contrasts\": {\n    \"O0-P0\": {\n      \"mean\": -0.3333333333333333,\n      \"parent_effects\": [\n        -1.0,\n        0.0,\n        0.0\n      ],\n      \"ci95_percentile\": [\n        -1.0,\n        0.0\n      ],\n      \"gains\": 0,\n      \"losses\": 1,\n      \"ties\": 2\n    },\n    \"P1-P0\": {\n      \"mean\": 0.0,\n      \"parent_effects\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"ci95_percentile\": [\n        0.0,\n        0.0\n      ],\n      \"gains\": 0,\n      \"losses\": 0,\n      \"ties\": 3\n    },\n    \"O1-O0\": {\n      \"mean\": 0.0,\n      \"parent_effects\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"ci95_percentile\": [\n        0.0,\n        0.0\n      ],\n      \"gains\": 0,\n      \"losses\": 0,\n      \"ties\": 3\n    },\n    \"interaction\": {\n      \"mean\": 0.0,\n      \"parent_effects\": [\n        0.0,\n        0.0,\n        0.0\n      ],\n      \"ci95_percentile\": [\n        0.0,\n        0.0\n      ],\n      \"gains\": 0,\n      \"losses\": 0,\n      \"ties\": 3\n    }\n  },\n  \"native_reference\": 0.5,\n  \"native_parent\": [\n    1.0,\n    0.0,\n    0.5\n  ],\n  \"selected_indices\": [\n    [\n      0,\n      0,\n      1,\n      1\n    ],\n    [\n      0,\n      0,\n      1,\n      1\n    ],\n    [\n      0,\n      0,\n      1,\n      1\n    ]\n  ],\n  \"identity_changes_vs_P0\": [\n    0,\n    0,\n    3,\n    3\n  ],\n  \"candidate_mean_success\": [\n    [\n      1.0,\n      0.0\n    ],\n    [\n      0.0,\n      0.0\n    ],\n    [\n      0.5,\n      0.5\n    ]\n  ],\n  \"hindsight_optimistic_parent\": [\n    1.0,\n    0.0,\n    0.5\n  ],\n  \"split_draw_hindsight_parent\": [\n    1.0,\n    0.0,\n    0.0\n  ],\n  \"initial_success_count\": 0,\n  \"uncertainty\": \"parent-paired percentile bootstrap 10000; descriptive; no multiplicity-controlled claims\"\n}\n",
+  "stderr": "",
+  "cumulative_test_wall_seconds": 3.2373181999428198,
+  "peak_job_memory_bytes": 67973120,
+  "affinity_mask": 15,
+  "new_package_bytes": 175475,
+  "gpu_allocations": 0
+}

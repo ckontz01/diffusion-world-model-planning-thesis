@@ -1,0 +1,19 @@
+{
+  "study": "WM-DIAG0",
+  "version": "preparation-v1",
+  "execute": false,
+  "research_inference": false,
+  "research_fitting": false,
+  "simulator": false,
+  "new_payload_reads": false,
+  "slurm": false,
+  "monitoring": false,
+  "source_allocation": "PROPOSED_NOT_AUTHORIZED",
+  "research_backend": "wm_diag0.core.ResearchBackend: unconditionally blocked",
+  "execution_instruction_required": true,
+  "local_test_wall_seconds": 14400,
+  "local_cpu_threads": 4,
+  "local_ram_bytes": 8589934592,
+  "new_output_bytes": 1000000000,
+  "technical_repair": "Authorized inside these limits; no resource, data-access, security or scientific expansion"
+}

@@ -1,0 +1,25 @@
+{
+  "status": "PROPOSED_NOT_ALLOCATED",
+  "payload_reads": 0,
+  "rule": "Sort remaining eligible whole parents by SHA256(UTF8('wm-diag0-20261004|TASK|ID')), then integer ID; first 32 diagnostic, next 16 fit, next 12 validation",
+  "eligibility_source": "docs/dtv-success-cost-20261001/ROLE-RECONCILIATION.json; subtract all docs/dtv-success-cost-20261001/COHORT.json parents",
+  "pusht": {
+    "master_sha256": "35cd851464f4d7243c3c07b794f65db0f32caa16bbc787a83dda68388c4898f0",
+    "remaining_before_proposal": 60,
+    "diagnostic": [10265,5043,14415,15850,10065,1119,18087,6879,17931,14021,1795,16433,12438,18119,14781,4719,9857,10331,17295,5785,17405,7435,16718,5678,6339,15485,12182,17518,12643,6334,12288,2165],
+    "fit": [16168,5606,8325,11603,15444,13635,15460,8931,14890,15410,5630,11570,6421,18334,7072,14019],
+    "validation": [15929,8574,7414,9620,1406,3276,13733,3174,15651,11592,10782,16985]
+  },
+  "reacher": {
+    "master_sha256": "d0628d371224bcccc4b65db20d91212aafdc91a5bbb2b707be10354470910fcd",
+    "remaining_before_proposal": 680,
+    "diagnostic": [9926,6273,3697,7727,1324,3088,4373,5494,1886,3476,9683,5617,1740,2689,3251,954,7875,1066,1756,8269,5643,6687,9757,4705,2602,3771,4379,8378,1910,7131,865,2470],
+    "fit": [7448,9229,3662,1935,7134,3027,5037,6148,4336,7816,9611,4545,1005,7573,7301,129],
+    "validation": [2454,6590,9812,5304,7054,789,9680,611,2593,7935,659,7348]
+  },
+  "row_rule": "Pending metadata binding: one mid-episode start with sufficient native history and goal=start+24; no outcome screening; ineligible length is a blocker, not automatic replacement",
+  "fit_frames": "16 fixed equally spaced metadata-valid frames per fit parent (256/task/backbone)",
+  "validation_frames": "8 fixed equally spaced metadata-valid frames per validation parent (96/task/backbone)",
+  "reserved_or_reference_consumption": "None now. Approval required: proposal exhausts all 60 remaining eligible PushT reference parents.",
+  "checkpoint_training_parent_overlap": "Unknown for released DINO-noprop; launch blocker until disclosed/authenticated"
+}

@@ -1,0 +1,26 @@
+{
+  "label": "ARTIFICIAL-007",
+  "state": "finished",
+  "started_unix": 1791071447.5996864,
+  "wall_seconds": 0.07529930002056062,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.resource_plan"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 3.2373181999428198,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"PROPOSED_NOT_AUTHORIZED\",\n  \"diagnostic_parents\": 64,\n  \"setting_sources\": 128,\n  \"oracle_prefix_worlds\": 2048,\n  \"evaluation_tail_worlds\": 4096,\n  \"bank_helper_worlds\": 128,\n  \"fresh_worlds\": 6272,\n  \"readout_fit_frames\": 1024,\n  \"readout_validation_frames\": 384,\n  \"physical_controller_steps_upper\": 1510400,\n  \"native_cem_sequences_upper\": 38016000,\n  \"bank_rescore_sequences\": 2048,\n  \"predicted_transitions_upper\": 190090240,\n  \"batched_cost_calls_upper\": 126848,\n  \"batched_predictor_calls_upper\": 634240,\n  \"context_goal_encoder_calls_upper\": 253696,\n  \"gpu_jobs\": 132,\n  \"cpu_jobs\": 2,\n  \"successful_logical_tasks\": 134,\n  \"gpu_allocation_seconds_cap\": 468000,\n  \"cpu_stage_allocation_wall_seconds_cap\": 4800,\n  \"gpu_parent_worker_bytes_cap\": 70000000,\n  \"gpu_readout_worker_bytes_cap\": 500000000,\n  \"worker_log_bytes_cap\": 1000000,\n  \"all_source_bytes_cap\": 20000000,\n  \"controls_bytes_cap\": 300000000,\n  \"reused_weights_bytes_cap\": 2000000000,\n  \"live_bytes_cap\": 12000000000,\n  \"archive_bytes_cap\": 14000000000,\n  \"inclusive_bytes_cap\": 42000000000,\n  \"compatibility_condition\": \"native 300/30/30 CEM, horizon 5 grouped five controller actions; encoder <=2 calls/population; no extra calls/retries\"\n}\n",
+  "stderr": "",
+  "cumulative_test_wall_seconds": 3.3126174999633804,
+  "peak_job_memory_bytes": 17199104,
+  "affinity_mask": 15,
+  "new_package_bytes": 179325,
+  "gpu_allocations": 0
+}

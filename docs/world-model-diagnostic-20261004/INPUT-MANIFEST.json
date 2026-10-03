@@ -1,0 +1,105 @@
+{
+  "study": "WM-DIAG0",
+  "status": "PREPARATION_ONLY",
+  "research_payload_reads": 0,
+  "checkpoint_forwards": 0,
+  "physics_steps": 0,
+  "slurm_allocations": 0,
+  "base_git": "10ceaa51875a11338e381c676f66c14c23d9bbed",
+  "completed_dtv_publication": "cf216e5312ab32a7f7097a38d3f2396e34c2a37e",
+  "historical_metadata_dependencies": [
+    {
+      "path": "docs/dtv-success-cost-20261001/BINDINGS.json",
+      "sha256": "bc3b36c71362f17238ddb9a6fcd04846c0fafac488b41b26f6be2e74eb598866",
+      "bytes": 1103664
+    },
+    {
+      "path": "docs/dtv-success-cost-20261001/ROLE-RECONCILIATION.json",
+      "sha256": "62b06d8c3c5850904c49f3c774d462220ae5f06601b5d58f384636951523f578",
+      "bytes": 186204
+    },
+    {
+      "path": "docs/dtv-success-cost-20261001/COHORT.json",
+      "sha256": "27bf5ff45108242dfffb90c35ea083bb3bfe2f7a55542303c517dffbf96380b1",
+      "bytes": 154297
+    },
+    {
+      "path": "docs/dtv-efficiency-20260930/evidence/runtime/stable_worldmodel/solver/cem.py",
+      "sha256": "d88c86dcd1bd1e6d89221ac22079a3efe296cc7566532de0d36605e2f1536050",
+      "bytes": 7618
+    },
+    {
+      "path": "docs/action-verification-testbed-20260922/bounded_run.py",
+      "sha256": "06eb833878c9f30a0a2dc458de1c28e0dc5d5eb67b982caf9c575c42015fe4d0",
+      "bytes": 4010
+    }
+  ],
+  "checkpoint_bindings": [
+    {
+      "task": "pusht",
+      "backbone": "lewm",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+      "bytes": 72348817,
+      "sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659",
+      "verification": "Inherited authenticated DTV metadata; live file-size metadata matched; no new weight loading"
+    },
+    {
+      "task": "reacher",
+      "backbone": "lewm",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt",
+      "bytes": 72345376,
+      "sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d",
+      "verification": "Inherited authenticated DTV metadata; live file-size metadata matched; no new weight loading"
+    },
+    {
+      "task": "pusht/reacher",
+      "backbone": "dinowm_noprop",
+      "sha256": null,
+      "path": null,
+      "config": null,
+      "training_roles": null,
+      "status": "UNBOUND_LAUNCH_BLOCKER",
+      "release": "https://drive.google.com/drive/folders/1r31os0d4-rR0mdHc7OlY_e5nh3XT4r4e"
+    }
+  ],
+  "datasets": [
+    {
+      "task": "pusht",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5",
+      "sha256": "b6ebd9ac94bbe9e383f6e7a9cd92d74e9aa665ea57b758ed3717b0ee7df8d4fb",
+      "verification": "Inherited metadata only"
+    },
+    {
+      "task": "reacher",
+      "path": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher.h5",
+      "sha256": "85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06",
+      "verification": "Inherited metadata only"
+    }
+  ],
+  "runtime": {
+    "sif": "/lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif",
+    "sha256": "589af9b428527ae2d315fbd5eaf7ef991efb1aa7249e30a6d28e6731df40afb2",
+    "env": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006",
+    "modified": false
+  },
+  "live_source": {
+    "jepa_sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96",
+    "reacher_task_sha256": "e5e2e82c0621efca7b4c3c194f422c946db59edb12db7735fbe8bdcf12e37e7c"
+  },
+  "public_source_heads": {
+    "lewm": "8edfeb336732b5f3ce7b8b210d0ba370a09e2cac",
+    "stable_worldmodel": "21446f1ede6d5284e981bd7b47f432b994e6d812",
+    "original_dino_wm": "0a9492fa12044b852ae9e001cc74604b79c8bb0c",
+    "tinylab": "efa9e5d73f09bae511adac87e3041aa1789f0092"
+  },
+  "role_manifest": "ROLE-PROPOSAL.json",
+  "row_manifest": "SOURCE-ROWS-PROPOSED.json",
+  "source_allocation": "PROPOSED_NOT_ALLOCATED",
+  "test_policy": {
+    "max_wall_seconds": 14400,
+    "max_cpu": 4,
+    "max_ram_bytes": 8589934592,
+    "max_new_bytes": 1000000000,
+    "future_attempt_reservation_seconds": 600
+  }
+}
