@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"archive_created_verified_once\", \"archive\": {\"bytes\": 1852456960, \"sha256\": \"bf1b68acd37a5356e1c5f64fedc3ad12393c413569fbe0ca07283f2b7d341a79\", \"members\": 77458}, \"acceptance\": {\"unique_tasks\": 2881, \"gpu_allocation_seconds\": 166945, \"cpu_stage_allocation_seconds\": 178, \"failed_gpu_allocation_seconds\": 59, \"failed_allocations\": [\"312924\", \"312928\", \"312950\"], \"successful_gpu_allocation_seconds\": 166886, \"lineage\": \"R4\", \"actual_attempts\": 2884, \"dated_stop_resolution_sha256\": \"f9eeb39d2b1b4153ffa1c0a9e76050ccd56bb3949a2e07cd8cb59e1b8b8a4e61\", \"all_historical_stops_preserved\": true, \"successful_tasks_recomputed\": false, \"replacement_attempts\": 3, \"episodes\": 23040, \"all_endpoint_traces_verified\": true, \"science_selection\": false}, \"archive_wall_seconds\": 40.08151469193399, \"scientific_results_opened\": false}\n",
+  "stderr": "",
+  "wall_seconds": 220.7970000000205,
+  "automatic_retry": false
+}

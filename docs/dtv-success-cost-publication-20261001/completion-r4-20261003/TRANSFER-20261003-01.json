@@ -1,0 +1,7 @@
+{
+  "returncode": 0,
+  "stdout": "{\"status\": \"verified\", \"study\": \"DTV-EFF1\", \"request_sha256\": \"4fd7a1f77f49abdce9d0147de30fa7d7d768907426a982f0c7e312d2bec6d35f\", \"archive_sha256\": \"bf1b68acd37a5356e1c5f64fedc3ad12393c413569fbe0ca07283f2b7d341a79\", \"bytes\": 1852456960, \"members\": 77458, \"whole_and_members\": true, \"volume\": {\"FileSystemLabel\": \"THESIS_SSD\", \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\", \"SizeRemaining\": 312258342912}, \"wall_seconds\": 160.43799999996554}\r\n",
+  "stderr": "",
+  "wall_seconds": 184.93800000002375,
+  "automatic_retry": false
+}
