@@ -1,0 +1,30 @@
+{
+  "label": "A2-PRESERVATION-002",
+  "state": "finished",
+  "started_unix": 1791128602.431492,
+  "wall_seconds": 36.99831210001139,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 327.10470250010854,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.preserve",
+    "ab50aaab8b01691b88574d35eb71a7ba1477bebb"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\",\n  \"study\": \"WM-DIAG0-A2-v1\",\n  \"git_commit\": \"ab50aaab8b01691b88574d35eb71a7ba1477bebb\",\n  \"original_dependency_commit\": \"0386998aab0994a724bf46b331939e99854bf3e9\",\n  \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-20261004\\\\amendment-a2-v1-ab50aaab8b01691b88574d35eb71a7ba1477bebb.zip\",\n  \"local_archive\": \"C:\\\\Users\\\\Chris\\\\thesis-recovery\\\\world-model-diagnostic-preparation-20261004\\\\docs\\\\world-model-diagnostic-a2-20261004\\\\delivery\\\\amendment-a2-v1-ab50aaab8b01691b88574d35eb71a7ba1477bebb.zip\",\n  \"whole\": {\n    \"bytes\": 266903625,\n    \"sha256\": \"818eefc6582364ac381634266322e98e12bdff36dc1ce5882a919f0393e26760\"\n  },\n  \"verified_members\": 373,\n  \"members_manifest_sha256\": \"82f2d433fc41ef67037f59ad9b2ffa4bdc004e0d4838f69e74d42a9f162391d6\",\n  \"volume\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"SizeRemaining\": 310379196416,\n    \"HealthStatus\": \"Healthy\"\n  },\n  \"all_preparation_copies_reserved_bytes\": 827249003,\n  \"existing_original_ssd_preparation_bytes\": 345487,\n  \"a2_preparation_and_copies_reserved_bytes\": 825701227,\n  \"research_authority\": false,\n  \"models_loaded\": false,\n  \"historical_archives_rebacked_up\": 0\n}\n",
+  "stderr": "",
+  "cumulative_seconds": 364.10301460011993,
+  "peak_job_memory_bytes": 218263552,
+  "affinity_mask": 15,
+  "retained_local_bytes": 536258704,
+  "code_metadata_bytes": 270299879,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

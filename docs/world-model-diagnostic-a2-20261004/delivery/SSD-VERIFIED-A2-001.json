@@ -1,0 +1,26 @@
+{
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "study": "WM-DIAG0-A2-v1",
+  "git_commit": "ab50aaab8b01691b88574d35eb71a7ba1477bebb",
+  "original_dependency_commit": "0386998aab0994a724bf46b331939e99854bf3e9",
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-20261004\\amendment-a2-v1-ab50aaab8b01691b88574d35eb71a7ba1477bebb.zip",
+  "local_archive": "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\docs\\world-model-diagnostic-a2-20261004\\delivery\\amendment-a2-v1-ab50aaab8b01691b88574d35eb71a7ba1477bebb.zip",
+  "whole": {
+    "bytes": 266903625,
+    "sha256": "818eefc6582364ac381634266322e98e12bdff36dc1ce5882a919f0393e26760"
+  },
+  "verified_members": 373,
+  "members_manifest_sha256": "82f2d433fc41ef67037f59ad9b2ffa4bdc004e0d4838f69e74d42a9f162391d6",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+    "SizeRemaining": 310379196416,
+    "HealthStatus": "Healthy"
+  },
+  "all_preparation_copies_reserved_bytes": 827249003,
+  "existing_original_ssd_preparation_bytes": 345487,
+  "a2_preparation_and_copies_reserved_bytes": 825701227,
+  "research_authority": false,
+  "models_loaded": false,
+  "historical_archives_rebacked_up": 0
+}

@@ -1,0 +1,15 @@
+# Completed immutable A2 preparation handoff
+
+Study WM-DIAG0-A2-v1, preparation only. Final package Git commit **ab50aaab8b01691b88574d35eb71a7ba1477bebb**. One completed archive:
+
+`D:/THESIS-BACKUPS/world-model-diagnostic-a2-20261004/amendment-a2-v1-ab50aaab8b01691b88574d35eb71a7ba1477bebb.zip`
+
+266,903,625B; whole SHA256 **818eefc6582364ac381634266322e98e12bdff36dc1ce5882a919f0393e26760**. PACKAGE-MEMBERS.json SHA25682f2d433fc41ef67037f59ad9b2ffa4bdc004e0d4838f69e74d42a9f162391d6. Every373 archive members independently rehashed on SSD, including immutable code/configuration, the unchanged inherited dependency closure and three opaque predictor/encoder files. Designated THESIS_SSD volume0a2f1ba9-0000-0000-0000-100000000000, Healthy,310,379,196,416B free before transfer. Final whole/member receipt is SSD-VERIFIED-A2-001.json. No completed historical archive was rebacked up and no original or failed evidence was deleted.
+
+A2-PRESERVATION-002 exit0,36.99831210001139s charged; shared preparation cumulative364.10301460011993s of14,400s through verified preservation. Peak218,263,552B/fourCPU affinity15. All preparation/copies full-future reserve827,249,003B remains below the explicit1GB future line and5GiB retained ceiling. Local retained536,258,704B at completion. Runner's conservative code_metadata_bytes270,299,879 includes the opaque archive as a file outside artifacts/; it is NOT all new source code. Pre-archive actual code/test/metadata was approximately3.4MB, all still within the1GB cap. No missing charge was reset: failed preservation00133.28258289996302s and tracking audit00117.445930999994744s remain in the cumulative ledger and recovery-r1 records.
+
+56 artificial/regression tests passed before freezing. Preservation's diagnosed ignore-rule omission was corrected by adding18 already acquired/authenticated source/config files, not modifying executed source, models, protocol or root plan. All222 source/config receipt bytes were checked against staged and final Git blobs. Original protocol/code/documents at0386998aab0994a724bf46b331939e99854bf3e9 remain unchanged; posted original-provenance request remains untouched/open, with no duplicate request or monitor.
+
+Research authorization remains false. No unsafe deserialization, model forward, fitting, native source generation, simulator physics, new coordinate label, scheduler allocation, world-model training or promotion occurred. No launchable native campaign is supplied. Review AMENDMENT.md, ARTIFACT-CONTRACT.md, SOURCE-GENERATION.md, PROTOCOL.md, RESOURCE-PLAN.md, SECURITY-AND-RUNTIME.md and PRODUCTION-STATUS.md before any further instruction. Safe conversion, exact runtime closure and genuine native adapters remain explicit gates. Original-checkpoint replication, historical-source identity and architecture-only causation are not claims of A2.
+
+This post-transfer proof stays outside the archive it authenticates, avoiding circularity. Subsequent Git commits containing only these final proof/charge records do not replace the immutable package commit or require a second archive.
