@@ -1,0 +1,80 @@
+{
+  "status": "METADATA_ONLY_PIN_BEFORE_ACQUISITION",
+  "github": {
+    "repo": "fafraob/point-lewm",
+    "commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48",
+    "tree_receipt": {
+      "path": "docs\\world-model-diagnostic-a2-20261004\\public-metadata\\github-tree.json",
+      "bytes": 140487,
+      "sha256": "6a4bd1b950df4b3bf15196b8f49bbfd8aa9395b42e02815d0dfcfcec64c26ce7"
+    }
+  },
+  "huggingface": {
+    "pusht": {
+      "repo": "fafraob/point-cloud-pusht",
+      "kind": "models",
+      "commit": "664278a4c0b4c5f607d0993744986b2d10b4168e",
+      "license": "cc-by-4.0",
+      "dino_members": [
+        {
+          "rfilename": "dino-wm/checkpoints/model_latest.pth",
+          "blobId": "b1e7c79d4cabad708c90d0909e47f53c748b22df",
+          "size": 88837855,
+          "lfs": {
+            "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+            "size": 88837855,
+            "pointerSize": 133
+          }
+        },
+        {
+          "rfilename": "dino-wm/hydra.yaml",
+          "blobId": "cd569597b7d6194e7f626cd01f5d2c49c2036965",
+          "size": 904
+        },
+        {
+          "rfilename": "dino-wm/swm_h5_norm_stats.json",
+          "blobId": "aafe920b831e0aa03ee393f1322cbd52ecb628a3",
+          "size": 571
+        }
+      ],
+      "metadata_receipt": {
+        "path": "docs\\world-model-diagnostic-a2-20261004\\public-metadata\\hf-pusht.json",
+        "bytes": 6213,
+        "sha256": "ad3aa55daf39ab08ffac88eef5a43dbfea257f104567e556911022cbc843fcc2"
+      }
+    },
+    "reacher": {
+      "repo": "fafraob/point-cloud-reacher",
+      "kind": "models",
+      "commit": "e49311dece3de2bf86c8f520e5e601e0e2fbb5ba",
+      "license": "cc-by-4.0",
+      "dino_members": [
+        {
+          "rfilename": "dino-wm/checkpoints/model_latest.pth",
+          "blobId": "9721c34d4003a6b87107fc65cb43287324aef88f",
+          "size": 88837855,
+          "lfs": {
+            "sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842",
+            "size": 88837855,
+            "pointerSize": 133
+          }
+        },
+        {
+          "rfilename": "dino-wm/hydra.yaml",
+          "blobId": "8199218f16a6472803b052b32b943f6ba891577d",
+          "size": 906
+        },
+        {
+          "rfilename": "dino-wm/swm_h5_norm_stats.json",
+          "blobId": "05c163bca750322bfdfd14b4eff66ed4c5f21ac7",
+          "size": 556
+        }
+      ],
+      "metadata_receipt": {
+        "path": "docs\\world-model-diagnostic-a2-20261004\\public-metadata\\hf-reacher.json",
+        "bytes": 6221,
+        "sha256": "108c1b25045ec74445e4d4200e97c64c0e0bcafd0ed44d7f868aeacb1ded4bda"
+      }
+    }
+  }
+}

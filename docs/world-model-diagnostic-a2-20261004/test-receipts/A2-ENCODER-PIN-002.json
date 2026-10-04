@@ -1,0 +1,30 @@
+{
+  "label": "A2-ENCODER-PIN-002",
+  "state": "finished",
+  "started_unix": 1791126610.5041454,
+  "wall_seconds": 3.4529081000364386,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 205.50287670014092,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.public_audit",
+    "encoder_pin"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"github_commit\": \"7764ea0f912e53c92e82eb78a2a1631e92725fc8\",\n  \"model\": \"dinov2_vits14\",\n  \"url\": \"https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth\",\n  \"headers\": {\n    \"Content-Type\": \"binary/octet-stream\",\n    \"Content-Length\": \"88283115\",\n    \"Connection\": \"close\",\n    \"Accept-Ranges\": \"bytes\",\n    \"Server\": \"AmazonS3\",\n    \"Last-Modified\": \"Thu, 13 Apr 2023 22:01:20 GMT\",\n    \"x-amz-version-id\": \"myNNMDsZijFq4d0vreWtK77.L.oits7x\",\n    \"x-amz-server-side-encryption\": \"AES256\",\n    \"x-amz-storage-class\": \"INTELLIGENT_TIERING\",\n    \"Date\": \"Sun, 04 Oct 2026 07:01:33 GMT\",\n    \"ETag\": \"\\\"0bd1417efc23bdb1d69200156f5a22bc-11\\\"\",\n    \"X-Cache\": \"Hit from cloudfront\",\n    \"Via\": \"1.1 53f2833f5ee321c75f4d093ec8e578b6.cloudfront.net (CloudFront)\",\n    \"X-Amz-Cf-Pop\": \"MRS53-P1\",\n    \"X-Amz-Cf-Id\": \"9vlakw_OG7Wisr2B9TsQo76jjGMQfs7d-4Bo2Ds11EtEeKkALRe_vQ==\",\n    \"Age\": \"29321\"\n  },\n  \"source_receipts\": [\n    {\n      \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\source-audit\\\\dinov2\\\\dinov2\\\\hub\\\\backbones.py\",\n      \"bytes\": 5586,\n      \"sha256\": \"871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e\"\n    },\n    {\n      \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\source-audit\\\\dinov2\\\\hubconf.py\",\n      \"bytes\": 1126,\n      \"sha256\": \"c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64\"\n    },\n    {\n      \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\source-audit\\\\dinov2\\\\dinov2\\\\models\\\\vision_transformer.py\",\n      \"bytes\": 16438,\n      \"sha256\": \"7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea\"\n    },\n    {\n      \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\source-audit\\\\dinov2\\\\LICENSE\",\n      \"bytes\": 11359,\n      \"sha256\": \"600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7\"\n    }\n  ],\n  \"binding_status\": \"CURRENT_PUBLIC_RELEASE_PIN_NOT_PROOF_OF_TRAINING_TIME_ENCODER_REVISION\"\n}\n",
+  "stderr": "",
+  "cumulative_seconds": 208.95578480017736,
+  "peak_job_memory_bytes": 26853376,
+  "affinity_mask": 15,
+  "retained_local_bytes": 3090791,
+  "code_metadata_bytes": 3090791,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

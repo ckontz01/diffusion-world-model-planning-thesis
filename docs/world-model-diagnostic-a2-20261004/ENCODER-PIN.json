@@ -1,0 +1,46 @@
+{
+  "github_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "model": "dinov2_vits14",
+  "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+  "headers": {
+    "Content-Type": "binary/octet-stream",
+    "Content-Length": "88283115",
+    "Connection": "close",
+    "Accept-Ranges": "bytes",
+    "Server": "AmazonS3",
+    "Last-Modified": "Thu, 13 Apr 2023 22:01:20 GMT",
+    "x-amz-version-id": "myNNMDsZijFq4d0vreWtK77.L.oits7x",
+    "x-amz-server-side-encryption": "AES256",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "Date": "Sun, 04 Oct 2026 07:01:33 GMT",
+    "ETag": "\"0bd1417efc23bdb1d69200156f5a22bc-11\"",
+    "X-Cache": "Hit from cloudfront",
+    "Via": "1.1 53f2833f5ee321c75f4d093ec8e578b6.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "MRS53-P1",
+    "X-Amz-Cf-Id": "9vlakw_OG7Wisr2B9TsQo76jjGMQfs7d-4Bo2Ds11EtEeKkALRe_vQ==",
+    "Age": "29321"
+  },
+  "source_receipts": [
+    {
+      "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\dinov2\\dinov2\\hub\\backbones.py",
+      "bytes": 5586,
+      "sha256": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e"
+    },
+    {
+      "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\dinov2\\hubconf.py",
+      "bytes": 1126,
+      "sha256": "c1f5090e78ff940b72c076d2bf9c0310d1707c946b3d10e2d6f2b0bdf56a6f64"
+    },
+    {
+      "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\dinov2\\dinov2\\models\\vision_transformer.py",
+      "bytes": 16438,
+      "sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea"
+    },
+    {
+      "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\dinov2\\LICENSE",
+      "bytes": 11359,
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7"
+    }
+  ],
+  "binding_status": "CURRENT_PUBLIC_RELEASE_PIN_NOT_PROOF_OF_TRAINING_TIME_ENCODER_REVISION"
+}

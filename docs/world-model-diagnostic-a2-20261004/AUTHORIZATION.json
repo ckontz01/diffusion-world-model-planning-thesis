@@ -1,0 +1,21 @@
+{
+  "study": "WM-DIAG0-A2-v1",
+  "status": "PREPARATION_ONLY_DISABLED",
+  "human_instruction": "C:/Users/Chris/.codex/attachments/dcec997c-6f7d-410a-9a12-3a35d28cc0b1/Pasted text.txt",
+  "artifact_metadata_source_and_opaque_acquisition": true,
+  "artificial_component_tests": true,
+  "small_package_preservation": true,
+  "research_inference": false,
+  "research_fitting": false,
+  "source_generation": false,
+  "native_simulator_execution": false,
+  "unsafe_deserialization_on_working_machine": false,
+  "scheduler_submission": false,
+  "monitoring": false,
+  "world_model_training": false,
+  "model_promotion": false,
+  "dependency_runtime_security_changes": false,
+  "original_protocol": "PRESERVED_BLOCKED_NOT_SCIENTIFICALLY_FAILED",
+  "published_provenance_request": "https://github.com/lucas-maes/le-wm/issues/93#issuecomment-5979863973",
+  "duplicate_requests": false
+}

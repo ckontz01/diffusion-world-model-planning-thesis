@@ -1,0 +1,4848 @@
+{
+  "study": "WM-DIAG0-A2-v1",
+  "roles": "WHOLE_NEW_TRAJECTORY",
+  "protected_historical_inputs": [],
+  "replacement_attempts": 0,
+  "roots": [
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 0,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1683833948,
+        "variation": 1114993059,
+        "collector": 1159993344,
+        "render": 1906849215,
+        "bank_lewm": 557254418,
+        "bank_dino": 1167510508,
+        "tail_1": 1259836171,
+        "tail_2": 1594685035,
+        "oracle": 1106914509
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-001",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 1,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 876894677,
+        "variation": 1427867232,
+        "collector": 643253123,
+        "render": 2143842086,
+        "bank_lewm": 1978957948,
+        "bank_dino": 581730413,
+        "tail_1": 2030637698,
+        "tail_2": 1280496718,
+        "oracle": 1923972881
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-002",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 2,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 971037504,
+        "variation": 890891890,
+        "collector": 1587194547,
+        "render": 248415410,
+        "bank_lewm": 893938580,
+        "bank_dino": 1212038611,
+        "tail_1": 587379009,
+        "tail_2": 1338567845,
+        "oracle": 983363517
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-003",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 3,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1208482250,
+        "variation": 1856085802,
+        "collector": 883125279,
+        "render": 1336279127,
+        "bank_lewm": 1060941442,
+        "bank_dino": 1755999036,
+        "tail_1": 287026544,
+        "tail_2": 224342269,
+        "oracle": 519544413
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-004",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 4,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 255255034,
+        "variation": 1249578866,
+        "collector": 1184461979,
+        "render": 1190491633,
+        "bank_lewm": 1667976205,
+        "bank_dino": 45227775,
+        "tail_1": 558871471,
+        "tail_2": 2142306729,
+        "oracle": 1890838552
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-005",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 5,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 2140026886,
+        "variation": 950896912,
+        "collector": 2013897789,
+        "render": 83509441,
+        "bank_lewm": 1483134935,
+        "bank_dino": 169263451,
+        "tail_1": 1430814552,
+        "tail_2": 1693048974,
+        "oracle": 1131852165
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-006",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 6,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 426647328,
+        "variation": 1384707852,
+        "collector": 1325922860,
+        "render": 1467646996,
+        "bank_lewm": 540843786,
+        "bank_dino": 697614071,
+        "tail_1": 919411572,
+        "tail_2": 145902771,
+        "oracle": 720237011
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-007",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 7,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1132629777,
+        "variation": 612406114,
+        "collector": 1995172046,
+        "render": 591184128,
+        "bank_lewm": 1886120414,
+        "bank_dino": 1571977886,
+        "tail_1": 1471931950,
+        "tail_2": 904600494,
+        "oracle": 1312931639
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-008",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 8,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1107814278,
+        "variation": 1099994697,
+        "collector": 276737877,
+        "render": 822581831,
+        "bank_lewm": 665442269,
+        "bank_dino": 1895633820,
+        "tail_1": 2024128704,
+        "tail_2": 1756897518,
+        "oracle": 1505467154
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-009",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 9,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1770668578,
+        "variation": 399748959,
+        "collector": 1213887046,
+        "render": 1538225855,
+        "bank_lewm": 2131346355,
+        "bank_dino": 1871814342,
+        "tail_1": 70415459,
+        "tail_2": 2022116586,
+        "oracle": 247559099
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-010",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 10,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1665222122,
+        "variation": 1001377394,
+        "collector": 1363150821,
+        "render": 1666874450,
+        "bank_lewm": 496605801,
+        "bank_dino": 189897943,
+        "tail_1": 1329527141,
+        "tail_2": 1288094586,
+        "oracle": 394459855
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-011",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 11,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1547219437,
+        "variation": 468057881,
+        "collector": 750447683,
+        "render": 1274820035,
+        "bank_lewm": 468554737,
+        "bank_dino": 1406394995,
+        "tail_1": 1928693282,
+        "tail_2": 2088288174,
+        "oracle": 1198903942
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-012",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 12,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 530989427,
+        "variation": 1063726436,
+        "collector": 211490406,
+        "render": 973834292,
+        "bank_lewm": 2062715408,
+        "bank_dino": 1671031050,
+        "tail_1": 1188826635,
+        "tail_2": 1355324632,
+        "oracle": 1115784678
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-013",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 13,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1348560884,
+        "variation": 955324196,
+        "collector": 976208040,
+        "render": 772733584,
+        "bank_lewm": 1491705582,
+        "bank_dino": 2097690626,
+        "tail_1": 1612621172,
+        "tail_2": 984935643,
+        "oracle": 1769260643
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-014",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 14,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1814857369,
+        "variation": 1599884723,
+        "collector": 1156813925,
+        "render": 1220844480,
+        "bank_lewm": 596455120,
+        "bank_dino": 744512941,
+        "tail_1": 1316994113,
+        "tail_2": 792206450,
+        "oracle": 1610180178
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-015",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 15,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 431274312,
+        "variation": 1159456912,
+        "collector": 1900745432,
+        "render": 538135893,
+        "bank_lewm": 708075338,
+        "bank_dino": 1097672692,
+        "tail_1": 1806844779,
+        "tail_2": 2141961006,
+        "oracle": 2075828482
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-016",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 16,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1711453375,
+        "variation": 2047448185,
+        "collector": 630476901,
+        "render": 64460254,
+        "bank_lewm": 4622249,
+        "bank_dino": 908276166,
+        "tail_1": 1009077098,
+        "tail_2": 1144351977,
+        "oracle": 1513931040
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-017",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 17,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 104758760,
+        "variation": 1744681372,
+        "collector": 592714066,
+        "render": 1056018042,
+        "bank_lewm": 868541120,
+        "bank_dino": 353956541,
+        "tail_1": 1846747315,
+        "tail_2": 2078472193,
+        "oracle": 427056837
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-018",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 18,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 88654989,
+        "variation": 184400784,
+        "collector": 1671040906,
+        "render": 79116772,
+        "bank_lewm": 1113870952,
+        "bank_dino": 400434872,
+        "tail_1": 849449577,
+        "tail_2": 778152847,
+        "oracle": 281189734
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-019",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 19,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1504146180,
+        "variation": 1144841027,
+        "collector": 846291045,
+        "render": 1087041914,
+        "bank_lewm": 768552886,
+        "bank_dino": 1616486234,
+        "tail_1": 223320128,
+        "tail_2": 1214737205,
+        "oracle": 124029988
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-020",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 20,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 2118419776,
+        "variation": 1342811460,
+        "collector": 1295392216,
+        "render": 1474065419,
+        "bank_lewm": 1012645596,
+        "bank_dino": 1832346695,
+        "tail_1": 1573243123,
+        "tail_2": 415627445,
+        "oracle": 542854767
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-021",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 21,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 137551293,
+        "variation": 77584462,
+        "collector": 859110197,
+        "render": 766077466,
+        "bank_lewm": 429668305,
+        "bank_dino": 741231100,
+        "tail_1": 1254023066,
+        "tail_2": 1424922408,
+        "oracle": 2130670555
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-022",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 22,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1242422923,
+        "variation": 1404134395,
+        "collector": 1325771073,
+        "render": 597964077,
+        "bank_lewm": 1217639216,
+        "bank_dino": 1467503754,
+        "tail_1": 724478441,
+        "tail_2": 944919002,
+        "oracle": 207556499
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-023",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 23,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1193891978,
+        "variation": 1574278633,
+        "collector": 245558542,
+        "render": 1305286385,
+        "bank_lewm": 144133049,
+        "bank_dino": 2097343611,
+        "tail_1": 65216993,
+        "tail_2": 1415709730,
+        "oracle": 945627435
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-024",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 24,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1718192873,
+        "variation": 1809663145,
+        "collector": 658065312,
+        "render": 1967500955,
+        "bank_lewm": 472668721,
+        "bank_dino": 1835681197,
+        "tail_1": 1405280281,
+        "tail_2": 1272887535,
+        "oracle": 1141969407
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-025",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 25,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1825442006,
+        "variation": 311654962,
+        "collector": 564223898,
+        "render": 1263813534,
+        "bank_lewm": 174418505,
+        "bank_dino": 149659724,
+        "tail_1": 730856046,
+        "tail_2": 1721338675,
+        "oracle": 1119747691
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-026",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 26,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 740547490,
+        "variation": 424743434,
+        "collector": 795892529,
+        "render": 120358583,
+        "bank_lewm": 1175945515,
+        "bank_dino": 1019423902,
+        "tail_1": 335723107,
+        "tail_2": 1473849565,
+        "oracle": 1929181696
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-027",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 27,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1719704760,
+        "variation": 1809858967,
+        "collector": 988144817,
+        "render": 409501970,
+        "bank_lewm": 1647442558,
+        "bank_dino": 1444283350,
+        "tail_1": 469098677,
+        "tail_2": 1780168951,
+        "oracle": 1819403873
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-028",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 28,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1548315708,
+        "variation": 1256589209,
+        "collector": 1174606807,
+        "render": 2130770927,
+        "bank_lewm": 520838006,
+        "bank_dino": 1525078378,
+        "tail_1": 616480714,
+        "tail_2": 145507124,
+        "oracle": 1003124234
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-029",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 29,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 339657367,
+        "variation": 880158719,
+        "collector": 1259375515,
+        "render": 1171022551,
+        "bank_lewm": 719656039,
+        "bank_dino": 110019949,
+        "tail_1": 673536494,
+        "tail_2": 353629904,
+        "oracle": 911844218
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-030",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 30,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 619746155,
+        "variation": 186976858,
+        "collector": 1319780196,
+        "render": 1310452615,
+        "bank_lewm": 1394003802,
+        "bank_dino": 1796346929,
+        "tail_1": 1836052217,
+        "tail_2": 1637175307,
+        "oracle": 2146794396
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-031",
+      "task": "pusht",
+      "role": "diagnostic",
+      "root_index": 31,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 269916527,
+        "variation": 2009534344,
+        "collector": 830458018,
+        "render": 2114764752,
+        "bank_lewm": 1112808699,
+        "bank_dino": 2069615911,
+        "tail_1": 129139340,
+        "tail_2": 1053679284,
+        "oracle": 1434918477
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-032",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 32,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 814905798,
+        "variation": 1027250775,
+        "collector": 245186361,
+        "render": 1770228252,
+        "bank_lewm": 1619300245,
+        "bank_dino": 690516638,
+        "tail_1": 636589981,
+        "tail_2": 2124081562,
+        "oracle": 1929040848
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-033",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 33,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1203502517,
+        "variation": 726773335,
+        "collector": 695066963,
+        "render": 809940061,
+        "bank_lewm": 719545024,
+        "bank_dino": 1219522629,
+        "tail_1": 743152195,
+        "tail_2": 345730224,
+        "oracle": 192198306
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-034",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 34,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1381747722,
+        "variation": 1053969469,
+        "collector": 1826625740,
+        "render": 2094726570,
+        "bank_lewm": 1675336119,
+        "bank_dino": 789384177,
+        "tail_1": 186532830,
+        "tail_2": 110759066,
+        "oracle": 1505150904
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-035",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 35,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 197879748,
+        "variation": 1499066579,
+        "collector": 400361203,
+        "render": 1267841585,
+        "bank_lewm": 1092246574,
+        "bank_dino": 125163261,
+        "tail_1": 1272944267,
+        "tail_2": 718265819,
+        "oracle": 501059852
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-036",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 36,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1425439436,
+        "variation": 2146802390,
+        "collector": 1797818335,
+        "render": 1140667786,
+        "bank_lewm": 901271719,
+        "bank_dino": 1441719501,
+        "tail_1": 311833995,
+        "tail_2": 1002994840,
+        "oracle": 1087607257
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-037",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 37,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1062132982,
+        "variation": 1323642545,
+        "collector": 752799040,
+        "render": 2074847716,
+        "bank_lewm": 1472743070,
+        "bank_dino": 127310783,
+        "tail_1": 1804827830,
+        "tail_2": 1337998327,
+        "oracle": 2018429517
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-038",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 38,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1979589415,
+        "variation": 1147545226,
+        "collector": 734080261,
+        "render": 1604517953,
+        "bank_lewm": 1638507506,
+        "bank_dino": 1398935155,
+        "tail_1": 1532311651,
+        "tail_2": 1925466917,
+        "oracle": 1397360464
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-039",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 39,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1649330926,
+        "variation": 1429813086,
+        "collector": 1965430935,
+        "render": 2031857450,
+        "bank_lewm": 426714602,
+        "bank_dino": 850259306,
+        "tail_1": 144308106,
+        "tail_2": 862342781,
+        "oracle": 695644296
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-040",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 40,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 834732596,
+        "variation": 924961014,
+        "collector": 954850723,
+        "render": 1041393726,
+        "bank_lewm": 1807356216,
+        "bank_dino": 2002223933,
+        "tail_1": 1148848090,
+        "tail_2": 499897492,
+        "oracle": 568940251
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-041",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 41,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1994159597,
+        "variation": 880993503,
+        "collector": 1021044186,
+        "render": 514877985,
+        "bank_lewm": 888744796,
+        "bank_dino": 2062750342,
+        "tail_1": 559755148,
+        "tail_2": 444984949,
+        "oracle": 883992639
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-042",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 42,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 849137562,
+        "variation": 394219695,
+        "collector": 531929578,
+        "render": 827943932,
+        "bank_lewm": 1646544350,
+        "bank_dino": 1361233828,
+        "tail_1": 1871621378,
+        "tail_2": 1571262929,
+        "oracle": 1482240887
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-043",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 43,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 9723640,
+        "variation": 1059995573,
+        "collector": 1901641084,
+        "render": 1774272263,
+        "bank_lewm": 1423007254,
+        "bank_dino": 697742608,
+        "tail_1": 1080902152,
+        "tail_2": 1851076931,
+        "oracle": 1141636271
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-044",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 44,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1076745267,
+        "variation": 810737008,
+        "collector": 1028805555,
+        "render": 1215593974,
+        "bank_lewm": 1420820719,
+        "bank_dino": 1325482038,
+        "tail_1": 1203894265,
+        "tail_2": 1024134398,
+        "oracle": 1760702489
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-045",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 45,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 2026379783,
+        "variation": 799672097,
+        "collector": 1655975747,
+        "render": 1833801491,
+        "bank_lewm": 547246342,
+        "bank_dino": 366842257,
+        "tail_1": 543556120,
+        "tail_2": 1434458668,
+        "oracle": 248585346
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-046",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 46,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1621241588,
+        "variation": 1228384784,
+        "collector": 1601754103,
+        "render": 463179325,
+        "bank_lewm": 1303976319,
+        "bank_dino": 832371956,
+        "tail_1": 298156371,
+        "tail_2": 1185010630,
+        "oracle": 1270994816
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-047",
+      "task": "pusht",
+      "role": "readout_fit",
+      "root_index": 47,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 426270823,
+        "variation": 971065288,
+        "collector": 1734465961,
+        "render": 2075548404,
+        "bank_lewm": 1147349147,
+        "bank_dino": 1456034433,
+        "tail_1": 1424453954,
+        "tail_2": 1034435945,
+        "oracle": 1379494966
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-048",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 48,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1850747196,
+        "variation": 1693435154,
+        "collector": 771563504,
+        "render": 336065207,
+        "bank_lewm": 1320008861,
+        "bank_dino": 384858601,
+        "tail_1": 1019761032,
+        "tail_2": 2139398105,
+        "oracle": 42401969
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-049",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 49,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 703300029,
+        "variation": 104099428,
+        "collector": 2070885985,
+        "render": 1033530403,
+        "bank_lewm": 444932949,
+        "bank_dino": 128543174,
+        "tail_1": 1827341985,
+        "tail_2": 64786026,
+        "oracle": 1091709896
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-050",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 50,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1375705005,
+        "variation": 845870263,
+        "collector": 944368868,
+        "render": 2094355984,
+        "bank_lewm": 730971670,
+        "bank_dino": 1877248519,
+        "tail_1": 529107752,
+        "tail_2": 15409613,
+        "oracle": 784390432
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-051",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 51,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 498764572,
+        "variation": 177401722,
+        "collector": 76570807,
+        "render": 1641808646,
+        "bank_lewm": 1476649346,
+        "bank_dino": 628268811,
+        "tail_1": 171005008,
+        "tail_2": 683354473,
+        "oracle": 932192585
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-052",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 52,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1831595567,
+        "variation": 1179117148,
+        "collector": 1406136153,
+        "render": 2010689307,
+        "bank_lewm": 2023406462,
+        "bank_dino": 1885515381,
+        "tail_1": 1115688799,
+        "tail_2": 918314059,
+        "oracle": 897468177
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-053",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 53,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1574171276,
+        "variation": 631914863,
+        "collector": 802898091,
+        "render": 1195327607,
+        "bank_lewm": 905098602,
+        "bank_dino": 227163163,
+        "tail_1": 249292743,
+        "tail_2": 218017141,
+        "oracle": 513259786
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-054",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 54,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1144034024,
+        "variation": 2024009436,
+        "collector": 1506834039,
+        "render": 621607966,
+        "bank_lewm": 1658807994,
+        "bank_dino": 341862282,
+        "tail_1": 256861662,
+        "tail_2": 1926754679,
+        "oracle": 164168209
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-055",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 55,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 743457739,
+        "variation": 1737885012,
+        "collector": 667627514,
+        "render": 1243263848,
+        "bank_lewm": 1296405391,
+        "bank_dino": 810034115,
+        "tail_1": 2073554246,
+        "tail_2": 523838528,
+        "oracle": 1377822888
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-056",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 56,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 745071614,
+        "variation": 1733084393,
+        "collector": 1113757660,
+        "render": 1357823720,
+        "bank_lewm": 1074024031,
+        "bank_dino": 1777726034,
+        "tail_1": 502002567,
+        "tail_2": 1297978083,
+        "oracle": 879114645
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-057",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 57,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1998785664,
+        "variation": 75663265,
+        "collector": 387182323,
+        "render": 441761782,
+        "bank_lewm": 618398657,
+        "bank_dino": 71833902,
+        "tail_1": 363566796,
+        "tail_2": 754783974,
+        "oracle": 121019002
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-058",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 58,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 871581181,
+        "variation": 1232997606,
+        "collector": 1713424598,
+        "render": 714643545,
+        "bank_lewm": 1906112538,
+        "bank_dino": 777898116,
+        "tail_1": 788851023,
+        "tail_2": 1520127729,
+        "oracle": 323635431
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-059",
+      "task": "pusht",
+      "role": "readout_validation",
+      "root_index": 59,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 236913830,
+        "variation": 237615521,
+        "collector": 335912052,
+        "render": 152535536,
+        "bank_lewm": 1442269461,
+        "bank_dino": 1915943642,
+        "tail_1": 961719958,
+        "tail_2": 287437534,
+        "oracle": 1086632595
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-000",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 0,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 40454325,
+        "variation": 1388695598,
+        "collector": 2132361866,
+        "render": 1165004482,
+        "bank_lewm": 931647144,
+        "bank_dino": 1114500741,
+        "tail_1": 2111667137,
+        "tail_2": 78945108,
+        "oracle": 369193422
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-001",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 1,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 976189134,
+        "variation": 1393604634,
+        "collector": 29250927,
+        "render": 1406828520,
+        "bank_lewm": 1980314735,
+        "bank_dino": 1298154345,
+        "tail_1": 781545224,
+        "tail_2": 2107677934,
+        "oracle": 856088438
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-002",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 2,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1796257846,
+        "variation": 1591392789,
+        "collector": 2062821928,
+        "render": 894439337,
+        "bank_lewm": 1025514461,
+        "bank_dino": 1390847746,
+        "tail_1": 272042992,
+        "tail_2": 1090099517,
+        "oracle": 1085183847
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-003",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 3,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1150922442,
+        "variation": 1608381872,
+        "collector": 1128323347,
+        "render": 239779410,
+        "bank_lewm": 1874950361,
+        "bank_dino": 1625296261,
+        "tail_1": 944140730,
+        "tail_2": 1461245500,
+        "oracle": 826870906
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-004",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 4,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 905569879,
+        "variation": 1830879482,
+        "collector": 1632641869,
+        "render": 1835022826,
+        "bank_lewm": 486394194,
+        "bank_dino": 1756207026,
+        "tail_1": 149071905,
+        "tail_2": 60085874,
+        "oracle": 413906051
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-005",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 5,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1243910566,
+        "variation": 1074095307,
+        "collector": 259249350,
+        "render": 401820105,
+        "bank_lewm": 638474487,
+        "bank_dino": 283637938,
+        "tail_1": 296427858,
+        "tail_2": 405110750,
+        "oracle": 860464827
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-006",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 6,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1046925847,
+        "variation": 1290376687,
+        "collector": 1032996218,
+        "render": 604485276,
+        "bank_lewm": 194390695,
+        "bank_dino": 2142897423,
+        "tail_1": 614301093,
+        "tail_2": 1008812906,
+        "oracle": 315810582
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-007",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 7,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1640492720,
+        "variation": 147800725,
+        "collector": 328381064,
+        "render": 631289245,
+        "bank_lewm": 486934446,
+        "bank_dino": 1658880,
+        "tail_1": 65717270,
+        "tail_2": 272951769,
+        "oracle": 952227806
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-008",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 8,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 142764357,
+        "variation": 278311688,
+        "collector": 318894450,
+        "render": 1098136773,
+        "bank_lewm": 1037947102,
+        "bank_dino": 1495605364,
+        "tail_1": 552287361,
+        "tail_2": 460768869,
+        "oracle": 9315116
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-009",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 9,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 194807892,
+        "variation": 830094041,
+        "collector": 1852843904,
+        "render": 1989952947,
+        "bank_lewm": 709829051,
+        "bank_dino": 1518231003,
+        "tail_1": 487097895,
+        "tail_2": 438977536,
+        "oracle": 39391002
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-010",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 10,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 357673472,
+        "variation": 1695692183,
+        "collector": 410134741,
+        "render": 1261920415,
+        "bank_lewm": 427520545,
+        "bank_dino": 2111938179,
+        "tail_1": 994327389,
+        "tail_2": 591384252,
+        "oracle": 588729700
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-011",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 11,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 180135935,
+        "variation": 1481802384,
+        "collector": 1921933265,
+        "render": 156244102,
+        "bank_lewm": 1663337944,
+        "bank_dino": 444822593,
+        "tail_1": 2099866005,
+        "tail_2": 23476653,
+        "oracle": 1640888222
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-012",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 12,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 652021739,
+        "variation": 1242178461,
+        "collector": 1616642338,
+        "render": 1443816174,
+        "bank_lewm": 640361015,
+        "bank_dino": 1014702209,
+        "tail_1": 1709854622,
+        "tail_2": 365549304,
+        "oracle": 1523871499
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-013",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 13,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 722987731,
+        "variation": 1169112745,
+        "collector": 957117763,
+        "render": 845108060,
+        "bank_lewm": 1787454438,
+        "bank_dino": 105980561,
+        "tail_1": 1321973764,
+        "tail_2": 420304272,
+        "oracle": 1996835395
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-014",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 14,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 98093879,
+        "variation": 481633828,
+        "collector": 1254158662,
+        "render": 230206705,
+        "bank_lewm": 574966485,
+        "bank_dino": 1978503213,
+        "tail_1": 993068956,
+        "tail_2": 1179986714,
+        "oracle": 48229104
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-015",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 15,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 102114508,
+        "variation": 696871356,
+        "collector": 1071006640,
+        "render": 864285062,
+        "bank_lewm": 424632647,
+        "bank_dino": 2124445766,
+        "tail_1": 1117679770,
+        "tail_2": 1982157851,
+        "oracle": 321571755
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-016",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 16,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 896405670,
+        "variation": 1422722707,
+        "collector": 448370599,
+        "render": 1995883366,
+        "bank_lewm": 423537093,
+        "bank_dino": 2056435690,
+        "tail_1": 2009068403,
+        "tail_2": 428601521,
+        "oracle": 1273533250
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-017",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 17,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1829069856,
+        "variation": 1083153591,
+        "collector": 894603632,
+        "render": 1402383331,
+        "bank_lewm": 1927062379,
+        "bank_dino": 1663314227,
+        "tail_1": 15113206,
+        "tail_2": 351065181,
+        "oracle": 551503346
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-018",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 18,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 2012452488,
+        "variation": 1519574270,
+        "collector": 1753353881,
+        "render": 815741438,
+        "bank_lewm": 1720559403,
+        "bank_dino": 1179167345,
+        "tail_1": 1372355799,
+        "tail_2": 784144165,
+        "oracle": 253881776
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-019",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 19,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1657834072,
+        "variation": 316034529,
+        "collector": 814598902,
+        "render": 1301555106,
+        "bank_lewm": 1665813267,
+        "bank_dino": 1841405862,
+        "tail_1": 916459616,
+        "tail_2": 1729610784,
+        "oracle": 1284024755
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-020",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 20,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 283428178,
+        "variation": 898862366,
+        "collector": 147304931,
+        "render": 2055234967,
+        "bank_lewm": 948117431,
+        "bank_dino": 934901472,
+        "tail_1": 652706866,
+        "tail_2": 1815581397,
+        "oracle": 64293569
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-021",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 21,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 806069625,
+        "variation": 325010827,
+        "collector": 393157848,
+        "render": 250921648,
+        "bank_lewm": 230631470,
+        "bank_dino": 2129150275,
+        "tail_1": 1712194637,
+        "tail_2": 1423768227,
+        "oracle": 17642885
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-022",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 22,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1469504014,
+        "variation": 1104550271,
+        "collector": 824358262,
+        "render": 1144732488,
+        "bank_lewm": 1516488992,
+        "bank_dino": 711855712,
+        "tail_1": 749791017,
+        "tail_2": 2139767961,
+        "oracle": 788799147
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-023",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 23,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1426765050,
+        "variation": 2033395537,
+        "collector": 523614201,
+        "render": 1682107233,
+        "bank_lewm": 722799371,
+        "bank_dino": 90991160,
+        "tail_1": 246580891,
+        "tail_2": 575941112,
+        "oracle": 507294864
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-024",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 24,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1098428583,
+        "variation": 495889676,
+        "collector": 904723342,
+        "render": 1427828569,
+        "bank_lewm": 908553710,
+        "bank_dino": 675382841,
+        "tail_1": 444282663,
+        "tail_2": 1978793457,
+        "oracle": 1867487397
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-025",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 25,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1730936899,
+        "variation": 1251595853,
+        "collector": 416537998,
+        "render": 420770509,
+        "bank_lewm": 789760557,
+        "bank_dino": 2138485997,
+        "tail_1": 956968425,
+        "tail_2": 936301987,
+        "oracle": 606219173
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-026",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 26,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1006173973,
+        "variation": 347701694,
+        "collector": 805302619,
+        "render": 1463547349,
+        "bank_lewm": 2040105139,
+        "bank_dino": 799362138,
+        "tail_1": 1725012878,
+        "tail_2": 2086147052,
+        "oracle": 2027873190
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-027",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 27,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1068473029,
+        "variation": 1219844359,
+        "collector": 704332320,
+        "render": 1508161389,
+        "bank_lewm": 1598435342,
+        "bank_dino": 1277412215,
+        "tail_1": 327333444,
+        "tail_2": 473003503,
+        "oracle": 1021622519
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-028",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 28,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1200177712,
+        "variation": 1531550356,
+        "collector": 1321218017,
+        "render": 1783511278,
+        "bank_lewm": 1541068829,
+        "bank_dino": 537807285,
+        "tail_1": 242574800,
+        "tail_2": 558030732,
+        "oracle": 355942521
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-029",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 29,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 771198664,
+        "variation": 1766360762,
+        "collector": 987237373,
+        "render": 904035361,
+        "bank_lewm": 669700610,
+        "bank_dino": 11871258,
+        "tail_1": 735633474,
+        "tail_2": 785431101,
+        "oracle": 828612981
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-030",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 30,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 858294426,
+        "variation": 1921108921,
+        "collector": 1729277088,
+        "render": 611306101,
+        "bank_lewm": 927317046,
+        "bank_dino": 1023905692,
+        "tail_1": 1545047254,
+        "tail_2": 1078263093,
+        "oracle": 442128931
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-031",
+      "task": "reacher",
+      "role": "diagnostic",
+      "root_index": 31,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1822882359,
+        "variation": 45955202,
+        "collector": 474324022,
+        "render": 1588304022,
+        "bank_lewm": 1365695849,
+        "bank_dino": 512690554,
+        "tail_1": 1223753031,
+        "tail_2": 1115774363,
+        "oracle": 298957547
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-032",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 32,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 173750090,
+        "variation": 852107057,
+        "collector": 24666933,
+        "render": 2081264820,
+        "bank_lewm": 181888146,
+        "bank_dino": 769590874,
+        "tail_1": 516316172,
+        "tail_2": 193090430,
+        "oracle": 632290559
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-033",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 33,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 878464653,
+        "variation": 1243437469,
+        "collector": 838766101,
+        "render": 1606122609,
+        "bank_lewm": 100859467,
+        "bank_dino": 1774605129,
+        "tail_1": 1778582179,
+        "tail_2": 746260501,
+        "oracle": 759802629
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-034",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 34,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1256927498,
+        "variation": 1196738909,
+        "collector": 1863988836,
+        "render": 1932046634,
+        "bank_lewm": 1073609542,
+        "bank_dino": 1940316933,
+        "tail_1": 1105594129,
+        "tail_2": 1727927269,
+        "oracle": 463264113
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-035",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 35,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1244467126,
+        "variation": 77314113,
+        "collector": 1709807310,
+        "render": 1863860952,
+        "bank_lewm": 1762716691,
+        "bank_dino": 1887964570,
+        "tail_1": 2106795255,
+        "tail_2": 1781958978,
+        "oracle": 281246929
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-036",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 36,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1426729094,
+        "variation": 1064583970,
+        "collector": 1685016085,
+        "render": 1320090356,
+        "bank_lewm": 1234113932,
+        "bank_dino": 1806036702,
+        "tail_1": 1118464890,
+        "tail_2": 1195668332,
+        "oracle": 931154105
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-037",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 37,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1576928125,
+        "variation": 1817071569,
+        "collector": 1647374731,
+        "render": 102546863,
+        "bank_lewm": 274959274,
+        "bank_dino": 606267250,
+        "tail_1": 422764725,
+        "tail_2": 412124382,
+        "oracle": 1060715601
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-038",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 38,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 290539644,
+        "variation": 200270093,
+        "collector": 1948921880,
+        "render": 654043722,
+        "bank_lewm": 160364440,
+        "bank_dino": 1220187033,
+        "tail_1": 1946218643,
+        "tail_2": 1501828624,
+        "oracle": 948787503
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-039",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 39,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1705962713,
+        "variation": 1840868787,
+        "collector": 271129833,
+        "render": 2065140882,
+        "bank_lewm": 1858892978,
+        "bank_dino": 1295535118,
+        "tail_1": 1449320533,
+        "tail_2": 228463726,
+        "oracle": 1586981041
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-040",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 40,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 2090050366,
+        "variation": 1631433385,
+        "collector": 692935915,
+        "render": 1226155261,
+        "bank_lewm": 2130398409,
+        "bank_dino": 600325059,
+        "tail_1": 976942425,
+        "tail_2": 269517586,
+        "oracle": 2019800686
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-041",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 41,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1069604569,
+        "variation": 1298706028,
+        "collector": 456259448,
+        "render": 1694946402,
+        "bank_lewm": 580418076,
+        "bank_dino": 1475590287,
+        "tail_1": 663094729,
+        "tail_2": 2017828747,
+        "oracle": 237640166
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-042",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 42,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 2134199438,
+        "variation": 1570073210,
+        "collector": 136944701,
+        "render": 1535651975,
+        "bank_lewm": 793713857,
+        "bank_dino": 1888117666,
+        "tail_1": 1829073075,
+        "tail_2": 115330666,
+        "oracle": 763754472
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-043",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 43,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1237694859,
+        "variation": 147645034,
+        "collector": 1857489227,
+        "render": 1639558276,
+        "bank_lewm": 520630703,
+        "bank_dino": 1150090471,
+        "tail_1": 1658452561,
+        "tail_2": 2098182614,
+        "oracle": 962750127
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-044",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 44,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1162136549,
+        "variation": 1092299806,
+        "collector": 1252445069,
+        "render": 983814358,
+        "bank_lewm": 1363626253,
+        "bank_dino": 1180706683,
+        "tail_1": 2083791617,
+        "tail_2": 689282736,
+        "oracle": 1916159769
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-045",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 45,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1530428907,
+        "variation": 1319461979,
+        "collector": 1242851069,
+        "render": 1978688241,
+        "bank_lewm": 2127912573,
+        "bank_dino": 1270882608,
+        "tail_1": 801622426,
+        "tail_2": 485489810,
+        "oracle": 1921847047
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-046",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 46,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 216307799,
+        "variation": 847663284,
+        "collector": 1929518858,
+        "render": 1056103367,
+        "bank_lewm": 1504685550,
+        "bank_dino": 1257832268,
+        "tail_1": 1269888901,
+        "tail_2": 1790606047,
+        "oracle": 95221096
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-047",
+      "task": "reacher",
+      "role": "readout_fit",
+      "root_index": 47,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        12,
+        14,
+        16,
+        19,
+        21,
+        23,
+        25,
+        28,
+        30,
+        32,
+        34,
+        37,
+        39,
+        41,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1588045134,
+        "variation": 1469097994,
+        "collector": 1920513710,
+        "render": 1030905012,
+        "bank_lewm": 1825885829,
+        "bank_dino": 962830108,
+        "tail_1": 1587634281,
+        "tail_2": 1487981056,
+        "oracle": 1113916807
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-048",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 48,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 253032096,
+        "variation": 153835248,
+        "collector": 398439467,
+        "render": 1914965297,
+        "bank_lewm": 2136197516,
+        "bank_dino": 1415033861,
+        "tail_1": 1696983171,
+        "tail_2": 1087299516,
+        "oracle": 654056644
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-049",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 49,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1980942432,
+        "variation": 1841800011,
+        "collector": 772310314,
+        "render": 254360963,
+        "bank_lewm": 45420007,
+        "bank_dino": 1179078688,
+        "tail_1": 1630193146,
+        "tail_2": 798493179,
+        "oracle": 1317928128
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-050",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 50,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 877910500,
+        "variation": 896940024,
+        "collector": 1165793876,
+        "render": 1584619587,
+        "bank_lewm": 1373815642,
+        "bank_dino": 1302215829,
+        "tail_1": 1949812201,
+        "tail_2": 1115465182,
+        "oracle": 141535367
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-051",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 51,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1473427808,
+        "variation": 1962746153,
+        "collector": 807662989,
+        "render": 437279260,
+        "bank_lewm": 240802209,
+        "bank_dino": 1212606400,
+        "tail_1": 1496866607,
+        "tail_2": 171449424,
+        "oracle": 568336044
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-052",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 52,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 362174329,
+        "variation": 1338496334,
+        "collector": 314724220,
+        "render": 1616358658,
+        "bank_lewm": 1920439958,
+        "bank_dino": 485936237,
+        "tail_1": 1878379917,
+        "tail_2": 1299959521,
+        "oracle": 1377580362
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-053",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 53,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 852355256,
+        "variation": 86522619,
+        "collector": 954981948,
+        "render": 1023512503,
+        "bank_lewm": 2024297041,
+        "bank_dino": 337290397,
+        "tail_1": 1877345775,
+        "tail_2": 578252715,
+        "oracle": 1943451480
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-054",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 54,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1576646651,
+        "variation": 740140990,
+        "collector": 1185326089,
+        "render": 1046125686,
+        "bank_lewm": 1604126208,
+        "bank_dino": 1068975620,
+        "tail_1": 1078499578,
+        "tail_2": 1239036810,
+        "oracle": 2074850648
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-055",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 55,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 638566651,
+        "variation": 2078405697,
+        "collector": 1812399025,
+        "render": 2067188801,
+        "bank_lewm": 1190232662,
+        "bank_dino": 1752694697,
+        "tail_1": 1249096625,
+        "tail_2": 2110596352,
+        "oracle": 494017052
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-056",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 56,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1019720378,
+        "variation": 1975918454,
+        "collector": 1774835366,
+        "render": 157226753,
+        "bank_lewm": 1947862430,
+        "bank_dino": 643558250,
+        "tail_1": 357150894,
+        "tail_2": 2036340742,
+        "oracle": 1044938912
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-057",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 57,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 219037490,
+        "variation": 1204099183,
+        "collector": 958485414,
+        "render": 1465422527,
+        "bank_lewm": 534642580,
+        "bank_dino": 611909136,
+        "tail_1": 2021830445,
+        "tail_2": 540662552,
+        "oracle": 1812667193
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-058",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 58,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 185875305,
+        "variation": 1292587679,
+        "collector": 245540293,
+        "render": 700726160,
+        "bank_lewm": 645504728,
+        "bank_dino": 2122313221,
+        "tail_1": 2071383021,
+        "tail_2": 1562973420,
+        "oracle": 54042648
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    },
+    {
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-059",
+      "task": "reacher",
+      "role": "readout_validation",
+      "root_index": 59,
+      "status": "PROPOSED_NOT_GENERATED",
+      "source_action_index": 20,
+      "goal_action_index": 44,
+      "collection_actions_cap": 44,
+      "readout_frame_indices": [
+        10,
+        14,
+        19,
+        24,
+        29,
+        34,
+        39,
+        44
+      ],
+      "history_catalog_indices": [
+        10,
+        15,
+        20
+      ],
+      "native_input_indices": [
+        20
+      ],
+      "seeds": {
+        "native_reset": 1366588721,
+        "variation": 1870987787,
+        "collector": 1364509119,
+        "render": 1862234002,
+        "bank_lewm": 722282536,
+        "bank_dino": 1371910098,
+        "tail_1": 1109491542,
+        "tail_2": 565600716,
+        "oracle": 156897131
+      },
+      "backbones": [
+        "lewm",
+        "dinowm_noprop"
+      ]
+    }
+  ]
+}

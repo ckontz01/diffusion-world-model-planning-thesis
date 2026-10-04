@@ -1,0 +1,30 @@
+{
+  "label": "A2-SOURCE-001",
+  "state": "finished",
+  "started_unix": 1791126407.156501,
+  "wall_seconds": 96.9179623000091,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 107.1827710000858,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.public_audit",
+    "sources"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"source_files\": 218,\n  \"bytes\": 1590378\n}\n",
+  "stderr": "",
+  "cumulative_seconds": 204.10073330009487,
+  "peak_job_memory_bytes": 26677248,
+  "affinity_mask": 15,
+  "retained_local_bytes": 3045272,
+  "code_metadata_bytes": 3045272,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

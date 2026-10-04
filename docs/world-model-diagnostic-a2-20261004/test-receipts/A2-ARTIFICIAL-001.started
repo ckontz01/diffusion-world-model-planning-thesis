@@ -1,0 +1,23 @@
+{
+  "label": "A2-ARTIFICIAL-001",
+  "state": "running",
+  "started_unix": 1791127055.6978116,
+  "wall_seconds": 0,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 238.4292210001791,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "wm_diag0_a2.test_a2",
+    "wm_diag0.test_components",
+    "wm_diag0.test_bind1",
+    "wm_diag0.test_package",
+    "wm_diag0.test_native_shape_artificial"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false
+}

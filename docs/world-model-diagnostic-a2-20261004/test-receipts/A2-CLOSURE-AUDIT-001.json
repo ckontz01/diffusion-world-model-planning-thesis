@@ -1,0 +1,29 @@
+{
+  "label": "A2-CLOSURE-AUDIT-001",
+  "state": "finished",
+  "started_unix": 1791128076.27474,
+  "wall_seconds": 23.728433699987363,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 243.81068340014332,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.audit_package"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\"original_git_commit\": \"0386998aab0994a724bf46b331939e99854bf3e9\", \"dependencies_authenticated\": 90, \"source_receipts_authenticated\": 222, \"request\": {\"bytes\": 8999, \"sha256\": \"08db8b33bec6b1dd4afe54dfa0e1f73049b56083c0654bd3b3ed9f26a5db0345\"}}\n",
+  "stderr": "",
+  "cumulative_seconds": 267.5391171001307,
+  "peak_job_memory_bytes": 59600896,
+  "affinity_mask": 15,
+  "retained_local_bytes": 269308028,
+  "code_metadata_bytes": 3349203,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

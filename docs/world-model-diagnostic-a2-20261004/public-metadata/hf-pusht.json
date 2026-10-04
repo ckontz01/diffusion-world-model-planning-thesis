@@ -1,0 +1,217 @@
+{
+  "_id": "6aba5dec88cbe1b2177bc7a7",
+  "id": "fafraob/point-cloud-pusht",
+  "private": false,
+  "pipeline_tag": "robotics",
+  "tags": [
+    "world-model",
+    "jepa",
+    "point-cloud",
+    "planning",
+    "robotics",
+    "dataset:fafraob/point-cloud-pusht",
+    "arxiv:2608.29434",
+    "arxiv:2411.04983",
+    "license:cc-by-4.0",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 1,
+  "modelId": "fafraob/point-cloud-pusht",
+  "author": "fafraob",
+  "sha": "664278a4c0b4c5f607d0993744986b2d10b4168e",
+  "lastModified": "2026-09-28T13:00:26.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "cc-by-4.0",
+    "arxiv": 2608.29434,
+    "datasets": [
+      "fafraob/point-cloud-pusht"
+    ],
+    "tags": [
+      "world-model",
+      "jepa",
+      "point-cloud",
+      "planning",
+      "robotics"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+      "size": 1519
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "c3e474a5e6bcca2e23c57c76eeffdad93b3214b9",
+      "size": 3292
+    },
+    {
+      "rfilename": "dino-wm/checkpoints/model_latest.pth",
+      "blobId": "b1e7c79d4cabad708c90d0909e47f53c748b22df",
+      "size": 88837855,
+      "lfs": {
+        "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+        "size": 88837855,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "dino-wm/hydra.yaml",
+      "blobId": "cd569597b7d6194e7f626cd01f5d2c49c2036965",
+      "size": 904
+    },
+    {
+      "rfilename": "dino-wm/swm_h5_norm_stats.json",
+      "blobId": "aafe920b831e0aa03ee393f1322cbd52ecb628a3",
+      "size": 571
+    },
+    {
+      "rfilename": "image-delta-jepa/config.json",
+      "blobId": "1b2a374474c742bad14352c665ae41d2ccc28a8b",
+      "size": 1232
+    },
+    {
+      "rfilename": "image-delta-jepa/weights.pt",
+      "blobId": "1e15e02df87f8b7c8c801ec26fe9e784a62f4af4",
+      "size": 82082825,
+      "lfs": {
+        "sha256": "f193d675ee0d96aa0dbdd3d807d77f1d65a1f4b3509bb95ec1f6499217f95247",
+        "size": 82082825,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-delta-jepa/config.json",
+      "blobId": "7aa5200fb72d121a2751f1bca8ad663661f22026",
+      "size": 1480
+    },
+    {
+      "rfilename": "point-delta-jepa/target2latent/mlp/model.pt",
+      "blobId": "e8ac7ac1808897679d95c10254887404cc6c0b52",
+      "size": 69616931,
+      "lfs": {
+        "sha256": "3fba1355481cfb766a78b957c96d715e215c6c055b3866251b0f4cebaf83a7df",
+        "size": 69616931,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-delta-jepa/target2latent/mlp_z/model.pt",
+      "blobId": "577f60a7ff8805083fd8a845717d3d9896f9b7ca",
+      "size": 70403363,
+      "lfs": {
+        "sha256": "44a3591d66c0937fc473782bd4000049cc713bd9777b4242b67ab4f441675f7d",
+        "size": 70403363,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-delta-jepa/target2latent/shortcut/model.pt",
+      "blobId": "5d38cbad55a1c6bf7a9ed49ac85eb0fe5314f9c5",
+      "size": 83506742,
+      "lfs": {
+        "sha256": "ad962cb32847f71c51346c182ef5b72151cfddd13c0ef5e86f515d3dd880bc9b",
+        "size": 83506742,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-delta-jepa/target2latent/shortcut_z/model.pt",
+      "blobId": "64ee5aadd184c3a897aa0ddc17284e3c70541d97",
+      "size": 83703350,
+      "lfs": {
+        "sha256": "f3ef2895ca5f00071834ae46fe61efaec2cee6e5c99cf52e26c915f2ba1dac21",
+        "size": 83703350,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-delta-jepa/weights.pt",
+      "blobId": "8a078ea7019de907c2985397511788b7a37d8519",
+      "size": 83012963,
+      "lfs": {
+        "sha256": "4a4315fdfae6b0ce15868fbb2bb4d80a6ebeda6c2d3f0a7c1f71cb8f1b36a237",
+        "size": 83012963,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-lewm/config.json",
+      "blobId": "a11b5506a741ed55636006a9322e90ea0d77e031",
+      "size": 1263
+    },
+    {
+      "rfilename": "point-lewm/target2latent/mlp/model.pt",
+      "blobId": "46cffb00c5063c771df31b27cfa3b06035c46a61",
+      "size": 69616867,
+      "lfs": {
+        "sha256": "e947df64c44c95855b9542fcca6df42cd2fcf7803e3262ecb7dfe48cca0156b5",
+        "size": 69616867,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-lewm/target2latent/mlp_z/model.pt",
+      "blobId": "0e2452208b05d686a9012e1639ab5138ed0bba36",
+      "size": 70403299,
+      "lfs": {
+        "sha256": "81fd24ed49772647b801d1621b15fbc462c53560dc3d2fff59bc31b9e564841c",
+        "size": 70403299,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-lewm/target2latent/shortcut/model.pt",
+      "blobId": "0ac21c997a270e8b1e197d2729d8ca63af76525e",
+      "size": 83506742,
+      "lfs": {
+        "sha256": "5c5f275a5ac88724ef9def581e0becb9badbf5c49f68594433387dd098ee3fc3",
+        "size": 83506742,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-lewm/target2latent/shortcut_z/model.pt",
+      "blobId": "f5729e74b7b2fc50d21d0da7aac9e903f9c003b1",
+      "size": 83703350,
+      "lfs": {
+        "sha256": "cf79009a7fd4749a8008139e2b9eb03f15c382b9e1ede6c5bc23212e36a65f66",
+        "size": 83703350,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "point-lewm/weights.pt",
+      "blobId": "ae8caaf5fe37de79048f67e9609bf9a354cb5e46",
+      "size": 73213307,
+      "lfs": {
+        "sha256": "42e1e85134497c8a2af0b9620d72c6421de767f1b85ee9778473c83292f81710",
+        "size": 73213307,
+        "pointerSize": 133
+      }
+    },
+    {
+      "rfilename": "utonia-wm/config.json",
+      "blobId": "308f9c32f9ad2a7184a4a3451534d94b711decda",
+      "size": 1142
+    },
+    {
+      "rfilename": "utonia-wm/weights.pt",
+      "blobId": "d41bf1b280579036bbcea392f97d617d65959e20",
+      "size": 40009456,
+      "lfs": {
+        "sha256": "6c7001c5ebf534f55ecb1f8c27784cf140cb7d7f8451451a3e73c39f8f7a6d0b",
+        "size": 40009456,
+        "pointerSize": 133
+      }
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-09-28T12:30:36.000Z",
+  "usedStorage": 981617050
+}

@@ -1,0 +1,30 @@
+{
+  "label": "A2-ARTIFACTS-001",
+  "state": "finished",
+  "started_unix": 1791126638.769706,
+  "wall_seconds": 29.3011920999852,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 208.95578480017736,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.public_audit",
+    "artifacts"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"artifacts\": [\n    {\n      \"name\": \"pusht\",\n      \"url\": \"https://huggingface.co/fafraob/point-cloud-pusht/resolve/664278a4c0b4c5f607d0993744986b2d10b4168e/dino-wm/checkpoints/model_latest.pth\",\n      \"bytes\": 88837855,\n      \"sha256\": \"14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0\",\n      \"published_sha256\": \"14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0\",\n      \"status\": \"OPAQUE_BYTES_AUTHENTICATED_NOT_LOADED\"\n    },\n    {\n      \"name\": \"reacher\",\n      \"url\": \"https://huggingface.co/fafraob/point-cloud-reacher/resolve/e49311dece3de2bf86c8f520e5e601e0e2fbb5ba/dino-wm/checkpoints/model_latest.pth\",\n      \"bytes\": 88837855,\n      \"sha256\": \"c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842\",\n      \"published_sha256\": \"c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842\",\n      \"status\": \"OPAQUE_BYTES_AUTHENTICATED_NOT_LOADED\"\n    },\n    {\n      \"name\": \"dinov2_vits14\",\n      \"url\": \"https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth\",\n      \"bytes\": 88283115,\n      \"sha256\": \"b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9\",\n      \"published_sha256\": null,\n      \"status\": \"OPAQUE_BYTES_AUTHENTICATED_NOT_LOADED\"\n    }\n  ],\n  \"acquired_bytes\": 265958825,\n  \"unsafe_deserializations\": 0\n}\n",
+  "stderr": "",
+  "cumulative_seconds": 238.25697690016256,
+  "peak_job_memory_bytes": 29765632,
+  "affinity_mask": 15,
+  "retained_local_bytes": 269083026,
+  "code_metadata_bytes": 3124201,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

@@ -1,0 +1,30 @@
+{
+  "label": "A2-ENCODER-PIN-001",
+  "state": "finished",
+  "started_unix": 1791126569.2850335,
+  "wall_seconds": 1.402143400046043,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 204.10073330009487,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.public_audit",
+    "encoder_pin"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_a2\\public_audit.py\", line 142, in <module>\n    if __name__ == '__main__': {'pins': pins, 'sources': sources, 'encoder_pin': encoder_pin,\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_a2\\public_audit.py\", line 91, in encoder_pin\n    raw = fetch('https://raw.githubusercontent.com/facebookresearch/dinov2/' + commit + '/' + path, 500_000)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_a2\\public_audit.py\", line 14, in fetch\n    with urlopen(req, timeout=45) as response:\n         ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 215, in urlopen\n    return opener.open(url, data, timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 521, in open\n    response = meth(req, response)\n               ^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 630, in http_response\n    response = self.parent.error(\n               ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 559, in error\n    return self._call_chain(*args)\n           ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 492, in _call_chain\n    result = func(*args)\n             ^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\urllib\\request.py\", line 639, in http_error_default\n    raise HTTPError(req.full_url, code, msg, hdrs, fp)\nurllib.error.HTTPError: HTTP Error 404: Not Found\n",
+  "cumulative_seconds": 205.50287670014092,
+  "peak_job_memory_bytes": 26816512,
+  "affinity_mask": 15,
+  "retained_local_bytes": 3050568,
+  "code_metadata_bytes": 3050568,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

@@ -1,0 +1,29 @@
+{
+  "label": "A2-DESIGN-001",
+  "state": "finished",
+  "started_unix": 1791126876.196505,
+  "wall_seconds": 0.17224410001654178,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 238.25697690016256,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.design"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"counts\": {\n    \"status\": \"PROPOSED_NOT_AUTHORIZED\",\n    \"source_generation_jobs\": 120,\n    \"source_generated_roots_max\": 120,\n    \"collector_steps_max\": 5280,\n    \"source_frames_max\": 5400,\n    \"bank_helper_worlds\": 128,\n    \"oracle_prefix_worlds\": 2048,\n    \"evaluation_tail_worlds\": 4096,\n    \"technical_restoration_worlds\": 8,\n    \"world_resets_max\": 6400,\n    \"replay_steps_max\": 125600,\n    \"oracle_steps_max\": 51200,\n    \"evaluation_steps_max\": 204800,\n    \"all_controller_steps_max\": 386880,\n    \"controller_steps_per_task_max\": 193440,\n    \"pusht_integrator_steps_max\": 1934400,\n    \"reacher_dm_steps_max\": 386880,\n    \"reacher_mujoco_substeps\": \"Bind compiled timestep and n_sub_steps; dm_control steps are not integrator counts\",\n    \"native_cem_decisions_max\": 4224,\n    \"native_cem_sequences_max\": 38016000,\n    \"bank_reforecast_sequences_max\": 2048,\n    \"technical_parity_sequences_max\": 128,\n    \"predicted_macro_sequence_transitions_max\": 190090880,\n    \"cost_api_calls_max\": 126856,\n    \"lewm_predictor_batch_calls_max\": 317140,\n    \"dino_predictor_chunk_calls_max\": 950740,\n    \"context_goal_encoder_api_calls_conservative_max\": 253712,\n    \"context_goal_encoded_frames_conservative_max\": 253712,\n    \"realized_prefix_encoded_frames_max\": 10240,\n    \"readout_fit_frames_all_backbones_max\": 1024,\n    \"readout_validation_frames_all_backbones_max\": 384,\n    \"gpu_jobs\": 132,\n    \"cpu_jobs\": 123,\n    \"successful_logical_tasks_max\": 255,\n    \"gpu_allocation_seconds_proposed_cap\": 468000,\n    \"cpu_allocation_seconds_proposed_cap\": 13800,\n    \"all_failures_charged\": true,\n    \"automatic_replacements\": 0\n  },\n  \"storage\": {\n    \"status\": \"PROPOSED_NOT_AUTHORIZED\",\n    \"live_members\": {\n      \"source_roots\": 1440000000,\n      \"lewm_parent_results_and_logs\": 704000000,\n      \"dino_parent_results_and_logs\": 3904000000,\n      \"lewm_readout_and_logs\": 12000000,\n      \"dino_readout_and_logs\": 282000000,\n      \"cpu_logs\": 12300000,\n      \"preflight_analysis_conversion_evidence\": 60000000,\n      \"original_weights_including_reused_lewm\": 410653018,\n      \"safe_converted_weights_reserved\": 410653018,\n      \"isolated_runtime_image_reserved\": 4000000000,\n      \"source_closures\": 20000000,\n      \"controls\": 300000000\n    },\n    \"live_reserved_bytes\": 11555606036,\n    \"live_cap_bytes\": 12000000000,\n    \"archive_cap_bytes\": 14000000000,\n    \"inclusive_reserved_bytes\": 41000000000,\n    \"inclusive_cap_bytes\": 42000000000,\n    \"preparation_local_and_ssd_copies_within_1GB_future_line\": true,\n    \"downloaded_artifact_bytes\": 265958825,\n    \"artifact_local_plus_ssd_bytes\": 531917650,\n    \"acquisition_cap_bytes\": 2147483648,\n    \"retained_preparation_cap_bytes\": 5368709120,\n    \"all_partials_counted\": true\n  }\n}\n",
+  "stderr": "",
+  "cumulative_seconds": 238.4292210001791,
+  "peak_job_memory_bytes": 20393984,
+  "affinity_mask": 15,
+  "retained_local_bytes": 269215408,
+  "code_metadata_bytes": 3256583,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}

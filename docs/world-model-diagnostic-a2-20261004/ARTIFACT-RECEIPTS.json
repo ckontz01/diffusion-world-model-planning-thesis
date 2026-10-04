@@ -1,0 +1,1420 @@
+[
+  {
+    "name": "pusht",
+    "url": "https://huggingface.co/fafraob/point-cloud-pusht/resolve/664278a4c0b4c5f607d0993744986b2d10b4168e/dino-wm/checkpoints/model_latest.pth",
+    "bytes": 88837855,
+    "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+    "published_sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+    "status": "OPAQUE_BYTES_AUTHENTICATED_NOT_LOADED",
+    "zip_members": [
+      {
+        "name": "model_latest/data.pkl",
+        "bytes": 33233
+      },
+      {
+        "name": "model_latest/.format_version",
+        "bytes": 1
+      },
+      {
+        "name": "model_latest/.storage_alignment",
+        "bytes": 2
+      },
+      {
+        "name": "model_latest/byteorder",
+        "bytes": 6
+      },
+      {
+        "name": "model_latest/data/0",
+        "bytes": 950208
+      },
+      {
+        "name": "model_latest/data/1",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/2",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/3",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/4",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/5",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/6",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/7",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/8",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/9",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/10",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/11",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/12",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/13",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/14",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/15",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/16",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/17",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/18",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/19",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/20",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/21",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/22",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/23",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/24",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/25",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/26",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/27",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/28",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/29",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/30",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/31",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/32",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/33",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/34",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/35",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/36",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/37",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/38",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/39",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/40",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/41",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/42",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/43",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/44",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/45",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/46",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/47",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/48",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/49",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/50",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/51",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/52",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/53",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/54",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/55",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/56",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/57",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/58",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/59",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/60",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/61",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/62",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/63",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/64",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/65",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/66",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/67",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/68",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/69",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/70",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/71",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/72",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/73",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/74",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/75",
+        "bytes": 400
+      },
+      {
+        "name": "model_latest/data/76",
+        "bytes": 40
+      },
+      {
+        "name": "model_latest/data/77",
+        "bytes": 40
+      },
+      {
+        "name": "model_latest/data/78",
+        "bytes": 40
+      },
+      {
+        "name": "model_latest/version",
+        "bytes": 2
+      },
+      {
+        "name": "model_latest/.data/serialization_id",
+        "bytes": 40
+      }
+    ]
+  },
+  {
+    "name": "reacher",
+    "url": "https://huggingface.co/fafraob/point-cloud-reacher/resolve/e49311dece3de2bf86c8f520e5e601e0e2fbb5ba/dino-wm/checkpoints/model_latest.pth",
+    "bytes": 88837855,
+    "sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842",
+    "published_sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842",
+    "status": "OPAQUE_BYTES_AUTHENTICATED_NOT_LOADED",
+    "zip_members": [
+      {
+        "name": "model_latest/data.pkl",
+        "bytes": 33233
+      },
+      {
+        "name": "model_latest/.format_version",
+        "bytes": 1
+      },
+      {
+        "name": "model_latest/.storage_alignment",
+        "bytes": 2
+      },
+      {
+        "name": "model_latest/byteorder",
+        "bytes": 6
+      },
+      {
+        "name": "model_latest/data/0",
+        "bytes": 950208
+      },
+      {
+        "name": "model_latest/data/1",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/2",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/3",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/4",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/5",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/6",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/7",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/8",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/9",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/10",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/11",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/12",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/13",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/14",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/15",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/16",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/17",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/18",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/19",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/20",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/21",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/22",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/23",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/24",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/25",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/26",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/27",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/28",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/29",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/30",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/31",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/32",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/33",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/34",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/35",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/36",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/37",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/38",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/39",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/40",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/41",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/42",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/43",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/44",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/45",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/46",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/47",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/48",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/49",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/50",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/51",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/52",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/53",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/54",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/55",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/56",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/57",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/58",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/59",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/60",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/61",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/62",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/63",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/64",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/65",
+        "bytes": 4964352
+      },
+      {
+        "name": "model_latest/data/66",
+        "bytes": 1654784
+      },
+      {
+        "name": "model_latest/data/67",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/68",
+        "bytes": 1382976
+      },
+      {
+        "name": "model_latest/data/69",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/70",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/71",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/72",
+        "bytes": 8192
+      },
+      {
+        "name": "model_latest/data/73",
+        "bytes": 3309568
+      },
+      {
+        "name": "model_latest/data/74",
+        "bytes": 1616
+      },
+      {
+        "name": "model_latest/data/75",
+        "bytes": 400
+      },
+      {
+        "name": "model_latest/data/76",
+        "bytes": 40
+      },
+      {
+        "name": "model_latest/data/77",
+        "bytes": 40
+      },
+      {
+        "name": "model_latest/data/78",
+        "bytes": 40
+      },
+      {
+        "name": "model_latest/version",
+        "bytes": 2
+      },
+      {
+        "name": "model_latest/.data/serialization_id",
+        "bytes": 40
+      }
+    ]
+  },
+  {
+    "name": "dinov2_vits14",
+    "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+    "bytes": 88283115,
+    "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "published_sha256": null,
+    "status": "OPAQUE_BYTES_AUTHENTICATED_NOT_LOADED",
+    "zip_members": [
+      {
+        "name": "vits14_pretrain/data.pkl",
+        "bytes": 21829
+      },
+      {
+        "name": "vits14_pretrain/data/0",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/1",
+        "bytes": 2104320
+      },
+      {
+        "name": "vits14_pretrain/data/10",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/100",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/101",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/102",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/103",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/104",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/105",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/106",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/107",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/108",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/109",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/11",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/110",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/111",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/112",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/113",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/114",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/115",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/116",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/117",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/118",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/119",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/12",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/120",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/121",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/122",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/123",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/124",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/125",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/126",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/127",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/128",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/129",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/13",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/130",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/131",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/132",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/133",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/134",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/135",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/136",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/137",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/138",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/139",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/14",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/140",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/141",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/142",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/143",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/144",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/145",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/146",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/147",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/148",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/149",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/15",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/150",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/151",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/152",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/153",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/154",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/155",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/156",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/157",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/158",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/159",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/16",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/160",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/161",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/162",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/163",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/164",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/165",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/166",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/167",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/168",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/169",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/17",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/170",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/171",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/172",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/173",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/174",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/18",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/19",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/2",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/20",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/21",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/22",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/23",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/24",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/25",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/26",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/27",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/28",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/29",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/3",
+        "bytes": 903168
+      },
+      {
+        "name": "vits14_pretrain/data/30",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/31",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/32",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/33",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/34",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/35",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/36",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/37",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/38",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/39",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/4",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/40",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/41",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/42",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/43",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/44",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/45",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/46",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/47",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/48",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/49",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/5",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/50",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/51",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/52",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/53",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/54",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/55",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/56",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/57",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/58",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/59",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/6",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/60",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/61",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/62",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/63",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/64",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/65",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/66",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/67",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/68",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/69",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/7",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/70",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/71",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/72",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/73",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/74",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/75",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/76",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/77",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/78",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/79",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/8",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/80",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/81",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/82",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/83",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/84",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/85",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/data/86",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/87",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/88",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/89",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/9",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/90",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/91",
+        "bytes": 1769472
+      },
+      {
+        "name": "vits14_pretrain/data/92",
+        "bytes": 4608
+      },
+      {
+        "name": "vits14_pretrain/data/93",
+        "bytes": 589824
+      },
+      {
+        "name": "vits14_pretrain/data/94",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/95",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/96",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/97",
+        "bytes": 1536
+      },
+      {
+        "name": "vits14_pretrain/data/98",
+        "bytes": 2359296
+      },
+      {
+        "name": "vits14_pretrain/data/99",
+        "bytes": 6144
+      },
+      {
+        "name": "vits14_pretrain/version",
+        "bytes": 2
+      }
+    ]
+  }
+]

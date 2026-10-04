@@ -1,0 +1,376 @@
+{
+  "study": "WM-DIAG0-A2-v1",
+  "status": "PREPARATION_ONLY",
+  "original_git_commit": "0386998aab0994a724bf46b331939e99854bf3e9",
+  "request_path": "C:\\Users\\Chris\\.codex\\attachments\\dcec997c-6f7d-410a-9a12-3a35d28cc0b1\\Pasted text.txt",
+  "request": {
+    "bytes": 8999,
+    "sha256": "08db8b33bec6b1dd4afe54dfa0e1f73049b56083c0654bd3b3ed9f26a5db0345"
+  },
+  "inherited_immutable_dependencies": {
+    "docs/world-model-diagnostic-20261004/.gitignore": {
+      "bytes": 32,
+      "sha256": "24db0f5e1f2f16fdde350b4d40ea8cd92560d5e05a12a0b971de9bfa7e9ef951"
+    },
+    "docs/world-model-diagnostic-20261004/ANALYSIS.md": {
+      "bytes": 3367,
+      "sha256": "28aed7ab115ebb626e17e178754d8d04b92bcf889c46ae4a158f18c2f833d281"
+    },
+    "docs/world-model-diagnostic-20261004/ARTIFICIAL-ANALYSIS-INPUT.json": {
+      "bytes": 596,
+      "sha256": "8c6c09ef17c07b6f71813fcbd8e36848fcc21371e65b8d4b7586715c42dc0371"
+    },
+    "docs/world-model-diagnostic-20261004/AUTHORIZATION.json": {
+      "bytes": 904,
+      "sha256": "6ea24f0f4ffdb79d386ea05eeb7cf1f282ee76c4ecc2d2e8f83cd1adf3c46934"
+    },
+    "docs/world-model-diagnostic-20261004/BINDING-STATUS.md": {
+      "bytes": 4785,
+      "sha256": "351f75c45834d641229545abb35128099de9008cb36070ab03d5835867cd5c64"
+    },
+    "docs/world-model-diagnostic-20261004/CLAIM-AND-PRIOR-ART.md": {
+      "bytes": 5766,
+      "sha256": "0524870350ce87fbc9011925100eb47997b4b0bd66db43e87680134ea1f56a0b"
+    },
+    "docs/world-model-diagnostic-20261004/COMPATIBILITY.md": {
+      "bytes": 6537,
+      "sha256": "8f8077783d295dac04445c6e8bd14b0a7bb1d9347e8f28a6b627f9d7ca2a5d54"
+    },
+    "docs/world-model-diagnostic-20261004/EXPOSED-POOL-METADATA.json": {
+      "bytes": 7989,
+      "sha256": "9f382d6d0a116caa922fecc8d37a15f529f57fb93ec98f6a0d88f65a0aa16732"
+    },
+    "docs/world-model-diagnostic-20261004/INPUT-MANIFEST.json": {
+      "bytes": 4383,
+      "sha256": "2be50de0b85029c23d65d0de5a24b691c0d31fa6704c5978ef90946c5a8c1804"
+    },
+    "docs/world-model-diagnostic-20261004/NATIVE-CHART-AND-ORIGIN.md": {
+      "bytes": 4432,
+      "sha256": "6501eb3a306d88e742eea5ce2aaf42e87d4be287192185237b4f54cc7481165c"
+    },
+    "docs/world-model-diagnostic-20261004/PROTOCOL.md": {
+      "bytes": 9148,
+      "sha256": "ccfd53c4badbe1ae89f77385d4da7ba8903c3d5e31b8c0a0e8b38383c7e7c60d"
+    },
+    "docs/world-model-diagnostic-20261004/PROVENANCE-HANDOFF.md": {
+      "bytes": 7783,
+      "sha256": "943adfc672e16853bc23fd07d9d3a36c1b0723c2c2517e6a5c602f81ba41398c"
+    },
+    "docs/world-model-diagnostic-20261004/README.md": {
+      "bytes": 2922,
+      "sha256": "31ab31e6b9670a8074983d9a54fc2284fa12d14f291a449b12a9b5e32de33e1c"
+    },
+    "docs/world-model-diagnostic-20261004/RESOURCE-PLAN.md": {
+      "bytes": 8149,
+      "sha256": "e997cf15ebab2215167489832634adba67b87a6351ab827ded60df835eace2f1"
+    },
+    "docs/world-model-diagnostic-20261004/REVIEW-BIND1.md": {
+      "bytes": 3520,
+      "sha256": "b333f76761790015acbdbbffd0482e343ada072420d8c9c85b166aa3e9e31a94"
+    },
+    "docs/world-model-diagnostic-20261004/ROLE-PROPOSAL.json": {
+      "bytes": 2729,
+      "sha256": "8556179e202be4905f1891cd60c7476eef3e28ed9ba187f24825336f62f6c9f0"
+    },
+    "docs/world-model-diagnostic-20261004/SOURCE-ROWS-PROPOSED.json": {
+      "bytes": 82451,
+      "sha256": "46c83e35ededdb0b82e8b5b49a820922bad8f09f65ff0fbdfe27f2ed745ed6eb"
+    },
+    "docs/world-model-diagnostic-20261004/TEST-RECEIPT.md": {
+      "bytes": 3949,
+      "sha256": "d8a3daf680d81989438682b6b5e2d68c7d0f597dbc22d6b45f2f5a53ab1e3cfe"
+    },
+    "docs/world-model-diagnostic-20261004/UNALLOCATED-POOL-METADATA.json": {
+      "bytes": 9198,
+      "sha256": "cfdf7357b589767f21389c7303686843f3b2fb30c15c17ee4fa60bdf98dc81e7"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-001.json": {
+      "bytes": 2743,
+      "sha256": "2dbc63c49341c0dfa6a5ad602ef6bb64167a456ec07242ea1688c588d07b9035"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-001.started": {
+      "bytes": 450,
+      "sha256": "5a1716a7c57990d547ffaebbe622d0c4e70ca56dc3e6c7b4eac8ac1dc0f2590c"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-002.json": {
+      "bytes": 3014,
+      "sha256": "4039adb38b3c1bd738d31d9ca86b0ae536df0ad10bfa879dbf36e15bda069768"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-002.started": {
+      "bytes": 468,
+      "sha256": "e86ef8df88e178368be8fb00916ea0a46fb2be383512068a31f209be1c697a67"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-003.json": {
+      "bytes": 4678,
+      "sha256": "8b53c37d814b26e95030664c350104911227573f799dc9254dbc5edf410088cb"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-003.started": {
+      "bytes": 522,
+      "sha256": "d4ede400160f49f4d0ba5352a8d9c23eea2f68f962caf4c914d1886165113e18"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-004.json": {
+      "bytes": 4043,
+      "sha256": "9d2c5ef699f3e483ee82953e2a17ce8227e08bb2ea0395abdb0e4fa8ca28284f"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-004.started": {
+      "bytes": 522,
+      "sha256": "7d357956df7274c0877fff71898841892ce3242f86f222c01591033a4af19bac"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-005.json": {
+      "bytes": 4199,
+      "sha256": "c7844a03f5899430ebaaaddbae40b81baeb1cbbd9219036dfd79be978b528874"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-005.started": {
+      "bytes": 523,
+      "sha256": "968ab69c50ff9421ed88e45272e12ead536ffd223b7a33df0b577ab79b22e8d0"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-006.json": {
+      "bytes": 3340,
+      "sha256": "39267f9912e3440dfac6fde7305ffdc37f44a0cc3158a81c79ae2877be84e056"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-006.started": {
+      "bytes": 555,
+      "sha256": "9884d5048466cdb2ff76844a227e1234b99931dbeef50c57405f8539ae64f9c1"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-007.json": {
+      "bytes": 2031,
+      "sha256": "2cbf735888b95946ad050fb9d9624aa153ae15e342b74edfd0a838ca469673fa"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-007.started": {
+      "bytes": 466,
+      "sha256": "17bf08c5e5348638294170d1a0159f6c283b27b720c100c7e03e646f2a9d297b"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-008.json": {
+      "bytes": 4467,
+      "sha256": "8bc595a46945c5bffaebdda4b721cc4407079e0f33c9af97556ce649d045384d"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-008.started": {
+      "bytes": 521,
+      "sha256": "1ff5f40afe7b2ca6ad2db12decd3a74b1e338ededa73f73d8595d03f9758e842"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-009.json": {
+      "bytes": 958,
+      "sha256": "6666d4fd3807301d7a9d2dd55df420eab8c0bf8e1f54f268e24c4f0427d87414"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-009.started": {
+      "bytes": 480,
+      "sha256": "d85feadc530a541864184d4ce0f38ce661e59ec26ed0c3ecc4c8889a88c03dcc"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-010.json": {
+      "bytes": 4845,
+      "sha256": "3b4931264f061c0339d2933f07a34f2af24b316b6334cec7cc59438b82fef377"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-010.started": {
+      "bytes": 567,
+      "sha256": "12deaeab54ca222b03eae11fdb85d6781285d571545da41c007a214f665dea0f"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-011.json": {
+      "bytes": 5461,
+      "sha256": "a0d02e0bf2c358db1fbc59911813a5a60c617e1b2b8d3f91e5b0e8e4f376e332"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-011.started": {
+      "bytes": 595,
+      "sha256": "33dbe40e3ece3ec6099c8574eed359064f3650528fc7e3eb4987a75f7cef68c6"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-012.json": {
+      "bytes": 5746,
+      "sha256": "1be2bc693b2448ea1ad544b204c50f071c9a8a16c1537b8ad3ddd311779e4fec"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/ARTIFICIAL-012.started": {
+      "bytes": 595,
+      "sha256": "fea31f54ec5a2182c4dd5dda672b58d8491605c880bc97d79c941460aef3491c"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/HANDOFF-PRESERVATION-001.json": {
+      "bytes": 3604,
+      "sha256": "354ddc62d9e06e3211e151a291ba8906bc8440e768ebd796051d147df1e8fd07"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/HANDOFF-PRESERVATION-001.started": {
+      "bytes": 2834,
+      "sha256": "534d239067b28059e63fe80728390dba1e8c6c34f77f7155469d83467f1a24ed"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/HANDOFF-PRESERVATION-002.json": {
+      "bytes": 4310,
+      "sha256": "38ea30a5570882c33eebf65f9ce1addcb83c7166ea8faa4a651988f1ec50c81c"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/HANDOFF-PRESERVATION-002.started": {
+      "bytes": 3079,
+      "sha256": "01440e5e8df8a571ccecfc5d09454d2bce81980d11d6ab3ee3d965c4e2159b30"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/METADATA-BIND1-001.json": {
+      "bytes": 56170,
+      "sha256": "c1626a9dd7bb715f42fa9e24bc90a062f2a88623c66dec7cf404276f8e5bd7ab"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/METADATA-BIND1-001.started": {
+      "bytes": 465,
+      "sha256": "b330ea23f3973349962a2057afceb83aac310052325f111cdd984fa8a67b9bd2"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/METADATA-BIND1-002.json": {
+      "bytes": 32920,
+      "sha256": "a5f4c61011b8c2f8787c8f56ba476cf0b7f7bedbd6c6bbf6a365676d198e1171"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/METADATA-BIND1-002.started": {
+      "bytes": 409,
+      "sha256": "2027523428fd43b6e00b217657f63d85f6ba7e966b114041eb7fff619458f803"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PRESERVATION-001.json": {
+      "bytes": 10007,
+      "sha256": "70c80bcb622f35c1c221d2eb348308ad3cfe363a4b97667a213313bd7d31db62"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PRESERVATION-001.started": {
+      "bytes": 523,
+      "sha256": "f4664c1ac050e6a2d1e42ac0084705d1902cb71acf604417f6783743403aa1e8"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PRESERVATION-002.json": {
+      "bytes": 16239,
+      "sha256": "11c64bd67216fa2ec22538b3c744777d78034773fa3a88660f39a4ac5ab197e0"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PRESERVATION-002.started": {
+      "bytes": 531,
+      "sha256": "3a9f1c0fe4602860fdd5d996d450c71bc8ab89801221ac0669478fb19474c483"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-MANIFESTS-001.json": {
+      "bytes": 31993,
+      "sha256": "848e323438ca39f2137edff6aa563d8c20858858841f3b13bfb229382b21d819"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-MANIFESTS-001.started": {
+      "bytes": 490,
+      "sha256": "0ec8e792aa5276c60513507f184dd104e88d8177534f0918567e793e72539bd7"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-PARTITIONS-001.json": {
+      "bytes": 3287,
+      "sha256": "279a094160fe90b4b6d516535a5037951e65d2201ef653fcf7d8c3bc984c4fbe"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-PARTITIONS-001.started": {
+      "bytes": 498,
+      "sha256": "01ce66111f81628b4f6b7bec6b501ef307988ab82bd94f7d25bd6bf01517eb99"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-PRESERVATION-001.json": {
+      "bytes": 13258,
+      "sha256": "046e2cf820b0707f612401b9260cf572359e6b275bfcbe85c7cc4816b6e0b5f3"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-PRESERVATION-001.started": {
+      "bytes": 3482,
+      "sha256": "e907386285e862ea1aa2e36dc3cc2d25f0aae5f60742e815751c6a5ba5c71bc9"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-PUBLIC-001.json": {
+      "bytes": 18123,
+      "sha256": "ee95a5b1c0dc3cc4896f5affcc538fd9992199c2e82cac84385d50971c1eb969"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-PUBLIC-001.started": {
+      "bytes": 487,
+      "sha256": "9876b34b09b010126baa8aa91886bdc66b92b7ed170407aac66194e5947ba65a"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-SIDECARS-001.json": {
+      "bytes": 30565,
+      "sha256": "7f96cfa7858fc7176aeefe0e412942411ff869f0e87d47bc0e15217ef4bdb686"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DEEP-SIDECARS-001.started": {
+      "bytes": 488,
+      "sha256": "071d1c088c53a1e2f48cd378c0a73f7c8bcd25903af601ea1683c575ee1c6e2c"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DOWNLOAD-SOURCE-001.json": {
+      "bytes": 2162,
+      "sha256": "e495fb3599ddfb2a49235b4d846d7d42bc1222d22657c5a605fb4da9407dbd45"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-DOWNLOAD-SOURCE-001.started": {
+      "bytes": 512,
+      "sha256": "e2d27a00b74ce4e171b1d6cae6330f4637e9a53c572f77c68ec18abd8a322e21"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-PRESERVATION-001.json": {
+      "bytes": 8385,
+      "sha256": "3782925e34947710347ba79706a65fb27209175db7e325c1961f841c1c12e4a8"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-PRESERVATION-001.started": {
+      "bytes": 3473,
+      "sha256": "e445f406c60f3faf2f57a5acb15f0d7a86f8ac9badbfff7a08c6ddc071480cbb"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-SIDECARS-001.json": {
+      "bytes": 1447,
+      "sha256": "e38793b42ea308f0d78ee802b898a18cdddb2be5a6c8ebc0f86e3a99f717b8ab"
+    },
+    "docs/world-model-diagnostic-20261004/test-receipts/PROVENANCE-SIDECARS-001.started": {
+      "bytes": 502,
+      "sha256": "c7c92a66184e0080071e398520cfec101b3ec73b0f069fe6888bb34faf1bf378"
+    },
+    "wm_diag0/__init__.py": {
+      "bytes": 101,
+      "sha256": "91a483ecacb4545a33faa43cf58f8c02f6276098fe32d90fe7489c33b1cbe60d"
+    },
+    "wm_diag0/accept.py": {
+      "bytes": 3684,
+      "sha256": "0f7e6699cacb0ed49b9f8cd5a4ed69a76742df810da2dc30d516e8e760868a29"
+    },
+    "wm_diag0/adapters.py": {
+      "bytes": 2266,
+      "sha256": "55b52bde31cb71f779dbafb0933d42345862adcbaba1f16bac91418e376398b7"
+    },
+    "wm_diag0/analysis.py": {
+      "bytes": 4948,
+      "sha256": "d4c5bdeab54da0bd23d524c387dd1ab1f49d4fa0a62056910ca00058cc66d316"
+    },
+    "wm_diag0/bounded_run.py": {
+      "bytes": 2979,
+      "sha256": "5df6b46cd381f1ad9eb8d246617070b928d5c6fdfe8ff61716512484b76ea59a"
+    },
+    "wm_diag0/branches.py": {
+      "bytes": 4262,
+      "sha256": "a93dd8bdc52c17daf86a83b63c25b2007c598e3992963acac8942066a37a2707"
+    },
+    "wm_diag0/core.py": {
+      "bytes": 7710,
+      "sha256": "53c60f0237517a457c9f25f4ed0318977b08f5e149151ea304e13d2edc86855c"
+    },
+    "wm_diag0/metadata_plan.ps1": {
+      "bytes": 2853,
+      "sha256": "382a228642c1d3e5ffeab22778ca8443956951d7a7a0c23150f7da14505a4f48"
+    },
+    "wm_diag0/phase.py": {
+      "bytes": 6269,
+      "sha256": "63a24a2214e10e47a77020cc8e9011612490560508d69adf6fc984aaa90ff2ef"
+    },
+    "wm_diag0/preserve_preparation.py": {
+      "bytes": 4704,
+      "sha256": "5870507635d4771706aeaec0b4cb0027aea36ba14465ee059bb685ca16f4906d"
+    },
+    "wm_diag0/readout.py": {
+      "bytes": 4469,
+      "sha256": "46e319247285e1e75ba45cb541e9e81e4b95f7d839e1f43ad541da9b23be7e79"
+    },
+    "wm_diag0/resource_plan.py": {
+      "bytes": 3438,
+      "sha256": "8952f59e6f9f5de4719484bcca470e94a2341933cdc2419257d66b9f017133a1"
+    },
+    "wm_diag0/roles_plan.py": {
+      "bytes": 4233,
+      "sha256": "0584793b05e3add6c5ccb14b15c8207877b61fd26a4ded6fba6abb1ab53c1f24"
+    },
+    "wm_diag0/saved.py": {
+      "bytes": 1911,
+      "sha256": "fe57e6f65ad34af9ed241439a10e9e1d5d9a0b04f86013528a9d808e17765ab7"
+    },
+    "wm_diag0/test_bind1.py": {
+      "bytes": 5243,
+      "sha256": "1b36663955dc62bff10e2561a12f090576498b4970dfe5c26b15e8260c7738ca"
+    },
+    "wm_diag0/test_components.py": {
+      "bytes": 10646,
+      "sha256": "c30dc91c1d5b19e55ac36fcc9925e3d27cf61ad96383aa39175b64cb37261e37"
+    },
+    "wm_diag0/test_native_shape_artificial.py": {
+      "bytes": 2132,
+      "sha256": "ae929575574ca19b0f1d0581fa826bcd306ca76ec0c2c6a97764ba3c0734df5b"
+    },
+    "wm_diag0/test_package.py": {
+      "bytes": 5888,
+      "sha256": "d105916c650f0eafd0a4e53a62351a0df89eda40f28ca34b2595936173ca956b"
+    },
+    "wm_diag0/windows_limits.py": {
+      "bytes": 1978,
+      "sha256": "5d50091560d8c2a1da069d459619687e6fe7e85935b6317c36903753c97d1bff"
+    }
+  },
+  "source_receipts_authenticated": 222,
+  "models_loaded": false,
+  "native_sources_generated": 0,
+  "research_authority": false
+}

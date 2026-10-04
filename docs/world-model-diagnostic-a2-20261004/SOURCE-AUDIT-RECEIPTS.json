@@ -1,0 +1,1544 @@
+[
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\LICENSE",
+    "bytes": 1380,
+    "sha256": "3a01ebd9c842b5acb376d194ee554f80e8282346a1cafaa24045a29ea23ad5e1",
+    "upstream_git_blob": "81a17114737af0e512cc2c80779999036e02bdcd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\README.md",
+    "bytes": 19054,
+    "sha256": "3549fe13f01a1cffa1bdd09884f8ed164f9d81b51e82106a1033a88f0ee8e3ba",
+    "upstream_git_blob": "c43f07259147cd36ae3101537336f90afa1c0b52",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\THIRD_PARTY_NOTICES.md",
+    "bytes": 2509,
+    "sha256": "7f9c3323679a9dfaaf868aa9bd95e5d7dfba68cc06489ab25079df335a2df9b3",
+    "upstream_git_blob": "0e36e998523f659af4ab00838158b32e0a1afd46",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\3dtarget_cube.yaml",
+    "bytes": 5143,
+    "sha256": "c96e488c66a0bbcef09b0b5bc1deb5e86662bd100cd37caaeff907e30642525e",
+    "upstream_git_blob": "b49ed88d3d7d1965b10cd40be65e60e240887114",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\3dtarget_cube_grid.yaml",
+    "bytes": 8637,
+    "sha256": "c476bebba4e70ace9342ab26fcce0cf377a5c802ea235106a298a9954fa4bbd9",
+    "upstream_git_blob": "ecdba5d1ca4251eee9255d3759f463fbe4ff1737",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\3dtarget_pusht.yaml",
+    "bytes": 4278,
+    "sha256": "0bc6a6ca7b1ad1e46510ced302ee2054a34d8537e2792883d3c57d86c6cbb2ba",
+    "upstream_git_blob": "7026992ae2001afeabf8a8c71258aed5864c5b41",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\3dtarget_reacher.yaml",
+    "bytes": 7319,
+    "sha256": "4b5c455249e124f7506b88e62c2a7cf32ee7699ddbeb2b628a0981a95cde143d",
+    "upstream_git_blob": "edd4c4991e9b240ff2ddb1da98d7a1bc4ba658ff",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\3dtarget_tworoom.yaml",
+    "bytes": 4262,
+    "sha256": "87a0a0904a8828f2e166d3287cd5ab0244cb2a739e37b3943c3ec36ebba48dec",
+    "upstream_git_blob": "4c8a411ef5c333c1b32cf0e15cca8bb2ae42658b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\image_cube.yaml",
+    "bytes": 3364,
+    "sha256": "f7129b4403c27edcacb35628d14ffe9aabe79812ff179fc2df3e887b60383bf9",
+    "upstream_git_blob": "b55c475e7ebd4e24f125b2ed0e3d22b27be395e7",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\image_pusht.yaml",
+    "bytes": 3094,
+    "sha256": "7d47f6ca7e4571eb13497e087cfea77d744257a222d4858f2358ce7e55c5f958",
+    "upstream_git_blob": "dae33f39581e2be7e5ad04f7865b4946d9c5adfd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\image_reacher.yaml",
+    "bytes": 3462,
+    "sha256": "7e74c26cc7588b736f24d8ac9e276a7fdf74d28e6e5a26c573b8749e43cf9629",
+    "upstream_git_blob": "137f97ec44902ddc12aa982458b41921becc132f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\image_tworoom.yaml",
+    "bytes": 3296,
+    "sha256": "daca3c6ee68f93fb811479b2677bc0d10558392c083b65c9556401727a970259",
+    "upstream_git_blob": "1352c56a3391e0f0ebf4937217a99f44ece3eb51",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\launcher\\local.yaml",
+    "bytes": 168,
+    "sha256": "d4f217eb725087ef7bb7715de4e1af4e0857f8a2fb5b0d2042d91976dff71124",
+    "upstream_git_blob": "4db0860a2d652b3355f712eabea26c946c0f9f52",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\lidar_cube.yaml",
+    "bytes": 8494,
+    "sha256": "a492e51bce956e2e9ef24c6de4e15c0f70dfba30f8301a6ae0b577bb99ecc28c",
+    "upstream_git_blob": "eb563d6844d31776316bb6af112f24d7926b2beb",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\lidar_pusht.yaml",
+    "bytes": 6961,
+    "sha256": "728141f949076ad1275e976bf928e78a49fa3d5ffc6a5da5697abe24c4670194",
+    "upstream_git_blob": "f34b35baa53bc4538628b5b42a3bc5c010c07057",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\lidar_reacher.yaml",
+    "bytes": 8760,
+    "sha256": "067f10868f18d792fa7e157f469ce8af8ed2b976f232e4935eda988d60edb3a8",
+    "upstream_git_blob": "84828d7787921ec4ded403a742ae2d0e70bfbb71",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\lidar_tworoom.yaml",
+    "bytes": 7989,
+    "sha256": "88a4a8c99be67e7efcfa22b90c421f5af67aaf2a28e94b7028881bcd25160c23",
+    "upstream_git_blob": "cb2bcd21be2ead4a0b0be8b69f0ab446b1513305",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\solver\\adam.yaml",
+    "bytes": 251,
+    "sha256": "362755cca34d6221d1bd9a9b2d221f603ab22b7208038c0425c8e389b5fa2c1b",
+    "upstream_git_blob": "763b0f0c111c5eba6390477b5a81bb8b8991acbf",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\solver\\cem.yaml",
+    "bytes": 152,
+    "sha256": "797629f829c0d3ad3b9c4e42d46a87f08da0b3845bc433e353fd6274cb0574df",
+    "upstream_git_blob": "8d24fdab34e0dcf45777d418663f8077a433fb98",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\utoniawm_cube.yaml",
+    "bytes": 8096,
+    "sha256": "7971d878810fdf514f6db9e01a2de65b915f2e5c90159602bc3e68cea954ec8d",
+    "upstream_git_blob": "6e2d7bd282f103cbca97e036c0ed6c897ea7acbb",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\utoniawm_pusht.yaml",
+    "bytes": 7089,
+    "sha256": "2edfbfeee43791ce494cff07e55a2d2086148d49527244cde5db9cac6679a8c5",
+    "upstream_git_blob": "a70b566363bfa1c16338b79eb3008186a41aac87",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\utoniawm_reacher.yaml",
+    "bytes": 8193,
+    "sha256": "cfde367957fa6adeee8c7284843ca4d2a1e5532659b548a4d4abfe1aa96e6e45",
+    "upstream_git_blob": "c27d18640ce1f2c51220728082697143eb9355a7",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\utoniawm_tworoom.yaml",
+    "bytes": 7334,
+    "sha256": "f77c718ef05010c31f2704ca3344b9930e1497f7af0c6c56a244b403e953e88b",
+    "upstream_git_blob": "d765761da22086b0697327f06dfef376b8974e27",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\voxstats_cube.yaml",
+    "bytes": 8195,
+    "sha256": "4472b749358e4029983b54d84e071529ab8938891982695846cddcc2749dc227",
+    "upstream_git_blob": "e77d1fb63ccf1a23ab2dc5959547481b6c84b679",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\voxstats_pusht.yaml",
+    "bytes": 6541,
+    "sha256": "cb5dec075711e74d4b051f8b88133012d1f963751744b9dfda855b99ef93e76f",
+    "upstream_git_blob": "e3558bee08bb0cac1df4225c0527edcf6b21b497",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\voxstats_reacher.yaml",
+    "bytes": 7670,
+    "sha256": "d6a4cd9ca1c63dd043f1495a38b5f25a84b22bd62d4dc8d56e9fa243363a577f",
+    "upstream_git_blob": "6bbe6e64a30fb03c5258eb435c2943f4b40fad49",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\config\\eval\\voxstats_tworoom.yaml",
+    "bytes": 6753,
+    "sha256": "a95e19962fe9773309a0afaa793a7ea93d5aea2e31eb636c4d94c02728e44321",
+    "upstream_git_blob": "7912e7bd9c58b4dbc71752134cda398834a59b8e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\__init__.py",
+    "bytes": 1706,
+    "sha256": "2b55a7e53c0c4dd0e09bab17d4407cd9e6b475badbe4f4f07cb199d3ae83152f",
+    "upstream_git_blob": "27d794f8e599b52a3c5e2114e22dd731316cc442",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\conf\\env\\swm_cube.yaml",
+    "bytes": 1081,
+    "sha256": "76306018f55465aa93c5c4f281b3394bc353e778a68bbfbef5e6c7904ed65e82",
+    "upstream_git_blob": "a63efac1c48fce555c1e90a8adb6d5673752057e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\conf\\env\\swm_pusht.yaml",
+    "bytes": 1085,
+    "sha256": "fb0bf9d741d621908daebc5f55db4d9385762f6f4c4f0e45b0b82a1a50e9a23b",
+    "upstream_git_blob": "af0295f97feb3c4267816941a65965079a15aac5",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\conf\\env\\swm_reacher.yaml",
+    "bytes": 1062,
+    "sha256": "b1df1b17863f1852ad098aa22a54d1231890adc24bc9bdc93d2da1eb8c42e900",
+    "upstream_git_blob": "fb5ca419c3c228eca291dc8770b9fe4bdceee5cd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\conf\\env\\swm_tworoom.yaml",
+    "bytes": 1062,
+    "sha256": "bbe6033539db4e10697619fab7f67e40d1873d5fb5cd3bce77abc2ed31c57d74",
+    "upstream_git_blob": "75228d924cf0597e0e48d717b9206806d56d0f5d",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\conf\\train_swm.yaml",
+    "bytes": 4822,
+    "sha256": "609f48ce14adf91855f8ef1fd49e1fd068c52c537d17222ace191c992d9227b7",
+    "upstream_git_blob": "389d68b6bffbfb229e8879c575d6a5c451c8e4fe",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\h5_dset.py",
+    "bytes": 14342,
+    "sha256": "dd1e5b5384b90bf7241926ef48e56e9e57cb636657a005305097249507a515d3",
+    "upstream_git_blob": "e6818638c4ebd39706dd2d16164931f3eb2514ae",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\planning.py",
+    "bytes": 9846,
+    "sha256": "f7334fe60714183f026e724b849de4147095e64a2fa36fd3f0e8ad7aa8232f80",
+    "upstream_git_blob": "b087add9d05a8d9dcff2fe203e3a61cbc75b4b1c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\dinowm_swm\\train.py",
+    "bytes": 9665,
+    "sha256": "ccf60c26e34207d42120697c095fc2c142bc98f081c1e82c1e06e651da731fa6",
+    "upstream_git_blob": "6de5032fde8f2e64a47acedab95e944c9ed5cf50",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\eval.py",
+    "bytes": 9340,
+    "sha256": "571418620dcd69efdbb0e59c60137e825c4b6d6a26d306ba2c2b190c8d97c78f",
+    "upstream_git_blob": "7f40de7c89bad7576d59a6d1ac6c59abf285c3ff",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\pixi.toml",
+    "bytes": 7997,
+    "sha256": "2545a375074effdcdc8e1148f038599e7f6567f5379d8d3928b9427b2576a438",
+    "upstream_git_blob": "f5a6dce599b18b8ec557b93477ab213c4d5a89a8",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\scripts\\download_checkpoints.py",
+    "bytes": 4103,
+    "sha256": "9a6408a6d1569f18ba70abcbb58a99f3c6d0f3e3311501d48b164ca8fe63a757",
+    "upstream_git_blob": "0f768f5ed3a146322ba27ff26c9d6b039c3bd31f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\__init__.py",
+    "bytes": 429,
+    "sha256": "098841b3d30e15ebc9ef7d6f4448b971c33369b93d9cd3a4a7b7b94e548f223a",
+    "upstream_git_blob": "9d1e40476dcf8e1298960c9b46eb9416be09d80a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\cli.py",
+    "bytes": 21968,
+    "sha256": "ea8e0740ae34ded40de1b6686d34a6aabc0de6aa9f8695e5e6d9ca102532916a",
+    "upstream_git_blob": "df04e76304f656adeea9c5ff8be7b9548370d18c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\__init__.py",
+    "bytes": 1871,
+    "sha256": "a0e1bb3e8df244e2bc76d35a3dad6335b5ef003f4092588e3312bd8632d6968e",
+    "upstream_git_blob": "d350faafb6dfb70d8f3434af6a9221bab9135252",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\buffer.py",
+    "bytes": 16357,
+    "sha256": "daa0263bb409ce03c67089adcbc915f8649ae8d5f9fd736f1722ebeeb415cd97",
+    "upstream_git_blob": "4e56556cc9556444ada6c1d6690d61b0e471abc6",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\dataset.py",
+    "bytes": 16606,
+    "sha256": "f0b0027cfc9c3341a93b15b957596c2c0bc62fc2b48a609a4814eeaf89a47982",
+    "upstream_git_blob": "5f7dd157dc4c8701f51bbfdc636d4c189a0d9d24",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\format.py",
+    "bytes": 4174,
+    "sha256": "cc9561a31b7315b1ea781ab99c8e6878ed2ac8ecd440ae67a50258322d099ff2",
+    "upstream_git_blob": "779ba65f14232f0435730fe7bf2ae5df4f7a2544",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\__init__.py",
+    "bytes": 901,
+    "sha256": "4c8ec606fe8f43cd8b939616a78b9ff8581b29cd5050c2425f3a26e39b20c777",
+    "upstream_git_blob": "406efb0febefb03bf768ee6629398adaee90f42f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\folder.py",
+    "bytes": 11746,
+    "sha256": "136282cef79bb2f8bcc11ef929ab32b20f19b29ef6acdea6cd5b380e9612abdc",
+    "upstream_git_blob": "c2b363020b9a4bfa67ba42d75f66f818bb13db84",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\hdf5.py",
+    "bytes": 11662,
+    "sha256": "afe836ec706acc6c55450f3c936a5898b57ed65a999695af25b4b59cd14d10f3",
+    "upstream_git_blob": "2e5d1cefd46e5097d21c81dab3d48ec3ca039ebe",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\lance.py",
+    "bytes": 37911,
+    "sha256": "51704b819548cecfc9131a38c3ab0f5587f70bd138b2ee7ed60ca7ff7273142e",
+    "upstream_git_blob": "95d2af3b6e08866bed4bf3a8fdcc609b4c012630",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\lance_video.py",
+    "bytes": 24915,
+    "sha256": "7505ed14fd7caff030795078fa2c87a3d1dd64d0ac483311906773391e24d4ea",
+    "upstream_git_blob": "d393d5727e401fe8e35b5d63fc180a65aeda7ba1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\lerobot.py",
+    "bytes": 12994,
+    "sha256": "165fcd979570c46e2885131a6860123b80a9de6ab56283e82edec727be2e272b",
+    "upstream_git_blob": "1f6af0f867edd4e43d54ec495668b0ffad76be57",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\utils.py",
+    "bytes": 406,
+    "sha256": "13846e1b8e027c8e108243b346e4cae0afb8ebe4942c64ad76dd7e8bc6a808bf",
+    "upstream_git_blob": "003bac7ce4c6dccda9bc0e88ae6d705c47ff4669",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\formats\\video.py",
+    "bytes": 10219,
+    "sha256": "719c5c90910065ce428f46b0d3fef03aabc86d69158c7bf58f94848e93313a46",
+    "upstream_git_blob": "0f2c0716da804f884584225765f6be74158d9e57",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\normalization.py",
+    "bytes": 4963,
+    "sha256": "5de5a217774cf634dee33d8d082b38c1825013e80f3fe2cb1c5faa8cc9958f5e",
+    "upstream_git_blob": "a429c48276dc6eea9442f2d2e0ddb1a78d83e261",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\data\\utils.py",
+    "bytes": 15198,
+    "sha256": "8a6426b5e88866bb51deb986d809c9b56dae67306720918197105a238466c238",
+    "upstream_git_blob": "64c16c140fb0c8071ac6eb94ef34478ec797c39e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\__init__.py",
+    "bytes": 6271,
+    "sha256": "b009fb149bddae62bf35775b6e2e609123bedc77d1c47e37d2a16cb3d7d89ccf",
+    "upstream_git_blob": "142e0533047c65159ba99891684147cda44b6347",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\ale\\__init__.py",
+    "bytes": 529,
+    "sha256": "f02b92d4fde0b1b02d02c053a2d80252b9f5886d95a04dd1b6a2d6ab2250dd79",
+    "upstream_git_blob": "94c98739b2eb285cd8025b113ecc08ab333221a8",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\camera_xml.py",
+    "bytes": 4129,
+    "sha256": "2dca732545f261ce8452f0cb983162ab9e984ee8ec680b298639927c29676ebd",
+    "upstream_git_blob": "ef942c6a521a14e50feefdb62a8ffd86331ad4a3",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\craftax\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\craftax\\craftax.py",
+    "bytes": 4779,
+    "sha256": "9a98a16f166086531be32c593216cd181b988b2d9493803cf9c074e961e9e2d4",
+    "upstream_git_blob": "54cc0e3cf9735eacfc1335de82697fd8641f4e60",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\__init__.py",
+    "bytes": 68,
+    "sha256": "a1644dcf113801b8769920f5ed231e29934ab6f453923f4eeb71040fc92799c8",
+    "upstream_git_blob": "0b1555abb340462f398c492b76be2cdb491eb054",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\acrobot.py",
+    "bytes": 11931,
+    "sha256": "f29fcf63bc501fb892c964e50c49bfc4277524af33f4f9f8b4f2e5eabf2fdab9",
+    "upstream_git_blob": "0a808b941623cae33d1aad6b69e65ff02edb0e96",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\ball_in_cup.py",
+    "bytes": 13641,
+    "sha256": "da16e73ba3d40b06a18c0880380f35665f9571515edd8a1269d4984341afa6df",
+    "upstream_git_blob": "0a0d86e2b7999ca4ee80757352962883681ef8e1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\cartpole.py",
+    "bytes": 9823,
+    "sha256": "93d7234d33cc7a1bdb5bf30928af5aa48f46c58f3dcafa51abec23367947695b",
+    "upstream_git_blob": "0b0e2d8d4e03b0ede5e1d2831889433bb3d217d3",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\cheetah.py",
+    "bytes": 12304,
+    "sha256": "7fe782b07f02a49af53d4f79ec6c3b3379fed8bca2809325763e24c7fd145062",
+    "upstream_git_blob": "f40d75b308362ea6569c79d159113f7a84cf601b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\custom_tasks\\cheetah.py",
+    "bytes": 6531,
+    "sha256": "da7ddaad68f96afbfe48be3e5871b48663e2078f5cb5850075a06cbd5ffa59c5",
+    "upstream_git_blob": "a24672734cc037d7c49ab761e9bff68f998dbf81",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\custom_tasks\\hopper.py",
+    "bytes": 2026,
+    "sha256": "b2cf01138b07a0c94a8ad3f45928e647bb9891d5a115b5b04e9e22ed4589ba30",
+    "upstream_git_blob": "4e86c0d4e55c5598f5059207c2c60bcec9c25121",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\custom_tasks\\reacher.py",
+    "bytes": 1130,
+    "sha256": "e5e2e82c0621efca7b4c3c194f422c946db59edb12db7735fbe8bdcf12e37e7c",
+    "upstream_git_blob": "a3277969328dcae3369e5decc582e31d318548c0",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\custom_tasks\\walker.py",
+    "bytes": 5803,
+    "sha256": "7b33d2ac7efabb1e1b897600953d2b2cdf55d39237bd319a5bdbc432d66c4f6e",
+    "upstream_git_blob": "a68ab95e795ffc69da63bd3a0abfd2d3888ec1e0",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\dmcontrol.py",
+    "bytes": 5694,
+    "sha256": "13d55bf73f9b7f8a9b5a2b380e12750e253a391716e64e65f795b1c9fff8bc08",
+    "upstream_git_blob": "7b5693a6f9b37f6469298bf6f7ffac9baba4bc81",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\expert_policy.py",
+    "bytes": 3096,
+    "sha256": "1c4cf6833aa817027094be27dfdd7841b0531b9c4c1d5b1480c791056b604251",
+    "upstream_git_blob": "f45c64d970c7bdd2298f98957cb4fee6050a77ec",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\finger.py",
+    "bytes": 14512,
+    "sha256": "a84a7d5a6ac60a0e49ee088309b4d9b19d5ccb91bdd22befd0573b7c4ca02b5e",
+    "upstream_git_blob": "4c0f12ffdc9528cc1b0ff0574a0e759fea208f4f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\hopper.py",
+    "bytes": 11590,
+    "sha256": "d6637058041c1412ba17da3c0762d523e7cae904a0e2f5ed92dc4c34fb5c63d8",
+    "upstream_git_blob": "878ba7c7e3f3c77814fadc2c8bbe91c716bd216c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\humanoid.py",
+    "bytes": 11876,
+    "sha256": "a8d1bd8a5640e7ed40aabac4258a54d1e24e9eea2f6c236a3efa1fc16014c151",
+    "upstream_git_blob": "e42ae5fc89230aa659a9e6af0e3aa557d8f0fa36",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\manipulator.py",
+    "bytes": 10848,
+    "sha256": "2aa65317fa7296ae5574657a8f5eed5b330a789d6f34a400a6d58bd5db07aafd",
+    "upstream_git_blob": "c4ca7b734152c1f236e17e294e6a3ffd979f33df",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\pendulum.py",
+    "bytes": 9768,
+    "sha256": "c8a8c4a710b407b54d9edc57c283fbc3a743c4beea31cefe166c1e4e45d4eae9",
+    "upstream_git_blob": "6d96cc86b922424db465db45b8cc3b4fbd04847c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\quadruped.py",
+    "bytes": 11740,
+    "sha256": "78f6e09cafef755e495e48fc1a90456a55eccd295c847f8a6fa88bbe32bac781",
+    "upstream_git_blob": "924f463fdb9ed8d134a25d7357aaa67eae40b62f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\reacher.py",
+    "bytes": 12554,
+    "sha256": "7d58845f0a3412a1f8d52c0e2305fd8ca2889745ea38429ff08ccf2a8b561f65",
+    "upstream_git_blob": "fc3c12759c7a101adebc10d66f92c4ab161a8315",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\dmcontrol\\walker.py",
+    "bytes": 13365,
+    "sha256": "2761f5c29cf9653ebf352db346299e2fda7d6b2274a449853e711cfacb5e61eb",
+    "upstream_git_blob": "57fd0b7ba1543b5c5bc030fc47bfd77c82a082a7",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_control\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_control\\acrobot.py",
+    "bytes": 5367,
+    "sha256": "00ee7912d10e057ae5f34290fb0b609422101b0d8ee4070ea4bf99d3c6bac1c5",
+    "upstream_git_blob": "1e58be748fe279c65674f02c1f8236bcd90d96e2",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_control\\base.py",
+    "bytes": 3103,
+    "sha256": "0354779da90bb8348241e5bd046a97f915cf979d94732931f1a121a933298599",
+    "upstream_git_blob": "ecd4cc3bd3e2250a06d43f029bb40aec6ef4500f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_control\\cartpole.py",
+    "bytes": 5415,
+    "sha256": "3421c8afa2ae1d453c23d8e815b5418adc1f77f46aa758e4fd32cccdb9e45087",
+    "upstream_git_blob": "51e8be8cc4dda640a2f4227fa8b7aa44d95a2c1c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_control\\mountain_car.py",
+    "bytes": 4367,
+    "sha256": "3e7d379f1297dfb5e179f87e8627d6af9a3194b83e0b0a61d5dd27eb737b9ce4",
+    "upstream_git_blob": "5debc46f3fef6ef5e063a3d6248a0877d8691018",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_control\\pendulum.py",
+    "bytes": 4370,
+    "sha256": "81140706a0b0c1f52f066ae76a02b906a29d69348c1ef5af4e4831db1461a124",
+    "upstream_git_blob": "754ed51ea812d081ef29e68caf9744d58c0f7e10",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_robotics\\__init__.py",
+    "bytes": 151,
+    "sha256": "c3a36c2ecd3832116795d7a15f4eafa647161f4901dbb955ab6565358b02e14c",
+    "upstream_git_blob": "bbb7faab4884817dd27fb5a860edbc94c4927884",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\gymnasium_robotics\\fetch.py",
+    "bytes": 17283,
+    "sha256": "fd2b1cd2ce79f83498736ea1f92a33f64795ff8010703a8edf2ee43829355fd5",
+    "upstream_git_blob": "7fa9ec76905f243eef989b9dc618c8cab68664eb",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\image_positioning.py",
+    "bytes": 16557,
+    "sha256": "4f32696cd3f5619f0f036c512d6d810956ba3c391d16e899c1dea3f267b58e6a",
+    "upstream_git_blob": "36621dc59c53b26d00af37b882c5ecf9dfd3f19f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\ogbench\\__init__.py",
+    "bytes": 195,
+    "sha256": "987c7016720862580f73b3540b456a8e8ee76b2a345579840a106d5ada4a7aac",
+    "upstream_git_blob": "bd67fbbea6e673f61736e25d0cb15afc107cc67c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\ogbench\\cube_env.py",
+    "bytes": 69476,
+    "sha256": "d48d295f06b6a7fb99824823be33c0815dd31a24701d06e7f325c485f2ec8b71",
+    "upstream_git_blob": "206b4eb10c2c6b401d7ec3f671edd7ba386abf53",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\ogbench\\expert_policy.py",
+    "bytes": 11139,
+    "sha256": "437b131da4065ba0adec6b08947a53d41bcc6dfc87324ad9c088778460cdb51f",
+    "upstream_git_blob": "c36ba7a9597999d581288a77057a1205c0dc14d1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\ogbench\\maze_env.py",
+    "bytes": 20656,
+    "sha256": "7457eb82644f537dd763fe2f7ab4d2718b7f72c8439a25312f32596853906bc9",
+    "upstream_git_blob": "48ea70e7d6aee99d7beab39ddff334cd174ac24a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\ogbench\\scene_env.py",
+    "bytes": 55409,
+    "sha256": "21abf24f6c799928acfa2b2abdd30bc3f876bd891a2f5e756ee1be950fed0142",
+    "upstream_git_blob": "71115512a2beca0cf8b44dd487a34de238332095",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\piecewise\\expert_policy.py",
+    "bytes": 4182,
+    "sha256": "74209996b239c13ae23c876a2c2b94eb4787c8deda0df2575ab47b1e7cda91ff",
+    "upstream_git_blob": "a67632ef1d49dc138acb5ab9979735d0e7196c42",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\piecewise\\piecewise_env.py",
+    "bytes": 18615,
+    "sha256": "e4de33b87adb1ce90f65515d69412c7af3a259e4396ba1470dfb675cee72118b",
+    "upstream_git_blob": "2647aa37024ccd75f9b689aa02f035c18a77afff",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\pusht\\__init__.py",
+    "bytes": 154,
+    "sha256": "c768c825b639f73e5b99ba5b3ec46d08b299cb5748b92693ac3fd9205eda48f1",
+    "upstream_git_blob": "4e6bcd5ad8b18c70a12b7f2d719a511ec1d1c091",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\pusht\\env.py",
+    "bytes": 31626,
+    "sha256": "92d2b684e3ba494703f9f8012116b29b4a93ac13cd556f3c6388c28da9a0214f",
+    "upstream_git_blob": "a17acf08fb8d26f52b5fbdc6044716e0d6cf784c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\pusht\\env_discrete.py",
+    "bytes": 1388,
+    "sha256": "eb4d93c4d6471a33684ff2f98c7c18521894f5c90863125d77ce12908f218586",
+    "upstream_git_blob": "224aaee56ef9515438b7dd27316608b12744dc89",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\pusht\\expert_policy.py",
+    "bytes": 3097,
+    "sha256": "c3e8e99dab72ee0cb981cddda66ff5434a51a7c146d586174fb2b4e9d2082729",
+    "upstream_git_blob": "9517673aaad42296d7ddd5914b135cb5498c6899",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\pusht\\lidar_env.py",
+    "bytes": 9869,
+    "sha256": "0b51882937ec125d1a27c270f691e728a2ec5725ff25f8f8f5ea8c851d96a19f",
+    "upstream_git_blob": "35e5af8425616669d569a06d171ab09ea3c76604",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\quantizer.py",
+    "bytes": 1880,
+    "sha256": "7167a833c4a1603e9912533d19a2fa1c8279eb12f235fd8e27cde9ff0a44bec7",
+    "upstream_git_blob": "4d31ab10633eac3179cc30e48ea44386c784b895",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\reacher3d.py",
+    "bytes": 14976,
+    "sha256": "ae8ddef1c48f7b7a84299867ada0034f040687302306358adefcabf9fe1b4887",
+    "upstream_git_blob": "cf2230271745f140f095afac1bfa00e4f784c7aa",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\robocasa.py",
+    "bytes": 36113,
+    "sha256": "065f3ac9194a06da802bff29328839d07dc06aa1e8cdc98807b2ca96e4055065",
+    "upstream_git_blob": "cd34bde322a6fe7322a091a38ae59f1ee2fb26c4",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\rocket_landing\\__init__.py",
+    "bytes": 151,
+    "sha256": "3ae38e645cb9bb40cdd87377b186d9e548772978572d7a8fc101ac362b8128e7",
+    "upstream_git_blob": "236699533731f9f05f3fcc5373a20573a0e6ee44",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\rocket_landing\\expert_policy.py",
+    "bytes": 20245,
+    "sha256": "477c6770bf95fbcc6b9154cb9e902f012989172d80ced29ef14f96f12cc4cf90",
+    "upstream_git_blob": "aa5d85f3943d757bf10a49373db2520a923e1531",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\rocket_landing\\pyflyt_rocketlanding.py",
+    "bytes": 24699,
+    "sha256": "5ede3640ce1e2add32b6b0a6c36e190bb1130e38bb258ab182af12a6fbedee23",
+    "upstream_git_blob": "13306a9e9ac9e9e678f20e8a7dc38e7e2923c0cb",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\simple_point_maze.py",
+    "bytes": 14088,
+    "sha256": "b69891f8571b032530dcf154d1d80fcbdfe5ae3635d74a10db67cf50811c7a65",
+    "upstream_git_blob": "23d0a24125ae07e311f196eb457b8d77593e8427",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\two_room\\__init__.py",
+    "bytes": 110,
+    "sha256": "a2ee00ccaf03e7bd7d10c980b7d9fef55cf7edb43fd9f80b503d3d187d8f0801",
+    "upstream_git_blob": "134b9fe46b6143949b3eb0e37169dfcf8fe216e6",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\two_room\\env.py",
+    "bytes": 27757,
+    "sha256": "5e1d392de5b02472062dbe872aded67fd465fcc8f7eaa1c02a753b2fc31c61f0",
+    "upstream_git_blob": "c314a1f57db90b49bafdaf35484df91958ad7f17",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\two_room\\expert_policy.py",
+    "bytes": 7400,
+    "sha256": "5939318d2a671ce00abf46be74ae22cf2452ea48426eb9dc651d04514849e4f4",
+    "upstream_git_blob": "d35f61114fce518bfd047c8ba1d6fab2a1b43327",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\two_room\\legacy_env.py",
+    "bytes": 27495,
+    "sha256": "10bfb438a4304308318ad0deb000c1bba12a5b60cf40f78045fbaa712d818ee7",
+    "upstream_git_blob": "6109a2c312b86555da569fb6310766160d287a6d",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\two_room\\lidar_env.py",
+    "bytes": 10728,
+    "sha256": "3c3921f2b686cfc330996676008f09aa5c93c7340551a61f4ac03564431c340b",
+    "upstream_git_blob": "f22ebb06cfe76ce61336089749ae4cdcff43f0dd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\envs\\utils.py",
+    "bytes": 8006,
+    "sha256": "2e5d98a5c13227cba6f5574bf72b6eab149ee5b3783df0481b8d240f34047f56",
+    "upstream_git_blob": "565b2abf16ed6c73a91c1a329d5007077afc8507",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\plot\\__init__.py",
+    "bytes": 279,
+    "sha256": "190601d287c9d7f290776aef323433f3f3e96bc05139a16bf616867aff8edbb9",
+    "upstream_git_blob": "2d198b03e82e1fa2b4558e7aacdc1fac69efff90",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\plot\\lidar_render.py",
+    "bytes": 18230,
+    "sha256": "de7a68641afd29a310cb971e17c8fcf2aa47c10241eaa42f391a69a28755624f",
+    "upstream_git_blob": "6cd9d592cb055d40f59876de1068a620c525f874",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\plot\\video_utils.py",
+    "bytes": 3515,
+    "sha256": "000dbac140b72265ab5df0d8b80c18af4077ccf0f6e080f9a6795211b6270083",
+    "upstream_git_blob": "6a1a8b1aa3c01a6fb5c8dbce31730527ffe1a84b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\policy.py",
+    "bytes": 18223,
+    "sha256": "4183c3934c43b61d062810101b6f6872806f3bf7e5f257e4f04505c5c45550c6",
+    "upstream_git_blob": "3aca878efeb6e6d404a3a816aaa48d4fbae318aa",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\protocols.py",
+    "bytes": 2812,
+    "sha256": "35b3e08fa2df0239277d2004356375af58b207edbfa555d46d24baca646fc401",
+    "upstream_git_blob": "fdaf24b353feaa2736f9bdec614ace402e2b9447",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\__init__.py",
+    "bytes": 524,
+    "sha256": "0d0b18cd5de509202210620bb7e3b063adab5f6ab1352c4c3fb7c8568abef4b1",
+    "upstream_git_blob": "8fa7a589767980622fed6b603422eed310cd929a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\callbacks\\__init__.py",
+    "bytes": 541,
+    "sha256": "bfbeaab14335013057ce236d359ddb3a1eeb342d25cd3c270365fb241481503b",
+    "upstream_git_blob": "d93af93cc9d842a453c8dc3109a167a6eaec6bf0",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\callbacks\\cem.py",
+    "bytes": 1632,
+    "sha256": "9631f12f5cc42b7722bd1dab88e5433ae2f13098b63e2a62a17be2d8cbd79c75",
+    "upstream_git_blob": "d6d098a79fb5a790b8294ae1f4209a78ba233dfd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\callbacks\\common.py",
+    "bytes": 2336,
+    "sha256": "00f498dbd347ef4233893ee0accdf87e1201f93ccaa2662abe402e66967fa3d1",
+    "upstream_git_blob": "867509948f1be18e2881a4006a2b232052428682",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\callbacks\\gd.py",
+    "bytes": 1514,
+    "sha256": "c614a261164edf027719209cbcd6648efe8930b7760e3f57a0fc525eb1813454",
+    "upstream_git_blob": "19d2454cbfebac63668793cfc5fc9512d5ef543b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\categorical_cem.py",
+    "bytes": 10127,
+    "sha256": "e3fd91755f2e2851345a8c9fb9f6e47c7ce20475192b03d85170bb088c1296cc",
+    "upstream_git_blob": "ad8577e4c3310b6f423256efb9e7ec176acaf1c1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\cem.py",
+    "bytes": 10080,
+    "sha256": "a6662e7f1f2c6ecaf0a8527255d531aa05ed583339aabdf2798d0206382ef51b",
+    "upstream_git_blob": "da0a7561507ae83a225c87bb08103408c4512e03",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\gd.py",
+    "bytes": 10425,
+    "sha256": "823370564886e01ba50520171f6058437f34f204367d94a9db4119d748de6942",
+    "upstream_git_blob": "033a11af6097e1e2c3a34cd8b1da2de752590a73",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\icem.py",
+    "bytes": 12712,
+    "sha256": "3a03cf9068ad16d58315a38b2c8d083a64b5b367e9c614b5a4a7adef832a69f9",
+    "upstream_git_blob": "5dc492c6ad3b2d5182484bfb6178bc0f6f284e15",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\lagrangian.py",
+    "bytes": 15027,
+    "sha256": "e348f28bf77c2b70edc5dcca14b6090c6c7a88e3ccad99fceff47ae5801f8b73",
+    "upstream_git_blob": "c0b7c4883c0a84066faeed3d44e179089dbb29d8",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\mppi.py",
+    "bytes": 9585,
+    "sha256": "a1140e28630fa97a8234d9edc6ee85df6154cde6133cd6d5758f5812f582c529",
+    "upstream_git_blob": "dfc19e762909dfca3ff6d3a62529b4103f5b2561",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\pgd.py",
+    "bytes": 10614,
+    "sha256": "6cf5eb2bc4221957d5025339163635b172d222b62294bc2af7f7d5235791a483",
+    "upstream_git_blob": "e9064f780f80369066e7a5d6d897b2b475de5b38",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\predictive_sampling.py",
+    "bytes": 6562,
+    "sha256": "e2d5b0cf3f030eb6c17cb436fe835b0c304a27cf5147bed2c4c8576e879d3f3f",
+    "upstream_git_blob": "b0940cb5f6260735f9ad587c09f5fcfac528e406",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\solver.py",
+    "bytes": 1481,
+    "sha256": "76b4717495e395e6cf188a3fd4d72c6bc1466c93635e87cc86ba16c427ef9ebc",
+    "upstream_git_blob": "214e984f4b635a39b619a4baf681d983a22a8844",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\solver\\utils.py",
+    "bytes": 2401,
+    "sha256": "d30c6225a9c4c83782132180a94c94188b07e0381d2c938c658fe5a49aed48e1",
+    "upstream_git_blob": "3270e9e63c941edec80ddde0e19df5f4be1a56e9",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\spaces.py",
+    "bytes": 26887,
+    "sha256": "73079b2a66dace087abc7c417691e3cc339887866915553e21d0936a362229eb",
+    "upstream_git_blob": "7dd1e95623c0530b1a62165b21ff609f8d2781e2",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\utils.py",
+    "bytes": 4641,
+    "sha256": "9979483129df100cf4728dd45d1b6d0bb02d1fadec637d7f7065fe7894a3c276",
+    "upstream_git_blob": "34051119e874194c3d94654a1aca8f419410a260",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\viz\\__init__.py",
+    "bytes": 100,
+    "sha256": "d09ef15ebc91c6e3d3035983787b595831a3d05eef4c271acd01bef207527ca7",
+    "upstream_git_blob": "28f4592f5184a8b9873795effab32ec2de7d8bb1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\viz\\lidar.py",
+    "bytes": 14387,
+    "sha256": "86f005e0cb64a2f0b0f208c4027da0ee3541a4348d1195df50600ea8f62323c4",
+    "upstream_git_blob": "1a8d5c8b426264dd2a9cdbab8790da5c4c9b8857",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\__init__.py",
+    "bytes": 187,
+    "sha256": "84cd992dc27ead462e6c94f95168a038692c884ac5a49762678049f85be8b04a",
+    "upstream_git_blob": "947fb38c6f16f373efe9909c8b8cf0c93e465a4e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\gcrl\\__init__.py",
+    "bytes": 34,
+    "sha256": "56309971b949157473156446b3946f2af933537558d557d57f0ec3b1726c03b4",
+    "upstream_git_blob": "312599604bc6e7177fcbb1e4054fa2ca67e2acc1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\gcrl\\gcrl.py",
+    "bytes": 6919,
+    "sha256": "db3936de12cbea497a4435f473478bfb6663e33c56a8ef123cee8221f19c9f6d",
+    "upstream_git_blob": "66e09824b43e7f2877df2c40b7c553a9b515bfb7",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\gcrl\\module.py",
+    "bytes": 19406,
+    "sha256": "3cab908a9a1d089c2f82572b4bbf565bdcfe30435260ac2c0ba57d16eadbabb4",
+    "upstream_git_blob": "b6b81f27100baf96030e7ed48844540af0062afa",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\lewm\\__init__.py",
+    "bytes": 34,
+    "sha256": "b7cb06042d883448c8967ab8e951c6f3c9a1e97867c3a7ce8f8dd713d4f8a798",
+    "upstream_git_blob": "4e1c5174859c760f2553635e1d631a9cc7ae5591",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\lewm\\lewm.py",
+    "bytes": 5425,
+    "sha256": "f29797b1ed2b90b4977f38a953d251e8be8df6c8cfe7b59bb4c00bfd609f0d8f",
+    "upstream_git_blob": "9486c3f9586d6da889741f6602984800f44fad0d",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\lewm\\module.py",
+    "bytes": 8062,
+    "sha256": "3a6209baf30c11f77a5f6637282a1821fc62cea827438a97b23933caab51d8c7",
+    "upstream_git_blob": "85f9451048295aedbec6be5635f683fbb23cedfd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\loss.py",
+    "bytes": 3823,
+    "sha256": "55b8e65b6c1231f232e40f46891aa5e37f851ea5f49f8e33826639fd3686b510",
+    "upstream_git_blob": "21363a514dbbbea5448dad239cdbc45988fbe44f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\pldm\\__init__.py",
+    "bytes": 34,
+    "sha256": "5741a80e350cbc56c595c78021f3bcf7719884a2ae4444fb2a6307db10caff8a",
+    "upstream_git_blob": "3e6b2c035e33c48065196a8143ac44c192bbf041",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\pldm\\module.py",
+    "bytes": 8062,
+    "sha256": "3a6209baf30c11f77a5f6637282a1821fc62cea827438a97b23933caab51d8c7",
+    "upstream_git_blob": "85f9451048295aedbec6be5635f683fbb23cedfd",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\pldm\\pldm.py",
+    "bytes": 5402,
+    "sha256": "a59f684445d35ed1390a6b538a15e4e17342327471f4eac5edcb5b45bb990a59",
+    "upstream_git_blob": "29caa40bb26797fc41bef4ae4239e7d71560569c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\prejepa\\__init__.py",
+    "bytes": 37,
+    "sha256": "79889484a3f514964fb2e247c0c63b7ba327a2c5a43d3f61c88497d5d56512cd",
+    "upstream_git_blob": "424b80ff1d6fd541c250a97961302229e2327b0a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\prejepa\\module.py",
+    "bytes": 7748,
+    "sha256": "b541791ce0b4ef974d79da4ddfc06b09d94f3184be7973345afb79066c4d0098",
+    "upstream_git_blob": "e1f260ce3b11c47e45fb95bbe8e67da3364bfa9e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\prejepa\\prejepa.py",
+    "bytes": 16189,
+    "sha256": "b022c734c41c47c788f96ac7374c2289b833fe0bdca146d70836e38bcc0b2a72",
+    "upstream_git_blob": "7aea4642453008eddd65d5682d08c8fdcbe91b0b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\probes.py",
+    "bytes": 1087,
+    "sha256": "7234ffaac539a4c1f857a8e620f21d29ed23183d48ba36982e629d81d0b94c25",
+    "upstream_git_blob": "c0bed153ca2d0017df231a1d1d965bf644ab9cc1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\tdmpc2\\__init__.py",
+    "bytes": 148,
+    "sha256": "3db111628d662482460f4db767297994c4fc0db8621d73e1d8d8822dbce4f29a",
+    "upstream_git_blob": "232c11aa5ec9e5bb4de4f3c93ac4f26acee8204a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\tdmpc2\\module.py",
+    "bytes": 4367,
+    "sha256": "97230be39aab92f08bb117710f1fa53807173cc682f4e6aaf99296f8c915130e",
+    "upstream_git_blob": "8e405a4224bc05349a5a951784ab44bb49f8f674",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\tdmpc2\\tdmpc2.py",
+    "bytes": 17218,
+    "sha256": "31229660ff57bda7d55069d7e879ea0a0571f7755ad80736d466f106bfe8ba25",
+    "upstream_git_blob": "f280a1a057666b7c34336e07e341682fba39b745",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wm\\utils.py",
+    "bytes": 5915,
+    "sha256": "e2356d1d523076a73209b5546c7b279dbf85c58b49acbb894c17539b117688b7",
+    "upstream_git_blob": "ea8af9f331d471df4cdda1b0e9bc9d048ae179af",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\world\\__init__.py",
+    "bytes": 87,
+    "sha256": "8dd9797a487bba62663d9d4d2b499d4a7323a1f45ae572cacf93239df37e427c",
+    "upstream_git_blob": "a4b55d875f2f69f1612cbab264498fd328e3c31c",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\world\\env_pool.py",
+    "bytes": 7172,
+    "sha256": "b6e73253199e1a39f0fcadfad7dbea09270cbd559e366d1bc9bf09c9e7da0606",
+    "upstream_git_blob": "545348b334af4d522dc685923c7f65b670f50f24",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\world\\world.py",
+    "bytes": 28904,
+    "sha256": "76b538c21a26cdd853948b48cc7b08bc5a717abf0d2a6e9e21c066a494871f50",
+    "upstream_git_blob": "a2949165dba937cccda918ee8e13db03db311c7b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wrapper\\__init__.py",
+    "bytes": 1321,
+    "sha256": "8e82cea6e756e94073cbba8489bd1bcd36a7557babe81bf86277549b1ce75659",
+    "upstream_git_blob": "3a798267f42ec41515cdd5418eb5a6dfa4f3245f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wrapper\\_lidar_warp.py",
+    "bytes": 12347,
+    "sha256": "52fed8943271861f3222c92c0fcc0f4ec30e2c30af5a59e007be3388d79e2e4b",
+    "upstream_git_blob": "b694a894267a6fc6f05b075203eea73f92085e01",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wrapper\\default.py",
+    "bytes": 21698,
+    "sha256": "9df8b9bfbdf6f1081d17769ff30cba9b45424b946d418a73e6b213a3b0e9499f",
+    "upstream_git_blob": "7b1606376dbd61bfe637ea225c3b2595524e768a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wrapper\\lidar.py",
+    "bytes": 27100,
+    "sha256": "1f3b9ac70ec1a30c3e9f4144a20fbb28a31cf8a092723091c1c7a86d56cd7862",
+    "upstream_git_blob": "f2511c3201944e57dc0dd39bf730638e5fd28223",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\stable-worldmodel\\stable_worldmodel\\wrapper\\visual.py",
+    "bytes": 14629,
+    "sha256": "5ec85d6acf637a73d10881d3594fa3218a0cb654404acfd36c7b7790eae690c4",
+    "upstream_git_blob": "980245a0f280e31374689b8ce978222bbc6f125e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\action_encoder\\dummy.yaml",
+    "bytes": 48,
+    "sha256": "b88ab8848f52a05c138d8df1536600bf799abe9620f065f45b7d78dc6d4a1e3e",
+    "upstream_git_blob": "ff46ae131ea9a87ba184f100e80bff5f22834df8",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\action_encoder\\proprio.yaml",
+    "bytes": 96,
+    "sha256": "e23de5f8644c45357f5756129e6dac15b804235073051da7cbb312de089acb2c",
+    "upstream_git_blob": "f71e4f8b7ae898ac973e70dc0f5ce26e9d062b20",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\decoder\\transposed_conv.yaml",
+    "bytes": 130,
+    "sha256": "6b294a7dd2dae90e5daa439bbcb420e0ea558e391b66a8463be34c9ef95c1628",
+    "upstream_git_blob": "daa248605fe2251d4e4336c8ef88444f0dbadabc",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\decoder\\vqvae.yaml",
+    "bytes": 106,
+    "sha256": "b0bd4953a459774267ea6f4064019ad4a392c6a995cb41654f1a9d505558e1f9",
+    "upstream_git_blob": "527a82c874eafad7c6cdeebd16f046641243f6d4",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\encoder\\dino.yaml",
+    "bytes": 92,
+    "sha256": "61096e0de72faa0f1ca7273b5088e42ebd69b8b13663db4fc9d87fd058a28e19",
+    "upstream_git_blob": "a0e0bda72f1f55f1ea527a3d7e67ffbb2eef701a",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\encoder\\dino_cls.yaml",
+    "bytes": 89,
+    "sha256": "65421fd0bbb414eba3d1a2a6cf98e14f109cec000ef198d71399c94e8cf5ae71",
+    "upstream_git_blob": "cd168b275ec522312c6e69173fb9d375441d129e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\encoder\\dummy.yaml",
+    "bytes": 44,
+    "sha256": "76b681749febe154369a1c237b44564c51ad3b87a1d288cd8f5c3dcc42f2ec98",
+    "upstream_git_blob": "f731826b83ed2a235da5fbadb267c1cd5ceeefc3",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\encoder\\r3m.yaml",
+    "bytes": 55,
+    "sha256": "fd6287af26e6da36659b4d8793eae9492154cbe5bb77ef1d230f80d2da75b254",
+    "upstream_git_blob": "49f2f31b741c35a8171a2a3c31defc4db0bb0bf9",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\encoder\\resnet.yaml",
+    "bytes": 74,
+    "sha256": "bdfeee75091c53ff8022e61b9d189cff75d3b4aad7992d86738b26f607deaad1",
+    "upstream_git_blob": "5b3d716fd8d7b69a2f41fc3f780f2b12e0adfbeb",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\plan.yaml",
+    "bytes": 1397,
+    "sha256": "9fc6da2b1f2441011462d12099e6e413b6cb467435e686a29da2bf045de15c70",
+    "upstream_git_blob": "3080c2e35bf299e5f348a1d47542c754121fbef3",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\plan_point_maze.yaml",
+    "bytes": 1476,
+    "sha256": "8d1673b94c4dea667a97333dd2216aa567445928e0e20d115d3fa1ca83d82151",
+    "upstream_git_blob": "76ea4aee5d4524811181fb0bfcf546477a69fbaa",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\plan_pusht.yaml",
+    "bytes": 1469,
+    "sha256": "557d67cd57694bad8065442cb84288ddafc28b6116430bdbac29100fda750db8",
+    "upstream_git_blob": "ed2d69893fb68ee541278b6345e27ccdd4f1b259",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\plan_wall.yaml",
+    "bytes": 1477,
+    "sha256": "87065fb444786bb60a674f15bf04094f2b9bc97705430220004605bf640af198",
+    "upstream_git_blob": "87fbf817c2a00b76330c92c1ba940bb9935dc0a3",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\planner\\cem.yaml",
+    "bytes": 122,
+    "sha256": "b48fe1f400327ab73b3064ca2ce768ee35dd6c93104eca7fe8d0db08cc1a7d34",
+    "upstream_git_blob": "76924ddc94dd49ee4ad555811533e3418c5895af",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\planner\\gd.yaml",
+    "bytes": 151,
+    "sha256": "bc6f4df3db21e61510fb9cf596ebdcc4f67152f654068b3167cbecd54aa714b5",
+    "upstream_git_blob": "637b0d9b71bfe9eca572539561bd97e180287349",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\planner\\mpc_cem.yaml",
+    "bytes": 239,
+    "sha256": "404ecd95108420740829da30141dcc43dcc06bcd1724b570804481e14bd36e4d",
+    "upstream_git_blob": "1439b840bf8345493872c160d145f18e94d27ee1",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\planner\\mpc_gd.yaml",
+    "bytes": 268,
+    "sha256": "dd7f6a4ded8a5508feb9c2bfec455ac321ce0accfe187f86e3b0f939d560990a",
+    "upstream_git_blob": "f7b26c770a1567a9437d5569be07efa58f4ff35b",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\predictor\\vit.yaml",
+    "bytes": 107,
+    "sha256": "026795ef35aef42502ddbe1a3f6a39b92fa542e014f4c6514a932168416bb608",
+    "upstream_git_blob": "8c8bc54b34996a77908ba97660ae06b7aa0bf351",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\proprio_encoder\\dummy.yaml",
+    "bytes": 48,
+    "sha256": "b88ab8848f52a05c138d8df1536600bf799abe9620f065f45b7d78dc6d4a1e3e",
+    "upstream_git_blob": "ff46ae131ea9a87ba184f100e80bff5f22834df8",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\proprio_encoder\\proprio.yaml",
+    "bytes": 96,
+    "sha256": "e23de5f8644c45357f5756129e6dac15b804235073051da7cbb312de089acb2c",
+    "upstream_git_blob": "f71e4f8b7ae898ac973e70dc0f5ce26e9d062b20",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\conf\\train.yaml",
+    "bytes": 2194,
+    "sha256": "fd8af156b74770102e31725cb6819fcf953ae1df5e82a8ed43ee94b2a5c1c465",
+    "upstream_git_blob": "3965b7193e63297b0ca1d7312a95176db389b2fb",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\decoder\\transposed_conv.py",
+    "bytes": 3629,
+    "sha256": "c1327257b0f964edb60c66ff528d6c9d24ae5d43322a13ef72eacd716374b0ac",
+    "upstream_git_blob": "8f6a782e66c5eeafd3ec2c6c1bc00052bb1fba41",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\dino.py",
+    "bytes": 883,
+    "sha256": "acd6a5d9c52704fe3cac2afd867104460fa10abda96fbd70c7816bc93c7eaad8",
+    "upstream_git_blob": "b2bc85e37df2b3ae894187b86e8b60152c064186",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\dummy.py",
+    "bytes": 1323,
+    "sha256": "b834728189f12346cebd9a926088e7e7bf7395fe4d8198f6250418fc11a00bb7",
+    "upstream_git_blob": "e1a1acacf0218521fc2756f0966067b461e55062",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\__init__.py",
+    "bytes": 4825,
+    "sha256": "395ca491adf7e473b1c7caecf98cb026d6ad4faf059ffb83df105edf398ce5ed",
+    "upstream_git_blob": "695356a6103c406523bfe2e862baedd98826d61f",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\cfgs\\config_rep.yaml",
+    "bytes": 596,
+    "sha256": "2b5c0651227610fcc221df9a98e273721f040b6f793a0bc81efa7c9890a7169d",
+    "upstream_git_blob": "2558c557e50eed41bd3719ec3d96d1aab9bbb6c0",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\cfgs\\hydra\\launcher\\local.yaml",
+    "bytes": 339,
+    "sha256": "5d6bb578e5e014fba00e8092fee8b432115339bfead32324fd1051cfdcba1efb",
+    "upstream_git_blob": "25d09c68d791ceb16f1fbe3e3400deb2762adcbf",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\cfgs\\hydra\\output\\local.yaml",
+    "bytes": 302,
+    "sha256": "387f3f6d8222a48f0ecb4de71bfec73dfe22ee3a286085355fb8a57e3c35a0d8",
+    "upstream_git_blob": "14d29071cae83300c6e7863e14c83a8360e19bb9",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\models\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\models\\models_language.py",
+    "bytes": 2155,
+    "sha256": "98a84a98f1a06c1aaec4685b3489885bd08e33fe586da67b2aa6f605d729eae3",
+    "upstream_git_blob": "ffaadad8b9fc69359483646e8034a5e27fa668c8",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\models\\models_r3m.py",
+    "bytes": 4660,
+    "sha256": "cfcadadb8d8a58b561c3ef37f185c5b6841c7330fe4e34925df9c328bd3bcc36",
+    "upstream_git_blob": "0188b45f2d326255e389d1c905272831243d23ec",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\r3m_base.yaml",
+    "bytes": 1678,
+    "sha256": "89dbb370d54563735ae8db3b71a2ee79a819d67aff971c24f4d33fa14060e25d",
+    "upstream_git_blob": "356c49aa10a8bb177135e34edfa570acc2d50aff",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\utils\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\utils\\data_loaders.py",
+    "bytes": 3539,
+    "sha256": "3172ac99d742197eab78f5cc3c482194e55cb52cfdb79cb0731932489f62ec67",
+    "upstream_git_blob": "03714b7210cd938759289e226ccafe6324c29e63",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\utils\\logger.py",
+    "bytes": 5914,
+    "sha256": "d93674aab6943d09fe168d2d3702e0a8589a980515ea672c1fff12da3da5d62b",
+    "upstream_git_blob": "b39d646eb438e455bafb459dc8a1a347a6c4d978",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\r3m\\utils\\utils.py",
+    "bytes": 4883,
+    "sha256": "12fdf10eb658bcd4590f3239a1969412c799c6ac603dfdc0dc5e04175b9e24ac",
+    "upstream_git_blob": "e306b1da119bf816560f2ffa154a8974bf2131f7",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\encoder\\resnet.py",
+    "bytes": 4624,
+    "sha256": "500e3dc61777731315f835630acbd4823f7d15755917f6e4234a9b50bb25253a",
+    "upstream_git_blob": "1a6716b381f63e617e3320b881d746bedca0bea9",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\proprio.py",
+    "bytes": 2131,
+    "sha256": "b0f7c761c45a6a889dc51f6d9cf4539480d1a0bd2bd200ad44c4b9373a573c72",
+    "upstream_git_blob": "8fb70990ef31e018aafc64ffcb9477f4b2e0ec18",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\visual_world_model.py",
+    "bytes": 13050,
+    "sha256": "931d44c0d541d95be8236f65247de9b40ac3843fe047c1a44d4a2482d1bf636f",
+    "upstream_git_blob": "40bc298c8424a38d38670711968178fafe3966d0",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\vit.py",
+    "bytes": 3936,
+    "sha256": "60c77bdb03f3b2d565bfdb1695c9c193a802236763d33a03e79ed382b51f0670",
+    "upstream_git_blob": "55c58bde2ce2bdeb0969d28a25d4cc84028eb5bf",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\models\\vqvae.py",
+    "bytes": 7425,
+    "sha256": "377005da5c79355da6c7db88eded7a04e432c29ddf4279ea89e5364730ff1461",
+    "upstream_git_blob": "0a0d84083cc59429f8eecdb04f25c250236c18ed",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "upstream_git_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\base_planner.py",
+    "bytes": 1088,
+    "sha256": "5f66c88043a30d60c7528688fa0c8e3fc6339a173b5e62b1466a7d8a55b63cd5",
+    "upstream_git_blob": "95ffd91f103dda6169c610ef9aa7ab41f7640e44",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\cem.py",
+    "bytes": 4607,
+    "sha256": "9d9851a9ad992ace4836c77af6a88c6da77aae7f61b7055c422c52b2a5f34378",
+    "upstream_git_blob": "279486a841773ffbbd68b38a1ded047046efd464",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\evaluator.py",
+    "bytes": 9586,
+    "sha256": "072b1f51fb3581e76c08aa838badfb893ba56bc3bc935ad887e842a96d7647a7",
+    "upstream_git_blob": "6721611592f4b6adacdd141887c2baeaea0e814e",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\gd.py",
+    "bytes": 4382,
+    "sha256": "81e8067f80954db4fcf4ffb477569f4d97199197b6213809c828237d41332d95",
+    "upstream_git_blob": "330fc8ab093433815c1fb6a6ccc137b27e440114",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\mpc.py",
+    "bytes": 4926,
+    "sha256": "5426d366fccc646b2ef91e4709ebefce4f63839cb975c526f8c048e1d26e11dd",
+    "upstream_git_blob": "617568de31d4770d14789ed3c0e65b06af44bb60",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\point-lewm\\third_party\\dino_wm\\planning\\objectives.py",
+    "bytes": 2242,
+    "sha256": "ac7273b44bad2c84d15b0d7f11ca68e08d19ecf7ee8db697813b01a18126a4fe",
+    "upstream_git_blob": "70d1a8647b3c54b13fb377ac1fb3d5c5b500e05d",
+    "upstream_commit": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48"
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\pusht\\dino-wm\\hydra.yaml",
+    "bytes": 904,
+    "sha256": "1f2c7767f06a82ae8d86a8be168e303b5941b5105e8cff5060e9e5cb54f3f3a2",
+    "upstream_commit": "664278a4c0b4c5f607d0993744986b2d10b4168e",
+    "published_member": {
+      "rfilename": "dino-wm/hydra.yaml",
+      "blobId": "cd569597b7d6194e7f626cd01f5d2c49c2036965",
+      "size": 904
+    }
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\pusht\\dino-wm\\swm_h5_norm_stats.json",
+    "bytes": 571,
+    "sha256": "90619b3b9e0534f223e19eac595330dd426e3319b832ec3717f7ec90d2fe5de5",
+    "upstream_commit": "664278a4c0b4c5f607d0993744986b2d10b4168e",
+    "published_member": {
+      "rfilename": "dino-wm/swm_h5_norm_stats.json",
+      "blobId": "aafe920b831e0aa03ee393f1322cbd52ecb628a3",
+      "size": 571
+    }
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\reacher\\dino-wm\\hydra.yaml",
+    "bytes": 906,
+    "sha256": "714ac177fde0ec8f86b619c439d2c9ea8356e9ce1a003ee2a584cdbca963e5ab",
+    "upstream_commit": "e49311dece3de2bf86c8f520e5e601e0e2fbb5ba",
+    "published_member": {
+      "rfilename": "dino-wm/hydra.yaml",
+      "blobId": "8199218f16a6472803b052b32b943f6ba891577d",
+      "size": 906
+    }
+  },
+  {
+    "path": "docs\\world-model-diagnostic-a2-20261004\\source-audit\\reacher\\dino-wm\\swm_h5_norm_stats.json",
+    "bytes": 556,
+    "sha256": "9408825bdf66664520937e085bb53a99a400bbf1dc832cfca75c429315e5362d",
+    "upstream_commit": "e49311dece3de2bf86c8f520e5e601e0e2fbb5ba",
+    "published_member": {
+      "rfilename": "dino-wm/swm_h5_norm_stats.json",
+      "blobId": "05c163bca750322bfdfd14b4eff66ed4c5f21ac7",
+      "size": 556
+    }
+  }
+]

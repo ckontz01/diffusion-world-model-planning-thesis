@@ -1,0 +1,45 @@
+img_size: 224
+frameskip: 5
+concat_dim: 1
+normalize_action: true
+action_emb_dim: 10
+num_action_repeat: 1
+proprio_emb_dim: 10
+num_proprio_repeat: 1
+num_hist: 3
+num_pred: 1
+has_predictor: true
+has_decoder: false
+model:
+  _target_: models.visual_world_model.VWorldModel
+  image_size: 224
+  num_hist: 3
+  num_pred: 1
+  train_encoder: false
+  train_predictor: true
+  train_decoder: false
+mixed_precision: bf16
+encoder:
+  _target_: models.dino.DinoV2Encoder
+  name: dinov2_vits14
+  feature_key: x_norm_patchtokens
+action_encoder:
+  _target_: models.proprio.ProprioceptiveEmbedding
+  num_frames: 1
+  tubelet_size: 1
+  use_3d_pos: false
+proprio_encoder:
+  _target_: models.proprio.ProprioceptiveEmbedding
+  num_frames: 1
+  tubelet_size: 1
+  use_3d_pos: false
+predictor:
+  _target_: models.vit.ViTPredictor
+  depth: 6
+  heads: 16
+  mlp_dim: 2048
+  dropout: 0.1
+  emb_dropout: 0
+  pool: mean
+env:
+  name: swm_pusht

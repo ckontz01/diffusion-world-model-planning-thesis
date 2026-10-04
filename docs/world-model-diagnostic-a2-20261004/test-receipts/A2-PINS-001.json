@@ -1,0 +1,30 @@
+{
+  "label": "A2-PINS-001",
+  "state": "finished",
+  "started_unix": 1791126389.8197398,
+  "wall_seconds": 3.373271900054533,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 103.80949910003126,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.public_audit",
+    "pins"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"METADATA_ONLY_PIN_BEFORE_ACQUISITION\",\n  \"github\": {\n    \"repo\": \"fafraob/point-lewm\",\n    \"commit\": \"d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48\",\n    \"tree_receipt\": {\n      \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\public-metadata\\\\github-tree.json\",\n      \"bytes\": 140487,\n      \"sha256\": \"6a4bd1b950df4b3bf15196b8f49bbfd8aa9395b42e02815d0dfcfcec64c26ce7\"\n    }\n  },\n  \"huggingface\": {\n    \"pusht\": {\n      \"repo\": \"fafraob/point-cloud-pusht\",\n      \"kind\": \"models\",\n      \"commit\": \"664278a4c0b4c5f607d0993744986b2d10b4168e\",\n      \"license\": \"cc-by-4.0\",\n      \"dino_members\": [\n        {\n          \"rfilename\": \"dino-wm/checkpoints/model_latest.pth\",\n          \"blobId\": \"b1e7c79d4cabad708c90d0909e47f53c748b22df\",\n          \"size\": 88837855,\n          \"lfs\": {\n            \"sha256\": \"14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0\",\n            \"size\": 88837855,\n            \"pointerSize\": 133\n          }\n        },\n        {\n          \"rfilename\": \"dino-wm/hydra.yaml\",\n          \"blobId\": \"cd569597b7d6194e7f626cd01f5d2c49c2036965\",\n          \"size\": 904\n        },\n        {\n          \"rfilename\": \"dino-wm/swm_h5_norm_stats.json\",\n          \"blobId\": \"aafe920b831e0aa03ee393f1322cbd52ecb628a3\",\n          \"size\": 571\n        }\n      ],\n      \"metadata_receipt\": {\n        \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\public-metadata\\\\hf-pusht.json\",\n        \"bytes\": 6213,\n        \"sha256\": \"ad3aa55daf39ab08ffac88eef5a43dbfea257f104567e556911022cbc843fcc2\"\n      }\n    },\n    \"reacher\": {\n      \"repo\": \"fafraob/point-cloud-reacher\",\n      \"kind\": \"models\",\n      \"commit\": \"e49311dece3de2bf86c8f520e5e601e0e2fbb5ba\",\n      \"license\": \"cc-by-4.0\",\n      \"dino_members\": [\n        {\n          \"rfilename\": \"dino-wm/checkpoints/model_latest.pth\",\n          \"blobId\": \"9721c34d4003a6b87107fc65cb43287324aef88f\",\n          \"size\": 88837855,\n          \"lfs\": {\n            \"sha256\": \"c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842\",\n            \"size\": 88837855,\n            \"pointerSize\": 133\n          }\n        },\n        {\n          \"rfilename\": \"dino-wm/hydra.yaml\",\n          \"blobId\": \"8199218f16a6472803b052b32b943f6ba891577d\",\n          \"size\": 906\n        },\n        {\n          \"rfilename\": \"dino-wm/swm_h5_norm_stats.json\",\n          \"blobId\": \"05c163bca750322bfdfd14b4eff66ed4c5f21ac7\",\n          \"size\": 556\n        }\n      ],\n      \"metadata_receipt\": {\n        \"path\": \"docs\\\\world-model-diagnostic-a2-20261004\\\\public-metadata\\\\hf-reacher.json\",\n        \"bytes\": 6221,\n        \"sha256\": \"108c1b25045ec74445e4d4200e97c64c0e0bcafd0ed44d7f868aeacb1ded4bda\"\n      }\n    }\n  }\n}\n",
+  "stderr": "",
+  "cumulative_seconds": 107.1827710000858,
+  "peak_job_memory_bytes": 30388224,
+  "affinity_mask": 15,
+  "retained_local_bytes": 1367155,
+  "code_metadata_bytes": 1367155,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}
