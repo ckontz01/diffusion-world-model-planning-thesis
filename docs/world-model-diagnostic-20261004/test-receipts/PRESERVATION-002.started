@@ -1,0 +1,19 @@
+{
+  "label": "PRESERVATION-002",
+  "state": "running",
+  "started_unix": 1791074607.155185,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "wm_diag0/preserve_preparation.py",
+    "02c8ea4609911611ab8085225cb4ab37447c85d6",
+    "bind1-v2"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 27.949988799984567,
+  "domain": "artificial",
+  "research_access": false
+}
