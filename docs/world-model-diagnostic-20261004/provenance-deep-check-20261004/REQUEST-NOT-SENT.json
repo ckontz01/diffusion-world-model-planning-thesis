@@ -1,0 +1,15 @@
+{
+  "status": "NOT_SENT_PERMISSION_BLOCK",
+  "intended_url": "https://github.com/lucas-maes/le-wm/issues/93",
+  "intended_recipient": "@lucas-maes",
+  "user_authorized": true,
+  "body": "Hi @lucas-maes — following up on #93 and #58. Could you restore access to, or provide an authenticated mirror of, the **original released DINO-WM-no-proprioception checkpoints for PushT and Reacher**?\n\nSpecifically:\n- `pusht/dinowm_noprop_object.ckpt` and `pusht/dinowm_noprop_weight.ckpt`\n- `reacher/dinowm_noprop_object.ckpt` and `reacher/dinowm_noprop_weight.ckpt`\n\nThe separately retrained checkpoints linked above are helpful, but are explicitly not the originals. We need the original release, ideally with file sizes/SHA-256 checksums, the matching training/export configuration and source revision, dependency/loader versions, frozen visual-encoder identity, image preprocessing, action normalization, temporal grouping/history, and native goal-scoring definition. Any available training-seed/data provenance would also help.\n\nA related dataset-provenance question: for the original `quentinll/lewm-pusht` (`pusht_expert_train.h5.zst`) and `quentinll/lewm-reacher` (`reacher.tar.zst` / `reacher.h5`) releases, are the original collection scripts/configurations and episode-origin records available? We are looking for the mapping from stored episode IDs to reset/initial-state seeds or snapshots, including policy RNG/action-history and simulator/wrapper versions needed to reconstruct the recorded starts. These are collection-origin records, not training, evaluation, or partition-selection seeds.\n\nIf this information is stored inside the released files, identifying the relevant fields would be sufficient to guide inspection. If some records were not retained, could you explicitly confirm which ones? We would prefer not to infer historical origins from a later collector's default seed.\n\nThanks for your help!",
+  "attempt": {
+    "transport": "GitHub integration",
+    "http_status": 403,
+    "error": "Resource not accessible by integration"
+  },
+  "verified_comment_count_after": 4,
+  "request_body_found_after": false,
+  "private_cluster_paths_protected_ids_credentials_logs_unpublished_results_disclosed": false
+}

@@ -1,0 +1,99 @@
+{
+  "study": "WM-DIAG0",
+  "observed_utc": "2026-10-04T12:08:20Z",
+  "authority": "Human authorized one short issue #93 request after a deeper relevant check. Metadata/source-only preparation continues; no research execution or rights/security expansion.",
+  "conclusion": "The deeper check did not authenticate the exact released no-proprioception DINO checkpoints or the historical episode-origin contract. Keep the current protocol and stop pending provenance. External issue comment blocked by integration permissions.",
+  "public_checks": {
+    "issue58": {
+      "url": "https://github.com/lucas-maes/le-wm/issues/58",
+      "comments": 2,
+      "maintainer_release_reply_found": false,
+      "lead": "Third-party retraining link to #93, explicitly not original files"
+    },
+    "issue62": {
+      "url": "https://github.com/lucas-maes/le-wm/issues/62",
+      "comments": 0,
+      "limit": "Questions about training/evaluation seeds; not original dataset-generation evidence"
+    },
+    "issue93": {
+      "url": "https://github.com/lucas-maes/le-wm/issues/93",
+      "comments_before": 4,
+      "comments_after": 4,
+      "request_found_after_denied_post": false
+    },
+    "publisher_releases": {
+      "url": "https://api.github.com/repos/lucas-maes/le-wm/releases?per_page=5",
+      "returned_count": 0,
+      "scope": "No GitHub releases returned; not global absence"
+    },
+    "publisher_code_search": {
+      "query": "dinowm_noprop",
+      "repo": "lucas-maes/le-wm",
+      "result": "README release table; no authenticated alternate checkpoint"
+    },
+    "publisher_site": {
+      "url": "https://github.com/le-wm/le-wm.github.io/blob/main/index.html",
+      "result": "Public project site still links the same Drive release folder; no independently authenticated alternate original found in focused web checks"
+    },
+    "historical_reacher_source": {
+      "revision": "7259d6f0282e746c1d6b1cbddf34ae6ca2e172f8",
+      "path": "scripts/data/collect_reacher.py",
+      "config_path": "scripts/data/config/reacher.yaml",
+      "result": "Older pre-Lance script calls record_dataset('dmc/reacher_random'), derives policy/collection seeds from cfg.seed; config seed3072/10000 episodes/10 worlds/200 steps/224px. This is a source lead, not a record that generated the specific released reacher.h5 or its stored episode-to-root mapping."
+    },
+    "historical_pusht_source": {
+      "revision": "04635442ddf878ab85149d3aa4b50cec885f691a",
+      "path": "scripts/data/collect_weak_pusht.py",
+      "result": "Weak-policy sharded collector, not selected expert HDF5 provenance"
+    },
+    "third_party_mirror": {
+      "repo": "PeterLiZijia/nfwm",
+      "revision": "fd4fa751d23acc9f69eef769d28b232b3adf50db",
+      "result": "Cached dataset card described original HDF5/SHA256SUMS; live task trees contain train.h5, eval.h5 and split/eval manifests. Both exact pinned task SHA256SUMS URLs returned404. Small eval manifests describe third-party selection_seed42 and source episode mapping, not original generation/reset roots. No data downloaded; not adopted as target data or source allocation."
+    }
+  },
+  "local_checks": {
+    "roots": "Declared stablewm data and manifests roots only",
+    "depth_before": 2,
+    "depth_now": 5,
+    "matched_filename_size_records": 181,
+    "checkpoint_target_matches": 0,
+    "small_sidecars_read": 4,
+    "interpretation": "PushT/Reacher episode and train/val summaries carry seed20260728 with partition hash rules/thresholds, not original generation/reset seeds. Reacher summary binds the already authenticated dataset SHA256. Selected-row TSVs and all scientific outputs were not opened.",
+    "absence_limit": "Not a whole-cluster/home search, global absence assertion, or custodian confirmation of non-retention."
+  },
+  "external_request": {
+    "status": "NOT_SENT_PERMISSION_BLOCK",
+    "attempts": 1,
+    "transport": "Configured GitHub integration",
+    "http_status": 403,
+    "error": "Resource not accessible by integration",
+    "mutation_verified": false,
+    "confirmation": "Fresh comments read returned the same four comments and no exact request body",
+    "no_bypass_or_retry": true,
+    "request_record": "REQUEST-NOT-SENT.json",
+    "next_action": "User can post the prepared request manually on issue93 or explicitly authorize an approved alternative route; do not change rights or extract credentials."
+  },
+  "accounting": {
+    "new_bounded_observations": 4,
+    "wall_seconds": [
+      4.19068800000241,
+      14.69262190000154,
+      1.9863031000131741,
+      8.839185299992096
+    ],
+    "cumulative_bounded_runner_wall_seconds_before_preservation": 91.8894843000453,
+    "previous_nonrunner_final_receipt_copy_wall_seconds": 2.6799084,
+    "per_attempt_full_reservation_seconds": 600,
+    "cumulative_test_ceiling_seconds": 14400,
+    "checkpoint_downloads": 0,
+    "research_payload_or_header_reads": 0,
+    "model_forwards": 0,
+    "simulator_steps": 0,
+    "gpu_or_slurm_allocations": 0
+  },
+  "research_execution": "DISABLED",
+  "scientific_outcome": "NOT TESTED",
+  "role_status": "PROPOSED_NOT_ALLOCATED",
+  "preservation": "Only this new small metadata/comment-attempt record package may be preserved; no historical or completed package rebackup."
+}

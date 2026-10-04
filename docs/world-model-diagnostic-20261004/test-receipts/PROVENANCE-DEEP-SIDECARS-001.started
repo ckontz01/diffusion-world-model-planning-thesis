@@ -1,0 +1,18 @@
+{
+  "label": "PROVENANCE-DEEP-SIDECARS-001",
+  "state": "running",
+  "started_unix": 1791115397.7286828,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-deep-check-20261004/inspect-deeper-sidecars.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 66.37137400003849,
+  "domain": "artificial",
+  "research_access": false
+}

@@ -1,0 +1,18 @@
+{
+  "label": "PROVENANCE-DEEP-PARTITIONS-001",
+  "state": "running",
+  "started_unix": 1791115486.3117342,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-deep-check-20261004/inspect-partition-sidecar-fields.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 83.0502990000532,
+  "domain": "artificial",
+  "research_access": false
+}

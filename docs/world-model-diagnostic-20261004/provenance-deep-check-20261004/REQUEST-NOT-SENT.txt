@@ -1,0 +1,13 @@
+Hi @lucas-maes — following up on #93 and #58. Could you restore access to, or provide an authenticated mirror of, the **original released DINO-WM-no-proprioception checkpoints for PushT and Reacher**?
+
+Specifically:
+- `pusht/dinowm_noprop_object.ckpt` and `pusht/dinowm_noprop_weight.ckpt`
+- `reacher/dinowm_noprop_object.ckpt` and `reacher/dinowm_noprop_weight.ckpt`
+
+The separately retrained checkpoints linked above are helpful, but are explicitly not the originals. We need the original release, ideally with file sizes/SHA-256 checksums, the matching training/export configuration and source revision, dependency/loader versions, frozen visual-encoder identity, image preprocessing, action normalization, temporal grouping/history, and native goal-scoring definition. Any available training-seed/data provenance would also help.
+
+A related dataset-provenance question: for the original `quentinll/lewm-pusht` (`pusht_expert_train.h5.zst`) and `quentinll/lewm-reacher` (`reacher.tar.zst` / `reacher.h5`) releases, are the original collection scripts/configurations and episode-origin records available? We are looking for the mapping from stored episode IDs to reset/initial-state seeds or snapshots, including policy RNG/action-history and simulator/wrapper versions needed to reconstruct the recorded starts. These are collection-origin records, not training, evaluation, or partition-selection seeds.
+
+If this information is stored inside the released files, identifying the relevant fields would be sufficient to guide inspection. If some records were not retained, could you explicitly confirm which ones? We would prefer not to infer historical origins from a later collector's default seed.
+
+Thanks for your help!

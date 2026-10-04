@@ -1,0 +1,18 @@
+{
+  "label": "PROVENANCE-DEEP-PUBLIC-001",
+  "state": "running",
+  "started_unix": 1791115362.6848094,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-deep-check-20261004/inspect-public-metadata.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 62.180686000036076,
+  "domain": "artificial",
+  "research_access": false
+}

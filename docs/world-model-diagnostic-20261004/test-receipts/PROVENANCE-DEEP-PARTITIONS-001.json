@@ -1,0 +1,26 @@
+{
+  "label": "PROVENANCE-DEEP-PARTITIONS-001",
+  "state": "finished",
+  "started_unix": 1791115486.3117342,
+  "wall_seconds": 8.839185299992096,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-deep-check-20261004/inspect-partition-sidecar-fields.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 83.0502990000532,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\"domain\": \"partition-source-metadata-only\", \"records\": [{\"path\": \"/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/pusht-v1/episodes-seed-20260728-summary.json\", \"bytes\": 1434, \"sha256\": \"2654e6210c4d6ee07e5f1b03d3ea957bba15b21357e53c0002a5bb0a38eb7273\", \"fields\": [\"dataset\", \"dataset_name\", \"episode_counts\", \"frame_counts\", \"hash_rule\", \"manifest_sha256\", \"manifest_tsv\", \"p0_rule\", \"seed\", \"source_exclusion_manifests\", \"status\", \"thresholds\", \"total_episodes\", \"total_frames\"], \"metadata\": {\"seed\": 20260728, \"dataset\": \"/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht_expert_train.h5\", \"status\": \"ok\"}}, {\"path\": \"/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/pusht-v1/p1-train-val-seed-20260728-summary.json\", \"bytes\": 881, \"sha256\": \"329e8d04cb3bb3e3d89338fbb31d502ebbc9ab6621c5f1cce947bc35dc4ef706\", \"fields\": [\"dataset_name\", \"episode_counts\", \"frame_counts\", \"hash_rule\", \"manifest_sha256\", \"manifest_tsv\", \"seed\", \"source_partition_manifest\", \"source_partition_manifest_sha256\", \"status\", \"thresholds\"], \"metadata\": {\"seed\": 20260728, \"status\": \"ok\"}}, {\"path\": \"/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/reacher-v1/episodes-seed-20260728-summary.json\", \"bytes\": 1100, \"sha256\": \"ad671b60abdb02cd05f4e92879a3651c662de303d692fbeb1df0f5cb2014be75\", \"fields\": [\"dataset\", \"dataset_name\", \"dataset_sha256\", \"episode_counts\", \"frame_counts\", \"hash_rule\", \"kind\", \"manifest_sha256\", \"manifest_tsv\", \"p0_rule\", \"seed\", \"source_exclusion_manifests\", \"status\", \"thresholds\", \"total_episodes\", \"total_frames\"], \"metadata\": {\"seed\": 20260728, \"dataset\": \"/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher.h5\", \"dataset_sha256\": \"85a7dddfa1801302abcb175a80a23bb69c78291dd977ce40d69aedcb9123da06\", \"status\": \"ok\"}}, {\"path\": \"/lustreFS/data/superworld/ckontzias/thesis/manifests/partitions/reacher-v1/p1-train-val-seed-20260728-summary.json\", \"bytes\": 928, \"sha256\": \"86ff017a94474c1028ee43932a47954be47abe2b240764540f5b7566b4d8019d\", \"fields\": [\"dataset_name\", \"episode_counts\", \"frame_counts\", \"hash_rule\", \"kind\", \"manifest_sha256\", \"manifest_tsv\", \"seed\", \"source_partition_manifest\", \"source_partition_manifest_sha256\", \"status\", \"thresholds\"], \"metadata\": {\"seed\": 20260728, \"status\": \"ok\"}}], \"payload_or_header_reads\": 0, \"research_execution\": false}\n",
+  "stderr": "",
+  "cumulative_test_wall_seconds": 91.8894843000453,
+  "peak_job_memory_bytes": 73490432,
+  "affinity_mask": 15,
+  "new_package_bytes": 1034845,
+  "gpu_allocations": 0
+}
