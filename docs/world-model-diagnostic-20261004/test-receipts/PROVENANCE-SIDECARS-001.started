@@ -1,0 +1,19 @@
+{
+  "label": "PROVENANCE-SIDECARS-001",
+  "state": "running",
+  "started_unix": 1791113842.592169,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-NonInteractive",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-review-20261004/inspect-sidecar-metadata.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 39.57495650002966,
+  "domain": "artificial",
+  "research_access": false
+}

@@ -1,0 +1,27 @@
+{
+  "label": "PROVENANCE-SIDECARS-001",
+  "state": "finished",
+  "started_unix": 1791113842.592169,
+  "wall_seconds": 9.956099200004246,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-NonInteractive",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-review-20261004/inspect-sidecar-metadata.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 39.57495650002966,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n    \"domain\":  \"metadata-only\",\n    \"scope\":  \"two declared roots, maxdepth 2, matched sidecar/release names only\",\n    \"payload_or_header_reads\":  0,\n    \"model_downloads\":  0,\n    \"research_execution\":  false,\n    \"rows\":  [\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/download_benchmark_data.slurm\\t4546 bytes\",\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/stage_downloads_login.sh\\t2759 bytes\",\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/stage-downloads.complete\\t26 bytes\"\n             ],\n    \"absence_scope\":  \"No match here is not evidence of global absence or non-retention\"\n}\n",
+  "stderr": "",
+  "cumulative_test_wall_seconds": 49.5310557000339,
+  "peak_job_memory_bytes": 74129408,
+  "affinity_mask": 15,
+  "new_package_bytes": 918661,
+  "gpu_allocations": 0
+}

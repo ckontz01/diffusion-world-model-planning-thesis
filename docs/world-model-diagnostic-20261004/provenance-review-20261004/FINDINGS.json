@@ -1,0 +1,85 @@
+{
+  "study": "WM-DIAG0",
+  "observed_utc": "2026-10-04T11:39:17Z",
+  "authority": "Human requests retaining the current protocol and obtaining/authenticating the exact release and historical-origin records before considering launch. This reopens targeted public/source/sidecar metadata review, not research execution, new HDF5 payload/header access or unapproved external communication.",
+  "conclusion": "Exact target release and episode-origin contracts remain unbound. Retain the protocol; next actionable step is a custodian provenance request, not model substitution or compute.",
+  "dino_release": {
+    "publisher_readme": "https://github.com/lucas-maes/le-wm/blob/8edfeb336732b5f3ce7b8b210d0ba370a09e2cac/README.md",
+    "current_readme_checked": "https://raw.githubusercontent.com/lucas-maes/le-wm/main/README.md",
+    "release_folder_still_listed": "https://drive.google.com/drive/folders/1r31os0d4-rR0mdHc7OlY_e5nh3XT4r4e",
+    "drive_status": "Earlier direct visit returned 404; not redundantly retried now. Current publisher README still points to the same folder.",
+    "existing_issue": "https://github.com/lucas-maes/le-wm/issues/93",
+    "issue_state": "open",
+    "issue_updated_at": "2026-09-29T08:47:27Z",
+    "issue_comments_checked": 4,
+    "new_lead": "https://github.com/lucas-maes/le-wm/issues/93#issuecomment-5886831457",
+    "lead_classification": "Third-party author explicitly describes separately trained no-proprioception checkpoints, not original files, with a changed schedule and evaluator/serialization. This is not an authenticated mirror of the specified release. Rejected as a substitution; no checkpoint downloaded or loaded. No outcome claim is used to choose an artifact.",
+    "official_hub_collection": "https://huggingface.co/collections/quentinll/lewm",
+    "hub_scope": "Visible official collection lists LeWM models and datasets, not an authenticated exact DINO release. Not a global absence claim.",
+    "status": "STOPPED_PENDING_PROVENANCE"
+  },
+  "dataset_repository_metadata": [
+    {
+      "repo": "quentinll/lewm-pusht",
+      "revision": "655cd446b9929369d7d406001da85c15d1457850",
+      "public_tree": "https://huggingface.co/datasets/quentinll/lewm-pusht/tree/655cd446b9929369d7d406001da85c15d1457850",
+      "root_files": [".gitattributes", "README.md", "pusht_expert_train.h5.zst"],
+      "compressed_data_bytes": 13136247974,
+      "interpretation": "Repository root listing has no separate episode-origin/generation sidecar. Dataset internals were not inspected; no inference that origin information was not retained. Compressed metadata does not authenticate the decompressed research file or root mapping."
+    },
+    {
+      "repo": "quentinll/lewm-reacher",
+      "revision": "e70a080d0d04c6072123c9ebd343acf7fff28dbf",
+      "public_tree": "https://huggingface.co/datasets/quentinll/lewm-reacher/tree/e70a080d0d04c6072123c9ebd343acf7fff28dbf",
+      "root_files": [".gitattributes", "README.md", "reacher.tar.zst"],
+      "compressed_data_bytes": 23750614946,
+      "interpretation": "Same bounded root-listing limitation. No large data download, archive expansion or payload/header read."
+    }
+  ],
+  "historical_origin": {
+    "public_generator_lead": "https://github.com/galilai-group/stable-worldmodel/blob/21446f1ede6d5284e981bd7b47f432b994e6d812/scripts/data/collect_reacher.py",
+    "public_config_lead": "https://github.com/galilai-group/stable-worldmodel/blob/21446f1ede6d5284e981bd7b47f432b994e6d812/scripts/data/config/reacher.yaml",
+    "source_observation": "Config declares seed 3072, ten environments and 200 steps. The script derives policy and collection seeds from a NumPy generator and targets reacher_random.lance. These are generator source facts, not an authenticated recipe for our existing reacher.h5. Do not assign seed 3072 or derive parent roots by guessing.",
+    "public_pusht_lead": "https://github.com/galilai-group/stable-worldmodel/blob/21446f1ede6d5284e981bd7b47f432b994e6d812/scripts/data/collect_weak_pusht.py",
+    "pusht_lead_limitation": "A weak-policy Lance collector is not evidence for the selected expert HDF5 release.",
+    "existing_world_source_sha256": "15fc9e4a69d2ad81d29ca8fedd689b53e96887f7614fa98223ef5ddee37bbda6",
+    "existing_dmcontrol_wrapper_sha256": "13d55bf73f9b7f8a9b5a2b380e12750e253a391716e64e65f795b1c9fff8bc08",
+    "source_evidence_limit": "Existing collection source advances/reset seeds and serializes info fields; the inspected DMControl info property returns env_name, success, qpos, qvel and score, not a complete root receipt. Other wrappers could add fields, and this does not establish the historical generator/version or actual dataset schema.",
+    "sidecar_scope": "Only file names/sizes matching provenance/origin/seed/generation/download/dinowm/readme/replay at maximum depth two under declared stablewm data and manifests roots.",
+    "identified_acquisition_sources": [
+      {"path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/download_benchmark_data.slurm", "sha256": "b064b7660606d83ccc62ebcf0f674e90ee8e629794c67c5f3240cc28e808a93f"},
+      {"path": "/lustreFS/data/superworld/ckontzias/thesis/manifests/stage_downloads_login.sh", "sha256": "1f7adc214b172ea3a5c0ec1ed18454a78a27086fe3c94254e3c850bfc2055744"}
+    ],
+    "new_authenticated_source_metadata": "The existing stage_downloads_login.sh references the exact public PushT revision 655cd446b9929369d7d406001da85c15d1457850. This strengthens acquisition lineage only, not historical-origin reconstruction. Source files were never executed; only hashes and public dataset URL/comment patterns were returned.",
+    "records_known_to_exist": "Inspected cohort/role/episode-master metadata and identified acquisition source files.",
+    "origin_records_existence_unestablished": true,
+    "custodian_confirmed_not_retained": false,
+    "status": "STOPPED_PENDING_PROVENANCE"
+  },
+  "request_handoff": {
+    "existing_unsent_requests_commit": "d3e165ab49c3bb22c6eee3c2036748d306577936",
+    "maintainer_contact_published_by_project": "lucas.maes@mila.quebec",
+    "contact_source": "https://github.com/lucas-maes/le-wm/blob/8edfeb336732b5f3ce7b8b210d0ba370a09e2cac/README.md#contact--contributions",
+    "recommended_next_action": "Seek human direction to send the exact-release and dataset-origin requests to the published maintainer, or provide an existing authenticated copy/custodian. Do not duplicate the existing issue or disclose local/cluster paths, protected IDs, credentials, logs or unpublished results.",
+    "external_messages_sent": 0
+  },
+  "accounting": {
+    "new_bounded_observations": 2,
+    "sidecar_wall_seconds": 9.956099200004246,
+    "acquisition_source_wall_seconds": 7.864987200009637,
+    "cumulative_bounded_runner_wall_seconds_before_preservation": 57.39604290004354,
+    "previous_nonrunner_final_receipt_copy_wall_seconds": 2.6799084,
+    "per_observation_full_reservation_seconds": 600,
+    "cumulative_test_ceiling_seconds": 14400,
+    "model_artifact_download_bytes": 0,
+    "research_payload_or_header_reads": 0,
+    "model_forwards": 0,
+    "simulator_steps": 0,
+    "gpu_or_slurm_allocations": 0,
+    "new_artificial_test_cycles": 0,
+    "historical_changes_or_rebackups": 0
+  },
+  "research_execution": "DISABLED",
+  "scientific_outcome": "NOT TESTED",
+  "role_status": "PROPOSED_NOT_ALLOCATED"
+}

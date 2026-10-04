@@ -1,0 +1,27 @@
+{
+  "label": "PROVENANCE-DOWNLOAD-SOURCE-001",
+  "state": "finished",
+  "started_unix": 1791113918.8679166,
+  "wall_seconds": 7.864987200009637,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-NonInteractive",
+    "-File",
+    "docs/world-model-diagnostic-20261004/provenance-review-20261004/inspect-download-provenance.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 49.5310557000339,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n    \"domain\":  \"source-metadata-only\",\n    \"payload_or_header_reads\":  0,\n    \"source_files_executed\":  0,\n    \"research_execution\":  false,\n    \"rows\":  [\n                 \"b064b7660606d83ccc62ebcf0f674e90ee8e629794c67c5f3240cc28e808a93f  /lustreFS/data/superworld/ckontzias/thesis/manifests/download_benchmark_data.slurm\",\n                 \"1f7adc214b172ea3a5c0ec1ed18454a78a27086fe3c94254e3c850bfc2055744  /lustreFS/data/superworld/ckontzias/thesis/manifests/stage_downloads_login.sh\",\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/download_benchmark_data.slurm:https://huggingface.co/datasets/quentinll/lewm-pusht/resolve/\",\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/download_benchmark_data.slurm:https://huggingface.co/datasets/quentinll/lewm-cube/resolve/\",\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/stage_downloads_login.sh:https://huggingface.co/datasets/quentinll/lewm-pusht/resolve/655cd446b9929369d7d406001da85c15d1457850/pusht_expert_train.h5.zst\",\n                 \"/lustreFS/data/superworld/ckontzias/thesis/manifests/stage_downloads_login.sh:https://huggingface.co/datasets/quentinll/lewm-cube/resolve/02a19a67a0dc8c9d6215f89c19e0a597691e152a/cube_single_expert.tar.zst\"\n             ],\n    \"note\":  \"Downloaded data source is not itself episode-origin authentication\"\n}\n",
+  "stderr": "",
+  "cumulative_test_wall_seconds": 57.39604290004354,
+  "peak_job_memory_bytes": 74211328,
+  "affinity_mask": 15,
+  "new_package_bytes": 922114,
+  "gpu_allocations": 0
+}
