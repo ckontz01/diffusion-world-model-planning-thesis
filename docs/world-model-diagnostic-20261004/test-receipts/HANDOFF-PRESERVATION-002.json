@@ -1,0 +1,27 @@
+{
+  "label": "HANDOFF-PRESERVATION-002",
+  "state": "finished",
+  "started_unix": 1791076019.6741545,
+  "wall_seconds": 2.6041839999961667,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-NonInteractive",
+    "-Command",
+    "$ErrorActionPreference = 'Stop'\nfunction Get-WmSha256([string]$WmPath) { $wmHashAlgorithm = [System.Security.Cryptography.SHA256]::Create(); $wmHashStream = [System.IO.File]::OpenRead($WmPath); try { return ([System.BitConverter]::ToString($wmHashAlgorithm.ComputeHash($wmHashStream))).Replace('-', '').ToLowerInvariant() } finally { $wmHashStream.Dispose(); $wmHashAlgorithm.Dispose() } }\n$wmVolume = Get-Volume -DriveLetter D\nif ($wmVolume.FileSystemLabel -ne 'THESIS_SSD' -or $wmVolume.UniqueId -ne '\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\' -or $wmVolume.HealthStatus -ne 'Healthy' -or $wmVolume.SizeRemaining -lt 40000000000) { throw 'Required SSD identity/health/free-space gate failed' }\n$wmCommit = 'd3e165ab49c3bb22c6eee3c2036748d306577936'\n$wmRelative = 'docs/world-model-diagnostic-20261004/PROVENANCE-HANDOFF.md'\n$wmSource = Join-Path (Get-Location).Path $wmRelative\n$wmBlob = (git rev-parse ($wmCommit + ':' + $wmRelative)).Trim()\nif ($LASTEXITCODE -ne 0) { throw 'Git blob identity unavailable' }\n$wmWorkingBlob = (git hash-object --no-filters -- $wmRelative).Trim()\nif ($LASTEXITCODE -ne 0 -or $wmWorkingBlob -ne $wmBlob) { throw 'Working bytes differ from immutable handoff blob' }\n$wmSourceInfo = Get-Item -LiteralPath $wmSource\nif ($wmSourceInfo.Length -gt 10000000) { throw 'New document exceeds handoff output cap' }\n$wmSourceHash = Get-WmSha256 $wmSource\n$wmTargetDirectory = 'D:\\THESIS-BACKUPS\\world-model-diagnostic-20261004\\handoff-d3e165ab49c3bb22c6eee3c2036748d306577936'\nif (Test-Path -LiteralPath $wmTargetDirectory) { throw 'Exclusive handoff destination already exists; preserve and reconcile rather than retry' }\n[void](New-Item -ItemType Directory -Path $wmTargetDirectory)\n$wmTarget = Join-Path $wmTargetDirectory 'PROVENANCE-HANDOFF.md'\n[System.IO.File]::Copy($wmSource, $wmTarget, $false)\n$wmTargetHash = Get-WmSha256 $wmTarget\n$wmTargetInfo = Get-Item -LiteralPath $wmTarget\nif ($wmSourceHash -ne $wmTargetHash -or $wmSourceInfo.Length -ne $wmTargetInfo.Length) { throw 'Handoff copy hash/size verification failed; partial retained' }\n[ordered]@{ status='NEW_HANDOFF_WHOLE_FILE_AND_SINGLE_MEMBER_VERIFIED'; git_commit=$wmCommit; git_blob=$wmBlob; path=$wmRelative; bytes=$wmSourceInfo.Length; sha256=$wmSourceHash; ssd_path=$wmTarget; volume_label=$wmVolume.FileSystemLabel; volume_unique_id=$wmVolume.UniqueId; free_bytes_before=$wmVolume.SizeRemaining; health=$wmVolume.HealthStatus.ToString(); transfer='Native Windows copy; exclusive destination'; completed_packages_rearchived=0; historical_rebackups=0; external_requests_sent=0; scientific_execution=$false } | ConvertTo-Json -Depth 5"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 36.97077250003349,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "{\n    \"status\":  \"NEW_HANDOFF_WHOLE_FILE_AND_SINGLE_MEMBER_VERIFIED\",\n    \"git_commit\":  \"d3e165ab49c3bb22c6eee3c2036748d306577936\",\n    \"git_blob\":  \"66f0f19a15c15180158ad480c584c91074a79e11\",\n    \"path\":  \"docs/world-model-diagnostic-20261004/PROVENANCE-HANDOFF.md\",\n    \"bytes\":  7783,\n    \"sha256\":  \"943adfc672e16853bc23fd07d9d3a36c1b0723c2c2517e6a5c602f81ba41398c\",\n    \"ssd_path\":  \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-20261004\\\\handoff-d3e165ab49c3bb22c6eee3c2036748d306577936\\\\PROVENANCE-HANDOFF.md\",\n    \"volume_label\":  \"THESIS_SSD\",\n    \"volume_unique_id\":  \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"free_bytes_before\":  310379397120,\n    \"health\":  \"Healthy\",\n    \"transfer\":  \"Native Windows copy; exclusive destination\",\n    \"completed_packages_rearchived\":  0,\n    \"historical_rebackups\":  0,\n    \"external_requests_sent\":  0,\n    \"scientific_execution\":  false\n}\n",
+  "stderr": "",
+  "cumulative_test_wall_seconds": 39.57495650002966,
+  "peak_job_memory_bytes": 246116352,
+  "affinity_mask": 15,
+  "new_package_bytes": 909587,
+  "gpu_allocations": 0
+}
