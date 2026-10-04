@@ -1,0 +1,30 @@
+{
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "git_commit": "1ef182426c8d7ff016c21b73ada500c91fa62c55",
+  "package_status": "BLOCKED_AT_ISOLATION_BINDING",
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-c0-20261004\\capability-blocked-v1-1ef182426c8d7ff016c21b73ada500c91fa62c55.zip",
+  "local_archive": "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\docs\\world-model-diagnostic-a2-c0-20261004\\delivery\\capability-blocked-v1-1ef182426c8d7ff016c21b73ada500c91fa62c55.zip",
+  "whole": {
+    "bytes": 5838,
+    "sha256": "b274044342b6120796b162e71630e1b3717d6df39346f975a24a64b6f5b30183"
+  },
+  "verified_members": 6,
+  "members_manifest_sha256": "5ea309e67daebbab39cec0a472216ad7cdffc13ba1b234051a3c6a95915b4161",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310112288768
+  },
+  "readonly_metadata_and_preservation_only": true,
+  "converter_implemented": false,
+  "checkpoint_deserialization": false,
+  "model_bytes_read_or_copied": false,
+  "old_A2_package_rearchived": false,
+  "archive_generation_and_verification_wall_seconds": 3.527693799987901,
+  "peak_job_memory_bytes": 207388672,
+  "affinity_mask": 15,
+  "C0_conservative_total_charge_seconds": 600,
+  "supplemental_publication_charge_seconds": 120,
+  "all_new_copy_reservation_bytes": 1000000
+}
