@@ -1,0 +1,29 @@
+{
+  "historical_ledgers_left_unchanged": true,
+  "original_A2_recorded_cumulative_seconds": 364.10301460011993,
+  "supplemental_previous_publication_charge_seconds": 120,
+  "supplemental_publication_charge_basis": "Conservative charge for prior publication/readback commands not recorded by the original runner; source-to-archive read-only comparison alone measured 61.730098200030625s. This is a charge, not a fabricated elapsed-time measurement.",
+  "C0_capability_record_and_publication_full_reservation_seconds": 600,
+  "C0_reservation_retained_as_conservative_charge": true,
+  "C0_scope_includes": [
+    "read-only inventory and denied Hyper-V queries",
+    "initial harmless PowerShell parse failure and corrected read-only query",
+    "capability evidence and source immutability checks",
+    "new compact package whole/member SSD preservation",
+    "publication and full remote hash readback"
+  ],
+  "charged_cumulative_including_full_C0_reservation_seconds": 1084.1030146001199,
+  "preparation_cap_seconds": 14400,
+  "remaining_after_full_charges_seconds": 13315.89698539988,
+  "CPU_threads_cap": 4,
+  "RAM_cap_bytes": 8589934592,
+  "new_code_test_metadata_cap_bytes": 1000000000,
+  "retained_preparation_cap_bytes": 5368709120,
+  "C0_package_and_all_new_copies_full_reservation_bytes": 1000000,
+  "A2_all_preparation_copies_prior_full_reservation_bytes": 827249003,
+  "combined_reserved_preparation_copies_bytes": 828249003,
+  "no_runtime_or_model_copy_reserved_twice": true,
+  "real_conversion_seconds_consumed": 0,
+  "proposed_real_conversion_seconds": 1800,
+  "future_preparation_must_include_this_supplement": true
+}

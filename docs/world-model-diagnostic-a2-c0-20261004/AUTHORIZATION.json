@@ -1,0 +1,18 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "status": "BLOCKED_NO_ISOLATION_BOUND",
+  "read_only_facility_inspection": true,
+  "new_small_capability_evidence_publication_and_preservation": true,
+  "research_artifact_deserialization": false,
+  "converter_execution": false,
+  "model_forward_or_scorer": false,
+  "native_simulator": false,
+  "source_generation": false,
+  "fitting_or_new_labels": false,
+  "GPU_or_Slurm": false,
+  "image_install_download_or_build": false,
+  "VM_creation_or_start": false,
+  "permission_or_host_security_change": false,
+  "monitoring_or_author_contact": false,
+  "gate_ready": false
+}

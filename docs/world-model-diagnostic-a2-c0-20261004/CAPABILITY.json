@@ -1,0 +1,62 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "version": "capability-blocked-v1",
+  "status": "BLOCKED_AT_ISOLATION_BINDING",
+  "reviewed_source": "ab50aaab8b01691b88574d35eb71a7ba1477bebb",
+  "reviewed_publication_tip": "aabe7a2991a6c64492c4fcc269e2c1977ae3860c",
+  "check_date": "2026-10-04",
+  "mechanism_detected": {
+    "hypervisor_present": true,
+    "hyper_v_powershell_module": "2.0.0.0",
+    "Get_VM_available": true,
+    "Get_VMHost_available": true,
+    "Get_VMSwitch_available": true,
+    "vmms": "Running",
+    "vmcompute": "Running",
+    "hns": "Running",
+    "WSL_command_available": true,
+    "WSL_accepted_as_conversion_isolation": false,
+    "other_commands_not_found_on_PATH": [
+      "WindowsSandbox.exe", "VBoxManage.exe", "vmrun.exe",
+      "qemu-system-x86_64.exe", "docker.exe", "podman.exe",
+      "apptainer.exe", "multipass.exe"
+    ]
+  },
+  "read_only_queries": [
+    {
+      "command": "Get-VM -ErrorAction Stop",
+      "result": "PERMISSION_DENIED",
+      "error_id": "Unspecified,Microsoft.HyperV.PowerShell.Commands.GetVM",
+      "error": "You do not have the required permission to complete this task. Contact the administrator of the authorization policy for the computer 'DESKTOP-7N8FN7C'."
+    },
+    {
+      "command": "Get-VMHost -ErrorAction Stop",
+      "result": "PERMISSION_DENIED",
+      "error_id": "Unspecified,Microsoft.HyperV.PowerShell.Commands.GetVMHost",
+      "error": "You do not have the required permission to complete this task. Contact the administrator of the authorization policy for the computer 'DESKTOP-7N8FN7C'."
+    }
+  ],
+  "enforcement_verified_for_an_actual_guest": {
+    "no_network_or_credentials": false,
+    "no_user_project_home_cluster_SSD_access": false,
+    "explicit_read_only_staged_inputs_only": false,
+    "no_writable_shared_host_filesystem": false,
+    "CPU_RAM_wall_time_limits": false,
+    "output_limit": false,
+    "trusted_nonexecuting_export_path": false
+  },
+  "false_enforcement_values_mean": "UNVERIFIED, not proof that a guest lacks these controls",
+  "existing_VM_count": null,
+  "existing_disposable_VM_presence": "UNKNOWN_BECAUSE_INVENTORY_ACCESS_DENIED",
+  "documented_accessible_site_approved_alternative": null,
+  "alternative_search_scope": "Existing A2/original preparation documentation only; no cluster probe or host-data/credential search",
+  "precise_blocker": "The current account cannot inspect/bind an existing Hyper-V VM or its host configuration, so no accessible approved facility with verifiable isolation and export enforcement has been established.",
+  "required_capability": "An accessible pre-existing administrator/site-approved disposable offline VM facility, with inspectable isolation configuration, read-only explicit staging, no credential/host-data/writable-share exposure, enforced 4CPU/8GiB/1800s and output caps, and a trusted bounded data-only export channel.",
+  "rights_or_security_changes_attempted": false,
+  "VM_started_or_created": false,
+  "model_files_read_or_copied": false,
+  "guest_or_native_simulator_executed": false,
+  "converter_written": false,
+  "checkpoint_deserialization": false,
+  "gate_ready": false
+}

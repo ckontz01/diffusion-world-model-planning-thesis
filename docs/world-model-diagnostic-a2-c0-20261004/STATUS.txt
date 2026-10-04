@@ -1,0 +1,53 @@
+WM-DIAG0-A2-C0 / capability-blocked-v1
+
+ONE BLOCKER: Existing isolation cannot be bound with the current rights.
+
+Hyper-V is installed, the hypervisor is present and VM-related services are
+running. Both Get-VM and Get-VMHost return the authorization-policy permission
+error retained in CAPABILITY.json. This is not evidence that no VM exists.
+It prevents authenticating an available disposable guest and its controls.
+WSL is available but is not accepted as an equivalent security boundary.
+No documented accessible site-approved alternative is in the preparation
+records. No cluster probe, elevation, installation, mount, VM creation,
+VM start, account change or host-security change was attempted.
+
+Needed: an accessible pre-existing administrator/site-approved offline
+disposable VM conversion facility. Its actual configuration must establish
+no network/credentials, no user/project/home/cluster/SSD exposure, only
+explicit read-only staged inputs, no writable host share, 4CPU/8GiB/1800s
+enforcement, bounded exports, and a trusted data-only extraction channel
+that does not execute guest files. A Hyper-V installation alone is not this
+capability. An administrator-managed service can supply it without granting
+this agent unrestricted host-administrator access. Provisioning or security
+changes would require separate authority, not the present instruction.
+
+Stopped at section 1 as instructed. This is a capability-blocker evidence
+package, not a nominally complete converter or a launchable gate. No converter,
+reconstructor, real-input allowlist/runtime lock, export schema/validator,
+artificial isolated round-trip/rejection suite or real conversion command
+was implemented. All remain unbound pending that single prerequisite.
+The earlier conversion plan is still only proposed; no research checkpoint
+was deserialized. No unsafe fixture was run on the host.
+
+No source seeds, science, artifact identities, matrix/S1/bank/tail/analysis,
+historical study, native adapter, E12 draft or monitor was changed. The old
+A2 archive remains exactly the completed 373-member package. Only this new
+small capability-evidence package is preserved/published; model files are
+not included, copied or rearchived.
+
+No 56-test rerun, model download, image build, research forward, scorer,
+optimizer, native physics, source generation, fitting, label, GPU/Slurm
+allocation, author contact or environment modification occurred.
+
+The proposed whole-study 12GB live/14GB archive/42GB inclusive budget is NOT
+revalidated for a converter/runtime that cannot yet be bound. Actual VM,
+runtime, complete inference export sizes and requirements remain UNKNOWN;
+the 4GB runtime and 410,653,018B safe-export lines remain reservations, not
+measurements. No slack is reassigned. Proposed real conversion 1800 CPU
+wall-seconds remains unconsumed. See PREPARATION-ACCOUNTING.json for the
+conservative supplemental publication/C0 preparation charges.
+
+Next decision: provide the above accessible existing facility/capability
+and permission-scoped interface for inspection. This does not authorize real
+conversion. Once bound, C0 implementation and artificial guest-only tests
+must precede any later explicitly authorized conversion-only operation.
