@@ -1,0 +1,17 @@
+# Executed bounded review step: WM-DIAG0-BIND1
+
+Source: existing GPT-6 Pro chat, Analyse E11 Research Question, https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5. Completed response read on 2026-10-04 UTC. This is a summary of its instruction, not a verbatim transcript. The human directly delegated sending findings and executing its next input, subject to standing limits.
+
+Reviewed immutable preparation79652c59b9e5e6f8b7277d90757c86be441a7b83 and preservation receipt700302499ef764d2561a401563aa668630c369da remain preserved. No research execution instruction was issued.
+
+The review continued the discovery question and requested ONE bounded compatibility/binding revision:
+
+1. Reuse only already-evaluated DTV-EFF1 canonical parents for all three whole-parent-disjoint roles, both tasks. Sort SHA256('wm-diag0-discovery-reuse-v2|TASK|PARENT|20261004'), integer-ID fallback; first32 diagnostic, next16 fit, next12 validation. No unused parents allocated/opened. Source=min(200,floor((length-25)/2)), goal=source+24; retain16/8 deterministic readout frames. Previously exposed, outcome-informed discovery, not untouched confirmation.
+2. One Reacher ridge head predicts TWO native raw qpos coordinates. S1=max(abs(qhat(candidate)-qhat(goal))/.05) in P1/O1 using the same own-backbone head. No wrap/clamp/winding privilege; native endpoint unchanged. Test cut, full-turn, close-coordinate and identical-input/ambiguous-target cases. PushT unchanged.
+3. Recover ONLY exact official DINO-noprop PushT/Reacher artifacts and indispensable shared encoder metadata/weights; hashes, safe weights-only CPU metadata where supported. No forwards, unsafe object-pickle execution, replacement training, unrelated suite download, dependency/account/credential changes. Every unresolved contract stays unbound.
+4. Implement native bindings only AFTER their corresponding source/configuration/root contracts resolve. Artificial doubles only for tests. Seal bank/readout/four scores/choices before evaluation outcomes; oracle prefix separately identified/counted. Exact historical reconstruction may not be replaced with mid-episode state assignment.
+5. Variable-bank analysis must ignore invalid padding and preserve parent weighting. Reconcile every output/weight reservation under unchanged12GB live/14GB archive/42GB inclusive caps.132GPU+2CPU/468000GPU-seconds is conditional proposal, not spending authority.
+6. Cumulative local scripted implementation/tests≤14400s,4CPU,8GiB,1GB code/test/metadata outputs. Separately, downloaded official model/encoder bytes≤2GiB and all retained preparation files/copies≤5GiB; these are ceilings, not authority to increase study storage. Published sizes checked before acquisition. Zero artifact bytes acquired because the official folder is unavailable.
+7. Freeze one approval-false revision, publish exact roles/rows, raw-coordinate score/ambiguity, release identities or blocker, implemented-vs-mocked status, regression results, complete reservations, Git diff/hash and small verified SSD receipt. No physics/research fitting/labels/GPU/Slurm/monitor/author contact/historical rebackup/promotion.
+
+Current feasibility blocker: official linked baseline folder returns404 Not Found. Target file IDs/sizes/configurations are unavailable; no permissions/security bypass or unrelated model substitution was attempted. All native production bridges remain blocked where exact model or historical-root contracts are unresolved. This is not a nominally complete research campaign.

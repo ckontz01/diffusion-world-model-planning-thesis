@@ -1,0 +1,18 @@
+{
+  "label": "METADATA-BIND1-002",
+  "state": "running",
+  "started_unix": 1791074220.6813014,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-File",
+    "wm_diag0/metadata_plan.ps1"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 15.45638119999785,
+  "domain": "artificial",
+  "research_access": false
+}

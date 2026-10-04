@@ -1,5 +1,6 @@
 """Metadata and full artificial component-chain checks, no science access."""
 import json
+import hashlib
 import tempfile
 from pathlib import Path
 import unittest
@@ -7,7 +8,7 @@ import numpy as np
 from .core import Features, aligned_realized, select_four, native_terminal_score
 from .readout import check_roles
 from .analysis import estimate
-from .resource_plan import counts
+from .resource_plan import counts, storage_reservations
 from .test_components import bank, contract, ridge
 from .preserve_preparation import build_archive, verify_archive
 
@@ -15,6 +16,30 @@ ROOT=Path(__file__).resolve().parents[1]
 DOC=ROOT/'docs/world-model-diagnostic-20261004'
 
 class PackageTests(unittest.TestCase):
+    def test_new_proposal_recomputes_from_exposed_metadata_only(self):
+        pool=json.loads((DOC/'EXPOSED-POOL-METADATA.json').read_text())
+        roles=json.loads((DOC/'ROLE-PROPOSAL.json').read_text())
+        self.assertEqual(pool['status'],'EXPOSED_METADATA_ONLY');self.assertEqual(pool['payload_reads'],0)
+        for task in ('pusht','reacher'):
+            ids=pool['parents'][task]
+            ordered=sorted(ids,key=lambda p:(hashlib.sha256(f'wm-diag0-discovery-reuse-v2|{task}|{p}|20261004'.encode()).hexdigest(),p))
+            self.assertEqual(len(ids),roles[task]['reused_pool_count'])
+            self.assertEqual(roles[task]['diagnostic'],ordered[:32])
+            self.assertEqual(roles[task]['fit'],ordered[32:48])
+            self.assertEqual(roles[task]['validation'],ordered[48:60])
+    def test_all_live_and_inclusive_reservations_fit(self):
+        r=storage_reservations()
+        self.assertEqual(r['live_reserved_bytes'],8035000000)
+        self.assertEqual(r['inclusive_full_future_reserved_bytes'],41000000000)
+    def test_ragged_bank_padding_is_never_an_outcome(self):
+        y=np.array([[[0,0],[-1,-1]],[[1,1],[0,0]]])
+        result=estimate(['a','b'],y,np.zeros((2,4),int),[0,0],candidate_counts=[1,2])
+        self.assertEqual(result['candidate_mean_success'],[[0.],[1.,0.]])
+        self.assertEqual(result['hindsight_optimistic_parent'],[0.,1.])
+        self.assertEqual(result['cells']['P0'],.5)
+        with self.assertRaises(ValueError):estimate(['a','b'],y,np.array([[1,1,1,1],[0,0,0,0]]),[0,0],candidate_counts=[1,2])
+        y[0,1]=[1,1]
+        with self.assertRaises(ValueError):estimate(['a','b'],y,np.zeros((2,4),int),[0,0],candidate_counts=[1,2])
     def test_preparation_archive_whole_members_and_no_overwrite(self):
         with tempfile.TemporaryDirectory() as temp:
             p=Path(temp)/'new.zip'

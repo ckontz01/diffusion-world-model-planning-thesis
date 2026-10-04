@@ -51,7 +51,7 @@ def fit_artificial(features, coordinates, parents, roles, contract, task, *, dom
     check_roles(*roles)
     x = np.asarray(features, dtype=np.float64)
     y = np.asarray(coordinates, dtype=np.float64)
-    nout = {'pusht': 6, 'reacher': 2}[task]
+    nout = {'pusht': 6, 'reacher': 4}[task]
     if x.shape[1:] != contract.feature_shape or y.shape != (len(x), nout) or len(parents) != len(x):
         raise ValueError('Fit shapes')
     if not set(parents) <= set(roles[0]) or len(x) < 2 or len(x) > 256:
@@ -84,11 +84,12 @@ def task_margin(task, p, g):
         angle = np.abs(np.arctan2(a[:,1]*b[0]-a[:,0]*b[1], a@b))/(np.pi/9)
         return np.maximum(position, angle)
     if task == 'reacher':
-        # Native RAW qpos convention. No wrap, clamp, hidden winding input,
-        # or true goal coordinates substituted in only the oracle row.
-        if p.ndim != 2 or p.shape[1] != 2 or np.asarray(g).shape != (2,):
-            raise ValueError('Two raw Reacher qpos coordinates')
-        return np.max(np.abs(p-g)/.05, axis=1)
+        # Both joint angles, circular distance; not fingertip-only distance.
+        # Native raw-qpos criterion remains a separate endpoint; see protocol.
+        a, b = unit_pair(p.reshape(-1,2,2)), unit_pair(g.reshape(2,2))
+        cross = a[:,:,1]*b[:,0]-a[:,:,0]*b[:,1]
+        dot = (a*b).sum(-1)
+        return np.max(np.abs(np.arctan2(cross,dot))/.05, axis=1)
     raise ValueError(task)
 
 

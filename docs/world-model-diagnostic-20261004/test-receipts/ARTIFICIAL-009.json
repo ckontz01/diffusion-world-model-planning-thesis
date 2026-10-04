@@ -1,0 +1,26 @@
+{
+  "label": "ARTIFICIAL-009",
+  "state": "finished",
+  "started_unix": 1791072478.5800786,
+  "wall_seconds": 1.5862225000164472,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.test_native_shape_artificial"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 9.473224799963646,
+  "domain": "artificial",
+  "research_access": false,
+  "returncode": 0,
+  "stdout": "",
+  "stderr": "test_full_patch_ridge_and_four_cell_interface (__main__.NativeShapeArtificialTest.test_full_patch_ridge_and_four_cell_interface) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 1.227s\n\nOK\n",
+  "cumulative_test_wall_seconds": 11.059447299980093,
+  "peak_job_memory_bytes": 774823936,
+  "affinity_mask": 15,
+  "new_package_bytes": 313596,
+  "gpu_allocations": 0
+}

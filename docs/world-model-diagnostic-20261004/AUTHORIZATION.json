@@ -1,6 +1,6 @@
 {
   "study": "WM-DIAG0",
-  "version": "preparation-v1",
+  "version": "bind1-v2",
   "execute": false,
   "research_inference": false,
   "research_fitting": false,
@@ -15,5 +15,9 @@
   "local_cpu_threads": 4,
   "local_ram_bytes": 8589934592,
   "new_output_bytes": 1000000000,
+  "official_artifact_download_ceiling_bytes": 2147483648,
+  "all_retained_preparation_ceiling_bytes": 5368709120,
+  "artifact_downloads_actual_bytes": 0,
+  "review_step": "WM-DIAG0-BIND1; human-delegated GPT-6 Pro instruction; no research execution instruction",
   "technical_repair": "Authorized inside these limits; no resource, data-access, security or scientific expansion"
 }

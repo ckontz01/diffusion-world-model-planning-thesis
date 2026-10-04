@@ -1,6 +1,10 @@
 {
   "study": "WM-DIAG0",
   "status": "PREPARATION_ONLY",
+  "version": "bind1-v2",
+  "review_instruction": "REVIEW-BIND1.md",
+  "historical_origin_contract": "NATIVE-CHART-AND-ORIGIN.md",
+  "artifact_acquisition_bytes": 0,
   "research_payload_reads": 0,
   "checkpoint_forwards": 0,
   "physics_steps": 0,
@@ -59,6 +63,7 @@
       "config": null,
       "training_roles": null,
       "status": "UNBOUND_LAUNCH_BLOCKER",
+      "observed_release_result": "404 Not Found in browser; no target checkpoint/config file identities available",
       "release": "https://drive.google.com/drive/folders/1r31os0d4-rR0mdHc7OlY_e5nh3XT4r4e"
     }
   ],

@@ -2,6 +2,8 @@
 
 wm_diag0.analysis.estimate consumes saved **already-sealed choices**, accepted candidate outcomes [parent,candidate,2 draws], native reference indices and optional separately recorded local progress. CLI requires --artificial and an artificial fixture; research execution remains disabled.
 
+Banks can be smaller than16 after exact duplicate removal. candidate_counts binds the sealed bank size for every parent; rectangular outcome padding must be−1 (not a fabricated failure/success). Choices/native references outside that parent's bank are rejected. Invalid slots are excluded from binary-label checks, opportunity maxima, split-draw choice and initial-success handling. Output candidate summaries are ragged true-bank rows. phase.py authenticates each artificial bank's exact candidate_count before outcome joins. Native multi-parent collection/acceptance remains blocked; caller-supplied unverified counts are not a scientific acceptance gate.
+
 Within each of four settings report P0,P1,O0,O1 and the exact native-return reference. Average the two evaluation draws per parent; repeated deterministic outcomes are technical repetition, not extra n. Candidates, draws and paired backbones do not multiply independent parents. Use all32 diagnostic parents including initial successes, whose cells/reference must all be absorbed success.
 
 Fixed contrasts: O0−P0; P1−P0; O1−O0; (O1−P1)−(O0−P0). Save every parent effect, gains/losses/ties, selected slot/identity changes, all cell/source summaries, candidate means and local progress. Binary full-budget native success is primary; truncation/terminal-failure/budget-failure reasons are retained in branch receipts and must accompany scientific reporting.

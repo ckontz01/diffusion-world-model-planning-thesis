@@ -1,0 +1,45 @@
+{
+  "domain": "source-and-metadata-only",
+  "observed_at": "2026-10-03T23:58:00Z",
+  "research_execution": false,
+  "release_folder": {
+    "url": "https://drive.google.com/drive/folders/1r31os0d4-rR0mdHc7OlY_e5nh3XT4r4e",
+    "official_readme": "https://raw.githubusercontent.com/lucas-maes/le-wm/8edfeb336732b5f3ce7b8b210d0ba370a09e2cac/README.md",
+    "browser_result": "404 Not Found; no artifact acquisition or permission changes attempted",
+    "implication": "Published release list not authenticated available artifact; no global absence claim"
+  },
+  "reacher": {
+    "wrapper_sha256": "13d55bf73f9b7f8a9b5a2b380e12750e253a391716e64e65f795b1c9fff8bc08",
+    "task_wrapper_sha256": "05bbf859383a047b92598dc0553a9e917193a732f065d2ed05c31005d03ba2cb",
+    "suite_xml_sha256": "849e1e3dd8e79b8f5796bd6e32b0d7a51b916355584402d8f803d74ad35ad193",
+    "action_repeat": 2,
+    "xml_timestep_seconds": 0.02,
+    "shoulder_limited": false,
+    "wrist_limit_degrees": [
+      -160,
+      160
+    ],
+    "implication": "Visual angular-pair readout cannot in general recover unwrapped shoulder winding; native raw-qpos success remains unchanged. Actual runtime control_timestep/environment kwargs still must be bound."
+  },
+  "pusht": {
+    "env_sha256": "d8d0de35aaab5b846db4e79b0fbfd6b17375178cce40a25df5301c8030ca6d68",
+    "control_hz": 10,
+    "dt_seconds": 0.01,
+    "physics_substeps_per_controller_action": 10,
+    "native_relative": true,
+    "relative_action_scale": 100
+  },
+  "source_proposal_bounds": {
+    "pusht": {
+      "length_min": 56,
+      "length_max": 229,
+      "replay_max": 102
+    },
+    "reacher": {
+      "length_min": 201,
+      "length_max": 201,
+      "replay_max": 88
+    }
+  },
+  "note": "Post-handoff evidence only. Frozen package79652c5 unchanged; no new scientific results or design change."
+}

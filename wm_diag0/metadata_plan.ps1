@@ -25,8 +25,8 @@ foreach ($task in 'pusht','reacher') {
         foreach($id in $roles.$task.$role) {
             $row = $indexed[[int]$id]
             if ($row.partition -ne 'P2') { throw 'Protected-role proposal' }
-            if ($row.length -lt 31 -or $row.length -gt 425) { throw 'Source length requires review; no substitution' }
-            $start = [int][Math]::Floor(($row.length-25)/2)
+            if ($row.length -lt 31) { throw 'Source length requires review; no substitution' }
+            $start = [int][Math]::Min(200,[Math]::Floor(($row.length-25)/2))
             $frames = @()
             if ($role -ne 'diagnostic') {
                 $count = if ($role -eq 'fit') { 16 } else { 8 }

@@ -1,0 +1,18 @@
+{
+  "label": "METADATA-BIND1-001",
+  "state": "running",
+  "started_unix": 1791073886.798578,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0.roles_plan"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 13.02675109996926,
+  "domain": "artificial",
+  "research_access": false
+}

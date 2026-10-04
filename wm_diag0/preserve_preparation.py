@@ -50,7 +50,9 @@ def verify_archive(path, expected):
 
 def main():
     if os.name!='nt':raise PermissionError('Native Windows transfer only')
-    if len(sys.argv)!=2 or len(sys.argv[1])!=40:raise ValueError('Exact full Git commit required')
+    if len(sys.argv) not in (2,3) or len(sys.argv[1])!=40:raise ValueError('Exact full Git commit required')
+    version=sys.argv[2] if len(sys.argv)==3 else 'prepare-v1'
+    if version not in ('prepare-v1','bind1-v2'):raise ValueError('Declared preparation version')
     commit=sys.argv[1]
     if git('rev-parse',commit).decode().strip()!=commit:raise ValueError('Unresolved commit')
     volume=json.loads(subprocess.check_output(['powershell.exe','-NoProfile','-Command',
@@ -67,7 +69,7 @@ def main():
     destination.mkdir(parents=True,exist_ok=True)
     local=ROOT/'docs/world-model-diagnostic-20261004/delivery'
     local.mkdir(exist_ok=True)
-    name='prepare-v1-'+commit+'.zip'
+    name=version+'-'+commit+'.zip'
     local_archive=local/name;ssd_archive=destination/name
     if local_archive.exists() or ssd_archive.exists():raise FileExistsError('Preserve existing archive/partial; no blind repeat')
     expected=build_archive(local_archive,commit,members)

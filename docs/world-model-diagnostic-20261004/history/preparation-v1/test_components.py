@@ -69,7 +69,7 @@ class ComponentTests(unittest.TestCase):
         b=bank();c=contract();r=ridge(c);rng=np.random.default_rng(12)
         x=rng.normal(size=(16,5,6));g=np.zeros(6)
         p=Features(x,c,b.identity,'diagnostic','predicted');o=Features(x.copy(),c,b.identity,'diagnostic','realized')
-        s=select_four(b,p,o,g,native_terminal_score,r)
+        s=select_four(b,p,o,g,native_terminal_mse,r)
         self.assertEqual(s.choices[0],s.choices[2]);self.assertEqual(s.choices[1],s.choices[3])
         self.assertEqual(s.cost_ids[1],s.cost_ids[3]);self.assertEqual(s.s1_id,r.identity)
         self.assertTrue(all(not x.actions.flags.writeable for x in b.candidates))
@@ -112,7 +112,7 @@ class ComponentTests(unittest.TestCase):
         self.assertAlmostEqual(task_margin('pusht',p,g)[0],.02/(np.pi/9))
         p[0,0]=100;self.assertEqual(task_margin('pusht',p,g)[0],5.)
         p[0,:4]=[15,0,15,0];self.assertGreater(task_margin('pusht',p,g)[0],1.)
-        rg=np.array([0,0]);rp=np.array([[0,np.pi/2]])
+        rg=np.array([1,0,1,0]);rp=np.array([[1,0,0,1]])
         self.assertGreater(task_margin('reacher',rp,rg)[0],30)
     def test_terminal_during_chunk_no_tail(self):
         w=FakeWorld(stop=7,success_at=7);s=source();candidate=bank().candidates[0]
