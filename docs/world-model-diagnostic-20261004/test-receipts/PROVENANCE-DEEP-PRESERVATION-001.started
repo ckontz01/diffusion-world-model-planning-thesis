@@ -1,0 +1,19 @@
+{
+  "label": "PROVENANCE-DEEP-PRESERVATION-001",
+  "state": "running",
+  "started_unix": 1791115829.5460865,
+  "wall_seconds": 0,
+  "reserved_seconds": 600,
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-NonInteractive",
+    "-Command",
+    "$ErrorActionPreference = 'Stop'\n$wmVolume = Get-Volume -DriveLetter D\nif ($wmVolume.FileSystemLabel -ne 'THESIS_SSD' -or $wmVolume.UniqueId -ne '\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\' -or $wmVolume.HealthStatus -ne 'Healthy' -or $wmVolume.SizeRemaining -lt 40000000000) { throw 'Required SSD identity/health/free-space gate failed' }\n$wmCommit = '64663f026cfe50d505ea5c113514c19e977f8c85'\n$wmPaths = @(git diff-tree --no-commit-id --name-only -r $wmCommit)\nif ($LASTEXITCODE -ne 0 -or $wmPaths.Count -ne 15) { throw 'Exact fifteen new files required' }\n$wmDestination = 'D:/THESIS-BACKUPS/world-model-diagnostic-20261004/provenance-64663f026cfe50d505ea5c113514c19e977f8c85'\nif (Test-Path -LiteralPath $wmDestination) { throw 'Exclusive provenance destination exists; no overwrite/retry' }\n[void](New-Item -ItemType Directory -Path $wmDestination)\n$wmMembers = @(); $wmTotalBytes = 0\nforeach ($wmPath in $wmPaths) {\n if ($wmPath -notlike 'docs/world-model-diagnostic-20261004/*' -or $wmPath.Contains('..')) { throw 'Unexpected path outside scoped new study' }\n $wmExpected = (git rev-parse ($wmCommit + ':' + $wmPath)).Trim()\n if ($LASTEXITCODE -ne 0) { throw 'Missing immutable blob' }\n $wmStart = [System.Diagnostics.ProcessStartInfo]::new('git',('show ' + $wmCommit + ':' + $wmPath))\n $wmStart.UseShellExecute=$false; $wmStart.RedirectStandardOutput=$true; $wmStart.RedirectStandardError=$true; $wmStart.CreateNoWindow=$true\n $wmGit = [System.Diagnostics.Process]::Start($wmStart); $wmMemory=[System.IO.MemoryStream]::new()\n $wmGit.StandardOutput.BaseStream.CopyTo($wmMemory); $wmError=$wmGit.StandardError.ReadToEnd(); $wmGit.WaitForExit()\n if ($wmGit.ExitCode -ne 0) { throw $wmError }\n $wmBytes=$wmMemory.ToArray(); $wmTotalBytes+=$wmBytes.Length\n if ($wmTotalBytes -gt 1000000) { throw 'Small provenance preservation cap exceeded' }\n $wmTarget=Join-Path $wmDestination ([System.IO.Path]::GetFileName($wmPath))\n $wmStream=[System.IO.File]::Open($wmTarget,[System.IO.FileMode]::CreateNew,[System.IO.FileAccess]::Write,[System.IO.FileShare]::None)\n try { $wmStream.Write($wmBytes,0,$wmBytes.Length) } finally { $wmStream.Dispose() }\n $wmActual=(git hash-object --no-filters -- $wmTarget).Trim()\n if ($LASTEXITCODE -ne 0 -or $wmActual -ne $wmExpected) { throw 'Immutable member verification failed; preserve partial' }\n $wmHasher=[System.Security.Cryptography.SHA256]::Create()\n $wmSha=[System.BitConverter]::ToString($wmHasher.ComputeHash($wmBytes)).Replace('-','').ToLowerInvariant()\n $wmMembers+=[ordered]@{path=$wmPath;ssd_path=$wmTarget;bytes=$wmBytes.Length;git_blob=$wmActual;sha256=$wmSha}\n $wmHasher.Dispose(); $wmMemory.Dispose(); $wmGit.Dispose()\n}\n[ordered]@{status='ALL_FIFTEEN_NEW_FILES_IMMUTABLE_BLOB_VERIFIED';commit=$wmCommit;new_bytes=$wmTotalBytes;members=$wmMembers;volume_label=$wmVolume.FileSystemLabel;volume_guid=$wmVolume.UniqueId;free_bytes_before=$wmVolume.SizeRemaining;health=$wmVolume.HealthStatus.ToString();archive_created=$false;historical_rebackups=0} | ConvertTo-Json -Depth 5"
+  ],
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "prior_test_wall_seconds": 91.8894843000453,
+  "domain": "artificial",
+  "research_access": false
+}
