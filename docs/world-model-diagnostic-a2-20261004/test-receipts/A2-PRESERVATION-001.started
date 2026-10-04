@@ -1,0 +1,19 @@
+{
+  "label": "A2-PRESERVATION-001",
+  "state": "running",
+  "started_unix": 1791128381.5779676,
+  "wall_seconds": 0,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 276.3761886001508,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.preserve",
+    "fe5ca90b48013b5258a23aa3e5c5eddada63d56e"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false
+}

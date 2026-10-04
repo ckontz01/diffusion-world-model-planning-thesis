@@ -1,0 +1,5 @@
+# Tracking correction authenticated before preservation
+
+A2-TRACKING-AUDIT-001 exit0: every222 source/config receipt member has identical acquired and staged Git SHA256/size. The18 missing text members were explicitly added; no root .gitignore or executed source changed. Four-CPU affinity15, peak58,896,384B,17.445930999994744s charged. Shared cumulative327.10470250010854s; next600s preservation reservation fits14,400s, with existing files and failed attempts retained. Scientific/core artificial components are unchanged from56-test passing commit fe5ca90b48013b5258a23aa3e5c5eddada63d56e.
+
+Commit this correction/evidence as a new immutable Git version, then use unchanged wm_diag0_a2.preserve on that exact full commit under exclusive A2-PRESERVATION-002. That adapter independently reauthenticates all source/config Git blobs, every opaque model byte, the inherited dependency closure and storage/SSD gates before creating the final archive. No backup success is asserted by this pre-transfer record. External delivery/SSD-VERIFIED-A2-001.json is the authoritative final whole/every-member receipt if the finite attempt succeeds.

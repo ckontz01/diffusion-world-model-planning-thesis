@@ -1,0 +1,17 @@
+{
+  "label": "A2-TRACKING-AUDIT-001",
+  "state": "running",
+  "started_unix": 1791128527.917073,
+  "wall_seconds": 0,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 309.6587715001138,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "docs/world-model-diagnostic-a2-20261004/recovery-r1/audit.py"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false
+}

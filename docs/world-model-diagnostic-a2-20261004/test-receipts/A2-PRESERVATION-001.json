@@ -1,0 +1,30 @@
+{
+  "label": "A2-PRESERVATION-001",
+  "state": "finished",
+  "started_unix": 1791128381.5779676,
+  "wall_seconds": 33.28258289996302,
+  "reservation_seconds": 600,
+  "prior_cumulative_seconds": 276.3761886001508,
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_a2.preserve",
+    "fe5ca90b48013b5258a23aa3e5c5eddada63d56e"
+  ],
+  "domain": "preparation_only",
+  "cpu_threads_cap": 4,
+  "memory_cap_bytes": 8589934592,
+  "research_access": false,
+  "returncode": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_a2\\preserve.py\", line 109, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_a2\\preserve.py\", line 54, in main\n    if digest(members[n])!={'bytes':row['bytes'],'sha256':row['sha256']}:raise ValueError('Git normalization altered source bytes')\n              ~~~~~~~^^^\nKeyError: 'docs/world-model-diagnostic-a2-20261004/source-audit/point-lewm/dinowm_swm/conf/env/swm_cube.yaml'\n",
+  "cumulative_seconds": 309.6587715001138,
+  "peak_job_memory_bytes": 219840512,
+  "affinity_mask": 15,
+  "retained_local_bytes": 269318256,
+  "code_metadata_bytes": 3359431,
+  "model_forward_passes": 0,
+  "physics_steps": 0,
+  "scheduler_allocations": 0
+}
