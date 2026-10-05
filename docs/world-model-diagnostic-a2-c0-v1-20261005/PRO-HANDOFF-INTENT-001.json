@@ -1,0 +1,14 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "status": "ONE_SHOT_COMPLETION_REPORT_PREPARED_FOR_EXISTING_AUTHORIZED_PRO_CHAT",
+  "destination": "https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5",
+  "purpose": "Return immutable completed V1 component evidence, limitations, ledger and remaining administrator action; request review only, not boot/conversion/launch",
+  "source_commit": "d8d851644fd7335fd5fa1401fb53503b25e17219",
+  "published_receipt_tip": "a44b199f0930e3753aac93bd8596459e7ec98c12",
+  "already_submitted_original_0228_request_not_duplicated": true,
+  "this_completion_handoff_not_yet_confirmed_sent": true,
+  "unknown_outcome_rule": "Before retrying or later posting, inspect the visible chat for this exact source/receipt identity and completion report. Never blindly duplicate.",
+  "research_operations_disabled": true,
+  "gate_ready": false,
+  "charge": "Inside the existing full V1 1800-second charge; not a new package reservation"
+}

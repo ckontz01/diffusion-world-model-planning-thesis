@@ -1,0 +1,12 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "status": "NONSCIENTIFIC_TEST_LABEL_CORRECTION_NO_SOURCE_REWRITE_OR_RERUN",
+  "source_commit": "d8d851644fd7335fd5fa1401fb53503b25e17219",
+  "correction": "The successful main check label says all_14_declared_dtypes. The actual explicit DTYPES map has 13 supported dtypes: BOOL; I8/U8, I16/U16, I32/U32, I64/U64; BF16/F16/F32/F64. All 13 are exercised in 15 artificial tensors. The label is a counting typo, not a missing implemented dtype or an additional acceptance claim.",
+  "readback": "Independent static AST readback of the published local validator counted 13 entries without importing code or reading any checkpoint",
+  "checks_passed_unchanged": 65,
+  "preserved_prior_test_source_and_receipts": true,
+  "Pro_completion_message_corrected_before_submission": true,
+  "gate_ready": false,
+  "charge": "Inside existing V1 full 1800-second charge"
+}

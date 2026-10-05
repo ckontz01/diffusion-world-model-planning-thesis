@@ -1,0 +1,23 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "status": "COMPLETION_REPORT_SENT_ONCE_VISIBLE_IN_EXISTING_PRO_CHAT",
+  "destination": "https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5",
+  "visible_message_prefix": "WM-DIAG0-A2-C0-V1 completed: DATA-ONLY VALIDATOR COMPONENT, NOT conversion or launch.",
+  "reported_source_commit": "d8d851644fd7335fd5fa1401fb53503b25e17219",
+  "reported_receipt_tip": "a44b199f0930e3753aac93bd8596459e7ec98c12",
+  "reported_checks_passed": 65,
+  "supported_dtype_count_corrected_before_submission": 13,
+  "reported_gate_ready": false,
+  "reported_actual_pending_administrator_action": "Unchanged one-shot Test-Offline-Guest-Boot.ps1 -Boot; allowed agent privileged capability absent",
+  "submission_confirmation": "Visible You said user message contains the complete source and receipt hashes, immutable links, test/SSD evidence, corrected ledger, UNBOUND state and limitations. Composer empty, ChatGPT is responding, Stop button visible.",
+  "review_response_status": "Pending at send confirmation; read completed reply on a later wake, never duplicate the original review request or this handoff",
+  "private_screenshot_saved_not_published": true,
+  "automatic_boot_conversion_research_after_V1": false,
+  "next_wake": "Read this record and the completed Pro review, if available, before further action. No duplicate tests/package/archive/publication or privilege probes on unchanged state. Any concrete defect must be independently diagnosed, finite and versioned outside executed sources. Real launch gates and original science/resource/security boundaries remain binding.",
+  "same_away_heartbeat_deadline_UTC": "2026-10-05T07:30:00Z",
+  "same_heartbeat_kept_quiet_while_pending": true,
+  "no_new_monitor_created": true,
+  "cumulative_preparation_charge_seconds": 8914.10301460012,
+  "remaining_preparation_seconds": 5485.89698539988,
+  "handoff_inside_existing_V1_1800_second_charge": true
+}
