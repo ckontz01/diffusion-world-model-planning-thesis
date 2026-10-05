@@ -1,0 +1,19 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "version": "vm-shell-repair-r1",
+  "script_SHA256": "1603BA51A04658ACEEAA24E5010B9CB4CA88EC2F7A89D69108F1CDA6366E9B20",
+  "tests": {
+    "PowerShell_syntax": "PASS",
+    "default_plan_no_mutation": "PASS",
+    "no_create_start_delete_import_download_or_policy_change_commands": "PASS",
+    "exactly_one_static_memory_call_no_MinimumBytes_MaximumBytes_Buffer": "PASS",
+    "artificial_interface_rejects_original_dynamic_only_bounds_with_static_memory": "PASS",
+    "artificial_interface_accepts_static_StartupBytes_only_call": "PASS",
+    "contract_JSON_parse": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "test_limitations": "The artificial memory-interface test is a local deterministic mock of the diagnosed API constraint, not the Hyper-V implementation. Actual administrator repair and live readback have not run. No VM guest, real checkpoint, simulator or artificial guest-only conversion gate test was executed.",
+  "original_creation_source_and_failure_receipts_preserved": true,
+  "preparation_accounting": "Included in the retained 600-second R1 charge; no further or duplicate charge",
+  "gate_ready": false
+}

@@ -1,0 +1,18 @@
+Do NOT rerun Create-Stopped-VM-Shell.ps1 or delete/recreate the partial VM.
+The initial script failed because it combined static memory with minimum and
+maximum dynamic-only settings. Its source and old receipts remain unchanged.
+
+In the same administrator PowerShell window, run this targeted repair ONCE:
+
+& 'C:\Users\Chris\thesis-recovery\world-model-diagnostic-preparation-20261004\docs\world-model-diagnostic-a2-c0-provisioning-20261005\repair-r1\Repair-Stopped-VM-Shell.ps1' -Repair
+
+It checks the exact existing VM ID/name, Off state, dedicated configuration
+path, four CPUs, lifecycle settings, absent disk/media and disconnected
+network before acting. It corrects only static memory allocation and finishes
+the new VM's disabled integration services/disconnected-adapter readback.
+No VM creation/start, OS/runtime installation, network connection, checkpoint
+loading, host security change or historical source overwrite occurs.
+
+Return the JSON output. If it fails, preserve the error and any new receipts;
+do not retry, delete, recreate or start anything. Actual guest/runtime/isolation
+gate work is still pending; this is only repair of the stopped empty shell.

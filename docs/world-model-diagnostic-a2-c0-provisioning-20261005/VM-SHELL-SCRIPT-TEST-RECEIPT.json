@@ -1,0 +1,21 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "client_local_date": "2026-10-05",
+  "script": "Create-Stopped-VM-Shell.ps1",
+  "SHA256": "F3AB71A364FBCD0799229D998F3E76DF506EF07C0B97975E3DDB56C6BCD67217",
+  "checks": {
+    "PowerShell_AST_syntax": "PASS",
+    "default_plan_execution_no_creation": "PASS",
+    "default_plan_2GiB_four_CPU_no_disk_no_start_not_ready": "PASS",
+    "one_NewVM_command_with_NoVHD_no_switch_disk_clone_credentials_or_remote_host": "PASS",
+    "no_StartVM_Remove_Enable_ExecutionPolicy_download_import_disk_mount_commands": "PASS",
+    "contract_JSON_parse": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "command_interface_validation": "Used existing installed Hyper-V cmdlet metadata and official Microsoft documentation. Nullable CheckpointType enum metadata query failed initially; underlying enum then confirmed Disabled is supported.",
+  "privileged_creation_branch_executed_or_tested_on_actual_VM": false,
+  "mock_or_guest_isolation_tests": "Not performed; these static/default-plan checks do not establish VM creation correctness or an executable conversion gate.",
+  "actual_agent_VM_creation_or_model_operations": 0,
+  "charges": "Included in the retained 600-second shell step charge in ADMIN-PREFLIGHT-ACCEPTED-AND-SHELL-CONTRACT.json; no additional or duplicate charge.",
+  "original_56_tests_rerun": false
+}

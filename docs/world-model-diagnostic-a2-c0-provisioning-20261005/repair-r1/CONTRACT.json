@@ -1,0 +1,33 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "version": "vm-shell-repair-r1",
+  "client_local_date": "2026-10-05",
+  "diagnosis": "Executed source supplied MinimumBytes and MaximumBytes with DynamicMemoryEnabled=false. Hyper-V rejected those dynamic-only parameters. Static allocation must use StartupBytes only.",
+  "original_executed_script_SHA256": "F3AB71A364FBCD0799229D998F3E76DF506EF07C0B97975E3DDB56C6BCD67217",
+  "original_executed_source_left_unchanged": true,
+  "preserved_started_receipt_SHA256": "56DAACF575FF05E83FFDB8955D37F4A8E845264A2C025BA92E97DCE838A6A89E",
+  "preserved_failed_receipt_SHA256": "AFA91473350E898CFDDA2039EF2CD18235129620D58D9B41D8087127630215F0",
+  "initial_failed_operation_elapsed_seconds": 3.3773111,
+  "initial_time_accounting": "Already included in the previous retained 600-second shell preparation charge; not charged again",
+  "observed_config_file_VM_identity": "8af7472f-a299-4d7d-b3c4-62e81e568de0",
+  "observed_local_files_total_bytes": 4285815,
+  "VM_live_state": "Unverified by the unelevated agent. Repair must query the exact VM ID and authenticate name, Off state, generation, configuration path, CPU count, lifecycle flags, absent disks/media and disconnected network before any mutation.",
+  "repair": "One corrected static-memory call on this existing VM object, then finish adapter disconnection/integration-service disable/readback that the original script never reached",
+  "new_VM_allocation_or_recreation": false,
+  "delete_overwrite_retry_start_or_load_checkpoints": false,
+  "new_exclusive_receipts": ["REPAIR-R1-STARTED.json", "REPAIR-R1-VERIFIED.json", "REPAIR-R1-FAILED.json"],
+  "completed_repair_receipt_exists": false,
+  "authority": "Direct user authorization for clean VM/runtime preparation and technical repair within that preparation; administrator execution remains user-performed",
+  "storage": "Keep original VM and receipts. New compact files/receipts stay within the same 64 MB shell reservation inside the canonical 4 GB runtime reservation; no duplicate runtime or guest copy is added.",
+  "accounting": {
+    "prior_cumulative_charge_seconds": 3414.10301460012,
+    "repair_preparation_and_single_user_execution_full_charge_seconds": 600,
+    "cumulative_charge_seconds": 4014.10301460012,
+    "remaining_of_14400_seconds": 10385.89698539988,
+    "real_conversion_seconds_consumed": 0,
+    "basis": "Conservative full reservation retained as charge for diagnosis, read-only file inventory/hash authentication, new repair script/static/interface checks, and one user-performed targeted repair/readback; reconcile further actual time if this envelope is exceeded before continuing."
+  },
+  "gate_ready": false,
+  "remaining_gate_work_unchanged": true,
+  "historical_scientific_sources_models_archives_monitors_unchanged": true
+}

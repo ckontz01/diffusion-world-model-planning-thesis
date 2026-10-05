@@ -1,0 +1,282 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "attempt": "002",
+  "status": "PASSED",
+  "checks": 52,
+  "results": [
+    {
+      "check": "valid_exact_roundtrip_all_14_declared_dtypes_scalar_empty_signed_zero_mask_and_roles",
+      "result": "PASSED",
+      "detail": null
+    },
+    {
+      "check": "missing_parameter",
+      "result": "PASSED",
+      "detail": "tensor_members"
+    },
+    {
+      "check": "lost_unregistered_mask",
+      "result": "PASSED",
+      "detail": "tensor_members"
+    },
+    {
+      "check": "missing_nonpersistent_buffer",
+      "result": "PASSED",
+      "detail": "tensor_members"
+    },
+    {
+      "check": "extra_tensor",
+      "result": "PASSED",
+      "detail": "tensor_members"
+    },
+    {
+      "check": "unexpected_header_metadata",
+      "result": "PASSED",
+      "detail": "tensor_members"
+    },
+    {
+      "check": "object_dtype",
+      "result": "PASSED",
+      "detail": "unsupported_dtype"
+    },
+    {
+      "check": "unimplemented_subbyte_dtype",
+      "result": "PASSED",
+      "detail": "unsupported_dtype"
+    },
+    {
+      "check": "wrong_dtype",
+      "result": "PASSED",
+      "detail": "tensor_architecture"
+    },
+    {
+      "check": "wrong_shape",
+      "result": "PASSED",
+      "detail": "tensor_architecture"
+    },
+    {
+      "check": "oversized_dimension",
+      "result": "PASSED",
+      "detail": "dimension"
+    },
+    {
+      "check": "zero_then_oversized_dimension",
+      "result": "PASSED",
+      "detail": "dimension"
+    },
+    {
+      "check": "rank_limit",
+      "result": "PASSED",
+      "detail": "rank"
+    },
+    {
+      "check": "overlapping_offsets",
+      "result": "PASSED",
+      "detail": "coverage"
+    },
+    {
+      "check": "negative_offset",
+      "result": "PASSED",
+      "detail": "offset_range"
+    },
+    {
+      "check": "huge_offset",
+      "result": "PASSED",
+      "detail": "offset_range"
+    },
+    {
+      "check": "boolean_offset",
+      "result": "PASSED",
+      "detail": "offset_range"
+    },
+    {
+      "check": "wrong_tensor_byte_count",
+      "result": "PASSED",
+      "detail": "offset_size"
+    },
+    {
+      "check": "hole_or_trailing_payload",
+      "result": "PASSED",
+      "detail": "coverage"
+    },
+    {
+      "check": "truncated_payload",
+      "result": "PASSED",
+      "detail": "offset_range"
+    },
+    {
+      "check": "duplicate_tensor_key",
+      "result": "PASSED",
+      "detail": "duplicate_json_key"
+    },
+    {
+      "check": "duplicate_manifest_key",
+      "result": "PASSED",
+      "detail": "duplicate_json_key"
+    },
+    {
+      "check": "huge_claimed_header_no_allocation",
+      "result": "PASSED",
+      "detail": "header_size"
+    },
+    {
+      "check": "json_depth_limit",
+      "result": "PASSED",
+      "detail": "json_depth"
+    },
+    {
+      "check": "hydra_import_instruction",
+      "result": "PASSED",
+      "detail": "configuration_string"
+    },
+    {
+      "check": "extra_executable_manifest_field",
+      "result": "PASSED",
+      "detail": "manifest_fields"
+    },
+    {
+      "check": "config_boolean_is_not_integer",
+      "result": "PASSED",
+      "detail": "configuration_binding"
+    },
+    {
+      "check": "configuration_signed_zero_preserved",
+      "result": "PASSED",
+      "detail": "configuration_binding"
+    },
+    {
+      "check": "invalid_shared_alias",
+      "result": "PASSED",
+      "detail": "alias_binding"
+    },
+    {
+      "check": "wrong_original_artifact_identity",
+      "result": "PASSED",
+      "detail": "artifact_binding"
+    },
+    {
+      "check": "changed_bytes_self_consistent_converter_manifest",
+      "result": "PASSED",
+      "detail": "tensor_expected_hash"
+    },
+    {
+      "check": "positive_infinity_mask_forbidden",
+      "result": "PASSED",
+      "detail": "nonfinite_tensor"
+    },
+    {
+      "check": "nan_mask_forbidden",
+      "result": "PASSED",
+      "detail": "nonfinite_tensor"
+    },
+    {
+      "check": "negative_infinity_weight_forbidden",
+      "result": "PASSED",
+      "detail": "nonfinite_tensor"
+    },
+    {
+      "check": "bf16_nan_forbidden",
+      "result": "PASSED",
+      "detail": "nonfinite_tensor"
+    },
+    {
+      "check": "f16_infinity_forbidden",
+      "result": "PASSED",
+      "detail": "nonfinite_tensor"
+    },
+    {
+      "check": "f64_nan_forbidden",
+      "result": "PASSED",
+      "detail": "nonfinite_tensor"
+    },
+    {
+      "check": "invalid_boolean_bits",
+      "result": "PASSED",
+      "detail": "invalid_bool"
+    },
+    {
+      "check": "real_UNBOUND_contract_fails_closed",
+      "result": "PASSED",
+      "detail": "contract_UNBOUND"
+    },
+    {
+      "check": "tensor_count_limit",
+      "result": "PASSED",
+      "detail": "tensor_count"
+    },
+    {
+      "check": "path_traversal_contract_member",
+      "result": "PASSED",
+      "detail": "filename"
+    },
+    {
+      "check": "shared_alias_cycle",
+      "result": "PASSED",
+      "detail": "alias_binding"
+    },
+    {
+      "check": "alias_conflicts_with_stored_tensor",
+      "result": "PASSED",
+      "detail": "alias_binding"
+    },
+    {
+      "check": "bounded_dimension_product_overflow",
+      "result": "PASSED",
+      "detail": "tensor_size"
+    },
+    {
+      "check": "unexpected_file",
+      "result": "PASSED",
+      "detail": "stage_members"
+    },
+    {
+      "check": "unexpected_directory",
+      "result": "PASSED",
+      "detail": "stage_members"
+    },
+    {
+      "check": "oversized_manifest_actual_small_fixture",
+      "result": "PASSED",
+      "detail": "manifest_size"
+    },
+    {
+      "check": "actual_host_hardlink_rejected",
+      "result": "PASSED",
+      "detail": "not_regular_single_link"
+    },
+    {
+      "check": "reparse_attribute_unit_rejection_not_actual_junction_test",
+      "result": "PASSED",
+      "detail": "linked_path"
+    },
+    {
+      "check": "cooperative_deadline_artificial_clock_rejection",
+      "result": "PASSED",
+      "detail": "time_limit"
+    },
+    {
+      "check": "caller_output_byte_cap_rejection",
+      "result": "PASSED",
+      "detail": "total_size"
+    },
+    {
+      "check": "standalone_isolated_import_search_cli_data_only",
+      "result": "PASSED",
+      "detail": {
+        "wall_seconds": 0.14000000001396984
+      }
+    }
+  ],
+  "elapsed_seconds": 0.875,
+  "fixture_and_source_tests_only": true,
+  "guest_containment_tested": false,
+  "actual_symlink_or_junction_tested": false,
+  "actual_checkpoint_parity": false,
+  "real_checkpoint_access": false,
+  "model_forwards": false,
+  "gate_ready": false,
+  "safetensors_dependency_installed": false,
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "literal_oracle_tensor_count": 15,
+  "cli_wall_seconds": 0.14000000001396984
+}

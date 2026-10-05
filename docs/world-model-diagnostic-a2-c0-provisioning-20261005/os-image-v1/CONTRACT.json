@@ -1,0 +1,21 @@
+{
+  "study":"WM-DIAG0-A2-C0",
+  "version":"authenticated-OS-only-offline-disk-v1",
+  "authority":"Existing direct clean guest/runtime preparation authorization. This concerns an official Ubuntu OS image, NOT conversion or loading of research checkpoints.",
+  "binary_root":"C:/Users/Chris/thesis-vm/wm-diag0-a2-c0-runtime-v1/os-image-v1",
+  "source_URL":"https://cloud-images.ubuntu.com/minimal/releases/jammy/release-20261001/ubuntu-22.04-minimal-cloudimg-amd64.img",
+  "source_bytes":310607360,
+  "source_SHA256":"bd27c6f51053dd7e59bcbe6016c6fa853f54b1e423af12273ff46a5176bfbf41",
+  "expected_virtual_disk_bytes":2361393152,
+  "authenticated_signed_checksum_signer":"D2EB44626FDDC30B513D5BB71A5D6C4C7DB87C81",
+  "native_windows_acquisition":true,
+  "acquisition_wall_max_seconds":180,
+  "source_not_retried_replaced_deleted_or_overwritten":true,
+  "offline_conversion":{"tool":"Separately extracted authenticated qemu-img 8.2.2 Debian 1:8.2.2+ds-0ubuntu1.18","input_format":"qcow2","output_format":"vhdx","subformat":"dynamic","block_size_bytes":8388608,"output_file_RLIMIT_FSIZE_bytes":2500000000,"RAM_RLIMIT_AS_bytes":536870912,"CPU_affinity_max":4,"CPU_limit_seconds_each":120,"wall_timeout_seconds_each":120,"comparison":"Full logical QCOW2-versus-VHDX compare; not a guest forward or model equivalence check","quota_interface_preparation":"Artificial nonzero data parity and 1 MiB file-size rejection already demonstrated; all test files and rejected partial retained"},
+  "forbidden_now":["attach disk to VM","boot guest OS","guest package/runtime installation","checkpoint read or conversion","research inference","GPU/Slurm work","mount guest filesystem","modify existing WSL/scientific environment","host security changes"],
+  "storage":{"stopped_VM_root_reservation_bytes":64000000,"source_OS_image_bytes":310607360,"OS_output_cap_bytes":2500000000,"OS_tools_reservation_bytes":32000000,"runtime_combined_offline_high_water_bytes":2906607360,"canonical_runtime_reservation_bytes":4000000000,"prior_nonruntime_preparation_copies_bytes":828249003,"small_metadata_reservations_bytes":4000000,"retained_preparation_reserved_high_water_bytes":3738856363,"retained_preparation_cap_bytes":5368709120,"running_VM_state_2_3GB_reservation_not_simultaneously_consumed":true,"full_guest_boot_runtime_installation_input_export_high_water_unresolved":true,"remaining_1093392640_runtime_bytes_not_double_spent":true,"source_tool_models_archives_and_partials_retained":true,"no_cluster_or_SSD_binary_copy":true},
+  "accounting":{"prior_cumulative_charge_seconds":5814.10301460012,"this_OS_image_preparation_full_charge_seconds":600,"cumulative_charge_seconds":6414.10301460012,"remaining_of_14400_seconds":7985.89698539988,"basis":"Finite conservative full charge for OS-only source binding, native bounded acquisition, offline disk conversion/identity readback/comparison and compact evidence. If actual step exceeds it, charge the excess before continuing.","research_checkpoint_conversion_seconds_consumed":0},
+  "guest_runtime_or_full_conversion_gate_ready":false,
+  "real_checkpoint_loading_authorized":false,
+  "historical_models_science_protocols_and_monitors_unchanged":true
+}

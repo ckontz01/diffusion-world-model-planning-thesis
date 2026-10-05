@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:wm-diag0:a2-c0-v1:expected-contract",
+  "title": "Reviewer-trusted expected tensor contract; not converter metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "binding", "limits", "input_artifacts", "files", "tensors", "aliases", "configuration"],
+  "properties": {
+    "version": {"const": 1},
+    "binding": {"enum": ["BOUND", "UNBOUND"]},
+    "limits": {
+      "type": "object", "additionalProperties": false,
+      "required": ["total_bytes", "manifest_bytes", "header_bytes", "tensor_count", "rank", "dimension", "seconds"],
+      "properties": {
+        "total_bytes": {"type": "integer", "minimum": 1, "maximum": 536870912},
+        "manifest_bytes": {"type": "integer", "minimum": 1, "maximum": 262144},
+        "header_bytes": {"type": "integer", "minimum": 1, "maximum": 262144},
+        "tensor_count": {"type": "integer", "minimum": 1, "maximum": 8192},
+        "rank": {"type": "integer", "minimum": 1, "maximum": 8},
+        "dimension": {"type": "integer", "minimum": 1, "maximum": 1000000},
+        "seconds": {"type": "integer", "minimum": 1, "maximum": 120}
+      }
+    },
+    "input_artifacts": {"$ref": "#/$defs/artifacts"},
+    "files": {
+      "type": "object", "minProperties": 1, "maxProperties": 8,
+      "propertyNames": {"pattern": "^[a-z0-9][a-z0-9_-]{0,63}\\.safetensors$"},
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false, "required": ["bytes", "sha256"],
+        "properties": {
+          "bytes": {"type": "integer", "minimum": 10, "maximum": 536870912},
+          "sha256": {"$ref": "#/$defs/optionalHash"}
+        }
+      }
+    },
+    "tensors": {
+      "type": "object", "minProperties": 1, "maxProperties": 8192,
+      "propertyNames": {"$ref": "#/$defs/name"},
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false,
+        "required": ["file", "dtype", "shape", "role", "nonfinite", "sha256"],
+        "properties": {
+          "file": {"type": "string", "pattern": "^[a-z0-9][a-z0-9_-]{0,63}\\.safetensors$"},
+          "dtype": {"enum": ["BOOL", "I8", "U8", "I16", "U16", "I32", "U32", "I64", "U64", "BF16", "F16", "F32", "F64"]},
+          "shape": {"type": "array", "maxItems": 8, "items": {"type": "integer", "minimum": 0, "maximum": 1000000}},
+          "role": {"enum": ["parameter", "persistent_buffer", "nonpersistent_buffer", "unregistered_tensor"]},
+          "nonfinite": {"enum": ["finite", "allow_negative_infinity"]},
+          "sha256": {"$ref": "#/$defs/optionalHash"}
+        }
+      }
+    },
+    "aliases": {"type": "object", "maxProperties": 8192, "propertyNames": {"$ref": "#/$defs/name"}, "additionalProperties": {"$ref": "#/$defs/name"}},
+    "configuration": {"type": "object", "maxProperties": 128, "propertyNames": {"$ref": "#/$defs/name"}, "additionalProperties": {"$ref": "#/$defs/configValue"}}
+  },
+  "$defs": {
+    "name": {"type": "string", "pattern": "^[A-Za-z0-9_][A-Za-z0-9_.]{0,159}$"},
+    "hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "optionalHash": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/hash"}]},
+    "artifacts": {
+      "type": "object", "minProperties": 1, "maxProperties": 16, "propertyNames": {"$ref": "#/$defs/name"},
+      "additionalProperties": {
+        "type": "object", "additionalProperties": false, "required": ["bytes", "sha256"],
+        "properties": {"bytes": {"type": "integer", "minimum": 1, "maximum": 1099511627776}, "sha256": {"$ref": "#/$defs/hash"}}
+      }
+    },
+    "configValue": {
+      "anyOf": [
+        {"type": "boolean"},
+        {"type": "integer", "minimum": -9007199254740992, "maximum": 9007199254740992},
+        {"type": "number"},
+        {"type": "string", "pattern": "^[A-Za-z0-9_-]{1,64}$"},
+        {"type": "array", "maxItems": 128, "items": {"$ref": "#/$defs/configValue"}},
+        {"type": "object", "maxProperties": 128, "propertyNames": {"$ref": "#/$defs/name"}, "additionalProperties": {"$ref": "#/$defs/configValue"}}
+      ]
+    }
+  },
+  "$comment": "Executable validator additionally rejects UNBOUND, duplicate JSON keys, nonfinite metadata, booleans as integers, JSON nesting >24 and config depth >12. Enforces cross-field limits, exact typed config equality including signed zero, dtype/shape/byte arithmetic, complete file coverage, files/tensors/alias targets, original identities, optional reviewer hashes, and per-tensor finite policy. JSON Schema alone is NOT the gate. JSON exponent-only floating numbers are represented as floats; finite representable values are required."
+}

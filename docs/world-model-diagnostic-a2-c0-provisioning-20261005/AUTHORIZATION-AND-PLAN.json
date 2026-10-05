@@ -1,0 +1,73 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "package": "local-provisioning-preparation-v1",
+  "client_local_date": "2026-10-05",
+  "user_authorization": "yes fully authorize you",
+  "authorization_context": "Direct response to the request to authorize clean disposable VM/runtime preparation only, checking storage limits first, with no actual checkpoint loading or research execution.",
+  "authorized_now": ["prepare a clean disposable local VM and its runtime", "bounded resource/source-identity discovery", "prepare setup files and inspection checks"],
+  "not_authorized_now": ["real checkpoint deserialization/conversion/loading", "research forwards/scoring/planning/physics/fitting", "scientific protocol changes", "Slurm/GPU allocation", "elevating or bypassing the Windows computer-use helper", "changing host security or execution policy", "purchases or new accounts", "expanding original cumulative storage/time/CPU/RAM caps"],
+  "actual_observations": {
+    "hyper_v": "Installed and administratively accessible to the user; live UI inventory empty",
+    "total_physical_memory_bytes": 14887411712,
+    "free_physical_memory_bytes_at_probe": 1899810816,
+    "logical_processors": 12,
+    "system_volume_free_bytes_at_probe": 13496762368,
+    "designated_ssd_free_bytes_at_probe": 310112272384,
+    "designated_ssd_guid": "0a2f1ba9-0000-0000-0000-100000000000",
+    "automation_boundary": "Computer-use helper is lower-integrity than the elevated Hyper-V window; no privileged input is attempted."
+  },
+  "target_guest_requirements": {
+    "clean_disposable_guest": true,
+    "logical_cpu_max": 4,
+    "static_memory_max_bytes": 8589934592,
+    "no_auto_start_or_saved_memory": true,
+    "no_automatic_checkpoints": true,
+    "no_network_adapter_connection_during_conversion": true,
+    "no_host_user_project_home_cluster_ssd_mounts": true,
+    "no_writable_host_share_or_clipboard_drive_redirection": true,
+    "approved_inputs": "Only individually authenticated staging members; immutable/read-only media. Real artifacts must not be staged or loaded during this preparation.",
+    "export": "Bounded data-only channel with independent validator; no guest executables or untrusted filesystem mounts on host. A serial named-pipe channel is a candidate only, not implemented or verified.",
+    "later_real_conversion_max_seconds": 1800,
+    "later_real_conversion_authorization": false,
+    "wall_and_output_enforcement": "Still requires an implemented host watchdog, guest output quota and independent channel byte cap tested on artificial data. A VM configuration alone does not provide these."
+  },
+  "runtime_source_status": {
+    "preserve_existing_scientific_environment": true,
+    "prospective_compatibility_family": "Linux Python 3.10 / PyTorch 2.7.0 / torchvision 0.22.0, as already proposed in A2",
+    "cpu_conversion_variant": "Possible preparation candidate only; dependency closure and saved-object compatibility must be authenticated. No silent change to the later CUDA12.6 scientific runtime or parity definition.",
+    "OS_candidate": "Official Ubuntu 22.04 LTS cloud-image release 20260926",
+    "official_image_index": "https://cloud-images.ubuntu.com/releases/jammy/release/",
+    "VHD_candidate": "ubuntu-22.04-server-cloudimg-amd64-azure.vhd.tar.gz",
+    "listed_compressed_size": "683M (publisher-rounded listing, not authenticated exact bytes)",
+    "expanded_size_and_guest_disk_capacity": null,
+    "OS_digest_and_signature_verification": "Not performed; no binary acquired",
+    "full_dependency_lock": "Not prepared",
+    "warning": "Compressed download size is not installed or expanded VM size. Do not acquire/extract this candidate merely because its compressed listing appears small."
+  },
+  "storage_reconciliation": {
+    "prior_reserved_preparation_copies_bytes": 828249003,
+    "retained_preparation_max_bytes": 5368709120,
+    "code_test_metadata_max_bytes": 1000000000,
+    "original_runtime_reservation_bytes": 4000000000,
+    "original_future_live_max_bytes": 12000000000,
+    "original_future_archive_max_bytes": 14000000000,
+    "original_future_inclusive_max_bytes": 42000000000,
+    "new_binary_storage_consumed": 0,
+    "no_double_counting": "The local guest/runtime must occupy the existing canonical runtime reservation, not an extra local copy in addition to an independently reserved cluster runtime. All OS media, wheel caches, expanded disks, VM metadata/runtime-state files, failures and later copies require explicit reconciliation before provisioning. No original slack is released or spent here.",
+    "unresolved": ["expanded trusted guest image size", "runtime dependencies and installed size", "temporary acquisition/extraction high-water mark", "Hyper-V configuration/runtime-state/smart-paging storage", "bounded input/export media accounting", "future preservation topology for the canonical runtime"]
+  },
+  "next_safe_step": "User runs the supplied read-only preflight from an administrator PowerShell session and returns its output. Insufficient free RAM must be resolved without agent-closing applications, terminating jobs or losing unsaved work. Binary acquisition/provisioning waits for exact runtime/storage reconciliation; authorization itself is already recorded.",
+  "status": "PREPARATION_ONLY_NO_VM_OR_RUNTIME_CREATED",
+  "gate_ready": false,
+  "test_status": "Dedicated syntax/read-only checks only; no claim of artificial guest round-trip or isolation enforcement.",
+  "historical_sources_models_archives_science_and_monitors_unchanged": true,
+  "preparation_accounting": {
+    "prior_cumulative_charge_seconds": 2184.10301460012,
+    "this_turn_conservative_reservation_charge_seconds": 600,
+    "cumulative_charge_seconds": 2784.10301460012,
+    "remaining_of_14400_seconds": 11615.89698539988,
+    "basis": "Full conservative 600-second preparation reservation for this turn's capacity checks, source/runtime metadata reads, dedicated small files and syntax/read-only verification; retained as a charge, not a measured elapsed-time claim.",
+    "real_conversion_seconds_consumed": 0,
+    "new_small_files_within_existing_metadata_reservation": true
+  }
+}

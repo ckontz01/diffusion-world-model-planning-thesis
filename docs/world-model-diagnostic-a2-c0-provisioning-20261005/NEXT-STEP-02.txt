@@ -1,0 +1,22 @@
+Administrator preflight has now succeeded, according to the user's returned
+output. No more authorization is requested for the agreed VM preparation.
+
+In the SAME administrator PowerShell window, execute once:
+
+& 'C:\Users\Chris\thesis-recovery\world-model-diagnostic-preparation-20261004\docs\world-model-diagnostic-a2-c0-provisioning-20261005\Create-Stopped-VM-Shell.ps1' -Create
+
+Return its JSON output. It creates only the new empty stopped local VM named
+WM-DIAG0-A2-C0-PREP-v1 under C:\Users\Chris\thesis-vm\wm-diag0-a2-c0-prep-v1.
+It uses four CPUs / 2 GiB static RAM; no hard disk, OS/runtime download or
+installation, virtual-network connection, checkpoint or VM start occurs.
+It disables automatic starts, saves, checkpoints and integration services on
+only that new VM. Existing VMs and global Hyper-V/Windows settings are left
+unchanged. The script refuses an existing target name/directory.
+
+If it fails, preserve the error, any partial VM/directory and receipts. Do not
+rerun, delete, import an image or start anything. Return the error for diagnosis.
+
+An empty stopped VM is not a usable or accepted conversion facility. Exact
+OS/runtime authentication and installation/storage reconciliation remain next,
+followed by isolation/export enforcement and artificial guest-only tests.
+No real checkpoint loading, conversion or research is authorized by this step.

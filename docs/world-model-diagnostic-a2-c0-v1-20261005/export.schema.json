@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:wm-diag0:a2-c0-v1:export-manifest",
+  "title": "Untrusted converter export manifest, tensor-only profile V1",
+  "type": "object", "additionalProperties": false,
+  "required": ["version", "input_artifacts", "configuration", "aliases", "file_sha256", "tensor_sha256"],
+  "properties": {
+    "version": {"const": 1},
+    "input_artifacts": {"$ref": "contract.schema.json#/$defs/artifacts"},
+    "configuration": {"type": "object", "additionalProperties": {"$ref": "contract.schema.json#/$defs/configValue"}},
+    "aliases": {"type": "object", "maxProperties": 8192, "propertyNames": {"$ref": "contract.schema.json#/$defs/name"}, "additionalProperties": {"$ref": "contract.schema.json#/$defs/name"}},
+    "file_sha256": {"type": "object", "maxProperties": 8, "propertyNames": {"pattern": "^[a-z0-9][a-z0-9_-]{0,63}\\.safetensors$"}, "additionalProperties": {"$ref": "contract.schema.json#/$defs/hash"}},
+    "tensor_sha256": {"type": "object", "maxProperties": 8192, "propertyNames": {"$ref": "contract.schema.json#/$defs/name"}, "additionalProperties": {"$ref": "contract.schema.json#/$defs/hash"}}
+  },
+  "$comment": "References are local documentation only. validator.py never fetches schemas or follows references from input. Manifest values must exactly match the independent trusted contract. Safetensors header contains ONLY the exact expected named tensors, each with dtype, shape and data_offsets; __metadata__ is forbidden by this strict profile."
+}

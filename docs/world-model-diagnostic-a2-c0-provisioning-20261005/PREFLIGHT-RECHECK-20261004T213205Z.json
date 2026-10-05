@@ -1,0 +1,24 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "recorded_utc": "2026-10-04T21:32:05.5819893Z",
+  "client_local_date": "2026-10-05",
+  "request": "Run the supplied Check-HyperV-Host.ps1 command",
+  "execution": "Read-only; succeeded in the existing unelevated agent session",
+  "elevated_administrator_session": false,
+  "available_physical_memory_bytes": 5863940096,
+  "system_volume_free_bytes": 21286400000,
+  "HyperV_inventory_status": "NOT_QUERIED_UNELEVATED",
+  "VM_creation_installations_checkpoint_loads_and_other_mutations": 0,
+  "gate_ready": false,
+  "memory_interpretation": "8 GiB is the assignment's maximum guest memory, not a minimum for preparation. The script tests the conservative 8 GiB guest plus 2 GiB host headroom case. A smaller guest can be considered within the unchanged ceiling after runtime/peak-memory verification; that flag alone is not proof all VM preparation is impossible.",
+  "next_requirement": "User performs the same read-only command in an administrator PowerShell session and returns its output; the elevated Hyper-V GUI does not elevate the agent shell.",
+  "accounting": {
+    "prior_cumulative_charge_seconds": 2784.10301460012,
+    "additional_conservative_charge_seconds": 30,
+    "basis": "Retained conservative charge for one read-only command and compact receipt, including the measured 2.2575254-second command; not an assertion of total elapsed conversation time.",
+    "cumulative_charge_seconds": 2814.10301460012,
+    "remaining_of_14400_seconds": 11585.89698539988,
+    "real_conversion_seconds_consumed": 0,
+    "storage": "Small metadata only within the existing reservation; no runtime/model/archive copies"
+  }
+}

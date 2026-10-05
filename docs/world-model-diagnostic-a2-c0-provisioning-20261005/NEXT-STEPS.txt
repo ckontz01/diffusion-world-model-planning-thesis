@@ -1,0 +1,43 @@
+Clean local VM/runtime preparation is now authorized. Real checkpoint loading,
+conversion and all research execution remain disabled.
+
+FIRST USER-PERFORMED ADMINISTRATOR STEP
+Open Windows PowerShell as administrator. Run the read-only check:
+
+& 'C:\Users\Chris\thesis-recovery\world-model-diagnostic-preparation-20261004\docs\world-model-diagnostic-a2-c0-provisioning-20261005\Check-HyperV-Host.ps1'
+
+Return its JSON output. If Windows blocks script execution, return the exact
+error; do not change execution policy or disable security protections.
+This script only inspects memory, disk capacity, execution-policy values and
+Hyper-V inventory. It does not download, create, start or install anything.
+
+WHY CREATION HAS NOT STARTED
+The present agent/helper is not elevated. The user-opened administrative GUI
+does not elevate the automation helper. The observed available RAM was about
+1.8 GiB, below the 8 GiB guest plus proposed 2 GiB host headroom. Save your work
+and close only applications you choose; the agent will not force-close them.
+
+The earlier announcement of a stopped-VM creation script was premature:
+actual guest/runtime and Hyper-V state-file sizes remain unresolved. This
+package deliberately supplies a read-only preflight, NOT a creation launcher
+or a claim that C0 is ready. Authorizing a runtime build is not a storage-cap
+increase. A compressed cloud image's listing does not prove it fits expanded.
+
+AFTER PREFLIGHT
+Bind an exact signed/hash-authenticated OS source and dependency lock, measure
+or conservatively reserve the complete installation/extraction footprint,
+then prepare the minimal offline guest. No model inputs during OS/runtime
+bootstrap. Any network needed for ordinary OS/runtime acquisition is confined
+to that clean preparation phase, not real-checkpoint conversion. Prefer
+host-acquired authenticated installation media and offline guest installation;
+do not create a virtual network merely for convenience.
+
+Verify 4 CPUs / at most 8 GiB static RAM, no automatic start/save/checkpoints,
+no network or credentials, no host shares/redirection, read-only approved
+inputs, bounded exports, and tested host wall-time/output enforcement.
+Only after artificial guest-only tests pass can the conversion gate be ready.
+A separate explicit conversion-only authorization is still required for real
+checkpoints. This setup is not authorization to launch the campaign.
+
+No Hyper-V global setting, host network, Windows permission, scientific
+environment, original source, old archive, seed or historical result changes.

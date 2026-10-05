@@ -1,0 +1,28 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "kind": "DEDICATED_LOCAL_READ_ONLY_PREFLIGHT_CHECKS",
+  "recorded_utc": "2026-10-04T21:26:01.0927387Z",
+  "client_local_date": "2026-10-05",
+  "checks": {
+    "PowerShell_AST_syntax": "PASS",
+    "AST_no_VM_mutation_install_download_or_policy_change_commands": "PASS",
+    "authorization_plan_JSON_parse": "PASS",
+    "read_only_unelevated_execution": "PASS",
+    "unelevated_HyperV_inventory_queries_skipped": "PASS",
+    "capacity_gate_reports_insufficient_memory": "PASS",
+    "git_diff_check": "PASS"
+  },
+  "observed_execution": {
+    "elevated_administrator_session": false,
+    "free_memory_bytes": 2166558720,
+    "system_volume_free_bytes": 13501190144,
+    "HyperV_inventory_status": "NOT_QUERIED_UNELEVATED",
+    "mutations_performed": 0,
+    "gate_ready": false
+  },
+  "limits_of_tests": "Syntax/read-only interface verification only. Not a test of privileged Hyper-V creation, guest OS installation, isolation, watchdog/quota enforcement, conversion, reconstruction or numerical parity. No original 56-test suite was rerun.",
+  "actual_VM_guest_runtime_state": "No VM/guest/runtime created, acquired or started",
+  "real_checkpoint_or_scientific_operations": 0,
+  "test_accounting": "Included in this turn's full 600-second conservative charge in AUTHORIZATION-AND-PLAN.json. No additional charge or release of reservations.",
+  "last_source_adjustment": "Execution-policy enums formatted as human-readable strings; followed by another syntax/read-only verification."
+}

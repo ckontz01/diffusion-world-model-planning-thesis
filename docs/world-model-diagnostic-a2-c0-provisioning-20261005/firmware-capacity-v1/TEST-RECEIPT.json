@@ -1,0 +1,20 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "package": "diskless-firmware-capacity-v1",
+  "Measure-Diskless-VM.ps1_SHA256": "1EF9A9CD85B20E72DB24E5D6FB9F9A3DBC7B0A978996EC935A4E79B0FC113812",
+  "Stop-Only-Watchdog.ps1_SHA256": "839095A3C895D4BA3864E46034899328AE109717B907DD3E59A16396FF240E12",
+  "CONTRACT.json_SHA256": "37B3E7AFD595DF14B39CDE5A0D39F047D12E53BD924AEA8063FADB3392201F76",
+  "PowerShell_syntax_parser_both_files": "PASS",
+  "default_nonmutating_plan_interfaces": "PASS",
+  "watchdog_source_hash_binding_and_readiness_before_start": "PASS_STATIC_ONLY",
+  "forbidden_new_VM_delete_configuration_disk_mount_network_download_security_commands": "NONE_FOUND_STATIC_SCAN",
+  "time_arithmetic_and_retained_preparation_reservation": "PASS",
+  "privileged_live_start_stop_branch_executed": false,
+  "watchdog_live_operation_verified": false,
+  "real_guest_artificial_roundtrip_boundary_or_model_tests": false,
+  "OS_runtime_or_checkpoint_loaded": false,
+  "existing_56_test_suite_rerun": false,
+  "claims": "Syntax/default/static checks only. User-performed finite diskless observation remains pending. Not a hardened isolation gate or guarantee against Hyper-V service/host failure.",
+  "time_included_in_new_600_second_full_charge": true,
+  "gate_ready": false
+}

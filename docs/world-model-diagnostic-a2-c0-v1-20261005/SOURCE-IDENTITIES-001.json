@@ -1,0 +1,1434 @@
+{
+  "cumulative_preparation_charged_seconds": 8914.10301460012,
+  "current_full_conservative_charge_seconds": 1800,
+  "elapsed_freeze_seconds": 0.09399999998277053,
+  "exact_prior_human_attachment_receipt_authenticated": true,
+  "first_boot_full_charge_retained": true,
+  "gate_ready": false,
+  "measured_process_seconds": {
+    "artificial_failed_001": 1.9593434,
+    "artificial_passed_002": 1.2634194,
+    "supplemental_passed_001": 0.4316376
+  },
+  "members": {
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/.gitattributes": {
+      "bytes": 9,
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/ADMIN-PREFLIGHT-ACCEPTED-AND-SHELL-CONTRACT.json": {
+      "bytes": 4434,
+      "sha256": "2cff7f0930c4ed06f13c281ed716e86267867d387a733625be3fe301a3b1bd44"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/AUTHORIZATION-AND-PLAN.json": {
+      "bytes": 6132,
+      "sha256": "bedf120dd824f5378c6587cc83b67de3de9ca6e0f2495b6d54ea7d382aff2d4f"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/Check-HyperV-Host.ps1": {
+      "bytes": 2594,
+      "sha256": "8685d4293c3a762e3c184fdd593241b95384433e8294112b8f1b939a0116c4c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/Create-Stopped-VM-Shell.ps1": {
+      "bytes": 7655,
+      "sha256": "f3ab71a364fbcd0799229d998f3e76df506ef07c0b97975e3ddb56c6bcd67217"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/NEXT-STEP-02.txt": {
+      "bytes": 1374,
+      "sha256": "4cba68763294e3c3d3f0bdba6960b971c0d006a6c57b04c853c46c59b8783041"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/NEXT-STEPS.txt": {
+      "bytes": 2553,
+      "sha256": "f285b2551bd1b5f803cf0f9bcf5cb129e1f4d5d5e69ace7e19dfa5d88a2ad14f"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/PREFLIGHT-RECHECK-20261004T213205Z.json": {
+      "bytes": 1659,
+      "sha256": "e454fed778f912b6c0ff39e54774d5fc48c6007f13f3aad1af4ac99f0d8ab79f"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/PREFLIGHT-TEST-RECEIPT.json": {
+      "bytes": 1516,
+      "sha256": "96c4cbcd55fe6d981c03410f29af95d62d8e249a7c7f888ee2009907b90ae730"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/VM-SHELL-SCRIPT-TEST-RECEIPT.json": {
+      "bytes": 1333,
+      "sha256": "ce1771b9f24a482be1e70e202bc68faba82a73a4ec6a497549a82a1a9c112fda"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/away-followup-v1/AUTHORIZATION-AND-STATUS.json": {
+      "bytes": 3379,
+      "sha256": "83aecadbddedd3e28172064cedce9d416cf05a03e21e2af1839e29800bde5985"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/firmware-capacity-v1/CONTRACT.json": {
+      "bytes": 5150,
+      "sha256": "37b3e7afd595df14b39cde5a0d39f047d12e53bd924aea8063fadb3392201f76"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/firmware-capacity-v1/Measure-Diskless-VM.ps1": {
+      "bytes": 9304,
+      "sha256": "1ef9a9cd85b20e72db24e5d6fb9f9a3dbc7b0a978996ec935a4e79b0fc113812"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/firmware-capacity-v1/NEXT-STEP.txt": {
+      "bytes": 1061,
+      "sha256": "bd9a5ab1f6dc798036a0c25661f42ca1812ad5973fc38c56987a486f5d9eeaa9"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/firmware-capacity-v1/Stop-Only-Watchdog.ps1": {
+      "bytes": 1961,
+      "sha256": "839095a3c895d4ba3864e46034899328ae109717b907dd3e59a16396ff240e12"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/firmware-capacity-v1/TEST-RECEIPT.json": {
+      "bytes": 1261,
+      "sha256": "276d3cc867ae4d197d6753f840b282892e6f2a9f4ac45e2fbe10d17a195bf532"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/Build-Seed-ISO.ps1": {
+      "bytes": 3428,
+      "sha256": "9a8ac9cecefaab24ea9917b3a3e1e582773c3ca3cb8124cac8152ae06e75e752"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/CONTRACT.json": {
+      "bytes": 4581,
+      "sha256": "507248d738577a4c7e8010699aa870bce6c640ee5c62d84934f5f6f050c73798"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/PREPARATION-RECEIPT.json": {
+      "bytes": 3255,
+      "sha256": "44128b5c47a4acc43e5ed26985801336a673710764195dfb2f7cce8ea82a242e"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/Stop-Offline-Boot.ps1": {
+      "bytes": 3073,
+      "sha256": "36a9915de6a167b9f58f205272a37fb58bba9189fe920da60b83c55f6972731c"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/Test-Offline-Guest-Boot.ps1": {
+      "bytes": 14555,
+      "sha256": "fc36792d6bd544d339b6c48f34482c6e3832e68a261021b785c6985ddb60cadf"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/guest_report.py": {
+      "bytes": 2534,
+      "sha256": "9c3003c03766e11d6b0ca9c8c6d5c60afcd0cec910215bfb32620b6fb9cbc4e8"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/test_report_and_iso.py": {
+      "bytes": 4732,
+      "sha256": "d5e633ecc7167dacb6aaa27491def9aac0642809cc040f7455803c28af2a61ac"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/guest-boot-v1/validate_report.py": {
+      "bytes": 4206,
+      "sha256": "22ad4afcee83aa2edc83d63fef7d180390d8c85ab2805a7e07bb07cd6dc29109"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-discovery-v1/REPAIR-READBACK-AND-OS-CAPABILITY.json": {
+      "bytes": 6617,
+      "sha256": "d67b3cc775ed8942cc874b8de6cbb437f735ff511f2a519fa82f07e96b84bd43"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-discovery-v1/probe_qcow_header_v1.py": {
+      "bytes": 1825,
+      "sha256": "96625257e0e9f2b6383f96c975c03f1fcaff56427bd7d3acc5045ce1a39981ee"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-discovery-v1/probe_tar_metadata_r2.py": {
+      "bytes": 2154,
+      "sha256": "d281732bd5f790af8b2ade51dab39a817a4ce35da44ef078be4e66f4e07d80bc"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-discovery-v1/probe_vhd_header.py": {
+      "bytes": 3748,
+      "sha256": "81057473128e9d7b67093ba1e8b744381c4aa7ebcad2f2630a8e79b74dceec8b"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-discovery-v1/probe_vhd_header_r1.py": {
+      "bytes": 3128,
+      "sha256": "0a3f9f76cd3451ac5bc119f1cac25b5da9cc82758c74001ad4040f09b350166a"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/ATTACHMENT-TEST-RECEIPT.json": {
+      "bytes": 688,
+      "sha256": "8c3d44e78ffdf03aaec0a32122b757f1dbd9ec9ed353f0ab4a81aab1ee50a2a1"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/Acquire-Authenticated-OS.ps1": {
+      "bytes": 4170,
+      "sha256": "25b5ac5560493df3b1082c44a0b70429bd5c00577b09babf877543d0bc5521cf"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/Attach-Stopped-OS-Disk.ps1": {
+      "bytes": 6526,
+      "sha256": "000997feaca61945ad0aed6a9678d8f8b4857841b1a8c0cd74503dc8a6c2ca50"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/CONTRACT.json": {
+      "bytes": 3181,
+      "sha256": "ef211e5a8210b6be67f5a01a79dc3c29bfad55d0f3900e20ac016d53b559da54"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/NEXT-STEP.txt": {
+      "bytes": 792,
+      "sha256": "f6740fd6caacc83c307ac050aba2fb4fa108830dec9befc3d780a840b131fdda"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/RESULTS.json": {
+      "bytes": 2353,
+      "sha256": "f780d13eb7e409352f6654e10277f8e079ead83e69733f1c65cf8d9611f5d56e"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/STOPPED-ATTACHMENT-CONTRACT.json": {
+      "bytes": 2723,
+      "sha256": "c92cba9ed2ffb90e03f0dfff4facd5dab9b09fad25e3bef702cdc544bc084b8d"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-image-v1/convert_OS_only_v1.py": {
+      "bytes": 3996,
+      "sha256": "d69e720f348fc862dda529e86ffd568b26d02884226eb629fdfbc1177453a82f"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/Acquire-OS-Metadata.ps1": {
+      "bytes": 3334,
+      "sha256": "d707a7c186c084ea3f5c9c112188c2495f5dd1ee4ca0c659cdb2c8c3b242f1dc"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/Acquire-OS-Tools.ps1": {
+      "bytes": 3368,
+      "sha256": "2f60f2edae1d73edb58363476492e3763df93791b2f47d2a0f8ef1fa34aa6523"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/CONTRACT.json": {
+      "bytes": 4571,
+      "sha256": "eaf29d1fe510396480fefa8884fb987e15bf86402c90e4888d152d6ec944294d"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/RESULTS.json": {
+      "bytes": 2807,
+      "sha256": "dcd5bf2fbe90c6b5bb787f9ff8d092a5df2083244781970b66e27a8ce1259cef"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/authenticate_cached_packages.py": {
+      "bytes": 3107,
+      "sha256": "5eaeafe15884d33c0bb124c27855b9ae9abfddab813eaeb519465ab435661308"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/authenticate_cached_packages_r1.py": {
+      "bytes": 3032,
+      "sha256": "c1ac48bb33eb6bdde59f8cf2d61bb9df21a5593b6cfb95e34287b8c81e7b325a"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/extract_selected_tool_v1.py": {
+      "bytes": 2954,
+      "sha256": "efbeac42692f361e16329adfe812be8c21e3566f70d6dffabbb3434c5656a1d3"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/test_offline_tool_nonzero_v2.py": {
+      "bytes": 2324,
+      "sha256": "8ae53f9ccbdc7df70c1e563ff6fe2d39fe1eac0a23f26ebc153848bf97a35b37"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/os-tools-v1/test_offline_tool_v1.py": {
+      "bytes": 2254,
+      "sha256": "6aabdfb2ce8c53e5bcc05d41e45e9ca47825fd99a32c782725ca721a8e38651e"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/repair-r1/CONTRACT.json": {
+      "bytes": 2796,
+      "sha256": "af668e698e011eef9ebe7e3edeb837e4ee9147b8f312f36a2693a8010eaf20ce"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/repair-r1/NEXT-STEP.txt": {
+      "bytes": 1173,
+      "sha256": "3892cfd7008c2c30c1daab60452c0cba4fb2d622384c0e3818d83e50732e0194"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/repair-r1/Repair-Stopped-VM-Shell.ps1": {
+      "bytes": 7355,
+      "sha256": "1603ba51a04658aceeaa24e5010b9cb4ca88ec2f7a89d69108f1cda6366e9b20"
+    },
+    "docs/world-model-diagnostic-a2-c0-provisioning-20261005/repair-r1/TEST-RECEIPT.json": {
+      "bytes": 1153,
+      "sha256": "e97fc36bcc75a2982d5564010165ad9a50b5215df2aff2c035183c262bb51834"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/.gitattributes": {
+      "bytes": 9,
+      "sha256": "48747480eddba024928d03be9bf83dc579e5515768647507a767e8187a85c9ab"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/AUTHORIZATION-AND-RESERVATION.json": {
+      "bytes": 2034,
+      "sha256": "b280c3ee42641feece18956292ad80e885aa0e891ec8b28e9aa671aeb085fe85"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/FREEZE-FAILURE-001.json": {
+      "bytes": 1292,
+      "sha256": "f0499b77e15220bc85c75dcc113937db51bc672d18ae555c9bfc21426e86ebb0"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/HUMAN-OS-ATTACHMENT-RECEIPT.json": {
+      "bytes": 711,
+      "sha256": "f283b2144ca29310714638c657c41e54ebfef5febede2a66f2a2ed02198bfc86"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/README.md": {
+      "bytes": 9811,
+      "sha256": "3fa2546bbee985f5f46c20ae9cba5652dee2cb0bd524adb668ac001e47c823c5"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/REAL-STATE-BINDING.json": {
+      "bytes": 4325,
+      "sha256": "e5af8afe9c97e07ea3828a3147ace46dfdce0152eaeed37cf52c4ae7c18ceeae"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/bf16_nan_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "bbbe76a988577285d43192247faaddecb4170c5666447fffcadbdb600ab10a91"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/bf16_nan_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "71b3993eafea2f384e28d12288339f7c03194b97fb1a825dad68b5c1813eb816"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/bf16_nan_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "bbb97fd3486615996f8a69f90e54b28ab2b6479f662fae6eff0f7970f52a6c5c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/boolean_offset/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/boolean_offset/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "6ef58196169283598e6ceea9cfce25fc11ed5de3586817f047d3af539da7b175"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/boolean_offset/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "9799405b64bfa09900c07b6cc21763adcfe272293157baef6384737e3ec18738"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/changed_bytes_self_consistent_converter_manifest/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/changed_bytes_self_consistent_converter_manifest/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "2f646475f8fc495de73c564af4e60e20635423ae1931233f16dc019ea3d81d15"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/changed_bytes_self_consistent_converter_manifest/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "f38e3905bcc50865c9345f13f5168fd428addee3cf814a4898f56dbef0ae856c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/config_boolean_is_not_integer/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/config_boolean_is_not_integer/export/manifest.json": {
+      "bytes": 1662,
+      "sha256": "9a3a74a91560b13a53cec81f24b05964370d1f1974a996f19e880377c41c0289"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/config_boolean_is_not_integer/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/configuration_signed_zero_preserved/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/configuration_signed_zero_preserved/export/manifest.json": {
+      "bytes": 1658,
+      "sha256": "d2a0a7d4e4fa445ff65c2cc14329bd9c159b1864e4c752ac23b31c9b9570ffc9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/configuration_signed_zero_preserved/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/duplicate_manifest_key/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/duplicate_manifest_key/export/manifest.json": {
+      "bytes": 1671,
+      "sha256": "400ce1548bd5e956210b4d2fb7db2b87482ce368ac62d43d432e8feefb066648"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/duplicate_manifest_key/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/duplicate_tensor_key/contract.json": {
+      "bytes": 3383,
+      "sha256": "2e0d5c66ae75ed0e09242d20cabe8f9eeb1e162b7540f7c6f4286accfaed793a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/duplicate_tensor_key/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "bd6fbc5ae7f84a61d50f885f0b06f862bc75a143ff4a724550d585ebfd3d1b88"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/duplicate_tensor_key/export/model.safetensors": {
+      "bytes": 1118,
+      "sha256": "756462915a441917df4709cb5ab332681ab0ff60a46d92bc79b63c785ad1eb10"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/extra_executable_manifest_field/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/extra_executable_manifest_field/export/manifest.json": {
+      "bytes": 1681,
+      "sha256": "73abde75aa63ac5c1c7dbf5197664a24e84c1c4bb0ef8c0929ddd7d32afe21f7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/extra_executable_manifest_field/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/extra_tensor/contract.json": {
+      "bytes": 3383,
+      "sha256": "2e0d5c66ae75ed0e09242d20cabe8f9eeb1e162b7540f7c6f4286accfaed793a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/extra_tensor/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "9db2bdbd9450e4c1d5b3c2b186c14f5d9291354db25b9cd58c0f7edafe02622b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/extra_tensor/export/model.safetensors": {
+      "bytes": 1118,
+      "sha256": "76ff9e2ae82fb55eddf081d1148368551f74862439c529a800a028883ed406d9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/f16_infinity_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "fd861c802f177e5de24eb853e2e3fd5bfa85ec1a16b8ce8a07677617d7b44333"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/f16_infinity_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "4536c8c0b1ba5c3e850b999f8f01601b67a98a434adfc448d8cc782debdaaf21"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/f16_infinity_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "7126bceb77dd95e3c806bee58d13917d0676ee5a2627aa1753592bfb92e13b26"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/f64_nan_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "f4623f956c737cdd69f31cc41476b03464a414238daf3a2bba4bdd8946a4d367"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/f64_nan_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "56dc6c7088e4efc2c8e821e611502b1366a07d81611f40b4a71540497ca1ee95"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/f64_nan_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "09ed4090ef23499bc5d61442e7dce09791fb9ece07bb0d6087b12026065ff4f1"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/hole_or_trailing_payload/contract.json": {
+      "bytes": 3383,
+      "sha256": "302a1d8c05e76f344130500b06001be327133fc0d0168bbba9a5fd8431da64db"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/hole_or_trailing_payload/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "cbc2061f1393c6b5bbf8eb1104a6f607b9fc5713ff0445efa5e01895101d3709"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/hole_or_trailing_payload/export/model.safetensors": {
+      "bytes": 1063,
+      "sha256": "ce8dac70fd1251b1c017e9cf41f05d10f179daa74f002b48115a15ff4e3d7bbd"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/huge_claimed_header_no_allocation/contract.json": {
+      "bytes": 3381,
+      "sha256": "bc8dd8f71b5763a81b060f158baa2ab5d33a6b59ecc16e1eb6ec4578d4e17441"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/huge_claimed_header_no_allocation/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/huge_claimed_header_no_allocation/export/model.safetensors": {
+      "bytes": 10,
+      "sha256": "33366e2e921fb2f92c6a65a06e7e79edfbf3fd09f0673c689a517eb7469520d6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/huge_offset/contract.json": {
+      "bytes": 3383,
+      "sha256": "07a398b1bbd33fbff835a17781faa7a1f1d3c790b37b3f8a1501fe6fb8d75c2f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/huge_offset/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "9a15965b7ee0b120a5d35b413d9f5c4a45a19584bccc59fa61347e381e06ba6b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/huge_offset/export/model.safetensors": {
+      "bytes": 1094,
+      "sha256": "5e52fc7536f406a19bdc0739d7b452f6cde04179b778063baef8877b1c68fede"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/hydra_import_instruction/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/hydra_import_instruction/export/manifest.json": {
+      "bytes": 1682,
+      "sha256": "4dc473997f26c0f4f0105bb3383813db363ded56cbacc49df2609db55ca221cd"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/hydra_import_instruction/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/invalid_boolean_bits/contract.json": {
+      "bytes": 3321,
+      "sha256": "e3a5a873ff4b058c9e0c3fb2e9c23dd2053f24559ed8a84521f70032914b0a78"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/invalid_boolean_bits/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "0aeae524fbffb1d8c8979aba7b257c5b8a989513b850fbc4c87bd30041bbad43"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/invalid_boolean_bits/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "4dedb1b3c647c11e64334c0a1b63f388260131838ac15a5177fea1ce8dec72e9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/invalid_shared_alias/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/invalid_shared_alias/export/manifest.json": {
+      "bytes": 1650,
+      "sha256": "7f5cfb4419d99ed0d722313610a96368696b336a4d7071175e98567988e304b1"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/invalid_shared_alias/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/json_depth_limit/contract.json": {
+      "bytes": 3382,
+      "sha256": "86efe2a7ac869e39e9c27989a2d8bb08ce1526231d37363a0ed229d38b906395"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/json_depth_limit/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "da8790e971463a03fcd6579bc2a5b62faffa143fbe2dc9fe9091eb8a200b4e06"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/json_depth_limit/export/model.safetensors": {
+      "bytes": 150,
+      "sha256": "fc4d56b8e131228bf28b62c554f84b38eaeb2a3121fe04518f5f46a818808370"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/lost_unregistered_mask/contract.json": {
+      "bytes": 3382,
+      "sha256": "246f4f0c0d31d99979344c51e009a5b072b654f56d8aefb50495c30d6d14eae6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/lost_unregistered_mask/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "400da4c8c254c440794b122f1370d621e884b040fcecc2b70a23120066b31cdf"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/lost_unregistered_mask/export/model.safetensors": {
+      "bytes": 982,
+      "sha256": "5468e0c349758f88aebf829d37901f9f24571354916cb2888814dc28c84f9480"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/missing_nonpersistent_buffer/contract.json": {
+      "bytes": 3382,
+      "sha256": "246f4f0c0d31d99979344c51e009a5b072b654f56d8aefb50495c30d6d14eae6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/missing_nonpersistent_buffer/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "d8b544e9054c7764653e42095e57d31c4845ec1acde2f8ed0e022210a376380c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/missing_nonpersistent_buffer/export/model.safetensors": {
+      "bytes": 982,
+      "sha256": "a54f83b7133019a21cfd41a7325c89e7438cb0aa896304532cd08531835717a1"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/missing_parameter/contract.json": {
+      "bytes": 3382,
+      "sha256": "620dd66607ecd41098e8ea0d6e2b6d6847a5cfd7aa349aed840706b8a5ae42af"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/missing_parameter/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "de20a7b0796e43397d7fb4c70080b0715b2c472ba9ad8a46effea95f7fe37682"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/missing_parameter/export/model.safetensors": {
+      "bytes": 990,
+      "sha256": "8c7b0cab0530293db0af61e574668d892f5d005232bcd4ee5c2d2fde8ada1a19"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/nan_mask_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "4e53893ab8089fc039e813137c9ba626b718c8fada571c60af7542a0659b419f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/nan_mask_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "36c34e8035a2eb43db35e63e51e1ee32fe0427ec299144693875ed83e2b4b976"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/nan_mask_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "bfdb70e503b109b155a0cce3fbafb009fe1381147a2f698e0c0e4adde82a4585"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/negative_infinity_weight_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "7a845f1864d9caf561616156973320cc8ab64eb5772c2807f6927a9d9bad35ea"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/negative_infinity_weight_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "48aff07e5b310ca55b54fe0431a8ade4694abc9bbc1bc0dbec627ae8c943c7ca"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/negative_infinity_weight_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "14d83339ba2c8b642f74166683b277503cc46485e1cbc038d3b2f9b8271a58f0"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/negative_offset/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/negative_offset/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "2cf2d6d2a5f3e507aa5151e836909639f8274aabddfe0ee5a838a44f91af367d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/negative_offset/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "e862ee1294f0b0d5e789f1268dbc3b11626e9dbc489f8b03f6b0ab883032b98c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/object_dtype/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/object_dtype/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "7b6a8f225481ad6d98331d25437c36c5587863fb2b00814033f8ecb5719127a9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/object_dtype/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "650dc6b58d643401411b9b84b7f939f23fb4fcf5fb5c41413a73b32856885649"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/overlapping_offsets/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/overlapping_offsets/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "d7d7117f88e0b2c6060ad86e6ea85f180ebc536560e61f27c7b457f1aaae5f4f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/overlapping_offsets/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "390865ead0c7d46898d6eb69e539d0d1f912a34bb557568e5a263d5c6b3bb62e"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/oversized_dimension/contract.json": {
+      "bytes": 3383,
+      "sha256": "540222ba506704362b9913154c60582defdbbd3f0d3974fce8b137ce2866dba3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/oversized_dimension/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "4850708578720fd6889454854a9e7a625d365bce626a256a2bfa55996dbffad3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/oversized_dimension/export/model.safetensors": {
+      "bytes": 1078,
+      "sha256": "74dd8e684d72c984ee63bc12ad440842f7128d4d150482007da35ec41cf0e77e"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/path_traversal_contract_member/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/path_traversal_contract_member/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/path_traversal_contract_member/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/positive_infinity_mask_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "4e53893ab8089fc039e813137c9ba626b718c8fada571c60af7542a0659b419f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/positive_infinity_mask_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "77a25ec3cbc8773cba219e1c249582e9a09db61a057201270541505c490f4525"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/positive_infinity_mask_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "1b9255a1baeecea28cac8ffa135514e48587f529daa044d227bbf1f6b854d22d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/rank_limit/contract.json": {
+      "bytes": 3383,
+      "sha256": "540222ba506704362b9913154c60582defdbbd3f0d3974fce8b137ce2866dba3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/rank_limit/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "2760db9ef8ccad363b99e4ad89aaa32b8af0494b7c7413e7b8970cb8833dc72c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/rank_limit/export/model.safetensors": {
+      "bytes": 1078,
+      "sha256": "c6974f138e89231e5f865c61c678c42fed5374190826e89647f6f716376307ef"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/real_UNBOUND_contract_fails_closed/contract.json": {
+      "bytes": 3385,
+      "sha256": "67f6e01aea954f801034e03f5187226a70d0b5d84c54de528e72c912c4f5fcbc"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/real_UNBOUND_contract_fails_closed/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/real_UNBOUND_contract_fails_closed/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/tensor_count_limit/contract.json": {
+      "bytes": 3382,
+      "sha256": "055e8b56c93af8d98d4ba3c3d0dd8ae32525ceb2c1d8a4f6f45e1052d53fe91d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/tensor_count_limit/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/tensor_count_limit/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/truncated_payload/contract.json": {
+      "bytes": 3383,
+      "sha256": "f0576ac00733d439604db7d6320ce21718a7d0de0eaea3fdc3a06a973aec8cf2"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/truncated_payload/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "b86cb02eb10d6e51625aad788bfc6f5b3f20e6c52dbeb5d23a500685c2b9a3d5"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/truncated_payload/export/model.safetensors": {
+      "bytes": 1061,
+      "sha256": "25dd3fbdbd627230295c524c1f5a83ec2a13328b79f0d0579329c4815b5b5237"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/unexpected_header_metadata/contract.json": {
+      "bytes": 3383,
+      "sha256": "07a398b1bbd33fbff835a17781faa7a1f1d3c790b37b3f8a1501fe6fb8d75c2f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/unexpected_header_metadata/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "b7381266d765973905a648e0cc166d5bd78e35a7b68cdc74f825bb30e4e5cba2"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/unexpected_header_metadata/export/model.safetensors": {
+      "bytes": 1094,
+      "sha256": "cdc3a6f3b3201ea90bf01e35e01f1be1250267b28de7e367510f2dbdcaf7a56a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/unimplemented_subbyte_dtype/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/unimplemented_subbyte_dtype/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "1a972f7784182618c62e9fb09b86a5304c4fbb5cf263b916523eb0c02e298c5f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/unimplemented_subbyte_dtype/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "a4f24436206e54e761a6517a36634dc8f3e1b484df6ad47fb6b4e1194f9275ac"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/valid_exact_roundtrip/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/valid_exact_roundtrip/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/valid_exact_roundtrip/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_dtype/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_dtype/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "3fc8f62121e1f949f58f9361881e5c6fef4bf6265b7cdf477944ed4fa8dfd810"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_dtype/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "9def7279fd2386378a73df6a9e12ca4e517f8410294072416a386107242cce70"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_original_artifact_identity/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_original_artifact_identity/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "11a910c27f00d6c2223028ca3dbbeb08a98af2d589a3d2c952f86fcd4f11109f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_original_artifact_identity/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_shape/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_shape/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "9a7b7a216c797ded966f70516769c2362abfe2081a4abb043e2aee44fd595886"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_shape/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "3480fbfd358667cfdb2bc26e090a310ce0973b7616d3f65f5be4dcbfe8c66049"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_tensor_byte_count/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_tensor_byte_count/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "3f26bc4a863a6b7681fad1ecc81132a5d477b9fdab3cff7a03afb7060785f306"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/wrong_tensor_byte_count/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "ab6986e91349386b7511954f593d23bfea7f3ae1919db22131c778bef6d6f42a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/zero_then_oversized_dimension/contract.json": {
+      "bytes": 3383,
+      "sha256": "540222ba506704362b9913154c60582defdbbd3f0d3974fce8b137ce2866dba3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/zero_then_oversized_dimension/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "bb947a4f9e3379dc5368651ae8f8890eb53f86fae8c8ce8a182065bb6e6accb9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-001/zero_then_oversized_dimension/export/model.safetensors": {
+      "bytes": 1078,
+      "sha256": "523223af277e38a05763e67613d2fbbf0e720cc770fa959624d20591a479e507"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/TEST-RECEIPT.json": {
+      "bytes": 6708,
+      "sha256": "f8e446f371c3c7a23e85a1475c8268551c44d6d887015039410d5e99dc803273"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/alias_conflicts_with_stored_tensor/contract.json": {
+      "bytes": 3366,
+      "sha256": "d9cb35f7434a0bc040a9337b8c390d785f3a4ab55894f96df11e7292a341cd13"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/alias_conflicts_with_stored_tensor/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/alias_conflicts_with_stored_tensor/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/bf16_nan_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "bbbe76a988577285d43192247faaddecb4170c5666447fffcadbdb600ab10a91"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/bf16_nan_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "71b3993eafea2f384e28d12288339f7c03194b97fb1a825dad68b5c1813eb816"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/bf16_nan_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "bbb97fd3486615996f8a69f90e54b28ab2b6479f662fae6eff0f7970f52a6c5c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/boolean_offset/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/boolean_offset/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "6ef58196169283598e6ceea9cfce25fc11ed5de3586817f047d3af539da7b175"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/boolean_offset/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "9799405b64bfa09900c07b6cc21763adcfe272293157baef6384737e3ec18738"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/bounded_dimension_product_overflow/contract.json": {
+      "bytes": 3405,
+      "sha256": "34ea46559880009a139b4970fef1b7d698444e6c84f8c123cb11a55e8aa0b2d6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/bounded_dimension_product_overflow/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/bounded_dimension_product_overflow/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/changed_bytes_self_consistent_converter_manifest/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/changed_bytes_self_consistent_converter_manifest/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "2f646475f8fc495de73c564af4e60e20635423ae1931233f16dc019ea3d81d15"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/changed_bytes_self_consistent_converter_manifest/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "f38e3905bcc50865c9345f13f5168fd428addee3cf814a4898f56dbef0ae856c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/config_boolean_is_not_integer/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/config_boolean_is_not_integer/export/manifest.json": {
+      "bytes": 1662,
+      "sha256": "9a3a74a91560b13a53cec81f24b05964370d1f1974a996f19e880377c41c0289"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/config_boolean_is_not_integer/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/configuration_signed_zero_preserved/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/configuration_signed_zero_preserved/export/manifest.json": {
+      "bytes": 1658,
+      "sha256": "d2a0a7d4e4fa445ff65c2cc14329bd9c159b1864e4c752ac23b31c9b9570ffc9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/configuration_signed_zero_preserved/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/deadline_rejection/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/deadline_rejection/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/deadline_rejection/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/duplicate_manifest_key/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/duplicate_manifest_key/export/manifest.json": {
+      "bytes": 1671,
+      "sha256": "400ce1548bd5e956210b4d2fb7db2b87482ce368ac62d43d432e8feefb066648"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/duplicate_manifest_key/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/duplicate_tensor_key/contract.json": {
+      "bytes": 3383,
+      "sha256": "2e0d5c66ae75ed0e09242d20cabe8f9eeb1e162b7540f7c6f4286accfaed793a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/duplicate_tensor_key/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "bd6fbc5ae7f84a61d50f885f0b06f862bc75a143ff4a724550d585ebfd3d1b88"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/duplicate_tensor_key/export/model.safetensors": {
+      "bytes": 1118,
+      "sha256": "756462915a441917df4709cb5ab332681ab0ff60a46d92bc79b63c785ad1eb10"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/extra_executable_manifest_field/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/extra_executable_manifest_field/export/manifest.json": {
+      "bytes": 1681,
+      "sha256": "73abde75aa63ac5c1c7dbf5197664a24e84c1c4bb0ef8c0929ddd7d32afe21f7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/extra_executable_manifest_field/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/extra_tensor/contract.json": {
+      "bytes": 3383,
+      "sha256": "2e0d5c66ae75ed0e09242d20cabe8f9eeb1e162b7540f7c6f4286accfaed793a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/extra_tensor/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "9db2bdbd9450e4c1d5b3c2b186c14f5d9291354db25b9cd58c0f7edafe02622b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/extra_tensor/export/model.safetensors": {
+      "bytes": 1118,
+      "sha256": "76ff9e2ae82fb55eddf081d1148368551f74862439c529a800a028883ed406d9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/f16_infinity_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "fd861c802f177e5de24eb853e2e3fd5bfa85ec1a16b8ce8a07677617d7b44333"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/f16_infinity_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "4536c8c0b1ba5c3e850b999f8f01601b67a98a434adfc448d8cc782debdaaf21"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/f16_infinity_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "7126bceb77dd95e3c806bee58d13917d0676ee5a2627aa1753592bfb92e13b26"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/f64_nan_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "f4623f956c737cdd69f31cc41476b03464a414238daf3a2bba4bdd8946a4d367"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/f64_nan_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "56dc6c7088e4efc2c8e821e611502b1366a07d81611f40b4a71540497ca1ee95"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/f64_nan_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "09ed4090ef23499bc5d61442e7dce09791fb9ece07bb0d6087b12026065ff4f1"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hardlink_rejected/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hardlink_rejected/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hardlink_rejected/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hardlink_rejected/harmless-extra-link": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hole_or_trailing_payload/contract.json": {
+      "bytes": 3383,
+      "sha256": "302a1d8c05e76f344130500b06001be327133fc0d0168bbba9a5fd8431da64db"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hole_or_trailing_payload/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "cbc2061f1393c6b5bbf8eb1104a6f607b9fc5713ff0445efa5e01895101d3709"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hole_or_trailing_payload/export/model.safetensors": {
+      "bytes": 1063,
+      "sha256": "ce8dac70fd1251b1c017e9cf41f05d10f179daa74f002b48115a15ff4e3d7bbd"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/huge_claimed_header_no_allocation/contract.json": {
+      "bytes": 3381,
+      "sha256": "bc8dd8f71b5763a81b060f158baa2ab5d33a6b59ecc16e1eb6ec4578d4e17441"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/huge_claimed_header_no_allocation/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/huge_claimed_header_no_allocation/export/model.safetensors": {
+      "bytes": 10,
+      "sha256": "33366e2e921fb2f92c6a65a06e7e79edfbf3fd09f0673c689a517eb7469520d6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/huge_offset/contract.json": {
+      "bytes": 3383,
+      "sha256": "07a398b1bbd33fbff835a17781faa7a1f1d3c790b37b3f8a1501fe6fb8d75c2f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/huge_offset/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "9a15965b7ee0b120a5d35b413d9f5c4a45a19584bccc59fa61347e381e06ba6b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/huge_offset/export/model.safetensors": {
+      "bytes": 1094,
+      "sha256": "5e52fc7536f406a19bdc0739d7b452f6cde04179b778063baef8877b1c68fede"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hydra_import_instruction/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hydra_import_instruction/export/manifest.json": {
+      "bytes": 1682,
+      "sha256": "4dc473997f26c0f4f0105bb3383813db363ded56cbacc49df2609db55ca221cd"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/hydra_import_instruction/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/independent_cli_valid/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/independent_cli_valid/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/independent_cli_valid/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/invalid_boolean_bits/contract.json": {
+      "bytes": 3321,
+      "sha256": "e3a5a873ff4b058c9e0c3fb2e9c23dd2053f24559ed8a84521f70032914b0a78"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/invalid_boolean_bits/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "0aeae524fbffb1d8c8979aba7b257c5b8a989513b850fbc4c87bd30041bbad43"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/invalid_boolean_bits/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "4dedb1b3c647c11e64334c0a1b63f388260131838ac15a5177fea1ce8dec72e9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/invalid_shared_alias/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/invalid_shared_alias/export/manifest.json": {
+      "bytes": 1650,
+      "sha256": "7f5cfb4419d99ed0d722313610a96368696b336a4d7071175e98567988e304b1"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/invalid_shared_alias/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/json_depth_limit/contract.json": {
+      "bytes": 3382,
+      "sha256": "86efe2a7ac869e39e9c27989a2d8bb08ce1526231d37363a0ed229d38b906395"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/json_depth_limit/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "da8790e971463a03fcd6579bc2a5b62faffa143fbe2dc9fe9091eb8a200b4e06"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/json_depth_limit/export/model.safetensors": {
+      "bytes": 150,
+      "sha256": "fc4d56b8e131228bf28b62c554f84b38eaeb2a3121fe04518f5f46a818808370"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/lost_unregistered_mask/contract.json": {
+      "bytes": 3382,
+      "sha256": "246f4f0c0d31d99979344c51e009a5b072b654f56d8aefb50495c30d6d14eae6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/lost_unregistered_mask/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "400da4c8c254c440794b122f1370d621e884b040fcecc2b70a23120066b31cdf"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/lost_unregistered_mask/export/model.safetensors": {
+      "bytes": 982,
+      "sha256": "5468e0c349758f88aebf829d37901f9f24571354916cb2888814dc28c84f9480"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/missing_nonpersistent_buffer/contract.json": {
+      "bytes": 3382,
+      "sha256": "246f4f0c0d31d99979344c51e009a5b072b654f56d8aefb50495c30d6d14eae6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/missing_nonpersistent_buffer/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "d8b544e9054c7764653e42095e57d31c4845ec1acde2f8ed0e022210a376380c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/missing_nonpersistent_buffer/export/model.safetensors": {
+      "bytes": 982,
+      "sha256": "a54f83b7133019a21cfd41a7325c89e7438cb0aa896304532cd08531835717a1"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/missing_parameter/contract.json": {
+      "bytes": 3382,
+      "sha256": "620dd66607ecd41098e8ea0d6e2b6d6847a5cfd7aa349aed840706b8a5ae42af"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/missing_parameter/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "de20a7b0796e43397d7fb4c70080b0715b2c472ba9ad8a46effea95f7fe37682"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/missing_parameter/export/model.safetensors": {
+      "bytes": 990,
+      "sha256": "8c7b0cab0530293db0af61e574668d892f5d005232bcd4ee5c2d2fde8ada1a19"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/nan_mask_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "4e53893ab8089fc039e813137c9ba626b718c8fada571c60af7542a0659b419f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/nan_mask_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "36c34e8035a2eb43db35e63e51e1ee32fe0427ec299144693875ed83e2b4b976"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/nan_mask_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "bfdb70e503b109b155a0cce3fbafb009fe1381147a2f698e0c0e4adde82a4585"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/negative_infinity_weight_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "7a845f1864d9caf561616156973320cc8ab64eb5772c2807f6927a9d9bad35ea"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/negative_infinity_weight_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "48aff07e5b310ca55b54fe0431a8ade4694abc9bbc1bc0dbec627ae8c943c7ca"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/negative_infinity_weight_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "14d83339ba2c8b642f74166683b277503cc46485e1cbc038d3b2f9b8271a58f0"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/negative_offset/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/negative_offset/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "2cf2d6d2a5f3e507aa5151e836909639f8274aabddfe0ee5a838a44f91af367d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/negative_offset/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "e862ee1294f0b0d5e789f1268dbc3b11626e9dbc489f8b03f6b0ab883032b98c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/object_dtype/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/object_dtype/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "7b6a8f225481ad6d98331d25437c36c5587863fb2b00814033f8ecb5719127a9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/object_dtype/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "650dc6b58d643401411b9b84b7f939f23fb4fcf5fb5c41413a73b32856885649"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/overlapping_offsets/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/overlapping_offsets/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "d7d7117f88e0b2c6060ad86e6ea85f180ebc536560e61f27c7b457f1aaae5f4f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/overlapping_offsets/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "390865ead0c7d46898d6eb69e539d0d1f912a34bb557568e5a263d5c6b3bb62e"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/oversized_dimension/contract.json": {
+      "bytes": 3383,
+      "sha256": "540222ba506704362b9913154c60582defdbbd3f0d3974fce8b137ce2866dba3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/oversized_dimension/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "4850708578720fd6889454854a9e7a625d365bce626a256a2bfa55996dbffad3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/oversized_dimension/export/model.safetensors": {
+      "bytes": 1078,
+      "sha256": "74dd8e684d72c984ee63bc12ad440842f7128d4d150482007da35ec41cf0e77e"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/oversized_manifest_actual_small_fixture/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/oversized_manifest_actual_small_fixture/export/manifest.json": {
+      "bytes": 16385,
+      "sha256": "0a6f21fda2a49df0c6671aacfe31136e24b4880f334ee89182752f35c2f0cb3d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/oversized_manifest_actual_small_fixture/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/path_traversal_contract_member/contract.json": {
+      "bytes": 3387,
+      "sha256": "b8aa395a2c187573cf33d9be39915a4dbc6b4ec043d515138b40032dd0da4ff7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/path_traversal_contract_member/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/path_traversal_contract_member/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/positive_infinity_mask_forbidden/contract.json": {
+      "bytes": 3321,
+      "sha256": "4e53893ab8089fc039e813137c9ba626b718c8fada571c60af7542a0659b419f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/positive_infinity_mask_forbidden/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "77a25ec3cbc8773cba219e1c249582e9a09db61a057201270541505c490f4525"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/positive_infinity_mask_forbidden/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "1b9255a1baeecea28cac8ffa135514e48587f529daa044d227bbf1f6b854d22d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/rank_limit/contract.json": {
+      "bytes": 3383,
+      "sha256": "540222ba506704362b9913154c60582defdbbd3f0d3974fce8b137ce2866dba3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/rank_limit/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "2760db9ef8ccad363b99e4ad89aaa32b8af0494b7c7413e7b8970cb8833dc72c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/rank_limit/export/model.safetensors": {
+      "bytes": 1078,
+      "sha256": "c6974f138e89231e5f865c61c678c42fed5374190826e89647f6f716376307ef"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/real_UNBOUND_contract_fails_closed/contract.json": {
+      "bytes": 3385,
+      "sha256": "67f6e01aea954f801034e03f5187226a70d0b5d84c54de528e72c912c4f5fcbc"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/real_UNBOUND_contract_fails_closed/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/real_UNBOUND_contract_fails_closed/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/reparse_bit_unit_fixture/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/reparse_bit_unit_fixture/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/reparse_bit_unit_fixture/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/shared_alias_cycle/contract.json": {
+      "bytes": 3390,
+      "sha256": "2fa61e3ac411f4d7204f483ee92f50106a294de224f963af47bcd0a70df8977f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/shared_alias_cycle/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/shared_alias_cycle/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/tensor_count_limit/contract.json": {
+      "bytes": 3382,
+      "sha256": "055e8b56c93af8d98d4ba3c3d0dd8ae32525ceb2c1d8a4f6f45e1052d53fe91d"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/tensor_count_limit/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/tensor_count_limit/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/truncated_payload/contract.json": {
+      "bytes": 3383,
+      "sha256": "f0576ac00733d439604db7d6320ce21718a7d0de0eaea3fdc3a06a973aec8cf2"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/truncated_payload/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "b86cb02eb10d6e51625aad788bfc6f5b3f20e6c52dbeb5d23a500685c2b9a3d5"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/truncated_payload/export/model.safetensors": {
+      "bytes": 1061,
+      "sha256": "25dd3fbdbd627230295c524c1f5a83ec2a13328b79f0d0579329c4815b5b5237"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_directory/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_directory/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_directory/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_file/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_file/export/loader.py": {
+      "bytes": 15,
+      "sha256": "a426fc795b9b52d8df2b911c127eafa89a7c96a05799f458b269ce8c4422c92a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_file/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_file/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_header_metadata/contract.json": {
+      "bytes": 3383,
+      "sha256": "07a398b1bbd33fbff835a17781faa7a1f1d3c790b37b3f8a1501fe6fb8d75c2f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_header_metadata/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "b7381266d765973905a648e0cc166d5bd78e35a7b68cdc74f825bb30e4e5cba2"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unexpected_header_metadata/export/model.safetensors": {
+      "bytes": 1094,
+      "sha256": "cdc3a6f3b3201ea90bf01e35e01f1be1250267b28de7e367510f2dbdcaf7a56a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unimplemented_subbyte_dtype/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unimplemented_subbyte_dtype/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "1a972f7784182618c62e9fb09b86a5304c4fbb5cf263b916523eb0c02e298c5f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/unimplemented_subbyte_dtype/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "a4f24436206e54e761a6517a36634dc8f3e1b484df6ad47fb6b4e1194f9275ac"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/valid_exact_roundtrip/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/valid_exact_roundtrip/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/valid_exact_roundtrip/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_dtype/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_dtype/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "3fc8f62121e1f949f58f9361881e5c6fef4bf6265b7cdf477944ed4fa8dfd810"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_dtype/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "9def7279fd2386378a73df6a9e12ca4e517f8410294072416a386107242cce70"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_original_artifact_identity/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_original_artifact_identity/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "11a910c27f00d6c2223028ca3dbbeb08a98af2d589a3d2c952f86fcd4f11109f"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_original_artifact_identity/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_shape/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_shape/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "9a7b7a216c797ded966f70516769c2362abfe2081a4abb043e2aee44fd595886"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_shape/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "3480fbfd358667cfdb2bc26e090a310ce0973b7616d3f65f5be4dcbfe8c66049"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_tensor_byte_count/contract.json": {
+      "bytes": 3383,
+      "sha256": "70cedc30469bf28ae931c370bd5e81564893b067ee8abf7e51b0edb061bf297b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_tensor_byte_count/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "3f26bc4a863a6b7681fad1ecc81132a5d477b9fdab3cff7a03afb7060785f306"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/wrong_tensor_byte_count/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "ab6986e91349386b7511954f593d23bfea7f3ae1919db22131c778bef6d6f42a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/zero_then_oversized_dimension/contract.json": {
+      "bytes": 3383,
+      "sha256": "540222ba506704362b9913154c60582defdbbd3f0d3974fce8b137ce2866dba3"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/zero_then_oversized_dimension/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "bb947a4f9e3379dc5368651ae8f8890eb53f86fae8c8ce8a182065bb6e6accb9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-002/zero_then_oversized_dimension/export/model.safetensors": {
+      "bytes": 1078,
+      "sha256": "523223af277e38a05763e67613d2fbbf0e720cc770fa959624d20591a479e507"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/TEST-RECEIPT.json": {
+      "bytes": 756,
+      "sha256": "a914b4afefe050ae9ec9885c07f5e1f25099116a90ce6cb3a9ad0896ca588dd7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/changed_header_same_tensor_bytes/contract.json": {
+      "bytes": 3445,
+      "sha256": "341d1ee25f6c2b4eafd21b01ebeb00fa40be8dfa7f689965737954fc9158a132"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/changed_header_same_tensor_bytes/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "190d74bd0a2fa452f239137af2ef09cbdc79123c4f698e2e0ec48b011c293f07"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/changed_header_same_tensor_bytes/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "68269b3fe8811aa6ed405589f413adada008a43388df28dd965066ef19c0c9f7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/reviewer_whole_hash_valid/contract.json": {
+      "bytes": 3445,
+      "sha256": "341d1ee25f6c2b4eafd21b01ebeb00fa40be8dfa7f689965737954fc9158a132"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/reviewer_whole_hash_valid/export/manifest.json": {
+      "bytes": 1659,
+      "sha256": "642a5d6f8a57a810516fbc7834838710558b2471383c4b1b010af74b2a2630c7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/artificial-supplement-001/reviewer_whole_hash_valid/export/model.safetensors": {
+      "bytes": 1062,
+      "sha256": "934e7a2d2599a545c2230ed1e324abb355e3cb3931f97d7ca365a35b6e59dab6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/contract.schema.json": {
+      "bytes": 4632,
+      "sha256": "bf97d82d2b27eb143f4c2c80cf72cff329ce0b0e04ee1bca59af64ba828e43b0"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/export.schema.json": {
+      "bytes": 1533,
+      "sha256": "c52c41cea5e749b259ce4409a30c27058143e838c91b3f6a470f95effb74fcd6"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/failure-001/FAILURE.json": {
+      "bytes": 759,
+      "sha256": "ef80816b86f490ba73c54ab0dd22657f94c1003fe1646d4627e56afbbc703fa9"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/failure-001/test_validator.py": {
+      "bytes": 18400,
+      "sha256": "5fe214a6b26c039b1563dc560c2d509a5a3350463e22596ef82b656e1c2c6d55"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/failure-001/validator.py": {
+      "bytes": 19787,
+      "sha256": "252a3eda912c3ed758c9f121e0b58b316bdc5a619d1ec59ab7bdb49b71ca6c10"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/freeze_sources.py": {
+      "bytes": 3614,
+      "sha256": "f4a1877657a95708b98a2ea64563fb78492e3bbb607a0ec4b815704ff06c299b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/freeze_sources_r1.py": {
+      "bytes": 3959,
+      "sha256": "dd43cdc2598b807e69f13d8ab1c9d53e90707376a8327e41ceb49aff7d34633c"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/preserve_small.py": {
+      "bytes": 6456,
+      "sha256": "9d8c572f291da5e5f480549c15e7d640ec4b3051ef5257d15f8f1be06258e63a"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/supplemental_checks.py": {
+      "bytes": 3114,
+      "sha256": "4f9cf6f8d7068df7adccd7d3d53e6a5073ed23f4a618259c5e260118dd4ea0b7"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/test_validator.py": {
+      "bytes": 18430,
+      "sha256": "33154e21f72ea87ee598e890ea0f9eb566cfbe559789f76badce14fb722fc81b"
+    },
+    "docs/world-model-diagnostic-a2-c0-v1-20261005/validator.py": {
+      "bytes": 19787,
+      "sha256": "252a3eda912c3ed758c9f121e0b58b316bdc5a619d1ec59ab7bdb49b71ca6c10"
+    }
+  },
+  "previous_guest_sources_unchanged": true,
+  "real_checkpoint_access": false,
+  "real_conversion_seconds_consumed": 0,
+  "remaining_of_14400_seconds": 5485.89698539988,
+  "runtime_ready": false,
+  "source_logical_bytes": 884982,
+  "study": "WM-DIAG0-A2-C0-V1"
+}

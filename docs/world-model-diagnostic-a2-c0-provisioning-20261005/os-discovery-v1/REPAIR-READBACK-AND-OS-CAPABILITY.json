@@ -1,0 +1,115 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "recorded_UTC": "2026-10-04T22:05:32Z",
+  "status": "STOPPED_SHELL_REPAIR_VERIFIED_GUEST_RUNTIME_NOT_AVAILABLE",
+  "evidence_scope": "Saved administrator repair receipt authenticated by SHA256 and readback; the unelevated agent did not independently query privileged live VM configuration.",
+  "repair_receipt": {
+    "path": "C:/Users/Chris/thesis-vm/wm-diag0-a2-c0-prep-v1/REPAIR-R1-VERIFIED.json",
+    "SHA256": "BE3AC75863C72CFD00F1BE6134420A83E048F2EE2DE5FB5ACFE31A16BF2E34DE",
+    "matches_user_supplied_receipt": true,
+    "VM_name": "WM-DIAG0-A2-C0-PREP-v1",
+    "VM_id": "8af7472f-a299-4d7d-b3c4-62e81e568de0",
+    "state_at_receipt": "Off",
+    "logical_CPU": 4,
+    "static_memory_bytes": 2147483648,
+    "connected_network_adapters": 0,
+    "enabled_integration_services": 0,
+    "attached_disks": 0,
+    "mounted_OS_media": 0,
+    "elapsed_repair_seconds": 0.3653163,
+    "elapsed_time_already_included_in_repair_r1_600_second_charge": true,
+    "VM_directory_file_count_after_receipt": 7,
+    "VM_directory_total_bytes_after_receipt": 4286766,
+    "original_failure_preserved": true
+  },
+  "metadata_probes": {
+    "sparse_VHD": {
+      "url": "https://cloud-images.ubuntu.com/minimal/releases/jammy/release-20261001/ubuntu-22.04-minimal-cloudimg-amd64-azure.vhd.tar.gz",
+      "compressed_bytes_read_cap": 65536,
+      "compressed_bytes_read": 65536,
+      "compressed_prefix_SHA256": "17eb7a4bb7872eb9b1250cb6abe68e19349d6f4ecd39c347b930e6ba8209c6ce",
+      "declared_first_tar_member": "livecd.ubuntu-cpc.azure.vhd",
+      "tar_type": "GNU sparse S",
+      "declared_stored_member_bytes": 1112830464,
+      "declared_logical_member_bytes": 32213303808,
+      "decision": "Do not perform a naive full expansion. Logical size exceeds the canonical runtime reservation. Physical stored size alone is not a complete runtime/storage plan."
+    },
+    "QCOW_candidate": {
+      "url": "https://cloud-images.ubuntu.com/minimal/releases/jammy/release-20261001/ubuntu-22.04-minimal-cloudimg-amd64.img",
+      "bytes_read": 104,
+      "prefix_SHA256": "98855d18c8125dd21dd09fe9d8ebb90d68ec1b637e18e48be75d897e106fc7de",
+      "HTTP_content_range": "bytes 0-103/310607360",
+      "declared_QCOW_version": 2,
+      "declared_virtual_disk_bytes": 2361393152,
+      "declared_backing_file_offset": 0,
+      "declared_backing_file_size": 0,
+      "decision": "Potential compact OS candidate only. Not booted, authenticated as a whole, or established as sufficient for the pinned runtime. Hyper-V requires a compatible disk format."
+    },
+    "whole_image_hash_or_signature_verified": false,
+    "full_OS_binary_downloaded_retained_extracted_mounted_or_executed": false,
+    "VM_started": false,
+    "header_checks_do_not_authenticate_full_image": true
+  },
+  "preserved_probe_failures": [
+    {
+      "source": "probe_vhd_header.py",
+      "SHA256": "81057473128E9D7B67093BA1E8B744381C4AA7EBCAD2F2630A8E79B74DCEEC8B",
+      "error": "ValueError: compressed prefix request exceeds 64 KiB cap",
+      "cause": "gzip internal requested buffer exceeded the remaining cap; no cap overrun or image extraction occurred",
+      "tool_wall_seconds": 1.0805562
+    },
+    {
+      "source": "probe_vhd_header_r1.py",
+      "SHA256": "0A3F9F76CD3451AC5BC119F1CAC25B5DA9CC82758C74001AD4040F09B350166A",
+      "error": "unexpected regular member",
+      "cause": "The first member was GNU sparse, not an ordinary regular tar member; the probe failed closed",
+      "tool_wall_seconds": 0.890612
+    }
+  ],
+  "successful_probe_sources": {
+    "probe_tar_metadata_r2.py_SHA256": "D281732BD5F790AF8B2ADE51DAB39A817A4CE35DA44EF078BE4E66F4E07D80BC",
+    "probe_tar_metadata_r2_tool_wall_seconds": 0.8508208,
+    "probe_qcow_header_v1.py_SHA256": "96625257E0E9F2B6383F96C975C03F1FCAFF56427BD7D3ACC5045CE1A39981EE",
+    "probe_qcow_header_v1_tool_wall_seconds": 0.7908395
+  },
+  "existing_tool_capability": {
+    "native_Hyper_V_commands_present": ["Convert-VHD", "New-VHD", "Resize-VHD"],
+    "native_qemu_img_on_PATH": false,
+    "WSL_Thesis_Ubuntu_user_chris_commands_not_found_on_PATH": ["qemu-img", "VBoxManage", "virt-make-fs", "debootstrap", "grub-mkrescue", "xorriso", "genisoimage"],
+    "other_existing_WSL_tools": ["gpgv", "gpg", "mksquashfs"],
+    "scope": "Bounded configured PATH checks, not a claim that no converter exists anywhere",
+    "no_tool_or_dependency_installation": true,
+    "native_Convert_VHD_documentation": "https://learn.microsoft.com/en-us/powershell/module/hyper-v/convert-vhd?view=windowsserver2025-ps",
+    "offline_image_converter_documentation": "https://www.qemu.org/docs/master/tools/qemu-img.html"
+  },
+  "remaining_capability": "A size-reconciled, authenticated compact bootable guest with the pinned runtime, including a concrete QCOW-to-Hyper-V conversion route or another authenticated compatible OS route. Existing stopped shell does not establish this capability. No nominal gate-ready launcher is issued.",
+  "RAM_recheck": {
+    "free_KiB": 3053940,
+    "proposed_guest_bytes": 2147483648,
+    "proposed_host_headroom_bytes": 2147483648,
+    "adequate_for_guest_plus_headroom": false,
+    "agent_closed_applications_or_jobs": false
+  },
+  "accounting": {
+    "prior_cumulative_charge_seconds": 4014.10301460012,
+    "this_observation_discovery_full_conservative_charge_seconds": 600,
+    "cumulative_charge_seconds": 4614.10301460012,
+    "remaining_of_14400_seconds": 9785.89698539988,
+    "basis": "Conservative full envelope charged for this turn's receipt authentication, resource/tool queries, official metadata reads, bounded public OS header probes including failed probes, and new compact source/receipts. Not a claim of measured 600-second execution. Repair time is not charged twice.",
+    "canonical_runtime_reservation_bytes": 4000000000,
+    "VM_metadata_reservation_inside_runtime_bytes": 64000000,
+    "prior_preparation_copies_plus_shell_reservation_bytes": 892249003,
+    "new_code_and_metadata_reservation_bytes": 1000000,
+    "preparation_copies_plus_shell_and_this_small_reservation_bytes": 893249003,
+    "real_checkpoint_conversion_seconds_consumed": 0,
+    "new_OS_or_model_binary_storage_consumed": 0,
+    "runtime_storage_slack_not_released_or_double_spent": true
+  },
+  "guest_OS_and_runtime_installed": false,
+  "artificial_isolated_roundtrip_and_boundary_tests_completed": false,
+  "gate_ready": false,
+  "real_checkpoint_loading_authorized": false,
+  "research_execution_performed": false,
+  "old_executed_source_and_contracts_not_rewritten": true,
+  "historical_studies_checkpoints_archives_and_monitors_unchanged": true
+}

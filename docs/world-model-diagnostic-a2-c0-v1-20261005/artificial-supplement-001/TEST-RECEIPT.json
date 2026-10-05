@@ -1,0 +1,24 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "attempt": "supplement-001",
+  "status": "PASSED",
+  "checks": 13,
+  "results": [
+    "reviewer_supplied_whole_hash_acceptance",
+    "converter_self_consistent_header_change_rejected_by_reviewed_whole_hash",
+    "nonfinite_JSON",
+    "duplicate_contract_JSON",
+    "invalid_utf8",
+    "nested_depth",
+    "F16_declared_negative_infinity_allowed",
+    "BF16_declared_negative_infinity_allowed",
+    "F64_declared_negative_infinity_allowed",
+    "strict_JSON_contract.schema.json",
+    "strict_JSON_export.schema.json",
+    "strict_JSON_REAL-STATE-BINDING.json",
+    "strict_JSON_AUTHORIZATION-AND-RESERVATION.json"
+  ],
+  "elapsed_seconds": 0.061999999976251274,
+  "real_checkpoint_access": false,
+  "gate_ready": false
+}

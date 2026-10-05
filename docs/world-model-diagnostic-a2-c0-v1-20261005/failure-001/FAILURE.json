@@ -1,0 +1,12 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "attempt": "001",
+  "status": "ARTIFICIAL_FIXTURE_WRITER_FAILED",
+  "process_wall_seconds": 1.9593434,
+  "error": "KeyError: model.safetensors in test writer after the deliberately malformed contract renamed its member ../escape.safetensors; validator was not invoked for that case",
+  "partials": "../artificial-001, retained unchanged",
+  "executed_sources": "test_validator.py and validator.py in this failure directory, preserved before repair",
+  "repair": "Keep existing file-length declaration while constructing the intentionally malformed path contract. Validator unchanged; new exclusive artificial attempt 002.",
+  "research_checkpoint_access": false,
+  "charged_inside_existing_V1_1800_second_envelope": true
+}

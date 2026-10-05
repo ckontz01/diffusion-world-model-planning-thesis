@@ -1,0 +1,11 @@
+Use the existing administrator PowerShell window on DESKTOP-7N8FN7C.
+Close unneeded applications yourself until at least 4 GiB RAM is free; do not terminate thesis jobs or discard unsaved work.
+
+Run once:
+& 'C:\Users\Chris\thesis-recovery\world-model-diagnostic-preparation-20261004\docs\world-model-diagnostic-a2-c0-provisioning-20261005\firmware-capacity-v1\Measure-Diskless-VM.ps1' -Measure
+
+This checks the exact repaired VM, briefly starts its firmware without disks/OS/network, samples logical VM file sizes, and turns it off. It installs or downloads nothing and never opens a checkpoint. A separate hidden stop-only helper acknowledges readiness before start and performs an Off check at 25 seconds.
+
+Return the complete JSON or exact error. If a STARTED/FAILED/VERIFIED/WATCHDOG receipt exists, do not rerun. Preserve it for reconciliation. If a Hyper-V stop/service fault occurs, use Hyper-V Manager to verify this exact VM is Off; do not touch other VMs.
+
+No bootable OS/runtime, real conversion authorization or completed isolation gate is claimed.

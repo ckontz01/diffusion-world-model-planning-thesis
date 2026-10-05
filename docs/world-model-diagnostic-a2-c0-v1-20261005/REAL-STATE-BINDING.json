@@ -1,0 +1,54 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "binding": "UNBOUND",
+  "reviewed_A2_source": "ab50aaab8b01691b88574d35eb71a7ba1477bebb",
+  "reviewed_A2_publication": "aabe7a2991a6c64492c4fcc269e2c1977ae3860c",
+  "prior_C0_tip": "bc29279650b9d9b968e378a6c9e48d10be324bb0",
+  "input_choice": "Explicitly include BOTH existing Le-WM objects, both DINO predictor bundles, the separate encoder and each exact config/normalizer in the prospective conversion input contract. No optional unspecified Le-WM mount. This record authorizes no read, staging or conversion of checkpoint files.",
+  "weight_identities": {
+    "dino_pusht": {"bytes": 88837855, "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0", "provider_revision": "664278a4c0b4c5f607d0993744986b2d10b4168e"},
+    "dino_reacher": {"bytes": 88837855, "sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842", "provider_revision": "e49311dece3de2bf86c8f520e5e601e0e2fbb5ba"},
+    "dinov2_vits14": {"bytes": 88283115, "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"},
+    "lewm_pusht": {"bytes": 72348817, "sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"},
+    "lewm_reacher": {"bytes": 72345376, "sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"}
+  },
+  "config_normalizer_identities": {
+    "pusht_hydra_yaml": {"bytes": 904, "sha256": "1f2c7767f06a82ae8d86a8be168e303b5941b5105e8cff5060e9e5cb54f3f3a2"},
+    "reacher_hydra_yaml": {"bytes": 906, "sha256": "714ac177fde0ec8f86b619c439d2c9ea8356e9ce1a003ee2a584cdbca963e5ab"},
+    "pusht_normalizer_json": {"bytes": 571, "sha256": "90619b3b9e0534f223e19eac595330dd426e3319b832ec3717f7ec90d2fe5de5"},
+    "reacher_normalizer_json": {"bytes": 556, "sha256": "9408825bdf66664520937e085bb53a99a400bbf1dc832cfca75c429315e5362d"}
+  },
+  "source_pins": {
+    "point_lewm": "d2ba2f7e3a1cacdddb3b2991dcc7bd463b733a48",
+    "dinov2_prospective_source": "7764ea0f912e53c92e82eb78a2a1631e92725fc8"
+  },
+  "known_source_configuration": {
+    "image_size": 224, "frameskip": 5, "concat_dim": 1,
+    "normalize_action": true, "action_emb_dim": 10, "num_action_repeat": 1,
+    "proprio_emb_dim": 10, "num_proprio_repeat": 1,
+    "trained_num_hist": 3, "evaluated_context_T": 1, "num_pred": 1,
+    "has_predictor": true, "has_decoder": false,
+    "train_encoder": false, "train_predictor": true, "train_decoder": false,
+    "mixed_precision": "bf16", "encoder_name": "dinov2_vits14",
+    "feature_key": "x_norm_patchtokens", "depth": 6, "heads": 16,
+    "mlp_dim": 2048, "dropout": 0.1, "emb_dropout": 0, "pool": "mean",
+    "native_patch_layout": [196, 384],
+    "attention_source_plain_tensor_attribute": "Attention.bias = generate_mask_matrix(NUM_PATCHES, NUM_FRAMES).to('cuda'); not registered; subsequently used in masked_fill"
+  },
+  "exact_normalization_fields_in_existing_reviewed_JSON": ["action_mean", "action_std", "action_key", "state_mean", "state_std", "state_key"],
+  "normalization_binding": "Exact reviewed source-audit/pusht and reacher swm_h5_norm_stats.json bytes and values, not task-agnostic replacement statistics. References point to A2 immutable source; no fitting or model load here.",
+  "UNBOUND_fields": [
+    "Full real tensor names/order, shapes, dtypes, byte sizes and exported-member hashes",
+    "All registered persistent and nonpersistent buffers per actual object",
+    "Required unregistered tensors and their actual per-object names/shapes/dtypes/bytes, including Attention.bias masks",
+    "Actual shared/tied storage identities and operational reconstruction mapping",
+    "Actual module dimensions, execution flags, recurrent channels/cache ownership and object-specific normalization equivalence",
+    "Exact locally reviewed reconstruction constructor/import allowlist and pinned guest torch/runtime dependencies",
+    "Exact export total bytes and medium capacity; runtime plus export footprint remains unknown",
+    "Authenticated isolated reference-object provenance and confinement evidence"
+  ],
+  "third_party_training_encoder_checkout": "UNVERIFIED; pinned DINOv2 bytes/source are the accepted prospective A2 definition, not proof of historical training equivalence",
+  "gate_ready": false,
+  "real_conversion_authorized": false,
+  "research_execution_authorized": false
+}

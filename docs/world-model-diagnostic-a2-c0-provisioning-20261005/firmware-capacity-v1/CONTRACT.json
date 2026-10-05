@@ -1,0 +1,73 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "version": "diskless-firmware-capacity-v1",
+  "authority": "Existing direct user authorization for clean local VM/runtime preparation, renewed by okay proceed; no checkpoint conversion or research authorization inferred",
+  "scope": "One targeted diskless firmware start and stop of the already repaired dedicated VM, to observe Hyper-V logical running-state storage before any OS image acquisition. Not an isolated conversion test or proof of a usable guest/runtime.",
+  "performed_by": "User's administrator PowerShell session. Agent remains unelevated and does not bypass the integrity boundary.",
+  "VM_name": "WM-DIAG0-A2-C0-PREP-v1",
+  "VM_id": "8af7472f-a299-4d7d-b3c4-62e81e568de0",
+  "VM_root": "C:/Users/Chris/thesis-vm/wm-diag0-a2-c0-prep-v1",
+  "VM_configuration_changes": false,
+  "requirements": {
+    "initial_state": "Off",
+    "generation": 2,
+    "logical_CPU": 4,
+    "static_guest_RAM_bytes": 2147483648,
+    "minimum_free_host_RAM_bytes": 4294967296,
+    "connected_network_and_enabled_integration_services": 0,
+    "attached_disks_and_mounted_OS_media": 0,
+    "automatic_start_checkpoints_or_memory_save": false,
+    "configuration_snapshot_and_smart_paging_paths": "Exact dedicated root or descendants, with no redirected ancestors or members",
+    "authenticated_repair_receipt": "BE3AC75863C72CFD00F1BE6134420A83E048F2EE2DE5FB5ACFE31A16BF2E34DE"
+  },
+  "time_and_output": {
+    "VM_start_job_wait_max_seconds": 8,
+    "measurement_samples": 8,
+    "sample_spacing_seconds": 1,
+    "independent_helper_stop_after_ready_seconds": 25,
+    "readiness_wait_max_seconds": 3,
+    "small_receipt_max_bytes": 32768,
+    "VM_root_logical_byte_reservation": 2300000000,
+    "output_limit_mechanism": "Pre-reservation plus sampled file-size guard and immediate stop. NOT a hard filesystem quota; unexpected overhead can exceed a sample guard and must be reported and retained.",
+    "stop_mechanism": "Primary Stop-VM -TurnOff plus separate inherited-administrator hidden stop-only PowerShell helper. No UAC or execution-policy bypass. Source hash and helper PID readiness verified before VM start.",
+    "limitations": "Only preparation firmware, with no disk or scientific object. Hyper-V/service failures or late/ambiguous start completion require exact-state reconciliation, not a retry. The helper is not proof of hardened future research wall-time enforcement."
+  },
+  "no_download_install_disk_network_or_guest_payload": true,
+  "no_new_hypervisor_host_security_global_HyperV_or_existing_environment_changes": true,
+  "failure_rule": "Preserve all existing and new receipts and VM files. Stop this exact VM where possible; no VM deletion, recreation, automatic retry or evidence cleanup.",
+  "existing_converter_read_only_check": {
+    "native_or_checked_Program_Files_QEMU_route_found": false,
+    "WSL_qemu_utils_installed": false,
+    "WSL_release": "Ubuntu 24.04.4 LTS amd64",
+    "apt_cached_candidate_only": "qemu-utils 1:8.2.2+ds-0ubuntu1.18",
+    "cached_candidate_not_authenticated_as_new_acquisition_or_installed": true,
+    "native_disk_commands_present": ["Convert-VHD", "New-VHD", "Resize-VHD"],
+    "no_existing_scientific_environment_modified": true
+  },
+  "storage_accounting": {
+    "canonical_runtime_reservation_bytes": 4000000000,
+    "prior_stopped_shell_reservation_bytes": 64000000,
+    "superseding_probe_VM_root_reservation_bytes": 2300000000,
+    "probe_reservation_includes_shell_not_additive": true,
+    "prior_nonruntime_preparation_copies_bytes": 828249003,
+    "previous_small_discovery_reservation_bytes": 1000000,
+    "new_small_preparation_reservation_bytes": 1000000,
+    "retained_preparation_high_water_reserved_bytes": 3130249003,
+    "retained_preparation_cap_bytes": 5368709120,
+    "runtime_capacity_not_committed_to_OS_before_measurement": true,
+    "future_topology": "The local preparation VM is provisionally charged to the same canonical 4 GB runtime reservation, not an additional runtime plus cluster image. The 1 GB nonruntime local/preparation line is unchanged. Full guest/runtime acquisition, transport and archive topology still must be reconciled before further expansion. No cluster or SSD copies added now."
+  },
+  "preparation_time_accounting": {
+    "prior_cumulative_charge_seconds": 4614.10301460012,
+    "this_preparation_and_one_user_probe_full_conservative_charge_seconds": 600,
+    "cumulative_charge_seconds": 5214.10301460012,
+    "remaining_of_14400_seconds": 9185.89698539988,
+    "basis": "Full finite reservation retained as a charge for read-only tool/resource/source checks, script preparation and artificial/static/default interface checks, and one subsequent user-performed firmware probe plus helper. Not measured 600-second work. Any overrun must be separately charged before continuation.",
+    "real_checkpoint_conversion_seconds_consumed": 0
+  },
+  "OS_runtime_installed": false,
+  "gate_ready": false,
+  "real_checkpoint_loading_authorized": false,
+  "full_conversion_campaign_or_artificial_model_parity_performed": false,
+  "historical_studies_sources_receipts_models_archives_seeds_and_monitors_unchanged": true
+}

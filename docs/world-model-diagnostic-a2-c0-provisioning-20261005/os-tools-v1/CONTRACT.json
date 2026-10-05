@@ -1,0 +1,34 @@
+{
+  "study": "WM-DIAG0-A2-C0",
+  "version": "offline-OS-image-tools-v1",
+  "authority": "Direct clean VM/runtime preparation authorization, renewed okay proceed. Only a separately extracted official OS disk utility is prepared; no package installation or change to existing WSL/scientific environment.",
+  "binary_root": "C:/Users/Chris/thesis-vm/wm-diag0-a2-c0-runtime-v1/os-tools-v1",
+  "expected_packages": [
+    {"name":"qemu-utils","version":"1:8.2.2+ds-0ubuntu1.18","filename":"pool/main/q/qemu/qemu-utils_8.2.2+ds-0ubuntu1.18_amd64.deb","bytes":2220842,"SHA256":"10695e57937d8a1d0ec6d017a6770d02353ec0c9500e4a36928230b2d39026c5"},
+    {"name":"libaio1t64","version":"0.3.113-6build1","filename":"pool/main/liba/libaio/libaio1t64_0.3.113-6build1_amd64.deb","bytes":7180,"SHA256":"b1c4ebee35cfc85481443171e6e09943f3b0b530901fdf4fd6a864e242c2a1a5"},
+    {"name":"liburing2","version":"2.5-1build1","filename":"pool/main/libu/liburing/liburing2_2.5-1build1_amd64.deb","bytes":21092,"SHA256":"c2aef62accee92a06263c3ad4ef46132c13e409b54296c44792a20491830a7b0"}
+  ],
+  "signed_cached_index_authentication": {
+    "keyring": "/usr/share/keyrings/ubuntu-archive-keyring.gpg",
+    "signer_fingerprint": "F6ECB3762474EDA9D21B7022871920D1991BC93C",
+    "noble_updates_InRelease_SHA256": "126581439dab5078ed26227a1bc13bc8753641c72aee2168a01bb42410fa28f2",
+    "noble_updates_main_amd64_Packages_SHA256": "59b3f9ec102d9dfa2176d1f6dbcb02845534ea2c6f34451fe8b6a96dcf53d99c",
+    "noble_updates_main_amd64_Packages_bytes": 7119833,
+    "noble_InRelease_SHA256": "cdb2f31d809f589719a53c6ad15f255b27569c4059542ada282aaa21b8e164b0",
+    "noble_main_amd64_Packages_SHA256": "8f6f71ae839c8cba390a7643fcbbdacddb0bc7d12c1583a2dd80a1f8443a30e5",
+    "noble_main_amd64_Packages_bytes": 7165069,
+    "both_gpgv_signatures_and_signed_full_index_hashes_verified": true,
+    "not_a_claim_of_latest_repository_state": true
+  },
+  "allowlisted_execution": ["existing gpgv/dpkg-deb/Python metadata tools", "separately extracted qemu-img --version and artificial image tests", "eventual authenticated OS-only offline conversion after separate size checks"],
+  "disallowed": ["dpkg or apt installation", "maintainer hooks", "qemu-system hypervisor", "qemu-nbd mounts", "research checkpoint loading", "scientific inference", "existing environment changes", "VM disk attachment/start in this tool-acquisition step"],
+  "acquisition": {"host":"archive.ubuntu.com","scheme":"https","total_exact_download_bytes":2249114,"timeout_seconds_per_member":20,"automatic_retry":false,"exclusive_partials_preserved":true,"whole_member_hashes_checked_before_extraction":true},
+  "storage": {"new_OS_tool_package_and_selected_extraction_reservation_bytes":32000000,"charged_inside_canonical_runtime_bytes":4000000000,"prior_VM_root_reservation_bytes":2300000000,"nonruntime_preparation_copies_bytes":828249003,"small_preparation_reservations_bytes":3000000,"retained_preparation_reserved_high_water_bytes":3163249003,"retained_preparation_cap_bytes":5368709120,"no_duplicate_cluster_or_SSD_runtime_copy":true},
+  "accounting": {"prior_cumulative_charge_seconds":5214.10301460012,"this_OS_tool_preparation_full_charge_seconds":600,"cumulative_charge_seconds":5814.10301460012,"remaining_of_14400_seconds":8585.89698539988,"real_checkpoint_conversion_seconds_consumed":0,"basis":"Finite conservative charge for receipt readback, signed cache authentication including one failed metadata probe, bounded tool acquisition/selected extraction and artificial disk-tool interface tests; charge any actual overrun before continuing."},
+  "preserved_metadata_probe_failure": {"source":"authenticate_cached_packages.py","error":"missing or duplicate package identities","cause":"Two libraries are in the base index, not the updates index. Corrected in a new r1 source; signed index verification itself succeeded before this failure.","tool_wall_seconds":5.5964753},
+  "firmware_receipts": {"verified_SHA256":"FF886BBA40DD5813A53128D550FD2C1DE48CB20C1313BF444AE2C30A67D834D6","watchdog_SHA256":"98AA4D581FB1B7AB596D1532FB169FCCFD359C275AC9DFEB5F1F4771A5FB7A54","independent_watchdog_final_state":"Off","observed_peak_logical_bytes":4287175,"after_stop_logical_bytes":4299429,"scope":"Diskless firmware only; not a guarantee about a running guest OS footprint","elapsed_9_6148657_seconds_already_inside_previous_full_charge":true},
+  "guest_OS_runtime_installed":false,
+  "conversion_gate_ready":false,
+  "real_checkpoint_loading_authorized":false,
+  "historical_protocols_sources_models_archives_and_monitors_unchanged":true
+}

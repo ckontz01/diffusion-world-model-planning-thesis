@@ -1,0 +1,17 @@
+{
+    "Study":  "WM-DIAG0-A2-C0",
+    "RecordedUTC":  "2026-10-04T23:08:31.6890050Z",
+    "Status":  "AUTHENTICATED_OS_DISK_ATTACHED_VM_OFF",
+    "VMId":  "8af7472f-a299-4d7d-b3c4-62e81e568de0",
+    "State":  "Off",
+    "OSDiskPath":  "C:\\Users\\Chris\\thesis-vm\\wm-diag0-a2-c0-runtime-v1\\os-image-v1\\ubuntu-minimal.vhdx",
+    "OSDiskSHA256":  "5926B935C01C3627AB19066DD31DB6F4C9F8A6F304219751E4A1E24859E08CD8",
+    "VirtualDiskBytes":  2361393152,
+    "OSDiskFileBytes":  1157627904,
+    "ConnectedNetworkAdapters":  0,
+    "GuestBooted":  false,
+    "GuestRuntimeInstalled":  false,
+    "ElapsedSeconds":  3.1819773,
+    "GateReady":  false,
+    "RealCheckpointLoadingAuthorized":  false
+}

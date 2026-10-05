@@ -1,0 +1,14 @@
+{
+  "study": "WM-DIAG0-A2-C0-V1",
+  "status": "PUBLICATION_SOURCE_SEAL_STOPPED_ON_EXISTING_INTERPRETER_CACHE",
+  "process_wall_seconds": 0.2748295,
+  "source": "freeze_sources.py, retained unchanged",
+  "partial": "HUMAN-OS-ATTACHMENT-RECEIPT.json already copied and authenticated; preserved, not overwritten",
+  "error": "Unapproved publication member: previously existing provisioning/os-tools-v1/__pycache__/test_offline_tool_v1.cpython-312.pyc",
+  "diagnosis": "The seal enumerated a pre-existing Python cache. It was not staged by Git, is not approved publication source and is not needed for source review.",
+  "finite_recovery": "freeze_sources_r1.py excludes __pycache__ without deleting it, authenticates the existing tiny copied receipt instead of recopying it, and completes the missing seal. No first-boot or scientific source changed.",
+  "git_whitespace_check": "Expected warnings in deliberately oversized all-space malformed JSON fixtures; no fixture was reformatted, since that would alter the tested rejection evidence",
+  "metadata_hash_query_initial_failure": "PowerShell foreach pipeline syntax error; corrected read-only query succeeded. No input/artifact mutation.",
+  "research_checkpoint_access": false,
+  "charge": "Within the existing full V1 1800-second charge"
+}

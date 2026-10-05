@@ -1,0 +1,12 @@
+{
+  "script_SHA256":"000997FEACA61945AD0AED6A9678D8F8B4857841B1A8C0CD74503DC8A6C2CA50",
+  "PowerShell_parser":"PASS",
+  "default_nonmutating_plan_interface":"PASS",
+  "used_Add_VMHardDiskDrive_parameter_names_present_in_existing_cmdlet_metadata":true,
+  "AST_scan_no_Start_VM_guest_filesystem_mount_network_RAM_firmware_or_security_changes":"PASS",
+  "actual_privileged_native_Get_VHD_attachment_readback_executed":false,
+  "all_56_prior_A2_tests_rerun":false,
+  "full_VM_model_conversion_isolation_or_artificial_tensor_gate_test":false,
+  "test_claim":"Syntax/static/default-interface checks only; native stopped attachment awaits user's administrator execution",
+  "gate_ready":false
+}

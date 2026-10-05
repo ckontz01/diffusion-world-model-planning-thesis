@@ -1,0 +1,7 @@
+In your existing administrator PowerShell, run once:
+
+& 'C:\Users\Chris\thesis-recovery\world-model-diagnostic-preparation-20261004\docs\world-model-diagnostic-a2-c0-provisioning-20261005\os-image-v1\Attach-Stopped-OS-Disk.ps1' -Attach
+
+This authenticates the exact VM and OS disk, obtains native Hyper-V disk-format readback, and attaches that disk while leaving the VM Off. It does not start the OS, connect networking, mount a guest filesystem or change memory/firmware/security. No free-RAM prerequisite applies to this stopped attachment.
+
+Return the complete JSON or error. Do not manually start the VM yet. If any attempt receipt exists, preserve it and do not rerun. Guest runtime/bootstrap and enforced conversion isolation remain subsequent preparation, not completed capabilities.

@@ -1,0 +1,30 @@
+{
+  "study":"WM-DIAG0-A2-C0",
+  "tool_acquisition_elapsed_seconds":2.0144146,
+  "authenticated_package_bytes":2249114,
+  "selected_regular_members":[
+    {"path":"bin/qemu-img","bytes":2480872,"SHA256":"634320b91165669917123e8e79cce1c4d00cee0a4aa4d662d7c0a8186479b3fb"},
+    {"path":"lib/libaio.so.1t64","bytes":14336,"SHA256":"fbc4a5cc34ead525e68c7b4beba25bfa2c5affae0c564a68d684ba299e6c9a19"},
+    {"path":"lib/liburing.so.2","bytes":26856,"SHA256":"51594b92ac35f96595d3fcec9c3ec5d190637d9b426d5f8a8f4207875d2962f6"}
+  ],
+  "package_hooks_symlink_creation_or_installation":false,
+  "executed_tool_version":"qemu-img 8.2.2 Debian 1:8.2.2+ds-0ubuntu1.18",
+  "artificial_zero_disk_virtual_bytes":1048576,
+  "artificial_zero_disk_QCOW2_VHDX_compare":"PASS",
+  "artificial_nonzero_disk_bytes":262144,
+  "artificial_nonzero_QCOW2_VHDX_compare":"PASS",
+  "independent_raw_readback_exact_equality":"PASS",
+  "raw_source_and_readback_SHA256":"2312394bd99545d9de131c24efb781e765ac1aec243f2ed9347597a793a415e9",
+  "output_quota_fixture":{"cap_bytes":1048576,"returncode":1,"stderr":"Could not resize file: File too large","preserved_partial_bytes":131152,"preserved_partial_SHA256":"b77e299b04bbbf47cdb78413eab365095782c1fdbefe2608654c5e6da0eb15e8"},
+  "native_preparation_runtime_root_actual_bytes_after_tests_and_public_metadata":31387962,
+  "native_root_file_count":19,
+  "tools_reservation_bytes":32000000,
+  "OS_metadata_signature":{"checksum_file_SHA256":"89533E7C045FAE48A9C78AE16CBCE304960AB1C89D5AFAD536A10F7401315C8F","signature_file_SHA256":"5B515531293BEBFBF8A239478626032B9760D3EBB353F323B72D1EEA0EC5FFFE","public_key_ascii_SHA256":"927138DE292FAC4D861105A052CF56E9C5921987DA385C844D88F34D19B39AB0","pinned_fingerprint_from_official_Ubuntu_documentation":"D2EB44626FDDC30B513D5BB71A5D6C4C7DB87C81","gpgv_VALID_SIGNATURE":true,"signature_date_UTC":"2026-10-02","approved_QCOW_image_SHA256":"bd27c6f51053dd7e59bcbe6016c6fa853f54b1e423af12273ff46a5176bfbf41","public_key_home":"New dedicated metadata-only folder, not user's gpg home","warning":"GnuPG reported permissive DrvFS directory permissions in this public-key-only folder. No credentials or private keys were staged; no host security or filesystem settings changed."},
+  "preserved_wrapper_error":"PowerShell wrapper examined a stale LASTEXITCODE after a successful PowerShell acquisition, and stopped before the native key check. Acquisition was not repeated. Independent direct gpg fingerprint and gpgv checks subsequently succeeded.",
+  "no_existing_WSL_or_scientific_packages_modified":true,
+  "no_VM_disk_attached_or_guest_started":true,
+  "artificial_disk_tests_are_not_checkpoint_roundtrip_or_VM_isolation_tests":true,
+  "gate_ready":false,
+  "real_checkpoint_loading_authorized":false,
+  "full_600_second_tool_step_charge_retained":true
+}
