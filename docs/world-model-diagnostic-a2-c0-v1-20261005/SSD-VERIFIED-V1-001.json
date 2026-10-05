@@ -1,0 +1,28 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-c0-v1-20261005\\a2-c0-v1-d8d851644fd7335fd5fa1401fb53503b25e17219.zip",
+  "elapsed_seconds": 17.73499999998603,
+  "gate_ready": false,
+  "historical_archives_rebacked_up": 0,
+  "local_archive": "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\docs\\world-model-diagnostic-a2-c0-v1-20261005\\delivery\\a2-c0-v1-d8d851644fd7335fd5fa1401fb53503b25e17219.zip",
+  "members_manifest_sha256": "09a634dcffe1de46bae76444ac1f53baac7b155ddaeaaf7004ddf032b037347f",
+  "new_full_future_copies_reserved_bytes": 3014531,
+  "new_logical_source_bytes": 963710,
+  "previous_retained_preparation_conservative_bytes": 4795342635,
+  "real_checkpoint_access": false,
+  "retained_preparation_with_full_64MiB_reservation_bytes": 4862451499,
+  "runtime_images_or_models_recopied": 0,
+  "source_commit": "d8d851644fd7335fd5fa1401fb53503b25e17219",
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "study": "WM-DIAG0-A2-C0-V1",
+  "verified_members": 355,
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310112264192,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 486230,
+    "sha256": "9173504fccb8d020be30fffc1376baa2003acd5437bcaa417ba0f005f706fabc"
+  }
+}
