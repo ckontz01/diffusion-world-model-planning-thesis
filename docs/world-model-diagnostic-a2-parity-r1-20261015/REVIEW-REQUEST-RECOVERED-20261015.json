@@ -1,0 +1,16 @@
+{
+  "study": "WM-DIAG0-A2",
+  "supersedes_browser_state_only": "REVIEW-REQUEST-20261015.json",
+  "destination": "https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5",
+  "verification_page_passed_without_agent_interaction": true,
+  "post_reload_observation": "Previously displayed submission absent from conversation history; exact draft still in composer",
+  "model_selector_observed": "Pro, 5 of 5",
+  "action": "One submission of the retained draft after confirming previous request had not persisted",
+  "persisted_message_time_displayed": "Today 11:28 PM",
+  "submission_confirmation": "User message visible, composer empty, ChatGPT is responding, Stop button visible",
+  "scientific_advice_received_at_this_receipt": false,
+  "do_not_send_again_or_duplicate": true,
+  "campaign_resumed": false,
+  "security_or_permission_changes": false,
+  "browser_captures_published": false
+}

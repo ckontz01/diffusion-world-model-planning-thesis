@@ -1,0 +1,59 @@
+{
+  "campaign_resumption_authorized": false,
+  "document": {
+    "bytes": 14551,
+    "sha256": "c04894f4244fd80249473eef2a399ec215435f8ad78a7871ea9faf7164203029"
+  },
+  "models_imported": false,
+  "new_inference_authorized": false,
+  "new_model_or_physics_operations_executed_by_this_check": 0,
+  "original_contract": {
+    "bytes": 129282,
+    "sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc"
+  },
+  "proposed_counts": {
+    "CEM_decisions": 4224,
+    "CPU_full_future_seconds": 6836,
+    "DINO_predictor_calls": 950755,
+    "GPU_charged_seconds": 249,
+    "GPU_full_future_seconds": 457629,
+    "GPU_proposed_verification_seconds": 180,
+    "LeWM_predictor_calls": 317140,
+    "PushT_controller_actions": 193328,
+    "PushT_integrator_steps": 1939682,
+    "PushT_reset_internal_steps": 6402,
+    "PushT_resets": 3201,
+    "Reacher_dm_and_MuJoCo_steps": 386968,
+    "bank_reforecast_sequences": 2064,
+    "controller_actions": 386812,
+    "cost_reforecast_API_operations": 126859,
+    "encoded_full_future_frames": 142987,
+    "live_full_future_bytes": 12882899989,
+    "new_action_encoder_calls": 7,
+    "new_controller_actions": 0,
+    "new_cost_reforecast_API_operations": 3,
+    "new_encoded_frames": 78,
+    "new_physics_resets": 0,
+    "new_predictor_calls": 15,
+    "new_proprio_encoder_calls": 37,
+    "new_terminal_score_reductions": 3,
+    "new_visual_encoder_calls": 34,
+    "predicted_macro_sequence_transitions": 190091120,
+    "proposed_all_study_GPU_attempts": 135,
+    "role_encoded_frames": 72,
+    "role_visual_encoder_calls": 28,
+    "technical_parity_sequences": 160,
+    "world_resets": 6402
+  },
+  "required_human_exceptions": {
+    "DINO_predictor_calls": 15,
+    "PushT_reset_internal_steps": 2,
+    "bank_reforecast_sequences": 16,
+    "cost_reforecast_API_operations": 3,
+    "predicted_macro_sequence_transitions": 240,
+    "technical_parity_sequences": 32,
+    "world_resets": 1
+  },
+  "scientific_or_resource_approval": false,
+  "status": "DISABLED_DOCUMENTATION_ARITHMETIC_CHECKED"
+}
