@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.23400000000037835,
+  "peak_job_memory_bytes": 21270528,
+  "returncode": 1,
+  "status": "FINISHED",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_plan_v1\\check.py\", line 25, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_plan_v1\\check.py\", line 12, in main\n    assert number in text,number\n           ^^^^^^^^^^^^^^\nAssertionError: 13340451198\n",
+  "stdout": ""
+}

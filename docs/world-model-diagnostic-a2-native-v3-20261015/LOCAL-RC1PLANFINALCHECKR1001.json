@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.2970000000022992,
+  "peak_job_memory_bytes": 22089728,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"FINAL_PLAN_METADATA_AND_ARITHMETIC_CHECKED_EXECUTION_DISABLED\",\n  \"plan\": {\n    \"bytes\": 21420,\n    \"sha256\": \"65a79966b80d07ea8eed1c24c836adc86b29d645784b905149ff1f3546d92738\"\n  },\n  \"base_ledger\": {\n    \"bytes\": 6246,\n    \"sha256\": \"8b96b3030d5c761f306cdfdcbb10966fb7bb7ad4748ad3b9ee77801c5d6de5c0\"\n  },\n  \"archive_overhead_reservation_supersedes_100MB_comparison_bytes\": 500000000,\n  \"archive_full_future_bound_bytes\": 13340451198,\n  \"inclusive_bound_bytes\": 43715303510,\n  \"measured_continuation_seconds_before_this_check\": 1064.6740000000136,\n  \"implementation500_seconds_plus_plan120_fit_existing1700\": true,\n  \"research_calls\": 0,\n  \"accepted_work_changed\": false,\n  \"scientific_implementation\": false,\n  \"campaign_resumed\": false,\n  \"finite_operation_exceptions_pending_human\": {\n    \"DINO_predictor_calls\": [\n      950755,\n      950760\n    ],\n    \"GPU_attempts\": [\n      135,\n      138\n    ],\n    \"cost_forecast_API\": [\n      126859,\n      126860\n    ],\n    \"fit_frame_processing\": [\n      1024,\n      1536\n    ],\n    \"predicted_macro_sequence_transitions\": [\n      190091120,\n      190091200\n    ],\n    \"readout_fit_tasks\": [\n      4,\n      6\n    ],\n    \"technical_parity_sequences\": [\n      160,\n      176\n    ],\n    \"validation_frame_processing\": [\n      384,\n      576\n    ]\n  },\n  \"old_check_failure\": {\n    \"bytes\": 820,\n    \"sha256\": \"8d96d6e13ee1de73ada16a4f61ae694b7963a0921f2997b559b4accc70a85edf\"\n  },\n  \"repair\": \"Normalize thousands separators only; all scientific/resource numbers unchanged\"\n}\n"
+}

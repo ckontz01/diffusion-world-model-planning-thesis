@@ -1,0 +1,34 @@
+{
+  "SSD": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003179520,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "VM_or_environment_actions": 0,
+  "no_new_SSD_package_created": true,
+  "remote_runtime": {
+    "directories": 4519,
+    "executed_or_modified": false,
+    "files": 38088,
+    "logical_bytes_including_directory_and_link_metadata": 2058328758,
+    "new_environment_hash_authentication": false,
+    "path": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006",
+    "symlinks": 4,
+    "whole_environment_reservation_bytes": 2100000000
+  },
+  "retained_PC": [
+    {
+      "files": 25,
+      "logical_bytes": 1508073463,
+      "path": "C:\\Users\\Chris\\thesis-vm\\wm-diag0-a2-c0-runtime-v1"
+    },
+    {
+      "files": 17,
+      "logical_bytes": 4327350,
+      "path": "C:\\Users\\Chris\\thesis-vm\\wm-diag0-a2-c0-prep-v1"
+    }
+  ],
+  "retained_preparation_full_future_reservation_bytes": 2874852312,
+  "status": "WHOLE_RUNTIME_SIZE_AND_DESIGNATED_SSD_CHECKED"
+}

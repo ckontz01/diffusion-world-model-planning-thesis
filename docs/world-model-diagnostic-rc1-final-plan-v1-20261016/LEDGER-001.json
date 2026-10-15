@@ -1,0 +1,225 @@
+{
+  "DINO_rows": {
+    "accepted_original_two_heads": {
+      "action_calls": 0,
+      "cost_forecast_API": 0,
+      "image_frames": 704,
+      "predictor_calls": 0,
+      "proprio_calls": 88,
+      "visual_calls": 88
+    },
+    "completed_R1_encoding_probe": {
+      "action_calls": 6,
+      "cost_forecast_API": 0,
+      "image_frames": 17,
+      "predictor_calls": 0,
+      "proprio_calls": 2,
+      "visual_calls": 2
+    },
+    "completed_V3_numerical_validation": {
+      "action_calls": 7,
+      "cost_forecast_API": 3,
+      "image_frames": 78,
+      "predictor_calls": 15,
+      "proprio_calls": 37,
+      "visual_calls": 34
+    },
+    "failed_PushT_continuation": {
+      "action_calls": 2880,
+      "cost_forecast_API": 960,
+      "image_frames": 144,
+      "predictor_calls": 14400,
+      "proprio_calls": 3024,
+      "visual_calls": 144
+    },
+    "failed_original_PushT_technical": {
+      "action_calls": 97,
+      "cost_forecast_API": 33,
+      "image_frames": 22,
+      "predictor_calls": 465,
+      "proprio_calls": 99,
+      "visual_calls": 7
+    },
+    "included_Reacher_extra_parity": {
+      "action_calls": 6,
+      "cost_forecast_API": 2,
+      "image_frames": 18,
+      "predictor_calls": 10,
+      "proprio_calls": 19,
+      "visual_calls": 18
+    },
+    "proposed_RC1_gate": {
+      "action_calls": 5,
+      "cost_forecast_API": 1,
+      "image_frames": 88,
+      "predictor_calls": 5,
+      "proprio_calls": 88,
+      "visual_calls": 88
+    },
+    "proposed_new_two_heads": {
+      "action_calls": 0,
+      "cost_forecast_API": 0,
+      "image_frames": 704,
+      "predictor_calls": 0,
+      "proprio_calls": 704,
+      "visual_calls": 704
+    },
+    "remaining_63_ordinary_parent_base": {
+      "action_calls": 187173,
+      "cost_forecast_API": 62433,
+      "image_frames": 9324,
+      "predictor_calls": 935865,
+      "proprio_calls": 196497,
+      "visual_calls": 9324
+    }
+  },
+  "DINO_totals": {
+    "action_calls": 190174,
+    "cost_forecast_API": 63432,
+    "image_frames": 11099,
+    "predictor_calls": 950760,
+    "proprio_calls": 200558,
+    "visual_calls": 10409
+  },
+  "LeWM_rows": {
+    "accepted_original_two_heads": {
+      "action_calls": 0,
+      "cost_forecast_API": 0,
+      "image_frames": 704,
+      "predictor_calls": 0,
+      "proprio_calls": 0,
+      "visual_calls": 88
+    },
+    "all_64_parent_base_including_accepted_PushT": {
+      "action_calls": 380544,
+      "cost_forecast_API": 63424,
+      "image_frames": 131968,
+      "predictor_calls": 317120,
+      "proprio_calls": 0,
+      "visual_calls": 127872
+    },
+    "two_included_technical_extras_one_already_completed": {
+      "action_calls": 24,
+      "cost_forecast_API": 4,
+      "image_frames": 8,
+      "predictor_calls": 20,
+      "proprio_calls": 0,
+      "visual_calls": 8
+    }
+  },
+  "LeWM_totals": {
+    "action_calls": 380568,
+    "cost_forecast_API": 63428,
+    "image_frames": 132680,
+    "predictor_calls": 317140,
+    "proprio_calls": 0,
+    "visual_calls": 127968
+  },
+  "additional_operation_exceptions_authorized": false,
+  "campaign_resumed": false,
+  "combined": {
+    "action_calls": 570742,
+    "cost_forecast_API": 126860,
+    "image_frames": 143779,
+    "predictor_calls": 1267900,
+    "proprio_calls": 200558,
+    "visual_calls": 138377
+  },
+  "full_future_CPU_seconds": 6836,
+  "full_future_GPU_seconds": 461248,
+  "input_inventory": {
+    "bytes": 6673,
+    "sha256": "3a78b24227eafb921d5450e7c07f5800c925b7f2673474eebe4ce7dffa7eb225"
+  },
+  "new_model_forwards": 0,
+  "preparation": {
+    "activated": false,
+    "cap": 14400,
+    "charge_if_activated": 14354.10301460012,
+    "current_measured_existing_continuation_seconds_before_this_check": 1064.0650000000132,
+    "current_nonrefundable_charge": 14104.10301460012,
+    "proposed_additional_finite_charge_within_original_cap": 250,
+    "proposed_implementation_measured_seconds_inside_existing_charge": 500,
+    "proposed_implementation_total_seconds": 750,
+    "unreserved_after_activation": 45.89698539988
+  },
+  "proposed_exceptions": {
+    "DINO_predictor_calls": [
+      950755,
+      950760
+    ],
+    "GPU_attempts": [
+      135,
+      138
+    ],
+    "cost_forecast_API": [
+      126859,
+      126860
+    ],
+    "fit_frame_processing": [
+      1024,
+      1536
+    ],
+    "predicted_macro_sequence_transitions": [
+      190091120,
+      190091200
+    ],
+    "readout_fit_tasks": [
+      4,
+      6
+    ],
+    "technical_parity_sequences": [
+      160,
+      176
+    ],
+    "validation_frame_processing": [
+      384,
+      576
+    ]
+  },
+  "runtime_feasibility": "UNMEASURED; proposed count/timing checks and finite stop rules, not a timing guarantee",
+  "runtime_size_receipt": {
+    "bytes": 1087,
+    "sha256": "cc9ac66c2dae7237ec0d0c8a2cefc7dee49341b53c095181ae1a3cf05a118935"
+  },
+  "scientific_implementation_performed": false,
+  "status": "RESOURCE_PLAN_ARITHMETIC_CHECKED_EXECUTION_DISABLED",
+  "storage": {
+    "archive_cap": 14000000000,
+    "archive_payload_plus_100MB_overhead": 12940451198,
+    "compression_or_deletion_savings_assumed": false,
+    "existing": {
+      "all_current_study_lineages_including_partials": 2175454637,
+      "existing_SIF": 3139002368,
+      "two_existing_LeWM_objects": 144694193,
+      "whole_existing_venv_reserved": 2100000000
+    },
+    "future": {
+      "DINO_64_remaining_output_and_tmp": 3840000000,
+      "LeWM_63_remaining_output_and_tmp": 630000000,
+      "all_127_parent_logs": 127000000,
+      "analysis_and_unused_conversion_evidence": 60000000,
+      "new_controls": 300000000,
+      "new_source_closures": 20000000,
+      "one_RC1_gate_output_tmp_log": 26100000,
+      "two_new_head_outputs_tmp_logs": 278200000
+    },
+    "hardlink_dedup_savings_used": false,
+    "inclusive_cap": 44000000000,
+    "inclusive_with_two_full_14GB_archives": 43715303510,
+    "live": 12840451198,
+    "live_cap": 13500000000,
+    "retained_preparation_full_future": 2874852312,
+    "sampled_metadata_not_filesystem_quota": true
+  },
+  "unchanged_outer_caps": {
+    "CPU_stage_seconds": 13800,
+    "CPU_threads": 4,
+    "GPU_allocation_seconds": 468000,
+    "RAM_bytes": 8589934592,
+    "bank_reforecast_sequences": 2064,
+    "encoded_frames": 265360,
+    "source_roots": 120,
+    "world_resets": 6402
+  }
+}

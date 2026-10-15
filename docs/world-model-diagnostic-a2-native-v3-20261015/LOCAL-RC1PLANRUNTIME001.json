@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 29.56199999999808,
+  "peak_job_memory_bytes": 192180224,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"WHOLE_RUNTIME_SIZE_AND_DESIGNATED_SSD_CHECKED\",\n  \"remote_runtime\": {\n    \"path\": \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006\",\n    \"logical_bytes_including_directory_and_link_metadata\": 2058328758,\n    \"files\": 38088,\n    \"symlinks\": 4,\n    \"directories\": 4519,\n    \"whole_environment_reservation_bytes\": 2100000000,\n    \"new_environment_hash_authentication\": false,\n    \"executed_or_modified\": false\n  },\n  \"retained_PC\": [\n    {\n      \"path\": \"C:\\\\Users\\\\Chris\\\\thesis-vm\\\\wm-diag0-a2-c0-runtime-v1\",\n      \"files\": 25,\n      \"logical_bytes\": 1508073463\n    },\n    {\n      \"path\": \"C:\\\\Users\\\\Chris\\\\thesis-vm\\\\wm-diag0-a2-c0-prep-v1\",\n      \"files\": 17,\n      \"logical_bytes\": 4327350\n    }\n  ],\n  \"SSD\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"SizeRemaining\": 310003179520,\n    \"HealthStatus\": \"Healthy\"\n  },\n  \"retained_preparation_full_future_reservation_bytes\": 2874852312,\n  \"no_new_SSD_package_created\": true,\n  \"VM_or_environment_actions\": 0\n}\n"
+}

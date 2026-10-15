@@ -1,0 +1,245 @@
+{
+  "LeWM": {
+    "pusht": {
+      "bytes": 72348817,
+      "sha256": "c3883fb585f4d97b628922a13a43441fe63e883808014d25312aca1793820659"
+    },
+    "reacher": {
+      "bytes": 72345376,
+      "sha256": "6b03b0e39f00a601b83dc94765e4b022c48127ced762543bddb1398ce52c310d"
+    }
+  },
+  "SIF_bytes": 3139002368,
+  "UTC": "2026-10-15T22:10:33Z",
+  "V3_report": {
+    "bytes": 15815,
+    "sha256": "196bd63be202ac7cecbac1f21f7e4689e64c47748fb98be1222914c2dab8240f"
+  },
+  "accepted": {
+    "readout-0": {
+      "control": {
+        "bytes": 400,
+        "sha256": "b5f2ea7e00f409ec7366cd8b198e4e6b15ab957e292db5d314a19bb8cc3a5031"
+      },
+      "member_bytes": 343473,
+      "members": 10,
+      "seal": {
+        "bytes": 1272,
+        "sha256": "85c08833815f82f57f0b7c6dd78c7b108480b9fb424ef26e28431614e00a1f35"
+      }
+    },
+    "readout-1": {
+      "control": {
+        "bytes": 409,
+        "sha256": "b7e6b1056480a3f3b5aa3b8f34d9c3a3bdf884b0da19d73029943d1a24361f66"
+      },
+      "member_bytes": 110849490,
+      "members": 10,
+      "seal": {
+        "bytes": 1284,
+        "sha256": "658ae5afd55aea520d4b540264555cde10df20f32bc29dd6b258e09a7736f561"
+      }
+    },
+    "readout-2": {
+      "control": {
+        "bytes": 402,
+        "sha256": "2ac6b3bad4ae4837b010dcbc90fbbb909ce8f3fb57c5336756c0fa8215c31f48"
+      },
+      "member_bytes": 318380,
+      "members": 10,
+      "seal": {
+        "bytes": 1270,
+        "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+      }
+    },
+    "readout-3": {
+      "control": {
+        "bytes": 411,
+        "sha256": "e3076b1b5e6f475d9b983eec1df197e2e501c78ed02bf76b9585d134ec86376c"
+      },
+      "member_bytes": 108422090,
+      "members": 10,
+      "seal": {
+        "bytes": 1282,
+        "sha256": "b08a3f0c4a172ec8950a6dc761b00d73bb44aa7ad0632b71d7a99edfa095a098"
+      }
+    },
+    "technical-0": {
+      "control": {
+        "bytes": 616,
+        "sha256": "295b81b35a722ee64db5931591e8012679c645e97085aa916c53e9f3629bf584"
+      },
+      "member_bytes": 3370611,
+      "members": 189,
+      "seal": {
+        "bytes": 25077,
+        "sha256": "02a967cc1f360554ddfb27826f16a33f5abf4adeb342f26730825960cc6bee20"
+      }
+    }
+  },
+  "cluster_free_bytes": 270183119716352,
+  "components": {
+    "campaign-v4": {
+      "files": 525,
+      "logical_bytes": 232194338,
+      "symlinks": 0,
+      "unique_inode_bytes": 232194338
+    },
+    "campaign-v4-numerical-v3": {
+      "files": 240,
+      "logical_bytes": 26331587,
+      "symlinks": 0,
+      "unique_inode_bytes": 24576705
+    },
+    "campaign-v4-numerical-v3-artificial-ONE": {
+      "files": 5,
+      "logical_bytes": 11897,
+      "symlinks": 0,
+      "unique_inode_bytes": 11897
+    },
+    "campaign-v4-parity-r1": {
+      "files": 229,
+      "logical_bytes": 1906740,
+      "symlinks": 0,
+      "unique_inode_bytes": 151858
+    },
+    "native-v3": {
+      "files": 220,
+      "logical_bytes": 174284820,
+      "symlinks": 21,
+      "unique_inode_bytes": 168569051
+    },
+    "native-v3-import-r1": {
+      "files": 1188,
+      "logical_bytes": 627178371,
+      "symlinks": 0,
+      "unique_inode_bytes": 621454504
+    },
+    "native-v3-source-r3": {
+      "files": 2303,
+      "logical_bytes": 652741260,
+      "symlinks": 0,
+      "unique_inode_bytes": 647011969
+    },
+    "preflight-v1": {
+      "files": 6,
+      "logical_bytes": 194085498,
+      "symlinks": 0,
+      "unique_inode_bytes": 194085498
+    },
+    "preflight-v1-stage-r1": {
+      "files": 49,
+      "logical_bytes": 266720126,
+      "symlinks": 0,
+      "unique_inode_bytes": 89486100
+    }
+  },
+  "efficacy_read": false,
+  "exact_scheduler_snapshot": "317166|317166|CANCELLED by 1201|0:0|0|4|None assigned\n317163_0|317167|COMPLETED|0:0|27|4|gpu09\n317163_1|317168|COMPLETED|0:0|20|4|gpu09\n317163_2|317169|COMPLETED|0:0|27|4|gpu09\n317163_3|317163|COMPLETED|0:0|20|4|gpu09\n317164_0|317170|COMPLETED|0:0|65|4|gpu09\n317164_1|317171|FAILED|125:0|77|4|gpu09\n317164_[2-3%1]|317164|CANCELLED by 1201|0:0|0|4|None assigned\n317165_[0-123%1]|317165|CANCELLED by 1201|0:0|0|4|None assigned\n317172|317172|COMPLETED|0:0|13|4|gpu09\n317173|317173|COMPLETED|0:0|19|4|gpu09\n",
+  "files": 4765,
+  "logical_study_bytes": 2175454637,
+  "new_allocations": 0,
+  "old_STOP": {
+    "bytes": 133,
+    "sha256": "b8dd3a92ef98bf9b23a14bd8a2b4f68c843c48619d67b8419d19dba88afbd0d4"
+  },
+  "queue": "",
+  "remote_mutations": 0,
+  "runtime_files": 21643,
+  "runtime_manifest": {
+    "bytes": 4084543,
+    "sha256": "c86a6790e2f801e7d6658ac1df08fe50f7e6919a619fd5e53156847b0c2dcefa"
+  },
+  "runtime_manifest_member_bytes": 1658213811,
+  "runtime_size_only_readback_not_new_hash_authentication": true,
+  "scientific_arrays_decoded": false,
+  "status": "QUIESCENT_TECHNICAL_STORAGE_INVENTORY",
+  "study_root": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015",
+  "symlinks": [
+    [
+      "native-v3/renderer-r6/libLLVM-15.so",
+      "libLLVM-15.so.1"
+    ],
+    [
+      "native-v3/renderer-r6/libOSMesa.so",
+      "libOSMesa.so.8.0.0"
+    ],
+    [
+      "native-v3/renderer-r6/libOSMesa.so.6",
+      "libOSMesa.so.8"
+    ],
+    [
+      "native-v3/renderer-r6/libOSMesa.so.8",
+      "libOSMesa.so.8.0.0"
+    ],
+    [
+      "native-v3/renderer-r6/libbsd.so.0",
+      "libbsd.so.0.11.5"
+    ],
+    [
+      "native-v3/renderer-r6/libdrm.so.2",
+      "libdrm.so.2.4.0"
+    ],
+    [
+      "native-v3/renderer-r6/libedit.so.2",
+      "libedit.so.2.0.68"
+    ],
+    [
+      "native-v3/renderer-r6/libffi.so.8",
+      "libffi.so.8.1.0"
+    ],
+    [
+      "native-v3/renderer-r6/libglapi.so.0",
+      "libglapi.so.0.0.0"
+    ],
+    [
+      "native-v3/renderer-r6/libicudata.so.70",
+      "libicudata.so.70.1"
+    ],
+    [
+      "native-v3/renderer-r6/libicui18n.so.70",
+      "libicui18n.so.70.1"
+    ],
+    [
+      "native-v3/renderer-r6/libicuio.so.70",
+      "libicuio.so.70.1"
+    ],
+    [
+      "native-v3/renderer-r6/libicutest.so.70",
+      "libicutest.so.70.1"
+    ],
+    [
+      "native-v3/renderer-r6/libicutu.so.70",
+      "libicutu.so.70.1"
+    ],
+    [
+      "native-v3/renderer-r6/libicuuc.so.70",
+      "libicuuc.so.70.1"
+    ],
+    [
+      "native-v3/renderer-r6/libmd.so.0",
+      "libmd.so.0.0.5"
+    ],
+    [
+      "native-v3/renderer-r6/libtic.so.6",
+      "libtic.so.6.3"
+    ],
+    [
+      "native-v3/renderer-r6/libtinfo.so.6",
+      "libtinfo.so.6.3"
+    ],
+    [
+      "native-v3/renderer-r6/libxml2.so.2",
+      "libxml2.so.2.9.13"
+    ],
+    [
+      "native-v3/renderer-r6/libz.so.1",
+      "libz.so.1.2.11"
+    ],
+    [
+      "native-v3/renderer-r6/libzstd.so.1",
+      "libzstd.so.1.4.8"
+    ]
+  ],
+  "unique_inode_study_bytes": 1977541920
+}

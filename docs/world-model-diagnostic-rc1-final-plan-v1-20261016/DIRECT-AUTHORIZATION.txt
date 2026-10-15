@@ -1,0 +1,10 @@
+Human decisions in this chat, 2026-10-16
+
+"Okay, I approve RC1 in principle. Resolve the remaining accounting and storage issues within the existing limits, preserve all accepted work, and have Pro review the final executable plan before implementation."
+
+After asking why storage could not increase, the parent proposed 13.5 GB decimal live storage, while retaining the 14 GB archive and 44 GB inclusive limits and distinguishing operation limits. The human then replied:
+"okay good we solved storage then. cpntinue with the other needed fixes"
+
+Interpretation: RC1 scientific support in principle and the specific 13,500,000,000-byte live cap are supported. Reconcile and review the final plan. No additional operation-count, attempt, preparation, archive or inclusive increase is inferred. No research implementation or execution before the final plan review and all required authorities/gates. Preserve all executed closures, accepted work, old failures/STOPs and cumulative charges.
+
+This new small plan/inventory package is bounded to 240 further scripted seconds within the already charged native-v3 continuation, four CPU threads/8GiB, 1MB new compact source/docs/metadata/copies. No models, arrays, private browser captures or credentials are published or copied. No new preparation allowance is charged or refunded. No monitor, allocation, model execution, fitting, source generation, physics or environment change.

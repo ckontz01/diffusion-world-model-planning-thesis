@@ -1,0 +1,59 @@
+{
+  "accepted_work_changed": false,
+  "archive_full_future_bound_bytes": 13340451198,
+  "archive_overhead_reservation_supersedes_100MB_comparison_bytes": 500000000,
+  "base_ledger": {
+    "bytes": 6246,
+    "sha256": "8b96b3030d5c761f306cdfdcbb10966fb7bb7ad4748ad3b9ee77801c5d6de5c0"
+  },
+  "campaign_resumed": false,
+  "finite_operation_exceptions_pending_human": {
+    "DINO_predictor_calls": [
+      950755,
+      950760
+    ],
+    "GPU_attempts": [
+      135,
+      138
+    ],
+    "cost_forecast_API": [
+      126859,
+      126860
+    ],
+    "fit_frame_processing": [
+      1024,
+      1536
+    ],
+    "predicted_macro_sequence_transitions": [
+      190091120,
+      190091200
+    ],
+    "readout_fit_tasks": [
+      4,
+      6
+    ],
+    "technical_parity_sequences": [
+      160,
+      176
+    ],
+    "validation_frame_processing": [
+      384,
+      576
+    ]
+  },
+  "implementation500_seconds_plus_plan120_fit_existing1700": true,
+  "inclusive_bound_bytes": 43715303510,
+  "measured_continuation_seconds_before_this_check": 1064.6740000000136,
+  "old_check_failure": {
+    "bytes": 820,
+    "sha256": "8d96d6e13ee1de73ada16a4f61ae694b7963a0921f2997b559b4accc70a85edf"
+  },
+  "plan": {
+    "bytes": 21420,
+    "sha256": "65a79966b80d07ea8eed1c24c836adc86b29d645784b905149ff1f3546d92738"
+  },
+  "repair": "Normalize thousands separators only; all scientific/resource numbers unchanged",
+  "research_calls": 0,
+  "scientific_implementation": false,
+  "status": "FINAL_PLAN_METADATA_AND_ARITHMETIC_CHECKED_EXECUTION_DISABLED"
+}
