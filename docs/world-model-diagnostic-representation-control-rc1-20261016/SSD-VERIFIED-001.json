@@ -1,0 +1,20 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-representation-control-rc1-20261016\\disabled-amendment-e7784547ce3d421eb821ae89c2274fcc657af202.zip",
+  "campaign_resumed": false,
+  "members": 13,
+  "old_packages_or_models_recopied": 0,
+  "remote_full_hash": "e7784547ce3d421eb821ae89c2274fcc657af202",
+  "scientific_operations": 0,
+  "source_commit": "e7784547ce3d421eb821ae89c2274fcc657af202",
+  "status": "NEW_PROPOSAL_WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003220480,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 26576,
+    "sha256": "687877f5bfe99bb175ae40b45579e16f4ced2761535b59f8151bc5ed43a6f384"
+  }
+}
