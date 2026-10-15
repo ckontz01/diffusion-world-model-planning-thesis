@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-15",
+  "status": "LOCAL_REQUIRED_DRIVE_UNAVAILABLE_BEFORE_SSH",
+  "failed_operation": "Bounded read-only inventory of existing cluster model source filenames via WSL Thesis-Ubuntu/chris and configured SSH alias prometheus",
+  "transport_exit_code": 1,
+  "wsl_error": "Failed to attach disk 'D:\\WSL\\Thesis-Ubuntu\\ext4.vhdx' to WSL2: The system cannot find the path specified. Error code: Wsl/Service/CreateInstance/MountDisk/ERROR_PATH_NOT_FOUND",
+  "followup_read_only_evidence": {
+    "volumes_returned_by_Get_Volume": ["C:"],
+    "D_drive_exists": false,
+    "D_WSL_Thesis_Ubuntu_ext4_vhdx_exists": false,
+    "D_THESIS_BACKUPS_exists": false,
+    "native_ssh_G_prometheus": {"hostname": "prometheus", "user": "chris", "port": 22, "configured_proxyjump_returned": false},
+    "interpretation": "The established WSL route cannot start. Native SSH expansion does not establish the known cluster/bastion route; no credential search, extraction, new host configuration or speculative connection was attempted."
+  },
+  "cluster_contacted": false,
+  "cluster_failure_inferred": false,
+  "checkpoints_loaded": 0,
+  "models_forwarded": 0,
+  "simulators_instantiated": 0,
+  "sources_generated": 0,
+  "slurm_jobs_submitted": 0,
+  "old_tests_repeated": 0,
+  "WSL_or_filesystem_repairs": 0,
+  "VM_or_security_changes": 0,
+  "monitors_changed": 0,
+  "required_state_change": "Restore availability of the existing THESIS_SSD D: volume containing the already-configured WSL disk and required backup directory. No new research or administrator approval is requested.",
+  "resume_instruction": "Verify the existing volume identity and WSL disk path once available, then continue the already-authorized ordinary-cluster native implementation/preflight. Do not recreate/import/reset WSL or start the abandoned Hyper-V VM. Reconcile any current cluster allocations before dispatch."
+}
