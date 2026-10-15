@@ -1,0 +1,8 @@
+{
+  "allocation_seconds": 180,
+  "automatic_retries": 0,
+  "campaign_resumed": false,
+  "contract_sha256": "b76324759bce8560525f1788f32b8c9c911c3de4ed467772a1d8eda8ab5e1a2e",
+  "job_id": "317172",
+  "phase": "encoding_only"
+}

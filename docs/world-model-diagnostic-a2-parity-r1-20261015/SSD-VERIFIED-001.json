@@ -1,0 +1,22 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-parity-r1-20261015\\encoding-diagnosis-6927cef4382d87d33993cb3803e39556d2c00be9.zip",
+  "contract": {
+    "bytes": 133622,
+    "sha256": "b76324759bce8560525f1788f32b8c9c911c3de4ed467772a1d8eda8ab5e1a2e"
+  },
+  "members": 13,
+  "old_packages_recopied": 0,
+  "remote_full_hash": "6927cef4382d87d33993cb3803e39556d2c00be9",
+  "source_commit": "6927cef4382d87d33993cb3803e39556d2c00be9",
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003408896,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 51187,
+    "sha256": "cc45f4220402fa4d364fc436020fb0a414f4bf6cad1a34679f999323b6c4b530"
+  }
+}

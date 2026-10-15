@@ -1,0 +1,56 @@
+WM-DIAG0-A2: encoding discrepancy diagnosed; original parity gate NOT passed
+
+One encoding-only allocation317172 completed13s on the exact RTX6000 Ada/gpu09.
+No predictor/scoring/CEM/physics/fitting calls occurred. Actual probe usage:
+2 visual encoder calls/17 frames;6 action encoder calls;2 proprio encoder calls.
+Preserved numerical-discrepancy receipt: OBSERVE-ONE.json, result.report.
+Report1366B SHA25620c23bab7335b06d9eff7b38ad622a1158cf92717698150e03994729ee7c1747.
+
+At original rtol0.015625/atol0.00390625, source visual batch1 repeated vs batch16:
+521584 of1204224 elements outside tolerance; maximum absolute discrepancy
+2.336855411529541. Action sequence5 vs five sequence1 calls: exact equality.
+Proprio source batch1 vs16: exact equality. These are technical tensor-parity
+diagnostics, not scientific efficacy, outcome or readout-quality aggregates.
+
+Static audited paths: cached CEM context and retained-bank forecast encode the
+single RGB history once and expand encoded features. Original native rollout
+reference expands the RGB input to16 and then encodes the batch. Full temporal
+reference comparison previously failed337370/6021120 elements (5.6%) at the
+unchanged tolerance. The encoding-only measurement identifies a concrete
+non-equivalence in the inputs to those two forecast paths. It does not prove
+the lower-level cause, rule out a downstream discrepancy, or justify calling
+the full parity gate passed. No precision, batching, tolerance or source changed.
+
+Scientific ambiguity needing the authorized reasoning-model consultation:
+retaining the declared cached encoder path vs changing encoding execution to
+the expanded native reference is not just a typo fix. Readouts used RGB batches8,
+realized consequences batches5, cached history/goal batches1, reference batch16.
+Do not assume all those executions define bitwise identical frame features.
+No accepted head may be refit/reselected or hidden behind a changed encoder
+definition as a routine retry. No efficacy-based choice has been made.
+
+Updated GPU actual charge236+13=249s. CPU1436s, unused conversion1800s unchanged.
+Remaining127 diagnostic allocations full reservation457200s, plus actual249
+=457449s <=468000. No old successful source/readout/diagnostic rerun.
+
+Important finite-resource constraint on a naive retry: accepted technical0
+uses all51 reserved worlds (although132 controller actions fewer than its
+3020 maximum). Failed technical1 already used one helper reset and20 actions.
+Source121+accepted51+failed1+remaining127*49+remaining technical restoration6
+=6402 resets, exceeding the existing6401 ceiling by1 if helper is rerun.
+An authenticated continuation that uses the retained CEM bank and does not
+recreate the failed helper might avoid that reset, but is NOT implemented.
+Even reusing that bank, repeating its forecast/two parity calls adds15 DINO
+predictor calls above the original full-future950740 maximum (950755 total).
+These planned-call caps must not be silently raised. The diagnostic above
+used zero predictor calls/resets and therefore did not consume those envelopes.
+
+New diagnostic source6927cef4382d87d33993cb3803e39556d2c00be9 was pushed and
+full remote hash read back before execution. New source-only package51187B,
+SHA256cc45f4220402fa4d364fc436020fb0a414f4bf6cad1a34679f999323b6c4b530,
+whole and13 members verified on designated THESIS_SSD. Existing packages and
+models not recopied. Three new source/control artificial checks passed;
+the original56-test suite was not repeated. All failures/STOPs/partials retained.
+
+Campaign remains stopped. Only the narrowly bounded encoding-only diagnostic
+ran. No complete results, efficacy or partial scientific aggregates inspected.
