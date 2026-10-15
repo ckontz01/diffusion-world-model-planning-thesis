@@ -1,0 +1,57 @@
+{
+  "actual_grid_execution_or_full_study_acceptance_claimed": false,
+  "checks": [
+    "124unique mapping",
+    "module/frame/API overruns",
+    "all four gate chains",
+    "missing gate",
+    "changed accepted control",
+    "Python3.6 controller/transport syntax"
+  ],
+  "model_calls": 0,
+  "original56tests_repeated": false,
+  "source": {
+    "__init__.py": {
+      "bytes": 78,
+      "sha256": "814bd5e3a5608b1a46f90893310af429caa42e7db9bb0e6db85465b653df7d3c"
+    },
+    "common.py": {
+      "bytes": 1952,
+      "sha256": "be5d46d5c17884d7ab9548ac456eba6e052e8a4bdc43876ab7efd8558856e5fd"
+    },
+    "observer.py": {
+      "bytes": 2893,
+      "sha256": "1f670c6f897aeda5c4c7c960d07bd3cb90bf060500c16ea7c978ee15808982cc"
+    },
+    "operations.py": {
+      "bytes": 7548,
+      "sha256": "706bbf4f281f627ce9579b0df0c9849de90b5b53bdb0c77df907d36abe0db1ae"
+    },
+    "prepare.py": {
+      "bytes": 3612,
+      "sha256": "4b64a9a6b9d606f25c321c2eae04a9649e752134794574a7a5a0e10f9f490074"
+    },
+    "preserve.py": {
+      "bytes": 2434,
+      "sha256": "db0391ce63dded28f38b4d39af86f10856c29fe1f099c22c787fbde02f5e54a2"
+    },
+    "supervisor.py": {
+      "bytes": 6298,
+      "sha256": "291954810cfb97f3d62e3e143832fcf7908291ebfc4086c530b08bf3de58be14"
+    },
+    "tests.py": {
+      "bytes": 2908,
+      "sha256": "8681befee454421fa24d79a8a599e915b69bad49caefb7fca77ad3e667507feb"
+    },
+    "validate.py": {
+      "bytes": 2476,
+      "sha256": "9e75c08f433969abe465cb9dd4afb8a625a4dec76146f113aba057d0ddccfdcc"
+    },
+    "worker.py": {
+      "bytes": 3391,
+      "sha256": "b016206fdd21e43b11a4019f84c8ca9c4fff9165a09dfca2250c2ed1bc5840de"
+    }
+  },
+  "source_or_labels_generated": false,
+  "status": "PASSED"
+}

@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "implementation_artificial_schema",
+  "elapsed_seconds": 0.375,
+  "peak_job_memory_bytes": 25026560,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"RC1_FIXED_GRID_ARTIFICIAL_CONTRACT_GUARDS_PASSED\", \"research_calls\": 0}\n"
+}

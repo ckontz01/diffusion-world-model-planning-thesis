@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "implementation_artificial_schema",
+  "elapsed_seconds": 0.4219999999986612,
+  "peak_job_memory_bytes": 24936448,
+  "returncode": 1,
+  "status": "FINISHED",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_grid_v1\\tests.py\", line 41, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_grid_v1\\tests.py\", line 35, in main\n    for p in (ROOT/'wm_diag0_rc1_grid_v1').glob('*.py'):compile(p.read_bytes(),str(p),'exec');sources[p.name]=identity(p)\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_grid_v1\\preserve.py\", line 18\n    blobs={n:git('show',commit+':'+n) for n in names}\nIndentationError: unexpected indent\n",
+  "stdout": ""
+}

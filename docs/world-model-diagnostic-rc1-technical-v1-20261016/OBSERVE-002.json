@@ -1,0 +1,43 @@
+{
+  "STOP": null,
+  "dispatch": {
+    "allocation_seconds_each": 3600,
+    "array_job_id": "317177",
+    "automatic_retries": 0,
+    "campaign_resumed": false,
+    "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+    "settings": [
+      1,
+      2,
+      3
+    ]
+  },
+  "quality_or_predictions_read": false,
+  "queue": "317177_[2-3%1]|PENDING|0:00||(JobArrayTaskLimit)\n317177_1|RUNNING|5:02|gpu09|gpu09\n",
+  "scheduler": "317177_1|317178|RUNNING|0:0|302|4|gpu09\n317177_[2-3%1]|317177|PENDING|0:0|0|4|None assigned\n",
+  "tasks": {
+    "1": {
+      "STARTED": {
+        "PID": 127986,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317178",
+        "node": "gpu09.cluster",
+        "setting": 1,
+        "start_ticks": "5124698",
+        "time": 1792106081.1778896
+      },
+      "process": {
+        "PID": 127986,
+        "PID_exists": true,
+        "node": "gpu09.cluster",
+        "scope": "compute-node record; not login /proc",
+        "start_ticks": "5124698",
+        "start_ticks_match": true,
+        "verification_returncode": 0
+      }
+    },
+    "2": {},
+    "3": {}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-prep-routing-v1-20261016\\prep-routing-source-d28985203db9e245b8cf2b437f6f7aee0702beac.zip",
+  "members": 11,
+  "old_packages_recopied": 0,
+  "source_commit": "d28985203db9e245b8cf2b437f6f7aee0702beac",
+  "status": "PROSPECTIVE_ROUTING_SOURCE_WHOLE_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310002868224,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 8739,
+    "sha256": "9b95d26f05569aa19439cdacba6c4dd4344ae794added65fae40b03ee0a54d9d"
+  }
+}
