@@ -1,0 +1,22 @@
+WM-DIAG0-A2 -- bounded validation completed and Pro-reviewed; campaign STOPPED
+
+Human request: run approved bounded validation, obtain Pro review, resume only after every required check passes.
+Executed exactly one new allocation317173 on gpu09/RTX6000Ada,4CPU/8GiB, COMPLETED0:0,19s of180s maximum. No automatic retry. Conditional recurrence and costs matched exactly; actual batch1 versus5/8 feature compatibility failed on both tasks at unchanged tolerance. Pro reviewed immutable code/evidence, accepted this numerical validation as complete and confirmed STOP. No campaign resumption is permitted under the current condition. This is a scientific compatibility issue, not a cluster fault.
+
+PushT:156296/376320 coordinates beyond tolerance, maxabs2.355011224746704 for1vs5/8.
+Reacher:156635/376320, maxabs1.3584938049316406. Both tasks5vs8 exact; all within-route repetitions exact. Conditional PushT6021120 forecast coordinates exact, canonical source/goal and checked costs exact. Finite inputs only. No inference about efficacy, head validity or kernel cause. Original uncached PushT FAILED/Reacher UNTESTED retained.
+
+Actual counted validation:34visual calls/78frames,37proprio,7action,15predictor,3API/3terminal reductions,2predictor bundle loads/2restricted encoder loads; zero CEM/physics/source generation/readout fitting. All old accepted sources/heads/Le-WM output, failed DINO trace/bank, source failure, STOPs and ledgers preserved. No old frozen closure changed. Predicted/goal numeric arrays retained only in new cluster output, externally hash-sealed; parent inspected parity/control metadata only. No scientific aggregate/outcome publication.
+
+Executed source7d6ae7ff174d64674f64ec83f294e2a41ccb76f6, contract2045e463d88120ec2cf994293f06ea1a64e3392a0ed7f3414564965b7fb89287.
+Published result tipa65a43ea87d3b0547c06ac38b3d531aa9382d803.
+Report15815B SHA256196bd63be202ac7cecbac1f21f7e4689e64c47748fb98be1222914c2dab8240f.
+Cluster run /lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-numerical-v3.
+Old campaign remains /campaign-v4 and is not to be restarted. New validation namespace also terminal with NUMERICAL_GATE_FAILED STOP; never rerun its dispatcher.
+
+GPU actual268s including all failures and both probes; CPU1436s. Remaining127 scientific parents retain full3600s reservations;268+127*3600=457468<=approved457629<=468000. The approved maxima950755DINO calls,126859API,2064bank sequences,160parity sequences,190091120macro transitions,6402resets/PushT reset-internal steps remain bounds, not permission to ignore the failed scientific gate. CPU full-future6836 including unused1800conversion reserve; live12882899989B/13GB, archive14GB/inclusive44GB unchanged. No reserve silently transferred.
+Nonrefundable cumulative preparation14104.10301460012/14400 remains unchanged. Actual subsequent operation timings are retained in native-v3/LOCAL-NUMV3*.json within the already charged2000s continuation; no scientific runtime or review-wait time is refunded or double-charged as preparation. Remaining unreserved preparation295.89698539988s; current measured continuation allowance remains separately recorded. No new resources, dependencies, security changes, monitor or author contact.
+
+Original new source archive was whole/every20member verified before dispatch: validation-7d6ae7ff174d64674f64ec83f294e2a41ccb76f6.zip,65712B SHA2560c438c3051f765aca4bb8063895b6f997ddf12756b10df87799183e8840544fd on designated THESIS_SSD. Its name identifies actual executed source. Later source/result/review receipts do not rename or replace it. Preserve only a compact NEW result/review delta once, verify whole/every member; do not rearchive original A2, model files, historical studies or this completed source package. RESULT-REVIEW-SSD-001.json records that separate delta; final receipt commit may sit outside both archives.
+
+Next scientific decision only: whether to authorize preparation of a separately named representation-control amendment. Pro recommends specifying a single role-independent procedure and implications for existing heads/banks/checks/resources, with justification independent of favorable agreement or efficacy. It chooses no batch size/precision/backend. No such change, refit, recomputation or new measurement is authorized or implemented now. All required checks have NOT passed. Do not resume or silently narrow the estimand. No follow-up message has been sent to Pro after its completed review.

@@ -1,0 +1,25 @@
+WM-DIAG0-A2 numerical-validation V3 -- completed Pro scientific review
+
+Existing chat: https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5
+Observed title: Analyse E11 Research Question. Model selection confirmed Pro,5 of5.
+One validation-results request submitted; persisted user message and empty composer observed, followed by one completed answer marked Worked for4m49s and Response complete. No duplicate request or new chat. PRO-REQUEST-20261016.txt records the submitted content (UI whitespace/line wrapping may differ). Browser screenshot retained privately outside repository, not published.
+
+Disposition heading:
+"Scientific disposition: the conditional recurrence check passed; the campaign must remain stopped"
+
+Faithful review summary, not an independently executed Pro experiment:
+-Pro reviewed the pinned numerical report, receipt, reference subclass, worker, comparison logic and amendment. It did not rerun inference, inspect efficacy/readout predictions, query the cluster or independently authenticate SSD contents.
+-Native recurrence conditional on the same canonical batch1 visual input passed exactly on the retained PushT bank, including6021120 forecast coordinates and checked costs.
+-Actual batch1/5/8 role compatibility failed on tested images for both tasks. Matching5vs8 features and within-route repeats were exact in this finite test.
+-Original uncached RGB-to-forecast PushT remains FAILED; Reacher remains UNTESTED. A completed validation allocation is not a successful campaign gate.
+-The reference is appropriately constructed for its limited conditional claim: original recurrence/action/proprio methods inherited; adapter trajectories are not returned through the reference. No recurrence discrepancy was observed under the common input for this bank. This is not arbitrary-input or full uncached equivalence.
+-The feature-route discrepancy affects actual study roles, not just batch16. Consequently the intended predicted-versus-realized contrast could include numerical encoding-route effects. The test does not establish ranking/readout/task-success materiality, invalid heads, low-level cause or harmlessness. Exact5vs8 does not justify selecting a new production route by observed agreement.
+-The four frozen operational pipelines remain mathematically defined, but proceeding under that description would narrow the scientific interpretation rather than restore representation-controlled diagnosis.
+-The in-memory comparison limitation is correctly disclosed: later schema/hash validation cannot independently recompute unsaved comparison arrays. No extra measurement is needed merely to complete this review.
+
+ONE recommended next decision, requiring the human's separate scientific approval:
+Keep A2 stopped. Consider a separately named representation-control amendment defining one role-independent image-to-feature execution procedure across source, goal, realized, readout and reference paths. Before approving implementation/execution, specify and justify the procedure independently of favorable numerical agreement or efficacy; state effects on existing heads, banks, acceptance checks and resources. Preserve all accepted and failed artifacts. Any needed re-encoding/refit/recomputation requires explicit authorization, not technical-recovery relabeling.
+
+Pro does NOT choose batch1, batch8, FP32 or any kernel. Unaffected sources and Le-WM work need not be discarded. No additional measurement is required for today's STOP decision. Review accepts numerical validation as complete with genuine conditional success AND role failure; it grants no new inference, implementation, refit, resource or launch authority.
+
+Parent independently concurs: the human expressly conditioned resumption on all required checks passing, and the role check failed. No campaign continuation, representation change or new research operation follows. Pro advice does not supersede the human's condition or expand authority. RESULT-RECEIPT-001.json's earlier Pro_review_pending=true is historical and superseded by this completed review, not rewritten.
