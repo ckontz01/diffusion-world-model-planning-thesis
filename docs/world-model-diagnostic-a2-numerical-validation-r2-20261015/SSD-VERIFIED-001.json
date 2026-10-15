@@ -1,0 +1,23 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-numerical-validation-r2-20261015\\disabled-amendment-ddd56ed9b6877f3023ee24dff9519544578cbeb9.zip",
+  "document": {
+    "bytes": 14551,
+    "sha256": "c04894f4244fd80249473eef2a399ec215435f8ad78a7871ea9faf7164203029"
+  },
+  "members": 10,
+  "new_research_execution_authorized": false,
+  "old_packages_recopied": 0,
+  "remote_full_hash": "ddd56ed9b6877f3023ee24dff9519544578cbeb9",
+  "source_commit": "ddd56ed9b6877f3023ee24dff9519544578cbeb9",
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003351552,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 16386,
+    "sha256": "07fa7742f8539cea8c471b9b0f8345e5962d4189a7aeb9e29e1e2dc47f8fab5f"
+  }
+}

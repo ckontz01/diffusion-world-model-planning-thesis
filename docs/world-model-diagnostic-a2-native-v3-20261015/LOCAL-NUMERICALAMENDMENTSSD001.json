@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 5.90599999999904,
+  "peak_job_memory_bytes": 193101824,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\",\n  \"source_commit\": \"ddd56ed9b6877f3023ee24dff9519544578cbeb9\",\n  \"remote_full_hash\": \"ddd56ed9b6877f3023ee24dff9519544578cbeb9\",\n  \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-numerical-validation-r2-20261015\\\\disabled-amendment-ddd56ed9b6877f3023ee24dff9519544578cbeb9.zip\",\n  \"whole\": {\n    \"bytes\": 16386,\n    \"sha256\": \"07fa7742f8539cea8c471b9b0f8345e5962d4189a7aeb9e29e1e2dc47f8fab5f\"\n  },\n  \"members\": 10,\n  \"document\": {\n    \"bytes\": 14551,\n    \"sha256\": \"c04894f4244fd80249473eef2a399ec215435f8ad78a7871ea9faf7164203029\"\n  },\n  \"volume\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"SizeRemaining\": 310003351552,\n    \"HealthStatus\": \"Healthy\"\n  },\n  \"old_packages_recopied\": 0,\n  \"new_research_execution_authorized\": false\n}\n"
+}

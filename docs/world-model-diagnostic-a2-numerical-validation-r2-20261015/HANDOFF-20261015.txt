@@ -1,0 +1,56 @@
+WM-DIAG0-A2: scientific/resource decision required; NOT fixed or resumed
+
+Latest actual scientific disposition is PRO-DECISION-20261015.txt and disabled
+NUMERICAL-VALIDATION-AMENDMENT.md. This supersedes the earlier R1 note that
+the Pro response was unavailable. Pro recovered, reviewed the immutable sources
+and numerical receipt, and returned one completed7m15s answer. No new question
+or reviewer request should be sent as if that answer were still pending.
+
+The full uncached gate remains FAILED. Conditional recurrence is NOT TESTED;
+actual role batch1/5/8 comparability is NOT ESTABLISHED. No production encoding,
+precision, score, head, root, bank, tail, label or grid changed. No scientific
+efficacy/readout-quality aggregate inspected. The one encoding-only probe found
+batch1/16 visual discrepancy; it did not prove a low-level cause or invalidate
+all accepted heads. Never relax tolerances or relabel conditional as end-to-end.
+
+All120 sources,4heads,accepted PushT LeWM root000 and old failures/partials/
+STOPs/authors/resources are preserved. Old exact DAG terminal; probe317172
+COMPLETED13s. GPU249s/CPU1436s actual charged. No current study job left live.
+No monitor/subagent created; historical studies and paused monitors untouched.
+
+New disabled document/source commitddd56ed9b6877f3023ee24dff9519544578cbeb9,
+full remote hash verified before native Windows preservation. New ONLY package:
+D:/THESIS-BACKUPS/world-model-diagnostic-a2-numerical-validation-r2-20261015/disabled-amendment-ddd56ed9b6877f3023ee24dff9519544578cbeb9.zip
+16386B SHA25607fa7742f8539cea8c471b9b0f8345e5962d4189a7aeb9e29e1e2dc47f8fab5f.
+Whole and10members independently read back; designated THESIS_SSD healthy,
+310003351552B free. Previous13member diagnosis and all old packages unchanged.
+Amendment14551B SHA256c04894f4244fd80249473eef2a399ec215435f8ad78a7871ea9faf7164203029.
+Post-preservation receipt publication differs from source/archive commit; do
+not rearchive or rename completed packages just to match the receipt tip.
+
+ARITHMETIC-CHECK-001.json is documentation-only arithmetic, no model import or
+scientific operation. Proposed full-future exceptions are +15DINO predictor
+calls,+3cost/reforecast API operations,+16bank reforecast sequences,+32technical
+parity sequences,+240macro transitions,+1PushT reset/+2reset-internal steps.
+Units overlap for the same work; they are not independent added workloads.
+GPU/CPU/thread/RAM/storage and aggregate physical ceilings otherwise unchanged.
+There is NO human approval of this disabled proposal yet. Do not implement
+or run its numerical gate or launch/resume a study allocation from this record.
+
+If the human approves validation-only, first reconcile live state/receipts,
+implement an exclusive reference-only validation package with artificial tests,
+freeze exact input/code/runtime/workload and authorized-count deltas, full
+remote verify and required new small-package SSD whole/member verify before
+its one finite job. No new source/fit/simulator/extra checkpoint/precision
+search. Preserve the old bank but do not assume unsaved forecasts exist.
+Return its evidence for the interpretation decision before campaign resumption.
+
+All future final archive code must include R1/R2 lineage and every failure/
+authority/ledger, not just obsolete V4 paths. Full independent scientific
+acceptance AND final designated SSD whole/every-member gate still precede
+result inspection/publication. No automatic new experiment or promotion.
+
+Measured LOCAL total after check0.188s and preservation5.906s:
+914.878000000008s inside the original1700-operation allowance of the prepaid
+2000s native-v3 charge; no refund/double charge. Cumulative14104.10301460012s,
+unreserved295.89698539988s; publication/read overhead retained in that charge.
