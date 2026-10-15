@@ -1,0 +1,15 @@
+{
+  "command": [
+    "git",
+    "add",
+    "--",
+    "wm_diag0_rc1_prep_routing_v1",
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016",
+    "docs/world-model-diagnostic-rc1-ops-reserve-v1-20261016/SSD-VERIFIED-001.json",
+    "docs/world-model-diagnostic-rc1-ops-reserve-v1-20261016/LOCAL-RC1TECHOBS001.json",
+    "docs/world-model-diagnostic-rc1-ops-reserve-v1-20261016/LOCAL-RC1TECHOBS001.started.json",
+    "docs/world-model-diagnostic-rc1-technical-v1-20261016/OBSERVE-001.json"
+  ],
+  "component": "freeze_publication_SSD",
+  "timeout_seconds": 5
+}

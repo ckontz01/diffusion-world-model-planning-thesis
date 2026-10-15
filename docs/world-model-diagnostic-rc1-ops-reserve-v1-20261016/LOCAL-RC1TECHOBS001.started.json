@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_rc1_technical_v1.operations",
+    "observe",
+    "001"
+  ],
+  "funding": "ACTIVATION.json",
+  "timeout_seconds": 25
+}

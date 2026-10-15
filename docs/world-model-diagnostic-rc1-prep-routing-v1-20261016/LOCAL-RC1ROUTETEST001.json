@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "implementation_artificial_schema",
+  "elapsed_seconds": 0.23500000000058208,
+  "peak_job_memory_bytes": 22360064,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"PROSPECTIVE_SAME_TOTAL_ROUTING_CHECKED\", \"new_charge\": 0, \"research_calls\": 0}\n"
+}

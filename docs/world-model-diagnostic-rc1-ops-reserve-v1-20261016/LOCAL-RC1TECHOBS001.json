@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "last_unreserved_metadata_reserve",
+  "elapsed_seconds": 11.14100000000326,
+  "peak_job_memory_bytes": 30363648,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"dispatch\": {\n    \"allocation_seconds_each\": 3600,\n    \"array_job_id\": \"317177\",\n    \"automatic_retries\": 0,\n    \"campaign_resumed\": false,\n    \"contract_sha256\": \"101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd\",\n    \"settings\": [\n      1,\n      2,\n      3\n    ]\n  },\n  \"queue\": \"317177_[2-3%1]|PENDING|0:00||(JobArrayTaskLimit)\\n317177_1|RUNNING|2:06|gpu09|gpu09\\n\",\n  \"scheduler\": \"317177_1|317178|RUNNING|0:0|126|4|gpu09\\n317177_[2-3%1]|317177|PENDING|0:0|0|4|None assigned\\n\",\n  \"tasks\": {\n    \"1\": {\n      \"STARTED\": {\n        \"PID\": 127986,\n        \"array_job_id\": \"317177\",\n        \"contract\": \"101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd\",\n        \"job_id\": \"317178\",\n        \"node\": \"gpu09.cluster\",\n        \"setting\": 1,\n        \"start_ticks\": \"5124698\",\n        \"time\": 1792106081.1778896\n      },\n      \"process\": {\n        \"node\": \"gpu09.cluster\",\n        \"PID\": 127986,\n        \"start_ticks\": \"5124698\",\n        \"scope\": \"compute-node record; not login /proc\",\n        \"verification_returncode\": 0,\n        \"PID_exists\": true,\n        \"start_ticks_match\": true\n      }\n    },\n    \"2\": {},\n    \"3\": {}\n  },\n  \"STOP\": null,\n  \"quality_or_predictions_read\": false\n}\n"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PROSPECTIVE_TECHNICAL_RESERVATION_ROUTING_SAME_TOTAL_NO_NEW_CHARGE",
+  "authority": "latest direct autonomous bounded iteration and 30-minute monitoring request, within original preparation limit",
+  "original_activation_identity": {"bytes": 1174, "sha256": "13dee457d1bf6b5aa6579d716a5e30e2a3d2c0d8553f825da950126615d95e5c"},
+  "original_component_ceiling_seconds": {"implementation_artificial_schema":400,"cluster_artificial_interface":120,"freeze_publication_SSD":80,"metadata_reconciliation_staging":90,"fault_reserve":60},
+  "prospective_component_ceiling_seconds": {"implementation_artificial_schema":220,"cluster_artificial_interface":120,"freeze_publication_SSD":80,"metadata_reconciliation_staging":270,"fault_reserve":60},
+  "unchanged_measured_total_ceiling_seconds": 750,
+  "new_nonrefundable_charge": 0,
+  "cumulative_nonrefundable_charge_including_separate_last_reserve": 14400,
+  "remaining_unreserved_seconds": 0,
+  "historic_labels_receipts_charges_and_sources_unchanged": true,
+  "separate_last_reserve_not_counted_twice": true,
+  "old_rc1_runner_new_use_forbidden_after_this_routing": true,
+  "relabelled_healthy_work_as_fault_repair": false,
+  "all_outer_scientific_compute_storage_security_limits_unchanged": true,
+  "hard_stops_and_precise_new_labels_retained": true
+}
