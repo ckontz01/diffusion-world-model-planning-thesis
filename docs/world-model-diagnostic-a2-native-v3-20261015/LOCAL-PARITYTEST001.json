@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.48400000000037835,
+  "peak_job_memory_bytes": 25878528,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "...\n----------------------------------------------------------------------\nRan 3 tests in 0.043s\n\nOK\n",
+  "stdout": ""
+}

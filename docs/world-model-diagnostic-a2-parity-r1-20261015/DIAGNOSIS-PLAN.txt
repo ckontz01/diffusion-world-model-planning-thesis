@@ -1,0 +1,41 @@
+WM-DIAG0-A2 technical fault isolation R1; campaign NOT resumed
+
+Authority: human directly requested "Fix the issue and resume the run".
+This package first diagnoses only the numerical input path. No tolerance,
+scientific configuration, root, seed, head, bank, model, or result changes.
+The old executed closure, STOP, six partial bank files and all five accepted
+task outputs remain unchanged. All four old dispatched IDs are terminal;
+236 GPU seconds and1436 CPU seconds charged before this operation.
+
+Static audit found that the cached RGB encoder uses batch1, while the pinned
+native VWorldModel.rollout reference encodes16 replicated RGB frames together.
+Action encoding also uses sequence5 in the adapter versus sequence1 calls in
+the native rollout. Both run under the fixed BF16 autocast. Neither difference
+is yet proven to explain the failed full temporal tensor comparison.
+
+One finite encoding-only diagnostic is permitted by the existing technical
+repair authority: exact original PushT root000/failed16-candidate bank, original
+authenticated DINO components and pinned encoder. Two visual encoder calls,
+17 frames, six action encoder calls, two proprio encoder calls. ZERO predictor,
+scorer, CEM, simulator/reset/action, source-generation or fitting operations.
+Only tensor identity/tolerance discrepancy statistics are exported; no partial
+efficacy, choices, outcomes or readout quality. Original rtol2^-6/atol2^-8.
+
+One exact RTX6000 Ada on gpu09/a6000 with existing normal-a6000 QOS,4CPU/8GiB,
+180 allocation seconds:120 work+60 preservation. No retry or replacement loop.
+236+180+127*3600=457616 GPU seconds including a full remaining diagnostic
+reservation, below468000. CPU reserve and unused1800 conversion unchanged.
+Combined task output/temp1MB and logs100KB, charged to existing live slack.
+No old packages/model/runtime copies; staged sources use authenticated hardlinks.
+Only this new compact source/metadata package is SSD whole/member verified.
+
+Preparation remains inside the existing fully prepaid2000-second native-v3
+continuation (cumulative14104.10301460012;295.89698539988 unreserved). Measured
+LOCAL receipts are evidence, not added a second time and not a refund.
+
+This diagnostic is not a scientific parity PASS, an altered gate, or authority
+to submit the remaining study. A subsequent finite recovery must reconcile
+all additional forwards, physical work, attempts and full-future caps. A naive
+rerun would exceed the reset and DINO-call maxima; do not silently expand them.
+Use preserved bank work if a safe authenticated continuation is possible.
+Scientific choices go to the authorized reviewer, never decided by efficacy.
