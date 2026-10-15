@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_preflight_v1.stage_recovery_r1",
+    "freeze"
+  ],
+  "timeout_seconds": 100
+}

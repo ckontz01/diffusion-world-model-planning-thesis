@@ -1,0 +1,78 @@
+{
+  "diagnosis": "Original monolithic 266MB stdin upload exceeded its bounded transport deadline after 194MB; exact receiver process no longer exists. Complete suppliers match hashes; Reacher has a 16MiB prefix. No scheduler attempt occurred.",
+  "full_future_other_cpu_seconds": 12600,
+  "immutable_worker_source": "04969e38ab070dd5e88f53d23fd60063956d208f",
+  "inclusive_cap": 44000000000,
+  "inclusive_full_future_bytes": 43374852312,
+  "live_cap": 13000000000,
+  "live_full_future_bytes": 12536395242,
+  "max_cpu_seconds": 1200,
+  "maximum_suffix_bytes": 72060639,
+  "new_cpu_allocations_authorized": 1,
+  "new_run": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/preflight-v1-stage-r1",
+  "old_run_untouched": true,
+  "old_successful_suppliers_not_retransmitted": true,
+  "status": "FINITE_TRANSPORT_ONLY_RECOVERY",
+  "suppliers": {
+    "complete": {
+      "ROOT-PLAN.json": {
+        "bytes": 113056,
+        "sha256": "e648465420311a69a3df237b9f199ecd070e1c1241481376888ffbffe593630f",
+        "symlink": false
+      },
+      "artifacts/dinov2_vits14.pth": {
+        "bytes": 88283115,
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+        "symlink": false
+      },
+      "artifacts/pusht.pth": {
+        "bytes": 88837855,
+        "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+        "symlink": false
+      }
+    },
+    "dispatch_exists": false,
+    "exact_upload_processes": [],
+    "members": {
+      "controls/STAGING-STARTED.json": {
+        "bytes": 117,
+        "sha256": "c77d70d7de6c1f9b5916229b553dc9e05144d03ea0b31c3916114b77ef23caca",
+        "symlink": false
+      },
+      "source/CONTRACT.json": {
+        "bytes": 74139,
+        "sha256": "a81a96f099251baf05d8ebb33bfc885799f57239d645f716afde747031439e77",
+        "symlink": false
+      },
+      "source/ROOT-PLAN.json": {
+        "bytes": 113056,
+        "sha256": "e648465420311a69a3df237b9f199ecd070e1c1241481376888ffbffe593630f",
+        "symlink": false
+      },
+      "source/artifacts/dinov2_vits14.pth": {
+        "bytes": 88283115,
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+        "symlink": false
+      },
+      "source/artifacts/pusht.pth": {
+        "bytes": 88837855,
+        "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+        "symlink": false
+      },
+      "source/artifacts/reacher.pth": {
+        "bytes": 16777216,
+        "sha256": "c5430778a15b00014636629092eb93de9fe8da6caba63b88db4a0354cc6fbad0",
+        "symlink": false
+      }
+    },
+    "partial": {
+      "artifacts/reacher.pth": {
+        "bytes": 16777216,
+        "sha256": "c5430778a15b00014636629092eb93de9fe8da6caba63b88db4a0354cc6fbad0",
+        "symlink": false
+      }
+    },
+    "total_retained_bytes": 194085498,
+    "utc": "2026-10-15T16:46:49Z"
+  }
+}

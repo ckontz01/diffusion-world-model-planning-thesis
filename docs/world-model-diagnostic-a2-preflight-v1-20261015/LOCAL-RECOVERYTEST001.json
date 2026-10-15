@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 0.5309999999990396,
+  "peak_job_memory_bytes": 25006080,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_original_frozen_worker_not_changed (wm_diag0_preflight_v1.test_recovery.RecoveryTests.test_original_frozen_worker_not_changed) ... ok\ntest_prefix_plus_suffix_preserves_exact_original (wm_diag0_preflight_v1.test_recovery.RecoveryTests.test_prefix_plus_suffix_preserves_exact_original) ... ok\ntest_reconciled_no_dispatch_or_receiver (wm_diag0_preflight_v1.test_recovery.RecoveryTests.test_reconciled_no_dispatch_or_receiver) ... ok\ntest_source_and_python36_receiver_parse (wm_diag0_preflight_v1.test_recovery.RecoveryTests.test_source_and_python36_receiver_parse) ... ok\n\n----------------------------------------------------------------------\nRan 4 tests in 0.052s\n\nOK\n",
+  "stdout": ""
+}
