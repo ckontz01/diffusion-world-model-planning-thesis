@@ -1,0 +1,61 @@
+{
+  "container": {
+    "returncode": 0,
+    "stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+    "stdout": "{}\n"
+  },
+  "environment_modified": false,
+  "existing_venv_renderer_candidates": [
+    "lib/python3.11/site-packages/OpenGL/osmesa/__init__.py",
+    "lib/python3.11/site-packages/OpenGL/platform/osmesa.py",
+    "lib/python3.11/site-packages/OpenGL/raw/osmesa/__init__.py",
+    "lib/python3.11/site-packages/OpenGL/raw/osmesa/_types.py",
+    "lib/python3.11/site-packages/OpenGL/raw/osmesa/mesa.py",
+    "lib/python3.11/site-packages/dm_control/_render/pyopengl/osmesa_renderer.py",
+    "lib/python3.11/site-packages/dm_control/_render/pyopengl/osmesa_renderer_test.py",
+    "lib/python3.11/site-packages/glfw/wayland/libglfw.so",
+    "lib/python3.11/site-packages/glfw/x11/libglfw.so",
+    "lib/python3.11/site-packages/mujoco/osmesa/__init__.py"
+  ],
+  "gpu_requests": 0,
+  "host_renderer_candidates": {
+    "/usr/lib64/libGL.so.1": {
+      "bytes": 558952,
+      "realpath": "/usr/lib64/libGL.so.1.7.0"
+    },
+    "/usr/lib64/libGL.so.1.7.0": {
+      "bytes": 558952,
+      "realpath": "/usr/lib64/libGL.so.1.7.0"
+    },
+    "/usr/lib64/libGLX.so.0": {
+      "bytes": 141280,
+      "realpath": "/usr/lib64/libGLX.so.0.0.0"
+    },
+    "/usr/lib64/libGLX.so.0.0.0": {
+      "bytes": 141280,
+      "realpath": "/usr/lib64/libGLX.so.0.0.0"
+    },
+    "/usr/lib64/libGLX_mesa.so.0": {
+      "bytes": 505528,
+      "realpath": "/usr/lib64/libGLX_mesa.so.0.0.0"
+    },
+    "/usr/lib64/libGLX_mesa.so.0.0.0": {
+      "bytes": 505528,
+      "realpath": "/usr/lib64/libGLX_mesa.so.0.0.0"
+    },
+    "/usr/lib64/libGLX_system.so.0": {
+      "bytes": 505528,
+      "realpath": "/usr/lib64/libGLX_mesa.so.0.0.0"
+    },
+    "/usr/lib64/libGLdispatch.so.0": {
+      "bytes": 769056,
+      "realpath": "/usr/lib64/libGLdispatch.so.0.0.0"
+    },
+    "/usr/lib64/libGLdispatch.so.0.0.0": {
+      "bytes": 769056,
+      "realpath": "/usr/lib64/libGLdispatch.so.0.0.0"
+    }
+  },
+  "library_files_copied": 0,
+  "simulators": 0
+}

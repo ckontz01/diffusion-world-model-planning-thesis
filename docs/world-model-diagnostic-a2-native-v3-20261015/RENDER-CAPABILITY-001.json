@@ -1,0 +1,8 @@
+{
+  "gpu_requests": 0,
+  "models": 0,
+  "returncode": 0,
+  "simulators": 0,
+  "stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "stdout": "{\"OSMesa\": null, \"EGL\": null, \"GL\": null, \"glfw\": null}\n"
+}

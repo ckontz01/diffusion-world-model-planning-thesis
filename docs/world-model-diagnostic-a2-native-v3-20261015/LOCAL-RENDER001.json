@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 13.25,
+  "peak_job_memory_bytes": 29384704,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"returncode\": 0,\n  \"stdout\": \"{\\\"OSMesa\\\": null, \\\"EGL\\\": null, \\\"GL\\\": null, \\\"glfw\\\": null}\\n\",\n  \"stderr\": \"INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\\n\",\n  \"simulators\": 0,\n  \"models\": 0,\n  \"gpu_requests\": 0\n}\n"
+}

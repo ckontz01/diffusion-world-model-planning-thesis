@@ -1,0 +1,5 @@
+{
+  "returncode": 0,
+  "stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "stdout": "{\"os_release\": \"PRETTY_NAME=\\\"Ubuntu 22.04.5 LTS\\\"\\nNAME=\\\"Ubuntu\\\"\\nVERSION_ID=\\\"22.04\\\"\\nVERSION=\\\"22.04.5 LTS (Jammy Jellyfish)\\\"\\nVERSION_CODENAME=jammy\\nID=ubuntu\\nID_LIKE=debian\\nHOME_URL=\\\"https://www.ubuntu.com/\\\"\\nSUPPORT_URL=\\\"https://help.ubuntu.com/\\\"\\nBUG_REPORT_URL=\\\"https://bugs.launchpad.net/ubuntu/\\\"\\nPRIVACY_POLICY_URL=\\\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\\\"\\nUBUNTU_CODENAME=jammy\\n\", \"libc\": [\"glibc\", \"2.35\"]}\n"
+}

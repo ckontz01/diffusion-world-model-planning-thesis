@@ -1,0 +1,6 @@
+{
+  "environment_modified": false,
+  "returncode": 0,
+  "stderr": "",
+  "stdout": "{\"existing_osmesa\": {\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.6\": {\"bytes\": 15565176, \"realpath\": \"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\"}, \"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8\": {\"bytes\": 15565176, \"realpath\": \"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\"}, \"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\": {\"bytes\": 15565176, \"realpath\": \"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\"}}, \"executables\": {\"Xvfb\": null, \"xvfb-run\": null}}\n"
+}

@@ -1,0 +1,287 @@
+{
+  "aliases": {
+    "libLLVM-15.so": "libLLVM-15.so.1",
+    "libOSMesa.so.6": "libOSMesa.so.8",
+    "libOSMesa.so.8": "libOSMesa.so.8.0.0",
+    "libbsd.so.0": "libbsd.so.0.11.5",
+    "libdrm.so.2": "libdrm.so.2.4.0",
+    "libedit.so.2": "libedit.so.2.0.68",
+    "libffi.so.8": "libffi.so.8.1.0",
+    "libglapi.so.0": "libglapi.so.0.0.0",
+    "libicudata.so.70": "libicudata.so.70.1",
+    "libicui18n.so.70": "libicui18n.so.70.1",
+    "libicuio.so.70": "libicuio.so.70.1",
+    "libicutest.so.70": "libicutest.so.70.1",
+    "libicutu.so.70": "libicutu.so.70.1",
+    "libicuuc.so.70": "libicuuc.so.70.1",
+    "libmd.so.0": "libmd.so.0.0.5",
+    "libtic.so.6": "libtic.so.6.3",
+    "libxml2.so.2": "libxml2.so.2.9.13",
+    "libzstd.so.1": "libzstd.so.1.4.8"
+  },
+  "elapsed_seconds": 30.79700000000048,
+  "indexes": {
+    "jammy-updates/main/binary-amd64/Packages.xz": {
+      "bytes": 3907984,
+      "sha256": "8e222b2cd872b784201a5ec59713a0b8771f8253212c813c23d2caea86038c78"
+    },
+    "jammy-updates/universe/binary-amd64/Packages.xz": {
+      "bytes": 1286964,
+      "sha256": "b2a8ff0fdbc7c67cec3ee6fe884e901c1a4106d6e312b57eec0c580526b9bc4f"
+    },
+    "jammy/main/binary-amd64/Packages.xz": {
+      "bytes": 1394768,
+      "sha256": "37cb57f1554cbfa71c5a29ee9ffee18a9a8c1782bb0568e0874b7ff4ce8f9c11"
+    }
+  },
+  "library_bytes": 168200832,
+  "members": {
+    "libLLVM-15.so.1": {
+      "bytes": 116869584,
+      "sha256": "de2e35a4f9b3f6a06d2a8a3342b3f62a3842b1923b8dfc2a6ce48e0cc2d1e85d"
+    },
+    "libOSMesa.so.8.0.0": {
+      "bytes": 12520128,
+      "sha256": "8b6e9370ba718781323ff10bc112d7cff2996fabf5cbf47da66c1943c20d69f5"
+    },
+    "libbsd.so.0.11.5": {
+      "bytes": 89096,
+      "sha256": "e4ad21c203d8e8b9b7f49071311339af6b438026e1ad236403e3b379b022f23d"
+    },
+    "libdrm.so.2.4.0": {
+      "bytes": 84592,
+      "sha256": "bab1e283c0fdd19eae10db2522fdc5806f0efee3c175e5e8bb1bc1b478c7e2b1"
+    },
+    "libedit.so.2.0.68": {
+      "bytes": 216376,
+      "sha256": "81dbdf431b1d828bad9e2511b562310bd3f0bdb1bad998775406d2784426fd66"
+    },
+    "libffi.so.8.1.0": {
+      "bytes": 47688,
+      "sha256": "247da4d5d34a91cadcdd6282be4c4644fcb8af001334d2b8a82ecda435418cbf"
+    },
+    "libglapi.so.0.0.0": {
+      "bytes": 211304,
+      "sha256": "6b0b3d9623ca09ae7d16d3320d8866dc0557d67e9cbb63c12752fe723444a0a1"
+    },
+    "libicudata.so.70.1": {
+      "bytes": 29476472,
+      "sha256": "c1404396288e178c8db2f30203cb8150e4d2c14cacee9a2883e0092f45399cc8"
+    },
+    "libicui18n.so.70.1": {
+      "bytes": 3328472,
+      "sha256": "24fa78caa9b66c10c90711c51089f45273b643f132031172d54a3e98d711d48e"
+    },
+    "libicuio.so.70.1": {
+      "bytes": 63880,
+      "sha256": "078fc429db6d95656013bb48e268056cb0dde6b1d0bba413c39eed89cee8bc4a"
+    },
+    "libicutest.so.70.1": {
+      "bytes": 81568,
+      "sha256": "159fb14c4e49367fadf322db65769a22533c5a2b6fef191fa6b5c955adb7c7e9"
+    },
+    "libicutu.so.70.1": {
+      "bytes": 220352,
+      "sha256": "f7056f005dcb915a9a848f570a5f78d5f37e1dea84695d78cc27b38b7ee68729"
+    },
+    "libicuuc.so.70.1": {
+      "bytes": 2062664,
+      "sha256": "4683f3623dc47a92e862dc3c8770caff81c9f4c7e116bb672fc439737b06d88a"
+    },
+    "libmd.so.0.0.5": {
+      "bytes": 47472,
+      "sha256": "bb376813876bb214535bbbdac70f2c0c4b00baecb81557dab78a79518248df06"
+    },
+    "libtic.so.6.3": {
+      "bytes": 71992,
+      "sha256": "c8830fb769e24c870bc0ee9fe82df8af007b5a999df408bcff86e5ba4f2736a7"
+    },
+    "libxml2.so.2.9.13": {
+      "bytes": 1967384,
+      "sha256": "8c2a993fe42a16e94f9054f1b9cbeccea50b6ed377359e9d3da04cbb2470f225"
+    },
+    "libzstd.so.1.4.8": {
+      "bytes": 841808,
+      "sha256": "5df4f4df42d76270bb6981fabc7c1fdccd8ad28a23d84d67f73203fb3f537667"
+    }
+  },
+  "models_loaded": 0,
+  "old_environment_modified": false,
+  "packages": {
+    "libbsd0": {
+      "depends": "libc6 (>= 2.33), libmd0 (>= 1.0.3-2)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libb/libbsd/libbsd0_0.11.5-1_amd64.deb",
+      "filename": "pool/main/libb/libbsd/libbsd0_0.11.5-1_amd64.deb",
+      "identity": {
+        "bytes": 44760,
+        "sha256": "09367acdf59f28ffb71ba7bc36c516cff03b2765930cf9be7bb7ea7273e4c312"
+      },
+      "version": "0.11.5-1"
+    },
+    "libdrm2": {
+      "depends": "libdrm-common (>= 2.4.113-2~ubuntu0.22.04.1), libc6 (>= 2.33)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libd/libdrm/libdrm2_2.4.113-2~ubuntu0.22.04.1_amd64.deb",
+      "filename": "pool/main/libd/libdrm/libdrm2_2.4.113-2~ubuntu0.22.04.1_amd64.deb",
+      "identity": {
+        "bytes": 38106,
+        "sha256": "555925f1caedfd98d89bae3bc11b4fe3401c2c4817dbbafcab25e1144582e946"
+      },
+      "version": "2.4.113-2~ubuntu0.22.04.1"
+    },
+    "libedit2": {
+      "depends": "libbsd0 (>= 0.1.3), libc6 (>= 2.33), libtinfo6 (>= 6)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libe/libedit/libedit2_3.1-20210910-1build1_amd64.deb",
+      "filename": "pool/main/libe/libedit/libedit2_3.1-20210910-1build1_amd64.deb",
+      "identity": {
+        "bytes": 96766,
+        "sha256": "fb8783bdf0a59aaabf4e9b29192170f6cc17aa2eb94bc672c15add37ff39525b"
+      },
+      "version": "3.1-20210910-1build1"
+    },
+    "libffi8": {
+      "depends": "libc6 (>= 2.27)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libf/libffi/libffi8_3.4.2-4_amd64.deb",
+      "filename": "pool/main/libf/libffi/libffi8_3.4.2-4_amd64.deb",
+      "identity": {
+        "bytes": 22326,
+        "sha256": "b4f88c91fa6f4c942097be6abfc365fb133c5e147640168cbb7704fd855eac10"
+      },
+      "version": "3.4.2-4"
+    },
+    "libglapi-mesa": {
+      "depends": "libc6 (>= 2.34)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mesa/libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+      "filename": "pool/main/m/mesa/libglapi-mesa_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+      "identity": {
+        "bytes": 35558,
+        "sha256": "bb9b515ea17ca816f878501d3b862c4bdfc3501482f96c9bbd8263bb402bc498"
+      },
+      "version": "23.2.1-1ubuntu3.1~22.04.4"
+    },
+    "libicu70": {
+      "depends": "libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5.2)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/i/icu/libicu70_70.1-2_amd64.deb",
+      "filename": "pool/main/i/icu/libicu70_70.1-2_amd64.deb",
+      "identity": {
+        "bytes": 10581942,
+        "sha256": "58a154f6307289813da2276f900498ef536ae7c0522d2cf31a3c3c5cf62dfd9a"
+      },
+      "version": "70.1-2"
+    },
+    "libllvm15": {
+      "depends": "libc6 (>= 2.34), libedit2 (>= 2.11-20080614-0), libffi8 (>= 3.4), libgcc-s1 (>= 3.3), libstdc++6 (>= 12), libtinfo6 (>= 6), libxml2 (>= 2.7.4), zlib1g (>= 1:1.2.0)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/l/llvm-toolchain-15/libllvm15_15.0.7-0ubuntu0.22.04.3_amd64.deb",
+      "filename": "pool/main/l/llvm-toolchain-15/libllvm15_15.0.7-0ubuntu0.22.04.3_amd64.deb",
+      "identity": {
+        "bytes": 25375730,
+        "sha256": "96798f618e4071f7fa684037bd0bb88f15b4e8f2c80cbb64267aa39fe8a8a5ec"
+      },
+      "version": "1:15.0.7-0ubuntu0.22.04.3"
+    },
+    "libmd0": {
+      "depends": "libc6 (>= 2.33)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libm/libmd/libmd0_1.0.4-1build1_amd64.deb",
+      "filename": "pool/main/libm/libmd/libmd0_1.0.4-1build1_amd64.deb",
+      "identity": {
+        "bytes": 22964,
+        "sha256": "bcdad5e400aeb660f0337a1c5c1a77e3effa91d0803e64ce2d000e9006f67cdb"
+      },
+      "version": "1.0.4-1build1"
+    },
+    "libosmesa6": {
+      "depends": "libc6 (>= 2.34), libdrm2 (>= 2.4.25), libgcc-s1 (>= 3.4), libglapi-mesa (= 23.2.1-1ubuntu3.1~22.04.4), libllvm15, libstdc++6 (>= 11), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.1.4)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/m/mesa/libosmesa6_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+      "filename": "pool/main/m/mesa/libosmesa6_23.2.1-1ubuntu3.1~22.04.4_amd64.deb",
+      "identity": {
+        "bytes": 3115592,
+        "sha256": "d961bee304d032b7a3f626239366bbe36c4481adb5699813389cdbd08d682269"
+      },
+      "version": "23.2.1-1ubuntu3.1~22.04.4"
+    },
+    "libtinfo6": {
+      "depends": "libc6 (>= 2.33)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/n/ncurses/libtinfo6_6.3-2ubuntu0.3_amd64.deb",
+      "filename": "pool/main/n/ncurses/libtinfo6_6.3-2ubuntu0.3_amd64.deb",
+      "identity": {
+        "bytes": 104576,
+        "sha256": "3b8dff43a31168f5020928f2ab9a97324c5b47ae708311781f6bd01306c96214"
+      },
+      "version": "6.3-2ubuntu0.3"
+    },
+    "libxml2": {
+      "depends": "libc6 (>= 2.34), libicu70 (>= 70.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libx/libxml2/libxml2_2.9.13+dfsg-1ubuntu0.14_amd64.deb",
+      "filename": "pool/main/libx/libxml2/libxml2_2.9.13+dfsg-1ubuntu0.14_amd64.deb",
+      "identity": {
+        "bytes": 765170,
+        "sha256": "16e395b2c52d6ab232053468febc69f0876956ec2fae357a941a2a8dab36574f"
+      },
+      "version": "2.9.13+dfsg-1ubuntu0.14"
+    },
+    "libzstd1": {
+      "depends": "libc6 (>= 2.14)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/libz/libzstd/libzstd1_1.4.8+dfsg-3build1_amd64.deb",
+      "filename": "pool/main/libz/libzstd/libzstd1_1.4.8+dfsg-3build1_amd64.deb",
+      "identity": {
+        "bytes": 324024,
+        "sha256": "ae7db00ce8b093e50c994518b90203544e063b4bc574836a048bb142b950b2c9"
+      },
+      "version": "1.4.8+dfsg-3build1"
+    },
+    "zlib1g": {
+      "depends": "libc6 (>= 2.14)",
+      "download_url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g_1.2.11.dfsg-2ubuntu9.2_amd64.deb",
+      "filename": "pool/main/z/zlib/zlib1g_1.2.11.dfsg-2ubuntu9.2_amd64.deb",
+      "identity": {
+        "bytes": 58406,
+        "sha256": "9dc17e51a1be2d9ed63b7b84ef0e4e29c5abe6f1bc62cb03e7181483cce8a2f2"
+      },
+      "version": "1:1.2.11.dfsg-2ubuntu9.2"
+    }
+  },
+  "retained_bytes": 215774604,
+  "reused_R3_suppliers": {
+    "dists_jammy-updates_InRelease": {
+      "bytes": 128049,
+      "sha256": "a09a06cb08a52cfa2454885c4557beff39b15802af87cb626286ef3d763c0474"
+    },
+    "dists_jammy-updates_main_binary-amd64_Packages.xz": {
+      "bytes": 3907984,
+      "sha256": "8e222b2cd872b784201a5ec59713a0b8771f8253212c813c23d2caea86038c78"
+    },
+    "dists_jammy-updates_universe_binary-amd64_Packages.xz": {
+      "bytes": 1286964,
+      "sha256": "b2a8ff0fdbc7c67cec3ee6fe884e901c1a4106d6e312b57eec0c580526b9bc4f"
+    },
+    "dists_jammy_InRelease": {
+      "bytes": 270087,
+      "sha256": "c14060cd8c6d625874dfcb9523a35a395bf4865c28b6b6a82569ef326fe92dc6"
+    },
+    "dists_jammy_main_binary-amd64_Packages.xz": {
+      "bytes": 1394768,
+      "sha256": "37cb57f1554cbfa71c5a29ee9ffee18a9a8c1782bb0568e0874b7ff4ce8f9c11"
+    }
+  },
+  "signatures": {
+    "jammy": {
+      "release": {
+        "bytes": 270087,
+        "sha256": "c14060cd8c6d625874dfcb9523a35a395bf4865c28b6b6a82569ef326fe92dc6"
+      },
+      "returncode": 0,
+      "stderr": "gpgv: Signature made Thu Apr 21 20:16:39 2022 EEST\ngpgv:                using RSA key 871920D1991BC93C\ngpgv: Good signature from \"Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>\"\n",
+      "stdout": ""
+    },
+    "jammy-updates": {
+      "release": {
+        "bytes": 128049,
+        "sha256": "a09a06cb08a52cfa2454885c4557beff39b15802af87cb626286ef3d763c0474"
+      },
+      "returncode": 0,
+      "stderr": "gpgv: Signature made Thu Oct 15 15:22:16 2026 EEST\ngpgv:                using RSA key F6ECB3762474EDA9D21B7022871920D1991BC93C\ngpgv: Good signature from \"Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>\"\n",
+      "stdout": ""
+    }
+  },
+  "simulators": 0,
+  "status": "SIGNED_LIBRARY_BYTES_READY_NOT_INSTALLED"
+}

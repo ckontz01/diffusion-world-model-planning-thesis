@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.8130000000001019,
+  "peak_job_memory_bytes": 168431616,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_all_new_source_compiles_without_import_execution (wm_diag0_native_v3.test_native.NativePreparation.test_all_new_source_compiles_without_import_execution) ... ok\ntest_duplicate_json_keys_rejected (wm_diag0_native_v3.test_native.NativePreparation.test_duplicate_json_keys_rejected) ... ok\ntest_external_manifest_extra_missing_and_changed (wm_diag0_native_v3.test_native.NativePreparation.test_external_manifest_extra_missing_and_changed) ... ok\ntest_frozen_manifest_not_regenerated (wm_diag0_native_v3.test_native.NativePreparation.test_frozen_manifest_not_regenerated) ... ok\ntest_objects_nonfinite_and_oversize_rejected (wm_diag0_native_v3.test_native.NativePreparation.test_objects_nonfinite_and_oversize_rejected) ... ok\ntest_phase_requires_external_seal_and_no_overwrite (wm_diag0_native_v3.test_native.NativePreparation.test_phase_requires_external_seal_and_no_overwrite) ... ok\ntest_safe_arrays_and_independent_header (wm_diag0_native_v3.test_native.NativePreparation.test_safe_arrays_and_independent_header) ... ok\ntest_scaler_exact_native_rounding_and_group_clock (wm_diag0_native_v3.test_native.NativePreparation.test_scaler_exact_native_rounding_and_group_clock) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.134s\n\nOK\n",
+  "stdout": ""
+}

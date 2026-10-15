@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 21.70300000000134,
+  "peak_job_memory_bytes": 363388928,
+  "returncode": 1,
+  "status": "FINISHED",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_native_v3\\renderer_stage_r5.py\", line 91, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_native_v3\\renderer_stage_r5.py\", line 65, in main\n    result=ssh(code,payload=payload,timeout=120);write_new(DOC/'RENDERER-R5-STAGE-001.json',result)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_preflight_v1\\transport.py\", line 14, in ssh\n    if p.returncode: raise RuntimeError('SSH operation failed: '+p.stderr.decode(errors='replace')+' '+p.stdout.decode(errors='replace')[:2000])\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: SSH operation failed: Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"<string>\", line 22\n    with (root/'controls/RENDERER-R5-MANIFEST.json').open('xb') as f:f.write(header.rstrip(b'\n                                                                                            ^\nSyntaxError: EOL while scanning string literal\n \n",
+  "stdout": ""
+}

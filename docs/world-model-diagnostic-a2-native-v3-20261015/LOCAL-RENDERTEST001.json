@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 11.734000000000378,
+  "peak_job_memory_bytes": 29671424,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"returncode\": 0,\n  \"stdout\": \"{\\\"status\\\": \\\"ARTIFICIAL_SOFTWARE_RENDER_PASSED\\\", \\\"renderer\\\": \\\"llvmpipe (LLVM 15.0.7, 256 bits)\\\", \\\"pixels_sha256\\\": \\\"541ae25d022649dbe47227ae3735614aab15e660ae3249af337d51776fbedfe7\\\", \\\"pixels\\\": 16, \\\"models\\\": 0, \\\"simulators\\\": 0, \\\"gpu_requests\\\": 0}\\n\",\n  \"stderr\": \"WARNING: Overriding HOME environment variable with APPTAINERENV_HOME is not permitted\\nINFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\\n\",\n  \"runtime_or_host_modified\": false\n}\n"
+}

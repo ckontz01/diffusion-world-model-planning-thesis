@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 22.125,
+  "peak_job_memory_bytes": 29450240,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"cluster\": {\n    \"existing_renderer_files\": {},\n    \"executables\": {\n      \"Xvfb\": null,\n      \"xvfb-run\": null,\n      \"Xorg\": null\n    },\n    \"software_dri\": {\n      \"/usr/lib64/dri/swrast_dri.so\": {\n        \"bytes\": 25228184,\n        \"realpath\": \"/usr/lib64/dri/swrast_dri.so\"\n      },\n      \"/usr/lib64/libLLVM-12.so\": {\n        \"bytes\": 88151288,\n        \"realpath\": \"/usr/lib64/libLLVM-12.so\"\n      },\n      \"/usr/lib64/libLLVM-12.0.1.so\": {\n        \"bytes\": 88151288,\n        \"realpath\": \"/usr/lib64/libLLVM-12.so\"\n      }\n    },\n    \"visited_directories\": 7782,\n    \"search_truncated\": false,\n    \"elapsed_seconds\": 10.704366290941834,\n    \"installations\": 0,\n    \"simulators\": 0\n  },\n  \"existing_wsl\": {\n    \"returncode\": 0,\n    \"stdout\": \"{\\\"existing_osmesa\\\": {\\\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.6\\\": {\\\"bytes\\\": 15565176, \\\"realpath\\\": \\\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\\\"}, \\\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8\\\": {\\\"bytes\\\": 15565176, \\\"realpath\\\": \\\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\\\"}, \\\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\\\": {\\\"bytes\\\": 15565176, \\\"realpath\\\": \\\"/usr/lib/x86_64-linux-gnu/libOSMesa.so.8.0.0\\\"}}, \\\"executables\\\": {\\\"Xvfb\\\": null, \\\"xvfb-run\\\": null}}\\n\",\n    \"stderr\": \"\",\n    \"environment_modified\": false\n  }\n}\n"
+}

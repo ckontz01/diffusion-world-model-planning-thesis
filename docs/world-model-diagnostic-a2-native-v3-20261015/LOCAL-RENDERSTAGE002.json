@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 47.5630000000001,
+  "peak_job_memory_bytes": 358756352,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"AUTHENTICATED_READONLY_LIBRARY_LAYER_STAGED\", \"regular_bytes\": 168509904, \"members\": 19, \"aliases\": 21, \"copied_model_bytes\": 0}\n"
+}

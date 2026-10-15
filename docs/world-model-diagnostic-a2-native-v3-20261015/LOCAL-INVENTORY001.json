@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 81.0,
+  "peak_job_memory_bytes": 29401088,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"runtime_manifest\": {\n    \"bytes\": 4084543,\n    \"sha256\": \"c86a6790e2f801e7d6658ac1df08fe50f7e6919a619fd5e53156847b0c2dcefa\"\n  },\n  \"runtime_bytes\": 1658213811,\n  \"runtime_members\": 21643,\n  \"symlinks\": {\n    \"bin/python\": \"/opt/conda/bin/python\",\n    \"bin/python3\": \"python\",\n    \"bin/python3.11\": \"python\",\n    \"lib64\": \"lib\"\n  },\n  \"own_study_queue\": [],\n  \"prior_dispatch\": {\n    \"allocation_seconds_reserved\": 1200,\n    \"contract_sha256\": \"41e020c5d8c98a66f0fb7e70831a6edfa0b1139566c4401217116c7fa98d74ec\",\n    \"cpu_full_future_other\": 12600,\n    \"gpu_full_future\": 468000,\n    \"held_until_dispatch_receipt\": true,\n    \"job_id\": \"316960\"\n  },\n  \"run\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3\"\n}\n"
+}

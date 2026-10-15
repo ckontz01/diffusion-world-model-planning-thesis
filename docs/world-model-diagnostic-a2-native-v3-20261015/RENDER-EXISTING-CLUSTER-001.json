@@ -1,0 +1,27 @@
+{
+  "elapsed_seconds": 10.704366290941834,
+  "executables": {
+    "Xorg": null,
+    "Xvfb": null,
+    "xvfb-run": null
+  },
+  "existing_renderer_files": {},
+  "installations": 0,
+  "search_truncated": false,
+  "simulators": 0,
+  "software_dri": {
+    "/usr/lib64/dri/swrast_dri.so": {
+      "bytes": 25228184,
+      "realpath": "/usr/lib64/dri/swrast_dri.so"
+    },
+    "/usr/lib64/libLLVM-12.0.1.so": {
+      "bytes": 88151288,
+      "realpath": "/usr/lib64/libLLVM-12.so"
+    },
+    "/usr/lib64/libLLVM-12.so": {
+      "bytes": 88151288,
+      "realpath": "/usr/lib64/libLLVM-12.so"
+    }
+  },
+  "visited_directories": 7782
+}

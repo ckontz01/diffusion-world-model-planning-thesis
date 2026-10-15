@@ -1,0 +1,11 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "unittest",
+    "wm_diag0_native_v3.test_native",
+    "-v"
+  ],
+  "timeout_seconds": 45
+}

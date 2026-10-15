@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_native_v3.renderer_test_r6"
+  ],
+  "timeout_seconds": 65
+}

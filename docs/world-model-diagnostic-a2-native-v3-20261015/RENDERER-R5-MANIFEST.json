@@ -1,0 +1,110 @@
+{
+  "aliases": {
+    "libLLVM-15.so": "libLLVM-15.so.1",
+    "libOSMesa.so": "libOSMesa.so.8.0.0",
+    "libOSMesa.so.6": "libOSMesa.so.8",
+    "libOSMesa.so.8": "libOSMesa.so.8.0.0",
+    "libbsd.so.0": "libbsd.so.0.11.5",
+    "libdrm.so.2": "libdrm.so.2.4.0",
+    "libedit.so.2": "libedit.so.2.0.68",
+    "libffi.so.8": "libffi.so.8.1.0",
+    "libglapi.so.0": "libglapi.so.0.0.0",
+    "libicudata.so.70": "libicudata.so.70.1",
+    "libicui18n.so.70": "libicui18n.so.70.1",
+    "libicuio.so.70": "libicuio.so.70.1",
+    "libicutest.so.70": "libicutest.so.70.1",
+    "libicutu.so.70": "libicutu.so.70.1",
+    "libicuuc.so.70": "libicuuc.so.70.1",
+    "libmd.so.0": "libmd.so.0.0.5",
+    "libtic.so.6": "libtic.so.6.3",
+    "libtinfo.so.6": "libtinfo.so.6.3",
+    "libxml2.so.2": "libxml2.so.2.9.13",
+    "libz.so.1": "libz.so.1.2.11",
+    "libzstd.so.1": "libzstd.so.1.4.8"
+  },
+  "members": {
+    "libLLVM-15.so.1": {
+      "bytes": 116869584,
+      "sha256": "de2e35a4f9b3f6a06d2a8a3342b3f62a3842b1923b8dfc2a6ce48e0cc2d1e85d"
+    },
+    "libOSMesa.so.8.0.0": {
+      "bytes": 12520128,
+      "sha256": "8b6e9370ba718781323ff10bc112d7cff2996fabf5cbf47da66c1943c20d69f5"
+    },
+    "libbsd.so.0.11.5": {
+      "bytes": 89096,
+      "sha256": "e4ad21c203d8e8b9b7f49071311339af6b438026e1ad236403e3b379b022f23d"
+    },
+    "libdrm.so.2.4.0": {
+      "bytes": 84592,
+      "sha256": "bab1e283c0fdd19eae10db2522fdc5806f0efee3c175e5e8bb1bc1b478c7e2b1"
+    },
+    "libedit.so.2.0.68": {
+      "bytes": 216376,
+      "sha256": "81dbdf431b1d828bad9e2511b562310bd3f0bdb1bad998775406d2784426fd66"
+    },
+    "libffi.so.8.1.0": {
+      "bytes": 47688,
+      "sha256": "247da4d5d34a91cadcdd6282be4c4644fcb8af001334d2b8a82ecda435418cbf"
+    },
+    "libglapi.so.0.0.0": {
+      "bytes": 211304,
+      "sha256": "6b0b3d9623ca09ae7d16d3320d8866dc0557d67e9cbb63c12752fe723444a0a1"
+    },
+    "libicudata.so.70.1": {
+      "bytes": 29476472,
+      "sha256": "c1404396288e178c8db2f30203cb8150e4d2c14cacee9a2883e0092f45399cc8"
+    },
+    "libicui18n.so.70.1": {
+      "bytes": 3328472,
+      "sha256": "24fa78caa9b66c10c90711c51089f45273b643f132031172d54a3e98d711d48e"
+    },
+    "libicuio.so.70.1": {
+      "bytes": 63880,
+      "sha256": "078fc429db6d95656013bb48e268056cb0dde6b1d0bba413c39eed89cee8bc4a"
+    },
+    "libicutest.so.70.1": {
+      "bytes": 81568,
+      "sha256": "159fb14c4e49367fadf322db65769a22533c5a2b6fef191fa6b5c955adb7c7e9"
+    },
+    "libicutu.so.70.1": {
+      "bytes": 220352,
+      "sha256": "f7056f005dcb915a9a848f570a5f78d5f37e1dea84695d78cc27b38b7ee68729"
+    },
+    "libicuuc.so.70.1": {
+      "bytes": 2062664,
+      "sha256": "4683f3623dc47a92e862dc3c8770caff81c9f4c7e116bb672fc439737b06d88a"
+    },
+    "libmd.so.0.0.5": {
+      "bytes": 47472,
+      "sha256": "bb376813876bb214535bbbdac70f2c0c4b00baecb81557dab78a79518248df06"
+    },
+    "libtic.so.6.3": {
+      "bytes": 71992,
+      "sha256": "c8830fb769e24c870bc0ee9fe82df8af007b5a999df408bcff86e5ba4f2736a7"
+    },
+    "libtinfo.so.6.3": {
+      "bytes": 200136,
+      "sha256": "856b8451914abc2277c3d91c64ba3e72b2e0d519806397afecae92fda1a6b10c"
+    },
+    "libxml2.so.2.9.13": {
+      "bytes": 1967384,
+      "sha256": "8c2a993fe42a16e94f9054f1b9cbeccea50b6ed377359e9d3da04cbb2470f225"
+    },
+    "libz.so.1.2.11": {
+      "bytes": 108936,
+      "sha256": "64c206f0146cc58bbddc4f22054436f4ff278f5a554aa3ce6921ddf7e9133370"
+    },
+    "libzstd.so.1.4.8": {
+      "bytes": 841808,
+      "sha256": "5df4f4df42d76270bb6981fabc7c1fdccd8ad28a23d84d67f73203fb3f537667"
+    }
+  },
+  "old_environment_unchanged": true,
+  "parent_receipt": {
+    "bytes": 11859,
+    "sha256": "a419f26a946c019551e0b27e3965266b1b5dadbe2798a9d15914f09a0e9f8966"
+  },
+  "regular_library_bytes": 168509904,
+  "sif_unchanged": true
+}

@@ -1,0 +1,51 @@
+WM-DIAG0-A2 native-v3: source-generation implementation and fixed future adapters.
+
+The CPU checkpoint load job316960 remains accepted and is not repeated. D: and
+the configured SSH route are available. No VM or administrator action is used.
+
+Implemented: exact reviewed native PushT/Reacher constructors and collectors;
+complete reset/action replay as authoritative restoration; metadata-only goal
+checks; detailed per-step audit and RGB identities; safe source writer and an
+independent stdlib member/clock verifier; RGB-only original checkpoint adapters;
+native CEM trace capture, physical scaler rounding, fixed ridge readouts, separate
+oracle/evaluation worlds and a preselection access gate. The production source
+supervisor is finite and has no replacements. The original disabled/artificial
+entry points are unchanged.
+
+New native/GPU forecast, restoration, fitting and acceptance paths are not
+represented as tested research behavior. Their included first-setting technical
+tranche remains required. This publication contract enables the120 source attempts
+only, after independent import and preservation gates. GPU submission and full
+campaign acceptance need their own final concrete stage contract and validator.
+
+Eight new artificial tests passed after a NumPy private-API compatibility fix;
+both original failure and passing receipt are retained. Tests do not establish
+native physics or real-model parity. Exact float32 scaler rounding is tested
+independently; no seed regeneration or old test suite repetition occurred.
+
+Technical renderer repair: original Ubuntu22.04 image lacks graphics libraries;
+the available WSL24.04 Mesa requires GLIBC2.38, exceeding image GLIBC2.35. Official
+Ubuntu22.04 package identities were authenticated by existing public archive
+signature verification and signed SHA256 package indexes. Shared ELF files are
+extracted as inert bytes into a separate versioned read-only runtime layer. No
+package installer, image build, privilege or old environment mutation is used.
+The fixed 13-package acquisition contains no models, payloads or credentials.
+R3 UTF-8 decoding and R5 remote quoting faults and their successful suppliers
+remain preserved. R6 staging reused suppliers and passed a 4x4 artificial
+software-render test: llvmpipe LLVM15.0.7, exact sixteen RGBA pixels. No native
+simulator, model loading or GPU request occurred during these tests.
+
+The new layer's complete19 real ELF files total168509904 bytes;21 relative aliases
+are explicitly bound. All renderer attempts/partials fit the300MB cluster/250MB
+local/250MB SSD reservations. Live full future12836395242<=13000000000 bytes;
+inclusive full future43874852312<=44000000000. Actual receipt bytes stay counted;
+slack is not assigned again. Source20MB/control300MB and all original task budgets
+remain fixed. CPU17 seconds charged+12600 full future<=13800; GPU468000 reserved;
+conversion1800 remains unconsumed and unreassigned. The full2000-second preparation
+charge brings cumulative14104.10301460012, with295.89698539988 unreserved; measured
+LOCAL operation seconds are supplementary and not added again.
+
+No partial scientific aggregates or efficacy are inspected or published. A missing
+required source window stops the campaign with its original root/seed and reason.
+Technical faults stop exact affected jobs for finite diagnosed recovery. No new
+experiment, favorable collector selection, historical source access, or monitor.
