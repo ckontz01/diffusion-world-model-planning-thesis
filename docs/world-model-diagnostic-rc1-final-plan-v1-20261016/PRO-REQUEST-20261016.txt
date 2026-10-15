@@ -1,0 +1,10 @@
+One final RC1 implementation-plan review request submitted in the human-authorized existing Pro chat
+https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5
+Title observed: Analyse E11 Research Question. Model selector independently observed Pro,5of5.
+
+Request heading: WM-DIAG0-A2 RC1 — final staged implementation PLAN review, before implementation.
+Published source and full remote hash verified5459aeeb6a11db1a2c3eb83b057c2db228cc7659. Final plan SHA25665a79966b80d07ea8eed1c24c836adc86b29d645784b905149ff1f3546d92738.
+
+The single request links FINAL-PLAN.md, LEDGER-001.json, PLAN-CHECK-R1-002.json and INVENTORY-001.json at that immutable commit. It supplies the exact fresh storage/component figures, full-future invocation rows, eight still-unapproved count exceptions,750second proposed preparation split and unchanged gate/refit/continuation sequence. It asks whether the independent RGB reference, supplier reuse, full-coordinate tolerance and DINO-only scope are adequate, and for bounded documentation corrections only. It forbids new numerical measurements, efficacy inspection, authority expansion and campaign resumption.
+
+One send action was verified by the persisted new user message, empty composer and ChatGPT responding status. No duplicate message or second chat. Read the completed reply before any new request. A pending reply is not a pass or authorization.

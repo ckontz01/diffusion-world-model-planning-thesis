@@ -1,0 +1,14 @@
+{
+  "RC1_timing_passed": false,
+  "campaign_resumed": false,
+  "clarification": {
+    "bytes": 4909,
+    "sha256": "7926da86a341460e2166b6032bba6df943d7d14123794eb2a92d537b410f06c2"
+  },
+  "finalization_seconds": 5,
+  "head_nonencoding_work_reserve_seconds": 600,
+  "independent_validation_seconds": 55,
+  "parent_nonencoding_work_reserve_seconds": 1800,
+  "real_model_calls": 0,
+  "status": "ARTIFICIAL_TIMING_FORMULA_FIXTURES_PASSED_NOT_REAL_TIMING"
+}

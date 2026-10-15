@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.2649999999994179,
+  "peak_job_memory_bytes": 22122496,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"ARTIFICIAL_TIMING_FORMULA_FIXTURES_PASSED_NOT_REAL_TIMING\", \"clarification\": {\"bytes\": 4909, \"sha256\": \"7926da86a341460e2166b6032bba6df943d7d14123794eb2a92d537b410f06c2\"}, \"head_nonencoding_work_reserve_seconds\": 600, \"parent_nonencoding_work_reserve_seconds\": 1800, \"independent_validation_seconds\": 55, \"finalization_seconds\": 5, \"real_model_calls\": 0, \"RC1_timing_passed\": false, \"campaign_resumed\": false}\n"
+}

@@ -1,0 +1,24 @@
+Completed final RC1 staged-plan design review
+
+Existing human-authorized Pro chat: https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5
+Observed title Analyse E11 Research Question; Pro,5of5 confirmed before the single submission. One request persisted; completed answer marked Worked for4m42s and Response complete. No duplicate request, new chat or new numerical measurement.
+
+Disposition: scientifically adequate as a staged plan, but not yet authorized or executable-ready. Pro read FINAL-PLAN.md, LEDGER-001.json, PLAN-CHECK-R1-002.json and INVENTORY-001.json at5459aeeb6a11db1a2c3eb83b057c2db228cc7659 and independently recalculated principal arithmetic. It did not execute scientific code, inspect efficacy, query the cluster or independently authenticate the inventory/SSD.
+
+Supported design:
+-DINO pointwise image extraction with unchanged pinned BF16/F32 interface and planning/recurrence; two explicitly new fitted heads, preserving original accepted heads; Le-WM retained at original scope.
+-Independent original-method per-image RGB reference, inherited original recurrence, no production features/predictions/cache supplying its answer. Full five-position rtol2^-6/atol2^-8, exact bits separately, exact role/repeat/cost requirements. A future pass concerns the amended tested reference, not the original failed uncached route.
+-New authenticated bank/source/goal/action/model/runtime/native-return/forecast supplier receipt, old records untouched; mismatch STOP, no bank regeneration.
+
+Accounting independently agreed: live12840451198B, archive13340451198B using500MBoverhead, inclusive43715303510B, GPU461248s, CPU6836s. Invocation totals138377visual/143779frames/950760DINO predictors/126860combinedAPIs;138allocated attempts and190091200candidate-macro transitions reconcile. These are design-derived, not measured implementation bounds. Actual runtime/source authentication, module counters, complete final archive membership and preservation gates remain required. Inclusive headroom284696490B is not free extra-copy authority.
+
+One documentation clarification before implementation:
+The timing screen's phrase fixed safety reserve lacked its numerical value and complete pass inequality. Specify formula, numerical reserves/non-encoding allowances, and their work/preservation intervals before RC1 timings. Encoding/loading estimates cannot establish whole-stage feasibility; ridge, CEM, physics, validation and writing retain actual deadlines. No new measurement or allowance is requested.
+
+Parent independently adopts this narrow correction in TIMING-CLARIFICATION-20261016.md: fixed2*(L+352E)+600<=1740head and2*(L+166E)+1800<=3540parent screens, actual full-stage deadlines, and55seconds independent preservation plus5seconds finalization within the existing60. It is a documentation specification, not an observed timing pass, guarantee or second Pro review.
+
+Pro requires immediate pre-activation preparation reconciliation. The proposed750seconds comprise500available inside the old measured allowance and250separately activated within the original14400cap. The published pre-review check left only about15.326seconds after conservatively reserving both500implementation and120remaining plan-publication seconds in that old allowance. Never count its old500as a new250grant or refund old charges.
+
+Next decision belongs to the human: explicit approval of the eight finite operation-count exceptions and the bounded implementation stage. No further representation search, scientific redesign or numerical experiment is needed for this design review. Maintain STOP; actual implementation, artificial tests, exact freeze/publication/SSD, real gate/new-head/continuation acceptance and final preservation still required. This review grants no implementation, refit, allocation, resource expansion or resumption authority.
+
+Browser screenshot proof stays private outside the repository and SSD package. No scientific payload or historical package was copied for this review.
