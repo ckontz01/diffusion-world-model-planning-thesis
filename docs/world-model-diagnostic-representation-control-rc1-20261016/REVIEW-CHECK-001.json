@@ -1,0 +1,26 @@
+{
+  "Pro_review": {
+    "bytes": 3670,
+    "sha256": "e94b9f8e5fdb87a4e09ba270693951b282c2f1055cc8b175a2bfbbcf69e5a322"
+  },
+  "added_prefix_visual_invocations": 4096,
+  "addendum": {
+    "bytes": 5961,
+    "sha256": "0c1dbbe7ce8230dfdac83553146b548693b8edad1ce22f5993cffacd332c3c56"
+  },
+  "all_previous_resource_gaps_retained": true,
+  "campaign_resumed": false,
+  "extra_prefix_image_frames": 0,
+  "full_future_visual_observation_proprio_invocation_counts": "UNRESOLVED; bind actual code and reference suppliers before authorization",
+  "future_runtime_sufficiency": "UNTESTED",
+  "implementation_authorized": false,
+  "new_research_operations": 0,
+  "old_prefix_visual_invocations": 1024,
+  "original_document": {
+    "bytes": 19998,
+    "sha256": "302f46fde33ddc8c091d4e574163447b9c86019254d8afb7128d0ee52103bdce"
+  },
+  "prefix_batches": 1024,
+  "proposed_prefix_visual_invocations": 5120,
+  "status": "PRO_DIRECTED_DOCUMENTATION_CLARIFICATIONS_CHECKED"
+}

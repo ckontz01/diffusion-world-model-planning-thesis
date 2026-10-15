@@ -1,0 +1,25 @@
+Completed Pro review of disabled RC1 representation-control amendment
+
+Existing chat https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5; observed title Analyse E11 Research Question; Pro,5 of5. One new RC1 request submitted and persisted, then response complete marked Worked for5m33s. No duplicate request, second chat or scientific follow-up operation.
+
+Disposition heading:
+"Scientific disposition: RC1 is coherent in principle; implementation and execution remain blocked"
+
+Pro read complete proposal6db0da04c85f00e8c01cce1885f6f9bea318e4f6, arithmetic receipt and fitting code, and independently checked principal arithmetic. It did not run models, inspect efficacy, verify cluster/SSD or test an implementation.
+
+Accepted in principle:
+-Pointwise BF16 is structurally justified as an input-to-representation map, explicitly post-observation and not selected by favorable efficacy. No claim batch1 is more accurate, historically training-equivalent or a kernel repair.
+-DINO-only within-backbone comparison scope is defensible; Le-WM can remain at existing scope, not certified as identically representation-controlled. Arbitrary encoder-batch/predictor-chunk invariance remains unestablished.
+-Two new fit-only DINO heads with unchanged roots/frames/targets/ridge/validation separation are coherent, but learned parameters change. Old heads remain preserved historical artifacts, not automatically accepted RC1 heads.
+-Independent original-method RGB reference with per-image encoding is legitimate for the amended route, not retroactive batch16 parity. Conditional bank/V3 forecast reuse needs a new dated compatibility receipt, not rewritten history or a new-computation claim.
+
+Three required documentation clarifications, incorporated verbatim in meaning in REVIEW-CLARIFICATIONS-20261016.md:
+A. One RGB observation is the INPUT unit of the representation map; independent inferential unit remains parent source/root.
+B. Full5position forecast pass rule must explicitly remain rtol2^-6/atol2^-8; report exact bits separately. Role/repeat and terminal-cost identity exact requirements remain.
+C. Full-future invocation/runtime ledger is not encoded-frame count.64DINO parents*16prefixes*(5-1)=4096 added visual encoder invocations, with corresponding observation/proprio accounting and reference changes resolved from actual future code. Aggregate invocation total may explicitly remain unresolved, but cannot be claimed ready.
+
+Pro's arithmetic agrees: GPU461248<=468000,CPU6836<=13800;live13188199989 exceeds13GB by188199989;new raw fit/validation features211943424 exceed117100011live slack. Additional attempt/call/readout counts need separate authority; archive/inclusive bounds and implementation-preparation requirement remain unresolved. GPU-time slack is not such authority.
+
+Final direction: present scientifically supported post-observation amendment with these clarifications, not launch-ready recovery. The human must separately decide changed representation/two heads. Executable plan additionally requires resolved full-lineage bounds and explicit exceptions. No additional numerical experiment is required for this review. Campaign remains STOPPED; all proposed checks unexecuted; no implementation, inference, refit, resource increase or resumption authority.
+
+Parent independently accepts these narrow review conclusions and applies only the directed documentation clarifications. Original published proposal remains intact; the addendum supersedes its three specified passages. No second review is claimed for an unperformed implementation. Browser proof stays private outside the repository and is not in public/SSD source packages.
