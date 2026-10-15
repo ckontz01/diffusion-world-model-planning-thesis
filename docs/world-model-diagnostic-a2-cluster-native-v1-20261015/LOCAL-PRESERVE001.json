@@ -1,0 +1,10 @@
+{
+  "status": "FINISHED",
+  "returncode": 0,
+  "stdout": "{\n  \"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\",\n  \"source_commit\": \"c6a10d523623d554f82f36c122041d3cda5cb482\",\n  \"remote_full_hash\": \"c6a10d523623d554f82f36c122041d3cda5cb482\",\n  \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-cluster-native-v1-20261015\\\\cluster-native-v1-c6a10d523623d554f82f36c122041d3cda5cb482.zip\",\n  \"whole\": {\n    \"bytes\": 53345,\n    \"sha256\": \"fda932df98c915b75e9221580b4150c0717a8f8c208fdb6dbb05a72dff67fcb1\"\n  },\n  \"verified_members\": 35,\n  \"volume\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"SizeRemaining\": 310111760384,\n    \"HealthStatus\": \"Healthy\"\n  },\n  \"research_launched\": false,\n  \"model_files_copied\": 0,\n  \"historical_packages_rearchived\": 0,\n  \"new_local_and_ssd_archives_bytes\": 106690,\n  \"within_existing_small_package_reservation\": true\n}\n",
+  "stderr": "",
+  "elapsed_seconds": 9.608999999999469,
+  "peak_job_memory_bytes": 201240576,
+  "affinity_mask": 15,
+  "covered_by_full_900_second_charge": true
+}
