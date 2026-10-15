@@ -1,0 +1,10 @@
+{
+  "status": "FINISHED",
+  "returncode": 0,
+  "stdout": "{\"source_files_parsed\": 6, \"fixed_root_plan_unchanged\": true, \"scientific_imports\": 0}\n",
+  "stderr": "",
+  "elapsed_seconds": 0.2029999999995198,
+  "peak_job_memory_bytes": 20606976,
+  "affinity_mask": 15,
+  "covered_by_full_900_second_charge": true
+}

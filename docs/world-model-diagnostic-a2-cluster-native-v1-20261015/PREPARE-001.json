@@ -1,0 +1,211 @@
+{
+  "artifacts": [
+    {
+      "artifact": "pusht",
+      "bytes": 88837855,
+      "deserialized": false,
+      "global_references": [
+        "__builtin__ set",
+        "collections OrderedDict",
+        "models.proprio ProprioceptiveEmbedding",
+        "models.vit Attention",
+        "models.vit FeedForward",
+        "models.vit Transformer",
+        "models.vit ViTPredictor",
+        "torch FloatStorage",
+        "torch._utils _rebuild_parameter",
+        "torch._utils _rebuild_tensor_v2",
+        "torch.nn.modules.activation GELU",
+        "torch.nn.modules.activation Softmax",
+        "torch.nn.modules.container ModuleList",
+        "torch.nn.modules.container Sequential",
+        "torch.nn.modules.conv Conv1d",
+        "torch.nn.modules.dropout Dropout",
+        "torch.nn.modules.linear Linear",
+        "torch.nn.modules.normalization LayerNorm"
+      ],
+      "opcode_count": 13377,
+      "pickle_metadata": {
+        "bytes": 33233,
+        "sha256": "742cc6973a71affceae7a78313fcd4d3403b3c1bf5357ac31850429a512aa6ea"
+      },
+      "sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+      "static_inventory_is_security_proof": false,
+      "unresolved_stack_global_count": 0
+    },
+    {
+      "artifact": "reacher",
+      "bytes": 88837855,
+      "deserialized": false,
+      "global_references": [
+        "__builtin__ set",
+        "collections OrderedDict",
+        "models.proprio ProprioceptiveEmbedding",
+        "models.vit Attention",
+        "models.vit FeedForward",
+        "models.vit Transformer",
+        "models.vit ViTPredictor",
+        "torch FloatStorage",
+        "torch._utils _rebuild_parameter",
+        "torch._utils _rebuild_tensor_v2",
+        "torch.nn.modules.activation GELU",
+        "torch.nn.modules.activation Softmax",
+        "torch.nn.modules.container ModuleList",
+        "torch.nn.modules.container Sequential",
+        "torch.nn.modules.conv Conv1d",
+        "torch.nn.modules.dropout Dropout",
+        "torch.nn.modules.linear Linear",
+        "torch.nn.modules.normalization LayerNorm"
+      ],
+      "opcode_count": 13377,
+      "pickle_metadata": {
+        "bytes": 33233,
+        "sha256": "742cc6973a71affceae7a78313fcd4d3403b3c1bf5357ac31850429a512aa6ea"
+      },
+      "sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842",
+      "static_inventory_is_security_proof": false,
+      "unresolved_stack_global_count": 0
+    },
+    {
+      "artifact": "dinov2_vits14",
+      "bytes": 88283115,
+      "deserialized": false,
+      "global_references": [
+        "collections OrderedDict",
+        "torch FloatStorage",
+        "torch Tensor",
+        "torch._tensor _rebuild_from_type_v2",
+        "torch._utils _rebuild_tensor_v2"
+      ],
+      "opcode_count": 7128,
+      "pickle_metadata": {
+        "bytes": 21829,
+        "sha256": "4acb2d8ac6c93ebfe4122584fe1e8c0691a44cb1bf71cd33d4666d927dc1adf6"
+      },
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "static_inventory_is_security_proof": false,
+      "unresolved_stack_global_count": 0
+    }
+  ],
+  "checkpoint_loads": 0,
+  "elapsed_seconds": 5.125,
+  "encoder_source": {
+    "members": [
+      {
+        "bytes": 11359,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/LICENSE",
+        "reused_existing_source": true,
+        "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+        "upstream_blob": "5471dc10377b76db85a2feca7a99a7eef4980ba8",
+        "upstream_path": "LICENSE"
+      },
+      {
+        "bytes": 218,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/__init__.py",
+        "reused_existing_source": false,
+        "sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+        "upstream_blob": "ae847e46898077fe3d8701b8a181d7b4e3d41cd9",
+        "upstream_path": "dinov2/__init__.py"
+      },
+      {
+        "bytes": 498,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/__init__.py",
+        "reused_existing_source": false,
+        "sha256": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+        "upstream_blob": "d640d145fbfb8993d6e7ceec4eb22b5b0a3e62fa",
+        "upstream_path": "dinov2/layers/__init__.py"
+      },
+      {
+        "bytes": 3298,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/attention.py",
+        "reused_existing_source": false,
+        "sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+        "upstream_blob": "f1d3dabf14ffbd5eb68c3c16edc56d0da19b1265",
+        "upstream_path": "dinov2/layers/attention.py"
+      },
+      {
+        "bytes": 11609,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/block.py",
+        "reused_existing_source": false,
+        "sha256": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+        "upstream_blob": "7e83b71ccb428ca099d2d1d49933dc837faeecfa",
+        "upstream_path": "dinov2/layers/block.py"
+      },
+      {
+        "bytes": 2007,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/dino_head.py",
+        "reused_existing_source": false,
+        "sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+        "upstream_blob": "0ace8ffd6297a1dd480b19db407b662a6ea0f565",
+        "upstream_path": "dinov2/layers/dino_head.py"
+      },
+      {
+        "bytes": 1157,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/drop_path.py",
+        "reused_existing_source": false,
+        "sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+        "upstream_blob": "1d640e0b969b8dcba96260243473700b4e5b24b5",
+        "upstream_path": "dinov2/layers/drop_path.py"
+      },
+      {
+        "bytes": 1097,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/layer_scale.py",
+        "reused_existing_source": false,
+        "sha256": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+        "upstream_blob": "0b38971302b3c8fb3d4c05a5f0912fafe0e80816",
+        "upstream_path": "dinov2/layers/layer_scale.py"
+      },
+      {
+        "bytes": 1269,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/mlp.py",
+        "reused_existing_source": false,
+        "sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+        "upstream_blob": "bbf9432aae9258612caeae910a7bde17999e328e",
+        "upstream_path": "dinov2/layers/mlp.py"
+      },
+      {
+        "bytes": 2829,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/patch_embed.py",
+        "reused_existing_source": false,
+        "sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+        "upstream_blob": "8b7c0804784a42cf80c0297d110dcc68cc85b339",
+        "upstream_path": "dinov2/layers/patch_embed.py"
+      },
+      {
+        "bytes": 3200,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/layers/swiglu_ffn.py",
+        "reused_existing_source": false,
+        "sha256": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+        "upstream_blob": "340cee356cb4ad7cb3c8bbefa121f39f7c4e5c6f",
+        "upstream_path": "dinov2/layers/swiglu_ffn.py"
+      },
+      {
+        "bytes": 1574,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/models/__init__.py",
+        "reused_existing_source": false,
+        "sha256": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+        "upstream_blob": "817a63aeb07802ca02f75c9cef674b97355deb3f",
+        "upstream_path": "dinov2/models/__init__.py"
+      },
+      {
+        "bytes": 16438,
+        "path": "docs/world-model-diagnostic-a2-cluster-native-v1-20261015/encoder-source/dinov2/models/vision_transformer.py",
+        "reused_existing_source": true,
+        "sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+        "upstream_blob": "34694244ae4e6467a4aa315180a89b323336bf0b",
+        "upstream_path": "dinov2/models/vision_transformer.py"
+      }
+    ],
+    "training_time_checkout_verified": false,
+    "tree_sha": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "upstream_commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "weights_downloaded": 0
+  },
+  "fixed_root_plan": {
+    "bytes": 113056,
+    "sha256": "e648465420311a69a3df237b9f199ecd070e1c1241481376888ffbffe593630f"
+  },
+  "model_forwards": 0,
+  "physics_steps": 0,
+  "status": "SOURCE_CLOSURE_AND_STATIC_INPUT_INVENTORY_COMPLETE"
+}

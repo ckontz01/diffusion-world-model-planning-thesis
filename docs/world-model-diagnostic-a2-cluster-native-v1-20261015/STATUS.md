@@ -1,0 +1,13 @@
+# Current handoff
+
+- VM/equivalent-isolation requirement: **removed** for the ordinary cluster route by direct human authority.
+- Existing cluster account/container/environment: found; file/package metadata inspected without changing them. Container-side import/ABI checks still unexecuted.
+- Missing DINOv2 constructor source: 13 source/license files authenticated against the already accepted upstream commit. Three existing files reused, ten missing small source files acquired. No new weights/runtime image/environment installation.
+- Existing three DINO/encoder artifacts: hashes reauthenticated; pickle opcode dependency inventory performed without importing torch/pickle or deserializing. Both predictor bundles name the expected fixed `models.vit` and `models.proprio` classes. This is not a harmlessness proof or a numerical test.
+- New preparation checks: eight passed; exact receipts `LOCAL-PREPARE001.json` and `LOCAL-TEST001.json`. Previous 56-test A2 and 65-test V1 suites were not repeated. Preparation subprocesses used four-CPU affinity and 8 GiB Windows Job limit; actual elapsed 5.516 and 0.953 seconds. The full nonrefundable 900-second package charge also covers bounded metadata inspections, publishing/preservation and failed local reads, leaving 4,155.89698539988 seconds of the original preparation allowance.
+- Sources generated / models loaded / forecasts / simulator steps / Slurm submissions: **all zero** in this lineage.
+- Exact current blocker for original-environment launch: **RESOURCE-RECONCILIATION.md**. Current candidate runtime plus unchanged future work exceeds the unchanged live/inclusive storage caps even after removing the unused safe-export reservation. Proposed 13/14/44 GB caps are not assumed authorized.
+- Native production work remains: explicit original-object loader with preserved plain masks; verified runtime and physics/assets; new-origin collection/replay/goal/endpoint/tail adapters; bank/forecast/cache/native-return parity; phase firewall; finite dispatch/charge/acceptance/preservation contract. Existing artificial `NativeCampaign` refusal is left intact instead of labeling it launch-ready.
+- Existing PC VM/media, A2 source, 373-member package, V1 package, historical studies and paused monitors: untouched. No author/administrator/Pro message or new monitor.
+
+Do not reacquire these source files, re-download weights, repeat the completed checks or rebuild old archives merely to continue. The new small source-only package is the only new backup. If continued under an authorized resource decision, reauthenticate current sizes/inputs and add a new exclusive implementation lineage, preserving these source/receipts.
