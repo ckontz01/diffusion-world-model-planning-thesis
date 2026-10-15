@@ -1,0 +1,36 @@
+{
+  "study": "WM-DIAG0-A2",
+  "recorded_utc": "2026-10-15 15:59:51 UTC",
+  "reason": "Human reported reconnecting SSD and requested a fresh D: check and cluster continuation.",
+  "outcome": "SSD_STILL_NOT_ENUMERATED",
+  "observations": {
+    "volumes": [
+      "C:"
+    ],
+    "physical_disks": [
+      {
+        "number": 0,
+        "name": "UMIS RPJTJ256MEE1OWX",
+        "bus": "NVMe",
+        "size_bytes": 256060514304
+      }
+    ],
+    "d_wsl_vhdx_exists": false,
+    "other_disks_or_partitions_detected": false
+  },
+  "measured_shell_wall_seconds": [
+    9.4272927,
+    6.1353365
+  ],
+  "conservative_preparation_charge_seconds": 60,
+  "prior_cumulative_preparation_charge_seconds": 10364.10301460012,
+  "cumulative_preparation_charge_seconds": 10424.10301460012,
+  "remaining_preparation_seconds": 3975.89698539988,
+  "future_native_implementation_reservation_seconds": 1680,
+  "cluster_connection_attempted": false,
+  "cluster_jobs_submitted": 0,
+  "disk_wsl_security_changes": false,
+  "scientific_or_runtime_operations": false,
+  "interpretation": "Windows detects only the internal NVMe disk, not an SSD with a missing drive letter. No inference about cluster health. Existing D: connection and preservation paths remain unavailable.",
+  "next_action": "Human reconnects/checks SSD cable, power and USB port until Windows detects THESIS_SSD as D:. No additional experiment or VM approval is requested."
+}

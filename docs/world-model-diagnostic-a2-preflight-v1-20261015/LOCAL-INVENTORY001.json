@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 20.28100000000086,
+  "peak_job_memory_bytes": 29437952,
+  "returncode": 1,
+  "status": "FINISHED",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_preflight_v1\\transport.py\", line 50, in <module>\n    if __name__ == '__main__': inventory()\n                               ^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_preflight_v1\\transport.py\", line 45, in inventory\n    result=ssh(code)\n           ^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_preflight_v1\\transport.py\", line 14, in ssh\n    if p.returncode: raise RuntimeError('SSH operation failed: '+p.stderr.decode(errors='replace')+' '+p.stdout.decode(errors='replace')[:2000])\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: SSH operation failed: Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"<string>\", line 26, in <module>\n  File \"/usr/lib64/python3.6/subprocess.py\", line 356, in check_output\n    **kwargs).stdout\n  File \"/usr/lib64/python3.6/subprocess.py\", line 423, in run\n    with Popen(*popenargs, **kwargs) as process:\nTypeError: __init__() got an unexpected keyword argument 'text'\n \n",
+  "stdout": ""
+}

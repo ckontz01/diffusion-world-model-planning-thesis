@@ -1,0 +1,65 @@
+WM-DIAG0-A2 / CPU preflight v1 / 2026-10-15
+
+The expected THESIS_SSD is restored as D:, healthy, volume GUID
+0a2f1ba9-0000-0000-0000-100000000000, 310111698944 bytes free at check.
+The existing Thesis-Ubuntu/chris/prometheus route connected to controller1
+at 2026-10-15T16:23:29Z. No prior WM-A2 allocation or run namespace was found.
+Unrelated queued jobs were left untouched. No VM or local admin action is used.
+
+This separately versioned package implements only the first included CPU
+preflight: at most one 4-CPU/8GiB allocation, 1200 seconds including preservation,
+with 1140 work seconds. It authenticates staged original artifacts, the existing
+SIF, installed source inventory and immutable configurations; loads the two
+original DINO objects, original two Le-WM objects and explicitly constructed
+pinned DINOv2 tensor state on CPU; records tensor identity/shape/dtype/strides,
+registered persistent/nonpersistent buffers, plain and nested tensor attributes,
+module dimensions/flags and sharing. Six exact DINO causal masks are required.
+No scientific forward, forecast, scorer, source collection, simulator or fit.
+
+Original DINO and Le-WM torch.load(weights_only=False) deserializes executable
+objects. The human explicitly waived the VM proposal and authorized this normal
+cluster route. Ordinary Apptainer containment is NOT represented as VM-strength
+isolation or proof that pickle code was harmless. Hashes establish identity.
+The encoder uses weights_only=True, an explicit local vit_small constructor and
+strict state loading; no hub download/validation patch, dynamic Hydra target,
+host allowlisting, environment change or installation. The accepted encoder
+pin defines the prospective implementation; its training-time checkout remains
+unverified. No converted weight files are created and no conversion time is used.
+
+The Le-WM JEPA hash matches the already accepted 41bad7fd... definition. Exact
+module.py and both existing original object hashes are recorded. 387 installed
+stable_worldmodel/stable_pretraining source/config/asset members were pinned.
+Full additional dependency binary/native simulator/renderer asset closure and
+functional parity remain later gates. Neither loading nor static inventories
+prove model execution equivalence or full campaign readiness.
+
+New artificial checks: 11 passed; source syntax (including Python-3.6 embedded
+remote scripts), path rejection, exclusive receipts, hash rejection, full-future
+CPU arithmetic, plain/nested masks, sharing, buffer persistence and the absence
+of forecast/simulator calls. The lost-mask test is a source-guard test, not an
+executed torch round-trip. No real artifact is loaded locally. The original
+56/65/8-test packages were not rerun.
+
+Preserved technical error: the first metadata reader used subprocess text=True
+on the login node's Python 3.6. Original transport.py and failed receipt remain;
+inventory_r1.py uses universal_newlines. The corrected read succeeded. This was
+not a Slurm attempt. Missing guessed policy-directory and old prejepa paths were
+not interpreted as missing dependencies; exact class provenance was located and
+authenticated. All preliminary checks are covered by the fixed 1680-second
+preparation charge; timed operations retain supplementary exact elapsed values.
+
+Submission is exclusive and initially held. The exact job ID/contract is recorded
+before release. Any ambiguous submission is reconciled, never blindly retried.
+Worker log capped 80000 bytes; supervisor/bootstrap file-size cap 20000 bytes;
+declared model metadata writer checks the aggregate <=950000 bytes before writes.
+The supervisor additionally samples output/tmp bounds and stops at 1140 seconds;
+sampled storage guards are not filesystem quotas. Slurm enforces 1200 seconds
+and 8GiB; process affinity is limited to four allowed CPUs. Scratch reservation
+20MB comes from existing controls slack, not a new runtime image reservation.
+
+13GB live / 14GB archive / 44GB inclusive remain accepted. CPU reservation is
+1200 now +12600 full future =13800; GPU full-future468000 seconds untouched.
+The full native collectors/restoration, branch CEM/forecast/selection firewall,
+native parity and independent full-study acceptance still require implementation.
+This preflight is not the 130-hour campaign and cannot dispatch any GPU job.
+Completed A2/cluster-v1 archives and historical studies are not rearchived.

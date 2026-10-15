@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 1.3439999999991414,
+  "peak_job_memory_bytes": 287178752,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"contract\": {\"bytes\": 74139, \"sha256\": \"a81a96f099251baf05d8ebb33bfc885799f57239d645f716afde747031439e77\"}, \"source_bytes\": 208344, \"staged_bytes\": 266167169, \"members\": 30}\n"
+}

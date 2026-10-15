@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 13.921999999998661,
+  "peak_job_memory_bytes": 29605888,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"jepa.py\": {\n    \"path\": \"/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/jepa.py\",\n    \"bytes\": 5398,\n    \"sha256\": \"41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96\"\n  },\n  \"module.py\": {\n    \"path\": \"/lustreFS/data/superworld/ckontzias/thesis/src/hi-lewm/third_party/lewm/module.py\",\n    \"bytes\": 8433,\n    \"sha256\": \"0b258a9e8dc24c29fcb1e8c50a09ec78b8ea85aeb79e21dd8adf712396646620\"\n  }\n}\n"
+}
