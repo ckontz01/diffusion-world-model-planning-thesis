@@ -1,0 +1,21 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-preflight-v1-20261015\\stage-recovery-r1\\stage-r1-bc24a6a60598c220b544bcf0147db03f89b7cd80.zip",
+  "contract": {
+    "bytes": 74805,
+    "sha256": "41e020c5d8c98a66f0fb7e70831a6edfa0b1139566c4401217116c7fa98d74ec"
+  },
+  "remote_full_hash": "bc24a6a60598c220b544bcf0147db03f89b7cd80",
+  "source_commit": "bc24a6a60598c220b544bcf0147db03f89b7cd80",
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "verified_members": 10,
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310111588352,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 37895,
+    "sha256": "7210f1c97e782b25f4db5723c4033a9104b3e650860f26defe5babfd76fb517c"
+  }
+}

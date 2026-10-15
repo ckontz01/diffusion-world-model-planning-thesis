@@ -1,0 +1,94 @@
+{
+  "existing_members_verified_not_recopied": {},
+  "new_members": {
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-OBSERVE001.json": {
+      "bytes": 4003,
+      "sha256": "3854a86ce428a64094c99d2161cf93a0552e7938868a871828d29fb4ad8c061b"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-OBSERVE001.started.json": {
+      "bytes": 228,
+      "sha256": "5186e092cbe2dc4ce8601b8c32c320e991d2d131e8f8e5a00f9ece698bc52be2"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYFREEZE001.json": {
+      "bytes": 378,
+      "sha256": "af9453813f2e35c1efa9cea9a8cc52c7af0245575e2f552bb07bf3b784f86d9a"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYFREEZE001.started.json": {
+      "bytes": 225,
+      "sha256": "9ea98fff38402058272ad0f180ad2295e1ab7946ecc4aeb9cf43a3c0368b9342"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYPRESERVE001.json": {
+      "bytes": 1097,
+      "sha256": "b412eba6eeb20ca927a79898504cb3fff50670a5604c083b56382ef10f923d6d"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYPRESERVE001.started.json": {
+      "bytes": 275,
+      "sha256": "2cd474944235d5e9d134fcd721ea15f0e23bb33273de4774989781799d1c5c88"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYSTAGE001.json": {
+      "bytes": 443,
+      "sha256": "05531135bd079ed3c8478a1e37555713d149615f4fe9c327271f0e4a4af6a648"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYSTAGE001.started.json": {
+      "bytes": 224,
+      "sha256": "92dd1278fa1eed1c9109570a25b272905a44d7354d515c6b33e8a176e71c2138"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYTEST001.json": {
+      "bytes": 905,
+      "sha256": "62ae115bbb7e2d1e2afffd4bb065b530a3abbe17af28b840d050c25dd4362e2f"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-RECOVERYTEST001.started.json": {
+      "bytes": 233,
+      "sha256": "3c3a01a89c82ba73652cc934193b114e50bf194025d85cd64ddd3a77500b19ef"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-SUBMIT001.json": {
+      "bytes": 510,
+      "sha256": "079a0a4f416bec4a6e4ef5bec505e8c7f4da95f0f25909f2437521c237a3daa7"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-SUBMIT001.started.json": {
+      "bytes": 225,
+      "sha256": "c63efdd373f7e1482bd2ea09ebbb0e6bc0be26baf0f29b22c8453b01d4d327fa"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/stage-recovery-r1/DISPATCH-001.json": {
+      "bytes": 281,
+      "sha256": "28f1e0a3c931921fc61e1cb8b59db8bcdc60360bbfcaf55135541ee5d2ab2b76"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/stage-recovery-r1/OBSERVATION-001.json": {
+      "bytes": 589216,
+      "sha256": "1079fe4284b7c021041194b52f4fa3eec4f9a79b7d023c977a35873c6e89a617"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/stage-recovery-r1/STAGE-001.json": {
+      "bytes": 214,
+      "sha256": "77a11f63608640e3d7ef26f2c0c20f22d00ccc57ddd1a78766430a8a015316c4"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/stage-recovery-r1/STAGE-001.started.json": {
+      "bytes": 122,
+      "sha256": "d5b5e56eed3154e34aac40464dad481dc55d05ed099a938744a0e6b109ac4f4c"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/stage-recovery-r1/SUBMIT-001.started.json": {
+      "bytes": 138,
+      "sha256": "3c5a26aaec49bc41fc05ed9a8e412a8b38e6d1372f5ef31285157abdd66f0830"
+    },
+    "wm_diag0_preflight_v1/backup_receipts.py": {
+      "bytes": 2239,
+      "sha256": "a713b867f5ddb7278b1a9023b000f9fbf960858e93f08be5217bf184b3410952"
+    },
+    "wm_diag0_preflight_v1/reconcile_stage.py": {
+      "bytes": 2252,
+      "sha256": "9db99c841019eadac574829f6f9e991c5d644b365f2a6ddec0a09a6c85a1e6f3"
+    },
+    "wm_diag0_preflight_v1/test_recovery.py": {
+      "bytes": 1714,
+      "sha256": "f0859aa98db21e9f5d7d92edc7316953b83d594aea5bf57c808139196a12d7de"
+    }
+  },
+  "old_archives_rebuilt": 0,
+  "status": "NEW_RECEIPTS_WHOLE_AND_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310111543296,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "weights_copied": 0
+}

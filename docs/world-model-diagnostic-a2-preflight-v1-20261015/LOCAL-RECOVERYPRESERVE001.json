@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 6.875,
+  "peak_job_memory_bytes": 193409024,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\",\n  \"source_commit\": \"bc24a6a60598c220b544bcf0147db03f89b7cd80\",\n  \"remote_full_hash\": \"bc24a6a60598c220b544bcf0147db03f89b7cd80\",\n  \"whole\": {\n    \"bytes\": 37895,\n    \"sha256\": \"7210f1c97e782b25f4db5723c4033a9104b3e650860f26defe5babfd76fb517c\"\n  },\n  \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-preflight-v1-20261015\\\\stage-recovery-r1\\\\stage-r1-bc24a6a60598c220b544bcf0147db03f89b7cd80.zip\",\n  \"verified_members\": 10,\n  \"contract\": {\n    \"bytes\": 74805,\n    \"sha256\": \"41e020c5d8c98a66f0fb7e70831a6edfa0b1139566c4401217116c7fa98d74ec\"\n  },\n  \"volume\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"SizeRemaining\": 310111588352,\n    \"HealthStatus\": \"Healthy\"\n  }\n}\n"
+}

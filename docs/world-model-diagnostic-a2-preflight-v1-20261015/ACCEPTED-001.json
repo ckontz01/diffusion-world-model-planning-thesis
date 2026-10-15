@@ -1,0 +1,143 @@
+{
+  "all_failure_inclusive_live_reservation": 12536395242,
+  "archive_cap": 14000000000,
+  "contract": {
+    "bytes": 74805,
+    "sha256": "41e020c5d8c98a66f0fb7e70831a6edfa0b1139566c4401217116c7fa98d74ec"
+  },
+  "cumulative_preparation_seconds": 12104.10301460012,
+  "fit_operations": 0,
+  "full_preparation_charge_seconds": 1680,
+  "gpu_allocations": 0,
+  "inclusive_cap": 44000000000,
+  "job_id": "316960",
+  "live_cap": 13000000000,
+  "local_measured_script_seconds_before_close": 246.43699999999626,
+  "log_identities": {
+    "bootstrap.log": {
+      "bytes": 598,
+      "sha256": "7e16c4b9668a50c6519f7fcff18b5307a0364828b9e46de382ba4f9d638ae731"
+    },
+    "worker.log": {
+      "bytes": 1609,
+      "sha256": "dfd7e184fda82d9c89238a6dcc6458377e1496dea9962de020866fe46c6bc40f"
+    }
+  },
+  "module_metadata_counts": {
+    "dino-pusht.json": {
+      "required_masks": 6,
+      "tensor_counts": {
+        "action_encoder": 2,
+        "predictor": 75,
+        "proprio_encoder": 2
+      }
+    },
+    "dino-reacher.json": {
+      "required_masks": 6,
+      "tensor_counts": {
+        "action_encoder": 2,
+        "predictor": 75,
+        "proprio_encoder": 2
+      }
+    },
+    "encoder.json": {
+      "modules": 199,
+      "tensors": 175
+    },
+    "lewm-pusht.json": {
+      "modules": 365,
+      "tensors": 303
+    },
+    "lewm-reacher.json": {
+      "modules": 365,
+      "tensors": 303
+    }
+  },
+  "native_source_comparison": {
+    "bytes": 129829,
+    "sha256": "294f3523548da2b727a099512a502261c4717d8d1cde176116cc5e4bd46fa223"
+  },
+  "next_stage": "Implement and authenticate fixed native collection/replay, assets/rendering and model/selection/evaluation adapters; then fixed120 source attempts, four readouts, included first-four diagnostic parity tranche, remaining grid and full acceptance/preservation. No VM/admin approval required.",
+  "output_members": {
+    "SUCCESS.json": {
+      "bytes": 248,
+      "sha256": "e98abfa9a19b22273829ace6a8fb1b8483a634b1deae73f717a8b657075c12c3"
+    },
+    "dino-pusht.json": {
+      "bytes": 47206,
+      "sha256": "bc3bca4557d3d167309e4056ca9f9dd1ccaf8e0beaaca5de84d18fa40e1e3a3d"
+    },
+    "dino-reacher.json": {
+      "bytes": 47206,
+      "sha256": "dd26d2cfa4f23c9331cd14cde08766c471a9dd11328d6f19c49754f0007e4baf"
+    },
+    "encoder.json": {
+      "bytes": 75847,
+      "sha256": "034d652ad498ffb68f2cda5ea9cea028a966b055c170fbce64302503fd3838f1"
+    },
+    "lewm-pusht.json": {
+      "bytes": 151741,
+      "sha256": "1f597cdcaad8e692f29d2f16ef7fdc7a5fb48326781a320526424224b53284f0"
+    },
+    "lewm-reacher.json": {
+      "bytes": 151741,
+      "sha256": "c41cfbb1d822af81445fe4f4c5a42563d4c01ae109e3f3b81baf123e59aa62dd"
+    },
+    "runtime.json": {
+      "bytes": 469,
+      "sha256": "1a1a46dbcbec36bc427353f5cb29c0619629eb259b281ecdcdc0cb6ae7c95603"
+    }
+  },
+  "privacy": "Unrelated site-account epilog is retained in raw local/SSD evidence but omitted from publication.",
+  "raw_observation_identity": {
+    "bytes": 589216,
+    "sha256": "1079fe4284b7c021041194b52f4fa3eec4f9a79b7d023c977a35873c6e89a617"
+  },
+  "remaining_preparation_seconds": 2295.89698539988,
+  "research_forwards": 0,
+  "runtime": {
+    "forwards": 0,
+    "physics_steps": 0,
+    "python": "3.11.10 | packaged by conda-forge | (main, Oct 16 2024, 01:27:36) [GCC 13.3.0]",
+    "source_roots_generated": 0,
+    "torch": "2.5.1+cu121",
+    "versions": {
+      "einops": "0.8.2",
+      "numpy": "2.2.6",
+      "safetensors": "0.8.0",
+      "stable-pretraining": "0.1.8",
+      "stable-worldmodel": "0.0.6",
+      "timm": "1.0.28",
+      "torch": "2.5.1+cu121",
+      "torchvision": "0.20.1+cu121",
+      "transformers": "4.57.6"
+    }
+  },
+  "scheduler": "316960|COMPLETED|0:0|17|4|8Gn|gpu02|2026-10-15T19:52:20|2026-10-15T19:52:37",
+  "simulators_instantiated": 0,
+  "source_commit": "04969e38ab070dd5e88f53d23fd60063956d208f",
+  "source_roots_generated": 0,
+  "stage": {
+    "accepted": true,
+    "accepted_stage": "CPU_LOAD_AND_METADATA_ONLY",
+    "conversion_seconds": 0,
+    "cpu_allocation_seconds": 17,
+    "cpu_total_charged_plus_full_future": 12617,
+    "full_campaign_ready": false,
+    "functional_equivalence_tested": false,
+    "gpu_allocation_seconds": 0,
+    "gpu_full_future_seconds": 468000,
+    "other_cpu_full_future_seconds": 12600
+  },
+  "status": "CPU_PREFLIGHT_INDEPENDENTLY_ACCEPTED_NOT_CAMPAIGN_LAUNCH",
+  "study": "WM-DIAG0-A2",
+  "supervisor": {
+    "elapsed_seconds": 16.38004923699191,
+    "forwards_authorized": false,
+    "job_id": "316960",
+    "output_bytes": 474458,
+    "returncode": 0,
+    "status": "CPU_PREFLIGHT_COMPLETED"
+  },
+  "transport_recovery_source_commit": "bc24a6a60598c220b544bcf0147db03f89b7cd80"
+}

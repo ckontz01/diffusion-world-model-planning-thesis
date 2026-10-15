@@ -1,0 +1,33 @@
+{
+  "members": {
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/ACCEPTED-001.json": {
+      "bytes": 4690,
+      "sha256": "1646343ac2f80f8062252c2d5ba741024485d69d1ff99c5cf000f66742ef4bf0"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/LOCAL-SOURCECOMPARE001.json": {
+      "bytes": 19710,
+      "sha256": "e584f14f9f473cfe446c8d8a02668c666ee2d5c680ca2cdec96f7fe17d1d18d7"
+    },
+    "docs/world-model-diagnostic-a2-preflight-v1-20261015/NATIVE-SOURCE-COMPARISON-001.json": {
+      "bytes": 129829,
+      "sha256": "294f3523548da2b727a099512a502261c4717d8d1cde176116cc5e4bd46fa223"
+    },
+    "wm_diag0_preflight_v1/close_stage.py": {
+      "bytes": 4275,
+      "sha256": "192f4b07d10f086bf247e549bdf03429133b4d40c983fd27a3febf3d93f455a9"
+    },
+    "wm_diag0_preflight_v1/source_compare.py": {
+      "bytes": 1969,
+      "sha256": "291b14a53994ca1eeab4507a516b18d41e2d6ba0efccf2d71802786594104fc7"
+    }
+  },
+  "old_archives_rebuilt": 0,
+  "status": "WHOLE_AND_EVERY_NEW_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310110912512,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "weights_copied": 0
+}

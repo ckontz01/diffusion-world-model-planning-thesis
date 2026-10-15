@@ -1,0 +1,46 @@
+The SSD/SSH and original-checkpoint CPU-loading blockers are cleared.
+Job316960: COMPLETED0:0,17 allocated seconds,4CPU,8GiB,gpu02 (no GPU resource).
+The independent parent acceptance includes original input/SIF/source identities,
+strict encoder load, complete declared output set and six original plain causal
+masks per DINO predictor checked against independently generated expected bits.
+This is loading/identity evidence, not forecast/physics equivalence.
+
+No full research campaign, source generation, fitting or GPU job was launched.
+The remaining native production bridge is genuinely unimplemented. Do not
+enable NativeCampaign or ResearchBackend by relabelling their artificial paths.
+
+The source compatibility comparison found material differences between the
+reviewed A2 vendored source and installed stable_worldmodel0.0.6. In particular:
+- RandomPolicy's reviewed set_env seeds the action space; the installed set_env
+  does not implement that behavior automatically.
+- WeakPolicy's vector-env handling differs.
+- PushT observation bounds, contact-count metadata and some endpoint/shape code
+  differ. The declared T-block is fixed; alternate-shape changes do not authorize
+  choosing a different block or silently claiming all physics versions equal.
+- Native policy input mutation, branch action buffers and warm-start handling
+  differ. They must be bound explicitly before native-return/tail equivalence.
+- Reacher's render_mode constructor interface differs. Its base DMControl
+  wrapper and raw-qpos endpoint task are byte-identical; rendering utilities
+  are AST-identical. These facts do not prove the entire runtime equivalent.
+
+Use the fixed reviewed definitions in a separate versioned adapter/source closure,
+without installing over or changing the existing environment. Preserve all root
+IDs,roles,seeds and collection rules; do not regenerate seeds or use historical
+P2 inputs. Resolve imports and complete binary/XML/rendering dependencies before
+collection. Prove fresh native reset+full action replay, observation/state and
+action-consequence equality in the already included technical tranche; do not
+claim a partial state-variable list captures Pymunk's complete contact cache.
+
+The success means no return to the abandoned VM proposal is needed. No additional
+permission is requested for the already authorized bounded cluster implementation.
+The next native stage needs real implementation and its finite frozen contract,
+not another permission ritual and not reuse of the successful CPU preflight.
+
+Accounting:17 CPU seconds charged;12600 seconds full future CPU reservation
+(including unused1800 conversion, not reassigned);468000 GPU seconds reserved.
+No failed Slurm attempts. Failed upload retained194085498 logical bytes and all
+old errors/partials/successes; new live full-future12536395242 <=13000000000.
+The full1680-second preparation charge is nonrefundable; cumulative12104.10301460012,
+remaining2295.89698539988. Exact script receipts are supplementary, not charged twice.
+Raw scheduler epilog contains unrelated site-account metadata; keep those raw
+observation receipts local/SSD, publish only the filtered ACCEPTED-001 summary.

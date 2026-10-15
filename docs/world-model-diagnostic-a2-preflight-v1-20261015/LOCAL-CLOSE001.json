@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 4.296999999998661,
+  "peak_job_memory_bytes": 193220608,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"CPU_PREFLIGHT_INDEPENDENTLY_ACCEPTED_NOT_CAMPAIGN_LAUNCH\",\n  \"job_id\": \"316960\",\n  \"cpu_seconds\": 17,\n  \"model_metadata_counts\": {\n    \"dino-pusht.json\": {\n      \"required_masks\": 6,\n      \"tensor_counts\": {\n        \"action_encoder\": 2,\n        \"predictor\": 75,\n        \"proprio_encoder\": 2\n      }\n    },\n    \"dino-reacher.json\": {\n      \"required_masks\": 6,\n      \"tensor_counts\": {\n        \"action_encoder\": 2,\n        \"predictor\": 75,\n        \"proprio_encoder\": 2\n      }\n    },\n    \"encoder.json\": {\n      \"tensors\": 175,\n      \"modules\": 199\n    },\n    \"lewm-pusht.json\": {\n      \"tensors\": 303,\n      \"modules\": 365\n    },\n    \"lewm-reacher.json\": {\n      \"tensors\": 303,\n      \"modules\": 365\n    }\n  },\n  \"next\": \"Implement and authenticate fixed native collection/replay, assets/rendering and model/selection/evaluation adapters; then fixed120 source attempts, four readouts, included first-four diagnostic parity tranche, remaining grid and full acceptance/preservation. No VM/admin approval required.\"\n}\n"
+}

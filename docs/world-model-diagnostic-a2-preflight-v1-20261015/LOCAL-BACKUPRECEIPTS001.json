@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_1680_second_charge": true,
+  "elapsed_seconds": 4.686999999999898,
+  "peak_job_memory_bytes": 191672320,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"NEW_RECEIPTS_WHOLE_AND_MEMBER_VERIFIED\", \"new_members\": 20, \"existing_verified\": 0}\n"
+}
