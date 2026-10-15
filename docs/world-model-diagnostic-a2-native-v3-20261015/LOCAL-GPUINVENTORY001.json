@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 9.139999999999418,
+  "peak_job_memory_bytes": 29818880,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"gpu09\": \"gpu09|a6000|gpu:4(S:0-1)|64|512000|mixed\\n\",\n  \"sinfo_returncode\": 0,\n  \"stderr\": \"\",\n  \"dependency_supported\": true,\n  \"invalid_dependency_cancellation_supported\": false,\n  \"slurm_help_returncode\": 0,\n  \"new_jobs\": 0\n}\n"
+}

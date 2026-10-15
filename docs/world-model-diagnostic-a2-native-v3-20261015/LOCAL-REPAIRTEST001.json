@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.46899999999914144,
+  "peak_job_memory_bytes": 26025984,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_initializer_contains_no_constructors_or_data_import (wm_diag0_campaign_v4.test_preparation.Preparation.test_initializer_contains_no_constructors_or_data_import) ... ok\ntest_new_source_compiles_and_control_literals_parse (wm_diag0_campaign_v4.test_preparation.Preparation.test_new_source_compiles_and_control_literals_parse) ... ok\ntest_only_optional_initializer_changes (wm_diag0_campaign_v4.test_preparation.Preparation.test_only_optional_initializer_changes) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.093s\n\nOK\n",
+  "stdout": ""
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_campaign_v4.source_repair_r1",
+    "build"
+  ],
+  "timeout_seconds": 30
+}

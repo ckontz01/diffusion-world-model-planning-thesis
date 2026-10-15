@@ -1,0 +1,9 @@
+{
+  "dependency_supported": true,
+  "gpu09": "gpu09|a6000|gpu:4(S:0-1)|64|512000|mixed\n",
+  "invalid_dependency_cancellation_supported": false,
+  "new_jobs": 0,
+  "sinfo_returncode": 0,
+  "slurm_help_returncode": 0,
+  "stderr": ""
+}

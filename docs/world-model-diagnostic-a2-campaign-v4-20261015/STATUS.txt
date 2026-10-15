@@ -1,0 +1,26 @@
+Native source import repair R1, before any source attempt or GPU allocation.
+
+The versioned source namespace changes only stable_worldmodel/__init__.py to
+import utils/spaces without eager optional LanceDB/data/World registration.
+Every reviewed physics, variation, wrapper, endpoint, collector, policy, solver,
+root-plan and seed byte remains unchanged. The original failed namespace,
+initializer, import stderr and all receipts are retained. No dependency is
+installed to satisfy an unrelated data-format import.
+
+Three new narrow artificial/static checks passed. Publication/SSD verification,
+exact new staging and an actual import-only check precede the fixed120 source
+attempts. No source, simulator, fit, forecast or GPU job has executed at this
+publication. The future campaign modules in this package are implementation
+drafts; they are not enabled by this source-only contract.
+
+The source archive98ca0ae was completely verified. Its renderer archive was
+also fully written; receipt recovery1fb8326 authenticated whole/every member
+after correcting only Windows slash comparison. Neither completed archive was
+rewritten. The repaired receipt and new source-import contract have explicit
+distinct identities. No old study or completed A2 package was rearchived.
+
+This continuation remains within the one original native-v3 full2000-second
+preparation charge. All LOCAL operation seconds are supplementary, not charged
+twice. Cumulative14104.10301460012, unreserved295.89698539988. All source and GPU
+future work, all renderer preparation/failures, and unused1800 conversion remain
+reserved under the same13GB live/14GB archive/44GB inclusive study caps.

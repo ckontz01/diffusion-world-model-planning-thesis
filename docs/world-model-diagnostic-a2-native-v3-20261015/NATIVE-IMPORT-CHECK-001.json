@@ -1,0 +1,8 @@
+{
+  "models_loaded": 0,
+  "resets": 0,
+  "returncode": 1,
+  "simulators": 0,
+  "stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\nTraceback (most recent call last):\n  File \"<string>\", line 4, in <module>\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3/source/stable_worldmodel/__init__.py\", line 1, in <module>\n    from stable_worldmodel import (\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3/source/stable_worldmodel/data/__init__.py\", line 25, in <module>\n    from . import formats as _formats  # noqa: F401\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3/source/stable_worldmodel/data/formats/__init__.py\", line 13, in <module>\n    from . import lance  # noqa: F401\n    ^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3/source/stable_worldmodel/data/formats/lance.py\", line 28, in <module>\n    import lancedb\nModuleNotFoundError: No module named 'lancedb'\n",
+  "stdout": ""
+}

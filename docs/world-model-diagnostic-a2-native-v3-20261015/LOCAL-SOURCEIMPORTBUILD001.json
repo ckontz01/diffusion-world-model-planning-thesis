@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.3430000000007567,
+  "peak_job_memory_bytes": 22151168,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"contract\": {\"bytes\": 46636, \"sha256\": \"3457b1fb6fb007267462deb5bf686b7c96de25af2c248b3516f8492e21b16d31\"}, \"new_run\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1\", \"only_changed_runtime_member\": \"stable_worldmodel/__init__.py\", \"source_roots_started\": 0}\n"
+}

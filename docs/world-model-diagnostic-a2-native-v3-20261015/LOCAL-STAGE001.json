@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 20.71899999999914,
+  "peak_job_memory_bytes": 182964224,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"SOURCE_STAGE_AUTHENTICATED\", \"members\": 195, \"bytes\": 1685193, \"contract_sha256\": \"50e427f81b251dcff8677a574c77fe2c5c6b5dffc92af4cef10e4a4f685c0ed4\"}\n"
+}
