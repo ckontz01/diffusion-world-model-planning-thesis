@@ -1,0 +1,11 @@
+{
+  "allocation_seconds_each": 1800,
+  "array_job_id": "317175",
+  "automatic_retries": 0,
+  "campaign_resumed": false,
+  "contract_sha256": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+  "settings": [
+    1,
+    3
+  ]
+}

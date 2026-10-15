@@ -1,0 +1,227 @@
+{
+  "STOP": null,
+  "dispatch": {
+    "allocation_seconds_each": 1800,
+    "array_job_id": "317175",
+    "automatic_retries": 0,
+    "campaign_resumed": false,
+    "contract_sha256": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+    "settings": [
+      1,
+      3
+    ]
+  },
+  "quality_or_predictions_read": false,
+  "queue": "",
+  "scheduler": "317175_1|317176|COMPLETED|0:0|22|4|gpu09\n317175_3|317175|COMPLETED|0:0|22|4|gpu09\n",
+  "tasks": {
+    "1": {
+      "ACCEPTED": {
+        "RC1_pointwise_route_independently_bound": true,
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 0,
+          "encoded_frames": 352,
+          "predictor_calls": 0,
+          "proprio_encoder_calls": 352,
+          "visual_encoder_calls": 352
+        },
+        "backbone": "dinowm_noprop",
+        "contract_sha256": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+        "fit_frames": 256,
+        "fit_parent_count": 16,
+        "independent_equation_check_no_refit": true,
+        "model_forwards": 0,
+        "original_heads_preserved": true,
+        "output_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "phase": "RC1_readout",
+        "quality_or_predictions_emitted": false,
+        "setting": 1,
+        "task": "pusht",
+        "validation_frames": 96,
+        "validation_parent_count": 12,
+        "validation_used_for_tuning": false
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 848,
+          "sha256": "5a0c4b97fabb2139289c7a87492e130d9638114977a23a29a6edd08bb26015ef"
+        },
+        "array_job_id": "317175",
+        "campaign_resumed": false,
+        "elapsed_seconds": 21.602814464000403,
+        "job_id": "317176",
+        "output_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "setting": 1,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 125930,
+        "array_job_id": "317175",
+        "contract": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+        "job_id": "317176",
+        "setting": 1,
+        "start_ticks": "5041877",
+        "time": 1792105252.964384
+      },
+      "WORKER-SUCCESS": {
+        "CEM_calls": 0,
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 0,
+          "encoded_frames": 352,
+          "predictor_calls": 0,
+          "proprio_encoder_calls": 352,
+          "visual_encoder_calls": 352
+        },
+        "controller_actions": 0,
+        "fit_frames": 256,
+        "output_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "phase": "RC1_readout",
+        "physics_resets": 0,
+        "predictor_bundle_loads": 1,
+        "restricted_encoder_loads": 1,
+        "route": {
+          "backbone": "dinowm_noprop",
+          "checkpoint_sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+          "feature_shape": [
+            196,
+            384
+          ],
+          "history_length": 1,
+          "native_score_id": "terminal_mse",
+          "positions": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "preprocessing_sha256": "1f7bbd7b01d36fb18dffee68bfc62936f5aaf256eadf28c9ae433541cbc0ed56"
+        },
+        "runtime_files_checked": 252,
+        "scientific_quality_or_predictions_emitted": false,
+        "setting": 1,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE",
+        "validation_frames": 96
+      },
+      "process": {
+        "PID_exists": false,
+        "start_ticks_match": false
+      }
+    },
+    "3": {
+      "ACCEPTED": {
+        "RC1_pointwise_route_independently_bound": true,
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 0,
+          "encoded_frames": 352,
+          "predictor_calls": 0,
+          "proprio_encoder_calls": 352,
+          "visual_encoder_calls": 352
+        },
+        "backbone": "dinowm_noprop",
+        "contract_sha256": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+        "fit_frames": 256,
+        "fit_parent_count": 16,
+        "independent_equation_check_no_refit": true,
+        "model_forwards": 0,
+        "original_heads_preserved": true,
+        "output_seal": {
+          "bytes": 1282,
+          "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+        },
+        "phase": "RC1_readout",
+        "quality_or_predictions_emitted": false,
+        "setting": 3,
+        "task": "reacher",
+        "validation_frames": 96,
+        "validation_parent_count": 12,
+        "validation_used_for_tuning": false
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 850,
+          "sha256": "0f782d54c8decdfa4931c60ce88fda41faed452737432fb91217044a522941b4"
+        },
+        "array_job_id": "317175",
+        "campaign_resumed": false,
+        "elapsed_seconds": 21.54316383999685,
+        "job_id": "317175",
+        "output_seal": {
+          "bytes": 1282,
+          "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+        },
+        "setting": 3,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 126236,
+        "array_job_id": "317175",
+        "contract": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+        "job_id": "317175",
+        "setting": 3,
+        "start_ticks": "5044269",
+        "time": 1792105276.8709164
+      },
+      "WORKER-SUCCESS": {
+        "CEM_calls": 0,
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 0,
+          "encoded_frames": 352,
+          "predictor_calls": 0,
+          "proprio_encoder_calls": 352,
+          "visual_encoder_calls": 352
+        },
+        "controller_actions": 0,
+        "fit_frames": 256,
+        "output_seal": {
+          "bytes": 1282,
+          "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+        },
+        "phase": "RC1_readout",
+        "physics_resets": 0,
+        "predictor_bundle_loads": 1,
+        "restricted_encoder_loads": 1,
+        "route": {
+          "backbone": "dinowm_noprop",
+          "checkpoint_sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842",
+          "feature_shape": [
+            196,
+            384
+          ],
+          "history_length": 1,
+          "native_score_id": "terminal_mse",
+          "positions": [
+            5,
+            10,
+            15,
+            20,
+            25
+          ],
+          "preprocessing_sha256": "6de9e6578eaeceb39a0ab76a92c620a89a1d7911112fc9c14b3a9032347cda7b"
+        },
+        "runtime_files_checked": 252,
+        "scientific_quality_or_predictions_emitted": false,
+        "setting": 3,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE",
+        "validation_frames": 96
+      },
+      "process": {
+        "PID_exists": false,
+        "start_ticks_match": false
+      }
+    }
+  }
+}

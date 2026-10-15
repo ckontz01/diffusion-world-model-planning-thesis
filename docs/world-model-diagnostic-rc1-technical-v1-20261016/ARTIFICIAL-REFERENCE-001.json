@@ -1,0 +1,25 @@
+{
+  "new_allocation": false,
+  "research_checkpoints_or_data_loaded": false,
+  "returncode": 0,
+  "source": {
+    "wm_diag0_rc1_technical_v1/__init__.py": {
+      "bytes": 79,
+      "sha256": "13cf2a45a2f8f6cc12af62b4f87dd3fab1eec56de2bddbe632d977112fd34a98"
+    },
+    "wm_diag0_rc1_technical_v1/common.py": {
+      "bytes": 1196,
+      "sha256": "3f4189194f151d3495d4c2efd1e95806458962e2159dc024642ed94a8e51c86d"
+    },
+    "wm_diag0_rc1_technical_v1/reference.py": {
+      "bytes": 1111,
+      "sha256": "70515cfef8c144e1ecb45c40f6168dd0327312d24e5d6fc6d8b40870ca15c8af"
+    },
+    "wm_diag0_rc1_technical_v1/tests.py": {
+      "bytes": 4530,
+      "sha256": "dd0e697973944540d2704e88c5235747ffa53a2a98693de5e25abfd558f62048"
+    }
+  },
+  "stderr": "WARNING: Overriding HOME environment variable with APPTAINERENV_HOME is not permitted\nINFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "stdout": "num_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\n{\"status\": \"NEW_RAGGED_ORIGINAL_METHOD_REFERENCE_ARTIFICIAL_PASSED\", \"research_inputs_loaded\": false, \"model_downloads\": 0, \"device\": \"CPU\"}\n"
+}

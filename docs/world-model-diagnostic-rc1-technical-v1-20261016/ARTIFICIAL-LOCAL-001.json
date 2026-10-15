@@ -1,0 +1,82 @@
+{
+  "limitations": [
+    "real native restore/physics/time/module counts remain included-setting obligations",
+    "full scientific aggregates not inspected"
+  ],
+  "old_tests_repeated": false,
+  "rejections": [
+    "every module/frame/API overrun",
+    "missing/extra usage key",
+    "wrong head setting",
+    "missing authenticated gate",
+    "reuse cannot call forecast/encode/CEM"
+  ],
+  "research_calls": 0,
+  "source": {
+    "__init__.py": {
+      "bytes": 79,
+      "sha256": "13cf2a45a2f8f6cc12af62b4f87dd3fab1eec56de2bddbe632d977112fd34a98"
+    },
+    "accept.py": {
+      "bytes": 14146,
+      "sha256": "19e9b6390c12e933152f9db8a0624c8416fbc83cc394d733966616d49d7b8851"
+    },
+    "artificial.py": {
+      "bytes": 1379,
+      "sha256": "dd1d60b358a7c6645456e85a9cf893cd4a81b6611391f9a67d7a6e054f3c71c8"
+    },
+    "common.py": {
+      "bytes": 1196,
+      "sha256": "3f4189194f151d3495d4c2efd1e95806458962e2159dc024642ed94a8e51c86d"
+    },
+    "diagnostic.py": {
+      "bytes": 6659,
+      "sha256": "370a46e94fe5a5d26b284d8c287e403c7337792a31caabd020a77a9a4e4b35ad"
+    },
+    "models.py": {
+      "bytes": 1111,
+      "sha256": "8cfc4459e74cd142ed6117c5c96a4b93184dbd8b4a8f669b1be07d7d47799c33"
+    },
+    "operations.py": {
+      "bytes": 10763,
+      "sha256": "aa2b28824c8b987c83da5b72116835691831954b73c2d75c3105e5e9827cd106"
+    },
+    "prepare.py": {
+      "bytes": 3115,
+      "sha256": "03f12740eb496c72e0522a9e73a06e2653d436fcc4027799ee90d130f1a6caa0"
+    },
+    "preserve.py": {
+      "bytes": 2642,
+      "sha256": "5727579360d8875accef608ab956cd6b514897a6f2d86438f4d61d950c51ff51"
+    },
+    "reference.py": {
+      "bytes": 1111,
+      "sha256": "70515cfef8c144e1ecb45c40f6168dd0327312d24e5d6fc6d8b40870ca15c8af"
+    },
+    "reuse.py": {
+      "bytes": 5401,
+      "sha256": "24443f834570a66e3797c2e5e19d08c66e76a452da418458861045de01659168"
+    },
+    "supervisor.py": {
+      "bytes": 6237,
+      "sha256": "9f758019c5101a03e87d35f7f117dd6672618f41263d5271f7d1aa2522c7ab2e"
+    },
+    "suppliers.py": {
+      "bytes": 1029,
+      "sha256": "5a9a5b236ee1d3d1e7eb62041e2229d65cbcf774911857fafea03cf9e7f076b7"
+    },
+    "tests.py": {
+      "bytes": 4530,
+      "sha256": "dd0e697973944540d2704e88c5235747ffa53a2a98693de5e25abfd558f62048"
+    },
+    "validate.py": {
+      "bytes": 2464,
+      "sha256": "bb120a4a144d8a32540382f191dfb4fcf258b514b3cb2b0391d8d2514d4e328c"
+    },
+    "worker.py": {
+      "bytes": 3621,
+      "sha256": "a0a0a19cc17d3820c182dd4da857bc8b756ef5ff0bd667ee4e059d5e33d87b4a"
+    }
+  },
+  "status": "PASSED"
+}

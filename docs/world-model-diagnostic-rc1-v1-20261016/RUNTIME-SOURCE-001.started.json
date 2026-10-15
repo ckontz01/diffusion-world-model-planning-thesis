@@ -1,0 +1,8 @@
+{
+  "identity": {
+    "bytes": 5398,
+    "sha256": "41bad7fd21e0f14aea4c9c3d39a9c87037e787746d953ab62cdc0677e938ce96"
+  },
+  "model_calls": 0,
+  "path": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/preflight-v1-stage-r1/source/lewm/jepa.py"
+}

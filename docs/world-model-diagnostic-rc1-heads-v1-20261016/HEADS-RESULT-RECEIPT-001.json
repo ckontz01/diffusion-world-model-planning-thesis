@@ -1,0 +1,85 @@
+{
+  "CPU_all_attempts_cumulative": 1436,
+  "CPU_full_future": 6836,
+  "GPU_all_attempts_cumulative": 331,
+  "GPU_charge_this_stage": 44,
+  "GPU_full_future": 457531,
+  "all_attempts_full_future": 138,
+  "allocated_attempts_done": 11,
+  "dispatch": "317175",
+  "main_campaign_resumed": false,
+  "new_fit_frames": 512,
+  "new_validation_frames": 192,
+  "new_visual_calls_and_frames": 704,
+  "next": "Implement/freeze supplier-aware continuation and three remaining included setting checks; all four before grid",
+  "observation": {
+    "bytes": 7230,
+    "sha256": "ef32d358bd97d94a69d30bed0f73633a986416d1d95b4856834b466753132035"
+  },
+  "original_heads_preserved": true,
+  "process_observation_limitation": "Earlier /proc checks ran on login host, not gpu09; false there was not cluster failure evidence. Both scheduler allocations are now terminal; no live controller restart is needed.",
+  "quality_or_predictions_read": false,
+  "remaining_parent_attempts": 127,
+  "scheduler": "317175_1|317176|COMPLETED|0:0|22|4|gpu09\n317175_3|317175|COMPLETED|0:0|22|4|gpu09\n",
+  "status": "EXACT_TWO_NEW_RC1_HEADS_INDEPENDENTLY_ACCEPTED",
+  "suppliers": {
+    "1": {
+      "acceptance_identity": {
+        "bytes": 848,
+        "sha256": "5a0c4b97fabb2139289c7a87492e130d9638114977a23a29a6edd08bb26015ef"
+      },
+      "job_id": "317176",
+      "output_seal": {
+        "bytes": 1284,
+        "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+      },
+      "route": {
+        "backbone": "dinowm_noprop",
+        "checkpoint_sha256": "14489cfdf4132a126fd1cb3cac39370a1fb2141503cd3e41aeb3c2dead271dd0",
+        "feature_shape": [
+          196,
+          384
+        ],
+        "history_length": 1,
+        "native_score_id": "terminal_mse",
+        "positions": [
+          5,
+          10,
+          15,
+          20,
+          25
+        ],
+        "preprocessing_sha256": "1f7bbd7b01d36fb18dffee68bfc62936f5aaf256eadf28c9ae433541cbc0ed56"
+      }
+    },
+    "3": {
+      "acceptance_identity": {
+        "bytes": 850,
+        "sha256": "0f782d54c8decdfa4931c60ce88fda41faed452737432fb91217044a522941b4"
+      },
+      "job_id": "317175",
+      "output_seal": {
+        "bytes": 1282,
+        "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+      },
+      "route": {
+        "backbone": "dinowm_noprop",
+        "checkpoint_sha256": "c9d0fc6c4b26aba0caa569c23673a7d85841a379da8d06d0e8cf30dfd3613842",
+        "feature_shape": [
+          196,
+          384
+        ],
+        "history_length": 1,
+        "native_score_id": "terminal_mse",
+        "positions": [
+          5,
+          10,
+          15,
+          20,
+          25
+        ],
+        "preprocessing_sha256": "6de9e6578eaeceb39a0ab76a92c620a89a1d7911112fc9c14b3a9032347cda7b"
+      }
+    }
+  }
+}

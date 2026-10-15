@@ -1,0 +1,35 @@
+{
+  "STOP": null,
+  "dispatch": {
+    "allocation_seconds_each": 1800,
+    "array_job_id": "317175",
+    "automatic_retries": 0,
+    "campaign_resumed": false,
+    "contract_sha256": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+    "settings": [
+      1,
+      3
+    ]
+  },
+  "quality_or_predictions_read": false,
+  "queue": "317175_[3%1]|PENDING|0:00||(JobArrayTaskLimit)\n317175_1|RUNNING|0:13|gpu09|gpu09\n",
+  "scheduler": "317175_1|317176|RUNNING|0:0|13|4|gpu09\n317175_[3%1]|317175|PENDING|0:0|0|4|None assigned\n",
+  "tasks": {
+    "1": {
+      "STARTED": {
+        "PID": 125930,
+        "array_job_id": "317175",
+        "contract": "5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629",
+        "job_id": "317176",
+        "setting": 1,
+        "start_ticks": "5041877",
+        "time": 1792105252.964384
+      },
+      "process": {
+        "PID_exists": false,
+        "start_ticks_match": false
+      }
+    },
+    "3": {}
+  }
+}
