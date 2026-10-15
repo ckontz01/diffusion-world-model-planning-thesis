@@ -1,0 +1,12 @@
+{
+  "status": "FINITE_METADATA_AUTHENTICATION_REPAIR",
+  "source_commit": "98ca0ae0a98cbdeb70a1e4c83c5592ac1b39ec82",
+  "diagnosis": "Both new SSD ZIPs were completely written. Source ZIP verified successfully; runtime ZIP comparison used unnormalized Windows path separators while zipfile stored forward slashes. Preserve archives and original failure; independently verify exact normalized membership and every hash against original suppliers.",
+  "archive_overwrites_or_rearchives": 0,
+  "new_science": false,
+  "new_research_allocations": 0,
+  "source_changes": 0,
+  "new_small_repair_package": true,
+  "preparation_charge": "Covered by the existing full2000-second native-v3 charge. No charge reset or new allowance.",
+  "publication_mapping": "98ca0ae is the actual native source/archive identity. The following tip publishes this receipt repair only; the repair verifies every archived source byte remains equal."
+}
