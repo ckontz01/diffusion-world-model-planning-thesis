@@ -1,0 +1,20 @@
+{
+  "recorded_UTC": "2026-10-15T20:26:46Z",
+  "study": "WM-DIAG0-A2",
+  "human_request": "Fix the issue and resume the run",
+  "destination": "https://chatgpt.com/c/6a8714c3-0da0-83eb-b9e5-9171a1dadcd5",
+  "destination_title_observed": "Analyse E11 Research Question",
+  "request_status": "ONE_USER_MESSAGE_SUBMITTED_AND_VISIBLE",
+  "subject": "Scientific validity of numerical encoder/cache/reference alignment after native parity STOP",
+  "evidence_commit_shared": "4fb2db44788e9b08fe92626a0b1a5a80dd63bd57",
+  "scientific_efficacy_or_outcomes_shared": false,
+  "response_status": "UNAVAILABLE_UNKNOWN_ERROR_THEN_MODEL_LOADING_ERROR",
+  "response_retry_count": 1,
+  "reload_count": 1,
+  "last_browser_state": "Just a moment browser verification page; no interaction with verification",
+  "scientific_advice_received": false,
+  "do_not_duplicate_request": true,
+  "campaign_resumed": false,
+  "browser_captures_published": false,
+  "security_or_permission_changes": false
+}

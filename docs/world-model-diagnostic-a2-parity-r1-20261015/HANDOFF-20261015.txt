@@ -1,0 +1,51 @@
+WM-DIAG0-A2: BLOCKED AT SCIENTIFIC NUMERICAL-EXECUTION DECISION, NOT RESUMED
+
+Original campaign/source/STOP/partials and all accepted outputs unchanged.
+Old arrays317163/317164/317165 and analysis317166 terminal. Encoding-only
+diagnostic317172 terminal COMPLETED/13s. No current study allocation is live.
+GPU249s total charged; CPU1436s, unused conversion1800s unchanged. Successful
+sources120, heads4, diagnostic parents1. No original successful task rerun.
+
+Read ENCODING-FINDING-001.txt and OBSERVE-ONE.json before any new action.
+The raw source encoder itself differs between batch1 and batch16 under the
+fixed execution path. Do not claim this proves a low-level BF16 cause, full
+forecast equivalence, batch invariance or repaired parity. Native action/
+proprio tensors were exactly equal. No tolerance or encoder execution changed.
+
+A scientific decision is necessary because readout/realized/cached/reference
+RGB batching differs (8/5/1/16). Do not silently change the representation,
+refit accepted heads, reuse labels to choose precision, or replace the failed
+independent raw-reference gate with a same-cache check and call it equivalent.
+
+One explicit request was submitted and visibly confirmed in the authorized
+existing reasoning chat. It returned Unknown error and could not load models;
+one response Retry (NOT a duplicate user prompt) failed. One reload reached a
+browser verification page; no challenge/security interaction attempted. Read
+REVIEW-REQUEST-20261015.json; never duplicate this request. No reviewer advice
+was received and no scientific choice was made.
+
+Full-future retry accounting is also unresolved: even bank-reuse continuation
+repeats15 DINO predictor calls beyond950740. Naive helper rerun exceeds reset
+ceiling6401 by1. GPU allocation-wall slack is NOT authority to raise those
+separate maxima. Preserve the completed bank/trace; do not blindly requeue.
+No model/physics retry is authorized by this handoff. A finite new contract
+must state the actual exact workloads and fit every original cumulative cap,
+or obtain the human's precise resource-only amendment before affected work.
+
+New diagnosis source6927cef4382d87d33993cb3803e39556d2c00be9; compact source
+archive51187B,13 members verified, SHA256cc45f4220402fa4d364fc436020fb0a414f4bf6cad1a34679f999323b6c4b530.
+Receipt/publication tip4fb2db44788e9b08fe92626a0b1a5a80dd63bd57 adds actual
+diagnosis/SSD/control records, not new executed science. Do not rearchive it.
+All new staging is in campaign-v4-parity-r1, outside executed V4 closures.
+
+Native-v3 LOCAL measured total908.784000000007s of1700 operation allowance
+inside the original nonrefundable2000 preparation charge. Publication/read
+overhead uses its separately reserved300s. Cumulative preparation remains
+14104.10301460012s;295.89698539988 unreserved, no refund or double charge.
+No monitor or subagent created; historical studies and paused monitors untouched.
+
+Any later actual recovery must also add this new diagnostic source/control/
+failed-attempt lineage to the final archive adapter; original V4 finalizer
+alone does not preserve this new namespace. Complete independent acceptance
+and final native Windows SSD whole/member verification still precede any
+scientific result inspection/publication.
