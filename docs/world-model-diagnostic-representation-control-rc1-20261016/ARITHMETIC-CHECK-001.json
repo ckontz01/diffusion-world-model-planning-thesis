@@ -1,0 +1,43 @@
+{
+  "archive_and_inclusive_full_lineage_bounds": "UNRESOLVED; caps14GB/44GB unchanged",
+  "campaign_resumed": false,
+  "conservative_live_cap_gap_bytes": 188199989,
+  "document": {
+    "bytes": 19998,
+    "sha256": "302f46fde33ddc8c091d4e574163447b9c86019254d8afb7128d0ee52103bdce"
+  },
+  "future_implementation_preparation_requirement": "UNBOUND; not granted by documentation authority",
+  "future_science_or_resource_exceptions_approved": false,
+  "live_slack_bytes": 117100011,
+  "minimum_raw_features_above_live_slack_bytes": 94843413,
+  "new_head_raw_features_lower_bound_bytes": 211943424,
+  "new_research_calls_executed": 0,
+  "original_contract": {
+    "bytes": 129282,
+    "sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc"
+  },
+  "preparation_cumulative_charge_seconds": 14104.10301460012,
+  "prior_final_status": {
+    "bytes": 2559,
+    "sha256": "a1c68695f741d559500101cb5a994f8b0717a15c50956a73d7e3b35b5d2006d8"
+  },
+  "proposed_future_totals": {
+    "CPU_full_future_seconds": 6836,
+    "DINO_predictor_calls": 950760,
+    "GPU_all_attempts_full_future_seconds": 461248,
+    "additional_parity_sequences": 176,
+    "all_GPU_attempts": 138,
+    "bank_production_reforecast_sequences": 2064,
+    "cost_reforecast_API_operations": 126860,
+    "encoded_full_future_frames": 143779,
+    "live_full_future_bytes": 13188199989,
+    "macro_sequence_transitions": 190091200,
+    "readout_fit_frames": 1536,
+    "readout_fit_tasks": 6,
+    "readout_validation_frames": 576,
+    "world_resets": 6402
+  },
+  "research_frameworks_imported": false,
+  "status": "DISABLED_PROPOSAL_ARITHMETIC_CHECKED_NOT_EXECUTABLE",
+  "this_package_maximum_seconds_within_existing_charge": 240
+}

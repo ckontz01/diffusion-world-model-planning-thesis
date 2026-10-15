@@ -1,0 +1,6 @@
+Human request:
+"Okay prepare the representation-control amendment and have Pro review it. Stay within the existing limits, preserve the accepted work, and don’t resume until all required checks pass."
+
+Scope: preparation of a disabled scientific amendment and review in the existing Pro chat. No model execution, representation change, refit, source/label generation, scientific allocation, new resource grant, monitor or campaign continuation. Previous all-required-checks condition remains binding.
+Existing repo branch world-model-diagnostic-preparation-20261004; starting full remote receipt28ff5666756c47d4718cfd2b7d1479b181f39fc5.
+Use existing finite preparation charge and only a new small source/docs/metadata package. All old accepted artifacts, failed partials, STOPs, receipts, checkpoints and archives remain unchanged.
