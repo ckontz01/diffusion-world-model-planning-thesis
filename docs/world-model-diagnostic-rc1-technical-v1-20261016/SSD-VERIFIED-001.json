@@ -1,0 +1,22 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-technical-v1-20261016\\technical-source-73c5bc2106b03524726d4aec28bbdbd8d41d83ff.zip",
+  "contract": {
+    "bytes": 151647,
+    "sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd"
+  },
+  "grid_dispatched": false,
+  "members": 25,
+  "old_packages_or_models_recopied": 0,
+  "source_commit": "73c5bc2106b03524726d4aec28bbdbd8d41d83ff",
+  "status": "THREE_SETTING_SOURCE_DELTA_WHOLE_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310002962432,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 79097,
+    "sha256": "42790e7d7ada2a45b0fc16e903bc33feca433da1afe2877871fca43c669f2401"
+  }
+}

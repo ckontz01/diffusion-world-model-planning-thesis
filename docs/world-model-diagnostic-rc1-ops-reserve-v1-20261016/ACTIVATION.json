@@ -1,0 +1,24 @@
+{
+  "CPU_threads": 4,
+  "RAM_bytes": 8589934592,
+  "authority": "original14400s preparation cap plus latest direct autonomous bounded iteration authority",
+  "authority_identity": {
+    "bytes": 2554,
+    "sha256": "2639fe4a6a04edcdc5143f3f6e4d641ad7d1413ce293c0485a29c1d834b828c9"
+  },
+  "cumulative_nonrefundable_charge": 14400,
+  "new_measured_seconds_ceiling": 45.89698539988,
+  "new_nonrefundable_charge": 45.89698539988,
+  "on_exhaustion": "stop affected preparation/metadata action and report; no additional grants or automatic resource expansion",
+  "original_preparation_cap": 14400,
+  "previous_750s_envelope_and_all_component_ceilings_unchanged": true,
+  "previous_activation_identity": {
+    "bytes": 1174,
+    "sha256": "13dee457d1bf6b5aa6579d716a5e30e2a3d2c0d8553f825da950126615d95e5c"
+  },
+  "previous_charges_refunded_or_spent_twice": false,
+  "previous_nonrefundable_charge": 14354.10301460012,
+  "remaining_unreserved_seconds": 0,
+  "scope": "exact current dispatch/control/scheduler observations and reviewed precise grid staging only; no model execution",
+  "status": "LAST_UNRESERVED_PREPARATION_BALANCE_ACTIVATED_ONCE"
+}

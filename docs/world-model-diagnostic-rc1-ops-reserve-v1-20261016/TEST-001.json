@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "exact funding sum",
+    "equivalent slash command accepted",
+    "research worker/arbitrary code/different executable rejected"
+  ],
+  "new_research_calls": 0,
+  "scripted_command_executed": false,
+  "source": {
+    "__init__.py": {
+      "bytes": 78,
+      "sha256": "068ab85faf436909e550ca2d2aaa428056006424f812cf8dd0eb2c7cd0c9c366"
+    },
+    "freeze.py": {
+      "bytes": 1906,
+      "sha256": "82df2cdb4881cba4312f84536033505ce19b43fd6776aaf0bda990a22c805fdc"
+    },
+    "preserve.py": {
+      "bytes": 1863,
+      "sha256": "76940cef3ceb9fd7d86acc59807e00157e07006d85b6b026d0c2edbb7b4a67ea"
+    },
+    "runner.py": {
+      "bytes": 2617,
+      "sha256": "38a104cc42f05579355aae9a8ff85369825ed7eebc0bd39913092221cafd7779"
+    },
+    "tests.py": {
+      "bytes": 1322,
+      "sha256": "ee714bfb75c910d5db7464f60fe3b83821480ac33b5a8dea0aaa0419bf565fef"
+    }
+  },
+  "status": "PASSED"
+}
