@@ -20,7 +20,7 @@ def main():
         readout=Path(c['run'])/'tasks'/('readout-'+str(setting))
         head=json.loads((readout/'controls/ACCEPTED.json').read_text())
         from .accept import accept
-        result=accept(taskdir/'output',seal,taskdir/'controls/SELECTION-EXTERNAL.json',Path(c['source_run'])/'tasks'/key/'output',
+        result=accept(taskdir/'output',seal,taskdir/'controls/SELECTION-EXTERNAL.json',Path(c['source_runs'][task])/'tasks'/key/'output',
                       sources['source_seals'][key],readout/'output',head['output_seal'],c,gpu=True)
         # No scientific choices or outcomes are emitted into public controls.
         result={k:v for k,v in result.items() if k not in ('choices','outcomes','reasons','initial_success')}

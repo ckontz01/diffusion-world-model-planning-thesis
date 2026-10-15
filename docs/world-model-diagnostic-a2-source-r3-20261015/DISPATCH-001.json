@@ -1,0 +1,15 @@
+{
+  "CPU_charged_before": 695,
+  "CPU_other_full_future_seconds": 5400,
+  "GPU_full_future_seconds": 468000,
+  "allocation_seconds_each": 60,
+  "array_elements": 60,
+  "array_indices": "60-119%1",
+  "contract_sha256": "2b0c3743989b3b3d0c24d3c081195a1a3dd74498a4407ed89bca95430164cb45",
+  "failed_replacements": 1,
+  "full_future_source_seconds": 3600,
+  "job_id": "317103",
+  "maximum_concurrency": 1,
+  "release_returncode": 0,
+  "successful_roots_to_recompute": 0
+}

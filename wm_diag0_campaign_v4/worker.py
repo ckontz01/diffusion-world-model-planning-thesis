@@ -36,14 +36,14 @@ def main():
     out=taskdir/'output'
     if phase=='readout':
         from .readout import fit
-        result=fit(adapter,[r for r in plan['roots'] if r['task']==task],Path(c['source_run'])/'tasks',accepted['source_seals'],out)
+        result=fit(adapter,[r for r in plan['roots'] if r['task']==task],Path(c['source_runs'][task])/'tasks',accepted['source_seals'],out)
     else:
         readout_dir=Path(c['run'])/'tasks'/('readout-'+str(setting))/'output'
         readout_control=json.loads((readout_dir.parent/'controls/ACCEPTED.json').read_text())
         from .readout import load
         head=load(adapter,readout_dir,readout_control['output_seal'])
         row=next(r for r in plan['roots'] if r['task']==task and r['root_index']==root_index)
-        key=task+'-'+str(root_index).zfill(3);source_dir=Path(c['source_run'])/'tasks'/key/'output'
+        key=task+'-'+str(root_index).zfill(3);source_dir=Path(c['source_runs'][task])/'tasks'/key/'output'
         from .diagnostic import run
         result=run(adapter,row,source_dir,accepted['source_seals'][key],head,out,taskdir/'controls/SELECTION-EXTERNAL.json',phase=='technical')
     after=verify_imports(c,source)

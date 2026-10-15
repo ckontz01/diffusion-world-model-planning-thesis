@@ -1,0 +1,8 @@
+{
+  "models_loaded": 0,
+  "resets": 0,
+  "returncode": 0,
+  "simulators": 0,
+  "stderr": "INFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-source-r3/source/stable_worldmodel/envs/__init__.py:231: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.\n  from stable_worldmodel.envs import ale  # noqa: F401\n",
+  "stdout": "{\"status\": \"R3_NATIVE_IMPORTS_AUTHENTICATED\", \"runtime_files\": 834, \"simulators\": 0, \"resets\": 0, \"models_loaded\": 0}\n"
+}

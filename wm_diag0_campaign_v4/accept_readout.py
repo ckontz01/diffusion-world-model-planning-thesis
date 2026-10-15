@@ -32,7 +32,7 @@ def accept(directory,expected,c,setting):
     for rows,actual in ((fit_rows,y),(val_rows,vy)):
         saved=[]
         for row in rows:
-            key=task+'-'+str(row['root_index']).zfill(3);source=Path(c['source_run'])/'tasks'/key/'output'
+            key=task+'-'+str(row['root_index']).zfill(3);source=Path(c['source_runs'][task])/'tasks'/key/'output'
             authenticate(source,meta['source_seals'][key],12_000_000)
             saved.append(load_array(source/'training/labels.npy',(16 if row['role']=='readout_fit' else 8,nout),['<f8']))
         if not np.array_equal(actual,np.concatenate(saved)):raise ValueError('native training-coordinate identity')

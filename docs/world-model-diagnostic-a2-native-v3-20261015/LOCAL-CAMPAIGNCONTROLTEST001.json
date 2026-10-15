@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.9219999999986612,
+  "peak_job_memory_bytes": 27713536,
+  "returncode": 1,
+  "status": "FINISHED",
+  "stderr": "test_artificial_archive_whole_every_member_and_no_repeat (wm_diag0_campaign_v4.test_controls.Controls.test_artificial_archive_whole_every_member_and_no_repeat) ... ERROR\ntest_every_new_source_and_remote_literal_compiles (wm_diag0_campaign_v4.test_controls.Controls.test_every_new_source_and_remote_literal_compiles) ... ok\ntest_finite_serial_DAG_exact_caps (wm_diag0_campaign_v4.test_controls.Controls.test_finite_serial_DAG_exact_caps) ... ok\n\n======================================================================\nERROR: test_artificial_archive_whole_every_member_and_no_repeat (wm_diag0_campaign_v4.test_controls.Controls.test_artificial_archive_whole_every_member_and_no_repeat)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_campaign_v4\\test_controls.py\", line 31, in test_artificial_archive_whole_every_member_and_no_repeat\n    row=create(root,c,time.monotonic()+10);result=verify(row['archive'],row['whole'],ident(root/'source/CONTRACT.json')['sha256'])\n                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_campaign_v4\\verify_archive.py\", line 41, in verify\n    if manifest is None or manifest['members']!=found or manifest['contract_sha256']!=contract:raise ValueError('every exact archived member/contract')\n                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: every exact archived member/contract\n\n----------------------------------------------------------------------\nRan 3 tests in 0.427s\n\nFAILED (errors=1)\n",
+  "stdout": ""
+}

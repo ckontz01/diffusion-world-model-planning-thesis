@@ -1,0 +1,72 @@
+WM-DIAG0-A2 native campaign V4
+
+This is the unchanged amended A2 study, not a new scientific configuration.
+Original preparation/protocols, all120 root identities/roles/seeds, eight-hour
+away history, historical studies and paused monitors remain unchanged.
+
+Lineage: source98ca0ae0a98cbdeb70a1e4c83c5592ac1b39ec82; optional-import
+repair16b6b03823c7ee15a4f69a1a624ed80afc1ae2bc; expressly authorized single
+Reacher persistence retrya23e41076b78cb70698f354e6f6d936e50429610. All60
+PushT successes are reused, never recomputed. Original failed317102/13s and
+all partials/STOPs retained. R3 root000 must match all four original arrays.
+The human's explicit yes permits only+44controller actions,+45source frames,
++1reset,+88Reacher dm_control steps. No other physical/work cap increases.
+
+The four native readouts retain1800s each (1740work+60preserve), followed by
+four included first-setting root000 technical jobs, then124 fixed grid jobs,
+then one independent CPU analysis. Each diagnostic allocation3600s with
+3540work+60preserve. Four CPUs/8GiB each. GPU tasks serial, exactly one
+NVIDIA RTX6000 Ada on gpu09/a6000. GPU allocation total468000s including
+failures; CPU13800s including failures, unused1800s conversion reservation
+kept unreassigned. No repeated timing pilot or favorable-case selection.
+
+Readout->technical->grid->analysis are exact-ID afterok dependencies. Jobs
+start held until every dispatch ID is durably recorded. Any failure preserves
+evidence/STOP, cancels only exact pending DAG jobs, and has no automatic retry.
+The grid additionally authenticates all four technical acceptances itself.
+Conditional dispatch readiness does not mean native parity has already run.
+
+Checkpoint semantics: original Le-WM get_cost/rollout; original DINO predictor
+components plus the pinned prospective DINOv2 encoder and original VWorldModel.
+T=1 context; native196x384 patches; five distinct groups of five2D actions;
+BF16 prediction/autocast andfloat32 visual boundaries; recurrent nonvisual
+channels retained; DINO chunks100; original native final elite mean. Original
+unregistered causal masks authenticated before movement to GPU. No hub load,
+Hydra constructor, monkeypatch, pooling, readout tuning or checkpoint conversion.
+Training-time third-party encoder checkout remains unverified, not invented.
+
+First four technical jobs compare retained forecasts/native costs, original
+object reference execution, fresh full20-action replay and metadata-only goal
+installation. Cached cost comparison exact; predeclared uncached DINO BF16
+reference tolerances rtol2^-6/atol2^-8, never relaxed after viewing outputs.
+Two additional replay worlds and two retained-bank parity sequences per first
+setting are already counted in the original plan. Artificial tests establish
+interfaces/validation only, not real checkpoint functional parity.
+
+Each candidate has one independent oracle-prefix world and two independently
+owned native evaluation/tail worlds. Selection is sealed externally before
+any evaluation outcomes are opened. Same prefix bytes, source/goal, native
+endpoint, absolute50-action budget and one25-action tail. Full fresh reset and
+replay is authoritative, not a claim to serialize a Pymunk contact cache.
+
+Independent checks bind source, action trace, fixed bank, returned-plan proof,
+readout roles/fit-only ridge equations, matrix costs/lowest-slot ties, native
+raw coordinates, clocks/stops, world ownership and selection before labels.
+Allocated analysis accepts all120 sources/four readouts/128 parents before
+creating complete fixed paired results; no partial efficacy reaches controls.
+Local task distances and within-backbone prediction/rank summaries remain
+descriptive diagnostics, not replacement success labels or causal partitions.
+
+All results remain private pending final SSD preservation. The CPU analysis
+creates a single bounded14GB study tar only after full independent acceptance,
+preserving failed/source/control/approval lineage and authenticated relevant
+runtime/model bytes. Hardlinks are represented explicitly without duplicate
+physical payload copies. Native Windows receive_final independently verifies
+the whole archive and every member on the designated THESIS_SSD, without
+extracting or executing members. Failed transfers are retained and require
+finite preservation diagnosis, never compute reruns. No monitor is created.
+
+The same native-v3 nonrefundable2000s preparation charge covers continuation:
+cumulative14104.10301460012s, unreserved295.89698539988s. Actual LOCAL receipts
+are supplementary, not charges added twice or refunds. No new model download,
+environment/image installation, account/security change, purchase or new study.

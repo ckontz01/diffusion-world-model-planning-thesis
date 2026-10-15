@@ -94,6 +94,11 @@ def accept(directory,seal,external,source_dir,source_seal,readout_dir,readout_se
     picked=strong+[rest[i] for i in ranks]
     if n!=len(picked)+1 or not np.array_equal(arrays['actions'][1:],arrays['trace'][picked]):raise ValueError('independent fixed bank reconstruction')
     if [array_id(x) for x in arrays['actions']]!=selected['candidate_ids']:raise ValueError('candidate byte identity')
+    traced=digest({'actions':array_id(arrays['trace']),'costs':array_id(arrays['trace-costs'].astype(np.float64))})
+    bank_id=digest({'actions':selected['candidate_ids'],'native':0,'trace':traced})
+    if selected['trace_digest']!=traced or selected['bank_id']!=bank_id:raise ValueError('independent trace/bank identity')
+    sel=selected['selection']
+    if (sel['bank_id'],sel['source_id'],sel['contract_id'],sel['goal_id'],sel['s1_id'])!=(bank_id,source_id,contract.identity,array_id(arrays['goal']),head.identity):raise ValueError('complete selection information binding')
     recomputed=[]
     for key in ('predicted','realized'):
         x=arrays[key][:,-1];g=arrays['goal']
@@ -143,6 +148,9 @@ def accept(directory,seal,external,source_dir,source_seal,readout_dir,readout_se
             if not np.array_equal(ba[:min(25,elapsed)],arrays['actions'][i,:min(25,elapsed)]):raise ValueError('evaluation same candidate prefix')
             if b['tail_replans']!=int(elapsed>25):raise ValueError('one branch-owned native replan')
             events_check(b['events'],task,coordinates[44],50,record['frames'][20]['audit'])
+            last=b['events'][-1]
+            reason='success' if last['success'] else 'truncated' if last['truncated'] else 'terminal_failure' if last['terminated'] else 'budget_failure'
+            if b['reason']!=reason:raise ValueError('independent native termination reason')
             upto=min(25,elapsed)
             if b['events'][:upto+1]!=p['events'][:upto+1]:raise ValueError('fresh native replay action-consequence/observation equality')
             owner=b['goal_installation']['world_serial']

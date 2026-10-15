@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 14.9220000000023,
+  "peak_job_memory_bytes": 30236672,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"SOURCE_PROGRESS\",\n  \"job_id\": \"317103\",\n  \"queue\": \"317103_[67-119%1]|PENDING|0:00||(JobArrayTaskLimit)\\n317103_66|RUNNING|0:11|gpu06|gpu06\\n\",\n  \"scheduler\": \"317103_60|317104|COMPLETED|0:0|12|4|gpu06\\n317103_61|317105|COMPLETED|0:0|13|4|gpu06\\n317103_62|317106|COMPLETED|0:0|12|4|gpu06\\n317103_63|317107|COMPLETED|0:0|12|4|gpu06\\n317103_64|317108|COMPLETED|0:0|13|4|gpu06\\n317103_65|317109|COMPLETED|0:0|12|4|gpu06\\n317103_66|317110|RUNNING|0:0|11|4|gpu06\\n317103_[67-119%1]|317103|PENDING|0:0|0|4|None assigned\\n\",\n  \"accepted_tasks\": 6,\n  \"STOP\": null,\n  \"failed_worker_stderr\": {},\n  \"scientific_aggregates_read\": false\n}\n"
+}

@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 17.031000000002678,
+  "peak_job_memory_bytes": 29798400,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"ALL_SOURCE_RETAINED_BYTES_WITHIN_RESERVATION\", \"unique_task_bytes\": 1268165971, \"unique_task_files\": 2961, \"source_failed_and_CPU_log_reservation\": 1460604747, \"free_cluster_bytes\": 270465015742464, \"all_failed_temporary_files_included\": true, \"live_full_future_bytes\": 12844699989, \"live_cap\": 13000000000, \"archive_cap\": 14000000000, \"inclusive_cap\": 44000000000}\n"
+}

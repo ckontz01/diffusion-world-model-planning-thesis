@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 14.265999999999622,
+  "peak_job_memory_bytes": 234553344,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"job_id\": \"317103\", \"contract_sha256\": \"2b0c3743989b3b3d0c24d3c081195a1a3dd74498a4407ed89bca95430164cb45\", \"array_elements\": 60, \"array_indices\": \"60-119%1\", \"allocation_seconds_each\": 60, \"full_future_source_seconds\": 3600, \"CPU_charged_before\": 695, \"CPU_other_full_future_seconds\": 5400, \"GPU_full_future_seconds\": 468000, \"maximum_concurrency\": 1, \"failed_replacements\": 1, \"successful_roots_to_recompute\": 0, \"release_returncode\": 0}\n"
+}

@@ -21,14 +21,18 @@ def main():
     key=phase+'-'+str(index);task=root/'tasks'/key;task.mkdir(exist_ok=False)
     for n in ('controls','logs','tmp'):(task/n).mkdir()
     began=time.monotonic();result={'status':'FAILED','returncode':125};proc=None
-    allocation=300 if phase=='readout' else 3600
+    allocation=1800 if phase=='readout' else 3600
     work=allocation-60
-    output_bound=140000000 if phase=='readout' else 40000000 if phase=='analysis' else 10000000 if (index if phase=='technical' else index//31)%2==0 else 60000000
+    output_bound=(5000000 if index%2==0 else 140000000) if phase=='readout' else 40000000 if phase=='analysis' else 10000000 if (index if phase=='technical' else index//31)%2==0 else 60000000
     try:
         write(task/'controls/STARTED.json',{'job_id':job,'array_job_id':parent,'phase':phase,'index':index,'contract_sha256':expected,'hostname':os.uname().nodename,'time':time.time()})
         if (root/'controls/STOP.json').exists():raise RuntimeError('existing campaign STOP')
         if int(os.environ.get('SLURM_CPUS_PER_TASK','0'))!=4:raise ValueError('four CPU allocation')
         if phase!='analysis' and os.uname().nodename not in ('gpu09','gpu09.cluster'):raise ValueError('exact GPU node')
+        if phase=='grid':
+            for i in range(4):
+                t=root/'tasks'/('technical-'+str(i));a=json.loads((t/'controls/ACCEPTED.json').read_text());z=json.loads((t/'controls/RESULT.json').read_text())
+                if not a['accepted'] or z['status']!='ACCEPTED' or z['acceptance_sha256']!=sha(t/'controls/ACCEPTED.json'):raise ValueError('all four included native technical/parity gates must pass before grid')
         os.sched_setaffinity(0,sorted(os.sched_getaffinity(0))[:4])
         for name,row in c['staged_members'].items():
             p=root/'source'/name
@@ -55,10 +59,22 @@ def main():
                c['source_run']+':'+c['source_run']+':ro',c['prior_source']+':'+c['prior_source']+':ro',
                c['renderer_path']+':/renderer:ro',c['venv']+':'+c['venv']+':ro']
         for row in c['lewm'].values():binds.append(row['path']+':'+row['path']+':ro')
+        for supplier in sorted(set(c['source_runs'].values())):
+            if supplier!=c['source_run']:binds.append(supplier+':'+supplier+':ro')
         prefix=['apptainer','exec','--containall','--cleanenv','--no-home','--pwd',str(root/'source')]
         if phase!='analysis':prefix.append('--nv')
         for bind in binds:prefix+=['--bind',bind]
         prefix+=[c['sif'],c['venv']+'/bin/python','-B']
+        if phase=='analysis':
+            records={};gpu_charge=0
+            for name,count in (('readout',4),('technical',4),('grid',124)):
+                jid=dag['jobs'][name]
+                raw=subprocess.check_output(['sacct','-X','-n','-P','-j',jid,'--format=JobID,JobIDRaw,State,ExitCode,ElapsedRaw,AllocCPUS,NodeList'],universal_newlines=True,timeout=15)
+                rows=[x.split('|') for x in raw.splitlines() if x.strip()]
+                if len(rows)!=count or {x[0] for x in rows}!={jid+'_'+str(i) for i in range(count)} or any(x[2]!='COMPLETED' or x[3]!='0:0' or x[5]!='4' or x[6] not in ('gpu09','gpu09.cluster') for x in rows):raise ValueError('complete exact GPU allocation reconciliation')
+                gpu_charge+=sum(int(x[4]) for x in rows);records[name]=raw
+            if gpu_charge>468000 or c['CPU_charged_before']+3600+1800>13800:raise ValueError('cumulative full-future cap')
+            write(task/'controls/ALL-ALLOCATIONS-TERMINAL.json',{'status':'ALL132_GPU_ALLOCATIONS_SUCCESSFUL_TERMINAL','GPU_charged_seconds':gpu_charge,'scheduler':records,'CPU_charged_before_analysis':c['CPU_charged_before'],'analysis_reserved_seconds':3600,'unused_conversion_reserved_seconds':1800,'GPU_cap':468000,'CPU_cap':13800})
         command=prefix+(['-m','wm_diag0_campaign_v4.analysis',str(cpath),expected,str(task)] if phase=='analysis' else
                         ['-m','wm_diag0_campaign_v4.worker',str(cpath),expected,phase,str(index),str(task)])
         def run(command,deadline,logpath):
@@ -86,6 +102,10 @@ def main():
         if phase!='analysis':
             run(prefix+['-m','wm_diag0_campaign_v4.validate_task',str(cpath),phase,str(index),str(task)],allocation-5,task/'logs/accept.log')
         if not (task/'controls/ACCEPTED.json').exists():raise ValueError('independent acceptance missing')
+        if phase=='analysis':
+            from wm_diag0_campaign_v4.final_archive import create
+            archive=create(root,c,began+allocation-5)
+            write(task/'controls/ARCHIVE-CREATED.json',archive)
         result.update(status='ACCEPTED',returncode=0,acceptance_sha256=sha(task/'controls/ACCEPTED.json'))
     except BaseException as exc:
         result['error']=repr(exc)

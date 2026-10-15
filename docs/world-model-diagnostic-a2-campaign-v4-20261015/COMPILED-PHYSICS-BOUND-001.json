@@ -1,0 +1,734 @@
+{
+  "PushT_controller_steps_max": 193440,
+  "PushT_integrator_steps_including_reset_max": 1940800,
+  "PushT_integrator_steps_per_controller_action": 10,
+  "PushT_reset_internal_integrator_steps_max": 6400,
+  "n_sub_steps": 1,
+  "origins": {
+    "reacher-000": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-001": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-002": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-003": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-004": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-005": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-006": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-007": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-008": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-009": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-010": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-011": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-012": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-013": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-014": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-015": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-016": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-017": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-018": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-019": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-020": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-021": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-022": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-023": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-024": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-025": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-026": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-027": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-028": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-029": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-030": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-031": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-032": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-033": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-034": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-035": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-036": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-037": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-038": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-039": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-040": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-041": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-042": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-043": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-044": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-045": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-046": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-047": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-048": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-049": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-050": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-051": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-052": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-053": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-054": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-055": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-056": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-057": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-058": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    },
+    "reacher-059": {
+      "compiled_assets": {
+        "reacher.xml": {
+          "bytes": 4501,
+          "sha256": "00ce31dddfc02b6801514aa2f7d58cbdda8ae051282e5f907932eba5e3370dd5"
+        }
+      },
+      "dm_control_timestep": 0.02,
+      "legacy_step": true,
+      "n_sub_steps": 1,
+      "physics_timestep": 0.02
+    }
+  },
+  "reacher_dm_steps_max": 386968,
+  "reacher_mujoco_integrator_steps_max": 386968,
+  "scientific_results_read": false,
+  "source_acceptance_sha256": "ad247616d6941defc0895ac444fb0d21262abf15e3dcf600d0260f1566cca154",
+  "status": "NATIVE_INTEGRATOR_MULTIPLICITIES_BOUND"
+}

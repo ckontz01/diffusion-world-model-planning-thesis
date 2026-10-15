@@ -1,0 +1,10 @@
+{
+  "STOP": null,
+  "accepted_tasks": 6,
+  "failed_worker_stderr": {},
+  "job_id": "317103",
+  "queue": "317103_[67-119%1]|PENDING|0:00||(JobArrayTaskLimit)\n317103_66|RUNNING|0:11|gpu06|gpu06\n",
+  "scheduler": "317103_60|317104|COMPLETED|0:0|12|4|gpu06\n317103_61|317105|COMPLETED|0:0|13|4|gpu06\n317103_62|317106|COMPLETED|0:0|12|4|gpu06\n317103_63|317107|COMPLETED|0:0|12|4|gpu06\n317103_64|317108|COMPLETED|0:0|13|4|gpu06\n317103_65|317109|COMPLETED|0:0|12|4|gpu06\n317103_66|317110|RUNNING|0:0|11|4|gpu06\n317103_[67-119%1]|317103|PENDING|0:0|0|4|None assigned\n",
+  "scientific_aggregates_read": false,
+  "status": "SOURCE_PROGRESS"
+}

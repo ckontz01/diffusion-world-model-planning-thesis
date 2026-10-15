@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 11.781000000002678,
+  "peak_job_memory_bytes": 180072448,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_complete_artificial_independent_acceptance (wm_diag0_campaign_v4.test_acceptance.Acceptance.test_complete_artificial_independent_acceptance) ... ok\ntest_extra_untrusted_file_is_rejected (wm_diag0_campaign_v4.test_acceptance.Acceptance.test_extra_untrusted_file_is_rejected) ... ok\ntest_selection_tampering_is_rejected_before_outcome_access (wm_diag0_campaign_v4.test_acceptance.Acceptance.test_selection_tampering_is_rejected_before_outcome_access) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 10.844s\n\nOK\n",
+  "stdout": ""
+}

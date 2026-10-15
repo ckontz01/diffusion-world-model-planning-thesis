@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 13.342999999997119,
+  "peak_job_memory_bytes": 29835264,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"NATIVE_INTEGRATOR_MULTIPLICITIES_BOUND\", \"reacher_dm_steps_max\": 386968, \"reacher_mujoco_integrator_steps_max\": 386968, \"n_sub_steps\": 1, \"PushT_controller_steps_max\": 193440, \"PushT_integrator_steps_per_controller_action\": 10, \"PushT_reset_internal_integrator_steps_max\": 6400, \"PushT_integrator_steps_including_reset_max\": 1940800, \"scientific_results_read\": false, \"source_acceptance_sha256\": \"ad247616d6941defc0895ac444fb0d21262abf15e3dcf600d0260f1566cca154\"}\n"
+}

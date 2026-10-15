@@ -1,0 +1,16 @@
+{
+  "ALL-SOURCES-ACCEPTED.json": {
+    "canonical": "f138282f4599566310b21392f49a8243e94837d67aaaf0779a252fb4e38b7484",
+    "identity": {
+      "bytes": 48062,
+      "sha256": "ad247616d6941defc0895ac444fb0d21262abf15e3dcf600d0260f1566cca154"
+    }
+  },
+  "COMPILED-PHYSICS-BOUND.json": {
+    "canonical": "ca9f6187f1d795b32eda4e8c1531386f273300e50a64ef68f71cc7ca9f2e308c",
+    "identity": {
+      "bytes": 15008,
+      "sha256": "8503d685f9e290f88880630e7021c5f086916acca9ef86daaa5082527a56a398"
+    }
+  }
+}

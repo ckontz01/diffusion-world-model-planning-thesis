@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 27.26599999999962,
+  "peak_job_memory_bytes": 30183424,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"ALL120_SOURCE_WINDOWS_INDEPENDENTLY_ACCEPTED\",\n  \"source_run\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-source-r3\",\n  \"source_runs\": {\n    \"pusht\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1\",\n    \"reacher\": \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-source-r3\"\n  },\n  \"exact_source_job_ids\": [\n    \"317041\",\n    \"317103\"\n  ],\n  \"cpu_source_allocation_seconds\": 1419,\n  \"cpu_total_with_preflight\": 1436,\n  \"cpu_full_future_after_source\": 5400,\n  \"gpu_full_future_original_cap\": 468000,\n  \"source_contract\": {\n    \"bytes\": 71325,\n    \"sha256\": \"2b0c3743989b3b3d0c24d3c081195a1a3dd74498a4407ed89bca95430164cb45\"\n  },\n  \"scientific_aggregates_read\": false,\n  \"failed_replacement_attempts\": 1,\n  \"original_failed_partials_unchanged\": true,\n  \"original_array_parity\": {\n    \"all_four_original_arrays_bit_identical\": true,\n    \"changed_science\": false,\n    \"members\": {\n      \"evidence/actions.npy\": {\n        \"bytes\": 832,\n        \"sha256\": \"46966bd884e3c3c1a1cd43294cef2fd6067a0b3604b65aa4ac7be58bc03188e3\"\n      },\n      \"evidence/coordinates.npy\": {\n        \"bytes\": 848,\n        \"sha256\": \"da1734ef6f6520566b18316aa2fa6f1866c4ebe6be49220baaf40bdef0b2a1bf\"\n      },\n      \"evidence/labels.npy\": {\n        \"bytes\": 848,\n        \"sha256\": \"da1734ef6f6520566b18316aa2fa6f1866c4ebe6be49220baaf40bdef0b2a1bf\"\n      },\n      \"evidence/pixels.npy\": {\n        \"bytes\": 6773888,\n        \"sha256\": \"2ac53090ec618f94ba939e16d749a435e027fe809fa18f2bf3d248ab5146583b\"\n      }\n    }\n  }\n}\n"
+}

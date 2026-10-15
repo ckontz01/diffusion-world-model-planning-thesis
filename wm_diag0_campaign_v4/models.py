@@ -50,7 +50,7 @@ class Adapter:
             shape=(196,384); score='terminal_mse'; checkpoint=contract['prior_members']['artifacts/'+task+'.pth']['sha256']
         else: raise ValueError('fixed backbone')
         self.contract=FeatureContract(backbone,checkpoint,digest({'transform':str(self.transform),'stats':stats,'T':1,'encoder_pin':contract['encoder_pin']}),shape,(5,10,15,20,25),1,score)
-        self.cache={}; self.predictor_calls=0; self.encoded_frames=0
+        self.cache={}; self.predictor_calls=0; self.encoded_frames=0; self.cost_api_calls=0
 
     def autocast(self):
         return torch.autocast('cuda',dtype=torch.bfloat16,enabled=self.bf16 and self.device.type=='cuda')
@@ -126,6 +126,7 @@ class Adapter:
     def costs(self,info,actions):
         # Native solver signature. Only visual history, visual goal, and actions.
         if set(info)-{'pixels','goal','action','_dinowm_hist_z','_dinowm_goal_z'}: raise ValueError('selector information firewall')
+        self.cost_api_calls+=1
         if self.backbone=='lewm':
             self.predictor_calls+=5; self.encoded_frames+=2*actions.shape[0]
             return self.model.get_cost(dict(info),actions)
@@ -164,6 +165,7 @@ class Adapter:
         return scores.detach().cpu().numpy()
 
     def predict(self,history,bank,source_id):
+        self.cost_api_calls+=1
         actions=np.stack([c.actions for c in bank.candidates]); z=self.normalized(actions)
         x=self.forecast_tensor(history,torch.from_numpy(z)).float().cpu().numpy()
         return Features(frozen(x),self.contract,bank.identity,source_id,'predicted')

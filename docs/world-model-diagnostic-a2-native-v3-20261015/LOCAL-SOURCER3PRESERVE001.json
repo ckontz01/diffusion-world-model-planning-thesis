@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 9.53099999999904,
+  "peak_job_memory_bytes": 187973632,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\", \"source_commit\": \"a23e41076b78cb70698f354e6f6d936e50429610\", \"remote_full_hash\": \"a23e41076b78cb70698f354e6f6d936e50429610\", \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-source-r3-20261015\\\\source-r3-a23e41076b78cb70698f354e6f6d936e50429610.zip\", \"whole\": {\"bytes\": 41805, \"sha256\": \"0638800199ef0249e598ded030a4bd4fbfe85ceba0e7ed891095ff4eea997417\"}, \"contract\": {\"bytes\": 71325, \"sha256\": \"2b0c3743989b3b3d0c24d3c081195a1a3dd74498a4407ed89bca95430164cb45\"}, \"verified_members\": 18, \"volume\": {\"FileSystemLabel\": \"THESIS_SSD\", \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\", \"SizeRemaining\": 310003683328, \"HealthStatus\": \"Healthy\"}, \"old_packages_recopied\": 0}\n"
+}

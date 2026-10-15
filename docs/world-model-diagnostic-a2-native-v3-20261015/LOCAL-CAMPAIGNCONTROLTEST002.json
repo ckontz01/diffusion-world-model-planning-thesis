@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.8280000000013388,
+  "peak_job_memory_bytes": 28045312,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_artificial_archive_whole_every_member_and_no_repeat (wm_diag0_campaign_v4.test_controls.Controls.test_artificial_archive_whole_every_member_and_no_repeat) ... ok\ntest_every_new_source_and_remote_literal_compiles (wm_diag0_campaign_v4.test_controls.Controls.test_every_new_source_and_remote_literal_compiles) ... ok\ntest_finite_serial_DAG_exact_caps (wm_diag0_campaign_v4.test_controls.Controls.test_finite_serial_DAG_exact_caps) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.364s\n\nOK\n",
+  "stdout": ""
+}

@@ -1,0 +1,12 @@
+{
+  "all_failed_temporary_files_included": true,
+  "archive_cap": 14000000000,
+  "free_cluster_bytes": 270465015742464,
+  "inclusive_cap": 44000000000,
+  "live_cap": 13000000000,
+  "live_full_future_bytes": 12844699989,
+  "source_failed_and_CPU_log_reservation": 1460604747,
+  "status": "ALL_SOURCE_RETAINED_BYTES_WITHIN_RESERVATION",
+  "unique_task_bytes": 1268165971,
+  "unique_task_files": 2961
+}

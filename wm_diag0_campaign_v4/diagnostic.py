@@ -74,7 +74,7 @@ def parity(adapter,record,arrays,bank,predicted,goal_features):
     n=len(bank.candidates)
     expanded={k:v[:,None].expand(1,n,*v.shape[1:]) for k,v in info.items()}
     if adapter.backbone=='lewm':
-        adapter.predictor_calls+=10; adapter.encoded_frames+=4
+        adapter.predictor_calls+=10; adapter.encoded_frames+=4; adapter.cost_api_calls+=2
         first=adapter.model.get_cost(dict(expanded),z[None])
         second=adapter.model.get_cost(dict(expanded),z[None])
     else:
@@ -84,7 +84,7 @@ def parity(adapter,record,arrays,bank,predicted,goal_features):
             obs={'visual':info['pixels'].expand(n,-1,-1,-1,-1),
                  'proprio':torch.zeros(n,1,1,device=adapter.device)}
             native,_=wm.rollout(obs,z)
-        adapter.predictor_calls+=5; adapter.encoded_frames+=n
+        adapter.predictor_calls+=5; adapter.encoded_frames+=n; adapter.cost_api_calls+=1
         second=(native['visual'][:,-1].float()-torch.as_tensor(goal_features,device=adapter.device)).pow(2).mean((1,2))[None]
     own=torch.from_numpy(predicted.values[:,-1]).to(adapter.device)-torch.as_tensor(goal_features,device=adapter.device)
     own=own.square().sum(-1) if adapter.backbone=='lewm' else own.square().mean((1,2))
@@ -144,6 +144,6 @@ def run(adapter,row,source_dir,source_seal,readout,output,external_selection,tec
     for i,c in enumerate(bank.candidates):
         for draw,k in enumerate(('tail_1','tail_2')):
             branch(adapter,record,arrays,c.actions,substream(row['seeds'][k],adapter.backbone),evaluation/(str(i)+'-'+str(draw)))
-    write_new(output/'USAGE.json',{'predictor_calls':adapter.predictor_calls,'encoded_frames':adapter.encoded_frames,
+    write_new(output/'USAGE.json',{'predictor_calls':adapter.predictor_calls,'encoded_frames':adapter.encoded_frames,'cost_api_calls':adapter.cost_api_calls,
                                  'candidate_count':len(bank.candidates),'selection_seal':expected,'physics_worlds':1+3*len(bank.candidates)+(2 if technical else 0)})
     return seal(output,59_900_000 if adapter.backbone=='dinowm_noprop' else 9_900_000)
