@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 13.78099999999904,
+  "peak_job_memory_bytes": 30105600,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"ALL_ALLOCATIONS_TERMINAL_AND_RECONCILED\",\n  \"own_queue\": \"\",\n  \"squeue_terminal_cache_status\": \"slurm_load_jobs error: Invalid job id specified\\n\",\n  \"STOP\": {\n    \"error\": \"RuntimeError('native source failed',)\",\n    \"job_id\": \"317102\",\n    \"phase\": \"source\",\n    \"reason\": \"FAILED\",\n    \"root_id\": \"WM-DIAG0-A2-v1:reacher:root-000\"\n  },\n  \"cpu_source_charged_seconds\": 678,\n  \"CPU_total_with_preflight\": 695,\n  \"CPU_full_future_after_recovery\": 9000,\n  \"CPU_total_charged_plus_full_future\": 9695,\n  \"GPU_charged\": 0,\n  \"GPU_full_future\": 468000,\n  \"failed_partial\": {\n    \"evidence/pixels.npy\": {\n      \"bytes\": 6773888,\n      \"sha256\": \"2ac53090ec618f94ba939e16d749a435e027fe809fa18f2bf3d248ab5146583b\"\n    },\n    \"evidence/actions.npy\": {\n      \"bytes\": 832,\n      \"sha256\": \"46966bd884e3c3c1a1cd43294cef2fd6067a0b3604b65aa4ac7be58bc03188e3\"\n    },\n    \"evidence/coordinates.npy\": {\n      \"bytes\": 848,\n      \"sha256\": \"da1734ef6f6520566b18316aa2fa6f1866c4ebe6be49220baaf40bdef0b2a1bf\"\n    },\n    \"evidence/labels.npy\": {\n      \"bytes\": 848,\n      \"sha256\": \"da1734ef6f6520566b18316aa2fa6f1866c4ebe6be49220baaf40bdef0b2a1bf\"\n    }\n  },\n  \"failed_retained_bytes\": 8304747,\n  \"failed_physical_work\": {\n    \"world_resets\": 1,\n    \"controller_actions\": 44,\n    \"Reacher_dm_steps\": 88\n  },\n  \"source_records_repeated_by_this_observation\": 0\n}\n"
+}

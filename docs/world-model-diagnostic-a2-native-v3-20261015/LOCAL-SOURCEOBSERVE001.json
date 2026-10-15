@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 10.296999999998661,
+  "peak_job_memory_bytes": 29863936,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"dispatch\": {\n    \"CPU_charged_before\": 17,\n    \"CPU_other_full_future_seconds\": 5400,\n    \"GPU_full_future_seconds\": 468000,\n    \"allocation_seconds_each\": 60,\n    \"array_elements\": 120,\n    \"contract_sha256\": \"3457b1fb6fb007267462deb5bf686b7c96de25af2c248b3516f8492e21b16d31\",\n    \"full_future_source_seconds\": 7200,\n    \"job_id\": \"317041\",\n    \"maximum_concurrency\": 1,\n    \"replacements\": 0\n  },\n  \"queue\": \"317041_4|COMPLETING|0:11|gpu06|gpu06\\n317041_[5-119%1]|PENDING|0:00||(JobArrayTaskLimit)\\n\",\n  \"scheduler\": \"317041_0|317042|COMPLETED|0:0|11|4|8Gn|gpu06\\n317041_1|317043|COMPLETED|0:0|11|4|8Gn|gpu06\\n317041_2|317044|COMPLETED|0:0|12|4|8Gn|gpu06\\n317041_3|317045|COMPLETED|0:0|11|4|8Gn|gpu06\\n317041_4|317046|COMPLETED|0:0|11|4|8Gn|gpu06\\n317041_[5-119%1]|317041|PENDING|0:0|0|4|8Gn|None assigned\\n\",\n  \"completed_tasks\": 5,\n  \"STOP\": null,\n  \"failed_worker_stderr\": {}\n}\n"
+}

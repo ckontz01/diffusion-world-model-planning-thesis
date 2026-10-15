@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 1.7029999999977008,
+  "peak_job_memory_bytes": 178229248,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_compact_large_rng_audit_is_lossless_within_existing_limit (wm_diag0_source_r2.test_writer.Writer.test_compact_large_rng_audit_is_lossless_within_existing_limit) ... ok\ntest_new_source_compiles (wm_diag0_source_r2.test_writer.Writer.test_new_source_compiles) ... ok\ntest_still_rejects_over_limit_and_never_overwrites (wm_diag0_source_r2.test_writer.Writer.test_still_rejects_over_limit_and_never_overwrites) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.818s\n\nOK\n",
+  "stdout": ""
+}

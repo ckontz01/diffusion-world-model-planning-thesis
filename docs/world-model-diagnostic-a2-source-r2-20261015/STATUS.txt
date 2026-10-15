@@ -1,0 +1,39 @@
+WM-DIAG0-A2 source persistence repair R2 -- NOT LAUNCHED
+
+The fixed source array 317041 accepted all60 PushT roots. Reacher000
+(job317102) completed the44-action trajectory and wrote its four numeric
+arrays, then failed because pretty-printed full audit metadata exceeded the
+existing2MB per-receipt writer guard. It is not a missing acceptance receipt:
+the full audit metadata was not preserved. All59 later Reacher tasks were
+cancelled before allocation. Every original STOP, error, success and partial
+remains unchanged.
+
+The smallest technical fix is lossless compact JSON with the SAME2MB guard.
+Three new artificial tests passed. No existing56-test suite was repeated.
+A same-seed replacement would require all four saved original arrays to
+match exactly; no successful source would be rerun or scientifically replaced.
+
+The proposed one-failure recovery is NOT authorized within existing limits:
+failed physical work plus full future raises controller actions386880->386924,
+resets6400->6401, source frames5400->5445, source collection actions5280->5324,
+and Reacher dm_control steps386880->386968. No savings from future early
+termination or ragged banks are presumed. The build now fails closed before
+creating any recovery contract. No R2 stage, launcher or submission exists.
+Only the human can authorize a resource amendment; reasoning-model advice
+cannot provide that authority. No scientific policy, root, seed or task changed.
+
+CPU695s charged plus9000s full future=9695s<=13800s. GPU0 charged plus468000s
+full future remains within468000s. Live full future including8,304,747B of
+failed evidence=12,844,699,989B<=13GB. The original1800s conversion reservation
+remains unused and unreassigned. These time/storage balances do not silently
+increase the physical-work maxima.
+
+Native-v3 preparation's full nonrefundable2000s charge covers these local
+operations: cumulative14104.10301460012s, unreserved295.89698539988s. Actual
+LOCAL receipts are supplementary, never an additional charge or refund.
+
+Campaign-v4 model/native diagnostic/readout/validator code is still a DRAFT.
+It is not a passed full campaign or a substitute for the missing source gate,
+remaining implementation, actual native parity, finite frozen dispatch,
+independent final acceptance and designated SSD preservation. No GPU job has
+run and no partial scientific aggregate/efficacy has been inspected.

@@ -1,0 +1,76 @@
+{
+  "CPU_cap_seconds": 13800,
+  "CPU_charged_plus_full_future_seconds": 9695,
+  "CPU_charged_seconds": 695,
+  "GPU_campaign_launched": false,
+  "GPU_cap_seconds": 468000,
+  "GPU_charged_seconds": 0,
+  "GPU_full_future_seconds": 468000,
+  "all_prior_source_errors_STOPs_partials_and_acceptances_untouched": true,
+  "blocker": "R2 NOT AUTHORIZED WITHIN EXISTING LIMITS: failed physical work plus full future exceeds original maxima; no stage or submission",
+  "campaign_v4_draft_status": "unexecuted, incomplete and not launch-ready; no research result readout",
+  "campaign_v4_remaining_unexecuted_work": [
+    "final source completeness gate",
+    "four readouts",
+    "first four native parity jobs",
+    "remaining fixed diagnostic grid",
+    "independent complete analysis",
+    "whole/member final SSD preservation"
+  ],
+  "failed_array": "317041",
+  "failed_replacement_proposed_not_authorized": 1,
+  "failed_source_job": "317102",
+  "fault": "Reacher000 collection completed; pretty-printed audit exceeded 2MB writer cap before acceptance",
+  "live_cap_bytes": 13000000000,
+  "live_full_future_bytes_including_failed_evidence": 12844699989,
+  "new_jobs_submitted": 0,
+  "new_stage_created": false,
+  "physical_reservations": {
+    "all_controller_steps_max": {
+      "charged_failed_plus_full_future": 386924,
+      "excess": 44,
+      "existing_max": 386880
+    },
+    "collector_steps_max": {
+      "charged_failed_plus_full_future": 5324,
+      "excess": 44,
+      "existing_max": 5280
+    },
+    "reacher_dm_steps_max": {
+      "charged_failed_plus_full_future": 386968,
+      "excess": 88,
+      "existing_max": 386880
+    },
+    "source_frames_max": {
+      "charged_failed_plus_full_future": 5445,
+      "excess": 45,
+      "existing_max": 5400
+    },
+    "world_resets_max": {
+      "charged_failed_plus_full_future": 6401,
+      "excess": 1,
+      "existing_max": 6400
+    }
+  },
+  "preparation_actuals_not_added_twice": true,
+  "preparation_cumulative_seconds": 14104.10301460012,
+  "preparation_unreserved_seconds": 295.89698539988,
+  "previously_unstarted_Reacher_roots": 59,
+  "reason": "resource authority is required, not a scientific design choice; external advice cannot expand limits",
+  "reasoning_model_consulted": false,
+  "reconciliation": {
+    "bytes": 29043,
+    "sha256": "92f53b5fa2f3e00f69c219d2862b1d6b0ac1874678a9123a1f32efd943caddbc"
+  },
+  "repair_status": "lossless compact writer implemented; artificial tests passed; real retry unexecuted",
+  "science_changed": false,
+  "scope": "same fixed root/seed; four original numeric arrays would have to agree bit-for-bit",
+  "source_gate_complete": false,
+  "status": "BLOCKED_PHYSICAL_FULL_FUTURE_RESERVATION",
+  "study": "WM-DIAG0-A2",
+  "successful_PushT_roots_preserved": 60,
+  "writer_artificial_test": {
+    "bytes": 750,
+    "sha256": "1c053d113b75df2680d3f9edfd30a7678610cef9ce7c80af9ec0d46acec66a79"
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "STOP": null,
+  "dispatch": {
+    "CPU_charged_before": 17,
+    "CPU_other_full_future_seconds": 5400,
+    "GPU_full_future_seconds": 468000,
+    "allocation_seconds_each": 60,
+    "array_elements": 120,
+    "contract_sha256": "3457b1fb6fb007267462deb5bf686b7c96de25af2c248b3516f8492e21b16d31",
+    "full_future_source_seconds": 7200,
+    "job_id": "317041",
+    "maximum_concurrency": 1,
+    "replacements": 0
+  },
+  "failed_worker_stderr": {},
+  "model_outputs_read": false,
+  "queue": "317041_4|COMPLETING|0:11|gpu06|gpu06\n317041_[5-119%1]|PENDING|0:00||(JobArrayTaskLimit)\n",
+  "queue_returncode": 0,
+  "scheduler": "317041_0|317042|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_1|317043|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_2|317044|COMPLETED|0:0|12|4|8Gn|gpu06\n317041_3|317045|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_4|317046|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_[5-119%1]|317041|PENDING|0:0|0|4|8Gn|None assigned\n",
+  "scheduler_returncode": 0,
+  "scientific_aggregates_read": false,
+  "tasks": {
+    "pusht-000": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "747f4722684dcff02d4cab686f471a53ed4c01c20bbbaaffd00b8279dc8ac33c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.367990448954515,
+      "index": 0,
+      "job_id": "317042",
+      "output_bytes": 9048368,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+      "status": "ACCEPTED"
+    },
+    "pusht-001": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-001",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "afaaae55259f807481c0cc7ff459a424f59f5fc22e7674a2f3d862a81fcf37f9"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.068984300014563,
+      "index": 1,
+      "job_id": "317043",
+      "output_bytes": 9035458,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-001",
+      "status": "ACCEPTED"
+    },
+    "pusht-002": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-002",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "e0b7af8de1dacd641b28a0a3dd81fc706cba1d23fd353135d7ae32ed44a96e05"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.876775777025614,
+      "index": 2,
+      "job_id": "317044",
+      "output_bytes": 9038719,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-002",
+      "status": "ACCEPTED"
+    },
+    "pusht-003": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-003",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "b72c950047f3607e304797db4d282fe4b13f40d822aae4ac70febe8bc785ee1e"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.886965485988185,
+      "index": 3,
+      "job_id": "317045",
+      "output_bytes": 9033720,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-003",
+      "status": "ACCEPTED"
+    },
+    "pusht-004": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-004",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "f9f99c17f776ab50d3745e58a8760f86cb214a75403ebc89e9425702cccfea6c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.017343104991596,
+      "index": 4,
+      "job_id": "317046",
+      "output_bytes": 9036096,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-004",
+      "status": "ACCEPTED"
+    }
+  }
+}

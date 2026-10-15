@@ -17,7 +17,9 @@ def source_record(directory,expected,row):
     return record,arrays
 
 def record_step(world,pix):
-    return {'pixels':array_id(pix),'audit':canonical(world.audit()),'coordinates':world.coordinates().tolist(),
+    audit=world.audit()
+    clocks={k:audit[k] for k in ('clock','wrapper_elapsed','step_count','physics_time') if k in audit}
+    return {'pixels':array_id(pix),'audit':canonical(audit),'native_clocks':clocks,'coordinates':world.coordinates().tolist(),
             'clock':world.clock-20,'success':bool(world.success),'terminated':bool(world.terminated),'truncated':bool(world.truncated)}
 
 def prefix(adapter,record,arrays,actions,output):
@@ -82,6 +84,7 @@ def parity(adapter,record,arrays,bank,predicted,goal_features):
             obs={'visual':info['pixels'].expand(n,-1,-1,-1,-1),
                  'proprio':torch.zeros(n,1,1,device=adapter.device)}
             native,_=wm.rollout(obs,z)
+        adapter.predictor_calls+=5; adapter.encoded_frames+=n
         second=(native['visual'][:,-1].float()-torch.as_tensor(goal_features,device=adapter.device)).pow(2).mean((1,2))[None]
     own=torch.from_numpy(predicted.values[:,-1]).to(adapter.device)-torch.as_tensor(goal_features,device=adapter.device)
     own=own.square().sum(-1) if adapter.backbone=='lewm' else own.square().mean((1,2))

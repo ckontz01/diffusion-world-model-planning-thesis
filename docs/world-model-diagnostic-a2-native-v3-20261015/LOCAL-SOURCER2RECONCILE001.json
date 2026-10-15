@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 13.125,
+  "peak_job_memory_bytes": 30007296,
+  "returncode": 1,
+  "status": "FINISHED",
+  "stderr": "Traceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_source_r2\\reconcile.py\", line 45, in <module>\n    if __name__=='__main__':main()\n                            ^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_source_r2\\reconcile.py\", line 42, in main\n    result=ssh(code);write_new(DOC/'RECONCILIATION-001.json',result)\n           ^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_native_v3\\transport.py\", line 7, in ssh\n    return existing_ssh(code,payload=payload,timeout=timeout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_preflight_v1\\transport.py\", line 14, in ssh\n    if p.returncode: raise RuntimeError('SSH operation failed: '+p.stderr.decode(errors='replace')+' '+p.stdout.decode(errors='replace')[:2000])\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: SSH operation failed: slurm_load_jobs error: Invalid job id specified\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"<string>\", line 6, in <module>\n  File \"/usr/lib64/python3.6/subprocess.py\", line 356, in check_output\n    **kwargs).stdout\n  File \"/usr/lib64/python3.6/subprocess.py\", line 438, in run\n    output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command '['squeue', '-h', '-j', '317041', '-o', '%i|%T']' returned non-zero exit status 1.\n \n",
+  "stdout": ""
+}

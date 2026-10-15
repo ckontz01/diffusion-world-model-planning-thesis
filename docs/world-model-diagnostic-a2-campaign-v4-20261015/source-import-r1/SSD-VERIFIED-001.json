@@ -1,0 +1,22 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-campaign-v4-20261015\\source-import-r1-16b6b03823c7ee15a4f69a1a624ed80afc1ae2bc.zip",
+  "contract": {
+    "bytes": 46636,
+    "sha256": "3457b1fb6fb007267462deb5bf686b7c96de25af2c248b3516f8492e21b16d31"
+  },
+  "previous_large_packages_recopied": 0,
+  "remote_full_hash": "16b6b03823c7ee15a4f69a1a624ed80afc1ae2bc",
+  "source_commit": "16b6b03823c7ee15a4f69a1a624ed80afc1ae2bc",
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "verified_members": 21,
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003859456,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 45620,
+    "sha256": "8e53b59b2f7877e44c38cce291e27a268d2aef8b60a051a844878b0af9647a15"
+  }
+}

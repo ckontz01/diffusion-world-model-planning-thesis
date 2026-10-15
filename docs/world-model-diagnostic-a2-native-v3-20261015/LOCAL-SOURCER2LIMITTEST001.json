@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.4069999999992433,
+  "peak_job_memory_bytes": 23465984,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_failed_source_requires_more_than_existing_physical_maxima (wm_diag0_source_r2.test_resource_gate.ResourceGate.test_failed_source_requires_more_than_existing_physical_maxima) ... ok\ntest_unknown_failed_frame_count_cannot_be_assumed_zero (wm_diag0_source_r2.test_resource_gate.ResourceGate.test_unknown_failed_frame_count_cannot_be_assumed_zero) ... ok\n\n----------------------------------------------------------------------\nRan 2 tests in 0.003s\n\nOK\n",
+  "stdout": ""
+}

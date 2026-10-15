@@ -1,0 +1,1243 @@
+{
+  "STOP": {
+    "error": "RuntimeError('native source failed',)",
+    "job_id": "317102",
+    "phase": "source",
+    "reason": "FAILED",
+    "root_id": "WM-DIAG0-A2-v1:reacher:root-000"
+  },
+  "dispatch": {
+    "CPU_charged_before": 17,
+    "CPU_other_full_future_seconds": 5400,
+    "GPU_full_future_seconds": 468000,
+    "allocation_seconds_each": 60,
+    "array_elements": 120,
+    "contract_sha256": "3457b1fb6fb007267462deb5bf686b7c96de25af2c248b3516f8492e21b16d31",
+    "full_future_source_seconds": 7200,
+    "job_id": "317041",
+    "maximum_concurrency": 1,
+    "replacements": 0
+  },
+  "failed_worker_stderr": {
+    "reacher-000": "WARNING: Overriding HOME environment variable with APPTAINERENV_HOME is not permitted\nINFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1/source/stable_worldmodel/envs/__init__.py:231: UserWarning: ale-py not found; ALE/* envs are unavailable. Install with: pip install 'stable-worldmodel[env]' or pip install ale-py.\n  from stable_worldmodel.envs import ale  # noqa: F401\nTraceback (most recent call last):\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\n  File \"<frozen runpy>\", line 88, in _run_code\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1/source/wm_diag0_native_v3/entry.py\", line 25, in <module>\n    if __name__=='__main__': sys.exit(main())\n                                      ^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1/source/wm_diag0_native_v3/entry.py\", line 20, in main\n    good=collect(plan['roots'][index],task/'output')\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1/source/wm_diag0_native_v3/source.py\", line 47, in collect\n    write_new(output/'evidence/audits.json',audits)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1/source/wm_diag0_native_v3/common.py\", line 21, in write_new\n    if len(raw) > 2_000_000: raise ValueError('bounded metadata')\n                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: bounded metadata\nException ignored in atexit callback: <function ContextBase.__init__.<locals>._free_at_exit at 0x15545435c2c0>\nTraceback (most recent call last):\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/base.py\", line 61, in _free_at_exit\n    self_weakref()._free_unconditionally()  # pylint: disable=protected-access\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/base.py\", line 117, in _free_unconditionally\n    self._render_executor.terminate(self._free_on_executor_thread)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/executor/render_executor.py\", line 214, in terminate\n    self._call_locked(cleanup_callable)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/executor/render_executor.py\", line 206, in _call_locked\n    return self._executor.submit(func, *args, **kwargs).result()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/lib/python3.11/concurrent/futures/thread.py\", line 167, in submit\n    raise RuntimeError('cannot schedule new futures after shutdown')\nRuntimeError: cannot schedule new futures after shutdown\nException ignored in: <function MjrContext.__del__ at 0x15545f0b4720>\nTraceback (most recent call last):\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/mujoco/wrapper/core.py\", line 653, in __del__\n    self.free()\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/mujoco/wrapper/core.py\", line 645, in free\n    ctx.call(ptr.free)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/executor/render_executor.py\", line 196, in call\n    return self._call_locked(func, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/executor/render_executor.py\", line 206, in _call_locked\n    return self._executor.submit(func, *args, **kwargs).result()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/lib/python3.11/concurrent/futures/thread.py\", line 167, in submit\n    raise RuntimeError('cannot schedule new futures after shutdown')\nRuntimeError: cannot schedule new futures after shutdown\nException ignored in: <function ContextBase.__del__ at 0x15546a413ba0>\nTraceback (most recent call last):\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/base.py\", line 120, in __del__\n    self._free_unconditionally()\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/base.py\", line 117, in _free_unconditionally\n    self._render_executor.terminate(self._free_on_executor_thread)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/executor/render_executor.py\", line 214, in terminate\n    self._call_locked(cleanup_callable)\n  File \"/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006/lib/python3.11/site-packages/dm_control/_render/executor/render_executor.py\", line 206, in _call_locked\n    return self._executor.submit(func, *args, **kwargs).result()\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/conda/lib/python3.11/concurrent/futures/thread.py\", line 167, in submit\n    raise RuntimeError('cannot schedule new futures after shutdown')\nRuntimeError: cannot schedule new futures after shutdown\n"
+  },
+  "model_outputs_read": false,
+  "queue": "",
+  "queue_returncode": 0,
+  "scheduler": "317041_0|317042|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_1|317043|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_2|317044|COMPLETED|0:0|12|4|8Gn|gpu06\n317041_3|317045|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_4|317046|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_5|317047|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_6|317048|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_7|317049|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_8|317050|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_9|317051|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_10|317052|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_11|317053|COMPLETED|0:0|11|4|8Gn|gpu07\n317041_12|317054|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_13|317055|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_14|317056|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_15|317057|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_16|317058|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_17|317059|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_18|317060|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_19|317061|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_20|317062|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_21|317063|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_22|317064|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_23|317065|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_24|317066|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_25|317067|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_26|317068|COMPLETED|0:0|12|4|8Gn|gpu06\n317041_27|317069|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_28|317070|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_29|317071|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_30|317072|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_31|317073|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_32|317074|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_33|317075|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_34|317076|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_35|317077|COMPLETED|0:0|12|4|8Gn|gpu07\n317041_36|317078|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_37|317079|COMPLETED|0:0|12|4|8Gn|gpu06\n317041_38|317080|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_39|317081|COMPLETED|0:0|12|4|8Gn|gpu06\n317041_40|317082|COMPLETED|0:0|11|4|8Gn|gpu07\n317041_41|317083|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_42|317084|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_43|317085|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_44|317086|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_45|317087|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_46|317088|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_47|317089|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_48|317090|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_49|317091|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_50|317092|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_51|317093|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_52|317094|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_53|317095|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_54|317096|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_55|317097|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_56|317098|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_57|317099|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_58|317100|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_59|317101|COMPLETED|0:0|11|4|8Gn|gpu06\n317041_60|317102|FAILED|1:0|13|4|8Gn|gpu06\n317041_[61-119%1]|317041|CANCELLED by 1201|0:0|0|4|8Gn|None assigned\n",
+  "scheduler_returncode": 0,
+  "scientific_aggregates_read": false,
+  "tasks": {
+    "pusht-000": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "747f4722684dcff02d4cab686f471a53ed4c01c20bbbaaffd00b8279dc8ac33c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.367990448954515,
+      "index": 0,
+      "job_id": "317042",
+      "output_bytes": 9048368,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+      "status": "ACCEPTED"
+    },
+    "pusht-001": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-001",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "afaaae55259f807481c0cc7ff459a424f59f5fc22e7674a2f3d862a81fcf37f9"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.068984300014563,
+      "index": 1,
+      "job_id": "317043",
+      "output_bytes": 9035458,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-001",
+      "status": "ACCEPTED"
+    },
+    "pusht-002": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-002",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "e0b7af8de1dacd641b28a0a3dd81fc706cba1d23fd353135d7ae32ed44a96e05"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.876775777025614,
+      "index": 2,
+      "job_id": "317044",
+      "output_bytes": 9038719,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-002",
+      "status": "ACCEPTED"
+    },
+    "pusht-003": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-003",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "b72c950047f3607e304797db4d282fe4b13f40d822aae4ac70febe8bc785ee1e"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.886965485988185,
+      "index": 3,
+      "job_id": "317045",
+      "output_bytes": 9033720,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-003",
+      "status": "ACCEPTED"
+    },
+    "pusht-004": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-004",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "f9f99c17f776ab50d3745e58a8760f86cb214a75403ebc89e9425702cccfea6c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.017343104991596,
+      "index": 4,
+      "job_id": "317046",
+      "output_bytes": 9036096,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-004",
+      "status": "ACCEPTED"
+    },
+    "pusht-005": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-005",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "b43df9821d1bc0d997d649a1eee0d6f3264e57b8226815a2e59736fa480c19fb"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.901149649987929,
+      "index": 5,
+      "job_id": "317047",
+      "output_bytes": 9060892,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-005",
+      "status": "ACCEPTED"
+    },
+    "pusht-006": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-006",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "4dac1d6c1248853a7deebca580b49ffd05a905d0bc545dbfe959538edb1a19bd"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.934829410049133,
+      "index": 6,
+      "job_id": "317048",
+      "output_bytes": 9042942,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-006",
+      "status": "ACCEPTED"
+    },
+    "pusht-007": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-007",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "fe709489fcc0e4c53f69fc4d117b51b76c369c43f2efc9abfa8a5366c0e243d6"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.907434249005746,
+      "index": 7,
+      "job_id": "317049",
+      "output_bytes": 9038070,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-007",
+      "status": "ACCEPTED"
+    },
+    "pusht-008": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-008",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "592d7859013ba822a3f32bb732959c77daaa87f005d534d0bb51384764a45741"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.830989444977604,
+      "index": 8,
+      "job_id": "317050",
+      "output_bytes": 9053474,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-008",
+      "status": "ACCEPTED"
+    },
+    "pusht-009": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-009",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "9eb2ae34b1872ca67f2d4cf845c417f00fb93b16c3904527e44373e40f0144b1"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.791301562043373,
+      "index": 9,
+      "job_id": "317051",
+      "output_bytes": 9050161,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-009",
+      "status": "ACCEPTED"
+    },
+    "pusht-010": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-010",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "00de3188b906d89fc588847be9a3a36fc61ff51281e9ecb07c01d28d03d2849a"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.876898190006614,
+      "index": 10,
+      "job_id": "317052",
+      "output_bytes": 9039807,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-010",
+      "status": "ACCEPTED"
+    },
+    "pusht-011": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-011",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "1d6b885826dab5ccffab591a35542419739f008b28d1ab5effc32b8bedc1522a"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.140915355004836,
+      "index": 11,
+      "job_id": "317053",
+      "output_bytes": 9039931,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-011",
+      "status": "ACCEPTED"
+    },
+    "pusht-012": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-012",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "f157ba1315636e313269aa10be15d16ce2f385b8e2dd30ca5dca79f3da655376"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.762824797013309,
+      "index": 12,
+      "job_id": "317054",
+      "output_bytes": 9033285,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-012",
+      "status": "ACCEPTED"
+    },
+    "pusht-013": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-013",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "a5658f9647633ad1385c045e91ac7895e22f2e4fc80643bee4762228a056eb6c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.897900090028998,
+      "index": 13,
+      "job_id": "317055",
+      "output_bytes": 9033917,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-013",
+      "status": "ACCEPTED"
+    },
+    "pusht-014": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-014",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "f1748ef87cac1a047aeeba91c7e7ea24071f0673091a9e7f5deea0305461be02"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.914043314987794,
+      "index": 14,
+      "job_id": "317056",
+      "output_bytes": 9058351,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-014",
+      "status": "ACCEPTED"
+    },
+    "pusht-015": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-015",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "cb330672bf95f72ccd61df22c54eb579783f04942de7aa24036c57ff4bb483f5"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.797485749004409,
+      "index": 15,
+      "job_id": "317057",
+      "output_bytes": 9035387,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-015",
+      "status": "ACCEPTED"
+    },
+    "pusht-016": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-016",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "ed8f497ebe57647cee625ccbf17c5714396ae1df86ca4cdbf502cc34599ed578"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.939834743039683,
+      "index": 16,
+      "job_id": "317058",
+      "output_bytes": 9032276,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-016",
+      "status": "ACCEPTED"
+    },
+    "pusht-017": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-017",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "8a6f7aa36d9aac70bcbd662fe91b2159bce0988cf3bc88c9c46d0653687ecbee"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.818651562032755,
+      "index": 17,
+      "job_id": "317059",
+      "output_bytes": 9038566,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-017",
+      "status": "ACCEPTED"
+    },
+    "pusht-018": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-018",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "1fb3fdff34054ad7eaaf0834759835aef30b890c329ec3f3016317b5c29083c4"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.85430460300995,
+      "index": 18,
+      "job_id": "317060",
+      "output_bytes": 9033313,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-018",
+      "status": "ACCEPTED"
+    },
+    "pusht-019": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-019",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "42fa8de7fb73fc2ddd411affed92adeb37228398eb6b305d3ca54f0f0cd63611"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.860958440985996,
+      "index": 19,
+      "job_id": "317061",
+      "output_bytes": 9074835,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-019",
+      "status": "ACCEPTED"
+    },
+    "pusht-020": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-020",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "9d1a048b2cbdec90b32e6e37397faf40171b604a6a8b23d3ba760dc1bdfe06fa"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.921017804008443,
+      "index": 20,
+      "job_id": "317062",
+      "output_bytes": 9058210,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-020",
+      "status": "ACCEPTED"
+    },
+    "pusht-021": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-021",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "158e979441a5883cf7209cbd42ed36ee9e09d9c15ea6daaf08f9a23ee536da20"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.903120719012804,
+      "index": 21,
+      "job_id": "317063",
+      "output_bytes": 9042575,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-021",
+      "status": "ACCEPTED"
+    },
+    "pusht-022": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-022",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "1b6ea4b5d559dc262a96d89528aa4f8d5974ff69a17fa00a0c9cc545ad6b54ac"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.86001991602825,
+      "index": 22,
+      "job_id": "317064",
+      "output_bytes": 9038985,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-022",
+      "status": "ACCEPTED"
+    },
+    "pusht-023": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-023",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "e60bd27c04d2039cd37d6c958bbec58c9e2cfbe1592eaf300932f1b4ee055c45"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.9133454390103,
+      "index": 23,
+      "job_id": "317065",
+      "output_bytes": 9062831,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-023",
+      "status": "ACCEPTED"
+    },
+    "pusht-024": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-024",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "6627d634e2d2957b0880cf289fa7c021035b3a24f24aa09350c36f76ccbc3a82"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.81603044597432,
+      "index": 24,
+      "job_id": "317066",
+      "output_bytes": 9032254,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-024",
+      "status": "ACCEPTED"
+    },
+    "pusht-025": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-025",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "b23b33fbd619ff03e7293cc2d090a6627fe9c1294af5a0dd358c3af63a71a075"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.0424699850264,
+      "index": 25,
+      "job_id": "317067",
+      "output_bytes": 9052330,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-025",
+      "status": "ACCEPTED"
+    },
+    "pusht-026": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-026",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "933f73572873f768de5fc7cfc97bfa8df4a1035a3079f2d086a2256cb8cadcbb"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.973910934990272,
+      "index": 26,
+      "job_id": "317068",
+      "output_bytes": 9040661,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-026",
+      "status": "ACCEPTED"
+    },
+    "pusht-027": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-027",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "038a0a533790b2e4681b95dac1070a6c6c62dcbabee44706d76be83bb8c791e0"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.850154387007933,
+      "index": 27,
+      "job_id": "317069",
+      "output_bytes": 9043699,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-027",
+      "status": "ACCEPTED"
+    },
+    "pusht-028": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-028",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "ada675510bcc5eb0b102241fd9a9e5c809f2b33617a6d8b5fc8afbdd8e1e4e5f"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.94681551301619,
+      "index": 28,
+      "job_id": "317070",
+      "output_bytes": 9034358,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-028",
+      "status": "ACCEPTED"
+    },
+    "pusht-029": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-029",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "17ca1858e109a5b22bb033e603cc215f7ee433ff90d8582e88935df7ea280f94"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.864463513018563,
+      "index": 29,
+      "job_id": "317071",
+      "output_bytes": 9047904,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-029",
+      "status": "ACCEPTED"
+    },
+    "pusht-030": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-030",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "e326985a36cdfae71308b9b19091086a2c4368967cfccd361d339dfaec99e5fb"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.733824833994731,
+      "index": 30,
+      "job_id": "317072",
+      "output_bytes": 9063218,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-030",
+      "status": "ACCEPTED"
+    },
+    "pusht-031": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-031",
+        "seal": {
+          "bytes": 1066,
+          "sha256": "7fe85f7dc2cb14c1effcef32e3f1b5ea2f9f7f6a178b6a2f75d6a8dd8ca5f3ee"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.832177328004036,
+      "index": 31,
+      "job_id": "317073",
+      "output_bytes": 9035508,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-031",
+      "status": "ACCEPTED"
+    },
+    "pusht-032": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-032",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "44965d829bc054ef213a3d6492ee88c1cd54caf61aa90612486c339cce22f73f"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.84608659800142,
+      "index": 32,
+      "job_id": "317074",
+      "output_bytes": 11443768,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-032",
+      "status": "ACCEPTED"
+    },
+    "pusht-033": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-033",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "035fd42fb1c2796b070126c60b955d5c05a87e6bb7db18e188093c6d11762d75"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.77786426601233,
+      "index": 33,
+      "job_id": "317075",
+      "output_bytes": 11456426,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-033",
+      "status": "ACCEPTED"
+    },
+    "pusht-034": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-034",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "96b355bc7070860b0e7cb4c8757dc1d77b8b54d6d60836f1694660e771cc8f20"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.953079410013743,
+      "index": 34,
+      "job_id": "317076",
+      "output_bytes": 11449477,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-034",
+      "status": "ACCEPTED"
+    },
+    "pusht-035": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-035",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "f5d50d72183ada1fe97e9db17be11c88fb41fd8d6392c9c79aee1f26fb66d05e"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.19270051800413,
+      "index": 35,
+      "job_id": "317077",
+      "output_bytes": 11458059,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-035",
+      "status": "ACCEPTED"
+    },
+    "pusht-036": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-036",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "82984c2e46a4f12e4064d49612d643aff67255c403b40650304bbcae22133d42"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.885936888982542,
+      "index": 36,
+      "job_id": "317078",
+      "output_bytes": 11449463,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-036",
+      "status": "ACCEPTED"
+    },
+    "pusht-037": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-037",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "c8e1b3a8e11b44e49f289843ff50c5708d0e3892454a2d1764713c45b6e28eaf"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.01382872503018,
+      "index": 37,
+      "job_id": "317079",
+      "output_bytes": 11449767,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-037",
+      "status": "ACCEPTED"
+    },
+    "pusht-038": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-038",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "31dfd5c2e36bf97be5f9e0b21badf45aae1ac8959ae6619795ac710e5df944f1"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.95879295404302,
+      "index": 38,
+      "job_id": "317080",
+      "output_bytes": 11446425,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-038",
+      "status": "ACCEPTED"
+    },
+    "pusht-039": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-039",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "b176a56d0c0e16101c159343f7dd8c45f6f16c3a2e08c0829bd04f3931c4df48"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.935436850995757,
+      "index": 39,
+      "job_id": "317081",
+      "output_bytes": 11451754,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-039",
+      "status": "ACCEPTED"
+    },
+    "pusht-040": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-040",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "03270b6c52a5efa36f5c69c58280c71ce58bc87d53364bc3de93562eb809c18c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 11.221377830021083,
+      "index": 40,
+      "job_id": "317082",
+      "output_bytes": 11449647,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-040",
+      "status": "ACCEPTED"
+    },
+    "pusht-041": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-041",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "14b0127eda0e0e8fe3ea2dfa6a4f51d8b4ee5cd48fdde8e5ff00792c03a7865c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.886235850979574,
+      "index": 41,
+      "job_id": "317083",
+      "output_bytes": 11445954,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-041",
+      "status": "ACCEPTED"
+    },
+    "pusht-042": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-042",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "2510561c811ad3965dbca32079c6d27931fb9d3270916cee4cd5f1767c9926eb"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.914666069031227,
+      "index": 42,
+      "job_id": "317084",
+      "output_bytes": 11442326,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-042",
+      "status": "ACCEPTED"
+    },
+    "pusht-043": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-043",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "13254d512a848c73310d5ef8359ac26fc9f12164e170f5d74f619f746bd17f29"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.859154133999255,
+      "index": 43,
+      "job_id": "317085",
+      "output_bytes": 11491441,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-043",
+      "status": "ACCEPTED"
+    },
+    "pusht-044": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-044",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "e6d61440fca97b282233bf05b4268bd6b284a62470e26522c0a058b60fd0e80c"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.956619628996123,
+      "index": 44,
+      "job_id": "317086",
+      "output_bytes": 11454343,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-044",
+      "status": "ACCEPTED"
+    },
+    "pusht-045": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-045",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "eccff7ef93ba0b943b69ea6b6c922879ee5c3cc7cc33fb77810d7a971219b741"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.88468949997332,
+      "index": 45,
+      "job_id": "317087",
+      "output_bytes": 11467344,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-045",
+      "status": "ACCEPTED"
+    },
+    "pusht-046": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-046",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "799134552201a8ee7074ddb50ed021f944037a9f70e4df3772c058c051ce839b"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.833412915002555,
+      "index": 46,
+      "job_id": "317088",
+      "output_bytes": 11466388,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-046",
+      "status": "ACCEPTED"
+    },
+    "pusht-047": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-047",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "7e06a9bc68cde95719b030946d67b158521fb3ae6b88a2c8501609a6b73442cd"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.830800069030374,
+      "index": 47,
+      "job_id": "317089",
+      "output_bytes": 11449592,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-047",
+      "status": "ACCEPTED"
+    },
+    "pusht-048": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-048",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "4fd8e13bea3cb8f7f55c98768a67ad81a96b3499bf5ee85d620be7582ff25a5e"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.86169383500237,
+      "index": 48,
+      "job_id": "317090",
+      "output_bytes": 10248241,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-048",
+      "status": "ACCEPTED"
+    },
+    "pusht-049": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-049",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "305f21c1cc598afd784136d6c68e23aacec39b558e2b4385e3a7176f7f417316"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.898411063011736,
+      "index": 49,
+      "job_id": "317091",
+      "output_bytes": 10263651,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-049",
+      "status": "ACCEPTED"
+    },
+    "pusht-050": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-050",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "17c5d2d09a1cd4a2b944a76fff7897096aadc1466f58c074c84faddb2ef5dfd3"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.802488940011244,
+      "index": 50,
+      "job_id": "317092",
+      "output_bytes": 10245457,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-050",
+      "status": "ACCEPTED"
+    },
+    "pusht-051": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-051",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "51d0168725d1585fa8b88dc0c500c183046dc3c8686a1d2ace5d4cbd61799593"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.807161171047483,
+      "index": 51,
+      "job_id": "317093",
+      "output_bytes": 10237264,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-051",
+      "status": "ACCEPTED"
+    },
+    "pusht-052": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-052",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "4159eeb3487732fb1c230c6bb27cfa9da96df3140ece3b861edba4004224c67b"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.918753724021371,
+      "index": 52,
+      "job_id": "317094",
+      "output_bytes": 10249112,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-052",
+      "status": "ACCEPTED"
+    },
+    "pusht-053": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-053",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "07929ecd44747d3cbc9d1717d58c2295b8f9a7935d7d3a113d9d3f0698b81fd9"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.768107465002686,
+      "index": 53,
+      "job_id": "317095",
+      "output_bytes": 10260715,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-053",
+      "status": "ACCEPTED"
+    },
+    "pusht-054": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-054",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "9dd0ea4fe641dc26a545be78f329efa7a8eac66cb5c1bd7b76c9e704a8d1fed9"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.848683466028888,
+      "index": 54,
+      "job_id": "317096",
+      "output_bytes": 10240078,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-054",
+      "status": "ACCEPTED"
+    },
+    "pusht-055": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-055",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "77cd245981d2879906ece73d0342f95b1218e2dae768a6ea18aa5e29adeeda11"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.866119555954356,
+      "index": 55,
+      "job_id": "317097",
+      "output_bytes": 10258317,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-055",
+      "status": "ACCEPTED"
+    },
+    "pusht-056": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-056",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "697d7be1d458a47256de04462cb8a0f60f1acc5635635ffbde24b16032379335"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.82293067802675,
+      "index": 56,
+      "job_id": "317098",
+      "output_bytes": 10240136,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-056",
+      "status": "ACCEPTED"
+    },
+    "pusht-057": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-057",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "c5f72260cf5099ec918bf48d982f41ba9fd7fb67961ff8a104ba5edf8adfc1d2"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.85961036500521,
+      "index": 57,
+      "job_id": "317099",
+      "output_bytes": 10262434,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-057",
+      "status": "ACCEPTED"
+    },
+    "pusht-058": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-058",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "4f36211e73fa6b16b62fc89d581ee9467f8f0ebf11dd54e55e58dd355ee18f17"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.884325486957096,
+      "index": 58,
+      "job_id": "317100",
+      "output_bytes": 10240652,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-058",
+      "status": "ACCEPTED"
+    },
+    "pusht-059": {
+      "acceptance": {
+        "actions": 44,
+        "available": true,
+        "independent_member_and_clock_verification": true,
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-059",
+        "seal": {
+          "bytes": 1332,
+          "sha256": "314cfb637d64cdf9850e6a99b596a491e65efbbd7b61ddd5e397c1bcc992656d"
+        }
+      },
+      "array_id": "317041",
+      "elapsed_seconds": 10.810540107020643,
+      "index": 59,
+      "job_id": "317101",
+      "output_bytes": 10246870,
+      "returncode": 0,
+      "root_id": "WM-DIAG0-A2-v1:pusht:root-059",
+      "status": "ACCEPTED"
+    },
+    "reacher-000": {
+      "array_id": "317041",
+      "elapsed_seconds": 11.92886542598717,
+      "error": "RuntimeError('native source failed',)",
+      "index": 60,
+      "job_id": "317102",
+      "output_bytes": 6776416,
+      "returncode": 1,
+      "root_id": "WM-DIAG0-A2-v1:reacher:root-000",
+      "status": "FAILED"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_source_r2.reconcile_r1"
+  ],
+  "timeout_seconds": 55
+}

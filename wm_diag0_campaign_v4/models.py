@@ -102,6 +102,7 @@ class Adapter:
             info={'pixels':self.pixels(history)[None,None].expand(1,n,1,3,224,224)}
             result=self.model.rollout(info,a[None])['predicted_emb'][0,:,1:]
             self.predictor_calls+=5
+            self.encoded_frames+=1
             return result
         key=array_id(history)
         if key not in self.cache: self.cache={key:self.encode_tensor(history)[:,None]}
