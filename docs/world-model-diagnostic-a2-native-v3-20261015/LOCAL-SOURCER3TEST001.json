@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.48400000000037835,
+  "peak_job_memory_bytes": 24449024,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_exact_one_retry_bound (wm_diag0_source_r3.test_preparation.Preparation.test_exact_one_retry_bound) ... ok\ntest_new_control_programs_are_python36 (wm_diag0_source_r3.test_preparation.Preparation.test_new_control_programs_are_python36) ... ok\ntest_only_two_existing_source_changes_and_frozen_writer (wm_diag0_source_r3.test_preparation.Preparation.test_only_two_existing_source_changes_and_frozen_writer) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.047s\n\nOK\n",
+  "stdout": ""
+}

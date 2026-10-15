@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 13.704000000001543,
+  "peak_job_memory_bytes": 29814784,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"EXACT_OLD_ALLOCATIONS_AND_SUPPLIERS_UNCHANGED\", \"time\": 1792091393.694503, \"CPU_charged\": 695, \"CPU_with_full_future\": 9695, \"accepted_roots\": 60, \"failed_jobs\": 1, \"unstarted_cancelled_roots\": 59, \"GPU_charged\": 0, \"old_STOP_preserved\": true, \"scientific_aggregates_read\": false, \"original_reconciliation\": {\"bytes\": 29043, \"sha256\": \"92f53b5fa2f3e00f69c219d2862b1d6b0ac1874678a9123a1f32efd943caddbc\"}}\n"
+}

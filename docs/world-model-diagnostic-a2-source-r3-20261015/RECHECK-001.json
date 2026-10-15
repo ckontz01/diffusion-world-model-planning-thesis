@@ -1,0 +1,16 @@
+{
+  "CPU_charged": 695,
+  "CPU_with_full_future": 9695,
+  "GPU_charged": 0,
+  "accepted_roots": 60,
+  "failed_jobs": 1,
+  "old_STOP_preserved": true,
+  "original_reconciliation": {
+    "bytes": 29043,
+    "sha256": "92f53b5fa2f3e00f69c219d2862b1d6b0ac1874678a9123a1f32efd943caddbc"
+  },
+  "scientific_aggregates_read": false,
+  "status": "EXACT_OLD_ALLOCATIONS_AND_SUPPLIERS_UNCHANGED",
+  "time": 1792091393.694503,
+  "unstarted_cancelled_roots": 59
+}
