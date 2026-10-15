@@ -1,0 +1,56 @@
+{
+  "CPU_all_attempts_charged_seconds": 1436,
+  "GPU_all_attempts_charged_seconds": 268,
+  "GPU_allocation_seconds": 19,
+  "Pro_review_pending": true,
+  "SSD_source_package_receipt": {
+    "bytes": 813,
+    "sha256": "579ed3a266a86d29027a1e33026b9b46e0bca9be5678fd1054e25736ce412c53"
+  },
+  "actual_usage": {
+    "CEM_calls": 0,
+    "action_encoder_calls": 7,
+    "controller_actions": 0,
+    "cost_reforecast_API_operations": 3,
+    "encoded_frames": 78,
+    "physics_resets": 0,
+    "predictor_bundle_loads": 2,
+    "predictor_calls": 15,
+    "proprio_encoder_calls": 37,
+    "restricted_encoder_loads": 2,
+    "terminal_score_reductions": 3,
+    "visual_encoder_calls": 34
+  },
+  "approved_full_future_GPU_reservation_seconds": 457629,
+  "automatic_retries": 0,
+  "campaign_resumed": false,
+  "contract": {
+    "bytes": 135447,
+    "sha256": "2045e463d88120ec2cf994293f06ea1a64e3392a0ed7f3414564965b7fb89287"
+  },
+  "efficacy_or_head_outputs_inspected": false,
+  "full_future_GPU_using_actual_charge_seconds": 457468,
+  "job_id": "317173",
+  "measured_operations_within_existing_charge_seconds": 982.5500000000138,
+  "new_attempts": 1,
+  "new_scientific_inference_after_validation": false,
+  "nonrefundable_preparation_charge_seconds": 14104.10301460012,
+  "observation": {
+    "bytes": 18177,
+    "sha256": "ed97d434e4e112e15633de40a1bf8c596b85605d190c17d56d2eb442521a5be5"
+  },
+  "original_uncached_PushT": "FAILED",
+  "original_uncached_Reacher": "UNTESTED",
+  "output_seal": {
+    "bytes": 384,
+    "sha256": "56f5e5b678f5bc1c9e07b2ddea68d9a7c8dc7c5c03843081163ab4dd889bae83"
+  },
+  "preparation_cap_seconds": 14400,
+  "remaining_measured_operation_allowance_seconds": 717.4499999999862,
+  "report": {
+    "bytes": 15815,
+    "sha256": "196bd63be202ac7cecbac1f21f7e4689e64c47748fb98be1222914c2dab8240f"
+  },
+  "source_commit": "7d6ae7ff174d64674f64ec83f294e2a41ccb76f6",
+  "status": "VALIDATION_COMPLETE_REQUIRED_ROLE_CHECK_FAILED"
+}

@@ -1,0 +1,22 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-numerical-validation-v3-20261016\\validation-7d6ae7ff174d64674f64ec83f294e2a41ccb76f6.zip",
+  "contract": {
+    "bytes": 135447,
+    "sha256": "2045e463d88120ec2cf994293f06ea1a64e3392a0ed7f3414564965b7fb89287"
+  },
+  "members": 20,
+  "old_packages_recopied": 0,
+  "remote_full_hash": "7d6ae7ff174d64674f64ec83f294e2a41ccb76f6",
+  "source_commit": "7d6ae7ff174d64674f64ec83f294e2a41ccb76f6",
+  "status": "WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003326976,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 65712,
+    "sha256": "0c438c3051f765aca4bb8063895b6f997ddf12756b10df87799183e8840544fd"
+  }
+}
