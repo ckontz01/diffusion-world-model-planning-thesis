@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.2649999999994179,
+  "peak_job_memory_bytes": 23678976,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"contract\": {\"bytes\": 129282, \"sha256\": \"f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc\"}, \"source_roots_accepted\": 120, \"staged_members\": 215, \"GPU_future_seconds\": 468000, \"CPU_charged_plus_full_future\": 6836, \"GPU_stages\": {\"readout\": 4, \"technical\": 4, \"grid\": 124, \"analysis\": 1}, \"independent_real_parity_still_required\": true}\n"
+}

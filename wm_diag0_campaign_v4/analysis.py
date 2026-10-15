@@ -115,7 +115,9 @@ def main():
     result['native_model_usage']={'predictor_batch_or_chunk_calls':models,'cost_and_reforecast_api_calls':api,'encoded_frames':frames,'readout_frames':1408}
     out=taskdir/'output';out.mkdir(exist_ok=False)
     # These are full fixed results, still private until whole/member SSD gate.
-    write_new(out/'RESULTS.json',result)
+    raw=json.dumps(result,sort_keys=True,separators=(',',':'),allow_nan=False).encode()
+    if len(raw)>38_000_000:raise ValueError('bounded complete-analysis results within original40MB allocation')
+    with (out/'RESULTS.json').open('xb') as f:f.write(raw)
     write_new(out/'ACCEPTANCE.json',{'status':'ALL120_SOURCES_4_READOUTS_128_PARENTS_INDEPENDENTLY_ACCEPTED',
         'parent_output_seals':{r['root_id']+'|'+r['backbone']:r['output_seal'] for r in accepted},
         'readout_output_seals':{str(k):v[1] for k,v in heads.items()},'contract_sha256':expected,

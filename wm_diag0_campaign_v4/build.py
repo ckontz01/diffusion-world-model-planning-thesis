@@ -48,7 +48,7 @@ def main():
        'two_additional_fresh_replays_each':True,'original_reference':'deserialized released objects and pinned original VWorldModel.rollout',
        'cached_native_cost_exact_bits':True,'uncached_DINO_reference_rtol':2**-6,'uncached_DINO_reference_atol':2**-8,'no_tolerance_reselection':True}
     if c['cpu_charged_before']+5400>13800 or 4*1800+128*3600!=468000 or c['live_full_future_bytes']>13000000000:raise ValueError('all-failure-inclusive full future reservations')
-    dest=DOC/'campaign';dest.mkdir(exist_ok=False);write_new(dest/'CONTRACT.json',c)
+    dest=DOC/'campaign';dest.mkdir(exist_ok=True);write_new(dest/'CONTRACT.json',c)
     print(json.dumps({'contract':identity(dest/'CONTRACT.json'),'source_roots_accepted':120,'staged_members':len(c['staged_members']),
         'GPU_future_seconds':468000,'CPU_charged_plus_full_future':c['cpu_charged_before']+5400,'GPU_stages':c['stage_counts'],'independent_real_parity_still_required':True}))
 

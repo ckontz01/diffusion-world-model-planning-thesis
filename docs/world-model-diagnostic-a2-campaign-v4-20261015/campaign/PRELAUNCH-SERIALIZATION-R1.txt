@@ -1,0 +1,9 @@
+The unexecuted contract8df07b9a8ecc6e802a21bf9d6269731cbc07db1f2bdf06320d4b67d997e0a60f
+and its exact source are retained in Git history and the explicitly named
+PRELAUNCH-UNEXECUTED-CONTRACT file. No cluster namespace or GPU allocation
+was created under it. Before deployment, the complete-results writer was
+changed from the generic2MB pretty receipt function to lossless compact JSON
+with a38MB bound inside the already approved40MB analysis-output envelope.
+This avoids a predictable metadata-formatting failure without changing any
+result, analysis, data access, scientific configuration or resource ceiling.
+The final contract is a fresh exclusive file, not an edited live approval.
