@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 12.0,
+  "peak_job_memory_bytes": 192483328,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"all_prior_packages_recopied\": 0,\n  \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-source-r2-20261015\\\\blocked-preparation-502ed2580ba6af147423dc11702877fadfcacb4e.zip\",\n  \"members_verified\": 64,\n  \"readiness\": \"BLOCKED_PHYSICAL_FULL_FUTURE_RESERVATION\",\n  \"remote_full_hash\": \"502ed2580ba6af147423dc11702877fadfcacb4e\",\n  \"research_checkpoint_loads_or_jobs\": 0,\n  \"source_commit\": \"502ed2580ba6af147423dc11702877fadfcacb4e\",\n  \"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\",\n  \"volume\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"HealthStatus\": \"Healthy\",\n    \"SizeRemaining\": 310003802112,\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\"\n  },\n  \"whole\": {\n    \"bytes\": 113869,\n    \"sha256\": \"f89e9a802e605f9d3306a4f20f15c0f9e6e702e6fc8f5efb6b4d7ca80d6b57a6\"\n  }\n}\n"
+}

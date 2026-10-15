@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_source_r2.preserve_checkpoint",
+    "502ed2580ba6af147423dc11702877fadfcacb4e"
+  ],
+  "timeout_seconds": 150
+}
