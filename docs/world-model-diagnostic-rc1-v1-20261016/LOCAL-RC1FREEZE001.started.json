@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_rc1_v1.prepare"
+  ],
+  "component": "freeze_publication_SSD",
+  "timeout_seconds": 20
+}

@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "implementation_artificial_schema",
+  "elapsed_seconds": 8.937000000001717,
+  "peak_job_memory_bytes": 334966784,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"NEW_ARTIFICIAL_COMPLETE_GATE_VALIDATOR_AND_REJECTION_TESTS_PASSED\", \"fixtures\": 7, \"research_model_calls\": 0, \"research_inputs\": 0, \"independent_saved_full_comparison_exercised\": true, \"old56tests_repeated\": false}\n"
+}

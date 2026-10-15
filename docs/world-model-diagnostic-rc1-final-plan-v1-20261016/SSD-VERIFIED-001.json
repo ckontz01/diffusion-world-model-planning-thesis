@@ -1,0 +1,20 @@
+{
+  "archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-final-plan-v1-20261016\\disabled-final-plan-cb22298cfa171ee3bdda8c23491bf64fe6040b5c.zip",
+  "campaign_resumed": false,
+  "historical_packages_or_models_recopied": 0,
+  "members": 31,
+  "remote_full_hash": "cb22298cfa171ee3bdda8c23491bf64fe6040b5c",
+  "research_calls": 0,
+  "source_commit": "cb22298cfa171ee3bdda8c23491bf64fe6040b5c",
+  "status": "NEW_PLAN_REVIEW_WHOLE_AND_EVERY_MEMBER_VERIFIED",
+  "volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 310003179520,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "whole": {
+    "bytes": 49024,
+    "sha256": "8fe00113107b810eae785e8804db73517d48633189a969906259e1f125ac6b2f"
+  }
+}

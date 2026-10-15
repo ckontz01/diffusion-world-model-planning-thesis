@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "freeze_publication_SSD",
+  "elapsed_seconds": 0.25,
+  "peak_job_memory_bytes": 22863872,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"RC1_GATE_ONLY_CONTRACT_FROZEN\", \"contract\": {\"bytes\": 141146, \"sha256\": \"f47f5057a1c55d12e21cbc2f0f1a9e879f915b46fb99c0058eed1bdf4829e698\"}, \"gate_only\": true, \"campaign_ready\": false, \"research_calls\": 0}\n"
+}

@@ -1,0 +1,33 @@
+{
+  "new_allocation": false,
+  "research_checkpoints_or_data_loaded": false,
+  "returncode": 0,
+  "source": {
+    "wm_diag0_rc1_v1/__init__.py": {
+      "bytes": 77,
+      "sha256": "865c68b95425ae63053cee3171d4247a9ceaffb58a2b2f0935d0e0d9b097226b"
+    },
+    "wm_diag0_rc1_v1/common.py": {
+      "bytes": 867,
+      "sha256": "d3fa748431a19a6fb7a9b595d8855ef8b1e89d87bf33b2b5fc79a21f8f4f0d1c"
+    },
+    "wm_diag0_rc1_v1/models.py": {
+      "bytes": 2174,
+      "sha256": "d860932613cf0da9a760d969cbc6e40983d42b758055eba71d8a825236fade1e"
+    },
+    "wm_diag0_rc1_v1/pointwise.py": {
+      "bytes": 417,
+      "sha256": "7f0123af446bb962f9f932a5e1f89cdaa331da7a3f27f222041e13fdad139144"
+    },
+    "wm_diag0_rc1_v1/reference.py": {
+      "bytes": 2216,
+      "sha256": "ea8ad28783dc0bc634af4aa5339511115522525a2ab800d99593b878a69e7cbd"
+    },
+    "wm_diag0_rc1_v1/tests.py": {
+      "bytes": 3612,
+      "sha256": "481db6143fc5bcb6c17bb7c3c8117848a17301fdedeb2066069d70c12f86e660"
+    }
+  },
+  "stderr": "WARNING: Overriding HOME environment variable with APPTAINERENV_HOME is not permitted\nINFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "stdout": "num_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\n{\"status\": \"NEW_ARTIFICIAL_ORIGINAL_METHOD_POINTWISE_REFERENCE_TESTS_PASSED\", \"research_calls\": 0, \"model_downloads\": 0, \"device\": \"CPU\"}\n"
+}

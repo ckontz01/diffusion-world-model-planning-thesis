@@ -1,0 +1,75 @@
+{
+  "gated_future_fits_and_campaign_still_disabled": true,
+  "research_calls": 0,
+  "source_members": {
+    "__init__.py": {
+      "bytes": 77,
+      "sha256": "865c68b95425ae63053cee3171d4247a9ceaffb58a2b2f0935d0e0d9b097226b"
+    },
+    "artificial.py": {
+      "bytes": 3151,
+      "sha256": "cf84e0ae39496d3ca190a5e23ff1bad6fd4e015c3a617b77ccd004f1efe0af29"
+    },
+    "common.py": {
+      "bytes": 867,
+      "sha256": "d3fa748431a19a6fb7a9b595d8855ef8b1e89d87bf33b2b5fc79a21f8f4f0d1c"
+    },
+    "decision.py": {
+      "bytes": 2047,
+      "sha256": "c0b92849d8c2144ed6f0d434f2f59ceb3016aa9f85d24789e0a66a15da222985"
+    },
+    "freeze_check.py": {
+      "bytes": 1364,
+      "sha256": "e32f2c975627566e642d83f7b8b65c27b41b64763cd936ba231c2e4420f9add0"
+    },
+    "gate_tests.py": {
+      "bytes": 4910,
+      "sha256": "be5d90edf67fb08da8ab389272e4ee41407fcea7a430724db82cca75041f1cfb"
+    },
+    "local.py": {
+      "bytes": 2491,
+      "sha256": "f8435aea03ff097deea2677eb3d65f7a1a1c83b3f6568df3e0cdada3021a988d"
+    },
+    "models.py": {
+      "bytes": 2174,
+      "sha256": "d860932613cf0da9a760d969cbc6e40983d42b758055eba71d8a825236fade1e"
+    },
+    "operations.py": {
+      "bytes": 7381,
+      "sha256": "5e77dbcc8adbc32c7da2624b5e79928d6d682c950e04c870f129147bc1ae9e43"
+    },
+    "pointwise.py": {
+      "bytes": 417,
+      "sha256": "7f0123af446bb962f9f932a5e1f89cdaa331da7a3f27f222041e13fdad139144"
+    },
+    "prepare.py": {
+      "bytes": 4045,
+      "sha256": "7c0c6df08e77a1fb94e561626026e7d845266c31bf841820f9c38b94137e7f1d"
+    },
+    "preserve.py": {
+      "bytes": 2557,
+      "sha256": "fd51b48e01e2c8688c38c0a8cdfd6a4ad12c81b80ac51ebbf3677e4a89270346"
+    },
+    "reference.py": {
+      "bytes": 2216,
+      "sha256": "ea8ad28783dc0bc634af4aa5339511115522525a2ab800d99593b878a69e7cbd"
+    },
+    "supervisor.py": {
+      "bytes": 4648,
+      "sha256": "ee3e9fd87a02a90461afc965a74d8b70395c480f1e17ac216b21c56932c451ec"
+    },
+    "tests.py": {
+      "bytes": 3612,
+      "sha256": "481db6143fc5bcb6c17bb7c3c8117848a17301fdedeb2066069d70c12f86e660"
+    },
+    "validate.py": {
+      "bytes": 3843,
+      "sha256": "15e9803eaa24dd1e5110a9be5688761289d5e8601068911658553372220e4438"
+    },
+    "worker.py": {
+      "bytes": 7544,
+      "sha256": "68f5a54d350274ff1b89ceea41e90d3396bf038b9daeb92f706ab0dc7c0182a3"
+    }
+  },
+  "status": "RC1_GATE_FREEZE_STATIC_BOUNDARIES_PASSED"
+}

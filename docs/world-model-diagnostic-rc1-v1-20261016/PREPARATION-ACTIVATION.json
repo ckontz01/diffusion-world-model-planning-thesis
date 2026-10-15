@@ -1,0 +1,27 @@
+{
+  "status": "ONE_SHOT_RC1_PREPARATION_ENVELOPE_ACTIVATED",
+  "authority": "AUTHORITY.json",
+  "existing_nonrefundable_cumulative_charge_seconds": 14104.10301460012,
+  "old_continuation_measured_seconds_at_activation": 1076.5790000000125,
+  "old_continuation_operation_ceiling_seconds": 1700,
+  "reserved_RC1_seconds_inside_existing_charge": 500,
+  "old_unreserved_operation_margin_after_reservation": 123.42099999998754,
+  "new_nonrefundable_charge_seconds_from_unreserved_balance": 250,
+  "new_cumulative_nonrefundable_charge_seconds": 14354.10301460012,
+  "preparation_cap_seconds": 14400,
+  "remaining_unreserved_seconds": 45.89698539988,
+  "RC1_measured_scripted_envelope_seconds": 750,
+  "CPU_threads": 4,
+  "RAM_bytes": 8589934592,
+  "old_charge_refunded_or_added_again": false,
+  "future_old_runner_RC1_use_forbidden": true,
+  "component_ceiling_seconds": {
+    "implementation_artificial_schema": 400,
+    "cluster_artificial_interface": 120,
+    "freeze_publication_SSD": 80,
+    "metadata_reconciliation_staging": 90,
+    "fault_reserve": 60
+  },
+  "all_component_and_total_ceilings_enforced": true,
+  "source_generation_model_execution_in_preparation": false
+}

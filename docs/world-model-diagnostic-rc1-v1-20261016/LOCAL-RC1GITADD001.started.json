@@ -1,0 +1,14 @@
+{
+  "command": [
+    "git",
+    "add",
+    "--",
+    "wm_diag0_rc1_v1",
+    "docs/world-model-diagnostic-rc1-v1-20261016",
+    "docs/world-model-diagnostic-rc1-final-plan-v1-20261016/SSD-VERIFIED-001.json",
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANSSD001.json",
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANSSD001.started.json"
+  ],
+  "component": "freeze_publication_SSD",
+  "timeout_seconds": 12
+}
