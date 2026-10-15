@@ -1,0 +1,11 @@
+{
+  "command": [
+    "git",
+    "add",
+    "--",
+    "wm_diag0_rc1_result_v1",
+    "docs/world-model-diagnostic-rc1-v1-20261016"
+  ],
+  "component": "freeze_publication_SSD",
+  "timeout_seconds": 10
+}

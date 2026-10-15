@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "metadata_reconciliation_staging",
+  "elapsed_seconds": 14.671999999998661,
+  "peak_job_memory_bytes": 133443584,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"job_id\": \"317174\",\n  \"contract_sha256\": \"f47f5057a1c55d12e21cbc2f0f1a9e879f915b46fb99c0058eed1bdf4829e698\",\n  \"phase\": \"RC1_gate\",\n  \"allocation_seconds\": 180,\n  \"automatic_retries\": 0,\n  \"campaign_resumed\": false\n}\n"
+}

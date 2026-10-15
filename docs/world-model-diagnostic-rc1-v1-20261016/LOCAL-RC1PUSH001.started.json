@@ -1,0 +1,10 @@
+{
+  "command": [
+    "git",
+    "push",
+    "origin",
+    "world-model-diagnostic-preparation-20261004"
+  ],
+  "component": "freeze_publication_SSD",
+  "timeout_seconds": 25
+}

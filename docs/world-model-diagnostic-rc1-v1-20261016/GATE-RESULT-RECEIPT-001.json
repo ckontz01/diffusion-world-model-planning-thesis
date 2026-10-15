@@ -1,0 +1,66 @@
+{
+  "CPU_cumulative_all_attempts_seconds": 1436,
+  "GPU_allocation_seconds": 19,
+  "GPU_cumulative_all_attempts_seconds": 287,
+  "Pro_review_complete": false,
+  "RC1_measured_component_seconds": {
+    "cluster_artificial_interface": 17.4529999999977,
+    "fault_reserve": 0,
+    "freeze_publication_SSD": 14.703000000001339,
+    "implementation_artificial_schema": 10.859000000004016,
+    "metadata_reconciliation_staging": 42.2809999999954
+  },
+  "RC1_measured_seconds_before_this_record": 85.29599999999846,
+  "actual_usage": {
+    "CEM_calls": 0,
+    "action_encoder_calls": 5,
+    "controller_actions": 0,
+    "cost_reforecast_API_operations": 1,
+    "encoded_frames": 88,
+    "physics_resets": 0,
+    "predictor_bundle_loads": 2,
+    "predictor_calls": 5,
+    "proprio_encoder_calls": 88,
+    "restricted_encoder_loads": 2,
+    "terminal_score_reductions": 1,
+    "visual_encoder_calls": 88
+  },
+  "campaign_resumed": false,
+  "contract": {
+    "bytes": 141146,
+    "sha256": "f47f5057a1c55d12e21cbc2f0f1a9e879f915b46fb99c0058eed1bdf4829e698"
+  },
+  "efficacy_or_readout_quality_inspected": false,
+  "forecast_coordinates": 6021120,
+  "full_future_CPU_seconds": 6836,
+  "full_future_GPU_seconds": 461087,
+  "full_temporal_forecast_exact_bits": true,
+  "job_id": "317174",
+  "monitor_ACTIVE": true,
+  "monitor_id": "monitor-wm-diag0-rc1-and-recover-technical-faults",
+  "new_head_fits": 0,
+  "no_new_CEM_or_physics": true,
+  "nonrefundable_preparation_charge_seconds": 14354.10301460012,
+  "old_successes_failures_or_closures_modified": false,
+  "original_uncached_PushT": "FAILED",
+  "original_uncached_Reacher": "UNTESTED",
+  "output_seal": {
+    "bytes": 259,
+    "sha256": "90074155b1b9e5c12568d232c1a7b03a4de933a2682e5e88f52f76285b3ef61a"
+  },
+  "preparation_cap_seconds": 14400,
+  "remaining_unreserved_preparation_seconds": 45.89698539988,
+  "report": {
+    "bytes": 17813,
+    "sha256": "3630815a8c2adf4e9f97f0cb3638b1a1eec66295b75fd64b283154e2561f0d00"
+  },
+  "role_repeat_exact_both_tasks": true,
+  "scheduler": "317174|COMPLETED|0:0|19|4|gpu09\n",
+  "source_bank_forecast_reused_not_recomputed": true,
+  "source_commit": "ed3dc7769d859744f8e87f6a80af8d1f27461a22",
+  "source_goal_and_terminal_cost_exact": true,
+  "status": "RC1_GATE_ACCEPTED_TECHNICALLY_PENDING_PRO_SCIENTIFIC_REVIEW",
+  "timing_not_worst_case_guarantee": true,
+  "timing_screens_passed_both_tasks": true,
+  "unsaved_role_arrays_not_independently_recomputed_later": true
+}

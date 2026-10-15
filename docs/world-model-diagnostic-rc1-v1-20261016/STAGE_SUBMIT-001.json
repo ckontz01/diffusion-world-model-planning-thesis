@@ -1,0 +1,8 @@
+{
+  "allocation_seconds": 180,
+  "automatic_retries": 0,
+  "campaign_resumed": false,
+  "contract_sha256": "f47f5057a1c55d12e21cbc2f0f1a9e879f915b46fb99c0058eed1bdf4829e698",
+  "job_id": "317174",
+  "phase": "RC1_gate"
+}

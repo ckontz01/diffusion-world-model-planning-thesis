@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "freeze_publication_SSD",
+  "elapsed_seconds": 9.81199999999808,
+  "peak_job_memory_bytes": 193703936,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"RC1_NEW_SOURCE_WHOLE_AND_EVERY_MEMBER_VERIFIED\", \"source_commit\": \"ed3dc7769d859744f8e87f6a80af8d1f27461a22\", \"remote_full_hash\": \"ed3dc7769d859744f8e87f6a80af8d1f27461a22\", \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-rc1-v1-20261016\\\\gate-source-ed3dc7769d859744f8e87f6a80af8d1f27461a22.zip\", \"whole\": {\"bytes\": 82984, \"sha256\": \"6ea1a1c27b42c7e003fcedfb4014a610fa83f3112a70f24cf92131334de7a50b\"}, \"members\": 40, \"volume\": {\"FileSystemLabel\": \"THESIS_SSD\", \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\", \"SizeRemaining\": 310003126272, \"HealthStatus\": \"Healthy\"}, \"contract\": {\"bytes\": 141146, \"sha256\": \"f47f5057a1c55d12e21cbc2f0f1a9e879f915b46fb99c0058eed1bdf4829e698\"}, \"old_packages_or_models_recopied\": 0, \"research_calls\": 0, \"campaign_ready\": false}\n"
+}
