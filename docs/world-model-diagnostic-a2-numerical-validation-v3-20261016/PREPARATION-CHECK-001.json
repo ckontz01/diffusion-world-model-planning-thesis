@@ -1,0 +1,36 @@
+{
+  "artificial_cluster_test": {
+    "bytes": 2237,
+    "sha256": "93196aeff86c339119e438dd7bf0f3bb7fd65f2cf72c731e5f4d7979f7315906"
+  },
+  "campaign_dispatch_disabled": true,
+  "canonical_reference_is_not_uncached_equivalence": true,
+  "contract": {
+    "bytes": 135447,
+    "sha256": "2045e463d88120ec2cf994293f06ea1a64e3392a0ed7f3414564965b7fb89287"
+  },
+  "current_measured_operations_seconds_within_already_charged_continuation": 947.1910000000098,
+  "full_future_CPU_reserved_seconds": 6836,
+  "full_future_GPU_reserved_seconds": 457629,
+  "full_future_live_reserved_bytes": 12882899989,
+  "future_scientific_parents": 127,
+  "independent_validator_limit": "schema, exact saved members, tensor identities, workload, decision consistency; unsaved role/reference tensor comparisons execute in worker through separate model-independent numpy checker",
+  "local_test": {
+    "affinity_mask": 15,
+    "covered_by_full_2000_second_charge": true,
+    "elapsed_seconds": 1.3290000000015425,
+    "peak_job_memory_bytes": 289382400,
+    "returncode": 0,
+    "status": "FINISHED",
+    "stderr": "",
+    "stdout": "{\"status\": \"ARTIFICIAL_ARRAY_SCHEMA_AND_STATIC_CHECKS_PASSED\", \"real_checkpoints_loaded\": 0, \"old_56_tests_repeated\": false}\n"
+  },
+  "no_claim_artificial_tests_validate_research_weights": true,
+  "nonrefundable_preparation_charge_seconds": 14104.10301460012,
+  "preparation_cap_seconds": 14400,
+  "remaining_measured_operation_ceiling_seconds": 752.8089999999902,
+  "remaining_unreserved_preparation_seconds": 295.89698539988,
+  "remote_control_python36_syntax_passed": true,
+  "research_checkpoints_in_tests": 0,
+  "status": "ARTIFICIAL_TESTS_AND_FROZEN_SOURCE_CHECKED"
+}

@@ -1,0 +1,29 @@
+{
+  "new_allocation": false,
+  "research_checkpoints_or_data_loaded": false,
+  "returncode": 0,
+  "stderr": "WARNING: Overriding HOME environment variable with APPTAINERENV_HOME is not permitted\nINFO:    underlay of /etc/localtime required more than 50 (72) bind mounts\n",
+  "stdout": "num_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\nnum_action_repeat: 1\nnum_proprio_repeat: 1\nproprio encoder: Prop()\naction encoder: Action()\nproprio_dim: 10, after repeat: 10\naction_dim: 10, after repeat: 10\nemb_dim: 404\nModel emb_dim:  404\n{\"status\": \"ARTIFICIAL_PINNED_NATIVE_REFERENCE_AND_REJECTION_CHECKS_PASSED\", \"real_checkpoints_loaded\": 0, \"research_forwards\": 0, \"device\": \"CPU\"}\n",
+  "test_source": {
+    "wm_diag0_numerical_v3/__init__.py": {
+      "bytes": 78,
+      "sha256": "e4a6459896c330713f07b114917a7ba19babd77174eab37cb720b66c4dd0ba15"
+    },
+    "wm_diag0_numerical_v3/common.py": {
+      "bytes": 766,
+      "sha256": "db47a6f061f321fb0bac65ffb10b9ae9c412fdb7b079889f0df69b5a343784fe"
+    },
+    "wm_diag0_numerical_v3/metrics.py": {
+      "bytes": 3263,
+      "sha256": "5d2e1ede463ed82a9afaee5942527c662acc2814eceb947c8a1953a726683440"
+    },
+    "wm_diag0_numerical_v3/reference.py": {
+      "bytes": 2701,
+      "sha256": "ca39ef965f94f43c1ed3702d3c64ef6011c50390510142d8fd2448fa30020984"
+    },
+    "wm_diag0_numerical_v3/tests.py": {
+      "bytes": 5089,
+      "sha256": "43ecf8a697ff5dfcd04186b787da68c13c204d8d9789c093f1f032f2b6e96e66"
+    }
+  }
+}

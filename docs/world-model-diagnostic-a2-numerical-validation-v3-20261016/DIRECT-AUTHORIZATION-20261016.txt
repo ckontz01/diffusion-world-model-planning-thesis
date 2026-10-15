@@ -1,0 +1,19 @@
+WM-DIAG0-A2 numerical validation V3 -- direct human authorization
+
+Human message, client date 2026-10-16:
+"Yes, I approve the bounded validation proposal and its listed accounting increases. Run the validation, have Pro review the results, and resume only once all required checks pass."
+
+Exact approved proposal: numerical-validation-r2-20261015/NUMERICAL-VALIDATION-AMENDMENT.md,
+SHA256 c04894f4244fd80249473eef2a399ec215435f8ad78a7871ea9faf7164203029.
+Source ddd56ed9b6877f3023ee24dff9519544578cbeb9; receipt f1aed472781b64dcb0aac2d6433c667cfa3b93fa.
+
+This authorizes one specified numerical validation allocation, not an automatic campaign launch or a production change. All numerical checks, Pro scientific interpretation, later independent acceptance, finite resumption and preservation checks remain required. Original uncached PushT gate FAILED and Reacher gate UNTESTED remain unchanged.
+
+Approved cumulative maxima: DINO predictor calls950755; cost/reforecast API126859;
+bank reforecast sequences2064; additional parity sequences160;
+predicted macro transitions190091120; world resets6402; PushT reset-internal steps6402.
+One validation allocation180s on exact RTX6000 Ada/gpu09, 4CPU/8GiB, work120s/preserve60s, output26MB/log100KB; no automatic retry. Exact new actual workload34visual calls/78frames,37proprio,7action,15predictor,3API/3terminal reductions; no CEM/physics/fitting.
+
+Remaining 127 scientific parent allocations retain full3600s each. GPU full-future reservation457629s<=468000; CPU6836s<=13800 including unused1800 conversion reserve; conservative live12882899989B<=13GB; archive14GB/inclusive44GB unchanged.
+Existing nonrefundable preparation charge remains14104.10301460012s of14400, with actual operation receipts against its already charged2000s continuation; no extra preparation allowance.
+No scientific efficacy/outcomes inspected, model downloads, environment/security changes, monitor, new experiment, or alteration of historical packages is authorized.
