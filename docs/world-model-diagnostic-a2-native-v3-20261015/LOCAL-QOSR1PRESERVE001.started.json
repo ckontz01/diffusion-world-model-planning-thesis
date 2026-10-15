@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_submit_r1.preserve",
+    "fca8a8b035d2e64cf3c9fead99e53c50e7fa364b"
+  ],
+  "timeout_seconds": 120
+}

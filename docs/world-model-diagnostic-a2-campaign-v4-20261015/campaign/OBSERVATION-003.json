@@ -1,0 +1,136 @@
+{
+  "STOP": null,
+  "dispatch": {
+    "CPU_charged_before": 1436,
+    "CPU_full_future_seconds": 5400,
+    "GPU_full_future_seconds": 468000,
+    "GPUs_per_task": 1,
+    "automatic_replacements": 0,
+    "contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+    "jobs": {
+      "analysis": "317166",
+      "grid": "317165",
+      "readout": "317163",
+      "technical": "317164"
+    },
+    "maximum_simultaneous_GPU_tasks": 1,
+    "node": "gpu09",
+    "source_job_ids": [
+      "317041",
+      "317103"
+    ],
+    "stage_counts": {
+      "analysis": 1,
+      "grid": 124,
+      "readout": 4,
+      "technical": 4
+    },
+    "technical_gates_included_not_extra_pilots": true
+  },
+  "failed_stderr": {},
+  "queue": "317164_[2-3%1]|wm-a2-v4-technical|PENDING|0:00||(JobArrayTaskLimit)\n317165_[0-123%1]|wm-a2-v4-grid|PENDING|0:00||(Dependency)\n317164_1|wm-a2-v4-technical|RUNNING|0:41|gpu09|gpu09\n317166|wm-a2-v4-analysis|PENDING|0:00||(Dependency)\n",
+  "queue_returncode": 0,
+  "scheduler": "317166|317166|PENDING|0:0|0|4|8Gn|None assigned\n317163_0|317167|COMPLETED|0:0|27|4|8Gn|gpu09\n317163_1|317168|COMPLETED|0:0|20|4|8Gn|gpu09\n317163_2|317169|COMPLETED|0:0|27|4|8Gn|gpu09\n317163_3|317163|COMPLETED|0:0|20|4|8Gn|gpu09\n317164_0|317170|COMPLETED|0:0|65|4|8Gn|gpu09\n317164_1|317171|RUNNING|0:0|41|4|8Gn|gpu09\n317164_[2-3%1]|317164|PENDING|0:0|0|4|8Gn|None assigned\n317165_[0-123%1]|317165|PENDING|0:0|0|4|8Gn|None assigned\n",
+  "scheduler_returncode": 0,
+  "scientific_aggregates_or_effects_read": false,
+  "tasks": {
+    "readout-0": {
+      "acceptance_sha256": "b5f2ea7e00f409ec7366cd8b198e4e6b15ab957e292db5d314a19bb8cc3a5031",
+      "array_job_id": "317163",
+      "elapsed_seconds": 27.380152468002052,
+      "index": 0,
+      "job_id": "317167",
+      "output_bytes": 344745,
+      "phase": "readout",
+      "returncode": 0,
+      "status": "ACCEPTED",
+      "temporary_bytes": 0
+    },
+    "readout-1": {
+      "acceptance_sha256": "b7e6b1056480a3f3b5aa3b8f34d9c3a3bdf884b0da19d73029943d1a24361f66",
+      "array_job_id": "317163",
+      "elapsed_seconds": 19.514059989996895,
+      "index": 1,
+      "job_id": "317168",
+      "output_bytes": 110850774,
+      "phase": "readout",
+      "returncode": 0,
+      "status": "ACCEPTED",
+      "temporary_bytes": 0
+    },
+    "readout-2": {
+      "acceptance_sha256": "2ac6b3bad4ae4837b010dcbc90fbbb909ce8f3fb57c5336756c0fa8215c31f48",
+      "array_job_id": "317163",
+      "elapsed_seconds": 26.098903599995538,
+      "index": 2,
+      "job_id": "317169",
+      "output_bytes": 319650,
+      "phase": "readout",
+      "returncode": 0,
+      "status": "ACCEPTED",
+      "temporary_bytes": 0
+    },
+    "readout-3": {
+      "acceptance_sha256": "e3076b1b5e6f475d9b983eec1df197e2e501c78ed02bf76b9585d134ec86376c",
+      "array_job_id": "317163",
+      "elapsed_seconds": 19.542513227002928,
+      "index": 3,
+      "job_id": "317163",
+      "output_bytes": 108423372,
+      "phase": "readout",
+      "returncode": 0,
+      "status": "ACCEPTED",
+      "temporary_bytes": 0
+    },
+    "technical-0": {
+      "acceptance_sha256": "295b81b35a722ee64db5931591e8012679c645e97085aa916c53e9f3629bf584",
+      "array_job_id": "317164",
+      "elapsed_seconds": 64.54485364100401,
+      "index": 0,
+      "job_id": "317170",
+      "output_bytes": 3395688,
+      "phase": "technical",
+      "returncode": 0,
+      "status": "ACCEPTED",
+      "temporary_bytes": 0
+    }
+  },
+  "verified_GPU_metadata": {
+    "readout-0": {
+      "CUDA_visible_devices": "0",
+      "GPU": "NVIDIA RTX 6000 Ada Generation",
+      "source_contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "torch": "2.5.1+cu121"
+    },
+    "readout-1": {
+      "CUDA_visible_devices": "0",
+      "GPU": "NVIDIA RTX 6000 Ada Generation",
+      "source_contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "torch": "2.5.1+cu121"
+    },
+    "readout-2": {
+      "CUDA_visible_devices": "0",
+      "GPU": "NVIDIA RTX 6000 Ada Generation",
+      "source_contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "torch": "2.5.1+cu121"
+    },
+    "readout-3": {
+      "CUDA_visible_devices": "0",
+      "GPU": "NVIDIA RTX 6000 Ada Generation",
+      "source_contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "torch": "2.5.1+cu121"
+    },
+    "technical-0": {
+      "CUDA_visible_devices": "0",
+      "GPU": "NVIDIA RTX 6000 Ada Generation",
+      "source_contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "torch": "2.5.1+cu121"
+    },
+    "technical-1": {
+      "CUDA_visible_devices": "0",
+      "GPU": "NVIDIA RTX 6000 Ada Generation",
+      "source_contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "torch": "2.5.1+cu121"
+    }
+  }
+}

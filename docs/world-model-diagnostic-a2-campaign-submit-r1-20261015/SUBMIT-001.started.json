@@ -1,0 +1,5 @@
+{
+  "GPU_QOS": "normal-a6000",
+  "previous_GPU_allocations": 0,
+  "scientific_contract": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc"
+}

@@ -1,0 +1,63 @@
+WM-DIAG0-A2: RUNNING ON CLUSTER; NOT COMPLETE; NO SCIENTIFIC RESULTS RELEASED
+
+Scientific source8aede74fef94f220f46087e4354124f078d4ca33.
+Frozen contractf08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc.
+Runtime source namespace:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4
+
+Exact dispatched arrays/jobs:
+readout317163 (four settings; ALL FOUR independently ACCEPTED)
+technical317164 (four included root000 jobs; technical-0 independently ACCEPTED,
+  technical-1 RUNNING at OBSERVATION-003; two later settings pending serially)
+grid317165 (124 fixed jobs; blocked on afterok of all four technical jobs)
+analysis317166 (CPU; blocked on afterok of full grid)
+One verified NVIDIA RTX6000 Ada Generation, gpu09, CUDA-visible0. Four CPUs and
+8GiB per allocation. No STOP or failed worker at OBSERVATION-003. Do not stage,
+relaunch or resubmit this healthy already-started DAG.
+
+All120 fixed source windows independently accepted. CPU1436s charged including
+original failed Reacher317102/13s, plus5400s reserved=6836s<=13800s. Original
+1800s conversion reserve unconsumed/unreassigned. Source arrays317041/317103:
+60 old PushT successes reused; one expressly authorized same-seed Reacher000
+retry matched all four original arrays bit-for-bit;59 untouched Reacher roots.
+All original errors, partials and STOPs retained. No additional retry authority
+or physical-limit expansion beyond the human's single explicit increment.
+
+The initial GPU submission was rejected before any allocation: invalid QOS.
+Read-only current-user association and partition records proved normal-a6000
+was already authorized, while default normal was invalid for a6000 partition.
+No permissions/accounts changed. Versioned submit-r1 adds the explicit GPU QOS
+and new journals only; scientific sources and original failure records unchanged.
+Repair sourcefca8a8b035d2e64cf3c9fead99e53c50e7fa364b. Its one precise submission
+succeeded, with all exact IDs recorded before release. Do not rerun it.
+
+New required source packages preserved on designated D:THESIS_SSD, whole/every
+member verified; no old archive or model recopy:
+campaign-8aede74fef94f220f46087e4354124f078d4ca33.zip
+  188808B SHA25632b3ae1355ce31c5fe5a0d4787d2bd9735c1bacd9b6f08891abcde05087bafcb
+  61 members verified
+submit-r1-fca8a8b035d2e64cf3c9fead99e53c50e7fa364b.zip
+  9525B SHA256d6929c1952bae301ffce109a02efaadc77a6a7412e4f7ba1059d0ea9aa2277c3
+  13 members verified
+R3 source recovery packagea23e41076b78cb70698f354e6f6d936e50429610 also retained.
+
+Native first-setting checks and full grid must finish independently. Healthy
+execution stays unchanged. A failure writes STOP and cancels exact pending DAG
+jobs. Any subsequent repair must reconcile successful/live/ambiguous allocations,
+all failed physical work and charge, preserve partials, freeze a finite new
+version outside executed closures, full-remote-verify and small-SSD-verify before
+precise resumption. Never refit accepted heads or rerun successful diagnostics.
+Reasoning-model consultation is for actual scientific decisions only; none was
+needed for the writer/QOS technical repairs. No monitor or author contact created;
+all historical studies and paused monitors untouched.
+
+No partial efficacy, readout quality or scientific aggregate has been inspected
+by the parent. Final CPU analysis independently accepts all128 parents/four heads
+and120 sources before producing complete private fixed results and a one-time
+bounded archive. Final publication waits for native Windows receive_final whole
+and every-member verification on designated SSD. Preserve any failed transfer,
+diagnose finite preservation recovery, never rerun compute to fix preservation.
+
+Same full nonrefundable2000s native-v3 preparation charge: cumulative
+14104.10301460012s, unreserved295.89698539988s. Actual LOCAL timings are additional
+evidence only, not duplicate charges or refunds. Never reset this accounting.

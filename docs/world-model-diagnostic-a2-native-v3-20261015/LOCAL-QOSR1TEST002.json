@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.6409999999996217,
+  "peak_job_memory_bytes": 62488576,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "test_only_configured_GPU_QOS_and_new_journals (wm_diag0_submit_r1.test_repair.Repair.test_only_configured_GPU_QOS_and_new_journals) ... ok\n\n----------------------------------------------------------------------\nRan 1 test in 0.115s\n\nOK\n",
+  "stdout": ""
+}
