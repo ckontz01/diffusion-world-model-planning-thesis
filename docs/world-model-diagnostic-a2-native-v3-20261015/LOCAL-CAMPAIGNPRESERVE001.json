@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 9.687000000001717,
+  "peak_job_memory_bytes": 192552960,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"status\": \"WHOLE_AND_EVERY_MEMBER_VERIFIED\",\n  \"source_commit\": \"8aede74fef94f220f46087e4354124f078d4ca33\",\n  \"remote_full_hash\": \"8aede74fef94f220f46087e4354124f078d4ca33\",\n  \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-campaign-v4-20261015\\\\campaign-8aede74fef94f220f46087e4354124f078d4ca33.zip\",\n  \"whole\": {\n    \"bytes\": 188808,\n    \"sha256\": \"32b3ae1355ce31c5fe5a0d4787d2bd9735c1bacd9b6f08891abcde05087bafcb\"\n  },\n  \"verified_members\": 61,\n  \"volume\": {\n    \"FileSystemLabel\": \"THESIS_SSD\",\n    \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\",\n    \"SizeRemaining\": 310003630080,\n    \"HealthStatus\": \"Healthy\"\n  },\n  \"contract\": {\n    \"bytes\": 129282,\n    \"sha256\": \"f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc\"\n  },\n  \"previous_large_packages_recopied\": 0\n}\n"
+}

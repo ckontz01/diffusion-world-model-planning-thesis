@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 16.59400000000096,
+  "peak_job_memory_bytes": 193114112,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"CAMPAIGN_SOURCE_AUTHENTICATED\", \"contract_sha256\": \"f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc\", \"members\": 215, \"models_or_successful_outputs_recopied\": 0}\n"
+}

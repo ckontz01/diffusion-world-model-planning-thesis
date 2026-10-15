@@ -1,0 +1,45 @@
+{
+  "controls": {
+    "SBATCH-readout-RESPONSE.json": {
+      "args": [
+        "sbatch",
+        "--parsable",
+        "--hold",
+        "--no-requeue",
+        "--job-name=wm-a2-v4-readout",
+        "--partition=a6000",
+        "--nodes=1",
+        "--ntasks=1",
+        "--cpus-per-task=4",
+        "--mem=8192M",
+        "--time=30",
+        "--chdir=/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4/source",
+        "--output=/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4/logs/readout-%A_%a.log",
+        "--error=/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4/logs/readout-%A_%a.log",
+        "--array=0-3%1",
+        "--nodelist=gpu09",
+        "--gres=gpu:1"
+      ],
+      "returncode": 1,
+      "stderr": "sbatch: error: Batch job submission failed: Invalid qos specification\n",
+      "stdout": ""
+    },
+    "SUBMISSION-ERROR.json": {
+      "error": "RuntimeError('submission failed; preserve held dispatches, never blind retry',)",
+      "known_job_ids": {},
+      "no_repeated_submission": true
+    },
+    "SUBMIT-STARTED.json": {
+      "CPU_charged_before": 1436,
+      "CPU_full_future": 5400,
+      "GPU_full_future": 468000,
+      "contract_sha256": "f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc",
+      "time": 1792093300.5198786
+    }
+  },
+  "current_study_queue": [],
+  "known_exact_job_ids": {},
+  "scheduler": "",
+  "scientific_results_read": false,
+  "task_directories": []
+}

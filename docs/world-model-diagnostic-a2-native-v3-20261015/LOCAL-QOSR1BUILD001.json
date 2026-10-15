@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 0.23400000000037835,
+  "peak_job_memory_bytes": 20647936,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"repair\": \"explicit already-authorized normal-a6000 GPU QOS instead of incompatible default normal\", \"source_commit_unchanged\": \"8aede74fef94f220f46087e4354124f078d4ca33\", \"scientific_contract\": {\"bytes\": 129282, \"sha256\": \"f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc\"}, \"new_submission_attempts_max\": 1, \"research_tasks_recomputed\": 0, \"GPU_seconds_previously_allocated\": 0, \"CPU_charged_before\": 1436, \"CPU_full_future\": 5400, \"CPU_cap\": 13800, \"GPU_full_future\": 468000, \"GPU_cap\": 468000, \"account_or_permission_changes\": false, \"QOS_GPU\": \"normal-a6000\", \"QOS_CPU\": \"existing normal default\", \"old_failure_evidence_preserved\": true, \"reconciliation\": {\"bytes\": 1541, \"sha256\": \"ff083dfc2f346cd22d9144726bf762fbf147b40a5b91925846541fcee92f8a7e\"}, \"qos_diagnosis\": {\"bytes\": 1080, \"sha256\": \"f6dfd465c9b9ba60816d53c70be1badd34243f2a4696a24af53fe04559cd3e56\"}, \"preparation\": \"covered by native-v3 full2000s charge; no refund or duplicate charge\"}\n"
+}

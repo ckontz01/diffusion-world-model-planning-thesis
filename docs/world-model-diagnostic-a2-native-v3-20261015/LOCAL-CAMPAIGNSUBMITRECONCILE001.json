@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 7.452999999997701,
+  "peak_job_memory_bytes": 29573120,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"controls\": {\n    \"SBATCH-readout-RESPONSE.json\": {\n      \"args\": [\n        \"sbatch\",\n        \"--parsable\",\n        \"--hold\",\n        \"--no-requeue\",\n        \"--job-name=wm-a2-v4-readout\",\n        \"--partition=a6000\",\n        \"--nodes=1\",\n        \"--ntasks=1\",\n        \"--cpus-per-task=4\",\n        \"--mem=8192M\",\n        \"--time=30\",\n        \"--chdir=/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4/source\",\n        \"--output=/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4/logs/readout-%A_%a.log\",\n        \"--error=/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4/logs/readout-%A_%a.log\",\n        \"--array=0-3%1\",\n        \"--nodelist=gpu09\",\n        \"--gres=gpu:1\"\n      ],\n      \"returncode\": 1,\n      \"stderr\": \"sbatch: error: Batch job submission failed: Invalid qos specification\\n\",\n      \"stdout\": \"\"\n    },\n    \"SUBMISSION-ERROR.json\": {\n      \"error\": \"RuntimeError('submission failed; preserve held dispatches, never blind retry',)\",\n      \"known_job_ids\": {},\n      \"no_repeated_submission\": true\n    },\n    \"SUBMIT-STARTED.json\": {\n      \"CPU_charged_before\": 1436,\n      \"CPU_full_future\": 5400,\n      \"GPU_full_future\": 468000,\n      \"contract_sha256\": \"f08e53e73035171340fe2438e3061685a3be6d1f18a8b132540717bd447a60dc\",\n      \"time\": 1792093300.5198786\n    }\n  },\n  \"known_exact_job_ids\": {},\n  \"current_study_queue\": [],\n  \"scheduler\": \"\",\n  \"task_directories\": [],\n  \"scientific_results_read\": false\n}\n"
+}

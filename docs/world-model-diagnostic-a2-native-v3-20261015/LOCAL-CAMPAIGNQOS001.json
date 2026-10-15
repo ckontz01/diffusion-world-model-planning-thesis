@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "covered_by_full_2000_second_charge": true,
+  "elapsed_seconds": 8.406000000002678,
+  "peak_job_memory_bytes": 29683712,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\n  \"user\": \"ckontzias\",\n  \"partition\": {\n    \"returncode\": 0,\n    \"stdout\": \"PartitionName=a6000\\n   AllowGroups=ALL AllowAccounts=ALL AllowQos=normal-a6000,long-a6000,preemptive-a6000\\n   AllocNodes=ALL Default=NO QoS=N/A\\n   DefaultTime=04:00:00 DisableRootJobs=NO ExclusiveUser=NO GraceTime=0 Hidden=NO\\n   MaxNodes=UNLIMITED MaxTime=UNLIMITED MinNodes=0 LLN=NO MaxCPUsPerNode=UNLIMITED\\n   Nodes=gpu09\\n   PriorityJobFactor=1 PriorityTier=1 RootOnly=NO ReqResv=NO OverSubscribe=YES:4\\n   OverTimeLimit=NONE PreemptMode=REQUEUE\\n   State=UP TotalCPUs=64 TotalNodes=1 SelectTypeParameters=NONE\\n   JobDefaults=(null)\\n   DefMemPerNode=UNLIMITED MaxMemPerNode=UNLIMITED\\n   TRESBillingWeights=CPU=0.0,Mem=0.0G,GRES/gpu=1.0\\n\\n\",\n    \"stderr\": \"\"\n  },\n  \"own_associations\": {\n    \"returncode\": 0,\n    \"stdout\": \"ckontzias|superworld||long,long-a6000,normal,normal-a6000,preemptive,preemptive-a6000|normal\\n\",\n    \"stderr\": \"\"\n  },\n  \"configured_submission_environment\": {\n    \"SBATCH_QOS\": null,\n    \"SBATCH_ACCOUNT\": null,\n    \"SBATCH_PARTITION\": null\n  },\n  \"changes_made\": 0\n}\n"
+}
