@@ -1,0 +1,10 @@
+{
+  "command": [
+    "C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe",
+    "-B",
+    "-m",
+    "wm_diag0_rc1_heads_v1.prepare"
+  ],
+  "component": "implementation_artificial_schema",
+  "timeout_seconds": 15
+}

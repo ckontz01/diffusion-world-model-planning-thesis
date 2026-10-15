@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "implementation_artificial_schema",
+  "elapsed_seconds": 0.6569999999992433,
+  "peak_job_memory_bytes": 166236160,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"RC1_HEAD_ARTIFICIAL_ROUTE_PASSED\", \"rejected\": [\"old_head\", \"wrong_weights\", \"wrong_layout\", \"wrong_time\", \"wrong_preprocess\"], \"research_calls\": 0}\n"
+}

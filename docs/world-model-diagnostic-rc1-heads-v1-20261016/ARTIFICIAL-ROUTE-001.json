@@ -1,0 +1,59 @@
+{
+  "fit_tasks": 0,
+  "limitations": [
+    "route/dispatch source-interface fixtures do not validate new real fitted parameters; allocated independent equation validation remains required"
+  ],
+  "model_calls": 0,
+  "old_56_suite_repeated": false,
+  "original_recipe_imported_unchanged": true,
+  "rejected": [
+    "old_head",
+    "wrong_weights",
+    "wrong_layout",
+    "wrong_time",
+    "wrong_preprocess"
+  ],
+  "source": {
+    "__init__.py": {
+      "bytes": 81,
+      "sha256": "4752f104a625d87b7f603af15fcd2b31e3cb5de127f69b5647492d339478e7ad"
+    },
+    "common.py": {
+      "bytes": 674,
+      "sha256": "002a64dd9647302998ab0449903911fd2d7f16f589c6a8ea787b920eb541e4f4"
+    },
+    "operations.py": {
+      "bytes": 8109,
+      "sha256": "62c22a16a4246bd6ec7b9d703b337f7abdf1733219c8c220431ca1869d2e1154"
+    },
+    "prepare.py": {
+      "bytes": 2817,
+      "sha256": "38ec8fd986238899cc50bf9e042c62efbe83a61b0e626e408d72882e2ffe4965"
+    },
+    "preserve.py": {
+      "bytes": 2671,
+      "sha256": "353b6d7bf03e9a38610b92c04fa44ac7e3270b67290ba73f4600865388a27ae7"
+    },
+    "route.py": {
+      "bytes": 1699,
+      "sha256": "b4c5df3b21cfd133b82093236060319a083c2e470d7ce1061851d981a19b2fc7"
+    },
+    "supervisor.py": {
+      "bytes": 5206,
+      "sha256": "eedf34e7ec229efb744da779d96f1e5988deddade992575145cab1fdb334b887"
+    },
+    "tests.py": {
+      "bytes": 2057,
+      "sha256": "6df05b96fb1b6ed2c412aebc77c1d5527696984789e93bb8dfe1c24f6ef40522"
+    },
+    "validate.py": {
+      "bytes": 1838,
+      "sha256": "9b999f1d704e444c80f61e25c6bcb32ce21d4fd13ca6211c1a1e3dc30f13fb77"
+    },
+    "worker.py": {
+      "bytes": 3147,
+      "sha256": "59f64a310f2edab3af5c69bce3b71f2af88f300501f45162bb30de6d19d842bd"
+    }
+  },
+  "status": "PASSED"
+}

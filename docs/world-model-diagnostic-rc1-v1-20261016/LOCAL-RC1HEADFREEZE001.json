@@ -1,0 +1,10 @@
+{
+  "affinity_mask": 15,
+  "component": "implementation_artificial_schema",
+  "elapsed_seconds": 0.25,
+  "peak_job_memory_bytes": 23490560,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stderr": "",
+  "stdout": "{\"status\": \"EXACT_TWO_HEAD_CONTRACT_FROZEN\", \"contract\": {\"bytes\": 144412, \"sha256\": \"5917ef387f6cbd528aa02e762d3fd9729f001f90d167a3808775648a71e3c629\"}, \"campaign_dispatch_enabled\": false}\n"
+}
