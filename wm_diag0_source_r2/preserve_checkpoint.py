@@ -16,8 +16,10 @@ def main():
     v=volume()
     paths=['wm_diag0_source_r2','wm_diag0_campaign_v4',DOCREL,
            'docs/world-model-diagnostic-a2-campaign-v4-20261015',
-           'docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2']
+           'docs/world-model-diagnostic-a2-native-v3-20261015']
     names=git('ls-tree','-r','--name-only',commit,'--',*paths).decode().splitlines()
+    names=[n for n in names if not n.startswith('docs/world-model-diagnostic-a2-native-v3-20261015/')
+           or Path(n).name.startswith('LOCAL-SOURCER2')]
     blobs={n:git('show',commit+':'+n) for n in names}
     if not blobs or any('/delivery/' in n or n.endswith(('.pth','.ckpt','.so','.dll')) for n in blobs):raise ValueError('compact source/documentation allowlist')
     if sum(map(len,blobs.values()))>3_000_000:raise ValueError('3MB small checkpoint ceiling')
