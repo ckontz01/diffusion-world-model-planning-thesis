@@ -1,0 +1,229 @@
+{
+  "STOP": null,
+  "dispatch": {
+    "allocation_seconds_each": 3600,
+    "array_job_id": "317177",
+    "automatic_retries": 0,
+    "campaign_resumed": false,
+    "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+    "settings": [
+      1,
+      2,
+      3
+    ]
+  },
+  "quality_or_predictions_read": false,
+  "queue": "317177_3|RUNNING|28:24|gpu09|gpu09\n",
+  "scheduler": "317177_1|317178|COMPLETED|0:0|778|4|gpu09\n317177_2|317179|COMPLETED|0:0|118|4|gpu09\n317177_3|317177|RUNNING|0:0|1704|4|gpu09\n",
+  "tasks": {
+    "1": {
+      "ACCEPTED": {
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 1080,
+          "cost_api_calls": 360,
+          "encoded_frames": 104,
+          "predictor_calls": 5400,
+          "proprio_encoder_calls": 1184,
+          "visual_encoder_calls": 104
+        },
+        "backbone": "dinowm_noprop",
+        "candidate_count": 16,
+        "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "native_endpoints_independently_checked": true,
+        "native_index": 0,
+        "output_seal": {
+          "bytes": 25209,
+          "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+        },
+        "phase": "RC1_technical",
+        "readout_output_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+        "scientific_values_emitted": false,
+        "selection_seal": {
+          "bytes": 21492,
+          "sha256": "eefaab9a95279efdb9566450c26f6cb635a5599223c6ba9c9fbc9d9ae0b47530"
+        },
+        "setting": 1,
+        "source_id": "d1a5c3494e3e76079237400cf6b0e4c93adedb04e1e2e6ab639fb8b6d369f530",
+        "task": "pusht",
+        "technical": true,
+        "worlds": 51
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 1099,
+          "sha256": "fc13b8f1bd4ce65dfc0e48b530c524456dc19aaceb32754da4e17cb7030ff9b6"
+        },
+        "array_job_id": "317177",
+        "elapsed_seconds": 776.8639667649986,
+        "grid_dispatched": false,
+        "job_id": "317178",
+        "output_seal": {
+          "bytes": 25209,
+          "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+        },
+        "setting": 1,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 127986,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317178",
+        "node": "gpu09.cluster",
+        "setting": 1,
+        "start_ticks": "5124698",
+        "time": 1792106081.1778896
+      },
+      "WORKER-SUCCESS": {
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 1080,
+          "cost_api_calls": 360,
+          "encoded_frames": 104,
+          "predictor_calls": 5400,
+          "proprio_encoder_calls": 1184,
+          "visual_encoder_calls": 104
+        },
+        "original_head_or_new_RC1_supplier_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "output_seal": {
+          "bytes": 25209,
+          "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+        },
+        "phase": "RC1_technical",
+        "quality_or_outcomes_emitted": false,
+        "setting": 1,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE"
+      },
+      "process": {
+        "PID": 127986,
+        "allocation_terminal_no_live_process_expected": true,
+        "node": "gpu09.cluster",
+        "scope": "compute-node record; not login /proc",
+        "start_ticks": "5124698"
+      }
+    },
+    "2": {
+      "ACCEPTED": {
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 2718,
+          "cost_api_calls": 453,
+          "encoded_frames": 986,
+          "predictor_calls": 2265,
+          "proprio_encoder_calls": 0,
+          "visual_encoder_calls": 922
+        },
+        "backbone": "lewm",
+        "candidate_count": 16,
+        "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "native_endpoints_independently_checked": true,
+        "native_index": 0,
+        "output_seal": {
+          "bytes": 25154,
+          "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+        },
+        "phase": "RC1_technical",
+        "readout_output_seal": {
+          "bytes": 1270,
+          "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+        },
+        "root_id": "WM-DIAG0-A2-v1:reacher:root-000",
+        "scientific_values_emitted": false,
+        "selection_seal": {
+          "bytes": 21396,
+          "sha256": "69caed1d76295839a7d346b5f38844bc2f2cf85f20131d4967db775e2b78a7e9"
+        },
+        "setting": 2,
+        "source_id": "b6dfbc79ca15f08b13720f9545d3933d2b6e3b5441dcae025cd7646a8345a198",
+        "task": "reacher",
+        "technical": true,
+        "worlds": 51
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 1091,
+          "sha256": "a867da1f17f8755efca9f65b8d58833af823c69a3dae02b17b2e809c9bcad825"
+        },
+        "array_job_id": "317177",
+        "elapsed_seconds": 117.61462147400016,
+        "grid_dispatched": false,
+        "job_id": "317179",
+        "output_seal": {
+          "bytes": 25154,
+          "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+        },
+        "setting": 2,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 129857,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317179",
+        "node": "gpu09.cluster",
+        "setting": 2,
+        "start_ticks": "5203269",
+        "time": 1792106866.8723645
+      },
+      "WORKER-SUCCESS": {
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 2718,
+          "cost_api_calls": 453,
+          "encoded_frames": 986,
+          "predictor_calls": 2265,
+          "proprio_encoder_calls": 0,
+          "visual_encoder_calls": 922
+        },
+        "original_head_or_new_RC1_supplier_seal": {
+          "bytes": 1270,
+          "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+        },
+        "output_seal": {
+          "bytes": 25154,
+          "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+        },
+        "phase": "RC1_technical",
+        "quality_or_outcomes_emitted": false,
+        "setting": 2,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE"
+      },
+      "process": {
+        "PID": 129857,
+        "allocation_terminal_no_live_process_expected": true,
+        "node": "gpu09.cluster",
+        "scope": "compute-node record; not login /proc",
+        "start_ticks": "5203269"
+      }
+    },
+    "3": {
+      "STARTED": {
+        "PID": 130544,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317177",
+        "node": "gpu09.cluster",
+        "setting": 3,
+        "start_ticks": "5215318",
+        "time": 1792106987.3663263
+      },
+      "process": {
+        "PID": 130544,
+        "PID_exists": true,
+        "node": "gpu09.cluster",
+        "scope": "compute-node record; not login /proc",
+        "start_ticks": "5215318",
+        "start_ticks_match": true,
+        "verification_returncode": 0
+      }
+    }
+  }
+}

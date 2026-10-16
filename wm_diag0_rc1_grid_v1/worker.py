@@ -40,7 +40,9 @@ def main():
     if adapter.predictor_calls!=usage['predictor_calls'] or adapter.encoded_frames!=usage['encoded_frames']:raise ValueError('actual/manual counts disagree')
     if tensor_versions(adapter.model)!=before:raise ValueError('frozen model state changed')
     verify_imports(c,root/'source')
-    write_new(task/'controls/WORKER-SUCCESS.json',{'phase':'RC1_grid','index':index,'setting':s,'root_index':ri,'output_seal':out,'actual_usage':usage,'readout_output_seal':hs,'scientific_values_emitted':False})
+    from .resources import parent
+    physical=parent(task/'output')
+    write_new(task/'controls/WORKER-SUCCESS.json',{'phase':'RC1_grid','index':index,'setting':s,'root_index':ri,'output_seal':out,'actual_usage':usage,'physical_resource_usage':physical,'readout_output_seal':hs,'scientific_values_emitted':False})
     print(json.dumps({'status':'FIXED_RC1_PARENT_SEALED','index':index,'output_seal':out,'actual_usage':usage}))
 
 if __name__=='__main__':main()

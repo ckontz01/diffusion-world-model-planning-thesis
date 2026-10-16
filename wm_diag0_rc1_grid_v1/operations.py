@@ -3,9 +3,10 @@ import base64,json,sys
 from .common import *
 from .prepare import additions
 from .observer import OBSERVE
+from .scheduler import SOURCE,HISTORY
 from wm_diag0_native_v3.transport import ssh
 
-STAGE=r'''
+STAGE=SOURCE+HISTORY+r'''
 import base64,hashlib,json,os,pathlib,subprocess,sys
 r=pathlib.Path(RUN);data=json.load(sys.stdin);raw=base64.b64decode(data['contract']);c=json.loads(raw)
 def ident(p):
@@ -16,12 +17,9 @@ def ident(p):
 def write(n,x):
  with (r/'controls'/n).open('x') as f:json.dump(x,f,sort_keys=True)
 if hashlib.sha256(raw).hexdigest()!=EXPECTED or not c['rc1_grid']['grid_authorized'] or c['gpu_stages_authorized']:raise ValueError('exact grid-only contract')
-q=subprocess.check_output(['squeue','-h','-j','317163,317164,317165,317166,317172,317173,317174,317175,317177','-o','%i|%T'],universal_newlines=True,timeout=10)
+q,a,queue_diagnostic=exact_snapshot('317163,317164,317165,317166,317172,317173,317174,317175,317177',set(HISTORY_EXPECTED)|HISTORY_UNALLOCATED)
 if q.strip():raise ValueError('old/gate/head/technical allocation still live or ambiguous')
-a=subprocess.check_output(['sacct','-X','-n','-P','-j','317177','--format=JobID,JobIDRaw,State,ExitCode,ElapsedRaw,AllocCPUS,NodeList'],universal_newlines=True,timeout=15)
-rows=[x.split('|') for x in a.splitlines() if x.strip()]
-if len(rows)!=3 or {x[0] for x in rows}!={'317177_1','317177_2','317177_3'} or any(x[2]!='COMPLETED' or x[3]!='0:0' or x[5]!='4' or x[6] not in ('gpu09','gpu09.cluster') for x in rows):raise ValueError('all exact technical allocations must be terminal completed')
-gpu=331+sum(int(x[4]) for x in rows)
+rows,gpu=all_before_grid(a)
 if gpu!=c['rc1_grid']['GPU_charged_before'] or gpu+124*3600>468000 or c['rc1_grid']['all_attempts_full_future']!=138:raise ValueError('failure-inclusive/full-future accounting')
 troot=pathlib.Path(c['rc1_grid']['technical_run'])
 if (troot/'controls/STOP.json').exists() or ident(troot/'source/TECHNICAL-CONTRACT.json')!=c['rc1_grid']['technical_contract']:raise ValueError('actual accepted technical closure')
@@ -62,7 +60,11 @@ os.link(str(old/'controls/RUNTIME-MANIFEST.json'),str(r/'controls/RUNTIME-MANIFE
 for p in sorted((r/'source').rglob('*'),reverse=True):
  if p.is_dir():p.chmod(0o555)
 (r/'source').chmod(0o555)
-write('PUBLICATION-AND-SSD.json',data['publication']);write('ALL-FOUR-GATES-AND-CHARGES.json',{'scheduler':a,'suppliers':c['rc1_grid']['technical_suppliers'],'GPU_before':gpu,'GPU_full_future':gpu+124*3600,'CPU_before':1436,'CPU_full_future':6836})
+sys.path.insert(0,str(r/'source'))
+from wm_diag0_rc1_grid_v1.resources import before_grid
+physical=before_grid(c)
+write('ALL-ATTEMPT-PHYSICAL-FUTURE-RESERVATION.json',physical)
+write('PUBLICATION-AND-SSD.json',data['publication']);write('ALL-FOUR-GATES-AND-CHARGES.json',{'scheduler':a,'queue_diagnostic':queue_diagnostic,'suppliers':c['rc1_grid']['technical_suppliers'],'GPU_before':gpu,'GPU_full_future':gpu+124*3600,'CPU_before':1436,'CPU_full_future':6836})
 write('FRESH-STORAGE.json',{'logical_current_study':logical,'live_full_future':live,'archive_full_future':live+500000000,'inclusive_full_future':live+28000000000+2874852312})
 script=chr(10).join(['#!/bin/bash','set -eu','umask 077','export PYTHONDONTWRITEBYTECODE=1','export PYTHONPATH='+str(r/'source'),'exec python3 -B -m wm_diag0_rc1_grid_v1.supervisor '+RUN+' '+EXPECTED,''])
 args=['sbatch','--parsable','--hold','--no-requeue','--job-name=wm-a2-rc1-grid-v1','--array=0-123%1','--partition=a6000','--qos=normal-a6000','--nodelist=gpu09','--nodes=1','--ntasks=1','--cpus-per-task=4','--mem=8192M','--gres=gpu:1','--time=60','--chdir='+str(r/'source'),'--output='+str(r/'logs/grid-%A_%a.log'),'--error='+str(r/'logs/grid-%A_%a.log')]

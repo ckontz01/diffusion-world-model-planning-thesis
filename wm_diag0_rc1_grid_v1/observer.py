@@ -1,10 +1,10 @@
 """Technical metadata only; one exact array snapshot and compute-node PID check."""
-OBSERVE=r'''
+from .scheduler import SOURCE
+OBSERVE=SOURCE+r'''
 import hashlib,json,pathlib,shlex,subprocess
 r=pathlib.Path(RUN);d=json.loads((r/'controls/DISPATCH.json').read_text());jid=d['array_job_id'];c=json.loads((r/'source/GRID-CONTRACT.json').read_text())
 if not jid.isdigit():raise ValueError('exact dispatch ID')
-q=subprocess.check_output(['squeue','-h','-j',jid,'-o','%i|%T|%M|%N|%R'],universal_newlines=True,timeout=10)
-a=subprocess.check_output(['sacct','-X','-n','-P','-j',jid,'--format=JobID,JobIDRaw,State,ExitCode,ElapsedRaw,AllocCPUS,NodeList'],universal_newlines=True,timeout=15)
+q,a,queue_diagnostic=exact_snapshot(jid,{jid+'_'+str(i) for i in range(124)})
 def ident(p):return {'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()}
 tasks={};accepted=0;active=[]
 for i in range(124):
@@ -15,8 +15,11 @@ for i in range(124):
   p=t/'controls'/(n+'.json')
   if p.exists():z[n]=json.loads(p.read_text())
  if 'ACCEPTED' in z:
-  if ident(t/'output/MEMBERS.json')!=z['ACCEPTED']['output_seal'] or ident(t/'controls/ACCEPTED.json')!=z['RESULT']['acceptance_identity']:raise ValueError('accepted chain/seal changed')
-  accepted+=1
+  if ident(t/'output/MEMBERS.json')!=z['ACCEPTED']['output_seal']:raise ValueError('accepted output seal changed')
+  if 'RESULT' in z:
+   if ident(t/'controls/ACCEPTED.json')!=z['RESULT']['acceptance_identity']:raise ValueError('accepted result/control chain changed')
+   accepted+=1
+  else:z['acceptance_finalization_pending']=True
  if 'STARTED' in z and 'RESULT' not in z:active.append(z['STARTED'])
  if 'RESULT' in z and z['RESULT']['status']=='FAILED':
   p=t/'logs/worker.log';z['stderr']=p.read_text(errors='replace')[-16000:] if p.exists() else ''
@@ -31,7 +34,7 @@ for s in active:
 rows=[x.split('|') for x in a.splitlines() if x.strip()]
 charged=sum(int(x[4]) for x in rows if x[6] in ('gpu09','gpu09.cluster') and x[2] not in ('PENDING','CONFIGURING'))
 stop=json.loads((r/'controls/STOP.json').read_text()) if (r/'controls/STOP.json').exists() else None
-print(json.dumps({'dispatch':d,'queue':q,'scheduler':a,'tasks':tasks,'accepted_grid_parents':accepted,'active_process_records':active,'STOP':stop,
+print(json.dumps({'dispatch':d,'queue':q,'scheduler':a,'queue_diagnostic':queue_diagnostic,'tasks':tasks,'accepted_grid_parents':accepted,'active_process_records':active,'STOP':stop,
  'GPU_all_attempts_including_live_elapsed':c['rc1_grid']['GPU_charged_before']+charged,'CPU_before_analysis':1436,'full_future_GPU_reservation':c['rc1_grid']['full_future_GPU_seconds'],
  'quality_choices_outcomes_or_predictions_read':False}))
 '''

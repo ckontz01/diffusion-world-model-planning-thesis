@@ -22,7 +22,10 @@ def main():
     from wm_diag0_campaign_v4.accept import accept
     result=accept(task/'output',w['output_seal'],task/'controls/SELECTION-EXTERNAL.json',Path(c['source_runs'][name])/'tasks'/key/'output',sources['source_seals'][key],hd,hs,c,gpu=True)
     result={k:v for k,v in result.items() if k not in ('choices','outcomes','reasons','initial_success')}
-    result.update(phase='RC1_grid',index=index,setting=s,root_index=ri,actual_usage=w['actual_usage'],readout_output_seal=hs,contract_sha256=expected,scientific_values_emitted=False)
+    from .resources import parent
+    physical=parent(task/'output')
+    if physical!=w['physical_resource_usage']:raise ValueError('independently recomputed physical-resource counters')
+    result.update(phase='RC1_grid',index=index,setting=s,root_index=ri,actual_usage=w['actual_usage'],physical_resource_usage=physical,readout_output_seal=hs,contract_sha256=expected,scientific_values_emitted=False)
     write_new(task/'controls/ACCEPTED.json',result);print(json.dumps({'status':'FIXED_RC1_PARENT_INDEPENDENTLY_ACCEPTED','index':index,'output_seal':w['output_seal']}))
 
 if __name__=='__main__':main()

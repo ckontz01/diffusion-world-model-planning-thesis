@@ -1,0 +1,18 @@
+{
+  "actual_git_network_SSD_model_or_simulator_calls": 0,
+  "checks": [
+    "exact frozen new source identities",
+    "unrelated staged work rejected",
+    "remote full hash mismatch blocks preservation",
+    "publication/SSD receipt only after success"
+  ],
+  "frozen_contract": {
+    "bytes": 157676,
+    "sha256": "da2766c3f8c33266ee54cea9fb2e3bdf650046e9a61ac39c209816f1b1e7514b"
+  },
+  "publisher_source": {
+    "bytes": 2905,
+    "sha256": "4237254c6b1e34a6e21e69b7d909cfe3d83183f9c0194ea2a1b9133ab8dbdc2d"
+  },
+  "status": "PASSED"
+}

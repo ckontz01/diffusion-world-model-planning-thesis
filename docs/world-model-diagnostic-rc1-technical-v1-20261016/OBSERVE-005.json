@@ -1,0 +1,360 @@
+{
+  "STOP": null,
+  "all_four_physical_full_future": {
+    "actual_sources_failed_helper_and_four_settings": {
+      "PushT_controller_actions": 7996,
+      "PushT_integrator_steps": 80286,
+      "PushT_world_resets": 163,
+      "Reacher_dm_steps": 16123,
+      "controller_actions": 16067,
+      "native_CEM_decisions": 94,
+      "world_resets": 326
+    },
+    "efficacy_choices_outcomes_or_readout_quality_emitted": false,
+    "full_remaining_124_grid_reservation": {
+      "PushT_controller_actions": 192756,
+      "PushT_integrator_steps": 1933962,
+      "PushT_world_resets": 3201,
+      "Reacher_dm_steps": 385643,
+      "controller_actions": 385587,
+      "native_CEM_decisions": 4186,
+      "world_resets": 6402
+    },
+    "initial_retained_bank_solve_charged_once_to_original_supplier": true,
+    "old_failed_helper_retained_and_counted": true,
+    "scope": "failure-inclusive physical-resource counters only, not scientific outcomes",
+    "unchanged_caps": {
+      "PushT_controller_actions": 193440,
+      "PushT_integrator_steps": 1940800,
+      "Reacher_dm_steps": 386968,
+      "controller_actions": 386924,
+      "native_CEM_decisions": 4224,
+      "world_resets": 6402
+    }
+  },
+  "dispatch": {
+    "allocation_seconds_each": 3600,
+    "array_job_id": "317177",
+    "automatic_retries": 0,
+    "campaign_resumed": false,
+    "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+    "settings": [
+      1,
+      2,
+      3
+    ]
+  },
+  "fresh_full_future_storage": {
+    "full_future_archive_bytes": 13466123898,
+    "full_future_inclusive_bytes": 43840976210,
+    "full_future_live_bytes": 12966123898,
+    "logical_current_study_bytes": 2738427337,
+    "no_compression_or_hardlink_savings": true,
+    "passes": true
+  },
+  "observer_revision": "UNFROZEN_GRID_TECHNICAL_OBSERVER_R2_READ_ONLY",
+  "original_technical0_acceptance": {
+    "control": {
+      "bytes": 616,
+      "sha256": "295b81b35a722ee64db5931591e8012679c645e97085aa916c53e9f3629bf584"
+    },
+    "members": 189,
+    "output_seal": {
+      "bytes": 25077,
+      "sha256": "02a967cc1f360554ddfb27826f16a33f5abf4adeb342f26730825960cc6bee20"
+    }
+  },
+  "queue": "",
+  "queue_diagnostic": {
+    "invalid_live_queue_id_authenticated_by_complete_terminal_history": true,
+    "returncode": 1,
+    "stderr": "slurm_load_jobs error: Invalid job id specified\n"
+  },
+  "research_outcomes_predictions_or_quality_read": false,
+  "resource_metadata_reader_source": {
+    "bytes": 4235,
+    "sha256": "d16bf1c8954ae1fbdb55ad06999f808266051b68400027d8829ad9301d9083ef"
+  },
+  "scheduler": "317177_1|317178|COMPLETED|0:0|778|4|gpu09\n317177_2|317179|COMPLETED|0:0|118|4|gpu09\n317177_3|317177|COMPLETED|0:0|2156|4|gpu09\n",
+  "tasks": {
+    "1": {
+      "ACCEPTED": {
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 1080,
+          "cost_api_calls": 360,
+          "encoded_frames": 104,
+          "predictor_calls": 5400,
+          "proprio_encoder_calls": 1184,
+          "visual_encoder_calls": 104
+        },
+        "backbone": "dinowm_noprop",
+        "candidate_count": 16,
+        "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "native_endpoints_independently_checked": true,
+        "native_index": 0,
+        "output_seal": {
+          "bytes": 25209,
+          "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+        },
+        "phase": "RC1_technical",
+        "readout_output_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "root_id": "WM-DIAG0-A2-v1:pusht:root-000",
+        "scientific_values_emitted": false,
+        "selection_seal": {
+          "bytes": 21492,
+          "sha256": "eefaab9a95279efdb9566450c26f6cb635a5599223c6ba9c9fbc9d9ae0b47530"
+        },
+        "setting": 1,
+        "source_id": "d1a5c3494e3e76079237400cf6b0e4c93adedb04e1e2e6ab639fb8b6d369f530",
+        "task": "pusht",
+        "technical": true,
+        "worlds": 51
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 1099,
+          "sha256": "fc13b8f1bd4ce65dfc0e48b530c524456dc19aaceb32754da4e17cb7030ff9b6"
+        },
+        "array_job_id": "317177",
+        "elapsed_seconds": 776.8639667649986,
+        "grid_dispatched": false,
+        "job_id": "317178",
+        "output_seal": {
+          "bytes": 25209,
+          "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+        },
+        "setting": 1,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 127986,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317178",
+        "node": "gpu09.cluster",
+        "setting": 1,
+        "start_ticks": "5124698",
+        "time": 1792106081.1778896
+      },
+      "WORKER-SUCCESS": {
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 1080,
+          "cost_api_calls": 360,
+          "encoded_frames": 104,
+          "predictor_calls": 5400,
+          "proprio_encoder_calls": 1184,
+          "visual_encoder_calls": 104
+        },
+        "original_head_or_new_RC1_supplier_seal": {
+          "bytes": 1284,
+          "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+        },
+        "output_seal": {
+          "bytes": 25209,
+          "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+        },
+        "phase": "RC1_technical",
+        "quality_or_outcomes_emitted": false,
+        "setting": 1,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE"
+      },
+      "process": {
+        "PID": 127986,
+        "node": "gpu09.cluster",
+        "start_ticks": "5124698",
+        "terminal_control_no_live_process_expected": true
+      }
+    },
+    "2": {
+      "ACCEPTED": {
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 2718,
+          "cost_api_calls": 453,
+          "encoded_frames": 986,
+          "predictor_calls": 2265,
+          "proprio_encoder_calls": 0,
+          "visual_encoder_calls": 922
+        },
+        "backbone": "lewm",
+        "candidate_count": 16,
+        "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "native_endpoints_independently_checked": true,
+        "native_index": 0,
+        "output_seal": {
+          "bytes": 25154,
+          "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+        },
+        "phase": "RC1_technical",
+        "readout_output_seal": {
+          "bytes": 1270,
+          "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+        },
+        "root_id": "WM-DIAG0-A2-v1:reacher:root-000",
+        "scientific_values_emitted": false,
+        "selection_seal": {
+          "bytes": 21396,
+          "sha256": "69caed1d76295839a7d346b5f38844bc2f2cf85f20131d4967db775e2b78a7e9"
+        },
+        "setting": 2,
+        "source_id": "b6dfbc79ca15f08b13720f9545d3933d2b6e3b5441dcae025cd7646a8345a198",
+        "task": "reacher",
+        "technical": true,
+        "worlds": 51
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 1091,
+          "sha256": "a867da1f17f8755efca9f65b8d58833af823c69a3dae02b17b2e809c9bcad825"
+        },
+        "array_job_id": "317177",
+        "elapsed_seconds": 117.61462147400016,
+        "grid_dispatched": false,
+        "job_id": "317179",
+        "output_seal": {
+          "bytes": 25154,
+          "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+        },
+        "setting": 2,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 129857,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317179",
+        "node": "gpu09.cluster",
+        "setting": 2,
+        "start_ticks": "5203269",
+        "time": 1792106866.8723645
+      },
+      "WORKER-SUCCESS": {
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 2718,
+          "cost_api_calls": 453,
+          "encoded_frames": 986,
+          "predictor_calls": 2265,
+          "proprio_encoder_calls": 0,
+          "visual_encoder_calls": 922
+        },
+        "original_head_or_new_RC1_supplier_seal": {
+          "bytes": 1270,
+          "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+        },
+        "output_seal": {
+          "bytes": 25154,
+          "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+        },
+        "phase": "RC1_technical",
+        "quality_or_outcomes_emitted": false,
+        "setting": 2,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE"
+      },
+      "process": {
+        "PID": 129857,
+        "node": "gpu09.cluster",
+        "start_ticks": "5203269",
+        "terminal_control_no_live_process_expected": true
+      }
+    },
+    "3": {
+      "ACCEPTED": {
+        "accepted": true,
+        "actual_usage": {
+          "action_encoder_calls": 2977,
+          "cost_api_calls": 993,
+          "encoded_frames": 166,
+          "predictor_calls": 14865,
+          "proprio_encoder_calls": 3138,
+          "visual_encoder_calls": 166
+        },
+        "backbone": "dinowm_noprop",
+        "candidate_count": 16,
+        "contract_sha256": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "native_endpoints_independently_checked": true,
+        "native_index": 0,
+        "output_seal": {
+          "bytes": 25166,
+          "sha256": "dab51d11fcfa66270dcfdce84ed8e2adfe129618ec1186af7975c683aae1d5e5"
+        },
+        "phase": "RC1_technical",
+        "readout_output_seal": {
+          "bytes": 1282,
+          "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+        },
+        "root_id": "WM-DIAG0-A2-v1:reacher:root-000",
+        "scientific_values_emitted": false,
+        "selection_seal": {
+          "bytes": 21438,
+          "sha256": "f43a9fa3ae66b68727ca26f77fd8862827d0f0da150c5ad4bc95e3748ede1c5b"
+        },
+        "setting": 3,
+        "source_id": "e9b6673d8a9c8a0ef4146d59042cccc2cc558795c73b3c90af4fa6f49de17599",
+        "task": "reacher",
+        "technical": true,
+        "worlds": 51
+      },
+      "RESULT": {
+        "acceptance_identity": {
+          "bytes": 1104,
+          "sha256": "937db92562bbcc0ce229016036efd30d259d900473e071aaefda285aafaff105"
+        },
+        "array_job_id": "317177",
+        "elapsed_seconds": 2156.1888695529997,
+        "grid_dispatched": false,
+        "job_id": "317177",
+        "output_seal": {
+          "bytes": 25166,
+          "sha256": "dab51d11fcfa66270dcfdce84ed8e2adfe129618ec1186af7975c683aae1d5e5"
+        },
+        "setting": 3,
+        "status": "ACCEPTED"
+      },
+      "STARTED": {
+        "PID": 130544,
+        "array_job_id": "317177",
+        "contract": "101cd417d9a823a559a29d3813887ad17f721b450ce4f21d267b597e4ef788fd",
+        "job_id": "317177",
+        "node": "gpu09.cluster",
+        "setting": 3,
+        "start_ticks": "5215318",
+        "time": 1792106987.3663263
+      },
+      "WORKER-SUCCESS": {
+        "GPU": "NVIDIA RTX 6000 Ada Generation",
+        "actual_usage": {
+          "action_encoder_calls": 2977,
+          "cost_api_calls": 993,
+          "encoded_frames": 166,
+          "predictor_calls": 14865,
+          "proprio_encoder_calls": 3138,
+          "visual_encoder_calls": 166
+        },
+        "original_head_or_new_RC1_supplier_seal": {
+          "bytes": 1282,
+          "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+        },
+        "output_seal": {
+          "bytes": 25166,
+          "sha256": "dab51d11fcfa66270dcfdce84ed8e2adfe129618ec1186af7975c683aae1d5e5"
+        },
+        "phase": "RC1_technical",
+        "quality_or_outcomes_emitted": false,
+        "setting": 3,
+        "status": "SEALED_PENDING_INDEPENDENT_ACCEPTANCE"
+      },
+      "process": {
+        "PID": 130544,
+        "node": "gpu09.cluster",
+        "start_ticks": "5215318",
+        "terminal_control_no_live_process_expected": true
+      }
+    }
+  }
+}

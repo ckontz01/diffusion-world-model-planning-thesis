@@ -1,0 +1,73 @@
+{
+  "checks": [
+    "purged live queue requires complete exact terminal accounting",
+    "unknown/missing/duplicate/live allocation rejected",
+    "permission and partial queue errors not swallowed",
+    "all14allocated historical/current charges including failed317171",
+    "ACCEPTED-before-RESULT publication race with revised scheduler",
+    "Python3.6 remote/observer/controller syntax"
+  ],
+  "old_frozen_research_closures_edited": false,
+  "original56suite_repeated": false,
+  "previous_resource_race_receipt_retained": "ARTIFICIAL-LOCAL-002.json",
+  "research_or_scheduler_calls": 0,
+  "source": {
+    "__init__.py": {
+      "bytes": 78,
+      "sha256": "814bd5e3a5608b1a46f90893310af429caa42e7db9bb0e6db85465b653df7d3c"
+    },
+    "common.py": {
+      "bytes": 1952,
+      "sha256": "be5d46d5c17884d7ab9548ac456eba6e052e8a4bdc43876ab7efd8558856e5fd"
+    },
+    "observer.py": {
+      "bytes": 2900,
+      "sha256": "c0b86c5d46873673e6a664a826752cde813d50158963abbd4135898b0279371f"
+    },
+    "operations.py": {
+      "bytes": 7295,
+      "sha256": "ae2915e0f433d1764da8bb5e2f165bc4462f4a26f3490a6fdfa429e9618214ce"
+    },
+    "prepare.py": {
+      "bytes": 3774,
+      "sha256": "68d437a8fdd6568dd5973024a39eab8ae34f2f95f2d9a34a680532e8403d276b"
+    },
+    "preserve.py": {
+      "bytes": 2434,
+      "sha256": "db0391ce63dded28f38b4d39af86f10856c29fe1f099c22c787fbde02f5e54a2"
+    },
+    "resources.py": {
+      "bytes": 4235,
+      "sha256": "d16bf1c8954ae1fbdb55ad06999f808266051b68400027d8829ad9301d9083ef"
+    },
+    "scheduler.py": {
+      "bytes": 3353,
+      "sha256": "bbf17853b10fa1ad35839c797059a41fd921b41fb7a0956d7cc05683d71a112c"
+    },
+    "scheduler_tests.py": {
+      "bytes": 4421,
+      "sha256": "b3a81885d9851996397f2d46d50f56894af28a4729d7de0142a17e406e04fd60"
+    },
+    "supervisor.py": {
+      "bytes": 6298,
+      "sha256": "291954810cfb97f3d62e3e143832fcf7908291ebfc4086c530b08bf3de58be14"
+    },
+    "technical_observation.py": {
+      "bytes": 5484,
+      "sha256": "5b470dd4c80e46dc9f925b2b50b54e07bc4a9d3476f35b5c5a76cd3dbe6b386c"
+    },
+    "tests.py": {
+      "bytes": 5519,
+      "sha256": "672c620ec6671b1ac4721c3b04f50f7d9fdc2f03850d2a1a94c6c42b6cf41af5"
+    },
+    "validate.py": {
+      "bytes": 2696,
+      "sha256": "45bf70b1d9f095c1612b8e14d9b9e9c0c436254aa6c63bfa1f80cb121df92455"
+    },
+    "worker.py": {
+      "bytes": 3495,
+      "sha256": "58a2b8114e6d378055340f859fac488b48deb6b61490d3f5ab6cde8ea98cfc4a"
+    }
+  },
+  "status": "PASSED"
+}

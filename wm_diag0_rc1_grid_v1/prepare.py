@@ -22,7 +22,22 @@ def main():
     old=c['recovery']['accepted_suppliers']['technical-0'];suppliers['0']={'run':OLD_RUN,'output_seal':old['output_seal'],'acceptance_identity':old['control']}
     gpu=331+sum(int(x[4]) for x in rows)
     if gpu+124*3600>468000:raise ValueError('full future failure-inclusive reservation')
-    if json.loads((DOC/'ARTIFICIAL-LOCAL-001.json').read_text())['status']!='PASSED':raise ValueError('new grid fixtures')
+    if json.loads((DOC/'ARTIFICIAL-LOCAL-002.json').read_text())['status']!='PASSED':raise ValueError('updated grid resource/observer fixtures')
+    resource_tests=json.loads((DOC/'ARTIFICIAL-LOCAL-002.json').read_text())
+    scheduler_tests=json.loads((DOC/'ARTIFICIAL-SCHEDULER-003.json').read_text())
+    if scheduler_tests['status']!='PASSED':raise ValueError('terminal scheduler observation repair fixtures')
+    folder=ROOT/'wm_diag0_rc1_grid_v1'
+    for n in ('common.py','resources.py','supervisor.py','validate.py','worker.py'):
+        if identity(folder/n)!=resource_tests['source'][n]:raise ValueError('exact resource/native source covered by artificial002')
+    for n in ('observer.py','operations.py','scheduler.py','scheduler_tests.py','technical_observation.py'):
+        if identity(folder/n)!=scheduler_tests['source'][n]:raise ValueError('exact scheduler repair source covered by artificial003')
+    if not z['fresh_full_future_storage']['passes'] or z['all_four_physical_full_future'] is None:raise ValueError('fresh pregrid full-future resource proof')
+    receipt=DOC/'ALL-FOUR-GATES-001.json'
+    write_new(receipt,{'status':'ALL_FOUR_SETTING_GATES_INDEPENDENTLY_ACCEPTED_WITH_FULL_FUTURE_RESOURCE_PROOF',
+        'source_observation':identity(td/name),'scheduler':z['scheduler'],'queue_diagnostic':z['queue_diagnostic'],'technical_suppliers':suppliers,
+        'all_attempts_GPU_seconds':gpu,'full_future_GPU_seconds':gpu+124*3600,'full_future_CPU_seconds':6836,
+        'physical_full_future':z['all_four_physical_full_future'],'storage_full_future':z['fresh_full_future_storage'],
+        'scientific_outcomes_predictions_or_quality_inspected':False,'research_recomputed':False})
     for n,b in additions().items():
         compile(b,n,'exec');c['staged_members'][n]={'bytes':len(b),'sha256':hashlib.sha256(b).hexdigest()}
     c.update(run=RUN,dino_source=RUN+'/source/dino',gpu_stages_authorized=False,full_campaign_ready=False)
@@ -31,6 +46,9 @@ def main():
         'technical_suppliers':suppliers,'technical_terminal_observation':identity(td/name),'technical_array_job_id':'317177','GPU_charged_before':gpu,'CPU_charged_before':1436,
         'allocated_attempts_before':14,'remaining_grid_attempts':124,'all_attempts_full_future':138,'full_future_GPU_seconds':gpu+124*3600,'full_future_CPU_seconds':6836,
         'automatic_retries':0,'work_seconds':3540,'independent_acceptance_seconds':55,'finalize_seconds':5,'allocation_seconds_each':3600,
+        'full_failure_inclusive_physical_reservation_must_pass_before_sbatch':True,'old_failed_DINO_helper_reset_and_20steps_counted':True,
+        'pregrid_resource_observation':identity(td/name),'resource_tests':identity(DOC/'ARTIFICIAL-LOCAL-002.json'),'scheduler_repair_tests':identity(DOC/'ARTIFICIAL-SCHEDULER-003.json'),
+        'local_four_setting_resource_receipt':identity(receipt),
         'original_science_and_run_function_unchanged':True,'all_four_setting_acceptances_before_dispatch':True,'final_analysis_and_all_lineage_archive_require_separate_completed_implementation':True}
     if sum(x['bytes'] for x in c['staged_members'].values())>5000000:raise ValueError('source closure bound')
     write_new(DOC/'GRID-CONTRACT.json',c);print(json.dumps({'status':'FIXED124_GRID_CONTRACT_FROZEN_AFTER_ALL4_GATES','contract':identity(DOC/'GRID-CONTRACT.json'),'GPU_all_attempts':gpu,'full_future_GPU':gpu+124*3600}))
