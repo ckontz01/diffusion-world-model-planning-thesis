@@ -1,0 +1,29 @@
+Diagnosed publication-only formatting fault, not a research fault.
+
+BUDGETPUBLISH001 and PUBDIAG001 are retained with their full90/10-second
+conservative debits and exact measured times/output/source preimages. The old
+publication stopped at git diff --cached --check: only local.py line44 has one
+trailing space. HEAD remains27ca345933fcb4eef3e5a9fc5769a2a8201523f0; no commit,
+push, SSD directory/archive or research operation occurred in that attempt.
+Do not rerun publication.main or overwrite SOURCE-MANIFEST-001/start controls.
+
+Original local.py remains UNCHANGED, sha256
+4671b0e7a23a47565ff3e1e05a09dc470db4f0efb17482e94fce06bb8f583afb.
+Its exact6303-byte preimage is preserved inertly in failures/LOCAL-V1-PREIMAGE.json
+and private started controls. New local_v2.py is a mechanical trailing-whitespace
+correction in a separate source path. ARTIFICIAL004 must compare exact decoded
+preimage/original and original/V2 AST equality, compile the new resumption source,
+and run one harmless child through the new owned Windows job. No science change.
+Use ONLY wm_diag0_rc1_completion_v1.local_v2 for subsequent operations.
+
+publication_resume_v1 is a separate diagnosed version. It authenticates the
+failed-before-commit phase, original source/index bytes, unchanged HEAD and
+absent destination/SSD receipt before recording its exclusive resumption.
+Only its own newly added historical local.py index entry is unstaged; the live
+file and inert exact preimage remain. Active source closure002 excludes that
+historical executable path, includes the inert preimage and unchanged failed
+closure001 manifest, and independently passes whitespace checks. Explicit path
+commit excludes unrelated user work. Then exactly one push/full-remote check
+and one new source-only SSD package undergo whole/every-member verification.
+No new research allocation, repair retry, old package recopy, final study gate,
+or resource increase is implied. All REVIEW001 constraints remain unchanged.

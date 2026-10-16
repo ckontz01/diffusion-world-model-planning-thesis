@@ -1,0 +1,15 @@
+{
+  "network_calls": 0,
+  "research_calls": 0,
+  "source": {
+    "local_v2.py": {
+      "bytes": 6302,
+      "sha256": "e8542ee0a92f43b4b7b3f341dbeced872edf7775383c6e72f59d4c216d29ea99"
+    },
+    "publication_resume_v1.py": {
+      "bytes": 5067,
+      "sha256": "98071e736d7e2d9556a45be8bd479788019c5c3c3ab4437561a512401711350b"
+    }
+  },
+  "status": "ARTIFICIAL_MECHANICAL_V2_AST_AND_EXACT_PREIMAGE_PASSED"
+}

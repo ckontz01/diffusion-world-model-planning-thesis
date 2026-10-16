@@ -1,0 +1,37 @@
+{
+  "D_access": false,
+  "research_calls": 0,
+  "scheduler_calls": 0,
+  "source": {
+    "__init__.py": {
+      "bytes": 77,
+      "sha256": "4cbc227cb21e3c1b766c92ee1aa418de2d4f67020c46b2e01c3b13c013f9733e"
+    },
+    "common.py": {
+      "bytes": 5273,
+      "sha256": "b5759d2f7679d4df759304cd171f26cfccd21540a5dbbb9bd290b8953ecdbf47"
+    },
+    "compact.py": {
+      "bytes": 7010,
+      "sha256": "38835d27715dee39510f639fc903bdf0d11c6e489b57f6ca606c1f39a17a5c35"
+    },
+    "job.py": {
+      "bytes": 1865,
+      "sha256": "55a152e20af535e29a432d75dfd10e44c8ae2eb3a462e58bd410da97bd5e7aa7"
+    },
+    "local.py": {
+      "bytes": 6303,
+      "sha256": "4671b0e7a23a47565ff3e1e05a09dc470db4f0efb17482e94fce06bb8f583afb"
+    },
+    "tests.py": {
+      "bytes": 3751,
+      "sha256": "192b65db8b597eafd399bb04a06710e618a37bc90171feeadf01f4d222577187"
+    },
+    "worker.py": {
+      "bytes": 421,
+      "sha256": "47c41028b0ca8df2ea61867df18c201519996ec2dcc489e4fb3d4fde8032c7ac"
+    }
+  },
+  "status": "ARTIFICIAL_COMPLETION_BUDGET_AND_COMPACT_OBSERVER_PASSED",
+  "tests": "approved sums; component/check limits; synthetic scheduler/acceptance/raw-ID/STOP; Linux3.6 syntax; actual owned Windows job/handshake"
+}

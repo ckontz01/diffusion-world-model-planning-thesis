@@ -1,0 +1,67 @@
+Reviewed new completion budget and compact observer, not final study acceptance.
+
+Direct human approval adds21300 scripted wall seconds to14400, total35700.
+The old750 ledger is frozen at445.095000000001 measured. Its unused304.905
+seconds is carried forward ONCE, not refunded or charged again. Future work
+has exact21600 component allocation;4.905 margin stays locked. Separate final
+metadata reserve remains untouched at11.141 used, not counted again. BASELINE
+authenticates382 historical LOCAL/started receipts. No legacy runner may be
+used for new work. No historical source, receipt, charge, failure or partial
+was edited. Bootstrap has a conservative full30-second debit, not an invented
+elapsed measurement. New operations conservatively debit their FULL prospective
+reservation and separately record measured entry-to-cleanup time; reserved
+cleanup/receipt time is included, never recovered as additional funding.
+
+New ledger enforces component, total, exclusive operation, advisory OS lock,
+ambiguous-start stop,240check maximum and120-hour deadline. Windows owned-child
+job assignment precedes its GO handshake. Affinity max4 CPUs and job8GiB apply
+to that worker and descendants. Timeout cleanup targets only that newly owned
+job; a watchdog bounds the remaining operation and close kills that owned job.
+No existing WSL service/research controller or unrelated process is targeted.
+Nonmonitor starts retain exact executed source preimages in private LOCAL
+controls, excluded from this public compact package. Failed outputs/partials
+and ambiguous starts are retained, never blindly retried.
+
+ARTIFICIAL001 passed native assignment-before-GO plus approved-budget and
+synthetic observer checks. ARTIFICIAL002 passed terminal124/race/duplicate/
+raw-ID/overrun/process-verification fixtures and an ACTUAL native early-exited
+leader/descendant case: only the owned job was terminated and accounting showed
+zero active processes after cleanup. ARTIFICIAL003 binds the last observer
+source and validates Linux3.6 syntax/exact existing SSH route/finite20-second
+remote group(+1kill)/25-second transport/26-second caller bounds, under the
+inclusive30-second observation allocation. All these tests had ZERO scheduler,
+network, model, simulator, fitting, source-generation or research-artifact calls.
+
+New observer wraps the frozen original read logic and scheduler guard without
+editing any executed source. Exact317180, contractda2766c3f8c33266ee54cea9fb2e3bdf
+650046e9a61ac39c209816f1b1e7514b, raw IDs, accepted-seal/result chain, process
+PID+startticks, STOP, failures, allocated/terminal charges and full-future bounds
+are checked. Existing canonical technical controls remain at original roots;
+the new receipt retains exact scheduler/queue and a digest of canonical parsed
+technical records rather than duplicating every parsed task control each wake.
+This digest is NOT a raw-file inventory or final independent study acceptance.
+Current status is unknown until the first NEW observation. Never treat the old
+35-parent snapshot as current proof. Unavailable transport is not cluster failure.
+
+Hard observation stdout15KB, local output capture16KiB and combined newly owned
+receipt allowance64KiB/check cover240checks within15728640B. Local new auxiliary
+allocation20MB is checked; other44MB remains reserved for bounded small-SSD,
+remote, portable inventory/sidecar and final control copies. Aggregate64MB is
+NOT a completed fresh whole-study/runtime/SSD storage proof. Future writers and
+final staging must independently establish all actual copies fit13.5GB live,
+14GB archive,44GB inclusive,1GB code/test/metadata,5GiB preparation. The3MB final
+artificial-root reservation and all prior/failed/partial lineages remain required.
+No compression, hardlink or deletion savings are used. This small package uses
+inert ZIP_STORED source/compact reviewed metadata; no private LOCAL stdout,
+browser capture, credential, model, checkpoint or original package is published.
+
+Activation2026-10-16T07:37:44Z; finite horizon ends2026-10-21T07:37:44Z.
+All new actions must reserve their entire operation before this deadline.
+Research science/GPU138attempts/468000seconds/call/physical counters unchanged.
+CPUstage13800/final3600/conversion1800 unchanged, no retry or fitting authority.
+This source gate restores technical monitoring ONLY after full remote hash and
+new small-package native designatedSSD whole/every-member verification. It does
+not authorize real final analysis/archive/transfer before the missing actual
+provenance/runtime/alias/member/all-lineage/all-attempt/final CPU/controller
+acceptance/freeze/publication/preservation gates. V1 CPU prototype remains
+historical/defective; future production must use reviewed V2 cleanup semantics.

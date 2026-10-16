@@ -1,0 +1,51 @@
+{
+  "status": "DIRECT_HUMAN_APPROVED_FINITE_COMPLETION_REVISION",
+  "direct_human_instruction": "Okay, I approve the 21,300-second increase and 35,700-second total cap. Proceed with implementation, monitoring, validation and the SSD backup. Preserve accepted work, keep science and GPU limits unchanged, and respect all gates and caps.",
+  "new_charge_seconds": 21300,
+  "total_preparation_cap_seconds": 35700,
+  "future_work_seconds": 21600,
+  "future_component_seconds": {
+    "implementation": 2700,
+    "cluster_validation": 600,
+    "binding_staging": 1200,
+    "publication": 600,
+    "monitoring": 7200,
+    "native_SSD": 7200,
+    "technical_fault": 1200,
+    "handoff": 900
+  },
+  "old_RC1_measured_seconds": 445.095000000001,
+  "old_RC1_funded_seconds": 750,
+  "rollover_seconds": 304.904999999999,
+  "locked_margin_seconds": 4.904999999999,
+  "separate_ops_reserve_borrowed_or_counted_again": false,
+  "immutable_research_limits": {
+    "GPU_seconds": 468000,
+    "GPU_attempts": 138,
+    "CPU_stage_seconds": 13800,
+    "final_CPU_seconds": 3600,
+    "conversion_reserve_seconds": 1800,
+    "CPUs": 4,
+    "RAM_bytes": 8589934592,
+    "live_bytes": 13500000000,
+    "archive_bytes": 14000000000,
+    "inclusive_bytes": 44000000000,
+    "code_test_metadata_bytes": 1000000000,
+    "retained_preparation_bytes": 5368709120,
+    "automatic_research_retries": 0
+  },
+  "monitor_max_checks": 240,
+  "monitor_max_seconds_each": 30,
+  "monitor_interval_minutes": 30,
+  "monitor_horizon_hours": 120,
+  "transfer_phase_seconds": {
+    "stream": 5400,
+    "whole_every_member_readback": 1500,
+    "receipts_flush_cleanup": 300
+  },
+  "new_auxiliary_bytes_all_logical_copies": 64000000,
+  "monitor_receipt_bytes_per_check_all_copies": 65536,
+  "all_science_call_physical_and_security_limits_unchanged": true,
+  "no_partial_scientific_inspection_before_full_acceptance_and_final_SSD": true,
+  "no_gate_waiver": true
+}

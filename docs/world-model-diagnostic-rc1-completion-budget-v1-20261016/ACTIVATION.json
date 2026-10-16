@@ -1,0 +1,24 @@
+{
+  "status": "ACTIVE_ONCE_DIRECT_HUMAN_APPROVAL_NOT_RESEARCH_GATE",
+  "activation_utc": "2026-10-16T07:37:44Z",
+  "stop_utc": "2026-10-21T07:37:44Z",
+  "authority": "AUTHORITY.json",
+  "historical_baseline": {
+    "bytes": 77326,
+    "sha256": "9f049e88dc90b6ca35a5d67d74154812d8ace944afad489dfac4adc6ac559c2f"
+  },
+  "previous_nonrefundable_charge_seconds": 14400,
+  "new_nonrefundable_charge_seconds": 21300,
+  "cumulative_nonrefundable_charge_seconds": 35700,
+  "hard_ceiling_seconds": 35700,
+  "old_RC1_unused_carried_forward_once_seconds": 304.904999999999,
+  "future_work_seconds": 21600,
+  "locked_margin_seconds": 4.904999999999,
+  "unused_separate_metadata_reserve_seconds": 34.755985399880004,
+  "separate_metadata_reserve_used_for_this_revision": false,
+  "legacy_runners_frozen": true,
+  "bootstrap_conservative_charge_seconds": 30,
+  "bootstrap_component": "implementation",
+  "bootstrap_scope": "Initial read-only lineage/source inspection, authority/baseline setup and new metering bootstrap; charged full30 seconds, not represented as exact elapsed measurement",
+  "final_analysis_archive_transfer_ready": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "CONSERVATIVE_BOOTSTRAP_CHARGE_FULL_RESERVATION",
+  "component": "implementation",
+  "elapsed_seconds": 30,
+  "reserved_seconds": 30,
+  "measured_elapsed_claimed": false,
+  "charge_refundable": false,
+  "scope": "Initial read-only lineage/source inspection, authority/baseline setup and new metering bootstrap; charged full30 seconds, not represented as exact elapsed measurement"
+}

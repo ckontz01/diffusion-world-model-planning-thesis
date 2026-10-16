@@ -1,0 +1,95 @@
+{
+  "members": {
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/ACTIVATION.json": {
+      "bytes": 1131,
+      "sha256": "15f89bd8f35ae75358068ef45a55f9e39a031ef3cda3e84e14c303f43b6307af"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/ARTIFICIAL-001.json": {
+      "bytes": 1215,
+      "sha256": "0e82b6a76c6b26d598a153c041008f016696ce31330ed1bbf61f2935a78a837f"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/ARTIFICIAL-002.json": {
+      "bytes": 1438,
+      "sha256": "51c6083bd6c6dceca4d6d3ccb0f09ec34b04f2072cd4b6e10aaf1376a94fdc32"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/ARTIFICIAL-003.json": {
+      "bytes": 264,
+      "sha256": "8a0768bb9e63ad9979b3fd5cfb2c21d56e258f1234c1eeca40cd54dc63823e9b"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/ARTIFICIAL-004.json": {
+      "bytes": 413,
+      "sha256": "2a65aae1f6bed3fc8bec33bea95c78fe2fe4e5858bd62cdfdabf11778aa43879"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/AUTHORITY.json": {
+      "bytes": 1918,
+      "sha256": "6c6a620e4b362e18e9987d1586db114ad86fbf786df01a40fd6aed78833562a9"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/BASELINE.json": {
+      "bytes": 77326,
+      "sha256": "9f049e88dc90b6ca35a5d67d74154812d8ace944afad489dfac4adc6ac559c2f"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/LOCAL-BOOTSTRAP.json": {
+      "bytes": 397,
+      "sha256": "676aac66c118b12f9a8c64e189a5ea376f7d2f47fdd52baa74002d468244f17e"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/REVIEW-001.txt": {
+      "bytes": 4755,
+      "sha256": "b5802ccf0740f4dba23dc1a293100faefc0b83b52566b787881d3b3881a8b905"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/REVIEW-002.txt": {
+      "bytes": 1976,
+      "sha256": "ed156bbb26101f0ed1fa7df2c67fb8eefe83619be78532a9f5fcdb7fc73f96e8"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/SOURCE-MANIFEST-001.json": {
+      "bytes": 3140,
+      "sha256": "1902bacaba534735bf4f869798a004d45743d28fde1ba3e92f7765f98801f6e1"
+    },
+    "docs/world-model-diagnostic-rc1-completion-budget-v1-20261016/failures/LOCAL-V1-PREIMAGE.json": {
+      "bytes": 8569,
+      "sha256": "af6b5169a3eed766fd1c788e74ff276fde8718c076c0dac44467ed069ec5a568"
+    },
+    "wm_diag0_rc1_completion_v1/__init__.py": {
+      "bytes": 77,
+      "sha256": "4cbc227cb21e3c1b766c92ee1aa418de2d4f67020c46b2e01c3b13c013f9733e"
+    },
+    "wm_diag0_rc1_completion_v1/common.py": {
+      "bytes": 5273,
+      "sha256": "b5759d2f7679d4df759304cd171f26cfccd21540a5dbbb9bd290b8953ecdbf47"
+    },
+    "wm_diag0_rc1_completion_v1/compact.py": {
+      "bytes": 8382,
+      "sha256": "01bc50178849c8cfbde4bab45322b5072dc590d81851fce46f5fbfeb43ed812f"
+    },
+    "wm_diag0_rc1_completion_v1/job.py": {
+      "bytes": 1865,
+      "sha256": "55a152e20af535e29a432d75dfd10e44c8ae2eb3a462e58bd410da97bd5e7aa7"
+    },
+    "wm_diag0_rc1_completion_v1/local_v2.py": {
+      "bytes": 6302,
+      "sha256": "e8542ee0a92f43b4b7b3f341dbeced872edf7775383c6e72f59d4c216d29ea99"
+    },
+    "wm_diag0_rc1_completion_v1/publication.py": {
+      "bytes": 3985,
+      "sha256": "1437b3127aef8d12432b979b38a837304bd086784820d9d73ce9d527cbdd6d4b"
+    },
+    "wm_diag0_rc1_completion_v1/publication_resume_v1.py": {
+      "bytes": 5067,
+      "sha256": "98071e736d7e2d9556a45be8bd479788019c5c3c3ab4437561a512401711350b"
+    },
+    "wm_diag0_rc1_completion_v1/tests.py": {
+      "bytes": 3751,
+      "sha256": "192b65db8b597eafd399bb04a06710e618a37bc90171feeadf01f4d222577187"
+    },
+    "wm_diag0_rc1_completion_v1/tests_v2.py": {
+      "bytes": 4652,
+      "sha256": "9424b782b07f3705e26c3297b336a94c884090a864938429da0365f04f531bd5"
+    },
+    "wm_diag0_rc1_completion_v1/worker.py": {
+      "bytes": 421,
+      "sha256": "47c41028b0ca8df2ea61867df18c201519996ec2dcc489e4fb3d4fde8032c7ac"
+    }
+  },
+  "old_packages_or_models_recopied": 0,
+  "old_source_and_failed_attempt_retained": true,
+  "supersedes_for_active_source": "SOURCE-MANIFEST-001.json"
+}

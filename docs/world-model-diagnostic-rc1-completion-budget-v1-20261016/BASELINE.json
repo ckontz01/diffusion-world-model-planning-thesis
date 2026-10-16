@@ -1,0 +1,1533 @@
+{
+  "scope": "ALL historical LOCAL receipts and started controls; frozen identities, not copied private contents",
+  "members": {
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSPUSH001.started.json": {
+      "sha256": "f3f9d0d51bfabb9dcf5ed1615c579a1227a32c46555388e214ecd399ba8f2b66",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1FREEZE001.json": {
+      "sha256": "1407d949cc308f8a933e68d8fc6ae013f85b5e9bd0c236419108a7ead8cbad88",
+      "bytes": 442
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYTEST001.json": {
+      "sha256": "c9cabe9fb098548a7d096972cc7dfacf15076e77dea5c78f61eae050ffc38ba1",
+      "bytes": 331
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERTEST001.started.json": {
+      "sha256": "08ef2fbaa4a2994aa4be8943d663c7fe21801a2f44f6866be4c68b370e452c9a",
+      "bytes": 206
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-TEST002.json": {
+      "sha256": "9e150a736bf742858cc7a0de3148cee5d1436896b490e78387c1cf8cde882a80",
+      "bytes": 1520
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3RESULT001.json": {
+      "sha256": "b198fc7f1157b8ecedf1c8b2b76494e006171101387384711e9c7bf34780c9d7",
+      "bytes": 2117
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCESUBMIT001.json": {
+      "sha256": "b6f433f5f4b68b487fd81195f569750c682eec78d857538d59eb07a6938fe49f",
+      "bytes": 619
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERSTAGE002.json": {
+      "sha256": "d378f5d0d298a51a0375b3e0677df63aefa861b06002c0c4b0bb3754ffcbec87",
+      "bytes": 377
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CHECKPOINTCOMMIT001.started.json": {
+      "sha256": "fe859bc36d05fac09c891bddeee90bc86a57092bf91b396aa29b35751daca468",
+      "bytes": 188
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDEREXISTING001.json": {
+      "sha256": "edf87f0ab513cb12b066a4e00df904ae9602cca35c6ce560f8b38172115c12a3",
+      "bytes": 1670
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDRESOURCE001.json": {
+      "sha256": "7d0c618c132c682fbfbbda4963d2184adb2ef8b415901af18d865bc5c64958a9",
+      "bytes": 320
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADSSD001.json": {
+      "sha256": "149429df22a70ef4cbced359fcbb4e793fcf11aa30438427a4f20378c4330f86",
+      "bytes": 1029
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3RECON001.json": {
+      "sha256": "705ba840b3b097ade4118b037eeb91fe89c851a7a844c6d25957684d2b5b3b2d",
+      "bytes": 7286
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2TEST001.json": {
+      "sha256": "1c053d113b75df2680d3f9edfd30a7678610cef9ce7c80af9ec0d46acec66a79",
+      "bytes": 750
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3STAGE001.started.json": {
+      "sha256": "4daabf4b60bdd3b831bc6fd8b494e8698cd0e3fe1ce6e3d5f5126906d71578e9",
+      "bytes": 196
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERSTAGE001.json": {
+      "sha256": "fecbbcec76e9973461a540b16c0517446463a2c226d2087643a1440792a2ebcf",
+      "bytes": 1722
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSTEST001.started.json": {
+      "sha256": "1bc6826cdae453d46769cae8dde6526964c49b83c2532d4813570f4bc70cfc65",
+      "bytes": 254
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSSSD001.json": {
+      "sha256": "33beae43d14f9c2bef63fcfe6790f314d21a3f0368fcd3c6f3fbdf82740e7ffb",
+      "bytes": 862
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSADD002.started.json": {
+      "sha256": "f8a17cca4b812232570f13ae35e41d54a1319e2e3aed380dace400ee9ad58279",
+      "bytes": 216
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSFREEZE001.started.json": {
+      "sha256": "a063635ed77cdbefeb48bc710b8bf5779022914456de2ce2f01c4dd664e6d8bd",
+      "bytes": 255
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEOBSERVE001.started.json": {
+      "sha256": "2cf4c58c4c8ac7374f3b545770a33e894f84562c9c8db2c562189f3aa30fbf43",
+      "bytes": 218
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1PUSH001.started.json": {
+      "sha256": "b13527b243e783c43aa58a3357ce4de602fb43ee78d54a97b3080da5b5727419",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-STAGE001.started.json": {
+      "sha256": "1741ba410f6e31611026e7f0f35dddbee15780cb2c417bec5c238c408793d0b3",
+      "bytes": 209
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDRESOURCE001.started.json": {
+      "sha256": "b4b34948b8e71cd2b52c9f1d598c26c2bdefad989037ffb16ba982b272cb49d2",
+      "bytes": 248
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORTPACKAGE001.started.json": {
+      "sha256": "90ff4acedecd7817c8cab5c385846bd638fecfc104f8ceee3e75537054484cb1",
+      "bytes": 269
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1ART001.started.json": {
+      "sha256": "d3cca8563d03372b83f6868a09f9ad8c5b00a326321ceac8ce716e965a48867d",
+      "bytes": 245
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEFULLGATE001.json": {
+      "sha256": "0bf1cdb3318e0ff4645273c819a8a0a4c755eab9f3b0909d449744880cb45362",
+      "bytes": 1986
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CHECKPOINTADD001.started.json": {
+      "sha256": "34a832164e0c22c95481391b2be15d9225ba3e799a2f9e6a7d9c543a99c91223",
+      "bytes": 742
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERBUNDLE002.started.json": {
+      "sha256": "55f30e9d2774c77ce87893d1cef4a89ac5ab9953fbf2f6415eccc55e4987acde",
+      "bytes": 209
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADFREEZE001.started.json": {
+      "sha256": "0dd4407f2ecc4c1ed1b68d3081a8215ddf10507b1444e6827158da1b07be7d0b",
+      "bytes": 251
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDER001.json": {
+      "sha256": "8dd48f5cd9112d4aa088928582b64386ecccc55075ab7eb0a70d21c7ca3d6dbb",
+      "bytes": 503
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-GPUINVENTORY001.json": {
+      "sha256": "cdaeba94ee1978c14649a4970baa33f146a4b01f8cce4e82222921d0910c8823",
+      "bytes": 485
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNIMPORT001.json": {
+      "sha256": "c39e2484701263a28671568f1614ce143b367ff547872ecf4482a41dad06057f",
+      "bytes": 2458
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1COMMIT001.json": {
+      "sha256": "a38b0e80e0dce30110aa29575ec033788fef45e699daac7cefcabfe27b9d6a2b",
+      "bytes": 3545
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNOBSERVE001.started.json": {
+      "sha256": "19493d2a560b8cbc7d6f1daa8ac52ad5a1c6ce6a9d0305d98a11d2d79ba34463",
+      "bytes": 220
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADRECORD001.json": {
+      "sha256": "9e1ff49405d56f0931e159afea5b2554b7d11c7b45f90a19c9861bb9fb690a8a",
+      "bytes": 3280
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T022744.json": {
+      "sha256": "7fe1b7eac0647d2f18ee42ea64e26f2688c8066d4ab12064fe51b7625090097b",
+      "bytes": 131370
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANSSD001.started.json": {
+      "sha256": "0f8034b920e7f705386ed07fedc5a45863fe3c5f2f9fc892868b02b49c194ac9",
+      "bytes": 249
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-BUILD001.started.json": {
+      "sha256": "4b085eb8808895fe9006c005b0bd9df6e63ece05ecad5b41ea3d614b63013161",
+      "bytes": 195
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNREFREEZE001.started.json": {
+      "sha256": "d66e7dea8d8a59274cfe0d11458c119ab11019d5bf555a32c169c4f5db77ec71",
+      "bytes": 197
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OBS002.json": {
+      "sha256": "9eb54a86a5abcbfee1ef53ff21c049f39417d07e5ff61a98c8f4d7204387f475",
+      "bytes": 22301
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCLUSTERPRESERVE001.json": {
+      "sha256": "a457e00c7e390e43ffb5cf65e186191e6f49a7e294c21da066dd7cb7fee3a043",
+      "bytes": 2539
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDTEST002.json": {
+      "sha256": "b3205545017f937459b34979fae6b505bd94a69abba86b6de88cb46cc3ccf92b",
+      "bytes": 307
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1SUBMIT001.started.json": {
+      "sha256": "7bb08aaf270a1ad743a525b36bb0029e052007094a1e60326f24c4dd4cf95f5a",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADSUBMIT001.started.json": {
+      "sha256": "5d910c791aaa64862da5fad14639797d3101b70a395e159c45f6e0b099c434b6",
+      "bytes": 284
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3STAGE001.json": {
+      "sha256": "9eee1b9d83537951be0662595edaf548920f8146ea69d05f004067496207ae3f",
+      "bytes": 495
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERSTAGE001.started.json": {
+      "sha256": "f7245ea9e8dcf73148d83a66bf61973b9b76f61cdbd05d74c24274f6f305c482",
+      "bytes": 208
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORTPACKAGE001.json": {
+      "sha256": "316ac91a799c21f3db37181e6017c060737d11c8cbedb51c11aa77ac1f1a2435",
+      "bytes": 1139
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1COMMIT001.started.json": {
+      "sha256": "869558eca3cca358a03de7647dafba8c12c76d5c25c80818b1192348d216e14d",
+      "bytes": 212
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTRECORD001.json": {
+      "sha256": "6c776b134496ff3dd6355585690f1e0db340c34d068b347c63f1f6253f41b963",
+      "bytes": 2891
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBTEST001.json": {
+      "sha256": "57382a014706cf1c0150dd701ee25cf436192a1263291c34881fe8569439e87d",
+      "bytes": 564
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHSUBMIT001.json": {
+      "sha256": "991bdc9210e35c6bea2015856ccd5f62515f7958759ee8a943133330afea8bc4",
+      "bytes": 508
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1SUBMIT001.json": {
+      "sha256": "2c361dfd2ea9179308e2d8bdea8308e10e9fbaa437643ce33fe6fbf01ad8a050",
+      "bytes": 829
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3REVIEWSSD001.json": {
+      "sha256": "ac6a0b55f13f183c3cb831ed6b7d5dcf5ce38848b5177c0ec2e0b989ce1be1cf",
+      "bytes": 1113
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNACCEPTTEST001.started.json": {
+      "sha256": "8bea73049950829d92821cb2c759427fdaca347aea3421654b55c427d19d4484",
+      "bytes": 233
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1BUILD001.started.json": {
+      "sha256": "b55cffee331c31e8f6e2a3290fd6463304fd5eace624ecfa02d7d30b77845545",
+      "bytes": 195
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-COMPILEDPHYSICS001.started.json": {
+      "sha256": "e76b59f9bffcdbac22e7d46f97c75fe9506132e50df7e1b214d15f0ef504e5ad",
+      "bytes": 209
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1TEST002.started.json": {
+      "sha256": "f1e94db6fc8aacff49360958225ad1240c5aaca4700de5ff21dcf5d975b71129",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST004.json": {
+      "sha256": "69ad80ab171c76b83518a998afc97e9c7f728129c4238f2c689bd7c10940b1c9",
+      "bytes": 1866
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T002742.json": {
+      "sha256": "5dbedd49cd5155d8403ad7cde83ace671b930339f8983dea201cd267c7f8a49b",
+      "bytes": 2104
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHTEST001.json": {
+      "sha256": "24fb63f2b6c44ab0adc9a31c41cadec7a9ceba3e8babf77fece295eba0165efa",
+      "bytes": 310
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORTRECHECK001.started.json": {
+      "sha256": "aa54818bccc176234621a9c34b74fa617906cd1d639fba2541a925acba966eff",
+      "bytes": 211
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNPRESERVE001.json": {
+      "sha256": "fa3418efe3b3132723fe13224f9090426627d77031a469c7f3e40a73f7589c3d",
+      "bytes": 1133
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3PRESERVE001.started.json": {
+      "sha256": "388a21469270c8acd9a2113bbca6210aeea6378f4b93443c934418c96ac9472c",
+      "bytes": 247
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3SSD001.started.json": {
+      "sha256": "532c2e550d44b98651cc5f954e435f5739f55922a9d4cf2ebc31e9ce5fc5549f",
+      "bytes": 250
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1TECHOBS002.json": {
+      "sha256": "b2eca684289f6fe394e6057e20eacd24bafaf4e727981ecce6bf9711c99dd7f5",
+      "bytes": 1582
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTPUSH001.started.json": {
+      "sha256": "b13527b243e783c43aa58a3357ce4de602fb43ee78d54a97b3080da5b5727419",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNSUBMIT001.started.json": {
+      "sha256": "e4d40947c623f62095243dbffd28434f0bb879beab6e0059a14fb3ec80f8d55e",
+      "bytes": 199
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3LOCAL001.started.json": {
+      "sha256": "353a9ca06c92ff8212595484a4c56ccbb717ea80140c2cda7dca3733e96b0994",
+      "bytes": 198
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1SUBMIT001.json": {
+      "sha256": "4a6505651c641025d66e36fedc2ab590f033e40e36f51b1bf6bdc5c0616fd7a2",
+      "bytes": 476
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCHECKPOINT004.started.json": {
+      "sha256": "4e56455886ffe7d10b54cd5121c1f8d88a86aac3e4abf3a6d1a261e93d33d950",
+      "bytes": 1302
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHART001.started.json": {
+      "sha256": "8adc88419ae47e9113827437ff95414af80d2896df3bdbb2cdf1c5e59359d816",
+      "bytes": 254
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ARCHIVESOURCESNAPSHOT001.json": {
+      "sha256": "6cf93f5986c45d983f008e1b8c3229b5ac273e3d7e101f68efb277f6f88685d1",
+      "bytes": 28726
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADSUBMIT001.json": {
+      "sha256": "db802186f01065f3de3242740e0858d7d794a37e4368238230ed5fd0c03487b8",
+      "bytes": 500
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3RESULT001.started.json": {
+      "sha256": "76b92e224fbe28301d04f88e1bb9ff40367757b0d066ab7034ecf769a8a663f0",
+      "bytes": 207
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDOBSERVE001.started.json": {
+      "sha256": "23b75363c45f885642c3deb8be2c101297b338299b93ad23fddc83f5639e66e5",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDTEST002.started.json": {
+      "sha256": "b4b34948b8e71cd2b52c9f1d598c26c2bdefad989037ffb16ba982b272cb49d2",
+      "bytes": 248
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTEADD001.started.json": {
+      "sha256": "0f86d47c37e595ec30cdb5d2ba96612fd49cf15d539c4438469462231818d47f",
+      "bytes": 565
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYPROBESTAGE001.started.json": {
+      "sha256": "02645491481caec2add1d08d5384b3e959a3aa189bb112104751d273e9a23735",
+      "bytes": 232
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDTEST001.json": {
+      "sha256": "b6063343099de0c7fa4bf9cff29c5c9351afff47b7b2dce7c203ffbbf9c0f6c4",
+      "bytes": 1179
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3OBSERVE001.json": {
+      "sha256": "b4a447270975cf18049a81c589d0a32276e60ad4737c5b16b0690aaeab0df931",
+      "bytes": 908
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADCOMMIT001.started.json": {
+      "sha256": "7595a3f99a22734c14d961e41b859989e38dea16520a2a3afcfc941c606f5384",
+      "bytes": 193
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2RECONCILE001.started.json": {
+      "sha256": "161e653fef075dd3f1986fcc6a89af10c03a3f188589aa5ce4d7e80df3fe8d13",
+      "bytes": 199
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHPUSH001.started.json": {
+      "sha256": "f3f9d0d51bfabb9dcf5ed1615c579a1227a32c46555388e214ecd399ba8f2b66",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNREFREEZE001.json": {
+      "sha256": "781eea0be755229656228ef126552e44eb7e0b60cf6dfa08f8c065d88f112d2f",
+      "bytes": 606
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3BUILD001.json": {
+      "sha256": "025848dcc82c48475ae00f8fa37af86147eb3290c22d7f5ad7007272e9440f28",
+      "bytes": 687
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T025744.json": {
+      "sha256": "0cedb718ca959d128d236ac7b25c28596049ac65a3947ca4ea1818fc66e44922",
+      "bytes": 139226
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTEPUSH001.json": {
+      "sha256": "75c85fc329f4f3462c37e95f44c90142747e8b2f1789a9a7c5e5bce898d80b01",
+      "bytes": 406
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3FREEZE001.started.json": {
+      "sha256": "5da7f6eee32e04f91fe95ace36502ee7f2c45ff864629245c142287863e38115",
+      "bytes": 200
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1SCHEDULERFIXTEST003.started.json": {
+      "sha256": "8e840b31e6e9cde8755312c7fa7516454755d0057c3ed05be475a5dfc51deaad",
+      "bytes": 257
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERSTAGE002.started.json": {
+      "sha256": "66919dc3869c11a9ddfdf048b14ffd6505199f883f66e8e96f6a234ac2bfb9d2",
+      "bytes": 208
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T002742.started.json": {
+      "sha256": "956e54280aa8846fb1a8267db3dc3811c841877e0c8367b8109bf1a3c02f0da5",
+      "bytes": 283
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OBS001.json": {
+      "sha256": "d79dee01d93b9b11564eaed494d0abce51d8bbdf162f97dc309a4255fc172810",
+      "bytes": 22339
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3OBSERVE002.started.json": {
+      "sha256": "a520dd16d13923f172ef246b330589b1083362d77c66714b42e9f190b5c9c93d",
+      "bytes": 233
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHART001.json": {
+      "sha256": "88778114a78ec3d0a1665659c8a4953addb4aeaea5749bf74179730a1cc55102",
+      "bytes": 3079
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1PRESERVE001.started.json": {
+      "sha256": "b2f2145233049291f43ba10e301e8795693fbc4ab367cc365fb11415f293056b",
+      "bytes": 247
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1LOCAL001.started.json": {
+      "sha256": "cdb4a240ead94c848d5956545be40547a60354f71f39d7a4c255b3cbe08362e8",
+      "bytes": 243
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1TEST001.started.json": {
+      "sha256": "f1e94db6fc8aacff49360958225ad1240c5aaca4700de5ff21dcf5d975b71129",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADOBS001.json": {
+      "sha256": "349e84b13d798cb4620cbca03f59eb58c110b2f95933c4384c33abe9b721d7e2",
+      "bytes": 1296
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERBUNDLE002.json": {
+      "sha256": "d05dc75a902008c5be70cc987929864b692e303644cc3956f40bf7cd411eb51b",
+      "bytes": 13063
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST006.json": {
+      "sha256": "efd7ad3b94c1b8da2f3bb405c94d8444545694dcb40d0da828443eef14b73e04",
+      "bytes": 357
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYPROBEOBS001.started.json": {
+      "sha256": "1be5946c17962d4df56ed718cad5f464bf2388a6239de71f42da43c024c93744",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALMETAV2001.started.json": {
+      "sha256": "abbb96345b9d3b1e8049165b76b5e45c80a4ac1eeaa7ed45fb6b2082ce868899",
+      "bytes": 265
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2CHECKPOINT001.started.json": {
+      "sha256": "cfcbbfb77cae9fa7cf2e6180966a8e6ed38ec59aed13ab442c7c5bc41bd81eeb",
+      "bytes": 200
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2LIMITTEST001.started.json": {
+      "sha256": "a321b8db4bc7195845da3e4758f5068f9b0f5e6731ee728a7636090fea9ed738",
+      "bytes": 234
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMERICALAMENDMENTSSD001.started.json": {
+      "sha256": "e6d1e266524087eea51da63e3c0d2664a39af3468cf4cd3495a943469225d577",
+      "bytes": 259
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNPRESERVE001.started.json": {
+      "sha256": "618bca4c265f66c9bbaaa00c960a9eb34c14cfbedd8ce05f693871fabbcab0a8",
+      "bytes": 262
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST008.json": {
+      "sha256": "6b33553c68711619f1166c64a934e437b7cc7cae7a360502765b1c04c82aadd3",
+      "bytes": 358
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1TERMINALOBS005.started.json": {
+      "sha256": "ea8e267ea24bf0e1089cc19b643d1584dbc45d7b72fa623f0901ba4a1f6ad385",
+      "bytes": 274
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CPUV2TARGETED001.json": {
+      "sha256": "10cd587df0eb7f10dcaf16f1199765fe640b8614e254179c3bbfe88e56b274a7",
+      "bytes": 322
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNCONTROLTEST001.started.json": {
+      "sha256": "aaad69bd9d7e48f2068e00cac0a4f055097a83d98f3a41214ad04eea493d8cdc",
+      "bytes": 231
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T012743.json": {
+      "sha256": "600731d6a5bc09bf5fa060796c794283ddb2fee3be1258a2d453c7ed5a1da30b",
+      "bytes": 127437
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCLUSTERCPU001.json": {
+      "sha256": "b0932d3c8b5ba75a5238821150667c276578e60365f43ea7bae988f462584ca5",
+      "bytes": 1926
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CHECKPOINTADD001.json": {
+      "sha256": "0333a9baf42dab84ada84177c5c49ac7dd006c5fd56f8958ac9095316f93c32a",
+      "bytes": 3380
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADTEST001.json": {
+      "sha256": "0037a550f2ff6e0317df0fe6e601c7eb2b2e14fe3530ae901578145732e93566",
+      "bytes": 410
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3TEST001.json": {
+      "sha256": "79096bc8a3e88d871481df533359b71df2b8ee27b5bca36f940389ba9986e173",
+      "bytes": 746
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDEREXISTING001.started.json": {
+      "sha256": "bb1f7f59bfe4a49c88999987e46da7d9237ac4316da7ef1c4f106eb09785e5c6",
+      "bytes": 208
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3RECHECK001.started.json": {
+      "sha256": "d29d89a32e9add0615d65775a2a8958f78a870721c4e21ab48629eaaff514674",
+      "bytes": 198
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PRESERVE001.json": {
+      "sha256": "2c1d728c6f41095ade422d4c6f0c3c57deedffcf8cca0727d2742d1d25f05519",
+      "bytes": 1202
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST006.started.json": {
+      "sha256": "d7b8fa3212833257932627bebfd70f5a48e8785c6e0d5b958675a39fe6470e5f",
+      "bytes": 271
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST003.json": {
+      "sha256": "d0b5b46eaf71f596913bd1c1955c6c09825625be4dfbddae049718f827e21fb5",
+      "bytes": 1462
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3SUBMIT001.started.json": {
+      "sha256": "c39c80e2b5515dfe76e75d3f6d942b658fbb6d305008f4746c9bb4515b687c67",
+      "bytes": 235
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1GATETEST001.started.json": {
+      "sha256": "7af0d0027df0142a6c698f7175224c4c61e88e7b9ba7bcbcb8658c93ee9abd50",
+      "bytes": 248
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHSSD001.json": {
+      "sha256": "4596099684826c63b440b5bd11d1d381ad53a1809473d0b097b6e47270e1b63b",
+      "bytes": 1025
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T005742.started.json": {
+      "sha256": "6b4b5f14865ea38aac3865343e1bb78c45166510b378b46eda449fbc0ce1f123",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1SSD001.json": {
+      "sha256": "e8fb0bea038c25b6c5ed9f712f96d98fe1276b62618f5b8062529e7ac5d4e4df",
+      "bytes": 1091
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3IMPORT001.started.json": {
+      "sha256": "2dea905190df65a3dd471470a6ece122a7ceb8ae6c3ae7bb3a2ba2e4710b65d3",
+      "bytes": 203
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHFREEZE001.json": {
+      "sha256": "f9a27b6f6c4d989218b13c8f1369ce57ac1d10498e91d9ec34ce83e89b34265b",
+      "bytes": 447
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3TEST001.started.json": {
+      "sha256": "59e74ecfa79614087cd1b2107ec641074702a3ef59cbd897ba001c3b9a3da65a",
+      "bytes": 232
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTETEST001.json": {
+      "sha256": "71d10dd769a01a880707912795c285287d5fea19f181be42148b47e94e06c775",
+      "bytes": 330
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-BUILD001.json": {
+      "sha256": "a397996968a7ce831892d1c86fa7cce2726bd0af0fd94433cb4b83e334b17b53",
+      "bytes": 524
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYRECON001.started.json": {
+      "sha256": "43d76ab283a5ff24611f4e154655e56ef6b85bebccf113982bc70a55a628892f",
+      "bytes": 200
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PRESERVERECEIPT001.json": {
+      "sha256": "967db9f79c8866907abe411edaf4168465a2a8b674e1d323b2a2971c7244f69c",
+      "bytes": 2587
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNSUBMITRECONCILE001.started.json": {
+      "sha256": "60d166c5e9cfe1f6d09acc90eb29d5765e5ee30c577345563b9c43c912bf7dc2",
+      "bytes": 213
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERTEST001.json": {
+      "sha256": "a6aa1ebd035134613e2c423d8afe46e157a1ec2886ce265a544982ce3b1bbe2a",
+      "bytes": 804
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEOBSERVE002.json": {
+      "sha256": "c1bee79f99c79b0203843b0732640676902d13a7634f9026b63273ace600aded",
+      "bytes": 10048
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RECON001.started.json": {
+      "sha256": "031457bf4fff431b0c756553166d95a8a3851f03ec598b045c8aababd9d918b3",
+      "bytes": 275
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CHECKPOINTCOMMIT001.json": {
+      "sha256": "8dd4a90db40b6bb5f78a5c71447af56b28344b13834104fc340d7bdcfce1e680",
+      "bytes": 2022
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST005.json": {
+      "sha256": "f90659d57d4199f8b15b5751818da1d87b88f7237770d7c4ddb2ce98f8bde7d3",
+      "bytes": 2345
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3OBSERVE002.json": {
+      "sha256": "46c3ddaf5c23cca5e807cfde5c1ce9fd5378c65583f26dfb1e180a1521836e5c",
+      "bytes": 2362
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCHECKPOINT005.started.json": {
+      "sha256": "da3fff4e8a1dca930c0e838c467b2e6caf2d554f01e3066f68f24e32e5527faf",
+      "bytes": 1302
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-STAGE001.json": {
+      "sha256": "a853d2c654bd80f0a3e06e5506486e9ec249b72e292487f906c266f484d59918",
+      "bytes": 399
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCESUBMIT001.started.json": {
+      "sha256": "1ac63d53403fd03400c4c478d4a26aee86778f5cf0e781272f21ffbe0de5932d",
+      "bytes": 205
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCHECKPOINT005.json": {
+      "sha256": "ea79be19e6acab5982391925b21618b6ce0b588f1186d2908e6545984728e8a1",
+      "bytes": 1116
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNCONTROLTEST001.json": {
+      "sha256": "f571742249cb2f334b0c4465a1179a4feecf096dccb38663de30c37f8f2472d5",
+      "bytes": 2112
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYPROBEOBS001.json": {
+      "sha256": "7a856de54d5869a44d57508fb9e85b652933d063d0d7a6890e9455f880daa2a8",
+      "bytes": 2704
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNSUBMIT001.json": {
+      "sha256": "620757fe38f037035d7647a4656739a89508a2edd3e7d0bdaca417700edb8fe8",
+      "bytes": 1779
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADOBS002.started.json": {
+      "sha256": "cd1dea419f2d2b6357451186dd5ddb6746c045e65b395526ce160ca3bfea4eb5",
+      "bytes": 279
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3SUBMIT001.json": {
+      "sha256": "5a861c2502087ec3ebf9a6ed7f8df92099198486f6cac3d2c80c2d6040ba95c6",
+      "bytes": 483
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST008.started.json": {
+      "sha256": "d0fc577bda2e2a4a61fe1cc770415080177ea235275b53ad4aa2a2a31d5bc678",
+      "bytes": 271
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYSSD001.json": {
+      "sha256": "224e26eba5ba735fb2eb64dfd7d122dd3880ca3632625f855d6551085521cad2",
+      "bytes": 1035
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1SSD001.json": {
+      "sha256": "45f16fe156d1622617f7876167dc5889ee50c43faabe7ec338b24f8379cd725f",
+      "bytes": 1001
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALTRANSFERTEST001.json": {
+      "sha256": "a9988f9563eafcf07c21d13d4bcaa4d0499e213140bab67d47d67dbdb9367756",
+      "bytes": 361
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OBS001.started.json": {
+      "sha256": "76c0ddc0726b18b66babc51eb92dc4dd35af49f1f915d4ce9850bb6aa9b474c2",
+      "bytes": 273
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3FREEZE001.json": {
+      "sha256": "be89c88c8b9ba4df2d7f9e4faeec62ef2b7f38a9d79459890a7cff4258059622",
+      "bytes": 383
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST003.started.json": {
+      "sha256": "285ffa9301c4e39e3ef428317084c9a85a2fb072776c0a787cb7903d51ea6aaf",
+      "bytes": 260
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTPUSH001.json": {
+      "sha256": "5dce3b37ccedd4338441a0b5e91a7347a203c8c0be6fbdc136be117bb853ca55",
+      "bytes": 407
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSCOMMIT001.started.json": {
+      "sha256": "d7f7b94cd18942b7d6f35eb7d2287dda1ebe8cb99ccb065d91d689363b6f2a81",
+      "bytes": 193
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADCOMMIT001.json": {
+      "sha256": "b8e7e8619097ce97069d7b7058f5948540e5c7ea8951980b70668752fdd32450",
+      "bytes": 1776
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1FREEZECHECK001.started.json": {
+      "sha256": "77fdb8285907677126c976d1d03186177671edf770feff648c1f6dfd6d18a6fc",
+      "bytes": 250
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CPUCOREV2PREP001.json": {
+      "sha256": "321025cbe39764b442dc8067437e31cd40860ba8664401699b8da1d7f16c8e04",
+      "bytes": 8453
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADTEST001.started.json": {
+      "sha256": "a60483f024455c5d3bcf80c32c425df52412129eb74986b79d28c531eecdd178",
+      "bytes": 249
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNIMPORT001.started.json": {
+      "sha256": "375cdfa929ca021a3cf03c9967691e1d653c78c31d0f79ab49e4b019b8e3eca7",
+      "bytes": 205
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORTSTAGE001.started.json": {
+      "sha256": "f75dad69fd9d6e26f99912cfb7d3afd35815dcc0a1e8632a51511d5b41dbd4d8",
+      "bytes": 221
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADADD001.started.json": {
+      "sha256": "7cfceac4ab67ba71f27e02269415539226eabf63a916ea88057197da06684363",
+      "bytes": 608
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTESSD001.started.json": {
+      "sha256": "f856f1c408fe6b9273cc543aa8616a8380d9c8e8400b15f6fef421ff55003228",
+      "bytes": 297
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALSOURCETEST001.json": {
+      "sha256": "8c8bc9b1b35270a270297dfefac3592f5ff1578d28e373984d195c8f166a740a",
+      "bytes": 357
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3ART001.json": {
+      "sha256": "69163b746b25ae14d35cc81cc1cba2e80ba3573d3eb7bf801f3f3fe631b17783",
+      "bytes": 2613
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTRECORD001.started.json": {
+      "sha256": "b90b56c1096481c7ea3d9db912546031ab034cb633dcd4c8c15f90aa85fa5241",
+      "bytes": 251
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEIMPORTBUILD001.json": {
+      "sha256": "4386b92a82dde42f1256860ae8c3a9d2d5aeb0ac5cbeec9622d242b8dc8c7f88",
+      "bytes": 553
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCLUSTERCPUV2001.json": {
+      "sha256": "88e2dff95ce651c183fe42fbba6b0ab94550cd58ff914e299c7d20325e81d015",
+      "bytes": 2464
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDER001.started.json": {
+      "sha256": "634362feb61ace7ea466b95ff20ce14c5fe14277ace45bb54c0aba63b52c18ed",
+      "bytes": 207
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTADD001.json": {
+      "sha256": "357825a52a0515b9baaa46d6a5e57e409705d7b7423e03a7eb7148b4a9533a13",
+      "bytes": 4222
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3REVIEWSSD001.started.json": {
+      "sha256": "1efdfe6d91fe22ef5381d9aaee784979ec0d40ee302baefb949f5ae5d2fcfcfc",
+      "bytes": 257
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1GATETEST001.json": {
+      "sha256": "3b3205d8b4f9cff3ef3e84a68480c233f22f996027d4243384a1093b285d43bc",
+      "bytes": 471
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-TEST001.started.json": {
+      "sha256": "b33d7eb917e9224fa554d867e32f10ecca2208a69fef14275af91aa3917f90d6",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANMATH001.json": {
+      "sha256": "125d3f4fe25e72078d9e96221d11eb63c7da379ef8e685ff6e2ba30b1f91ad8d",
+      "bytes": 7039
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3BUILD001.started.json": {
+      "sha256": "2cbe217d7011d937fe033ca410189079e11da599f35b984085e7e4bef8628b60",
+      "bytes": 195
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYPREPARE001.started.json": {
+      "sha256": "c09024fc17c2ef62cb18adb8997cb2df53735a125aace9380bf692d59d640157",
+      "bytes": 197
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1MATH001.started.json": {
+      "sha256": "2d006c0963905d84d05936f0de7fffe26dd00fe19ce6a32ff4c90c3901568050",
+      "bytes": 204
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2RECONCILE001.json": {
+      "sha256": "747dedc3fb06311853242ac5587728014459e08a6adb3f3bab5b8f665b8459db",
+      "bytes": 2044
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3PRESERVE001.json": {
+      "sha256": "b781953bfed63bdb89a087787951076f3ae116044d6266dd403e2afdcd659960",
+      "bytes": 1033
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3OBS001.started.json": {
+      "sha256": "c526a7459aba43211724dda44104562d3c57b15f658f7bcc964906162ec71262",
+      "bytes": 230
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANRUNTIME001.json": {
+      "sha256": "c18aa0752da6e0f5a4e4a502f43b1aa322ee8ee32cefa2ae27611af287cdc7e0",
+      "bytes": 1434
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYTEST001.started.json": {
+      "sha256": "fa0bc522ec00a27c56ff7cd9b04a557813b87ac04e178582ecfc1f1d00b49aaa",
+      "bytes": 215
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTETEST001.started.json": {
+      "sha256": "e5edd31591509286adb7118ea13a6950365d4c895553f6e0548036cbe336b1ef",
+      "bytes": 255
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNDEPLOY001.started.json": {
+      "sha256": "144eb48e73602c1673588ef0fd6f6fad64e2d57a45b45ba68a6cf88883e4f50b",
+      "bytes": 199
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSCOMMIT001.json": {
+      "sha256": "f2371c420d39991c1cd736b1e9337b1b812ea1c36db0ee031a441c649a0e4dfc",
+      "bytes": 1230
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-TEST003.json": {
+      "sha256": "5b16bdea5b417697d3350e2293ba07ab462a1a840648bfdfb5b35f0839f3b93b",
+      "bytes": 1520
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORT001.started.json": {
+      "sha256": "541057424dbdc0137b6183d3faa34e7b068628778d1c98f1081bd134dfe8247e",
+      "bytes": 202
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHTEST001.started.json": {
+      "sha256": "ef5ac471a88a3e86555e7517d1c37bcc63c042041e0304d389ce14ee708b042b",
+      "bytes": 253
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDOBSERVE001.json": {
+      "sha256": "32d762593e90dcedda22c8a6615eea1cd55ad4f4b7a226ee8706940985e3cf87",
+      "bytes": 2214
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNSTORAGE001.started.json": {
+      "sha256": "96cb0f323dd3779689e2b2143dbfcebc99ac329e49ddb0a92bbb542f745f39b1",
+      "bytes": 205
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1LOCAL001.json": {
+      "sha256": "d77bac11b5026e6e76f758672c3b10fb033e15def356a46b01f28cc567a76495",
+      "bytes": 352
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1TERMINALOBS005.json": {
+      "sha256": "65e424753eefc34a65e8e15d41d4f12bab6806887347fa6209de63aaa6fa74c2",
+      "bytes": 13695
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNETA001.json": {
+      "sha256": "f134846fd83973bcbdcdf0c8a890d22f28b15694e5d5b481917db3fd5dd8cc46",
+      "bytes": 11556
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1TEST001.json": {
+      "sha256": "093da9823d91fac86daf14243c5c0d78648f5e8765da6a0632459a712ca4b3a9",
+      "bytes": 466
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNOBSERVE001.json": {
+      "sha256": "f30d8d2887c04929b89cc2bc4c1507fd192da431fd26c28182039b4903920a4b",
+      "bytes": 2303
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3RECON001.started.json": {
+      "sha256": "9c31742f9eca9e8866d23ea2b2edb22273ce88f9dbe6b5e3a6741dfe6d4bfd33",
+      "bytes": 232
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANFINALCHECK001.json": {
+      "sha256": "8d96d6e13ee1de73ada16a4f61ae694b7963a0921f2997b559b4accc70a85edf",
+      "bytes": 820
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSADD001.started.json": {
+      "sha256": "242c822507360953d32d2d7d5faa061505bdd9fb62440a311888fdd68a2e7e12",
+      "bytes": 471
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMERICALAMENDMENTCHECK001.started.json": {
+      "sha256": "73698e2a63114d2c543a0b9cab6a21776e8a2b1bfd73325869ee32fec666f311",
+      "bytes": 208
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261015T232741.json": {
+      "sha256": "c6973f0b4e8b3501fe0e476ff3e2897355a9552c2f7d2722513c4ab979825686",
+      "bytes": 5169
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERWSL001.started.json": {
+      "sha256": "3c27cb6ca46c18faf2e1cb97c3fd47c5c140b3c20060e6ce101191acdff3cd5e",
+      "bytes": 209
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBLICATION001.started.json": {
+      "sha256": "01dbd7b2d09113dbb29a5e993e8f746f8793b89e44a28f9ca4575dce66375f9c",
+      "bytes": 244
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T005742.json": {
+      "sha256": "771ed283cce3aa64cf3ea5f529805c5c86d97293e1eb0aa7e7202740683bfb9a",
+      "bytes": 80396
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTESSD001.json": {
+      "sha256": "478c14fedf5529a9342ede8d645dacc83bf2640593bf76ac2c83c6da554ca16b",
+      "bytes": 875
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHCOMMIT001.started.json": {
+      "sha256": "1c4b19e7e733f8e5a9e565df4c0354d15928d33f50d8967cfc43e31ac41b9d38",
+      "bytes": 186
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANMATH001.started.json": {
+      "sha256": "fff2550dfda278c54073fbebf2b66a383ad195602b5f6688f0ac456498adce69",
+      "bytes": 198
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNBUILD001.json": {
+      "sha256": "37bf0c3083db41043b5491ca0b85bb31fd32301a79a097feb9824a6eecf908dc",
+      "bytes": 607
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3OBS001.json": {
+      "sha256": "433ec624abb49393f3e5233828c782730f1c211aff5bcb36d2df0bc05625bd1a",
+      "bytes": 740
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANTIMING001.json": {
+      "sha256": "38e7ba79297dc9facf46b673213277c83ada9f915cc35830de593aebe9583f0b",
+      "bytes": 673
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3OBS002.json": {
+      "sha256": "5d999ff9d77cfcd3e3cc5ffe1eed61879b3758fb0b5fe4892a65d04a6e53e26a",
+      "bytes": 19760
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CPUV2TARGETED001.started.json": {
+      "sha256": "34382376f36cbe69232005468ce7168e3d57399f960e136bfa20db6da84ed0c0",
+      "bytes": 266
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST005.started.json": {
+      "sha256": "77158a15482f59049d9e0c516ccb0d888b91436c093d206143861ee8a61fe569",
+      "bytes": 271
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-REPAIRTEST001.json": {
+      "sha256": "698ac740bcaaf092282bec5970c0879548f7c1a3024e4928f3184f143ef6ec65",
+      "bytes": 804
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OBS002.started.json": {
+      "sha256": "9f3d63c648df4d139e9076e564e800fb53ed5941d62ce6f0eb4dd9a98356082f",
+      "bytes": 273
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3SUBMIT001.started.json": {
+      "sha256": "511de522de4857f0d5fc5884f2deab367e407573de6dfe38c4bb442068a38ff1",
+      "bytes": 197
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCPUCONTROL001.started.json": {
+      "sha256": "406ab1619c10c8236f842efda74c8a20a4beeccb447ba35b3bbf5afc7d195a61",
+      "bytes": 275
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-TEST003.started.json": {
+      "sha256": "3b046fa35e412e4537816472da7448fd5ae0155cfdb1f73d80930e821c992e18",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1SSD001.started.json": {
+      "sha256": "b487b2ce862cc8c804b8c59a4b89a1798f52799e73362d18173c9c523758b6ba",
+      "bytes": 256
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ARCHIVESNAPSHOTVERIFY001.json": {
+      "sha256": "b26ddbb85732802b5376479e216590ac9f1b5a48d4ccb79f3c37ea68f5970968",
+      "bytes": 962
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3ART001.started.json": {
+      "sha256": "6d0db368080e2bcabac19d196518872d857443b97b43442c0396c535ee8f9994",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2RECONCILE002.started.json": {
+      "sha256": "a418c1bf323a0d86a07d5a7e40cc380710a0ad4e2fe617c8dc00dbdc59a568e6",
+      "bytes": 202
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANSSD001.json": {
+      "sha256": "fdb449e1642906eb5590e90ec7487c745d449a77ea1f4751e18b5ebd33f0ed18",
+      "bytes": 1010
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1GITADD001.started.json": {
+      "sha256": "f5b0ba0e461bb74078299ce55be9bdb00ce8c911d9e104d00dc581f6b39a1d2c",
+      "bytes": 449
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTADD001.started.json": {
+      "sha256": "2395e47b39a568149241bead6b5bbc8aa38b0ef66f624920bce9b261096c0355",
+      "bytes": 200
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1REVIEWCHECK001.started.json": {
+      "sha256": "5a75c7e3922314f4f75c9d94bf5743efa3704a9c5879fbaea0e15230d5c523e9",
+      "bytes": 211
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORTRECHECK001.json": {
+      "sha256": "a5d053cfeb61f1d22b8b932cf2e596e800623e933facd166cd94e8bbb1441455",
+      "bytes": 943
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2PRESERVE001.json": {
+      "sha256": "4c58c9a887a67244587cce3927288c1d3b8f710fa33e7d93eff2f49fa25ef1ee",
+      "bytes": 1098
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANINV001.json": {
+      "sha256": "285aa47dc3599c5d7662a1f24840d56bf13a5b90eaf7458e8f22c48be8f3737e",
+      "bytes": 7529
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTEADD001.json": {
+      "sha256": "56ea553e1b6216bc0e2389664bfcbbda1357f77cd107df99a749c4b0a09fad0e",
+      "bytes": 2473
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RUNTIME001.json": {
+      "sha256": "1a1a3f52cac58229125effb27fdcd3ae07172a5888c4ab828e42126dc7cc6c92",
+      "bytes": 6434
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T025744.started.json": {
+      "sha256": "fd3bfe59592e4e01a2923d47b87265488fd398465b8f996fa60f0ff123aca73a",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMERICALAMENDMENTCHECK001.json": {
+      "sha256": "f10ee72b5dc4eff459d4f7dac1ba611919823e25ffb371de5251c2fe815a47a8",
+      "bytes": 2439
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T015743.json": {
+      "sha256": "ec66870965aa951e198f7f7810a6bac33e4a95b44093bf700dcfbf8b7b122731",
+      "bytes": 131367
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PRESERVE001.started.json": {
+      "sha256": "b56004eb242df8639e999d700f2f451177ef315bb528b925cde74c924699783b",
+      "bytes": 247
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3OBS002.started.json": {
+      "sha256": "683b74bda931d4cbf8f390c03a96ee96358e4301d1c9a792dfa31a412bb58f20",
+      "bytes": 230
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2CHECKPOINT001.json": {
+      "sha256": "3d9cc1700d6acd15d9b3a3fef863a0cad51e5aa9884681e8bbb29be2c9d8c044",
+      "bytes": 3354
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEIMPORTBUILD001.started.json": {
+      "sha256": "395cb98e5a0712048a9d7f65b51a4d322729edf55732fe28a2eca17eb31da38e",
+      "bytes": 221
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADRECORD001.started.json": {
+      "sha256": "c199c19a1fe75ddc8f5722b12a498ffc339da0e01a6dc983a3c541362fed43c0",
+      "bytes": 257
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNBUILD001.started.json": {
+      "sha256": "d66e7dea8d8a59274cfe0d11458c119ab11019d5bf555a32c169c4f5db77ec71",
+      "bytes": 197
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-INVENTORY001.json": {
+      "sha256": "9d06878605898cc6433cf4ea2c22d1612eb1ff28423d204b5daa1f56f9525173",
+      "bytes": 1039
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1FREEZECHECK001.json": {
+      "sha256": "5c66fe046f1edde0df2740ca4869077c8fa7e4f9b87cc3fc6ce4c42f0bf20c64",
+      "bytes": 329
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERBUNDLE001.json": {
+      "sha256": "09eb673ce5a41d34daf1a91b0c9af0abb6a22ec3782ae63bc17f4657d271b271",
+      "bytes": 1205
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHCOMMIT001.json": {
+      "sha256": "c9b7b887881dd96f2d766fe88f607e1ee9e7544629942789add1a7e2f10d0e29",
+      "bytes": 2746
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANFINALCHECKR1001.started.json": {
+      "sha256": "cc179a8b409f9633d2a8c647aa43f28c401985e1f52bb2ce018f0a4d83c3aa85",
+      "bytes": 200
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHSSD001.started.json": {
+      "sha256": "d8aea399d3d207fc899b684870566d7b1a185940d3fe4a483c9456d62e2f5caf",
+      "bytes": 294
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADPUSH001.started.json": {
+      "sha256": "f3f9d0d51bfabb9dcf5ed1615c579a1227a32c46555388e214ecd399ba8f2b66",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHADD001.json": {
+      "sha256": "968439aa6b66fb89078467cbac0c86c524677d1271627f4428b50d2ffb040888",
+      "bytes": 4897
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1SUBMIT001.started.json": {
+      "sha256": "d7632ae2dbe64d9aeb934c290f8123904ba0ead29efb0a02f6adb6ff6bffa175",
+      "bytes": 197
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERBUNDLE001.started.json": {
+      "sha256": "8fb82992ba17c3c820401e4e5c22276dbd61888db37a9252d29298448fc2c140",
+      "bytes": 209
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1REVIEWCHECK001.json": {
+      "sha256": "bbc0e6760626c967d2bf53be7f0541d8ddd6b1a8262fcc9e0ac19ca3e5878dfe",
+      "bytes": 1267
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3SSD001.json": {
+      "sha256": "405f201279ef2321a2f890697e5e5e4fdf510d50f54e11c449e25374b28015fe",
+      "bytes": 1041
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNCONTROLTEST002.started.json": {
+      "sha256": "aaad69bd9d7e48f2068e00cac0a4f055097a83d98f3a41214ad04eea493d8cdc",
+      "bytes": 231
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANFINALCHECK001.started.json": {
+      "sha256": "cd74e10223b09a0595e3ed6cf4a4dc9c2127d7ef3379f43e3b3afec0d73330f2",
+      "bytes": 197
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RUNTIME001.started.json": {
+      "sha256": "69b60c04bd2ba5548ef3aeb35557ee69f5bfcd5c4ad1d2ac0550b4ebc9ef4d94",
+      "bytes": 249
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTECOMMIT001.started.json": {
+      "sha256": "83647f4eaac232b0411c09d81058e9af65b379cc10523c399ec5fa699d2694c2",
+      "bytes": 194
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYSSD001.started.json": {
+      "sha256": "a47de20172d434e2e3a3c57a8233e3746143d65a1297ae48989c542278fab538",
+      "bytes": 246
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCHECKPOINT004.json": {
+      "sha256": "6cda4629391e4d7c478a3e8f6ed0e4a66a275b629bf1bc66c508bc77e6dc9348",
+      "bytes": 1116
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNOBSERVE003.started.json": {
+      "sha256": "84a33626a43c258200c001761d99ec6527a2130698b371ee1e6c0893ba516ae1",
+      "bytes": 220
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1PUSH001.json": {
+      "sha256": "af8856c939762d95f190ea1f58e1acdce6e444cde5632b4078f068960cbab8fd",
+      "bytes": 406
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALTRANSFERTEST001.started.json": {
+      "sha256": "58ad4d537f7e304fc9343c84fb6e6e3f162b9f215fadec69f001733f53eb4d41",
+      "bytes": 272
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2RECONCILE002.json": {
+      "sha256": "ae662e6be4e852632c63cd2b7962d0f94ebd449eae639f47a2a292ca4056cfac",
+      "bytes": 1716
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBTEST002.json": {
+      "sha256": "6cf70c46f387d0036d34794d2fc550845f9e2f8d33e7c231815879f8db8de156",
+      "bytes": 516
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBLICATION001.json": {
+      "sha256": "c14406af222484158145c0bed90a6ce03aaca35ee808c6d100ed74de27670cf3",
+      "bytes": 364
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CHECKPOINTPUSH001.json": {
+      "sha256": "a821e4b13c869563cd31ce1007d8d44e2a25d3bcdf9f9ebc78272b757f401c67",
+      "bytes": 394
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADOBS001.started.json": {
+      "sha256": "e615e00b4814a476f07551631f3ef2db72c8623aa96fbdfcdcd567871439cb82",
+      "bytes": 279
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERRECONCILE001.json": {
+      "sha256": "5cc6d343fa850d883b556a00f6900d040b41bd1b3c3f41b6cd31a4965fbb6e07",
+      "bytes": 2464
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3SUBMIT001.json": {
+      "sha256": "892141a91d47adf87257751ccef5856091ba24683c916ec0bc76c3d95bafc3ed",
+      "bytes": 698
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-COMPILEDPHYSICS001.json": {
+      "sha256": "b1c073be6d209c1883c1e37e211b204090966bef78d65eb2522d57826c075156",
+      "bytes": 725
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3RECORD001.started.json": {
+      "sha256": "88825ea6b2fb63718f733b836460993f41269db8fdfd6c50eb1c0cf2dbcf3413",
+      "bytes": 199
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSADD001.json": {
+      "sha256": "d73128b5f4d959a0d5d9b3c8a59e0d279c434c7a888c85847536f1eafbce6b5b",
+      "bytes": 1571
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3RECHECK001.json": {
+      "sha256": "bdfe2b7cf221561a39946eec74e9cef784486e8c4a575e660d763811790799b8",
+      "bytes": 671
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDFREEZE001.json": {
+      "sha256": "30e20ceea876050b36e18dc36fab0c1a1e32c988546b9d80832cb268bb11dfa7",
+      "bytes": 468
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RECON001.json": {
+      "sha256": "49223ea790fd08c4b9a2c229bba6330bdc2d7b8c499b3e56f251dbdfb5d57372",
+      "bytes": 7329
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ARCHIVEWINSTAT003.json": {
+      "sha256": "3a6431484cdde68fda3bc7108111c6a051e2deda8a1cc66bba570e3ad45c5404",
+      "bytes": 510
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEFULLGATE001.started.json": {
+      "sha256": "558e6fce7fcb2d83c8c615463532da10fc8f4e79dadfadf1b25454b05365622a",
+      "bytes": 230
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSSSD001.started.json": {
+      "sha256": "235f7075e672faf90a67ccf39c7f48476810f16b409c7471eb3ed682dff64e7d",
+      "bytes": 296
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALMETA001.json": {
+      "sha256": "de05c2327341671404b95103ea642f4e4f490359fa508f11d037e0a2b122cbba",
+      "bytes": 377
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDFREEZE001.started.json": {
+      "sha256": "26bec290614b1570dc8a028013cbfa30bbbe24fe58eb5d5eef98968fd4029972",
+      "bytes": 272
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADSSD001.started.json": {
+      "sha256": "c4d8cfda91a574ec272d37d20889e5e245020b99ef6ff417bcbdfe4e1c12c942",
+      "bytes": 290
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTCOMMIT001.json": {
+      "sha256": "97f610ea12ad62c296d7bfa2ac03ddcd33d53bc14e5b99c75a6fdb2ff73ca760",
+      "bytes": 2606
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALANALYSISTEST002.started.json": {
+      "sha256": "3632e4afbbd7550f6d73c6ff7ae81c62eaf3d1720029b98c76777b4413e65998",
+      "bytes": 257
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1SSD001.started.json": {
+      "sha256": "e69a12389189f9be2cebf19563b63514e5c5d48418a3ba3a873d97e53a26d17d",
+      "bytes": 284
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSPUSH001.json": {
+      "sha256": "c95c0711a5ba78e91b3bffbad94b9079d4279666601fe5c75b563632ee694024",
+      "bytes": 407
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCLUSTERCPU001.started.json": {
+      "sha256": "8ee51c2e1449b0399f3d75a2a8da92f4a2e25148e456a80be9a0c9b64d47785b",
+      "bytes": 270
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T015743.started.json": {
+      "sha256": "b5d82746c0ad4e3895c26abd79f549a47b5a2668b4d473749d2137798c6f0bb7",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHFREEZE001.started.json": {
+      "sha256": "98efdd4512e5580ed946da37223f53adee63b9cfd0a4c2d03b75f7d17e7c25fd",
+      "bytes": 255
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNCONTROLTEST002.json": {
+      "sha256": "c560815461f0eacda3106d91cf8995a3e7349872da8ebb4a43a186b4e6bd20c7",
+      "bytes": 771
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBTEST002.started.json": {
+      "sha256": "2ec608852e127076e1b5cf08d3a6a6bb8975b3da403a1eaa67a5ba668b6e299e",
+      "bytes": 351
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3OBSERVE001.started.json": {
+      "sha256": "723ad2c699bb2667bdba775131eb9ff88f6197a93d5ac4aecd8a20c8ac38da48",
+      "bytes": 233
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3RECORD001.json": {
+      "sha256": "393650d8f4465951c250b24dead2c80ea202be4c1c70a47bfcd39969e7ee562b",
+      "bytes": 312
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANINV001.started.json": {
+      "sha256": "a2a1f31c9635ed33d08af9e202c44ec54ffb654887aca9e652bd17c6b6350a3b",
+      "bytes": 202
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1TECHOBS002.started.json": {
+      "sha256": "776ea0eda31bf44a89db1bc4d01a9e7bd82053fe1ee81c2d9fd190e48cf9931e",
+      "bytes": 283
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANRUNTIME001.started.json": {
+      "sha256": "92364c1f92e701bb4d2c9f081455fdf3057d3d49495d1c768d265754ea7701f4",
+      "bytes": 210
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMV3LOCAL001.json": {
+      "sha256": "236de22cb76a0e36688a63710f2b97dac2731082c8dbf4947011a353341d9cf5",
+      "bytes": 359
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1RESULTCOMMIT001.started.json": {
+      "sha256": "88b1d13d9d5139015826b1b7eb676a93a5853743150f03b832e3093818e6df3f",
+      "bytes": 218
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNMETADATA001.json": {
+      "sha256": "232b2c1410de740afaca06dad8d3b3ae31762f8655ffe02aa803bd41b729e374",
+      "bytes": 696
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1GITADD001.json": {
+      "sha256": "e15bd90b8ae213ba70cfa14407486c96ec9dc0b5178aa63f4a47fd404bbfe880",
+      "bytes": 6047
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYRECON001.json": {
+      "sha256": "6414fa16a48aa332f317a0c35c458ad160ff4c6f1544e5b6881105f9593f1eba",
+      "bytes": 7252
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADADD001.json": {
+      "sha256": "94f5160b2f7558b3966382ddb80c938024a6ce6abe2a9342376e804f341c5a8a",
+      "bytes": 2984
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDTEST001.started.json": {
+      "sha256": "b4b34948b8e71cd2b52c9f1d598c26c2bdefad989037ffb16ba982b272cb49d2",
+      "bytes": 248
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCPUCONTROL001.json": {
+      "sha256": "866328653361f9bbac52d884ddff5b927712e9b8c83b3e029c28b258f99998cb",
+      "bytes": 357
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORTSTAGE001.json": {
+      "sha256": "4b1efe1ac473e219ec71fe8733c097a096a6289ddf4e5ed60d9dcefbef43777b",
+      "bytes": 472
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEOBSERVE001.json": {
+      "sha256": "c81c30cae9f61bf25403a8a5aec0a212e33449e8ed69309b65975a3daf7feff9",
+      "bytes": 1179
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADOBS002.json": {
+      "sha256": "7a358d22acd584ec453a6664ea8c41d1e478b9b0972ad3b442ba1031e221ca97",
+      "bytes": 8136
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1PRESERVE001.json": {
+      "sha256": "35b95139fb3944272a0ae1d8664d54e254e977b95473809a3318e4b341da7d6c",
+      "bytes": 1037
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNFINALCONTROLTEST001.json": {
+      "sha256": "2f18831ba80d6ef93f6ebf3c31b39bf194262367afe8ee47b1ae85c8da2fc112",
+      "bytes": 758
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2LIMITTEST001.json": {
+      "sha256": "ecb1509bb13b0859d3a7f5bb6db6ebeb3cfe6d99886375c33073048fd7c24bf0",
+      "bytes": 685
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNSUBMITRECONCILE001.json": {
+      "sha256": "95e25892ea05176b885e205bc86f32e25cdb7c19be8ce4f5bfb13f38ab3edec2",
+      "bytes": 1897
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PRESERVERECEIPT001.started.json": {
+      "sha256": "3de230bb7fafb0164ab0720f2824b63c60e46d66205a04efcb4f0cfbaacf10d5",
+      "bytes": 255
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANTIMING001.started.json": {
+      "sha256": "7f2dd565cb41f42302b53f1666f489fa31d9215c4e19db5083f50bbf61061627",
+      "bytes": 204
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERRECONCILE001.started.json": {
+      "sha256": "b6563af2febd5e6591c4159ad77b66931d966af32d7af9f756d481be58e862a4",
+      "bytes": 209
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ARCHIVEWINSTAT003.started.json": {
+      "sha256": "020ffc581e7efae21c7c474ba4efcb8c1991f38e05b75a150df558df0c859abe",
+      "bytes": 601
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNOBSERVE002.started.json": {
+      "sha256": "7163523c993e33b795034c3db46bb484654f1c1ae3a091aa57a5769b841faf08",
+      "bytes": 220
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHSUBMIT001.started.json": {
+      "sha256": "980c456cbb70555c389431e83dfbbca855308f323cf1b28f90caecf436d53f0b",
+      "bytes": 288
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CHECKPOINTPUSH001.started.json": {
+      "sha256": "f3f9d0d51bfabb9dcf5ed1615c579a1227a32c46555388e214ecd399ba8f2b66",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALMETA001.started.json": {
+      "sha256": "bff6d1e6a92b98fdacd6a831bc11cb4e291ccba6bbc25cd0df3d79013c78c956",
+      "bytes": 262
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSTEST001.json": {
+      "sha256": "aa20bda75d4c8e3d5023ba966fa6c05e74727133e2f0df823080cc8b7c046c40",
+      "bytes": 304
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RENDERWSL001.json": {
+      "sha256": "21d16caf201ddcc8cdeb44065aa5e900c0409c75a4bcbf55f3cdb739cbcae1b8",
+      "bytes": 11356
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHADD001.started.json": {
+      "sha256": "c515007bfff62f38af1897485bd00cf9fd3b3aa60e30f97dde587f5a446a5729",
+      "bytes": 879
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADFREEZE001.json": {
+      "sha256": "9fd4cab9c835454250b6306520aecde8ff4a806980f57ceb2cfc9e81a436941d",
+      "bytes": 420
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTEPUSH001.started.json": {
+      "sha256": "f3f9d0d51bfabb9dcf5ed1615c579a1227a32c46555388e214ecd399ba8f2b66",
+      "bytes": 175
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNQOS001.json": {
+      "sha256": "f9aee1b7b9ad6d50152b7515f50024610377f19d472e9bf44f0c3e8a69d7d385",
+      "bytes": 1375
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261015T235741.started.json": {
+      "sha256": "1300a2a4b371c40dacedb687670deff932d8d32caa7240ff84a80971700b6835",
+      "bytes": 283
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSFREEZE001.json": {
+      "sha256": "2f3b57a5f0ead71c9ef07533a6839d24b4d7540ea03817acc8fd10241c1a8635",
+      "bytes": 372
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2PRESERVE001.started.json": {
+      "sha256": "6a39d214e6faac49c3e75c3a4cb656b6002d91b7f5d47e6ebd32b8651fa53ba8",
+      "bytes": 258
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1FREEZE001.started.json": {
+      "sha256": "cae18b4c6c79a8485e454719a7d67ddcc9dded457896b55ecea1ebdad6ad298d",
+      "bytes": 235
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1SCHEDULERFIXTEST003.json": {
+      "sha256": "ea281692a92ea1926e79b59be677fd9422ff5a66cd5f5e1c111b8e7ca0e5154f",
+      "bytes": 309
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALSOURCETEST001.started.json": {
+      "sha256": "052e756db342857b99b22012b8f61767509f74d81d764c5112cf8d3adc78ff45",
+      "bytes": 248
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1OPSADD002.json": {
+      "sha256": "bb0e298a67a5bbdc4713d0eb19cbfcf7c7c299c5d384f9422dc08186dbed664d",
+      "bytes": 644
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBTEST001.started.json": {
+      "sha256": "ffb88289c881d16e1bc54ede7796d390354f219da7a747a6e8ca18c518799195",
+      "bytes": 289
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCLUSTERCPUV2001.started.json": {
+      "sha256": "cc6063e59f1607da9b4ebf17f21646aae22a0ce2963c7ef17450521cca528acc",
+      "bytes": 272
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1TECHPUSH001.json": {
+      "sha256": "265aca3bba06b7f6452cb2d294e015c384fb8c7b749c66893ce7013133d29579",
+      "bytes": 406
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNACCEPTTEST001.json": {
+      "sha256": "dcd1dad09449df26bb7d4afc8621969d6c420149cd566ade281df4bfe370a07d",
+      "bytes": 793
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST007.json": {
+      "sha256": "0f6fff1fc259e949a7d52ca5a05529c87f0d5c8e3f1bfd85c4a1c10575bf44f7",
+      "bytes": 358
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261015T232741.started.json": {
+      "sha256": "79b02a613358e048e0fe1875cc95127b51d40d6d94e6782d149004290593fe64",
+      "bytes": 283
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-INVENTORY001.started.json": {
+      "sha256": "4762418b49c9ccfa94da2bbc0ae0eb7d9507a8ea78c23585e25c7cdffe2ef01d",
+      "bytes": 200
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER2TEST001.started.json": {
+      "sha256": "9e1d16afe0177618f13fc6ef7e97c3cc77f892586c5bd53a7695732d212f12c7",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-TEST001.json": {
+      "sha256": "09e64da56e3e59553261daf91d866d4e27c562bb9094688a450a561a33468966",
+      "bytes": 3610
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYPROBESTAGE001.json": {
+      "sha256": "e2910a6e15d91821692cf0d4c3aae4092a70329ecfeab2c5bbef7d37314cbcc0",
+      "bytes": 477
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ROUTECOMMIT001.json": {
+      "sha256": "97e9836cf1fbaa936d2602a09b0cf53fb3eae9d5b1fd811b7dfa8c178dd8811c",
+      "bytes": 1626
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-IMPORT001.json": {
+      "sha256": "94588fb7d1b073e33ea495694dc2f4dfa76c143045ce8efd15141eb900ab173c",
+      "bytes": 1462
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNQOS001.started.json": {
+      "sha256": "ef2a8cc97168aaf2e718c478b04517422e8a98f72ff938993abe1c3e5cee5f7a",
+      "bytes": 205
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST004.started.json": {
+      "sha256": "609d0dc106930da0db7d6dc560963543a398014da30a81e6660a700611967878",
+      "bytes": 271
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALMETAV2001.json": {
+      "sha256": "24f16c2573211bdbda7fdfa5efbb13a19ff9fbf211edbd47d25cf2c60a3286d2",
+      "bytes": 1527
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1TEST002.json": {
+      "sha256": "d7c98c8501c79e565cf7ba15afb5fbf16c27e77bf25420b180f7b5ab04d1d0ff",
+      "bytes": 466
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1CPUCOREV2PREP001.started.json": {
+      "sha256": "a0df0492543433f94c4d5931b07a4d2e4d001ab3171b4e04e84bc938a60c2fc2",
+      "bytes": 444
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ARCHIVESOURCESNAPSHOT001.started.json": {
+      "sha256": "3cc97c980be6eb7e6709556056d48d4a9f90cc84100900ce1021389b97993705",
+      "bytes": 403
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-QOSR1BUILD001.json": {
+      "sha256": "7844afa422e22964f63d9eb0da12af0fb384a5f4312d1c20d4ef2b8fd1ba6e61",
+      "bytes": 1262
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-REPAIRTEST001.started.json": {
+      "sha256": "3092bd170d7f5051e93cdfe0077027e4d49a971f840a4e6f217c6acecf44c26f",
+      "bytes": 234
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1ARCHIVESNAPSHOTVERIFY001.started.json": {
+      "sha256": "5af24b942f2582a005007925a170fa335b3ae4c504cc2bb65f37647bc7bd3050",
+      "bytes": 808
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDSTAGESUBMIT001.json": {
+      "sha256": "51d2a1d2dcf1d39dd611131f40906765ecda13f09632d40147f193cc6e1c41ab",
+      "bytes": 500
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261015T235741.json": {
+      "sha256": "f536089970658f3b3eae374cbd2a62f926238eb5190c30eb49064045ed95ca05",
+      "bytes": 8652
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1ART001.json": {
+      "sha256": "a62303319c9ae788618a0c80a16f442b7194e3516c4165a8ae040ffa9c3e7242",
+      "bytes": 2727
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBRECOVER001.started.json": {
+      "sha256": "de6552bccb0f068dbf5aab6d6fe9bfa60e8a1770d17038b336072ef2ca91c0d2",
+      "bytes": 246
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNMETADATA001.started.json": {
+      "sha256": "409a5ff3b493e5be9c393af59af94153fba0acafee5a79b84f0b68e0984ce395",
+      "bytes": 208
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1PLANFINALCHECKR1001.json": {
+      "sha256": "1e353bf66d446decb1e446fdb10d2e85c9c5073794174f5a0a754d5fb3aed018",
+      "bytes": 1883
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDPUBRECOVER001.json": {
+      "sha256": "a16cb9c6fb07bfbb11a22cdee022e94c8565eb3240563c59c871ac34d5ff3d06",
+      "bytes": 565
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNDEPLOY001.json": {
+      "sha256": "8b9aa680912990f4d808b7973d3fec7eb2f4921de9eeac920c1ec59d62d6dd80",
+      "bytes": 428
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALARCHIVETEST007.started.json": {
+      "sha256": "8779a715ce77f602dae70bdcb9e5b1e839db104979b1a2af7c7cd98dde3c14f8",
+      "bytes": 271
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-RC1MATH001.json": {
+      "sha256": "457f63191f876a438c498ca0467a5124799e09394920a3acc049a7d50b292ee0",
+      "bytes": 2045
+    },
+    "docs/world-model-diagnostic-rc1-ops-reserve-v1-20261016/LOCAL-RC1TECHOBS001.json": {
+      "sha256": "94bd5f96c7e0e49c570c63db8a073d1a9601a084636659fb5de1bfa9da0e9c11",
+      "bytes": 1583
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T012743.started.json": {
+      "sha256": "c3e3ffeeae48631acb69470bc5663af85f8999d60662e96bbd2943b1beaf42a9",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNOBSERVE003.json": {
+      "sha256": "0591efbd8cad14d785124dd124dfa6dd5074bc8a4a4b7f6b5c91c2289bd52923",
+      "bytes": 5634
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-TEST002.started.json": {
+      "sha256": "b33d7eb917e9224fa554d867e32f10ecca2208a69fef14275af91aa3917f90d6",
+      "bytes": 227
+    },
+    "docs/world-model-diagnostic-rc1-v1-20261016/LOCAL-RC1HEADPUSH001.json": {
+      "sha256": "cf01b51d5ba823a82fdd5c09de2f933e109e64f64acf801adf67abce34839b4d",
+      "bytes": 406
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1GRIDSTAGESUBMIT001.started.json": {
+      "sha256": "24fc31fd3758c47b5403ddb0ad56436138706dd4d7be396d65641be1c6feced7",
+      "bytes": 283
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNFINALCONTROLTEST001.started.json": {
+      "sha256": "aaad69bd9d7e48f2068e00cac0a4f055097a83d98f3a41214ad04eea493d8cdc",
+      "bytes": 231
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-NUMERICALAMENDMENTSSD001.json": {
+      "sha256": "5f27faa37a90ebfef2f72a9f1b2f2acba9ac8ddab6c449992b5032c2ba540fb3",
+      "bytes": 1181
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNOBSERVE002.json": {
+      "sha256": "de8c12b26fbdec24ba694fcc5211f6ab745d0dc84fe8e4200a9c1539350814e7",
+      "bytes": 3896
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALCLUSTERPRESERVE001.started.json": {
+      "sha256": "be0b3b91899487f0c45101804ce89dbde5c450d907be1a724ce6284197dddf34",
+      "bytes": 279
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-PARITYPREPARE001.json": {
+      "sha256": "a13406ea3e18556d6549a6e3c057039c4fabe4c8bf6df4e72c2181926a0c9d7b",
+      "bytes": 463
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCEOBSERVE002.started.json": {
+      "sha256": "d1f9cccc8ee4a0650e1eef5847656e449bddb39f2bd0502fdb0f51f77f324730",
+      "bytes": 218
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1HB20261016T022744.started.json": {
+      "sha256": "0c4fe1a89a4164252630b7c5f4ae197d8324d6c14bc1918c687e35c13f84929d",
+      "bytes": 278
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNSTORAGE001.json": {
+      "sha256": "daecae6fb956875e3f3e30e5bcd07b542fe3ef4ab1ed744eee1ac217bf25a013",
+      "bytes": 625
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-CAMPAIGNETA001.started.json": {
+      "sha256": "65c37f901fa7485b5ccfac653ecb7d2227d5519bbbd08405b485f45423a5f024",
+      "bytes": 223
+    },
+    "docs/world-model-diagnostic-rc1-ops-reserve-v1-20261016/LOCAL-RC1TECHOBS001.started.json": {
+      "sha256": "48f305aa99de070f1380f6d6681cf65d4b737c4f85d433bb4818907036e3d958",
+      "bytes": 265
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-SOURCER3IMPORT001.json": {
+      "sha256": "22b4334c242c4e8a6b36e1b7fbf9d5f2d218771f24f57a8ee869d5a965cbc7b9",
+      "bytes": 903
+    },
+    "docs/world-model-diagnostic-rc1-prep-routing-v1-20261016/LOCAL-RC1FINALANALYSISTEST002.json": {
+      "sha256": "76e3af261540041cbfbbe85913c0aaa53427f00d0e069881738e99212876aa19",
+      "bytes": 361
+    },
+    "docs/world-model-diagnostic-a2-native-v3-20261015/LOCAL-GPUINVENTORY001.started.json": {
+      "sha256": "ebd6cfb4cb4abe59d709ac0e1921e30edbc5c991f1c31e4bb734f9c4018fb7af",
+      "bytes": 201
+    }
+  }
+}

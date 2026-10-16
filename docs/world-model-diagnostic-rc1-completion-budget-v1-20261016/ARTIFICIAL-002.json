@@ -1,0 +1,46 @@
+{
+  "owned_job_active_after_cleanup": 0,
+  "owned_synthetic_descendant_PID": 25172,
+  "research_calls": 0,
+  "scheduler_calls": 0,
+  "source": {
+    "__init__.py": {
+      "bytes": 77,
+      "sha256": "4cbc227cb21e3c1b766c92ee1aa418de2d4f67020c46b2e01c3b13c013f9733e"
+    },
+    "common.py": {
+      "bytes": 5273,
+      "sha256": "b5759d2f7679d4df759304cd171f26cfccd21540a5dbbb9bd290b8953ecdbf47"
+    },
+    "compact.py": {
+      "bytes": 7203,
+      "sha256": "126da4491a5b5fded1fc04f850b88cd47f7a8ef166f109146ad9dade025897de"
+    },
+    "job.py": {
+      "bytes": 1865,
+      "sha256": "55a152e20af535e29a432d75dfd10e44c8ae2eb3a462e58bd410da97bd5e7aa7"
+    },
+    "local.py": {
+      "bytes": 6303,
+      "sha256": "4671b0e7a23a47565ff3e1e05a09dc470db4f0efb17482e94fce06bb8f583afb"
+    },
+    "publication.py": {
+      "bytes": 3941,
+      "sha256": "29a046d92c60dababb85bd830cec69d989a5a2fe949f5c84104ce4a9b7037d64"
+    },
+    "tests.py": {
+      "bytes": 3751,
+      "sha256": "192b65db8b597eafd399bb04a06710e618a37bc90171feeadf01f4d222577187"
+    },
+    "tests_v2.py": {
+      "bytes": 4652,
+      "sha256": "9424b782b07f3705e26c3297b336a94c884090a864938429da0365f04f531bd5"
+    },
+    "worker.py": {
+      "bytes": 421,
+      "sha256": "47c41028b0ca8df2ea61867df18c201519996ec2dcc489e4fb3d4fde8032c7ac"
+    }
+  },
+  "status": "ARTIFICIAL_TERMINAL_RACE_AND_OWNED_DESCENDANT_TESTS_PASSED",
+  "unrelated_processes_signalled": false
+}

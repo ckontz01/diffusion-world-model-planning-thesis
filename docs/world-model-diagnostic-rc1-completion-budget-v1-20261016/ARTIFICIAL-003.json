@@ -1,0 +1,10 @@
+{
+  "network_calls": 0,
+  "research_calls": 0,
+  "scheduler_calls": 0,
+  "source": {
+    "bytes": 8382,
+    "sha256": "01bc50178849c8cfbde4bab45322b5072dc590d81851fce46f5fbfeb43ed812f"
+  },
+  "status": "ARTIFICIAL_FINITE_TRANSPORT_SYNTAX_AND_EXACT_ROUTE_PASSED"
+}
