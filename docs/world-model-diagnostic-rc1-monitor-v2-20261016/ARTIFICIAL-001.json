@@ -1,0 +1,40 @@
+{
+  "R003_retried": false,
+  "actual_cluster_or_SSD_accessed": false,
+  "checks": [
+    "integer return codes including empty stderr preserved",
+    "bounded stdout/stderr prefix bytes and whole hashes",
+    "timeout distinguished without research inference",
+    "invalid metadata fail closed",
+    "exact program digest unchanged",
+    "no scientific or research-mutation schema accepted"
+  ],
+  "external_processes_launched": 0,
+  "final_gate_ready": false,
+  "preserved_failed_observation": {
+    "bytes": 1328,
+    "sha256": "843c52cabe4fdb9026864a113c73de975ecf36740e78d31c3e485d6df2c3dea8"
+  },
+  "research_calls": 0,
+  "sources": {
+    "__init__.py": {
+      "bytes": 84,
+      "sha256": "2a02542f13cd4e57ef87580c35c077788376d0378c7b7db1ef3e75a98b7624c4"
+    },
+    "common.py": {
+      "bytes": 133,
+      "sha256": "3d4d667c32968a468708af94502788b36fe46ce51f51996f9150787f97d651c0"
+    },
+    "compact.py": {
+      "bytes": 4994,
+      "sha256": "8f4734854b2ae352b88ea954b6cf6dec82fe217859aac53c72d3ed40bce6ab26"
+    },
+    "tests.py": {
+      "bytes": 3322,
+      "sha256": "a7b0a0f95bc573a4e84360a1aaaf5867fae9d71285537ffdbb2756686dfba778"
+    }
+  },
+  "status": "ARTIFICIAL_MONITOR_DIAGNOSTIC_WRAPPER_PASSED",
+  "unchanged_observer_program_sha256": "6a6caa4c0eae6149bde0b45726a9ee5f7a7b0137590c648dda43047fe7f40023",
+  "underlying_transport_cause_diagnosed": false
+}

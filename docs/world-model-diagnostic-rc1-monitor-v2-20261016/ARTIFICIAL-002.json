@@ -1,0 +1,38 @@
+{
+  "checks": [
+    "all new sources AST3.6",
+    "no trailing whitespace",
+    "actual ordinary-temp uncompressed ZIP member readback",
+    "wrong member/hash rejection"
+  ],
+  "cluster_or_designated_SSD_accessed": false,
+  "external_processes_launched": 0,
+  "research_calls": 0,
+  "sources": {
+    "__init__.py": {
+      "bytes": 84,
+      "sha256": "2a02542f13cd4e57ef87580c35c077788376d0378c7b7db1ef3e75a98b7624c4"
+    },
+    "common.py": {
+      "bytes": 133,
+      "sha256": "3d4d667c32968a468708af94502788b36fe46ce51f51996f9150787f97d651c0"
+    },
+    "compact.py": {
+      "bytes": 4994,
+      "sha256": "8f4734854b2ae352b88ea954b6cf6dec82fe217859aac53c72d3ed40bce6ab26"
+    },
+    "publication.py": {
+      "bytes": 5576,
+      "sha256": "3cd05288ce701f070429dfccf1b08a06d5e77073cd9c5cb4660a9ebcaeb30fb2"
+    },
+    "publication_checks.py": {
+      "bytes": 1742,
+      "sha256": "a2b8d3b0b5560d36081bffe86e6c06fbf9c88342258a604b85ce0abb4b1f2cde"
+    },
+    "tests.py": {
+      "bytes": 3322,
+      "sha256": "a7b0a0f95bc573a4e84360a1aaaf5867fae9d71285537ffdbb2756686dfba778"
+    }
+  },
+  "status": "ARTIFICIAL_MONITOR_PUBLICATION_SOURCE_GUARDS_PASSED"
+}

@@ -1,0 +1,54 @@
+{
+  "actual_cluster_or_designated_SSD_accessed": false,
+  "all_copy_check_reservation": 60480,
+  "authority_max_all_copy_check_bytes": 65536,
+  "capture_prefix_each": 2048,
+  "checks": [
+    "exact full124terminal worst-allocation snapshot roundtrip",
+    "every original scheduler field reconstructed",
+    "complete original canonical record identity",
+    "changed scheduler/index mask rejected",
+    "exclusive native ordinary-temp serialized receipt",
+    "preserved exact older tested source preimages",
+    "all new source AST3.6/no trailing whitespace"
+  ],
+  "external_processes_launched": 0,
+  "failure_receipt_limit": 8000,
+  "final_gate_ready": false,
+  "logical_receipt_copies_reserved": 4,
+  "research_calls": 0,
+  "sources": {
+    "__init__.py": {
+      "bytes": 84,
+      "sha256": "2a02542f13cd4e57ef87580c35c077788376d0378c7b7db1ef3e75a98b7624c4"
+    },
+    "common.py": {
+      "bytes": 133,
+      "sha256": "3d4d667c32968a468708af94502788b36fe46ce51f51996f9150787f97d651c0"
+    },
+    "compact.py": {
+      "bytes": 7714,
+      "sha256": "12e76b6e19e3a2b1525f3a0868952d52a531803ac5b345f0741afd8663d367e4"
+    },
+    "logical_copy_checks.py": {
+      "bytes": 4786,
+      "sha256": "2bb0a8f3c953bf1341e3b4f4fb5c9ee616babb070bab3888e32e2c0e0cd9feb0"
+    },
+    "publication.py": {
+      "bytes": 5718,
+      "sha256": "028cfde5939f2316810c6b1acad9a9d6008d87fcf93a0a22345da122a478f0ef"
+    },
+    "publication_checks.py": {
+      "bytes": 1742,
+      "sha256": "a2b8d3b0b5560d36081bffe86e6c06fbf9c88342258a604b85ce0abb4b1f2cde"
+    },
+    "tests.py": {
+      "bytes": 3322,
+      "sha256": "a7b0a0f95bc573a4e84360a1aaaf5867fae9d71285537ffdbb2756686dfba778"
+    }
+  },
+  "status": "ARTIFICIAL_MONITOR_LOGICAL_COPY_AND_SOURCE_GUARDS_PASSED",
+  "success_receipt_limit": 10000,
+  "synthetic_maximal_success_actual_bytes": 8017,
+  "underlying_transport_cause_diagnosed": false
+}

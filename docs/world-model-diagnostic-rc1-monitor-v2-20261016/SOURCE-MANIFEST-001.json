@@ -1,0 +1,65 @@
+{
+  "members": {
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/ARTIFICIAL-001.json": {
+      "bytes": 1380,
+      "sha256": "2c4403dd5700bdb822d18e672561df58adeab71c7bf878657e976e04d48c2832"
+    },
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/ARTIFICIAL-002.json": {
+      "bytes": 1165,
+      "sha256": "72a8a7e4c5170bcf3fc502b37811ab52c33bf97a99fcc84583ef8935e941accf"
+    },
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/ARTIFICIAL-003.json": {
+      "bytes": 1891,
+      "sha256": "41c77cefb07f1c1124b8a2b9e0f7a2a13b9b0f4d33c1cad02b9ae2109d4b6560"
+    },
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/RECOVERY-CONTRACT-001.json": {
+      "bytes": 1265,
+      "sha256": "9d2df6ae7a4db5a8f101e7c22bf4e2e9a791d8e6c8d217d4dcb389be072f1326"
+    },
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/REVIEW-001.txt": {
+      "bytes": 2532,
+      "sha256": "f45ba0a44cfd02ba461681b3024e4f95db49fa35b0efc47f09f970fc8ad60d47"
+    },
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/source-preimages/compact-before-logical-copy-001.json": {
+      "bytes": 6869,
+      "sha256": "a5093669c99f4b7d37989fe1c9657b5a0cd3a3179f01e6ed02eb53a248cda5a6"
+    },
+    "docs/world-model-diagnostic-rc1-monitor-v2-20261016/source-preimages/publication-before-final-guard-001.json": {
+      "bytes": 7635,
+      "sha256": "c0820c6aa8592f3ab64524c6d3581fe801cd73289ba45c782b23faa239f6d1c6"
+    },
+    "wm_diag0_rc1_monitor_v2/__init__.py": {
+      "bytes": 84,
+      "sha256": "2a02542f13cd4e57ef87580c35c077788376d0378c7b7db1ef3e75a98b7624c4"
+    },
+    "wm_diag0_rc1_monitor_v2/common.py": {
+      "bytes": 133,
+      "sha256": "3d4d667c32968a468708af94502788b36fe46ce51f51996f9150787f97d651c0"
+    },
+    "wm_diag0_rc1_monitor_v2/compact.py": {
+      "bytes": 7714,
+      "sha256": "12e76b6e19e3a2b1525f3a0868952d52a531803ac5b345f0741afd8663d367e4"
+    },
+    "wm_diag0_rc1_monitor_v2/logical_copy_checks.py": {
+      "bytes": 4786,
+      "sha256": "2bb0a8f3c953bf1341e3b4f4fb5c9ee616babb070bab3888e32e2c0e0cd9feb0"
+    },
+    "wm_diag0_rc1_monitor_v2/publication.py": {
+      "bytes": 5718,
+      "sha256": "028cfde5939f2316810c6b1acad9a9d6008d87fcf93a0a22345da122a478f0ef"
+    },
+    "wm_diag0_rc1_monitor_v2/publication_checks.py": {
+      "bytes": 1742,
+      "sha256": "a2b8d3b0b5560d36081bffe86e6c06fbf9c88342258a604b85ce0abb4b1f2cde"
+    },
+    "wm_diag0_rc1_monitor_v2/tests.py": {
+      "bytes": 3322,
+      "sha256": "a7b0a0f95bc573a4e84360a1aaaf5867fae9d71285537ffdbb2756686dfba778"
+    }
+  },
+  "old_packages_or_models_recopied": 0,
+  "original_completion_package": {
+    "bytes": 155068,
+    "sha256": "2c6149eb3729182c906ab3c776efe0ba368b2ceca1335e54e7785b08ad43aa83"
+  }
+}

@@ -1,0 +1,35 @@
+Diagnosis is limited: OBSERVE-R003 had a native nonzero result without returned
+stderr; old compact.main discarded transport returncode/stdout. Neither its
+underlying transport cause nor current cluster health can be inferred. Original
+R003started/LOCALerror/30second charge remain untouched. Do not retry R003.
+
+New package does NOT change the actual observer program/read logic, exact array,
+node-local PID/ticks verification, original scheduler guard or scientific scope.
+It binds the identical program SHA256 and the already-preserved completion
+package, whose source/authority bytes must remain exact. A new source package
+includes only these new files/control/test metadata, NOT a recopy of old packages.
+
+Changes are local failure receipt capture: nonzero returncode (including empty
+stderr), stdout/stderr byte counts/hashes and bounded base64 prefixes; timeout or
+local start errors distinguished without inferring research failure. Once-only
+labels refuse a prior started, successful or failed receipt. Combined failure
+receipt <=8000bytes with2048byte prefixes. Success uses a <=10000byte LOSSLESS
+technical metadata schema: exact seven scheduler fields, repeated dispatch
+prefix represented once, accepted indices encoded as a fixed124bit set, complete
+canonical original-record SHA256 and exact decode/roundtrip. Original observer
+program/output fields are unchanged and fully reconstructable; no scientific
+data compression/deduplication/storage discount is assumed. Four full logical
+receipt copies with3072parent-start+1024wrapper-start+1024parent-result+10000
+success bytes reserve60480bytes/check within65536bytes. Failure is smaller;
+no research mutation, remote install, scheduler change or immediate extra query.
+Per-check30inclusive/20remote(+1kill)/25transport/26caller and same240/120hours
+caps remain. Existing runner owns resource/cleanup accounting, no old code edited.
+
+Negative/positive synthetic decoder tests must pass, followed by exact new
+commit/push/fullremote/newsmallSSD whole/every-member gate before future use.
+New package publication is a separately charged90second prospective operation
+inside remaining publication420seconds; leaves330 for remaining final source,
+result publication and reconciliation. No component transfer or additional grant.
+This repair adds observability, NOT proof that the underlying connection works.
+Next scheduled wake only may take R004 or later with this wrapper after gates.
+Final study integration/analysis/archive/SSD gates remain incomplete and unchanged.
