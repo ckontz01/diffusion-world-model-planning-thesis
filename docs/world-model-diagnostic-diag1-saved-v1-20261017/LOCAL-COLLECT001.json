@@ -1,0 +1,1 @@
+{"automatic_retry":false,"conservative_charge_seconds":8,"elapsed_seconds":6.4689999999827705,"peak_child_job_memory_bytes":33349632,"returncode":0,"status":"FINISHED","stdout":"{\"status\": \"COLLECTED_COMPLETE_SAVED_DATA_DISCOVERY_RESULTS\", \"members\": 138}\r\n"}

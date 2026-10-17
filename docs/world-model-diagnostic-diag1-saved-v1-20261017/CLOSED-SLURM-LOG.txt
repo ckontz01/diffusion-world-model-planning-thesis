@@ -1,0 +1,7 @@
+{"status": "ONE_SAVED_DATA_PASS_COMPLETE_CLOSED_PACKAGE_VERIFIED", "job_id": "318060", "rows": 128}
+Your remaining balance (at the time of job end)
+User           Usage |        Account     Usage | Account Limit Available (CPU hrs)
+---------- --------- + -------------- --------- + ------------- ---------
+ckontzias *        53 |     SUPERWORLD        53 |             0       N/A
+cpadubidri         0 |     SUPERWORLD        53 |             0       N/A
+skaratsiolis         0 |     SUPERWORLD        53 |             0       N/A

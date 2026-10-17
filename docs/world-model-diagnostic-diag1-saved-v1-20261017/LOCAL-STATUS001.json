@@ -1,0 +1,1 @@
+{"automatic_retry":false,"conservative_charge_seconds":3,"elapsed_seconds":1.547000000020489,"peak_child_job_memory_bytes":28008448,"returncode":0,"status":"FINISHED","stdout":"{\"job_id\": \"318060\", \"state\": \"RUNNING\", \"complete_ready\": false}\r\n"}

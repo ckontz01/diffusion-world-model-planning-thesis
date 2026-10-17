@@ -1,0 +1,96 @@
+WM-DIAG1-SAVED — COMPLETE SAVED-DATA DISCOVERY HANDOFF
+
+The adopted fixed analysis is complete. No practical repair was implemented,
+and no new scientific pipeline or monitor was launched. The completed
+WM-DIAG0-A2 RC1 study, its decisions, failures, reports and archive are unchanged.
+
+Repository: https://github.com/ckontz01/diffusion-world-model-planning-thesis
+Branch: world-model-diagnostic-diag1-saved-20261017
+New documents: docs/world-model-diagnostic-diag1-saved-v1-20261017/
+Frozen scientific source commit: 9b485ff4d253f0800d0f1a9b9bfb88061dc3ac01
+Freeze SHA256: 42b999a83358e1c6e3780a6bf5e3e16ee2209a88ee51977f3cf6c892b95c6f10
+Baseline publication: 4837834b15cffae1fd848108b8737187f4caee06
+
+Read RESULTS.md (all four settings and all128 parent rows),
+MECHANISM-PROPOSAL.md, ANALYSIS-PLAN.md, FINAL-TECHNICAL-REVIEW.json,
+FINAL-SSD-VERIFIED.json and collected/output/RESOURCE.json.
+Machine-readable complete result: collected/output/DERIVED-RESULTS.json
+3482461B SHA256 560a8cc815be0fdf665747bc503be73a4e24fae80a1844d10e9125f435aa4dd5.
+
+Exactly one saved-data CPU job318060 completed0:0. All128 task/backbone parent
+evaluations are present, sharing64 physical source parents (32/task).
+FourCPU allocation, noGPU or research-model/physics/training/encoding calls;
+one-parent streaming; no saved latent-bank copies; originals read in place.
+Native synthetic scientific tests10/10 and operational guards6/6 passed.
+Original P0/O0 means/intervals were copied; the old estimator was not rerun.
+Only A-P0 and B-P0 received new paired descriptive intervals, seed20261017,
+10000 resamples paired by physical source across backbones/corrections.
+
+RESULTS: success percentages, then new difference vsP0 [descriptive95%interval].
+
+                         P0       O0       A:p-b     B:r+b
+PushT/Le-WM              50.000   59.375   51.5625   45.3125
+  A +1.5625pp [-10.9375,+14.0625]; B -4.6875pp [-14.0625,+1.5625].
+PushT/DINO               76.5625  73.4375  78.125    67.1875
+  A +1.5625pp [-4.6875,+9.375]; B -9.375pp [-21.875,0].
+Reacher/Le-WM            71.875   92.1875  71.875    78.125
+  A 0pp [-17.1875,+17.1875]; B +6.25pp [-3.125,+17.1875].
+Reacher/DINO             73.4375  95.3125  75.000    90.625
+  A +1.5625pp [-9.375,+14.0625]; B +17.1875pp [+4.6875,+31.25].
+
+Common-vector removalA gives no appreciable mean Reacher benefit on these
+banks, despite substantial common energy. Candidate-specific removalB gives
+a clearer DINO effect, weaker uncertain Le-WM benefit, and adverse PushT.
+ReacherB parent gains/losses/ties: Le-WM4/2/26; DINO8/1/23.
+B exactO0 candidate agreement: Le-WM6/32; DINO12/32.
+Mean within-parent common-energy fractions: Reacher54.635%/68.762%,
+PushT60.513%/74.403% (Le-WM/DINO). These are not failure-cause fractions.
+
+The selected-pair mean relative goal-ordering errors are:
+Reacher/Le-WM47.303261 = goal-direction39.924339 + squared-error7.378922;
+Reacher/DINO0.32407658 =0.25747527 +0.06660130.
+Latent units differ; all signed parent/candidate terms and roundoff are saved.
+Historical saved selections remain authoritative even near numerical ties.
+
+PREFIX/TAIL QUALIFICATION:
+Reacher/Le-WM P0->O0 prefix successes26->54, tail20->5, failures18->5,
+across64 recorded draws. +43.75prefix pp and-23.4375tail pp sum to+20.3125pp.
+Reacher/DINO prefix26->50, tail21->11, failures17->3:
++37.5prefix pp and-15.625tail pp sum to+21.875pp.
+Le-WM has12 failure->prefix,2 failure->tail,16 tail->prefix,1 tail->failure;
+DINO11,3,13,0 respectively. These are descriptions, not causal shares.
+Post-stop absorbed oracle terminal candidates:114/512 Le-WM,116/512 DINO.
+Selected P0->O0 absorbed parents13->23 and11->19. No cases were excluded.
+Thus much of the advantage recognizes successful first chunks, and must not
+automatically be called repaired continuing post-terminal dynamics.
+
+ONE MECHANISM CONCLUSION:
+Common displacement removal alone is insufficient to reproduce the Reacher
+benefit here. Candidate-dependent ordering error is a plausible contributor,
+especially for DINO; the mixed systems/tasks and prefix absorption do not yet
+support a transferable predictor-repair mechanism or a physical/kernel cause.
+
+RECOMMENDATION:
+Do not choose a transferable learned repair yet. A useful privileged bank
+correction does not establish learnability from deployment-permitted inputs.
+Any later decision needs independent train/dev/new-parent evaluation and an
+excluded setting for a transfer claim; all current cohorts are discovery.
+A direct first-chunk-success/goal-score calibration using the same added
+data/compute is a necessary simple conceptual control, not an implemented
+or selected second method. Scalar-cost correction would be scoring, not
+repaired dynamics. No architecture, fitting, collection, sweep or new
+evaluation has been authorized or launched by this handoff.
+
+Please review whether the fixed saved evidence justifies this conservative
+mechanism conclusion, particularly the DINO-specific B benefit versus
+Le-WM uncertainty and the first-chunk/absorbing-state explanation.
+Do not treat these new intervals as confirmation or independent seed evidence.
+The prior S1 readout limitation does not imply score learning cannot help.
+No new literature search or novelty claim was made.
+
+Preservation: small new-source and new-result/control/report packages only;
+native designatedSSD whole/every-member verification and full Git remote
+readback are recorded in SOURCE-PUBLISHED.json/FINAL-SSD-VERIFIED.json.
+The11.3GB completed study archive was not recopied or unpacked. A formatting-
+only correction escaped four table labels; its original report/receipt and
+REPORT-FORMAT-RECEIPT.json are retained. No result calculation was repeated.

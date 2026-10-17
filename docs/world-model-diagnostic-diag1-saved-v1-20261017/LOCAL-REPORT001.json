@@ -1,0 +1,1 @@
+{"automatic_retry":false,"conservative_charge_seconds":2,"elapsed_seconds":0.6559999999881256,"peak_child_job_memory_bytes":26820608,"returncode":0,"status":"FINISHED","stdout":"{\"status\": \"COMPLETE_FOUR_SETTING_ALL128_PARENT_REPORT\", \"report\": {\"bytes\": 251421, \"sha256\": \"63f945db7835d8c81d34049be2e49e657b882f4c9d7a5833b0002b4317ba80ee\"}}\r\n"}
