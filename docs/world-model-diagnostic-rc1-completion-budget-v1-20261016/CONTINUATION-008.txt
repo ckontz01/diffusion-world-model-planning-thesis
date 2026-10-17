@@ -1,0 +1,112 @@
+Completion checkpoint008 supersedes older completion observation/accounting/
+next-check snapshots, including007's currently-unavailable path status. Direct
+human21300increase/35700total approval remains active. First read this, latest
+LOCAL/started/authority and later exclusive lineage. ONLY operation runner
+completion_v1.local_v2; observation entry monitor_v2.compact. No refund/transfer/
+regrant/extension or separate metadata-reserve borrowing/counting again.
+
+Native read-only bootstrap confirmed EXISTING configured disk path available:
+D:\WSL\Thesis-Ubuntu\ext4.vhdx. Agent did NOT change disk/path/WSL configuration/
+environment/permissions/security/credentials. Why it was unavailable/returned is
+not established. ONE new scheduled R007 then succeeded17.625s under30reserved,
+LOCAL-RESUMEOBS007 FINISHED. This authenticates restored observation transport,
+NOT a repaired/resumed research run. Original R006 failure/started/LOCAL retained;
+do NOT retryR006/R003/other completed/started/ambiguous checks or rewrite errors.
+No second scheduler/cluster snapshot thiswake, no researchjob/controller changed,
+cancelled/restarted/resumed/resubmitted; no scientific values/quality/outcomes/
+aggregates read. No diagnosis of older R003 cause from this new evidence.
+
+R007 HISTORICAL snapshot:59ordinary grid parents0-58 independently ACCEPTED/
+COMPLETED0:0; index59/raw317303 RUNNING384s, gpu09.cluster PID240967/startticks9255875
+BOTH independently verified. STOPabsent/faultsnone. Same317180/frozen source
+27ca345933fcb4eef3e5a9fc5769a2a8201523f0/GRID-CONTRACTda2766c3... unchanged.
+TerminalallattemptGPU39503, live384NOTfinal;65remainingmaxima+terminal273503<=468000,
+original449783;CPU1436/6836 unchanged. Never infer later CURRENT health from this.
+OBSERVE-R007.json4954B SHA
+0514b1f2fcee28f2cfaf4933ac743e03dd8deb33311c240a2ce0b6a110809f10.
+Lossless decode original4426B SHA
+495373feef72be7712e93c92a213eda7779175d3d98386f8ffeb0cbccf7b6af2
+verified with monitor_v2.compact.decode_record: all original scheduler fields and
+accepted bitset retained, no redundant full copy.
+
+NEXT SCHEDULED wake ONE NEWexclusive R008 or later after exact latest LOCAL/
+started/published-sourceSSD lineage and existing configured WSL-path availability
+checks. BOTH executable tokens use full native Python:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+-B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  fullNativePython -B -m wm_diag0_rc1_monitor_v2.compact R008
+Never legacy observations/obsolete controllers/duplicate labels. If the same local
+path blocker recurs, preserve failure, no immediate extra WSL/SSH diagnostic/retry,
+no clusterfailure inference; stop affected work and stay quiet if already reported
+unchanged. Required SSD is STILL independently gated; successful WSL observation
+does NOT establish designated SSD health/free space/whole/everymember final gate.
+
+New cpu_workflow_v1 finite phase orchestration library is SOURCE-ONLY UNFROZEN/
+UNPUBLISHED, no main/sbatch/full stage/CPU allocation authority. It connects actual
+cpu_process_v2.run_child to tested cpu_schedule_v2.PhaseClock and fixed writer/
+second-validator argv preparation. Three explicit reviewed command roles required
+BEFORE any launch; no no-op archive implementation invented. Trusted source caller,
+not artifact-supplied code, supplies complete actual entry, closed-analysis and
+archive-receipt authentication plus real archive command. Those complete actual
+stage/runtime/root/storage/sourceCPU/publication/SSD/Slurm-dispatch gates remain
+missing/separate and MUST precede production invocation. A dict/ready flag or
+successful library/test return is NOT that authority.
+
+Sequence: reserve first phase from allocation entry (including authentication),
+run owned writer and own cleanup; run owned independent validator/own cleanup;
+both log handles/groups closed BEFORE trusted complete-analysis closure and owned
+archive launch; per-phase exclusive technical controls; finalization. All remaining
+phase maxima +own5s cleanup/1s bookkeeping +final30 stay inside unchanged3600;
+earlier under-use not lent to later phase or protected1800conversion. Existing fixed
+role log/receipt target (including a partial at that target) refuses BEFORE launch.
+The future stage must also reconcile all other artifacts. Child/entry/closure failure stops
+without retry/overwriting. Archive/control/log locations must be derived by future
+production caller from source-bound disjoint layout outside ALL archive inputs;
+ordinary callback arguments are not an artifact command-execution mechanism.
+
+CPUWORKFLOWTEST00190implementation/2.985000000000582s passed NEW tiny actual ordinary
+native fixture with THREE owned harmless Python child processes and V2 cleanup,
+ordered entry/writer/validator/closed/archive-receipt/finalize, finite phase bounds,
+exclusive refusal, missing role/entry/child/deadline/boolean-time/closure failures
+stop before affected child without retry. Test commands printed synthetic text
+only, NOT production analysis/archive roles or actual research allocation. Negative
+failure injection used inert mocks; no old CPU suite/56tests repeated. NO WSL/
+scheduler/cluster/SSD/research/model/simulator/sourcegen/fit calls by this test.
+Artificial1800/600/1170/30 remains UNFROZEN, NOT whole-study timing guarantee.
+ARTIFICIAL-CPU-WORKFLOW-001.json1146B SHA
+210ec49e36521ed4f8d087aa7f6e7408d33c41da1f9ef83e5c2e41ff4fd7e424.
+
+CHECKPOINTAUDIT00830handoff/1.7810000000026776s verified AST3.6/source/test identities,
+published observer unchanged, original8269B/13f3d73a V2cleanup unchanged, exact R007
+lossless decode/PIDticks/STOP/charges and original R006 failure unchanged. Six new
+localcode/docs3407865B/nonmonitorbundle3348309B BEFOREfinalcompactreceipts+200kforward
+allowance, within local20MB and source/docs4.5MB subcap. NOT actual whole-study,
+all-logical-copy, preparation/storage/volume proof. Unchanged64MB subreservations
+63928640+71360locked remain: source/docs4.5MB*FOURcopies;240*65536ALLmonitor;
+portable12MB*TWOremote+designatedSSD/nohostthirdfile;two1MBsidecars*TWOeach;
+newsmallsourcepackagesALLcopies2.2MB. Actual future logical copies still require
+authentication/measurement; no compression/dedup/deletion/copy discounts.
+
+Exact charges implementation660/2700,cluster_validation45/600,binding_staging225/
+1200,publication270/600,monitoring210/7200,native_SSD0/7200,technical_fault140/1200,
+handoff180/900;total1730/21600,remaining19870. Remaining components
+2040/555/975/330/6990/7200/1060/720.7/240checks used233remain. Outer35700 and hardstop
+2026-10-21T07:37:44Z unchanged. Same30min/240newchecks/30inclusive/120h; at finite
+cap/horizon stop affected work/report once/pause SAME monitor/history, never
+cancel healthy research. Stop earlier after complete final handoff. No new monitor,
+cron or sleeping agent loop. Quiet unchanged healthy/nonactionable state.
+
+STILL missing ACTUAL fresh fullruntime/everymember/19roots+futurefinal/30aliases/
+root commitments; all138GPU/sourceCPU/rawID/supplier/model/physical/fullfuturestorage/
+copy/transfer proofs; complete real CPU supervisor/dispatch/submission/archive-entry/
+full stage gates; actual second-analysis/oncearchive/originalrootreadback/terminalCPU/
+postarchive/nativeSSDv3 workflow; Linux integrationtests/freeze/independentreview/
+commit/push/fullremote/newsmallSSD BEFORE finalCPUallocation. inventory_v3/
+cpu_process_v2/cpu_schedule_v2/native_transfer_v3 mandatory. Preserve ALL failures/
+partials/oldSTOPs/artificials incl4MBfinalartif/64MBaux/fullvenv/500MBoverhead/TWO14GB
+copies within13.5/14/44GB. No actual finalCPU/realanalysis/studyarchive/fullSSD run,
+no source-only readiness promotion, no new source publication/package/model recopy.
+Science/GPU138/468000/CPU/call/physical/security/data/SSD gates unchanged. No parent
+results before complete independent acceptance AND FINAL designatedSSDwhole/everymember.
+No Proquestion/newexperiment/promotion. Same ACTIVE monitor/history; pause after
+complete finalhandoff or finite horizon/check cap only.

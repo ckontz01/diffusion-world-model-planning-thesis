@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 20,
+  "component": "implementation",
+  "elapsed_seconds": 1.014999999984866,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 16588800,
+  "reserved_seconds": 20,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "New read-only observer and gated complete-report source AST3.6 passed\r\n"
+}

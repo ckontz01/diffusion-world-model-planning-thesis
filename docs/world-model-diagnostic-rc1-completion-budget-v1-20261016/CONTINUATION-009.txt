@@ -1,0 +1,109 @@
+Completion checkpoint009 supersedes older observation/accounting/next-check and
+preparation snapshots, including008's available-local-path snapshot. Direct human
+21300increase/35700total approval remains active. First read this, exact latest
+LOCAL/started/authority and later exclusive lineage. ONLY operation runner
+completion_v1.local_v2; observation entry monitor_v2.compact. No resource transfer,
+refund/regrant/reset/extension or separate metadata-reserve borrowing/counting again.
+
+CURRENT CLUSTER HEALTH UNVERIFIED. Native read-only bootstrap found existing
+configured D:\WSL\Thesis-Ubuntu\ext4.vhdx unavailable again. This is a LOCAL path
+precondition check, NOT a new transport/cluster error or research-failure finding.
+No WSL/SSH/scheduler/cluster query was made thiswake; R008 NEVER started or charged,
+no new monitoring check used. Do not create a failure/started record for an operation
+that did not run. Seven/240checks remain used,233remain. Last successful R007 with
+59accepted/terminalGPU39503 is HISTORICAL ONLY, never currenthealth proof.
+Original R006 failure/started/LOCAL and older R003 evidence unchanged; no cause
+retrospectively inferred. Why path is intermittently unavailable UNKNOWN. Agent
+changed no disk/path/WSL/config/environment/permissions/security/credentials and no
+researchjob/controller changed/cancelled/restarted/resumed/resubmitted. No scientific
+values/quality/outcomes/aggregates read. Same previously reported local blocker:
+do not repeat notification/required-action request while unchanged/nonactionable.
+
+NEXT scheduled wakes: read current local lineage/check genuine availability of
+EXISTING configured disk/path. While unavailable stop affected observations/
+remote staging/allocation/SSD actions, stay quiet, no WSL/SSH diagnostic retry,
+no unfunded probe or recreation/migration/reinstallation/configuration change.
+Safe local source-only integration may continue within full existing reservations.
+Same monitor ACTIVE/history; do not pause merely because this access is unavailable.
+Only after path actually available, at scheduled wake ONE NEWexclusive R008 or
+later (R008 is still unused; NOT legacy OBSERVE-008):
+fullNativePython -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  fullNativePython -B -m wm_diag0_rc1_monitor_v2.compact R008
+BOTH executable tokens:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+No duplicate completed/started/ambiguous labels, obsolete controllers or immediate
+second cluster check. Unavailability never implies researchfailure. Existing source
+packages already backed up remain untouched; current designatedSSD health/free space
+and final whole/everymember gate still independently required.
+
+New analysis_closure_v1 SOURCE-ONLY UNFROZEN/UNPUBLISHED handoff guard, no main/
+analysis execution/archive/stage/CPUallocation authority. Future trusted frozen CPU
+caller must use ONLY AFTER actual owned V2 writer+validator groups/logs are closed.
+The caller supplies separately obtained validator-proof identity; an arbitrary
+record/readyflag does NOT attest execution/cleanup or replace full stage/dispatch/
+runtime/root/storage/sourceCPU/publication/SSD gates. This source-only library does
+not furnish those gates or complete the production archive entry/submission.
+
+Closed record binds exact finalcontract identity, complete accepted control,
+complete14-field independent-validator proof, original frozen validator source,
+nonboolean120sources/6retainedfits/4activeheads/128parents/138attempts, same outputseal,
+same pinned historical002/59file/2826430B reauthentication, and both role log identities.
+Rejects missing/extra/private proof/control fields, booleans, changed sources/seals/
+contract/history and premature publication/SSD flags. Actualfuture closed record
+must itself be written/external-hash-bound by owned supervisor before an archive
+child accepts it; the record never grants authority by self-declaration.
+
+Opaque output authentication explicitly scandir/stat(follow_symlinks=False) rejects
+aliases/reparse/special/directories and requires exact RESULTS.json/ACCEPTANCE.json/
+MEMBERS.json. It decodes ONLY the bounded member identity manifest, independently
+streams opaque bytes through ordinary/no-follow evidence opens, enforces38MB/1MB/
+39MB output caps, then reauthenticates manifest/controls/logs and exact membership.
+Scientific payload JSON/arrays/pickles are NOT decoded by this handoff guard.
+Whole-root archive inventory remains mandatory inventory_v3, not an os.walk alias
+prototype. Actual root/member/runtime/archive proof remains missing.
+
+ANALYSISCLOSURETEST00175implementation/3.312000000005355s passed NEW tiny ordinary-
+native synthetic closed-analysis fixtures with deliberately NONJSON opaque fake
+results, actual member-seal hashing, both controls/two closed logs/external validator
+identity; missing/changed log/source/contract/seal/parent boolean/history/extra proof/
+control/draft/deadline/output mutation refused. Synthetic controls are NOT actual
+research acceptance. No real historical evidence/study outputs read, no actual
+researchchild/cleanup attested, ZERO research/WSL/cluster/scheduler/SSD calls. No
+old test suite/model/simulator/sourcegen/fit repeated. Sources/tests retained exact.
+ARTIFICIAL-ANALYSIS-CLOSURE-001.json1071B SHA
+b9a084b61acef317c6d9df18699539420c49e9ef4f1758efcbecef8974418a81.
+
+CHECKPOINTAUDIT00930handoff/2.812999999994645s verified AST3.6/source/new test identities,
+unchanged published observer/original8269B13f3d73aV2cleanup/R006failure, zero R008
+start/charge and exact full-reservation ledger. Six localcode/docs3583900B,
+nonmonitorbundle3524344B BEFOREfinalcompactreceipts+200kforwardallowance. Within
+local20MB and source/docs4.5MB subcap; NOT actual whole-study/alllogicalcopies/
+preparation/storage/volume proof. Same64MB prospectivesubcaps63928640+71360locked:
+source/docs4.5MB*FOURcopies;240*65536ALLmonitor;portable12MB*TWOremote+designatedSSD/
+nohostthirdfile;two1MBsidecars*TWOeach;newsmallsourcepackagesALLcopies2.2MB. Actual
+fullcopy/source/preparation proof still mandatory; no compression/dedup/deletion
+or omitted-copy discounts. No new canonical artificial root; final-artificial4MB
+whole-root reservation unchanged and retained in every fresh full-future proof.
+
+Exact charges implementation735/2700,cluster_validation45/600,binding_staging225/
+1200,publication270/600,monitoring210/7200,native_SSD0/7200,technical_fault140/1200,
+handoff210/900;total1835/21600,remaining19765. Remaining components
+1965/555/975/330/6990/7200/1060/690.7/240checks used233remain. Outer35700/hardstop
+2026-10-21T07:37:44Z unchanged. Same30min/max240newchecks/30inclusive/120h; at finite
+cap/horizon stop affected work/report once/pause SAME monitor/history, nevercancel
+healthy research. Stop earlier after completefinalhandoff. No new monitor/cron/
+sleeping agent loop. Quiet unchanged healthy/nonactionable state.
+
+STILL missing ACTUAL fresh fullruntime/everymember/19roots+futurefinal/30aliases/root
+commitments; all138GPU/sourceCPU/rawID/supplier/model/physical/fullfuturestorage/
+copy/transfer proofs; complete real CPU supervisor/dispatch/submission/archive-entry/
+fullstage gates; actual analysis/secondvalidator/oncearchive/originalrootreadback/
+terminalCPU/postarchive/nativeSSDv3 workflow; Linuxintegrationtests/freeze/independent
+review/commit/push/fullremote/newsmallSSD BEFORE finalCPUallocation. inventory_v3/
+cpu_process_v2/cpu_schedule_v2/native_transfer_v3 mandatory. Preserve ALL failures/
+partials/oldSTOPs/artificials/fullvenv/500MBoverhead/TWO14GBcopies/4MBfinalartif/64MBaux
+within13.5/14/44GB. No actual finalCPU/realanalysis/studyarchive/fullSSD/newsource
+publication/package/modelrecopy. Science/GPU138/468000/CPU/call/physical/security/
+data/SSD gates unchanged. Parent results ONLY after complete independent acceptance
+AND FINAL designatedSSDwhole/everymember. No Proquestion/newexperiment/promotion.
+Same ACTIVE monitor/history; pause only after completefinalhandoff or finite caps.

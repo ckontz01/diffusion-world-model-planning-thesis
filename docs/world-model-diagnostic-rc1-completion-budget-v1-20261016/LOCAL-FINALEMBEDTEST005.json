@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "implementation",
+  "elapsed_seconds": 1.437000000005355,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 25812992,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"EMBEDDED_RUNTIME_TEST_PASSED\", \"research_calls\": 0}\r\n"
+}

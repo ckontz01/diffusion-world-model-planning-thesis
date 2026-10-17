@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "technical_fault",
+  "elapsed_seconds": 6.328000000008615,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 25444352,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"NEW_V2_LOCAL_AND_PARALLEL_FIXTURES_PASSED\", \"old_failure_preserved\": true}\r\n"
+}

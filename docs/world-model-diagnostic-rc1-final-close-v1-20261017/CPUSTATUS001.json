@@ -1,0 +1,13 @@
+{
+  "captured_UTC": "2026-10-17T10:53:29Z",
+  "contract": {
+    "bytes": 197192,
+    "sha256": "9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e"
+  },
+  "controls": {},
+  "job_id": "317736",
+  "native_supervisor_diagnostic": null,
+  "scheduler_raw": "317736|317736|RUNNING|0:0|34|4|gpu02\n",
+  "scientific_values_read": false,
+  "status": "EXACT_FINAL_CPU_TECHNICAL_OBSERVATION"
+}

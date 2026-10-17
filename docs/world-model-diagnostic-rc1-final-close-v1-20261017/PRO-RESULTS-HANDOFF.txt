@@ -1,0 +1,168 @@
+WM-DIAG0-A2 RC1 — COMPLETE RESULTS FOR PRO REVIEW
+
+STATUS: Complete analysis independently reconstructed from original accepted inputs; final uncompressed archive independently verified against originals and read back whole/every-member on designated THESIS_SSD.
+The RESULTS.json historical status says pending SSD because those exact sealed bytes were created before preservation. FINAL-SSD-VERIFIED.json supplies the subsequent completed gate; archived scientific bytes were not rewritten.
+
+DESIGN AND INTERPRETATION
+Four task/backbone settings; 32 diagnostic source parents per task, shared across the paired backbones, hence 64 source parents per backbone. All 120 source roots, six retained fits, four active heads and 128 task/backbone parent evaluations accepted. Those 128 evaluations are not 128 independent source parents. The 124 ordinary GPU runs plus four technical evaluations supply the 128 evaluations.
+P0: predicted consequences / original S0 score. P1: predicted consequences / fixed S1 coordinate-readout score. O0: actually realized prefix consequences encoded by the same backbone / S0. O1: realized encoded consequences / S1.
+Each parent uses the same frozen candidate action bank across cells. Two evaluation draws are averaged within parent, not treated as extra independent observations. Candidates and paired backbone evaluations also do not increase independent source-parent n. The exact native-return reference is distinct from bank-selected P0.
+S1 is a fixed float64 ridge coordinate readout (alpha=1), not a tuned router or predictor repair. The realized row supplies true prefix consequences, not evaluation-tail success labels.
+Intervals: descriptive 95% percentile parent-paired bootstrap, 10,000 resamples, seed 20261004. No multiplicity-controlled or causal decomposition claim. No cross-backbone significance test is made.
+Validation scope: a separate process reauthenticated original inputs and reconstructed every fixed field using the same prespecified estimator. This is software/result validation, not an external scientific replication or peer review.
+
+ALL FOUR SETTINGS — SUCCESS FRACTIONS AND CELL INTERVALS
+
+pusht|dinowm_noprop; independent parents=32
+  O0: 0.734375 [0.578125, 0.875000]
+  O1: 0.718750 [0.562500, 0.859375]
+  P0: 0.765625 [0.609375, 0.906250]
+  P1: 0.515625 [0.343750, 0.687500]
+  Exact native-return reference: 0.671875; initial successes: 0
+  Optimistic tested-bank hindsight mean: 0.828125; split-draw hindsight mean: 0.765625
+  O0-P0: -0.031250 [-0.125000, 0.062500]; gains/losses/ties=1/2/29
+  O1-O0: -0.015625 [-0.078125, 0.031250]; gains/losses/ties=1/2/29
+  P1-P0: -0.250000 [-0.406250, -0.109375]; gains/losses/ties=0/9/23
+  interaction: 0.234375 [0.078125, 0.406250]; gains/losses/ties=8/1/23
+
+pusht|lewm; independent parents=32
+  O0: 0.593750 [0.437500, 0.750000]
+  O1: 0.640625 [0.484375, 0.796875]
+  P0: 0.500000 [0.328125, 0.671875]
+  P1: 0.453125 [0.281250, 0.625000]
+  Exact native-return reference: 0.484375; initial successes: 0
+  Optimistic tested-bank hindsight mean: 0.796875; split-draw hindsight mean: 0.671875
+  O0-P0: 0.093750 [-0.031250, 0.234375]; gains/losses/ties=6/2/24
+  O1-O0: 0.046875 [0.000000, 0.109375]; gains/losses/ties=3/0/29
+  P1-P0: -0.046875 [-0.171875, 0.078125]; gains/losses/ties=2/3/27
+  interaction: 0.093750 [-0.031250, 0.234375]; gains/losses/ties=6/2/24
+
+reacher|dinowm_noprop; independent parents=32
+  O0: 0.953125 [0.875000, 1.000000]
+  O1: 0.859375 [0.750000, 0.953125]
+  P0: 0.734375 [0.609375, 0.859375]
+  P1: 0.609375 [0.468750, 0.750000]
+  Exact native-return reference: 0.781250; initial successes: 0
+  Optimistic tested-bank hindsight mean: 1.000000; split-draw hindsight mean: 0.859375
+  O0-P0: 0.218750 [0.109375, 0.343750]; gains/losses/ties=10/0/22
+  O1-O0: -0.093750 [-0.187500, -0.015625]; gains/losses/ties=0/4/28
+  P1-P0: -0.125000 [-0.312500, 0.062500]; gains/losses/ties=8/13/11
+  interaction: 0.031250 [-0.187500, 0.234375]; gains/losses/ties=11/10/11
+
+reacher|lewm; independent parents=32
+  O0: 0.921875 [0.828125, 1.000000]
+  O1: 0.937500 [0.843750, 1.000000]
+  P0: 0.718750 [0.578125, 0.843750]
+  P1: 0.640625 [0.484375, 0.781250]
+  Exact native-return reference: 0.703125; initial successes: 0
+  Optimistic tested-bank hindsight mean: 0.968750; split-draw hindsight mean: 0.796875
+  O0-P0: 0.203125 [0.078125, 0.343750]; gains/losses/ties=10/1/21
+  O1-O0: 0.015625 [-0.078125, 0.109375]; gains/losses/ties=2/1/29
+  P1-P0: -0.078125 [-0.234375, 0.078125]; gains/losses/ties=6/9/17
+  interaction: 0.093750 [-0.046875, 0.250000]; gains/losses/ties=9/6/17
+
+POOLED WITHIN BACKBONE — DESCRIPTIVE ONLY (64 parents each)
+
+dinowm_noprop; cells={"O0": 0.84375, "O1": 0.7890625, "P0": 0.75, "P1": 0.5625}; native reference=0.7265625
+  O0-P0: 0.093750 [0.007812, 0.179688]
+  O1-O0: -0.054688 [-0.109375, -0.007812]
+  P1-P0: -0.187500 [-0.304688, -0.070312]
+  interaction: 0.132812 [0.000000, 0.265625]
+
+lewm; cells={"O0": 0.7578125, "O1": 0.7890625, "P0": 0.609375, "P1": 0.546875}; native reference=0.59375
+  O0-P0: 0.148438 [0.062500, 0.242188]
+  O1-O0: 0.031250 [-0.023438, 0.085938]
+  P1-P0: -0.062500 [-0.164062, 0.031250]
+  interaction: 0.093750 [0.000000, 0.195312]
+
+HELD-OUT REALIZED READOUT QUALITY — NO REFITTING OR THRESHOLD SELECTION
+{
+  "pusht|dinowm_noprop": {
+    "coordinate_mae": [
+      47.64061032882594,
+      29.939876569199782,
+      34.32869959106936,
+      24.47905617489245,
+      0.5894962416411896,
+      0.5297866277139661
+    ],
+    "coordinate_rmse": [
+      58.732073387590646,
+      40.71557796145212,
+      51.445929510751064,
+      30.356680701857417,
+      0.7034640968262106,
+      0.6850409203402444
+    ]
+  },
+  "pusht|lewm": {
+    "coordinate_mae": [
+      40.850919805698815,
+      41.5727521735251,
+      38.339051553972,
+      30.67174073739398,
+      0.5623226201167962,
+      0.5303356146992974
+    ],
+    "coordinate_rmse": [
+      55.74659823892084,
+      54.972554117897815,
+      50.78657170665544,
+      41.2267179575758,
+      0.7005117007302064,
+      0.6635359105944814
+    ]
+  },
+  "reacher|dinowm_noprop": {
+    "coordinate_mae": [
+      0.627490941121096,
+      1.8573227076213936
+    ],
+    "coordinate_rmse": [
+      1.285372929925296,
+      2.8870267728363346
+    ]
+  },
+  "reacher|lewm": {
+    "coordinate_mae": [
+      0.687195421133547,
+      1.2275839090227048
+    ],
+    "coordinate_rmse": [
+      1.0601965694339848,
+      1.7109148484622758
+    ]
+  }
+}
+
+COMPLETE DIAGNOSTIC AND PROVENANCE FILES
+RESULTS.json contains every parent effect, gains/losses/ties, selected indices, candidate counts and means, native reference, initial successes, termination reasons for every branch, local task distances, feature-prediction diagnostics, head lineage and failure-inclusive accounting. These are all released, not a favorable subset.
+Prediction MSE is within-backbone only: latent units are not comparable across backbones. Hindsight is optimistic tested-bank opportunity, not deployable performance or global solvability.
+The original failed grid parent is retained, not silently dropped. Recovery reused every successful run and replaced only the diagnosed failed run; its missing completed usage seal is charged conservatively at full approved parent maxima, not presented as retrospective instrumentation.
+
+ALL FIXED LIMITATIONS
+- third-party DINO predictor bundles; training-time encoder checkout unverified
+- accepted pinned DINOv2 encoder is prospective implementation definition, not historical equivalence
+- readout coordinate supervision is additional training data; no tuning or historical-origin reconstruction
+- raw Reacher qpos may be visually winding-ambiguous; no hidden winding correction
+- descriptive paired bootstrap, not confirmatory/multiplicity-controlled or architectural causal attribution
+- native success under fixed50-action tail budget is not global solvability; all-bank failure is not unreachability
+- hindsight maximum is optimistic tested-bank opportunity; deterministic draws add no independent parents
+- one failed source persistence attempt retained and charged; same-seed four-array identity required on retry
+- DINO RC1 is pointwise B1/T1 on pinned bytes/runtime/transforms; LeWM retains original acceptance scope and is not equally representation-controlled
+- original uncached PushT reference FAILED; original uncached Reacher reference UNTESTED; conditional/full RC1 numerical evidence does not rewrite those historical facts
+- unsaved original role-array audit limitation retained; saved full forecast/goal reference identities and exact checks do not restore unsaved role arrays
+- old DINO heads are retained inactive; exactly two new fixed pointwise DINO heads are active, without validation tuning
+- first-call timing screens are not worst-case whole-parent timing guarantees; finite per-allocation work and preservation bounds remain enforced
+
+VERIFICATION
+Final CPU job: 317736
+Final contract: 9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e
+Finalizer source commit: 8d6c99af43774ecc403f93343f0555af5de5e37c
+Archive: D:\THESIS-BACKUPS\world-model-diagnostic-a2-rc1-final-20261016\final-study.tar
+Archive bytes: 11299964928
+Archive SHA256: 8a759b37b3b6d90e034e163e84b8ac24d955dba6b212d4c70d10c6a5dee7deda
+Independent acceptance: ACCEPTANCE.json; complete results: RESULTS.json; terminal provenance: TERMINALCPU001.json; final native readback: FINAL-SSD-VERIFIED.json.
+
+REVIEW REQUEST
+Review whether the complete four-cell evidence supports a limited diagnostic conclusion about the fixed tested banks, the prediction/score interaction and the disclosed readout/representation limitations. Challenge unsupported causal or architectural interpretations. This is not authorization for a new experiment or science change.

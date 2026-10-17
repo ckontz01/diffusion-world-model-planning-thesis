@@ -1,0 +1,127 @@
+Checkpoint004 supersedes previous next-observation/active-observer/accounting
+directions. Human21300increase/35700total approval, science/GPU/physical/call/
+CPU/storage/security/SSD gates unchanged. Same30min monitor/history retained.
+
+IMPORTANT: current cluster health is UNVERIFIED. ONE scheduled R003 observation
+thiswake failed in8.453000000008615s under full30second monitoring reservation.
+LOCAL-RESUMEOBS003.json and OBSERVE-R003.started.json are preserved. Old entry
+got a nonzero transport/remote result but discarded its exact returncode/stdout;
+stderr was empty. Do NOT infer cluster/research failure, success or current health.
+R003 was NOT retried. No second scheduler/cluster query thiswake; no research
+job/controller changed/cancelled/restarted/resubmitted/resumed. No scientific
+values, efficacy, quality or aggregate read. Underlying transport cause remains
+UNKNOWN; only insufficient failure observability was diagnosed/repaired locally.
+
+Last SUCCESSFUL observation remains historical R002, not current proof:
+52ordinary accepted0-51, index52/raw317252 RUNNING328s, gpu09.cluster PID207094/
+ticks8361167 BOTH verified, STOPabsent/faultsnone; terminalGPU30610, live328NOT
+final, full72remainingmaxima+terminal289810<=468000, original449783,CPU1436/6836.
+Same317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0 remains the only
+authorized research dispatch/source; no change or extra research attempt granted.
+
+New diagnostic wrapper PUBLISHED/fullremote/small-source SSD gate completed:
+wm_diag0_rc1_monitor_v2 at8b8ab5d44880687fe23a09a39942de0083cadc7a.
+16member54691B ZIP_STORED source package wholeSHA256
+fb516b95ff1ed7b9578ad7c1c6ac774448f5571daffdb620d1e10ba80fb3df93,
+D:/THESIS-BACKUPS/world-model-diagnostic-rc1-monitor-v2-20261016/
+monitor-v2-source-8b8ab5d44880687fe23a09a39942de0083cadc7a.zip.
+Native correct healthyTHESIS_SSD GUID0a2f1ba9-0000-0000-0000-100000000000,
+free310002311168B at check, whole/everymember and matchinghost/SSD receipts.
+This is NEW source only, NOT final study backup. Old source packages/models were
+NOT recopied. Never rearchive/recopy this completed new package either.
+
+New source changes ONLY local diagnostics/receipt serialization. Actual remote
+observer program is byte-for-byte identical SHA256
+6a6caa4c0eae6149bde0b45726a9ee5f7a7b0137590c648dda43047fe7f40023.
+No changes to its frozen reads, scheduler purge guard, exact317180contract/rawID/
+control/PIDticks checks, scientific scope or resource limits. Old completion
+package4f48225abf359eae9597488179c1e496f175f940/whole2c6149eb3729182c906ab3c776efe0ba368b2ceca1335e54e7785b08ad43aa83
+remains unchanged and is verified as a dependency, NOT recopied. New wrapper
+refuses any already started/succeeded/failed label and does not retry transport.
+
+Next SCHEDULED wake only: ONE NEW temporal observation R004 or later:
+native Python -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUEALNUMLABEL
+  monitoring30 native Python -B -m wm_diag0_rc1_monitor_v2.compact R004
+Actual argv has separate tokens monitoring 30. Use full native Python path
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
+ONLY active runner remains completion_v1.local_v2; only observation ENTRY moves
+to monitor_v2.compact. Never run old compact.main again or retryR003. Read exact
+latest LOCAL/started/authority and wrapper SSD receipt first. Same one check per
+wake, same240max/30seconds inclusive/120hours. Fresh unavailability remains
+unavailability, not a research fault; do not repeatedly query just to classify it.
+
+New failures preserve actual returncode (including nonzero+empty stderr), full
+stdout/stderr byte counts/hashes and2048Bbase64prefix each; timeout/local start
+failure distinguished without inferring research failure. Failure receipt limit
+8000B. Original R003 lost code/stdout cannot be retroactively reconstructed.
+Success receipt NEW explicit schema WM-DIAG0-RC1-COMPACT-RECEIPT-v2, <=10000B
+serialized compact JSON. ALL original technical fields are reconstructable:
+seven scheduler columns stored as string rows with repeated317180_ prefix
+represented once, accepted-index list as124bithexset; original complete canonical
+JSON identity must match on decode. Use monitor_v2.compact.decode_record(z) when
+full original scheduler/accepted_indices fields are needed. Do NOT treat this as
+the old raw observation schema, append a full redundant copy or skip hash proof.
+No scientific-data/archive compression or storage discount is assumed.
+
+Three NEW targeted artificial receipts passed, no cluster/D:/external process:
+MONITORV2TEST00115fault/1.4219999999913853s: nonzero/empty stderr/timeout/invalid
+schema and bounded exact diagnostic captures. MONITORV2PUBCHECK00115fault/
+1.4219999999913853s: AST3.6/whitespace and actualordinary-temp ZIP member gates.
+Before stronger logical-copy bounds, exact tested compact/publisher preimages
+were preserved in new source-preimages/JSONbase64; original receipts unchanged.
+MONITORV2COPYBOUND00115fault/1.2810000000026776s: new lossless full124terminal
+synthetic snapshot roundtrip, every original field identity, mutated scheduler/
+indices rejection, exclusive ordinary-temp receipt and exact older preimages.
+Synthetic maximum healthy success serialized8017B (NOT actual grid status).
+Per-copy bound3072parentSTARTED+1024wrapperSTARTED+1024parentRESULT+10000success;
+FOUR logical copies60480B<=65536/check, no hardlink/dedup savings. Failure lower.
+Global64MBnew-aux and actual fresh full-study storage proofs still mandatory.
+MONITORV2PUBLISH001 reserved90publication, measured13.952999999994063s, completed
+one explicit-path commit/push/fullremote/newnativeSSD package. No finalV1/V2
+source was committed/published by that monitor-only publication.
+
+Additional local final preparation: runtime_alias_binding_v1 matched ALL25
+existing approved production alias literals (four runtime plus21renderer,
+including renderer chains) to retained METADATA001 and exact executed GRID
+contract, not learned from candidate files. Missing/changed/extra literal tests
+passed. RUNTIMEALIASBIND00115binding/1.014999999999418s; RUNTIME-ALIASES-001.json
+3081B SHA2d18493d8bb38ba61ff8a37c52686517335b526af60db840903222af1a26274a.
+Only INERT preservation of existing approved literals, not permission to follow/
+restore/execute targets. Historical snapshot comparison is NOT fresh content,
+member/whole-root/current alias staging. Artificial lineages' own alias map still
+needs separately source-bound integration. New external venv archive label is
+runtime/venv; renderer is inside whole study/native-v3/renderer-r6, not omitted.
+
+Exact completed full-reservation debits now implementation195/2700,
+cluster_validation45/600,binding_staging225/1200,publication270/600,
+monitoring90/7200,native_SSD0/7200,technical_fault110/1200,handoff60/900.
+Total995/21600; remaining20605. Full remaining components
+2505/555/975/330/7110/7200/1090/840.3/240checks used,237remaining.
+CHECKPOINT-AUDIT-004 passed1.1410000000032596s under30handoff, includes own full
+prospective charge. All new completion/finalV2/monitorV2 code/docs local bytes
+2148147 BEFORE final compact receipts, all six new directories counted within
+20MBlocal allocation plus200kBforward allowance. Other44MB remains reserved for
+remote/portable/SSD logical copies. Old charges/382legacyreceipts unchanged;
+no refund/transfer/borrow of separate reserve or new grant. Hardstop remains
+2026-10-21T07:37:44Z. Full per-operation component/total/horizon fit mandatory.
+
+Continue bounded FINAL integration, not repeat completed metadata or artificial
+tests. FinalV1/V2 remains UNFROZEN/UNPUBLISHED; no final CPU allocation/actual
+analysis/study archive/fullSSD transfer ran. Historical usage00259-file proof and
+exact failure-phase/source arithmetic remain unchanged, all baseline/caps fixed.
+Still missing fresh actual fullruntime content/member/whole19canonicalroots+
+futurefinalroot/artif-alias binding; failure-inclusive all138GPU/sourceCPU/rawID/
+supplier/model/physical/storage/transfer proofs; finite CPU supervisor/submission
+and complete independent analysis validator; integrated once-only archive/original
+readback/terminalCPU/postarchive sidecar/nativeSSD workflow; complete tests/freeze/
+independent review/commit/push/fullremote/newsmallSSD BEFORE finalCPUallocation.
+Use inventory_v3 no-follow, cpu_process_v2 cleanup, native_transfer_v3 identity
+adapter; never defective CPUv1/V2direct-receiver/old132success or sixrootfinalizer.
+Retain all failures/partials/artificialroots incl4MBfinal-artificial,64MBnewaux,
+all runtime/model/logicalcopies,500MBoverhead/TWO14GBarchives/preparation in fresh
+13.5/14/44GB proofs; no deletion/compression/dedup savings. Keep operational/
+archive/postarchive logs/controls outside ALL archive roots to avoid recursion.
+No parent outcomes/readoutquality/aggregates before complete independent study
+acceptance AND FINAL designatedSSD whole/everymember gate. Finalreport/handoff
+then pause SAME monitor/history, or finitecheck/horizon stop. No experiment/
+promotion/newProquestion; no purchase/dependency/env/security/credential changes.

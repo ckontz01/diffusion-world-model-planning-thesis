@@ -1,0 +1,104 @@
+Completion checkpoint012 supersedes older current-status/accounting/next-check
+snapshots, including011's unused-R010 claim. Read this and exact latest LOCAL/
+started/authority first. Human21300increase/35700total approval remains active.
+ONLY runner completion_v1.local_v2 and observer monitor_v2.compact. No transfer/
+refund/reset/regrant/extension/separate-reserve borrowing. Previous final-workflow
+source-only prototypes and missing actual gates from011 remain unchanged.
+
+CURRENT CLUSTER HEALTH AND COMPLETED/LIVE COUNT UNVERIFIED. After011 the human
+explicitly requested two fresh checks: HUMANOBS010 and HUMANOBS011, each monitoring30,
+each FAILED at27.0s with owned operation work deadline/return125/empty stdout.
+Both LOCALs and OBSERVE-R010/R011.started exist and are retained. Neither observation
+has a success or failure child receipt. Do not invent one or infer why those
+outer timeouts occurred. They DID start/count/charge. Never retry either label.
+
+THIS scheduled wake native read-only bootstrap found existing configured
+D:\WSL\Thesis-Ubuntu\ext4.vhdx available. ONE NEW RESUMEOBS012 monitoring30 finished
+CHILD_NONZERO/return125 in19.10899999999674s. No second WSL/SSH/scheduler/cluster
+query thiswake and no R010/R011/R012/older retry. Agent changed no WSL/disk/path/
+config/environment/permissions/security/credentials. Why path is intermittent
+UNKNOWN; R006/R003 retained with no retrospective cause inference.
+
+New saved R012 diagnostic establishes remote observer execution reached frozen
+exact_snapshot, which raised:
+RuntimeError: queue unavailable/ambiguous; not proof of terminal allocations:
+slurm_load_jobs error: Invalid job id specified
+Transport returncode1, stdout0B, full UTF8stderr287B SHA
+ee2670a4fe24270a39798107ad3c00336205acf811c8e76bf9625e98c608fe26.
+OBSERVE-R012.failure.json1302B SHA
+4511f3c450e9a5b90622e71cdb59eceab3ac1829692d17ee91c41c399a994adb.
+This is NOT an experiment-failed/all-finished/cancelled finding. The original
+strict InvalidID fallback did not pass. Saved exception does NOT retain inner
+sacct rows/squeue stdout/returncode, so which fallback condition failed UNKNOWN.
+Do not reconstruct missing accounting, weaken the original complete124-terminal
+requirement or infer later health. No current STOP/seal/acceptance/PIDticks proof.
+No researchjob/controller changed/cancelled/restarted/resumed/resubmitted and no
+scientificvalues/quality/outcomes/aggregates read.
+
+New queue_failure_disposition_v1 performed LOCAL-ONLY saved-byte/source comparison.
+QUEUEGUARDDISPOSITION01230technical_fault/1.4369999999908032s passed exact R012 failure
+and full lossless stderr/empty stdout/LOCAL chain/programSHA, original frozen
+guard conditions and both published working-source identity tables. Authenticated
+R010/R011 saved outer timeouts without retrospective cause inference. ZERO extra
+WSL/SSH/scheduler/cluster/SSD/research queries or environment/source/job mutations.
+No observer repair/new entry/publication/package/allocation occurred. Guard stays.
+OBSERVATION-GUARD-DISPOSITION-012.json2462B SHA
+542a18881457e45995f4532aea56c856fb3a7abdae4ec9a2cf7c7ec625660d95.
+This diagnoses where the observer stopped, not underlying queue/research state.
+
+Last successful R009 at2026-10-16T11:49:22Z (14:49Cyprus) remains HISTORICAL ONLY:
+61accepted0-60/index61raw317331 RUNNING263s/gpu09PID250612ticks9627322 BOTHverified,
+STOPabsent/faultsnone THEN. Same317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0/
+gridcontractda2766c3f8c33266ee54cea9fb2e3bdf650046e9a61ac39c209816f1b1e7514b.
+TerminalGPU43188/live263NOTfinal/fullremaining269988/original449783/CPU1436/6836.
+Do NOT present old count or12-20h rough planning estimate as current verification.
+Human asked to keep routine ledger figures out of progress updates; retain exact
+internal accounting, surface only if a limit threatens progress or needs decision.
+
+NEXT scheduled wake ONE NEWexclusive R013 or later after exact latest LOCAL/started/
+published-sourceSSD lineage and actual EXISTING configured WSL-path availability:
+fullNativePython -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  fullNativePython -B -m wm_diag0_rc1_monitor_v2.compact R013
+BOTH executable tokens:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+Never duplicate completed/started/ambiguous labels/legacy observations, query
+obsolete controllers or immediately issue a second check. If path unavailable,
+stop affected remote observations/staging/allocation/SSD work and stay quiet while
+unchanged/alreadyreported; no WSL diagnostic retry/recreate/migrate/reinstall/config
+change or unfunded probe. If queue remains unavailable, preserve the new diagnostic,
+do not infer research failure/terminal state or weaken guard/relaunch. WSL/path/
+SSH success NOT designatedSSD health/free-space/finalgate. Same monitor ACTIVE/
+history retained; no substitute/cron/sleep loop. No unchanged nonactionable spam.
+
+CHECKPOINTAUDIT01230handoff/1.75s used reusable checkpoint_audit_v8 with HISTORICAL
+R009 and retained ARTIFICIAL-CPU-DYNAMIC-001 selectors, NOT new observation or old
+test rerun. Verified AST3.6/allnewsource, unchanged tested CPUworkflow sources,
+published observer/original8269BV2cleanup/R006failure/R008/R009 and exact ledger.
+Sixlocalcode/docs4126428B/nonmonitorbundle4037375B BEFOREfinalcompactreceipts+
+200kallowance. NOT fullstudy/alllogicalcopies/preparation/storage/volume proof.
+Same64MB prospective63928640+71360locked: source/docs4.5MB*4,240*65536ALLmonitor,
+portable12MB*2remote+SSD/nohostthirdfile,two1MBsidecars*2each,newsmallsourcepackages
+ALLcopies2.2MB. Actual allcopy/source/preparation proof still mandatory. No omitted
+copies/compression/dedup/deletion discounts. No new canonicalartifroot;4MB unchanged.
+
+Exactcharges implementation945/2700,cluster_validation45/600,binding_staging225/1200,
+publication270/600,monitoring360/7200,native_SSD0/7200,technical_fault170/1200,
+handoff300/900;total2315/21600,remaining19285. Remaining components
+1755/555/975/330/6840/7200/1030/600.12/240checks used228remain INCLUDINGmanualR010/
+R011+scheduledR012. Outer35700/hardstop2026-10-21T07:37:44Z unchanged. Same30min/
+max240newchecks/30inclusive/120h; stopaffectedwork/reportonce/pauseSAME atcap/horizon,
+nevercancel healthyresearch. Stop earlier only after completefinalhandoff.
+
+STILL missing actual fullruntime/everymember/19roots+futurefinal/30aliases/root
+commitments; all138GPU/sourceCPU/rawID/supplier/model/physical/fullfuturestorage/
+copy/transfer proofs; native preparation measurement producer; complete real CPU
+supervisor/exactdispatch/submission/fullstage/callback authority gates; actual
+analysis/secondvalidator/oncearchive/originalrootreadback/terminalCPU/postarchive/
+nativeSSDv3 workflow; Linuxintegrationtests/freeze/independentreview/commit/push/
+fullremote/newsmallSSD BEFORE finalCPUallocation. Mandatory inventory_v3/
+cpu_process_v2/cpu_schedule_v2/native_transfer_v3. Preserve ALL successes/failures/
+partials/oldSTOPs/artificials/fullvenv/500MBoverhead/TWO14GBcopies/4MBfinalartif/64MBaux
+within13.5/14/44GB. No actual finalCPU/realanalysis/studyarchive/fullSSD/newsource
+publication/package/modelrecopy. Science/GPU138/468000/CPU/call/physical/security/
+data/SSD gates unchanged. Parentresults ONLY after complete independentacceptance
+AND FINAL designatedSSDwhole/everymember. No Proquestion/newexperiment/promotion.

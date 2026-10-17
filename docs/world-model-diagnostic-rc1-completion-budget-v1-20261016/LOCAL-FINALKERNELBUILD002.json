@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "implementation",
+  "elapsed_seconds": 1.1719999999913853,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 20213760,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"NEW_V2_CONTROLLER_FILES_DERIVED\"}\r\n"
+}

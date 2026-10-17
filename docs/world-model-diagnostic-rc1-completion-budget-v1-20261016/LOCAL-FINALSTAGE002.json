@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 365,
+  "component": "binding_staging",
+  "elapsed_seconds": 215.0,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 216047616,
+  "reserved_seconds": 365,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"EXACT_FROZEN_CPU_ONLY_FINAL_JOB_DISPATCHED\", \"job_id\": \"317736\", \"contract\": {\"bytes\": 197192, \"sha256\": \"9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e\"}, \"source_commit\": \"8d6c99af43774ecc403f93343f0555af5de5e37c\", \"actual_analysis_or_final_SSD_acceptance_claimed\": false, \"scientific_values_read_by_parent\": false, \"retained_fixture_logical_bytes\": 2216680}\r\n"
+}

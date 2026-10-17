@@ -1,0 +1,122 @@
+Checkpoint005 supersedes older observation/accounting/preparation snapshots only.
+Human21300increase/35700total approval, science/GPU/CPU/resource/physical/storage/
+security/data/SSD gates unchanged. Same ACTIVE30min monitor/history, no new monitor.
+First read this checkpoint, AUTHORITY/ACTIVATION and exact latest LOCAL/started.
+ONLY operation runner wm_diag0_rc1_completion_v1.local_v2; observation ENTRY is
+wm_diag0_rc1_monitor_v2.compact. No old runner or old compact.main, no refund,
+component transfer, automatic extension or separate-reserve borrowing.
+
+ONE scheduled NEW temporal R004 succeeded14.343999999997322s under30reserve.
+R003 was NOT retried, retroactively diagnosed or fabricated; its original failed
+LOCAL/started remains. No second scheduler/cluster query was made thiswake.
+New published wrapper8b8ab5d44880687fe23a09a39942de0083cadc7a remains unchanged;
+its remote program remains byte-identical. No additional source publication or
+SSD package was made. Never re-copy that or earlier completed source packages.
+
+R004 is a HISTORICAL TECHNICAL SNAPSHOT, never a later current-health guarantee:
+same317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0/contractda2766c3...
+54ordinary parents0-53 independently accepted/completed0:0. Index54/raw317259
+RUNNING259s, gpu09.cluster PID227401/startticks8743105 BOTH independently verified;
+STOPabsent/faultsnone. TerminalallattemptGPU34412, live259NOTfinal;
+full70remainingmaxima+terminal286412<=468000, originalfrozen449783 unchanged.
+CPU1436/6836 unchanged. No researchjob/controller changed, cancelled, restarted,
+resumed or resubmitted. No scientific values/outcomes/readoutquality/aggregates
+read. All original controls/partials retained. Study not complete or accepted.
+
+OBSERVE-R004.json4692B SHA256
+9a90195e605c77bc72d72edfc2645f6a670a35be36a6a93c6927024757614fa6.
+New lossless schema verified by decode_record; original canonical4190B SHA256
+17f114f36bef700070f32e9d1fa2d58662728423fae2cdd520069bb7c09cad5a.
+Do NOT treat compressed technical row/bitset schema as old raw fields or append
+a redundant whole copy. All seven scheduler columns/124bitset/full canonical
+identity retained. Only next SCHEDULED wake ONE NEWexclusive R005 or later:
+nativePython -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  nativePython -B -m wm_diag0_rc1_monitor_v2.compact R005
+Use full nativePython path for BOTH executables:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
+Read actual latest receipts/started/source SSD authority first. No repeated label,
+blind transport retry or inference of cluster failure from unavailability.
+
+Material NEW SOURCE-ONLY final integration, STILL UNFROZEN/UNPUBLISHED:
+
+1) preservation_layout_v1 binds retained authenticated18-root METADATA001 plus
+exclusive actual V2artificialONE to all19existing canonical roots, plus future
+campaign-v4-rc1-final-v2. Full20study roots + external wholevenv/SIF/twoLeWMobjects
+are explicit. All30 inert aliases:25existing contract/runtime/renderer literals
++one oldfinalartificialONE source-bound literal +four newV2artificialONE literals.
+Actual retained fixture source identities b13284f2.../7b6ca727... matched completed
+artificial receipts; no target resolution/following/restoration/execution.
+Layout operational/archive/postarchive paths are outside ALL input roots under
+sibling wm-diag0-a2-20261015-rc1-preservation-v2. Supervisor log/submission/CPU/
+postarchive controls/sidecars cannot recurse into the future whole-final root.
+PRESERVATIONLAYOUT00145implementation/measured1.5s passed local missingroot/model,
+overlap, extraalias, obsolete-final-root and operational-recursion guards.
+PRESERVATION-LAYOUT-001.json10618B SHA
+0f64eb876a3f0007ae0188f4902d4d8a114548d62e0c1cef610af02d5ffc3243.
+This is NOT fresh actual traversal, content authentication or storage proof.
+
+2) evidence_auth_v1 is a future staging/CPU guard for exact historicalUSAGE002
+18914B/4fa900858fdadb31d978341b20e10a6568a8796e4d5dddcf22ed36a405666373.
+It refuses self-declared authenticated booleans/other identities; authenticates
+all59actual source/control/log/failed-partial identities,2826430opaque bytes,
+within finite3MBtotal/2MBfile limits, without array/pickle/value interpretation.
+No original collector is rerun. Original failedPushT/untestedReacher, exactline98
+failure phase before extra restoration checks and disclosed non-hook arithmetic
+remain unchanged. PRODUCTION still must call this guard on actual files in the
+separately frozen staging/CPU pipeline; it has NOT been called on cluster here.
+EVIDENCEGUARD00130implementation/measured2.0469999999913853s passed59ordinary-temp
+opaque-file hashes, changed/missing/hash/deadline/outside-root/bool/duplicateJSON/
+forged-flag rejection. ARTIFICIAL-EVIDENCE-GUARD-001.json1079B SHA
+0accb82f07055bb298d60ed7020ebb6a188317c0fdec71c75db52e76c9b23d0f.
+
+3) analysis_validate_v1 implements independent COMPLETE second-pass reconstruction
+for a future CPU allocation, no main/partial-analysis/submission entry. It must
+re-auth historical59evidence/terminal138allocation receipt, independently reaccept
+all120sources/sixretainedfits/fouractiveheads/128parents BEFORE any aggregate,
+recompute original fixed32parent/foursetting and64parent/backbone estimators,
+all128private diagnostic/termination/head/resource/seal/limitation fields, and
+compare complete canonical JSON bytes, not a field subset or approximate values.
+Output seal is authenticated before/after comparison; control identity unchanged.
+Only technical count/identity proof returned; parent science remains closed until
+FINAL designatedSSD whole/everymember. Future caller must bind exact terminal
+receipt in rc1_final.all_allocations_terminal. CPU/process/runtime/contract/
+publication/SSD gates remain required and are not granted by this function.
+COMPLETEVALIDATOR00160implementation/measured3.687000000005355s passed new128-parent
+in-memory-artifact tests with ACTUAL unchanged fixed estimator/NumPy math. Known
+synthetic distances/prediction errors/seals/32and64counts, missing/duplicate/head/
+field/nonfinite/boolean/limitation/finalSSD downgrade rejection passed. No actual
+study arrays/efficacy/quality/aggregate read. ARTIFICIAL-COMPLETE-VALIDATOR-001.json
+1269B SHAc4ec6cca0be0bfbb391a80fa40597acb4a9ce66ae8e65cffea83b8d9c1817bb6.
+New validator9732B SHAea486f423ae5effd73bea8b2e9a9c64fc5f55e7182de48b33aeff5ebe1c521dd.
+Artificial adapters are inert mocks, NOT actual whole-study Linux integration.
+
+CHECKPOINTAUDIT00530handoff/measured1.2810000000026776s verified source identities,
+AST3.6 for all new completion/finalV2/monitorV2, published observer sources intact,
+R004 exact full lossless decode, oldR003 failure retained/no retry, all new six
+local code/docs roots2492162B BEFORE lastcompactreceipts+200kforward allowance.
+Local20MB/all-new64MBlogicalcopies remain reserved, not whole-study storage proof.
+
+Exact conservative charges now implementation330/2700,cluster_validation45/600,
+binding_staging225/1200,publication270/600,monitoring120/7200,native_SSD0/7200,
+technical_fault110/1200,handoff90/900; total1190/21600,remaining20410.
+Full remaining components2370/555/975/330/7080/7200/1090/810.4/240checks used,
+236remain. Hardstop2026-10-21T07:37:44Z (10:37:44Cyprus), outer35700 unchanged.
+Each future operation full remaining component/total/horizon reservation required.
+Separate45.89698539988reserve11.141used untouched. No refund/relabel/regrant.
+
+STILL MISSING BEFORE finalCPUallocation: fresh actual fullruntime/content/member/
+all19roots+futurefinal/30alias current authentication; failure-inclusive all138
+GPU/sourceCPU/rawID/supplier/model/physical/fullfuturestorage/transfer proofs;
+complete finite CPU supervisor/submission and real new validator integration;
+integrated once-only archive/original reread/terminalCPU/postarchive sidecars/
+nativeSSDv3 workflow; full finite integration tests, freeze/independentreview/
+explicitcommit/push/fullremote/newsmallSSD. No actual final CPU, real analysis,
+study archive or full SSD backup has run. No source-only readiness promotion.
+Use inventory_v3 no-follow, cpu_process_v2 cleanup, native_transfer_v3; never
+defective CPUv1, V2direct receiver, obsolete132success/sixroot finalizer.
+Retain ALL successes/failures/partials/oldSTOPs/artificialroots incl4MBfinalartif,
+64MBall-newaux/fullvenv2.1GB/SIF3139002368/LeWM144694193/500MBoverhead/TWO14GB
+archive copies and preparation in fresh13.5/14/44GB proofs, no discounts/deletion.
+No scientific change/newProquestion/experiment/promotion. Healthy grid untouched.
+Quiet on unchanged healthy/pending state; materialstage/fault/completion/action
+only. Complete finalhandoff then pause SAME monitor/history, or finite capstop.

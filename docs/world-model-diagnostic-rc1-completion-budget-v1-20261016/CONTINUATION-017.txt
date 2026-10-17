@@ -1,0 +1,31 @@
+Latest017 supersedes016 current status/next label. All earlier actual authority,
+science/GPU/security/final gates retained. ONE SCHEDULEDRECOVERYOBS019 monitoring30
+succeeded15.98399999999674s. No second query/mutation. OBSERVER019 HISTORICAL
+2026-10-16T21:21:13Z/17October00:21:13Cyprus:109accepted(66old+43recovery66-108),
+index109/raw317643 RUNNING854s,gpu09 PID766254/ticks12998564 BOTHverified,
+STOPabsent/faultsnone,14pending. TerminalGPU72154/live854NOTfinal/fullremaining
+126154<=468000. Same317441/published69f73cd/newcontract4c4c9dbc unchanged. No
+scientific payload read or final acceptance. NEXT scheduled ONE NEW R020 or later
+via SAME completion_v1.local_v2 monitoring30 +published recovery_r1.observe;
+BOTH full native Python paths from016, exact LOCAL/source/WSL-path preconditions.
+R019 used/charged; no retries/obsolete queries. Path unavailable: stop affected
+remote work/quiet unchanged. SAME monitor ACTIVE/history; no substitute/sleep loop.
+
+NEW FINAL-ENGINEERING BLOCKER, not GPU/physical disk exhaustion: read-only actual
+old nonmonitor source/docs4454064B vs4500000B;45936B remain but EACH next required
+nonmonitor metered operation embeds >=61440B source preimage BEFORE its controls.
+Recovery ALLcopies3990306/4000000B;9694B remain BEFORE this compact checkpoint.
+Thus neither bucket fits another nonmonitor operation. Preserve every old file,
+no deletion/compression/dedup/relabelling/transfer or source-growth bypass.
+Stop affected final engineering/publication/allocation; research+monitoring continue.
+
+HUMAN PROPOSAL ONLY, NOT ACTIVATED: raise auxiliary68MB to80MB decimal (+12MB),
+old completion64->70MB with source/docs4.5->6MB per each FOURcopies; recovery4->10MB
+ALLcopies. All other subcaps,35700time/components,science,468000GPU and overall
+13.5/14/44GB unchanged. Fresh fullfuture/allcopy/preparation proofs STILL required.
+This internal allowance was agent-designed; human did not originally choose it.
+Report required decision once; while unchanged stay quiet, no further engineering
+charges/new grant inferred. No claim final workflow ready; missing gates in015.
+
+Charges3860/21600,remaining17740:1365/105/855/360/570/0/245/360 by originalcomponent
+order.19checks used221remain; hardstop2026-10-21T07:37:44Z unchanged. No refunds.

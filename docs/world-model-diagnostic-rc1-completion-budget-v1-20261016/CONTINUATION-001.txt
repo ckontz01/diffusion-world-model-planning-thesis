@@ -1,0 +1,88 @@
+Human-approved completion budget ACTIVE, not final study GateReady.
+AUTHORITY/ACTIVATION and BASELINE are published at
+4f48225abf359eae9597488179c1e496f175f940, pushed/full-remote verified.
+New source-only SSD package24members155068B, wholeSHA256
+2c6149eb3729182c906ab3c776efe0ba368b2ceca1335e54e7785b08ad43aa83,
+D:/THESIS-BACKUPS/world-model-diagnostic-rc1-completion-budget-v1-20261016/
+completion-source-4f48225abf359eae9597488179c1e496f175f940.zip.
+Host/SSD receipts match; whole/every-member verified on correct healthyTHESIS_SSD
+GUID0a2f1ba9-0000-0000-0000-100000000000,310002483200Bfree at that time.
+Do NOT rearchive/recopy/reupload this completed small package.
+
+Old funding blocker006 is SUPERSEDED ONLY by this direct human approval:
+add21300, total nonrefundable ceiling35700; carry old750unused304.905 once.
+New remaining-work envelope21600; locked margin4.905; separate45.89698539988
+reserve remains11.141used, never borrowed/count-again. Old382 LOCAL/started
+receipt identities frozen. Use ONLY wm_diag0_rc1_completion_v1.local_v2 for
+new operations, NEVER old RC1/routing/ops runners or historical completion.local.
+
+Command pattern, native Python -B:
+python -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUEALNUMLABEL COMPONENT LIMIT
+  python -B -m REVIEWED_OPERATION_MODULE arguments
+All operations require full prospective remaining component/total/horizon fit.
+Full reservation is conservatively charged; exact measured entry-to-owned-child
+cleanup is separately recorded. Deadline/receipt/cleanup is included, no refund.
+CPUs4/RAM8GiB, owned child job only, no unrelated signals, no retry of ambiguous
+started operations. 64MBnew auxiliaries ALLlogicalcopies;20MBlocal allocation;
+monitoring receipt aggregate64KiB/check. Not a fresh whole-study storage proof.
+
+Exact component ceilings and debits at this checkpoint:
+implementation2700, charged75 (bootstrap30+three15 tests).
+cluster_validation600, charged0.
+binding_staging1200, charged0.
+publication600, charged180 (failed90+diagnosed resume90).
+monitoring7200, charged30, count1/240.
+native_SSD7200, charged0.
+technical_fault1200, charged25 (diagnosis10+mechanical regression15).
+handoff900, charged0.
+Total charged310/21600; remaining21290. LOCAL receipts authoritative.
+Remaining full component reservations2625/600/1200/420/7170/7200/1175/900.
+Activation2026-10-16T07:37:44Z; horizon2026-10-21T07:37:44Z (10:37:44Cyprus).
+Max240new30second checks, every30minutes, horizon120hours, whichever first.
+Only239checks remain. Stop affected work at a cap; no automatic extension.
+
+Preserved publication fault: BUDGETPUBLISH001 failed only whitespace check BEFORE
+commit/push/SSD. PUBDIAG001 identifies old local.py line44 trailing space.
+Original local.py4671b0e7a23a47565ff3e1e05a09dc470db4f0efb17482e94fce06bb8f583afb
+remains unchanged and exact inert preimage retained. New local_v2 ASTidentical;
+separate publication_resume_v1 authenticates phase and exact staged preimage,
+unstages only own historicalV1 entry, explicit-path commit, one push and SSD
+package. Failed/source001/start controls retained; SOURCE-MANIFEST002 active.
+Four small artificial test receipts passed; ZERO research/scheduler/model calls.
+
+First actual resumed observation OBSERVE-R001 completed under30s reservation,
+measured18.42199999999866s. No duplicate scheduler snapshot this turn/wake.
+Same frozen source27ca345933fcb4eef3e5a9fc5769a2a8201523f0 / array317180.
+HISTORICAL snapshot, NOT current-state proof:51 ordinary parents accepted;
+index51/raw317249 running932s, gpu09.cluster PID201857/startticks8152080 both
+verified, STOPabsent/faultsnone. Terminal all-attemptGPU28525; live932 notfinal;
+full73remainingmaxima+terminal291325<=468000, frozenfullfuture449783 unchanged.
+CPU1436/fullfuture6836. No scientific values/quality/aggregate inspected.
+No research job/controller changed/restarted/resubmitted/resumed/cancelled.
+Next scheduled wake use ONE NEW compact observationR002 or later, same317180:
+python -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  python -B -m wm_diag0_rc1_completion_v1.compact R002
+Missing transport is not failed research. Missing successful acceptance metadata
+requires authentication/new receipt, not compute. Real replacement still must
+fit138attempts/no retry envelope; no extra research attempt is granted here.
+
+All original science/call/physical/GPU138/468000/CPU13800/final3600/conversion1800,
+storage13.5GB/14GB/44GB,1GBmetadata/5GiBprep/security/data limits unchanged.
+Maintain same monitor/history; no new monitor/cron/sleeping agent loop. Quiet on
+healthy unchanged state; notify only material stage/fault/repair/required action.
+Pause SAME monitor after final handoff, or at approved finite horizon/check cap;
+do not cancel running research merely because monitoring reaches a bound.
+
+STILL NOT READY: actual historical usage/source provenance authentication;
+actual full runtime/member/alias/whole-lineage binding; complete failure-inclusive
+all138GPU/sourceCPU/rawID/supplier/model/physical/storage/transfer reconciliation;
+final CPU supervisor/submission/independent complete-analysis validation;
+integrated one-archive/original readback/terminalCPU/sidecar/native designatedSSD
+whole/every-member workflow; final freeze/review/push/fullremote/newsmallSSD.
+All wm_diag0_rc1_final_v1 primitives remain UNFROZEN/UNPUBLISHED and real final
+analysis/archive/native transfer DISABLED. Defective CPUv1 remains historical;
+future production must use V2 semantics. Keep every old/failed/artificial root,
+including ONE/TWO/THREE and3MB cumulative reservation. Do not use obsolete132
+success-only analysis/six-root finalizer. No partial outcomes before full study
+acceptance AND FINAL designatedSSD whole/every-member verification. No new Pro
+scientific question pending or needed for unchanged technical implementation.

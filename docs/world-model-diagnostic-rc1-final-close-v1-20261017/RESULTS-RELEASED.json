@@ -1,0 +1,16 @@
+{
+  "ACCEPTANCE": {
+    "bytes": 29731,
+    "sha256": "65f36bbe497eb63ca219c47901d08796e05b12fa9dfec99c59794425ee0ecb46"
+  },
+  "RESULTS": {
+    "bytes": 622098,
+    "sha256": "0a485b26d340fa4d3bd444433b1e4f9ba9e42c9cccc1f448ae02bb7c3ec0b3ef"
+  },
+  "final_gate": {
+    "bytes": 2599,
+    "sha256": "9f76e1dfc9c5908fea34e786552ea9d0416a11e0100b762628fdc409c8f35d97"
+  },
+  "payload_before_gate": false,
+  "status": "COMPLETE_VALIDATED_RESULTS_FETCHED_AFTER_FINAL_SSD_GATE"
+}

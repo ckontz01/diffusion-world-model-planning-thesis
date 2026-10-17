@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 240,
+  "component": "publication",
+  "elapsed_seconds": 47.60899999999674,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 233660416,
+  "reserved_seconds": 240,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "To https://github.com/ckontz01/diffusion-world-model-planning-thesis.git\n   69f73cd..11e21c6  HEAD -> world-model-diagnostic-preparation-20261004\n{\"status\": \"FINALIZER_SOURCE_PUBLISHED_FULL_REMOTE_AND_DESIGNATED_SSD_WHOLE_EVERY_MEMBER_VERIFIED\", \"source_commit\": \"11e21c69c124a5e64ada0778821105f31a542c6c\", \"remote_full_hash\": \"11e21c69c124a5e64ada0778821105f31a542c6c\", \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-rc1-final-close-v1-20261017\\\\finalizer-source-11e21c69c124a5e64ada0778821105f31a542c6c.zip\", \"whole\": {\"bytes\": 1266400, \"sha256\": \"f6c1968084f4c5af9951d44b55c188b006cd5d59ae9cb2cdade8897b3c55b0aa\"}, \"verified_members\": 170, \"volume\": {\"FileSystemLabel\": \"THESIS_SSD\", \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\", \"SizeRemaining\": 309143748608, \"HealthStatus\": \"Healthy\"}, \"contract\": {\"bytes\": 193000, \"sha256\": \"0ff5eed1e6de2b7f5fe8d9dffadbec30ea25746041e931b32dc9f148e57d9f5f\"}, \"publication_anchor\": {\"human_authority\": {\"bytes\": 1564, \"sha256\": \"574da2657f65ed67d4c50a7d35c0dfc9b624d23c7f1fba147c87c1a4c3ff6388\"}, \"source_members_sha256\": \"ea3e7cdfa01db93fd07792d5a5d6a8e4cb70f0179c7b93a110958cd7d8926c20\"}, \"actual_study_SSD_gate\": false, \"preserved_original_publication_failure\": {\"bytes\": 10791, \"sha256\": \"edc86649a06fb65ade617c7326535a4290a4c535a1d76d877b4dc21590be1512\"}, \"frozen_source_bytes_changed\": false}\r\n"
+}

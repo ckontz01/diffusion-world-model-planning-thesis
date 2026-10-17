@@ -1,0 +1,12 @@
+{
+  "actual_analysis_or_final_SSD_acceptance_claimed": false,
+  "contract": {
+    "bytes": 197192,
+    "sha256": "9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e"
+  },
+  "job_id": "317736",
+  "retained_fixture_logical_bytes": 2216680,
+  "scientific_values_read_by_parent": false,
+  "source_commit": "8d6c99af43774ecc403f93343f0555af5de5e37c",
+  "status": "EXACT_FROZEN_CPU_ONLY_FINAL_JOB_DISPATCHED"
+}

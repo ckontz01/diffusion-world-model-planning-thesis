@@ -1,0 +1,121 @@
+HUMAN-REQUESTED INVESTIGATION checkpoint013 supersedes012 current-state/accounting/
+next-check claims. Direct latest instruction: "fully investigate why this happened
+and fix it". This authorizes bounded technical investigation/fix, NOT an inferred
+increase of explicit hard attempt/call/physical/storage limits. Existing35700total/
+21600futurework authority and completion_v1.local_v2 runner remain unchanged.
+
+ACTUAL RESEARCH FAILURE NOW VERIFIED, not merely unavailable monitoring. New
+read-only RECONCILE-R014.json captured same frozen317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0/
+contractda2766c3f8c33266ee54cea9fb2e3bdf650046e9a61ac39c209816f1b1e7514b:
+66ordinaryparents0-65 independently accepted and scheduler COMPLETED0:0.
+Index66/raw317411 FAILED125:0,79allocationseconds; original RESULT says FAILED/
+FileNotFoundError(2,'No such file or directory')/77.27795718000561supervisorseconds.
+Indices67-123 grouped CANCELLED by1201,0seconds/None assigned, NEVER allocated.
+STOP reason RC1_GRID_TECHNICAL_FAILURE/index66/setting2/raw317411/no_retryTRUE.
+CANCEL-PENDING control return0. Executed supervisor explicitly scancelled ONLY
+pending children on its caught exception. Agent cancelled/restarted/resumed/
+resubmitted NOTHING. No current successful completion or ETA claim is appropriate.
+Failed controller PID258808/ticks9893980 on gpu09.cluster was recorded, but node
+verification returned255/unavailable; do NOT treat this as current live/absent proof.
+
+RECONCILE-R014.json5243B SHA
+36cf80588197f1cc1164055a0cb4b128b1082352589cbc543b9ba0763dd1842f.
+Terminal allattemptGPU45902, no scheduler-live allocation. Pregrid14+grid67=81
+allocated attempts so far.57cancelled-unallocated original indices remain.
+81+57=138, but replacing FAILED66 AND finishing57 requires139 attempts. There is
+NO approved retry envelope. STOP affected research recovery allocation/staging
+pending explicit HUMAN finite attempt AND associated failed-partial call/physical
+allowance approval. Do not treat latest broad "fix it" as waiver of old hard caps.
+Keep SAME monitor ACTIVE/history, quiet on this unchanged blocker; read latest
+local authority/receipts for genuine approval. No repeated query just to restate
+stopped state, no new monitor/cron/sleep loop, no Pro resource question.
+
+FAILED-PARENT66-FORENSICS-001.json is a separate one-time read-only forensic capture:
+original STARTED/RESULT/STOP/CANCEL-PENDING identities and technical bodies; opaque
+log identities and exception-only filtering; output/tmp names/counts/bytes/mtimes
+commitment; current staged-source hashes and existence of already approved paths.
+No scientific JSON/NPY/array/value/quality/outcome inspection. No scheduler query
+inside forensic capture. WORKER-SUCCESS and ACCEPTED absent; no output USAGE.json
+or MEMBERS.json, partial159outputfiles/3515756B including partial evaluation,2tmp
+files/6856B. Cannot label this complete or rescue by merely writing acceptance.
+Both worker/slurm logs have NO saved exception traceback. Current staged source
+members all present/hash-exact. Existing venv/bin/python reports existsFALSE on
+login because of its already approved external /opt/conda/bin/python alias;
+that is NOT evidence the in-container interpreter disappeared. Do not recreate it.
+
+Source review locates unsafe supervisor size(p): sum(x.stat().st_size for x in
+p.rglob('*') if x.is_file()), repeatedly called on mutable output/tmp while child
+runs. An entry disappearing between is_file and stat can raise FileNotFoundError
+in the supervisor and trigger STOP/pending cancellation. Evidence is consistent:
+worker reached scientific output creation and was interrupted before its success
+marker, with no child exception traceback; post-validator ACCEPTED read was not
+reached. Exact vanished pathname/traceback was NOT preserved, so do not claim it
+has been recovered or retrospectively observed. Safe repair needs a separately
+versioned disappearing-temp-file regression and supervisor trace capture, never
+editing executed frozen source or suppressing missing scientific inputs.
+
+Monitoring explanation: original sacct omitted --array and returned one grouped
+terminal CANCELLED placeholder [67-123%1], so strict queue InvalidID fallback could
+not satisfy124individual terminal rows. squeue InvalidID is compatible with this
+now-terminal failed/cancelled array, NOT proof of successful completion. The saved
+R012 exception discarded these decisive rows; do not weaken strict fallback.
+Official Slurm sacct documentation confirms --array expands array records.
+
+New UNPUBLISHED reconcile_v1 + targeted tests were prepared outside all executed
+research closures under explicit human investigation request. Preserve files and
+ARTIFICIAL-RECONCILE-001. RECONCILETEST00160implementation/1.5469999999913853s passed
+new strict complete124/missing/duplicate/grouped/live/error/raw/PID/resource/STOP/
+deadline synthetic guards; no old suite or research calls. INVESTOBS013 monitoring30
+failed16.687000000005355s because its own ident() incorrectly applied20KB technical
+control cap to a larger opaque output MEMBERS manifest. Preserve R013failure/start/
+LOCAL/tested source exactly; this was diagnostic-source-only, NOT research fault.
+Its reused legacy failure serializer named original program6a6... incorrectly;
+actual programSHA is in RECONCILE-R013.started.json. Never amend/retry R013.
+
+Separate reconcile_v2 pins V1 preimage15152B77a74e3c..., changes ONLY nested opaque
+output MEMBERS hashing to existing20MB bound via streaming; technical JSON controls
+stay20KB. Future failure attribution now names actual generated program/adapter.
+RECONCILETEST00230implementation/2.202999999994063s passed NEW actual ordinary-native
+>20KB opaque-manifest hash fixture/control-chain, reproduced original V1 refusal,
+kept technical JSON20KB refusal and both program AST3.6. No scientific payload
+deserialization/WSL/cluster/SSD/research calls by tests. Sources/tests preserved.
+INVESTOBS014 monitoring30/19.14100000000326s captured actual technical state above.
+PARENT66FORENSICS00160technical_fault/15.48399999999674s captured forensic evidence.
+
+New diagnostic native timeout includes already spent preflight inside unchanged
+outer30seconds, <=20transport and24sinceLOCAL-started, leaving cleanup/capture time;
+old nested26timeout inside27parent work could lose diagnostics after preflight.
+R010/R011 exact underlying timeout cause STILL not known. No historical inference.
+New regular expanded-mode entry requires NEW publication/fullremote/SSD receipt
+which DOES NOT exist. No repaired regular monitor activation/commit/push/source
+package/SSD recopy occurred; original monitor and all published bytes unchanged.
+Do not use this diagnostic as a full final-study acceptance or recovery contract.
+
+Current exact charges: implementation1035/2700,cluster_validation45/600,
+binding_staging225/1200,publication270/600,monitoring420/7200,native_SSD0/7200,
+technical_fault230/1200,handoff300/900;total2525/21600,remaining19075. Components
+remaining1665/555/975/330/6780/7200/970/600.14/240checks used226remain, including
+both new diagnostic attempts. Outer35700/hardstop2026-10-21T07:37:44Z unchanged.
+No refund/transfer/regrant/extension/separate-reserve borrowing. Source/docs bundle
+was4219267B BEFORE new forensic source/LOCAL/result/thischeckpoint; actual source
+copy/auxiliary full-remaining-work proof must be checked BEFORE any publication.
+4.5MB source/docs*4,64MB allnewaux,20MBlocal and all other caps remain active.
+Routine ledger details stay in records unless a limit threatens progress/decision.
+
+Required human decision: authorize ONE additional fixed Reacher-LeWM parent
+attempt (139total), together with one parent's existing fixed model/call/physical
+maxima to conservatively account for failed partial work, while retaining468000
+GPU seconds,3600perattempt,serialoneRTX6000Ada/gpu09,4CPU8GiB and unchanged science.
+No completed work would be repeated; only failed66 plus never-started67-123 belong
+to any prospective new exclusive recovery lineage. This is a PROPOSAL, NOT grant.
+All original failed/partial/STOP/control/log evidence must remain. Before precise
+resumption: reconcile every attempt/source/counter and PIDticks, diagnose/test
+smallest separately versioned repair, freeze/review/commit/push/fullremote/newsmall
+designatedSSD whole/everymember gate, fullfuture storage/copy/physical/call proof.
+If any old limit cannot fit, obtain explicit further finite human revision first.
+
+Final CPU/analysis/archive/nativeSSD workflow remains UNFROZEN/UNPUBLISHED and all
+missing actual gates from012 persist. No actual finalCPU/realanalysis/studyarchive/
+fullSSD, no results/publication/promotion or new experiment. inventory_v3/
+cpu_process_v2/cpu_schedule_v2/native_transfer_v3 remain mandatory. Parent results
+ONLY after full independent study acceptance AND FINAL designatedSSD whole/member.

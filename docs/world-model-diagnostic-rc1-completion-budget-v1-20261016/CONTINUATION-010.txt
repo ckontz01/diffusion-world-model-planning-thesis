@@ -1,0 +1,124 @@
+Completion checkpoint010 supersedes older observation/accounting/next-check and
+preparation snapshots, including009's unavailable-local-path and unused-R008 claims.
+Direct human21300increase/35700total approval remains active. Read this, exact latest
+LOCAL/started/authority and later exclusive lineage first. ONLY operation runner
+completion_v1.local_v2; observation entry monitor_v2.compact. No transfer/refund/
+reset/regrant/extension or separate metadata-reserve borrowing/counting again.
+
+Human explicitly requested a current check after009: ONE HUMANOBS008 monitoring30
+finished14.187999999994645s, R00860ordinaryaccepted0-59, index60/raw317328 RUNNING1025s,
+gpu09.cluster PID246068/startticks9467065 BOTHverified, STOPabsent/faultsnone. Terminal
+allattemptGPU41595, fullremainingmaxima+terminal271995, CPU1436. This is HISTORICAL,
+not currenthealth proof. R0085010B SHA
+91ed835f4ec05c532ab824d7e28d2c65973d117b66e0f2ebbe160c4e5f245441.
+It WAS started/completed/charged and counts as a check; NEVER repeat R008 or
+mistake009's earlier unused-R008 statement for current authority. Human was given
+a rough12-20morehour/up-to24hour planning estimate from saved technical timings;
+NOT a contract/resource/timing guarantee, and not final analysis/SSD completion.
+
+THIS scheduled wake: existing configured D:\WSL\Thesis-Ubuntu\ext4.vhdx was available
+at native read-only bootstrap. ONE NEW RESUMEOBS009 monitoring30 succeeded
+12.312000000005355s. No second scheduler/cluster query thiswake, no retryR008/R006/
+R003/other check. Observation transport worked; NOT a repaired/resumed research run.
+Agent changed NO disk/path/WSL/config/environment/permission/security/credentials.
+Why configured path intermittently disappeared/returned UNKNOWN. Original R006
+failure/started/LOCAL and R003 unchanged, no retrospective cause inference.
+
+R009 HISTORICAL snapshot:61ordinaryparents0-60 independently ACCEPTED/COMPLETED0:0;
+index61/raw317331 RUNNING263s, gpu09.cluster PID250612/startticks9627322 BOTHverified,
+STOPabsent/faultsnone. Same317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0 and
+gridcontractda2766c3f8c33266ee54cea9fb2e3bdf650046e9a61ac39c209816f1b1e7514b unchanged.
+TerminalallattemptGPU43188, live263NOTfinal;63remainingmaxima+terminal269988<=468000,
+original449783, CPU1436/6836 unchanged. NEVER infer later currenthealth from snapshot.
+No researchjob/controller changed/cancelled/restarted/resumed/resubmitted. No actual
+scientificvalues/quality/outcomes/aggregates read.
+OBSERVE-R009.json5062B SHA
+9d7aebcaab2e5b83ff8bff6f3ec7634dc8bbe31723628365d593acd4a2146938;
+full lossless canonical4523B SHA
+426c5f97ad1b4ff27fee8bf695da6e594d0be1fbc950b776afba19cb2f9d6164
+verified with monitor_v2.compact.decode_record; no redundant full copy.
+
+NEXT scheduled wake ONE NEWexclusive R010 or later after exact latest LOCAL/started/
+published-sourceSSD lineage and genuine EXISTING configured WSL path checks:
+fullNativePython -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  fullNativePython -B -m wm_diag0_rc1_monitor_v2.compact R010
+BOTH executable tokens:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+No duplicate completed/started/ambiguous labels, legacy observations, obsolete
+controllers or immediate second check. If same local path blocker recurs, stop
+affected remote observation/staging/allocation/SSD actions and stay quiet while
+unchanged/already reported. No WSL/SSH diagnostic retry/unfundedprobe, recreation/
+migration/reinstallation/configuration changes. Unavailability is not research
+failure. Successful WSL observation is NOT designatedSSD health/free-space/finalgate.
+Same monitor remains ACTIVE/history retained; no substitute monitor/cron/sleep loop.
+
+New archive_operation_v1 SOURCE-ONLY UNFROZEN/UNPUBLISHED integrates actual closed
+analysis authentication BEFORE once-only archive_pipeline_v1, then independent
+whole/everymember/original/root/portable readback, then closed controls/logs/opaque
+output reauthentication AFTER readback. Fixed implemented CPU-only archive CLI/argv,
+not an archive no-op: all study/runtime/source/model/SIF inputs RO; only external
+ops and archive-private /tmp RW, no analysis-task writable mount and no GPU. Exact
+contract/closed record identities are supplied externally by trusted future owned
+supervisor. CPU Slurm environment consistency checks are NOT independent dispatch/
+cgroup/allocation authority. Contract rehash and exact staged-source/59 historical/
+127STARTED authentication remain required. Full inventory_v3 all20 study roots and
+four external roots/30inertaliases, prior root commitments and preparation evidence
+must be bound before once-only archive creation. Source-only CLI is NOT full stage,
+publication/SSD, actual preparation/storage/runtime or CPU allocation authorization.
+
+Preparation consumer requires exact staged producer source identity, nonboolean
+bounded full_future_preparation_bytes<=5GiB and measurement commitment. Actual
+preparation_binding_v1 native measurement producer DOES NOT EXIST YET; a schema/
+bound record/arithmetic is NOT proof of actual measurements/allcopies. No actual
+production CLI, Linux supervisor, submission or final study operation executed.
+Future owned supervisor still needs dynamic archive argv AFTER actual V2 writer+
+validator cleanup and externally hash-bound ANALYSIS-CLOSED record. No selfdeclared
+record/readyflag can replace these gates; old passed prototypes remain unchanged.
+
+ARCHIVEOPTEST001105implementation/2.5160000000032596s passed NEW tiny ordinary-native
+integration: synthetic old STOP/failure/runtime plus owned-final fixture, closed
+controls/logs/sealed deliberately opaque output before AND after real tiny once
+archive and independent whole/member/original/root/portable readback. Existing
+artifacts refused/no retry; changed closed log refused BEFORE new archive creation.
+Fixed real argv/SIF RO/externalops/tmpRW/noGPU and finite preparation-consumer guards
+passed. Fixture generator reused, not an old test suite rerun. ZERO research/WSL/
+cluster/scheduler/SSD calls; scientific payload values not deserialized. No actual
+study archive/acceptance/cleanup attested. Sources/tests retained exact.
+ARTIFICIAL-ARCHIVE-OPERATION-001.json1261B SHA
+a955393ce51237addbb27423706f445426abbb2c172939a713a588a30f937efb.
+
+CHECKPOINTAUDIT01030handoff/1.764999999999418s verified AST3.6/allnewsource/new test
+identities, unchanged publishedobserver/original8269B13f3d73aV2cleanup/R006failure,
+R009losslessPIDticks/STOP/charges, manualR008 preservation and exactledger. New
+checkpoint_audit_v8 is reusable with NEWexclusive labels/numbers/observation and
+test selectors; never rerun completed010. Sixlocalcode/docs3777829B,
+nonmonitorbundle3700806B BEFOREfinalcompactreceipts+200kforwardallowance. NOT actual
+fullstudy/alllogicalcopies/preparation/storage/volume proof. Same64MB prospective
+subcaps63928640+71360locked: source/docs4.5MB*FOURcopies;240*65536ALLmonitor;
+portable12MB*TWOremote+designatedSSD/nohostthirdfile;two1MBsidecars*TWOeach;
+newsmallsourcepackagesALLcopies2.2MB. Actual fullcopy/source/preparation proof
+required, no omitted-copy/compression/dedup/deletion discounts. No new canonical
+artificial root; whole-root4MBfinalartif reservation unchanged.
+
+Exact charges implementation840/2700,cluster_validation45/600,binding_staging225/
+1200,publication270/600,monitoring270/7200,native_SSD0/7200,technical_fault140/1200,
+handoff240/900;total2030/21600,remaining19570. Remaining components
+1860/555/975/330/6930/7200/1060/660.9/240checks used231remain, including humanR008 and
+scheduledR009. Outer35700/hardstop2026-10-21T07:37:44Z unchanged. Same30min/max240new
+checks/30inclusive/120h; at cap/horizon stop affected work/reportonce/pauseSAME,
+nevercancel healthyresearch. Stop earlier only after completefinalhandoff.
+
+STILL missing ACTUAL fresh fullruntime/everymember/19roots+futurefinal/30aliases/root
+commitments; all138GPU/sourceCPU/rawID/supplier/model/physical/fullfuturestorage/
+copy/transfer proofs; native preparation measurement producer; complete real CPU
+supervisor/dynamic closure-to-archive argv/exactdispatch/submission/fullstage gates;
+actual analysis/secondvalidator/oncearchive/originalrootreadback/terminalCPU/
+postarchive/nativeSSDv3 workflow; Linuxintegrationtests/freeze/independentreview/
+commit/push/fullremote/newsmallSSD BEFORE finalCPUallocation. inventory_v3/
+cpu_process_v2/cpu_schedule_v2/native_transfer_v3 mandatory. PreserveALL successes/
+failures/partials/oldSTOPs/artificials/fullvenv/500MBoverhead/TWO14GBcopies/4MBfinalartif/
+64MBaux within13.5/14/44GB. No actual finalCPU/realanalysis/studyarchive/fullSSD,
+newsourcepublication/package/modelrecopy. Science/GPU138/468000/CPU/call/physical/
+security/data/SSD gates unchanged. Parent results ONLY after complete independent
+acceptance AND FINAL designatedSSDwhole/everymember. No Proquestion/newexperiment/
+promotion. Same ACTIVE monitor/history; quiet unchanged healthy/nonactionable.

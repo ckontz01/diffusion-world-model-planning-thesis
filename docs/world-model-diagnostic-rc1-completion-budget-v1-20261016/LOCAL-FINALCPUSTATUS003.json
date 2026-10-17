@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "monitoring",
+  "elapsed_seconds": 13.125,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 27734016,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"EXACT_FINAL_CPU_TECHNICAL_OBSERVATION\", \"captured_UTC\": \"2026-10-17T10:58:08Z\", \"job_id\": \"317736\", \"contract\": {\"bytes\": 197192, \"sha256\": \"9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e\"}, \"scheduler_raw\": \"317736|317736|RUNNING|0:0|313|4|gpu02\\n\", \"controls\": {\"ENTRY-VERIFIED.json\": {\"identity\": {\"bytes\": 1447, \"sha256\": \"948e32bedb8c2df92938364a14fe170d35a6e5f8a5aa5ea96527ad8fed7dfab9\"}, \"status\": \"EXACT_FROZEN_SOURCE_139_TERMINAL_128_STARTS_HISTORY_FULL_RUNTIME_AND_ROOTS_AUTHENTICATED\"}, \"PHASE-analysis.json\": {\"identity\": {\"bytes\": 674, \"sha256\": \"c71d40a5a025c15c977810280cb44f0a317520b5e189a6c85ddbec587785424b\"}}, \"PHASE-independent_acceptance.json\": {\"identity\": {\"bytes\": 670, \"sha256\": \"66eddcf83cc4f4e2918444cb797567dda485c7e586119677c6493a0e2fb6aaf5\"}}, \"ANALYSIS-CLOSED.json\": {\"identity\": {\"bytes\": 702, \"sha256\": \"096885e8df870ecfb14890dde8076f1bb318f5b65d92c1ff1e539956c31d9e0f\"}}}, \"native_supervisor_diagnostic\": null, \"scientific_values_read\": false}\r\n"
+}

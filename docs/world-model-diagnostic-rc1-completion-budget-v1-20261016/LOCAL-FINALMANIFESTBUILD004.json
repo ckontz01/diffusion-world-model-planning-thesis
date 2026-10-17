@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "implementation",
+  "elapsed_seconds": 1.125,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 20021248,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"FORECAST_DRIVEN_PRESERVATION_V3_DERIVED\", \"science_unchanged\": true}\r\n"
+}

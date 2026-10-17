@@ -1,0 +1,99 @@
+Latest implementation checkpoint002; CONTINUATION001 approval/monitoring remains.
+No second scheduler snapshot was made in this human-triggered turn. Last actual
+OBSERVE-R001 is HISTORICAL:51accepted, index51/raw317249 PID201857/ticks8152080
+gpu09 verified; noSTOP/fault, terminalGPU28525/live932NOTfinal/fullremaining291325.
+OBSERVE-R001 SHA256c28c0ddafa426418097cd432a450cc603fd807f23e487daed902fdd13d395bd9.
+Same317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0; no research change.
+Next scheduled check remains ONE NEW R002 or later, active local_v2 runner.
+
+All new operations use ONLY wm_diag0_rc1_completion_v1.local_v2; old750 and
+separate metadata reserve remain frozen/unborrowed. Component full-reservation
+debits now implementation120/2700, cluster_validation45/600,
+binding_staging120/1200, publication180/600, monitoring30/7200,
+native_SSD0/7200, technical_fault35/1200, handoff0/900.
+Total530/21600, remaining21070. Full future component reservations
+2580/555/1080/420/7170/7200/1165/900. Only1/240checks used,239remaining.
+35700outer nonrefundable cap unchanged, activation07:37:44UTC2026-10-16,
+stop07:37:44UTC2026-10-21. No refund/transfer/new grant. Exact LOCAL controls
+remain authoritative; full conservative operation reservations cover cleanup/
+receipt work and separately disclose measured entry-to-cleanup times.
+
+New UNFROZEN/UNPUBLISHED wm_diag0_rc1_final_v2 metadata_inventory.py is a distinct
+phase-labelled lstat-only reader, NOT a blind repeat of timed-out final_v1
+metadata.py. It reads contract/runtime-manifest metadata and file type/size/
+alias literals only, not outcome payloads/model/checkpoint/scientific runtime.
+Zero scheduler calls/filesystem mutations on cluster. Local syntax check passed;
+actual METADATAACTUALV3001 finished58.21899999999732s under120reserved seconds.
+Remote lstat traversal41.4238431211561s. METADATA-001.json SHA256
+4bbe9eb2b1468a6f0866f7ddffa5783e8966c39f5ec512acfb52042ee5788cc5.
+
+Actual full venv38088regular files/1939807890logical bytes,4520directories,
+largest member202958600B, within existing2100000000B reservation. Registered
+runtime manifest remains21643members/1658213811B, NOT a full-venv count/hash.
+Actual four runtime alias literals EXACTLY match executed GRID-CONTRACT:
+bin/python -> /opt/conda/bin/python
+bin/python3 -> python
+bin/python3.11 -> python
+lib64 -> lib
+This does NOT authenticate all actual file contents or grant alias execution.
+All18then-current canonical lineage roots were stat-inventoried,3734316131
+logical regular bytes, including old failures/partial/artificials. Renderer
+native-v3 has21alias literals including chains; one older artificial alias
+is also present. Those candidate aliases still need independent binding to
+accepted original controls/approved source, not automatic self-approval.
+SIF/object sizes match existing pinned metadata. Fresh final full-future/storage/
+full-runtime-content/root/member acceptance remains REQUIRED, not passed.
+
+New inventory/archive implementation is source-only preparation, not final gate:
+inventory.py introduces externally exact-approved INERT alias literals, including
+absolute/parent-relative/chained/directory aliases. Never restore/execute aliases.
+Further review notes os.walk may stat a symlink target merely to classify it even
+with followlinks=False. Original tested inventory.py remains unchanged; production
+whole-root traversal MUST use separate inventory_v3.py, whose explicit scandir
+DirEntry.stat(follow_symlinks=False) never even classifies by following a target.
+archive_v2.py/archive_verify_v2.py are separately versioned copies of preserved
+old primitives, with bounded inert alias literals and distinct archive schema
+WM-DIAG0-RC1-ARCHIVE-v2. No real study archive/analysis/receiver was run.
+Whole/member/source-root/hash/deadline/14GB/13.5GB/500MB/100k/4GB/20MB protections
+remain, no compression/dedup/deletion savings. Exact logical source paths remain
+strict safe names; only target STRINGS are inert, never path operands.
+
+ARTIFICIAL-ALIAS001 passed locally4.23399999999674s under15reserve. Actual Windows
+alias privilege was not requested: disclosed lstat/readlink mocks tested alias
+codec roundtrip, independent original/native-style expected-hash readback, wrong
+alias rejection and no outside target payload in archive; no external calls.
+Separate actual POSIX test POSIXALIAS001 passed16.952999999994063s under45reserve.
+ARTIFICIAL-POSIX001 SHA256
+7832203417ffb6608878bfe26590f6778ecf38f935382b8f16f3409e2220f746.
+New retained exclusive root campaign-v4-rc1-final-v2-artificial-ONE contains
+readonly staged stdlib-only sources, STARTED/ROUNDTRIP/RESULT, synthetic oldSTOP/
+failure partial, absolute/parent/chained/directory aliases, tiny artificial
+archive and outside-target marker. Actual POSIX no-follow inventory, original
+independent reread and portable expected-hash roundtrip passed; no extraction,
+target execution, scientific runtime/model/fit/physics/sourcegen/scheduler call.
+37503logical bytes/14regular files BEFORE last RESULT are not hard aggregate
+quota claims. Reserve1000000B for this WHOLE new root in every future proof.
+Old ONE/TWO/THREE3MB reservation remains; total4MBfinal-artificial reservation.
+Actual canonical roots now include this19th root, plus future final root when
+created. Never omit any actual root, successful/failed partial or controls.
+
+One preservation-only snapshot verification failed: metadata syntax-test
+preimage001 had one extra terminal LF. Failure/snapshot/15implementation charge
+retained, no cluster fault. Exclusive snapshot0026552B verified original exact
+sha685ea8408383610fbcd0848a15ea16e585ef44883ac98fb2790b2bfcf9069ee7 in10fault
+seconds reservation, measured1.125. SOURCE-PREIMAGE001 authenticates it. Only a
+metadata field label was clarified before actual traversal; no science changed.
+
+Remaining actual final work: historical all-attempt usage/source provenance
+authentication; externally reviewed exact alias/root/member binding; supplier/
+rawID/all138GPU/sourceCPU/model/physical/storage proof; finite CPU supervisor/
+submission and independent complete fixed-analysis validation; integration of
+one study archive/original readback/terminalCPU/sidecar/new-schema native SSD
+receiver. Old native_transfer_v1.verify_and_promote imports old alias-restrictive
+verifier: future actual receiver MUST bind V2 verifier explicitly, not silently
+use old one. No CPU final allocation until actual complete tests/freeze/review/
+push/fullremote/new required small-package SSD gate. Defective cpu_process_v1
+never production; use V2 owned-group cleanup semantics. Parent reads no outcomes/
+qualities/aggregates before complete independent study acceptance AND FINAL
+designatedSSD whole/every-member readback. Do not confuse tiny artificial archives
+or already-verified source package with final experiment SSD backup.

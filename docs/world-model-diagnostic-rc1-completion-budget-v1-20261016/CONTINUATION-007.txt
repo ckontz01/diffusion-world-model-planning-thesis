@@ -1,0 +1,111 @@
+Completion checkpoint007 supersedes older observation/accounting/next-check
+snapshots. This is NOT historical funding-blocker006. Direct human21300increase/
+35700total approval remains active, same ACTIVE30min monitor/history, unchanged
+science/GPU/CPU/physical/call/storage/security/data/SSD gates. First read this,
+latest LOCAL/started/authority and any later exclusive lineage. ONLY operation
+runner completion_v1.local_v2; observation entry monitor_v2.compact. No refund,
+transfer, regrant, extension or borrowing/counting separate metadata reserve.
+
+CURRENT CLUSTER HEALTH UNVERIFIED. ONE scheduled new R006 observation attempt
+failed8.639999999999418s under30reserved; LOCAL-RESUMEOBS006 CHILD_NONZERO/child125.
+OBSERVE-R006.started.json and failure.json retained. No second WSL/SSH/scheduler
+query thiswake, no retryR006/R003/othercheck. No researchjob/controller changed,
+cancelled/restarted/resumed/resubmitted. No science values/quality/outcomes/aggregates
+read. Last successful R00555accepted/terminalGPU35753 is HISTORICAL ONLY and NOT
+current proof. No new terminal/live GPU charge inferred from this unavailable check.
+
+New wrapper retained actual transport code4294967295, empty stderr, complete646B
+stdout with SHA9a288ff2157742a6748eb289271f67cf6cdc21b127b648503d8ec5548038eb58.
+Strict UTF-16-LE decode identifies WSL reporting:
+Failed to attach disk D:\WSL\Thesis-Ubuntu\ext4.vhdx; system cannot find path;
+Wsl/Service/CreateInstance/MountDisk/ERROR_PATH_NOT_FOUND.
+This diagnoses ONLY the local WSL attachment blocker, not why path unavailable,
+not a cluster/research fault, and NOT retrospective cause of old R003.
+Exact OBSERVE-R006.failure.json1791B SHA
+8dfe3f32ec206fa837575a5dda582f94fe05c64190a9d956da34eff738cff171.
+
+Local-only WSLPATHDISPOSITION00715technical_fault/1.2339999999967404s authenticated
+retained receipts/base64/fullstream SHA and decoded them; ZERO new WSL/network/
+SSD/cluster queries. TRANSPORT-PATH-BLOCKER-007.json1846B SHA
+731e8ceb8e160a871196bb8c921c5542416a7637fa289e1452a428f4a558d474.
+Published observer/remote program and frozen research source unchanged. No WSL
+disk/path/configuration/environment/permissions/security/credentials changed.
+Required human action: restore access to EXISTING configured disk/path or direct
+how to proceed. Do NOT recreate/migrate/reinstall/change WSL automatically.
+
+NEXT scheduled wakes: first read latest local authority/receipt lineage and check
+for genuine resolution/restoration of the existing configured disk/path. While
+the same local blocker remains, stop affected remote observations/staging/SSD/
+allocation actions, stay quiet after this one required-action notification; no
+WSL/SSH diagnostic retries, no unfunded probe or new monitor/sleep loop. Safe local
+source-only integration may continue within existing full reservations. The SAME
+monitor stays ACTIVE/history retained, NOT paused merely for unavailability.
+
+Only after the existing configured WSL disk/path is actually available, at a
+scheduled wake take ONE NEW exclusive R007 or later (NOT legacy OBSERVE-007):
+fullNativePython -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  fullNativePython -B -m wm_diag0_rc1_monitor_v2.compact R007
+BOTH executable tokens:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+Never duplicate a completed/started/ambiguous label. Unavailability is not
+researchfailure; no blind retry or action on obsolete controllers. Same240checks,
+30inclusive/each and120calendarhour hardstop2026-10-21T07:37:44Z. At cap/horizon stop
+affected work/report once/pause SAME monitor; do not cancel healthy research.
+
+New SOURCE-ONLY finalV2 terminal_binding_v1 + cpu_entry_guard_v1 preparation,
+STILL UNFROZEN/UNPUBLISHED. No real final CPU entry/submission/analysis/archive:
+- Terminal guard independently recomputes exact failure-inclusive138 GPU ledger,
+  historical11 exact allocated rows plus3 cancelled-unallocated placeholders and
+  ALL127 newer grid/technical STARTED controls. Actual317180/317177 sources,
+  rawIDs, index/setting, PID/tick literals/node/time and complete control schema
+  are bound, not a bare independently_authenticated flag. Actual STARTED files
+  would be rehashed from a separately bound finite receipt before analysis.
+- CPU input preflight binds exact frozen extension through mandatory scheduleV2
+  adapter, original8269B/13f3d73a cleanup, full exact staged source tree with no
+  extra importable member, and all59 historical original source/control/log/
+  failed-partial identities before the first writer. Contract rehashed afterward.
+  Only a private copy is temporarily made draft for structure validation; no
+  actual authority/contract/source is edited or granted. No standalone main.
+- Full runtime/whole-root/storage/source-CPU/publication/SSD/allocation gates are
+  explicitly NOT supplied by this preflight. Production controller still must
+  authenticate and enforce those before calling it/launching any analysis.
+
+TERMINALENTRYTEST00175implementation/2.188000000009197s passed NEW synthetic138-row/
+127-start in-memory controls, old failure/cancelled placeholders and4623SYNTHETIC
+GPU charge, missing/raw/source/index-boolean/live/duplicate/extra/forgedflag/deadline
+rejection; tiny ordinary-native temp source/file bounded hashes, strictV2 cleanup/
+GPU/resource/draft rejection and actual authority nonmutation. No real cluster
+controls/root/runtime/content/usage were reauthenticated. No old suite/model/
+simulator/sourcegen/fit/research/scheduler calls. ARTIFICIAL-TERMINAL-ENTRY-001.json
+1292B SHA7fb3c6dd4527980851bbdd0d52c376c0dde8ddb59383741e27e621db177ae07c.
+
+CHECKPOINTAUDIT00730handoff/1.7660000000032596s authenticated all new AST3.6/source/
+test receipts, original correctV2 cleanup, unchanged published observer, exact
+R006 saved fullstream decode and local disposition, exact charges. Six new local
+code/docs3227714B/nonmonitorbundle3176798B BEFORE finalcompactreceipts+200kforward
+allowance, within local20MB and4.5MB source/docs subcap. NOT actual whole-study,
+all-logical-copy, preparation, storage or volume proof. Global64MB subreservations
+63928640/71360locked remain unchanged: source/docs4.5MB*4, monitoring240*65536ALL,
+portable12MB*2 remote+SSD/nohostthirdfile, two1MBsidecars*2each, newsmallsourcepackages
+ALLcopies2.2MB. Every actual future copy still must be measured/authenticated.
+
+Exact charges implementation570/2700,cluster_validation45/600,binding_staging225/
+1200,publication270/600,monitoring180/7200,native_SSD0/7200,technical_fault140/1200,
+handoff150/900; total1580/21600,remaining20020. Remaining components
+2130/555/975/330/7020/7200/1060/750. Six/240checks used234remain. Outer35700 and
+hardstop2026-10-21T07:37:44Z unchanged; no transfers/refunds/extensions/new funding.
+
+Still missing ACTUAL fresh runtime/everymember/all19canonicalroots+futurefinal/
+30alias/root commitments; failure-inclusive138GPU/sourceCPU/rawID/supplier/model/
+physical/fullfuturestorage/copy/transfer proofs; complete real frozen CPU supervisor/
+dispatch/submission/archive-entry and stage gates; complete second-analysis/
+oncearchive/original-root reread/terminalCPU/postarchive/nativeSSDv3 workflow;
+Linux integration tests/freeze/independentreview/commit/push/fullremote/newsmallSSD
+BEFORE finalCPUallocation. inventory_v3/cpu_process_v2/cpu_schedule_v2/native_transfer_v3
+mandatory. All failures/partials/oldSTOPs/artificials retained incl4MBfinalartif,
+fullvenv2.1GB/64MBnewaux/500MBoverhead/TWO14GBcopies within13.5/14/44GB; no deletion/
+compression/dedup discounts. Protected1800conversion/final3600CPU unchanged.
+No actual finalCPU/realanalysis/studyarchive/fullSSD run, no new source publication/
+package/model copy, no readiness promotion/Proquestion/newexperiment. Parent results
+gate stays closed until complete independent studyacceptance AND FINAL designatedSSD
+whole/everymember. Complete finalhandoff then pause same monitor, or finite cap/horizon.

@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "handoff",
+  "elapsed_seconds": 1.0940000000118744,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 22151168,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"POST_SSD_COMPLETE_REPORT_PARENT_ARITHMETIC_COVERAGE_AND_LIMITATIONS_REVIEW_PASSED\", \"results\": {\"bytes\": 622098, \"sha256\": \"0a485b26d340fa4d3bd444433b1e4f9ba9e42c9cccc1f448ae02bb7c3ec0b3ef\"}, \"acceptance\": {\"bytes\": 29731, \"sha256\": \"65f36bbe497eb63ca219c47901d08796e05b12fa9dfec99c59794425ee0ecb46\"}, \"report\": {\"bytes\": 9772, \"sha256\": \"a8d72fd1f0b070e5073a4b125800a0523ab814209f5c583d8076fc0460120b84\"}, \"final_gate\": {\"bytes\": 2599, \"sha256\": \"9f76e1dfc9c5908fea34e786552ea9d0416a11e0100b762628fdc409c8f35d97\"}, \"all_four_settings_and_16_fixed_contrasts_checked\": true, \"source_parent_n_not_inflated_by_backbones_candidates_or_draws\": true, \"all_128_parent_diagnostics_and_6_retained_4_active_heads_present\": true, \"sealed_scientific_bytes_modified\": false, \"new_estimator_fit_model_simulator_or_experiment\": false, \"all_limitations_disclosed\": true}\r\n"
+}

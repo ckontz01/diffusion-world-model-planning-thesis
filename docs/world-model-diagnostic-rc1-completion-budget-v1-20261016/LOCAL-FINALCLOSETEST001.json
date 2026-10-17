@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 60,
+  "component": "implementation",
+  "elapsed_seconds": 3.5,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 169365504,
+  "reserved_seconds": 60,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"NEW_RECOVERY_AWARE_FINAL_SOURCES_AND_OPAQUE_BINDING_FIXTURES_PASSED\", \"real_study_reads\": false, \"final_gate_ready\": false}\r\n"
+}

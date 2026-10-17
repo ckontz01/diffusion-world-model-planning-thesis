@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "implementation",
+  "elapsed_seconds": 1.437999999994645,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 22081536,
+  "reserved_seconds": 30,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"NEW_RECOVERY139_LEDGER_AND124_PARENT_MAPPING_SYNTHETIC_TESTS_PASSED\", \"sources\": {\"recovery_suppliers_tests_v2.py\": {\"bytes\": 1153, \"sha256\": \"72e163910c4762f2a664629dea213bdf0b95dfe431642a7f2366f6ba88008083\"}, \"recovery_suppliers_tests_v1.py\": {\"bytes\": 4516, \"sha256\": \"d86433c9359f5d6f25ce03444f07872050399df3a2d16aff6c38dbde19d74721\"}, \"recovery_suppliers_v1.py\": {\"bytes\": 6048, \"sha256\": \"7a9c8a8d06a85f11b2470d26a49a6185d9ba8815df3bae54c5bf3a0e1db01881\"}}, \"synthetic_allocations\": 139, \"synthetic_started_controls\": 128, \"ordinary_parents\": 124, \"preserved_original_suppliers\": 66, \"recovery_suppliers\": 58, \"source_only_unfrozen_unpublished\": true, \"old_nonmonitor_bundle_bytes_before_compact_receipts\": 4451510, \"new_compact_receipt_allowance\": 12000, \"R016_unknown_outcome_full30_authenticated_not_retried\": true, \"old_OBSINTERRUPT016_timeout_preserved_no_cause_inference\": true, \"research_WSL_SSH_scheduler_SSD_or_scientific_payload_calls\": 0, \"final_gate_ready\": false}\r\n"
+}

@@ -1,0 +1,14 @@
+{
+  "ACCEPTANCE": {
+    "bytes": 1940,
+    "sha256": "e47ea622d93467557e183f6ff5f29f07988d00b962f17235e9e75eec5d2492dd"
+  },
+  "RESULTS": {
+    "bytes": 11316,
+    "sha256": "2fbdb11f2229c7954558c62572e152ee72455aa370e0c8156c440dcba93f79d5"
+  },
+  "final_gate": {
+    "bytes": 665,
+    "sha256": "56b99d734b6630878438ea5bb7cc44be9405054f61c11b9aba0d10221d446437"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 100,
+  "component": "binding_staging",
+  "elapsed_seconds": 22.453000000008615,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 27664384,
+  "reserved_seconds": 100,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"ACTUAL_METADATA_ONLY_PORTABLE_AND_MANIFEST_FORECAST\", \"current_members\": 69437, \"portable_bytes_before_owned_final\": 13320770, \"manifest_bytes_before_owned_final\": 15198405, \"reserved_owned_final_metadata_addition\": 1000000, \"existing_portable_cap\": 12000000, \"format_manifest_cap\": 20000000, \"scientific_values_read\": false}\r\n"
+}

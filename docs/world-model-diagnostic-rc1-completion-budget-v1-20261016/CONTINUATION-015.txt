@@ -1,0 +1,122 @@
+LATEST checkpoint015 supersedes014 current-status/accounting/next-check snapshots.
+Read this and any later exclusive continuation, exact LOCAL/started and recovery
+authority/publication/dispatch first. Human139+ bounded technical-recovery approval
+remains active, science and total468000GPU seconds unchanged.139 is the currently
+planned total, not a new arbitrary permanent cap. No successful parent may rerun.
+
+CURRENT RECOVERY OBSERVATION SUCCEEDED ONCE this scheduled wake: RECOVERYOBS017
+monitoring30/19.046999999991385s. No second scheduler/cluster query thiswake, no
+repeat R016/R015/older labels, no research/controller/environment changes.
+OBSERVER017.json2102B SHA
+ecd8307289cb433598ef71b8e60f9ee45980b7db3fd2c5f465c2722fadfd3717
+captured2026-10-16T14:22:39Z (17:22:39Cyprus) is HISTORICAL after capture:
+84ordinary grid parents accepted =66original0-65 +18recovery66-83. Replacement66
+raw317442 independently ACCEPTED/COMPLETED0:0,120allocationseconds. This verifies
+successful technical recovery of the formerly failed parent, not final-study
+acceptance. Index84/raw317480 RUNNING22s,gpu09.cluster PID874399/startticks10570334
+BOTH independently verified. NewSTOPabsent/faultsnone;39indices85-123 pending
+serially. Same317441/source69f73cd15a799fe19abce352f89c6a3e08feada3/newcontract
+4c4c9dbc36302d6089389ea411bfa92dca560849620b5718c52c293fd8554df3 unchanged.
+Terminal allattemptGPU48132,live22NOTfinal;40remainingmaxima+terminal192132<=468000.
+No scientific values/outcomes/quality/aggregates inspected. Never infer later
+current health, final allocation charges or an ETA from this snapshot.
+
+The prior13:49wake tool call was interrupted: exact LOCAL-RECOVERYOBS016.started
+2547B SHA7589f0b1ca28dd1feb1f59cca08712be2b0fa488e7f179ea7c8248adb70816fd
+and OBSERVER016.started216B SHA
+cf477d97172f0a52fc91eadf17031498518ca0bdb647d1ebb66f71bb1c7619f6
+survived; NO child success/failure receipt and NO original metering result.
+Native read-only process readback14:20:14.555966UTC found no python.exe matching
+the exact old operation/child command. It does NOT establish remote research
+state or why the tool was interrupted. Preserve both starts unchanged. Exclusive
+LOCAL-RECOVERYOBS016.json records RECONCILED_INTERRUPTED_READ_ONLY_OBSERVATION_
+OUTCOME_UNKNOWN, full charged30, returncodeNULL/elapsedNULL (not invented), no
+retry, no fabricated child receipt and no health/failure inference. R016 counts.
+No WSL/SSH/scheduler query was made to reconcile this local interruption.
+
+Local OBSINTERRUPT016 technical_fault15 timed out12.014999999999418s/return125/
+empty stdout before any disposition artifact survived. Source/LOCAL/error retained;
+no cause or execution-phase inference, no identical retry. NEW source-only final
+mapping test below independently rechecked exact saved R016 start hashes and full
+unknown-outcome charge. Production runner ambiguity guard remains unchanged;
+only the authenticated old read-only interruption was reconciled, not a research
+allocation, and all other unmatched starts remain stop conditions.
+
+Material final preparation: NEW recovery_suppliers_v1.py SOURCE-ONLY UNFROZEN/
+UNPUBLISHED,6048B SHA7a9c8a8d06a85f11b2470d26a49a6185d9ba8815df3bae54c5bf3a0e1db01881.
+Maps all124 ordinary logical parents uniquely: original0-65, recovery66-123;
+technical root0 remains each original accepted supplier. Strict139allocated
+terminal ledger includes11exact old allocations+3technical+67original grid
+(including failed66/79s)+58recovery. Separately retain all original unallocated
+cancelled placeholders. All128newer actual STARTED original controls must bind
+PID/ticks/node/time/raw/index/source; actual complete stage/receipt/runtime/root/
+storage/sourceCPU/publication/SSD authority remains separate. No main/analysis/
+scheduler/allocation permission provided and no claim real terminal reconciliation
+has occurred. Do not connect this helper alone to a running analysis or promote
+it as complete final integration.
+
+FINAL fixture001/RECOVERYSUPPLIERS001 implementation90/1.75s failed its native
+Path string assertion: correct returned Windows Path rendered backslashes while
+fixture expected Linux '/' literals. Original failed fixture/source/LOCAL retained;
+not a research source fault. NEW separate recovery_suppliers_tests_v2 normalizes
+ONLY fixture.as_posix, production library unchanged. FINALRECOVERYMAP002
+implementation30/1.437999999994645s passed new synthetic139allocations/128starts/
+124parentlocations,66preserved+58recovery maps, changed failure/live/missing/
+duplicate/allocated-group/nonboolean/invalid-root guards and AST3.6. No old suite
+or actual study payload/WSL/SSH/scheduler/SSD/model/physics calls by tests.
+ARTIFICIAL-RECOVERY-SUPPLIERS-002.json is the passing receipt; fixture001 is NOT
+a pass. These are artificial terminal data, not current actual completion.
+
+NEXT scheduled wake ONE NEWexclusive R018 or later, after exact current local
+lineage/published source/SSD identities and genuine EXISTING configured WSL-path
+availability, ONLY same completion_v1.local_v2 runner/current published observer:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30 C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -B -m wm_diag0_rc1_recovery_r1.observe R018
+BOTH executable paths exact. R016 started/interrupted/charged; R017 completed/
+charged. NEVER repeat either or older observations. Observe current317441, not
+old317180/317177 controllers. No immediate additional check. Unavailable local
+path/SSH/SSD is NOT research failure; stop affected work, retain failures, stay
+quiet on unchanged alreadyreported nonactionable access blockers. No unfunded
+diagnostics, WSL recreate/migrate/reinstall/config/security/credential changes.
+
+Exact current charges: implementation1365/2700,cluster_validation105/600,
+binding_staging855/1200,publication360/600,monitoring510/7200,native_SSD0/7200,
+technical_fault245/1200,handoff360/900,total3800/21600,remaining17800. Components
+remaining1335/495/345/240/6690/7200/955/540.17of240checks used223remain. All failures/
+interruption charged, no refunds/reset/regrant/transfer/extension/separate-reserve
+borrowing. Outer35700/hardstop2026-10-21T07:37:44Z unchanged. Keep routine ledger
+figures internal unless a limit threatens progress or needs a decision.
+
+New native fixture measured OLD nonmonitor bundle4451510B BEFORE last compact
+receipts/thischeckpoint, with12000B finite compact allowance; no fullstudy/allcopy/
+preparation/storage proof claimed. Its count excludes NEW RECOVERY-prefixed
+receipts and014 checkpoint already assigned prospectively to separate4MB repair
+reservation, never reclassifies old usage. All actual scientific/runtime/source/
+ops/package copies still counted in fresh whole-study proof before finalstage.
+Recovery local source/docs/receipts884978B before thischeckpoint, fourcopies plus
+TWOactual199449Bpackages3938810B BEFOREthischeckpoint, versus4MB repair bound.
+This compact checkpoint is under10000B, conservatively+40000ALLcopies, still fits.
+Old source/docs4.5MB*4 and total64MB, plus separate4MB recovery =68MB, unchanged
+overall13.5/14/44GB. Actual remaining-copy/source preparation proof MUST precede
+further source growth/publication; these subcaps are close, not an actual final
+whole-copy/volume gate. No deletion/compression/dedup or missing-copy discount.
+
+All014 missing actual final gates STILL apply: recovery-aware complete analysis
+writer/secondvalidator/usage/closedproof139integration; native preparation
+measurement producer; all runtime/everymember/new21retained canonical roots+
+futurefinal,aliases,root/copy/storage/sourceCPU/supplier/model/physical/transfer
+bindings; complete finite CPU supervisor/exactdispatch/submission/stage and dynamic
+closedrecord archive authorities; Linuxintegration/freeze/independentreview/commit/
+push/fullremote/newsmallSSD BEFORE finalCPUallocation; actual analysis/second
+validator/oncearchive/originalrootreadback/terminalCPU/postarchive/nativeSSDv3.
+inventory_v3/original8269B13f3d73aCPUprocessV2/cpu_schedule_v2/native_transfer_v3
+mandatory. No actual finalCPU/realanalysis/studyarchive/fullSSD or newpublication/
+package/modelrecopy thiswake. CPU3600/protectedconversion1800 unchanged. No parent
+scientific results/quality/aggregates until full independent study acceptance AND
+FINAL designatedSSDwhole/everymember. No new experiment/promotion/Pro question.
+
+Same30min monitor remains ACTIVE/history retained; prompt already requires latest
+exclusive continuation first, so no duplicate monitor/configuration is needed.
+Quiet on unchanged healthy/pending or alreadyreported nonactionable state; notify
+material fault/repair/resumption/completion/required action only. At240checks or
+hardstop stop affected work/reportonce/pauseSAME, never cancel healthy research;
+stop earlier only after complete final report/handoff and final SSD gate.

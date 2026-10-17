@@ -1,0 +1,797 @@
+{
+  "CPU_history": {
+    "cap": 13800,
+    "charged_before_analysis": 1436,
+    "final_analysis_reserved_seconds": 3600,
+    "full_future_seconds": 6836,
+    "unconsumed_conversion_reserved_seconds": 1800
+  },
+  "GPU_charged_seconds": 97360,
+  "active_head_seals": {
+    "0": {
+      "bytes": 1272,
+      "sha256": "85c08833815f82f57f0b7c6dd78c7b108480b9fb424ef26e28431614e00a1f35"
+    },
+    "1": {
+      "bytes": 1284,
+      "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+    },
+    "2": {
+      "bytes": 1270,
+      "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+    },
+    "3": {
+      "bytes": 1282,
+      "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+    }
+  },
+  "all_attempt_usage": {
+    "all_attempt_counts": {
+      "CEM_sequences": 27045000,
+      "DINO_predictor_calls": 629460,
+      "LeWM_predictor_calls": 241395,
+      "additional_parity_sequences": 176,
+      "bank_reforecast_sequences": 2080,
+      "encoded_frames": 112133,
+      "fit_frames": 1536,
+      "forecast_cost_API_operations": 90291,
+      "native_CEM_decisions": 3005,
+      "predicted_macro_sequence_transitions": 135236280,
+      "readout_fit_tasks": 6,
+      "validation_frames": 576
+    },
+    "baseline_encoded_frames_all_six_fits_and_failed_diagnostics": 2317,
+    "failed_helpers_and_inactive_old_heads_retained_and_charged": true,
+    "failed_original_grid66": {
+      "CEM_sequences": 297000,
+      "allocation_seconds": 79,
+      "bank_sequences": 16,
+      "macro_transitions": 1485080,
+      "module_counts": {
+        "action_encoder_calls": 5946,
+        "cost_api_calls": 991,
+        "encoded_frames": 2062,
+        "predictor_calls": 4955,
+        "proprio_encoder_calls": 0,
+        "visual_encoder_calls": 1998
+      },
+      "physical_counts": {
+        "Reacher_dm_steps": 5960,
+        "controller_actions": 2980,
+        "native_CEM_decisions": 33,
+        "world_resets": 49
+      },
+      "status": "FAILED125_RETAINED_NO_SEAL",
+      "usage_charged": "FULL_APPROVED_PARENT_MAXIMA_NOT_RETROSPECTIVE_MEASUREMENT"
+    },
+    "historical_DINO_baseline": {
+      "action_encoder_calls": 115,
+      "cost_api_calls": 37,
+      "encoded_frames": 1613,
+      "predictor_calls": 485,
+      "proprio_encoder_calls": 1018,
+      "visual_encoder_calls": 923
+    },
+    "historical_LeWM_baseline": {
+      "action_encoder_calls": 0,
+      "cost_api_calls": 0,
+      "encoded_frames": 704,
+      "predictor_calls": 0,
+      "proprio_encoder_calls": 0,
+      "visual_encoder_calls": 88
+    },
+    "original_LeWM_technical0_counts": "saved authenticated USAGE plus fixed native source arithmetic; not retrospective hooks",
+    "per_backbone_module_counts": {
+      "dinowm_noprop": {
+        "action_encoder_calls": 125914,
+        "cost_api_calls": 42012,
+        "encoded_frames": 9671,
+        "predictor_calls": 629460,
+        "proprio_encoder_calls": 134870,
+        "visual_encoder_calls": 8981
+      },
+      "lewm": {
+        "action_encoder_calls": 289674,
+        "cost_api_calls": 48279,
+        "encoded_frames": 102462,
+        "predictor_calls": 241395,
+        "proprio_encoder_calls": 0,
+        "visual_encoder_calls": 97686
+      }
+    },
+    "physical_caps_with_one_explicit_failed_parent": {
+      "PushT_controller_actions": 193440,
+      "PushT_integrator_steps": 1940800,
+      "Reacher_dm_steps": 392928,
+      "controller_actions": 389904,
+      "native_CEM_decisions": 4257,
+      "world_resets": 6451
+    },
+    "physical_work": {
+      "PushT_controller_actions": 166230,
+      "PushT_integrator_steps": 1668702,
+      "PushT_world_resets": 3201,
+      "Reacher_MuJoCo_integrator_steps": 340154,
+      "Reacher_dm_steps": 340154,
+      "controller_actions": 336652,
+      "native_CEM_decisions": 3005,
+      "world_resets": 6451
+    },
+    "retained_bank_initial_CEM_charged_once_to_original_failed_supplier": true,
+    "unchanged_caps": {
+      "CEM_sequences": 38313000,
+      "DINO_predictor_calls": 950760,
+      "LeWM_predictor_calls": 322095,
+      "additional_parity_sequences": 176,
+      "bank_reforecast_sequences": 2080,
+      "encoded_frames": 265360,
+      "fit_frames": 1536,
+      "forecast_cost_API_operations": 127851,
+      "native_CEM_decisions": 4257,
+      "predicted_macro_sequence_transitions": 191576280,
+      "readout_fit_tasks": 6,
+      "validation_frames": 576
+    }
+  },
+  "contract_sha256": "9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e",
+  "parent_output_seals": {
+    "WM-DIAG0-A2-v1:pusht:root-000|dinowm_noprop": {
+      "bytes": 25209,
+      "sha256": "85684771836724e0c0f8fa1b178d508a850af961f28c7c55fec0bdc8d371fb65"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-000|lewm": {
+      "bytes": 25077,
+      "sha256": "02a967cc1f360554ddfb27826f16a33f5abf4adeb342f26730825960cc6bee20"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-001|dinowm_noprop": {
+      "bytes": 24959,
+      "sha256": "9a0020b6f72be2e524fb7d874a57e2181f4cdc6efb1f35596cc476b9473ef294"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-001|lewm": {
+      "bytes": 24953,
+      "sha256": "384dff6f50ebef509058c637c1d03e6166013724c514c4569484fd9478a4b108"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-002|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "36266fbe43f23eb4d4970eca7bf2c3eb396a02ebcb54ead93894708fbe2c720e"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-002|lewm": {
+      "bytes": 24953,
+      "sha256": "7f6e4930620c8c112ed7bdceb593710670b9d756b7b3eb5aa4aaedb8fbc055a1"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-003|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "a246f8a103ee75b66905979c4dbd4d4ab57cec4e239c3a65e390b05ff3cb488b"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-003|lewm": {
+      "bytes": 24950,
+      "sha256": "ee274caf17ccdfb8bd48e210ed2d574e25d8220974f5c615cf33a1b9d6d888ac"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-004|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "5194681e3776efbd363482704da982b235807142080a19025ad3fb9f5fe9b24a"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-004|lewm": {
+      "bytes": 24953,
+      "sha256": "64269e16530265bab285c1151acd50b54ba28f76152ff3287e356ced1f1dcff8"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-005|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "5cd2c64672bfbbd95da9dfee99260b888a85119163fb3c131b6ad5540da68ff7"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-005|lewm": {
+      "bytes": 24953,
+      "sha256": "250e5bf56f1bc22f7bbde0e8d5763bf4650c98fa6ee61a8320339c30f50990bf"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-006|dinowm_noprop": {
+      "bytes": 24926,
+      "sha256": "410fafcd339e3023e2fb611b62ce3c500e7753bf42d98f5287d2c75498203283"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-006|lewm": {
+      "bytes": 24953,
+      "sha256": "fe2581451fdcadf6719d5644a557adeaad696db73c0fae8355084943aeda5e23"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-007|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "8f8f7b44220ee2fecf499f29cf504031467c9e25794d02b6491efca60aea0243"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-007|lewm": {
+      "bytes": 24953,
+      "sha256": "df8efef721fc5c84479df7bf28830dcc80a841dfe55e93bd4dc5295c59c2c0c0"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-008|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "6e45c43a910e81d300c5f97590b8621f286f4c6b4ede8589fb021498cbbe4c61"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-008|lewm": {
+      "bytes": 24953,
+      "sha256": "35d1e850933a8775eb8a643cf509f86cc63e2cd7a647893be6b0d4c391333062"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-009|dinowm_noprop": {
+      "bytes": 24926,
+      "sha256": "1f2b27592b35accb140b0f2bb5e9207f8d5792f921f6dfc0d36d6c25ffe44362"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-009|lewm": {
+      "bytes": 24953,
+      "sha256": "4e9646e8621e9c0d2bfb2d15365e8288d261a47d286cfbd407156d7000bb4d30"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-010|dinowm_noprop": {
+      "bytes": 24920,
+      "sha256": "cfb41ed1de4877e470dd6fc96e67c2556a76d9e601d315d23a1f54e317694022"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-010|lewm": {
+      "bytes": 24911,
+      "sha256": "89ad4ffb30a717a66fb88a9ba6136cd6ca45cdfaba8d8b857af588b2ea6f83c7"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-011|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "49311262160304c69fd13dde534722f9831f0c4fedf97acff346f3b5b63135eb"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-011|lewm": {
+      "bytes": 24953,
+      "sha256": "fc57fb6d5a06e86d9762509220b0124153417bb23f7690711c589447758aaaca"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-012|dinowm_noprop": {
+      "bytes": 24953,
+      "sha256": "bfb115f6035ec5d82ce54bc0c5a0a60fa0d63fa141fcda050e06583f20fe5a91"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-012|lewm": {
+      "bytes": 24911,
+      "sha256": "04850a89607c20d1a4a9fa9b5b9968ac57474d14a73f0baefe26dcf75aa23470"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-013|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "2d50646ee4b4f0266968c33111855094280e3fc247772ac66afffe735f4e619c"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-013|lewm": {
+      "bytes": 24953,
+      "sha256": "7730fd497c26bf5f14ae94e9e832dca4ae24b298a1d07013f9506bd1c7e499b4"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-014|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "e93e7a1f364b3232437a7e6f579b85690059f9d92fcfd43be740bf6658997b57"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-014|lewm": {
+      "bytes": 24953,
+      "sha256": "3ea17adba9a4a119900695786e6e3157529bf1f5be7f5ddacfe9febb5ffc5664"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-015|dinowm_noprop": {
+      "bytes": 24929,
+      "sha256": "7e22225c8b23958a06ec2f0ba18464fb1d1fb0d952f0646464205cbfb825ea0a"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-015|lewm": {
+      "bytes": 24953,
+      "sha256": "a68fa6b0d81fe86f8d7104f918b2ce3e39ec89bce23a42b7f2408f8330977b12"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-016|dinowm_noprop": {
+      "bytes": 24959,
+      "sha256": "325939ea3e0ae19d53e6bbdcb99349316dab878caccaae8dfea02c2ac9d23c43"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-016|lewm": {
+      "bytes": 24947,
+      "sha256": "5b2acd66a0398748266f5056909d3445be60a3b74b9252fd8bc18a2d63079d69"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-017|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "13cdbebf0c41aee5c6ceee9834d8ebd9d6600aa56ead9aebbd9254cdc2ddec40"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-017|lewm": {
+      "bytes": 24953,
+      "sha256": "545a66cbfd883809a5d619b746aaf917f103245484ad4708507aabb44ae1fa69"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-018|dinowm_noprop": {
+      "bytes": 24959,
+      "sha256": "f6d47e60f4b13a1c66e05b79d1d10aab8bfd49fc64266019f6d576efa5bc6522"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-018|lewm": {
+      "bytes": 24953,
+      "sha256": "44355c9f04863cb6ead15a2142e31370e887ad28f5175401a35c6337dc12ecb9"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-019|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "49fbee44246c9ac7401d5a647cea15d9e0f29584c958890c86044e5bdcc47e6b"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-019|lewm": {
+      "bytes": 24952,
+      "sha256": "b4ef61903c6b6795a5343d7060ff3b7658f4187ee9a921d5c492275b1863fb40"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-020|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "eb407b0e6e7b4422419d77dc673eef2f5a323e015b99bdeb90dda814d8ef31ed"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-020|lewm": {
+      "bytes": 24953,
+      "sha256": "7205700dd8d41ea28f98a07f5a3706ab075fd1c8aeac92ecf0b87a585c1ea747"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-021|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "2c4a04c31816d8554fff7567f687c0ac7fc2d0b5351e806d6c60db253bcca050"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-021|lewm": {
+      "bytes": 24953,
+      "sha256": "a083651adf4aa1458606c922e0389b1bc6c1b754231850b17fcb050ec829967b"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-022|dinowm_noprop": {
+      "bytes": 24959,
+      "sha256": "a63e9641e2c76b7e15de4f7170800401380b9a3a2709355eae8e971a9371ad14"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-022|lewm": {
+      "bytes": 24950,
+      "sha256": "6dc0a58b038dc0feed8e9bc7928c7804f5f84b765dac50871d6b903cb914e6c5"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-023|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "e30bdccf3220c8957b6e138e6ea65195f1dcaa50068530656f60067fd0e3f67d"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-023|lewm": {
+      "bytes": 24953,
+      "sha256": "b977151becfa7d01b2958acb2466ee15bc1fc5996d69d0b9b96df89eb249f5b3"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-024|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "3244fdbd802753a867c05f5b32e8c4338d2922df4afe3add5ec2090708db5d02"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-024|lewm": {
+      "bytes": 24953,
+      "sha256": "df69bcd8779b9217c4acecc4159c77183cd21a6a67c941ef97412a1a930ed5af"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-025|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "d8e18234bef4e690b170b985e4ccae77e1a50a05a677742f322b18862b036cb5"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-025|lewm": {
+      "bytes": 24953,
+      "sha256": "1fe34d7743d6d9a886ed02e0ccf54e86534098878f4a67e47c989aba5b84aa00"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-026|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "581bb1deb4e6efac3dd8418fceed1695100a2b73f9b16072129630873c535174"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-026|lewm": {
+      "bytes": 24953,
+      "sha256": "7cbfe171bab1ac6559166e77028e71b3e3472247d4cc62e7e95d3df20420ed0a"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-027|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "2c85382da97ea8c0b2d9ce1bffb7c035b2623740add21633177ff17a598e12ee"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-027|lewm": {
+      "bytes": 24953,
+      "sha256": "64531296f167329329226251568fdf34420ebe3664b8dc2f50485b0761dc7c0b"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-028|dinowm_noprop": {
+      "bytes": 24950,
+      "sha256": "a1e7d0f0a6974c50f248fa0ae4e791cc5ab58be173fafdcc285ac8f415736c35"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-028|lewm": {
+      "bytes": 24944,
+      "sha256": "1138f24fb380a0bf254feeed18dba2df6bcdcc691ddf816a2f241178a0966a19"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-029|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "ddc968c9e40ba010426d611abef97f4ee50986c72528fa588421eb219330da99"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-029|lewm": {
+      "bytes": 24953,
+      "sha256": "270f3132f60311a32fda7f0a3c18ee123cf6a0b0e8187a21edc8ba574ecb44a0"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-030|dinowm_noprop": {
+      "bytes": 24950,
+      "sha256": "4489eb7fd0a8da57092b0349cc842efa8fec0e1dc09aad4cd2a47b9388f878b5"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-030|lewm": {
+      "bytes": 24953,
+      "sha256": "77e98d7c81ced72eb5be07df89b7d7f1a38e267d75afd108bc51bfb82c390734"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-031|dinowm_noprop": {
+      "bytes": 24962,
+      "sha256": "fd6891879b02daf69ee54e6ec95ab45e58184aeb56647e37ce1a5dd47baa0459"
+    },
+    "WM-DIAG0-A2-v1:pusht:root-031|lewm": {
+      "bytes": 24953,
+      "sha256": "cc5cb24903653872e5c799a78783a359b99bd0f5b1588124a95849776991cf2d"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-000|dinowm_noprop": {
+      "bytes": 25166,
+      "sha256": "dab51d11fcfa66270dcfdce84ed8e2adfe129618ec1186af7975c683aae1d5e5"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-000|lewm": {
+      "bytes": 25154,
+      "sha256": "91a92fa2b8172353cb766c31169028ab1079611113120a4c5a3f4c168e3ccbc9"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-001|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "8a155edb99930c1da52d7bfbb3846c6162d3f12b8da065b21e6d0f0294aae2e7"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-001|lewm": {
+      "bytes": 25030,
+      "sha256": "2dfbab768d515b05c0739534c26ae59f2bb6f31e751589dbbca7765f51fd2ed0"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-002|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "12224316ae8fe7a1f2f8baab41311a6453ab3991a42ff447ce9a66cbd7e7e977"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-002|lewm": {
+      "bytes": 25033,
+      "sha256": "69cbd672dd980900b729b9079b4a1fcd50f867e8ff41f5ce5ac24ae28b8bdf42"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-003|dinowm_noprop": {
+      "bytes": 25018,
+      "sha256": "824cfe1fcb3e8c13c77ba4ccf2f6bdfaea2b79d4488102c9f5997db6c9027e19"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-003|lewm": {
+      "bytes": 25027,
+      "sha256": "7a49fd9675300a1caa7b6a04ba5058a451a92b7b4fff112e57cf1636efa854cb"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-004|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "dabd22d322e6f50b63b5845c3fbb1c98c93b8c53644ac6fb6ebacf038d99fd6b"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-004|lewm": {
+      "bytes": 25033,
+      "sha256": "09ae668a7870e1c883dde3823dd76f7f623f244065d5bd3d1f8d09452ab13a58"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-005|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "62935aeb67e7a882158bae28f497544d3183fdef85e8e968a23fc37bfb09d662"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-005|lewm": {
+      "bytes": 25033,
+      "sha256": "7419578cc42a26acbf1108a84e9717e848aa9bebcebd41ea54bdb0ba2b9acba1"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-006|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "e80e840b5c13f3984253526eef3606ab53500fd1930c475f30412f0d5628c6ea"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-006|lewm": {
+      "bytes": 25024,
+      "sha256": "fad3cd01c8d13aaefe80382631f171d35d76b1b8105339d77eedfc19265b449a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-007|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "e3b302d252f8f17d89796bc8ff68cb6a84457e80e98103c9e610545e6feb8a6f"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-007|lewm": {
+      "bytes": 25018,
+      "sha256": "ae24260cc14c29a9a0fdaf5c1d1ebe3235d7717e1cad48db8fd3b37d2741ae88"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-008|dinowm_noprop": {
+      "bytes": 25030,
+      "sha256": "5919edc01e7d31be179a28b3e0d2632a7e4d64794370acfac8b5876820926e61"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-008|lewm": {
+      "bytes": 25015,
+      "sha256": "93e20c0fbe51e002509cfd9388f4216dc9966052cca8f231b13b195710e696c5"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-009|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "9c98c220b733aacfa60e80e036a58f0f44e6e191dd791cddb88dd9487e7c781a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-009|lewm": {
+      "bytes": 25033,
+      "sha256": "638108bc0b96d1a9be89b02751814ad2b6a017a7e2968cfb20c9b954b5ca0183"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-010|dinowm_noprop": {
+      "bytes": 25027,
+      "sha256": "3881d4f67185199b08c43f3807b271d22222355f9b142fe6dad620e4dc046820"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-010|lewm": {
+      "bytes": 25033,
+      "sha256": "0fb098dd333c74e0a6af27d4b0c3dfc6ae9d0afb843b151fb6c7508339de4ec9"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-011|dinowm_noprop": {
+      "bytes": 25027,
+      "sha256": "fb8870e836cc38b88992c2b62e2f43218e794c87f3b88a2f81e8bd03c549e22a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-011|lewm": {
+      "bytes": 25033,
+      "sha256": "c6de07176c2dae25f2d711a8ef9664196ac895c8649a81b5dba0b78879ccbddb"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-012|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "6bd58424a03efbad52371a51452a81a7d34868f3e6d39adcc534ecf9ca2dd2b0"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-012|lewm": {
+      "bytes": 25030,
+      "sha256": "ca49b97ba258f58b00b5be74e3af3935109b935d3af10b94bca0251c62132f9d"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-013|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "6aaf941d94dbe76aff8a8c820c1b4d16cdf1e5611a7993e3f26d3a19402fca3c"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-013|lewm": {
+      "bytes": 25030,
+      "sha256": "5000f9598a8ba18c776d2fc16626d67136e635b3e6550b4e634a467721195315"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-014|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "43c6bbda7a6e773be68136b908b38cba0d4dc574eb801a660122041c9ffefaf2"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-014|lewm": {
+      "bytes": 25021,
+      "sha256": "7a5e54759aea46841c5b056766344c52501efa39e5d7b969da0d39974931cd12"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-015|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "c9f908d6d72df7a6d2d852c62d306a6f5f89aef6bb925c9bacd6ae7a42dfcd7b"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-015|lewm": {
+      "bytes": 25030,
+      "sha256": "878ecbfb7a5910e0750ef81cfe595dd63b5d7a438b5b85c02f6b577f2ab53547"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-016|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "9037c24411e96c600a5d64b693b63e19cd4da90d5327dcf1bf9f51cedd708bf7"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-016|lewm": {
+      "bytes": 25024,
+      "sha256": "ec6961cf0aeedafea765ead3b01e7c71dbf9f9c8b658fb7244f22f4337e278bc"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-017|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "ce353defdd2339a45805ff8114e549d6695ea00171ef19318c30835e29f5db8c"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-017|lewm": {
+      "bytes": 25033,
+      "sha256": "c8da4fbfe33f5a99a26b1f1c9f54d1ba53b64cd9e9204b5ab630f75cbdf9ecaf"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-018|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "ac95928488906a5ebc5c28cebae205dc7835c3484a3a7ae4c2592fad721a0583"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-018|lewm": {
+      "bytes": 25018,
+      "sha256": "4437c04a8e2a1f53d6affdf7053b7e2fc969b0e52dd6ddd8200d39a78b52a236"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-019|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "0b2091fa19274b027e5f01410806183a86eee86ca15e1507a78f40d513f008e8"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-019|lewm": {
+      "bytes": 25033,
+      "sha256": "c2cd4ebfafbad45f45f50bc23fb60fd9c62773f8b48eb63ac92d69776cd29a4a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-020|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "4984f25cfc0c6af36dbc2d2d4ca39feb469a0df433c6015bee697ca2df818372"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-020|lewm": {
+      "bytes": 25033,
+      "sha256": "5839fce619da18c55a646e8446f03cc66c0e9a252cf4df8ce73d6830aba044d3"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-021|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "ba934acceb0976db4f9705a45edeb380779f9d4d1700f2caf494f3e0662789d6"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-021|lewm": {
+      "bytes": 25033,
+      "sha256": "897e7b3d76b3a31d37332b987ea8907681403f36f298e2ea260170bcb00969be"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-022|dinowm_noprop": {
+      "bytes": 25036,
+      "sha256": "482856d4eb646eac2651e40228e9bdbe673d371f0e495c4aef2b2368a250a108"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-022|lewm": {
+      "bytes": 25033,
+      "sha256": "ef52a8833cd18957fdb0331e3d82a875eecad9fee3ccd13243d0ef687404e795"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-023|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "708e02b8ee2d534ab8982cd4b559d374fde297a32f27a2027c83bddb108a8c5e"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-023|lewm": {
+      "bytes": 25033,
+      "sha256": "159f1c15eadaf5ff85d6dc6ab20854b6a678471a31e29ec0520f2fe150fdde5d"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-024|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "3f4dafd7a5ae6632d2996624b895ffd9554db7412d4f6442d4ebd3d670b3b8b2"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-024|lewm": {
+      "bytes": 25027,
+      "sha256": "56701419548ae3f30b2fe29d2c6791ff5e0fe47c374a1e129c898ff0f1338855"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-025|dinowm_noprop": {
+      "bytes": 25036,
+      "sha256": "9ced244faa6e4b3274f074d0e6eb24d6b48b3cb780b5e9148f1c093999ff26f8"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-025|lewm": {
+      "bytes": 25033,
+      "sha256": "87fb085fb4b00efeb06a2673e59e1ffe903686a50d9e89d8fc23e61a91671738"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-026|dinowm_noprop": {
+      "bytes": 25027,
+      "sha256": "2457a7e45730f45f8378a804a809778a0a3d1b14cfe3c7f193e138fd04bcacd6"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-026|lewm": {
+      "bytes": 25030,
+      "sha256": "36e23166714fe4a12b498a7061e5363ea4a5426d9d7269484e25424a9037d56b"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-027|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "4ec803e40c0faf96ccf902760324deddf613ca9b40e7a68f5019b09fc127a333"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-027|lewm": {
+      "bytes": 25033,
+      "sha256": "904cca4d2ba0d6501052c75dfa3da73c3654ea0c1bbe69ca80d6bd8f445a0afa"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-028|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "ebd0999f414b8a8f31b3dbbef8efc8b44495be528ffb3da658c91bc6f12bfd5a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-028|lewm": {
+      "bytes": 25033,
+      "sha256": "d85323c2794e6cc0a758b1b2983168f9104c65c8e4458690d6b6a4f9802a4428"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-029|dinowm_noprop": {
+      "bytes": 25039,
+      "sha256": "a3c48348534cc48992eb8c1ebcc75fff70fb95c52ea39e137b16d138cfc87430"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-029|lewm": {
+      "bytes": 25033,
+      "sha256": "eaa355d738ee96949007d88ab99c83407be9b9e14494e34f469b155a2b75928a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-030|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "f1a3c80c67f7c1a6c9610d0439ea29ff80b614e048001092705a251fae459f8a"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-030|lewm": {
+      "bytes": 25018,
+      "sha256": "695b0065286255a5d5fbd8d15010e5d38ed4dc009da9b5380aaeea7447a53cd7"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-031|dinowm_noprop": {
+      "bytes": 25042,
+      "sha256": "35cc8ebcc5f3b96d25b0494a4ab92e5f06ee9779fd265a1aedb2adede9fa14ab"
+    },
+    "WM-DIAG0-A2-v1:reacher:root-031|lewm": {
+      "bytes": 25033,
+      "sha256": "91811cbe1b35e3218c7b037f867b7fc563ac7a833e7243b67ce27c3f2537c763"
+    }
+  },
+  "publication_requires_final_SSD_whole_and_every_member_verification": true,
+  "retained_head_proofs": [
+    {
+      "RC1_pointwise": false,
+      "acceptance_identity": {
+        "bytes": 400,
+        "sha256": "b5f2ea7e00f409ec7366cd8b198e4e6b15ab957e292db5d314a19bb8cc3a5031"
+      },
+      "accepted": true,
+      "active": true,
+      "backbone": "lewm",
+      "fit_frames": 256,
+      "fit_parent_count": 16,
+      "independent_equation_check_no_refit": true,
+      "model_forwards": 0,
+      "output_seal": {
+        "bytes": 1272,
+        "sha256": "85c08833815f82f57f0b7c6dd78c7b108480b9fb424ef26e28431614e00a1f35"
+      },
+      "setting": 0,
+      "task": "pusht",
+      "validation_frames": 96,
+      "validation_parent_count": 12
+    },
+    {
+      "RC1_pointwise": false,
+      "acceptance_identity": {
+        "bytes": 409,
+        "sha256": "b7e6b1056480a3f3b5aa3b8f34d9c3a3bdf884b0da19d73029943d1a24361f66"
+      },
+      "accepted": true,
+      "active": false,
+      "backbone": "dinowm_noprop",
+      "fit_frames": 256,
+      "fit_parent_count": 16,
+      "independent_equation_check_no_refit": true,
+      "model_forwards": 0,
+      "output_seal": {
+        "bytes": 1284,
+        "sha256": "658ae5afd55aea520d4b540264555cde10df20f32bc29dd6b258e09a7736f561"
+      },
+      "setting": 1,
+      "task": "pusht",
+      "validation_frames": 96,
+      "validation_parent_count": 12
+    },
+    {
+      "RC1_pointwise": false,
+      "acceptance_identity": {
+        "bytes": 402,
+        "sha256": "2ac6b3bad4ae4837b010dcbc90fbbb909ce8f3fb57c5336756c0fa8215c31f48"
+      },
+      "accepted": true,
+      "active": true,
+      "backbone": "lewm",
+      "fit_frames": 256,
+      "fit_parent_count": 16,
+      "independent_equation_check_no_refit": true,
+      "model_forwards": 0,
+      "output_seal": {
+        "bytes": 1270,
+        "sha256": "4c867cfcf7bb152407d9c1f10448afd1e8cb213add24b3a4d00a2b8a695ea938"
+      },
+      "setting": 2,
+      "task": "reacher",
+      "validation_frames": 96,
+      "validation_parent_count": 12
+    },
+    {
+      "RC1_pointwise": false,
+      "acceptance_identity": {
+        "bytes": 411,
+        "sha256": "e3076b1b5e6f475d9b983eec1df197e2e501c78ed02bf76b9585d134ec86376c"
+      },
+      "accepted": true,
+      "active": false,
+      "backbone": "dinowm_noprop",
+      "fit_frames": 256,
+      "fit_parent_count": 16,
+      "independent_equation_check_no_refit": true,
+      "model_forwards": 0,
+      "output_seal": {
+        "bytes": 1282,
+        "sha256": "b08a3f0c4a172ec8950a6dc761b00d73bb44aa7ad0632b71d7a99edfa095a098"
+      },
+      "setting": 3,
+      "task": "reacher",
+      "validation_frames": 96,
+      "validation_parent_count": 12
+    },
+    {
+      "RC1_pointwise": true,
+      "RC1_pointwise_route_independently_bound": true,
+      "acceptance_identity": {
+        "bytes": 848,
+        "sha256": "5a0c4b97fabb2139289c7a87492e130d9638114977a23a29a6edd08bb26015ef"
+      },
+      "accepted": true,
+      "active": true,
+      "backbone": "dinowm_noprop",
+      "fit_frames": 256,
+      "fit_parent_count": 16,
+      "independent_equation_check_no_refit": true,
+      "model_forwards": 0,
+      "original_heads_preserved": true,
+      "output_seal": {
+        "bytes": 1284,
+        "sha256": "df309a97f9935cbab95323687fbcdd089a7c37d3e8411c6cbf7f00eeb3744d85"
+      },
+      "setting": 1,
+      "task": "pusht",
+      "validation_frames": 96,
+      "validation_parent_count": 12,
+      "validation_used_for_tuning": false
+    },
+    {
+      "RC1_pointwise": true,
+      "RC1_pointwise_route_independently_bound": true,
+      "acceptance_identity": {
+        "bytes": 850,
+        "sha256": "0f782d54c8decdfa4931c60ce88fda41faed452737432fb91217044a522941b4"
+      },
+      "accepted": true,
+      "active": true,
+      "backbone": "dinowm_noprop",
+      "fit_frames": 256,
+      "fit_parent_count": 16,
+      "independent_equation_check_no_refit": true,
+      "model_forwards": 0,
+      "original_heads_preserved": true,
+      "output_seal": {
+        "bytes": 1282,
+        "sha256": "571bbcb066c978ab922bc05b43b67fd5616c7559d2b8e23656a9fea52c64b792"
+      },
+      "setting": 3,
+      "task": "reacher",
+      "validation_frames": 96,
+      "validation_parent_count": 12,
+      "validation_used_for_tuning": false
+    }
+  ],
+  "source_acceptance": {
+    "bytes": 48062,
+    "sha256": "ad247616d6941defc0895ac444fb0d21262abf15e3dcf600d0260f1566cca154"
+  },
+  "status": "ALL120_SOURCES_6_RETAINED_FITS_4_ACTIVE_HEADS_128_PARENTS_INDEPENDENTLY_ACCEPTED"
+}

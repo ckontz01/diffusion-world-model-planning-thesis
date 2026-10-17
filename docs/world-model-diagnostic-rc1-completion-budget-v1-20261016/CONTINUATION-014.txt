@@ -1,0 +1,160 @@
+LATEST HUMAN-APPROVED RECOVERY checkpoint014 supersedes013 and ALL older current
+controller, 138-attempt/no-replacement-authority, next-observation and accounting
+snapshots. Read this, recovery AUTHORITY-001, SSD-VERIFIED-001, STAGE001,
+OBSERVER015, RECOVERY-HANDOFF-001 and exact latest LOCAL/started receipts first.
+
+Direct human instruction: "Then fix it and continue. I approve 139+ total GPU
+attempts and the bounded extra work needed to replace the failed run. Keep the
+science and total GPU-time limit unchanged, and don't rerun successful runs."
+Exact original typography is retained in recovery AUTHORITY-001. This is genuine
+new authority, not a Pro grant or reinterpretation of the old cap. This concrete
+recovery commits ONE replacement plus57 neverallocated parents:139 planned total.
+139 is this plan's failure-inclusive projection, NOT a new arbitrary permanent
+ceiling requiring another human decision merely because a diagnosed technical
+recovery needs another attempt. Any further action must be diagnosed, finitely
+specified, fit unchanged total468000GPU seconds and whole resource/storage caps,
+preserve successes/failures, and remain within human-authorized technical scope;
+no unlimited retries, changed science, blind resubmission or ambiguity bypass.
+
+ACTUAL RECOVERY DISPATCHED AND FIRST LIVE CONTROLLER VERIFIED. New exclusive run:
+/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-grid-recovery-r1
+Source69f73cd15a799fe19abce352f89c6a3e08feada3 pushed/fullremoteverified. New contract
+128827B SHA4c4c9dbc36302d6089389ea411bfa92dca560849620b5718c52c293fd8554df3.
+Held no-requeue serial array317441, ORIGINAL indices66-123%1, released only after
+all source/SSD/reconciliation/storage gates.58 jobs, each3600s/4CPU8GiB/one exact
+RTX6000Ada gpu09, a6000/normal-a6000. NEVER restage/resubmit/restart this started
+array or rerun accepted original indices0-65. Study science/worker/validator and
+all old frozen bytes remain unchanged. Only supervisor resource scanning,
+traceback retention and owned-group cleanup are separately repaired.
+
+OBSERVER015 is HISTORICAL technical snapshot2026-10-16T13:44:07Z (16:44:07Cyprus):
+66original accepted grid parents preserved, replacement66/raw317442 RUNNING21s,
+gpu09.cluster PID269273/startticks10339118 BOTH independently verified. New STOP
+absent/faultsnone.57neverstarted67-123 pending JobArrayTaskLimit, correct serial
+queue. No accepted recovery parent at that snapshot. Never infer later current
+health or an ETA from it. Total terminal allattemptGPU45902; live21NOTfinal.
+Full remaining58 maxima+terminal254702<=468000, CPU1436/6836 unchanged. Research
+scientific values/quality/outcomes/aggregates were NOT inspected. No successful
+run was recomputed. Do NOT make a second immediate scheduler query to restate it.
+
+NEXT SCHEDULED WAKE ONLY: read exact latest lineage/source/receipt/LOCAL/started
+and actual existing D:/WSL/Thesis-Ubuntu/ext4.vhdx availability, then ONE new
+exclusive R016 or later observation using SAME runner, NEW published observer:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30 C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe -B -m wm_diag0_rc1_recovery_r1.observe R016
+Labels OBSERVER015 and LOCAL-RECOVERYOBS015 already completed/count/charge. Never
+repeat them, R003/R006/R010/R011/R012/R013/R014, legacy observations or ambiguous
+starts. Observe317441, not obsolete317180/317177 controllers. Preserve complete
+new diagnostic failures without inferring experiment failure. Current entry
+requires published working-source identity table, exact new contract/dispatch,
+all58 logical task coverage, allocation/counter bounds, original66 acceptance,
+new acceptance/source/raw/seal chain and BOTH node-local PID/ticks for live work.
+ExactInvalidID means purged queue ONLY with complete terminal logical coverage;
+cancelled unallocated placeholders are NOT success or allocated raw records.
+An old/local path outage is not cluster failure; do not recreate/migrate/reinstall
+WSL or change disk/path/config/env/permissions/security/credentials. Stop affected
+observation/staging/SSD work while unavailable; quiet on unchanged alreadyreported
+nonactionable blockers. No unfunded diagnostic retries or substitute transport.
+
+Original failure remains immutable: old317180 index66/raw317411 FAILED125:0/79GPU
+seconds, incomplete/unsealed159outputfiles3515756B+2tmp6856B, original STOP and
+pending cancellation retained. Old67-123 had no allocation and were never
+started. All14pregrid+67oldgrid=81allocated attempts reconciled. Original failed
+supervisor PID/ticks could not previously be verified by login SSH; new entry
+checks the ACTUAL gpu09 /proc PID+ticks BEFORE ANY scientific child and refuses
+if the recorded old process still exists. No signal to any preexisting process.
+
+Repair: original is_file()/stat() scan has a real disappearance race. NEW tiny
+native fixture reproduces it; new no-follow single-stat guard ignores ONLY
+vanished own temporary entries, retains missing required-root/permission/special
+file failures. Traceback and owned group cleanup are retained even after leader
+exit. Actual original vanished path/traceback was NOT recovered, so evidence is
+consistent with the race, not retrospective proof of that precise pathname.
+NEW actual Linux tiny fixture passed3140mutable-temp samples and early-exited
+leader/owned-descendant cleanup with original PID/ticks; after-state absent.
+Zero research/scheduler/GPU/model/physics calls by that fixture. Preserve new
+campaign-v4-rc1-grid-recovery-r1-artificial-ONE whole root<=1MB and ALL older
+artificial roots. Old four-final-artificial4MB remains, plus this1MB. New actual
+canonical recovery root adds another retained lineage; future final layout/root/
+alias/supplier bindings MUST include BOTH, not obsolete19-only layout.
+
+First BINDING001 failed because installed sacct rejects --array. Original started,
+failure/raw stderr/source preserved, no research mutation. Separate inspect_v2
+binds EXACT one zero-time/unassigned CANCELLED [67-123%1] placeholder plus67
+individual terminal rows to complete124 logical coverage; original raw rows saved
+losslessly and no allocated IDs invented. Original published guard unchanged.
+NEW negative fixtures reject group allocation/time/node/range/missing records.
+Official current Slurm docs describe --array, but this installed version lacks
+it; don't repeat an unsupported command or assume latest docs match local CLI.
+
+BINDING002 independently authenticated66accepted grid artifacts13165members,
+four technical suppliers, all14historical allocated attempts/failures/placeholders,
+all staged source, SIF/twoLeWMobjects and existing runtime manifest21643members/
+1658213811B. Full runtime UNMANIFESTED content is NOT claimed authenticated; full
+venv2.1GB reservation remains. Stage repeated reconciliation immediately before
+new submission; no all-study/final-storage acceptance claim. Fresh conservative
+fullfuture storage: live12297506800/archive12797506800/inclusive43172359112B, all
+logical current study children4270261933B, full future remaining27LeWM+31DINO,
+logs/finalsource/controls/68MBaux/5MBartif/sourcecopy plus fullvenv/SIF/LeWM,
+500MBoverhead/TWO14GBcopies/prep2874852312 counted. No compression/dedup/deletion
+or omitted-copy discount. Actual final whole/root/copy proof still mandatory.
+
+Human-authorized bounded extra FAILED-parent work is conservatively one FULL
+ordinary Reacher-LeWM parent:1998visual/2062encoded/5946action/4955predictor/991API,
+49worldreset/2980controller/5960ReacherDM/33CEM/297000CEMseq/16bank/1485080macro.
+New failureinclusive cumulative maxima explicitly recorded: world6451,
+controller389904,ReacherDM392928,CEM4257,seq38313000,bank2080,macro191576280,
+LeWMpredictor322095,combinedAPI127851. DINO/science/fits/sourcegen unchanged;
+encoded future145841 stays<=265360. Old failure charged, not erased/refunded.
+No automatic research retries/requeue and no successful recomputation.
+
+New source-only SSD delta199449B/21members WHOLE+EVERYMEMBER VERIFIED:
+D:/THESIS-BACKUPS/world-model-diagnostic-rc1-recovery-r1-20261016/recovery-source-69f73cd15a799fe19abce352f89c6a3e08feada3.zip
+WholeSHA6d9ed2e2fa362dc35f609bc2166790274ac9bdbab72854bcbebf40ab4b610c00.
+Correct THESIS_SSD GUID/healthy/free309143965696B, matching host/SSD receipts.
+NEVER rearchive/recopy/republish this or older completed source packages/models.
+Actual final study archive/SSD gate has NOT passed. No new source mutation after
+this publication; separately version future technical repairs if diagnosed.
+
+Time authority/components/outer35700/hardstop2026-10-21T07:37:44Z unchanged. ONLY
+completion_v1.local_v2 runner. Exact current charges INCLUDING30handoff:
+implementation1245/2700,cluster_validation105/600,binding_staging855/1200,
+publication360/600,monitoring450/7200,native_SSD0/7200,technical_fault230/1200,
+handoff360/900,total3605/21600,remaining17995. Components remaining
+1455/495/345/240/6750/7200/970/540.15of240checks used225remain. No transfer/refund/
+reset/regrant/extension/separate metadata reserve borrowing. Read actual receipts
+before any action. Routine ledger details remain internal unless limit threatens
+progress or needs a decision. New finite recovery auxiliary4MB ALLlogicalcopies
+is explicit extra repair work, separate from unchanged old64MB reservation;
+combined68MB inside same13.5/14/44GB overall proof. No old usage recategorized or
+discounted. Local recovery sources/docs and NEW RECOVERY-prefixed LOCAL receipts
+are in new4MB reservation; historical old receipts unchanged. All actual logical
+copies, remote source/controls, two package copies and remaining artifacts must
+fit, not only host file arithmetic. RECOVERY-HANDOFF-001 audits actual local/new
+copies prospectively. Its original local-only V1 audit refused its own pending
+reservation; failed source/LOCAL/30charge retained. Separate V2 excludes ONLY its
+authenticated current30reservation while rejecting all other ambiguous starts;
+failed V1 charge remains included. No extra remote/research query or mutation.
+No native preparation whole-copy producer yet.
+
+Continue bounded final implementation while recovery runs. Existing finalV1/V2
+are still UNFROZEN/UNPUBLISHED and NOT recovery-supplier aware. Need new accepted
+parent resolver: original0-65 plus recovery66-123, all4technical/120sources/6fits/
+4activeheads/128parents, failure-inclusive139attempts and original/failed sourceCPU,
+new physical/call maxima; actual whole runtime/member/all roots/aliases/root/copy/
+transfer proofs including new recovery and artificial roots; native preparation
+measurement producer; complete CPU supervisor/exactdispatch/staging/final authority
+and dynamicclosedrecord archive pipeline; actual analysis/secondvalidator/once
+archive/originalreadback/terminalCPU/postarchive/nativeSSDv3; Linuxintegration,
+freeze/independentreview/commit/push/fullremote/newsmallSSD BEFORE finalCPUallocation.
+inventory_v3/original8269B13f3d73aCPUprocessV2/cpu_schedule_v2/native_transfer_v3
+mandatory. CPU final3600/conversion1800 untouched. No old132success/sixrootfinalizer.
+No actual finalCPU/realanalysis/studyarchive/fullSSD/results/quality inspected.
+Parent results ONLY after complete independent acceptance AND FINAL designatedSSD
+whole/everymember. Preserve all failure/partial/STOP/artificial/runtime/source/model
+evidence. No new scientific experiment/promotion/Pro resource question.
+
+Keep SAME30-minute monitor ACTIVE/history, no duplicate/cron/sleep loop. Quiet on
+unchanged healthy/pending or alreadyreported nonactionable state. Report meaningful
+fault/repair/resumption/completion/required decision only. Stop affected work and
+pause SAME at240checks/120h hardstop, never cancel healthy research; stop earlier
+only after complete required final report/handoff and final designatedSSD gate.

@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 170,
+  "component": "cluster_validation",
+  "elapsed_seconds": 14.96899999998277,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 31019008,
+  "reserved_seconds": 170,
+  "returncode": 1,
+  "status": "CHILD_NONZERO",
+  "stdout": "Traceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_close_v1\\integration.py\", line 102, in <module>\r\n    if __name__=='__main__':main()\r\n                            ^^^^^^\r\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_close_v1\\integration.py\", line 100, in main\r\n    result=call('LINUX-FINAL001'.replace('-',''),CODE,{'members':{n:base64.b64encode(b).decode() for n,b in members.items()},'identities':ids},seconds=150)\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_close_v1\\transport_v2.py\", line 37, in call\r\n    raise RuntimeError('remote diagnostic retained; no blind retry')\r\nRuntimeError: remote diagnostic retained; no blind retry\r\n"
+}

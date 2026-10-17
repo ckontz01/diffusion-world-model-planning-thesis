@@ -1,0 +1,14 @@
+{
+  "archive": "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\docs\\world-model-diagnostic-rc1-final-close-v1-20261017\\artificial-results-handoff-001\\synthetic-SSD\\SYNTHETIC-NOT-STUDY.tar",
+  "contract": {
+    "bytes": 1,
+    "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "source_commit": "SYNTHETIC-NOT-PUBLISHED",
+  "status": "COMPLETE_STUDY_INDEPENDENT_ACCEPTANCE_AND_FINAL_DESIGNATED_SSD_WHOLE_EVERY_MEMBER_GATE_PASSED",
+  "terminal_CPU_job": "SYNTHETIC-NOT-SCHEDULER",
+  "whole": {
+    "bytes": 0,
+    "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  }
+}

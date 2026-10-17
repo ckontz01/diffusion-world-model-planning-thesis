@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 7200,
+  "component": "native_SSD",
+  "elapsed_seconds": 511.81200000000536,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 278695936,
+  "reserved_seconds": 7200,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"COMPLETE_STUDY_INDEPENDENT_ACCEPTANCE_AND_FINAL_DESIGNATED_SSD_WHOLE_EVERY_MEMBER_GATE_PASSED\", \"source\": {\"bytes\": 14017, \"sha256\": \"46f75c53a350da1e2d4a5d46b9bf3575ebf63f923d37a304f7a3091f23bc2225\"}, \"contract\": {\"bytes\": 197192, \"sha256\": \"9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e\"}, \"source_commit\": \"8d6c99af43774ecc403f93343f0555af5de5e37c\", \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-rc1-final-20261016\\\\final-study.tar\", \"whole\": {\"bytes\": 11299964928, \"sha256\": \"8a759b37b3b6d90e034e163e84b8ac24d955dba6b212d4c70d10c6a5dee7deda\"}, \"manifest\": {\"bytes\": 15402821, \"sha256\": \"d3bae25c249c88dbfb891308512a1cf06415143f4bae944d965adcf4a15be801\"}, \"portable\": {\"bytes\": 13500183, \"sha256\": \"3d959a9f5d4fc877a53f7d135cccbbb6a74cfd9d1337d99496ddc2d201f27227\"}, \"terminal_CPU_job\": \"317736\", \"terminal_CPU_seconds\": 757, \"first_sidecar\": {\"bytes\": 127721, \"sha256\": \"d66d5021e6a21e12c2e54a013a40b391fb80b93812a7e8d082d828715e2a07de\"}, \"second_sidecar\": {\"bytes\": 2991, \"sha256\": \"38c3d47fdad2e9bc5fa860e583a04b3844db703f3f34586ad366cb8e2c1cd9cf\"}, \"second_sidecar_remote_readback\": {\"status\": \"SECOND_SIDECAR_REMOTE_WHOLE_BYTES_VERIFIED\", \"identity\": {\"bytes\": 2991, \"sha256\": \"38c3d47fdad2e9bc5fa860e583a04b3844db703f3f34586ad366cb8e2c1cd9cf\"}}, \"no_third_full_archive_copy\": true, \"scientific_values_read_before_gate\": false, \"parents\": 128, \"ordinary_grid_runs\": 124, \"source_roots\": 120, \"retained_fits\": 6, \"active_heads\": 4, \"all_attempts\": 139}\r\n"
+}

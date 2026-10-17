@@ -1,0 +1,62 @@
+Checkpoint021 supersedes020 current-phase/next-check snapshots. Read020 and
+later exclusive receipts for complete source/publication/authority details.
+Same direct human request: complete final analysis, independent validation,
+designated SSD backup and GitHub results handoff. No engineering budget requests
+or successful research reruns. Exact AUTHORITY-002 remains active.
+
+Actual final CPU job317736, dispatched ONCE by STAGE002, completed BOTH scientific
+writer and independent complete second-pass validation. CPUSTATUS003 and004
+authenticate PHASE-analysis, PHASE-independent_acceptance and ANALYSIS-CLOSED
+702B SHA096885e8df870ecfb14890dde8076f1bb318f5b65d92c1ff1e539956c31d9e0f.
+Writer+validator owned groups/logs are closed. The archive child is in progress.
+CPUSTATUS004 at2026-10-17T11:00:23Z: exact317736 RUNNING448s/4CPU/gpu02. This is
+historical snapshot only, NOT later health/terminal success or final SSD proof.
+No scientific results/quality/outcomes/aggregates read by parent. Never submit
+another CPU job, repeat stage/release, rerun successful writer/validator or
+recreate an existing archive/partial. Reconcile any failure exactly first.
+
+Frozen197192B FINAL-CONTRACT-002 SHA9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e,
+source8d6c99af43774ecc403f93343f0555af5de5e37c/fullremote/sourceSSDdelta verified.
+All oldsource/success/failure/partial/STOP/artificial evidence retained, exact
+science/runtime/root/copy/139attempt accounting gates remain. Completed124GPU
+runs require no more recovery-array queries. Mandatory finalarchive onecreate,
+whole/everymember/original/rootreadback and nativeTransferV3 remain unchanged.
+
+NEXT after latest LOCAL/started/existing configured WSLpath: one new exclusive
+cpu_status_v1 technical check only for actual job317736, no scientificpayloads.
+When actualCPU COMPLETED0:0 + SUPERVISOR-CLOSED: finish terminal ONCE obtains
+TERMINALCPU001; then finish transfer ONCE through existing nativeWindows route
+to exacthealthyTHESIS_SSDGUID/>=40GiBfree, directstream/no thirdfullarchive,
+whole/everymember/portable readback, both postarchive sidecar controls. Only
+matching host+SSD FINAL-SSD-VERIFIED permits finish results/scientificaccess.
+Preserve any partials and diagnose; never repeat an ambiguous started label.
+
+Current runner ONLY wm_diag0_rc1_close_v1.local_v3 UNIQUE COMPONENT SECONDS
+fullNativePython -B -m FIXED_REVIEWED_MODULE; BOTH fullNativePython tokens are
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.
+All historical charges/sources stay intact; engineering handled internally.
+
+New native postanalysis handoff helpers, NOT CPUscience edits:
+report_v1 gates on actual finalSSD/results-release, reports ALL four settings,
+fixedcontrasts/cellintervals/native+hindsight/readoutquality/full limitations.
+Explicitly distinguishes128task/backbone evaluations from64diagnostic source
+parents shared across pairedbackbones. publish_results_v1 gates same actual
+receipts, exactsealedJSON/rawGitbytes, explicitNULpathselection, preserves
+unrelatedstagedwork, push/fullremote, new small cleanPro reportSSDZIP and separate
+postarchive-native-test-evidenceZIP (never re-copy fullstudy/source/modelpackages).
+No new scientific computation/contrasts introduced by report formatting.
+
+ARTIFICIAL-RESULTS-HANDOFF-001 tiny ordinarynative syntheticreport and localGit
+NULpath/isolation regression PASSED; NO actualresearch/network/SSDreads or gates
+claimed. The deliberate nested git-fixture is retained whole as opaque newSSD
+test evidence, never imported as Git submodule/history. Other tinytest files
+remain under clearly ARTIFICIAL directory. Existing tiny.tar stays Git-ignored
+and already preserved in actual sourceSSD/finalstagedfixture; noforceadd/ignore
+or persistentconfig changes. Newpublisher subsequent evidence-packaging changes
+are metadata-only; original passingtest/source identities retained.
+
+After finalSSDgate: finish results, inspect completeactualJSON, report_v1 then
+independent parent accuracy/coverage review, publish_results_v1 explicit-path
+commit/push/fullremote. Finalreport/results URLs and verifiedSSD location are
+the human handoff. Pause SAME monitor/history only after completed handoff+gate.
+No automatic Pro message, newexperiment/promotion, newmonitor/cron/sleep loop.

@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 60,
+  "component": "implementation",
+  "elapsed_seconds": 8.34399999998277,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 232677376,
+  "reserved_seconds": 60,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"NATIVE_PREPARATION_ALL_ENUMERATED_LOGICAL_COPIES_MEASURED\", \"actual_logical_bytes\": 1336789067, \"full_future_preparation_bytes\": 2954852312, \"roots\": 26}\r\n"
+}

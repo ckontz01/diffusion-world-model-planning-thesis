@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 30,
+  "component": "implementation",
+  "elapsed_seconds": 1.312000000005355,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 26185728,
+  "reserved_seconds": 30,
+  "returncode": 1,
+  "status": "CHILD_NONZERO",
+  "stdout": "Traceback (most recent call last):\r\n  File \"<frozen runpy>\", line 198, in _run_module_as_main\r\n  File \"<frozen runpy>\", line 88, in _run_code\r\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_close_v1\\embedded_test_v4.py\", line 41, in <module>\r\n    if __name__=='__main__':main()\r\n                            ^^^^^^\r\n  File \"C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\wm_diag0_rc1_close_v1\\embedded_test_v4.py\", line 18, in main\r\n    scope={};exec(compile(prefix,'<actual-reviewed-embedded-prefix>','exec'),scope)\r\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"<actual-reviewed-embedded-prefix>\", line 1, in <module>\r\nModuleNotFoundError: No module named 'resource'\r\n"
+}

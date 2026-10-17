@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 200,
+  "component": "publication",
+  "elapsed_seconds": 15.203000000008615,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 234930176,
+  "reserved_seconds": 200,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "To https://github.com/ckontz01/diffusion-world-model-planning-thesis.git\n   11e21c6..8d6c99a  HEAD -> world-model-diagnostic-preparation-20261004\n{\"status\": \"FINALIZER_SOURCE_PUBLISHED_FULL_REMOTE_AND_DESIGNATED_SSD_WHOLE_EVERY_MEMBER_VERIFIED\", \"source_commit\": \"8d6c99af43774ecc403f93343f0555af5de5e37c\", \"remote_full_hash\": \"8d6c99af43774ecc403f93343f0555af5de5e37c\", \"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-rc1-final-close-v1-20261017\\\\finalizer-delta-8d6c99af43774ecc403f93343f0555af5de5e37c.zip\", \"whole\": {\"bytes\": 545595, \"sha256\": \"38deee4c61ba6d3288f36239eacd90e4b82df6897353afad3f8c034c1b7f7060\"}, \"volume\": {\"FileSystemLabel\": \"THESIS_SSD\", \"UniqueId\": \"\\\\\\\\?\\\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\\\\", \"SizeRemaining\": 309142441984, \"HealthStatus\": \"Healthy\"}, \"verified_delta_members\": 38, \"contract\": {\"bytes\": 197192, \"sha256\": \"9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e\"}, \"publication_anchor\": {\"human_authority\": {\"bytes\": 1564, \"sha256\": \"574da2657f65ed67d4c50a7d35c0dfc9b624d23c7f1fba147c87c1a4c3ff6388\"}, \"source_members_sha256\": \"651ec96d6ca07c57c73f49ad2163877f804a720a355d4dfa99f5725292ee64c1\"}, \"verified_parent_source_SSD\": {\"archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-rc1-final-close-v1-20261017\\\\finalizer-source-11e21c69c124a5e64ada0778821105f31a542c6c.zip\", \"whole\": {\"bytes\": 1266400, \"sha256\": \"f6c1968084f4c5af9951d44b55c188b006cd5d59ae9cb2cdade8897b3c55b0aa\"}, \"source_commit\": \"11e21c69c124a5e64ada0778821105f31a542c6c\"}, \"repository_ignored_tiny_fixture_preserved_in_SSD_not_force_added\": \"docs/world-model-diagnostic-rc1-final-close-v1-20261017/artificial-native-finish-001/tiny.tar\", \"actual_study_SSD_gate\": false, \"old_source_package_recopied\": false}\r\n"
+}

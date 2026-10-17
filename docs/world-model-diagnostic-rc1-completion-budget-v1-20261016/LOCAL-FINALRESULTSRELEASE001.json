@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 150,
+  "component": "handoff",
+  "elapsed_seconds": 4.469000000011874,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 31354880,
+  "reserved_seconds": 150,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"COMPLETE_VALIDATED_RESULTS_RELEASED_FOR_REPORT_AND_GITHUB\"}\r\n"
+}

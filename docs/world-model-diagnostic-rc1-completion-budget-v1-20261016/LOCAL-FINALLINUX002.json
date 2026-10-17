@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 170,
+  "component": "cluster_validation",
+  "elapsed_seconds": 13.78200000000652,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 31588352,
+  "reserved_seconds": 170,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"ACTUAL_LINUX_NEW_RECOVERY_FINAL_IMPORT_OWNED_CHILDREN_CLOSED139_ONCE_ARCHIVE_ORIGINAL_READBACK_PASSED\", \"actual_analysis\": false, \"new_research_allocations\": 0}\r\n"
+}

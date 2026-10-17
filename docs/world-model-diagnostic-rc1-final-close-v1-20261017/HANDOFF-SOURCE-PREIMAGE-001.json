@@ -1,0 +1,20 @@
+{
+  "current_publisher": {
+    "bytes": 8394,
+    "sha256": "12113a64fab90bcf4ab8cddf2128a280afa0d5f0b4a1648f15cbac1368546e01"
+  },
+  "new_report": {
+    "bytes": 7111,
+    "sha256": "78fc03b21ac2acf566af20bb01b72bdb217fa5b90d4cf856d7a89909ec77067a"
+  },
+  "scientific_inputs_estimator_or_values_changed": false,
+  "status": "EXACT_TESTED_HELPER_PREIMAGE_PRESERVED_NEW_REPORT_V2_SCOPE_CLARIFICATION_ONLY",
+  "tested_publisher": {
+    "bytes": 6648,
+    "sha256": "f9f82108d19b89d551c787d2d6bd6e6e2575ccb57dcf7f2e1532d3818ce9c4a7"
+  },
+  "tested_report": {
+    "bytes": 6865,
+    "sha256": "fd875a4d6ed1a1f7a71d3e4175ceae8591a749e40d6460fc5edcd34f5056eced"
+  }
+}

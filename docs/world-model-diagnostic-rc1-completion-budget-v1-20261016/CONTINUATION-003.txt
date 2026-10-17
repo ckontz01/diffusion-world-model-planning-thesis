@@ -1,0 +1,157 @@
+Checkpoint003 supersedes prior accounting/preparation snapshots only. Direct
+human21300increase/35700total approval and all fixed science/GPU/resource/data/
+security/SSD gates remain unchanged. Same active30min monitor/history retained.
+Only active operation runner: wm_diag0_rc1_completion_v1.local_v2. No old runner,
+refund, charge rewrite, silent transfer, automatic extension or research retry.
+
+ONE new scheduled technical OBSERVE-R002 completed16.062000000005355s within30s
+full reservation. OBSERVE-R002 SHA256
+b71f85361c1b6b189fb67dec141d4946ac00cec3e823289658a7a93134362267.
+This is a HISTORICAL snapshot, NOT current health proof:52ordinary parents0-51
+independently accepted; index52/raw317252 RUNNING328s, gpu09.cluster PID207094/
+startticks8361167 BOTH independently verified; STOPabsent/faultsnone. Same frozen
+317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0 and original contract.
+TerminalallattemptGPU30610; live328NOTfinal; full72remainingmaxima+terminal
+289810<=468000; originalfrozen449783 and CPU1436/fullfuture6836 unchanged.
+No scientific values/quality/outcomes/aggregate read, no research job/controller
+changed/cancelled/restarted/resumed/resubmitted. No second scheduler snapshot
+thiswake. Next scheduled wake ONE NEW exclusive compact R003 or later, after
+exact LOCAL/started lineage checks, through active runner monitoring30. Never
+repeat a completed/ambiguous observation or query old controllers.
+
+Authoritative completed full-reservation debits now:
+implementation195/2700; cluster_validation45/600; binding_staging210/1200;
+publication180/600; monitoring60/7200; native_SSD0/7200;
+technical_fault65/1200; handoff30/900. Total785/21600, remaining20815.
+Full remaining component reservations2505/555/990/420/7140/7200/1135/870.
+2/240checks used,238remaining. Hardstop2026-10-21T07:37:44Z unchanged.
+CHECKPOINT-AUDIT-003 reconciled710 charged seconds BEFORE the later supplemental
+failure-phase30binding/30fault/15implementation operations below. Its own
+already-reserved30s LOCAL completed1.2970000000059372s. Exact then-current new
+sources AST3.6 checked. All new completion PLUS finalV2 local code/docs measured
+1428816B BEFORE last compact receipts, within20MBlocal allocation with200kB
+forward allowance. Other44MB retained for remote/portable/smallSSD logical
+copies. Whole64MBreservation still counts in fresh full-study proofs, no
+compression/hardlink/deletion savings. This is NOT full-study storage proof.
+
+New native receiver source-only preparation, UNFROZEN/UNPUBLISHED:
+native_transfer_v2 explicitly imports archive_verify_v2, authenticates a complete
+portable expected-member inventory digest and performs actual Windows same-dir
+no-copy/non-overwriting rename only after whole/every-member readback. Reparse
+ancestors are rejected. It preserves inert absolute/parent/chained/directory
+alias target strings without target execution/extraction. Old V1 remains intact.
+ARTIFICIAL-NATIVE-RECEIVER-001 passed actual native ordinary temporary-file
+transfer/readback/rename; alias lstat/readlink and reparse mocks DISCLOSED, no
+privilege changes or real aliases. Wrong alias, whole identity, deadline, existing
+target and oldV1archive schema are rejected; synthetic partial retained until
+owned test-fixture cleanup. No cluster, designatedSSD or external process.
+NATIVERECEIVERTEST001 reserved30implementation, measured2.0s.
+
+Further source review found V2 delegates optional verifier arguments, so None
+could disable whole/manifest checks if a future caller supplied them. V2 and
+its original passing receipt remain unchanged. New native_transfer_v3 adapter
+REQUIRES strict whole/manifest/portable byte identities, exact final-contract/root
+binding and rejects None/boolean lengths before delegation. Future PRODUCTION
+receiver MUST call native_transfer_v3.verify_and_promote, NEVER V2 directly or
+old native_transfer_v1. ARTIFICIAL-NATIVE-RECEIVER-002 passed targeted negative
+guards plus actual Windows ordinary-temp V3 readback/rename; reserved15impl,
+measured1.7969999999913853s. V2 remains its tested implementation dependency.
+No actual final receiver/controller command or terminal CPU authentication yet.
+
+Historical usage/provenance authentication first established an actual metadata
+receipt, not just a self-declared ready flag. HISTORICAL-USAGE-001.json19046B SHA
+c9397f411d2022963958470df0b4c53a8fdf43fbd34dcb4bdcb2ca6acfffef1d.
+New historical_usage_v1.py authenticates56 exact executed contract/source/
+accepted-control/seal/numerical-report/failed-partial identities against published
+local contracts and actual frozen grid suppliers. All old four fits plus new two
+fits retained; old STOP317171technical1 and all six failed partials remain.
+Only opaque hashes and bounded NPY headers (trace9000x25x2/bank16x25x2) read
+from the failed bank; NO array values decoded. R1/V3/RC1 numeric-parity reports
+and resource controls only; no READOUT quality, selection or outcome records.
+Zero scheduler calls/filesystem mutations/model imports/fit/physics/sourcegen.
+HISTAUTH001 reserved60binding, measured15.860000000000582s; actual remote source/
+control metadata collection succeeded once. Do NOT repeat completed collection.
+
+Baseline reconstructed exactly, with measurement provenance explicitly separated:
+old DINO fits44batches/352frames EACH from saved worker352manual count and
+frozen fit/model source, NOT retrospective hooks. FailedDINO counts from exact
+executed source and authenticated completed-CEM/before-parity-failure position,
+NOT a saved failedUSAGE record and NOT retrospective hooks:
+visual7/frames22/proprio99/action97/predictor465/API33.
+R1saved declared usage2/17/2/6/0/0;
+V3saved hooked usage34/78/37/7/15/3;
+RC1saved hooked usage88/88/88/5/5/1;
+newtwo fit-only actual hooks352/352/352/0/0/0 EACH.
+Including oldDINO fits88/704/88/0/0/0 gives unchanged DINO baseline
+923/1613/1018/115/485/37. OldLeWMtwo fit source arithmetic gives
+88/704/0/0/0/0. Allsixfit/failure encodedbaseline2317 unchanged.
+ARTIFICIAL-HISTORICAL-USAGE-001 passed exact arithmetic/boolean/missing/overrun
+rejections and AST3.6 remote program checks under15implementation reservation,
+measured1.3130000000091968s; no old56suite repeated. Final controller STILL must
+bind this actual receipt identity in its frozen evidence and authenticate the
+listed source/control identities at final staging. A bare authenticated flag
+alone is NOT the actual final authorization or whole-study acceptance gate.
+
+Supplemental exact failure-point binding is now COMPLETE as metadata, not a
+scientific/final gate. HISTFAILUREAUTH001 reserved30binding/15.702999999994063s
+was deliberately rejected: its new V1 metadata guard assumed the FIRST uncached
+cost assertion was the failure. The ACTUAL old failure was the NEXT full-forecast
+assertion. Original helper source/failed LOCAL/started/error and full charge are
+retained unchanged; no old research controller fault/repair/resumption occurred.
+V1's internal started marker has known failed LOCAL outcome, NOT authority to
+retry it. Do not run historical_failure_v1 or repeat either metadata collection.
+
+Separate historical_failure_v2 diagnosed actual old source/STARTED/RESULT/log
+hashes and traceback FRAME metadata ONLY, without emitting numerical differences
+or re-running research. HISTFAILUREDIAG001 reserved30technical_fault, measured
+10.35899999999674s. HISTORICAL-FAILURE-V2-DIAG001.json SHA
+323554db5b176c0e2a78fc33f38a7a5d2d3401e2ad605e8b1ec4de0e53ea8574.
+Exact5315B old worker.log SHA
+d91aefbd5197df0dc9e79e18ced3ce5a04b805e6e83039f3cfa03c32349ad8be.
+Actual diagnostic.py line98/function parity failed
+torch.testing.assert_close(torch.from_numpy(predicted.values).to(adapter.device),native['visual'][:,1:].float(),rtol=2**-6,atol=2**-8).
+Its source73e26dcf8fb49cbe7979117c6dd2b828030eaafc4001c540c89dcee06b4e23b0
+and actual failed allocation317164_1/raw317171 were authenticated. Original
+uncached PushT remains FAILED, never upgraded. Cost assertion preceding this
+line passed, but FULL forecast assertion failed; both points occur AFTER the
+same native reference forward and BEFORE either extra restoration check. Thus
+all historical counter/physical inference is UNCHANGED; no omitted forwards or
+restoration work were introduced by this metadata clarification.
+
+Local historical_disposition_v1 checks exact old source hash/line/expression and
+AST ordering of native rollout BEFORE failure and restore calls AFTER failure;
+rejects the prior wrong assumed frame, merges consistent evidence identities and
+recomputes the same baseline without network or model calls. Reserved15impl,
+measured1.2659999999887077s. NEW authoritative combined receipt to bind in final
+contract is HISTORICAL-USAGE-002.json18914B SHA
+4fa900858fdadb31d978341b20e10a6568a8796e4d5dddcf22ed36a405666373.
+It binds59 UNIQUE original/source/control/report/partial/log identities plus
+prior receipt and failed guard/diagnosis chain. Preserve001 and both old/new
+source lineages; no retrospectively invented hooks or rewritten measurements.
+Final staging STILL must authenticate exact receipt and all its evidence files,
+not merely trust independently_authenticated=True. No source-only readiness
+upgrade; final runtime/supplier/CPU/storage/SSD gates remain outstanding below.
+
+All finalV1/V2 source remains UNFROZEN/UNPUBLISHED. Latest published completion
+source stays4f48225abf359eae9597488179c1e496f175f940; its completed24member SSD
+source package is NOT the study backup and must never be recopied. No final
+analysis, actual study archive, CPU final allocation or full SSD transfer ran.
+
+Remaining: exact independently approved aliases (four runtime contract literals
+already matched,21renderer aliases need accepted-source/control binding); actual
+full-runtime content/member/whole19canonical-root plus future-final-root binding;
+failure-inclusive all138GPU/sourceCPU/rawID/model/physical/storage/transfer proofs;
+finite CPU supervisor/submission and complete independent analysis validator;
+integrated once-only archive/original readback/terminalCPU/postarchive sidecar/
+newV3 native designatedSSD workflow. Whole-study live13.5GB/archive14GB/inclusive
+44GB,500MBoverhead/TWO14GBcopies/fullvenv2.1GB/aux64MB/final-artificial4MB and
+all old failed/successful/partial roots count without discounts. No real final
+allocation until complete implementation/tests/freeze/independent review/commit/
+push/fullremote/newsmallSSD gate. Use inventory_v3 no-follow traversal and
+cpu_process_v2 owned-group cleanup semantics, never defective historical CPUv1.
+Operational/archive/postarchive controls/logs must stay outside ALL input roots;
+no self-archive/hash recursion or omitted mutable logs. Parent scientific results
+remain private until independent complete study acceptance AND FINAL designated
+SSD whole/every-member verification. Then publish complete fixed results and all
+limitations, final handoff once and pause SAME monitor/history, or stop at its
+approved finite check/horizon cap. No new experiment/promotion/Pro question.

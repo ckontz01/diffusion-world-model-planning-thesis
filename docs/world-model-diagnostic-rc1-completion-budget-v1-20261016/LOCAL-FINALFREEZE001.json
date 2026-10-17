@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 45,
+  "component": "implementation",
+  "elapsed_seconds": 1.4530000000086147,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 25026560,
+  "reserved_seconds": 45,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"RECOVERY_FINAL_CPU_SOURCE_AND_CONTRACT_INDEPENDENT_PARENT_REVIEW_PASSED\", \"contract\": {\"bytes\": 193000, \"sha256\": \"0ff5eed1e6de2b7f5fe8d9dffadbec30ea25746041e931b32dc9f148e57d9f5f\"}, \"members\": 438}\r\n"
+}

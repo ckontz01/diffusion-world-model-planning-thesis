@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 40,
+  "component": "handoff",
+  "elapsed_seconds": 1.1090000000258442,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 22298624,
+  "reserved_seconds": 40,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "{\"status\": \"COMPLETE_FIXED_RESULTS_HANDOFF_WRITTEN_AFTER_FINAL_SSD\", \"report\": {\"bytes\": 9772, \"sha256\": \"a8d72fd1f0b070e5073a4b125800a0523ab814209f5c583d8076fc0460120b84\"}}\r\n"
+}

@@ -1,0 +1,55 @@
+Checkpoint022 supersedes021 current-phase/next-step. Read021/020 and all exact
+latestLOCAL/started for authority/source and nonretry rules. Direct human request
+is complete scientifically correct analysis, independent validation, SSD backup
+and GitHub Pro handoff, without repeated engineering budget questions.
+
+ACTUAL FINAL CPU317736 COMPLETED0:0,757s/4CPU. CPUSTATUS007 at2026-10-17T11:05:48Z
+authenticates allthree successful phases, closedanalysis, CPU-PHASES-COMPLETE and
+SUPERVISOR-CLOSED. Both actual writer and complete independent reconstruction
+passed. Once-only studyarchive was created and independently verified whole/
+everymember/against originals/every-root/full inventory. No GPU/source/model/
+simulator/fit computation repeated. All124ordinary researchruns remain accepted;
+all139GPUattempts terminal. Never query/relaunch those completed arrays again.
+
+FINALTERMINALCPU001 FINISHED, exact finish terminal produced TERMINALCPU001.json:
+ACTUAL_FINAL_CPU_TERMINAL_COMPLETE_ANALYSIS_AND_ARCHIVE_AUTHENTICATED. All139
+failure-inclusive accounting/120sources/6fits/4heads/128taskbackboneevaluations,
+closed logs/controls, actual finalcontract/source/dispatch and archive chain
+authenticated. First terminal sidecar127721B SHAd66d5021e6a21e12c2e54a013a40b391fb80b93812a7e8d082d828715e2a07de,
+complete fixed externalcontrols/logs copied without self-archive recursion.
+
+Bound studyarchive11299964928B SHA8a759b37b3b6d90e034e163e84b8ac24d955dba6b212d4c70d10c6a5dee7deda.
+Manifest15402821B SHAd3bae25c249c88dbfb891308512a1cf06415143f4bae944d965adcf4a15be801.
+Portable13500183B SHA3d959a9f5d4fc877a53f7d135cccbbb6a74cfd9d1337d99496ddc2d201f27227.
+Sealed RESULTS622098B SHA0a485b26d340fa4d3bd444433b1e4f9ba9e42c9cccc1f448ae02bb7c3ec0b3ef;
+ACCEPTANCE29731B SHA65f36bbe497eb63ca219c47901d08796e05b12fa9dfec99c59794425ee0ecb46.
+These are technical byte identities ONLY; parent has NOT read scientific values.
+
+CURRENT OWNED NATIVE OPERATION FINALSTUDYSSD001 native_SSD7200 started once using
+fullNativePython -B -m wm_diag0_rc1_close_v1.local_v3 FINALSTUDYSSD001 native_SSD7200
+ fullNativePython -B -m wm_diag0_rc1_close_v1.finish transfer.
+It directstreams existingoncearchive to
+D:/THESIS-BACKUPS/world-model-diagnostic-a2-rc1-final-20261016 on exacthealthy
+THESIS_SSDGUID, portable+terminalsidecar first, fullarchive partial then strict
+native_transfer_v3 whole/everymember/portable verification and nooverwrite rename,
+native secondsidecar plus exactremote secondsidecar upload/readback and matching
+host+SSD FINAL-SSD-VERIFIED. No third full archive, no automatic retry.
+Do not duplicate transfer/destination/partials or repeat its started label.
+Current owner has execsession99744; wait/reconcile actualoperation, not another
+transport/SSD/query operation. A stillrunning owned operation is not a failure.
+If partial/failure, preserve exactbytes/diagnostics and diagnose; no blind retry.
+
+ONLY AFTER actual matching FINAL-SSD-VERIFIED: finish results once fetches exact
+sealed complete payloads. Then report_v1, parent complete accuracy/limitations
+review, publish_results_v1 explicitNULpathselection/commit/push/fullremote and
+clean small Pro-report SSD ZIP. All tiny nativepostarchive test evidence retained
+separately in postarchive-native-test-evidence ZIP; nested syntheticGit repository
+never imported as submodule/history. Respect Gitignore for tiny.tar; already
+preserved in sourceSSD and actualstudyarchive; no oldpackage/modelrecopy.
+
+Same monitor/history ACTIVE; prompt now updated to021/latest lineage, no duplicate
+monitor/cron/sleepingagent loop. Pause SAME only after finalSSDgate AND complete
+GitHub report/handoff. No automaticPro message/newexperiment/promotion. All
+science, security/environment/credentials, whole storage/copy and exactlineage
+restrictions remain. Both fullNativePython tokens always:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe.

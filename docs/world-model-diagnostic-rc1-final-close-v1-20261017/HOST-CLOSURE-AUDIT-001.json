@@ -1,0 +1,17 @@
+{
+  "actual_CPU_dispatch": {
+    "bytes": 419,
+    "sha256": "646f5f5e6f293ab68e8560acd0ba07a2e94654c04619d95804b4218728ad0936"
+  },
+  "contract": {
+    "bytes": 197192,
+    "sha256": "9ac20eec88ca03778f2893222fbcb2260cdddf330d6384ffc850ec4a7df3171e"
+  },
+  "final_gate_claimed": false,
+  "latest_saved_CPU_observation": {
+    "bytes": 680,
+    "sha256": "cd3807cc203813a47c6efe4d9e22d9c0e2dc0bf7c152f50b2581a349d80e4ad6"
+  },
+  "scientific_values_read": false,
+  "status": "PUBLISHED_FROZEN_SOURCE_UNCHANGED_NEW_GATED_HANDOFF_AST_CHECKED"
+}

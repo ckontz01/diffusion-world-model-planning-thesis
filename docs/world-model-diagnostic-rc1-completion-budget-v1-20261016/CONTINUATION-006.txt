@@ -1,0 +1,136 @@
+Checkpoint006 supersedes older completion observation/accounting/preparation
+snapshots. It is NOT historical funding-blocker006: direct human21300increase/
+35700total approval stays active. Same30min monitor/history, unchanged science/
+GPU/CPU/call/physical/storage/security/data/SSD gates. First read this and latest
+LOCAL/started/authority lineage; no refund/transfer/extension/separate-reserve use.
+ONLY operation runner completion_v1.local_v2, observation monitor_v2.compact.
+
+ONE new scheduled R005 succeeded12.687000000005355s under30reserved; no second
+scheduler/cluster query thiswake, no R003 or other check retried. Same frozen
+317180/source27ca345933fcb4eef3e5a9fc5769a2a8201523f0/contractda2766c3...
+HISTORICAL snapshot55ordinary parents0-54 independently ACCEPTED/COMPLETED0:0;
+index55/raw317260 RUNNING546s, gpu09.cluster PID230826/startticks8878843 BOTH
+independently verified; STOPabsent/faultsnone. TerminalallattemptGPU35753,
+live546NOTfinal;69remainingmaxima+terminal284153<=468000,original449783,
+CPU1436/6836 unchanged. No researchjob/controller changed/cancelled/restarted/
+resumed/resubmitted. No scientific values/quality/outcomes/aggregates read.
+Never infer later current health from this historical snapshot.
+OBSERVE-R0054745B SHA12a0aee3ccbb604b1579e984823cd6e9c778273813140c288821157a92e758ff.
+Lossless decode original4238B SHAf4a8f8baa462caa2df63c5cec45f454ce82d22937d1cf776604e567d3d81fdbe
+verified, every original scheduler column and accepted bitset retained.
+
+Next SCHEDULED wake ONE NEWexclusive R006 or later, after current LOCAL/started/
+sourceSSD checks. BOTH executable tokens use full nativePython path:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+-B -m wm_diag0_rc1_completion_v1.local_v2 UNIQUE monitoring 30
+  fullNativePython -B -m wm_diag0_rc1_monitor_v2.compact R006
+Do not run old compact.main, duplicate labels or obsolete controller queries.
+Unavailability is not cluster/research failure. Same240checks/30inclusive/120h.
+
+New source-only integration remains UNFROZEN/UNPUBLISHED; NOT actual study gates:
+
+root_binding_v1 commits EVERY sorted relative member name, kind, regular byte
+count and opaque SHA256 OR approved inert alias literal into per-root digests.
+All bytes/copies remain counted; no values/arrays/pickles decoded. Compact root
+commitments avoid an extra large duplicate precompute per-file manifest, without
+omitting a single member or taking compression/dedup/artifact-copy discounts.
+Actual inventory_v3 source-bound whole-root/alias traversal still required. New
+functions bind independently reread original roots to independent archive/member
+hash readback, and permit only ONE explicit additional whole owned final root.
+Every old source/control/failure/partial/artificial/runtime/model root unchanged;
+the new final root's source/output/seal/closed-log authority is separately required.
+ROOTBINDINGTEST00145implementation/1.375s passed tiny actual native files/archive/
+independent original and portable readback, changed hash/size/deadline/root/path/
+byte-discount guards. ARTIFICIAL-ROOT-BINDING-0011233B SHA
+ffa8c8ff4f42eef012d3705a0f80b3b75a5ae552d301599fc389cd10969ecb7d.
+
+archive_pipeline_v1 integrates the one exclusive archive create, independent
+whole/every-member/archive/original readback, root commitments and portable hash
+inventory. Requires complete trusted CPU/caller gates, supplied actual preparation
+proof, and whole inventory_v3 rescan BEFORE creation and AFTER readback; outputs
+outside ALL inputs. Existing archive/partial/portable/proof is refused BEFORE
+creation; no overwrite/retry. Portable/manifest exact serialized byte forecast
+checked BEFORE creating a large archive; aliases remain inert metadata only.
+This library has NO standalone real-study/CPU submission/authorization entry.
+ARCHIVEPIPELINETEST00160implementation/1.2029999999940628s passed a tiny synthetic
+actual ordinary-temp uncompressed archive with STOP/failed/runtime/new-owned-final
+files, exact byte forecasts, independent full portable readback and existing/
+recursive/bool/over-cap rejection. ARTIFICIAL-ARCHIVE-PIPELINE-0011866B SHA
+63ce6f9be65b48a63abf685a1dbe304ec0bfd0b45356347600cbfe05dbe416e6.
+No actual study archive, original study content read or actual SSD query/transfer.
+
+preservation_budget_v1 adds prospective TIGHTER writer/subreservation bounds
+inside the unchanged64MB all-new-aux limit. These are not extra capacity, not a
+completed actual logical-copy inventory, not free-space/volume authentication:
+source/docs4.5MB excluding separately metered monitor receipts, FOUR logical
+copies18MB;240checks*65536=15728640B ALL copies; portable12MB TWO copies24MB
+(remote and designatedSSD, no host third file); two1MB sidecars TWO copieseach
+4MB; new small source packages ALL copies2.2MB. Sum63928640,71360B LOCKEDmargin.
+Every future actual copy must fit these bounds AND local20MB/global64MB; do not
+silently assume larger primitive20MBportable/4MBsidecar maxima. Final writers
+must enforce new12MBportable/1MBsidecar pre-write caps and full source/package
+copy proof. All actual files remain preserved; no deleting/compressing to fit.
+Current source/docs remain below4.5MB; completed packages are NOT recopied.
+Whole study prove() conservatively adds64MBaux+4MBfinalartif,500MBarchive overhead,
+TWO full14GB copies and separately supplied actual full-future prep within unchanged
+13.5/14/44GB. It does NOT authenticate supplied prep bytes or actual storage.
+
+CPU phase/argv preparation: cpu_schedule_v1 validates grid science/supplier/source
+keys unchanged, V2 cleanup SHA, CPU3600/fourCPU/8GiB/noGPU/noRetry, disjoint final
+roots; draft analysis_authorized must remainFALSE. Ordered once-only PhaseClock
+includes entry/authentication time in first phase, own5s cleanup+1s bookkeeping
+per child phase, final30s and full remaining phase maxima within3600. Earlier
+under-use never extends a later phase or borrows conversion1800. Prospective
+container argv for ONLY implemented analysis and actual second-pass validator,
+whole study read-only/no --nv, offline/copy-only CPU environment. No no-op archive
+entry, process launch, sbatch or complete real supervisor supplied.
+CPUSCHEDULETEST00145implementation/1.7960000000020955s passed pure simulated
+phase/resource/argv/env tests. Split1800/600/1170/30 is still artificial UNFROZEN,
+not a whole-study timing guarantee. Original source/test receipt preserved.
+
+Local review then diagnosed an INCORRECT UNUSED size constant in this brand-new
+UNLAUNCHED draft: cpu_schedule_v1.CPU_V2.bytes10254, while actual preserved
+cpu_process_v2 is8269B SHA13f3d73a8a83b3f561b331836e02c110b4db064d428e6bb70728c113e20a0672.
+V1's SHA check was correct; size constant was not consumed by its validator/tests.
+Original tested V1 source/test remain unchanged, no false retrospective test fix.
+CPUSCHEDULEDIAG00115technical_fault/0.9850000000005821s recorded exact source-only
+disposition CPU-SCHEDULE-V1-DIAGNOSIS-001833B SHAc3f97c87477298fdf3605010536554bfeec2838a6107ae71aae658a1f3d45c50.
+New separate cpu_schedule_v2.validate_draft adapter requires EXACT8269B+SHA identity
+before V1 delegation. Production integration MUST use V2 schedule adapter, NEVER
+V1's unused constant. New CPUSCHEDULETEST00215implementation/1.125s passed actual
+source identity and wrong10254/bool/float/offbyone size rejections; no old CPU
+process suite rerun. ARTIFICIAL-CPU-SCHEDULE-0021554B SHA
+9b879f4ce11f7ca5d67f05bb3debf05b846c0a26bfc72b085b2b319620a6ecfa.
+This was NOT a research fault or a change to actual cpu_process_v2 code. No
+allocation/controller/source was repaired, resumed, resubmitted or cancelled.
+
+CHECKPOINTAUDIT00630handoff/1.375s verified all new AST3.6/source/receipt identities,
+published observer unchanged, strict original8269B CPU cleanup identity, exactR005
+lossless decode and prospective aux sums. Six new local source/doc roots2972341B,
+nonmonitor bundle2926983B BEFORE finalcompactreceipts+200kforward allowance;
+within local20MB and proposed tighter4.5MBbundle. Not full-study/copy/volume proof.
+
+Exact conservative charges implementation495/2700,cluster_validation45/600,
+binding_staging225/1200,publication270/600,monitoring150/7200,native_SSD0/7200,
+technical_fault125/1200,handoff120/900;total1430/21600,remaining20170.
+Remaining2205/555/975/330/7050/7200/1075/780;5/240checks used235remain.
+Outer35700,hardstop2026-10-21T07:37:44Z unchanged. No component transfer/refund/
+regrant/extension or separate45.89698539988reserve borrowing/counting again.
+
+STILL MISSING before finalCPUallocation: actual fresh fullruntime/everymember/
+all19canonicalroots+futurefinal/30alias/root commitment authentication; all138GPU/
+sourceCPU/rawID/supplier/model/physical/fullfuturestorage/copy/transfer proof;
+complete real frozen CPU supervisor/dispatch/submission/archive-step integration
+and real stage/entry gates; complete-analysis/oncearchive/rootreadback/terminalCPU/
+postarchive/nativeSSDv3 end-to-end workflow; Linux integration tests/freeze/
+independentreview/explicitcommit/push/fullremote/newsmallSSD before allocation.
+No actual finalCPU/realstudy analysis/studyarchive/fullSSD backup has run; no
+source-only readiness promotion. Old parent gate stays closed until complete
+independent studyacceptance AND FINAL designatedSSD whole/everymember verification.
+Preserve ALL successes/failures/partials/oldSTOPs/artificials incl4MBfinalartif,
+fullvenv2.1GB/SIF3139002368/LeWM144694193/500MBoverhead/TWO14GBcopies/64MBaux.
+inventory_v3/cpu_process_v2/cpu_schedule_v2/native_transfer_v3 mandatory; oldV1
+cleanup and V2direct receiver/obsolete132success/sixroot finalizer never production.
+No new Pro question/science change/experiment/promotion or old package/model recopy.
+Quiet unchanged healthy/nonactionable; same ACTIVE monitor/history. Complete
+finalhandoff then pause same monitor, or approved finite horizon/check cap stop.

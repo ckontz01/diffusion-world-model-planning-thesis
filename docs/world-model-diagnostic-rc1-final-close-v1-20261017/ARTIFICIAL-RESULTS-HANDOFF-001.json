@@ -1,0 +1,23 @@
+{
+  "actual_final_gates_claimed": false,
+  "actual_research_or_SSD_or_network_reads": false,
+  "publisher_source": {
+    "bytes": 6648,
+    "sha256": "f9f82108d19b89d551c787d2d6bd6e6e2575ccb57dcf7f2e1532d3818ce9c4a7"
+  },
+  "report": {
+    "bytes": 6619,
+    "sha256": "21a9541b2a72f176ad381ab3fab39fe7926a32fa1ae73baacbfc02977e39e56f"
+  },
+  "report_source": {
+    "bytes": 6865,
+    "sha256": "fd875a4d6ed1a1f7a71d3e4175ceae8591a749e40d6460fc5edcd34f5056eced"
+  },
+  "source": {
+    "bytes": 4306,
+    "sha256": "739e51f0cb5da649cf262114f677c23d46f7b1fb3a8497c8dc0d8e24b376505a"
+  },
+  "status": "NEW_SYNTHETIC_COMPLETE_REPORT_AND_EXPLICIT_GIT_PATH_ISOLATION_PASSED",
+  "synthetic_only": true,
+  "unrelated_staged_fixture_preserved_not_committed": true
+}
