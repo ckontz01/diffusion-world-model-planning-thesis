@@ -1,0 +1,10 @@
+{
+  "current_members": 69437,
+  "existing_portable_cap": 12000000,
+  "format_manifest_cap": 20000000,
+  "manifest_bytes_before_owned_final": 15198405,
+  "portable_bytes_before_owned_final": 13320770,
+  "reserved_owned_final_metadata_addition": 1000000,
+  "scientific_values_read": false,
+  "status": "ACTUAL_METADATA_ONLY_PORTABLE_AND_MANIFEST_FORECAST"
+}

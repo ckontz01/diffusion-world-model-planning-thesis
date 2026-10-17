@@ -1,0 +1,26 @@
+{
+  "freeze": {
+    "derived": {
+      "bytes": 5841,
+      "sha256": "cd6c96eda30bf84e1e8543b3a22748e624156db470a057289ba7c7239e320db8"
+    },
+    "edits": 12,
+    "original": {
+      "bytes": 5460,
+      "sha256": "11b0a6c040b2d084ae2989d69e4cf46abd67c6dd92735a20a66a13fd1739b66a"
+    }
+  },
+  "scientific_source_or_estimator_changed": false,
+  "stage": {
+    "derived": {
+      "bytes": 9095,
+      "sha256": "ec40c15acecfd6c15e239358d25fadfca1e410993b140cc0b489feb7cae227db"
+    },
+    "edits": 8,
+    "original": {
+      "bytes": 9065,
+      "sha256": "e0350f0f7909f21ed2a2eb63dd96ba5b990325279eae352e25ad0ab8bab14395"
+    }
+  },
+  "status": "NEW_FORECAST_CORRECT_FINAL_CONTRACT_AND_STAGE_ADAPTER_DERIVED"
+}

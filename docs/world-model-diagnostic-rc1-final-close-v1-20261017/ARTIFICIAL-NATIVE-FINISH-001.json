@@ -1,0 +1,47 @@
+{
+  "actual_D_SSD_WSL_cluster_calls": 0,
+  "actual_final_SSD_gate": false,
+  "actual_output_files": [
+    "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\docs\\world-model-diagnostic-rc1-final-close-v1-20261017\\artificial-native-finish-001\\tiny.tar",
+    "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004\\docs\\world-model-diagnostic-rc1-final-close-v1-20261017\\artificial-native-finish-001\\wrong.partial"
+  ],
+  "finish_source": {
+    "bytes": 14017,
+    "sha256": "46f75c53a350da1e2d4a5d46b9bf3575ebf63f923d37a304f7a3091f23bc2225"
+  },
+  "native_readback": {
+    "archive_schema": "WM-DIAG0-RC1-ARCHIVE-v2",
+    "automatic_retry": false,
+    "files_extracted_or_executed": 0,
+    "logical_members": 1,
+    "manifest": {
+      "bytes": 693,
+      "sha256": "e2f5f2335a29779ad638a8233a85baa86849eb3b76fa22a4bd4611daa21779d2"
+    },
+    "originals_independently_reread": false,
+    "portable_inventory": {
+      "bytes": 289,
+      "sha256": "bd551fc6570e42ca4425ba2b1ff9c40a5babd1228794dac7a7d53e7c361bd898"
+    },
+    "regular_payload_members": 1,
+    "status": "WHOLE_AND_EVERY_MEMBER_INDEPENDENTLY_VERIFIED",
+    "whole": {
+      "bytes": 3584,
+      "sha256": "f02e8010c689528b6fb66e3b106db3264a74fc5b5dce8aa1152d8e44e27b7ae8"
+    }
+  },
+  "scientific_study_values_read": false,
+  "status": "NEW_ACTUAL_NATIVE_FINAL_READBACK_AND_POSTARCHIVE_FIXTURES_PASSED",
+  "test_source": {
+    "bytes": 3610,
+    "sha256": "4ac108d7f0f606aaceb5142ea4e4a817ba30e53b767e0584dea8f509a14d99c1"
+  },
+  "tiny_archive": {
+    "bytes": 3584,
+    "sha256": "f02e8010c689528b6fb66e3b106db3264a74fc5b5dce8aa1152d8e44e27b7ae8"
+  },
+  "wrong_hash_partial_retained": {
+    "bytes": 3584,
+    "sha256": "f02e8010c689528b6fb66e3b106db3264a74fc5b5dce8aa1152d8e44e27b7ae8"
+  }
+}

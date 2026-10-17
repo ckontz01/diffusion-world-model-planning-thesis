@@ -1,0 +1,12 @@
+{
+  "full_future_preparation_bytes": 2984852312,
+  "measurement_commitment": {
+    "bytes": 10286,
+    "sha256": "1ce27c4b5e93f4fe86269286d4624a0eb43cb8ac12f4ec9923cb31a18f9d4619"
+  },
+  "producer_source": {
+    "bytes": 3266,
+    "sha256": "4920a2bde879fecd58e61c8429563c5fc128123551c340b0e0b36ee056cb5334"
+  },
+  "schema": "WM-DIAG0-RC1-PREPARATION-COPIES-v1"
+}

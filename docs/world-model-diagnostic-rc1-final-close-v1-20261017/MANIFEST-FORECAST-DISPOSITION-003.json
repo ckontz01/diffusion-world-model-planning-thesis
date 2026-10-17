@@ -1,0 +1,78 @@
+{
+  "actual_existing_manifest_bytes": 15198405,
+  "actual_existing_portable_bytes": 13320770,
+  "complete_copy_auxiliary_reservation": 110000000,
+  "new_portable_cap": 20000000,
+  "new_source": {
+    "archive": {
+      "derived": {
+        "bytes": 8886,
+        "sha256": "71f5b0c35ecbfdc75a8d67c7ad061e3149b02446cc58132454e632a9998cb39b"
+      },
+      "edits": 3,
+      "original": {
+        "bytes": 8883,
+        "sha256": "99b62534dc8ebfd9dbe07a89ff763fcccdf8716a3ff7d0ce67b625298206aa5e"
+      }
+    },
+    "budget": {
+      "derived": {
+        "bytes": 4250,
+        "sha256": "dcd3a0a8accaa8a715df81d45a6c13c3d9b14d9ee1d2d97334e0c9080842be4f"
+      },
+      "edits": 8,
+      "original": {
+        "bytes": 4214,
+        "sha256": "45504bd58c9f1024c99f5d31a16a0169862b6b89868ebc1c19a32acb6bb64b60"
+      }
+    },
+    "driver": {
+      "derived": {
+        "bytes": 4976,
+        "sha256": "e5b3a6d62f6106dbe18863bf1090c638f6db97b259de2329ac3a0722236c3fd0"
+      },
+      "edits": 2,
+      "original": {
+        "bytes": 4976,
+        "sha256": "eeee0550224bb60c5df539a2482db55f24cc75e76e03f6216b5aef103c975f5f"
+      }
+    },
+    "pipeline": {
+      "derived": {
+        "bytes": 5056,
+        "sha256": "7f8e58729053f9bece5e89b0c2e792be3148e95420e19b9e1560748774c6d5be"
+      },
+      "edits": 1,
+      "original": {
+        "bytes": 5053,
+        "sha256": "2137c4ad80533c05c522cc15da6c67e124a1e3fc1c050487fbba90348e08e8f7"
+      }
+    },
+    "preparation": {
+      "derived": {
+        "bytes": 3266,
+        "sha256": "4920a2bde879fecd58e61c8429563c5fc128123551c340b0e0b36ee056cb5334"
+      },
+      "edits": 5,
+      "original": {
+        "bytes": 3264,
+        "sha256": "9959e1e4ae2cce4bf594b69994de65a8f44982443b3f409fad72ced2aab83725"
+      }
+    },
+    "workflow": {
+      "derived": {
+        "bytes": 7843,
+        "sha256": "75f1bd4a5e235d3d9ebe52be722de3cfd57d1637d06c04519ee49681abc7e9e0"
+      },
+      "edits": 2,
+      "original": {
+        "bytes": 7840,
+        "sha256": "e592f03b083ce20cc15df2394010c41ac81066717153fb642dc801614ecdc378"
+      }
+    }
+  },
+  "no_CPU_allocation_started": true,
+  "scientific_analysis_or_estimator_changed": false,
+  "status": "COMPLETE_ACTUAL_INVENTORY_FORECAST_REQUIRES_NEW_PRESERVATION_METADATA_ADAPTER",
+  "unchanged_format_manifest_cap": 20000000
+}
