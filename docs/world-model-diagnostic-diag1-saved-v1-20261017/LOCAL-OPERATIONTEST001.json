@@ -1,0 +1,1 @@
+{"automatic_retry":false,"conservative_charge_seconds":4,"elapsed_seconds":2.6719999999913853,"peak_child_job_memory_bytes":29986816,"returncode":0,"status":"FINISHED","stdout":"......\r\n----------------------------------------------------------------------\r\nRan 6 tests in 0.171s\r\n\r\nOK\r\n{\"status\": \"PASSED\", \"tests\": 6}\r\n"}

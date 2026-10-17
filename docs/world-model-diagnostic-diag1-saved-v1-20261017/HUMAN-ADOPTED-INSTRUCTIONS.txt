@@ -1,0 +1,370 @@
+WM-DIAG1-SAVED — EXECUTE ONE BOUNDED SAVED-DATA
+ANALYSIS OF RECOVERABLE SELECTION ERRORS
+
+PURPOSE
+
+Explain the completed Reacher prediction-versus-realization result
+well enough to propose ONE justified practical repair.
+
+Do not implement another learned method before identifying what the
+saved evidence actually supports.
+
+This instruction authorizes implementation, artificial tests and one
+CPU-only analysis of already accepted WM-DIAG0-A2 RC1 artifacts.
+
+It does NOT authorize new model inference, training, source generation,
+physics, candidate collection, GPU work, or campaign resumption.
+
+1. FIX THE EVIDENCE BASE AND PRESERVE THE COMPLETED STUDY
+
+Completed publication:
+4837834b15cffae1fd848108b8737187f4caee06
+
+Start from:
+docs/world-model-diagnostic-rc1-final-close-v1-20261017/
+PRO-RESULTS-HANDOFF.txt
+RESULTS.json
+ACCEPTANCE.json
+FINAL-SSD-VERIFIED.json
+
+Follow the final acceptance/supplier mapping to the actual accepted
+parent artifacts, including RC1 and the accepted failed-parent recovery.
+Do not assume the older v4 implementation alone identifies the final
+executed source or the active DINO heads.
+
+Use all four completed task/backbone settings:
+PushT/Le-WM;
+PushT/DINO reproduction;
+Reacher/Le-WM;
+Reacher/DINO reproduction.
+
+Each setting has32 diagnostic parents.
+Backbones share physical source parents.
+Candidates and the two evaluation draws are not independent parents.
+
+Reacher motivates this outcome-informed follow-up.
+Keep PushT as a contrast, not an untouched validation task.
+
+Preserve all original reports, intervals, source identities, heads,
+failures, approvals and archives. Do not rerun the old estimator or
+change the original conclusions.
+
+2. FREEZE THIS ANALYSIS BEFORE CALCULATING ITS NEW RESULTS
+
+Create a separate branch/directory and record the formulas, summaries,
+tie conventions, numerical handling and input manifest below before
+running the new derived analysis.
+
+This is post-result discovery. Freezing the follow-up does not turn
+previously inspected parents into untouched confirmation.
+
+Question:
+
+Does the realized-consequence benefit arise primarily from a common
+forecast displacement across the candidate bank, or from errors that
+differ between candidate actions and reverse their goal-cost ordering?
+
+Do not presume either answer.
+Do not search many decompositions and publish only the favorable one.
+
+3. JOIN ONLY THE REQUIRED ACCEPTED SAVED EVIDENCE
+
+For each parent/backbone, retrieve:
+-candidate identities and native-return index;
+-predicted feature trajectory;
+-realized oracle-prefix feature trajectory;
+-own-backbone goal features;
+-saved S0 scores and P0/O0 selections;
+-the two accepted candidate evaluation outcomes;
+-existing prefix/branch termination and action-clock records;
+-the representation, source and supplier identities.
+
+Use the accepted pointwise DINO arrays and unchanged Le-WM scope.
+Do not mix old batched DINO features with RC1 artifacts.
+
+Authenticate the required files against their accepted seals.
+This is an input check for the new analysis, not a new whole-study audit.
+
+Read numeric arrays without executable-object loading.
+Do not import model constructors, load checkpoints, rerender images,
+re-encode frames or regenerate missing arrays.
+
+A genuinely missing required artifact is a specific analysis limitation.
+Do not create it through inference or physics.
+
+4. FIRST EXPLAIN WHICH CHANGED CHOICES PRODUCED THE GAINS
+
+Let i be the saved P0 selection and j the saved O0 selection.
+
+Report every parent, including unchanged choices, losses and ties:
+-i and j and whether they differ;
+-predicted S0 costs for both;
+-realized S0 costs for both;
+-their ranks within the same bank;
+-each candidate's two saved full-budget outcomes;
+-the paired mean outcome difference;
+-native-return identity and its recorded outcome.
+
+Separate an action-choice change from a task-success change.
+A different index is not automatically an improvement.
+
+Use the existing action clocks to report whether each selected candidate:
+-succeeded during the initial25-action chunk;
+-remained active and succeeded only under the tail;
+-or failed under the full50-action contract.
+
+Also identify oracle features that include the frozen absorbing
+representation after prefix termination.
+
+Do not exclude these cases from the main result. But do not interpret
+post-terminal absorbed-feature discrepancies as ordinary continuing
+dynamics errors without qualification.
+
+This should establish whether the gains reflect recognizing successful
+first chunks, choosing better states for the tail, or a mixture.
+Use saved evidence only; do not infer unexecuted outcomes.
+
+5. DECOMPOSE THE ORIGINAL S0 ERROR AT THE DECISION HORIZON
+
+Use the original terminal S0, not the unsuccessful S1 readout.
+
+For each candidate, flatten only for algebra; retain the complete
+native feature coordinates:
+
+p = saved terminal predicted features
+r = saved terminal realized features
+g = saved own-backbone goal
+e = p-r
+
+Let gamma be:
+1 for Le-WM's terminal squared-error SUM;
+1/D for DINO's terminal squared-error MEAN over D coordinates.
+
+Then the squared-distance identity is:
+
+gamma*||p-g||² - gamma*||r-g||²
+  = 2*gamma*<r-g,e> + gamma*||e||².
+
+Compute the signed goal-direction term and squared-error term.
+Verify the identity using float64 analysis arithmetic.
+
+Keep native stored-dtype scoring and authoritative saved selections
+separate from this higher-precision algebra. Record round-off residuals;
+do not change historical costs or choices because float64 differs near
+a tie.
+
+For i=P0 and j=O0, decompose:
+
+(predicted_cost_j - predicted_cost_i)
+ - (realized_cost_j - realized_cost_i).
+
+This identifies the error in the RELATIVE ordering that changed the
+decision. Absolute prediction error alone is not that quantity.
+
+Report how the two terms contribute to the ordering difference.
+Do not call a large latent MSE proof of a harmful decision error.
+
+Use the complete parent population, with gains/losses/ties as descriptive
+strata. Do not analyze only the ten favorable Reacher parents.
+
+Reuse already published time-position MSE summaries where useful.
+Do not add a horizon-selection or intermediate-score search.
+
+6. TEST ONE FIXED COMMON-VERSUS-CANDIDATE-SPECIFIC DECOMPOSITION
+
+For each parent's terminal candidate bank, compute:
+
+b = mean_i(p_i-r_i)
+u_i = (p_i-r_i)-b
+
+These are privileged summaries of saved realized consequences, NOT
+quantities available to a deployed planner.
+
+Report:
+-total mean squared prediction error;
+-common displacement energy ||b||²;
+-mean candidate-specific energy mean_i||u_i||².
+
+Check their algebraic relationship.
+Do not equate an error-energy fraction with the fraction of task
+failures caused by that component.
+
+Evaluate exactly TWO additional saved-data diagnostic selectors:
+
+A. Remove the bank-common error:
+   corrected_i = p_i-b.
+
+B. Remove only candidate-specific error, retaining common displacement:
+   corrected_i = r_i+b.
+
+Use the unchanged S0 goal, reduction and lowest-index tie rule.
+Retain original P0 and O0 as the two reference endpoints.
+
+For these two diagnostic arrays, calculate in float64 and cast once
+back to the corresponding saved feature dtype before calling the
+unchanged pure-array S0 implementation. Freeze this convention now.
+Do not search precision, coefficients, interpolation strengths,
+subspaces or alternative correction families.
+
+Select indices without using evaluation-tail labels. Then join the
+already recorded outcomes of the selected candidates.
+
+Both additional selectors use privileged information from the tested
+bank. They are diagnostic instruments, not trained or deployable repairs.
+The bank mean is the only new analytic error summary used for correction;
+no cross-parent model fitting is authorized.
+
+Report all new outcomes, including adverse changes.
+Do not assume correction A or B must help, remain on the model's latent
+manifold, or combine additively into O0's benefit.
+
+A common VECTOR displacement can change distances to a fixed goal.
+A common SCALAR offset added to every candidate score cannot change
+their ordering. Tests and interpretation must preserve that distinction.
+
+7. REPORT PARENT-LEVEL EVIDENCE AND UNCERTAINTY
+
+For all four settings, report:
+-original P0/O0 results copied from the completed report;
+-both new diagnostic selector outcomes and changes versus P0;
+-choice agreement with O0;
+-parent gains/losses/ties;
+-common and candidate-specific error summaries;
+-the selected-pair goal-cost error decomposition;
+-prefix-success versus tail-success descriptions.
+
+Weight parents equally. Average the two evaluation draws within parent.
+Handle genuinely smaller banks without fabricated or padded candidates.
+
+Report descriptive parent-paired95% intervals for the newly defined
+success differences using one fixed10,000-resample bootstrap,
+seed20261017.
+
+Do not rerun or replace old intervals.
+Do not present the new intervals as confirmatory, multiplicity-controlled,
+independent across backbones or independent-training-seed evidence.
+
+Avoid dividing by a small or negative O0-P0 gain and calling the result
+"percentage of oracle performance recovered." Prefer absolute
+percentage-point differences with their uncertainty.
+
+Preserve the noisy finite-bank and two-draw limitations. Do not interpret
+the hindsight maximum as expected optimal performance.
+
+8. END WITH ONE FALSIFIABLE MECHANISM STATEMENT
+
+The report must answer, without forcing a positive conclusion:
+
+-Is a common displacement sufficient to recover appreciable observed
+ selection benefit on these banks?
+-Do candidate-dependent errors remain essential?
+-Does the same interpretation describe both Reacher systems?
+-What does PushT contradict or leave unresolved?
+-How much of the observed advantage involves prefix success rather
+ than subsequent tail behavior?
+
+Use "consistent with" where the analysis cannot isolate a cause.
+
+Do not claim the underlying physical/kernel cause, architectural
+superiority, or a universally correct predictor diagnosis.
+
+The prior S1 readout's poor realized-coordinate accuracy remains a
+limitation of that intervention. Do not use it as proof that score
+learning in general cannot help.
+
+A valid conclusion is that the saved evidence does not yet support
+one transferable repair mechanism.
+
+9. PROPOSE AT MOST ONE PRACTICAL FOLLOW-UP — DO NOT IMPLEMENT IT
+
+Only after the fixed analysis, provide a short recommendation for one
+feasible intervention, or explicitly recommend against choosing one yet.
+
+The proposal must specify:
+-what observed error it aims to correct;
+-what the predictor/selector may observe at deployment;
+-how its correction could be learned or estimated without candidate
+ future states or tail outcomes at deployment;
+-what independent training/development/evaluation data it would need;
+-what result would falsify the proposed mechanism;
+-which simple matched control could explain the same benefit.
+
+Do not claim that a bank-common oracle correction is learnable merely
+because it works retrospectively. Estimating it from permitted inputs
+is a separate problem.
+
+If the method predicts a correction to a scalar cost instead of fixing
+the forecast, label it a scoring/calibration method—not repaired dynamics.
+
+Compare conceptually with the unchanged planner and a straightforward
+alternative use of the same added data/compute budget.
+
+Any future repair needs evaluation on new parent sources. A claim about
+diagnosis transferring across settings additionally needs a setting
+excluded from developing the diagnostic-to-repair recommendation.
+
+All current32-parent task cohorts are exposed discovery evidence.
+Do not retroactively relabel part of them untouched.
+
+No architecture sweep, fitting, collection, router, new benchmark or
+literature search is authorized now. Reuse the existing prior-art
+ledger; label any novelty question requiring later verification.
+
+10. EXECUTION BOUNDS AND DELIVERABLES
+
+This is a separate small CPU-only analysis allowance, not a reopening
+of the completed campaign's resource contract.
+
+Preparation/artificial tests:
+-at most900 cumulative scripted wall-seconds;
+-four CPU threads;
+-8GiB RAM.
+
+Saved-data execution:
+-one CPU-only pass/job, at most1,800 wall-seconds;
+-four CPU threads;
+-8GiB RAM;
+-zero GPUs and zero research-model calls.
+
+Use an existing compatible environment. A single site-approved CPU
+allocation is permitted if needed to read existing cluster artifacts.
+No installations, security changes or new infrastructure.
+
+Stream one parent/backbone at a time. Read originals in place or stream
+only required existing archive members; do not copy/unpack the whole
+11.3GB archive.
+
+New code, temporary data, compact results, logs and backup copies:
+at most1GB combined. Prefer summaries and identifiers over duplicating
+full latent banks. Account for all new files.
+
+Before real saved-data processing, test:
+-the squared-distance decomposition;
+-common/residual decomposition;
+-tie and native-return distinctions;
+-single-candidate and varying-bank cases;
+-constant score offsets;
+-negative/zero effects;
+-terminal/absorbing flags;
+-source-paired aggregation;
+-exact input identities and immutable outputs.
+
+Freeze and publish the analysis specification/code before its first
+derived-result run. Outcomes are already exposed: do not call this
+outcome-blind research.
+
+If a scientific array/schema cannot be reconciled, stop with the precise
+issue. No automatic retry, missing-data imputation or model regeneration.
+
+Return:
+-ANALYSIS-PLAN.md and the executed source identity;
+-RESULTS.md with the fixed four-setting tables and all parent rows;
+-compact machine-readable derived results;
+-artificial test and actual resource receipts;
+-one mechanism conclusion and, at most, one unlaunched repair proposal;
+-a small verified new-package backup and full remote commit readback.
+
+Do not recreate the completed study archive, repeat successful science,
+change old decisions/E12, or resume old monitors.
+
+No new scientific pipeline launches automatically after this analysis.

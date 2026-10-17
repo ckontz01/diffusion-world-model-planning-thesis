@@ -1,0 +1,22 @@
+{
+  "study": "WM-DIAG1-SAVED",
+  "direct_human_request": "this is what pro is telling you to do now:",
+  "human_adopted_instruction_file": "C:/Users/Chris/.codex/attachments/cefe78ed-bd36-4259-a26c-337e356c6e4a/Pasted text.txt",
+  "scope": "Implement, artificially test, freeze and publish one saved-data-only discovery analysis; execute one CPU-only job; report all four settings, one mechanism conclusion and at most one unlaunched practical proposal; preserve and publish a small verified new package.",
+  "prep_cumulative_scripted_wall_seconds": 900,
+  "bootstrap_readonly_conservative_charge_seconds": 30,
+  "saved_data_jobs": 1,
+  "saved_data_wall_seconds": 1800,
+  "CPUs": 4,
+  "RAM_bytes": 8589934592,
+  "new_all_logical_copy_bytes": 1000000000,
+  "GPU_requested": 0,
+  "new_model_training_inference_physics_source_generation_candidate_collection_calls": 0,
+  "completed_publication": "4837834b15cffae1fd848108b8737187f4caee06",
+  "branch_base_completed_handoff": "3d9a54968a3bc876f0936b8d041303797eda9f55",
+  "new_branch": "world-model-diagnostic-diag1-saved-20261017",
+  "completed_study_and_archives_immutable": true,
+  "old_monitors_remain_paused": true,
+  "discovery_not_untouched_confirmation": true,
+  "no_future_repair_pipeline_automatically_launched": true
+}

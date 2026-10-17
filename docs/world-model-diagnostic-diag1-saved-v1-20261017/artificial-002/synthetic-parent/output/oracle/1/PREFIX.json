@@ -1,0 +1,1 @@
+{"absorbed_after_stop":true,"actions":3,"events":[{"clock":0,"success":false,"terminated":false,"truncated":false},{"clock":1,"success":false,"terminated":false,"truncated":false},{"clock":2,"success":false,"terminated":false,"truncated":false},{"clock":3,"success":true,"terminated":true,"truncated":false}],"sampling":[5,10,15,20,25]}

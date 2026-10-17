@@ -1,0 +1,1 @@
+{"automatic_retry":false,"conservative_charge_seconds":3,"elapsed_seconds":1.4060000000172295,"peak_child_job_memory_bytes":161308672,"returncode":0,"status":"FINISHED","stdout":"{\"status\": \"ACTIVATED\", \"compatible_existing_native_numpy\": \"2.3.5\", \"anchors\": 5}\r\n"}

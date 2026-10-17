@@ -1,0 +1,1 @@
+{"draw_seed":77,"elapsed":3,"events":[{"clock":0,"success":false,"terminated":false,"truncated":false},{"clock":1,"success":false,"terminated":false,"truncated":false},{"clock":2,"success":false,"terminated":false,"truncated":false},{"clock":3,"success":true,"terminated":true,"truncated":false}],"reason":"success","replay_steps":20,"tail_replans":0}
