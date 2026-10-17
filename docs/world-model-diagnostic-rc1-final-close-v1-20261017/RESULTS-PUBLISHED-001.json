@@ -1,0 +1,26 @@
+{
+  "branch": "world-model-diagnostic-preparation-20261004",
+  "commit": "4837834b15cffae1fd848108b8737187f4caee06",
+  "final_study_SSD_gate": {
+    "bytes": 2599,
+    "sha256": "9f76e1dfc9c5908fea34e786552ea9d0416a11e0100b762628fdc409c8f35d97"
+  },
+  "full_study_archive_recopied": false,
+  "postarchive_native_test_SSD_archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-rc1-final-20261016\\postarchive-native-test-evidence-4837834b15cffae1fd848108b8737187f4caee06.zip",
+  "postarchive_native_test_members": 39,
+  "postarchive_native_test_whole": {
+    "bytes": 55832,
+    "sha256": "a0ff2ed05bc0c1d47df11fc803f3ba805af69725cea76f917da681169fa7aaf8"
+  },
+  "remote_full_hash": "4837834b15cffae1fd848108b8737187f4caee06",
+  "report_path": "docs/world-model-diagnostic-rc1-final-close-v1-20261017/PRO-RESULTS-HANDOFF.txt",
+  "results_path": "docs/world-model-diagnostic-rc1-final-close-v1-20261017/RESULTS.json",
+  "small_report_SSD_archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-rc1-final-20261016\\pro-results-4837834b15cffae1fd848108b8737187f4caee06.zip",
+  "small_report_SSD_whole": {
+    "bytes": 675417,
+    "sha256": "f5a01bde7cd2b5c21a2cd8b492651e243bf0bdc69cd0e507026bdd9bfd20aedc"
+  },
+  "small_report_verified_members": 7,
+  "status": "COMPLETE_VALIDATED_RESULTS_PUBLISHED_GITHUB_FULL_REMOTE_AND_SMALL_SSD_REPORT_VERIFIED",
+  "unrelated_work_committed": false
+}

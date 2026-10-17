@@ -1,0 +1,51 @@
+{
+  "Pro_message_sent_automatically": false,
+  "Pro_upload_bundle": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-rc1-final-20261016\\pro-results-4837834b15cffae1fd848108b8737187f4caee06.zip",
+  "Pro_upload_bundle_whole": {
+    "bytes": 675417,
+    "sha256": "f5a01bde7cd2b5c21a2cd8b492651e243bf0bdc69cd0e507026bdd9bfd20aedc"
+  },
+  "acceptance": {
+    "bytes": 29731,
+    "sha256": "65f36bbe497eb63ca219c47901d08796e05b12fa9dfec99c59794425ee0ecb46"
+  },
+  "active_heads": 4,
+  "all_allocated_GPU_attempts_including_failures": 139,
+  "external_peer_review_claimed": false,
+  "final_study_SSD_gate": {
+    "bytes": 2599,
+    "sha256": "9f76e1dfc9c5908fea34e786552ea9d0416a11e0100b762628fdc409c8f35d97"
+  },
+  "independent_diagnostic_source_parents_shared_across_backbones": 64,
+  "monitor_history_retained": true,
+  "monitor_id": "monitor-wm-diag0-rc1-and-recover-technical-faults",
+  "monitor_status": "PAUSED",
+  "new_experiment_or_science_change": false,
+  "ordinary_runs_accepted": 124,
+  "report": {
+    "bytes": 9772,
+    "sha256": "a8d72fd1f0b070e5073a4b125800a0523ab814209f5c583d8076fc0460120b84"
+  },
+  "report_URL": "https://github.com/ckontz01/diffusion-world-model-planning-thesis/blob/4837834b15cffae1fd848108b8737187f4caee06/docs/world-model-diagnostic-rc1-final-close-v1-20261017/PRO-RESULTS-HANDOFF.txt",
+  "report_review": {
+    "bytes": 939,
+    "sha256": "ba40e033e7b94965258965d8d306e33884b6b9d6a95bbea9b9bab61e01324b48"
+  },
+  "results": {
+    "bytes": 622098,
+    "sha256": "0a485b26d340fa4d3bd444433b1e4f9ba9e42c9cccc1f448ae02bb7c3ec0b3ef"
+  },
+  "results_URL": "https://github.com/ckontz01/diffusion-world-model-planning-thesis/blob/4837834b15cffae1fd848108b8737187f4caee06/docs/world-model-diagnostic-rc1-final-close-v1-20261017/RESULTS.json",
+  "retained_fits": 6,
+  "scientific_results_commit": "4837834b15cffae1fd848108b8737187f4caee06",
+  "source_roots": 120,
+  "status": "WM_DIAG0_A2_RC1_COMPLETE_VALIDATED_PRESERVED_PUBLISHED_AND_MONITOR_PAUSED",
+  "study_archive": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-rc1-final-20261016\\final-study.tar",
+  "study_archive_whole": {
+    "bytes": 11299964928,
+    "sha256": "8a759b37b3b6d90e034e163e84b8ac24d955dba6b212d4c70d10c6a5dee7deda"
+  },
+  "successful_research_repeated": false,
+  "task_backbone_parent_evaluations": 128,
+  "unrelated_work_committed": false
+}

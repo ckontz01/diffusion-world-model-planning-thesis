@@ -1,0 +1,12 @@
+{
+  "automatic_retry": false,
+  "charged_seconds": 270,
+  "component": "publication",
+  "elapsed_seconds": 54.546000000002095,
+  "measured_elapsed_scope": "entry through owned-child cleanup, before receipt serialization; receipt finalization included in full reserved charge",
+  "peak_child_job_memory_bytes": 234446848,
+  "reserved_seconds": 270,
+  "returncode": 0,
+  "status": "FINISHED",
+  "stdout": "To https://github.com/ckontz01/diffusion-world-model-planning-thesis.git\n   8d6c99a..4837834  HEAD -> world-model-diagnostic-preparation-20261004\n{\"status\": \"COMPLETE_VALIDATED_RESULTS_PUBLISHED_GITHUB_FULL_REMOTE_AND_SMALL_SSD_REPORT_VERIFIED\", \"commit\": \"4837834b15cffae1fd848108b8737187f4caee06\", \"remote_full_hash\": \"4837834b15cffae1fd848108b8737187f4caee06\", \"branch\": \"world-model-diagnostic-preparation-20261004\", \"report_path\": \"docs/world-model-diagnostic-rc1-final-close-v1-20261017/PRO-RESULTS-HANDOFF.txt\", \"results_path\": \"docs/world-model-diagnostic-rc1-final-close-v1-20261017/RESULTS.json\", \"final_study_SSD_gate\": {\"bytes\": 2599, \"sha256\": \"9f76e1dfc9c5908fea34e786552ea9d0416a11e0100b762628fdc409c8f35d97\"}, \"small_report_SSD_archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-rc1-final-20261016\\\\pro-results-4837834b15cffae1fd848108b8737187f4caee06.zip\", \"small_report_SSD_whole\": {\"bytes\": 675417, \"sha256\": \"f5a01bde7cd2b5c21a2cd8b492651e243bf0bdc69cd0e507026bdd9bfd20aedc\"}, \"small_report_verified_members\": 7, \"postarchive_native_test_SSD_archive\": \"D:\\\\THESIS-BACKUPS\\\\world-model-diagnostic-a2-rc1-final-20261016\\\\postarchive-native-test-evidence-4837834b15cffae1fd848108b8737187f4caee06.zip\", \"postarchive_native_test_whole\": {\"bytes\": 55832, \"sha256\": \"a0ff2ed05bc0c1d47df11fc803f3ba805af69725cea76f917da681169fa7aaf8\"}, \"postarchive_native_test_members\": 39, \"full_study_archive_recopied\": false, \"unrelated_work_committed\": false}\r\n"
+}
