@@ -1,0 +1,22 @@
+{
+  "status": "HUMAN_DIRECTED_FINALIZATION_AFTER_EXPLICIT_AUXILIARY_PROPOSAL",
+  "direct_human_instruction": "do the final analysis validation and ssd backup and push to ghub so I can show results to pro model",
+  "immediately_preceding_disclosed_proposal": "Raise the code/log allowance from 68 MB to 80 MB, without changing science, GPU-time or overall storage limits.",
+  "interpretation_disclosed_to_human_before_execution": "I am taking this as approval for the previously proposed 68 to 80 MB code/log allowance; no other limit or gate changes.",
+  "new_auxiliary_all_logical_copies_bytes": 80000000,
+  "completion_auxiliary_all_logical_copies_bytes": 70000000,
+  "completion_source_docs_each_of_four_copies_bytes": 6000000,
+  "recovery_auxiliary_all_logical_copies_bytes": 10000000,
+  "preparation_wall_seconds_cap_unchanged": 35700,
+  "future_component_caps_unchanged": true,
+  "GPU_seconds_cap_unchanged": 468000,
+  "live_archive_inclusive_byte_caps_unchanged": [13500000000, 14000000000, 44000000000],
+  "CPU_final_seconds_unchanged": 3600,
+  "protected_conversion_seconds_untouched": 1800,
+  "CPUs": 4,
+  "RAM_bytes": 8589934592,
+  "successful_research_runs_may_be_repeated": false,
+  "scientific_changes_or_new_experiment_authorized": false,
+  "publication_requires_complete_independent_validation_and_final_designated_SSD_whole_every_member_readback": true,
+  "historical_authorities_sources_failures_and_charges_are_not_rewritten": true
+}

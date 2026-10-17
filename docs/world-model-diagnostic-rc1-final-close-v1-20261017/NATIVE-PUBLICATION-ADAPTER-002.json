@@ -1,0 +1,28 @@
+{
+  "frozen_CPU_source_or_contract_changed": false,
+  "persistent_Git_or_environment_config_changes": false,
+  "publication": {
+    "derived": {
+      "bytes": 4626,
+      "sha256": "92b091b3ca083f052e790ed39550c2704682b1ffb47777fcc31a81987c0509a0"
+    },
+    "edits": 3,
+    "original": {
+      "bytes": 4095,
+      "sha256": "eb7df59fb12e6b7e60fd57b745bef389d6f2692dcf894b765ffa8d3f1a0de664"
+    }
+  },
+  "source_only_operations_added_after_CPU_freeze_are_not_silently_inserted_into_CPU_closure": true,
+  "stage": {
+    "derived": {
+      "bytes": 9065,
+      "sha256": "e0350f0f7909f21ed2a2eb63dd96ba5b990325279eae352e25ad0ab8bab14395"
+    },
+    "edits": 3,
+    "original": {
+      "bytes": 8901,
+      "sha256": "4fcd45a5629823fde29f0c379a54be41908f0d66e982d67f34f8cab35a21d994"
+    }
+  },
+  "status": "RAW_SOURCE_BYTE_PRESERVING_COMMAND_LOCAL_GIT_ADAPTER"
+}

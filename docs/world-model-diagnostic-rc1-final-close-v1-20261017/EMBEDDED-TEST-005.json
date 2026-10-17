@@ -1,0 +1,17 @@
+{
+  "WSL_SSH_scheduler_calls": 0,
+  "old_failed_source": {
+    "bytes": 9279,
+    "sha256": "68c1ff7f983b6f3463e335e48e946f08074829b88c3cb952ec16bae99130af42"
+  },
+  "scientific_payload_reads": false,
+  "source": {
+    "bytes": 9284,
+    "sha256": "95af8b747bc93a789c4caeac0e811a30befaaf6593bbd0235aac690398738438"
+  },
+  "status": "ACTUAL_EMBEDDED_FUNCTION_NAMESPACE_139_LEDGER_128_STARTS_OPAQUE_ROOTS_PASSED",
+  "test_source": {
+    "bytes": 1219,
+    "sha256": "29a381804925c2b11862c021dee05bf9a7b83f37541e15ca4dadbdaecf728538"
+  }
+}

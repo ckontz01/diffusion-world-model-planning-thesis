@@ -1,0 +1,23 @@
+{
+  "WSL_SSH_calls": 0,
+  "actual_argv_chars": 394,
+  "changed_frame_rejected": true,
+  "configured_transport_or_security_changes": false,
+  "program_bytes": 50103,
+  "scientific_payloads_read": false,
+  "sources": {
+    "binding": {
+      "bytes": 9279,
+      "sha256": "68c1ff7f983b6f3463e335e48e946f08074829b88c3cb952ec16bae99130af42"
+    },
+    "test": {
+      "bytes": 2547,
+      "sha256": "8a37fa2b7447525f19a7d9f1da7de3ca78859893c69b648dbeeabb3c6bf9e45c"
+    },
+    "transport": {
+      "bytes": 2627,
+      "sha256": "dd89c87217c81b5aae703a97d1df1da88884c0be0bc834f935c2dd46d6687226"
+    }
+  },
+  "status": "ACTUAL_NATIVE_LONG_PROGRAM_SHORT_ARGV_AND_JSON_FRAMING_PASSED"
+}

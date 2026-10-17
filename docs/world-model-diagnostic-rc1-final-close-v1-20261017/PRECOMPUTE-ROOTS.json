@@ -1,0 +1,186 @@
+{
+  "alias_policy": "inert literals only; never followed/resolved/restored/executed",
+  "logical_members": 69437,
+  "logical_regular_bytes_no_discounts": 11223942060,
+  "root_paths": {
+    "objects/lewm-pusht.ckpt": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/pusht/lewm_hf_22b330c_object.ckpt",
+    "objects/lewm-reacher.ckpt": "/lustreFS/data/superworld/ckontzias/thesis/data/stablewm/reacher/lewm_object.ckpt",
+    "runtime/container.sif": "/lustreFS/data/superworld/ckontzias/thesis/containers/pytorch-2.5.1-cuda12.1-cudnn9-runtime.sif",
+    "runtime/venv": "/lustreFS/data/superworld/ckontzias/thesis/envs/hi-lewm-artifact-py311-cu121-swm006",
+    "study/campaign-v4": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4",
+    "study/campaign-v4-numerical-v3": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-numerical-v3",
+    "study/campaign-v4-numerical-v3-artificial-ONE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-numerical-v3-artificial-ONE",
+    "study/campaign-v4-parity-r1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-parity-r1",
+    "study/campaign-v4-rc1-final-v1-artificial-ONE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-final-v1-artificial-ONE",
+    "study/campaign-v4-rc1-final-v1-artificial-THREE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-final-v1-artificial-THREE",
+    "study/campaign-v4-rc1-final-v1-artificial-TWO": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-final-v1-artificial-TWO",
+    "study/campaign-v4-rc1-final-v2-artificial-ONE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-final-v2-artificial-ONE",
+    "study/campaign-v4-rc1-grid-recovery-r1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-grid-recovery-r1",
+    "study/campaign-v4-rc1-grid-recovery-r1-artificial-ONE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-grid-recovery-r1-artificial-ONE",
+    "study/campaign-v4-rc1-grid-v1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-grid-v1",
+    "study/campaign-v4-rc1-heads-v1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-heads-v1",
+    "study/campaign-v4-rc1-technical-v1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-technical-v1",
+    "study/campaign-v4-rc1-technical-v1-artificial-ONE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-technical-v1-artificial-ONE",
+    "study/campaign-v4-rc1-v1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-v1",
+    "study/campaign-v4-rc1-v1-artificial-ONE": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/campaign-v4-rc1-v1-artificial-ONE",
+    "study/native-v3": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3",
+    "study/native-v3-import-r1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-import-r1",
+    "study/native-v3-source-r3": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/native-v3-source-r3",
+    "study/preflight-v1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/preflight-v1",
+    "study/preflight-v1-stage-r1": "/lustreFS/data/superworld/ckontzias/thesis/experiments/wm-diag0-a2-20261015/preflight-v1-stage-r1"
+  },
+  "roots": {
+    "objects/lewm-pusht.ckpt": {
+      "every_sorted_member_record_sha256": "6de8d75c3cebb962a4b05182ccf130e747dca1ea68ac17c5ffa71691377c3ee8",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 72348817,
+      "regular_files": 1
+    },
+    "objects/lewm-reacher.ckpt": {
+      "every_sorted_member_record_sha256": "7b5fe6698ce44a47743514cb9f0468d80be662d390f52423a1eedef6a7f58477",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 72345376,
+      "regular_files": 1
+    },
+    "runtime/container.sif": {
+      "every_sorted_member_record_sha256": "e425957d51fbd57d7a2bf39ca4e963b92a640c8dc34d033aa4bde637e391573a",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 3139002368,
+      "regular_files": 1
+    },
+    "runtime/venv": {
+      "every_sorted_member_record_sha256": "c389340b58c6d11027be59d48ad695f2f1dca0c6eb958fc4fa3752bf7a5b922f",
+      "inert_aliases": 4,
+      "logical_regular_bytes": 1939807890,
+      "regular_files": 38088
+    },
+    "study/campaign-v4": {
+      "every_sorted_member_record_sha256": "533b94ff495d00ee708a1f115a8d0536b940952cc176f1a73d03f2b18d149518",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 232194338,
+      "regular_files": 525
+    },
+    "study/campaign-v4-numerical-v3": {
+      "every_sorted_member_record_sha256": "cb5c05c3513507d37b07f0e56cfc80ab52fa9998c84c0fadc854e0e20d5af21e",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 26331587,
+      "regular_files": 240
+    },
+    "study/campaign-v4-numerical-v3-artificial-ONE": {
+      "every_sorted_member_record_sha256": "2c5b871dfdd36721b590be38222bd7abb33ff819ab7d8265902fdcce4c248e01",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 11897,
+      "regular_files": 5
+    },
+    "study/campaign-v4-parity-r1": {
+      "every_sorted_member_record_sha256": "b291697b3d0ecb4eef821c24b10aadb5bb21198dbd76b383a2cfbb9c4aa5a8e9",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 1906740,
+      "regular_files": 229
+    },
+    "study/campaign-v4-rc1-final-v1-artificial-ONE": {
+      "every_sorted_member_record_sha256": "c642b0b56f665a8a27b7a19b35fe6378c2918b0e11b3018a9379b20ad5a43221",
+      "inert_aliases": 1,
+      "logical_regular_bytes": 36005,
+      "regular_files": 13
+    },
+    "study/campaign-v4-rc1-final-v1-artificial-THREE": {
+      "every_sorted_member_record_sha256": "91ef4c8cdcbe671c9f72c53a58c935370ca130e628f8da05fa5ee5c6474e6bdc",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 33912,
+      "regular_files": 13
+    },
+    "study/campaign-v4-rc1-final-v1-artificial-TWO": {
+      "every_sorted_member_record_sha256": "c779f061fd85fee11c16151f6fbb354fa1197ff8056fe8476256a4b8bbe8678d",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 24453,
+      "regular_files": 11
+    },
+    "study/campaign-v4-rc1-final-v2-artificial-ONE": {
+      "every_sorted_member_record_sha256": "fbf5c8ccfaf95d2ea7477f9e35bdf39b1fd2f05e27c5855d590de4504ca61d4f",
+      "inert_aliases": 4,
+      "logical_regular_bytes": 38194,
+      "regular_files": 15
+    },
+    "study/campaign-v4-rc1-grid-recovery-r1": {
+      "every_sorted_member_record_sha256": "6b078166cb5b878e60c1ce3f892b483f8bd742ee37355b2a24e75c709716b1bd",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 1730176063,
+      "regular_files": 11671
+    },
+    "study/campaign-v4-rc1-grid-recovery-r1-artificial-ONE": {
+      "every_sorted_member_record_sha256": "8832b988621ff524faacbe1667a69c37d24e93cf56a2a47f576190c0ce45597c",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 4618,
+      "regular_files": 2
+    },
+    "study/campaign-v4-rc1-grid-v1": {
+      "every_sorted_member_record_sha256": "2e45b46437a2ad593fde590783a4423f0d5647119579d074c572be3693281be8",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 1725247187,
+      "regular_files": 13396
+    },
+    "study/campaign-v4-rc1-heads-v1": {
+      "every_sorted_member_record_sha256": "34276b745e212633ab7f7d5255cf6d43d7467e6feb76c22c3756a4f66942535f",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 225385775,
+      "regular_files": 294
+    },
+    "study/campaign-v4-rc1-technical-v1": {
+      "every_sorted_member_record_sha256": "0f9b18d864698827ca6d38abff2d3b4e5e6e75e5bcca9ab1e6fa7bee91a14e82",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 113844304,
+      "regular_files": 869
+    },
+    "study/campaign-v4-rc1-technical-v1-artificial-ONE": {
+      "every_sorted_member_record_sha256": "729096991eb62f46798759be2878a2e7030e349c3ecb990cba925d6e0a2b06e7",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 6916,
+      "regular_files": 4
+    },
+    "study/campaign-v4-rc1-v1": {
+      "every_sorted_member_record_sha256": "d84ee5acc30866462a1bf55c8a8ea42a3c4e0b25048bb9c553eb16faa52c8878",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 30176182,
+      "regular_files": 257
+    },
+    "study/campaign-v4-rc1-v1-artificial-ONE": {
+      "every_sorted_member_record_sha256": "47e7f37c8c1dbb6f92702c5327e6c3de17b393da95b23f37d7966205a5993453",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 9363,
+      "regular_files": 6
+    },
+    "study/native-v3": {
+      "every_sorted_member_record_sha256": "89287fe3065891f5a8083a339c351a84fd668332c57da00e5d6103f218dc3bdd",
+      "inert_aliases": 21,
+      "logical_regular_bytes": 174284820,
+      "regular_files": 220
+    },
+    "study/native-v3-import-r1": {
+      "every_sorted_member_record_sha256": "803b936ca01397a834cc1c31c94fa1daa056d73225e7236377442dfd8feb005c",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 627178371,
+      "regular_files": 1188
+    },
+    "study/native-v3-source-r3": {
+      "every_sorted_member_record_sha256": "6835cd4e74e5f9b8fa8b28dafce73dac3a51e90477e9bc80e444c3d447f7260b",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 652741260,
+      "regular_files": 2303
+    },
+    "study/preflight-v1": {
+      "every_sorted_member_record_sha256": "15acd0b91a51478bb74998272a1f36b0450ff2f7910cb0875326de54f437302c",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 194085498,
+      "regular_files": 6
+    },
+    "study/preflight-v1-stage-r1": {
+      "every_sorted_member_record_sha256": "e75f35036f1220b6c4a98252f207ed4bf61223f56a4cdfe0d7c19010c19f1c88",
+      "inert_aliases": 0,
+      "logical_regular_bytes": 266720126,
+      "regular_files": 49
+    }
+  },
+  "schema": "WM-DIAG0-RC1-EVERY-MEMBER-ROOT-BINDING-v1",
+  "source_authority_sha256": "fd24ea51b8e4f8a3d2777a0ff99e796668dc72e1e8d6043f285bfc2d0c2f44d5"
+}

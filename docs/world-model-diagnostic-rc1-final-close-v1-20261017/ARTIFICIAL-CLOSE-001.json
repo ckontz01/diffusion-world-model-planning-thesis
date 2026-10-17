@@ -1,0 +1,76 @@
+{
+  "WSL_SSH_scheduler_calls": 0,
+  "actual_final_analysis_run": false,
+  "checks": [
+    "failed parent charged full maxima",
+    "original fixed counters preserved",
+    "missing-parent/head/counter-overrun/bool/138-proof rejected",
+    "all21 retained roots plus futurefinal",
+    "real nofollow opaque root binding and mutation rejection",
+    "actual remote program AST3.6"
+  ],
+  "final_gate_ready": false,
+  "scientific_study_payload_reads": false,
+  "source": {
+    "__init__.py": {
+      "bytes": 85,
+      "sha256": "d6a172b8877a2ca4f0b99008d85453c95c7c7ddf28bd8cb0851f51973769f8fd"
+    },
+    "analysis.py": {
+      "bytes": 8829,
+      "sha256": "150de1514e86ae07dbb591de6bb28a74f1a60f735fb5e7d33fd9fcdf7f11d3a7"
+    },
+    "analysis_closure.py": {
+      "bytes": 10022,
+      "sha256": "e98b12834d9c36f10bbdc8b52a6cb5aacac37f9224944aa38016d2dd8ddf323a"
+    },
+    "analysis_validate.py": {
+      "bytes": 9663,
+      "sha256": "820a3236581bd82b671f02d67a525047edbf8a0f6c3c8bc1bf3847112f4021f4"
+    },
+    "binding.py": {
+      "bytes": 8930,
+      "sha256": "696a547e393d0ff0f5cb3b94dc071c770b369ffc59ba582da89b38a41e1ab600"
+    },
+    "build.py": {
+      "bytes": 4159,
+      "sha256": "45ccf5fdfc8a06efd5a4cdc32e5ccaa113d1f2f07721fb71373c720d8e3afff4"
+    },
+    "common.py": {
+      "bytes": 348,
+      "sha256": "c79c93709ec94ad52bfded0db68eee92271a7621a700688eb0bf500c1cf7adf2"
+    },
+    "suppliers.py": {
+      "bytes": 6841,
+      "sha256": "f4168f9ab2326f5bb1910d3152e846662085a5489670ba310b277e3e03aa9f0f"
+    },
+    "terminal.py": {
+      "bytes": 281,
+      "sha256": "75813f508ce43d56530d0da4a39fc306d2a2c0fd2a4f5e09e975870da83d48ec"
+    },
+    "tests.py": {
+      "bytes": 5272,
+      "sha256": "473dae572caa0929c27da4c65a1b5e61b2dcf198d883d4d497e3e9480a8190bc"
+    },
+    "transport.py": {
+      "bytes": 1915,
+      "sha256": "2ec1a0f6a5e8e2b00f83060290ac441d90145cc0f06d4c1227b845f092360ed4"
+    },
+    "usage.py": {
+      "bytes": 2377,
+      "sha256": "124f088c1425e2fe6332395d72126a833d54bae9b43e54466cb6efb047f77dc6"
+    }
+  },
+  "status": "NEW_RECOVERY_AWARE_FINAL_SOURCES_AND_OPAQUE_BINDING_FIXTURES_PASSED",
+  "synthetic_all_attempt_maxima": {
+    "CEM_sequences": 38313000,
+    "DINO_predictor_calls": 950760,
+    "LeWM_predictor_calls": 322095,
+    "bank_reforecast_sequences": 2080,
+    "encoded_frames": 145841,
+    "forecast_cost_API_operations": 127851,
+    "native_CEM_decisions": 4257,
+    "predicted_macro_sequence_transitions": 191576280
+  },
+  "synthetic_complete_parents": 128
+}

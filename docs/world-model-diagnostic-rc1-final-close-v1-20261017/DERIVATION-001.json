@@ -1,0 +1,49 @@
+{
+  "sources": {
+    "analysis": {
+      "derived": {
+        "bytes": 8829,
+        "sha256": "150de1514e86ae07dbb591de6bb28a74f1a60f735fb5e7d33fd9fcdf7f11d3a7"
+      },
+      "edits": 3,
+      "original": {
+        "bytes": 8761,
+        "sha256": "966b3104cd582ce3576b5e3137de8ce6d9ee7b52d52786fdccebb304b9b69a65"
+      }
+    },
+    "closure": {
+      "derived": {
+        "bytes": 10022,
+        "sha256": "e98b12834d9c36f10bbdc8b52a6cb5aacac37f9224944aa38016d2dd8ddf323a"
+      },
+      "edits": 5,
+      "original": {
+        "bytes": 9962,
+        "sha256": "80dcbd1f9721c04dabc917ec809c56823eca7b9b4eb9c8681f07654aff4860bb"
+      }
+    },
+    "suppliers": {
+      "derived": {
+        "bytes": 6841,
+        "sha256": "f4168f9ab2326f5bb1910d3152e846662085a5489670ba310b277e3e03aa9f0f"
+      },
+      "edits": 1,
+      "original": {
+        "bytes": 6787,
+        "sha256": "051ea763a2050b24681244aaa74012ec6fb87ebbb82bda9f4820b75f816042c3"
+      }
+    },
+    "validator": {
+      "derived": {
+        "bytes": 9663,
+        "sha256": "820a3236581bd82b671f02d67a525047edbf8a0f6c3c8bc1bf3847112f4021f4"
+      },
+      "edits": 9,
+      "original": {
+        "bytes": 9732,
+        "sha256": "ea486f423ae5effd73bea8b2e9a9c64fc5f55e7182de48b33aeff5ebe1c521dd"
+      }
+    }
+  },
+  "status": "NEW_RECOVERY_AWARE_DERIVED_SOURCE_NOT_FROZEN_OR_EXECUTION_AUTHORITY"
+}

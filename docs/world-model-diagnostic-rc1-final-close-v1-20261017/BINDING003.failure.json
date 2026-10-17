@@ -1,0 +1,13 @@
+{
+  "returncode": 1,
+  "stderr": {
+    "bytes": 237,
+    "prefix_base64": "VHJhY2ViYWNrIChtb3N0IHJlY2VudCBjYWxsIGxhc3QpOgogIEZpbGUgIjxzdHJpbmc+IiwgbGluZSA3LCBpbiA8bW9kdWxlPgogIEZpbGUgIjxyZXZpZXdlZC13bS1maW5hbC1wcm9ncmFtPiIsIGxpbmUgMzQ5LCBpbiA8bW9kdWxlPgogIEZpbGUgIjxyZXZpZXdlZC13bS1maW5hbC1wcm9ncmFtPiIsIGxpbmUgMjc3LCBpbiBjaGVja19zdGFydGVkCk5hbWVFcnJvcjogbmFtZSAnbWF0aCcgaXMgbm90IGRlZmluZWQK",
+    "sha256": "be76703562d354af8a51c61f7f53ad6b2c753e1dcc29ecd6c7b008e47f4dee33"
+  },
+  "stdout": {
+    "bytes": 0,
+    "prefix_base64": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

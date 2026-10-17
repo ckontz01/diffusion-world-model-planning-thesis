@@ -1,0 +1,95 @@
+Latest019 supersedes018 agent component/auxiliary approval blockers and old
+runner. Human explicitly directed completion without those engineering approval
+barriers; exact direct grant in final-close-v1-20261017/AUTHORITY-002.json.
+Handle engineering internally; notify human ONLY completion, genuine scientific
+choices or real access/permission blockers. No further budget/seconds requests.
+Science,468000GPU-time, CPU final3600/conversion1800,4CPU8GiB and13.5/14/44GB,
+data/security/credential/environment/finalSSD gates unchanged. No new experiment
+or rerun of any successful research. Same monitor/history retained ACTIVE.
+
+CURRENT RUNS COMPLETE: saved recovery OBSERVER029 authenticated124/124 ordinary
+parents accepted,66old+58recovery, all58recovery scheduler COMPlETED0:0, no live/
+pending/fault/STOP; all139allocated GPU attempts terminal97360s incl oldfailure66.
+Never poll completed317441 merely to restate completion. No scientific values read.
+
+ONLY NEW operation runner for finalization:
+fullNativePython -B -m wm_diag0_rc1_close_v1.local_v3 UNIQUE COMPONENT SECONDS
+  fullNativePython -B -m REVIEWED_FIXED_MODULE [args]
+BOTH fullNativePython tokens:
+C:/Users/Chris/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe
+New budget.py authenticates direct human authority, keeps all old charges and
+baseline unchanged, applies SAME21600 shared future/35700outer/hardstop without
+agent-designed component partitions as barriers. No additive grants/refunds.
+Old runners/common are byte-unchanged. New labels only, no ambiguous-start retries.
+
+Actual FINALWHOLEBIND004 succeeded197.813s: all139terminal rows/128original newer
+STARTED controls, all21 retained roots, full38088regular-file1939807890B venv,
+all21643pinned runtime members, fullSIF/twoLeWMmodels and every opaque member.
+69437logical members/11223942060regularB, all30inertaliases unchanged. Freshfullfuture
+live11388942060/archive11888942060/inclusive42343794372 with2954852312prep andall
+logicalcopies, no discounts. Exact docs final-close BINDING004/ALL-ALLOCATIONS-
+TERMINAL/PRECOMPUTE-ROOTS retained. No payload values interpreted. The original
+failed66/partials/STOP and ALL earlier failures/sources remain immutable.
+
+Actual native preparation measurement26roots1336789067logicalB, historicalfloor
+2874852312 NOT discounted, +80MB yields2954852312fullfuture. Producer
+wm_diag0_rc1_final_v2/preparation_binding_v1.py and receipts retained. Future actual
+source/package/fixture copies still counted, no fullstudySSD claim.
+
+New controller source wm_diag0_rc1_close_v1 driver_v2/entry_v2/workflow_v2/
+archive_operation_v2/analysis_closure_v2/closed_identity_v2 plus fixed recovery-aware
+analysis/suppliers/usage/analysis_validate, exact original8269B13f3d73aCPUprocessV2,
+cpu_scheduleV2 clock, inventoryV3/nativeTransferV3. Uses phases1200/600/1770/30,
+all within3600 including actual Slurm-start entry, own cleanup/bookkeeping,
+parent30archive authentication INSIDE archive phase; conversion untouched.
+No arbitrary artifact commands, no mutable archive inputs after owned groups close.
+All ops/archive/Slurm/postarchive paths OUTSIDE archive inputs. Stagecopies ALL
+new failed/passed integration fixtures/snapshots into owned-final fixtures too,
+retaining original external ops copies and logical-copy charges.
+
+New actual Linux LINUXFINAL002 PASSED: native controller imports withoutNumPy,
+three REAL tiny harmless V2owned children, dynamic closed139proof, NONJSONopaque
+output and actual oncearchive/whole/everymember/original/root/portable readback;
+old138proof/existingarchive/unallocatedallocationgate rejected. Synthetic fixture
+controls are NOT actual study acceptance. All production critical source identities
+are unchanged since that actual Linux snapshot. Earlier Linux001 failed missing
+bound_bytes import in extractedhelper; ALL old source/partial/receipts retained;
+separate explicitV2module repair/test preserved. No realanalysis/allocation yet.
+
+FINAL-CONTRACT.json frozen/new REVIEW-001 source/contract comparison completed;
+all original science/supplier/recovery keys and stagedsource members unchanged.
+New complete writer/secondpass reaccept120sources/6retainedfits/4activeheads/
+128parents, failure-inclusive139 accounting and full failed-parent maxima. Exact
+historical59evidence reauthenticated BEFORE children; protectedscientificresults
+remain private until completeindependentacceptance AND FINALdesignatedSSD.
+
+Publication FINALPUBLICATION002 stopped at git diff--check BEFORE commit/push/SSD:
+ONLY harmless pre-existing finalV2 archive source blank lines atEOF. Sourcebytes
+must remain intact; no formatting rewrite of tested/frozen code. Old started/
+LOCAL/fullcharge/index preserved; HEAD remains69f73cd at this snapshot. Separate
+publication_resume_v3 authenticates exact index/source/failure phase, uses ONLY
+command-local cr-at-eol,-blank-at-eof and core.autocrlf=false to preserve RAW bytes,
+no persistent config change, then explicit-pathcommit/push/fullremote/sourceSSD
+whole/member. Never repeat old publisher or recopy a completed package.
+
+NEXT after exact latestLOCAL/started: finish separately reviewed publication
+resumeV3 once, reconcile any partial outcome. ONLY after actualnewsmallsourceSSD
+whole/everymember gate, stage_v2 exact CPU-only held job defq/normal4CPU8GiB3600,
+noGPU/noRetry; authenticates whole source/runtime/root/139terminal/128starts AGAIN
+before sbatch, records exact realjob/contract/source/pub BEFORE release. Never
+duplicate an existing finalroot/submission/job or resubmit ambiguity. Actualnative
+kernelcgroup8GiB/affinity4 and independent scontrol exactdispatch required atentry.
+No CPUjob has been submitted as of this019 snapshot. No actual finalanalysis,
+secondpass,studyarchive,fullSSDtransfer or GitHub scientificresults publication.
+
+STILL complete actual CPU entry/writer/secondvalidator/closedrecord/oncearchive/
+originalreadback, terminalCPU control/sidecar authentication, direct nativeD:
+THESIS_SSD correctGUID/healthy>=40GiBfree transfer, whole/everymember verification
+with native_transfer_v3, originalroot portable expectations, then complete fixed
+results/limitations+GitHub push/fullremote/final handoff. No thirdfullarchive.
+Do not inspect scientific values until finalgate. PreserveALL successes/failures/
+partials/oldSTOPs/artificials/fullvenv/SIF/models/TWO14GBarchivecopies/overhead.
+Current sourcepublication is NOT study acceptance or finalSSD. Same monitor only;
+no duplicate/cron/sleep loop. Pause after complete final handoff+SSD or existing
+finite horizon; no routineengineeringbudget notifications and no repeatedcomplete-
+GPU snapshots. Exact newest LOCAL records, not this text, are accounting authority.

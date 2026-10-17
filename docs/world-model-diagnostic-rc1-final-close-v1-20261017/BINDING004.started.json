@@ -1,0 +1,13 @@
+{
+  "configured_route_unchanged": true,
+  "input_bytes": 36275,
+  "program": {
+    "bytes": 27743,
+    "sha256": "c539a287c26a75813f3ba07357e4cc8bd9d309de3fd88877eab98560710a172c"
+  },
+  "seconds": 295,
+  "source": {
+    "bytes": 2627,
+    "sha256": "dd89c87217c81b5aae703a97d1df1da88884c0be0bc834f935c2dd46d6687226"
+  }
+}

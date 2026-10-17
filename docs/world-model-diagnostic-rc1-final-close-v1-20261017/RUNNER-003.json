@@ -1,0 +1,17 @@
+{
+  "authority": {
+    "bytes": 1564,
+    "sha256": "574da2657f65ed67d4c50a7d35c0dfc9b624d23c7f1fba147c87c1a4c3ff6388"
+  },
+  "new_runner": {
+    "bytes": 6434,
+    "sha256": "01654f32d2208018f76b6b1aebdb14d1b3fc80fbceea811f5758c2111a81f695"
+  },
+  "old_charges_refunded_or_moved": false,
+  "old_runner": {
+    "bytes": 6302,
+    "sha256": "e8542ee0a92f43b4b7b3f341dbeced872edf7775383c6e72f59d4c216d29ea99"
+  },
+  "old_runner_edited": false,
+  "status": "NEW_SHARED_FINALIZATION_ENGINEERING_RUNNER"
+}

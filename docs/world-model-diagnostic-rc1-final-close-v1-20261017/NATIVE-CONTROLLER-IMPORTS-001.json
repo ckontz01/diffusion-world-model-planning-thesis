@@ -1,0 +1,19 @@
+{
+  "actual_analysis_executed": false,
+  "prior_frozen_sources_edited": false,
+  "pure_helpers": {
+    "authorization.py": {
+      "bytes": 1140,
+      "sha256": "66f19454af46cebb7e4bc63c54368bfadef189cee63a03be91c63c004874946e"
+    },
+    "closed_identity.py": {
+      "bytes": 708,
+      "sha256": "6a587a8051afb94130a214688db717e4dcb76d60ec381c59837cbd26084e5f1f"
+    },
+    "entry_source.py": {
+      "bytes": 1974,
+      "sha256": "71884ca2cce66d985dc4a405091423d75276c1b145b7b760fcff2769655a0106"
+    }
+  },
+  "status": "NATIVE_CONTROLLER_HELPERS_SEPARATED_FROM_NUMPY_CHILD"
+}

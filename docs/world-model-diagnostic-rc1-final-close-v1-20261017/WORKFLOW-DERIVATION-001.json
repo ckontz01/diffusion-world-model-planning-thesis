@@ -1,0 +1,45 @@
+{
+  "actual_archive_module_not_noop": true,
+  "analysis_and_second_pass_recovery_aware": true,
+  "owned_final_output_must_be_absent_before_writer": true,
+  "source": {
+    "archive": {
+      "derived": {
+        "bytes": 8874,
+        "sha256": "e238590bf4bebcfd5f6b4e52bbed9888f8dfcb494e43128ecc2ec2fb349ed1be"
+      },
+      "edits": 12,
+      "original": {
+        "bytes": 8940,
+        "sha256": "69ddda0176107906d507aec13a4b555d1729a012c19116134805ef3490bc4407"
+      }
+    },
+    "layout": {
+      "bytes": 2994,
+      "sha256": "8add98e39124e4fd3a7b0aae34c7e7495bd82d589670cf17735d3ee3318f38fc"
+    },
+    "pipeline": {
+      "derived": {
+        "bytes": 5053,
+        "sha256": "2137c4ad80533c05c522cc15da6c67e124a1e3fc1c050487fbba90348e08e8f7"
+      },
+      "edits": 5,
+      "original": {
+        "bytes": 4924,
+        "sha256": "3c2aa9cbf912eda2db93f2da1355c52dfc772836117ed20ab554a2602052ddc7"
+      }
+    },
+    "workflow": {
+      "derived": {
+        "bytes": 7852,
+        "sha256": "be138c38ede2f04576e18b831df840ee49223b17728c406e9fc89b7c68fb6033"
+      },
+      "edits": 9,
+      "original": {
+        "bytes": 7725,
+        "sha256": "abfe4382ff8e5be30f80442a3f96fc35cfa9de456743eb9db49a4d1ffa6c44d2"
+      }
+    }
+  },
+  "status": "NEW_FIXED_REAL_WORKFLOW_SOURCE_DERIVED_NOT_YET_FROZEN"
+}

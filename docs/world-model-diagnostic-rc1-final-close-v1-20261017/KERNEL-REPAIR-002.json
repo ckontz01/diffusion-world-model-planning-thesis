@@ -1,0 +1,73 @@
+{
+  "before_any_actual_analysis": true,
+  "derived": {
+    "archive": {
+      "derived": {
+        "bytes": 8883,
+        "sha256": "99b62534dc8ebfd9dbe07a89ff763fcccdf8716a3ff7d0ce67b625298206aa5e"
+      },
+      "edits": 3,
+      "original": {
+        "bytes": 8874,
+        "sha256": "e238590bf4bebcfd5f6b4e52bbed9888f8dfcb494e43128ecc2ec2fb349ed1be"
+      }
+    },
+    "closure": {
+      "derived": {
+        "bytes": 10004,
+        "sha256": "389224f8e5d57d7154577e58dc10ebef0f1fe348928fc8d3a3cfca6df20224b2"
+      },
+      "edits": 1,
+      "original": {
+        "bytes": 10134,
+        "sha256": "73404198ddb6b7ca0ed65694122d6285664d6d8dd5ce841f591b7bbb3dae6f0f"
+      }
+    },
+    "driver": {
+      "derived": {
+        "bytes": 4976,
+        "sha256": "eeee0550224bb60c5df539a2482db55f24cc75e76e03f6216b5aef103c975f5f"
+      },
+      "edits": 5,
+      "original": {
+        "bytes": 5085,
+        "sha256": "98c6c40a093b9b723e60df1769042d9d5e759cc09c952838cfa49f736b8dad30"
+      }
+    },
+    "entry": {
+      "derived": {
+        "bytes": 6219,
+        "sha256": "5af510e7ed54755f235bb5f860e2fe8ef0cf99e7eeb55bcd78255eb96498db19"
+      },
+      "edits": 2,
+      "original": {
+        "bytes": 6050,
+        "sha256": "d05f5a8448f8f3c8307edc82a6246323af9fe2e3953837cf43637f9d3098f3f4"
+      }
+    },
+    "identity": {
+      "derived": {
+        "bytes": 720,
+        "sha256": "39fba567a819f6d580e939f7d288a0e2ce814de2b4a447f63f9a0828d028af10"
+      },
+      "edits": 1,
+      "original": {
+        "bytes": 708,
+        "sha256": "6a587a8051afb94130a214688db717e4dcb76d60ec381c59837cbd26084e5f1f"
+      }
+    },
+    "workflow": {
+      "derived": {
+        "bytes": 7840,
+        "sha256": "e592f03b083ce20cc15df2394010c41ac81066717153fb642dc801614ecdc378"
+      },
+      "edits": 3,
+      "original": {
+        "bytes": 7944,
+        "sha256": "8d12a44fe13b3c0b3ed400b6f5712a605b6b7b38b8f568f81428899d3c764895"
+      }
+    }
+  },
+  "diagnosis": "extracted identity helper omitted bound_bytes import",
+  "status": "NEW_EXPLICIT_V2_CONTROLLER_FILES_PRESERVE_LINUX_FAILURE_PREIMAGES"
+}

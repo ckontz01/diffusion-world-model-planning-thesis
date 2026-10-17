@@ -1,0 +1,152 @@
+{
+  "actual_final_CPU_analysis_studyarchive_SSD_GitHub_results": false,
+  "authority": {
+    "bytes": 1453,
+    "sha256": "9fe24a0f0681ddebb164750c074dd4a0824d7bad9cf5ce1362a6a2c04753c6e3"
+  },
+  "current_charges_including_this_handoff": {
+    "binding_staging": 1155,
+    "cluster_validation": 105,
+    "handoff": 420,
+    "implementation": 1515,
+    "monitoring": 870,
+    "native_SSD": 0,
+    "publication": 360,
+    "technical_fault": 275
+  },
+  "final_gate_ready": false,
+  "human_proposal_only_not_activated": {
+    "from_binding_staging_cap": 1200,
+    "from_monitoring_cap": 7200,
+    "new_max_monitor_checks": 230,
+    "outer_35700_and_future_21600_unchanged": true,
+    "science_GPU_time_overall_storage_unchanged": true,
+    "to_binding_staging_cap": 1500,
+    "to_monitoring_cap": 6900,
+    "transfer_seconds": 300
+  },
+  "new_local_repair_tests": {
+    "bytes": 1028,
+    "sha256": "e3505dbd678026c6642397ef59f8ba43e7ef031e9c3d0a0b832ae21bc1581826"
+  },
+  "new_preparation_measurement": {
+    "bytes": 9924,
+    "sha256": "6ca453dbf48cf7df0020b35f2958c7c4690da3b6e5686a748de90d027a197921"
+  },
+  "new_recovery_final_tests": {
+    "bytes": 2528,
+    "sha256": "3befb681fe3abb5825544c92bfa3dd857ff21a50e017f38568ed0e8f8a3b62ba"
+  },
+  "next_technical_change": "New separately versioned transport passes bounded trusted program and JSON over existing SSH stdin, not over Windows command line; retain both failed versions and labels. Test framing and actual CLI before transport.",
+  "original_139_terminal_snapshot": {
+    "bytes": 3796,
+    "sha256": "7990e404258dc89ccc71d7eb963975607ca1d26f3e23fae9cc769d0ce37167c5"
+  },
+  "parent_scientific_payloads_read": false,
+  "remaining_actual_gates": "complete root/runtime/terminal/start binding; recovery-aware frozen CPU supervisor/exact dispatch/stage/native tree resources; actual Linux integration; source review/publication/new small SSD; once-only final CPU analysis/second pass/archive/original readback; terminal CPU/sidecars/native SSD; results publication and Pro handoff",
+  "remaining_components": {
+    "binding_staging": 45,
+    "cluster_validation": 495,
+    "handoff": 480,
+    "implementation": 1185,
+    "monitoring": 6330,
+    "native_SSD": 7200,
+    "publication": 240,
+    "technical_fault": 925
+  },
+  "remote_child_result_for_BINDING002": "NONE; native CreateProcess failed before WSL launch",
+  "retained_failures": {
+    "FINALWHOLEBIND001": {
+      "LOCAL": {
+        "bytes": 1106,
+        "sha256": "5847a97e097d39aaea340f9d3e8d349022203b4f6b93467703d4f89caf2a38dc"
+      },
+      "diagnosis": "NameError: name 'Path' is not defined",
+      "full_reserved_charge_seconds": 180,
+      "started": {
+        "bytes": 64574,
+        "sha256": "d5b6782f877b73f4e04c70a1fcb6e3fb0d249fd283a734c4e4cae965cf088e0a"
+      }
+    },
+    "FINALWHOLEBIND002": {
+      "LOCAL": {
+        "bytes": 2363,
+        "sha256": "2891d07f83aaf5d1d52baa10658fccfb2e5217e5d7782aa3b9a2cd013de642a8"
+      },
+      "diagnosis": "[WinError 206]",
+      "full_reserved_charge_seconds": 120,
+      "started": {
+        "bytes": 64577,
+        "sha256": "b95623216d328bcc14cc990a25ae3cbb238a608f42fba54ae07f57c53cb5b4c2"
+      }
+    }
+  },
+  "source": {
+    "wm_diag0_rc1_close_v1/__init__.py": {
+      "bytes": 85,
+      "sha256": "d6a172b8877a2ca4f0b99008d85453c95c7c7ddf28bd8cb0851f51973769f8fd"
+    },
+    "wm_diag0_rc1_close_v1/analysis.py": {
+      "bytes": 8829,
+      "sha256": "150de1514e86ae07dbb591de6bb28a74f1a60f735fb5e7d33fd9fcdf7f11d3a7"
+    },
+    "wm_diag0_rc1_close_v1/analysis_closure.py": {
+      "bytes": 10022,
+      "sha256": "e98b12834d9c36f10bbdc8b52a6cb5aacac37f9224944aa38016d2dd8ddf323a"
+    },
+    "wm_diag0_rc1_close_v1/analysis_validate.py": {
+      "bytes": 9663,
+      "sha256": "820a3236581bd82b671f02d67a525047edbf8a0f6c3c8bc1bf3847112f4021f4"
+    },
+    "wm_diag0_rc1_close_v1/binding.py": {
+      "bytes": 8930,
+      "sha256": "696a547e393d0ff0f5cb3b94dc071c770b369ffc59ba582da89b38a41e1ab600"
+    },
+    "wm_diag0_rc1_close_v1/binding_v2.py": {
+      "bytes": 9200,
+      "sha256": "94ff3566d05f464efc4402e48b4921d5729f97e359a1e3a1d1bebedf2f01fabc"
+    },
+    "wm_diag0_rc1_close_v1/build.py": {
+      "bytes": 4159,
+      "sha256": "45ccf5fdfc8a06efd5a4cdc32e5ccaa113d1f2f07721fb71373c720d8e3afff4"
+    },
+    "wm_diag0_rc1_close_v1/common.py": {
+      "bytes": 348,
+      "sha256": "c79c93709ec94ad52bfded0db68eee92271a7621a700688eb0bf500c1cf7adf2"
+    },
+    "wm_diag0_rc1_close_v1/handoff.py": {
+      "bytes": 4286,
+      "sha256": "760e29c9b05f27c595ee73752d093e5d462d900e904f2b36a2a7d8664712700e"
+    },
+    "wm_diag0_rc1_close_v1/parallel_binding.py": {
+      "bytes": 1975,
+      "sha256": "15f2c437376b3a27bf570df24f4cdd992016e9a982ee03ef1dcb91a344288dac"
+    },
+    "wm_diag0_rc1_close_v1/repair_binding.py": {
+      "bytes": 4187,
+      "sha256": "305b029ccdf04c144f1c0e90eb78e9da7f907f24687319a4410ea4384b51ec4b"
+    },
+    "wm_diag0_rc1_close_v1/suppliers.py": {
+      "bytes": 6841,
+      "sha256": "f4168f9ab2326f5bb1910d3152e846662085a5489670ba310b277e3e03aa9f0f"
+    },
+    "wm_diag0_rc1_close_v1/terminal.py": {
+      "bytes": 281,
+      "sha256": "75813f508ce43d56530d0da4a39fc306d2a2c0fd2a4f5e09e975870da83d48ec"
+    },
+    "wm_diag0_rc1_close_v1/tests.py": {
+      "bytes": 5272,
+      "sha256": "473dae572caa0929c27da4c65a1b5e61b2dcf198d883d4d497e3e9480a8190bc"
+    },
+    "wm_diag0_rc1_close_v1/transport.py": {
+      "bytes": 1915,
+      "sha256": "2ec1a0f6a5e8e2b00f83060290ac441d90145cc0f06d4c1227b845f092360ed4"
+    },
+    "wm_diag0_rc1_close_v1/usage.py": {
+      "bytes": 2377,
+      "sha256": "124f088c1425e2fe6332395d72126a833d54bae9b43e54466cb6efb047f77dc6"
+    }
+  },
+  "status": "FINALIZATION_SOURCE_PREPARATION_PRESERVED_ACTUAL_ANALYSIS_ARCHIVE_AND_SSD_NOT_STARTED",
+  "total_charged": 4700
+}

@@ -1,0 +1,280 @@
+{
+  "SSD_volume": {
+    "FileSystemLabel": "THESIS_SSD",
+    "HealthStatus": "Healthy",
+    "SizeRemaining": 309143748608,
+    "UniqueId": "\\\\?\\Volume{0a2f1ba9-0000-0000-0000-100000000000}\\"
+  },
+  "actual_logical_bytes": 1336789067,
+  "full_future_preparation_bytes": 2954852312,
+  "historical_retained_floor_not_discounted": 2874852312,
+  "remaining_auxiliary_all_copies_reserved": 80000000,
+  "roots": [
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 959827239,
+      "path": "C:\\Users\\Chris\\thesis-recovery\\world-model-diagnostic-preparation-20261004",
+      "regular_files": 5347,
+      "sorted_stat_commitment": {
+        "bytes": 574637,
+        "sha256": "a0e831b9569009963a171674d09a89eb8482abaf54eab0765c89d7ae3eabf9f7"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 345487,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-20261004",
+      "regular_files": 30,
+      "sorted_stat_commitment": {
+        "bytes": 3333,
+        "sha256": "a7fc7ec86f149a5cabba4d0807063c2b7c0cf2f32b5cae7f5d0878f8b7040bb6"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 266903625,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-20261004",
+      "regular_files": 1,
+      "sorted_stat_commitment": {
+        "bytes": 98,
+        "sha256": "9de0e65a7d5c29e723206c09577b7e815477223c8e3dd7b1a0b5cf24477548e4"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 7305,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-c0-20261004",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 166,
+        "sha256": "dbdb60c2e1d95e7ab3ebf1a400c983d48c4b2ee3b852bfadbd9eabdd7e251a9d"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 492149,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-c0-v1-20261005",
+      "regular_files": 3,
+      "sorted_stat_commitment": {
+        "bytes": 204,
+        "sha256": "d0455d68d525e8f4834e97e8682c083696efe74c3fce0f9a1cc6dd9b3bfb9ee5"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 10334,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-campaign-submit-r1-20261015",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 139,
+        "sha256": "e96f8f411e54b42ace4e6994d682d890ac626626427d9c64a012d052d0affc8f"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 236074,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-campaign-v4-20261015",
+      "regular_files": 4,
+      "sorted_stat_commitment": {
+        "bytes": 312,
+        "sha256": "047e9cc985e8fd5c1ebf87c4833618e4e1ecfc91d8c46013cfb33d5a2ea103f3"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 54231,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-cluster-native-v1-20261015",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 148,
+        "sha256": "9183f3ea8d226a90e511042629b305e8b6fc4c8d061b70b635dae85ed19bbffa"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 106845582,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-native-v3-20261015",
+      "regular_files": 4,
+      "sorted_stat_commitment": {
+        "bytes": 336,
+        "sha256": "bb695a6c2bcf19238b3b9da67fdf2fcbe1a1cdb5e77fa419d07fd0f019377313"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 17252,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-numerical-validation-r2-20261015",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 149,
+        "sha256": "49800760c8d8be8b5b9241501e40edff77c2d82e51d86dd73dee83e0ded6c2b0"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 91559,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-numerical-validation-v3-20261016",
+      "regular_files": 4,
+      "sorted_stat_commitment": {
+        "bytes": 289,
+        "sha256": "9f6c583f282c65dc27630ce5517fc5bffca8fffada41b6fafa6ce677fa3647dd"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 51994,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-parity-r1-20261015",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 149,
+        "sha256": "f05f1606b458b9cb9ad71030a2b286b5a9bf45c1d4ce790ed583fed16be6f35a"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 913483,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-preflight-v1-20261015",
+      "regular_files": 32,
+      "sorted_stat_commitment": {
+        "bytes": 3305,
+        "sha256": "17c8dd68149c6738a4a402618a52324a6f6a26e3f209555d1180ff776a7a2a25"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 114671,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-source-r2-20261015",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 151,
+        "sha256": "cf665ad25dc94aaf40bd4b63e85bd8180029bdd63bff913c8c38d106a5ac34a8"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 42611,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-a2-source-r3-20261015",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 140,
+        "sha256": "923b6476d486b3b0bcfe429ca1eb2ec5b39daa7950f9ae52d4864345cfa0dd82"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 160048,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-completion-budget-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 150,
+        "sha256": "9967a2d817473c568c8a85e7ae358d495e4612c975679b9fa54472ebc4b2f74a"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 49799,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-final-plan-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 150,
+        "sha256": "30eedb0fa142d7dd1a60e90267865a59f7f514c2d5e097c5c09d1bd55832b37a"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 91206,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-grid-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 142,
+        "sha256": "3a9dca1f8e52b47f7775b2b82c5d5e009a48d3e08a42dd847457fef5f91ef24e"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 63750,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-heads-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 143,
+        "sha256": "d02abcb733519cd62bc323d2ebe0dfe76bc03f20f0de4fade7d247c40dfd7ab3"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 58269,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-monitor-v2-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 149,
+        "sha256": "b8996bfe1c9db8676f4b68ec9ad53d57b9a13651abb375a72d6a34648a09f970"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 8767,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-ops-reserve-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 140,
+        "sha256": "c155a2ea55b591fe4a20978195983ca872ed9c467603a8bf9a31a3fb9ead59ff"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 9387,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-prep-routing-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 149,
+        "sha256": "5a2c1316769f05de81205bbb94cd85ae046626fa3e1961becc09107100edaa34"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 203135,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-recovery-r1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 148,
+        "sha256": "97b28f5d721a99c134024aef5b4d273d1c6e0e7d79b6bc9eea5d49fd3e923870"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 79901,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-technical-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 147,
+        "sha256": "bcf13f86290aa338b8a6fcd8819dfa05841c1fc184363965485e3c56ae5d71ad"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 83853,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-rc1-v1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 142,
+        "sha256": "301fc1bcf573d272310614bb67fa8e4215d01750404c6d2f714c4a9133cff913"
+      }
+    },
+    {
+      "compression_hardlink_dedup_discounts": false,
+      "logical_bytes": 27356,
+      "path": "D:\\THESIS-BACKUPS\\world-model-diagnostic-representation-control-rc1-20261016",
+      "regular_files": 2,
+      "sorted_stat_commitment": {
+        "bytes": 149,
+        "sha256": "20533c6149567589de3584d013f80d79f8d81a60b71ccc2bea425d2630ddccb2"
+      }
+    }
+  ],
+  "scientific_payloads_read": false,
+  "source": {
+    "bytes": 3264,
+    "sha256": "9959e1e4ae2cce4bf594b69994de65a8f44982443b3f409fad72ced2aab83725"
+  },
+  "status": "NATIVE_PREPARATION_ALL_ENUMERATED_LOGICAL_COPIES_MEASURED"
+}

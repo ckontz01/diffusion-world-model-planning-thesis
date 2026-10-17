@@ -1,0 +1,29 @@
+{
+  "failed_LOCAL": {
+    "bytes": 1106,
+    "sha256": "5847a97e097d39aaea340f9d3e8d349022203b4f6b93467703d4f89caf2a38dc"
+  },
+  "failed_source": {
+    "bytes": 8930,
+    "sha256": "696a547e393d0ff0f5cb3b94dc071c770b369ffc59ba582da89b38a41e1ab600"
+  },
+  "full_binding_deadline_is_a_hard_stop_not_performance_guarantee": true,
+  "new_source": {
+    "bytes": 9200,
+    "sha256": "94ff3566d05f464efc4402e48b4921d5729f97e359a1e3a1d1bebedf2f01fabc"
+  },
+  "no_WSL_or_cluster_query_by_failed_operation": true,
+  "no_component_transfer_refund_or_regrant": true,
+  "old_failed_charge_seconds_retained": 180,
+  "parallel_source": {
+    "bytes": 1975,
+    "sha256": "15f2c437376b3a27bf570df24f4cdd992016e9a982ee03ef1dcb91a344288dac"
+  },
+  "prospective_remaining_binding_seconds": {
+    "later_exact_stage_and_dispatch": 45,
+    "new_full_binding_with_four_readers": 120
+  },
+  "same_component_remaining_seconds": 165,
+  "scientific_payloads_read": false,
+  "status": "LOCAL_NAMEERROR_DIAGNOSED_NEW_V2_PARALLEL_BINDING_FIXTURE_PASSED"
+}
